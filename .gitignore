@@ -1,0 +1,27 @@
+# PM320 repo — 직접 서빙 전환 (homepage repo에서 sync된 정적 자산)
+# 라이브 fetch 대상(data/* 하위 JSON)만 추적, DB·백업·디버그는 제외.
+
+# DB 원본·백업 (라이브는 정적 JSON만 fetch — DB는 cron worktree 전용)
+data/stocks.db
+data/stocks.db-wal
+data/stocks.db-shm
+data/stocks.db.bak*
+data/stocks.db.backup_*
+data/themes.db
+data/themes.db-shm
+data/themes.db-wal
+data/minute_bars.db
+data/.backup-*
+data/backups/
+
+# 카페 디버그 산출물
+data/cafe/debug_*.html
+data/cafe/debug/
+data/cafe/debug_*.png
+
+# OS·에디터
+.DS_Store
+*.swp
+
+# 전환 준비 스크립트 로그
+scripts/*.log
