@@ -1,0 +1,60 @@
+{
+  "schema_version": 2,
+  "updated_at": "2026-04-08T15:30:00+09:00",
+  "_doc": "종목별 테마 누적 저장소. source: industry_seed|cafe_post|llm_inference|jooju_review|owner_input. 신뢰도 점수 사용 금지 (대표 지시 2026-04-08).",
+  "stocks": {
+    "010170": {
+      "name": "대한광통신",
+      "themes": [
+        {"name": "광통신", "source": "industry_seed", "added_at": "2026-04-08T15:00:00+09:00"}
+      ]
+    },
+    "047040": {
+      "name": "대우건설",
+      "themes": [
+        {"name": "건설", "source": "industry_seed", "added_at": "2026-04-08T15:00:00+09:00"},
+        {"name": "전쟁재건", "source": "owner_input", "added_at": "2026-04-08T15:10:00+09:00", "by": "박성진", "context": "美·이스라엘·이란 전쟁 여파 중동 재건 모멘텀"}
+      ]
+    },
+    "006360": {
+      "name": "GS건설",
+      "themes": [
+        {"name": "건설", "source": "industry_seed", "added_at": "2026-04-08T15:00:00+09:00"},
+        {"name": "전쟁재건", "source": "owner_input", "added_at": "2026-04-08T15:10:00+09:00", "by": "박성진", "context": "美·이스라엘·이란 전쟁 여파 중동 재건 모멘텀"}
+      ]
+    },
+    "375500": {
+      "name": "DL이앤씨",
+      "themes": [
+        {"name": "건설", "source": "industry_seed", "added_at": "2026-04-08T15:00:00+09:00"},
+        {"name": "전쟁재건", "source": "owner_input", "added_at": "2026-04-08T15:10:00+09:00", "by": "박성진", "context": "美·이스라엘·이란 전쟁 여파 중동 재건 모멘텀"}
+      ]
+    },
+    "017900": {
+      "name": "광전자",
+      "themes": [
+        {"name": "반도체", "source": "industry_seed", "added_at": "2026-04-08T15:00:00+09:00"}
+      ]
+    },
+    "079900": {
+      "name": "전진건설로봇",
+      "themes": [
+        {"name": "건설장비", "source": "industry_seed", "added_at": "2026-04-08T15:00:00+09:00"},
+        {"name": "로봇", "source": "industry_seed", "added_at": "2026-04-08T15:00:00+09:00"}
+      ]
+    },
+    "001440": {
+      "name": "대한전선",
+      "themes": [
+        {"name": "전선", "source": "industry_seed", "added_at": "2026-04-08T15:00:00+09:00"}
+      ]
+    },
+    "267270": {
+      "name": "HD건설기계",
+      "themes": [
+        {"name": "건설장비", "source": "industry_seed", "added_at": "2026-04-08T15:00:00+09:00"}
+      ]
+    }
+  },
+  "aliases": {}
+}
