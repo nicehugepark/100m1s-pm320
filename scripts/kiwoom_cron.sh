@@ -9,13 +9,17 @@
 set -euo pipefail
 export PATH="/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin"
 
-MAIN_REPO="/Users/seongjinpark/company/100m1s"
-# cron worktree 격리 (lead-meta §11.32) — cycle25 cron-isolation A1 (2026-05-28):
-#   HOMEPAGE 를 별도 worktree (100m1s-homepage-cron) 로 분리 + M1S_HOMEPAGE env export
-#   → 9파일 python 모듈이 config.py 의 HOMEPAGE = Path(os.environ.get("M1S_HOMEPAGE") or ...) 경유
-#   → cron pipeline 의 모든 file I/O 가 cron worktree 대상 (메인 worktree 와 물리 격리).
-#   race condition (cron auto-commit vs lead/dev staged change) 인프라 layer 봉쇄.
-HOMEPAGE="/Users/seongjinpark/company/100m1s-homepage-cron"
+# S5 자립화 (DOC-20260707-REQ-001): 메인 레포 절대경로 → 스크립트 자기 위치 기준 pm320 레포 루트.
+#   이 스크립트는 <repo>/scripts/kiwoom_cron.sh → 조상 2단계 = pm320 레포 루트.
+#   pm320 레포는 코드+데이터가 같은 레포에 자립하므로 MAIN_REPO=HOMEPAGE=repo 루트가 기본.
+#   env(M1S_COMPANY/M1S_HOMEPAGE) 명시 시 오버라이드(옛 cron WT 분리 배선과의 호환).
+_SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+_REPO_ROOT="$(cd "$_SCRIPT_DIR/.." && pwd)"
+MAIN_REPO="${M1S_COMPANY:-$_REPO_ROOT}"
+# HOMEPAGE = 데이터·서빙 홈. config.py 의 HOMEPAGE = Path(os.environ.get("M1S_HOMEPAGE")) 경유.
+#   pm320 자립: 데이터가 코드와 동일 레포 → 기본값 = repo 루트. cron pipeline 의 모든 file I/O 가
+#   이 경로 대상 (race condition 봉쇄는 pm320 레포 자체의 물리 격리로 유지).
+HOMEPAGE="${M1S_HOMEPAGE:-$_REPO_ROOT}"
 export M1S_HOMEPAGE="$HOMEPAGE"
 # cycle25 env-unification (2026-05-28): split-brain .env 봉쇄.
 # 이전: projects/pm320/poc/.env (4/15 mtime, 5/27 lead .env fix 0건 반영 → opus-4-6 옛값 + concurrency=50 default).

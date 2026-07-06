@@ -14,7 +14,7 @@ set -uo pipefail
 cd "$(dirname "$0")/../.."
 export PYTHONPATH="$PWD"
 export PATH="/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:$PATH"
-export M1S_HOMEPAGE="${M1S_HOMEPAGE:-/Users/seongjinpark/company/100m1s-homepage-cron}"
+export M1S_HOMEPAGE="${M1S_HOMEPAGE:-$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")/../.." && pwd)}"
 
 if [ -f .env ]; then
   set -a; . ./.env; set +a

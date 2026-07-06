@@ -24,10 +24,13 @@ import time
 
 from dotenv import load_dotenv
 
-# ── 경로 ──────────────────────────────────────────────────────────────
-ROOT = "/Users/seongjinpark/company/100m1s"
+# ── 경로 (S5 자립화 DOC-20260707-REQ-001: 메인 레포 절대경로 → pm320 레포 루트) ──
+ROOT = os.environ.get(
+    "M1S_COMPANY",
+    os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
+)
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
-load_dotenv(os.path.join(ROOT, "projects/pm320/poc/.env"))
+load_dotenv(os.path.join(ROOT, "scripts", "news_pipeline", ".env"))
 
 from news_pipeline.collect_dailybars import (  # noqa: E402
     KIWOOM_BASE,
@@ -38,9 +41,10 @@ from news_pipeline.ka10081_helper import parse_ka10081_row  # noqa: E402
 
 _ = (KIWOOM_BASE, _get_token)  # ruff F401 방어 (본문 사용)
 
+# S5 자립화 (DOC-20260707-REQ-001): 옛 homepage 절대경로 → M1S_HOMEPAGE/pm320 레포 로컬 단일.
+_DATA_HOME = os.environ.get("M1S_HOMEPAGE", ROOT)
 REPOS = {
-    "main": "/Users/seongjinpark/company/100m1s-homepage/data/stocks.db",
-    "cron": "/Users/seongjinpark/company/100m1s-homepage-cron/data/stocks.db",
+    "serving": os.path.join(_DATA_HOME, "data", "stocks.db"),
 }
 DATES = ["2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04"]
 

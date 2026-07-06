@@ -25,7 +25,7 @@ export PATH="/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:$PATH"
 # pipeline.sh:18 / kiwoom_cron.sh:18 동일 값. 미설정 시 메인 레포에 산출물 생성 →
 # cron push 가 빈 us-indices/ 배포. plist EnvironmentVariables 로도 주입되나 직접
 # 실행 fallback 대비 명시.
-export M1S_HOMEPAGE="${M1S_HOMEPAGE:-/Users/seongjinpark/company/100m1s-homepage-cron}"
+export M1S_HOMEPAGE="${M1S_HOMEPAGE:-$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")/../.." && pwd)}"
 
 # .env 로드 (NAVER_CLIENT_*, ANTHROPIC 등 LLM/검색 키)
 if [ -f .env ]; then

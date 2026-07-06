@@ -13,7 +13,8 @@ export PATH="/usr/local/bin:/opt/homebrew/bin:$PATH"
 # cron worktree 격리 (lead-meta §11.32) — generate_og/generate_stock_og 가 config.py HOMEPAGE
 # 를 cron-isolation 으로 향하게 강제. kiwoom_cron.sh:18 과 동일 값. 미설정 시 config 기본값
 # (메인 레포) 에 OG 생성 → kiwoom_cron 의 cron-isolation push 가 빈 og/ 배포 → 라이브 404.
-export M1S_HOMEPAGE="/Users/seongjinpark/company/100m1s-homepage-cron"
+# S5 자립화 (DOC-20260707-REQ-001): 옛 cron WT 절대경로 → pm320 레포 루트($PWD, L10에서 cd 완료).
+export M1S_HOMEPAGE="${M1S_HOMEPAGE:-$PWD}"
 
 # Phase 1 (REQ-002): DB 백업 (.backup, 7개 리텐션)
 bash "$PWD/scripts/news_pipeline/backup_db.sh" || true

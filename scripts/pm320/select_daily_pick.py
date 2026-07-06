@@ -83,14 +83,17 @@ import sys
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 
-# ── 경로 (env M1S_HOMEPAGE 우선, fallback 옛 home — 5/31 qa-stale-fix 동형) ──
-HOMEPAGE = (
-    os.environ.get("M1S_HOMEPAGE") or "/Users/seongjinpark/company/100m1s-homepage"
+# ── 경로 (S5 자립화 DOC-20260707-REQ-001: env 우선 + pm320 레포 로컬 fallback) ──
+# 이 파일 = <repo>/scripts/pm320/select_daily_pick.py → 조상 2단계 = pm320 레포 루트.
+_REPO_ROOT = os.path.dirname(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 )
+HOMEPAGE = os.environ.get("M1S_HOMEPAGE") or _REPO_ROOT
 KIWOOM_DIR = os.path.join(HOMEPAGE, "data/kiwoom")
 DB_PATH = os.path.join(HOMEPAGE, "data/stocks.db")
-COMPANY = os.environ.get("M1S_COMPANY") or "/Users/seongjinpark/company/100m1s"
-OUT_DIR = os.path.join(COMPANY, "projects/pm320/data/daily/picks")
+COMPANY = os.environ.get("M1S_COMPANY") or _REPO_ROOT
+# pm320 자립: 픽 산출물도 레포 로컬 data/ 하위.
+OUT_DIR = os.path.join(COMPANY, "data/daily/picks")
 
 # ── 선정 기준 상수 (GAP75_RULE_SUMMARY.md §1 verbatim) ───────────────────────
 # 비가변 공통 룰 (모든 프로파일 동일, 코드 상수 유지):

@@ -50,7 +50,8 @@ from zoneinfo import ZoneInfo
 
 KST = ZoneInfo("Asia/Seoul")
 REPO_ROOT = Path(__file__).resolve().parents[2]
-PICKS_DIR = REPO_ROOT / "projects" / "pm320" / "data" / "daily" / "picks"
+# S5 자립화 (DOC-20260707-REQ-001): pm320 레포에는 projects/ 부재 → 레포 로컬 data/daily/picks.
+PICKS_DIR = REPO_ROOT / "data" / "daily" / "picks"
 HOMEPAGE_DIR = Path(
     os.environ.get(
         "M1S_HOMEPAGE", str(Path.home() / "company" / "100m1s-homepage-cron")

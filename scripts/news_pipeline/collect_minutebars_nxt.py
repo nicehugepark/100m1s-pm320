@@ -62,8 +62,12 @@ from .kiwoom_client import get_token  # noqa: F401
 
 # --- 인증 env (cycle25 env-unification, 2026-05-28) ---------------------------
 # 메인 .env 단일 source 일원화. 우선순위: shell export > MAIN_ENV > POC_ENV fallback.
-MAIN_ENV = Path("/Users/seongjinpark/company/100m1s/.env")
-POC_ENV = Path("/Users/seongjinpark/company/100m1s/projects/pm320/poc/.env")
+# S5 자립화 (DOC-20260707-REQ-001): 메인 레포 절대경로 → env(M1S_COMPANY) 우선 + pm320 레포 로컬 fallback.
+_M1S_COMPANY = Path(
+    os.environ.get("M1S_COMPANY", str(Path(__file__).resolve().parents[2]))
+)
+MAIN_ENV = _M1S_COMPANY / ".env"
+POC_ENV = _M1S_COMPANY / "scripts" / "news_pipeline" / ".env"
 for env_path in (MAIN_ENV, POC_ENV):
     if env_path.exists():
         for line in env_path.read_text().splitlines():
@@ -79,23 +83,15 @@ KIWOOM_APPKEY = os.environ.get("KIWOOM_LIVE_APPKEY")
 KIWOOM_SECRETKEY = os.environ.get("KIWOOM_LIVE_SECRETKEY")
 
 # --- 격리 DB 경로 (프로덕션 stocks.db / 기존 minutes.db 절대 미접촉) ---------
-MINUTES_NXT_DB = Path(
-    "/Users/seongjinpark/company/100m1s/projects/pm320/data/minutes_nxt.db"
-)
+# S5 자립화 (DOC-20260707-REQ-001): 메인 레포 projects 경로 → pm320 레포 로컬 data/.
+MINUTES_NXT_DB = _M1S_COMPANY / "data" / "minutes_nxt.db"
 
 # 당일 display universe SSOT (Q-20260608-rewire): M1S_HOMEPAGE/data/interpreted.
 # build_card_history.INTERPRETED_DIR 와 동일 source (load_card_universe L228 정합).
 # M1S_HOMEPAGE 는 main() 의 config import 전이라 여기서 직접 환경변수 참조(부재 시
 # config 가 main 진입 시 RuntimeError 로 차단하므로 default 경로 보강만).
 INTERPRETED_DIR = (
-    Path(
-        os.environ.get(
-            "M1S_HOMEPAGE",
-            str(Path.home() / "company" / "100m1s-homepage-cron"),
-        )
-    )
-    / "data"
-    / "interpreted"
+    Path(os.environ.get("M1S_HOMEPAGE", str(_M1S_COMPANY))) / "data" / "interpreted"
 )
 
 DEFAULT_START = "2026-04-08"

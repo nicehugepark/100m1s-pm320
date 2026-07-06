@@ -58,7 +58,9 @@ except ImportError:  # pragma: no cover - py<3.9 미지원 환경 없음
 import requests
 
 # env 로드 — 메인 .env 단일 source (collect_kiwoom_indices.py 패턴 동일, shell export 우선)
-MAIN_ENV = Path("/Users/seongjinpark/company/100m1s/.env")
+# S5 자립화 (DOC-20260707-REQ-001): 메인 레포 절대경로 → env(M1S_COMPANY) 우선 + pm320 레포 로컬 fallback.
+_M1S_COMPANY = Path(os.environ.get("M1S_COMPANY", str(Path(__file__).resolve().parents[1])))
+MAIN_ENV = _M1S_COMPANY / ".env"
 if MAIN_ENV.exists():
     for line in MAIN_ENV.read_text().splitlines():
         s = line.strip()

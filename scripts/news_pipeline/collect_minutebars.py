@@ -57,8 +57,12 @@ from .kiwoom_client import get_token  # noqa: F401
 
 # --- 인증 env (cycle25 env-unification, 2026-05-28) ---------------------------
 # 메인 .env 단일 source 일원화. 우선순위: shell export > MAIN_ENV > POC_ENV fallback.
-MAIN_ENV = Path("/Users/seongjinpark/company/100m1s/.env")
-POC_ENV = Path("/Users/seongjinpark/company/100m1s/projects/pm320/poc/.env")
+# S5 자립화 (DOC-20260707-REQ-001): 메인 레포 절대경로 → env(M1S_COMPANY) 우선 + pm320 레포 로컬 fallback.
+_M1S_COMPANY = Path(
+    os.environ.get("M1S_COMPANY", str(Path(__file__).resolve().parents[2]))
+)
+MAIN_ENV = _M1S_COMPANY / ".env"
+POC_ENV = _M1S_COMPANY / "scripts" / "news_pipeline" / ".env"
 for env_path in (MAIN_ENV, POC_ENV):
     if env_path.exists():
         for line in env_path.read_text().splitlines():
@@ -74,7 +78,8 @@ KIWOOM_APPKEY = os.environ.get("KIWOOM_APPKEY")
 KIWOOM_SECRETKEY = os.environ.get("KIWOOM_SECRETKEY")
 
 # --- 격리 DB 경로 (프로덕션 stocks.db 절대 미접촉) ---------------------------
-MINUTES_DB = Path("/Users/seongjinpark/company/100m1s/projects/pm320/data/minutes.db")
+# S5 자립화 (DOC-20260707-REQ-001): 메인 레포 projects 경로 → pm320 레포 로컬 data/.
+MINUTES_DB = _M1S_COMPANY / "data" / "minutes.db"
 
 # 백필 기본 기간 (요청: 2026-04-08 ~ 2026-05-26)
 DEFAULT_START = "2026-04-08"
@@ -302,8 +307,15 @@ def _load_target_codes() -> list[str]:
     filter_first_results.json: trades 부재 → universe_*.{excluded,by_rank,buy_date_grid} 중첩.
     → 재귀 walk로 모든 'code' key 추출 (§16: trades 가정 금지, 실 구조 반영).
     """
+    # S5 자립화 (DOC-20260707-REQ-001): 메인 레포 절대경로 → env(M1S_PM320_RESEARCH) 우선
+    # + 메인 레포(_M1S_COMPANY) projects fallback. 백필 전용 seed universe (라이브 무관).
     research = Path(
-        "/Users/seongjinpark/company/100m1s/projects/pm320/research/backtest-3d-3.2pct"
+        os.environ.get(
+            "M1S_PM320_RESEARCH",
+            str(
+                _M1S_COMPANY / "projects" / "pm320" / "research" / "backtest-3d-3.2pct"
+            ),
+        )
     )
     files = ["martingale_results.json", "filter_first_results.json"]
     codes: set[str] = set()

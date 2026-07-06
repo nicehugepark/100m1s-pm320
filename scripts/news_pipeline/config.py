@@ -17,8 +17,8 @@ if not _HOMEPAGE_ENV:
     raise RuntimeError(
         "M1S_HOMEPAGE 환경변수 필수 — fallback 폐기, 옛 DB write 봉쇄 "
         "(audit a106c8feefbc705f4, FLR-AGT-002). "
-        "cron worktree: M1S_HOMEPAGE=/Users/seongjinpark/company/100m1s-homepage-cron, "
-        "메인 worktree ad-hoc 실행: M1S_HOMEPAGE=/Users/seongjinpark/company/100m1s-homepage 명시."
+        "pm320 레포 자립 실행: M1S_HOMEPAGE=<pm320 레포 루트> (코드+데이터 동일 레포), "
+        "launchd 초안(launchd/drafts/)은 이 env 를 pm320 레포로 자동 설정."
     )
 HOMEPAGE = Path(_HOMEPAGE_ENV)
 DATA_DIR = HOMEPAGE / "data"

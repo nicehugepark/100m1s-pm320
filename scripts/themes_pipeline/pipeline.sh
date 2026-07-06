@@ -9,7 +9,8 @@
 
 set -uo pipefail
 
-ROOT="/Users/seongjinpark/company/100m1s"
+# S5 자립화 (DOC-20260707-REQ-001): 메인 레포 절대경로 → 이 스크립트 기준 pm320 레포 루트.
+ROOT="${M1S_COMPANY:-$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")/../.." && pwd)}"
 LOG_DIR="$ROOT/scripts/themes_pipeline/logs"
 mkdir -p "$LOG_DIR"
 

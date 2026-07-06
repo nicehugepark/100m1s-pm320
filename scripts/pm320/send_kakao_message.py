@@ -41,13 +41,14 @@ from typing import Any
 # --- paths ---
 REPO_ROOT = Path(__file__).resolve().parents[2]
 ENV_PATH = REPO_ROOT / ".env"
-PICKS_DIR = REPO_ROOT / "projects" / "pm320" / "data" / "daily" / "picks"
-# dailybars DB (cron worktree, P0 close source — sqlite3 SELECT)
-STOCKS_DB = Path.home() / "company" / "100m1s-homepage-cron" / "data" / "stocks.db"
+# S5 자립화 (DOC-20260707-REQ-001): pm320 레포에는 projects/ 부재 → 레포 로컬 data/daily/picks.
+PICKS_DIR = REPO_ROOT / "data" / "daily" / "picks"
+# 데이터 홈 — M1S_HOMEPAGE env 우선, 미설정 시 pm320 레포 루트 fallback (S5, DOC-20260707-REQ-001).
+_DATA_HOME = Path(os.environ.get("M1S_HOMEPAGE", str(REPO_ROOT)))
+# dailybars DB (P0 close source — sqlite3 SELECT)
+STOCKS_DB = _DATA_HOME / "data" / "stocks.db"
 # 한국 거래소 휴장일 SoT (D+3 거래일 계산용)
-HOLIDAYS_JSON = (
-    Path.home() / "company" / "100m1s-homepage-cron" / "data" / "holidays.json"
-)
+HOLIDAYS_JSON = _DATA_HOME / "data" / "holidays.json"
 
 # --- kakao endpoints (lead-meta §11.15 verbatim from kakao developers docs) ---
 # token URL 은 kakao_token.py (공용 모듈) 로 이동 — 2026-07-06 공용화

@@ -30,7 +30,7 @@ set -uo pipefail
 export PATH="/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:$PATH"
 
 # source = cron worktree (us-indices 산출물 생성처). read-only 로만 사용.
-SRC_HOMEPAGE="${M1S_HOMEPAGE:-/Users/seongjinpark/company/100m1s-homepage-cron}"
+SRC_HOMEPAGE="${M1S_HOMEPAGE:-$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")/../.." && pwd)}"
 SRC_USINDICES="$SRC_HOMEPAGE/data/us-indices"
 
 cd "$SRC_HOMEPAGE" || exit 0

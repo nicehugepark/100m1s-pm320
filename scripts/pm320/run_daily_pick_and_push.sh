@@ -44,7 +44,7 @@
 
 set -u
 
-REPO_ROOT="${M1S_COMPANY:-/Users/seongjinpark/company/100m1s}"
+REPO_ROOT="${M1S_COMPANY:-$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")/../.." && pwd)}"
 LOCK_PATH="/tmp/100m1s-pm320-daily-pick.lock"
 WITH_LOCK="${REPO_ROOT}/scripts/news_pipeline/with_lock.sh"
 

@@ -77,11 +77,12 @@ import requests
 
 # cycle25 env-unification (2026-05-28): 메인 .env 단일 source 일원화.
 # 우선순위: shell-level export (kiwoom_cron.sh) > MAIN_ENV setdefault > POC_ENV fallback (deprecated).
-# S2 이관 (DOC-20260707-REQ-001): 하드코딩 메인 레포 경로 → env(M1S_COMPANY) 기반.
-# 미설정 시 기존 메인 레포 경로로 폴백(가역성 — 라이브 배선 무변경).
-_M1S_COMPANY = Path(os.environ.get("M1S_COMPANY", "/Users/seongjinpark/company/100m1s"))
+# S5 자립화 (DOC-20260707-REQ-001): env(M1S_COMPANY) 우선 + pm320 레포 로컬 fallback(parents[2]).
+_M1S_COMPANY = Path(
+    os.environ.get("M1S_COMPANY", str(Path(__file__).resolve().parents[2]))
+)
 MAIN_ENV = _M1S_COMPANY / ".env"
-POC_ENV = _M1S_COMPANY / "projects" / "pm320" / "poc" / ".env"
+POC_ENV = _M1S_COMPANY / "scripts" / "news_pipeline" / ".env"
 for env_path in (MAIN_ENV, POC_ENV):
     if env_path.exists():
         for line in env_path.read_text().splitlines():

@@ -163,7 +163,8 @@ FEEDS = [
     },
 ]
 
-HOMEPAGE = os.environ.get("M1S_HOMEPAGE", "/Users/seongjinpark/company/100m1s-homepage")
+# S5 자립화 (DOC-20260707-REQ-001): 옛 homepage 절대경로 fallback → pm320 레포 루트(parents[2]).
+HOMEPAGE = os.environ.get("M1S_HOMEPAGE", str(Path(__file__).resolve().parents[2]))
 OUT_PATH = os.path.join(HOMEPAGE, "pm320", "data", "wire_news.json")
 
 

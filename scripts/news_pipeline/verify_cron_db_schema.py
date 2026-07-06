@@ -58,9 +58,12 @@ REQUIRED_TABLES = (
     "intraday_snapshot",  # 장중 스냅샷
 )
 
-# 메인 serving DB (schema SSOT). M1S_SCHEMA_SOURCE_DB 로 override 가능.
-DEFAULT_SCHEMA_SOURCE = Path(
-    "/Users/seongjinpark/company/100m1s-homepage/data/stocks.db"
+# schema SSOT DB. M1S_SCHEMA_SOURCE_DB override 우선, 미설정 시 M1S_HOMEPAGE/pm320 레포 로컬.
+# S5 자립화 (DOC-20260707-REQ-001): 옛 homepage 절대경로 → 자립 fallback.
+DEFAULT_SCHEMA_SOURCE = (
+    Path(os.environ.get("M1S_HOMEPAGE", str(Path(__file__).resolve().parents[2])))
+    / "data"
+    / "stocks.db"
 )
 
 # cron 운영 marker 표준 위치 (kiwoom_cron.sh 의 /tmp/100m1s-*.marker 패턴 정합).

@@ -581,9 +581,11 @@ def enrich(out_path):
 
 
 if __name__ == "__main__":
-    homepage = os.environ.get(
-        "M1S_HOMEPAGE", "/Users/seongjinpark/company/100m1s-homepage"
+    # S5 자립화 (DOC-20260707-REQ-001): 옛 homepage fallback → pm320 레포 루트(scripts/wire_collector/ → 조상 2단계).
+    _repo_root = os.path.dirname(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     )
+    homepage = os.environ.get("M1S_HOMEPAGE", _repo_root)
     result = enrich(os.path.join(homepage, "pm320", "data", "wire_news.json"))
     print(f"[wire-ko] {json.dumps(result, ensure_ascii=False)}")
     sys.exit(0)

@@ -26,7 +26,7 @@
 
 set -u
 
-REPO_ROOT="${M1S_COMPANY:-/Users/seongjinpark/company/100m1s}"
+REPO_ROOT="${M1S_COMPANY:-$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")/../.." && pwd)}"
 HOMEPAGE_DIR="${M1S_HOMEPAGE:-$HOME/company/100m1s-homepage-cron}"
 BASE_URL="https://100m1s.com"
 FINAL_FIRE_HHMM="16:05"
@@ -43,7 +43,9 @@ notify() {
 }
 
 # --- 1. 픽 발행일 판단 ---
-PICKS_JSON="${REPO_ROOT}/projects/pm320/data/daily/picks/${DATE_KST}.json"
+# S5 자립화 (DOC-20260707-REQ-001): select_daily_pick.py OUT_DIR(=$M1S_COMPANY/data/daily/picks)
+# 와 경로 정합. pm320 자립 레포에는 projects/ 부재 → REPO_ROOT/data/daily/picks.
+PICKS_JSON="${REPO_ROOT}/data/daily/picks/${DATE_KST}.json"
 if [ ! -f "$PICKS_JSON" ]; then
   log "OK: picks 부재 (휴장/미발행, date=${DATE_KST}) — 검증 불요"
   exit 0

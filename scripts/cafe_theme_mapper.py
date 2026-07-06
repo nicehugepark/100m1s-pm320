@@ -13,15 +13,30 @@
 """
 
 import json
+import os
 import re
 import sqlite3
 from pathlib import Path
 
-CAFE_DB = "/Users/seongjinpark/company/100m1s-homepage/scripts/cafe-scraper/cafe.db"
-STOCKS_DB = "/Users/seongjinpark/company/100m1s-homepage/data/stocks.db"
-THEME_DICT = (
-    "/Users/seongjinpark/company/100m1s/scripts/news_pipeline/theme_dictionary.json"
+# S5 자립화 (DOC-20260707-REQ-001): 옛 homepage/메인 레포 절대경로 → pm320 레포 로컬 기반.
+# REPO_ROOT = 이 파일(scripts/cafe_theme_mapper.py)의 조상 = pm320 레포 루트(parents[1]).
+# DB·데이터 위치는 M1S_HOMEPAGE(config.py 정합, cron/serving worktree)를 우선 존중하되,
+# 미설정 시 pm320 레포 루트로 자립 fallback (메인 레포 무의존).
+REPO_ROOT = Path(__file__).resolve().parents[1]
+_DATA_HOME = Path(os.environ.get("M1S_HOMEPAGE", str(REPO_ROOT)))
+
+# 카페 스크레이퍼 작업 DB — pm320 레포 로컬(gitignore: scripts/cafe-scraper/cafe.db).
+CAFE_DB = str(
+    Path(
+        os.environ.get(
+            "M1S_CAFE_DB", str(REPO_ROOT / "scripts" / "cafe-scraper" / "cafe.db")
+        )
+    )
 )
+# 종목 마스터 DB — 데이터 홈(M1S_HOMEPAGE)/data/stocks.db.
+STOCKS_DB = str(_DATA_HOME / "data" / "stocks.db")
+# canonical 테마 사전 — pm320 레포에 이관된 로컬 사본.
+THEME_DICT = str(REPO_ROOT / "scripts" / "news_pipeline" / "theme_dictionary.json")
 
 OUT_DIR = Path(__file__).resolve().parent.parent / "data" / "cafe-staging"
 OUT_FILE = OUT_DIR / "theme-overrides.json"

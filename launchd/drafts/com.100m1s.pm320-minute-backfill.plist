@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- PM320 minute-backfill: launchd는 매시 1/11/21/31/35/41/51분에 깨우고 wrapper가 시간대 판단. 실제 실행은 15:31/15:35 정규분봉 + 15:41~20:11 NXT 장외분봉 + 카드 재생성. 대표 2026-06-11 결정. -->
+<plist version="1.0">
+<dict>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>M1S_COMPANY</key>
+		<string>/Users/seongjinpark/company/100m1s-pm320</string>
+		<key>M1S_HOMEPAGE</key>
+		<string>/Users/seongjinpark/company/100m1s-pm320</string>
+		<key>PATH</key>
+		<string>/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin</string>
+	</dict>
+	<key>KeepAlive</key>
+	<false/>
+	<key>Label</key>
+	<string>com.100m1s.pm320-minute-backfill</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/bin/bash</string>
+		<string>/Users/seongjinpark/company/100m1s-pm320/scripts/news_pipeline/with_lock.sh</string>
+		<string>/tmp/100m1s-pm320-minute-backfill.lock</string>
+		<string>--</string>
+		<string>/usr/bin/env</string>
+		<string>python3</string>
+		<string>/Users/seongjinpark/company/100m1s-pm320/scripts/pm320/backfill_minutebars_routine.py</string>
+	</array>
+	<key>RunAtLoad</key>
+	<false/>
+	<key>StandardErrorPath</key>
+	<string>/Users/seongjinpark/Library/Logs/100m1s/pm320-minute-backfill-stderr.log</string>
+	<key>StandardOutPath</key>
+	<string>/Users/seongjinpark/Library/Logs/100m1s/pm320-minute-backfill-stdout.log</string>
+	<key>StartCalendarInterval</key>
+	<array>
+		<dict><key>Minute</key><integer>1</integer></dict>
+		<dict><key>Minute</key><integer>11</integer></dict>
+		<dict><key>Minute</key><integer>21</integer></dict>
+		<dict><key>Minute</key><integer>31</integer></dict>
+		<dict><key>Minute</key><integer>35</integer></dict>
+		<dict><key>Minute</key><integer>41</integer></dict>
+		<dict><key>Minute</key><integer>51</integer></dict>
+	</array>
+	<key>WorkingDirectory</key>
+	<string>/Users/seongjinpark/company/100m1s-pm320</string>
+</dict>
+</plist>

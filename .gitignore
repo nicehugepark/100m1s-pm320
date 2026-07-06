@@ -11,6 +11,12 @@ data/themes.db
 data/themes.db-shm
 data/themes.db-wal
 data/minute_bars.db
+data/minutes.db
+data/minutes.db-wal
+data/minutes.db-shm
+data/minutes_nxt.db
+data/minutes_nxt.db-wal
+data/minutes_nxt.db-shm
 data/.backup-*
 data/backups/
 
@@ -23,6 +29,12 @@ scripts/cafe-scraper/cafe.db-shm
 data/cafe/debug_*.html
 data/cafe/debug/
 data/cafe/debug_*.png
+
+# 시크릿 env (S5 자립화 DOC-20260707-REQ-001: 로컬 런타임 전용 — 절대 커밋 금지)
+# ⚠️ scripts/news_pipeline/.env 는 S2 이관 시 이미 tracked — lead 결정 하 git rm --cached 필요(별건 보안 처리).
+.env
+**/.env
+!*.env.example
 
 # OS·에디터
 .DS_Store

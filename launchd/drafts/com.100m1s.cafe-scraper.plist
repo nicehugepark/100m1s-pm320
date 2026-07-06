@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  카페 스크래퍼 launchd 초안 (재설계 v2 · 2026-07-06)
+  스케줄: KST 06~21시 매시 :05 (16회/일). launchd 는 로컬 시각(KST) 기준 — UTC 환산 불필요.
+  실행: run_local.sh (.env 로드 + 카페 전용 lock + main.py).
+  적재: lead/DevOps 후속 — launchctl load 하지 말 것 (이 파일은 초안).
+    cp com.100m1s.cafe-scraper.plist ~/Library/LaunchAgents/
+    launchctl load ~/Library/LaunchAgents/com.100m1s.cafe-scraper.plist
+  주의: ProgramArguments 의 run_local.sh 경로는 실제 로컬 배선 위치로 조정 필요(2단계에서 확정).
+-->
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.100m1s.cafe-scraper</string>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>PATH</key>
+		<string>/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin</string>
+	</dict>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/bin/bash</string>
+		<string>/Users/seongjinpark/company/100m1s-pm320/scripts/cafe-scraper/run_local.sh</string>
+	</array>
+	<key>KeepAlive</key>
+	<false/>
+	<key>RunAtLoad</key>
+	<false/>
+	<key>WorkingDirectory</key>
+	<string>/Users/seongjinpark/company/100m1s-pm320</string>
+	<key>StandardOutPath</key>
+	<string>/Users/seongjinpark/company/100m1s-pm320/scripts/cafe-scraper/logs/cafe-scraper.log</string>
+	<key>StandardErrorPath</key>
+	<string>/Users/seongjinpark/company/100m1s-pm320/scripts/cafe-scraper/logs/cafe-scraper.err</string>
+	<key>StartCalendarInterval</key>
+	<array>
+		<dict>
+			<key>Hour</key>
+			<integer>6</integer>
+			<key>Minute</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Hour</key>
+			<integer>7</integer>
+			<key>Minute</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Hour</key>
+			<integer>8</integer>
+			<key>Minute</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Hour</key>
+			<integer>9</integer>
+			<key>Minute</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Hour</key>
+			<integer>10</integer>
+			<key>Minute</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Hour</key>
+			<integer>11</integer>
+			<key>Minute</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Hour</key>
+			<integer>12</integer>
+			<key>Minute</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Hour</key>
+			<integer>13</integer>
+			<key>Minute</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Hour</key>
+			<integer>14</integer>
+			<key>Minute</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Hour</key>
+			<integer>15</integer>
+			<key>Minute</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Hour</key>
+			<integer>16</integer>
+			<key>Minute</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Hour</key>
+			<integer>17</integer>
+			<key>Minute</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Hour</key>
+			<integer>18</integer>
+			<key>Minute</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Hour</key>
+			<integer>19</integer>
+			<key>Minute</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Hour</key>
+			<integer>20</integer>
+			<key>Minute</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Hour</key>
+			<integer>21</integer>
+			<key>Minute</key>
+			<integer>5</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

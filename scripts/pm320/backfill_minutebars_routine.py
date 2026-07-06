@@ -65,7 +65,10 @@ from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-REPO_ROOT = Path("/Users/seongjinpark/company/100m1s")
+# S5 자립화 (DOC-20260707-REQ-001): 메인 레포 절대경로 → env(M1S_COMPANY) 우선 + pm320 레포 루트 fallback.
+REPO_ROOT = Path(
+    os.environ.get("M1S_COMPANY", str(Path(__file__).resolve().parents[2]))
+)
 
 REGULAR_BACKFILL_TICKS = {(15, 31), (15, 35)}
 NXT_AFTERHOURS_START = (15, 41)

@@ -79,17 +79,15 @@ from typing import Any
 
 # --- paths (env 우선 패턴, DSN-arch-pm320 §7 정합) ---
 REPO_ROOT = Path(__file__).resolve().parents[2]
-PICKS_DIR = REPO_ROOT / "projects" / "pm320" / "data" / "daily" / "picks"
+# S5 자립화 (DOC-20260707-REQ-001): pm320 레포에는 projects/ 부재 → 레포 로컬 data/daily/picks.
+PICKS_DIR = REPO_ROOT / "data" / "daily" / "picks"
 
-# 메인 worktree write (Phase 2 통합 v2 변경: cron 영역 → 메인 영역 이전, race 0건)
-HISTORY_OUT_DIR = REPO_ROOT / "projects" / "pm320" / "data" / "history"
-PUBLIC_HISTORY_OUT_DIR = REPO_ROOT / "projects" / "pm320" / "data" / "deploy_history"
+# S5 자립화 (DOC-20260707-REQ-001): pm320 레포에는 projects/ 부재 → 레포 로컬 data/ 하위.
+HISTORY_OUT_DIR = REPO_ROOT / "data" / "history"
+PUBLIC_HISTORY_OUT_DIR = REPO_ROOT / "data" / "deploy_history"
 
-HOMEPAGE_DIR = Path(
-    os.environ.get(
-        "M1S_HOMEPAGE", str(Path.home() / "company" / "100m1s-homepage-cron")
-    )
-)
+# 데이터 홈 — M1S_HOMEPAGE env 우선, 미설정 시 pm320 레포 루트로 자립 fallback.
+HOMEPAGE_DIR = Path(os.environ.get("M1S_HOMEPAGE", str(REPO_ROOT)))
 # dailybars / interpreted 개별 override (재백필 시 다중 worktree 데이터 분산 대응).
 # 기본은 HOMEPAGE_DIR 하위. 단, 재백필은 fresh dailybars(백테스트 SoT DB)와 완비된
 # interpreted 가 서로 다른 worktree 에 있을 수 있어 개별 지정 가능 (false-fidelity 차단:
@@ -113,14 +111,9 @@ HOLIDAYS_JSON = Path(
 JUDGE_MINUTES_DB = Path(
     os.environ.get(
         "M1S_PM320_JUDGE_MINUTES_DB",
-        str(
-            REPO_ROOT
-            / "projects"
-            / "pm320"
-            / "data"
-            / "processed"
-            / "pm320_judge_minutes.db"
-        ),
+        # S5 자립화 (DOC-20260707-REQ-001): pm320 레포에는 projects/ 부재 →
+        # 레포 로컬 data/processed (PICKS_DIR·HISTORY_OUT_DIR 자립화와 동일 패턴).
+        str(REPO_ROOT / "data" / "processed" / "pm320_judge_minutes.db"),
     )
 )
 JUDGE_MINUTES_MAX_AGE_MINUTES = int(

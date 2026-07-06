@@ -15,7 +15,7 @@
 set -uo pipefail
 export PATH="/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:$PATH"
 
-SRC_HOMEPAGE="${M1S_HOMEPAGE:-/Users/seongjinpark/company/100m1s-homepage-cron}"
+SRC_HOMEPAGE="${M1S_HOMEPAGE:-$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")/../.." && pwd)}"
 SRC_FILE="$SRC_HOMEPAGE/pm320/data/wire_news.json"
 WHITELIST="pm320/data/wire_news.json"
 
