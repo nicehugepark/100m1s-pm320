@@ -14,6 +14,11 @@ data/minute_bars.db
 data/.backup-*
 data/backups/
 
+# 카페 스크레이퍼 작업 DB (로컬 런타임 전용 — 라이브는 산출 JSON만 서빙)
+scripts/cafe-scraper/cafe.db
+scripts/cafe-scraper/cafe.db-wal
+scripts/cafe-scraper/cafe.db-shm
+
 # 카페 디버그 산출물
 data/cafe/debug_*.html
 data/cafe/debug/
