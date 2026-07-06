@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26086.68,
-      "change_pct": 0.98,
+      "point": 26067.47,
+      "change_pct": 0.91,
       "candle": {
         "o": 26011.91,
         "h": 26209.27,
         "l": 25963.66,
-        "c": 26086.68
+        "c": 26067.47
       },
       "range_240d": {
         "low": 20650.13,
@@ -2033,13 +2033,11 @@
           "o": 26011.91,
           "h": 26209.27,
           "l": 25963.66,
-          "c": 26086.68
+          "c": 26067.47
         }
       ],
       "spark": [
         26011.91,
-        26116.97,
-        26128.56,
         26125.6,
         26115.84,
         26125.03,
@@ -2077,7 +2075,9 @@
         26102.22,
         26080.4,
         26080.01,
-        26086.68
+        26067.9,
+        26063.29,
+        26067.47
       ],
       "news": {
         "summary": "반도체 약세 심화에 기술주 동반 낙폭. AI 펀드 자산 이동·칩 제조업 과잉투자로 공급과잉 우려 증폭. 소프트웨어 업체 신용여건 악화 추세 지속 중.",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7531.47,
-      "change_pct": 0.64,
+      "point": 7529.08,
+      "change_pct": 0.61,
       "candle": {
         "o": 7506.96,
         "h": 7542.37,
         "l": 7500.97,
-        "c": 7531.47
+        "c": 7529.08
       },
       "range_240d": {
         "low": 6238.01,
@@ -4131,13 +4131,11 @@
           "o": 7506.96,
           "h": 7542.37,
           "l": 7500.97,
-          "c": 7531.47
+          "c": 7529.08
         }
       ],
       "spark": [
         7506.96,
-        7523.79,
-        7524.29,
         7525.06,
         7526.2,
         7529.38,
@@ -4175,7 +4173,9 @@
         7530.55,
         7528.13,
         7530.28,
-        7531.47
+        7528.09,
+        7528.52,
+        7529.08
       ],
       "news": {
         "summary": "6월 비농업 고용 57,000명에 그쳐 역사적 약세 진입, 실업률 4.2% 하락도 노동참여율 50년 최저로 인한 구조적 약화 신호. 연준 의사록 초점·금리 정상화 기조 흔들림 가능성 부각. 인플레이션 진정·유로존 개선으로 글로벌 통화정책 전환 임박.",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 52904.03,
-      "change_pct": 0.01,
+      "point": 52914.87,
+      "change_pct": 0.03,
       "candle": {
         "o": 52828.45,
         "h": 53052.7,
         "l": 52648.69,
-        "c": 52904.03
+        "c": 52914.87
       },
       "range_240d": {
         "low": 43588.58,
@@ -6229,13 +6229,11 @@
           "o": 52828.45,
           "h": 53052.7,
           "l": 52648.69,
-          "c": 52904.03
+          "c": 52914.87
         }
       ],
       "spark": [
         52828.45,
-        52806.61,
-        52789.7,
         52786.31,
         52823.2,
         52871.77,
@@ -6273,7 +6271,9 @@
         52919.1,
         52898.23,
         52899.16,
-        52904.03
+        52886.04,
+        52910.78,
+        52914.87
       ],
       "news": {
         "summary": "경기민감 고용지표 급락으로 순환주 약세 본격화. JPM·방위산업 전략적 재편 가속·금융 부문 국방·인프라 쏠림 심화. 전통 미디어·제약 구조적 조정 지속·M&A 재편 물결 계속.",
@@ -6298,95 +6298,82 @@
   ],
   "news_chips": [
     {
-      "summary": "미국 6월 서비스업 구매관리자지수가 전월 54.5에서 54로 소폭 하락했다",
+      "summary": "중동 분쟁으로 인한 에너지 충격 우려 속에 캐나다에서 2분기 인플레이션 기대가 급등했다.",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/canada-cpi-expectations-ramped-up-prior-to-u-s-iran-deal-central-bank-survey-says-faafa0ef",
+      "published_ts": 1783360620.0,
+      "impact_high": true
+    },
+    {
+      "summary": "미국 6월 서비스업 구매관리자지수(PMI)가 54로 나타나 서비스 부문의 확장 추세가 지속되고 있다.",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/u-s-services-sector-activity-continued-to-expand-in-june-ac9e724e",
       "published_ts": 1783348380.0,
       "impact_high": false
     },
     {
-      "summary": "중동 분쟁 완화로 인한 석유 공급 과잉이 이란의 호르무즈 해협 협상력을 약화시키고 있다",
+      "summary": "우주기업 스페이스X가 나스닥-100 지수에 편입되면서 기술주 포트폴리오의 가중치가 더해진다.",
       "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/michael-saylors-strategy-is-trapped-by-its-own-broken-bitcoin-math-b68dd6a6?mod=rss_markets_main",
-      "published_ts": 1783347960.0,
+      "url": "https://www.wsj.com/finance/stocks/spacex-is-about-to-join-the-nasdaq-100-heres-how-exposed-youll-be-b0227888?mod=rss_markets_main",
+      "published_ts": 1783330200.0,
       "impact_high": false
     },
     {
-      "summary": "나스닥이 테크 실적 시즌 개시를 앞두고 상승으로 거래를 마감했다",
+      "summary": "나스닥이 기술주 강세로 상승 출발했으며 삼성과 SK 하이닉스의 미국 상장이 AI 수요 관심을 시험한다.",
       "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/michael-saylors-strategy-is-trapped-by-its-own-broken-bitcoin-math-b68dd6a6?mod=rss_markets_main",
-      "published_ts": 1783347960.0,
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-06-2026?mod=rss_markets_main",
+      "published_ts": 1783326114.0,
       "impact_high": false
     },
     {
-      "summary": "스페이스X가 나스닥-100 지수에 신규 편입되면서 우주산업 가중도가 높아진다",
+      "summary": "이란 협상 과정에서 유가 급락으로 국제유가가 약세를 보이며 테헤란의 협상력이 약화되었다.",
       "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/michael-saylors-strategy-is-trapped-by-its-own-broken-bitcoin-math-b68dd6a6?mod=rss_markets_main",
-      "published_ts": 1783347960.0,
+      "url": "https://www.wsj.com/finance/commodities-futures/a-sudden-glut-of-oil-threatens-to-weaken-irans-hand-in-talks-adfcf7c0?mod=rss_markets_main",
+      "published_ts": 1783269660.0,
       "impact_high": false
     },
     {
-      "summary": "세계 최고 성장률의 AI 관련주 급락으로 지친 투자자들이 인도 등 대체 시장으로 자금을 이동시키고 있다",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/202607067753i",
-      "published_ts": 1783308218.0,
-      "impact_high": false
-    },
-    {
-      "summary": "OPEC과 동맹국이 호르무즈 해협 해상교역 회복 추세에 맞춰 감산분을 5개월 연속 증산하고 있다",
+      "summary": "OPEC 및 동맹국들이 5번째 연속 증산을 단행하면서 유가에 내려가는 압력이 계속되고 있다.",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/business/energy-oil/opec-allies-hike-output-again-as-hormuz-traffic-starts-recovering-0094a1a4",
       "published_ts": 1783250640.0,
       "impact_high": false
     },
     {
-      "summary": "6월 비농업 취업자 증가가 예상치의 절반 수준에 그치면서 미국 노동시장 약세가 확인됐다",
+      "summary": "6월 미국 고용이 예상 115,000명을 크게 밑돌아 57,000명 증가에 그쳤으며 실업률은 4.2%로 올랐다.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html",
       "published_ts": 1783011027.0,
       "impact_high": true
     },
     {
-      "summary": "미국이 호르무즈 해협 개방을 위해 현금 보상을 제시했으나 이란이 자체 통행료 징수를 주장하며 협상이 교착 상태이다",
+      "summary": "호르무즈 해협 통행료 문제로 미국과 이란이 팽팽한 협상을 벌이고 있으며 유가에 영향을 미치고 있다.",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/u-s-dangles-rewards-for-opening-the-strait-of-hormuz-iran-isnt-budging-07d99135",
       "published_ts": 1783005360.0,
       "impact_high": true
     },
     {
-      "summary": "연준 의장이 다음 금리 결정 회의에서 인상 여부를 놓고 내부 입장차를 건설적으로 협의할 예정이라 언급했다",
+      "summary": "연준이 다음 회의에서 금리 인상 여부를 놓고 진지한 논의가 있을 것이라고 예고했다.",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/interest-rates-kevin-warsh-de137876",
       "published_ts": 1782932040.0,
       "impact_high": true
     },
     {
-      "summary": "유로존 6월 인플레이션이 2.8%로 하락하면서 에너지 충격 완화가 진행 중이다",
+      "summary": "유로존 6월 인플레이션이 2.8%로 하락하면서 유럽중앙은행의 금리 동결 가능성이 높아졌다.",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/global/eurozone-inflation-declines-as-energy-shock-fades-in-relief-for-ecb-0f7d7670",
       "published_ts": 1782902760.0,
       "impact_high": true
     }
   ],
-  "_article_sig": "ddbf7c7e2261a029c116d0e1a05afa6e8063b06e7e79662691506bbfe24f3197",
+  "_article_sig": "dba1f7e068c7eeb45a7a0bfa31dac5af2fdf51535168f2a0e192eac4e876e710",
   "built_at_kst": "2026-07-04T07:00:44.556594+09:00",
   "regular_open": true,
   "_futures_news": {
-    "NASDAQ": {
-      "summary": "나스닥100 선물은 SpaceX 편입 호재와 기술주 매수세가 교차 중. 반도체(삼성·SK하이닉스) AI 수요 테스트 임박하나 AI 주가 변동성으로 인한 투자자 이탈 우려 심화.",
-      "sources": [
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/spacex-is-about-to-join-the-nasdaq-100-heres-how-exposed-youll-be-b0227888?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-06-2026?mod=rss_markets_main"
-        }
-      ]
-    },
     "S&P500": {
-      "summary": "선물 약세 신호 강화. 6월 고용(5.7만) 부진 vs. 서비스 부문(ISM 54) 확장 대비. 노동력 참여율 50년 최저 진입에 연준 의장 금리 경로 불확실성('가족 논쟁') 표현으로 시장 불안감 가중. 유로존 인플레(2.8%) 완화로 ECB 인상 압력 완화 중.",
+      "summary": "6월 고용 심각 부진(56K vs 115K 예상)에 노동력 참여도 50년 최저 기록. ISM 서비스 지수 약화 신호 지속으로 경기 약세 우려 심화. 유로존 인플레 2.8%로 완화되는 가운데 연준의 금리 경로 불확실성 상존.",
       "sources": [
         {
           "name": "CNBC",
@@ -6398,41 +6385,52 @@
         },
         {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/interest-rates-kevin-warsh-de137876"
+          "url": "https://www.wsj.com/economy/central-banking/u-s-services-sector-activity-continued-to-expand-in-june-ac9e724e"
+        }
+      ]
+    },
+    "NASDAQ": {
+      "summary": "AI 종목 조정 심화에 투자자들 인도 등 대체처로 회피 움직임. SpaceX Nasdaq-100 편입 임박, SK Hynix 미국 상장 검토 등 대형 기술주 재편 국면.",
+      "sources": [
+        {
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/202607067753i"
+        },
+        {
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/2026070686261"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/spacex-is-about-to-join-the-nasdaq-100-heres-how-exposed-youll-be-b0227888?mod=rss_markets_main"
         }
       ]
     },
     "DOW": {
-      "summary": "경기민감주 약세 신호 급속 강화. 고용 부진 장기화, 금융(JPMorgan 소송 리스크), 미디어(Comcast 분사), 소비재(주류) 수요 약화 등 전방위 둔화 신호 집중.",
+      "summary": "독일 Mittelstand 중국 경쟁에 고용 감소·해외 이전 심화. 5월 공장 수주 회복도 지정학·교역 리스크 가중으로 경기민감주 약세 국면.",
       "sources": [
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html"
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/china-is-devastating-the-last-stronghold-of-german-industry-c7a98514"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/judge-rules-jpmorgan-still-has-to-pay-for-charlie-javices-legal-defense-375ddc6a?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/business/retail/liquor-stocks-are-priced-for-a-big-tobacco-moment-e3bb0481?mod=rss_markets_main"
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/german-factory-orders-rose-in-may-55e97ee1"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-07-07T02:50:08.126618+09:00",
+    "as_of_kst": "2026-07-07T03:00:03.650119+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7581.25,
-        "change_pct": 0.7,
+        "point": 7582.75,
+        "change_pct": 0.72,
         "spark": [
           7562.25,
-          7576.0,
-          7576.0,
           7576.0,
           7576.5,
           7578.25,
@@ -6470,21 +6468,23 @@
           7582.25,
           7582.25,
           7579.5,
-          7581.25
+          7582.0,
+          7579.5,
+          7582.75
         ],
         "candle": {
           "o": 7562.25,
           "h": 7594.75,
           "l": 7523.75,
-          "c": 7581.25
+          "c": 7582.75
         },
         "range_240d": {
           "low": 6264.5,
           "high": 7623.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 21.02,
-          "high_change_pct": -0.56
+          "low_change_pct": 21.04,
+          "high_change_pct": -0.54
         },
         "daily_expanded": [
           {
@@ -8492,13 +8492,13 @@
             "o": 7562.25,
             "h": 7594.75,
             "l": 7523.75,
-            "c": 7581.25,
-            "v": 766652
+            "c": 7582.75,
+            "v": 787103
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "선물 약세 신호 강화. 6월 고용(5.7만) 부진 vs. 서비스 부문(ISM 54) 확장 대비. 노동력 참여율 50년 최저 진입에 연준 의장 금리 경로 불확실성('가족 논쟁') 표현으로 시장 불안감 가중. 유로존 인플레(2.8%) 완화로 ECB 인상 압력 완화 중.",
+          "summary": "6월 고용 심각 부진(56K vs 115K 예상)에 노동력 참여도 50년 최저 기록. ISM 서비스 지수 약화 신호 지속으로 경기 약세 우려 심화. 유로존 인플레 2.8%로 완화되는 가운데 연준의 금리 경로 불확실성 상존.",
           "sources": [
             {
               "name": "CNBC",
@@ -8510,7 +8510,7 @@
             },
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/interest-rates-kevin-warsh-de137876"
+              "url": "https://www.wsj.com/economy/central-banking/u-s-services-sector-activity-continued-to-expand-in-june-ac9e724e"
             }
           ]
         }
@@ -8518,12 +8518,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29917.5,
-        "change_pct": 1.22,
+        "point": 29926.75,
+        "change_pct": 1.25,
         "spark": [
           29930.25,
-          30044.5,
-          30027.25,
           30037.75,
           30042.5,
           30022.0,
@@ -8561,21 +8559,23 @@
           29933.25,
           29922.25,
           29904.75,
-          29917.5
+          29919.25,
+          29903.25,
+          29926.75
         ],
         "candle": {
           "o": 29930.25,
           "h": 30094.0,
           "l": 29522.0,
-          "c": 29917.0
+          "c": 29926.75
         },
         "range_240d": {
           "low": 22883.75,
           "high": 30712.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 30.73,
-          "high_change_pct": -2.59
+          "low_change_pct": 30.78,
+          "high_change_pct": -2.56
         },
         "daily_expanded": [
           {
@@ -10583,21 +10583,25 @@
             "o": 29930.25,
             "h": 30094.0,
             "l": 29522.0,
-            "c": 29917.0,
-            "v": 427170
+            "c": 29926.75,
+            "v": 435848
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "나스닥100 선물은 SpaceX 편입 호재와 기술주 매수세가 교차 중. 반도체(삼성·SK하이닉스) AI 수요 테스트 임박하나 AI 주가 변동성으로 인한 투자자 이탈 우려 심화.",
+          "summary": "AI 종목 조정 심화에 투자자들 인도 등 대체처로 회피 움직임. SpaceX Nasdaq-100 편입 임박, SK Hynix 미국 상장 검토 등 대형 기술주 재편 국면.",
           "sources": [
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/spacex-is-about-to-join-the-nasdaq-100-heres-how-exposed-youll-be-b0227888?mod=rss_markets_main"
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/202607067753i"
+            },
+            {
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/2026070686261"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-06-2026?mod=rss_markets_main"
+              "url": "https://www.wsj.com/finance/stocks/spacex-is-about-to-join-the-nasdaq-100-heres-how-exposed-youll-be-b0227888?mod=rss_markets_main"
             }
           ]
         }
@@ -10605,12 +10609,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53229.0,
-        "change_pct": 0.09,
+        "point": 53216.0,
+        "change_pct": 0.06,
         "spark": [
           53230.0,
-          53088.0,
-          53128.0,
           53106.0,
           53101.0,
           53143.0,
@@ -10648,20 +10650,22 @@
           53227.0,
           53232.0,
           53208.0,
-          53229.0
+          53212.0,
+          53201.0,
+          53216.0
         ],
         "candle": {
           "o": 53230.0,
           "h": 53400.0,
           "l": 52962.0,
-          "c": 53229.0
+          "c": 53216.0
         },
         "range_240d": {
           "low": 43710.0,
-          "high": 53229.0,
+          "high": 53216.0,
           "low_date": "2025-08-01",
           "high_date": "2026-07-06",
-          "low_change_pct": 21.78,
+          "low_change_pct": 21.75,
           "high_change_pct": 0.0
         },
         "daily_expanded": [
@@ -12670,30 +12674,26 @@
             "o": 53230.0,
             "h": 53400.0,
             "l": 52962.0,
-            "c": 53229.0,
-            "v": 73910
+            "c": 53216.0,
+            "v": 74717
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "경기민감주 약세 신호 급속 강화. 고용 부진 장기화, 금융(JPMorgan 소송 리스크), 미디어(Comcast 분사), 소비재(주류) 수요 약화 등 전방위 둔화 신호 집중.",
+          "summary": "독일 Mittelstand 중국 경쟁에 고용 감소·해외 이전 심화. 5월 공장 수주 회복도 지정학·교역 리스크 가중으로 경기민감주 약세 국면.",
           "sources": [
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html"
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/china-is-devastating-the-last-stronghold-of-german-industry-c7a98514"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/judge-rules-jpmorgan-still-has-to-pay-for-charlie-javices-legal-defense-375ddc6a?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/business/retail/liquor-stocks-are-priced-for-a-big-tobacco-moment-e3bb0481?mod=rss_markets_main"
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/german-factory-orders-rose-in-may-55e97ee1"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-07-07T02:50:11.662342+09:00"
+  "intraday_refreshed_kst": "2026-07-07T03:02:08.926764+09:00"
 }
