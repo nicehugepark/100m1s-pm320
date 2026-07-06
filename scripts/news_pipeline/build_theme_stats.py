@@ -26,16 +26,16 @@ def _backfill_db_path(conn) -> Path | None:
         None = 미설정/명시적 비활성화/파일 부재/서빙 자기 자신 → skip
 
     경로 규칙 (_attach_backfill_dailybars 와 동일):
-      - M1S_DAILYBARS_BACKFILL_DB 미설정 → 기본 ~/company/100m1s-homepage/data/stocks.db
+      - M1S_DAILYBARS_BACKFILL_DB 미설정 → 기본 = pm320 레포 로컬 서빙 DB(config.DATA_DIR/stocks.db).
+        기본값이 서빙 자기 자신이라 아래 "동일 경로면 None" 가드로 자연히 skip
+        (별도 백필 DB 를 붙이려면 env 로 명시 override). 유령 클론·메인레포 경로 참조 금지.
       - "" (빈 문자열) → None (명시적 비활성화)
       - 그 외 → 해당 경로
     서빙 DB 와 동일 resolve 경로면 union 의미 없음 → None.
     """
     env_path = os.environ.get("M1S_DAILYBARS_BACKFILL_DB")
     if env_path is None:
-        backfill_path = (
-            Path.home() / "company" / "100m1s-homepage" / "data" / "stocks.db"
-        )
+        backfill_path = DATA_DIR / "stocks.db"
     elif env_path == "":
         return None
     else:
@@ -131,7 +131,7 @@ def _attach_backfill_dailybars(conn) -> bool:
     dailybars 는 당일 union universe(latest_stocks ∪ carded, ~40종) 만 적재한다.
     폭등장에 그 universe 밖에서 상한가가 다수 발생하면(예: 6/11 8종 중 7종이
     서빙 DB dailybars 부재) chain SQL 이 잡지 못해 limit-up-trend.json 과소수집.
-    백필 DB(통상 메인 worktree ~/company/100m1s-homepage/data/stocks.db)는 동일
+    별도 백필 DB(env M1S_DAILYBARS_BACKFILL_DB 로 지정, 전종목 누적본)는 동일
     날짜에 더 많은 종목 dailybars 를 보유 → read-only union 으로 누락 보강.
 
     설계 원칙:
@@ -141,7 +141,7 @@ def _attach_backfill_dailybars(conn) -> bool:
       - **graceful**: env 미설정·파일 부재·서빙 DB 와 동일 경로(자기 자신)·ATTACH
         실패 시 모두 skip → 서빙 단독 chain (기존 동작 = 회귀 0).
       - **env 옵션화**: M1S_DAILYBARS_BACKFILL_DB 로 경로 override. 미설정 시
-        기본값 ~/company/100m1s-homepage/data/stocks.db. 명시적으로 비활성화하려면
+        기본값 = pm320 로컬 서빙 DB(자기 자신 → skip). 명시적으로 비활성화하려면
         M1S_DAILYBARS_BACKFILL_DB="" (빈 문자열) 설정.
 
     Returns:

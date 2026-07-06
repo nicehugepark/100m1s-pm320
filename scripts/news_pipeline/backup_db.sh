@@ -3,8 +3,9 @@
 # pipeline.sh / kiwoom_cron.sh 진입 직후 호출
 # Phase 1 (REQ-002): SQLite .backup 명령 사용 (WAL/락 안전)
 #
-# DB 실 위치: config.py의 DATA_DIR=HOMEPAGE/data/stocks.db
-#   → ../100m1s-homepage/data/stocks.db (메인 레포 옆)
+# DB 실 위치: config.py의 DATA_DIR=M1S_HOMEPAGE/data/stocks.db.
+#   운영은 M1S_HOMEPAGE 주입(config.py 와 동일 SSOT). 미설정 시 pm320 레포 로컬 data/.
+#   (옛 sibling 유령 클론 `../100m1s-homepage/data/stocks.db` 제거 — 자립성 게이트 forbidden.)
 # 백업 위치: 본 레포 scripts/news_pipeline/backups/ (운영 편의)
 # (REQ-002 후속 핫픽스: 초안 가정 SCRIPT_DIR/stocks.db 가 잘못된 경로였음)
 
@@ -12,7 +13,7 @@ set -u
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
-HOMEPAGE_DB="$REPO_ROOT/../100m1s-homepage/data/stocks.db"
+HOMEPAGE_DB="${M1S_HOMEPAGE:-$REPO_ROOT}/data/stocks.db"
 DB="$(cd "$(dirname "$HOMEPAGE_DB")" 2>/dev/null && pwd)/$(basename "$HOMEPAGE_DB")"
 BACKUP_DIR="$SCRIPT_DIR/backups"
 mkdir -p "$BACKUP_DIR"
