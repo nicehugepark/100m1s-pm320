@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.100m1s.kiwoom-scraper</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/seongjinpark/company/100m1s/scripts/news_pipeline/with_lock.sh</string>
+        <string>/tmp/100m1s-pipeline.lock</string>
+        <string>--</string>
+        <string>/bin/bash</string>
+        <string>/Users/seongjinpark/company/100m1s/scripts/kiwoom_cron.sh</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/seongjinpark/company/100m1s</string>
+
+    <key>StartCalendarInterval</key>
+    <array>
+        <dict><key>Minute</key><integer>5</integer></dict>
+        <dict><key>Minute</key><integer>15</integer></dict>
+        <dict><key>Minute</key><integer>25</integer></dict>
+        <dict><key>Minute</key><integer>35</integer></dict>
+        <dict><key>Minute</key><integer>45</integer></dict>
+        <dict><key>Minute</key><integer>55</integer></dict>
+    </array>
+
+    <key>StandardOutPath</key>
+    <string>/tmp/kiwoom-launchd-stdout.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/tmp/kiwoom-launchd-stderr.log</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin</string>
+    </dict>
+
+    <key>RunAtLoad</key>
+    <false/>
+
+    <key>KeepAlive</key>
+    <false/>
+</dict>
+</plist>

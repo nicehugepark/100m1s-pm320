@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.100m1s.pipeline-watchdog</string>
+
+    <!-- 2026-05-26 LLM 회복력 §B1 (대표 지시 "llm 죽을 수 있는 상황 방지·대비"):
+         장중(09:00~15:35 KST) 카드/집계 generated_at 이 15분+ stale 면 build_daily
+         1회 자동 복구 (LLM 미경유). with_lock.sh 로 메인 pipeline lock 공유 →
+         파이프라인이 돌고 있으면(lock 점유) watchdog 은 SKIP (중복·race 방지).
+         git push 안 함 (메인 pipeline 다음 cycle 이 push) — cron race 원천 회피.
+
+         설치 (DevOps): cp scripts/news_pipeline/com.100m1s.pipeline-watchdog.plist
+                        ~/Library/LaunchAgents/ && launchctl load -w ~/Library/LaunchAgents/com.100m1s.pipeline-watchdog.plist -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/seongjinpark/company/100m1s/scripts/news_pipeline/with_lock.sh</string>
+        <string>/tmp/100m1s-pipeline.lock</string>
+        <string>--</string>
+        <string>/usr/bin/env</string>
+        <string>python3</string>
+        <string>-m</string>
+        <string>scripts.news_pipeline.pipeline_watchdog</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/seongjinpark/company/100m1s</string>
+
+    <!-- 5분 주기. 장외/휴장은 watchdog 가 즉시 SKIP (비용 무시).
+         pipeline lock 점유 중이면 with_lock.sh 가 SKIP → 파이프라인 활성 중엔 미동작. -->
+    <key>StartInterval</key>
+    <integer>300</integer>
+
+    <key>StandardOutPath</key>
+    <string>/Users/seongjinpark/company/100m1s/scripts/news_pipeline/logs/watchdog-stdout.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/seongjinpark/company/100m1s/scripts/news_pipeline/logs/watchdog-stderr.log</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin</string>
+    </dict>
+
+    <key>RunAtLoad</key>
+    <false/>
+
+    <key>KeepAlive</key>
+    <false/>
+</dict>
+</plist>

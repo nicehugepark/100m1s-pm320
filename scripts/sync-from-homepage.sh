@@ -1,5 +1,14 @@
 #!/usr/bin/env bash
 #
+# 🔴🔴🔴 무력화됨 (DOC-20260707-REQ-001 S2 이관, FLR-20260608-TEC-001 정합) 🔴🔴🔴
+#   이 스크립트의 SRC = stale homepage 로컬 클론(origin/main 대비 3,923 커밋 stale, 6/30).
+#   --apply 실행 시 pm320 repo 를 6/30 데이터로 역행시킬 위험(REQ §1.4 D6 / §4 R6).
+#   서브도메인 컷오버(7/05)가 이미 완료되어 본 1회용 스크립트는 용도 소멸.
+#   재사용 필요 시 SRC 를 cron WT(정본)로 교정하고 본 가드를 명시적으로 제거할 것.
+echo "[DISABLED] sync-from-homepage.sh 는 무력화됨 — stale homepage 클론 기준 6/30 역행 위험 (REQ §1.4 D6)." >&2
+echo "           서브도메인 컷오버 완료(7/05)로 용도 소멸. 재사용은 SRC 교정 + 본 가드 제거 후." >&2
+exit 1
+#
 # PM320 서브도메인 직접 서빙 전환 — homepage repo → pm320 repo 콘텐츠/데이터 동기화
 #
 # 목적: pm320.100m1s.com 이 redirect placeholder(→100m1s.com/pm320) 대신
