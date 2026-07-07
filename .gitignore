@@ -31,7 +31,8 @@ data/cafe/debug/
 data/cafe/debug_*.png
 
 # 시크릿 env (S5 자립화 DOC-20260707-REQ-001: 로컬 런타임 전용 — 절대 커밋 금지)
-# ⚠️ scripts/news_pipeline/.env 는 S2 이관 시 이미 tracked — lead 결정 하 git rm --cached 필요(별건 보안 처리).
+# scripts/news_pipeline/.env: S2 이관 시 tracked 노출(DART_API_KEY) → 2026-07-07 git rm --cached 제거 완료.
+# 루트 .env(KIWOOM/KAKAO/GOOGLE) + 모든 하위 .env 는 아래 규칙으로 커밋 차단. 로컬 파일은 런타임 유지.
 .env
 **/.env
 !*.env.example
@@ -42,3 +43,7 @@ data/cafe/debug_*.png
 
 # 전환 준비 스크립트 로그
 scripts/*.log
+
+# S5b-2 이관 시 딸려온 스크래퍼 로그 (런타임 산출·커밋 금지)
+scripts/cafe-scraper/logs/
+scripts/kiwoom-scraper/logs/

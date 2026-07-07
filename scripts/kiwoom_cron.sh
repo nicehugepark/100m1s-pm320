@@ -464,6 +464,21 @@ export PYTHONPATH="$MAIN_REPO"
 # 자동 복구 (데이터는 후속 collect stage 가 적재) + 알림 marker. 복구 불가
 # (메인 DB 부재 등) 시 exit 2 → build_daily 전 stage SKIP (크래시·6h 행 대신 graceful).
 # read-only 검증 + 빈 테이블 CREATE 만. 기존 데이터 행 0 touch.
+#
+# S5b-2 자립화 (2026-07-07): pm320 자립 후 M1S_HOMEPAGE=pm320 레포 → verify 의 기본
+# schema source (DEFAULT_SCHEMA_SOURCE = M1S_HOMEPAGE/data/stocks.db) 가 cron DB 와
+# 동일 파일 → "cron DB == source DB → check-only 강제" → 필수 테이블 신규 누락 시
+# 자동 복구 불가 (07-07 09:05 dailybars 2종 누락 FAIL 근본). 봉쇄: schema SSOT 를
+# 별도 지정. M1S_SCHEMA_SOURCE_DB 운영자 override 우선, 미설정 시 homepage-cron DB
+# (전 필수 테이블·컬럼 보유 SSOT) 를 self-source 회피용 기본값으로 사용 (존재할 때만).
+if [ -z "${M1S_SCHEMA_SOURCE_DB:-}" ]; then
+  _SCHEMA_SSOT="/Users/seongjinpark/company/100m1s-homepage-cron/data/stocks.db"
+  # homepage-cron SSOT 가 존재하고 cron DB(HOMEPAGE/data/stocks.db) 와 다른 파일일 때만
+  # 지정 → self-source check-only 회피. 동일 파일이면 지정 안 함(자립 self-check).
+  if [ -f "$_SCHEMA_SSOT" ] && [ ! "$_SCHEMA_SSOT" -ef "$HOMEPAGE/data/stocks.db" ]; then
+    export M1S_SCHEMA_SOURCE_DB="$_SCHEMA_SSOT"
+  fi
+fi
 DB_SCHEMA_OK=1
 _stage_timed verify_cron_db_schema -- /usr/bin/python3 -m scripts.news_pipeline.verify_cron_db_schema
 if [ "$STAGE_LAST_RC" -ne 0 ]; then
@@ -734,7 +749,15 @@ else
   echo "[final-push] git commit FAIL (post-deploy verify still scheduled)" >> "$LOG"
 fi
 
-# 배포 후 자동 검증 (백그라운드 — cron 블로킹 방지)
-nohup bash "$MAIN_REPO/scripts/qa/post-deploy-verify.sh" >> "$LOG" 2>&1 &
+# 배포 후 자동 검증 (백그라운드 — cron 블로킹 방지).
+# post-deploy-verify.sh 는 QA 오케스트레이션 도구(screenshot.sh·run-qa.sh 재귀) = 파이프라인
+# 런타임 아님 → pm320 자립 이관 대상 아님(메인/QA 레포 소속). S5b-2 자립화(2026-07-07):
+# 존재할 때만 실행하는 파일 가드로 감싸 "누락파일" fail-loud 제거(부재 = graceful skip).
+_PDV="$MAIN_REPO/scripts/qa/post-deploy-verify.sh"
+if [ -f "$_PDV" ]; then
+  nohup bash "$_PDV" >> "$LOG" 2>&1 &
+else
+  echo "[post-deploy-verify] SKIP: $_PDV 부재(QA 도구·비필수) — 자립 파이프라인 정상 진행" >> "$LOG"
+fi
 
 echo "=== $(date -Iseconds) kiwoom scrape end ===" >> "$LOG"
