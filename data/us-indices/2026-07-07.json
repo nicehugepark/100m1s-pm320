@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 25906.2,
+      "point": 25907.14,
       "change_pct": -0.82,
       "candle": {
         "o": 25965.52,
         "h": 26007.21,
         "l": 25884.14,
-        "c": 25906.2
+        "c": 25907.14
       },
       "range_240d": {
         "low": 20650.13,
@@ -2033,14 +2033,16 @@
           "o": 25965.52,
           "h": 26007.21,
           "l": 25884.14,
-          "c": 25906.2
+          "c": 25907.14
         }
       ],
       "spark": [
         25965.52,
         25934.11,
         25927.29,
-        25906.2
+        25952.45,
+        25930.64,
+        25907.14
       ],
       "news": {
         "summary": "반도체 상장 열풍 가속(SK 하이닉스 미국 상장으로 나스닥 1.1% 상승 기여). AI 투자 열풍 지속 중이나 과잉투자·수익성 우려로 MANGOS 등 AI 대표주 변동성 심화. 스페이스X 나스닥-100 편입 임박.",
@@ -2064,13 +2066,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7519.82,
-      "change_pct": -0.23,
+      "point": 7522.48,
+      "change_pct": -0.2,
       "candle": {
         "o": 7516.63,
         "h": 7536.06,
         "l": 7516.63,
-        "c": 7519.82
+        "c": 7522.48
       },
       "range_240d": {
         "low": 6238.01,
@@ -4094,14 +4096,16 @@
           "o": 7516.63,
           "h": 7536.06,
           "l": 7516.63,
-          "c": 7519.82
+          "c": 7522.48
         }
       ],
       "spark": [
         7516.63,
         7520.15,
         7522.27,
-        7519.82
+        7528.26,
+        7523.32,
+        7522.48
       ],
       "news": {
         "summary": "고용 부진 심화(6월 payroll 57,000 vs 예상 115,000)로 노동력 참여율 50년 최저 기록. 서비스업 회복 지속(ISM 54)에도 고용 약세 신호 증가 중. 유로존 인플레이션 완화(2.8%), 독일 공장 주문 회복(1.9%), 캐나다 물가 상향 조정으로 글로벌 경제 신호 혼조 심화.",
@@ -4125,13 +4129,13 @@
     },
     {
       "name": "DOW",
-      "point": 53134.26,
-      "change_pct": 0.15,
+      "point": 53174.31,
+      "change_pct": 0.22,
       "candle": {
         "o": 53104.06,
         "h": 53289.3,
-        "l": 53104.06,
-        "c": 53134.26
+        "l": 53097.93,
+        "c": 53174.31
       },
       "range_240d": {
         "low": 43588.58,
@@ -6154,15 +6158,17 @@
           "date": "2026-07-07",
           "o": 53104.06,
           "h": 53289.3,
-          "l": 53104.06,
-          "c": 53134.26
+          "l": 53097.93,
+          "c": 53174.31
         }
       ],
       "spark": [
         53104.06,
         53202.58,
         53162.43,
-        53134.26
+        53181.37,
+        53174.22,
+        53174.31
       ],
       "news": {
         "summary": "OPEC 추가 감산 해제로 유가 공급 증가, 호르무즈 해협 통행량 회복 중. JP모건 법정 소송(찰리 자비스) 진행으로 금융 부문 법적 리스크 가시화. 에너지·산업재 부문(소형엔진, 호주 LNG) 업황 호전 대비 주류주 장기 약세 추세 지속.",
@@ -6187,90 +6193,89 @@
   ],
   "news_chips": [
     {
-      "summary": "빅테크의 AI 투자 과열에 따라 메타 등이 여유 컴퓨팅 파워 임차를 검토하면서 과잉 투자 우려가 표면화되고 있다",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/tech/ai/will-someone-finally-blink-in-the-ai-spending-war-0f59aa60?mod=rss_markets_main",
-      "published_ts": 1783416600.0,
-      "impact_high": true
-    },
-    {
-      "summary": "이란 혁명수비대가 호르무즈 해협 선박에 미사일 공격을 감행하면서 중동 분쟁으로 인한 원유 공급 불안이 심화되고 있다",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/irgc-fires-missiles-at-ships-in-strait-of-hormuz-c3fbadd0",
-      "published_ts": 1783410480.0,
-      "impact_high": true
-    },
-    {
-      "summary": "페르시아만 공격에 따른 유가 강세가 기술주 약세를 주도하고 있으며 삼성 실적 호조에도 반도체 섹터가 장중 약세를 보였다",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-07-2026?mod=rss_markets_main",
-      "published_ts": 1783409054.0,
-      "impact_high": true
-    },
-    {
-      "summary": "5월 미국 무역적자가 77.6억 달러로 확대되면서 통상 긴장에 따른 구조적 악화가 지속되고 있다",
+      "summary": "5월 미국 무역적자가 전월 546억 달러에서 776억 달러로 42% 확대",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-grew-in-may-0434dc3f",
       "published_ts": 1783429500.0,
       "impact_high": false
     },
     {
-      "summary": "기술주가 초반 약세에서 후반 강세로 반전하며 시장 심리 변화를 보여주고 있다",
+      "summary": "이란 혁명수비대의 호르무즈 해협 미사일 공격으로 유가 강세 전환",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/stocks/value-investings-comeback-is-just-a-quirk-for-now-8e345cc4?mod=rss_markets_main",
       "published_ts": 1783421040.0,
       "impact_high": false
     },
     {
-      "summary": "SK하이닉스의 280억 달러 규모 미국 신규 상장이 나스닥 반도체 섹터 1.1% 상승을 견인하고 있다",
+      "summary": "SK하이닉스 미국 상장 호재로 반도체 섹터 이끌면서 나스닥 1.1% 상승",
       "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/global-stocks-markets-dow-news-07-06-2026-e2b13bf1?mod=rss_markets_main",
-      "published_ts": 1783371420.0,
+      "url": "https://www.wsj.com/finance/stocks/value-investings-comeback-is-just-a-quirk-for-now-8e345cc4?mod=rss_markets_main",
+      "published_ts": 1783421040.0,
       "impact_high": false
     },
     {
-      "summary": "호르무즈 해협 통항 회복에 따라 OPEC이 최근 5개월 연속 원유를 증산하면서 공급 완화 신호를 보내고 있다",
+      "summary": "기술주가 장초반 약세에서 강세로 전환, 나스닥 혼조장 속 반도체 주도",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/stocks/value-investings-comeback-is-just-a-quirk-for-now-8e345cc4?mod=rss_markets_main",
+      "published_ts": 1783421040.0,
+      "impact_high": false
+    },
+    {
+      "summary": "월마트가 수천 개 품목의 가격을 인하하며 물가 안정 신호 전달",
+      "source": "한경",
+      "url": "https://www.hankyung.com/article/202607070005i",
+      "published_ts": 1783392120.0,
+      "impact_high": false
+    },
+    {
+      "summary": "중국 핵잠수함의 장거리 미사일 시험 발사로 역내 지정학 긴장 심화, 반도체 공급망 불확실성 확대",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/asia/chinese-nuclear-submarine-ballistic-missile-launch-49923882",
+      "published_ts": 1783392060.0,
+      "impact_high": false
+    },
+    {
+      "summary": "OPEC 5연속 증산 결정, 호르무즈 해협 교통 회복에 따른 공급 회복 신호",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/business/energy-oil/opec-allies-hike-output-again-as-hormuz-traffic-starts-recovering-0094a1a4",
       "published_ts": 1783250640.0,
       "impact_high": false
     },
     {
-      "summary": "6월 미국 비농업 고용이 5만7천 명 증가로 부진하면서 실업률은 4.2%로 상승하고 노동시장 약화 신호가 커지고 있다",
+      "summary": "6월 미국 비농업 고용이 5만7000명으로 예상치 11만5000명의 절반 수준에 머무른 약세 기록",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html",
       "published_ts": 1783011027.0,
       "impact_high": true
     },
     {
-      "summary": "연준 의장이 향후 금리 결정을 두고 내부 의견 충돌이 있을 것을 암시하며 정책 불확실성이 높아지고 있다",
+      "summary": "연준 의장이 다가올 금리 결정 회의에서 인상 여부를 둘러싼 내부 논쟁을 시사",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/interest-rates-kevin-warsh-de137876",
       "published_ts": 1782932040.0,
       "impact_high": true
     },
     {
-      "summary": "유로존 6월 인플레이션이 2.8%로 하락하면서 에너지 충격이 완화되고 ECB 추가 인상 압력이 완화되고 있다",
+      "summary": "유로존 6월 인플레이션 2.8%로 하락하며 ECB 금리 인상 압박 완화",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/global/eurozone-inflation-declines-as-energy-shock-fades-in-relief-for-ecb-0f7d7670",
       "published_ts": 1782902760.0,
       "impact_high": true
     }
   ],
-  "_article_sig": "f9bfd088b8a094198c0d297d6d6503c3284d9431ae4384171cd4d405843f0548",
+  "_article_sig": "889d1b0014c30cba736cc71263821d315b2e17a9e3d40e25bddaee05478631d0",
   "built_at_kst": "2026-07-07T07:00:54.768061+09:00",
   "futures": {
-    "as_of_kst": "2026-07-07T22:40:07.840434+09:00",
+    "as_of_kst": "2026-07-07T22:50:03.228028+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7578.0,
-        "change_pct": -0.18,
+        "point": 7580.0,
+        "change_pct": -0.15,
         "spark": [
           7597.0,
-          7582.25,
           7581.5,
           7579.25,
           7579.0,
@@ -6309,21 +6314,22 @@
           7580.0,
           7580.75,
           7572.5,
-          7578.0
+          7572.75,
+          7580.0
         ],
         "candle": {
           "o": 7597.0,
           "h": 7601.25,
           "l": 7563.0,
-          "c": 7578.0
+          "c": 7573.0
         },
         "range_240d": {
           "low": 6264.5,
           "high": 7623.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 20.97,
-          "high_change_pct": -0.6
+          "low_change_pct": 20.89,
+          "high_change_pct": -0.67
         },
         "daily_expanded": [
           {
@@ -8339,24 +8345,24 @@
             "o": 7597.0,
             "h": 7601.25,
             "l": 7563.0,
-            "c": 7578.0,
-            "v": 187362
+            "c": 7573.0,
+            "v": 240357
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "고용 둔화 신호 강화로 경기 심화 우려. 6월 비농업 고용 57K에 불과(기대 115K), 민간 고용 98K 약세, 노동 참여율 50년 저점(코로나 제외). 서비스업 완만 확장·무역적자 확대에도 거시 회복력 훼손 조짐. 연준 기준금리 인상 논의 진행 중.",
+          "summary": "美 무역 적자 5월 고점(776억달러) 경신, 노동력 참여율 50년 저점(코로나 제외)으로 경기 신호 악화. 고용 57K 약세 속 연준 금리 결정 내달 '가족싸움' 우려 부각. ISM 서비스지수 54 수준 지속으로 확장 둔화.",
           "sources": [
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html"
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-grew-in-may-0434dc3f"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html"
             },
             {
-              "name": "WSJ",
+              "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/interest-rates-kevin-warsh-de137876"
             }
           ]
@@ -8365,12 +8371,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29602.25,
-        "change_pct": -1.13,
+        "point": 29532.25,
+        "change_pct": -1.37,
         "spark": [
           29960.0,
-          29679.75,
-          29673.5,
           29653.0,
           29654.75,
           29647.0,
@@ -8408,21 +8412,23 @@
           29608.25,
           29592.25,
           29532.0,
-          29602.25
+          29544.5,
+          29595.0,
+          29532.25
         ],
         "candle": {
           "o": 29960.0,
           "h": 29973.75,
-          "l": 29558.5,
-          "c": 29602.25
+          "l": 29491.25,
+          "c": 29532.25
         },
         "range_240d": {
           "low": 22883.75,
           "high": 30712.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 29.36,
-          "high_change_pct": -3.62
+          "low_change_pct": 29.05,
+          "high_change_pct": -3.84
         },
         "daily_expanded": [
           {
@@ -10437,18 +10443,18 @@
             "date": "2026-07-07",
             "o": 29960.0,
             "h": 29973.75,
-            "l": 29558.5,
-            "c": 29602.25,
-            "v": 130266
+            "l": 29491.25,
+            "c": 29532.25,
+            "v": 162212
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "반도체 공급 확대 신호에 기술주 등락. SK하이닉스 2800억 달러 규모 대규모 공모로 시장 주목 집중. AI 투자 거품 우려로 빅테크 수익성 재평가 중.",
+          "summary": "기술주·반도체 약세 선도. AI 투자 과열 조정 신호 짙어지며 빅테크 설비과잉 정상화 초읽기 상태. SK하이닉스 미국 상장(280억달러)으로 반도체 섹터 매력도 재평가.",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/global-stocks-markets-dow-news-07-06-2026-e2b13bf1?mod=rss_markets_main"
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-07-2026?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
@@ -10456,7 +10462,7 @@
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-07-2026?mod=rss_markets_main"
+              "url": "https://www.wsj.com/finance/stocks/global-stocks-markets-dow-news-07-06-2026-e2b13bf1?mod=rss_markets_main"
             }
           ]
         }
@@ -10464,12 +10470,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53581.0,
-        "change_pct": 0.39,
+        "point": 53453.0,
+        "change_pct": 0.15,
         "spark": [
           53405.0,
-          53459.0,
-          53451.0,
           53457.0,
           53453.0,
           53459.0,
@@ -10507,20 +10511,22 @@
           53624.0,
           53630.0,
           53503.0,
-          53581.0
+          53460.0,
+          53484.0,
+          53453.0
         ],
         "candle": {
           "o": 53405.0,
           "h": 53656.0,
           "l": 53341.0,
-          "c": 53581.0
+          "c": 53453.0
         },
         "range_240d": {
           "low": 43710.0,
-          "high": 53581.0,
+          "high": 53453.0,
           "low_date": "2025-08-01",
           "high_date": "2026-07-07",
-          "low_change_pct": 22.58,
+          "low_change_pct": 22.29,
           "high_change_pct": 0.0
         },
         "daily_expanded": [
@@ -12537,25 +12543,25 @@
             "o": 53405.0,
             "h": 53656.0,
             "l": 53341.0,
-            "c": 53581.0,
-            "v": 19760
+            "c": 53453.0,
+            "v": 27569
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "중동 지정학 리스크에 유가 상승 신호. 이란 혁명수비대 호르무즈 해협 공격으로 운송로 불안정, OPEC 증산 지속에도 공급 제약 우려. 월마트 대규모 가격 인하로 소비 진작 신호, 블루칩 투자은행(JPM/BAC) 결제망 재편 추진.",
+          "summary": "호르무즈 해협 이란 미사일 공격에 유가 반등, OPEC 5연속 증산으로 공급 과잉 우려 완화. 트럼프 물가 대책에 월마트 수천개 품목 대규모 인하로 소매 경쟁 가열. 금융권 카드 네트워크 M&A 탐색 가시화.",
           "sources": [
             {
-              "name": "WSJ",
+              "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/irgc-fires-missiles-at-ships-in-strait-of-hormuz-c3fbadd0"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-07-2026?mod=rss_markets_main"
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/business/energy-oil/opec-allies-hike-output-again-as-hormuz-traffic-starts-recovering-0094a1a4"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/business/energy-oil/opec-allies-hike-output-again-as-hormuz-traffic-starts-recovering-0094a1a4"
+              "url": "https://www.wsj.com/finance/banking/jpmorgan-bank-of-america-and-other-banks-explore-a-deal-to-shake-up-payments-world-9d8639fb?mod=rss_markets_main"
             }
           ]
         }
@@ -12563,14 +12569,14 @@
     ]
   },
   "regular_open": true,
-  "intraday_refreshed_kst": "2026-07-07T22:40:11.707964+09:00",
+  "intraday_refreshed_kst": "2026-07-07T22:51:30.224713+09:00",
   "_futures_news": {
     "NASDAQ": {
-      "summary": "반도체 공급 확대 신호에 기술주 등락. SK하이닉스 2800억 달러 규모 대규모 공모로 시장 주목 집중. AI 투자 거품 우려로 빅테크 수익성 재평가 중.",
+      "summary": "기술주·반도체 약세 선도. AI 투자 과열 조정 신호 짙어지며 빅테크 설비과잉 정상화 초읽기 상태. SK하이닉스 미국 상장(280억달러)으로 반도체 섹터 매력도 재평가.",
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/global-stocks-markets-dow-news-07-06-2026-e2b13bf1?mod=rss_markets_main"
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-07-2026?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
@@ -12578,41 +12584,41 @@
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-07-2026?mod=rss_markets_main"
+          "url": "https://www.wsj.com/finance/stocks/global-stocks-markets-dow-news-07-06-2026-e2b13bf1?mod=rss_markets_main"
         }
       ]
     },
     "S&P500": {
-      "summary": "고용 둔화 신호 강화로 경기 심화 우려. 6월 비농업 고용 57K에 불과(기대 115K), 민간 고용 98K 약세, 노동 참여율 50년 저점(코로나 제외). 서비스업 완만 확장·무역적자 확대에도 거시 회복력 훼손 조짐. 연준 기준금리 인상 논의 진행 중.",
+      "summary": "美 무역 적자 5월 고점(776억달러) 경신, 노동력 참여율 50년 저점(코로나 제외)으로 경기 신호 악화. 고용 57K 약세 속 연준 금리 결정 내달 '가족싸움' 우려 부각. ISM 서비스지수 54 수준 지속으로 확장 둔화.",
       "sources": [
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html"
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-grew-in-may-0434dc3f"
         },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html"
         },
         {
-          "name": "WSJ",
+          "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/interest-rates-kevin-warsh-de137876"
         }
       ]
     },
     "DOW": {
-      "summary": "중동 지정학 리스크에 유가 상승 신호. 이란 혁명수비대 호르무즈 해협 공격으로 운송로 불안정, OPEC 증산 지속에도 공급 제약 우려. 월마트 대규모 가격 인하로 소비 진작 신호, 블루칩 투자은행(JPM/BAC) 결제망 재편 추진.",
+      "summary": "호르무즈 해협 이란 미사일 공격에 유가 반등, OPEC 5연속 증산으로 공급 과잉 우려 완화. 트럼프 물가 대책에 월마트 수천개 품목 대규모 인하로 소매 경쟁 가열. 금융권 카드 네트워크 M&A 탐색 가시화.",
       "sources": [
         {
-          "name": "WSJ",
+          "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/irgc-fires-missiles-at-ships-in-strait-of-hormuz-c3fbadd0"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-07-2026?mod=rss_markets_main"
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/business/energy-oil/opec-allies-hike-output-again-as-hormuz-traffic-starts-recovering-0094a1a4"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/business/energy-oil/opec-allies-hike-output-again-as-hormuz-traffic-starts-recovering-0094a1a4"
+          "url": "https://www.wsj.com/finance/banking/jpmorgan-bank-of-america-and-other-banks-explore-a-deal-to-shake-up-payments-world-9d8639fb?mod=rss_markets_main"
         }
       ]
     }
