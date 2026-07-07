@@ -27,6 +27,9 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
+from pathlib import (
+    Path,  # autoflake 제거 재발 방지 (DOC-20260524-FLR-001) — L168 Path(__file__) 사용
+)
 
 # 한국어 인과 해석 레이어 (Q-20260612-154) — 같은 디렉토리 모듈 (sys.path[0] = 스크립트 dir)
 import collect_truthsocial  # noqa: E402  트럼프 lane (대표 GO·법무 조건부 GO DOC-20260614-LEGAL-002)

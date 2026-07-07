@@ -14,7 +14,7 @@ from collections.abc import Iterable
 from datetime import datetime
 from pathlib import Path
 
-from .config import HOMEPAGE
+from .config import DATA_DIR, HOMEPAGE
 from .db import connect
 
 
