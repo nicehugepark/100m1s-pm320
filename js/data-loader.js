@@ -88,8 +88,11 @@ function _dataBust(date) {
   try {
     const _n = _kstNow(); // KST wall-clock — 해외 접속 시 OPEN 오판 봉쇄
     const _today = `${_n.getFullYear()}-${String(_n.getMonth() + 1).padStart(2, '0')}-${String(_n.getDate()).padStart(2, '0')}`;
-    if (typeof getMarketState === 'function' && getMarketState(_today, _n) === 'OPEN') {
-      return `${base}-m${String(_n.getHours()).padStart(2, '0')}${Math.floor(_n.getMinutes() / 10)}`;
+    if (date === _today) {
+      // 당일 데이터 = 가변(픽 공개·재판정·인트라데이). 60초 버킷으로 상시 신선 fetch —
+      // 고정 dateHash + Pages max-age=600 조합이 픽 공개를 최대 10분 stale 노출하던 결함 봉쇄
+      // (2026-07-07 16:00 리허설 실측, FLR-20260707-TEC-003 후속. 과거 날짜는 불변이라 base 유지).
+      return `${base}-s${Math.floor(Date.now() / 60000)}`;
     }
   } catch (_) { /* graceful — 기본 dateHash */ }
   return base;
