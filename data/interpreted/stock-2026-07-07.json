@@ -1,6 +1,6 @@
 {
   "date": "2026-07-07",
-  "generated_at": "2026-07-07T12:45:17.756267",
+  "generated_at": "2026-07-07T12:55:13.952279",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -8,15 +8,82 @@
   "themes_tree": null,
   "stocks": [
     {
+      "code": "365660",
+      "name": "레몬헬스케어",
+      "rank": 1,
+      "trade_amount": 228787000000,
+      "change_pct": 30.0,
+      "close_price": 12220,
+      "open_price": 10230,
+      "high_price": 12220,
+      "low_price": 8520,
+      "industry": null,
+      "sector": null,
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-07-07"
+      ],
+      "news": [],
+      "fallback": true,
+      "daily_20": [
+        {
+          "date": "2026-07-06",
+          "o": 16560,
+          "h": 20300,
+          "l": 9370,
+          "c": 9400
+        },
+        {
+          "date": "2026-07-07",
+          "o": 10230,
+          "h": 12220,
+          "l": 8520,
+          "c": 12220
+        }
+      ],
+      "status_badges": [
+        {
+          "label": "상한가",
+          "severity": "hot",
+          "source": "v1_condition",
+          "view_date": "2026-07-07",
+          "summary": "레몬헬스케어 상한가 (30.00%)",
+          "cur_prc": 12220,
+          "flu_rt": 30.0,
+          "trde_qty": 22282603,
+          "trde_prica_calc": 228787000000,
+          "consecutive_count": 1,
+          "effect_badges": [
+            {
+              "effect": "limit-up",
+              "when": "today",
+              "severity": "hot",
+              "source_label": "상한가",
+              "source_kind": "limit_up",
+              "consecutive_count": 1
+            }
+          ],
+          "next_trading_day": "2026-07-08"
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
       "code": "073240",
       "name": "금호타이어",
-      "rank": 1,
-      "trade_amount": 152798000000,
-      "change_pct": -3.73,
-      "close_price": 5930,
+      "rank": 2,
+      "trade_amount": 156149000000,
+      "change_pct": -5.84,
+      "close_price": 5800,
       "open_price": 6580,
       "high_price": 6780,
-      "low_price": 5780,
+      "low_price": 5710,
       "industry": null,
       "sector": null,
       "themes": [],
@@ -33,11 +100,11 @@
       "range_240d": {
         "high": 7650,
         "high_date": "2026-02-11",
-        "high_pct": -22.48,
+        "high_pct": -24.18,
         "low": 4220,
         "low_date": "2026-06-24",
-        "low_pct": 40.52,
-        "current": 5930
+        "low_pct": 37.44,
+        "current": 5800
       },
       "daily_20": [
         {
@@ -177,8 +244,8 @@
           "date": "2026-07-07",
           "o": 6580,
           "h": 6780,
-          "l": 5780,
-          "c": 5930
+          "l": 5710,
+          "c": 5800
         }
       ],
       "intraday": {
@@ -230,7 +297,9 @@
           5810,
           5840,
           5930,
-          5930
+          5870,
+          5820,
+          5810
         ]
       },
       "togusa_verdict": "neutral",
@@ -240,10 +309,10 @@
     {
       "code": "037070",
       "name": "파세코",
-      "rank": 2,
-      "trade_amount": 67287000000,
-      "change_pct": -12.29,
-      "close_price": 7780,
+      "rank": 3,
+      "trade_amount": 67562000000,
+      "change_pct": -12.18,
+      "close_price": 7790,
       "open_price": 8970,
       "high_price": 9770,
       "low_price": 7560,
@@ -265,11 +334,11 @@
       "range_240d": {
         "high": 9980,
         "high_date": "2026-05-04",
-        "high_pct": -22.04,
+        "high_pct": -21.94,
         "low": 4990,
         "low_date": "2026-06-26",
-        "low_pct": 55.91,
-        "current": 7780
+        "low_pct": 56.11,
+        "current": 7790
       },
       "daily_20": [
         {
@@ -410,7 +479,7 @@
           "o": 8970,
           "h": 9770,
           "l": 7560,
-          "c": 7780
+          "c": 7790
         }
       ],
       "intraday": {
@@ -462,7 +531,9 @@
           7760,
           7860,
           7770,
-          7810
+          7820,
+          7780,
+          7760
         ]
       },
       "credit_risk": true,
@@ -474,8 +545,8 @@
     {
       "code": "079650",
       "name": "서산",
-      "rank": 3,
-      "trade_amount": 15983000000,
+      "rank": 4,
+      "trade_amount": 16039000000,
       "change_pct": 29.93,
       "close_price": 4775,
       "open_price": 3455,
@@ -660,8 +731,8 @@
           "summary": "서산 상한가 (29.93%)",
           "cur_prc": 4775,
           "flu_rt": 29.93,
-          "trde_qty": 3817946,
-          "trde_prica_calc": 15983000000,
+          "trde_qty": 3829692,
+          "trde_prica_calc": 16039000000,
           "consecutive_count": 1,
           "effect_badges": [
             {
@@ -725,6 +796,8 @@
           4775,
           4775,
           4775,
+          4775,
+          4775,
           4775
         ]
       },
@@ -737,8 +810,8 @@
     {
       "code": "298000",
       "name": "효성화학",
-      "rank": 4,
-      "trade_amount": 5446000000,
+      "rank": 5,
+      "trade_amount": 5542000000,
       "change_pct": 29.84,
       "close_price": 67000,
       "open_price": 51600,
@@ -920,8 +993,8 @@
           "summary": "효성화학 상한가 (29.84%)",
           "cur_prc": 67000,
           "flu_rt": 29.84,
-          "trde_qty": 86589,
-          "trde_prica_calc": 5446000000,
+          "trde_qty": 88025,
+          "trde_prica_calc": 5542000000,
           "consecutive_count": 1,
           "effect_badges": [
             {
@@ -985,6 +1058,7 @@
           67000,
           67000,
           67000,
+          67000,
           67000
         ]
       },
@@ -995,10 +1069,242 @@
       "hugepark_grade": "주의"
     },
     {
+      "code": "012170",
+      "name": "아센디오",
+      "rank": 6,
+      "trade_amount": 5024000000,
+      "change_pct": 29.98,
+      "close_price": 1305,
+      "open_price": 1154,
+      "high_price": 1305,
+      "low_price": 1090,
+      "industry": null,
+      "sector": null,
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": true,
+      "bullish_streak": 2,
+      "bullish_dates": [
+        "2026-05-28",
+        "2026-05-29",
+        "2026-06-05",
+        "2026-07-01",
+        "2026-07-06",
+        "2026-07-07"
+      ],
+      "news": [],
+      "fallback": true,
+      "range_240d": {
+        "high": 4955,
+        "high_date": "2025-08-20",
+        "high_pct": -73.66,
+        "low": 583,
+        "low_date": "2026-06-29",
+        "low_pct": 123.84,
+        "current": 1305
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-10",
+          "o": 1123,
+          "h": 1156,
+          "l": 1071,
+          "c": 1071
+        },
+        {
+          "date": "2026-06-11",
+          "o": 1071,
+          "h": 1125,
+          "l": 1014,
+          "c": 1044
+        },
+        {
+          "date": "2026-06-12",
+          "o": 1045,
+          "h": 1097,
+          "l": 1033,
+          "c": 1057
+        },
+        {
+          "date": "2026-06-15",
+          "o": 1057,
+          "h": 1098,
+          "l": 1021,
+          "c": 1062
+        },
+        {
+          "date": "2026-06-16",
+          "o": 1062,
+          "h": 1124,
+          "l": 1035,
+          "c": 1106
+        },
+        {
+          "date": "2026-06-17",
+          "o": 1104,
+          "h": 1105,
+          "l": 1057,
+          "c": 1067
+        },
+        {
+          "date": "2026-06-18",
+          "o": 1067,
+          "h": 1078,
+          "l": 1006,
+          "c": 1011
+        },
+        {
+          "date": "2026-06-19",
+          "o": 1042,
+          "h": 1042,
+          "l": 980,
+          "c": 1015
+        },
+        {
+          "date": "2026-06-22",
+          "o": 1020,
+          "h": 1020,
+          "l": 945,
+          "c": 965
+        },
+        {
+          "date": "2026-06-23",
+          "o": 960,
+          "h": 965,
+          "l": 893,
+          "c": 900
+        },
+        {
+          "date": "2026-06-24",
+          "o": 900,
+          "h": 900,
+          "l": 703,
+          "c": 787
+        },
+        {
+          "date": "2026-06-25",
+          "o": 787,
+          "h": 804,
+          "l": 609,
+          "c": 617
+        },
+        {
+          "date": "2026-06-26",
+          "o": 617,
+          "h": 802,
+          "l": 615,
+          "c": 630
+        },
+        {
+          "date": "2026-06-29",
+          "o": 630,
+          "h": 659,
+          "l": 583,
+          "c": 640
+        },
+        {
+          "date": "2026-06-30",
+          "o": 640,
+          "h": 700,
+          "l": 621,
+          "c": 645
+        },
+        {
+          "date": "2026-07-01",
+          "o": 667,
+          "h": 837,
+          "l": 657,
+          "c": 764
+        },
+        {
+          "date": "2026-07-02",
+          "o": 766,
+          "h": 768,
+          "l": 662,
+          "c": 692
+        },
+        {
+          "date": "2026-07-03",
+          "o": 740,
+          "h": 885,
+          "l": 723,
+          "c": 773
+        },
+        {
+          "date": "2026-07-06",
+          "o": 774,
+          "h": 1004,
+          "l": 774,
+          "c": 1004
+        },
+        {
+          "date": "2026-07-07",
+          "o": 1154,
+          "h": 1305,
+          "l": 1090,
+          "c": 1305
+        }
+      ],
+      "status_badges": [
+        {
+          "label": "투자주의 근접",
+          "severity": "caution",
+          "source": "predicted",
+          "thresholds": [
+            {
+              "desc": "5일 전(2026-06-30) 대비 +60%↑",
+              "base_price": 645,
+              "threshold": 1032,
+              "current": 1305,
+              "triggered": true
+            }
+          ],
+          "regulation": "KRX 시장경보 가격 조건 충족 (거래량 미검증, 자체 추정)",
+          "period_start": "2026-07-08",
+          "period_end": "2026-07-09",
+          "start": "2026-07-08",
+          "end": "2026-07-09",
+          "view_date": "2026-07-07",
+          "next_trading_day": "2026-07-08",
+          "next_trading_day_for_predicted": "2026-07-08",
+          "next_trading_day_source": "fallback_homepage",
+          "single_price": false,
+          "effect_badges": []
+        },
+        {
+          "label": "상한가",
+          "severity": "hot",
+          "source": "v1_condition",
+          "view_date": "2026-07-07",
+          "summary": "아센디오 상한가 (29.98%)",
+          "cur_prc": 1305,
+          "flu_rt": 29.98,
+          "trde_qty": 4016430,
+          "trde_prica_calc": 5024000000,
+          "consecutive_count": 1,
+          "effect_badges": [
+            {
+              "effect": "limit-up",
+              "when": "today",
+              "severity": "hot",
+              "source_label": "상한가",
+              "source_kind": "limit_up",
+              "consecutive_count": 1
+            }
+          ],
+          "next_trading_day": "2026-07-08"
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
       "code": "109610",
       "name": "에스와이",
-      "rank": 5,
-      "trade_amount": 2722000000,
+      "rank": 7,
+      "trade_amount": 2736000000,
       "change_pct": 29.95,
       "close_price": 2560,
       "open_price": 1964,
@@ -1177,8 +1483,8 @@
           "summary": "에스와이 상한가 (29.95%)",
           "cur_prc": 2560,
           "flu_rt": 29.95,
-          "trde_qty": 1117457,
-          "trde_prica_calc": 2722000000,
+          "trde_qty": 1122801,
+          "trde_prica_calc": 2736000000,
           "consecutive_count": 1,
           "effect_badges": [
             {
@@ -1242,266 +1548,9 @@
           2560,
           2560,
           2560,
+          2560,
+          2560,
           2560
-        ]
-      },
-      "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
-    },
-    {
-      "code": "087260",
-      "name": "모바일어플라이언스",
-      "rank": 6,
-      "trade_amount": 2468000000,
-      "change_pct": 29.79,
-      "close_price": 305,
-      "open_price": 241,
-      "high_price": 305,
-      "low_price": 241,
-      "industry": null,
-      "sector": null,
-      "themes": [],
-      "theme_paths": [],
-      "pick_count": 1,
-      "prev_pick": null,
-      "bullish_today": true,
-      "bullish_streak": 1,
-      "bullish_dates": [
-        "2026-06-15",
-        "2026-06-30",
-        "2026-07-07"
-      ],
-      "news": [],
-      "fallback": true,
-      "range_240d": {
-        "high": 2560,
-        "high_date": "2026-01-27",
-        "high_pct": -88.09,
-        "low": 223,
-        "low_date": "2026-07-06",
-        "low_pct": 36.77,
-        "current": 305
-      },
-      "daily_20": [
-        {
-          "date": "2026-06-10",
-          "o": 459,
-          "h": 549,
-          "l": 452,
-          "c": 511
-        },
-        {
-          "date": "2026-06-11",
-          "o": 482,
-          "h": 500,
-          "l": 422,
-          "c": 479
-        },
-        {
-          "date": "2026-06-12",
-          "o": 471,
-          "h": 499,
-          "l": 424,
-          "c": 469
-        },
-        {
-          "date": "2026-06-15",
-          "o": 469,
-          "h": 609,
-          "l": 469,
-          "c": 609
-        },
-        {
-          "date": "2026-06-16",
-          "o": 666,
-          "h": 789,
-          "l": 455,
-          "c": 462
-        },
-        {
-          "date": "2026-06-17",
-          "o": 470,
-          "h": 509,
-          "l": 429,
-          "c": 433
-        },
-        {
-          "date": "2026-06-18",
-          "o": 430,
-          "h": 470,
-          "l": 389,
-          "c": 409
-        },
-        {
-          "date": "2026-06-19",
-          "o": 408,
-          "h": 415,
-          "l": 348,
-          "c": 353
-        },
-        {
-          "date": "2026-06-22",
-          "o": 350,
-          "h": 383,
-          "l": 334,
-          "c": 335
-        },
-        {
-          "date": "2026-06-23",
-          "o": 332,
-          "h": 352,
-          "l": 303,
-          "c": 321
-        },
-        {
-          "date": "2026-06-24",
-          "o": 313,
-          "h": 343,
-          "l": 308,
-          "c": 315
-        },
-        {
-          "date": "2026-06-25",
-          "o": 315,
-          "h": 333,
-          "l": 283,
-          "c": 297
-        },
-        {
-          "date": "2026-06-26",
-          "o": 297,
-          "h": 317,
-          "l": 283,
-          "c": 302
-        },
-        {
-          "date": "2026-06-29",
-          "o": 300,
-          "h": 319,
-          "l": 286,
-          "c": 291
-        },
-        {
-          "date": "2026-06-30",
-          "o": 310,
-          "h": 378,
-          "l": 289,
-          "c": 378
-        },
-        {
-          "date": "2026-07-01",
-          "o": 401,
-          "h": 430,
-          "l": 265,
-          "c": 265
-        },
-        {
-          "date": "2026-07-02",
-          "o": 266,
-          "h": 285,
-          "l": 230,
-          "c": 235
-        },
-        {
-          "date": "2026-07-03",
-          "o": 255,
-          "h": 305,
-          "l": 223,
-          "c": 235
-        },
-        {
-          "date": "2026-07-06",
-          "o": 240,
-          "h": 275,
-          "l": 223,
-          "c": 235
-        },
-        {
-          "date": "2026-07-07",
-          "o": 241,
-          "h": 305,
-          "l": 241,
-          "c": 305
-        }
-      ],
-      "status_badges": [
-        {
-          "label": "상한가",
-          "severity": "hot",
-          "source": "v1_condition",
-          "view_date": "2026-07-07",
-          "summary": "모바일어플라이언스 상한가 (29.79%)",
-          "cur_prc": 305,
-          "flu_rt": 29.79,
-          "trde_qty": 8245014,
-          "trde_prica_calc": 2468000000,
-          "consecutive_count": 1,
-          "effect_badges": [
-            {
-              "effect": "limit-up",
-              "when": "today",
-              "severity": "hot",
-              "source_label": "상한가",
-              "source_kind": "limit_up",
-              "consecutive_count": 1
-            }
-          ],
-          "next_trading_day": "2026-07-08"
-        }
-      ],
-      "intraday": {
-        "step_min": 5,
-        "open": 241,
-        "base": 241,
-        "prices": [
-          241,
-          295,
-          302,
-          305,
-          305,
-          299,
-          305,
-          305,
-          305,
-          305,
-          305,
-          305,
-          305,
-          305,
-          304,
-          305,
-          305,
-          305,
-          305,
-          305,
-          305,
-          305,
-          305,
-          305,
-          305,
-          305,
-          305,
-          305,
-          305,
-          305,
-          305,
-          305,
-          305,
-          305,
-          305,
-          305,
-          305,
-          305,
-          305,
-          305,
-          305,
-          305,
-          298,
-          304,
-          305
         ]
       },
       "credit_risk": true,
@@ -1513,7 +1562,7 @@
     {
       "code": "042040",
       "name": "케이피엠테크",
-      "rank": 7,
+      "rank": 8,
       "trade_amount": 207000000,
       "change_pct": 29.87,
       "close_price": 6000,
@@ -1691,7 +1740,7 @@
           "summary": "케이피엠테크 상한가 (29.87%)",
           "cur_prc": 6000,
           "flu_rt": 29.87,
-          "trde_qty": 34576,
+          "trde_qty": 34578,
           "trde_prica_calc": 207000000,
           "consecutive_count": 1,
           "effect_badges": [
@@ -1745,6 +1794,7 @@
           6000,
           6000,
           6000,
+          6000,
           6000
         ]
       },
@@ -1757,7 +1807,7 @@
     {
       "code": "036630",
       "name": "세종텔레콤",
-      "rank": 8,
+      "rank": 9,
       "trade_amount": 83000000,
       "change_pct": 29.95,
       "close_price": 8200,
@@ -1954,7 +2004,7 @@
           "summary": "세종텔레콤 상한가 (29.95%)",
           "cur_prc": 8200,
           "flu_rt": 29.95,
-          "trde_qty": 10168,
+          "trde_qty": 10177,
           "trde_prica_calc": 83000000,
           "consecutive_count": 1,
           "effect_badges": [
@@ -1975,6 +2025,8 @@
         "open": 8200,
         "base": 8200,
         "prices": [
+          8200,
+          8200,
           8200,
           8200,
           8200,
