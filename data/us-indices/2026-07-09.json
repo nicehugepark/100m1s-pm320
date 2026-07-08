@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 25634.85,
-      "change_pct": -0.71,
+      "point": 25607.37,
+      "change_pct": -0.82,
       "candle": {
         "o": 25706.23,
         "h": 25791.19,
-        "l": 25599.51,
-        "c": 25634.85
+        "l": 25572.64,
+        "c": 25607.37
       },
       "range_240d": {
         "low": 20650.13,
@@ -2032,8 +2032,8 @@
           "date": "2026-07-08",
           "o": 25706.23,
           "h": 25791.19,
-          "l": 25599.51,
-          "c": 25634.85
+          "l": 25572.64,
+          "c": 25607.37
         }
       ],
       "spark": [
@@ -2058,7 +2058,9 @@
         25651.21,
         25635.34,
         25633.96,
-        25634.85
+        25602.48,
+        25610.72,
+        25607.37
       ],
       "news": {
         "summary": "SpaceX 첫 거래일 약세 전환, 기술주 광범위 부진 신호 점화. AI 투자 과열 우려와 관제 금리 기대감 재평가로 성장주 매력도 하락세.",
@@ -2082,13 +2084,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7440.62,
-      "change_pct": -0.84,
+      "point": 7437.9,
+      "change_pct": -0.88,
       "candle": {
         "o": 7476.54,
         "h": 7476.54,
-        "l": 7435.64,
-        "c": 7440.62
+        "l": 7430.09,
+        "c": 7437.9
       },
       "range_240d": {
         "low": 6238.01,
@@ -4111,8 +4113,8 @@
           "date": "2026-07-08",
           "o": 7476.54,
           "h": 7476.54,
-          "l": 7435.64,
-          "c": 7440.62
+          "l": 7430.09,
+          "c": 7437.9
         }
       ],
       "spark": [
@@ -4137,7 +4139,9 @@
         7445.32,
         7441.3,
         7440.94,
-        7440.62
+        7437.32,
+        7439.28,
+        7437.9
       ],
       "news": {
         "summary": "6월 고용 부진(신규 5.7만명)·구직 포기 사상 고점으로 경기 둔화 신호 급격화. 이란 제재와 유가 반등으로 물가 재상승 우려. Fed 금리 인상 논의 가열, 금리 경로 불확실성 증대 중.",
@@ -4157,13 +4161,13 @@
     },
     {
       "name": "DOW",
-      "point": 52135.61,
-      "change_pct": -1.49,
+      "point": 52172.45,
+      "change_pct": -1.42,
       "candle": {
         "o": 52758.47,
         "h": 52758.47,
-        "l": 52122.1,
-        "c": 52135.61
+        "l": 52117.4,
+        "c": 52172.45
       },
       "range_240d": {
         "low": 43588.58,
@@ -6186,8 +6190,8 @@
           "date": "2026-07-08",
           "o": 52758.47,
           "h": 52758.47,
-          "l": 52122.1,
-          "c": 52135.61
+          "l": 52117.4,
+          "c": 52172.45
         }
       ],
       "spark": [
@@ -6212,7 +6216,9 @@
         52185.41,
         52141.6,
         52136.22,
-        52135.61
+        52165.5,
+        52183.31,
+        52172.45
       ],
       "news": {
         "summary": "이란 공습·원유 제재 취소로 유가 급등, 에너지 섹터 강세 돌입. 고용 부진과 트럼프 관세 불확실성으로 경기순환주 약세 심화. JPMorgan·Bank of America 결제 시스템 개편 논의로 금융 구조 재편 신호.",
@@ -6237,145 +6243,119 @@
   ],
   "news_chips": [
     {
-      "summary": "국제통화기금이 2026년 글로벌 성장률 전망을 3.1%에서 3.0%으로 하향 조정했다",
-      "source": "WSJ경제",
+      "summary": "IMF 2026년 글로벌 성장률 3%로 하향 조정, 이란 전쟁 장기화 recession 경고 해제",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/global/imf-drops-recession-warning-in-wake-of-june-ceasefire-795f1831",
       "published_ts": 1783515600.0,
       "impact_high": true
     },
     {
-      "summary": "트럼프가 이란 휴전 종료 선언에 따라 유가 급등하고 다우지수는 하락 마감했다",
+      "summary": "미국 증시가 유가 상승에 마감 하락, 트럼프 대이란 휴전 파기 선언 이후 원유 급등",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-08-2026?mod=rss_markets_main",
       "published_ts": 1783496737.0,
       "impact_high": true
     },
     {
-      "summary": "뉴질랜드 중앙은행이 인플레 압력 대응으로 금리를 인상하며 글로벌 긴축 추세를 이어갔다",
+      "summary": "트럼프 휴전 종료 선언 후 호르무즈 인근서 미사일 교환, 중동 긴장 고조로 유가 상승 압박",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/world/middle-east/u-s-revokes-waiver-allowing-sale-of-iranian-oil-b6eb5620",
+      "published_ts": 1783481640.0,
+      "impact_high": true
+    },
+    {
+      "summary": "뉴질랜드 중앙은행이 높아진 인플레이션 압력에 대응하기 위해 금리를 인상했다.",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/new-zealands-central-bank-raises-rates-in-tentative-move-to-combat-inflation-risks-380b9758",
       "published_ts": 1783479360.0,
       "impact_high": true
     },
     {
-      "summary": "스페이스X가 나스닥-100 신규 편입 첫 거래에서 공식 시가 아래로 출발했다",
+      "summary": "삼성전자 실적 부진으로 반도체섹터 약세 심화",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/banking/jpmorgan-plans-to-target-small-company-deals-as-part-of-m-a-push-793b74f4?mod=rss_markets_main",
+      "published_ts": 1783515600.0,
+      "impact_high": false
+    },
+    {
+      "summary": "스페이스X 나스닥 상장 첫날 개장가 아래로 마감, 기술주 광폭 약세 영향",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/stocks/spacex-shares-stumble-in-nasdaq-100-debut-9ec10565?mod=rss_markets_main",
       "published_ts": 1783457100.0,
       "impact_high": false
     },
     {
-      "summary": "5월 미국 무역수지가 AI 반도체 수입 증가로 확대되었다",
-      "source": "WSJ경제",
+      "summary": "미국 무역적자 5월 확대, AI 칩 수입 증가가 주요 원인",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-grew-in-may-0434dc3f",
       "published_ts": 1783443240.0,
       "impact_high": false
     },
     {
-      "summary": "메타가 여유 컴퓨팅 용량 임차 제공을 검토하면서 빅테크의 AI 투자 과잉 신호가 부각됐다",
+      "summary": "미국 서비스업 ISM 지수 6월 54.0 유지, 경제 완만 확장 모멘텀 지속",
       "source": "WSJ",
-      "url": "https://www.wsj.com/tech/ai/will-someone-finally-blink-in-the-ai-spending-war-0f59aa60?mod=rss_markets_main",
-      "published_ts": 1783416600.0,
-      "impact_high": true
-    },
-    {
-      "summary": "이란 혁명수비대가 호르무즈 해협 인근 선박 공격을 감행하면서 원유 공급 위험과 지정학적 긴장이 고조됐다",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/irgc-fires-missiles-at-ships-in-strait-of-hormuz-c3fbadd0",
-      "published_ts": 1783410480.0,
-      "impact_high": true
-    },
-    {
-      "summary": "캐나다의 인플레 기대가 중동 분쟁으로 인한 에너지 가격 상승 전망에 따라 급등했다",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/canada-cpi-expectations-ramped-up-prior-to-u-s-iran-deal-central-bank-survey-says-faafa0ef",
-      "published_ts": 1783360620.0,
-      "impact_high": true
-    },
-    {
-      "summary": "6월 미국 서비스섹터 구매관리자지수가 예상치를 상회하며 경기 확장을 지속했다",
-      "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/u-s-services-sector-activity-continued-to-expand-in-june-ac9e724e",
       "published_ts": 1783348380.0,
       "impact_high": false
     },
     {
-      "summary": "연준 의장이 다가올 금리 인상 논의에서 중립적 입장을 유지하며 연방공개시장위원회 내 의견 불일치 가능성을 시사했다",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/interest-rates-kevin-warsh-de137876",
-      "published_ts": 1782932040.0,
+      "summary": "노동력 참가율 코로나 외 50년 최저 수준 하락, 경제 약세 신호 심화",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html",
+      "published_ts": 1783015771.0,
+      "impact_high": true
+    },
+    {
+      "summary": "6월 미국 고용 57,000건에 그쳐 기대치 115,000건 대비 크게 못미쳐 경제 약세 신호",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html",
+      "published_ts": 1783011027.0,
       "impact_high": true
     }
   ],
-  "_article_sig": "479ff93bb6f7a4bc31b120cb40d99c7ee3864c7576676cce3e808e71d2f3111a",
+  "_article_sig": "517688ebd44ea2cb0bb20d3779462626680f17881ced04de8cb525707971ca4f",
   "built_at_kst": "2026-07-08T07:02:18.091693+09:00",
   "regular_open": true,
   "_futures_news": {
     "S&P500": {
-      "summary": "지정학 리스크 급상승: 트럼프 '대이란 휴전 종료' 선언에 유가 급등 신호 심화. 6월 비농업급여 57K(기대 115K 하회)로 고용 둔화 신호 강해지는 반면, IMF 글로벌 성장 3% 하향·recession warning 해제로 거시 불확실성 상존. Fed 금리 인상 논의 본격화.",
+      "summary": "미국-이란 지정학 긴장 → 유가 급등·시장 심리 악화. 6월 고용 부진(페이롤 57K, 실업률 4.2%), 5월 무역수지 악화 등 경기 둔화 신호 강화.",
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-08-2026?mod=rss_markets_main"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/global/imf-drops-recession-warning-in-wake-of-june-ceasefire-795f1831"
-        }
-      ]
-    },
-    "NASDAQ": {
-      "summary": "SpaceX 나스닥100 상장 첫날 약세·기술주 동반 낙폭 신호. AI 인프라 과잉투자 우려 가시화: Meta 여유 컴퓨팅 임대 검토 → 빅테크 capex 포화 신호. 규제 리스크 강화: Anthropic/OpenAI 정치적 압박 심화.",
-      "sources": [
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/spacex-shares-stumble-in-nasdaq-100-debut-9ec10565?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/tech/ai/will-someone-finally-blink-in-the-ai-spending-war-0f59aa60?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/tech/ai/anthropics-political-risks-are-real-but-openais-loom-even-larger-9751791d?mod=rss_markets_main"
+          "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-grew-in-may-0434dc3f"
         }
       ]
     },
     "DOW": {
-      "summary": "고용 약세(57K 수준)로 경기민감주 다운사이드 우려. 금융 섹터 M&A 재개: JPMorgan 소형딜 진출·결제망 개편 협상 (수익화 기회). 유럽 금융 통합: UniCredit 콤머츠방크 인수 추진.",
+      "summary": "고용 부진 심화 → 실업률 4.2%, 노동 참여율 50년 최저(코로나 외), 경기민감주 약세 신호 강화. 금융권 M&A 활동(JPMorgan 소규모 딜 진출, 대형 은행 결제망 협상) 계속.",
       "sources": [
         {
           "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html"
-        },
+          "url": "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html"
+        }
+      ]
+    },
+    "NASDAQ": {
+      "summary": "미국-이란 지정학 긴장 → 유가 급등·시장 심리 악화. 6월 고용 부진(페이롤 57K, 실업률 4.2%), 5월 무역수지 악화 등 경기 둔화 신호 강화.",
+      "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/jpmorgan-plans-to-target-small-company-deals-as-part-of-m-a-push-793b74f4?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/business/unicredit-nearly-secures-majority-control-in-commerzbank-d76b290c?mod=rss_markets_main"
+          "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-grew-in-may-0434dc3f"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-07-09T00:10:07.743606+09:00",
+    "as_of_kst": "2026-07-09T00:20:07.889839+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7494.5,
-        "change_pct": -0.75,
+        "point": 7490.5,
+        "change_pct": -0.8,
         "spark": [
           7545.0,
-          7499.5,
-          7498.5,
           7500.75,
           7509.75,
           7508.0,
@@ -6413,21 +6393,23 @@
           7496.25,
           7493.25,
           7490.25,
-          7494.5
+          7489.75,
+          7485.75,
+          7490.5
         ],
         "candle": {
           "o": 7545.0,
           "h": 7563.0,
           "l": 7468.5,
-          "c": 7493.5
+          "c": 7489.5
         },
         "range_240d": {
           "low": 6264.5,
           "high": 7623.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 19.62,
-          "high_change_pct": -1.71
+          "low_change_pct": 19.55,
+          "high_change_pct": -1.76
         },
         "daily_expanded": [
           {
@@ -8443,25 +8425,17 @@
             "o": 7545.0,
             "h": 7563.0,
             "l": 7468.5,
-            "c": 7493.5,
-            "v": 680522
+            "c": 7489.5,
+            "v": 702557
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "지정학 리스크 급상승: 트럼프 '대이란 휴전 종료' 선언에 유가 급등 신호 심화. 6월 비농업급여 57K(기대 115K 하회)로 고용 둔화 신호 강해지는 반면, IMF 글로벌 성장 3% 하향·recession warning 해제로 거시 불확실성 상존. Fed 금리 인상 논의 본격화.",
+          "summary": "미국-이란 지정학 긴장 → 유가 급등·시장 심리 악화. 6월 고용 부진(페이롤 57K, 실업률 4.2%), 5월 무역수지 악화 등 경기 둔화 신호 강화.",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-08-2026?mod=rss_markets_main"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/global/imf-drops-recession-warning-in-wake-of-june-ceasefire-795f1831"
+              "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-grew-in-may-0434dc3f"
             }
           ]
         }
@@ -8469,12 +8443,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29214.5,
-        "change_pct": -0.6,
+        "point": 29186.0,
+        "change_pct": -0.7,
         "spark": [
           29373.75,
-          29091.5,
-          29089.25,
           29107.5,
           29174.25,
           29149.5,
@@ -8512,21 +8484,23 @@
           29246.5,
           29210.25,
           29183.0,
-          29214.5
+          29193.5,
+          29136.75,
+          29186.0
         ],
         "candle": {
           "o": 29373.75,
           "h": 29558.75,
           "l": 28909.75,
-          "c": 29214.5
+          "c": 29186.0
         },
         "range_240d": {
           "low": 22883.75,
           "high": 30712.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.66,
-          "high_change_pct": -4.88
+          "low_change_pct": 27.54,
+          "high_change_pct": -4.97
         },
         "daily_expanded": [
           {
@@ -10542,25 +10516,17 @@
             "o": 29373.75,
             "h": 29558.75,
             "l": 28909.75,
-            "c": 29214.5,
-            "v": 312306
+            "c": 29186.0,
+            "v": 319358
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "SpaceX 나스닥100 상장 첫날 약세·기술주 동반 낙폭 신호. AI 인프라 과잉투자 우려 가시화: Meta 여유 컴퓨팅 임대 검토 → 빅테크 capex 포화 신호. 규제 리스크 강화: Anthropic/OpenAI 정치적 압박 심화.",
+          "summary": "미국-이란 지정학 긴장 → 유가 급등·시장 심리 악화. 6월 고용 부진(페이롤 57K, 실업률 4.2%), 5월 무역수지 악화 등 경기 둔화 신호 강화.",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/spacex-shares-stumble-in-nasdaq-100-debut-9ec10565?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/tech/ai/will-someone-finally-blink-in-the-ai-spending-war-0f59aa60?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/tech/ai/anthropics-political-risks-are-real-but-openais-loom-even-larger-9751791d?mod=rss_markets_main"
+              "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-grew-in-may-0434dc3f"
             }
           ]
         }
@@ -10568,12 +10534,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52466.0,
-        "change_pct": -1.37,
+        "point": 52418.0,
+        "change_pct": -1.46,
         "spark": [
           53166.0,
-          52707.0,
-          52690.0,
           52707.0,
           52753.0,
           52768.0,
@@ -10611,21 +10575,23 @@
           52464.0,
           52465.0,
           52425.0,
-          52466.0
+          52415.0,
+          52437.0,
+          52418.0
         ],
         "candle": {
           "o": 53166.0,
           "h": 53207.0,
-          "l": 52423.0,
-          "c": 52466.0
+          "l": 52397.0,
+          "c": 52415.0
         },
         "range_240d": {
           "low": 43710.0,
           "high": 53372.0,
           "low_date": "2025-08-01",
           "high_date": "2026-07-06",
-          "low_change_pct": 20.03,
-          "high_change_pct": -1.7
+          "low_change_pct": 19.92,
+          "high_change_pct": -1.79
         },
         "daily_expanded": [
           {
@@ -12640,31 +12606,23 @@
             "date": "2026-07-08",
             "o": 53166.0,
             "h": 53207.0,
-            "l": 52423.0,
-            "c": 52466.0,
-            "v": 59065
+            "l": 52397.0,
+            "c": 52415.0,
+            "v": 60530
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "고용 약세(57K 수준)로 경기민감주 다운사이드 우려. 금융 섹터 M&A 재개: JPMorgan 소형딜 진출·결제망 개편 협상 (수익화 기회). 유럽 금융 통합: UniCredit 콤머츠방크 인수 추진.",
+          "summary": "고용 부진 심화 → 실업률 4.2%, 노동 참여율 50년 최저(코로나 외), 경기민감주 약세 신호 강화. 금융권 M&A 활동(JPMorgan 소규모 딜 진출, 대형 은행 결제망 협상) 계속.",
           "sources": [
             {
               "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/jpmorgan-plans-to-target-small-company-deals-as-part-of-m-a-push-793b74f4?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/business/unicredit-nearly-secures-majority-control-in-commerzbank-d76b290c?mod=rss_markets_main"
+              "url": "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-07-09T00:12:15.960807+09:00"
+  "intraday_refreshed_kst": "2026-07-09T00:23:02.630558+09:00"
 }
