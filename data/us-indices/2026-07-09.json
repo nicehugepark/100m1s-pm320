@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 25773.51,
-      "change_pct": -0.17,
+      "point": 25807.78,
+      "change_pct": -0.04,
       "candle": {
         "o": 25706.23,
         "h": 25856.79,
         "l": 25526.81,
-        "c": 25773.51
+        "c": 25807.78
       },
       "range_240d": {
         "low": 20650.13,
@@ -2033,13 +2033,11 @@
           "o": 25706.23,
           "h": 25856.79,
           "l": 25526.81,
-          "c": 25773.51
+          "c": 25807.78
         }
       ],
       "spark": [
         25706.23,
-        25610.72,
-        25552.25,
         25548.04,
         25570.79,
         25574.49,
@@ -2077,7 +2075,9 @@
         25805.91,
         25789.74,
         25778.99,
-        25773.51
+        25767.17,
+        25804.7,
+        25807.78
       ],
       "news": {
         "summary": "SpaceX 첫 거래일 약세 전환, 기술주 광범위 부진 신호 점화. AI 투자 과열 우려와 관제 금리 기대감 재평가로 성장주 매력도 하락세.",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7473.13,
-      "change_pct": -0.41,
+      "point": 7479.64,
+      "change_pct": -0.32,
       "candle": {
         "o": 7476.54,
         "h": 7487.41,
         "l": 7421.82,
-        "c": 7473.13
+        "c": 7479.64
       },
       "range_240d": {
         "low": 6238.01,
@@ -4131,13 +4131,11 @@
           "o": 7476.54,
           "h": 7487.41,
           "l": 7421.82,
-          "c": 7473.13
+          "c": 7479.64
         }
       ],
       "spark": [
         7476.54,
-        7439.28,
-        7427.79,
         7425.97,
         7432.86,
         7432.48,
@@ -4175,7 +4173,9 @@
         7478.87,
         7476.23,
         7474.17,
-        7473.13
+        7471.38,
+        7478.89,
+        7479.64
       ],
       "news": {
         "summary": "6월 고용 부진(신규 5.7만명)·구직 포기 사상 고점으로 경기 둔화 신호 급격화. 이란 제재와 유가 반등으로 물가 재상승 우려. Fed 금리 인상 논의 가열, 금리 경로 불확실성 증대 중.",
@@ -4195,13 +4195,13 @@
     },
     {
       "name": "DOW",
-      "point": 52347.23,
-      "change_pct": -1.09,
+      "point": 52377.89,
+      "change_pct": -1.03,
       "candle": {
         "o": 52758.47,
         "h": 52758.47,
         "l": 52069.87,
-        "c": 52347.23
+        "c": 52377.89
       },
       "range_240d": {
         "low": 43588.58,
@@ -6225,13 +6225,11 @@
           "o": 52758.47,
           "h": 52758.47,
           "l": 52069.87,
-          "c": 52347.23
+          "c": 52377.89
         }
       ],
       "spark": [
         52758.47,
-        52183.31,
-        52118.8,
         52100.75,
         52118.78,
         52095.76,
@@ -6269,7 +6267,9 @@
         52340.76,
         52354.02,
         52349.77,
-        52347.23
+        52339.23,
+        52375.94,
+        52377.89
       ],
       "news": {
         "summary": "이란 공습·원유 제재 취소로 유가 급등, 에너지 섹터 강세 돌입. 고용 부진과 트럼프 관세 불확실성으로 경기순환주 약세 심화. JPMorgan·Bank of America 결제 시스템 개편 논의로 금융 구조 재편 신호.",
@@ -6294,83 +6294,87 @@
   ],
   "news_chips": [
     {
-      "summary": "연준 관료들이 관세·유가·AI 투자로 인한 물가 상승 위험을 평가했으며 AI 확충을 지속적 인플레 압력의 원인으로 지목함",
+      "summary": "연준이 관세와 유가, AI 투자로 인한 인플레이션 위험을 고려해 금리인상 필요성을 검토했다",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/fed-officials-flagged-risks-that-would-warrant-higher-rates-6f584cba",
       "published_ts": 1783534800.0,
       "impact_high": true
     },
     {
-      "summary": "국제통화기금이 2026년 글로벌 성장 전망을 3.1%에서 3%로 하향 조정했으나 중동 장기 분쟁에 따른 세계 경기 침체 경고는 철회함",
+      "summary": "트럼프 대통령이 이란의 최근 공격으로 휴전이 끝났다고 선언하며 추가 공격을 경고했다",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/trump-says-ceasefire-with-iran-is-over-6cf9675e",
+      "published_ts": 1783533060.0,
+      "impact_high": true
+    },
+    {
+      "summary": "IMF가 2026년 글로벌 성장률 전망을 3.1%에서 3%로 하향 조정했지만 이란 경기침체 우려는 해소했다",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/global/imf-drops-recession-warning-in-wake-of-june-ceasefire-795f1831",
       "published_ts": 1783524000.0,
       "impact_high": true
     },
     {
-      "summary": "트럼프가 이란과의 휴전 종료를 선언한 후 유가가 급등하면서 미국 주식지수는 약 700포인트 하락함",
+      "summary": "트럼프의 이란 휴전 종료 선언에 유가가 급등하면서 다우지수는 600포인트 가량 하락했다",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-08-2026?mod=rss_markets_main",
       "published_ts": 1783496737.0,
       "impact_high": true
     },
     {
-      "summary": "미국이 이란의 석유 수출 허용 면제를 철회한 가운데 양국이 상호 타격을 교환하면서 호르무즈 해협 원유 공급 불안이 심화됨",
+      "summary": "미국과 이란이 미사일을 주고받으며 취약해진 휴전 협상이 추가 위협에 처했다",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/u-s-revokes-waiver-allowing-sale-of-iranian-oil-b6eb5620",
       "published_ts": 1783481640.0,
       "impact_high": true
     },
     {
-      "summary": "뉴질랜드 중앙은행이 나머지 인플레 압력에 대응하기 위해 기준금리를 인상했으며 정책 기조가 점진적으로 긴축 방향으로 전환 중임",
+      "summary": "뉴질랜드 중앙은행이 인플레이션 압력에 대응하기 위해 기준금리를 인상했다",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/new-zealands-central-bank-raises-rates-in-tentative-move-to-combat-inflation-risks-380b9758",
       "published_ts": 1783479360.0,
       "impact_high": true
     },
     {
-      "summary": "스페이스X가 나스닥-100 데뷔 첫날 첫 호가 이하로 급락하면서 광범위한 기술주 약세를 반영함",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/spacex-shares-stumble-in-nasdaq-100-debut-9ec10565?mod=rss_markets_main",
-      "published_ts": 1783457100.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국의 5월 무역 적자가 AI 부품 수입 증가로 확대되면서 미국산 수출은 3.2% 감소함",
+      "summary": "5월 AI 부품 수입 증가로 미국 무역수지가 악화되었다",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-grew-in-may-0434dc3f",
       "published_ts": 1783443240.0,
       "impact_high": false
     },
     {
-      "summary": "이란 분쟁으로 인한 에너지 비용 상승 우려가 커지면서 캐나다의 소비자 물가기대가 2분기 중 급등함",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/canada-cpi-expectations-ramped-up-prior-to-u-s-iran-deal-central-bank-survey-says-faafa0ef",
-      "published_ts": 1783360620.0,
+      "summary": "이란 혁명수비대가 호르무즈 해협의 선박을 미사일 공격하며 석유 공급 경로 위험성을 높였다",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/irgc-fires-missiles-at-ships-in-strait-of-hormuz-c3fbadd0",
+      "published_ts": 1783410480.0,
       "impact_high": true
     },
     {
-      "summary": "미국 6월 서비스업 구매관리자지수가 54를 기록해 산업 확장이 계속되고 있으나 경제 모멘텀이 다소 약화 기미를 보임",
+      "summary": "6월 미국 서비스 부문 구매관리자지수가 54로 경기 확장이 지속되고 있다",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/u-s-services-sector-activity-continued-to-expand-in-june-ac9e724e",
       "published_ts": 1783348380.0,
       "impact_high": false
     },
     {
-      "summary": "연준의장이 금리 인상 논쟁을 앞두고 입장 표명을 피했으며 다가오는 회의를 '좋은 가족 싸움'으로 표현함",
+      "summary": "유로존 실업률이 4·5월 사상 최저 수준까지 떨어지며 고용시장의 견고함을 보였다",
       "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/interest-rates-kevin-warsh-de137876",
-      "published_ts": 1782932040.0,
+      "url": "https://www.wsj.com/economy/central-banking/eurozone-unemployment-falls-back-to-record-low-1b0e6219",
+      "published_ts": 1782989820.0,
       "impact_high": true
     }
   ],
-  "_article_sig": "bd8b82fbc29a2b2453db209c963e3f749867d0667ba2b7e1e97c78dbb3b2edd4",
+  "_article_sig": "dfe92680304dd947b250e74721f2164481e0a449c39689d58466aab95f1a1fb7",
   "built_at_kst": "2026-07-08T07:02:18.091693+09:00",
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "AI 지출 전쟁 과열과 빅테크 규제 불확실성 심화 신호. 연준이 AI 투자 인플레이션 압력을 경고하는 가운데, 기술주 규제 리스크 가중.",
+      "summary": "스페이스X 나스닥100 상장 초반 약세. AI 지출 경쟁 지속으로 빅테크 변동성 확대. 정치적 리스크 심화",
       "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/spacex-shares-stumble-in-nasdaq-100-debut-9ec10565?mod=rss_markets_main"
+        },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/tech/ai/will-someone-finally-blink-in-the-ai-spending-war-0f59aa60?mod=rss_markets_main"
@@ -6378,18 +6382,14 @@
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/tech/ai/anthropics-political-risks-are-real-but-openais-loom-even-larger-9751791d?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/fed-officials-flagged-risks-that-would-warrant-higher-rates-6f584cba"
         }
       ]
     },
     "S&P500": {
-      "summary": "연준의 금리 인상 가능성 재부상 신호. 이란 휴전 파기 후 유가 급등, IMF 글로벌 성장 전망 하향, 미국 무역 적자 확대로 인플레이션·경기 불확실성 급증 국면.",
+      "summary": "연준 AI 투자의 구조적 인플레 리스크 경고(Warsh 회의). 이란 휴전 파기로 유가 급등·시장 불확실성 확대 vs IMF 장기 불황 우려 완화. 미국 서비스업 경기 지속 확장(ISM 54)·무역적자 확대(AI 부품 수입) 추세",
       "sources": [
         {
-          "name": "WSJ경제",
+          "name": "WSJ",
           "url": "https://www.wsj.com/economy/central-banking/fed-officials-flagged-risks-that-would-warrant-higher-rates-6f584cba"
         },
         {
@@ -6397,42 +6397,40 @@
           "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-08-2026?mod=rss_markets_main"
         },
         {
-          "name": "WSJ경제",
+          "name": "WSJ",
           "url": "https://www.wsj.com/economy/global/imf-drops-recession-warning-in-wake-of-june-ceasefire-795f1831"
         }
       ]
     },
     "DOW": {
-      "summary": "금융업 인수·합병 활성화 신호와 이란 긴장 고조에 따른 유가 급등 영향. 연준 금리 인상 논의로 대형주·경기순환주의 방향성 재평가 국면.",
+      "summary": "이란 휴전 협상 파기로 유가 급등·다우 낙폭(600포인트대). 지정학적 긴장 심화(이란 미사일·호르무즈 공격)로 인한 경기 불확실성 가중. 대형은행 결제망 거래 탐색·금융 M&A(UniCredit-Commerzbank) 추진 중",
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/jpmorgan-plans-to-target-small-company-deals-as-part-of-m-a-push-793b74f4?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/business/unicredit-nearly-secures-majority-control-in-commerzbank-d76b290c?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-08-2026?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/world/trump-says-ceasefire-with-iran-is-over-6cf9675e"
+        },
+        {
+          "name": "한경",
+          "url": "https://www.hankyung.com/article/2026070839147"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-07-09T03:30:13.010227+09:00",
+    "as_of_kst": "2026-07-09T03:40:07.753899+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7526.0,
-        "change_pct": -0.33,
+        "point": 7520.5,
+        "change_pct": -0.41,
         "spark": [
           7545.0,
-          7485.75,
-          7488.0,
           7476.25,
           7474.25,
           7482.0,
@@ -6470,21 +6468,23 @@
           7528.0,
           7527.0,
           7524.25,
-          7526.0
+          7521.75,
+          7519.5,
+          7520.5
         ],
         "candle": {
           "o": 7545.0,
           "h": 7563.0,
           "l": 7468.5,
-          "c": 7526.25
+          "c": 7520.75
         },
         "range_240d": {
           "low": 6264.5,
           "high": 7623.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 20.14,
-          "high_change_pct": -1.28
+          "low_change_pct": 20.05,
+          "high_change_pct": -1.35
         },
         "daily_expanded": [
           {
@@ -8500,16 +8500,16 @@
             "o": 7545.0,
             "h": 7563.0,
             "l": 7468.5,
-            "c": 7526.25,
-            "v": 1169388
+            "c": 7520.75,
+            "v": 1182824
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "연준의 금리 인상 가능성 재부상 신호. 이란 휴전 파기 후 유가 급등, IMF 글로벌 성장 전망 하향, 미국 무역 적자 확대로 인플레이션·경기 불확실성 급증 국면.",
+          "summary": "연준 AI 투자의 구조적 인플레 리스크 경고(Warsh 회의). 이란 휴전 파기로 유가 급등·시장 불확실성 확대 vs IMF 장기 불황 우려 완화. 미국 서비스업 경기 지속 확장(ISM 54)·무역적자 확대(AI 부품 수입) 추세",
           "sources": [
             {
-              "name": "WSJ경제",
+              "name": "WSJ",
               "url": "https://www.wsj.com/economy/central-banking/fed-officials-flagged-risks-that-would-warrant-higher-rates-6f584cba"
             },
             {
@@ -8517,7 +8517,7 @@
               "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-08-2026?mod=rss_markets_main"
             },
             {
-              "name": "WSJ경제",
+              "name": "WSJ",
               "url": "https://www.wsj.com/economy/global/imf-drops-recession-warning-in-wake-of-june-ceasefire-795f1831"
             }
           ]
@@ -8526,12 +8526,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29405.5,
-        "change_pct": 0.05,
+        "point": 29363.75,
+        "change_pct": -0.09,
         "spark": [
           29373.75,
-          29136.75,
-          29141.75,
           29062.0,
           29057.75,
           29105.5,
@@ -8569,21 +8567,23 @@
           29406.0,
           29411.25,
           29382.75,
-          29405.5
+          29372.75,
+          29359.0,
+          29363.75
         ],
         "candle": {
           "o": 29373.75,
           "h": 29558.75,
           "l": 28909.75,
-          "c": 29405.5
+          "c": 29363.75
         },
         "range_240d": {
           "low": 22883.75,
           "high": 30712.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 28.5,
-          "high_change_pct": -4.26
+          "low_change_pct": 28.32,
+          "high_change_pct": -4.39
         },
         "daily_expanded": [
           {
@@ -10599,14 +10599,18 @@
             "o": 29373.75,
             "h": 29558.75,
             "l": 28909.75,
-            "c": 29405.5,
-            "v": 470762
+            "c": 29363.75,
+            "v": 474548
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "AI 지출 전쟁 과열과 빅테크 규제 불확실성 심화 신호. 연준이 AI 투자 인플레이션 압력을 경고하는 가운데, 기술주 규제 리스크 가중.",
+          "summary": "스페이스X 나스닥100 상장 초반 약세. AI 지출 경쟁 지속으로 빅테크 변동성 확대. 정치적 리스크 심화",
           "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/spacex-shares-stumble-in-nasdaq-100-debut-9ec10565?mod=rss_markets_main"
+            },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/tech/ai/will-someone-finally-blink-in-the-ai-spending-war-0f59aa60?mod=rss_markets_main"
@@ -10614,10 +10618,6 @@
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/tech/ai/anthropics-political-risks-are-real-but-openais-loom-even-larger-9751791d?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/fed-officials-flagged-risks-that-would-warrant-higher-rates-6f584cba"
             }
           ]
         }
@@ -10625,12 +10625,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52628.0,
+        "point": 52629.0,
         "change_pct": -1.07,
         "spark": [
           53166.0,
-          52437.0,
-          52457.0,
           52390.0,
           52379.0,
           52399.0,
@@ -10668,13 +10666,15 @@
           52653.0,
           52628.0,
           52638.0,
-          52628.0
+          52633.0,
+          52627.0,
+          52629.0
         ],
         "candle": {
           "o": 53166.0,
           "h": 53207.0,
           "l": 52343.0,
-          "c": 52628.0
+          "c": 52629.0
         },
         "range_240d": {
           "low": 43710.0,
@@ -12698,30 +12698,30 @@
             "o": 53166.0,
             "h": 53207.0,
             "l": 52343.0,
-            "c": 52628.0,
-            "v": 80369
+            "c": 52629.0,
+            "v": 80764
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "금융업 인수·합병 활성화 신호와 이란 긴장 고조에 따른 유가 급등 영향. 연준 금리 인상 논의로 대형주·경기순환주의 방향성 재평가 국면.",
+          "summary": "이란 휴전 협상 파기로 유가 급등·다우 낙폭(600포인트대). 지정학적 긴장 심화(이란 미사일·호르무즈 공격)로 인한 경기 불확실성 가중. 대형은행 결제망 거래 탐색·금융 M&A(UniCredit-Commerzbank) 추진 중",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/jpmorgan-plans-to-target-small-company-deals-as-part-of-m-a-push-793b74f4?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/business/unicredit-nearly-secures-majority-control-in-commerzbank-d76b290c?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-08-2026?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/world/trump-says-ceasefire-with-iran-is-over-6cf9675e"
+            },
+            {
+              "name": "한경",
+              "url": "https://www.hankyung.com/article/2026070839147"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-07-09T03:32:19.026725+09:00"
+  "intraday_refreshed_kst": "2026-07-09T03:42:19.122123+09:00"
 }
