@@ -1,6 +1,6 @@
 {
   "date": "2026-07-09",
-  "generated_at": "2026-07-09T14:05:22.404772",
+  "generated_at": "2026-07-09T14:15:15.327534",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -32,9 +32,9 @@
       "code": "024060",
       "name": "흥구석유",
       "rank": 1,
-      "trade_amount": 218679000000,
-      "change_pct": 8.91,
-      "close_price": 11370,
+      "trade_amount": 221350000000,
+      "change_pct": 8.33,
+      "close_price": 11310,
       "open_price": 10660,
       "high_price": 12900,
       "low_price": 10300,
@@ -52,11 +52,11 @@
       "range_240d": {
         "high": 36200,
         "high_date": "2026-03-05",
-        "high_pct": -68.59,
+        "high_pct": -68.76,
         "low": 8920,
         "low_date": "2026-07-06",
-        "low_pct": 27.47,
-        "current": 11370
+        "low_pct": 26.79,
+        "current": 11310
       },
       "daily_20": [
         {
@@ -197,7 +197,7 @@
           "o": 10660,
           "h": 12900,
           "l": 10300,
-          "c": 11370
+          "c": 11310
         }
       ],
       "intraday": {
@@ -265,7 +265,9 @@
           11440,
           11230,
           11360,
-          11380
+          11430,
+          11360,
+          11310
         ]
       },
       "togusa_verdict": "neutral",
@@ -276,9 +278,9 @@
       "code": "477850",
       "name": "마키나락스",
       "rank": 2,
-      "trade_amount": 157396000000,
-      "change_pct": 3.32,
-      "close_price": 28000,
+      "trade_amount": 158851000000,
+      "change_pct": 2.77,
+      "close_price": 27850,
       "open_price": 26800,
       "high_price": 31400,
       "low_price": 26750,
@@ -312,11 +314,11 @@
       "range_240d": {
         "high": 83600,
         "high_date": "2026-05-22",
-        "high_pct": -66.51,
+        "high_pct": -66.69,
         "low": 13420,
         "low_date": "2026-06-24",
-        "low_pct": 108.64,
-        "current": 28000
+        "low_pct": 107.53,
+        "current": 27850
       },
       "daily_20": [
         {
@@ -457,7 +459,7 @@
           "o": 26800,
           "h": 31400,
           "l": 26750,
-          "c": 28000
+          "c": 27850
         }
       ],
       "intraday": {
@@ -525,7 +527,9 @@
           28150,
           28300,
           28150,
-          28100
+          27850,
+          27900,
+          27750
         ]
       },
       "credit_risk": true,
@@ -540,9 +544,9 @@
       "code": "058730",
       "name": "다스코",
       "rank": 3,
-      "trade_amount": 153880000000,
-      "change_pct": 1.92,
-      "close_price": 5300,
+      "trade_amount": 156858000000,
+      "change_pct": -0.19,
+      "close_price": 5190,
       "open_price": 5250,
       "high_price": 5800,
       "low_price": 4860,
@@ -640,11 +644,11 @@
       "range_240d": {
         "high": 5800,
         "high_date": "2026-07-09",
-        "high_pct": -8.62,
+        "high_pct": -10.52,
         "low": 2270,
         "low_date": "2026-06-08",
-        "low_pct": 133.48,
-        "current": 5300
+        "low_pct": 128.63,
+        "current": 5190
       },
       "daily_20": [
         {
@@ -785,7 +789,7 @@
           "o": 5250,
           "h": 5800,
           "l": 4860,
-          "c": 5300
+          "c": 5190
         }
       ],
       "intraday": {
@@ -853,7 +857,9 @@
           5390,
           5300,
           5310,
-          5270
+          5220,
+          5150,
+          5160
         ]
       },
       "togusa_verdict": "weak_bull",
@@ -864,9 +870,9 @@
       "code": "189330",
       "name": "씨이랩",
       "rank": 4,
-      "trade_amount": 80826000000,
-      "change_pct": 9.9,
-      "close_price": 13870,
+      "trade_amount": 87296000000,
+      "change_pct": 20.84,
+      "close_price": 15250,
       "open_price": 14680,
       "high_price": 16000,
       "low_price": 11800,
@@ -893,11 +899,11 @@
       "range_240d": {
         "high": 16000,
         "high_date": "2026-07-09",
-        "high_pct": -13.31,
+        "high_pct": -4.69,
         "low": 3400,
         "low_date": "2026-03-04",
-        "low_pct": 307.94,
-        "current": 13870
+        "low_pct": 348.53,
+        "current": 15250
       },
       "daily_20": [
         {
@@ -1038,7 +1044,34 @@
           "o": 14680,
           "h": 16000,
           "l": 11800,
-          "c": 13870
+          "c": 15250
+        }
+      ],
+      "status_badges": [
+        {
+          "label": "투자주의 근접",
+          "severity": "caution",
+          "source": "predicted",
+          "thresholds": [
+            {
+              "desc": "5일 전(2026-07-02) 대비 +60%↑",
+              "base_price": 9000,
+              "threshold": 14400,
+              "current": 15250,
+              "triggered": true
+            }
+          ],
+          "regulation": "KRX 시장경보 가격 조건 충족 (거래량 미검증, 자체 추정)",
+          "period_start": "2026-07-10",
+          "period_end": "2026-07-13",
+          "start": "2026-07-10",
+          "end": "2026-07-13",
+          "view_date": "2026-07-09",
+          "next_trading_day": "2026-07-10",
+          "next_trading_day_for_predicted": "2026-07-10",
+          "next_trading_day_source": "fallback_homepage",
+          "single_price": false,
+          "effect_badges": []
         }
       ],
       "intraday": {
@@ -1106,7 +1139,9 @@
           13930,
           13790,
           13870,
-          13860
+          13760,
+          14800,
+          14930
         ]
       },
       "credit_risk": true,
@@ -1119,9 +1154,9 @@
       "code": "214330",
       "name": "금호에이치티",
       "rank": 5,
-      "trade_amount": 61268000000,
-      "change_pct": 16.83,
-      "close_price": 10550,
+      "trade_amount": 63089000000,
+      "change_pct": 16.72,
+      "close_price": 10540,
       "open_price": 9840,
       "high_price": 11530,
       "low_price": 7800,
@@ -1147,11 +1182,11 @@
       "range_240d": {
         "high": 20973,
         "high_date": "2025-07-04",
-        "high_pct": -49.7,
+        "high_pct": -49.74,
         "low": 6220,
         "low_date": "2026-07-08",
-        "low_pct": 69.61,
-        "current": 10550
+        "low_pct": 69.45,
+        "current": 10540
       },
       "daily_20": [
         {
@@ -1292,7 +1327,7 @@
           "o": 9840,
           "h": 11530,
           "l": 7800,
-          "c": 10550
+          "c": 10540
         }
       ],
       "intraday": {
@@ -1360,7 +1395,9 @@
           10880,
           10680,
           10510,
-          10490
+          10690,
+          10650,
+          10590
         ]
       },
       "credit_risk": true,
@@ -1373,9 +1410,9 @@
       "code": "028300",
       "name": "HLB",
       "rank": 6,
-      "trade_amount": 55330000000,
-      "change_pct": 4.39,
-      "close_price": 52300,
+      "trade_amount": 56551000000,
+      "change_pct": 3.99,
+      "close_price": 52100,
       "open_price": 50600,
       "high_price": 54900,
       "low_price": 49500,
@@ -1410,11 +1447,11 @@
       "range_240d": {
         "high": 69200,
         "high_date": "2026-01-28",
-        "high_pct": -24.42,
+        "high_pct": -24.71,
         "low": 36150,
         "low_date": "2025-10-13",
-        "low_pct": 44.67,
-        "current": 52300
+        "low_pct": 44.12,
+        "current": 52100
       },
       "daily_20": [
         {
@@ -1555,7 +1592,7 @@
           "o": 50600,
           "h": 54900,
           "l": 49500,
-          "c": 52300
+          "c": 52100
         }
       ],
       "intraday": {
@@ -1623,7 +1660,9 @@
           52400,
           52400,
           52400,
-          52200
+          52100,
+          51900,
+          52000
         ]
       },
       "credit_risk": true,
@@ -1636,7 +1675,7 @@
       "code": "263800",
       "name": "데이타솔루션",
       "rank": 7,
-      "trade_amount": 42606000000,
+      "trade_amount": 42614000000,
       "change_pct": 29.97,
       "close_price": 7720,
       "open_price": 7720,
@@ -1860,8 +1899,8 @@
           "summary": "데이타솔루션 상한가 (29.97%)",
           "cur_prc": 7720,
           "flu_rt": 29.97,
-          "trde_qty": 5939983,
-          "trde_prica_calc": 42606000000,
+          "trde_qty": 5941014,
+          "trde_prica_calc": 42614000000,
           "consecutive_count": 2,
           "effect_badges": [
             {
@@ -1941,6 +1980,7 @@
           7720,
           7720,
           7720,
+          7720,
           7720
         ]
       },
@@ -1952,7 +1992,7 @@
       "code": "003680",
       "name": "한성기업",
       "rank": 8,
-      "trade_amount": 18930000000,
+      "trade_amount": 19003000000,
       "change_pct": 29.94,
       "close_price": 6510,
       "open_price": 5170,
@@ -2131,8 +2171,8 @@
           "summary": "한성기업 상한가 (29.94%)",
           "cur_prc": 6510,
           "flu_rt": 29.94,
-          "trde_qty": 3129695,
-          "trde_prica_calc": 18930000000,
+          "trde_qty": 3140786,
+          "trde_prica_calc": 19003000000,
           "consecutive_count": 1,
           "effect_badges": [
             {
@@ -2212,6 +2252,8 @@
           6510,
           6510,
           6510,
+          6510,
+          6510,
           6510
         ]
       },
@@ -2225,7 +2267,7 @@
       "code": "007390",
       "name": "네이처셀",
       "rank": 9,
-      "trade_amount": 15063000000,
+      "trade_amount": 15070000000,
       "change_pct": 29.89,
       "close_price": 28250,
       "open_price": 22150,
@@ -2405,8 +2447,8 @@
           "summary": "네이처셀 상한가 (29.89%)",
           "cur_prc": 28250,
           "flu_rt": 29.89,
-          "trde_qty": 592109,
-          "trde_prica_calc": 15063000000,
+          "trde_qty": 592360,
+          "trde_prica_calc": 15070000000,
           "consecutive_count": 1,
           "effect_badges": [
             {
@@ -2442,6 +2484,9 @@
           25900,
           27500,
           27600,
+          28250,
+          28250,
+          28250,
           28250,
           28250,
           28250,
@@ -2681,7 +2726,7 @@
           "summary": "라이콤 상한가 (29.93%)",
           "cur_prc": 4905,
           "flu_rt": 29.93,
-          "trde_qty": 1573706,
+          "trde_qty": 1573812,
           "trde_prica_calc": 7273000000,
           "consecutive_count": 1,
           "effect_badges": [
@@ -2762,6 +2807,7 @@
           4905,
           4905,
           4905,
+          4905,
           4905
         ]
       },
@@ -2775,7 +2821,7 @@
       "code": "303530",
       "name": "이노뎁",
       "rank": 11,
-      "trade_amount": 1288000000,
+      "trade_amount": 1289000000,
       "change_pct": 29.84,
       "close_price": 3590,
       "open_price": 2995,
@@ -2971,8 +3017,8 @@
           "summary": "이노뎁 상한가 (29.84%)",
           "cur_prc": 3590,
           "flu_rt": 29.84,
-          "trde_qty": 361958,
-          "trde_prica_calc": 1288000000,
+          "trde_qty": 362061,
+          "trde_prica_calc": 1289000000,
           "consecutive_count": 1,
           "effect_badges": [
             {
@@ -2993,6 +3039,9 @@
         "base": 2995,
         "prices": [
           2995,
+          3590,
+          3590,
+          3590,
           3590,
           3590,
           3590,
