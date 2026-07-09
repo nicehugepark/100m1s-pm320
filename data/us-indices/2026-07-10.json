@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26175.89,
-      "change_pct": 1.18,
+      "point": 26183.4,
+      "change_pct": 1.21,
       "candle": {
         "o": 25920.7,
-        "h": 26175.89,
+        "h": 26184.61,
         "l": 25826.67,
-        "c": 26175.89
+        "c": 26183.4
       },
       "range_240d": {
         "low": 20650.13,
@@ -2031,15 +2031,13 @@
         {
           "date": "2026-07-09",
           "o": 25920.7,
-          "h": 26175.89,
+          "h": 26184.61,
           "l": 25826.67,
-          "c": 26175.89
+          "c": 26183.4
         }
       ],
       "spark": [
         25920.7,
-        25997.16,
-        25956.71,
         25867.25,
         25894.35,
         25948.99,
@@ -2077,7 +2075,9 @@
         26142.89,
         26155.78,
         26173.19,
-        26175.89
+        26171.23,
+        26183.85,
+        26183.4
       ],
       "news": {
         "summary": "반도체 부문의 가격 경쟁 심화(일라피더스 vs TSMC). AI 규제 리스크 재점화(Anthropic/OpenAI 정치적 압박) 및 AI 인프라 투자 과잉 우려로 성장주 수익성 압박 신호 확산",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7543.06,
-      "change_pct": 0.81,
+      "point": 7544.76,
+      "change_pct": 0.83,
       "candle": {
         "o": 7491.6,
-        "h": 7543.06,
+        "h": 7544.97,
         "l": 7481.73,
-        "c": 7543.06
+        "c": 7544.76
       },
       "range_240d": {
         "low": 6238.01,
@@ -4129,15 +4129,13 @@
         {
           "date": "2026-07-09",
           "o": 7491.6,
-          "h": 7543.06,
+          "h": 7544.97,
           "l": 7481.73,
-          "c": 7543.06
+          "c": 7544.76
         }
       ],
       "spark": [
         7491.6,
-        7507.3,
-        7502.85,
         7488.36,
         7495.24,
         7506.34,
@@ -4175,7 +4173,9 @@
         7538.1,
         7539.17,
         7542.26,
-        7543.06
+        7541.81,
+        7544.84,
+        7544.76
       ],
       "news": {
         "summary": "연준의 금리 인상 재검토 신호 가시화(FOMC 의사록에서 금리 인상 위험 지적). 미국 고용 악화(6월 페이롤 57,000명, 기대치 115,000명)로 노동시장 약세 심화. 중국 PPI 가속화·캐나다 CPI 기대치 상승 등 글로벌 인플레이션 압력 지속. 이란 갈등 재개에 따른 유가 급등 및 Peace Trade 붕괴로 매크로 불확실성 급증",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 52512.44,
-      "change_pct": 0.31,
+      "point": 52530.5,
+      "change_pct": 0.35,
       "candle": {
         "o": 52249.44,
         "h": 52574.89,
         "l": 52249.44,
-        "c": 52512.44
+        "c": 52530.5
       },
       "range_240d": {
         "low": 43588.58,
@@ -6229,13 +6229,11 @@
           "o": 52249.44,
           "h": 52574.89,
           "l": 52249.44,
-          "c": 52512.44
+          "c": 52530.5
         }
       ],
       "spark": [
         52249.44,
-        52425.59,
-        52436.78,
         52360.57,
         52375.01,
         52443.77,
@@ -6273,7 +6271,9 @@
         52508.36,
         52495.47,
         52506.1,
-        52512.44
+        52498.96,
+        52532.08,
+        52530.5
       ],
       "news": {
         "summary": "금융 부문의 대형 인수합병 활발화(JPMorgan 중소기업 딜·UniCredit의 Commerzbank 인수). 고용 악화로 경기민감주 약세 신호 심화. 이란 갈등 재개에 따른 유가 급등으로 에너지·금융 부문 변동성 급증. 금융사 소송·규제 리스크 노출 지속",
@@ -6298,82 +6298,82 @@
   ],
   "news_chips": [
     {
-      "summary": "뉴욕 연준 총재는 현 인플레이션 수준이 과도하며 에너지 가격 하락을 기대한다고 밝혔다.",
-      "source": "WSJ경제",
+      "summary": "연준 뉴욕지점 총재가 현재 인플레이션이 목표 이상이며 향후 에너지 가격 하락을 기대한다고 표명했다.",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/central-banking/feds-williams-says-inflation-still-too-high-expects-retreat-in-energy-prices-5b7a84ed",
       "published_ts": 1783612800.0,
       "impact_high": true
     },
     {
-      "summary": "미국의 노동 참가율이 코로나 제외 50년 최저로 내려가며 고용 시장 악화가 심화되고 있다.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html",
-      "published_ts": 1783607009.0,
-      "impact_high": true
-    },
-    {
-      "summary": "유럽 중앙은행이 에너지 가격 상승으로 인한 인플레이션 압력을 공식 금리 결정에 반영했다.",
-      "source": "WSJ경제",
+      "summary": "유럽중앙은행이 6월 금리 결정 당시 에너지 가격 상승의 중기 인플레 목표 돌파 위험을 검토했다.",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/central-banking/ecb-officials-couldnt-look-through-energy-shock-in-june-11cdd05f",
       "published_ts": 1783606260.0,
       "impact_high": true
     },
     {
-      "summary": "미국의 원유 재고가 위험 수준으로 떨어지는 상황에서 중동 휴전 종료로 공급 차질 우려가 심화되고 있다.",
+      "summary": "미국 신규 실직 신청이 21만 5천 건으로 감소했으나 50년 만에 낮은 노동참가율이 고용시장 약세를 드러냈다.",
       "source": "WSJ",
-      "url": "https://www.wsj.com/finance/commodities-futures/the-global-oil-market-isnt-ready-for-the-iran-ceasefire-to-end-3a4a7ec5?mod=rss_markets_main",
-      "published_ts": 1783601820.0,
+      "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-edged-lower-last-week-f35e8718",
+      "published_ts": 1783602540.0,
       "impact_high": true
     },
     {
-      "summary": "중국은 소비자 물가 약화 속 생산자 물가가 4년 근처 고점에 올라 수출-내수의 양극화가 심화되고 있다.",
+      "summary": "독일 수출이 0.9% 증가하며 이란 분쟁 불확실성에도 미국 수요가 경기를 지탱했다.",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/trade/german-exports-rise-shrugging-off-iran-war-concerns-16c47883",
+      "published_ts": 1783585320.0,
+      "impact_high": true
+    },
+    {
+      "summary": "중국의 6월 소비자 물가는 둔화되었으나 생산자 물가는 4년 고점 수준까지 상승하는 수출·수입 이중 구조가 심화됐다.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/09/china-cpi-ppi-june-inflation-iran-war-.html",
       "published_ts": 1783564297.0,
       "impact_high": true
     },
     {
-      "summary": "연준은 관세·유가·AI 투자로 인한 인플레이션 압력을 고려하며 지난달 금리 인상을 검토했다.",
-      "source": "WSJ경제",
+      "summary": "연준 고위층이 관세·에너지·AI 투자로 인한 인플레이션 위험을 점검하며 금리 인상 필요성을 모색했다.",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/central-banking/fed-officials-flagged-risks-that-would-warrant-higher-rates-6f584cba",
       "published_ts": 1783538760.0,
       "impact_high": true
     },
     {
-      "summary": "미국 주택 판매가 5월 강세 이후 6월 예상 외로 2.4% 감소했다.",
-      "source": "WSJ경제",
+      "summary": "미국 주택판매가 6월에 2.4% 감소하며 봄 판매 시즌이 약세로 마감했다.",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/housing/spring-home-selling-season-ends-on-a-bad-note-a81071a0",
       "published_ts": 1783605600.0,
       "impact_high": false
     },
     {
-      "summary": "중동 분쟁 재개로 유가가 5월 이후 최대 상승률을 기록하자 다우지수가 하락했다.",
+      "summary": "미-이란 교전 재개로 유가가 5월 이후 최대 상승폭을 기록하며 에너지·정유 섹터를 부양했다.",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/stocks/wall-streets-peace-trade-collides-with-renewed-iran-fighting-86b83d67?mod=rss_markets_main",
       "published_ts": 1783551600.0,
       "impact_high": false
     },
     {
-      "summary": "메타의 여유 컴퓨팅 자원 임대 계획이 추진되면서 빅테크의 AI 인프라 과잉 건설 우려가 부각되고 있다.",
+      "summary": "국제통화기금이 2026년 글로벌 성장률을 3%로 소폭 하향 조정하면서 장기 중동 분쟁에 따른 경기 침체 위험은 완화 평가했다.",
       "source": "WSJ",
-      "url": "https://www.wsj.com/tech/ai/will-someone-finally-blink-in-the-ai-spending-war-0f59aa60?mod=rss_markets_main",
-      "published_ts": 1783416600.0,
+      "url": "https://www.wsj.com/economy/global/imf-drops-recession-warning-in-wake-of-june-ceasefire-795f1831",
+      "published_ts": 1783524000.0,
       "impact_high": true
     },
     {
-      "summary": "6월 미국 신규 일자리가 5만 7천 개에 그쳐 고용 시장 약화 신호를 보였다.",
+      "summary": "미국 실업률이 4.2%로 개선되었으나 6월 고용 증가가 5만 7천 명으로 급감해 노동시장 냉각 신호를 보였다.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html",
       "published_ts": 1783011027.0,
       "impact_high": true
     }
   ],
-  "_article_sig": "d212dac5057cf2e71e24648c57c79afa00e23406095d230aa49f95328e45a809",
+  "_article_sig": "d52ee0e1014f934b3db07ce183bd49100b4881c5f95cb7b80d22041c1ad73906",
   "built_at_kst": "2026-07-09T17:09:56.779616+09:00",
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "나스닥 AI 트레이드 복귀세. 빅테크 성장주 매수 가속화 대비 메타 컴퓨팅 과잉공급 우려·규제 리스크 양면.",
+      "summary": "AI 펀딩 열풍 지속에 나스닥100 선물 강세. 빅테크 매수세 흡수, 정책 리스크 우려 속 상승 동조 중.",
       "sources": [
         {
           "name": "WSJ",
@@ -6381,62 +6381,60 @@
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/tech/ai/anthropics-political-risks-are-real-but-openais-loom-even-larger-9751791d?mod=rss_markets_main"
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-09-2026?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-09-2026?mod=rss_markets_main"
+          "url": "https://www.wsj.com/tech/ai/anthropics-political-risks-are-real-but-openais-loom-even-larger-9751791d?mod=rss_markets_main"
         }
       ]
     },
     "S&P500": {
-      "summary": "이란 갈등 재개로 유가 급등. 연준 인플레이션 우려 재부상. 노동시장 약화(비참여율 50년 저점) 속 정책 결정 복잡화.",
+      "summary": "연준 인플레이션 지속 우려 + 이란 유사태 재발화로 에너지가격 급등, 매크로 리스크 점증. 고용 둔화·부동산 약세 신호로 경기 부담 심화 중.",
       "sources": [
         {
-          "name": "WSJ",
+          "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/feds-williams-says-inflation-still-too-high-expects-retreat-in-energy-prices-5b7a84ed"
         },
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html"
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/fed-officials-flagged-risks-that-would-warrant-higher-rates-6f584cba"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/wall-streets-peace-trade-collides-with-renewed-iran-fighting-86b83d67?mod=rss_markets_main"
+          "url": "https://www.wsj.com/finance/commodities-futures/the-global-oil-market-isnt-ready-for-the-iran-ceasefire-to-end-3a4a7ec5?mod=rss_markets_main"
         }
       ]
     },
     "DOW": {
-      "summary": "금융 M&A 활발화(UniCredit·JPMorgan). 주거용부동산 악화 신호. 경기민감주 수익성 감소 국면 배당주 상대적 우위.",
+      "summary": "이란 유사태 재발화에 경기민감주 약세 심화. 유가 급등·항공업 실적 불확실성·금융 부문 리스크 동시 표면화, 전통주 매도세 지속.",
       "sources": [
         {
           "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/wall-streets-peace-trade-collides-with-renewed-iran-fighting-86b83d67?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/airline-earnings-are-cleared-for-takeoff-a9589e8b?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
           "url": "https://www.wsj.com/finance/banking/how-andrea-orcel-did-an-end-run-around-germany-to-build-a-banking-giant-d460ffb1?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/jpmorgan-plans-to-target-small-company-deals-as-part-of-m-a-push-793b74f4?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/economy/housing/spring-home-selling-season-ends-on-a-bad-note-a81071a0"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-07-10T02:20:07.459671+09:00",
+    "as_of_kst": "2026-07-10T02:30:07.262714+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7586.5,
-        "change_pct": 0.77,
+        "point": 7592.0,
+        "change_pct": 0.84,
         "spark": [
           7517.25,
-          7561.0,
-          7553.75,
           7549.25,
           7536.5,
           7543.0,
@@ -6474,21 +6472,23 @@
           7582.5,
           7586.75,
           7587.25,
-          7586.5
+          7590.75,
+          7590.0,
+          7592.0
         ],
         "candle": {
           "o": 7517.25,
-          "h": 7587.75,
+          "h": 7592.25,
           "l": 7516.25,
-          "c": 7586.25
+          "c": 7591.5
         },
         "range_240d": {
           "low": 6264.5,
           "high": 7623.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 21.1,
-          "high_change_pct": -0.49
+          "low_change_pct": 21.18,
+          "high_change_pct": -0.42
         },
         "daily_expanded": [
           {
@@ -8502,27 +8502,27 @@
           {
             "date": "2026-07-09",
             "o": 7517.25,
-            "h": 7587.75,
+            "h": 7592.25,
             "l": 7516.25,
-            "c": 7586.25,
-            "v": 720994
+            "c": 7591.5,
+            "v": 736762
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "이란 갈등 재개로 유가 급등. 연준 인플레이션 우려 재부상. 노동시장 약화(비참여율 50년 저점) 속 정책 결정 복잡화.",
+          "summary": "연준 인플레이션 지속 우려 + 이란 유사태 재발화로 에너지가격 급등, 매크로 리스크 점증. 고용 둔화·부동산 약세 신호로 경기 부담 심화 중.",
           "sources": [
             {
-              "name": "WSJ",
+              "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/feds-williams-says-inflation-still-too-high-expects-retreat-in-energy-prices-5b7a84ed"
             },
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html"
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/fed-officials-flagged-risks-that-would-warrant-higher-rates-6f584cba"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/wall-streets-peace-trade-collides-with-renewed-iran-fighting-86b83d67?mod=rss_markets_main"
+              "url": "https://www.wsj.com/finance/commodities-futures/the-global-oil-market-isnt-ready-for-the-iran-ceasefire-to-end-3a4a7ec5?mod=rss_markets_main"
             }
           ]
         }
@@ -8530,12 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29942.25,
-        "change_pct": 1.61,
+        "point": 29985.5,
+        "change_pct": 1.75,
         "spark": [
           29412.0,
-          29911.25,
-          29850.75,
           29802.75,
           29692.0,
           29710.25,
@@ -8573,21 +8571,23 @@
           29919.0,
           29942.25,
           29954.25,
-          29942.25
+          29981.25,
+          29979.25,
+          29985.5
         ],
         "candle": {
           "o": 29412.0,
-          "h": 29949.0,
+          "h": 29986.75,
           "l": 29395.0,
-          "c": 29942.25
+          "c": 29984.75
         },
         "range_240d": {
           "low": 22883.75,
           "high": 30712.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 30.85,
-          "high_change_pct": -2.51
+          "low_change_pct": 31.03,
+          "high_change_pct": -2.37
         },
         "daily_expanded": [
           {
@@ -10601,15 +10601,15 @@
           {
             "date": "2026-07-09",
             "o": 29412.0,
-            "h": 29949.0,
+            "h": 29986.75,
             "l": 29395.0,
-            "c": 29942.25,
-            "v": 343684
+            "c": 29984.75,
+            "v": 351022
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "나스닥 AI 트레이드 복귀세. 빅테크 성장주 매수 가속화 대비 메타 컴퓨팅 과잉공급 우려·규제 리스크 양면.",
+          "summary": "AI 펀딩 열풍 지속에 나스닥100 선물 강세. 빅테크 매수세 흡수, 정책 리스크 우려 속 상승 동조 중.",
           "sources": [
             {
               "name": "WSJ",
@@ -10617,11 +10617,11 @@
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/tech/ai/anthropics-political-risks-are-real-but-openais-loom-even-larger-9751791d?mod=rss_markets_main"
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-09-2026?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-09-2026?mod=rss_markets_main"
+              "url": "https://www.wsj.com/tech/ai/anthropics-political-risks-are-real-but-openais-loom-even-larger-9751791d?mod=rss_markets_main"
             }
           ]
         }
@@ -10629,12 +10629,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52806.0,
-        "change_pct": 0.35,
+        "point": 52804.0,
+        "change_pct": 0.34,
         "spark": [
           52541.0,
-          52686.0,
-          52698.0,
           52713.0,
           52647.0,
           52665.0,
@@ -10672,13 +10670,15 @@
           52800.0,
           52801.0,
           52788.0,
-          52806.0
+          52797.0,
+          52793.0,
+          52804.0
         ],
         "candle": {
           "o": 52541.0,
           "h": 52865.0,
           "l": 52501.0,
-          "c": 52806.0
+          "c": 52804.0
         },
         "range_240d": {
           "low": 43710.0,
@@ -12702,30 +12702,30 @@
             "o": 52541.0,
             "h": 52865.0,
             "l": 52501.0,
-            "c": 52806.0,
-            "v": 46787
+            "c": 52804.0,
+            "v": 47400
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "금융 M&A 활발화(UniCredit·JPMorgan). 주거용부동산 악화 신호. 경기민감주 수익성 감소 국면 배당주 상대적 우위.",
+          "summary": "이란 유사태 재발화에 경기민감주 약세 심화. 유가 급등·항공업 실적 불확실성·금융 부문 리스크 동시 표면화, 전통주 매도세 지속.",
           "sources": [
             {
               "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/wall-streets-peace-trade-collides-with-renewed-iran-fighting-86b83d67?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/airline-earnings-are-cleared-for-takeoff-a9589e8b?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
               "url": "https://www.wsj.com/finance/banking/how-andrea-orcel-did-an-end-run-around-germany-to-build-a-banking-giant-d460ffb1?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/jpmorgan-plans-to-target-small-company-deals-as-part-of-m-a-push-793b74f4?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/economy/housing/spring-home-selling-season-ends-on-a-bad-note-a81071a0"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-07-10T02:20:12.739499+09:00"
+  "intraday_refreshed_kst": "2026-07-10T02:31:51.780800+09:00"
 }
