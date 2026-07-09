@@ -16,7 +16,12 @@
     const N = daily20.length;
     const W = 110, H = 32, PAD_X = 4, PAD_Y = 2;
     const slot = (W - 2 * PAD_X) / N;
-    const bodyW = Math.max(1.5, slot * 0.7);
+    // 데이터 부족(N 매우 적음, 특히 당일 scrape 실패로 1건)일 때 slot*0.7 이 셀 폭을
+    // 가득 채우는 거대 body 방지 — 상한 cap. cap=15px 는 정상 캔들(N=5 slot*0.7=14.3px)
+    // 이상에서만 발동(N<5 억제) → N>=5 종목 동작 100% 보존. FLR: 2026-07-09 데이터 부족
+    // graceful(대표 catch: 마키나락스 71px 거대 빨간블록, kiwoom rc=4 3h 데이터 공백 근원).
+    const BODY_W_MAX = 15;
+    const bodyW = Math.min(BODY_W_MAX, Math.max(1.5, slot * 0.7));
     const lows = daily20.map(d => d.l).filter(v => v > 0);
     const highs = daily20.map(d => d.h).filter(v => v > 0);
     if (!lows.length || !highs.length) return '';
