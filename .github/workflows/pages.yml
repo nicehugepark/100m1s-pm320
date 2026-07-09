@@ -1,0 +1,39 @@
+name: Deploy to GitHub Pages
+
+# 근원 수정 (2026-07-09): legacy branch-auto 배포가 cron 분당 push에 concurrency로 계속
+# cancel → status errored → 라이브 픽 영영 미반영. Actions + cancel-in-progress:false 로
+# 전환해 cron push해도 배포가 취소되지 않고 순차 완료(큐잉)되게 한다. DOC-20260709 근원.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 🔴 핵심: 이전 배포를 취소하지 않고 큐잉 (cron push 폭주 시에도 순차 완료 보장)
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
