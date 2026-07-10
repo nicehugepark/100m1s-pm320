@@ -1,6 +1,6 @@
 {
   "date": "2026-07-10",
-  "generated_at": "2026-07-10T09:45:10.277982",
+  "generated_at": "2026-07-10T09:46:12.096185",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -339,7 +339,7 @@
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03247206645512880",
           "source": "이데일리",
           "published_at": "2026-07-09T00:39:28",
-          "causal_chain": null,
+          "causal_chain": "",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -355,7 +355,7 @@
           "url": "https://biz.chosun.com/stock/stock_general/2026/07/08/VMG5YIBDOZGFLNPS7YHWM7GQUQ/",
           "source": "조선비즈",
           "published_at": "2026-07-08T00:28:50",
-          "causal_chain": null,
+          "causal_chain": "",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -368,15 +368,12 @@
         }
       ],
       "fallback": true,
-      "cafe_themes": [
-        "AI"
-      ],
       "theme_crosscheck": {
-        "confirmed": [],
-        "pm320_only": [],
-        "cafe_only": [
+        "confirmed": [
           "AI"
-        ]
+        ],
+        "pm320_only": [],
+        "cafe_only": []
       },
       "range_240d": {
         "high": 8490,
@@ -557,7 +554,12 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "투자경고"
+      "credit_reason": "투자경고",
+      "togusa_verdict": "weak_bull",
+      "theme_leader": true,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "017900",
@@ -606,7 +608,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "069540",
@@ -825,9 +830,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "neutral",
+      "togusa_verdict": "weak_bear",
       "theme_leader": false,
-      "hugepark_grade": "관찰"
+      "hugepark_grade": "주의"
     },
     {
       "code": "003680",
