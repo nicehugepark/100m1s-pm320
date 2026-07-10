@@ -1,6 +1,6 @@
 {
   "date": "2026-07-10",
-  "generated_at": "2026-07-10T09:15:10.919033",
+  "generated_at": "2026-07-10T09:15:16.183624",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -304,7 +304,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": false,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "007610",
@@ -319,20 +322,20 @@
       "industry": null,
       "sector": null,
       "themes": [
-        "신규상장",
-        "전력설비"
+        "전력설비",
+        "신규상장"
       ],
       "theme_paths": [
-        {
-          "name": "신규상장",
-          "path": [
-            "신규상장"
-          ]
-        },
         {
           "name": "전력설비",
           "path": [
             "전력설비"
+          ]
+        },
+        {
+          "name": "신규상장",
+          "path": [
+            "신규상장"
           ]
         }
       ],
@@ -347,17 +350,14 @@
       ],
       "news": [],
       "fallback": true,
-      "cafe_themes": [
-        "전력설비"
-      ],
       "theme_crosscheck": {
-        "confirmed": [],
+        "confirmed": [
+          "전력설비"
+        ],
         "pm320_only": [
           "신규상장"
         ],
-        "cafe_only": [
-          "전력설비"
-        ]
+        "cafe_only": []
       },
       "range_240d": {
         "high": 16590,
@@ -536,7 +536,12 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "226330",
@@ -736,7 +741,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     }
   ]
 }
