@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26187.12,
-      "change_pct": -0.08,
+      "point": 26189.51,
+      "change_pct": -0.07,
       "candle": {
         "o": 26174.24,
         "h": 26258.17,
         "l": 26012.05,
-        "c": 26187.12
+        "c": 26189.51
       },
       "range_240d": {
         "low": 20650.13,
@@ -2033,7 +2033,7 @@
           "o": 26174.24,
           "h": 26258.17,
           "l": 26012.05,
-          "c": 26187.12
+          "c": 26189.51
         }
       ],
       "spark": [
@@ -2064,7 +2064,9 @@
         26221.1,
         26226.04,
         26187.32,
-        26187.12
+        26156.41,
+        26188.62,
+        26189.51
       ],
       "news": {
         "summary": "반도체주·AI 관련주 강세로 기술주 랠리 전개. SK Hynix 딜 체결 등 메모리반도체 M&A 활성화 중이며, AI 투자 열풍 지속에 따른 빅테크 실적 기대감 제고. 이란 갈등에도 불구하고 칩 트레이드 우위로 낙관론 유지.",
@@ -2088,13 +2090,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7549.55,
-      "change_pct": 0.08,
+      "point": 7551.38,
+      "change_pct": 0.1,
       "candle": {
         "o": 7547.64,
         "h": 7560.4,
         "l": 7508.16,
-        "c": 7549.55
+        "c": 7551.38
       },
       "range_240d": {
         "low": 6238.01,
@@ -4118,7 +4120,7 @@
           "o": 7547.64,
           "h": 7560.4,
           "l": 7508.16,
-          "c": 7549.55
+          "c": 7551.38
         }
       ],
       "spark": [
@@ -4149,7 +4151,9 @@
         7558.73,
         7556.41,
         7550.2,
-        7549.55
+        7546.55,
+        7551.12,
+        7551.38
       ],
       "news": {
         "summary": "이란 갈등 격화로 유가 급등 및 에너지 인플레이션 심화 우려. 연준은 금리인상 위험성 지속 검토 중이며, 6월 고용통계 부진(창출 57,000명)과 노동력 참가율 50년 저점 기록으로 경기 둔화 신호 확산. 글로벌 중앙은행들도 금리 현 수준 유지 기조로 전환, 에너지 쇠크 파급 불가피.",
@@ -4173,13 +4177,13 @@
     },
     {
       "name": "DOW",
-      "point": 52577.6,
+      "point": 52579.16,
       "change_pct": 0.17,
       "candle": {
         "o": 52622.92,
         "h": 52654.66,
         "l": 52266.81,
-        "c": 52577.6
+        "c": 52579.16
       },
       "range_240d": {
         "low": 43588.58,
@@ -6203,7 +6207,7 @@
           "o": 52622.92,
           "h": 52654.66,
           "l": 52266.81,
-          "c": 52577.6
+          "c": 52579.16
         }
       ],
       "spark": [
@@ -6234,7 +6238,9 @@
         52628.39,
         52605.08,
         52582.72,
-        52577.6
+        52600.73,
+        52580.03,
+        52579.16
       ],
       "news": {
         "summary": "금융주 M&A 활동 활발 (JPMorgan 중소기업 목표, UniCredit-Commerzbank 인수전 진행). 항공사·담배·주류 등 경기민감주들이 이란 전쟁·관세 불확실성에 촉각. 독일 수출 호조도 지정학 리스크와 무역전쟁 우려로 경기순환주 약세 지속 예상.",
@@ -6259,99 +6265,95 @@
   ],
   "news_chips": [
     {
-      "summary": "뉴욕 연준 총재, 인플레 고착·에너지가격 추가 상승 우려로 정책 기조 신호",
+      "summary": "뉴욕 연준 총재가 인플레이션 수준이 여전히 높다고 평가하고 에너지 가격 하락을 기대했다",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/feds-williams-says-inflation-still-too-high-expects-retreat-in-energy-prices-5b7a84ed",
       "published_ts": 1783612800.0,
       "impact_high": true
     },
     {
-      "summary": "중국, 헬륨 수출 일시 금지로 반도체 공급망 차질 우려 발생",
-      "source": "한경",
+      "summary": "기술주 변동성 지수가 급등했으며, SK 하이닉스 상장을 앞두고 시장 심리 불안이 이어지고 있다",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/stocks/tech-stock-jitters-just-went-off-the-charts-7fb7ddc3?mod=rss_markets_main",
+      "published_ts": 1783679520.0,
+      "impact_high": false
+    },
+    {
+      "summary": "중국이 반도체 핵심 소재인 헬륨 수출을 즉시 금지하면서 첨단 산업 공급망 차단 우려가 고조되었다",
+      "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026071087037",
       "published_ts": 1783676087.0,
       "impact_high": false
     },
     {
-      "summary": "SK하이닉스 미국 상장 임박하면서 나스닥 변동성 확대, 메모리 반도체 시장 주목",
+      "summary": "SK 하이닉스가 미국 상장을 통해 265억 달러를 조달했으며, 메모리 반도체 업계의 대형 자본조달 이벤트로 기록되었다",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-10-2026?mod=rss_markets_main",
       "published_ts": 1783671731.0,
       "impact_high": false
     },
     {
-      "summary": "우크라이나 드론, 러시아 에너지 자산 타격으로 석유·가스 공급망 압박",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/world/ukraines-drones-are-now-reaching-siberia-and-imperiling-russian-energy-assets-e0d2caa7",
-      "published_ts": 1783641600.0,
-      "impact_high": false
-    },
-    {
-      "summary": "메모리 반도체 수요 강세로 중동 지정학 리스크 상쇄, 기술주 회복 견인",
+      "summary": "중동 긴장 고조 후에도 반도체 종목 강세가 유지되면서 이란 공격의 시장 영향이 제한적이었음을 시사했다",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/stocks/the-chip-trade-is-helping-wall-street-shake-off-latest-iran-strikes-54abbf62?mod=rss_markets_main",
       "published_ts": 1783631040.0,
       "impact_high": false
     },
     {
-      "summary": "미-이란 미사일 교환으로 중동 긴장 고조, 유가 상승 압박",
-      "source": "WSJ",
+      "summary": "미국과 이란이 휴전 이후 최대 규모 군사 충돌을 벌였으며, 추가 공격 경고로 원유 공급 리스크가 부각되었다",
+      "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/u-s-launches-new-strikes-on-iran-after-trump-declares-ceasefire-over-2c0738fe",
       "published_ts": 1783606980.0,
       "impact_high": true
     },
     {
-      "summary": "미국 6월 주택 판매 예상외 2.4% 감소, 봄 시즌 부진",
+      "summary": "미국 6월 주택 판매가 예상에 반해 2.4% 하락했으며 봄 판매 시즌이 부진으로 마감되었다",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/housing/spring-home-selling-season-ends-on-a-bad-note-a81071a0",
       "published_ts": 1783605600.0,
       "impact_high": false
     },
     {
-      "summary": "연준 의사록 공개, AI 투자와 관세·유가 상승을 인플레 우려로 평가하며 금리인상 검토",
+      "summary": "중국 6월 소비자물가는 둔화했으나 생산자물가는 4년 근처 고점으로 올라가면서 이중 가격 신호가 나타났다",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/09/china-cpi-ppi-june-inflation-iran-war-.html",
+      "published_ts": 1783564297.0,
+      "impact_high": true
+    },
+    {
+      "summary": "연준 의사록에서 관계자들이 관세·유가·AI 투자로 인한 인플레이션 위험에 대응하기 위해 금리 인상 필요성을 논의했다",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/fed-officials-flagged-risks-that-would-warrant-higher-rates-6f584cba",
       "published_ts": 1783538760.0,
       "impact_high": true
     },
     {
-      "summary": "국제통화기금, 2026년 글로벌 성장률 전망 3%로 하향 조정, 중동 전쟁 리스크는 완화",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/global/imf-drops-recession-warning-in-wake-of-june-ceasefire-795f1831",
-      "published_ts": 1783524000.0,
-      "impact_high": true
-    },
-    {
-      "summary": "미국 6월 고용 증가 예상치 이하로 둔화, 실업률 4.2%로 상승",
+      "summary": "미국 6월 비농업 고용이 5만7000명에 그쳐 예상(11만5000명)보다 크게 부족했으며 노동시장 약세 신호가 강화되었다",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html",
       "published_ts": 1783011027.0,
       "impact_high": true
     }
   ],
-  "_article_sig": "5e0b6fd0999e9c777e5c3eb3992db8cf019b982b181a67cc11dee8ba6715a3ec",
+  "_article_sig": "f7b1fac8cf1d7ad478e691f171c810595246debc67d17ff8fb997655f42f64eb",
   "built_at_kst": "2026-07-10T07:01:03.643229+09:00",
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "SK Hynix IPO($26.51B)로 반도체 공급 기반 강화, AI 메모리 수요 기하급수적 증가 중이나 공급 부족 현황 심화. Anthropic 등 기술기업 AI 투자 열풍 지속하나 규제 리스크 부각. 기술주 변동성 가중 중.",
+      "summary": "반도체 강세에 기술주 선물 동조. SK Hynix 미국 상장(IPO 264억달러)과 AI 메모리 수요 기하급수적 증가로 메모리칩 수혜 기대. 중국 헬륨 수출 금지로 반도체 공급망 리스크 가시화, AI 투자 과열 우려 논쟁 지속.",
       "sources": [
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-10-2026?mod=rss_markets_main"
-        },
         {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/202607108890i"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/tech-stock-jitters-just-went-off-the-charts-7fb7ddc3?mod=rss_markets_main"
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/2026071087037"
         }
       ]
     },
     "S&P500": {
-      "summary": "6월 고용 57K 증가(예상 115K)로 노동시장 약세 신호 심화, 노동력 참여율 50년 저점 기록. Fed, 물가 높다고 판단하며 금리 인상 리스크 검토. IMF 글로벌 성장전망 3.1% → 3%로 하향. Crypto 규제 진전(Circle) 등 긍정신호 혼재.",
+      "summary": "고용부진과 인플레 압력으로 경제 둔화 신호. 6월 비농업 고용 57,000(부양), 노동참여율 50년 최저 기록. Fed 의사록서 인상 고려 신호, Williams 연준 총재 물가 경고 지속. 주거시장 회복 초기, 중국 소비약화-수출강화 이중속도 심화, 글로벌 성장률 3%로 조정.",
       "sources": [
         {
           "name": "CNBC",
@@ -6362,42 +6364,36 @@
           "url": "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html"
         },
         {
-          "name": "WSJ",
+          "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/fed-officials-flagged-risks-that-would-warrant-higher-rates-6f584cba"
         }
       ]
     },
     "DOW": {
-      "summary": "이란 휴전 종료 선언으로 중동 지정학 리스크 급부상. 미국 고용 부진, 홈세일 2.4% 감소로 경기 둔화 신호. 다만 AI·반도체 기반시설(터빈) 수급 부족으로 산업재 강세, 금융 M&A 활동 활발. 중국 제조 리스크(공장 화재, 헬륨 수출 금지) 부각.",
+      "summary": "중동 긴장 고조, 이란-미국 미사일 교환 심화. Hormuz 해협 협상 난제 노출, 우크라이나 드론 러시아 에너지 타격으로 유가 변동성 부각. 담배·주류주 약화로 소비둔화 신호, 금융 M&A 활발(UniCredit-Commerzbank 통합, JPMorgan 중소기업 공략).",
       "sources": [
         {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/202607118896i"
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/inside-trumps-oval-office-decision-to-ditch-the-iran-ceasefire-b70a8b8b"
         },
         {
-          "name": "WSJ",
+          "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/u-s-launches-new-strikes-on-iran-after-trump-declares-ceasefire-over-2c0738fe"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/economy/housing/spring-home-selling-season-ends-on-a-bad-note-a81071a0"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-07-11T00:40:07.544768+09:00",
+    "as_of_kst": "2026-07-11T00:50:08.632759+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7605.25,
-        "change_pct": 0.22,
+        "point": 7595.25,
+        "change_pct": 0.09,
         "spark": [
           7587.25,
-          7588.25,
-          7587.75,
           7586.5,
           7591.0,
           7588.5,
@@ -6435,21 +6431,23 @@
           7602.75,
           7605.25,
           7602.75,
-          7605.25
+          7596.5,
+          7592.5,
+          7595.25
         ],
         "candle": {
           "o": 7587.25,
           "h": 7606.75,
           "l": 7552.75,
-          "c": 7605.25
+          "c": 7595.25
         },
         "range_240d": {
           "low": 6264.5,
           "high": 7623.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 21.4,
-          "high_change_pct": -0.24
+          "low_change_pct": 21.24,
+          "high_change_pct": -0.37
         },
         "daily_expanded": [
           {
@@ -8465,13 +8463,13 @@
             "o": 7587.25,
             "h": 7606.75,
             "l": 7552.75,
-            "c": 7605.25,
-            "v": 567791
+            "c": 7595.25,
+            "v": 593104
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "6월 고용 57K 증가(예상 115K)로 노동시장 약세 신호 심화, 노동력 참여율 50년 저점 기록. Fed, 물가 높다고 판단하며 금리 인상 리스크 검토. IMF 글로벌 성장전망 3.1% → 3%로 하향. Crypto 규제 진전(Circle) 등 긍정신호 혼재.",
+          "summary": "고용부진과 인플레 압력으로 경제 둔화 신호. 6월 비농업 고용 57,000(부양), 노동참여율 50년 최저 기록. Fed 의사록서 인상 고려 신호, Williams 연준 총재 물가 경고 지속. 주거시장 회복 초기, 중국 소비약화-수출강화 이중속도 심화, 글로벌 성장률 3%로 조정.",
           "sources": [
             {
               "name": "CNBC",
@@ -8482,7 +8480,7 @@
               "url": "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html"
             },
             {
-              "name": "WSJ",
+              "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/fed-officials-flagged-risks-that-would-warrant-higher-rates-6f584cba"
             }
           ]
@@ -8491,12 +8489,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29986.5,
-        "change_pct": 0.17,
+        "point": 29909.5,
+        "change_pct": -0.09,
         "spark": [
           29937.75,
-          29843.0,
-          29851.75,
           29843.0,
           29856.75,
           29824.5,
@@ -8534,21 +8530,23 @@
           29948.25,
           29979.0,
           29982.25,
-          29986.5
+          29917.0,
+          29873.75,
+          29909.5
         ],
         "candle": {
           "o": 29937.75,
-          "h": 29989.0,
+          "h": 29991.5,
           "l": 29675.0,
-          "c": 29986.5
+          "c": 29902.75
         },
         "range_240d": {
           "low": 22883.75,
           "high": 30712.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 31.04,
-          "high_change_pct": -2.36
+          "low_change_pct": 30.67,
+          "high_change_pct": -2.64
         },
         "daily_expanded": [
           {
@@ -10562,27 +10560,23 @@
           {
             "date": "2026-07-10",
             "o": 29937.75,
-            "h": 29989.0,
+            "h": 29991.5,
             "l": 29675.0,
-            "c": 29986.5,
-            "v": 261776
+            "c": 29902.75,
+            "v": 271792
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "SK Hynix IPO($26.51B)로 반도체 공급 기반 강화, AI 메모리 수요 기하급수적 증가 중이나 공급 부족 현황 심화. Anthropic 등 기술기업 AI 투자 열풍 지속하나 규제 리스크 부각. 기술주 변동성 가중 중.",
+          "summary": "반도체 강세에 기술주 선물 동조. SK Hynix 미국 상장(IPO 264억달러)과 AI 메모리 수요 기하급수적 증가로 메모리칩 수혜 기대. 중국 헬륨 수출 금지로 반도체 공급망 리스크 가시화, AI 투자 과열 우려 논쟁 지속.",
           "sources": [
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-10-2026?mod=rss_markets_main"
-            },
             {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/202607108890i"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/tech-stock-jitters-just-went-off-the-charts-7fb7ddc3?mod=rss_markets_main"
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/2026071087037"
             }
           ]
         }
@@ -10590,12 +10584,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52899.0,
-        "change_pct": 0.26,
+        "point": 52848.0,
+        "change_pct": 0.16,
         "spark": [
           52753.0,
-          52878.0,
-          52859.0,
           52843.0,
           52883.0,
           52888.0,
@@ -10633,21 +10625,23 @@
           52896.0,
           52900.0,
           52873.0,
-          52899.0
+          52857.0,
+          52867.0,
+          52848.0
         ],
         "candle": {
           "o": 52753.0,
           "h": 52952.0,
           "l": 52506.0,
-          "c": 52899.0
+          "c": 52845.0
         },
         "range_240d": {
           "low": 43710.0,
           "high": 53372.0,
           "low_date": "2025-08-01",
           "high_date": "2026-07-06",
-          "low_change_pct": 21.02,
-          "high_change_pct": -0.89
+          "low_change_pct": 20.9,
+          "high_change_pct": -0.99
         },
         "daily_expanded": [
           {
@@ -12663,30 +12657,26 @@
             "o": 52753.0,
             "h": 52952.0,
             "l": 52506.0,
-            "c": 52899.0,
-            "v": 44319
+            "c": 52845.0,
+            "v": 45389
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "이란 휴전 종료 선언으로 중동 지정학 리스크 급부상. 미국 고용 부진, 홈세일 2.4% 감소로 경기 둔화 신호. 다만 AI·반도체 기반시설(터빈) 수급 부족으로 산업재 강세, 금융 M&A 활동 활발. 중국 제조 리스크(공장 화재, 헬륨 수출 금지) 부각.",
+          "summary": "중동 긴장 고조, 이란-미국 미사일 교환 심화. Hormuz 해협 협상 난제 노출, 우크라이나 드론 러시아 에너지 타격으로 유가 변동성 부각. 담배·주류주 약화로 소비둔화 신호, 금융 M&A 활발(UniCredit-Commerzbank 통합, JPMorgan 중소기업 공략).",
           "sources": [
             {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/202607118896i"
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/inside-trumps-oval-office-decision-to-ditch-the-iran-ceasefire-b70a8b8b"
             },
             {
-              "name": "WSJ",
+              "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/u-s-launches-new-strikes-on-iran-after-trump-declares-ceasefire-over-2c0738fe"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/economy/housing/spring-home-selling-season-ends-on-a-bad-note-a81071a0"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-07-11T00:42:45.689603+09:00"
+  "intraday_refreshed_kst": "2026-07-11T00:52:30.586622+09:00"
 }
