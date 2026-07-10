@@ -1,6 +1,6 @@
 {
   "date": "2026-07-10",
-  "generated_at": "2026-07-10T09:35:10.771516",
+  "generated_at": "2026-07-10T09:36:17.744025",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -57,11 +57,18 @@
       "industry": null,
       "sector": null,
       "themes": [
+        "타이어",
         "저PBR",
-        "실적",
-        "타이어"
+        "실적"
       ],
       "theme_paths": [
+        {
+          "name": "타이어",
+          "path": [
+            "자동차부품",
+            "타이어"
+          ]
+        },
         {
           "name": "저PBR",
           "path": [
@@ -72,12 +79,6 @@
           "name": "실적",
           "path": [
             "실적"
-          ]
-        },
-        {
-          "name": "타이어",
-          "path": [
-            "타이어"
           ]
         }
       ],
@@ -99,7 +100,7 @@
           "url": "https://www.etoday.co.kr/news/view/2602354",
           "source": "이투데이",
           "published_at": "2026-07-10T00:24:00",
-          "causal_chain": null,
+          "causal_chain": "",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -112,19 +113,15 @@
         }
       ],
       "fallback": false,
-      "cafe_themes": [
-        "타이어"
-      ],
       "theme_crosscheck": {
         "confirmed": [
+          "타이어",
           "실적"
         ],
         "pm320_only": [
           "저PBR"
         ],
-        "cafe_only": [
-          "타이어"
-        ]
+        "cafe_only": []
       },
       "range_240d": {
         "high": 7650,
@@ -276,7 +273,12 @@
           "l": 6010,
           "c": 6760
         }
-      ]
+      ],
+      "togusa_verdict": "weak_bull",
+      "theme_leader": true,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "069540",
@@ -325,7 +327,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": false,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "003680",
@@ -606,9 +611,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "neutral",
+      "togusa_verdict": "weak_bear",
       "theme_leader": false,
-      "hugepark_grade": "관찰"
+      "hugepark_grade": "주의"
     },
     {
       "code": "007610",
