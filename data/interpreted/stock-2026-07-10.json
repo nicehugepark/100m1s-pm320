@@ -1,6 +1,6 @@
 {
   "date": "2026-07-10",
-  "generated_at": "2026-07-10T09:55:12.320258",
+  "generated_at": "2026-07-10T09:56:37.346024",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -297,9 +297,9 @@
           6980
         ]
       },
-      "togusa_verdict": "weak_bull",
+      "togusa_verdict": "strong_bull",
       "theme_leader": true,
-      "hugepark_grade": "관찰",
+      "hugepark_grade": "적극",
       "causal_chain": "",
       "parent_theme": ""
     },
@@ -575,7 +575,10 @@
       "bullish_streak": 0,
       "bullish_dates": [],
       "news": [],
-      "fallback": true
+      "fallback": true,
+      "togusa_verdict": "neutral",
+      "theme_leader": false,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "477850",
@@ -590,18 +593,12 @@
       "industry": null,
       "sector": null,
       "themes": [
-        "신규상장",
         "로봇",
         "휴머노이드 로봇",
-        "AI"
+        "AI",
+        "신규상장"
       ],
       "theme_paths": [
-        {
-          "name": "신규상장",
-          "path": [
-            "신규상장"
-          ]
-        },
         {
           "name": "휴머노이드 로봇",
           "path": [
@@ -613,6 +610,12 @@
           "name": "AI",
           "path": [
             "AI"
+          ]
+        },
+        {
+          "name": "신규상장",
+          "path": [
+            "신규상장"
           ]
         }
       ],
@@ -636,21 +639,16 @@
       ],
       "news": [],
       "fallback": true,
-      "cafe_themes": [
-        "로봇",
-        "휴머노이드 로봇",
-        "AI"
-      ],
       "theme_crosscheck": {
-        "confirmed": [],
-        "pm320_only": [
-          "신규상장"
-        ],
-        "cafe_only": [
+        "confirmed": [
           "로봇",
           "휴머노이드 로봇",
           "AI"
-        ]
+        ],
+        "pm320_only": [
+          "신규상장"
+        ],
+        "cafe_only": []
       },
       "range_240d": {
         "high": 83600,
@@ -804,7 +802,12 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "069540",
