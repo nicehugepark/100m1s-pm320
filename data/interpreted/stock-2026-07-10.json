@@ -1,6 +1,6 @@
 {
   "date": "2026-07-10",
-  "generated_at": "2026-07-10T09:15:16.183624",
+  "generated_at": "2026-07-10T09:25:12.217820",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -32,8 +32,8 @@
       "summary": "정부·금융권 소상공인 금융 지원 적극화 → 대출 누적 5조원 돌파 → 금융 섹터 수익성 개선"
     },
     {
-      "title": "인바운드소비",
-      "summary": "인바운드 관광 회복 + 내수 소비심리 개선 → 유통·외식·숙박 수요 증가 → 유통·백화점 섹터 강세"
+      "title": "FDA허가",
+      "summary": "신약 개발 FDA 허가 실패 사례 → 바이오 임상 리스크 재부각 → 생명공학 섹터 약세"
     }
   ],
   "narratives": [],
@@ -44,7 +44,7 @@
       "code": "003680",
       "name": "한성기업",
       "rank": 1,
-      "trade_amount": 11546000000,
+      "trade_amount": 11660000000,
       "change_pct": 29.95,
       "close_price": 8460,
       "open_price": 7300,
@@ -287,8 +287,8 @@
           "summary": "한성기업 상한가 (29.95%)",
           "cur_prc": 8460,
           "flu_rt": 29.95,
-          "trde_qty": 1434103,
-          "trde_prica_calc": 11546000000,
+          "trde_qty": 1447553,
+          "trde_prica_calc": 11660000000,
           "consecutive_count": 2,
           "effect_badges": [
             {
@@ -303,8 +303,20 @@
           "next_trading_day": "2026-07-13"
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 7300,
+        "base": 7300,
+        "prices": [
+          7300,
+          8460,
+          8460,
+          8460,
+          8460
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": false,
       "hugepark_grade": "관찰"
@@ -313,7 +325,7 @@
       "code": "007610",
       "name": "선도전기",
       "rank": 2,
-      "trade_amount": 7205000000,
+      "trade_amount": 7405000000,
       "change_pct": 29.82,
       "close_price": 5660,
       "open_price": 4620,
@@ -519,8 +531,8 @@
           "summary": "선도전기 상한가 (29.82%)",
           "cur_prc": 5660,
           "flu_rt": 29.82,
-          "trde_qty": 1310788,
-          "trde_prica_calc": 7205000000,
+          "trde_qty": 1349831,
+          "trde_prica_calc": 7405000000,
           "consecutive_count": 1,
           "effect_badges": [
             {
@@ -535,8 +547,20 @@
           "next_trading_day": "2026-07-13"
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 4620,
+        "base": 4620,
+        "prices": [
+          4620,
+          5660,
+          5660,
+          5660,
+          5660
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰",
@@ -547,7 +571,7 @@
       "code": "226330",
       "name": "신테카바이오",
       "rank": 3,
-      "trade_amount": 1954000000,
+      "trade_amount": 1980000000,
       "change_pct": 30.0,
       "close_price": 1872,
       "open_price": 1870,
@@ -562,7 +586,24 @@
       "bullish_today": false,
       "bullish_streak": 0,
       "bullish_dates": [],
-      "news": [],
+      "news": [
+        {
+          "title": "신테카바이오, 아토리서치와 약 65억 규모 서비스 계약",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=05192246645512880",
+          "source": "이데일리",
+          "published_at": "2026-07-09T09:13:14",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        }
+      ],
       "fallback": true,
       "range_240d": {
         "high": 6750,
@@ -724,8 +765,226 @@
           "summary": "신테카바이오 상한가 (30.00%)",
           "cur_prc": 1872,
           "flu_rt": 30.0,
-          "trde_qty": 1053251,
-          "trde_prica_calc": 1954000000,
+          "trde_qty": 1067135,
+          "trde_prica_calc": 1980000000,
+          "consecutive_count": 1,
+          "effect_badges": [
+            {
+              "effect": "limit-up",
+              "when": "today",
+              "severity": "hot",
+              "source_label": "상한가",
+              "source_kind": "limit_up",
+              "consecutive_count": 1
+            }
+          ],
+          "next_trading_day": "2026-07-13"
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 1870,
+        "base": 1870,
+        "prices": [
+          1870,
+          1872,
+          1872,
+          1872,
+          1872
+        ]
+      },
+      "credit_risk": true,
+      "credit_reason": "회사한도초과",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
+    },
+    {
+      "code": "049080",
+      "name": "기가레인",
+      "rank": 4,
+      "trade_amount": 1876000000,
+      "change_pct": 29.92,
+      "close_price": 5970,
+      "open_price": 4700,
+      "high_price": 5970,
+      "low_price": 4695,
+      "industry": null,
+      "sector": null,
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-05-22",
+        "2026-07-10"
+      ],
+      "news": [],
+      "fallback": true,
+      "range_240d": {
+        "high": 31250,
+        "high_date": "2026-04-15",
+        "high_pct": -80.9,
+        "low": 3580,
+        "low_date": "2026-02-23",
+        "low_pct": 66.76,
+        "current": 5970
+      },
+      "daily_20": [
+        {
+          "date": "2026-05-26",
+          "o": 14730,
+          "h": 16000,
+          "l": 14200,
+          "c": 14940
+        },
+        {
+          "date": "2026-05-27",
+          "o": 15210,
+          "h": 19420,
+          "l": 14940,
+          "c": 15100
+        },
+        {
+          "date": "2026-05-28",
+          "o": 15170,
+          "h": 16680,
+          "l": 13300,
+          "c": 14000
+        },
+        {
+          "date": "2026-05-29",
+          "o": 14200,
+          "h": 14780,
+          "l": 12770,
+          "c": 12910
+        },
+        {
+          "date": "2026-06-01",
+          "o": 12910,
+          "h": 13500,
+          "l": 11650,
+          "c": 11900
+        },
+        {
+          "date": "2026-06-02",
+          "o": 11900,
+          "h": 11900,
+          "l": 10800,
+          "c": 11400
+        },
+        {
+          "date": "2026-06-04",
+          "o": 11390,
+          "h": 12730,
+          "l": 10760,
+          "c": 11710
+        },
+        {
+          "date": "2026-06-05",
+          "o": 11860,
+          "h": 11880,
+          "l": 10680,
+          "c": 11030
+        },
+        {
+          "date": "2026-06-08",
+          "o": 10250,
+          "h": 10560,
+          "l": 9250,
+          "c": 10220
+        },
+        {
+          "date": "2026-06-09",
+          "o": 10600,
+          "h": 11700,
+          "l": 9720,
+          "c": 9930
+        },
+        {
+          "date": "2026-06-29",
+          "o": 9500,
+          "h": 9850,
+          "l": 7230,
+          "c": 7770
+        },
+        {
+          "date": "2026-06-30",
+          "o": 7550,
+          "h": 7660,
+          "l": 6080,
+          "c": 6160
+        },
+        {
+          "date": "2026-07-01",
+          "o": 6100,
+          "h": 6860,
+          "l": 5800,
+          "c": 6250
+        },
+        {
+          "date": "2026-07-02",
+          "o": 6110,
+          "h": 6190,
+          "l": 5230,
+          "c": 5300
+        },
+        {
+          "date": "2026-07-03",
+          "o": 5240,
+          "h": 5500,
+          "l": 4995,
+          "c": 5480
+        },
+        {
+          "date": "2026-07-06",
+          "o": 5320,
+          "h": 5480,
+          "l": 4965,
+          "c": 5050
+        },
+        {
+          "date": "2026-07-07",
+          "o": 4970,
+          "h": 5180,
+          "l": 4780,
+          "c": 4900
+        },
+        {
+          "date": "2026-07-08",
+          "o": 4680,
+          "h": 4900,
+          "l": 4395,
+          "c": 4395
+        },
+        {
+          "date": "2026-07-09",
+          "o": 4360,
+          "h": 4795,
+          "l": 4360,
+          "c": 4595
+        },
+        {
+          "date": "2026-07-10",
+          "o": 4700,
+          "h": 5970,
+          "l": 4695,
+          "c": 5970
+        }
+      ],
+      "status_badges": [
+        {
+          "label": "상한가",
+          "severity": "hot",
+          "source": "v1_condition",
+          "view_date": "2026-07-10",
+          "summary": "기가레인 상한가 (29.92%)",
+          "cur_prc": 5970,
+          "flu_rt": 29.92,
+          "trde_qty": 324451,
+          "trde_prica_calc": 1876000000,
           "consecutive_count": 1,
           "effect_badges": [
             {
@@ -741,10 +1000,7 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "credit_reason": "신용거래 제한 종목"
     }
   ]
 }
