@@ -1,11 +1,15 @@
 {
   "date": "2026-07-10",
-  "generated_at": "2026-07-10T10:06:02.798151",
+  "generated_at": "2026-07-10T10:15:15.262396",
   "data_source": "kiwoom",
   "macro_events": [
     {
-      "title": "AI데이센터",
-      "summary": "AI 인프라 확대 → 데이터센터 냉각 수요 급증 → 반도체 보조장비·열관리 기업 수혜"
+      "title": "FDA불발",
+      "summary": "HLB 그룹 간암신약 FDA 보완요구 → 신약개발 리스크 재부각 → 바이오섹터 악재 일제 하한가"
+    },
+    {
+      "title": "AI데센터",
+      "summary": "미국 AI 데이터센터 구축 확대 → 글로벌 HVAC·열관리 솔루션 수요↑ → 건설·냉난방기기 섹터 수혜"
     },
     {
       "title": "소상공인대출",
@@ -14,10 +18,6 @@
     {
       "title": "애국소비",
       "summary": "애국기업 재조명 → 국산 제품 선호 심리 확산 → 내수 소비재·제조업 수혜"
-    },
-    {
-      "title": "바이오FDA",
-      "summary": "HLB 신약 FDA 추가 보완 요구 → 개발 지연 리스크 확대 → 바이오·제약 섹터 심리 악화"
     },
     {
       "title": "애국테마",
@@ -32,16 +32,16 @@
       "summary": "관광객 증가·내수 회복 기대감 → 소비 섹터 심리 개선 → 유통·소매 대장주 재평가"
     },
     {
+      "title": "자금수요",
+      "summary": "중소자영업 자금수요 확대→K뱅크 대출 5조원 돌파→경기회복 신호·금융섹터 수혜"
+    },
+    {
       "title": "자영금융",
       "summary": "케이뱅크 누적 공급액 5조원 돌파 → 자영업자 금융 접근성 개선 → 소비 활성화 기대"
     },
     {
-      "title": "소상공인금융",
-      "summary": "정부·금융권 소상공인 금융 지원 적극화 → 대출 누적 5조원 돌파 → 금융 섹터 수익성 개선"
-    },
-    {
-      "title": "금융포용",
-      "summary": "소상공인 대출수요 급증·금융포용 확대 → 신용공급 섹터 수혜"
+      "title": "내수회복",
+      "summary": "국내 내수회복·중국관광객 증가 → 소비심리 강화 → 유통·소매 섹터 실적 개선"
     }
   ],
   "narratives": [],
@@ -52,11 +52,11 @@
       "code": "073240",
       "name": "금호타이어",
       "rank": 1,
-      "trade_amount": 99229000000,
-      "change_pct": 20.67,
-      "close_price": 7240,
+      "trade_amount": 132276000000,
+      "change_pct": 28.0,
+      "close_price": 7680,
       "open_price": 6300,
-      "high_price": 7280,
+      "high_price": 7800,
       "low_price": 6010,
       "industry": null,
       "sector": null,
@@ -129,13 +129,13 @@
         "cafe_only": []
       },
       "range_240d": {
-        "high": 7650,
-        "high_date": "2026-02-11",
-        "high_pct": -5.36,
+        "high": 7800,
+        "high_date": "2026-07-10",
+        "high_pct": -1.54,
         "low": 4220,
         "low_date": "2026-06-24",
-        "low_pct": 71.56,
-        "current": 7240
+        "low_pct": 81.99,
+        "current": 7680
       },
       "daily_20": [
         {
@@ -274,9 +274,59 @@
         {
           "date": "2026-07-10",
           "o": 6300,
-          "h": 7280,
+          "h": 7800,
           "l": 6010,
-          "c": 7240
+          "c": 7680
+        }
+      ],
+      "status_badges": [
+        {
+          "label": "투자주의 근접",
+          "severity": "caution",
+          "source": "predicted",
+          "thresholds": [
+            {
+              "desc": "5일 전(2026-07-03) 대비 +60%↑",
+              "base_price": 4740,
+              "threshold": 7584,
+              "current": 7680,
+              "triggered": true
+            }
+          ],
+          "regulation": "KRX 시장경보 가격 조건 충족 (거래량 미검증, 자체 추정)",
+          "period_start": "2026-07-13",
+          "period_end": "2026-07-14",
+          "start": "2026-07-13",
+          "end": "2026-07-14",
+          "view_date": "2026-07-10",
+          "next_trading_day": "2026-07-13",
+          "next_trading_day_for_predicted": "2026-07-13",
+          "next_trading_day_source": "fallback_homepage",
+          "single_price": false,
+          "effect_badges": []
+        },
+        {
+          "label": "상한가",
+          "severity": "hot",
+          "source": "v1_condition",
+          "view_date": "2026-07-10",
+          "summary": "금호타이어 상한가 (28.00%)",
+          "cur_prc": 7680,
+          "flu_rt": 28.0,
+          "trde_qty": 18772430,
+          "trde_prica_calc": 132276000000,
+          "consecutive_count": 1,
+          "effect_badges": [
+            {
+              "effect": "limit-up",
+              "when": "today",
+              "severity": "hot",
+              "source_label": "상한가",
+              "source_kind": "limit_up",
+              "consecutive_count": 1
+            }
+          ],
+          "next_trading_day": "2026-07-13"
         }
       ],
       "intraday": {
@@ -296,7 +346,9 @@
           6980,
           7010,
           7230,
-          7250
+          7430,
+          7720,
+          7670
         ]
       },
       "togusa_verdict": "strong_bull",
@@ -309,9 +361,9 @@
       "code": "006360",
       "name": "GS건설",
       "rank": 2,
-      "trade_amount": 63199000000,
-      "change_pct": 8.03,
-      "close_price": 31600,
+      "trade_amount": 65759000000,
+      "change_pct": 9.23,
+      "close_price": 31950,
       "open_price": 29450,
       "high_price": 32350,
       "low_price": 29050,
@@ -348,11 +400,11 @@
       "range_240d": {
         "high": 44850,
         "high_date": "2026-04-28",
-        "high_pct": -29.54,
+        "high_pct": -28.76,
         "low": 17790,
         "low_date": "2025-09-03",
-        "low_pct": 77.63,
-        "current": 31600
+        "low_pct": 79.6,
+        "current": 31950
       },
       "daily_20": [
         {
@@ -493,7 +545,7 @@
           "o": 29450,
           "h": 32350,
           "l": 29050,
-          "c": 31600
+          "c": 31950
         }
       ],
       "intraday": {
@@ -513,7 +565,9 @@
           31950,
           32000,
           31750,
-          31600
+          32150,
+          32000,
+          32000
         ]
       },
       "togusa_verdict": "neutral",
@@ -524,9 +578,9 @@
       "code": "263800",
       "name": "데이타솔루션",
       "rank": 3,
-      "trade_amount": 62300000000,
-      "change_pct": 0.39,
-      "close_price": 7750,
+      "trade_amount": 65642000000,
+      "change_pct": 0.13,
+      "close_price": 7730,
       "open_price": 8410,
       "high_price": 8490,
       "low_price": 7070,
@@ -598,11 +652,11 @@
       "range_240d": {
         "high": 8490,
         "high_date": "2026-07-10",
-        "high_pct": -8.72,
+        "high_pct": -8.95,
         "low": 4115,
         "low_date": "2026-03-04",
-        "low_pct": 88.34,
-        "current": 7750
+        "low_pct": 87.85,
+        "current": 7730
       },
       "daily_20": [
         {
@@ -743,7 +797,7 @@
           "o": 8410,
           "h": 8490,
           "l": 7070,
-          "c": 7750
+          "c": 7730
         }
       ],
       "status_badges": [
@@ -756,7 +810,7 @@
               "desc": "5일 전(2026-07-03) 대비 +60%↑",
               "base_price": 4710,
               "threshold": 7536,
-              "current": 7750,
+              "current": 7730,
               "triggered": true
             }
           ],
@@ -790,7 +844,9 @@
           7580,
           7560,
           7810,
-          7800
+          7750,
+          7820,
+          7750
         ]
       },
       "credit_risk": true,
@@ -805,9 +861,9 @@
       "code": "477850",
       "name": "마키나락스",
       "rank": 4,
-      "trade_amount": 53672000000,
-      "change_pct": 0.34,
-      "close_price": 29750,
+      "trade_amount": 55002000000,
+      "change_pct": 1.69,
+      "close_price": 30150,
       "open_price": 30400,
       "high_price": 32350,
       "low_price": 28600,
@@ -874,11 +930,11 @@
       "range_240d": {
         "high": 83600,
         "high_date": "2026-05-22",
-        "high_pct": -64.41,
+        "high_pct": -63.94,
         "low": 13420,
         "low_date": "2026-06-24",
-        "low_pct": 121.68,
-        "current": 29750
+        "low_pct": 124.66,
+        "current": 30150
       },
       "daily_20": [
         {
@@ -1019,7 +1075,7 @@
           "o": 30400,
           "h": 32350,
           "l": 28600,
-          "c": 29750
+          "c": 30150
         }
       ],
       "intraday": {
@@ -1039,7 +1095,9 @@
           29450,
           30050,
           29550,
-          29675
+          30250,
+          30050,
+          30100
         ]
       },
       "credit_risk": true,
@@ -1054,7 +1112,7 @@
       "code": "069540",
       "name": "빛과전자",
       "rank": 5,
-      "trade_amount": 13800000000,
+      "trade_amount": 13973000000,
       "change_pct": 29.89,
       "close_price": 2325,
       "open_price": 1825,
@@ -1233,8 +1291,8 @@
           "summary": "빛과전자 상한가 (29.89%)",
           "cur_prc": 2325,
           "flu_rt": 29.89,
-          "trde_qty": 6485296,
-          "trde_prica_calc": 13800000000,
+          "trde_qty": 6559967,
+          "trde_prica_calc": 13973000000,
           "consecutive_count": 1,
           "effect_badges": [
             {
@@ -1266,6 +1324,8 @@
           2325,
           2325,
           2325,
+          2325,
+          2325,
           2325
         ]
       },
@@ -1279,7 +1339,7 @@
       "code": "003680",
       "name": "한성기업",
       "rank": 6,
-      "trade_amount": 11879000000,
+      "trade_amount": 11991000000,
       "change_pct": 29.95,
       "close_price": 8460,
       "open_price": 7300,
@@ -1522,8 +1582,8 @@
           "summary": "한성기업 상한가 (29.95%)",
           "cur_prc": 8460,
           "flu_rt": 29.95,
-          "trde_qty": 1473446,
-          "trde_prica_calc": 11879000000,
+          "trde_qty": 1486678,
+          "trde_prica_calc": 11991000000,
           "consecutive_count": 2,
           "effect_badges": [
             {
@@ -1555,6 +1615,8 @@
           8460,
           8460,
           8460,
+          8460,
+          8460,
           8460
         ]
       },
@@ -1568,7 +1630,7 @@
       "code": "226330",
       "name": "신테카바이오",
       "rank": 7,
-      "trade_amount": 2063000000,
+      "trade_amount": 2077000000,
       "change_pct": 30.0,
       "close_price": 1872,
       "open_price": 1870,
@@ -1762,8 +1824,8 @@
           "summary": "신테카바이오 상한가 (30.00%)",
           "cur_prc": 1872,
           "flu_rt": 30.0,
-          "trde_qty": 1111498,
-          "trde_prica_calc": 2063000000,
+          "trde_qty": 1118365,
+          "trde_prica_calc": 2077000000,
           "consecutive_count": 1,
           "effect_badges": [
             {
@@ -1794,6 +1856,9 @@
           1872,
           1872,
           1872,
+          1872,
+          1872,
+          1872,
           1872
         ]
       },
@@ -1807,7 +1872,7 @@
       "code": "049080",
       "name": "기가레인",
       "rank": 8,
-      "trade_amount": 1944000000,
+      "trade_amount": 1954000000,
       "change_pct": 29.92,
       "close_price": 5970,
       "open_price": 4700,
@@ -1987,8 +2052,8 @@
           "summary": "기가레인 상한가 (29.92%)",
           "cur_prc": 5970,
           "flu_rt": 29.92,
-          "trde_qty": 335750,
-          "trde_prica_calc": 1944000000,
+          "trde_qty": 337500,
+          "trde_prica_calc": 1954000000,
           "consecutive_count": 1,
           "effect_badges": [
             {
@@ -2011,6 +2076,7 @@
           4700,
           5160,
           5950,
+          5970,
           5970,
           5970,
           5970,
