@@ -1161,11 +1161,24 @@ function _buildRunningHoldingsHtml(runningPicks, headlineCode, summaryRunning) {
       const cls = v > 0 ? 'cal-pre-prev-pick-holding-pnl--up' : (v < 0 ? 'cal-pre-prev-pick-holding-pnl--down' : 'cal-pre-prev-pick-holding-pnl--flat');
       return ` · <span class="cal-pre-prev-pick-holding-pnl ${cls}">${v > 0 ? '+' : ''}${v.toFixed(1)}%</span>`;
     };
-    // 교차검증(FLR-AGT-002): 각 픽은 자기 일자 스냅샷의 running + 만기 미경과로 개별 검증됨(정직).
-    //   fan-out 카운트 ≥ summary 면 per-pick 신뢰. fan-out < summary 면 count 만 표시(누락 차단).
-    const trustList = (typeof summaryRunning !== 'number') || (runningPicks.length >= summaryRunning);
+    // 교차검증 재정의 (2026-07-10, 대표 catch — "추적 중인 픽 N" 펼침 시 종목 카드 부재):
+    //   각 running 픽은 _collectRunningPicks 에서 3중 개별 검증됨 — pm320_history 스냅샷 is_pick=true +
+    //   current_state='running' + expiry_date≥오늘(만기 미경과). 이 검증만으로 "현재 보유 중"이 정직 확정된다.
+    //   종전 trustList(runningPicks.length ≥ summary.running) 는 summary.running 을 신뢰 하한으로 가정했으나,
+    //   summary.running 은 만기 경과 후에도 청산 판정이 지연된 좀비 running 을 포함해 실제 보유픽보다 과대일 수
+    //   있다(예: 테크윙 2026-06-15 exp 06-18 → 7월에도 current_state='running'. build_card_history 가 과거 픽을
+    //   재판정 안 해 d_offset=1·result=null 로 동결 + build_summary 가 만기 무관 running 을 집계 → running 과대).
+    //   그 결과 정직하게 검증된 픽(흥구석유·GS건설 2건)이 summary(3) 미달로 오판돼 countonly 로 종목 카드가 통째
+    //   숨겨졌다(대표 catch). summary 는 하한이 아니라 좀비로 과대 가능하므로, 개별 검증된 running 픽은 항상
+    //   종목 카드로 표시한다. (summary.running 좀비 과대의 근원 해소 = build_summary 만기 가드 / 06-15 재빌드 =
+    //   백엔드 별건 — 승률카드 "보유중 N건"(L4184)도 그때 실측과 정합.)
     const others = runningPicks.filter(p => p.code !== headlineCode);
     if (others.length === 0) return '';
+    // 진단(근원 가시화) — summary.running(만기 무관 집계) 과 fan-out(만기 미경과 실측)의 불일치는 대부분
+    //   청산 판정 지연 좀비. 표시는 실측 우선하되 콘솔로 백엔드 재판정 필요를 노출.
+    if (typeof summaryRunning === 'number' && summaryRunning !== runningPicks.length) {
+      try { console.warn(`[pm320] running mismatch: summary=${summaryRunning} vs fan-out(만기 미경과)=${runningPicks.length} — 청산 지연 좀비 의심, 백엔드 재판정 필요`); } catch (_) { /* noop */ }
+    }
     // advisory — 만기 임박순 정렬(D-n 작은 순·매매 결단 직결).
     others.sort((a, b) => String((a.pk && a.pk.expiry_date) || '9').localeCompare(String((b.pk && b.pk.expiry_date) || '9')));
     // 가드1(프레이밍) — "보유" 단어 제거 → "추적 중인 픽 N"(유사투자자문 회색지대 회피·숫자 1초 인지).
@@ -1174,12 +1187,6 @@ function _buildRunningHoldingsHtml(runningPicks, headlineCode, summaryRunning) {
     const noteHtml = `<div class="cal-pre-prev-pick-holdings-note">추천은 하루 1종목 — 각 픽을 만기까지 보유해 기간이 겹치면 여러 종목을 함께 보유합니다</div>`;
     // 가드1+3(면책·적시성) — 진입가는 추천 시점 기준·매매 권유 아님.
     const discHtml = `<div class="cal-pre-prev-pick-holdings-note">추천 시점 진입가 기준 · 매매 권유 아님</div>`;
-    if (!trustList) {
-      return `<details class="cal-pre-prev-pick-holdings cal-pre-prev-pick-holdings--countonly">`
-        + `<summary class="cal-pre-prev-pick-holdings-label">${_label}</summary>`
-        + noteHtml + discHtml
-        + `</details>`;
-    }
     const rows = others.map(p => {
       const dn = _dleft(p.pk && p.pk.expiry_date);
       const dTxt = (dn == null) ? '' : ` · D-${dn}`;
