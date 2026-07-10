@@ -1,6 +1,6 @@
 {
   "date": "2026-07-10",
-  "generated_at": "2026-07-10T10:25:13.257987",
+  "generated_at": "2026-07-10T10:26:21.023026",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -61,29 +61,31 @@
       "industry": null,
       "sector": null,
       "themes": [
-        "건설",
-        "인프라 수혜",
         "반도체 클러스터",
-        "메가프로젝트 건설"
+        "메가프로젝트 건설",
+        "건설",
+        "인프라 수혜"
       ],
       "theme_paths": [
         {
-          "name": "인프라 수혜",
-          "path": [
-            "건설",
-            "인프라 수혜"
-          ]
-        },
-        {
           "name": "반도체 클러스터",
           "path": [
+            "반도체",
             "반도체 클러스터"
           ]
         },
         {
           "name": "메가프로젝트 건설",
           "path": [
+            "건설",
             "메가프로젝트 건설"
+          ]
+        },
+        {
+          "name": "인프라 수혜",
+          "path": [
+            "건설",
+            "인프라 수혜"
           ]
         }
       ],
@@ -98,7 +100,7 @@
           "url": "https://www.newsis.com/view/NISX20260710_0003703848",
           "source": "뉴시스",
           "published_at": "2026-07-10T00:47:15",
-          "causal_chain": null,
+          "causal_chain": "",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -111,21 +113,16 @@
         }
       ],
       "fallback": false,
-      "cafe_themes": [
-        "반도체 클러스터",
-        "메가프로젝트 건설"
-      ],
       "theme_crosscheck": {
         "confirmed": [
+          "반도체 클러스터",
+          "메가프로젝트 건설",
           "인프라 수혜"
         ],
         "pm320_only": [
           "건설"
         ],
-        "cafe_only": [
-          "반도체 클러스터",
-          "메가프로젝트 건설"
-        ]
+        "cafe_only": []
       },
       "range_240d": {
         "high": 18900,
@@ -137,7 +134,12 @@
         "current": null
       },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "strong_bull",
+      "theme_leader": true,
+      "hugepark_grade": "적극",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "073240",
@@ -444,9 +446,9 @@
           7680
         ]
       },
-      "togusa_verdict": "strong_bull",
+      "togusa_verdict": "weak_bull",
       "theme_leader": true,
-      "hugepark_grade": "적극",
+      "hugepark_grade": "관찰",
       "causal_chain": "",
       "parent_theme": ""
     },
@@ -948,7 +950,7 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bull",
+      "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰",
       "causal_chain": "",
