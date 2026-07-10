@@ -1,6 +1,6 @@
 {
   "date": "2026-07-10",
-  "generated_at": "2026-07-10T09:36:17.744025",
+  "generated_at": "2026-07-10T09:45:10.277982",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -20,12 +20,16 @@
       "summary": "은행권 개인사업자 대출 한도 확대 → 소상공인 금융 완화 신호 → 소비 저변 확대"
     },
     {
-      "title": "자영금융",
-      "summary": "케이뱅크 누적 공급액 5조원 돌파 → 자영업자 금융 접근성 개선 → 소비 활성화 기대"
-    },
-    {
       "title": "소비회복",
       "summary": "관광객 증가·내수 회복 기대감 → 소비 섹터 심리 개선 → 유통·소매 대장주 재평가"
+    },
+    {
+      "title": "바이오FDA",
+      "summary": "HLB 신약 FDA 추가 보완 요구 → 개발 지연 리스크 확대 → 바이오·제약 섹터 심리 악화"
+    },
+    {
+      "title": "자영금융",
+      "summary": "케이뱅크 누적 공급액 5조원 돌파 → 자영업자 금융 접근성 개선 → 소비 활성화 기대"
     },
     {
       "title": "소상공인금융",
@@ -36,8 +40,8 @@
       "summary": "소상공인 대출수요 급증·금융포용 확대 → 신용공급 섹터 수혜"
     },
     {
-      "title": "FDA허가",
-      "summary": "신약 개발 FDA 허가 실패 사례 → 바이오 임상 리스크 재부각 → 생명공학 섹터 약세"
+      "title": "SME금융",
+      "summary": "케이뱅크 개인사업자 대출 5조 돌파 → SME 금융 공급 민주화 신호 → 소상공인 투자심리 개선"
     }
   ],
   "narratives": [],
@@ -48,9 +52,9 @@
       "code": "073240",
       "name": "금호타이어",
       "rank": 1,
-      "trade_amount": 58360000000,
-      "change_pct": 12.67,
-      "close_price": 6760,
+      "trade_amount": 67287000000,
+      "change_pct": 12.5,
+      "close_price": 6750,
       "open_price": 6300,
       "high_price": 7050,
       "low_price": 6010,
@@ -126,11 +130,11 @@
       "range_240d": {
         "high": 7650,
         "high_date": "2026-02-11",
-        "high_pct": -11.63,
+        "high_pct": -11.76,
         "low": 4220,
         "low_date": "2026-06-24",
-        "low_pct": 60.19,
-        "current": 6760
+        "low_pct": 59.95,
+        "current": 6750
       },
       "daily_20": [
         {
@@ -271,9 +275,25 @@
           "o": 6300,
           "h": 7050,
           "l": 6010,
-          "c": 6760
+          "c": 6750
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 6300,
+        "base": 6300,
+        "prices": [
+          6300,
+          6320,
+          6840,
+          7010,
+          6840,
+          6840,
+          6860,
+          6730,
+          6750
+        ]
+      },
       "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰",
@@ -281,10 +301,269 @@
       "parent_theme": ""
     },
     {
-      "code": "069540",
-      "name": "빛과전자",
+      "code": "263800",
+      "name": "데이타솔루션",
       "rank": 2,
-      "trade_amount": 11856000000,
+      "trade_amount": 55185000000,
+      "change_pct": 3.11,
+      "close_price": 7960,
+      "open_price": 8410,
+      "high_price": 8490,
+      "low_price": 7070,
+      "industry": null,
+      "sector": null,
+      "themes": [
+        "AI"
+      ],
+      "theme_paths": [
+        {
+          "name": "AI",
+          "path": [
+            "AI"
+          ]
+        }
+      ],
+      "pick_count": 3,
+      "prev_pick": {
+        "date": "2026-07-09",
+        "rank": 9,
+        "change_pct": 29.97,
+        "trade_amount": 42780000000
+      },
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [],
+      "news": [
+        {
+          "title": "데이타솔루션, 삼성SDS와 대규모 공급 계약 소식에 '2연상'[특징주]",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03247206645512880",
+          "source": "이데일리",
+          "published_at": "2026-07-09T00:39:28",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "[특징주] 데이타솔루션, 삼성SDS와 4381억원 AI컴퓨팅 공급 계약 소식에…上",
+          "url": "https://biz.chosun.com/stock/stock_general/2026/07/08/VMG5YIBDOZGFLNPS7YHWM7GQUQ/",
+          "source": "조선비즈",
+          "published_at": "2026-07-08T00:28:50",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        }
+      ],
+      "fallback": true,
+      "cafe_themes": [
+        "AI"
+      ],
+      "theme_crosscheck": {
+        "confirmed": [],
+        "pm320_only": [],
+        "cafe_only": [
+          "AI"
+        ]
+      },
+      "range_240d": {
+        "high": 8490,
+        "high_date": "2026-07-10",
+        "high_pct": -6.24,
+        "low": 4115,
+        "low_date": "2026-03-04",
+        "low_pct": 93.44,
+        "current": 7960
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-15",
+          "o": 4455,
+          "h": 4595,
+          "l": 4415,
+          "c": 4475
+        },
+        {
+          "date": "2026-06-16",
+          "o": 4525,
+          "h": 4590,
+          "l": 4405,
+          "c": 4535
+        },
+        {
+          "date": "2026-06-17",
+          "o": 4510,
+          "h": 4675,
+          "l": 4405,
+          "c": 4600
+        },
+        {
+          "date": "2026-06-18",
+          "o": 4615,
+          "h": 4660,
+          "l": 4505,
+          "c": 4510
+        },
+        {
+          "date": "2026-06-19",
+          "o": 4510,
+          "h": 4610,
+          "l": 4260,
+          "c": 4390
+        },
+        {
+          "date": "2026-06-22",
+          "o": 4385,
+          "h": 4650,
+          "l": 4365,
+          "c": 4445
+        },
+        {
+          "date": "2026-06-23",
+          "o": 4325,
+          "h": 4805,
+          "l": 4325,
+          "c": 4415
+        },
+        {
+          "date": "2026-06-24",
+          "o": 4380,
+          "h": 4485,
+          "l": 4250,
+          "c": 4410
+        },
+        {
+          "date": "2026-06-25",
+          "o": 4350,
+          "h": 4575,
+          "l": 4350,
+          "c": 4410
+        },
+        {
+          "date": "2026-06-26",
+          "o": 4495,
+          "h": 4495,
+          "l": 4245,
+          "c": 4295
+        },
+        {
+          "date": "2026-06-29",
+          "o": 4295,
+          "h": 4785,
+          "l": 4295,
+          "c": 4750
+        },
+        {
+          "date": "2026-06-30",
+          "o": 4745,
+          "h": 4975,
+          "l": 4735,
+          "c": 4810
+        },
+        {
+          "date": "2026-07-01",
+          "o": 4950,
+          "h": 5050,
+          "l": 4780,
+          "c": 4830
+        },
+        {
+          "date": "2026-07-02",
+          "o": 4825,
+          "h": 4835,
+          "l": 4515,
+          "c": 4530
+        },
+        {
+          "date": "2026-07-03",
+          "o": 4500,
+          "h": 4740,
+          "l": 4500,
+          "c": 4710
+        },
+        {
+          "date": "2026-07-06",
+          "o": 4715,
+          "h": 4800,
+          "l": 4625,
+          "c": 4765
+        },
+        {
+          "date": "2026-07-07",
+          "o": 4710,
+          "h": 4850,
+          "l": 4400,
+          "c": 4570
+        },
+        {
+          "date": "2026-07-08",
+          "o": 5940,
+          "h": 5940,
+          "l": 5940,
+          "c": 5940
+        },
+        {
+          "date": "2026-07-09",
+          "o": 7720,
+          "h": 7720,
+          "l": 6200,
+          "c": 7720
+        },
+        {
+          "date": "2026-07-10",
+          "o": 8410,
+          "h": 8490,
+          "l": 7070,
+          "c": 7960
+        }
+      ],
+      "status_badges": [
+        {
+          "label": "투자주의 근접",
+          "severity": "caution",
+          "source": "predicted",
+          "thresholds": [
+            {
+              "desc": "5일 전(2026-07-03) 대비 +60%↑",
+              "base_price": 4710,
+              "threshold": 7536,
+              "current": 7960,
+              "triggered": true
+            }
+          ],
+          "regulation": "KRX 시장경보 가격 조건 충족 (거래량 미검증, 자체 추정)",
+          "period_start": "2026-07-13",
+          "period_end": "2026-07-14",
+          "start": "2026-07-13",
+          "end": "2026-07-14",
+          "view_date": "2026-07-10",
+          "next_trading_day": "2026-07-13",
+          "next_trading_day_for_predicted": "2026-07-13",
+          "next_trading_day_source": "fallback_homepage",
+          "single_price": false,
+          "effect_badges": []
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "투자경고"
+    },
+    {
+      "code": "017900",
+      "name": "광전자",
+      "rank": 3,
+      "trade_amount": 19106000000,
       "change_pct": null,
       "close_price": null,
       "open_price": null,
@@ -307,11 +586,11 @@
           "severity": "hot",
           "source": "v1_condition",
           "view_date": "2026-07-10",
-          "summary": "빛과전자 상한가 (29.89%)",
+          "summary": "광전자 상한가 (29.96%)",
           "cur_prc": null,
-          "flu_rt": 29.89,
-          "trde_qty": 5646686,
-          "trde_prica_calc": 11856000000,
+          "flu_rt": 29.96,
+          "trde_qty": 2814913,
+          "trde_prica_calc": 19106000000,
           "consecutive_count": 1,
           "effect_badges": [
             {
@@ -327,7 +606,225 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
+      "code": "069540",
+      "name": "빛과전자",
+      "rank": 4,
+      "trade_amount": 12977000000,
+      "change_pct": 29.89,
+      "close_price": 2325,
+      "open_price": 1825,
+      "high_price": 2325,
+      "low_price": 1825,
+      "industry": null,
+      "sector": null,
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-07-10"
+      ],
+      "news": [],
+      "fallback": true,
+      "range_240d": {
+        "high": 8100,
+        "high_date": "2026-04-16",
+        "high_pct": -71.3,
+        "low": 592,
+        "low_date": "2026-01-02",
+        "low_pct": 292.74,
+        "current": 2325
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-15",
+          "o": 3415,
+          "h": 3835,
+          "l": 3235,
+          "c": 3415
+        },
+        {
+          "date": "2026-06-16",
+          "o": 3530,
+          "h": 3950,
+          "l": 3460,
+          "c": 3690
+        },
+        {
+          "date": "2026-06-17",
+          "o": 3600,
+          "h": 3600,
+          "l": 3355,
+          "c": 3415
+        },
+        {
+          "date": "2026-06-18",
+          "o": 3415,
+          "h": 3620,
+          "l": 3225,
+          "c": 3290
+        },
+        {
+          "date": "2026-06-19",
+          "o": 3370,
+          "h": 3370,
+          "l": 2845,
+          "c": 2930
+        },
+        {
+          "date": "2026-06-22",
+          "o": 2800,
+          "h": 2975,
+          "l": 2710,
+          "c": 2770
+        },
+        {
+          "date": "2026-06-23",
+          "o": 2820,
+          "h": 2880,
+          "l": 2510,
+          "c": 2545
+        },
+        {
+          "date": "2026-06-24",
+          "o": 2545,
+          "h": 2650,
+          "l": 2445,
+          "c": 2565
+        },
+        {
+          "date": "2026-06-25",
+          "o": 2610,
+          "h": 2725,
+          "l": 2275,
+          "c": 2365
+        },
+        {
+          "date": "2026-06-26",
+          "o": 2345,
+          "h": 2345,
+          "l": 2060,
+          "c": 2100
+        },
+        {
+          "date": "2026-06-29",
+          "o": 2100,
+          "h": 2295,
+          "l": 2055,
+          "c": 2215
+        },
+        {
+          "date": "2026-06-30",
+          "o": 2245,
+          "h": 2265,
+          "l": 2080,
+          "c": 2215
+        },
+        {
+          "date": "2026-07-01",
+          "o": 2215,
+          "h": 2355,
+          "l": 2130,
+          "c": 2295
+        },
+        {
+          "date": "2026-07-02",
+          "o": 2260,
+          "h": 2260,
+          "l": 1948,
+          "c": 1980
+        },
+        {
+          "date": "2026-07-03",
+          "o": 1980,
+          "h": 2065,
+          "l": 1842,
+          "c": 2055
+        },
+        {
+          "date": "2026-07-06",
+          "o": 2110,
+          "h": 2110,
+          "l": 1863,
+          "c": 1934
+        },
+        {
+          "date": "2026-07-07",
+          "o": 1920,
+          "h": 1961,
+          "l": 1783,
+          "c": 1813
+        },
+        {
+          "date": "2026-07-08",
+          "o": 1730,
+          "h": 1828,
+          "l": 1660,
+          "c": 1667
+        },
+        {
+          "date": "2026-07-09",
+          "o": 1643,
+          "h": 1845,
+          "l": 1643,
+          "c": 1790
+        },
+        {
+          "date": "2026-07-10",
+          "o": 1825,
+          "h": 2325,
+          "l": 1825,
+          "c": 2325
+        }
+      ],
+      "status_badges": [
+        {
+          "label": "상한가",
+          "severity": "hot",
+          "source": "v1_condition",
+          "view_date": "2026-07-10",
+          "summary": "빛과전자 상한가 (29.89%)",
+          "cur_prc": 2325,
+          "flu_rt": 29.89,
+          "trde_qty": 6131926,
+          "trde_prica_calc": 12977000000,
+          "consecutive_count": 1,
+          "effect_badges": [
+            {
+              "effect": "limit-up",
+              "when": "today",
+              "severity": "hot",
+              "source_label": "상한가",
+              "source_kind": "limit_up",
+              "consecutive_count": 1
+            }
+          ],
+          "next_trading_day": "2026-07-13"
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 1825,
+        "base": 1825,
+        "prices": [
+          1825,
+          2065,
+          1975,
+          1984,
+          2010,
+          2125,
+          2325,
+          2325,
+          2325
+        ]
+      },
+      "credit_risk": true,
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": false,
       "hugepark_grade": "관찰"
@@ -335,8 +832,8 @@
     {
       "code": "003680",
       "name": "한성기업",
-      "rank": 3,
-      "trade_amount": 11735000000,
+      "rank": 5,
+      "trade_amount": 11793000000,
       "change_pct": 29.95,
       "close_price": 8460,
       "open_price": 7300,
@@ -579,8 +1076,8 @@
           "summary": "한성기업 상한가 (29.95%)",
           "cur_prc": 8460,
           "flu_rt": 29.95,
-          "trde_qty": 1456392,
-          "trde_prica_calc": 11735000000,
+          "trde_qty": 1463246,
+          "trde_prica_calc": 11793000000,
           "consecutive_count": 2,
           "effect_badges": [
             {
@@ -606,6 +1103,8 @@
           8460,
           8460,
           8460,
+          8460,
+          8460,
           8460
         ]
       },
@@ -616,258 +1115,10 @@
       "hugepark_grade": "주의"
     },
     {
-      "code": "007610",
-      "name": "선도전기",
-      "rank": 4,
-      "trade_amount": 7586000000,
-      "change_pct": 29.82,
-      "close_price": 5660,
-      "open_price": 4620,
-      "high_price": 5660,
-      "low_price": 4560,
-      "industry": null,
-      "sector": null,
-      "themes": [
-        "전력설비",
-        "신규상장"
-      ],
-      "theme_paths": [
-        {
-          "name": "전력설비",
-          "path": [
-            "전력설비"
-          ]
-        },
-        {
-          "name": "신규상장",
-          "path": [
-            "신규상장"
-          ]
-        }
-      ],
-      "pick_count": 1,
-      "prev_pick": null,
-      "bullish_today": true,
-      "bullish_streak": 1,
-      "bullish_dates": [
-        "2026-07-01",
-        "2026-07-02",
-        "2026-07-10"
-      ],
-      "news": [],
-      "fallback": true,
-      "theme_crosscheck": {
-        "confirmed": [
-          "전력설비"
-        ],
-        "pm320_only": [
-          "신규상장"
-        ],
-        "cafe_only": []
-      },
-      "range_240d": {
-        "high": 16590,
-        "high_date": "2026-05-12",
-        "high_pct": -65.88,
-        "low": 3395,
-        "low_date": "2026-06-26",
-        "low_pct": 66.72,
-        "current": 5660
-      },
-      "daily_20": [
-        {
-          "date": "2026-06-15",
-          "o": 6100,
-          "h": 6420,
-          "l": 5580,
-          "c": 5800
-        },
-        {
-          "date": "2026-06-16",
-          "o": 5880,
-          "h": 6100,
-          "l": 5600,
-          "c": 5730
-        },
-        {
-          "date": "2026-06-17",
-          "o": 5680,
-          "h": 6500,
-          "l": 5470,
-          "c": 5900
-        },
-        {
-          "date": "2026-06-18",
-          "o": 5830,
-          "h": 6410,
-          "l": 5530,
-          "c": 5540
-        },
-        {
-          "date": "2026-06-19",
-          "o": 5550,
-          "h": 5760,
-          "l": 4915,
-          "c": 5070
-        },
-        {
-          "date": "2026-06-22",
-          "o": 5080,
-          "h": 5190,
-          "l": 4385,
-          "c": 4485
-        },
-        {
-          "date": "2026-06-23",
-          "o": 4300,
-          "h": 4630,
-          "l": 3870,
-          "c": 3935
-        },
-        {
-          "date": "2026-06-24",
-          "o": 3900,
-          "h": 4025,
-          "l": 3650,
-          "c": 3855
-        },
-        {
-          "date": "2026-06-25",
-          "o": 3885,
-          "h": 4045,
-          "l": 3690,
-          "c": 3745
-        },
-        {
-          "date": "2026-06-26",
-          "o": 3710,
-          "h": 3725,
-          "l": 3395,
-          "c": 3550
-        },
-        {
-          "date": "2026-06-29",
-          "o": 3440,
-          "h": 3885,
-          "l": 3405,
-          "c": 3860
-        },
-        {
-          "date": "2026-06-30",
-          "o": 4140,
-          "h": 4450,
-          "l": 3785,
-          "c": 3935
-        },
-        {
-          "date": "2026-07-01",
-          "o": 4000,
-          "h": 5110,
-          "l": 3995,
-          "c": 5110
-        },
-        {
-          "date": "2026-07-02",
-          "o": 5350,
-          "h": 6640,
-          "l": 5250,
-          "c": 6300
-        },
-        {
-          "date": "2026-07-03",
-          "o": 6300,
-          "h": 6470,
-          "l": 5120,
-          "c": 5350
-        },
-        {
-          "date": "2026-07-06",
-          "o": 5440,
-          "h": 6270,
-          "l": 5200,
-          "c": 5530
-        },
-        {
-          "date": "2026-07-07",
-          "o": 5550,
-          "h": 5620,
-          "l": 4760,
-          "c": 4900
-        },
-        {
-          "date": "2026-07-08",
-          "o": 4700,
-          "h": 4900,
-          "l": 4255,
-          "c": 4420
-        },
-        {
-          "date": "2026-07-09",
-          "o": 4380,
-          "h": 4550,
-          "l": 4170,
-          "c": 4360
-        },
-        {
-          "date": "2026-07-10",
-          "o": 4620,
-          "h": 5660,
-          "l": 4560,
-          "c": 5660
-        }
-      ],
-      "status_badges": [
-        {
-          "label": "상한가",
-          "severity": "hot",
-          "source": "v1_condition",
-          "view_date": "2026-07-10",
-          "summary": "선도전기 상한가 (29.82%)",
-          "cur_prc": 5660,
-          "flu_rt": 29.82,
-          "trde_qty": 1381817,
-          "trde_prica_calc": 7586000000,
-          "consecutive_count": 1,
-          "effect_badges": [
-            {
-              "effect": "limit-up",
-              "when": "today",
-              "severity": "hot",
-              "source_label": "상한가",
-              "source_kind": "limit_up",
-              "consecutive_count": 1
-            }
-          ],
-          "next_trading_day": "2026-07-13"
-        }
-      ],
-      "intraday": {
-        "step_min": 5,
-        "open": 4620,
-        "base": 4620,
-        "prices": [
-          4620,
-          5660,
-          5660,
-          5660,
-          5660,
-          5660,
-          5660
-        ]
-      },
-      "credit_risk": true,
-      "credit_reason": "회사한도초과",
-      "togusa_verdict": "neutral",
-      "theme_leader": true,
-      "hugepark_grade": "관찰",
-      "causal_chain": "",
-      "parent_theme": ""
-    },
-    {
       "code": "226330",
       "name": "신테카바이오",
-      "rank": 5,
-      "trade_amount": 2038000000,
+      "rank": 6,
+      "trade_amount": 2049000000,
       "change_pct": 30.0,
       "close_price": 1872,
       "open_price": 1870,
@@ -1061,8 +1312,8 @@
           "summary": "신테카바이오 상한가 (30.00%)",
           "cur_prc": 1872,
           "flu_rt": 30.0,
-          "trde_qty": 1098267,
-          "trde_prica_calc": 2038000000,
+          "trde_qty": 1104269,
+          "trde_prica_calc": 2049000000,
           "consecutive_count": 1,
           "effect_badges": [
             {
@@ -1088,6 +1339,8 @@
           1872,
           1872,
           1872,
+          1872,
+          1872,
           1872
         ]
       },
@@ -1100,8 +1353,8 @@
     {
       "code": "049080",
       "name": "기가레인",
-      "rank": 6,
-      "trade_amount": 1910000000,
+      "rank": 7,
+      "trade_amount": 1928000000,
       "change_pct": 29.92,
       "close_price": 5970,
       "open_price": 4700,
@@ -1281,8 +1534,8 @@
           "summary": "기가레인 상한가 (29.92%)",
           "cur_prc": 5970,
           "flu_rt": 29.92,
-          "trde_qty": 330212,
-          "trde_prica_calc": 1910000000,
+          "trde_qty": 333188,
+          "trde_prica_calc": 1928000000,
           "consecutive_count": 1,
           "effect_badges": [
             {
@@ -1305,6 +1558,8 @@
           4700,
           5160,
           5950,
+          5970,
+          5970,
           5970,
           5970,
           5970,
