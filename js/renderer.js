@@ -5495,11 +5495,16 @@ async function initThemeTrend() {
     }
     if (scrollArea && needsScroll) {
       scrollArea.addEventListener('scroll', () => {
-        requestAnimationFrame(() => { updateViewportLegend(); _updateYDomain(); });
+        requestAnimationFrame(() => { updateViewportLegend(); });
       }, { passive: true });
     }
-    // 초기 진입 1회 (rAF) — 우측 정렬 후 viewport 평가 + y domain 가시 윈도우 산출 (R28 P1⑥)
-    requestAnimationFrame(() => { updateViewportLegend(); _updateYDomain(); });
+    // 초기 진입 1회 (rAF) — 우측 정렬 후 viewport 평가.
+    // 대표 2026-07-10 지시: y축 = 20영업일 전체 max 고정 (yMax L5211-5213, *1.1 headroom).
+    //   R28 P1⑥ 가시 윈도우 동적 산출(_updateYDomain) 폐기 — 스크롤해도 y축 불변이라야
+    //   서로 다른 스크롤 위치 간 절대 높낮이 비교 가능("높낮이가 제대로 구분된다").
+    //   조니 2심 R28 P1⑥(outlier 압착 방지 위한 동적 산출)와 상충 — 대표 최종 지시 우선.
+    //   _applyYDomain/_updateYDomain 정의는 재역전 대비 보존(현재 미호출 = 비활성).
+    requestAnimationFrame(() => { updateViewportLegend(); });
 
     // -- 포인트 클릭 → 종목 테이블 --
     const detailDiv = document.getElementById('trend-detail');
