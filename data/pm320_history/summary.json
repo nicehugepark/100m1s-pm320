@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-11T03:47:52+09:00",
+  "generated_at": "2026-07-11T14:05:52+09:00",
   "since": "2026-04-08",
   "first_pick_date": "2026-04-08",
-  "last_settled_date": "2026-07-02",
+  "last_settled_date": "2026-07-10",
   "total_picks": 57,
-  "settled": 55,
-  "running": 2,
-  "take_profit": 50,
+  "settled": 56,
+  "running": 1,
+  "take_profit": 51,
   "expired_loss": 5,
   "expired_gain": 0,
-  "win_rate": 90.9,
+  "win_rate": 91.1,
   "_basis": "HEAD 4/8~6/11(41픽)=검증 SoT balance_history×(10/12) 정밀값 무손상. TAIL 6/12~7/10(16픽)=라이브 date 파일 청산결과 + water1x_d6 4슬롯 복리 재적용. 테크윙(6/15)=물타기 발생·D+6=6/23 만기손실 settled 전환(2026-07-11 6/23 일봉 backfill 반영, 평단=조화평균·6/23 종가 cron DB 실측·build_card_history.py 공식 verbatim).",
   "_source": "backtest_ssot",
   "worst_mdd_pct": -30.6,
@@ -21,9 +21,9 @@
   "_generated_by": "backtest team reconstruct_57picks_table.py (hybrid HEAD=SoT / TAIL=live)",
   "_generated_at": "2026-07-11T03:39:03",
   "start_balance": 10000000,
-  "final_balance": 10025129.64,
-  "total_pnl": 25129.64,
-  "total_return_pct": 0.2513,
+  "final_balance": 10026666.67,
+  "total_pnl": 26666.67,
+  "total_return_pct": 0.2667,
   "note_return": "total_return_pct 는 청산분 실현 기준. 테크윙 6/23 만기손실 실현 반영 완료. 잔여 running 2건(흥구석유 7/9·GS건설 7/10, 만기 미도래 정상 보유).",
   "running_detail": [
     {
@@ -786,13 +786,14 @@
         "code": "024060",
         "name": "흥구석유",
         "entry_price": 10780,
-        "exit_date": null,
-        "exit_class": "미청산(보유중)",
-        "ret_pct": null,
-        "pnl": null,
-        "balance_after": null,
+        "exit_date": "2026-07-10",
+        "exit_class": "D+1 익절",
+        "ret_pct": 3.2,
+        "pnl": 26666.67,
+        "balance_after": 10026666.67,
         "watered": false,
-        "settlement_order": null
+        "settlement_order": 56,
+        "_live": true
       },
       {
         "date": "2026-07-10",
@@ -807,6 +808,9 @@
         "watered": false,
         "settlement_order": null
       }
-    ]
-  }
+    ],
+    "as_of": "2026-07-10"
+  },
+  "_backtest_baseline_running": 0,
+  "_live_tail_appended": 1
 }
