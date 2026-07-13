@@ -1,6 +1,6 @@
 {
   "date": "2026-07-13",
-  "generated_at": "2026-07-13T10:55:14.734722",
+  "generated_at": "2026-07-13T11:05:09.052149",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -40,9 +40,9 @@
       "code": "003680",
       "name": "한성기업",
       "rank": 1,
-      "trade_amount": 56633000000,
-      "change_pct": 29.91,
-      "close_price": 10990,
+      "trade_amount": 66831000000,
+      "change_pct": 18.2,
+      "close_price": 10000,
       "open_price": 10230,
       "high_price": 10990,
       "low_price": 8860,
@@ -117,11 +117,11 @@
       "range_240d": {
         "high": 10990,
         "high_date": "2026-07-13",
-        "high_pct": 0.0,
+        "high_pct": -9.01,
         "low": 3915,
         "low_date": "2026-06-26",
-        "low_pct": 180.72,
-        "current": 10990
+        "low_pct": 155.43,
+        "current": 10000
       },
       "daily_20": [
         {
@@ -262,7 +262,7 @@
           "o": 10230,
           "h": 10990,
           "l": 8860,
-          "c": 10990
+          "c": 10000
         }
       ],
       "status_badges": [
@@ -275,7 +275,7 @@
               "desc": "5일 전(2026-07-06) 대비 +60%↑",
               "base_price": 4635,
               "threshold": 7416,
-              "current": 10990,
+              "current": 10000,
               "triggered": true
             }
           ],
@@ -290,29 +290,6 @@
           "next_trading_day_source": "fallback_homepage",
           "single_price": false,
           "effect_badges": []
-        },
-        {
-          "label": "상한가",
-          "severity": "hot",
-          "source": "v1_condition",
-          "view_date": "2026-07-13",
-          "summary": "한성기업 상한가 (29.91%)",
-          "cur_prc": 10990,
-          "flu_rt": 29.91,
-          "trde_qty": 5599317,
-          "trde_prica_calc": 56633000000,
-          "consecutive_count": 3,
-          "effect_badges": [
-            {
-              "effect": "limit-up",
-              "when": "today",
-              "severity": "hot",
-              "source_label": "상한가",
-              "source_kind": "limit_up",
-              "consecutive_count": 3
-            }
-          ],
-          "next_trading_day": "2026-07-14"
         }
       ],
       "intraday": {
@@ -342,7 +319,9 @@
           10990,
           10990,
           10990,
-          10990
+          10990,
+          10420,
+          10120
         ]
       },
       "credit_risk": true,
@@ -355,7 +334,7 @@
       "code": "044340",
       "name": "위닉스",
       "rank": 2,
-      "trade_amount": 6024000000,
+      "trade_amount": 6036000000,
       "change_pct": 29.97,
       "close_price": 4445,
       "open_price": 3560,
@@ -552,8 +531,8 @@
           "summary": "위닉스 상한가 (29.97%)",
           "cur_prc": 4445,
           "flu_rt": 29.97,
-          "trde_qty": 1400294,
-          "trde_prica_calc": 6024000000,
+          "trde_qty": 1403113,
+          "trde_prica_calc": 6036000000,
           "consecutive_count": 1,
           "effect_badges": [
             {
@@ -595,6 +574,8 @@
           4445,
           4445,
           4445,
+          4445,
+          4445,
           4445
         ]
       },
@@ -608,9 +589,9 @@
       "code": "322780",
       "name": "코퍼스코리아",
       "rank": 3,
-      "trade_amount": 1092000000,
-      "change_pct": 28.59,
-      "close_price": 2150,
+      "trade_amount": 1105000000,
+      "change_pct": 29.78,
+      "close_price": 2170,
       "open_price": 1840,
       "high_price": 2170,
       "low_price": 1736,
@@ -722,11 +703,11 @@
       "range_240d": {
         "high": 11000,
         "high_date": "2025-10-16",
-        "high_pct": -80.45,
+        "high_pct": -80.27,
         "low": 1213,
         "low_date": "2026-06-26",
-        "low_pct": 77.25,
-        "current": 2150
+        "low_pct": 78.9,
+        "current": 2170
       },
       "daily_20": [
         {
@@ -867,7 +848,7 @@
           "o": 1840,
           "h": 2170,
           "l": 1736,
-          "c": 2150
+          "c": 2170
         }
       ],
       "intraday": {
@@ -897,7 +878,9 @@
           2085,
           2150,
           2150,
-          2150
+          2170,
+          2170,
+          2170
         ]
       },
       "credit_risk": true,
@@ -910,7 +893,7 @@
       "code": "465770",
       "name": "STX그린로지스",
       "rank": 4,
-      "trade_amount": 323000000,
+      "trade_amount": 332000000,
       "change_pct": 29.99,
       "close_price": 2540,
       "open_price": 2020,
@@ -1090,8 +1073,8 @@
           "summary": "STX그린로지스 상한가 (29.99%)",
           "cur_prc": 2540,
           "flu_rt": 29.99,
-          "trde_qty": 131070,
-          "trde_prica_calc": 323000000,
+          "trde_qty": 134818,
+          "trde_prica_calc": 332000000,
           "consecutive_count": 1,
           "effect_badges": [
             {
@@ -1112,6 +1095,9 @@
         "base": 2020,
         "prices": [
           2020,
+          2540,
+          2540,
+          2540,
           2540,
           2540,
           2540,
