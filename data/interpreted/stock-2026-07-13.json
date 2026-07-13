@@ -1,15 +1,15 @@
 {
   "date": "2026-07-13",
-  "generated_at": "2026-07-13T20:00:40.700032",
+  "generated_at": "2026-07-13T21:12:25.691734",
   "data_source": "kiwoom",
   "macro_events": [
     {
-      "title": "호르무즈봉쇄",
-      "summary": "호르무즈 해협 봉쇄 우려 → 중동산 원유 해상운송 경로 차질 → 해운·물류·에너지 섹터 영향"
-    },
-    {
       "title": "AI홈협력",
       "summary": "GS건설-LG전자 AI홈 공동개발 → 스마트홈 산업 확장 → 건설·가전 섹터 협력 강화"
+    },
+    {
+      "title": "중동",
+      "summary": "이란-호르무즈 해협 봉쇄 → 석유·가스 수송로 중단 → 해운·에너지 섹터 강세"
     },
     {
       "title": "K바이오심리",
@@ -61,13 +61,14 @@
       "industry": "수산물 가공 및 저장 처리업",
       "sector": "냉동식품,햄제품 제조,도매,보관/원양어업",
       "themes": [
-        "음식료"
+        "애국 소비(돈쭐)"
       ],
       "theme_paths": [
         {
-          "name": "음식료",
+          "name": "애국 소비(돈쭐)",
           "path": [
-            "음식료"
+            "미담 테마",
+            "애국 소비(돈쭐)"
           ]
         }
       ],
@@ -135,6 +136,20 @@
         }
       ],
       "fallback": true,
+      "disclosures": [
+        {
+          "title": "한성기업(보통주)이 주가급등으로 2026년 07월 14일자 투자경고종목으로 지정됨. 지정예고 후 07월 13일 종가가 5일전 대비 60% 이상 상승, 최근 15일 종가 중 최고가, 5일 상승률이 업종지수의 5배 이상 요건에 해당. 지정 후 신용융자 매수 불가·위탁증거금 100%·대용증권 불인정이 적용되며, 추가 급등 시 매매거래가 정지될 수 있음.",
+          "category": "투자경고",
+          "sentiment": 0,
+          "url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260713000649",
+          "is_cb": false,
+          "source": "KIND",
+          "raw_title": "투자경고종목 지정",
+          "period_start": "2026-07-14",
+          "condition": "지정일 이후 2일 동안 40% 이상 상승하고 지정 전일 종가보다 높을 경우 1회에 한하여 매매거래 정지 가능",
+          "regulation_period": "지정일 2026-07-14부터, 최초 해제 판단일 2026-07-28(예정)"
+        }
+      ],
       "index_change_pct": -8.95,
       "index_multiple_current": -1.11,
       "index_multiple_eligible": false,
@@ -291,29 +306,27 @@
       ],
       "status_badges": [
         {
-          "label": "투자주의 근접",
-          "severity": "caution",
-          "source": "predicted",
-          "thresholds": [
-            {
-              "desc": "5일 전(2026-07-06) 대비 +60%↑",
-              "base_price": 4635,
-              "threshold": 7416,
-              "current": 9300,
-              "triggered": true
-            }
-          ],
-          "regulation": "KRX 시장경보 가격 조건 충족 (거래량 미검증, 자체 추정)",
-          "period_start": "2026-07-14",
-          "period_end": "2026-07-15",
+          "label": "투자경고",
+          "severity": "warning",
           "start": "2026-07-14",
-          "end": "2026-07-15",
+          "summary": "한성기업(보통주)이 주가급등으로 2026년 07월 14일자 투자경고종목으로 지정됨. 지정예고 후 07월 13일 종가가 5일전 대비 60% 이상 상승, 최근 15일 종가 중 최고가, 5일 상승률이 업종지수의 5배 이상 요건에 해당. 지정 후 신용융자 매수 불가·위탁증거금 100%·대용증권 불인정이 적용되며, 추가 급등 시 매매거래가 정지될 수 있음.",
+          "condition": "지정일 이후 2일 동안 40% 이상 상승하고 지정 전일 종가보다 높을 경우 1회에 한하여 매매거래 정지 가능",
+          "regulation": "지정일 2026-07-14부터, 최초 해제 판단일 2026-07-28(예정)",
           "view_date": "2026-07-13",
           "next_trading_day": "2026-07-14",
-          "next_trading_day_for_predicted": "2026-07-14",
-          "next_trading_day_source": "fallback_homepage",
           "single_price": false,
-          "effect_badges": []
+          "source": "disclosure",
+          "effect_badges": [
+            {
+              "effect": "credit-block",
+              "when": "tomorrow",
+              "severity": "warning",
+              "source_label": "투자경고",
+              "source_kind": "disclosure"
+            }
+          ],
+          "disclosure_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260713000649",
+          "disclosure_title": "투자경고종목 지정"
         }
       ],
       "intraday": {
@@ -1686,17 +1699,8 @@
       "low_price": 979,
       "industry": "가구 제조업",
       "sector": "씽크상판,주방기기,목재케비넷,유해가스저감장치시설 제조,판매",
-      "themes": [
-        "가구"
-      ],
-      "theme_paths": [
-        {
-          "name": "가구",
-          "path": [
-            "가구"
-          ]
-        }
-      ],
+      "themes": [],
+      "theme_paths": [],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": true,
@@ -1962,7 +1966,9 @@
       "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
-      "hugepark_grade": "주의"
+      "hugepark_grade": "주의",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "465770",
@@ -1997,6 +2003,21 @@
       ],
       "news": [],
       "fallback": true,
+      "disclosures": [
+        {
+          "title": "STX그린로지스가 2026-07-14 1일간 투자주의종목으로 지정됨(상한가잔량 상위 사유). 종가 2,540원, 상한가 미체결 매수호가 상위 10개 계좌 점유율 94.12%, 최근 5일·15일간 동일사유 지정횟수 0회.",
+          "category": "투자주의",
+          "sentiment": 0,
+          "url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260713000650",
+          "is_cb": false,
+          "source": "KIND",
+          "raw_title": "[투자주의]상한가잔량 상위종목",
+          "period_start": "2026-07-14",
+          "period_end": "2026-07-14",
+          "condition": "정규시장 종료시 상한가 매수호가잔량 10만주 이상 & 상위 10개 계좌 미체결 매수호가 합이 전체의 90% 이상",
+          "regulation_period": "2026-07-14"
+        }
+      ],
       "index_change_pct": -8.95,
       "index_multiple_current": -3.35,
       "index_multiple_eligible": false,
@@ -2152,6 +2173,22 @@
         }
       ],
       "status_badges": [
+        {
+          "label": "투자주의",
+          "severity": "caution",
+          "start": "2026-07-14",
+          "end": "2026-07-14",
+          "summary": "STX그린로지스가 2026-07-14 당일 투자주의종목으로 지정됨(상한가잔량 상위 사유). 종가 2,540원, 상한가 미체결 매수호가 상위 10개 계좌 점유율 94.12%, 최근 5일·2026-07-14 ~ 2026-07-28 (15일간) 동일사유 지정횟수 0회.",
+          "condition": "정규시장 종료시 상한가 매수호가잔량 10만주 이상 & 상위 10개 계좌 미체결 매수호가 합이 전체의 90% 이상",
+          "regulation": "2026-07-14",
+          "view_date": "2026-07-13",
+          "next_trading_day": "2026-07-14",
+          "single_price": false,
+          "source": "disclosure",
+          "effect_badges": [],
+          "disclosure_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260713000650",
+          "disclosure_title": "[투자주의]상한가잔량 상위종목"
+        },
         {
           "label": "상한가",
           "severity": "hot",
