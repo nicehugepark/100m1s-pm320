@@ -1,19 +1,35 @@
 {
   "date": "2026-07-13",
-  "generated_at": "2026-07-13T15:35:16.005254",
+  "generated_at": "2026-07-13T20:00:40.700032",
   "data_source": "kiwoom",
   "macro_events": [
     {
-      "title": "K바이오약세",
-      "summary": "HLB FDA 보완 요구·펩트론 동반 하한가 → K바이오 기업 신뢰도 악화 → 바이오/제약 섹터 약세 심화"
+      "title": "호르무즈봉쇄",
+      "summary": "호르무즈 해협 봉쇄 우려 → 중동산 원유 해상운송 경로 차질 → 해운·물류·에너지 섹터 영향"
     },
     {
-      "title": "AI홈",
-      "summary": "GS건설-LG전자 차세대 AI홈 공동개발 → 스마트홈·AI기술 시장 확대 → 건설·가전·IoT 섹터 수혜"
+      "title": "AI홈협력",
+      "summary": "GS건설-LG전자 AI홈 공동개발 → 스마트홈 산업 확장 → 건설·가전 섹터 협력 강화"
+    },
+    {
+      "title": "K바이오심리",
+      "summary": "HLB·펩트론 동반 급락 → K바이오 펀드 심리 악화 → 바이오 섹터 자금 이탈 확산"
     },
     {
       "title": "반도체호황",
       "summary": "SK하이닉스 ADR 흥행·반도체 수주 증가 → K-반도체 산업 회복세 확인 → 반도체/메모리 섹터 강세"
+    },
+    {
+      "title": "북미전장",
+      "summary": "한솔테크닉스 멕시코법인 신설 → 북미 전장(EV) 시장 직접 진출 → 자동차 부품 공급망 현지화"
+    },
+    {
+      "title": "AI인프라",
+      "summary": "생성AI 수요 확대 → 데이터센터 인프라 투자 가속화 → AI 소재·금융기술 섹터 수혜"
+    },
+    {
+      "title": "K바이오약세",
+      "summary": "신약 파이프라인 리스크(FDA 보완 요구) → 바이오텍 주가 급락 → K-바이오 섹터 투자심리 위축"
     },
     {
       "title": "시즈널수요",
@@ -24,24 +40,8 @@
       "summary": "중국 CXMT, 한국 반도체 장비사(씨피) 공급처 다각화 선택 → 메모리·파운드리 공급망 재편 시작"
     },
     {
-      "title": "AI인프라",
-      "summary": "AI 데이터센터 수요 확대 → 비나텍·씨피시스템 공급계약 잇단 수주 → 반도체·인프라 부품사 성장기"
-    },
-    {
-      "title": "폭염가전",
-      "summary": "폭염으로 냉방·제습 수요 급증 → 가전 섹터 계절 수혜"
-    },
-    {
-      "title": "테마주강세",
-      "summary": "하락장 속 미담·지역테마주 선별 강세 → 개별 테마 수익화 → 테마주 섹터 변동성 확대"
-    },
-    {
-      "title": "핀테크AI",
-      "summary": "케이뱅크 스테이블코인·AI 양축 강화, 상장 후 미래금융 전략 → 핀테크-AI 융합 가속 → 디지털금융 섹터 재평가"
-    },
-    {
-      "title": "금융AI",
-      "summary": "금융권 AI·암호화폐 전략 강화 → 핀테크 기반 금융 구조 변화 → 디지털금융 섹터 기대감"
+      "title": "AI홈상용화",
+      "summary": "AI홈 기술 성숙 → 대형건설사·가전사 협력 본격화 → 스마트홈 관련 부품·소프트웨어 수요 증가"
     }
   ],
   "narratives": [],
@@ -58,10 +58,19 @@
       "open_price": 10230,
       "high_price": 10990,
       "low_price": 8860,
-      "industry": null,
-      "sector": null,
-      "themes": [],
-      "theme_paths": [],
+      "industry": "수산물 가공 및 저장 처리업",
+      "sector": "냉동식품,햄제품 제조,도매,보관/원양어업",
+      "themes": [
+        "음식료"
+      ],
+      "theme_paths": [
+        {
+          "name": "음식료",
+          "path": [
+            "음식료"
+          ]
+        }
+      ],
       "pick_count": 3,
       "prev_pick": {
         "date": "2026-07-10",
@@ -81,51 +90,54 @@
           "url": "https://www.sedaily.com/article/20066629",
           "source": "서울경제",
           "published_at": "2026-07-12T22:11:05",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "참전용사 음악회 후원 25년 역사가 SNS·온라인 커뮤니티에서 '애국 기업'으로 재조명 → 개인 투자자의 응원 매수세 + 소비자 구매 인증 유입 → 지난주(6~10일) 주가 100% 급등(4,230→8,460원) → 상장폐지 기준 시가총액 회복 → 당일(7/13) +9.93% 추가 상승(9,300원)으로 모멘텀 지속.",
+          "macro_event": "온라인상 '애국 기업' 이미지 재조명 (25년 참전용사 음악회 후원 역사)",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.75,
+          "newzy_virality": 0.7,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.73,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "상폐위기였는데 주가 50% 확 뛰었다…애국기업 알려지자 한성기업 급등",
           "url": "https://www.mk.co.kr/news/stock/12094642",
           "source": "매경",
           "published_at": "2026-07-09T08:34:23",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "참전용사 음악회 후원 25년 역사가 SNS·온라인 커뮤니티에서 '애국 기업'으로 재조명 → 개인 투자자의 응원 매수세 + 소비자 구매 인증 유입 → 지난주(6~10일) 주가 100% 급등(4,230→8,460원) → 상장폐지 기준 시가총액 회복 → 당일(7/13) +9.93% 추가 상승(9,300원)으로 모멘텀 지속.",
+          "macro_event": "온라인상 '애국 기업' 이미지 재조명 (25년 참전용사 음악회 후원 역사)",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.75,
+          "newzy_virality": 0.7,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.73,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "[급등락주 짚어보기] ‘애국 기업’ 재조명에 한성기업 '上'…네이처셀·데이타솔루션도 급등",
           "url": "https://www.etoday.co.kr/news/view/2602165",
           "source": "이투데이",
           "published_at": "2026-07-09T07:05:00",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "참전용사 음악회 후원 25년 역사가 SNS·온라인 커뮤니티에서 '애국 기업'으로 재조명 → 개인 투자자의 응원 매수세 + 소비자 구매 인증 유입 → 지난주(6~10일) 주가 100% 급등(4,230→8,460원) → 상장폐지 기준 시가총액 회복 → 당일(7/13) +9.93% 추가 상승(9,300원)으로 모멘텀 지속.",
+          "macro_event": "온라인상 '애국 기업' 이미지 재조명 (25년 참전용사 음악회 후원 역사)",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.75,
+          "newzy_virality": 0.7,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.73,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": true,
+      "index_change_pct": -8.95,
+      "index_multiple_current": -1.11,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 10990,
         "high_date": "2026-07-13",
@@ -379,6 +391,7 @@
           10490,
           10370,
           10140,
+          9300,
           9300
         ]
       },
@@ -398,10 +411,19 @@
       "open_price": 1840,
       "high_price": 1999,
       "low_price": 1733,
-      "industry": null,
-      "sector": null,
-      "themes": [],
-      "theme_paths": [],
+      "industry": "해상 운송업",
+      "sector": "외항화물운송업(케미컬탱커)",
+      "themes": [
+        "해운"
+      ],
+      "theme_paths": [
+        {
+          "name": "해운",
+          "path": [
+            "해운"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": false,
@@ -409,6 +431,9 @@
       "bullish_dates": [],
       "news": [],
       "fallback": true,
+      "index_change_pct": -8.95,
+      "index_multiple_current": -0.1,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 4795,
         "high_date": "2026-04-02",
@@ -641,7 +666,9 @@
       },
       "togusa_verdict": "neutral",
       "theme_leader": false,
-      "hugepark_grade": "관찰"
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "049080",
@@ -653,10 +680,28 @@
       "open_price": 6700,
       "high_price": 7760,
       "low_price": 6700,
-      "industry": null,
-      "sector": null,
-      "themes": [],
-      "theme_paths": [],
+      "industry": "전자부품 제조업",
+      "sector": "RF통신부품 및 반도체 장비",
+      "themes": [
+        "반도체",
+        "통신장비",
+        "테스트소켓"
+      ],
+      "theme_paths": [
+        {
+          "name": "통신장비",
+          "path": [
+            "통신장비"
+          ]
+        },
+        {
+          "name": "테스트소켓",
+          "path": [
+            "반도체",
+            "테스트소켓"
+          ]
+        }
+      ],
       "pick_count": 2,
       "prev_pick": {
         "date": "2026-07-10",
@@ -671,8 +716,39 @@
         "2026-07-10",
         "2026-07-13"
       ],
-      "news": [],
-      "fallback": true,
+      "news": [
+        {
+          "title": "거래소 \"기가레인, 현저환 시황변동 조회공시 요구\"",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=04437846645514192",
+          "source": "이데일리",
+          "published_at": "2026-07-13T08:52:43",
+          "causal_chain": "제공된 뉴스 본문이 없어 인과관계 특정 불가. 거래소 현저환 시황변동 조회공시는 주가 급변 시 발생하는 행정 절차이며, 호재·악재 신호 없음. 상한가 상승 원인 미상.",
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": "공시"
+        }
+      ],
+      "fallback": false,
+      "disclosures": [
+        {
+          "title": "본문 미확보, 제목 기반: 거래소가 현저한 시황변동에 대해 조회공시를 요구함.",
+          "category": "조회공시",
+          "sentiment": 0,
+          "url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260713000636",
+          "is_cb": false,
+          "source": "KIND",
+          "raw_title": "조회공시요구(현저한시황변동)"
+        }
+      ],
+      "index_change_pct": -4.55,
+      "index_multiple_current": -6.59,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 31250,
         "high_date": "2026-04-15",
@@ -929,6 +1005,7 @@
           7760,
           7760,
           7760,
+          7760,
           7760
         ]
       },
@@ -948,10 +1025,20 @@
       "open_price": 3560,
       "high_price": 4445,
       "low_price": 3540,
-      "industry": null,
-      "sector": null,
-      "themes": [],
-      "theme_paths": [],
+      "industry": "가정용 기기 제조업",
+      "sector": "일반목적용 기계제조업",
+      "themes": [
+        "제습기"
+      ],
+      "theme_paths": [
+        {
+          "name": "제습기",
+          "path": [
+            "여름 가전",
+            "제습기"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": true,
@@ -966,8 +1053,8 @@
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=02433766645514192",
           "source": "이데일리",
           "published_at": "2026-07-13T00:09:58",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "극한 더위로 에어컨·냉방 수요 급증 → 냉방기기 제조사 실적 개선 기대 → 매수세 집중 → 당일 상한가(+29.97%) 돌파",
+          "macro_event": "한증막 여름 폭염 → 냉방 수요 증가",
           "newzy_freshness": null,
           "newzy_persistence": null,
           "newzy_magnitude": null,
@@ -975,10 +1062,13 @@
           "newzy_tradability": null,
           "newzy_score": null,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": false,
+      "index_change_pct": -4.55,
+      "index_multiple_current": -6.59,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 7150,
         "high_date": "2025-07-21",
@@ -1235,6 +1325,7 @@
           4445,
           4445,
           4445,
+          4445,
           4445
         ]
       },
@@ -1254,8 +1345,8 @@
       "open_price": 1840,
       "high_price": 2170,
       "low_price": 1736,
-      "industry": null,
-      "sector": null,
+      "industry": "영화, 비디오물, 방송프로그램 제작 및 배급업",
+      "sector": "콘텐츠 배급 및 제작",
       "themes": [
         "엔터테인먼트"
       ],
@@ -1282,16 +1373,16 @@
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=04457526645511896",
           "source": "이데일리",
           "published_at": "2026-07-06T07:47:35",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "영화·드라마 콘텐츠 흥행 성공 → 향후 시즌2 등 후속작 수익화 기대 → 콘텐츠 경쟁력 입증으로 투자자 심정 개선 → +29.78% 상한가 모멘텀 형성",
+          "macro_event": "엔터테인먼트 콘텐츠 성공 및 후속 기대작 공개 예정",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.6,
+          "newzy_virality": 0.5,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.56,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "코퍼스코리아, 아티스트스튜디오 컨소시엄서 75억원 앞당겨 유치",
@@ -1359,6 +1450,9 @@
         }
       ],
       "fallback": true,
+      "index_change_pct": -4.55,
+      "index_multiple_current": -6.55,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 11000,
         "high_date": "2025-10-16",
@@ -1590,10 +1684,19 @@
       "open_price": 979,
       "high_price": 1255,
       "low_price": 979,
-      "industry": null,
-      "sector": null,
-      "themes": [],
-      "theme_paths": [],
+      "industry": "가구 제조업",
+      "sector": "씽크상판,주방기기,목재케비넷,유해가스저감장치시설 제조,판매",
+      "themes": [
+        "가구"
+      ],
+      "theme_paths": [
+        {
+          "name": "가구",
+          "path": [
+            "가구"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": true,
@@ -1603,6 +1706,9 @@
       ],
       "news": [],
       "fallback": true,
+      "index_change_pct": -8.95,
+      "index_multiple_current": -3.34,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 4170,
         "high_date": "2025-12-05",
@@ -1848,6 +1954,7 @@
           1255,
           1255,
           1255,
+          1255,
           1255
         ]
       },
@@ -1867,10 +1974,19 @@
       "open_price": 2020,
       "high_price": 2540,
       "low_price": 1980,
-      "industry": null,
-      "sector": null,
-      "themes": [],
-      "theme_paths": [],
+      "industry": "해상 운송업",
+      "sector": "해상운송업 및 물류업",
+      "themes": [
+        "해운"
+      ],
+      "theme_paths": [
+        {
+          "name": "해운",
+          "path": [
+            "해운"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": true,
@@ -1881,6 +1997,9 @@
       ],
       "news": [],
       "fallback": true,
+      "index_change_pct": -8.95,
+      "index_multiple_current": -3.35,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 9600,
         "high_date": "2026-03-04",
@@ -2127,7 +2246,9 @@
       "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
-      "hugepark_grade": "주의"
+      "hugepark_grade": "주의",
+      "causal_chain": "",
+      "parent_theme": ""
     }
   ]
 }

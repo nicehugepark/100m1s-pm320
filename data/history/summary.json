@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-11T03:47:52+09:00",
+  "generated_at": "2026-07-13T20:11:10+09:00",
   "since": "2026-04-08",
   "first_pick_date": "2026-04-08",
   "last_settled_date": "2026-07-10",
-  "total_picks": 57,
+  "total_picks": 58,
   "settled": 56,
-  "running": 1,
+  "running": 2,
   "take_profit": 51,
   "expired_loss": 5,
   "expired_gain": 0,
@@ -21,9 +21,9 @@
   "_generated_by": "backtest team reconstruct_57picks_table.py (hybrid HEAD=SoT / TAIL=live)",
   "_generated_at": "2026-07-11T15:51:28",
   "start_balance": 10000000,
-  "final_balance": 10051806.92,
-  "total_pnl": 51806.92,
-  "total_return_pct": 0.5181,
+  "final_balance": 10000000.0,
+  "total_pnl": 0.0,
+  "total_return_pct": 0.0,
   "note_return": "total_return_pct 는 청산분 실현 기준. 흥구석유 7/9진입·7/10 D+1익절(+3.2%)·테크윙 6/23 만기손실 반영 완료. 잔여 running 1건(GS건설 7/10, 만기 미도래 정상 보유).",
   "running_detail": [
     {
@@ -801,6 +801,9 @@
         "watered": false,
         "settlement_order": null
       }
-    ]
-  }
+    ],
+    "as_of": "2026-07-10"
+  },
+  "_backtest_baseline_running": 1,
+  "_live_tail_appended": 0
 }
