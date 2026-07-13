@@ -1,6 +1,6 @@
 {
   "date": "2026-07-13",
-  "generated_at": "2026-07-13T09:25:12.043641",
+  "generated_at": "2026-07-13T09:35:08.114149",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -21,10 +21,219 @@
   "themes_tree": null,
   "stocks": [
     {
+      "code": "049080",
+      "name": "기가레인",
+      "rank": 1,
+      "trade_amount": 7250000000,
+      "change_pct": 29.98,
+      "close_price": 7760,
+      "open_price": 6700,
+      "high_price": 7760,
+      "low_price": 6700,
+      "industry": null,
+      "sector": null,
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 2,
+      "prev_pick": {
+        "date": "2026-07-10",
+        "rank": 13,
+        "change_pct": 29.92,
+        "trade_amount": 2044000000
+      },
+      "bullish_today": true,
+      "bullish_streak": 2,
+      "bullish_dates": [
+        "2026-05-22",
+        "2026-07-10",
+        "2026-07-13"
+      ],
+      "news": [],
+      "fallback": true,
+      "range_240d": {
+        "high": 31250,
+        "high_date": "2026-04-15",
+        "high_pct": -75.17,
+        "low": 3580,
+        "low_date": "2026-02-23",
+        "low_pct": 116.76,
+        "current": 7760
+      },
+      "daily_20": [
+        {
+          "date": "2026-05-27",
+          "o": 15210,
+          "h": 19420,
+          "l": 14940,
+          "c": 15100
+        },
+        {
+          "date": "2026-05-28",
+          "o": 15170,
+          "h": 16680,
+          "l": 13300,
+          "c": 14000
+        },
+        {
+          "date": "2026-05-29",
+          "o": 14200,
+          "h": 14780,
+          "l": 12770,
+          "c": 12910
+        },
+        {
+          "date": "2026-06-01",
+          "o": 12910,
+          "h": 13500,
+          "l": 11650,
+          "c": 11900
+        },
+        {
+          "date": "2026-06-02",
+          "o": 11900,
+          "h": 11900,
+          "l": 10800,
+          "c": 11400
+        },
+        {
+          "date": "2026-06-04",
+          "o": 11390,
+          "h": 12730,
+          "l": 10760,
+          "c": 11710
+        },
+        {
+          "date": "2026-06-05",
+          "o": 11860,
+          "h": 11880,
+          "l": 10680,
+          "c": 11030
+        },
+        {
+          "date": "2026-06-08",
+          "o": 10250,
+          "h": 10560,
+          "l": 9250,
+          "c": 10220
+        },
+        {
+          "date": "2026-06-09",
+          "o": 10600,
+          "h": 11700,
+          "l": 9720,
+          "c": 9930
+        },
+        {
+          "date": "2026-06-29",
+          "o": 9500,
+          "h": 9850,
+          "l": 7230,
+          "c": 7770
+        },
+        {
+          "date": "2026-06-30",
+          "o": 7550,
+          "h": 7660,
+          "l": 6080,
+          "c": 6160
+        },
+        {
+          "date": "2026-07-01",
+          "o": 6100,
+          "h": 6860,
+          "l": 5800,
+          "c": 6250
+        },
+        {
+          "date": "2026-07-02",
+          "o": 6110,
+          "h": 6190,
+          "l": 5230,
+          "c": 5300
+        },
+        {
+          "date": "2026-07-03",
+          "o": 5240,
+          "h": 5500,
+          "l": 4995,
+          "c": 5480
+        },
+        {
+          "date": "2026-07-06",
+          "o": 5320,
+          "h": 5480,
+          "l": 4965,
+          "c": 5050
+        },
+        {
+          "date": "2026-07-07",
+          "o": 4970,
+          "h": 5180,
+          "l": 4780,
+          "c": 4900
+        },
+        {
+          "date": "2026-07-08",
+          "o": 4680,
+          "h": 4900,
+          "l": 4395,
+          "c": 4395
+        },
+        {
+          "date": "2026-07-09",
+          "o": 4360,
+          "h": 4795,
+          "l": 4360,
+          "c": 4595
+        },
+        {
+          "date": "2026-07-10",
+          "o": 4700,
+          "h": 5970,
+          "l": 4695,
+          "c": 5970
+        },
+        {
+          "date": "2026-07-13",
+          "o": 6700,
+          "h": 7760,
+          "l": 6700,
+          "c": 7760
+        }
+      ],
+      "status_badges": [
+        {
+          "label": "상한가",
+          "severity": "hot",
+          "source": "v1_condition",
+          "view_date": "2026-07-13",
+          "summary": "기가레인 상한가 (29.98%)",
+          "cur_prc": 7760,
+          "flu_rt": 29.98,
+          "trde_qty": 995727,
+          "trde_prica_calc": 7250000000,
+          "consecutive_count": 2,
+          "effect_badges": [
+            {
+              "effect": "limit-up",
+              "when": "today",
+              "severity": "hot",
+              "source_label": "상한가",
+              "source_kind": "limit_up",
+              "consecutive_count": 2
+            }
+          ],
+          "next_trading_day": "2026-07-14"
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
       "code": "024890",
       "name": "대원화성",
-      "rank": 1,
-      "trade_amount": 709000000,
+      "rank": 2,
+      "trade_amount": 740000000,
       "change_pct": 29.94,
       "close_price": 4145,
       "open_price": 3210,
@@ -103,8 +312,8 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": -0.44,
-      "index_multiple_current": -68.05,
+      "index_change_pct": -0.39,
+      "index_multiple_current": -76.77,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 5105,
@@ -266,8 +475,8 @@
           "summary": "대원화성 상한가 (29.94%)",
           "cur_prc": 4145,
           "flu_rt": 29.94,
-          "trde_qty": 178440,
-          "trde_prica_calc": 709000000,
+          "trde_qty": 185802,
+          "trde_prica_calc": 740000000,
           "consecutive_count": 1,
           "effect_badges": [
             {
@@ -291,6 +500,8 @@
           3900,
           4145,
           4145,
+          4145,
+          4145,
           4145
         ]
       },
@@ -305,8 +516,8 @@
     {
       "code": "465770",
       "name": "STX그린로지스",
-      "rank": 2,
-      "trade_amount": 272000000,
+      "rank": 3,
+      "trade_amount": 280000000,
       "change_pct": 29.99,
       "close_price": 2540,
       "open_price": 2020,
@@ -486,8 +697,8 @@
           "summary": "STX그린로지스 상한가 (29.99%)",
           "cur_prc": 2540,
           "flu_rt": 29.99,
-          "trde_qty": 111103,
-          "trde_prica_calc": 272000000,
+          "trde_qty": 114333,
+          "trde_prica_calc": 280000000,
           "consecutive_count": 1,
           "effect_badges": [
             {
@@ -508,6 +719,7 @@
         "base": 2020,
         "prices": [
           2020,
+          2540,
           2540,
           2540,
           2540,
