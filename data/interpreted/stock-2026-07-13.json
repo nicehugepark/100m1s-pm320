@@ -1,11 +1,11 @@
 {
   "date": "2026-07-13",
-  "generated_at": "2026-07-13T09:35:12.346245",
+  "generated_at": "2026-07-13T09:45:09.529609",
   "data_source": "kiwoom",
   "macro_events": [
     {
       "title": "K바이오약세",
-      "summary": "HLB·펩트론 악재 → K바이오 기업 신뢰도 하락 → 바이오 섹터 투자심리 악화"
+      "summary": "하반기 K바이오 투자심리 악화 → 바이오·의약 섹터 약세 심화 → HLB·펩트론 동반 하락"
     },
     {
       "title": "반도체회복",
@@ -24,7 +24,7 @@
       "code": "049080",
       "name": "기가레인",
       "rank": 1,
-      "trade_amount": 7250000000,
+      "trade_amount": 7312000000,
       "change_pct": 29.98,
       "close_price": 7760,
       "open_price": 6700,
@@ -210,8 +210,8 @@
           "summary": "기가레인 상한가 (29.98%)",
           "cur_prc": 7760,
           "flu_rt": 29.98,
-          "trde_qty": 995727,
-          "trde_prica_calc": 7250000000,
+          "trde_qty": 1003724,
+          "trde_prica_calc": 7312000000,
           "consecutive_count": 2,
           "effect_badges": [
             {
@@ -226,17 +226,82 @@
           "next_trading_day": "2026-07-14"
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 6700,
+        "base": 6700,
+        "prices": [
+          6700,
+          7570,
+          7210,
+          7190,
+          7560,
+          7760,
+          7760,
+          7760,
+          7760
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
     },
     {
+      "code": "044340",
+      "name": "위닉스",
+      "rank": 2,
+      "trade_amount": 3286000000,
+      "change_pct": null,
+      "close_price": null,
+      "open_price": null,
+      "high_price": null,
+      "low_price": null,
+      "industry": null,
+      "sector": null,
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [],
+      "news": [],
+      "fallback": true,
+      "status_badges": [
+        {
+          "label": "상한가",
+          "severity": "hot",
+          "source": "v1_condition",
+          "view_date": "2026-07-13",
+          "summary": "위닉스 상한가 (29.97%)",
+          "cur_prc": null,
+          "flu_rt": 29.97,
+          "trde_qty": 783974,
+          "trde_prica_calc": 3286000000,
+          "consecutive_count": 1,
+          "effect_badges": [
+            {
+              "effect": "limit-up",
+              "when": "today",
+              "severity": "hot",
+              "source_label": "상한가",
+              "source_kind": "limit_up",
+              "consecutive_count": 1
+            }
+          ],
+          "next_trading_day": "2026-07-14"
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
       "code": "024890",
       "name": "대원화성",
-      "rank": 2,
-      "trade_amount": 740000000,
+      "rank": 3,
+      "trade_amount": 761000000,
       "change_pct": 29.94,
       "close_price": 4145,
       "open_price": 3210,
@@ -315,8 +380,8 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": -0.39,
-      "index_multiple_current": -76.77,
+      "index_change_pct": -1.9,
+      "index_multiple_current": -15.76,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 5105,
@@ -478,8 +543,8 @@
           "summary": "대원화성 상한가 (29.94%)",
           "cur_prc": 4145,
           "flu_rt": 29.94,
-          "trde_qty": 185802,
-          "trde_prica_calc": 740000000,
+          "trde_qty": 190785,
+          "trde_prica_calc": 761000000,
           "consecutive_count": 1,
           "effect_badges": [
             {
@@ -505,6 +570,8 @@
           4145,
           4145,
           4145,
+          4145,
+          4145,
           4145
         ]
       },
@@ -517,10 +584,59 @@
       "parent_theme": ""
     },
     {
+      "code": "142760",
+      "name": "모아라이프플러스",
+      "rank": 4,
+      "trade_amount": 468000000,
+      "change_pct": null,
+      "close_price": null,
+      "open_price": null,
+      "high_price": null,
+      "low_price": null,
+      "industry": null,
+      "sector": null,
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [],
+      "news": [],
+      "fallback": true,
+      "status_badges": [
+        {
+          "label": "상한가",
+          "severity": "hot",
+          "source": "v1_condition",
+          "view_date": "2026-07-13",
+          "summary": "모아라이프플러스 상한가 (29.97%)",
+          "cur_prc": null,
+          "flu_rt": 29.97,
+          "trde_qty": 969355,
+          "trde_prica_calc": 468000000,
+          "consecutive_count": 1,
+          "effect_badges": [
+            {
+              "effect": "limit-up",
+              "when": "today",
+              "severity": "hot",
+              "source_label": "상한가",
+              "source_kind": "limit_up",
+              "consecutive_count": 1
+            }
+          ],
+          "next_trading_day": "2026-07-14"
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
       "code": "465770",
       "name": "STX그린로지스",
-      "rank": 3,
-      "trade_amount": 280000000,
+      "rank": 5,
+      "trade_amount": 295000000,
       "change_pct": 29.99,
       "close_price": 2540,
       "open_price": 2020,
@@ -700,8 +816,8 @@
           "summary": "STX그린로지스 상한가 (29.99%)",
           "cur_prc": 2540,
           "flu_rt": 29.99,
-          "trde_qty": 114333,
-          "trde_prica_calc": 280000000,
+          "trde_qty": 119981,
+          "trde_prica_calc": 295000000,
           "consecutive_count": 1,
           "effect_badges": [
             {
@@ -722,6 +838,8 @@
         "base": 2020,
         "prices": [
           2020,
+          2540,
+          2540,
           2540,
           2540,
           2540,
