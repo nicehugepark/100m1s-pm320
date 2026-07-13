@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26003.83,
-      "change_pct": -1.06,
+      "point": 26079.07,
+      "change_pct": -0.77,
       "candle": {
         "o": 26094.55,
         "h": 26136.56,
         "l": 25938.82,
-        "c": 26003.83
+        "c": 26079.07
       },
       "range_240d": {
         "low": 20650.13,
@@ -2033,7 +2033,7 @@
           "o": 26094.55,
           "h": 26136.56,
           "l": 25938.82,
-          "c": 26003.83
+          "c": 26079.07
         }
       ],
       "spark": [
@@ -2048,7 +2048,9 @@
         26038.61,
         26055.45,
         25997.08,
-        26003.83
+        26049.16,
+        26076.42,
+        26079.07
       ],
       "news": {
         "summary": "반도체주 강세 주도, SK하이닉스 미국 상장 개시 신호. 공모가 대비 14% 상승 출발 후 나스닥 지수 상승 견인, 칩 산업 투자 확대 심화. AI 메모리 수요 기하급수적 증가 경향으로 반도체 생산 역량 2배 확대도 공급 부족 현상 예상.",
@@ -2072,13 +2074,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7546.21,
-      "change_pct": -0.39,
+      "point": 7557.59,
+      "change_pct": -0.23,
       "candle": {
         "o": 7547.53,
         "h": 7565.37,
         "l": 7529.33,
-        "c": 7546.21
+        "c": 7557.59
       },
       "range_240d": {
         "low": 6238.01,
@@ -4101,7 +4103,7 @@
           "o": 7547.53,
           "h": 7565.37,
           "l": 7529.33,
-          "c": 7546.21
+          "c": 7557.59
         }
       ],
       "spark": [
@@ -4116,7 +4118,9 @@
         7553.43,
         7558.9,
         7543.82,
-        7546.21
+        7553.71,
+        7556.91,
+        7557.59
       ],
       "news": {
         "summary": "연준 기조 유지 속 고용 부진 신호 심화. 미국 6월 신규 일자리 5.7만 개(예상 11.5만)로 급락, 노동 참여율 50년 저점 진입으로 경기 둔화 우려 확산. 인플레이션 경로 불확실, 주택시장 회복 초기 단계나 변동성 상존. IMF 글로벌 성장률 전망 3.0%로 하향(4월 3.1%) 조정.",
@@ -4140,13 +4144,13 @@
     },
     {
       "name": "DOW",
-      "point": 52646.23,
-      "change_pct": 0.02,
+      "point": 52663.71,
+      "change_pct": 0.05,
       "candle": {
         "o": 52676.53,
         "h": 52846.51,
         "l": 52548.05,
-        "c": 52646.23
+        "c": 52663.71
       },
       "range_240d": {
         "low": 43588.58,
@@ -6170,7 +6174,7 @@
           "o": 52676.53,
           "h": 52846.51,
           "l": 52548.05,
-          "c": 52646.23
+          "c": 52663.71
         }
       ],
       "spark": [
@@ -6185,7 +6189,9 @@
         52675.76,
         52746.82,
         52633.79,
-        52646.23
+        52690.38,
+        52669.24,
+        52663.71
       ],
       "news": {
         "summary": "경기 민감 지표 악화로 방어주 심화. 고용 부진과 노동 참여율 급락으로 경기순환주 약세 우려. 금융 재편 박차(UniCredit-Commerzbank 지배권 경합) 속 대형 기업 인수합병 저변 활성화. 트럼프 정책 불확실성(이란 휴전 재개, 중국 규제 심화)으로 에너지·방위산업 변동성 고조.",
@@ -6210,138 +6216,144 @@
   ],
   "news_chips": [
     {
-      "summary": "캐나다 중앙은행이 물가 고착과 경기 약세 사이에서 기준금리 6회 연속 동결 예상",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-set-to-keep-rates-steady-wsj-survey-shows-2a59301e",
-      "published_ts": 1783941420.0,
-      "impact_high": true
-    },
-    {
-      "summary": "인도 인플레이션이 6월 4.38%로 상향됐으며 중동 분쟁과 강우 부족이 가격 상승 견인",
+      "summary": "인도 6월 인플레이션이 4.38%로 전월 대비 가속, 8개월 연속 상승세 지속",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/13/india-june-inflation-oil-food-iran-war.html",
       "published_ts": 1783940212.0,
       "impact_high": true
     },
     {
-      "summary": "연준의 새 의장이 경제 강건성과 물가 동향을 바탕으로 작년 인상분 철회 여부를 검토 중",
-      "source": "WSJ경제",
+      "summary": "연준 신임 의장 워시가 지난해 인하 기조를 뒤집고 금리 인상을 검토 중, 물가 고착에 대응",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/central-banking/warshs-first-big-call-whether-to-undo-last-years-cuts-cdcdb367",
       "published_ts": 1783908000.0,
       "impact_high": true
     },
     {
-      "summary": "우크라이나 드론 공격으로 러시아 정유소 피해가 확산되며 에너지 공급망 불안정성 심화",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/how-ukraine-is-taking-out-russias-refineries-5e6ec9ff",
+      "summary": "S&P 500의 저평가 평가는 실적 지표 정의에 따라 크게 달라질 수 있다는 점 부각",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/stocks/think-the-s-p-500-looks-cheap-read-the-fine-print-fa888f6e?mod=rss_markets_main",
       "published_ts": 1783935000.0,
       "impact_high": false
     },
     {
-      "summary": "연준이 AI 투자 비중을 닷컴 버블 정점 수준으로 평가하며 시장 과열 우려 표시",
-      "source": "한경국제",
+      "summary": "연준이 미국의 AI 투자 비중이 닷컴버블 정점 수준에 도달했다고 평가",
+      "source": "한경",
       "url": "https://www.hankyung.com/article/2026071325871",
       "published_ts": 1783932750.0,
       "impact_high": false
     },
     {
-      "summary": "나스닥이 AI 우려와 반도체 약세로 약 0.3% 하락 마감, SK하이닉스 공개 후 급락 영향",
+      "summary": "AI 수요 폭발에도 전자제품 판매 부진으로 반도체 칩플레이션 가속, 가격 상승률 둔화",
+      "source": "한경",
+      "url": "https://www.hankyung.com/article/2026071325911",
+      "published_ts": 1783932734.0,
+      "impact_high": false
+    },
+    {
+      "summary": "나스닥이 반도체 약세와 AI 조정으로 하락, SK하이닉스 미상장 이후 급락",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-13-2026?mod=rss_markets_main",
       "published_ts": 1783927363.0,
       "impact_high": false
     },
     {
-      "summary": "AI 기업들의 분기 채권 발행 규모가 사상 수준으로 치솟으며 채권시장 수급 악화",
+      "summary": "빅테크 기업들의 2,500억 달러 규모 AI 채권 발행 물량 증가로 채권 시장 부담 심화",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/investing/the-quarter-trillion-dollar-onslaught-of-ai-bonds-is-testing-investors-limits-e4cd2bda?mod=rss_markets_main",
       "published_ts": 1783900800.0,
       "impact_high": false
     },
     {
-      "summary": "호르무즈 해협 미-이란 교전으로 국제 해운 차질이 심화되며 유가 상승 압력 지속",
-      "source": "WSJ세계",
+      "summary": "호르무즈 해협 미이란 군사 충돌 격화로 유가 상승 및 해상 유조선 통행 마비 가속화",
+      "source": "WSJ",
       "url": "https://www.wsj.com/world/middle-east/u-s-launches-new-strikes-on-iran-after-hormuz-tensions-escalate-d6903c7f",
       "published_ts": 1783897800.0,
       "impact_high": false
     },
     {
-      "summary": "이란 분쟁이 미국 경제에 미친 직접 피해는 제한적이나 글로벌 인플레이션 장기화 초래로 예상",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/war-leaves-economy-with-more-stubborn-inflation-economists-project-b83af0ba",
-      "published_ts": 1783848600.0,
-      "impact_high": true
+      "summary": "캐나다 6월 실업률이 6.5%로 6개월 만에 최저 수준 기록, 고용 부진 회복 신호",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/central-banking/canada-unemployment-rate-slips-to-6-5-in-june-27ba3f7d",
+      "published_ts": 1783698300.0,
+      "impact_high": false
     },
     {
-      "summary": "중국 CPI는 약화했으나 PPI는 4년 근처 고점 상승으로 공급망 가격 압력 지속 중",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/09/china-cpi-ppi-june-inflation-iran-war-.html",
-      "published_ts": 1783564297.0,
+      "summary": "IMF가 2026년 글로벌 성장 전망을 3.1%에서 3.0%로 소폭 하향 조정, 긴급 재정 악화 우려는 완화",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/global/imf-drops-recession-warning-in-wake-of-june-ceasefire-795f1831",
+      "published_ts": 1783524000.0,
       "impact_high": true
     }
   ],
-  "_article_sig": "084cf470b527d66daf8a7abe889f0d7a188d2fdbe756755948c74f76cad869e7",
+  "_article_sig": "54b7bc76bd520827b4fc936b97db46269d8805f97c3cc0f3342eefba3f6ed29d",
   "built_at_kst": "2026-07-11T07:02:15.647795+09:00",
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "반도체 약세 심화(SK Hynix 급락)에 나스닥100 선물 동조 흐름. AI 투자 비중이 닷컴버블 정점 수준으로 팽창 중이나, 쿼터 트릴 달러 규모 AI 채권 발행으로 인한 금리 부담 가중. 빅테크의 과잉 설비투자 신호도 확대 중.",
+      "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/2026071325871"
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/u-s-strikes-new-targets-after-iran-rejects-demand-to-open-hormuz-b1f167d0"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/europe/russian-cyberattacks-stretching-back-15-years-prompt-european-sanctions-7fc51f60"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-set-to-keep-rates-steady-wsj-survey-shows-2a59301e"
         }
       ]
     },
     "S&P500": {
-      "summary": "호르무즈 해협 미-이란 교전 심화로 유가 상승 압력·지정학 리스크 재점화. 물가 신호는 엇갈림 — 인도 인플레 4.38% 상승(예상 상회)이나 캐나다 실업률 6.5% 하락, IMF 글로벌 성장률 3.0%로 인하 후 장기 침체 경고 철회로 매크로 안정화 신호. 미국 주택·고용 지표는 약세.",
+      "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
           "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/u-s-launches-new-strikes-on-iran-after-hormuz-tensions-escalate-d6903c7f"
+          "url": "https://www.wsj.com/world/middle-east/u-s-strikes-new-targets-after-iran-rejects-demand-to-open-hormuz-b1f167d0"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-set-to-keep-rates-steady-wsj-survey-shows-2a59301e"
         },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/07/13/india-june-inflation-oil-food-iran-war.html"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/global/imf-drops-recession-warning-in-wake-of-june-ceasefire-795f1831"
         }
       ]
     },
     "DOW": {
-      "summary": "호르무즈 해협 미-이란 교전 심화로 유가 상승 압력·지정학 리스크 재점화. 물가 신호는 엇갈림 — 인도 인플레 4.38% 상승(예상 상회)이나 캐나다 실업률 6.5% 하락, IMF 글로벌 성장률 3.0%로 인하 후 장기 침체 경고 철회로 매크로 안정화 신호. 미국 주택·고용 지표는 약세.",
+      "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/u-s-launches-new-strikes-on-iran-after-hormuz-tensions-escalate-d6903c7f"
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/regulation/trump-regulators-seek-to-discourage-loans-to-undocumented-immigrants-28f8366a?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-set-to-keep-rates-steady-wsj-survey-shows-2a59301e"
         },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/07/13/india-june-inflation-oil-food-iran-war.html"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/global/imf-drops-recession-warning-in-wake-of-june-ceasefire-795f1831"
         }
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-07-13T23:21:39.069181+09:00",
+  "intraday_refreshed_kst": "2026-07-13T23:31:35.352239+09:00",
   "futures": {
-    "as_of_kst": "2026-07-13T23:20:08.168759+09:00",
+    "as_of_kst": "2026-07-13T23:30:05.981279+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7598.25,
-        "change_pct": -0.29,
+        "point": 7591.0,
+        "change_pct": -0.38,
         "spark": [
           7607.0,
-          7600.5,
-          7600.25,
           7597.75,
           7596.25,
           7598.0,
@@ -6379,21 +6391,23 @@
           7598.75,
           7599.25,
           7603.5,
-          7598.25
+          7590.0,
+          7598.5,
+          7591.0
         ],
         "candle": {
           "o": 7607.0,
           "h": 7615.25,
           "l": 7566.5,
-          "c": 7598.25
+          "c": 7591.0
         },
         "range_240d": {
           "low": 6264.5,
           "high": 7623.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 21.29,
-          "high_change_pct": -0.33
+          "low_change_pct": 21.17,
+          "high_change_pct": -0.43
         },
         "daily_expanded": [
           {
@@ -8401,25 +8415,25 @@
             "o": 7607.0,
             "h": 7615.25,
             "l": 7566.5,
-            "c": 7598.25,
-            "v": 369704
+            "c": 7591.0,
+            "v": 427308
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "호르무즈 해협 미-이란 교전 심화로 유가 상승 압력·지정학 리스크 재점화. 물가 신호는 엇갈림 — 인도 인플레 4.38% 상승(예상 상회)이나 캐나다 실업률 6.5% 하락, IMF 글로벌 성장률 3.0%로 인하 후 장기 침체 경고 철회로 매크로 안정화 신호. 미국 주택·고용 지표는 약세.",
+          "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
               "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/u-s-launches-new-strikes-on-iran-after-hormuz-tensions-escalate-d6903c7f"
+              "url": "https://www.wsj.com/world/middle-east/u-s-strikes-new-targets-after-iran-rejects-demand-to-open-hormuz-b1f167d0"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-set-to-keep-rates-steady-wsj-survey-shows-2a59301e"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/07/13/india-june-inflation-oil-food-iran-war.html"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/global/imf-drops-recession-warning-in-wake-of-june-ceasefire-795f1831"
             }
           ]
         }
@@ -8427,12 +8441,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29614.75,
-        "change_pct": -1.39,
+        "point": 29587.5,
+        "change_pct": -1.48,
         "spark": [
           29952.0,
-          29775.0,
-          29768.75,
           29768.25,
           29755.0,
           29763.25,
@@ -8470,21 +8482,23 @@
           29585.5,
           29620.0,
           29650.75,
-          29614.75
+          29585.25,
+          29665.25,
+          29587.5
         ],
         "candle": {
           "o": 29952.0,
           "h": 30041.0,
-          "l": 29518.0,
-          "c": 29612.25
+          "l": 29488.5,
+          "c": 29587.5
         },
         "range_240d": {
           "low": 22883.75,
           "high": 30712.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 29.4,
-          "high_change_pct": -3.58
+          "low_change_pct": 29.29,
+          "high_change_pct": -3.66
         },
         "daily_expanded": [
           {
@@ -10491,18 +10505,26 @@
             "date": "2026-07-13",
             "o": 29952.0,
             "h": 30041.0,
-            "l": 29518.0,
-            "c": 29612.25,
-            "v": 215382
+            "l": 29488.5,
+            "c": 29587.5,
+            "v": 232334
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "반도체 약세 심화(SK Hynix 급락)에 나스닥100 선물 동조 흐름. AI 투자 비중이 닷컴버블 정점 수준으로 팽창 중이나, 쿼터 트릴 달러 규모 AI 채권 발행으로 인한 금리 부담 가중. 빅테크의 과잉 설비투자 신호도 확대 중.",
+          "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/2026071325871"
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/u-s-strikes-new-targets-after-iran-rejects-demand-to-open-hormuz-b1f167d0"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/europe/russian-cyberattacks-stretching-back-15-years-prompt-european-sanctions-7fc51f60"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-set-to-keep-rates-steady-wsj-survey-shows-2a59301e"
             }
           ]
         }
@@ -10510,12 +10532,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52931.0,
-        "change_pct": 0.05,
+        "point": 52914.0,
+        "change_pct": 0.02,
         "spark": [
           52844.0,
-          52884.0,
-          52906.0,
           52873.0,
           52858.0,
           52870.0,
@@ -10553,21 +10573,23 @@
           52995.0,
           52937.0,
           53003.0,
-          52931.0
+          52903.0,
+          52946.0,
+          52914.0
         ],
         "candle": {
           "o": 52844.0,
           "h": 53113.0,
           "l": 52656.0,
-          "c": 52931.0
+          "c": 52913.0
         },
         "range_240d": {
           "low": 43710.0,
           "high": 53372.0,
           "low_date": "2025-08-01",
           "high_date": "2026-07-06",
-          "low_change_pct": 21.1,
-          "high_change_pct": -0.83
+          "low_change_pct": 21.05,
+          "high_change_pct": -0.86
         },
         "daily_expanded": [
           {
@@ -12575,25 +12597,25 @@
             "o": 52844.0,
             "h": 53113.0,
             "l": 52656.0,
-            "c": 52931.0,
-            "v": 33802
+            "c": 52913.0,
+            "v": 37421
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "호르무즈 해협 미-이란 교전 심화로 유가 상승 압력·지정학 리스크 재점화. 물가 신호는 엇갈림 — 인도 인플레 4.38% 상승(예상 상회)이나 캐나다 실업률 6.5% 하락, IMF 글로벌 성장률 3.0%로 인하 후 장기 침체 경고 철회로 매크로 안정화 신호. 미국 주택·고용 지표는 약세.",
+          "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/u-s-launches-new-strikes-on-iran-after-hormuz-tensions-escalate-d6903c7f"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/regulation/trump-regulators-seek-to-discourage-loans-to-undocumented-immigrants-28f8366a?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-set-to-keep-rates-steady-wsj-survey-shows-2a59301e"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/07/13/india-june-inflation-oil-food-iran-war.html"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/global/imf-drops-recession-warning-in-wake-of-june-ceasefire-795f1831"
             }
           ]
         }
