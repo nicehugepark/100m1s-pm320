@@ -1,70 +1,8 @@
 {
-  "generated_at": "2026-07-11T14:05:52+09:00",
-  "since": "2026-04-08",
-  "first_pick_date": "2026-04-08",
-  "last_settled_date": "2026-07-10",
-  "total_picks": 57,
-  "settled": 56,
-  "running": 1,
-  "take_profit": 51,
-  "expired_loss": 5,
-  "expired_gain": 0,
-  "win_rate": 91.1,
-  "_basis": "HEAD 4/8~6/11(41픽)=검증 SoT balance_history×(10/12) 정밀값 무손상. TAIL 6/12~7/10(16픽)=라이브 date 파일 청산결과 + water1x_d6 4슬롯 복리 재적용. 테크윙(6/15)=물타기 발생·D+6=6/23 만기손실 settled 전환(2026-07-11 6/23 일봉 backfill 반영, 평단=조화평균·6/23 종가 cron DB 실측·build_card_history.py 공식 verbatim).",
-  "_source": "backtest_ssot",
-  "worst_mdd_pct": -30.6,
-  "worst_mdd_name": "삼화콘덴서",
-  "worst_mdd_date": "2026-06-18",
-  "avg_mdd_pct": -7.6,
-  "take_profit_target_pct": 3.2,
-  "_mdd_basis": "장중 최대낙폭 = 보유 중 진입평단 대비 최저 평가손실. 청산 완료 픽 기준 (승률 분모와 동일 모집단).",
-  "_generated_by": "backtest team reconstruct_57picks_table.py (hybrid HEAD=SoT / TAIL=live)",
-  "_generated_at": "2026-07-11T03:39:03",
-  "start_balance": 10000000,
-  "final_balance": 10026666.67,
-  "total_pnl": 26666.67,
-  "total_return_pct": 0.2667,
-  "note_return": "total_return_pct 는 청산분 실현 기준. 테크윙 6/23 만기손실 실현 반영 완료. 잔여 running 2건(흥구석유 7/9·GS건설 7/10, 만기 미도래 정상 보유).",
-  "running_detail": [
-    {
-      "date": "2026-07-09",
-      "code": "024060",
-      "name": "흥구석유",
-      "reason": "만기 미도래 정상 보유"
-    },
-    {
-      "date": "2026-07-10",
-      "code": "006360",
-      "name": "GS건설",
-      "reason": "만기 미도래 정상 보유"
-    }
-  ],
-  "tekwing_settled": {
-    "date": "2026-06-15",
-    "code": "089030",
-    "entry_price": 67900,
-    "watering_target": 63554,
-    "watering_hit": "6/16 저가 59900 < 63554(P0×0.936) → 물타기 발생 확정(cron DB 실측)",
-    "avg_price_harmonic": 65655.3719,
-    "avg_price_note": "평단=조화평균 2/(1/P0+1/add_price) (build_card_history.py:623 verbatim, 금액 유닛 약분). 기존 rejudge 산술평균 익절선 67830은 라이브 judge(조화 67756) 불일치 → 정정.",
-    "take_profit_after_watering": 67756.34,
-    "expiry_rule": "물타기 발생 → D+6 만기 = 2026-06-23",
-    "exit_close_6_23": 52500.0,
-    "ret_pct": -20.037,
-    "exit_class": "D+6 만기청산(만기손실)",
-    "highs_6_16_to_6_23": {
-      "6/16": 68500,
-      "6/17": 64400,
-      "6/18": 62900,
-      "6/19": 62300,
-      "6/22": 64000,
-      "6/23": 60800
-    },
-    "ohlc_basis": "6/16 일봉 close=low=59900 → 저가(물타기 트리거)는 장 종료 시점 형성 → 고가 68500은 필연적으로 물타기 前 → P0 익절선 70073 미달 → 익절 불가. 6/17~6/23 고가 전부 물타기後 익절선 67756 미달. OHLC 필연(6/16 판정용 분봉 전 DB 부재라 분봉 직접 확정 아님·FLR-AGT-002 정직).",
-    "verdict": "물타기 발생 → D+6(6/23) 만기청산. 6/23 종가 52500, 조화평균 평단 65655.37 대비 -20.037% 만기손실. held_open → settled 전환 완료.",
-    "live_sync_needed": "라이브 date 파일(2026-06-15.json)은 current_state=running·result=null 유지 (판정용 분봉 부재로 build_card_history.py:55 judge graceful). 본 재산출은 backtest SSOT 값이며, 라이브 카드/summary 반영은 dev 이식(judge 재판정 또는 summary 재빌드) 후속 필요."
-  },
+  "account_mdd_pct": null,
+  "worst_mdd_pct": null,
   "backtest_detail": {
+    "as_of": "2026-07-10",
     "table": [
       {
         "date": "2026-04-08",
@@ -658,9 +596,9 @@
         "entry_price": 67900,
         "exit_date": "2026-06-23",
         "exit_class": "D+6 만기청산",
-        "ret_pct": -20.037,
-        "pnl": -366794.56,
-        "balance_after": 10734271.24,
+        "ret_pct": -20.04,
+        "pnl": -366849.48,
+        "balance_after": 10734216.32,
         "watered": true,
         "settlement_order": 46
       },
@@ -672,8 +610,8 @@
         "exit_date": "2026-06-25",
         "exit_class": "D+1 익절",
         "ret_pct": 3.2,
-        "pnl": 28624.72,
-        "balance_after": 10762895.96,
+        "pnl": 28624.58,
+        "balance_after": 10762840.9,
         "watered": false,
         "settlement_order": 47
       },
@@ -686,7 +624,7 @@
         "exit_class": "D+6 만기청산",
         "ret_pct": -26.72,
         "pnl": -493052.66,
-        "balance_after": 10269843.31,
+        "balance_after": 10269788.24,
         "watered": true,
         "settlement_order": 48
       },
@@ -698,8 +636,8 @@
         "exit_date": "2026-06-26",
         "exit_class": "D+1 익절",
         "ret_pct": 3.2,
-        "pnl": 28701.06,
-        "balance_after": 10298544.36,
+        "pnl": 28700.91,
+        "balance_after": 10298489.15,
         "watered": false,
         "settlement_order": 49
       },
@@ -711,8 +649,8 @@
         "exit_date": "2026-06-29",
         "exit_class": "D+1 익절",
         "ret_pct": 3.2,
-        "pnl": 27462.78,
-        "balance_after": 10326007.15,
+        "pnl": 27462.64,
+        "balance_after": 10325951.79,
         "watered": false,
         "settlement_order": 50
       },
@@ -725,7 +663,7 @@
         "exit_class": "D+6 만기청산",
         "ret_pct": -24.91,
         "pnl": -460879.25,
-        "balance_after": 9865127.9,
+        "balance_after": 9865072.54,
         "watered": true,
         "settlement_order": 51
       },
@@ -737,8 +675,8 @@
         "exit_date": "2026-06-30",
         "exit_class": "D+1 익절",
         "ret_pct": 3.2,
-        "pnl": 27536.02,
-        "balance_after": 9892663.92,
+        "pnl": 27535.87,
+        "balance_after": 9892608.41,
         "watered": false,
         "settlement_order": 52
       },
@@ -750,8 +688,8 @@
         "exit_date": "2026-07-01",
         "exit_class": "D+1 익절",
         "ret_pct": 3.2,
-        "pnl": 26380.44,
-        "balance_after": 9919044.36,
+        "pnl": 26380.29,
+        "balance_after": 9918988.7,
         "watered": false,
         "settlement_order": 53
       },
@@ -763,8 +701,8 @@
         "exit_date": "2026-07-02",
         "exit_class": "D+1 익절",
         "ret_pct": 3.2,
-        "pnl": 52901.57,
-        "balance_after": 9971945.93,
+        "pnl": 52901.27,
+        "balance_after": 9971889.98,
         "watered": true,
         "settlement_order": 54
       },
@@ -776,8 +714,8 @@
         "exit_date": "2026-07-03",
         "exit_class": "D+1 익절",
         "ret_pct": 3.2,
-        "pnl": 53183.71,
-        "balance_after": 10025129.64,
+        "pnl": 53183.41,
+        "balance_after": 10025073.39,
         "watered": true,
         "settlement_order": 55
       },
@@ -789,11 +727,10 @@
         "exit_date": "2026-07-10",
         "exit_class": "D+1 익절",
         "ret_pct": 3.2,
-        "pnl": 26666.67,
-        "balance_after": 10026666.67,
+        "pnl": 26733.53,
+        "balance_after": 10051806.92,
         "watered": false,
-        "settlement_order": 56,
-        "_live": true
+        "settlement_order": 56
       },
       {
         "date": "2026-07-10",
@@ -809,8 +746,22 @@
         "settlement_order": null
       }
     ],
-    "as_of": "2026-07-10"
+    "equity_curve": []
   },
-  "_backtest_baseline_running": 0,
-  "_live_tail_appended": 1
+  "generated_at": "2026-07-13T15:20:07+09:00",
+  "since": "2026-04-08",
+  "first_pick_date": "2026-04-08",
+  "last_settled_date": "2026-07-10",
+  "total_picks": 57,
+  "settled": 57,
+  "running": 0,
+  "take_profit": 51,
+  "expired_loss": 5,
+  "expired_gain": 1,
+  "win_rate": 89.5,
+  "start_balance": 10000000,
+  "avg_mdd_pct": null,
+  "total_return_pct": 0.5181,
+  "total_pnl": 51806.92,
+  "final_balance": 10051806.92
 }
