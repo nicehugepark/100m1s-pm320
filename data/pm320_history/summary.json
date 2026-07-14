@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-14T10:21:13+09:00",
+  "generated_at": "2026-07-14T10:21:18+09:00",
   "since": "2026-04-08",
   "first_pick_date": "2026-04-08",
   "last_settled_date": "2026-07-14",
-  "total_picks": 58,
-  "settled": 57,
+  "total_picks": 59,
+  "settled": 58,
   "running": 1,
-  "take_profit": 52,
+  "take_profit": 53,
   "expired_loss": 5,
   "expired_gain": 0,
-  "win_rate": 91.2,
+  "win_rate": 91.4,
   "worst_mdd_pct": -30.6,
   "worst_mdd_name": "삼화콘덴서",
   "worst_mdd_date": "2026-06-18",
   "avg_mdd_pct": -7.6,
   "take_profit_target_pct": 3.2,
   "start_balance": 10000000,
-  "final_balance": 10026666.67,
-  "total_pnl": 26666.67,
-  "total_return_pct": 0.2667,
+  "final_balance": 10080142.23,
+  "total_pnl": 80142.23,
+  "total_return_pct": 0.8014,
   "backtest_detail": {
     "as_of": "2026-07-14",
     "table": [
@@ -751,6 +751,19 @@
         "settlement_order": 56
       },
       {
+        "date": "2026-07-10",
+        "code": "006360",
+        "name": "GS건설",
+        "entry_price": 31850,
+        "exit_date": "2026-07-13",
+        "exit_class": "D+1 익절",
+        "ret_pct": 3.2,
+        "pnl": 53333.34,
+        "balance_after": 10053333.34,
+        "watered": true,
+        "settlement_order": 57
+      },
+      {
         "date": "2026-07-13",
         "code": "003680",
         "name": "한성기업",
@@ -758,23 +771,10 @@
         "exit_date": "2026-07-14",
         "exit_class": "D+1 익절",
         "ret_pct": 3.2,
-        "pnl": 26666.67,
-        "balance_after": 10026666.67,
+        "pnl": 26808.89,
+        "balance_after": 10080142.23,
         "watered": false,
-        "settlement_order": 57
-      },
-      {
-        "date": "2026-07-10",
-        "code": "006360",
-        "name": "GS건설",
-        "entry_price": 31850,
-        "exit_date": null,
-        "exit_class": "미청산(보유중)",
-        "ret_pct": null,
-        "pnl": null,
-        "balance_after": null,
-        "watered": false,
-        "settlement_order": null
+        "settlement_order": 58
       }
     ],
     "equity_curve": []
