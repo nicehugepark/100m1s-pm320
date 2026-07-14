@@ -1373,6 +1373,20 @@ function _wirePickCountdown() {
 //     (15:20 전 pm320_history fetch 생략)와 충돌하면 null 이 calDayCache 에 박제되는 부분상태
 //     함정 회피 (FLR-20260605-TEC-001 동형).
 //   - 15:30 초과 픽 미도착: 폴링 중단 + 기존 화면 유지 (추정 표시 금지, FLR-AGT-002).
+// ── 픽 공개 판정 순수 헬퍼 (2026-07-14 대표 지시 — 취약 마커 제거 + 15:21 회귀 게이트 대상) ──
+// _pm320PickRevealArrived: 일자파일(픽/보류 확정 SoT)이 오늘(date===today)+stocks>0 이면 "도착".
+//   보류일도 후보 stocks>0 확정(실측 picked_code=null 보류일 6건 전부 4~19종목) → 픽·보류 공통 신호.
+//   구 판정은 summary.backtest_detail.as_of===today 였으나 as_of=last_settled_date 라 보류일+
+//   무청산일엔 ≠today → 영구 false → 15:22 폴백까지 지연(15:21 브랜드 약속 위반). 견고 신호로 대체.
+//   date===today = stale/과거 파일 오인 차단.
+function _pm320PickRevealArrived(d, today) {
+  return !!(d && d.date === today && Array.isArray(d.stocks) && d.stocks.length > 0);
+}
+// _pm320PickBannerPending: "곧 공개" 예고 배너 표시 여부. null/undefined(미확정·404)만 표시,
+//   보류확정(pm320NoPick===true)·픽확정(false) 둘 다 억제 (보류일 예고배너 잔존 버그 수정 2026-07-14).
+function _pm320PickBannerPending(data) {
+  return !data || data.pm320NoPick == null;
+}
 const _PICK_REVEAL_POLL_MS = 17000;
 let _pickRevealPollTimer = null;
 let _pickRevealDone = false;
@@ -1401,24 +1415,19 @@ function _startPickRevealPoll() {
     const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
     let arrived = false;
     try {
-      // 1차 zero-noise probe — summary.json 은 항상 존재(200)라 콘솔 404 라인 0 (R18/R44 0err 원칙).
-      //   15:20 빌드(build_card_history.py)가 summary(backtest_detail.as_of=오늘)와 일자 파일을
-      //   같은 push 로 원자 배포 → as_of=오늘이면 일자 파일도 존재 확정.
-      const sRes = await fetch(`/data/pm320_history/summary.json?v=r${Date.now()}`, { cache: 'no-store', credentials: 'omit' });
-      let markerToday = false;
-      if (sRes.ok) {
-        const s = await sRes.json();
-        markerToday = !!(s && s.backtest_detail && s.backtest_detail.as_of === today);
-      }
-      // 2차 — 마커 확인 후(200 확정) 일자 파일 fetch. 15:22+ 는 마커 무관 직접 probe 폴백
-      //   (보류일 as_of 미갱신·summary 스키마 변동 대비 — 이 구간만 404 콘솔 라인 허용, degraded).
-      const _directFallback = now.getHours() * 60 + now.getMinutes() >= 15 * 60 + 22;
-      if (markerToday || _directFallback) {
+      // 견고 신호 direct probe (2026-07-14 대표 지시 — 취약 summary.backtest_detail.as_of 마커 제거).
+      //   구 1차 마커(as_of===today)는 as_of=last_settled_date 라 보류일+무청산일엔 ≠today → 영구 false
+      //   → 구 _directFallback(15:22)까지 지연 = 15:21 브랜드 약속 위반. 일자파일이 픽/보류 확정 SoT
+      //   이므로 직접 probe → 착지 즉시 승격. 게이트 15:20:00 — pm320-push(launchd 15:20 정각)+Pages
+      //   배포(~1분) 착지 즉시. 15:20:00 전엔 파일 부재라 probe 생략(404 노이즈 0). 15:20:00+ 착지
+      //   전 수 회 404 는 15:21 노출 브랜드 약속 우선(기존 preview probe 15:20:45+ 와 동일 감내, degraded).
+      const _secNow = now.getHours() * 3600 + now.getMinutes() * 60 + now.getSeconds();
+      if (_secNow >= 15 * 3600 + 20 * 60) {
         const res = await fetch(`/data/pm320_history/${today}.json?v=r${Date.now()}`, { cache: 'no-store', credentials: 'omit' });
         if (res.ok) {
           const d = await res.json();
           // 픽 확정·보류 확정 모두 "데이터 도착" — 보류일도 재렌더로 정직 고지 (곧 갱신됩니다 방치 금지).
-          arrived = !!(d && Array.isArray(d.stocks) && d.stocks.length > 0);
+          arrived = _pm320PickRevealArrived(d, today);
         }
       }
     } catch (_) { /* 일시 네트워크 오류 — 다음 주기 재시도 */ }
@@ -4327,7 +4336,7 @@ function renderCalExpandContent(date, data) {
     const _nowB = _kstNow(); // KST wall-clock — 해외 접속 시 장중(OPEN) 배너·오늘 판정 오판 봉쇄
     const _stateForBanner = (typeof getMarketState === 'function') ? getMarketState(date, _nowB) : null;
     const _todayB = `${_nowB.getFullYear()}-${String(_nowB.getMonth() + 1).padStart(2, '0')}-${String(_nowB.getDate()).padStart(2, '0')}`;
-    const _pickPending = !data || data.pm320NoPick == null; // null/undefined(미확정·404)만 pending. 보류확정(true)·픽확정(false)은 배너 억제 (2026-07-14 예고배너 잔존 버그 수정)
+    const _pickPending = _pm320PickBannerPending(data); // null/undefined(미확정·404)만 pending. 보류확정(true)·픽확정(false)은 억제 (헬퍼 SoT — 회귀 게이트 대상)
     // feat/pick-preview — 선공개 카드 활성 시 카운트다운 배너 억제 (공개 완료 = 카운트다운 종료).
     if (!_isSingleCardMode && _stateForBanner === 'OPEN' && date === _todayB && _pickPending && !_pm320Preview) {
       const _cd = _formatCountdownToPick(_nowB);
