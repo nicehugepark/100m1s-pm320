@@ -4315,8 +4315,10 @@ function renderCalExpandContent(date, data) {
   // PM320-D6 P0 (손님 판정 — 시점 혼란) — 장중 "오늘의 추천 15:20 공개" 안내 배너.
   //   손님(주식 초보)이 아침 09시에 자정/장전 스냅샷 데이터를 "오늘의 추천"으로 오인하고
   //   "고장났나?" 하고 이탈하는 문제. 조건: 오늘 view + 장중(OPEN, 09:00~15:20) + 픽 미생성.
-  //   - 픽 미생성 판정: data.pm320NoPick !== false (false=오늘 픽 확정 존재 → 배너 미표시, 무회귀).
-  //     true(보류 확정)·null(아직 미생성/404) 모두 "아직 안 나옴"이므로 배너 표시.
+  //   - 픽 미생성 판정: data.pm320NoPick == null (null/undefined=아직 미생성/404 → "곧 공개" 배너 표시).
+  //     true(보류 확정)=오늘 "추천 없음" 확정 → 배너 억제(no-pick 박스만). false(픽 확정)=오늘 픽 존재 → 배너 억제(무회귀).
+  //     ※ 기존 !== false 는 보류확정(true)을 미확정과 동일 취급 → 보류일 15:20~15:30 예고배너가
+  //       "추천 없음" 박스와 동시 표출되던 버그. == null 로 교정 (2026-07-14, false·true 케이스 회귀 위험 0).
   //   - 시각 표현: "00:14 KST 기준" 같은 raw 시각 대신 "지금은 장 시작 전 집계 데이터"로 의미 치환.
   //     실제 추천 산출 시점(15:20)을 카운트다운으로 명시 → 손님 시점 혼란 해소.
   //   _wirePickCountdown() 가 렌더 직후 1초 tick (15:20 도달 시 "곧 갱신됩니다" 전환).
@@ -4325,7 +4327,7 @@ function renderCalExpandContent(date, data) {
     const _nowB = _kstNow(); // KST wall-clock — 해외 접속 시 장중(OPEN) 배너·오늘 판정 오판 봉쇄
     const _stateForBanner = (typeof getMarketState === 'function') ? getMarketState(date, _nowB) : null;
     const _todayB = `${_nowB.getFullYear()}-${String(_nowB.getMonth() + 1).padStart(2, '0')}-${String(_nowB.getDate()).padStart(2, '0')}`;
-    const _pickPending = !data || data.pm320NoPick !== false;
+    const _pickPending = !data || data.pm320NoPick == null; // null/undefined(미확정·404)만 pending. 보류확정(true)·픽확정(false)은 배너 억제 (2026-07-14 예고배너 잔존 버그 수정)
     // feat/pick-preview — 선공개 카드 활성 시 카운트다운 배너 억제 (공개 완료 = 카운트다운 종료).
     if (!_isSingleCardMode && _stateForBanner === 'OPEN' && date === _todayB && _pickPending && !_pm320Preview) {
       const _cd = _formatCountdownToPick(_nowB);
