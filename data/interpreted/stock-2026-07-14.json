@@ -1,6 +1,6 @@
 {
   "date": "2026-07-14",
-  "generated_at": "2026-07-14T09:25:16.596623",
+  "generated_at": "2026-07-14T09:35:18.073382",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -16,14 +16,14 @@
       "code": "024060",
       "name": "흥구석유",
       "rank": 1,
-      "trade_amount": 63548000000,
-      "change_pct": 18.47,
-      "close_price": 13790,
+      "trade_amount": 71549000000,
+      "change_pct": 13.92,
+      "close_price": 13260,
       "open_price": 12740,
       "high_price": 13990,
       "low_price": 12730,
-      "industry": null,
-      "sector": null,
+      "industry": "기타 전문 도매업",
+      "sector": "휘발유등",
       "themes": [
         "중동 지정학"
       ],
@@ -46,8 +46,25 @@
       "bullish_today": false,
       "bullish_streak": 0,
       "bullish_dates": [],
-      "news": [],
-      "fallback": true,
+      "news": [
+        {
+          "title": "흥구석유, 호르무즈 해협 재봉쇄에 17%대 급등[특징주]",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03106166645514520",
+          "source": "이데일리",
+          "published_at": "2026-07-14T00:20:23",
+          "causal_chain": "",
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        }
+      ],
+      "fallback": false,
       "theme_crosscheck": {
         "confirmed": [
           "중동 지정학"
@@ -55,14 +72,17 @@
         "pm320_only": [],
         "cafe_only": []
       },
+      "index_change_pct": -1.63,
+      "index_multiple_current": -8.54,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 36200,
         "high_date": "2026-03-05",
-        "high_pct": -61.91,
+        "high_pct": -63.37,
         "low": 8920,
         "low_date": "2026-07-06",
-        "low_pct": 54.6,
-        "current": 13790
+        "low_pct": 48.65,
+        "current": 13260
       },
       "daily_20": [
         {
@@ -203,11 +223,23 @@
           "o": 12740,
           "h": 13990,
           "l": 12730,
-          "c": 13790
+          "c": 13260
         }
       ],
-      "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "intraday": {
+        "step_min": 5,
+        "open": 12740,
+        "base": 12740,
+        "prices": [
+          12740,
+          13960,
+          13440,
+          13700,
+          13200,
+          13330,
+          13250
+        ]
+      },
       "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰",
@@ -218,14 +250,14 @@
       "code": "005360",
       "name": "모나미",
       "rank": 2,
-      "trade_amount": 10243000000,
+      "trade_amount": 10490000000,
       "change_pct": 29.9,
       "close_price": 2650,
       "open_price": 2050,
       "high_price": 2650,
       "low_price": 2050,
-      "industry": null,
-      "sector": null,
+      "industry": "생활용품 도매업",
+      "sector": "BP153(BALL POINT PEN), P-3000(PLUS PEN), 유성매직, 보드마카, 네임펜, PARKER, WARTERMAN, 색연필",
       "themes": [],
       "theme_paths": [],
       "pick_count": 1,
@@ -237,8 +269,28 @@
         "2026-07-10",
         "2026-07-14"
       ],
-      "news": [],
-      "fallback": true,
+      "news": [
+        {
+          "title": "[특징주] 한성기업·모나미, ‘애국 매수’ 열풍에 동반 강세 지속⋯10% 넘게 ↑",
+          "url": "https://www.etoday.co.kr/news/view/2603368",
+          "source": "이투데이",
+          "published_at": "2026-07-14T00:11:00",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        }
+      ],
+      "fallback": false,
+      "index_change_pct": -0.05,
+      "index_multiple_current": -598.0,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 3190,
         "high_date": "2025-08-27",
@@ -424,8 +476,225 @@
           "summary": "모나미 상한가 (29.90%)",
           "cur_prc": 2650,
           "flu_rt": 29.9,
-          "trde_qty": 4120339,
-          "trde_prica_calc": 10243000000,
+          "trde_qty": 4213565,
+          "trde_prica_calc": 10490000000,
+          "consecutive_count": 1,
+          "effect_badges": [
+            {
+              "effect": "limit-up",
+              "when": "today",
+              "severity": "hot",
+              "source_label": "상한가",
+              "source_kind": "limit_up",
+              "consecutive_count": 1
+            }
+          ],
+          "next_trading_day": "2026-07-15"
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 2050,
+        "base": 2050,
+        "prices": [
+          2050,
+          2365,
+          2490,
+          2650,
+          2650,
+          2650,
+          2650
+        ]
+      },
+      "credit_risk": true,
+      "credit_reason": "회사한도초과",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
+    },
+    {
+      "code": "054940",
+      "name": "엑사이엔씨",
+      "rank": 3,
+      "trade_amount": 8095000000,
+      "change_pct": 29.94,
+      "close_price": 855,
+      "open_price": 790,
+      "high_price": 855,
+      "low_price": 735,
+      "industry": null,
+      "sector": null,
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [],
+      "news": [],
+      "fallback": true,
+      "range_240d": {
+        "high": 930,
+        "high_date": "2025-09-24",
+        "high_pct": -8.06,
+        "low": 563,
+        "low_date": "2026-06-08",
+        "low_pct": 51.87,
+        "current": 855
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-17",
+          "o": 662,
+          "h": 681,
+          "l": 646,
+          "c": 659
+        },
+        {
+          "date": "2026-06-18",
+          "o": 660,
+          "h": 663,
+          "l": 622,
+          "c": 650
+        },
+        {
+          "date": "2026-06-19",
+          "o": 644,
+          "h": 644,
+          "l": 604,
+          "c": 629
+        },
+        {
+          "date": "2026-06-22",
+          "o": 629,
+          "h": 692,
+          "l": 629,
+          "c": 657
+        },
+        {
+          "date": "2026-06-23",
+          "o": 656,
+          "h": 656,
+          "l": 592,
+          "c": 592
+        },
+        {
+          "date": "2026-06-24",
+          "o": 592,
+          "h": 606,
+          "l": 572,
+          "c": 577
+        },
+        {
+          "date": "2026-06-25",
+          "o": 577,
+          "h": 596,
+          "l": 568,
+          "c": 575
+        },
+        {
+          "date": "2026-06-26",
+          "o": 575,
+          "h": 630,
+          "l": 569,
+          "c": 600
+        },
+        {
+          "date": "2026-06-29",
+          "o": 600,
+          "h": 650,
+          "l": 578,
+          "c": 623
+        },
+        {
+          "date": "2026-06-30",
+          "o": 623,
+          "h": 675,
+          "l": 581,
+          "c": 634
+        },
+        {
+          "date": "2026-07-01",
+          "o": 635,
+          "h": 707,
+          "l": 616,
+          "c": 699
+        },
+        {
+          "date": "2026-07-02",
+          "o": 699,
+          "h": 700,
+          "l": 631,
+          "c": 650
+        },
+        {
+          "date": "2026-07-03",
+          "o": 650,
+          "h": 660,
+          "l": 620,
+          "c": 650
+        },
+        {
+          "date": "2026-07-06",
+          "o": 644,
+          "h": 650,
+          "l": 629,
+          "c": 640
+        },
+        {
+          "date": "2026-07-07",
+          "o": 659,
+          "h": 724,
+          "l": 621,
+          "c": 660
+        },
+        {
+          "date": "2026-07-08",
+          "o": 660,
+          "h": 660,
+          "l": 607,
+          "c": 650
+        },
+        {
+          "date": "2026-07-09",
+          "o": 638,
+          "h": 652,
+          "l": 626,
+          "c": 633
+        },
+        {
+          "date": "2026-07-10",
+          "o": 633,
+          "h": 660,
+          "l": 632,
+          "c": 659
+        },
+        {
+          "date": "2026-07-13",
+          "o": 659,
+          "h": 688,
+          "l": 652,
+          "c": 658
+        },
+        {
+          "date": "2026-07-14",
+          "o": 790,
+          "h": 855,
+          "l": 735,
+          "c": 855
+        }
+      ],
+      "status_badges": [
+        {
+          "label": "상한가",
+          "severity": "hot",
+          "source": "v1_condition",
+          "view_date": "2026-07-14",
+          "summary": "엑사이엔씨 상한가 (29.94%)",
+          "cur_prc": 855,
+          "flu_rt": 29.94,
+          "trde_qty": 9954107,
+          "trde_prica_calc": 8095000000,
           "consecutive_count": 1,
           "effect_badges": [
             {
@@ -441,16 +710,13 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "credit_reason": "신용거래 제한 종목"
     },
     {
       "code": "218150",
       "name": "미래생명자원",
-      "rank": 3,
-      "trade_amount": 1825000000,
+      "rank": 4,
+      "trade_amount": 1863000000,
       "change_pct": 29.84,
       "close_price": 2380,
       "open_price": 1833,
@@ -469,8 +735,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": -2.23,
-      "index_multiple_current": -13.38,
+      "index_change_pct": -1.63,
+      "index_multiple_current": -18.31,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 4300,
@@ -632,8 +898,8 @@
           "summary": "미래생명자원 상한가 (29.84%)",
           "cur_prc": 2380,
           "flu_rt": 29.84,
-          "trde_qty": 808212,
-          "trde_prica_calc": 1825000000,
+          "trde_qty": 821980,
+          "trde_prica_calc": 1863000000,
           "consecutive_count": 1,
           "effect_badges": [
             {
@@ -657,6 +923,8 @@
           2215,
           2380,
           2380,
+          2380,
+          2380,
           2380
         ]
       },
@@ -669,15 +937,15 @@
     {
       "code": "002680",
       "name": "한탑",
-      "rank": 4,
-      "trade_amount": 564000000,
+      "rank": 5,
+      "trade_amount": 581000000,
       "change_pct": 29.98,
       "close_price": 1964,
       "open_price": 1510,
       "high_price": 1964,
       "low_price": 1495,
-      "industry": null,
-      "sector": null,
+      "industry": "곡물가공품, 전분 및 전분제품 제조업",
+      "sector": "소맥분(밀가루),배합사료",
       "themes": [],
       "theme_paths": [],
       "pick_count": 1,
@@ -691,6 +959,9 @@
       ],
       "news": [],
       "fallback": true,
+      "index_change_pct": -1.63,
+      "index_multiple_current": -18.39,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 5150,
         "high_date": "2026-03-05",
@@ -851,8 +1122,8 @@
           "summary": "한탑 상한가 (29.98%)",
           "cur_prc": 1964,
           "flu_rt": 29.98,
-          "trde_qty": 304161,
-          "trde_prica_calc": 564000000,
+          "trde_qty": 313096,
+          "trde_prica_calc": 581000000,
           "consecutive_count": 1,
           "effect_badges": [
             {
@@ -867,8 +1138,22 @@
           "next_trading_day": "2026-07-15"
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 1510,
+        "base": 1510,
+        "prices": [
+          1510,
+          1573,
+          1703,
+          1964,
+          1964,
+          1964,
+          1964
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
@@ -876,8 +1161,8 @@
     {
       "code": "465770",
       "name": "STX그린로지스",
-      "rank": 5,
-      "trade_amount": 375000000,
+      "rank": 6,
+      "trade_amount": 411000000,
       "change_pct": 29.92,
       "close_price": 3300,
       "open_price": 3300,
@@ -911,8 +1196,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": -1.22,
-      "index_multiple_current": -24.52,
+      "index_change_pct": -0.05,
+      "index_multiple_current": -598.4,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 9600,
@@ -1090,8 +1375,8 @@
           "summary": "STX그린로지스 상한가 (29.92%)",
           "cur_prc": 3300,
           "flu_rt": 29.92,
-          "trde_qty": 101601,
-          "trde_prica_calc": 375000000,
+          "trde_qty": 124668,
+          "trde_prica_calc": 411000000,
           "consecutive_count": 2,
           "effect_badges": [
             {
@@ -1111,6 +1396,8 @@
         "open": 3300,
         "base": 3300,
         "prices": [
+          3300,
+          3300,
           3300,
           3300,
           3300,
