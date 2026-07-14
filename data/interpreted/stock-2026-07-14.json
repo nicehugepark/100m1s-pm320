@@ -1,6 +1,6 @@
 {
   "date": "2026-07-14",
-  "generated_at": "2026-07-14T09:45:16.137965",
+  "generated_at": "2026-07-14T09:46:16.699391",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -549,8 +549,25 @@
       "low_price": 735,
       "industry": "실내건축 및 건축마무리 공사업",
       "sector": "실내건축 공사업",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "건설",
+        "반도체 팹 건설 수주"
+      ],
+      "theme_paths": [
+        {
+          "name": "건설",
+          "path": [
+            "건설"
+          ]
+        },
+        {
+          "name": "반도체 팹 건설 수주",
+          "path": [
+            "반도체",
+            "반도체 팹 건설 수주"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": false,
@@ -562,16 +579,16 @@
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03030726645514520",
           "source": "이데일리",
           "published_at": "2026-07-14T00:08:30",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "삼성전자 평택 P5 반도체 팹 공사 발주 → 건축마무리공사 전문업체 엑사이엔씨가 890억원 규모 직접 수주(창사 이래 최대) → 실적 개선 기대로 매수세 집중 → 당일 상한가(+29.94%, 종가 855원)·거래대금 81억원",
+          "macro_event": "삼성전자 평택 P5 반도체 팹 건설 투자 → 실내건축·마무리공사 발주 확대",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.8,
+          "newzy_virality": 0.5,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.68,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": false,
@@ -772,9 +789,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "strong_bull",
+      "theme_leader": true,
+      "hugepark_grade": "적극"
     },
     {
       "code": "065770",
@@ -789,9 +806,16 @@
       "industry": null,
       "sector": null,
       "themes": [
+        "CCTV·보안",
         "통신장비"
       ],
       "theme_paths": [
+        {
+          "name": "CCTV·보안",
+          "path": [
+            "CCTV·보안"
+          ]
+        },
         {
           "name": "통신장비",
           "path": [
@@ -818,16 +842,16 @@
           "url": "https://www.sedaily.com/article/20064224",
           "source": "서울경제",
           "published_at": "2026-07-06T05:09:42",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "이동통신중계기 주력 CS가 국내 통신사업 위축에 따른 실적 감소를 사업 다각화로 돌파 → 영상감시장치(CCTV·보안) 제조사 미래정보기술 지분 100%(250억원) 인수 자금을 기술보증기금 보증·우리은행 인수금융 110억원 약정으로 전액 확보 → 자금 조달 불확실성 해소·거래 종결 가시화 기대 매수세 유입으로 당일 종가 1,780원(+7.88%), 장중 고가 2,145원까지 급등, 거래대금 203억원 집중.",
+          "macro_event": "CS, 미래정보기술(영상감시장치) 지분 100% 250억원 인수 — 인수금융 110억 약정 체결로 자금 전액 확보",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.6,
+          "newzy_virality": 0.3,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.48,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "CS, 우리은행과 110억원 대출 약정… 미래정보기술 인수 자금 마련",
@@ -999,7 +1023,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "218150",
