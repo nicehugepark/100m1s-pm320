@@ -1,6 +1,6 @@
 {
   "date": "2026-07-14",
-  "generated_at": "2026-07-14T09:35:18.073382",
+  "generated_at": "2026-07-14T09:36:29.887388",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -25,14 +25,23 @@
       "industry": "기타 전문 도매업",
       "sector": "휘발유등",
       "themes": [
-        "중동 지정학"
+        "중동 지정학",
+        "유가상승",
+        "호르무즈 해협"
       ],
       "theme_paths": [
         {
-          "name": "중동 지정학",
+          "name": "유가상승",
+          "path": [
+            "유가상승"
+          ]
+        },
+        {
+          "name": "호르무즈 해협",
           "path": [
             "전쟁",
-            "중동 지정학"
+            "중동 지정학",
+            "호르무즈 해협"
           ]
         }
       ],
@@ -52,16 +61,16 @@
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03106166645514520",
           "source": "이데일리",
           "published_at": "2026-07-14T00:20:23",
-          "causal_chain": "",
-          "macro_event": null,
+          "causal_chain": "호르무즈 해협 재봉쇄 → 중동發 원유 수송 차질 우려로 국제 유가 상승 기대 → 석유 유통업체 흥구석유(휘발유 등 도매) 마진·재고평가 수혜 기대 매수세 집중 → 당일 +13.92%(종가 13,260원)·장중 고가 13,990원·거래대금 690억원",
+          "macro_event": "호르무즈 해협 재봉쇄 우려로 국제 유가 상승 기대",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.6,
+          "newzy_virality": 0.6,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.6,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": false,
@@ -69,7 +78,10 @@
         "confirmed": [
           "중동 지정학"
         ],
-        "pm320_only": [],
+        "pm320_only": [
+          "유가상승",
+          "호르무즈 해협"
+        ],
         "cafe_only": []
       },
       "index_change_pct": -1.63,
@@ -242,9 +254,7 @@
       },
       "togusa_verdict": "weak_bull",
       "theme_leader": true,
-      "hugepark_grade": "관찰",
-      "causal_chain": "",
-      "parent_theme": ""
+      "hugepark_grade": "관찰"
     },
     {
       "code": "005360",
@@ -258,8 +268,19 @@
       "low_price": 2050,
       "industry": "생활용품 도매업",
       "sector": "BP153(BALL POINT PEN), P-3000(PLUS PEN), 유성매직, 보드마카, 네임펜, PARKER, WARTERMAN, 색연필",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "애국 소비(돈쭐)",
+        "미담 테마"
+      ],
+      "theme_paths": [
+        {
+          "name": "애국 소비(돈쭐)",
+          "path": [
+            "미담 테마",
+            "애국 소비(돈쭐)"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": true,
@@ -275,16 +296,16 @@
           "url": "https://www.etoday.co.kr/news/view/2603368",
           "source": "이투데이",
           "published_at": "2026-07-14T00:11:00",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "국산 대표 문구 브랜드로서 SNS·온라인 커뮤니티발 '애국 소비(돈쭐)' 열풍의 직접 대상 → 개인 투자자 응원 매수세 집중 → 한성기업 등과 동반 강세 → 당일 매수세 폭발로 시가 2,050원에서 상한가 2,650원까지 직행(+29.90%), 거래대금 104억원 급증.",
+          "macro_event": "국산 문구 브랜드에 대한 '애국 소비(돈쭐)' 매수 열풍 확산",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.6,
+          "newzy_virality": 0.6,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.6,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": false,
@@ -508,9 +529,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "weak_bull",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "054940",
@@ -710,7 +731,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "218150",
