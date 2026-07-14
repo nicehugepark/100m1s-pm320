@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 25971.36,
-      "change_pct": 0.38,
+      "point": 25959.65,
+      "change_pct": 0.33,
       "candle": {
         "o": 26011.8,
         "h": 26062.43,
-        "l": 25951.35,
-        "c": 25971.36
+        "l": 25914.39,
+        "c": 25959.65
       },
       "range_240d": {
         "low": 20650.13,
@@ -2031,8 +2031,8 @@
           "date": "2026-07-14",
           "o": 26011.8,
           "h": 26062.43,
-          "l": 25951.35,
-          "c": 25971.36
+          "l": 25914.39,
+          "c": 25959.65
         }
       ],
       "spark": [
@@ -2045,7 +2045,9 @@
         26048.74,
         25977.03,
         25970.42,
-        25971.36
+        25979.94,
+        25959.65,
+        25959.65
       ],
       "news": {
         "summary": "SK Hynix 미국 상장 직후 약세로 반도체 심약 신호 부각. AI 신약 개발·투자 기대감도 실적 미흡·정치적 불확실성으로 퇴조, AI 인프라 과잉투자 우려 가중.",
@@ -2069,13 +2071,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7528.25,
-      "change_pct": 0.17,
+      "point": 7526.65,
+      "change_pct": 0.15,
       "candle": {
         "o": 7536.7,
         "h": 7544.45,
-        "l": 7520.79,
-        "c": 7528.25
+        "l": 7513.23,
+        "c": 7526.65
       },
       "range_240d": {
         "low": 6238.01,
@@ -4098,8 +4100,8 @@
           "date": "2026-07-14",
           "o": 7536.7,
           "h": 7544.45,
-          "l": 7520.79,
-          "c": 7528.25
+          "l": 7513.23,
+          "c": 7526.65
         }
       ],
       "spark": [
@@ -4112,7 +4114,9 @@
         7539.82,
         7531.21,
         7528.83,
-        7528.25
+        7530.16,
+        7524.66,
+        7526.65
       ],
       "news": {
         "summary": "이란 봉쇄 재개로 유가 10% 폭등, 인플레이션 상행압력 심화 중. 연준 금리 방향 불명확(인상 가능성 부상), 고용 개선·물가 고착 혼조. 지정학 리스크 프리미엄 반영되며 IMF 장기 성장률 소폭 하향 조정.",
@@ -4136,13 +4140,13 @@
     },
     {
       "name": "DOW",
-      "point": 52612.92,
-      "change_pct": 0.22,
+      "point": 52603.47,
+      "change_pct": 0.2,
       "candle": {
         "o": 52046.36,
-        "h": 52647.83,
+        "h": 52657.37,
         "l": 52046.36,
-        "c": 52612.92
+        "c": 52603.47
       },
       "range_240d": {
         "low": 43588.58,
@@ -6164,9 +6168,9 @@
         {
           "date": "2026-07-14",
           "o": 52046.36,
-          "h": 52647.83,
+          "h": 52657.37,
           "l": 52046.36,
-          "c": 52612.92
+          "c": 52603.47
         }
       ],
       "spark": [
@@ -6179,7 +6183,9 @@
         52578.8,
         52608.65,
         52609.85,
-        52612.92
+        52657.22,
+        52591.41,
+        52603.47
       ],
       "news": {
         "summary": "이란 분쟁으로 유가·경기민감 영역 부양, 에너지·교통·금융 지표 혼조. 인프라 수요 회복(항공·해운 터빈 수급 긴박), 금융사 M&A 활동 활발. 규제 강화(대출심사 강화·암호화폐 은행 신설)로 금융권 순이익 압박 신호.",
@@ -6204,10 +6210,17 @@
   ],
   "news_chips": [
     {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/the-battle-for-hormuz-trump-shifts-into-dangerous-new-phase-in-iran-war-eb19979a",
+      "published_ts": 1784038380.0,
+      "impact_high": true
+    },
+    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/cpi-inflation-report-june-2026-afb89992",
-      "published_ts": 1784035980.0,
+      "published_ts": 1784037840.0,
       "impact_high": true
     },
     {
@@ -6218,17 +6231,10 @@
       "impact_high": true
     },
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/ibm-shares-sink-18-on-earnings-warning-d115d564?mod=rss_markets_main",
-      "published_ts": 1784035080.0,
-      "impact_high": true
-    },
-    {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026071453237",
-      "published_ts": 1784029808.0,
+      "url": "https://www.hankyung.com/article/2026071453857",
+      "published_ts": 1784037707.0,
       "impact_high": false
     },
     {
@@ -6267,20 +6273,18 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "f810f0610f3f9a6c849b2324fbcadc5057a5e1b78468783b2d05bf36f85a1906",
+  "_article_sig": "d91377f706c8b5ec408fc378741ff90c1eeef144d4ede616586266950dcfebd9",
   "built_at_kst": "2026-07-14T07:00:58.550988+09:00",
   "futures": {
-    "as_of_kst": "2026-07-14T23:10:04.383856+09:00",
+    "as_of_kst": "2026-07-14T23:20:04.724087+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7584.0,
-        "change_pct": 0.28,
+        "point": 7571.75,
+        "change_pct": 0.12,
         "spark": [
-          7557.0,
-          7556.0,
           7557.0,
           7547.5,
           7546.0,
@@ -6319,21 +6323,23 @@
           7581.0,
           7583.5,
           7574.5,
-          7584.0
+          7572.75,
+          7574.5,
+          7571.75
         ],
         "candle": {
           "o": 7557.0,
           "h": 7613.75,
           "l": 7531.5,
-          "c": 7584.0
+          "c": 7571.75
         },
         "range_240d": {
           "low": 6264.5,
           "high": 7623.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 21.06,
-          "high_change_pct": -0.52
+          "low_change_pct": 20.87,
+          "high_change_pct": -0.68
         },
         "daily_expanded": [
           {
@@ -8349,8 +8355,8 @@
             "o": 7557.0,
             "h": 7613.75,
             "l": 7531.5,
-            "c": 7584.0,
-            "v": 386655
+            "c": 7571.75,
+            "v": 413543
           }
         ],
         "rollover_gaps": [],
@@ -8358,16 +8364,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/the-battle-for-hormuz-trump-shifts-into-dangerous-new-phase-in-iran-war-eb19979a"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/cpi-inflation-report-june-2026-afb89992"
             },
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/warsh-tells-congress-the-fed-has-no-tolerance-for-high-inflation-50c5dfa8"
-            },
-            {
               "name": "한경국제",
-              "url": "https://www.hankyung.com/article/2026071453517"
+              "url": "https://www.hankyung.com/article/2026071453737"
             }
           ]
         }
@@ -8375,11 +8381,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29784.5,
-        "change_pct": 1.05,
+        "point": 29664.25,
+        "change_pct": 0.64,
         "spark": [
           29446.0,
-          29602.75,
           29607.25,
           29572.75,
           29573.75,
@@ -8418,21 +8423,22 @@
           29757.75,
           29781.25,
           29692.0,
-          29784.5
+          29665.25,
+          29664.25
         ],
         "candle": {
           "o": 29446.0,
           "h": 29921.75,
           "l": 29303.5,
-          "c": 29781.25
+          "c": 29678.25
         },
         "range_240d": {
           "low": 22883.75,
           "high": 30712.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 30.14,
-          "high_change_pct": -3.03
+          "low_change_pct": 29.69,
+          "high_change_pct": -3.37
         },
         "daily_expanded": [
           {
@@ -10448,8 +10454,8 @@
             "o": 29446.0,
             "h": 29921.75,
             "l": 29303.5,
-            "c": 29781.25,
-            "v": 191218
+            "c": 29678.25,
+            "v": 207302
           }
         ],
         "rollover_gaps": [],
@@ -10474,12 +10480,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52820.0,
-        "change_pct": 0.11,
+        "point": 52868.0,
+        "change_pct": 0.2,
         "spark": [
           52731.0,
-          52574.0,
-          52582.0,
           52366.0,
           52281.0,
           52323.0,
@@ -10517,21 +10521,23 @@
           52804.0,
           52820.0,
           52855.0,
-          52820.0
+          52862.0,
+          52905.0,
+          52868.0
         ],
         "candle": {
           "o": 52731.0,
           "h": 52895.0,
           "l": 52255.0,
-          "c": 52820.0
+          "c": 52868.0
         },
         "range_240d": {
           "low": 43710.0,
           "high": 53372.0,
           "low_date": "2025-08-01",
           "high_date": "2026-07-06",
-          "low_change_pct": 20.84,
-          "high_change_pct": -1.03
+          "low_change_pct": 20.95,
+          "high_change_pct": -0.94
         },
         "daily_expanded": [
           {
@@ -12547,8 +12553,8 @@
             "o": 52731.0,
             "h": 52895.0,
             "l": 52255.0,
-            "c": 52820.0,
-            "v": 53944
+            "c": 52868.0,
+            "v": 56664
           }
         ],
         "rollover_gaps": [],
@@ -12573,7 +12579,7 @@
     ]
   },
   "regular_open": true,
-  "intraday_refreshed_kst": "2026-07-14T23:10:08.355988+09:00",
+  "intraday_refreshed_kst": "2026-07-14T23:20:23.570856+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
@@ -12596,16 +12602,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/the-battle-for-hormuz-trump-shifts-into-dangerous-new-phase-in-iran-war-eb19979a"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/cpi-inflation-report-june-2026-afb89992"
         },
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/warsh-tells-congress-the-fed-has-no-tolerance-for-high-inflation-50c5dfa8"
-        },
-        {
           "name": "한경국제",
-          "url": "https://www.hankyung.com/article/2026071453517"
+          "url": "https://www.hankyung.com/article/2026071453737"
         }
       ]
     },
