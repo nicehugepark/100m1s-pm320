@@ -1,6 +1,6 @@
 {
   "date": "2026-07-14",
-  "generated_at": "2026-07-14T10:15:18.125872",
+  "generated_at": "2026-07-14T10:15:59.986265",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -1620,8 +1620,17 @@
       "low_price": 799,
       "industry": "전자부품 제조업",
       "sector": "휴대폰용 카메라모듈",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "실적"
+      ],
+      "theme_paths": [
+        {
+          "name": "실적",
+          "path": [
+            "실적"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": true,
@@ -1636,16 +1645,16 @@
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03263606645514520",
           "source": "이데일리",
           "published_at": "2026-07-14T00:50:15",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "휴대폰용 카메라모듈 주력 캠시스가 상반기 연결 영업이익 87억원으로 전년 대비 흑자전환 → 실적 개선 확인에 따른 저평가 매수세 집중(52주 고가 대비 -80.9% 낙폭과대) → 당일 상한가(+29.93%, 종가 1,133원) 형성.",
+          "macro_event": "캠시스 2026 상반기 연결 영업이익 87억원 흑자전환",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.6,
+          "newzy_virality": 0.2,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.44,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": false,
@@ -1852,9 +1861,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "strong_bull",
+      "theme_leader": true,
+      "hugepark_grade": "적극"
     },
     {
       "code": "002680",
@@ -2397,7 +2406,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     }
   ]
 }
