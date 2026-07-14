@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/cpi-inflation-report-june-2026-afb89992",
+      "published_ts": 1784034840.0,
+      "impact_high": true
+    },
+    {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/warsh-tells-congress-the-fed-has-no-tolerance-for-high-inflation-50c5dfa8",
@@ -6286,13 +6293,6 @@
       "url": "https://www.wsj.com/finance/stocks/ibm-shares-sink-18-on-earnings-warning-d115d564?mod=rss_markets_main",
       "published_ts": 1784032380.0,
       "impact_high": true
-    },
-    {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html",
-      "published_ts": 1784034593.0,
-      "impact_high": false
     },
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
@@ -6337,10 +6337,10 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "e0d126290b94beb4c03b6c85e41c8503f9ab7ec2e89d332a71307d822a7bc40b",
+  "_article_sig": "c75ae3859f9c839d9534506e85d0206d876b1da52447645f0607147a628add05",
   "built_at_kst": "2026-07-14T07:00:58.550988+09:00",
   "futures": {
-    "as_of_kst": "2026-07-14T22:10:07.788651+09:00",
+    "as_of_kst": "2026-07-14T22:20:04.820445+09:00",
     "session_open": true,
     "futures": [
       {
@@ -6350,7 +6350,6 @@
         "change_pct": 0.22,
         "spark": [
           7557.0,
-          7558.75,
           7557.5,
           7559.5,
           7560.25,
@@ -6389,13 +6388,14 @@
           7579.25,
           7579.5,
           7579.5,
+          7579.75,
           7579.75
         ],
         "candle": {
           "o": 7557.0,
           "h": 7613.75,
           "l": 7531.5,
-          "c": 7579.75
+          "c": 7580.0
         },
         "range_240d": {
           "low": 6264.5,
@@ -6403,7 +6403,7 @@
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
           "low_change_pct": 21.0,
-          "high_change_pct": -0.58
+          "high_change_pct": -0.57
         },
         "daily_expanded": [
           {
@@ -8419,8 +8419,8 @@
             "o": 7557.0,
             "h": 7613.75,
             "l": 7531.5,
-            "c": 7579.75,
-            "v": 239289
+            "c": 7580.0,
+            "v": 246848
           }
         ],
         "rollover_gaps": [],
@@ -8428,16 +8428,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/cpi-inflation-report-june-2026-afb89992"
+            },
+            {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/2026071453517"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/warsh-tells-congress-the-fed-has-no-tolerance-for-high-inflation-50c5dfa8"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-95a4b1d1?mod=rss_markets_main"
             }
           ]
         }
@@ -8445,11 +8445,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29774.0,
-        "change_pct": 1.01,
+        "point": 29790.75,
+        "change_pct": 1.07,
         "spark": [
           29446.0,
-          29608.0,
           29602.25,
           29608.75,
           29613.25,
@@ -8488,21 +8487,22 @@
           29773.25,
           29772.5,
           29775.25,
-          29774.0
+          29790.75,
+          29790.75
         ],
         "candle": {
           "o": 29446.0,
           "h": 29921.75,
           "l": 29303.5,
-          "c": 29774.0
+          "c": 29791.0
         },
         "range_240d": {
           "low": 22883.75,
           "high": 30712.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 30.11,
-          "high_change_pct": -3.06
+          "low_change_pct": 30.18,
+          "high_change_pct": -3.0
         },
         "daily_expanded": [
           {
@@ -10518,8 +10518,8 @@
             "o": 29446.0,
             "h": 29921.75,
             "l": 29303.5,
-            "c": 29774.0,
-            "v": 134371
+            "c": 29791.0,
+            "v": 137625
           }
         ],
         "rollover_gaps": [],
@@ -10527,16 +10527,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/cpi-inflation-report-june-2026-afb89992"
-            },
-            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/ibm-shares-sink-18-on-earnings-warning-d115d564?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/warsh-tells-congress-the-fed-has-no-tolerance-for-high-inflation-50c5dfa8"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/politics/for-whom-the-strait-tolls-1dceadc0"
             }
           ]
         }
@@ -10544,12 +10544,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52645.0,
-        "change_pct": -0.23,
+        "point": 52674.0,
+        "change_pct": -0.17,
         "spark": [
           52731.0,
-          52647.0,
-          52641.0,
           52671.0,
           52671.0,
           52624.0,
@@ -10587,21 +10585,23 @@
           52657.0,
           52628.0,
           52643.0,
-          52645.0
+          52669.0,
+          52684.0,
+          52674.0
         ],
         "candle": {
           "o": 52731.0,
           "h": 52895.0,
           "l": 52255.0,
-          "c": 52645.0
+          "c": 52674.0
         },
         "range_240d": {
           "low": 43710.0,
           "high": 53372.0,
           "low_date": "2025-08-01",
           "high_date": "2026-07-06",
-          "low_change_pct": 20.44,
-          "high_change_pct": -1.36
+          "low_change_pct": 20.51,
+          "high_change_pct": -1.31
         },
         "daily_expanded": [
           {
@@ -12617,8 +12617,8 @@
             "o": 52731.0,
             "h": 52895.0,
             "l": 52255.0,
-            "c": 52645.0,
-            "v": 35535
+            "c": 52674.0,
+            "v": 36311
           }
         ],
         "rollover_gaps": [],
@@ -12631,11 +12631,11 @@
             },
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/cpi-inflation-report-june-2026-afb89992"
+              "url": "https://www.wsj.com/economy/central-banking/warsh-tells-congress-the-fed-has-no-tolerance-for-high-inflation-50c5dfa8"
             },
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/warsh-tells-congress-the-fed-has-no-tolerance-for-high-inflation-50c5dfa8"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-95a4b1d1?mod=rss_markets_main"
             }
           ]
         }
@@ -12643,15 +12643,11 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-07-14T22:10:32.891692+09:00",
+  "intraday_refreshed_kst": "2026-07-14T22:20:28.078235+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/cpi-inflation-report-june-2026-afb89992"
-        },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/ibm-shares-sink-18-on-earnings-warning-d115d564?mod=rss_markets_main"
@@ -12659,6 +12655,10 @@
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/warsh-tells-congress-the-fed-has-no-tolerance-for-high-inflation-50c5dfa8"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/politics/for-whom-the-strait-tolls-1dceadc0"
         }
       ]
     },
@@ -12666,16 +12666,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/cpi-inflation-report-june-2026-afb89992"
+        },
+        {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/2026071453517"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/warsh-tells-congress-the-fed-has-no-tolerance-for-high-inflation-50c5dfa8"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-95a4b1d1?mod=rss_markets_main"
         }
       ]
     },
@@ -12688,11 +12688,11 @@
         },
         {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/cpi-inflation-report-june-2026-afb89992"
+          "url": "https://www.wsj.com/economy/central-banking/warsh-tells-congress-the-fed-has-no-tolerance-for-high-inflation-50c5dfa8"
         },
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/warsh-tells-congress-the-fed-has-no-tolerance-for-high-inflation-50c5dfa8"
+          "name": "WSJ",
+          "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-95a4b1d1?mod=rss_markets_main"
         }
       ]
     }
