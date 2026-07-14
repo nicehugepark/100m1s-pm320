@@ -5979,6 +5979,15 @@ async function initThemeMap() {
 
 // ───── 테마 트리 (Indented Tree + Inline Bar) ─────
 async function initThemeTree(dateOverride) {
+  // 대표 지시 2026-07-14 — 테마트리 섹션(#theme-tree) 표시/숨김 단일 게이트.
+  //   오늘 데이터 미도착 시 전일 트리를 "종가 기준" 문구와 함께 노출하던 동작 = 오도.
+  //   대표: "어제의 테마트리를 굳이 보여줄 필요없다 … 안 보여주는 게 제일 혼란이 없어."
+  //   → 진입 시 표시로 리셋(데이터 도착 재호출 시 자동 복원), source_date≠오늘 케이스에서만 숨김(하단).
+  const _setThemeTreeSectionVisible = (visible) => {
+    const _sec = document.getElementById('theme-tree');
+    if (_sec) _sec.style.display = visible ? '' : 'none';
+  };
+  _setThemeTreeSectionVisible(true);
   try {
     // 휴장일이면 안내 메시지 표시 후 종료 (테마 트리는 거래일 데이터 기반)
     if (dateOverride && isMarketClosed(dateOverride)) {
@@ -6316,15 +6325,15 @@ async function initThemeTree(dateOverride) {
       const _isTodayView = !dateOverride || dateOverride === _todayCap;
       const _srcDate = data.source_date || data.date || null;
       if (_isTodayView && !_themeStockLoadedForToday && _srcDate && _srcDate !== _todayCap) {
-        const _srcLabel = (typeof formatKoDate === 'function') ? formatKoDate(_srcDate) : _srcDate;
-        const cap = document.createElement('div');
-        cap.className = 'theme-tree-source-caption';
-        cap.setAttribute('role', 'note');
-        cap.setAttribute('aria-label', '테마트리 데이터 기준 시점');
-        cap.textContent = `${_srcLabel} 종가 기준 · 오늘 데이터는 장 마감 후 갱신됩니다`;
-        container.appendChild(cap);
+        // 대표 지시 2026-07-14 — 오늘 데이터 미도착(source_date=전일 종가) 상태에서 전일 트리를
+        //   "N월 N일 종가 기준 · 오늘 데이터는 장 마감 후 갱신됩니다" 문구와 함께 노출하던 종전 캡션
+        //   동작은 사용자가 전일 값을 오늘로 오인. 대표: "문구를 남겨서 혼란을 줄이는 것보다 안 보여주는
+        //   게 제일 혼란이 없어." → 섹션 전체(#theme-tree) 숨김 + 렌더 중단. 15:20 이후 오늘 데이터
+        //   도착 시 source_date=오늘 → 본 조건 거짓 → 진입부 표시 리셋으로 자동 복원.
+        _setThemeTreeSectionVisible(false);
+        return;
       }
-    } catch (_) { /* graceful — 캡션 실패해도 트리 렌더는 유지 */ }
+    } catch (_) { /* graceful — 시점 판정 실패해도 트리 렌더는 유지 */ }
 
     function renderNode(node, depth, rootColor) {
       const hasChildren = node.children.length > 0 && node.children.some(c => c._totalAmt > 0 || c.trade_amount > 0);
