@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/global/eurozone-industrial-production-fell-unexpectedly-in-may-ed079f2a",
+      "published_ts": 1784108340.0,
+      "impact_high": true
+    },
+    {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/stubborn-inflation-better-growth-economists-weigh-in-a4afd3cd",
@@ -6309,13 +6316,6 @@
       "impact_high": false
     },
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026071576651",
-      "published_ts": 1784106823.0,
-      "impact_high": false
-    },
-    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/15/china-gdp-retail-sales-investment-june-.html",
@@ -6337,10 +6337,10 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "36b82722c397d0383a036d3f2f2e278e7f7f4c9ecc3215507a7d77b9387bdfc6",
+  "_article_sig": "7de935c9e6e262c5d9ee29b434c7be1444d391d4f236ea60ab4be888337411c1",
   "built_at_kst": "2026-07-15T07:00:30.333568+09:00",
   "futures": {
-    "as_of_kst": "2026-07-15T18:40:08.719235+09:00",
+    "as_of_kst": "2026-07-15T18:50:08.355746+09:00",
     "session_open": true,
     "futures": [
       {
@@ -6350,8 +6350,6 @@
         "change_pct": 0.22,
         "spark": [
           7589.75,
-          7608.25,
-          7607.75,
           7610.0,
           7608.75,
           7608.0,
@@ -6389,20 +6387,22 @@
           7610.25,
           7609.5,
           7608.25,
+          7607.75,
+          7607.75,
           7607.75
         ],
         "candle": {
           "o": 7589.75,
           "h": 7613.5,
           "l": 7583.0,
-          "c": 7608.0
+          "c": 7607.75
         },
         "range_240d": {
           "low": 6264.5,
           "high": 7623.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 21.45,
+          "low_change_pct": 21.44,
           "high_change_pct": -0.21
         },
         "daily_expanded": [
@@ -8419,8 +8419,8 @@
             "o": 7589.75,
             "h": 7613.5,
             "l": 7583.0,
-            "c": 7608.0,
-            "v": 92149
+            "c": 7607.75,
+            "v": 93339
           }
         ],
         "rollover_gaps": [],
@@ -8429,15 +8429,15 @@
           "sources": [
             {
               "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/global/eurozone-industrial-production-fell-unexpectedly-in-may-ed079f2a"
+            },
+            {
+              "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/stubborn-inflation-better-growth-economists-weigh-in-a4afd3cd"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/jobs/unemployment-long-term-job-market-629199f9"
-            },
-            {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/2026071576611"
             }
           ]
         }
@@ -8445,12 +8445,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29950.25,
-        "change_pct": 0.54,
+        "point": 29939.0,
+        "change_pct": 0.5,
         "spark": [
           29805.0,
-          30036.5,
-          30034.0,
           30039.25,
           30024.25,
           30019.25,
@@ -8488,21 +8486,23 @@
           29953.75,
           29959.0,
           29950.25,
-          29950.25
+          29935.75,
+          29939.0,
+          29939.0
         ],
         "candle": {
           "o": 29805.0,
           "h": 30062.5,
           "l": 29745.5,
-          "c": 29948.25
+          "c": 29939.0
         },
         "range_240d": {
           "low": 22883.75,
           "high": 30712.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 30.87,
-          "high_change_pct": -2.49
+          "low_change_pct": 30.83,
+          "high_change_pct": -2.52
         },
         "daily_expanded": [
           {
@@ -10518,8 +10518,8 @@
             "o": 29805.0,
             "h": 30062.5,
             "l": 29745.5,
-            "c": 29948.25,
-            "v": 66426
+            "c": 29939.0,
+            "v": 66951
           }
         ],
         "rollover_gaps": [],
@@ -10544,11 +10544,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52884.0,
-        "change_pct": 0.18,
+        "point": 52903.0,
+        "change_pct": 0.21,
         "spark": [
           52792.0,
-          52822.0,
           52832.0,
           52830.0,
           52820.0,
@@ -10587,21 +10586,22 @@
           52900.0,
           52890.0,
           52911.0,
-          52884.0
+          52903.0,
+          52903.0
         ],
         "candle": {
           "o": 52792.0,
           "h": 52924.0,
           "l": 52700.0,
-          "c": 52884.0
+          "c": 52903.0
         },
         "range_240d": {
           "low": 43710.0,
           "high": 53372.0,
           "low_date": "2025-08-01",
           "high_date": "2026-07-06",
-          "low_change_pct": 20.99,
-          "high_change_pct": -0.91
+          "low_change_pct": 21.03,
+          "high_change_pct": -0.88
         },
         "daily_expanded": [
           {
@@ -12617,8 +12617,8 @@
             "o": 52792.0,
             "h": 52924.0,
             "l": 52700.0,
-            "c": 52884.0,
-            "v": 8967
+            "c": 52903.0,
+            "v": 9185
           }
         ],
         "rollover_gaps": [],
@@ -12626,16 +12626,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/global/eurozone-industrial-production-fell-unexpectedly-in-may-ed079f2a"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/banking/banks-are-on-a-goldilocks-run-dont-assume-it-will-last-9f49f12f?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/jobs/unemployment-long-term-job-market-629199f9"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/why-high-credit-card-delinquencies-arent-showing-up-at-the-big-banks-3476c217?mod=rss_markets_main"
             }
           ]
         }
@@ -12666,15 +12666,15 @@
       "sources": [
         {
           "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/global/eurozone-industrial-production-fell-unexpectedly-in-may-ed079f2a"
+        },
+        {
+          "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/stubborn-inflation-better-growth-economists-weigh-in-a4afd3cd"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/jobs/unemployment-long-term-job-market-629199f9"
-        },
-        {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/2026071576611"
         }
       ]
     },
@@ -12682,19 +12682,19 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/global/eurozone-industrial-production-fell-unexpectedly-in-may-ed079f2a"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/banking/banks-are-on-a-goldilocks-run-dont-assume-it-will-last-9f49f12f?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/jobs/unemployment-long-term-job-market-629199f9"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/why-high-credit-card-delinquencies-arent-showing-up-at-the-big-banks-3476c217?mod=rss_markets_main"
         }
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-07-15T18:40:59.352101+09:00"
+  "intraday_refreshed_kst": "2026-07-15T18:51:01.722360+09:00"
 }
