@@ -6275,9 +6275,9 @@
   "news_chips": [
     {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/global/eurozone-industrial-production-fell-unexpectedly-in-may-ed079f2a",
-      "published_ts": 1784110860.0,
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/15/ecb-interest-rates-outlook-iran-war-hormuz.html",
+      "published_ts": 1784112749.0,
       "impact_high": true
     },
     {
@@ -6299,13 +6299,6 @@
       "source": "WSJ",
       "url": "https://www.wsj.com/business/earnings/bank-of-new-york-mellon-profit-jumps-on-higher-fee-revenue-interest-income-1b044cb1?mod=rss_markets_main",
       "published_ts": 1784113020.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/business/health-care-roundup-market-talk-7bc3c554?mod=rss_markets_main",
-      "published_ts": 1784112840.0,
       "impact_high": false
     },
     {
@@ -6337,6 +6330,13 @@
       "impact_high": false
     },
     {
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/stocks/blockbuster-stock-sales-are-threatening-to-overwhelm-the-bull-market-0ef50ef7?mod=rss_markets_main",
+      "published_ts": 1784077200.0,
+      "impact_high": false
+    },
+    {
       "summary": "미국 고용 지표가 경기 둔화와 임금 압력 해석을 동시에 키우는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html",
@@ -6344,21 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "064d5c0d547c26d64b85aaebc11667251e34d1eaf18a52fcfd0df75f05c1d683",
+  "_article_sig": "9c0a1d724b5d77888f14e2eb5b5f844e0c22159db0fd032ef0977d7a0d48759b",
   "built_at_kst": "2026-07-15T07:00:30.333568+09:00",
   "futures": {
-    "as_of_kst": "2026-07-15T20:00:05.682372+09:00",
+    "as_of_kst": "2026-07-15T20:10:11.067478+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7601.75,
+        "point": 7602.25,
         "change_pct": 0.14,
         "spark": [
           7589.75,
-          7602.0,
-          7604.5,
           7605.0,
           7604.5,
           7599.25,
@@ -6396,13 +6394,15 @@
           7599.5,
           7601.75,
           7601.0,
-          7601.75
+          7601.5,
+          7602.75,
+          7602.25
         ],
         "candle": {
           "o": 7589.75,
           "h": 7613.5,
           "l": 7583.0,
-          "c": 7601.75
+          "c": 7602.25
         },
         "range_240d": {
           "low": 6264.5,
@@ -6410,7 +6410,7 @@
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
           "low_change_pct": 21.35,
-          "high_change_pct": -0.29
+          "high_change_pct": -0.28
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7589.75,
             "h": 7613.5,
             "l": 7583.0,
-            "c": 7601.75,
-            "v": 102778
+            "c": 7602.25,
+            "v": 104169
           }
         ],
         "rollover_gaps": [],
@@ -8435,16 +8435,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/business/health-care-roundup-market-talk-7bc3c554?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/paypal-shares-surge-premarket-on-reports-of-53-billion-takeover-offer-27d3a619?mod=rss_markets_main"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/07/15/ecb-interest-rates-outlook-iran-war-hormuz.html"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/global/eurozone-industrial-production-fell-unexpectedly-in-may-ed079f2a"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/global/imf-sees-reduced-cushion-against-oil-disruption-for-global-economy-598c337d"
             }
           ]
         }
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29918.75,
-        "change_pct": 0.43,
+        "point": 29929.5,
+        "change_pct": 0.47,
         "spark": [
           29805.0,
-          29979.0,
-          29992.0,
           29991.25,
           29996.25,
           29931.5,
@@ -8495,21 +8493,23 @@
           29901.75,
           29918.0,
           29923.75,
-          29918.75
+          29927.25,
+          29939.5,
+          29929.5
         ],
         "candle": {
           "o": 29805.0,
           "h": 30062.5,
           "l": 29745.5,
-          "c": 29918.75
+          "c": 29930.75
         },
         "range_240d": {
           "low": 22883.75,
           "high": 30712.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 30.74,
-          "high_change_pct": -2.59
+          "low_change_pct": 30.79,
+          "high_change_pct": -2.55
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 29805.0,
             "h": 30062.5,
             "l": 29745.5,
-            "c": 29918.75,
-            "v": 70750
+            "c": 29930.75,
+            "v": 71282
           }
         ],
         "rollover_gaps": [],
@@ -10534,16 +10534,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/07/15/ecb-interest-rates-outlook-iran-war-hormuz.html"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/world/china/chinas-growth-cools-more-than-expected-in-second-quarter-132e0670"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/global/imf-sees-reduced-cushion-against-oil-disruption-for-global-economy-598c337d"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/jobs/unemployment-long-term-job-market-629199f9"
             }
           ]
         }
@@ -10551,13 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52796.0,
-        "change_pct": 0.01,
+        "point": 52817.0,
+        "change_pct": 0.05,
         "spark": [
           52792.0,
-          52730.0,
-          52749.0,
-          52759.0,
           52761.0,
           52750.0,
           52773.0,
@@ -10594,21 +10591,24 @@
           52804.0,
           52800.0,
           52796.0,
-          52796.0
+          52799.0,
+          52811.0,
+          52816.0,
+          52817.0
         ],
         "candle": {
           "o": 52792.0,
           "h": 52924.0,
           "l": 52700.0,
-          "c": 52796.0
+          "c": 52817.0
         },
         "range_240d": {
           "low": 43710.0,
           "high": 53372.0,
           "low_date": "2025-08-01",
           "high_date": "2026-07-06",
-          "low_change_pct": 20.79,
-          "high_change_pct": -1.08
+          "low_change_pct": 20.84,
+          "high_change_pct": -1.04
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 52792.0,
             "h": 52924.0,
             "l": 52700.0,
-            "c": 52796.0,
-            "v": 11289
+            "c": 52817.0,
+            "v": 11582
           }
         ],
         "rollover_gaps": [],
@@ -12637,12 +12637,12 @@
               "url": "https://www.wsj.com/business/earnings/bank-of-new-york-mellon-profit-jumps-on-higher-fee-revenue-interest-income-1b044cb1?mod=rss_markets_main"
             },
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/world/china/chinas-growth-cools-more-than-expected-in-second-quarter-132e0670"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/07/15/ecb-interest-rates-outlook-iran-war-hormuz.html"
             },
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/global/eurozone-industrial-production-fell-unexpectedly-in-may-ed079f2a"
+              "url": "https://www.wsj.com/world/china/chinas-growth-cools-more-than-expected-in-second-quarter-132e0670"
             }
           ]
         }
@@ -12655,16 +12655,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/15/ecb-interest-rates-outlook-iran-war-hormuz.html"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/world/china/chinas-growth-cools-more-than-expected-in-second-quarter-132e0670"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/global/imf-sees-reduced-cushion-against-oil-disruption-for-global-economy-598c337d"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/jobs/unemployment-long-term-job-market-629199f9"
         }
       ]
     },
@@ -12672,16 +12672,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/business/health-care-roundup-market-talk-7bc3c554?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/paypal-shares-surge-premarket-on-reports-of-53-billion-takeover-offer-27d3a619?mod=rss_markets_main"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/15/ecb-interest-rates-outlook-iran-war-hormuz.html"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/global/eurozone-industrial-production-fell-unexpectedly-in-may-ed079f2a"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/global/imf-sees-reduced-cushion-against-oil-disruption-for-global-economy-598c337d"
         }
       ]
     },
@@ -12693,15 +12693,15 @@
           "url": "https://www.wsj.com/business/earnings/bank-of-new-york-mellon-profit-jumps-on-higher-fee-revenue-interest-income-1b044cb1?mod=rss_markets_main"
         },
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/world/china/chinas-growth-cools-more-than-expected-in-second-quarter-132e0670"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/15/ecb-interest-rates-outlook-iran-war-hormuz.html"
         },
         {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/global/eurozone-industrial-production-fell-unexpectedly-in-may-ed079f2a"
+          "url": "https://www.wsj.com/world/china/chinas-growth-cools-more-than-expected-in-second-quarter-132e0670"
         }
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-07-15T20:00:30.745878+09:00"
+  "intraday_refreshed_kst": "2026-07-15T20:10:38.326844+09:00"
 }
