@@ -6289,9 +6289,16 @@
     },
     {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/15/china-gdp-retail-sales-investment-june-.html",
-      "published_ts": 1784081418.0,
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/world/china/chinas-growth-cools-more-than-expected-in-second-quarter-132e0670",
+      "published_ts": 1784084100.0,
+      "impact_high": false
+    },
+    {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/trump-iran-strait-of-hormuz-us-toll-6d40a276",
+      "published_ts": 1784082900.0,
       "impact_high": false
     },
     {
@@ -6316,13 +6323,6 @@
       "impact_high": false
     },
     {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/trump-iran-strait-of-hormuz-us-toll-6d40a276",
-      "published_ts": 1784072460.0,
-      "impact_high": false
-    },
-    {
       "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/banking/why-high-credit-card-delinquencies-arent-showing-up-at-the-big-banks-3476c217?mod=rss_markets_main",
@@ -6331,27 +6331,25 @@
     },
     {
       "summary": "미국 고용 지표가 경기 둔화와 임금 압력 해석을 동시에 키우는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/canada-unemployment-rate-slips-to-6-5-in-june-27ba3f7d",
-      "published_ts": 1783698300.0,
-      "impact_high": false
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html",
+      "published_ts": 1783011027.0,
+      "impact_high": true
     }
   ],
-  "_article_sig": "ed3d77155101695ff7487da0aa574ce1947c338568f500e8565ccdf6b7b36415",
+  "_article_sig": "bcebb5267ea1e9429056a75164e7572a09809a3803770d34ea3eb9a5b04e2031",
   "built_at_kst": "2026-07-15T07:00:30.333568+09:00",
   "futures": {
-    "as_of_kst": "2026-07-15T11:50:05.404129+09:00",
+    "as_of_kst": "2026-07-15T12:00:06.619048+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7606.25,
-        "change_pct": 0.2,
+        "point": 7605.25,
+        "change_pct": 0.18,
         "spark": [
           7589.75,
-          7599.5,
-          7601.0,
           7600.75,
           7601.0,
           7602.75,
@@ -6389,7 +6387,9 @@
           7604.5,
           7606.0,
           7606.0,
-          7606.25
+          7606.75,
+          7606.25,
+          7605.25
         ],
         "candle": {
           "o": 7589.75,
@@ -8420,7 +8420,7 @@
             "h": 7607.5,
             "l": 7583.0,
             "c": 7606.25,
-            "v": 33268
+            "v": 34069
           }
         ],
         "rollover_gaps": [],
@@ -8428,16 +8428,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/trump-iran-strait-of-hormuz-us-toll-6d40a276"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/blockbuster-stock-sales-are-threatening-to-overwhelm-the-bull-market-0ef50ef7?mod=rss_markets_main"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/iran-us-war-goals-af5d4131"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/trump-iran-strait-of-hormuz-us-toll-6d40a276"
             }
           ]
         }
@@ -8445,12 +8445,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29981.5,
-        "change_pct": 0.64,
+        "point": 29978.5,
+        "change_pct": 0.63,
         "spark": [
           29805.0,
-          29866.75,
-          29864.5,
           29849.25,
           29875.25,
           29890.75,
@@ -8487,22 +8485,24 @@
           29966.75,
           29973.5,
           29981.5,
-          29985.5,
-          29981.5
+          29983.0,
+          29978.0,
+          29971.0,
+          29978.5
         ],
         "candle": {
           "o": 29805.0,
-          "h": 29985.5,
+          "h": 29987.25,
           "l": 29745.5,
-          "c": 29981.5
+          "c": 29978.5
         },
         "range_240d": {
           "low": 22883.75,
           "high": 30712.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 31.02,
-          "high_change_pct": -2.38
+          "low_change_pct": 31.0,
+          "high_change_pct": -2.39
         },
         "daily_expanded": [
           {
@@ -10516,10 +10516,10 @@
           {
             "date": "2026-07-14",
             "o": 29805.0,
-            "h": 29985.5,
+            "h": 29987.25,
             "l": 29745.5,
-            "c": 29981.5,
-            "v": 28788
+            "c": 29978.5,
+            "v": 29219
           }
         ],
         "rollover_gaps": [],
@@ -10527,16 +10527,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/trump-iran-strait-of-hormuz-us-toll-6d40a276"
+            },
+            {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/202607143811i"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/israel-palestinians-prison-treatment-eec50302"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/iran-us-war-goals-af5d4131"
             }
           ]
         }
@@ -10544,12 +10544,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52840.0,
-        "change_pct": 0.09,
+        "point": 52833.0,
+        "change_pct": 0.08,
         "spark": [
           52792.0,
-          52845.0,
-          52852.0,
           52852.0,
           52859.0,
           52858.0,
@@ -10587,13 +10585,15 @@
           52832.0,
           52842.0,
           52840.0,
-          52840.0
+          52847.0,
+          52842.0,
+          52833.0
         ],
         "candle": {
           "o": 52792.0,
           "h": 52869.0,
           "l": 52759.0,
-          "c": 52840.0
+          "c": 52841.0
         },
         "range_240d": {
           "low": 43710.0,
@@ -10601,7 +10601,7 @@
           "low_date": "2025-08-01",
           "high_date": "2026-07-06",
           "low_change_pct": 20.89,
-          "high_change_pct": -1.0
+          "high_change_pct": -0.99
         },
         "daily_expanded": [
           {
@@ -12617,8 +12617,8 @@
             "o": 52792.0,
             "h": 52869.0,
             "l": 52759.0,
-            "c": 52840.0,
-            "v": 2328
+            "c": 52841.0,
+            "v": 2365
           }
         ],
         "rollover_gaps": [],
@@ -12648,16 +12648,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/trump-iran-strait-of-hormuz-us-toll-6d40a276"
+        },
+        {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/202607143811i"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/israel-palestinians-prison-treatment-eec50302"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/iran-us-war-goals-af5d4131"
         }
       ]
     },
@@ -12665,16 +12665,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/trump-iran-strait-of-hormuz-us-toll-6d40a276"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/blockbuster-stock-sales-are-threatening-to-overwhelm-the-bull-market-0ef50ef7?mod=rss_markets_main"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/iran-us-war-goals-af5d4131"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/trump-iran-strait-of-hormuz-us-toll-6d40a276"
         }
       ]
     },
@@ -12696,5 +12696,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-07-15T11:50:09.515097+09:00"
+  "intraday_refreshed_kst": "2026-07-15T12:00:26.886978+09:00"
 }
