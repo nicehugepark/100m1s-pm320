@@ -6289,9 +6289,9 @@
     },
     {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/15/wholesale-inflation-june-2026-.html",
-      "published_ts": 1784119997.0,
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/central-banking/u-s-producer-price-index-fell-in-june-276a72e9?mod=rss_markets_main",
+      "published_ts": 1784120640.0,
       "impact_high": false
     },
     {
@@ -6316,10 +6316,10 @@
       "impact_high": false
     },
     {
-      "summary": "기업 실적과 가이던스 변화가 대형주 중심의 선별 흐름을 강화하는 흐름",
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ",
-      "url": "https://www.wsj.com/business/earnings/bank-of-new-york-mellon-profit-jumps-on-higher-fee-revenue-interest-income-1b044cb1?mod=rss_markets_main",
-      "published_ts": 1784113020.0,
+      "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-c825ad1a?mod=rss_markets_main",
+      "published_ts": 1784114700.0,
       "impact_high": false
     },
     {
@@ -6330,13 +6330,6 @@
       "impact_high": false
     },
     {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/blockbuster-stock-sales-are-threatening-to-overwhelm-the-bull-market-0ef50ef7?mod=rss_markets_main",
-      "published_ts": 1784077200.0,
-      "impact_high": false
-    },
-    {
       "summary": "미국 고용 지표가 경기 둔화와 임금 압력 해석을 동시에 키우는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html",
@@ -6344,21 +6337,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "175c06b709f0453c024bdd5cc2ef62ac4376a338a43f0c641cc0c209c0629fa7",
+  "_article_sig": "e084838527d4af0bcc577cdd9fad1fdcd3b39fd3b397392273ae00a1bb4150d7",
   "built_at_kst": "2026-07-15T07:00:30.333568+09:00",
   "futures": {
-    "as_of_kst": "2026-07-15T22:00:05.740128+09:00",
+    "as_of_kst": "2026-07-15T22:10:07.569649+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7612.25,
-        "change_pct": 0.28,
+        "point": 7612.0,
+        "change_pct": 0.27,
         "spark": [
           7589.75,
-          7609.5,
-          7607.25,
           7605.0,
           7604.5,
           7605.0,
@@ -6396,13 +6387,15 @@
           7610.75,
           7612.25,
           7613.25,
-          7612.25
+          7611.5,
+          7614.0,
+          7612.0
         ],
         "candle": {
           "o": 7589.75,
-          "h": 7613.5,
+          "h": 7614.75,
           "l": 7583.0,
-          "c": 7612.25
+          "c": 7612.0
         },
         "range_240d": {
           "low": 6264.5,
@@ -8424,10 +8417,10 @@
           {
             "date": "2026-07-15",
             "o": 7589.75,
-            "h": 7613.5,
+            "h": 7614.75,
             "l": 7583.0,
-            "c": 7612.25,
-            "v": 135039
+            "c": 7612.0,
+            "v": 140769
           }
         ],
         "rollover_gaps": [],
@@ -8435,16 +8428,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/jgbs-mixed-may-track-gains-in-u-s-treasurys-9ca01870?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/global/eurozone-industrial-production-fell-unexpectedly-in-may-ed079f2a"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/07/15/wholesale-inflation-june-2026-.html"
-            },
-            {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/2026071579117"
             }
           ]
         }
@@ -8452,12 +8445,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29976.25,
-        "change_pct": 0.62,
+        "point": 29983.25,
+        "change_pct": 0.65,
         "spark": [
           29805.0,
-          29951.0,
-          29935.25,
           29930.5,
           29924.75,
           29928.0,
@@ -8495,21 +8486,23 @@
           29951.5,
           29974.75,
           29986.0,
-          29976.25
+          29980.0,
+          29987.25,
+          29983.25
         ],
         "candle": {
           "o": 29805.0,
           "h": 30062.5,
           "l": 29745.5,
-          "c": 29976.25
+          "c": 29982.25
         },
         "range_240d": {
           "low": 22883.75,
           "high": 30712.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 30.99,
-          "high_change_pct": -2.4
+          "low_change_pct": 31.02,
+          "high_change_pct": -2.38
         },
         "daily_expanded": [
           {
@@ -10525,8 +10518,8 @@
             "o": 29805.0,
             "h": 30062.5,
             "l": 29745.5,
-            "c": 29976.25,
-            "v": 85481
+            "c": 29982.25,
+            "v": 88199
           }
         ],
         "rollover_gaps": [],
@@ -10535,15 +10528,15 @@
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/jpmorgans-latest-defense-move-backs-sub-supplier-and-philadelphia-shipbuilding-05a0183e?mod=rss_markets_main"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/07/15/ecb-interest-rates-outlook-iran-war-hormuz.html"
+              "url": "https://www.wsj.com/economy/central-banking/u-s-producer-price-index-fell-in-june-276a72e9?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/world/china/chinas-growth-cools-more-than-expected-in-second-quarter-132e0670"
+              "url": "https://www.wsj.com/economy/central-banking/u-s-producer-price-index-fell-in-june-276a72e9"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/jpmorgans-latest-defense-move-backs-sub-supplier-and-philadelphia-shipbuilding-05a0183e?mod=rss_markets_main"
             }
           ]
         }
@@ -10551,12 +10544,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52924.0,
-        "change_pct": 0.25,
+        "point": 52896.0,
+        "change_pct": 0.2,
         "spark": [
           52792.0,
-          52918.0,
-          52894.0,
           52877.0,
           52877.0,
           52883.0,
@@ -10594,21 +10585,23 @@
           52933.0,
           52920.0,
           52917.0,
-          52924.0
+          52889.0,
+          52912.0,
+          52896.0
         ],
         "candle": {
           "o": 52792.0,
           "h": 52940.0,
           "l": 52700.0,
-          "c": 52921.0
+          "c": 52896.0
         },
         "range_240d": {
           "low": 43710.0,
           "high": 53372.0,
           "low_date": "2025-08-01",
           "high_date": "2026-07-06",
-          "low_change_pct": 21.07,
-          "high_change_pct": -0.85
+          "low_change_pct": 21.02,
+          "high_change_pct": -0.89
         },
         "daily_expanded": [
           {
@@ -12624,8 +12617,8 @@
             "o": 52792.0,
             "h": 52940.0,
             "l": 52700.0,
-            "c": 52921.0,
-            "v": 15044
+            "c": 52896.0,
+            "v": 15328
           }
         ],
         "rollover_gaps": [],
@@ -12633,16 +12626,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/jgbs-mixed-may-track-gains-in-u-s-treasurys-9ca01870?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/global/eurozone-industrial-production-fell-unexpectedly-in-may-ed079f2a"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/07/15/wholesale-inflation-june-2026-.html"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/jpmorgans-latest-defense-move-backs-sub-supplier-and-philadelphia-shipbuilding-05a0183e?mod=rss_markets_main"
             }
           ]
         }
@@ -12656,15 +12649,15 @@
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/jpmorgans-latest-defense-move-backs-sub-supplier-and-philadelphia-shipbuilding-05a0183e?mod=rss_markets_main"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/07/15/ecb-interest-rates-outlook-iran-war-hormuz.html"
+          "url": "https://www.wsj.com/economy/central-banking/u-s-producer-price-index-fell-in-june-276a72e9?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/world/china/chinas-growth-cools-more-than-expected-in-second-quarter-132e0670"
+          "url": "https://www.wsj.com/economy/central-banking/u-s-producer-price-index-fell-in-june-276a72e9"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/jpmorgans-latest-defense-move-backs-sub-supplier-and-philadelphia-shipbuilding-05a0183e?mod=rss_markets_main"
         }
       ]
     },
@@ -12672,16 +12665,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/jgbs-mixed-may-track-gains-in-u-s-treasurys-9ca01870?mod=rss_markets_main"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/global/eurozone-industrial-production-fell-unexpectedly-in-may-ed079f2a"
         },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/07/15/wholesale-inflation-june-2026-.html"
-        },
-        {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/2026071579117"
         }
       ]
     },
@@ -12689,19 +12682,19 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/jgbs-mixed-may-track-gains-in-u-s-treasurys-9ca01870?mod=rss_markets_main"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/global/eurozone-industrial-production-fell-unexpectedly-in-may-ed079f2a"
         },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/07/15/wholesale-inflation-june-2026-.html"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/jpmorgans-latest-defense-move-backs-sub-supplier-and-philadelphia-shipbuilding-05a0183e?mod=rss_markets_main"
         }
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-07-15T22:00:37.790738+09:00"
+  "intraday_refreshed_kst": "2026-07-15T22:10:45.649950+09:00"
 }
