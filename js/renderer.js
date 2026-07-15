@@ -4182,6 +4182,23 @@ function renderCalExpandContent(date, data) {
     const _frozenHtml = `<span class="cal-pm320-wr-frozen" role="note" aria-label="과거 추천 기록은 사후 수정 불가 — 동결됩니다">`
       + `<svg class="cal-pm320-wr-frozen-ico" width="11" height="11" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>`
       + `기록 동결 — 사후 수정 불가</span>`;
+    // 정직 각주 v2 (분봉 정본 채택 — 2026-07-15 재조회 분봉 345,139봉 재판정 반영,
+    //   FLR-20260714-TEC-002 후속). summary.verification_note (apply_minute_final.py
+    //   산출) 존재 + 양수일 때만 1줄 렌더. 부재/0건이면 미렌더 (FLR-AGT-002 — 추정
+    //   고지 금지). 재검증 불가 픽(추천 당일 D0 장외 분봉 재조회 불가·영구 보류) 고지
+    //   + verified_label("나머지 전 기록 분봉 재검증 완료")을 데이터 주도로 이어 붙인다.
+    //   의무 고지(disclaimer)와 같은 스타일 재사용 (cal-pm320-wr-disclaimer) —
+    //   신규 CSS 0, 성적 숫자와 한 화면 유지.
+    const _vnoteHtml = (() => {
+      const vn = s.verification_note;
+      if (!vn || typeof vn.unverifiable_picks !== 'number' || vn.unverifiable_picks <= 0) return '';
+      const n = String(vn.unverifiable_picks);
+      const verified = (typeof vn.verified_label === 'string' && vn.verified_label) ? ` ${vn.verified_label}.` : '';
+      return `<div class="cal-pm320-wr-disclaimer cal-pm320-wr-vnote" role="note" aria-label="청산 기록 중 ${n}건은 추천 당일 장외 분봉 재조회가 불가능해 당시 판정 그대로 집계했습니다.${verified}">`
+        + `<svg class="cal-pm320-wr-disclaimer-ico" width="13" height="13" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 8v5"/><path d="M12 16h.01"/></svg>`
+        + `<span>청산 기록 중 <b>${escapeHtml(n)}건</b>은 추천 당일 장외 분봉 재조회 불가 — 당시 판정 그대로 집계.${escapeHtml(verified)}</span>`
+        + `</div>`;
+    })();
     const _ariaWr = `${_firstEntryLabel} 첫 진입부터 ${_lastSettledLabel} 청산까지 누적 성적 — 승률 ${rate}%, 손실 ${loss}건`
       + (typeof mddValue === 'number' ? `, ${mddLabel} ${mddValue.toFixed(1)}%` : '');
     const _fineHtml = _historyHtml;
@@ -4208,6 +4225,7 @@ function renderCalExpandContent(date, data) {
       + `<svg class="cal-pm320-wr-disclaimer-ico" width="13" height="13" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 8v5"/><path d="M12 16h.01"/></svg>`
       + `<span>위 성적은 <b>과거 데이터를 규칙대로 적용한 가상 산출</b>이며, <b>미래 수익을 보장하지 않습니다</b>. 실제 체결가는 슬리피지·시가 갭 등으로 다를 수 있습니다.</span>`
       + `</div>`
+      + _vnoteHtml
       + _winContextHtml
       + _fineHtml
       + `</div>`;
