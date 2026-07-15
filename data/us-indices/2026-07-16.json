@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26206.95,
-      "change_pct": 0.38,
+      "point": 26226.47,
+      "change_pct": 0.46,
       "candle": {
         "o": 26261.47,
         "h": 26315.39,
         "l": 26045.03,
-        "c": 26206.95
+        "c": 26226.47
       },
       "range_240d": {
         "low": 20650.13,
@@ -2033,13 +2033,11 @@
           "o": 26261.47,
           "h": 26315.39,
           "l": 26045.03,
-          "c": 26206.95
+          "c": 26226.47
         }
       ],
       "spark": [
         26261.47,
-        26098.58,
-        26073.67,
         26095.62,
         26065.92,
         26057.62,
@@ -2076,8 +2074,10 @@
         26220.08,
         26201.28,
         26187.54,
-        26205.03,
-        26206.95
+        26206.95,
+        26198.1,
+        26225.74,
+        26226.47
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7561.95,
-      "change_pct": 0.24,
+      "point": 7563.36,
+      "change_pct": 0.26,
       "candle": {
         "o": 7571.72,
         "h": 7581.5,
         "l": 7526.95,
-        "c": 7561.95
+        "c": 7563.36
       },
       "range_240d": {
         "low": 6238.01,
@@ -4131,13 +4131,11 @@
           "o": 7571.72,
           "h": 7581.5,
           "l": 7526.95,
-          "c": 7561.95
+          "c": 7563.36
         }
       ],
       "spark": [
         7571.72,
-        7535.1,
-        7530.49,
         7533.69,
         7530.22,
         7529.71,
@@ -4175,7 +4173,9 @@
         7560.46,
         7558.32,
         7561.25,
-        7561.95
+        7558.08,
+        7563.21,
+        7563.36
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 52629.36,
+      "point": 52629.32,
       "change_pct": 0.23,
       "candle": {
         "o": 52604.2,
         "h": 52823.95,
         "l": 52428.54,
-        "c": 52629.36
+        "c": 52629.32
       },
       "range_240d": {
         "low": 43588.58,
@@ -6229,13 +6229,11 @@
           "o": 52604.2,
           "h": 52823.95,
           "l": 52428.54,
-          "c": 52629.36
+          "c": 52629.32
         }
       ],
       "spark": [
         52604.2,
-        52506.85,
-        52434.36,
         52470.94,
         52451.63,
         52457.31,
@@ -6273,7 +6271,9 @@
         52653.53,
         52634.45,
         52627.88,
-        52629.36
+        52591.87,
+        52627.64,
+        52629.32
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6299,9 +6299,9 @@
   "news_chips": [
     {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/global/eurozone-industrial-production-fell-unexpectedly-in-may-ed079f2a",
-      "published_ts": 1784120040.0,
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/trump-leans-toward-expanding-u-s-military-operations-in-iran-6c230462",
+      "published_ts": 1784143920.0,
       "impact_high": true
     },
     {
@@ -6312,10 +6312,17 @@
       "impact_high": true
     },
     {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/kathryn-ruemmler-tells-congress-her-epstein-emails-taken-out-of-context-51c45d6f?mod=rss_markets_main",
+      "published_ts": 1784139960.0,
+      "impact_high": false
+    },
+    {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/stocks/spacex-shares-fall-below-ipo-price-for-the-first-time-d71dff7f?mod=rss_markets_main",
-      "published_ts": 1784135340.0,
+      "published_ts": 1784138460.0,
       "impact_high": false
     },
     {
@@ -6323,13 +6330,6 @@
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/banking/why-high-credit-card-delinquencies-arent-showing-up-at-the-big-banks-3476c217?mod=rss_markets_main",
       "published_ts": 1784135220.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/kathryn-ruemmler-tells-congress-her-epstein-emails-taken-out-of-context-51c45d6f?mod=rss_markets_main",
-      "published_ts": 1784130540.0,
       "impact_high": false
     },
     {
@@ -6368,7 +6368,7 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "59038c04f2c4eb80675c78ac912ed6f6d02a4dc0749c3a5728afb57a9de8b498",
+  "_article_sig": "9e21b1fb06083c5760237346541b181980ed9306fafb930af68d4c02029daf3b",
   "built_at_kst": "2026-07-15T07:00:30.333568+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6376,16 +6376,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/spacex-shares-fall-below-ipo-price-for-the-first-time-d71dff7f?mod=rss_markets_main"
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/trump-leans-toward-expanding-u-s-military-operations-in-iran-6c230462"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/kathryn-ruemmler-tells-congress-her-epstein-emails-taken-out-of-context-51c45d6f?mod=rss_markets_main"
         },
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/canadian-factory-sales-rise-1-3-to-record-in-may-b0d3de46"
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/jpmorgans-latest-defense-move-backs-sub-supplier-and-philadelphia-shipbuilding-05a0183e?mod=rss_markets_main"
         }
       ]
     },
@@ -6393,16 +6393,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/trump-leans-toward-expanding-u-s-military-operations-in-iran-6c230462"
+        },
+        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/07/15/wholesale-inflation-june-2026-.html"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/jobs/unemployment-long-term-job-market-629199f9"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/global/eurozone-industrial-production-fell-unexpectedly-in-may-ed079f2a"
         }
       ]
     },
@@ -6411,32 +6411,30 @@
       "sources": [
         {
           "name": "WSJ",
+          "url": "https://www.wsj.com/finance/jpmorgans-latest-defense-move-backs-sub-supplier-and-philadelphia-shipbuilding-05a0183e?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
           "url": "https://www.wsj.com/finance/banking/why-high-credit-card-delinquencies-arent-showing-up-at-the-big-banks-3476c217?mod=rss_markets_main"
         },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/07/15/wholesale-inflation-june-2026-.html"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/global/eurozone-industrial-production-fell-unexpectedly-in-may-ed079f2a"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-07-16T04:30:08.627109+09:00",
+    "as_of_kst": "2026-07-16T04:40:04.277010+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7603.25,
-        "change_pct": 0.16,
+        "point": 7606.75,
+        "change_pct": 0.2,
         "spark": [
           7589.75,
-          7581.5,
-          7579.75,
           7574.75,
           7577.75,
           7575.25,
@@ -6474,21 +6472,23 @@
           7608.0,
           7605.25,
           7603.5,
-          7603.25
+          7606.5,
+          7602.5,
+          7606.75
         ],
         "candle": {
           "o": 7589.75,
           "h": 7626.25,
           "l": 7571.75,
-          "c": 7603.25
+          "c": 7606.75
         },
         "range_240d": {
           "low": 6264.5,
           "high": 7623.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 21.37,
-          "high_change_pct": -0.27
+          "low_change_pct": 21.43,
+          "high_change_pct": -0.22
         },
         "daily_expanded": [
           {
@@ -8504,8 +8504,8 @@
             "o": 7589.75,
             "h": 7626.25,
             "l": 7571.75,
-            "c": 7603.25,
-            "v": 1049443
+            "c": 7606.75,
+            "v": 1062852
           }
         ],
         "rollover_gaps": [],
@@ -8513,16 +8513,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/trump-leans-toward-expanding-u-s-military-operations-in-iran-6c230462"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/07/15/wholesale-inflation-june-2026-.html"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/jobs/unemployment-long-term-job-market-629199f9"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/global/eurozone-industrial-production-fell-unexpectedly-in-may-ed079f2a"
             }
           ]
         }
@@ -8530,12 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29602.0,
-        "change_pct": -0.63,
+        "point": 29645.25,
+        "change_pct": -0.49,
         "spark": [
           29805.0,
-          29476.25,
-          29474.75,
           29441.75,
           29462.0,
           29434.0,
@@ -8573,21 +8571,23 @@
           29643.0,
           29618.0,
           29603.0,
-          29602.0
+          29643.25,
+          29622.25,
+          29645.25
         ],
         "candle": {
           "o": 29805.0,
           "h": 30062.5,
           "l": 29397.0,
-          "c": 29602.0
+          "c": 29645.25
         },
         "range_240d": {
           "low": 22883.75,
           "high": 30712.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 29.36,
-          "high_change_pct": -3.62
+          "low_change_pct": 29.55,
+          "high_change_pct": -3.48
         },
         "daily_expanded": [
           {
@@ -10603,8 +10603,8 @@
             "o": 29805.0,
             "h": 30062.5,
             "l": 29397.0,
-            "c": 29602.0,
-            "v": 445524
+            "c": 29645.25,
+            "v": 451368
           }
         ],
         "rollover_gaps": [],
@@ -10612,16 +10612,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/spacex-shares-fall-below-ipo-price-for-the-first-time-d71dff7f?mod=rss_markets_main"
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/trump-leans-toward-expanding-u-s-military-operations-in-iran-6c230462"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/kathryn-ruemmler-tells-congress-her-epstein-emails-taken-out-of-context-51c45d6f?mod=rss_markets_main"
             },
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/canadian-factory-sales-rise-1-3-to-record-in-may-b0d3de46"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/jpmorgans-latest-defense-move-backs-sub-supplier-and-philadelphia-shipbuilding-05a0183e?mod=rss_markets_main"
             }
           ]
         }
@@ -10629,12 +10629,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52894.0,
-        "change_pct": 0.2,
+        "point": 52887.0,
+        "change_pct": 0.18,
         "spark": [
           52792.0,
-          52811.0,
-          52763.0,
           52691.0,
           52728.0,
           52704.0,
@@ -10672,21 +10670,23 @@
           52894.0,
           52907.0,
           52891.0,
-          52894.0
+          52886.0,
+          52851.0,
+          52887.0
         ],
         "candle": {
           "o": 52792.0,
           "h": 53088.0,
           "l": 52680.0,
-          "c": 52896.0
+          "c": 52887.0
         },
         "range_240d": {
           "low": 43710.0,
           "high": 53372.0,
           "low_date": "2025-08-01",
           "high_date": "2026-07-06",
-          "low_change_pct": 21.02,
-          "high_change_pct": -0.89
+          "low_change_pct": 21.0,
+          "high_change_pct": -0.91
         },
         "daily_expanded": [
           {
@@ -12702,8 +12702,8 @@
             "o": 52792.0,
             "h": 53088.0,
             "l": 52680.0,
-            "c": 52896.0,
-            "v": 67640
+            "c": 52887.0,
+            "v": 68157
           }
         ],
         "rollover_gaps": [],
@@ -12712,20 +12712,20 @@
           "sources": [
             {
               "name": "WSJ",
+              "url": "https://www.wsj.com/finance/jpmorgans-latest-defense-move-backs-sub-supplier-and-philadelphia-shipbuilding-05a0183e?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
               "url": "https://www.wsj.com/finance/banking/why-high-credit-card-delinquencies-arent-showing-up-at-the-big-banks-3476c217?mod=rss_markets_main"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/07/15/wholesale-inflation-june-2026-.html"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/global/eurozone-industrial-production-fell-unexpectedly-in-may-ed079f2a"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-07-16T04:30:12.299281+09:00"
+  "intraday_refreshed_kst": "2026-07-16T04:40:22.470158+09:00"
 }
