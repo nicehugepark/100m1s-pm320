@@ -1,6 +1,6 @@
 {
   "date": "2026-07-15",
-  "generated_at": "2026-07-15T14:15:19.989234",
+  "generated_at": "2026-07-15T14:15:39.011564",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -947,17 +947,11 @@
       "industry": null,
       "sector": null,
       "themes": [
-        "바이오",
         "탈모 치료",
-        "K-뷰티"
+        "K-뷰티",
+        "바이오"
       ],
       "theme_paths": [
-        {
-          "name": "바이오",
-          "path": [
-            "바이오"
-          ]
-        },
         {
           "name": "탈모 치료",
           "path": [
@@ -968,6 +962,12 @@
           "name": "K-뷰티",
           "path": [
             "K-뷰티"
+          ]
+        },
+        {
+          "name": "바이오",
+          "path": [
+            "바이오"
           ]
         }
       ],
@@ -1033,19 +1033,14 @@
         }
       ],
       "fallback": true,
-      "cafe_themes": [
-        "탈모 치료",
-        "K-뷰티"
-      ],
       "theme_crosscheck": {
         "confirmed": [
+          "탈모 치료",
+          "K-뷰티",
           "바이오"
         ],
         "pm320_only": [],
-        "cafe_only": [
-          "탈모 치료",
-          "K-뷰티"
-        ]
+        "cafe_only": []
       },
       "range_240d": {
         "high": 3465,
@@ -1224,7 +1219,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bull",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "028300",
@@ -1532,7 +1530,7 @@
       "credit_risk": true,
       "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
-      "theme_leader": true,
+      "theme_leader": false,
       "hugepark_grade": "관찰",
       "causal_chain": "",
       "parent_theme": ""
@@ -1879,7 +1877,7 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bull",
+      "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰"
     },
@@ -3748,9 +3746,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "neutral",
+      "togusa_verdict": "weak_bear",
       "theme_leader": false,
-      "hugepark_grade": "관찰",
+      "hugepark_grade": "주의",
       "causal_chain": "",
       "parent_theme": ""
     },
