@@ -1,6 +1,6 @@
 {
   "date": "2026-07-15",
-  "generated_at": "2026-07-15T14:05:20.653003",
+  "generated_at": "2026-07-15T14:05:39.562377",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -296,9 +296,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bull",
+      "togusa_verdict": "strong_bull",
       "theme_leader": true,
-      "hugepark_grade": "관찰",
+      "hugepark_grade": "적극",
       "causal_chain": "",
       "parent_theme": ""
     },
@@ -1269,7 +1269,7 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "neutral",
+      "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰"
     },
@@ -1947,13 +1947,25 @@
       "industry": null,
       "sector": null,
       "themes": [
+        "MLCC",
+        "로봇",
         "케이블",
         "반도체",
-        "반도체소부장",
-        "MLCC",
-        "로봇"
+        "반도체소부장"
       ],
       "theme_paths": [
+        {
+          "name": "MLCC",
+          "path": [
+            "MLCC"
+          ]
+        },
+        {
+          "name": "로봇",
+          "path": [
+            "로봇"
+          ]
+        },
         {
           "name": "케이블",
           "path": [
@@ -1965,18 +1977,6 @@
           "path": [
             "반도체",
             "반도체소부장"
-          ]
-        },
-        {
-          "name": "MLCC",
-          "path": [
-            "MLCC"
-          ]
-        },
-        {
-          "name": "로봇",
-          "path": [
-            "로봇"
           ]
         }
       ],
@@ -2039,22 +2039,17 @@
         }
       ],
       "fallback": true,
-      "cafe_themes": [
-        "MLCC",
-        "로봇"
-      ],
       "theme_crosscheck": {
         "confirmed": [
+          "MLCC",
+          "로봇",
           "반도체"
         ],
         "pm320_only": [
           "케이블",
           "반도체소부장"
         ],
-        "cafe_only": [
-          "MLCC",
-          "로봇"
-        ]
+        "cafe_only": []
       },
       "range_240d": {
         "high": 6190,
@@ -2233,7 +2228,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "024850",
@@ -3401,7 +3399,9 @@
       "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": false,
-      "hugepark_grade": "관찰"
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "047920",
