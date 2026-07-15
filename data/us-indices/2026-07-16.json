@@ -2038,8 +2038,6 @@
       ],
       "spark": [
         26261.47,
-        26057.62,
-        26073.94,
         26095.03,
         26107.81,
         26116.13,
@@ -2077,7 +2075,9 @@
         26225.74,
         26240.67,
         26217.21,
-        26238.61
+        26250.4,
+        26263.05,
+        26269.23
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2096,7 +2096,7 @@
           }
         ]
       },
-      "session_open": true,
+      "session_open": false,
       "trade_date_local": "2026-07-15"
     },
     {
@@ -4136,8 +4136,6 @@
       ],
       "spark": [
         7571.72,
-        7529.71,
-        7533.81,
         7539.09,
         7540.02,
         7542.1,
@@ -4175,7 +4173,9 @@
         7563.21,
         7566.34,
         7561.32,
-        7564.55
+        7566.87,
+        7572.2,
+        7572.42
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4194,7 +4194,7 @@
           }
         ]
       },
-      "session_open": true,
+      "session_open": false,
       "trade_date_local": "2026-07-15"
     },
     {
@@ -6234,8 +6234,6 @@
       ],
       "spark": [
         52604.2,
-        52457.31,
-        52472.19,
         52495.73,
         52521.06,
         52532.97,
@@ -6273,7 +6271,9 @@
         52627.64,
         52646.8,
         52619.52,
-        52629.63
+        52634.42,
+        52658.02,
+        52658.52
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6292,7 +6292,7 @@
           }
         ]
       },
-      "session_open": true,
+      "session_open": false,
       "trade_date_local": "2026-07-15"
     }
   ],
@@ -6310,6 +6310,13 @@
       "url": "https://www.wsj.com/economy/central-banking/warsh-tells-congress-the-fed-has-no-tolerance-for-high-inflation-50c5dfa8",
       "published_ts": 1784060100.0,
       "impact_high": true
+    },
+    {
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/china/former-fed-adviser-gets-38-months-in-prison-for-lying-to-internal-watchdog-74fa5f14",
+      "published_ts": 1784144880.0,
+      "impact_high": false
     },
     {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
@@ -6354,13 +6361,6 @@
       "impact_high": false
     },
     {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/jpmorgan-blackrock-and-goldman-to-tokenize-stocks-treasurys-0a776ba7?mod=rss_markets_main",
-      "published_ts": 1784118600.0,
-      "impact_high": false
-    },
-    {
       "summary": "미국 고용 지표가 경기 둔화와 임금 압력 해석을 동시에 키우는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html",
@@ -6368,9 +6368,9 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "9e21b1fb06083c5760237346541b181980ed9306fafb930af68d4c02029daf3b",
+  "_article_sig": "bcb20bd9d9384405ba9ea18182675c2aa0716f7c1dc4f9570ea090d0bd3c8134",
   "built_at_kst": "2026-07-15T07:00:30.333568+09:00",
-  "regular_open": true,
+  "regular_open": false,
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
@@ -6394,15 +6394,15 @@
       "sources": [
         {
           "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/china/former-fed-adviser-gets-38-months-in-prison-for-lying-to-internal-watchdog-74fa5f14"
+        },
+        {
+          "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/trump-leans-toward-expanding-u-s-military-operations-in-iran-6c230462"
         },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/07/15/wholesale-inflation-june-2026-.html"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/jobs/unemployment-long-term-job-market-629199f9"
         }
       ]
     },
@@ -6425,18 +6425,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-07-16T04:50:07.761542+09:00",
+    "as_of_kst": "2026-07-16T05:00:05.490876+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7608.25,
-        "change_pct": 0.22,
+        "point": 7609.75,
+        "change_pct": 0.24,
         "spark": [
           7589.75,
-          7575.25,
-          7574.0,
           7578.75,
           7583.25,
           7584.25,
@@ -6474,21 +6472,23 @@
           7602.5,
           7608.5,
           7611.25,
-          7608.25
+          7606.75,
+          7611.5,
+          7609.75
         ],
         "candle": {
           "o": 7589.75,
           "h": 7626.25,
           "l": 7571.75,
-          "c": 7608.25
+          "c": 7609.75
         },
         "range_240d": {
           "low": 6264.5,
           "high": 7623.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 21.45,
-          "high_change_pct": -0.2
+          "low_change_pct": 21.47,
+          "high_change_pct": -0.18
         },
         "daily_expanded": [
           {
@@ -8504,8 +8504,8 @@
             "o": 7589.75,
             "h": 7626.25,
             "l": 7571.75,
-            "c": 7608.25,
-            "v": 1087571
+            "c": 7609.75,
+            "v": 1109339
           }
         ],
         "rollover_gaps": [],
@@ -8514,15 +8514,15 @@
           "sources": [
             {
               "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/china/former-fed-adviser-gets-38-months-in-prison-for-lying-to-internal-watchdog-74fa5f14"
+            },
+            {
+              "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/trump-leans-toward-expanding-u-s-military-operations-in-iran-6c230462"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/07/15/wholesale-inflation-june-2026-.html"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/jobs/unemployment-long-term-job-market-629199f9"
             }
           ]
         }
@@ -8530,12 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29658.5,
-        "change_pct": -0.44,
+        "point": 29680.0,
+        "change_pct": -0.37,
         "spark": [
           29805.0,
-          29434.0,
-          29417.0,
           29445.0,
           29477.75,
           29495.75,
@@ -8573,21 +8571,23 @@
           29622.25,
           29656.0,
           29683.75,
-          29658.5
+          29653.75,
+          29680.75,
+          29680.0
         ],
         "candle": {
           "o": 29805.0,
           "h": 30062.5,
           "l": 29397.0,
-          "c": 29658.5
+          "c": 29680.0
         },
         "range_240d": {
           "low": 22883.75,
           "high": 30712.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 29.61,
-          "high_change_pct": -3.43
+          "low_change_pct": 29.7,
+          "high_change_pct": -3.36
         },
         "daily_expanded": [
           {
@@ -10603,8 +10603,8 @@
             "o": 29805.0,
             "h": 30062.5,
             "l": 29397.0,
-            "c": 29658.5,
-            "v": 460867
+            "c": 29680.0,
+            "v": 468331
           }
         ],
         "rollover_gaps": [],
@@ -10629,12 +10629,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52882.0,
-        "change_pct": 0.17,
+        "point": 52889.0,
+        "change_pct": 0.19,
         "spark": [
           52792.0,
-          52704.0,
-          52707.0,
           52725.0,
           52749.0,
           52770.0,
@@ -10672,21 +10670,23 @@
           52851.0,
           52889.0,
           52903.0,
-          52882.0
+          52881.0,
+          52892.0,
+          52889.0
         ],
         "candle": {
           "o": 52792.0,
           "h": 53088.0,
           "l": 52680.0,
-          "c": 52882.0
+          "c": 52886.0
         },
         "range_240d": {
           "low": 43710.0,
           "high": 53372.0,
           "low_date": "2025-08-01",
           "high_date": "2026-07-06",
-          "low_change_pct": 20.98,
-          "high_change_pct": -0.92
+          "low_change_pct": 20.99,
+          "high_change_pct": -0.91
         },
         "daily_expanded": [
           {
@@ -12702,8 +12702,8 @@
             "o": 52792.0,
             "h": 53088.0,
             "l": 52680.0,
-            "c": 52882.0,
-            "v": 69097
+            "c": 52886.0,
+            "v": 69831
           }
         ],
         "rollover_gaps": [],
@@ -12727,5 +12727,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-07-16T04:50:11.679200+09:00"
+  "intraday_refreshed_kst": "2026-07-16T05:00:23.759885+09:00"
 }
