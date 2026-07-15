@@ -1,6 +1,6 @@
 {
   "date": "2026-07-15",
-  "generated_at": "2026-07-15T11:45:33.967061",
+  "generated_at": "2026-07-15T11:55:19.078342",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -11,9 +11,9 @@
       "code": "003680",
       "name": "한성기업",
       "rank": 1,
-      "trade_amount": 51479000000,
-      "change_pct": 17.55,
-      "close_price": 13130,
+      "trade_amount": 54048000000,
+      "change_pct": 19.34,
+      "close_price": 13330,
       "open_price": 12220,
       "high_price": 14210,
       "low_price": 11800,
@@ -46,12 +46,13 @@
         "change_pct": 20.11,
         "trade_amount": 102313000000
       },
-      "bullish_today": false,
-      "bullish_streak": 0,
+      "bullish_today": true,
+      "bullish_streak": 2,
       "bullish_dates": [
         "2026-07-09",
         "2026-07-10",
-        "2026-07-14"
+        "2026-07-14",
+        "2026-07-15"
       ],
       "news": [
         {
@@ -120,17 +121,17 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": 7.14,
-      "index_multiple_current": 2.46,
+      "index_change_pct": 7.03,
+      "index_multiple_current": 2.75,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 14210,
         "high_date": "2026-07-15",
-        "high_pct": -7.6,
+        "high_pct": -6.19,
         "low": 3915,
         "low_date": "2026-06-26",
-        "low_pct": 235.38,
-        "current": 13130
+        "low_pct": 240.49,
+        "current": 13330
       },
       "daily_20": [
         {
@@ -271,7 +272,7 @@
           "o": 12220,
           "h": 14210,
           "l": 11800,
-          "c": 13130
+          "c": 13330
         }
       ],
       "status_badges": [
@@ -284,7 +285,7 @@
               "desc": "5일 전(2026-07-08) 대비 +60%↑",
               "base_price": 5010,
               "threshold": 8016,
-              "current": 13130,
+              "current": 13330,
               "triggered": true
             }
           ],
@@ -301,17 +302,83 @@
           "effect_badges": []
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 12220,
+        "base": 12220,
+        "prices": [
+          12220,
+          14190,
+          13380,
+          13520,
+          13280,
+          13300,
+          13300,
+          13260,
+          13130,
+          12900,
+          12910,
+          13020,
+          12980,
+          12970,
+          13180,
+          13200,
+          13180,
+          13120,
+          13160,
+          13280,
+          13080,
+          13100,
+          13110,
+          13140,
+          13170,
+          13120,
+          13170,
+          13120,
+          13080,
+          13060,
+          13050,
+          13110,
+          13380,
+          13300,
+          13330
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "투자경고",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "strong_bull",
       "theme_leader": true,
       "hugepark_grade": "적극"
     },
     {
+      "code": "036540",
+      "name": "SFA반도체",
+      "rank": 2,
+      "trade_amount": 50501000000,
+      "change_pct": null,
+      "close_price": null,
+      "open_price": null,
+      "high_price": null,
+      "low_price": null,
+      "industry": null,
+      "sector": null,
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [],
+      "news": [],
+      "fallback": true,
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
       "code": "028300",
       "name": "HLB",
-      "rank": 2,
-      "trade_amount": 27527000000,
+      "rank": 3,
+      "trade_amount": 27597000000,
       "change_pct": 29.96,
       "close_price": 34700,
       "open_price": 30700,
@@ -347,7 +414,7 @@
           "title": "HLB, 지난 CRL 때보다 더 급락(?)…잇따른 빅이벤트 주목 [종목 돋보기]",
           "url": "https://www.fnnews.com/news/202607150833348275",
           "source": "파이낸셜뉴스",
-          "published_at": "2026-07-15T11:40:02.147753",
+          "published_at": "2026-07-15T11:50:04.481996",
           "causal_chain": "",
           "macro_event": null,
           "newzy_freshness": null,
@@ -361,8 +428,8 @@
         }
       ],
       "fallback": false,
-      "index_change_pct": 4.96,
-      "index_multiple_current": 6.04,
+      "index_change_pct": 4.89,
+      "index_multiple_current": 6.13,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 69200,
@@ -524,8 +591,8 @@
           "summary": "HLB 상한가 (29.96%)",
           "cur_prc": 34700,
           "flu_rt": 29.96,
-          "trde_qty": 837447,
-          "trde_prica_calc": 27527000000,
+          "trde_qty": 839452,
+          "trde_prica_calc": 27597000000,
           "consecutive_count": 1,
           "effect_badges": [
             {
@@ -577,6 +644,8 @@
           34700,
           34700,
           34700,
+          34700,
+          34700,
           34700
         ]
       },
@@ -591,8 +660,8 @@
     {
       "code": "005360",
       "name": "모나미",
-      "rank": 3,
-      "trade_amount": 13304000000,
+      "rank": 4,
+      "trade_amount": 13311000000,
       "change_pct": 30.0,
       "close_price": 3445,
       "open_price": 3125,
@@ -662,8 +731,8 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": 7.14,
-      "index_multiple_current": 4.2,
+      "index_change_pct": 7.03,
+      "index_multiple_current": 4.27,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 3445,
@@ -850,8 +919,8 @@
           "summary": "모나미 상한가 (30.00%)",
           "cur_prc": 3445,
           "flu_rt": 30.0,
-          "trde_qty": 4045218,
-          "trde_prica_calc": 13304000000,
+          "trde_qty": 4047252,
+          "trde_prica_calc": 13311000000,
           "consecutive_count": 2,
           "effect_badges": [
             {
@@ -902,6 +971,9 @@
           3445,
           3445,
           3445,
+          3445,
+          3445,
+          3445,
           3445
         ]
       },
@@ -914,10 +986,10 @@
     {
       "code": "024850",
       "name": "HLB이노베이션",
-      "rank": 4,
-      "trade_amount": 11101000000,
-      "change_pct": 29.67,
-      "close_price": 11930,
+      "rank": 5,
+      "trade_amount": 11102000000,
+      "change_pct": 30.0,
+      "close_price": 11960,
       "open_price": 9700,
       "high_price": 11960,
       "low_price": 9690,
@@ -934,17 +1006,17 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 4.96,
-      "index_multiple_current": 5.98,
+      "index_change_pct": 4.89,
+      "index_multiple_current": 6.13,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 29100,
         "high_date": "2026-03-19",
-        "high_pct": -59.0,
+        "high_pct": -58.9,
         "low": 7300,
         "low_date": "2025-08-25",
-        "low_pct": 63.42,
-        "current": 11930
+        "low_pct": 63.84,
+        "current": 11960
       },
       "daily_20": [
         {
@@ -1085,7 +1157,7 @@
           "o": 9700,
           "h": 11960,
           "l": 9690,
-          "c": 11930
+          "c": 11960
         }
       ],
       "status_badges": [
@@ -1094,11 +1166,11 @@
           "severity": "hot",
           "source": "v1_condition",
           "view_date": "2026-07-15",
-          "summary": "HLB이노베이션 상한가 (29.67%)",
-          "cur_prc": 11930,
-          "flu_rt": 29.67,
-          "trde_qty": 953696,
-          "trde_prica_calc": 11101000000,
+          "summary": "HLB이노베이션 상한가 (30.00%)",
+          "cur_prc": 11960,
+          "flu_rt": 30.0,
+          "trde_qty": 953786,
+          "trde_prica_calc": 11102000000,
           "consecutive_count": 1,
           "effect_badges": [
             {
@@ -1150,7 +1222,8 @@
           11960,
           11950,
           11940,
-          11950
+          11960,
+          11960
         ]
       },
       "credit_risk": true,
@@ -1162,7 +1235,7 @@
     {
       "code": "002070",
       "name": "비비안",
-      "rank": 5,
+      "rank": 6,
       "trade_amount": 7197000000,
       "change_pct": 29.99,
       "close_price": 10620,
@@ -1221,8 +1294,8 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": 7.14,
-      "index_multiple_current": 4.2,
+      "index_change_pct": 7.03,
+      "index_multiple_current": 4.27,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 31746,
@@ -1409,7 +1482,7 @@
           "summary": "비비안 상한가 (29.99%)",
           "cur_prc": 10620,
           "flu_rt": 29.99,
-          "trde_qty": 711053,
+          "trde_qty": 711093,
           "trde_prica_calc": 7197000000,
           "consecutive_count": 2,
           "effect_badges": [
@@ -1461,6 +1534,8 @@
           10620,
           10620,
           10620,
+          10620,
+          10620,
           10620
         ]
       },
@@ -1473,8 +1548,8 @@
     {
       "code": "115450",
       "name": "HLB테라퓨틱스",
-      "rank": 6,
-      "trade_amount": 4101000000,
+      "rank": 7,
+      "trade_amount": 4102000000,
       "change_pct": 30.0,
       "close_price": 1976,
       "open_price": 1653,
@@ -1493,8 +1568,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 4.96,
-      "index_multiple_current": 6.05,
+      "index_change_pct": 4.89,
+      "index_multiple_current": 6.13,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 4160,
@@ -1656,8 +1731,8 @@
           "summary": "HLB테라퓨틱스 상한가 (30.00%)",
           "cur_prc": 1976,
           "flu_rt": 30.0,
-          "trde_qty": 2136701,
-          "trde_prica_calc": 4101000000,
+          "trde_qty": 2137000,
+          "trde_prica_calc": 4102000000,
           "consecutive_count": 1,
           "effect_badges": [
             {
@@ -1708,6 +1783,8 @@
           1976,
           1976,
           1976,
+          1976,
+          1976,
           1976
         ]
       },
@@ -1720,7 +1797,7 @@
     {
       "code": "047920",
       "name": "HLB제약",
-      "rank": 7,
+      "rank": 8,
       "trade_amount": 3584000000,
       "change_pct": 30.0,
       "close_price": 8580,
@@ -1742,8 +1819,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 4.96,
-      "index_multiple_current": 6.05,
+      "index_change_pct": 4.89,
+      "index_multiple_current": 6.13,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 22250,
@@ -1905,7 +1982,7 @@
           "summary": "HLB제약 상한가 (30.00%)",
           "cur_prc": 8580,
           "flu_rt": 30.0,
-          "trde_qty": 436973,
+          "trde_qty": 436974,
           "trde_prica_calc": 3584000000,
           "consecutive_count": 1,
           "effect_badges": [
@@ -1952,6 +2029,8 @@
           8580,
           8580,
           8580,
+          8580,
+          8580,
           8580
         ]
       },
@@ -1964,7 +2043,7 @@
     {
       "code": "003580",
       "name": "HLB글로벌",
-      "rank": 8,
+      "rank": 9,
       "trade_amount": 2776000000,
       "change_pct": 29.99,
       "close_price": 1439,
@@ -1984,8 +2063,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 7.14,
-      "index_multiple_current": 4.2,
+      "index_change_pct": 7.03,
+      "index_multiple_current": 4.27,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 3230,
@@ -2147,7 +2226,7 @@
           "summary": "HLB글로벌 상한가 (29.99%)",
           "cur_prc": 1439,
           "flu_rt": 29.99,
-          "trde_qty": 1999883,
+          "trde_qty": 2000152,
           "trde_prica_calc": 2776000000,
           "consecutive_count": 1,
           "effect_badges": [
@@ -2199,6 +2278,7 @@
           1439,
           1439,
           1439,
+          1439,
           1439
         ]
       },
@@ -2211,7 +2291,7 @@
     {
       "code": "033250",
       "name": "체시스",
-      "rank": 9,
+      "rank": 10,
       "trade_amount": 1697000000,
       "change_pct": 29.86,
       "close_price": 3740,
@@ -2231,8 +2311,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 7.14,
-      "index_multiple_current": 4.18,
+      "index_change_pct": 7.03,
+      "index_multiple_current": 4.25,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 6385,
@@ -2394,7 +2474,7 @@
           "summary": "체시스 상한가 (29.86%)",
           "cur_prc": 3740,
           "flu_rt": 29.86,
-          "trde_qty": 474189,
+          "trde_qty": 474216,
           "trde_prica_calc": 1697000000,
           "consecutive_count": 1,
           "effect_badges": [
@@ -2446,6 +2526,7 @@
           3740,
           3740,
           3740,
+          3740,
           3740
         ]
       },
@@ -2458,8 +2539,8 @@
     {
       "code": "011090",
       "name": "에넥스",
-      "rank": 10,
-      "trade_amount": 1361000000,
+      "rank": 11,
+      "trade_amount": 1366000000,
       "change_pct": 29.98,
       "close_price": 2120,
       "open_price": 2000,
@@ -2502,8 +2583,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 7.14,
-      "index_multiple_current": 4.2,
+      "index_change_pct": 7.03,
+      "index_multiple_current": 4.26,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 4170,
@@ -2690,8 +2771,8 @@
           "summary": "에넥스 상한가 (29.98%)",
           "cur_prc": 2120,
           "flu_rt": 29.98,
-          "trde_qty": 650884,
-          "trde_prica_calc": 1361000000,
+          "trde_qty": 653227,
+          "trde_prica_calc": 1366000000,
           "consecutive_count": 3,
           "effect_badges": [
             {
@@ -2742,6 +2823,8 @@
           2120,
           2120,
           2120,
+          2120,
+          2120,
           2120
         ]
       },
@@ -2756,7 +2839,7 @@
     {
       "code": "278650",
       "name": "HLB바이오스텝",
-      "rank": 11,
+      "rank": 12,
       "trade_amount": 1198000000,
       "change_pct": 29.86,
       "close_price": 2405,
@@ -2776,8 +2859,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 4.96,
-      "index_multiple_current": 6.02,
+      "index_change_pct": 4.89,
+      "index_multiple_current": 6.11,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 10100,
@@ -2939,7 +3022,7 @@
           "summary": "HLB바이오스텝 상한가 (29.86%)",
           "cur_prc": 2405,
           "flu_rt": 29.86,
-          "trde_qty": 516831,
+          "trde_qty": 516836,
           "trde_prica_calc": 1198000000,
           "consecutive_count": 1,
           "effect_badges": [
@@ -2988,6 +3071,8 @@
           2405,
           2405,
           2405,
+          2405,
+          2405,
           2405
         ]
       },
@@ -3000,7 +3085,7 @@
     {
       "code": "291810",
       "name": "핀텔",
-      "rank": 12,
+      "rank": 13,
       "trade_amount": 421000000,
       "change_pct": 29.91,
       "close_price": 1290,
@@ -3026,8 +3111,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 4.96,
-      "index_multiple_current": 6.03,
+      "index_change_pct": 4.89,
+      "index_multiple_current": 6.12,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 5190,
