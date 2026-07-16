@@ -1,6 +1,6 @@
 {
   "date": "2026-07-16",
-  "generated_at": "2026-07-16T13:35:20.805352",
+  "generated_at": "2026-07-16T13:36:33.348400",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -1902,23 +1902,19 @@
       "industry": "플라스틱제품 제조업",
       "sector": "전기재료연결부품",
       "themes": [
-        "MLCC",
+        "휴머노이드 로봇",
         "로봇",
         "케이블",
         "반도체",
-        "반도체소부장"
+        "반도체소부장",
+        "MLCC"
       ],
       "theme_paths": [
         {
-          "name": "MLCC",
+          "name": "휴머노이드 로봇",
           "path": [
-            "MLCC"
-          ]
-        },
-        {
-          "name": "로봇",
-          "path": [
-            "로봇"
+            "로봇",
+            "휴머노이드 로봇"
           ]
         },
         {
@@ -1932,6 +1928,12 @@
           "path": [
             "반도체",
             "반도체소부장"
+          ]
+        },
+        {
+          "name": "MLCC",
+          "path": [
+            "MLCC"
           ]
         }
       ],
@@ -1954,32 +1956,32 @@
           "url": "https://www.sedaily.com/article/20068064",
           "source": "서울경제",
           "published_at": "2026-07-15T05:00:35",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "반도체 메가 클러스터(2047년까지 622조 투입) 조성으로 클린룸·자동화 부품 수요가 늘고, 세미휴머노이드·협동로봇 확산으로 다축 구동 케이블 가이드 수요가 커지는 국면에서, 케이블체인 전문기업 씨피시스템이 국내 종합 반도체 기업 클린룸·차세대 자동화 라인에 '로보킷' 세미휴머노이드용 시제품을 공급. 반도체 공정장비·협동로봇·지능형 로봇으로 적용 범위를 넓히는 국산 대체 레퍼런스 확보가 부각되며 매수세가 집중, 당일 종가 3,485원(+16.56%)·거래대금 501억원으로 대규모 자금이 유입됐다.",
+          "macro_event": "경기 남부 반도체 메가 클러스터 622조 투자 → 초청정 클린룸·자동화 부품 수요 확대",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.55,
+          "newzy_virality": 0.5,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.53,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "씨피시스템, 中 최대 D램 기업 CXMT향 반도체 세정 장비에 ‘G-클린체인’ 솔루션 공급…메모리ㆍ파운드리 공급망 확대 추진",
           "url": "https://www.etoday.co.kr/news/view/2602992",
           "source": "이투데이",
           "published_at": "2026-07-13T01:00:00",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "반도체 메가 클러스터(2047년까지 622조 투입) 조성으로 클린룸·자동화 부품 수요가 늘고, 세미휴머노이드·협동로봇 확산으로 다축 구동 케이블 가이드 수요가 커지는 국면에서, 케이블체인 전문기업 씨피시스템이 국내 종합 반도체 기업 클린룸·차세대 자동화 라인에 '로보킷' 세미휴머노이드용 시제품을 공급. 반도체 공정장비·협동로봇·지능형 로봇으로 적용 범위를 넓히는 국산 대체 레퍼런스 확보가 부각되며 매수세가 집중, 당일 종가 3,485원(+16.56%)·거래대금 501억원으로 대규모 자금이 유입됐다.",
+          "macro_event": "경기 남부 반도체 메가 클러스터 622조 투자 → 초청정 클린룸·자동화 부품 수요 확대",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.55,
+          "newzy_virality": 0.5,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.53,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "[급등락주 짚어보기] 유리기판·반도체 호재…제이앤티씨·씨피시스템 등 '上'",
@@ -2015,17 +2017,22 @@
         }
       ],
       "fallback": true,
+      "cafe_themes": [
+        "MLCC"
+      ],
       "theme_crosscheck": {
         "confirmed": [
-          "MLCC",
           "로봇",
           "반도체"
         ],
         "pm320_only": [
+          "휴머노이드 로봇",
           "케이블",
           "반도체소부장"
         ],
-        "cafe_only": []
+        "cafe_only": [
+          "MLCC"
+        ]
       },
       "index_change_pct": -4.51,
       "index_multiple_current": -3.67,
@@ -2209,7 +2216,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "012690",
