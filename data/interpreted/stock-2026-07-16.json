@@ -1,6 +1,6 @@
 {
   "date": "2026-07-16",
-  "generated_at": "2026-07-16T15:25:25.623474",
+  "generated_at": "2026-07-16T15:26:40.076444",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -5585,9 +5585,16 @@
       "industry": "플라스틱제품 제조업",
       "sector": "가구용 ASA플라스틱 시트, 엣지밴드",
       "themes": [
+        "3자배정증자",
         "중동 지정학"
       ],
       "theme_paths": [
+        {
+          "name": "3자배정증자",
+          "path": [
+            "3자배정증자"
+          ]
+        },
         {
           "name": "중동 지정학",
           "path": [
@@ -5610,25 +5617,30 @@
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=04418166645515176",
           "source": "이데일리",
           "published_at": "2026-07-16T06:16:05",
-          "causal_chain": "",
+          "causal_chain": "진영 5억원 규모 제3자배정 유상증자 결정 → 외부 자본 유입·신규 투자자(전략적/재무적) 진입·보호예수 락업 기대 → 후속 시세 모멘텀 유입 → 당일 시초가(841원)에서 매수세 집중되며 종가 상한가(+29.96%, 1,093원) 형성. 다만 거래대금 34억원 수준으로 대규모 자금 유입은 제한적.",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.45,
+          "newzy_virality": 0.25,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.37,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "공시"
         }
       ],
       "fallback": false,
+      "cafe_themes": [
+        "중동 지정학"
+      ],
       "theme_crosscheck": {
-        "confirmed": [
-          "중동 지정학"
+        "confirmed": [],
+        "pm320_only": [
+          "3자배정증자"
         ],
-        "pm320_only": [],
-        "cafe_only": []
+        "cafe_only": [
+          "중동 지정학"
+        ]
       },
       "index_change_pct": -4.41,
       "index_multiple_current": -6.79,
@@ -5896,9 +5908,7 @@
       "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
-      "hugepark_grade": "관찰",
-      "causal_chain": "",
-      "parent_theme": ""
+      "hugepark_grade": "관찰"
     },
     {
       "code": "072770",
@@ -7377,7 +7387,7 @@
       "credit_risk": true,
       "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
-      "theme_leader": true,
+      "theme_leader": false,
       "hugepark_grade": "관찰"
     },
     {
