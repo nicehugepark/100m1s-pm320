@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 25946.03,
-      "change_pct": -1.23,
+      "point": 25912.38,
+      "change_pct": -1.36,
       "candle": {
         "o": 26147.0,
         "h": 26162.27,
-        "l": 25923.42,
-        "c": 25946.03
+        "l": 25912.38,
+        "c": 25912.38
       },
       "range_240d": {
         "low": 20650.13,
@@ -2032,14 +2032,12 @@
           "date": "2026-07-16",
           "o": 26147.0,
           "h": 26162.27,
-          "l": 25923.42,
-          "c": 25946.03
+          "l": 25912.38,
+          "c": 25912.38
         }
       ],
       "spark": [
         26147.0,
-        26067.63,
-        26071.05,
         26087.54,
         26104.92,
         26125.59,
@@ -2076,8 +2074,10 @@
         25931.34,
         25953.4,
         25957.55,
-        25951.01,
-        25946.03
+        25946.03,
+        25930.56,
+        25912.56,
+        25912.38
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7532.41,
-      "change_pct": -0.53,
+      "point": 7528.78,
+      "change_pct": -0.58,
       "candle": {
         "o": 7558.8,
         "h": 7570.74,
-        "l": 7529.65,
-        "c": 7532.41
+        "l": 7528.78,
+        "c": 7528.78
       },
       "range_240d": {
         "low": 6238.01,
@@ -4130,14 +4130,12 @@
           "date": "2026-07-16",
           "o": 7558.8,
           "h": 7570.74,
-          "l": 7529.65,
-          "c": 7532.41
+          "l": 7528.78,
+          "c": 7528.78
         }
       ],
       "spark": [
         7558.8,
-        7561.69,
-        7561.54,
         7563.99,
         7567.77,
         7569.3,
@@ -4175,7 +4173,9 @@
         7537.11,
         7537.87,
         7534.16,
-        7532.41
+        7532.3,
+        7528.93,
+        7528.78
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 52486.97,
-      "change_pct": -0.33,
+      "point": 52468.43,
+      "change_pct": -0.36,
       "candle": {
         "o": 52924.86,
         "h": 52924.86,
-        "l": 52468.62,
-        "c": 52486.97
+        "l": 52467.23,
+        "c": 52468.43
       },
       "range_240d": {
         "low": 43588.58,
@@ -6228,14 +6228,12 @@
           "date": "2026-07-16",
           "o": 52924.86,
           "h": 52924.86,
-          "l": 52468.62,
-          "c": 52486.97
+          "l": 52467.23,
+          "c": 52468.43
         }
       ],
       "spark": [
         52924.86,
-        52807.39,
-        52816.86,
         52789.22,
         52815.55,
         52799.32,
@@ -6273,7 +6271,9 @@
         52520.64,
         52510.62,
         52492.76,
-        52486.97
+        52491.1,
+        52470.27,
+        52468.43
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6298,145 +6298,139 @@
   ],
   "news_chips": [
     {
-      "summary": "경유 공급 급감이 인플레이션 재상승을 위협",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/commodities-futures/sharp-drop-in-diesel-supplies-threatens-to-rev-up-inflation-again-372a2983?mod=rss_markets_main",
-      "published_ts": 1784219280.0,
+      "summary": "에너지 가격 상승이 유로존 5월 무역수지를 3개월 흑자에서 적자로 반전시켰다.",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/trade/eurozone-swung-to-trade-deficit-for-may-f601fb20",
+      "published_ts": 1784197200.0,
       "impact_high": true
     },
     {
-      "summary": "미국 주간 신규 실업수당 청구가 예상 이상으로 감소",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-unexpectedly-dropped-last-week-0fff4bbb",
-      "published_ts": 1784206320.0,
+      "summary": "한국 중앙은행이 2023년 이후 처음으로 기준금리를 인상하며 중동 분쟁으로 유발된 인플레이션 압력에 대응했다.",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/bank-of-korea-raise-rates-for-first-time-since-2023-17dea183",
+      "published_ts": 1784183280.0,
       "impact_high": true
     },
     {
-      "summary": "미국 소매판매가 에너지 가격 하락에도 둔화된 속도로 증가",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/economy/consumers/u-s-retail-sales-rose-at-slower-pace-last-month-bddb49c2",
-      "published_ts": 1784206860.0,
-      "impact_high": false
+      "summary": "트럼프 행정부가 이란 군사작전 확대를 검토 중으로, 지상군 투입 및 핵시설 공습까지 고려하면서 유가 및 글로벌 정유업체에 영향",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/trump-leans-toward-expanding-u-s-military-operations-in-iran-6c230462",
+      "published_ts": 1784151000.0,
+      "impact_high": true
     },
     {
-      "summary": "나스닥이 반도체 약세에 하락 마감",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-16-2026?mod=rss_markets_main",
-      "published_ts": 1784190891.0,
-      "impact_high": false
-    },
-    {
-      "summary": "월스트리트의 트레이딩 수익이 역대 최고 수준을 기록",
+      "summary": "월스트릿 주요 은행들의 트레이딩 수익이 사상 최고 수준을 경신, 시장 변동성 심화와 리스크 회피 거래가 증대됐다.",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/banking/wall-street-traders-are-having-their-best-year-ever-a80f02ff?mod=rss_markets_main",
       "published_ts": 1784167200.0,
       "impact_high": false
     },
     {
-      "summary": "블랙록의 운용자산이 15조 달러를 넘으며 분기 순익 20% 증가",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/blackrock-earnings-q2-2026-blk-stock-4c5d097e?mod=rss_markets_main",
-      "published_ts": 1784148600.0,
-      "impact_high": false
-    },
-    {
-      "summary": "6월 생산자물가지수가 하락으로 돌아선 가운데 인플레이션 완화 신호",
-      "source": "WSJ",
+      "summary": "미국 6월 생산자물가가 전월 대비 0.3% 하락으로 반등, 에너지 비용 하락이 근저물가 둔화를 견인했다.",
+      "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/u-s-producer-price-index-fell-in-june-276a72e9",
       "published_ts": 1784120640.0,
       "impact_high": false
     },
     {
-      "summary": "호르무즈 해협 분쟁 재개로 ECB의 금리 정책 방향 불확실성 심화",
+      "summary": "중동 분쟁 재개로 에너지 가격 급등이 지속되자 ECB도 차주 금리결정 방향을 재검토하는 상황에 직면했다.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/15/ecb-interest-rates-outlook-iran-war-hormuz.html",
       "published_ts": 1784115199.0,
       "impact_high": true
     },
     {
-      "summary": "6월 소비자물가 상승률이 에너지 가격 완화로 예상을 하회",
+      "summary": "IMF가 호르무즈 해협 분쟁으로 인한 유가 충격에 대응할 글로벌 경제의 완충 능력이 감소했다고 진단했다.",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/global/imf-sees-reduced-cushion-against-oil-disruption-for-global-economy-598c337d",
+      "published_ts": 1784110620.0,
+      "impact_high": false
+    },
+    {
+      "summary": "중국이 2분기 경제성장률 4.5% 기록으로 2년만 최저치를 기록, 투자 부진과 내수 약세가 복합 영향을 미쳤다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/15/china-gdp-retail-sales-investment-june-.html",
+      "published_ts": 1784092451.0,
+      "impact_high": false
+    },
+    {
+      "summary": "미국 6월 소비자물가가 연전년 대비 3.5% 상승으로 예상치를 하회, 에너지 가격 완화가 주요 완화요인이었다.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html",
       "published_ts": 1784063113.0,
       "impact_high": false
     },
     {
-      "summary": "연준 의장이 인플레이션 억제에 강한 의지를 표명",
-      "source": "WSJ",
+      "summary": "연준 의장이 인플레이션 억제에 강경한 입장을 명시하며 지속적 고물가를 용인하지 않을 것을 천명했다.",
+      "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/warsh-tells-congress-the-fed-has-no-tolerance-for-high-inflation-50c5dfa8",
       "published_ts": 1784060100.0,
       "impact_high": true
     }
   ],
-  "_article_sig": "14819e14e169ec2e2067bd0c7a2eb779b3c9d21df0e53e18178be56bbfc44194",
+  "_article_sig": "d4c296498fc4daff7c54953ba3b2eab34ec93c9b669503b7a0eeb8c783387d62",
   "built_at_kst": "2026-07-16T07:00:31.574883+09:00",
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "일본의 대규모 Nvidia 칩 도입 확산으로 AI 인프라 투자 가속. BlackRock 자산 1.5조달러 돌파에 기술주 강세 지속. 빅테크 매매 모멘텀 우위.",
+      "summary": "반도체 약세에 나스닥100 선물 동조. AI 수요는 일본 정책 추진 속 지속하나 규제 논의 확산으로 성장주 심리 억제 중.",
       "sources": [
         {
-          "name": "WSJ세계",
+          "name": "WSJ",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-16-2026?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
           "url": "https://www.wsj.com/tech/ai/nvidia-noetra-to-build-ai-factory-to-power-japans-ai-ambitions-95e74210"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/blackrock-earnings-q2-2026-blk-stock-4c5d097e?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/wall-street-traders-are-having-their-best-year-ever-a80f02ff?mod=rss_markets_main"
+          "url": "https://www.wsj.com/tech/ai/australia-plans-to-govern-use-of-water-power-for-ai-0bd16d55"
         }
       ]
     },
     "S&P500": {
-      "summary": "연준 물가 강경 입장으로 금리 정상화 경로 불확실성 지속. 물가지표(CPI 3.5%, PPI -0.3%) 개선, 소매판매 수요 약세 신호 엇갈림. 이란 충돌 재개로 에너지 공급 불안 심화, 중국·한국 경기 둔화 동조.",
+      "summary": "연준의장 물가 강경 입장 표명 가운데 고용·물가 엇갈리는 신호. 이란-호르무즈 긴장 재심화로 글로벌 성장 리스크 확대, 중국·유로존 성장률 둔화 신호 조합.",
       "sources": [
         {
-          "name": "WSJ경제",
+          "name": "WSJ",
           "url": "https://www.wsj.com/economy/central-banking/warsh-tells-congress-the-fed-has-no-tolerance-for-high-inflation-50c5dfa8"
         },
         {
           "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html"
+          "url": "https://www.cnbc.com/2026/07/15/ecb-interest-rates-outlook-iran-war-hormuz.html"
         },
         {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/trump-leans-toward-expanding-u-s-military-operations-in-iran-6c230462"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/15/china-gdp-retail-sales-investment-june-.html"
         }
       ]
     },
     "DOW": {
-      "summary": "금융·산업주 실적 호조 지속. 트레이딩 수익성 회복으로 은행 순이익 기록 경신. 이란 군사작전에 방위·에너지산업 강세, 정책 리스크 가중.",
+      "summary": "금융주 호황(JP모건·블랙록·US Bancorp 호실적) 지속. 방위산업·에너지 투자 관심 고조하나 지정학 리스크와 부동산 규제 논의로 전망 불확실한 양상.",
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/wall-street-traders-are-having-their-best-year-ever-a80f02ff?mod=rss_markets_main"
+          "url": "https://www.wsj.com/finance/banking/banks-are-on-a-goldilocks-run-dont-assume-it-will-last-9f49f12f?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/business/earnings/u-s-bancorp-quarterly-revenue-rises-to-record-9516a2aa?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/trump-leans-toward-expanding-u-s-military-operations-in-iran-6c230462"
+          "url": "https://www.wsj.com/finance/stocks/blackrock-earnings-q2-2026-blk-stock-4c5d097e?mod=rss_markets_main"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-07-17T03:30:10.326958+09:00",
+    "as_of_kst": "2026-07-17T03:40:03.628358+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7582.0,
-        "change_pct": -0.43,
+        "point": 7577.5,
+        "change_pct": -0.49,
         "spark": [
           7615.0,
-          7602.25,
-          7605.25,
           7605.25,
           7607.25,
           7611.25,
@@ -6474,21 +6468,23 @@
           7576.25,
           7581.5,
           7583.0,
-          7582.0
+          7578.5,
+          7576.25,
+          7577.5
         ],
         "candle": {
           "o": 7615.0,
           "h": 7632.0,
           "l": 7573.25,
-          "c": 7582.0
+          "c": 7577.5
         },
         "range_240d": {
           "low": 6264.5,
           "high": 7623.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 21.03,
-          "high_change_pct": -0.55
+          "low_change_pct": 20.96,
+          "high_change_pct": -0.61
         },
         "daily_expanded": [
           {
@@ -8504,25 +8500,25 @@
             "o": 7615.0,
             "h": 7632.0,
             "l": 7573.25,
-            "c": 7582.0,
-            "v": 918416
+            "c": 7577.5,
+            "v": 938690
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "연준 물가 강경 입장으로 금리 정상화 경로 불확실성 지속. 물가지표(CPI 3.5%, PPI -0.3%) 개선, 소매판매 수요 약세 신호 엇갈림. 이란 충돌 재개로 에너지 공급 불안 심화, 중국·한국 경기 둔화 동조.",
+          "summary": "연준의장 물가 강경 입장 표명 가운데 고용·물가 엇갈리는 신호. 이란-호르무즈 긴장 재심화로 글로벌 성장 리스크 확대, 중국·유로존 성장률 둔화 신호 조합.",
           "sources": [
             {
-              "name": "WSJ경제",
+              "name": "WSJ",
               "url": "https://www.wsj.com/economy/central-banking/warsh-tells-congress-the-fed-has-no-tolerance-for-high-inflation-50c5dfa8"
             },
             {
               "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html"
+              "url": "https://www.cnbc.com/2026/07/15/ecb-interest-rates-outlook-iran-war-hormuz.html"
             },
             {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/trump-leans-toward-expanding-u-s-military-operations-in-iran-6c230462"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/07/15/china-gdp-retail-sales-investment-june-.html"
             }
           ]
         }
@@ -8530,12 +8526,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29272.25,
-        "change_pct": -1.42,
+        "point": 29263.0,
+        "change_pct": -1.45,
         "spark": [
           29709.0,
-          29358.5,
-          29391.5,
           29387.5,
           29406.75,
           29438.5,
@@ -8573,21 +8567,23 @@
           29233.0,
           29268.0,
           29289.5,
-          29272.25
+          29269.75,
+          29245.5,
+          29263.0
         ],
         "candle": {
           "o": 29709.0,
           "h": 29797.0,
           "l": 29217.25,
-          "c": 29272.25
+          "c": 29263.0
         },
         "range_240d": {
           "low": 22883.75,
           "high": 30712.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.92,
-          "high_change_pct": -4.69
+          "low_change_pct": 27.88,
+          "high_change_pct": -4.72
         },
         "daily_expanded": [
           {
@@ -10603,25 +10599,25 @@
             "o": 29709.0,
             "h": 29797.0,
             "l": 29217.25,
-            "c": 29272.25,
-            "v": 379878
+            "c": 29263.0,
+            "v": 386575
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "일본의 대규모 Nvidia 칩 도입 확산으로 AI 인프라 투자 가속. BlackRock 자산 1.5조달러 돌파에 기술주 강세 지속. 빅테크 매매 모멘텀 우위.",
+          "summary": "반도체 약세에 나스닥100 선물 동조. AI 수요는 일본 정책 추진 속 지속하나 규제 논의 확산으로 성장주 심리 억제 중.",
           "sources": [
             {
-              "name": "WSJ세계",
+              "name": "WSJ",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-16-2026?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
               "url": "https://www.wsj.com/tech/ai/nvidia-noetra-to-build-ai-factory-to-power-japans-ai-ambitions-95e74210"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/blackrock-earnings-q2-2026-blk-stock-4c5d097e?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/wall-street-traders-are-having-their-best-year-ever-a80f02ff?mod=rss_markets_main"
+              "url": "https://www.wsj.com/tech/ai/australia-plans-to-govern-use-of-water-power-for-ai-0bd16d55"
             }
           ]
         }
@@ -10629,12 +10625,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52769.0,
-        "change_pct": -0.25,
+        "point": 52737.0,
+        "change_pct": -0.31,
         "spark": [
           52919.0,
-          53058.0,
-          53052.0,
           53068.0,
           53041.0,
           53076.0,
@@ -10672,21 +10666,23 @@
           52752.0,
           52769.0,
           52764.0,
-          52769.0
+          52744.0,
+          52736.0,
+          52737.0
         ],
         "candle": {
           "o": 52919.0,
           "h": 53108.0,
           "l": 52714.0,
-          "c": 52769.0
+          "c": 52737.0
         },
         "range_240d": {
           "low": 43710.0,
           "high": 53372.0,
           "low_date": "2025-08-01",
           "high_date": "2026-07-06",
-          "low_change_pct": 20.73,
-          "high_change_pct": -1.13
+          "low_change_pct": 20.65,
+          "high_change_pct": -1.19
         },
         "daily_expanded": [
           {
@@ -12702,30 +12698,26 @@
             "o": 52919.0,
             "h": 53108.0,
             "l": 52714.0,
-            "c": 52769.0,
-            "v": 69663
+            "c": 52737.0,
+            "v": 70571
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "금융·산업주 실적 호조 지속. 트레이딩 수익성 회복으로 은행 순이익 기록 경신. 이란 군사작전에 방위·에너지산업 강세, 정책 리스크 가중.",
+          "summary": "금융주 호황(JP모건·블랙록·US Bancorp 호실적) 지속. 방위산업·에너지 투자 관심 고조하나 지정학 리스크와 부동산 규제 논의로 전망 불확실한 양상.",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/wall-street-traders-are-having-their-best-year-ever-a80f02ff?mod=rss_markets_main"
+              "url": "https://www.wsj.com/finance/banking/banks-are-on-a-goldilocks-run-dont-assume-it-will-last-9f49f12f?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/business/earnings/u-s-bancorp-quarterly-revenue-rises-to-record-9516a2aa?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/trump-leans-toward-expanding-u-s-military-operations-in-iran-6c230462"
+              "url": "https://www.wsj.com/finance/stocks/blackrock-earnings-q2-2026-blk-stock-4c5d097e?mod=rss_markets_main"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-07-17T03:30:14.170210+09:00"
+  "intraday_refreshed_kst": "2026-07-17T03:42:18.541897+09:00"
 }
