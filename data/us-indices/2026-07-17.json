@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 25877.88,
-      "change_pct": -1.49,
+      "point": 25857.06,
+      "change_pct": -1.57,
       "candle": {
         "o": 26147.0,
         "h": 26162.27,
-        "l": 25877.88,
-        "c": 25877.88
+        "l": 25846.54,
+        "c": 25857.06
       },
       "range_240d": {
         "low": 20650.13,
@@ -2032,14 +2032,12 @@
           "date": "2026-07-16",
           "o": 26147.0,
           "h": 26162.27,
-          "l": 25877.88,
-          "c": 25877.88
+          "l": 25846.54,
+          "c": 25857.06
         }
       ],
       "spark": [
         26147.0,
-        26090.36,
-        26053.31,
         26045.17,
         26010.29,
         26013.72,
@@ -2077,7 +2075,9 @@
         25910.07,
         25923.12,
         25879.76,
-        25877.88
+        25873.03,
+        25858.31,
+        25857.06
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7521.67,
-      "change_pct": -0.67,
+      "point": 7522.51,
+      "change_pct": -0.66,
       "candle": {
         "o": 7558.8,
         "h": 7570.74,
-        "l": 7521.67,
-        "c": 7521.67
+        "l": 7519.18,
+        "c": 7522.51
       },
       "range_240d": {
         "low": 6238.01,
@@ -4130,14 +4130,12 @@
           "date": "2026-07-16",
           "o": 7558.8,
           "h": 7570.74,
-          "l": 7521.67,
-          "c": 7521.67
+          "l": 7519.18,
+          "c": 7522.51
         }
       ],
       "spark": [
         7558.8,
-        7561.51,
-        7553.62,
         7555.05,
         7545.77,
         7547.66,
@@ -4175,7 +4173,9 @@
         7527.75,
         7530.55,
         7522.37,
-        7521.67
+        7522.5,
+        7522.61,
+        7522.51
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 52437.02,
-      "change_pct": -0.42,
+      "point": 52471.86,
+      "change_pct": -0.35,
       "candle": {
         "o": 52924.86,
         "h": 52924.86,
-        "l": 52431.12,
-        "c": 52437.02
+        "l": 52420.22,
+        "c": 52471.86
       },
       "range_240d": {
         "low": 43588.58,
@@ -6228,14 +6228,12 @@
           "date": "2026-07-16",
           "o": 52924.86,
           "h": 52924.86,
-          "l": 52431.12,
-          "c": 52437.02
+          "l": 52420.22,
+          "c": 52471.86
         }
       ],
       "spark": [
         52924.86,
-        52752.77,
-        52723.01,
         52754.72,
         52648.06,
         52649.17,
@@ -6273,7 +6271,9 @@
         52471.43,
         52487.38,
         52437.02,
-        52437.02
+        52440.55,
+        52474.63,
+        52471.86
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6298,112 +6298,112 @@
   ],
   "news_chips": [
     {
-      "summary": "유류 공급 부족으로 경유 가격 상승하며 인플레이션 재점화 위험 증가",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/commodities-futures/sharp-drop-in-diesel-supplies-threatens-to-rev-up-inflation-again-372a2983?mod=rss_markets_main",
-      "published_ts": 1784219280.0,
-      "impact_high": true
-    },
-    {
-      "summary": "미국 주간 신규 실업수당 청구 208,000건으로 전망치 하회하며 노동시장 견고성 지속",
+      "summary": "주간 신규 실업수당청구가 예상 20만8000건으로 감소, 고용 강세 신호",
       "source": "WSJ",
       "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-unexpectedly-dropped-last-week-0fff4bbb",
       "published_ts": 1784206320.0,
       "impact_high": true
     },
     {
-      "summary": "한국 중앙은행이 중동 분쟁 따른 글로벌 인플레이션 우려 속에 2023년 이후 처음 기준금리 인상",
+      "summary": "6월 주택판매 선행지수가 5.4% 하락, 부동산 약세 지속",
       "source": "WSJ",
-      "url": "https://www.wsj.com/economy/central-banking/bank-of-korea-raise-rates-for-first-time-since-2023-17dea183",
-      "published_ts": 1784183280.0,
-      "impact_high": true
+      "url": "https://www.wsj.com/economy/housing/u-s-pending-home-sales-fell-in-june-5370cc55",
+      "published_ts": 1784211720.0,
+      "impact_high": false
     },
     {
-      "summary": "반도체 주가 약세로 나스닥 지수 하락 마감",
+      "summary": "6월 소매판매 증가율이 둔화, 휘발유 가격 하락으로 소비 감소",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/consumers/u-s-retail-sales-rose-at-slower-pace-last-month-bddb49c2",
+      "published_ts": 1784206860.0,
+      "impact_high": false
+    },
+    {
+      "summary": "일본이 엔비디아 최신형 반도체 수천 개 구매로 AI 생태계 구축",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/tech/ai/nvidia-noetra-to-build-ai-factory-to-power-japans-ai-ambitions-95e74210",
+      "published_ts": 1784200380.0,
+      "impact_high": false
+    },
+    {
+      "summary": "나스닥이 반도체 약세로 마감, 유가는 배럴당 85달러대",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-16-2026?mod=rss_markets_main",
       "published_ts": 1784190891.0,
       "impact_high": false
     },
     {
-      "summary": "월가 트레이딩 업계가 높은 위험선호 심화 속에 역대 최고 수익 기록",
+      "summary": "중동 분쟁으로 에너지 비용 상승 시 호르무즈 해협 통제에 더 많은 미군 필요",
       "source": "WSJ",
-      "url": "https://www.wsj.com/finance/banking/wall-street-traders-are-having-their-best-year-ever-a80f02ff?mod=rss_markets_main",
-      "published_ts": 1784167200.0,
+      "url": "https://www.wsj.com/world/middle-east/controlling-hormuz-would-take-more-u-s-troopsand-even-more-risk-fa77a35d",
+      "published_ts": 1784160000.0,
       "impact_high": false
     },
     {
-      "summary": "호르무즈 해협 분쟁 심화로 에너지 변동성 확대되며 ECB 금리 인상 정책 재검토 압박 가중",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/15/ecb-interest-rates-outlook-iran-war-hormuz.html",
-      "published_ts": 1784115199.0,
+      "summary": "6월 생산자물가지수가 0.3% 하락, 휘발유 급락 반영",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/central-banking/u-s-producer-price-index-fell-in-june-276a72e9",
+      "published_ts": 1784120640.0,
+      "impact_high": false
+    },
+    {
+      "summary": "유로존 5월 산업생산이 예상 외 하락, 중동 분쟁으로 인한 에너지 비용 상승 영향",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/global/eurozone-industrial-production-fell-unexpectedly-in-may-ed079f2a",
+      "published_ts": 1784120040.0,
       "impact_high": true
     },
     {
-      "summary": "호르무즈 해협 분쟁으로 원유 공급 차단 우려 커지며 IMF가 글로벌 경제의 에너지 충격 흡수력 약화 경고",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/economy/global/imf-sees-reduced-cushion-against-oil-disruption-for-global-economy-598c337d",
-      "published_ts": 1784110620.0,
-      "impact_high": false
-    },
-    {
-      "summary": "중국이 2분기 GDP 성장률 4.5% 미만 기록으로 2022년 이후 최저치 달성, 경기부양 필요성 대두",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/15/china-gdp-retail-sales-investment-june-.html",
-      "published_ts": 1784092451.0,
-      "impact_high": false
-    },
-    {
-      "summary": "대규모 주식 발행이 강세장의 수급 구조를 압박할 가능성 대두",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/blockbuster-stock-sales-are-threatening-to-overwhelm-the-bull-market-0ef50ef7?mod=rss_markets_main",
-      "published_ts": 1784077200.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 6월 소비자물가 전년 3.5% 상승으로 전망치 하회하며 에너지 가격 하락이 인플레이션 진정 견인",
+      "summary": "6월 소비자물가지수가 연율 3.5%로 예상치 3.8% 하회, 에너지 가격 완화",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html",
       "published_ts": 1784063113.0,
       "impact_high": false
+    },
+    {
+      "summary": "연준 의장이 물가인상을 용인하지 않겠다며 의회에서 표명",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/central-banking/warsh-tells-congress-the-fed-has-no-tolerance-for-high-inflation-50c5dfa8",
+      "published_ts": 1784060100.0,
+      "impact_high": true
     }
   ],
-  "_article_sig": "4102652e7b590042b065a30943a549d964f9f7455a950e102ee59008ff95d674",
+  "_article_sig": "8c6abab25ecbe1d0a67ca6a3f76a1218b6249d0f59a2bdc768f6bfa3ee2b2ca2",
   "built_at_kst": "2026-07-16T07:00:31.574883+09:00",
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "반도체 수요 강세로 나스닥100 선물 동조. 일본 정부의 Nvidia 차기세대 칩 대량 구매 결정 등 AI 인프라 투자 열풍 지속. 비트코인 보유 기술주(Microstrategy) 연중 낙폭 40% 극복 못하는 등 성장주 변동성 상존.",
+      "summary": "반도체 약세 신호 강화 중. 나스닥100 선물 칩 종목들이 매도 압박에 직면하면서 단기 조정국면. 일본·호주의 AI 인프라 투자 수요는 중기적 수요처 확보하나, 단기 테크 수익 실현 심화.",
       "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-16-2026?mod=rss_markets_main"
+        },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/tech/ai/nvidia-noetra-to-build-ai-factory-to-power-japans-ai-ambitions-95e74210"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/the-investors-riding-along-with-strategys-bitcoin-rollercoaster-073e999d?mod=rss_markets_main"
         }
       ]
     },
     "S&P500": {
-      "summary": "6월 물가 지표 동반 약화로 인플레이션 완화 신호 강화. CPI 3.5%(기대 3.8% 하회), PPI·도매가 각각 마이너스 기록. 신규 실업수당 청구 208,000건(예상 하회)으로 고용 강세, 중국 최저 성장·유로존 산업생산 부진·호르무즈 긴장으로 글로벌 경기 및 에너지·금리 정책 불확실성 심화.",
+      "summary": "고용·물가 둔화로 연준 금리 인하 기대감 부각. 주간 실업수당 청구 20.8만 건(예상 하회), 소비자물가 3.5% 연율(예상 3.8% 대비 둔화). 다만 중국 성장률 둔화, 유로존 산업생산 악화, 에너지 공급난 등 글로벌 경제 악재 가중·중동 분쟁 재격화로 스태그플레이션 우려 상존.",
       "sources": [
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-unexpectedly-dropped-last-week-0fff4bbb"
+        },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html"
         },
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/u-s-producer-price-index-fell-in-june-276a72e9"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-unexpectedly-dropped-last-week-0fff4bbb"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/15/china-gdp-retail-sales-investment-june-.html"
         }
       ]
     },
     "DOW": {
-      "summary": "월가 금융주 실적 호조(JPMorgan·Goldman 트레이딩 수익 최고)로 대형주 우위 지속. 막대한 주식 발행 물결 본격화, 주택 규제 정책 도입(대형 투자자 제한), 미-이란 군사 충돌 격화(지상군 투입 검토)로 경기민감주 하단 리스크 심화. Chevron 이라크 유전 개발 탐색 등 에너지 기업 전략적 대응 가시화.",
+      "summary": "금융주 실적 호조·트레이딩 수익 최고 기록으로 우상향. 미국 은행권 2분기 수익성 최강. 다만 중동 긴장 고조, 디젤 공급 부족으로 산업재·에너지 부문 수익성 약화 우려 심화.",
       "sources": [
         {
           "name": "WSJ",
@@ -6411,28 +6411,26 @@
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/blockbuster-stock-sales-are-threatening-to-overwhelm-the-bull-market-0ef50ef7?mod=rss_markets_main"
+          "url": "https://www.wsj.com/business/earnings/u-s-bancorp-quarterly-revenue-rises-to-record-9516a2aa?mod=rss_markets_main"
         },
         {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/chevron-will-explore-creating-strait-of-hormuz-alternative-for-iraqi-oil-36308abf"
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/commodities-futures/sharp-drop-in-diesel-supplies-threatens-to-rev-up-inflation-again-372a2983?mod=rss_markets_main"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-07-17T04:10:06.536596+09:00",
+    "as_of_kst": "2026-07-17T04:20:03.426524+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7571.25,
-        "change_pct": -0.57,
+        "point": 7566.25,
+        "change_pct": -0.64,
         "spark": [
           7615.0,
-          7607.0,
-          7604.75,
           7596.5,
           7597.75,
           7589.25,
@@ -6470,21 +6468,23 @@
           7571.5,
           7571.5,
           7574.5,
-          7571.25
+          7567.0,
+          7566.5,
+          7566.25
         ],
         "candle": {
           "o": 7615.0,
           "h": 7632.0,
-          "l": 7568.0,
-          "c": 7571.25
+          "l": 7565.25,
+          "c": 7566.25
         },
         "range_240d": {
           "low": 6264.5,
           "high": 7623.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 20.86,
-          "high_change_pct": -0.69
+          "low_change_pct": 20.78,
+          "high_change_pct": -0.75
         },
         "daily_expanded": [
           {
@@ -8499,26 +8499,26 @@
             "date": "2026-07-16",
             "o": 7615.0,
             "h": 7632.0,
-            "l": 7568.0,
-            "c": 7571.25,
-            "v": 985261
+            "l": 7565.25,
+            "c": 7566.25,
+            "v": 1003346
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "6월 물가 지표 동반 약화로 인플레이션 완화 신호 강화. CPI 3.5%(기대 3.8% 하회), PPI·도매가 각각 마이너스 기록. 신규 실업수당 청구 208,000건(예상 하회)으로 고용 강세, 중국 최저 성장·유로존 산업생산 부진·호르무즈 긴장으로 글로벌 경기 및 에너지·금리 정책 불확실성 심화.",
+          "summary": "고용·물가 둔화로 연준 금리 인하 기대감 부각. 주간 실업수당 청구 20.8만 건(예상 하회), 소비자물가 3.5% 연율(예상 3.8% 대비 둔화). 다만 중국 성장률 둔화, 유로존 산업생산 악화, 에너지 공급난 등 글로벌 경제 악재 가중·중동 분쟁 재격화로 스태그플레이션 우려 상존.",
           "sources": [
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-unexpectedly-dropped-last-week-0fff4bbb"
+            },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html"
             },
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/u-s-producer-price-index-fell-in-june-276a72e9"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-unexpectedly-dropped-last-week-0fff4bbb"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/07/15/china-gdp-retail-sales-investment-june-.html"
             }
           ]
         }
@@ -8526,12 +8526,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29209.5,
-        "change_pct": -1.63,
+        "point": 29183.0,
+        "change_pct": -1.72,
         "spark": [
           29709.0,
-          29419.0,
-          29392.0,
           29339.5,
           29338.75,
           29293.25,
@@ -8569,21 +8567,23 @@
           29212.25,
           29210.5,
           29228.25,
-          29209.5
+          29184.75,
+          29183.75,
+          29183.0
         ],
         "candle": {
           "o": 29709.0,
           "h": 29797.0,
-          "l": 29198.5,
-          "c": 29212.75
+          "l": 29176.25,
+          "c": 29183.0
         },
         "range_240d": {
           "low": 22883.75,
           "high": 30712.75,
           "low_date": "2025-08-01",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.66,
-          "high_change_pct": -4.88
+          "low_change_pct": 27.53,
+          "high_change_pct": -4.98
         },
         "daily_expanded": [
           {
@@ -10598,22 +10598,22 @@
             "date": "2026-07-16",
             "o": 29709.0,
             "h": 29797.0,
-            "l": 29198.5,
-            "c": 29212.75,
-            "v": 402812
+            "l": 29176.25,
+            "c": 29183.0,
+            "v": 410514
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "반도체 수요 강세로 나스닥100 선물 동조. 일본 정부의 Nvidia 차기세대 칩 대량 구매 결정 등 AI 인프라 투자 열풍 지속. 비트코인 보유 기술주(Microstrategy) 연중 낙폭 40% 극복 못하는 등 성장주 변동성 상존.",
+          "summary": "반도체 약세 신호 강화 중. 나스닥100 선물 칩 종목들이 매도 압박에 직면하면서 단기 조정국면. 일본·호주의 AI 인프라 투자 수요는 중기적 수요처 확보하나, 단기 테크 수익 실현 심화.",
           "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-16-2026?mod=rss_markets_main"
+            },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/tech/ai/nvidia-noetra-to-build-ai-factory-to-power-japans-ai-ambitions-95e74210"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/the-investors-riding-along-with-strategys-bitcoin-rollercoaster-073e999d?mod=rss_markets_main"
             }
           ]
         }
@@ -10621,12 +10621,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52711.0,
-        "change_pct": -0.36,
+        "point": 52678.0,
+        "change_pct": -0.42,
         "spark": [
           52919.0,
-          53008.0,
-          53009.0,
           52964.0,
           52995.0,
           52892.0,
@@ -10664,21 +10662,23 @@
           52706.0,
           52715.0,
           52731.0,
-          52711.0
+          52686.0,
+          52687.0,
+          52678.0
         ],
         "candle": {
           "o": 52919.0,
           "h": 53108.0,
-          "l": 52686.0,
-          "c": 52711.0
+          "l": 52674.0,
+          "c": 52678.0
         },
         "range_240d": {
           "low": 43710.0,
           "high": 53372.0,
           "low_date": "2025-08-01",
           "high_date": "2026-07-06",
-          "low_change_pct": 20.59,
-          "high_change_pct": -1.24
+          "low_change_pct": 20.52,
+          "high_change_pct": -1.3
         },
         "daily_expanded": [
           {
@@ -12693,14 +12693,14 @@
             "date": "2026-07-16",
             "o": 52919.0,
             "h": 53108.0,
-            "l": 52686.0,
-            "c": 52711.0,
-            "v": 72671
+            "l": 52674.0,
+            "c": 52678.0,
+            "v": 73409
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "월가 금융주 실적 호조(JPMorgan·Goldman 트레이딩 수익 최고)로 대형주 우위 지속. 막대한 주식 발행 물결 본격화, 주택 규제 정책 도입(대형 투자자 제한), 미-이란 군사 충돌 격화(지상군 투입 검토)로 경기민감주 하단 리스크 심화. Chevron 이라크 유전 개발 탐색 등 에너지 기업 전략적 대응 가시화.",
+          "summary": "금융주 실적 호조·트레이딩 수익 최고 기록으로 우상향. 미국 은행권 2분기 수익성 최강. 다만 중동 긴장 고조, 디젤 공급 부족으로 산업재·에너지 부문 수익성 약화 우려 심화.",
           "sources": [
             {
               "name": "WSJ",
@@ -12708,16 +12708,16 @@
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/blockbuster-stock-sales-are-threatening-to-overwhelm-the-bull-market-0ef50ef7?mod=rss_markets_main"
+              "url": "https://www.wsj.com/business/earnings/u-s-bancorp-quarterly-revenue-rises-to-record-9516a2aa?mod=rss_markets_main"
             },
             {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/chevron-will-explore-creating-strait-of-hormuz-alternative-for-iraqi-oil-36308abf"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/commodities-futures/sharp-drop-in-diesel-supplies-threatens-to-rev-up-inflation-again-372a2983?mod=rss_markets_main"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-07-17T04:12:45.802629+09:00"
+  "intraday_refreshed_kst": "2026-07-17T04:20:07.076198+09:00"
 }
