@@ -1,22 +1,25 @@
 {
   "date": "2026-07-16",
-  "generated_at": "2026-07-16T09:05:27.645986",
+  "generated_at": "2026-07-16T09:15:10.460670",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
   "themes_macro_summary": [],
-  "themes_tree": null,
+  "themes_tree": {
+    "date": "2026-07-16",
+    "roots": []
+  },
   "stocks": [
     {
       "code": "011090",
       "name": "에넥스",
       "rank": 1,
-      "trade_amount": 4196000000,
-      "change_pct": 0.0,
-      "close_price": 2120,
-      "open_price": 2120,
-      "high_price": 2120,
-      "low_price": 2120,
+      "trade_amount": 4500000000,
+      "change_pct": 29.95,
+      "close_price": 2755,
+      "open_price": 2650,
+      "high_price": 2755,
+      "low_price": 2455,
       "industry": "가구 제조업",
       "sector": "씽크상판,주방기기,목재케비넷,유해가스저감장치시설 제조,판매",
       "themes": [
@@ -54,17 +57,17 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": -4.39,
-      "index_multiple_current": -0.0,
+      "index_change_pct": -4.33,
+      "index_multiple_current": -6.92,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 4170,
         "high_date": "2025-12-05",
-        "high_pct": -49.16,
+        "high_pct": -33.93,
         "low": 908,
         "low_date": "2026-07-08",
-        "low_pct": 133.48,
-        "current": 2120
+        "low_pct": 203.41,
+        "current": 2755
       },
       "daily_20": [
         {
@@ -202,10 +205,10 @@
         },
         {
           "date": "2026-07-16",
-          "o": 2120,
-          "h": 2120,
-          "l": 2120,
-          "c": 2120
+          "o": 2650,
+          "h": 2755,
+          "l": 2455,
+          "c": 2755
         }
       ],
       "status_badges": [
@@ -218,7 +221,7 @@
               "desc": "5일 전(2026-07-09) 대비 +60%↑",
               "base_price": 930,
               "threshold": 1488,
-              "current": 2120,
+              "current": 2755,
               "triggered": true
             }
           ],
@@ -239,11 +242,11 @@
           "severity": "hot",
           "source": "v1_condition",
           "view_date": "2026-07-16",
-          "summary": "에넥스 상한가 (0.00%)",
-          "cur_prc": 2120,
-          "flu_rt": 0.0,
-          "trde_qty": 1567828,
-          "trde_prica_calc": 4196000000,
+          "summary": "에넥스 상한가 (29.95%)",
+          "cur_prc": 2755,
+          "flu_rt": 29.95,
+          "trde_qty": 1679372,
+          "trde_prica_calc": 4500000000,
           "consecutive_count": 4,
           "effect_badges": [
             {
@@ -258,8 +261,18 @@
           "next_trading_day": "2026-07-17"
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 2650,
+        "base": 2650,
+        "prices": [
+          2650,
+          2755,
+          2755
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "투자주의",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰",
@@ -267,37 +280,211 @@
       "parent_theme": ""
     },
     {
-      "code": "093240",
-      "name": "형지엘리트",
+      "code": "023790",
+      "name": "동일스틸럭스",
       "rank": 2,
-      "trade_amount": 803000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
-      "industry": null,
-      "sector": null,
-      "themes": [],
-      "theme_paths": [],
+      "trade_amount": 1511000000,
+      "change_pct": 29.97,
+      "close_price": 1583,
+      "open_price": 1286,
+      "high_price": 1583,
+      "low_price": 1254,
+      "industry": "1차 철강 제조업",
+      "sector": "봉강",
+      "themes": [
+        "철강"
+      ],
+      "theme_paths": [
+        {
+          "name": "철강",
+          "path": [
+            "철강"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
-      "bullish_today": false,
-      "bullish_streak": 0,
-      "bullish_dates": [],
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-06-17",
+        "2026-06-22",
+        "2026-07-16"
+      ],
       "news": [],
       "fallback": true,
+      "theme_crosscheck": {
+        "confirmed": [
+          "철강"
+        ],
+        "pm320_only": [],
+        "cafe_only": []
+      },
+      "index_change_pct": -2.42,
+      "index_multiple_current": -12.38,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 8807,
+        "high_date": "2025-09-11",
+        "high_pct": -82.03,
+        "low": 991,
+        "low_date": "2026-06-11",
+        "low_pct": 59.74,
+        "current": 1583
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-19",
+          "o": 1632,
+          "h": 1880,
+          "l": 1350,
+          "c": 1395
+        },
+        {
+          "date": "2026-06-22",
+          "o": 1380,
+          "h": 1813,
+          "l": 1233,
+          "c": 1610
+        },
+        {
+          "date": "2026-06-23",
+          "o": 1610,
+          "h": 2085,
+          "l": 1500,
+          "c": 1730
+        },
+        {
+          "date": "2026-06-24",
+          "o": 1730,
+          "h": 1863,
+          "l": 1600,
+          "c": 1602
+        },
+        {
+          "date": "2026-06-25",
+          "o": 1564,
+          "h": 1650,
+          "l": 1362,
+          "c": 1400
+        },
+        {
+          "date": "2026-06-26",
+          "o": 1400,
+          "h": 1477,
+          "l": 1267,
+          "c": 1267
+        },
+        {
+          "date": "2026-06-29",
+          "o": 1271,
+          "h": 1385,
+          "l": 1271,
+          "c": 1308
+        },
+        {
+          "date": "2026-06-30",
+          "o": 1350,
+          "h": 1350,
+          "l": 1210,
+          "c": 1264
+        },
+        {
+          "date": "2026-07-01",
+          "o": 1264,
+          "h": 1327,
+          "l": 1200,
+          "c": 1317
+        },
+        {
+          "date": "2026-07-02",
+          "o": 1344,
+          "h": 1344,
+          "l": 1186,
+          "c": 1186
+        },
+        {
+          "date": "2026-07-03",
+          "o": 1186,
+          "h": 1199,
+          "l": 1095,
+          "c": 1138
+        },
+        {
+          "date": "2026-07-06",
+          "o": 1138,
+          "h": 1290,
+          "l": 1115,
+          "c": 1141
+        },
+        {
+          "date": "2026-07-07",
+          "o": 1179,
+          "h": 1179,
+          "l": 1063,
+          "c": 1101
+        },
+        {
+          "date": "2026-07-08",
+          "o": 1130,
+          "h": 1170,
+          "l": 1041,
+          "c": 1052
+        },
+        {
+          "date": "2026-07-09",
+          "o": 1052,
+          "h": 1070,
+          "l": 997,
+          "c": 1010
+        },
+        {
+          "date": "2026-07-10",
+          "o": 1040,
+          "h": 1160,
+          "l": 1013,
+          "c": 1086
+        },
+        {
+          "date": "2026-07-13",
+          "o": 1086,
+          "h": 1250,
+          "l": 1086,
+          "c": 1138
+        },
+        {
+          "date": "2026-07-14",
+          "o": 1139,
+          "h": 1196,
+          "l": 1057,
+          "c": 1163
+        },
+        {
+          "date": "2026-07-15",
+          "o": 1163,
+          "h": 1229,
+          "l": 1145,
+          "c": 1218
+        },
+        {
+          "date": "2026-07-16",
+          "o": 1286,
+          "h": 1583,
+          "l": 1254,
+          "c": 1583
+        }
+      ],
       "status_badges": [
         {
           "label": "상한가",
           "severity": "hot",
           "source": "v1_condition",
           "view_date": "2026-07-16",
-          "summary": "형지엘리트 상한가 (29.86%)",
-          "cur_prc": null,
-          "flu_rt": 29.86,
-          "trde_qty": 1091387,
-          "trde_prica_calc": 803000000,
+          "summary": "동일스틸럭스 상한가 (29.97%)",
+          "cur_prc": 1583,
+          "flu_rt": 29.97,
+          "trde_qty": 977254,
+          "trde_prica_calc": 1511000000,
           "consecutive_count": 1,
           "effect_badges": [
             {
@@ -313,7 +500,247 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
+      "code": "093240",
+      "name": "형지엘리트",
+      "rank": 3,
+      "trade_amount": 988000000,
+      "change_pct": 29.86,
+      "close_price": 735,
+      "open_price": 735,
+      "high_price": 735,
+      "low_price": 735,
+      "industry": "봉제의복 제조업",
+      "sector": "학생복,스포츠의류,작업복 제조,도매",
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [
+        "2026-07-15"
+      ],
+      "news": [],
+      "fallback": true,
+      "index_change_pct": -4.33,
+      "index_multiple_current": -6.9,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 3063,
+        "high_date": "2025-07-23",
+        "high_pct": -76.0,
+        "low": 405,
+        "low_date": "2026-07-08",
+        "low_pct": 81.48,
+        "current": 735
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-19",
+          "o": 670,
+          "h": 796,
+          "l": 663,
+          "c": 688
+        },
+        {
+          "date": "2026-06-22",
+          "o": 680,
+          "h": 682,
+          "l": 580,
+          "c": 592
+        },
+        {
+          "date": "2026-06-23",
+          "o": 590,
+          "h": 620,
+          "l": 559,
+          "c": 561
+        },
+        {
+          "date": "2026-06-24",
+          "o": 561,
+          "h": 599,
+          "l": 560,
+          "c": 586
+        },
+        {
+          "date": "2026-06-25",
+          "o": 580,
+          "h": 620,
+          "l": 548,
+          "c": 575
+        },
+        {
+          "date": "2026-06-26",
+          "o": 575,
+          "h": 577,
+          "l": 535,
+          "c": 550
+        },
+        {
+          "date": "2026-06-29",
+          "o": 550,
+          "h": 577,
+          "l": 542,
+          "c": 571
+        },
+        {
+          "date": "2026-06-30",
+          "o": 571,
+          "h": 641,
+          "l": 557,
+          "c": 576
+        },
+        {
+          "date": "2026-07-01",
+          "o": 571,
+          "h": 607,
+          "l": 568,
+          "c": 591
+        },
+        {
+          "date": "2026-07-02",
+          "o": 598,
+          "h": 607,
+          "l": 573,
+          "c": 592
+        },
+        {
+          "date": "2026-07-03",
+          "o": 592,
+          "h": 602,
+          "l": 573,
+          "c": 586
+        },
+        {
+          "date": "2026-07-06",
+          "o": 576,
+          "h": 595,
+          "l": 567,
+          "c": 575
+        },
+        {
+          "date": "2026-07-07",
+          "o": 570,
+          "h": 578,
+          "l": 470,
+          "c": 471
+        },
+        {
+          "date": "2026-07-08",
+          "o": 479,
+          "h": 516,
+          "l": 405,
+          "c": 425
+        },
+        {
+          "date": "2026-07-09",
+          "o": 406,
+          "h": 445,
+          "l": 406,
+          "c": 438
+        },
+        {
+          "date": "2026-07-10",
+          "o": 455,
+          "h": 486,
+          "l": 436,
+          "c": 482
+        },
+        {
+          "date": "2026-07-13",
+          "o": 467,
+          "h": 528,
+          "l": 467,
+          "c": 478
+        },
+        {
+          "date": "2026-07-14",
+          "o": 478,
+          "h": 480,
+          "l": 450,
+          "c": 475
+        },
+        {
+          "date": "2026-07-15",
+          "o": 478,
+          "h": 607,
+          "l": 475,
+          "c": 566
+        },
+        {
+          "date": "2026-07-16",
+          "o": 735,
+          "h": 735,
+          "l": 735,
+          "c": 735
+        }
+      ],
+      "status_badges": [
+        {
+          "label": "투자주의 근접",
+          "severity": "caution",
+          "source": "predicted",
+          "thresholds": [
+            {
+              "desc": "5일 전(2026-07-09) 대비 +60%↑",
+              "base_price": 438,
+              "threshold": 700,
+              "current": 735,
+              "triggered": true
+            }
+          ],
+          "regulation": "KRX 시장경보 가격 조건 충족 (거래량 미검증, 자체 추정)",
+          "period_start": "2026-07-17",
+          "period_end": "2026-07-20",
+          "start": "2026-07-17",
+          "end": "2026-07-20",
+          "view_date": "2026-07-16",
+          "next_trading_day": "2026-07-17",
+          "next_trading_day_for_predicted": "2026-07-17",
+          "next_trading_day_source": "fallback_homepage",
+          "single_price": false,
+          "effect_badges": []
+        },
+        {
+          "label": "상한가",
+          "severity": "hot",
+          "source": "v1_condition",
+          "view_date": "2026-07-16",
+          "summary": "형지엘리트 상한가 (29.86%)",
+          "cur_prc": 735,
+          "flu_rt": 29.86,
+          "trde_qty": 1344860,
+          "trde_prica_calc": 988000000,
+          "consecutive_count": 1,
+          "effect_badges": [
+            {
+              "effect": "limit-up",
+              "when": "today",
+              "severity": "hot",
+              "source_label": "상한가",
+              "source_kind": "limit_up",
+              "consecutive_count": 1
+            }
+          ],
+          "next_trading_day": "2026-07-17"
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 735,
+        "base": 735,
+        "prices": [
+          735,
+          735,
+          735
+        ]
+      },
+      "credit_risk": true,
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
@@ -321,13 +748,13 @@
     {
       "code": "002070",
       "name": "비비안",
-      "rank": 3,
-      "trade_amount": 623000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
+      "rank": 4,
+      "trade_amount": 748000000,
+      "change_pct": 29.94,
+      "close_price": 13800,
+      "open_price": 13800,
+      "high_price": 13800,
+      "low_price": 13800,
       "industry": "봉제의복 제조업",
       "sector": "여성내의류(스타킹,화운데이숀,란제리),카바링사 제조,수출입/부동산 매매,임대",
       "themes": [],
@@ -341,7 +768,10 @@
       },
       "bullish_today": false,
       "bullish_streak": 0,
-      "bullish_dates": [],
+      "bullish_dates": [
+        "2026-07-14",
+        "2026-07-15"
+      ],
       "news": [
         {
           "title": "[MK 골든크로스 돌파종목 : 동양파일(228340) & 비비안(002070)]",
@@ -377,15 +807,17 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": -4.39,
+      "index_change_pct": -4.33,
+      "index_multiple_current": -6.91,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 31746,
         "high_date": "2025-07-04",
-        "high_pct": -66.55,
+        "high_pct": -56.53,
         "low": 5950,
         "low_date": "2026-07-03",
-        "low_pct": 78.49,
-        "current": 10620
+        "low_pct": 131.93,
+        "current": 13800
       },
       "daily_20": [
         {
@@ -531,15 +963,40 @@
       ],
       "status_badges": [
         {
+          "label": "투자주의 근접",
+          "severity": "caution",
+          "source": "predicted",
+          "thresholds": [
+            {
+              "desc": "5일 전(2026-07-09) 대비 +60%↑",
+              "base_price": 5980,
+              "threshold": 9568,
+              "current": 13800,
+              "triggered": true
+            }
+          ],
+          "regulation": "KRX 시장경보 가격 조건 충족 (거래량 미검증, 자체 추정)",
+          "period_start": "2026-07-17",
+          "period_end": "2026-07-20",
+          "start": "2026-07-17",
+          "end": "2026-07-20",
+          "view_date": "2026-07-16",
+          "next_trading_day": "2026-07-17",
+          "next_trading_day_for_predicted": "2026-07-17",
+          "next_trading_day_source": "fallback_homepage",
+          "single_price": false,
+          "effect_badges": []
+        },
+        {
           "label": "상한가",
           "severity": "hot",
           "source": "v1_condition",
           "view_date": "2026-07-16",
           "summary": "비비안 상한가 (29.94%)",
-          "cur_prc": null,
+          "cur_prc": 13800,
           "flu_rt": 29.94,
-          "trde_qty": 45158,
-          "trde_prica_calc": 623000000,
+          "trde_qty": 54209,
+          "trde_prica_calc": 748000000,
           "consecutive_count": 3,
           "effect_badges": [
             {
@@ -554,86 +1011,18 @@
           "next_trading_day": "2026-07-17"
         }
       ],
-      "credit_risk": true,
-      "credit_reason": "투자경고",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
-    },
-    {
-      "code": "011080",
-      "name": "형지I&C",
-      "rank": 4,
-      "trade_amount": 335000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
-      "industry": null,
-      "sector": null,
-      "themes": [],
-      "theme_paths": [],
-      "pick_count": 1,
-      "prev_pick": null,
-      "bullish_today": false,
-      "bullish_streak": 0,
-      "bullish_dates": [],
-      "news": [
-        {
-          "title": "형지I&C, 中 국영기관 네트워크 구축 완료…연내 상하이 팝업스토어 추진",
-          "url": "https://view.asiae.co.kr/article/2026062209490648636",
-          "source": "아시아경제",
-          "published_at": "2026-06-22T00:49:06",
-          "causal_chain": null,
-          "macro_event": null,
-          "newzy_freshness": null,
-          "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
-          "newzy_tradability": null,
-          "newzy_score": null,
-          "newzy_verdict": null,
-          "article_type": null
-        }
-      ],
-      "fallback": true,
-      "range_240d": {
-        "high": 13016,
-        "high_date": "2025-07-22",
-        "high_pct": -80.72,
-        "low": 1889,
-        "low_date": "2026-06-02",
-        "low_pct": 32.87,
-        "current": null
+      "intraday": {
+        "step_min": 5,
+        "open": 13800,
+        "base": 13800,
+        "prices": [
+          13800,
+          13800,
+          13800
+        ]
       },
-      "status_badges": [
-        {
-          "label": "상한가",
-          "severity": "hot",
-          "source": "v1_condition",
-          "view_date": "2026-07-16",
-          "summary": "형지I&C 상한가 (29.93%)",
-          "cur_prc": null,
-          "flu_rt": 29.93,
-          "trde_qty": 117010,
-          "trde_prica_calc": 335000000,
-          "consecutive_count": 1,
-          "effect_badges": [
-            {
-              "effect": "limit-up",
-              "when": "today",
-              "severity": "hot",
-              "source_label": "상한가",
-              "source_kind": "limit_up",
-              "consecutive_count": 1
-            }
-          ],
-          "next_trading_day": "2026-07-17"
-        }
-      ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
@@ -642,14 +1031,14 @@
       "code": "308100",
       "name": "형지글로벌",
       "rank": 5,
-      "trade_amount": 321000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
-      "industry": null,
-      "sector": null,
+      "trade_amount": 735000000,
+      "change_pct": 29.9,
+      "close_price": 656,
+      "open_price": 656,
+      "high_price": 656,
+      "low_price": 656,
+      "industry": "섬유, 의복, 신발 및 가죽제품 소매업",
+      "sector": "골프의류 및 골프잡화",
       "themes": [
         "3자배정증자"
       ],
@@ -665,7 +1054,9 @@
       "prev_pick": null,
       "bullish_today": false,
       "bullish_streak": 0,
-      "bullish_dates": [],
+      "bullish_dates": [
+        "2026-06-30"
+      ],
       "news": [
         {
           "title": "형지글로벌, 10억원 규모 제3자배정 유상증자 결정",
@@ -685,15 +1076,160 @@
         }
       ],
       "fallback": true,
+      "index_change_pct": -2.42,
+      "index_multiple_current": -12.36,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 5000,
         "high_date": "2025-07-23",
-        "high_pct": -89.74,
-        "low": 483,
-        "low_date": "2026-06-23",
-        "low_pct": 6.21,
-        "current": null
+        "high_pct": -86.88,
+        "low": 440,
+        "low_date": "2026-07-14",
+        "low_pct": 49.09,
+        "current": 656
       },
+      "daily_20": [
+        {
+          "date": "2026-06-19",
+          "o": 575,
+          "h": 735,
+          "l": 560,
+          "c": 615
+        },
+        {
+          "date": "2026-06-22",
+          "o": 615,
+          "h": 629,
+          "l": 529,
+          "c": 530
+        },
+        {
+          "date": "2026-06-23",
+          "o": 530,
+          "h": 593,
+          "l": 483,
+          "c": 486
+        },
+        {
+          "date": "2026-06-24",
+          "o": 488,
+          "h": 530,
+          "l": 488,
+          "c": 528
+        },
+        {
+          "date": "2026-06-25",
+          "o": 560,
+          "h": 571,
+          "l": 498,
+          "c": 522
+        },
+        {
+          "date": "2026-06-26",
+          "o": 515,
+          "h": 523,
+          "l": 495,
+          "c": 522
+        },
+        {
+          "date": "2026-06-29",
+          "o": 522,
+          "h": 530,
+          "l": 490,
+          "c": 501
+        },
+        {
+          "date": "2026-06-30",
+          "o": 500,
+          "h": 651,
+          "l": 491,
+          "c": 651
+        },
+        {
+          "date": "2026-07-01",
+          "o": 640,
+          "h": 684,
+          "l": 546,
+          "c": 553
+        },
+        {
+          "date": "2026-07-02",
+          "o": 561,
+          "h": 569,
+          "l": 524,
+          "c": 524
+        },
+        {
+          "date": "2026-07-03",
+          "o": 519,
+          "h": 533,
+          "l": 500,
+          "c": 511
+        },
+        {
+          "date": "2026-07-06",
+          "o": 505,
+          "h": 543,
+          "l": 500,
+          "c": 513
+        },
+        {
+          "date": "2026-07-07",
+          "o": 515,
+          "h": 529,
+          "l": 494,
+          "c": 500
+        },
+        {
+          "date": "2026-07-08",
+          "o": 501,
+          "h": 569,
+          "l": 481,
+          "c": 482
+        },
+        {
+          "date": "2026-07-09",
+          "o": 482,
+          "h": 490,
+          "l": 441,
+          "c": 481
+        },
+        {
+          "date": "2026-07-10",
+          "o": 481,
+          "h": 500,
+          "l": 475,
+          "c": 484
+        },
+        {
+          "date": "2026-07-13",
+          "o": 497,
+          "h": 530,
+          "l": 490,
+          "c": 490
+        },
+        {
+          "date": "2026-07-14",
+          "o": 516,
+          "h": 516,
+          "l": 440,
+          "c": 460
+        },
+        {
+          "date": "2026-07-15",
+          "o": 498,
+          "h": 547,
+          "l": 465,
+          "c": 505
+        },
+        {
+          "date": "2026-07-16",
+          "o": 656,
+          "h": 656,
+          "l": 656,
+          "c": 656
+        }
+      ],
       "status_badges": [
         {
           "label": "상한가",
@@ -701,10 +1237,462 @@
           "source": "v1_condition",
           "view_date": "2026-07-16",
           "summary": "형지글로벌 상한가 (29.90%)",
-          "cur_prc": null,
+          "cur_prc": 656,
           "flu_rt": 29.9,
-          "trde_qty": 488742,
-          "trde_prica_calc": 321000000,
+          "trde_qty": 1120634,
+          "trde_prica_calc": 735000000,
+          "consecutive_count": 1,
+          "effect_badges": [
+            {
+              "effect": "limit-up",
+              "when": "today",
+              "severity": "hot",
+              "source_label": "상한가",
+              "source_kind": "limit_up",
+              "consecutive_count": 1
+            }
+          ],
+          "next_trading_day": "2026-07-17"
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 656,
+        "base": 656,
+        "prices": [
+          656,
+          656,
+          656
+        ]
+      },
+      "credit_risk": true,
+      "credit_reason": "회사한도초과",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
+    },
+    {
+      "code": "011080",
+      "name": "형지I&C",
+      "rank": 6,
+      "trade_amount": 539000000,
+      "change_pct": 29.93,
+      "close_price": 2865,
+      "open_price": 2865,
+      "high_price": 2865,
+      "low_price": 2865,
+      "industry": "봉제의복 제조업",
+      "sector": "의복, 악세사리",
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [
+        "2026-06-15",
+        "2026-06-19",
+        "2026-07-15"
+      ],
+      "news": [
+        {
+          "title": "형지I&C, 中 국영기관 네트워크 구축 완료…연내 상하이 팝업스토어 추진",
+          "url": "https://view.asiae.co.kr/article/2026062209490648636",
+          "source": "아시아경제",
+          "published_at": "2026-06-22T00:49:06",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        }
+      ],
+      "fallback": true,
+      "index_change_pct": -2.42,
+      "index_multiple_current": -12.37,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 14354,
+        "high_date": "2025-07-03",
+        "high_pct": -80.04,
+        "low": 1847,
+        "low_date": "2026-07-09",
+        "low_pct": 55.12,
+        "current": 2865
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-19",
+          "o": 2710,
+          "h": 3515,
+          "l": 2710,
+          "c": 3515
+        },
+        {
+          "date": "2026-06-22",
+          "o": 3215,
+          "h": 3400,
+          "l": 2760,
+          "c": 2765
+        },
+        {
+          "date": "2026-06-23",
+          "o": 2765,
+          "h": 3290,
+          "l": 2665,
+          "c": 2820
+        },
+        {
+          "date": "2026-06-24",
+          "o": 2995,
+          "h": 3130,
+          "l": 2570,
+          "c": 2680
+        },
+        {
+          "date": "2026-06-25",
+          "o": 2600,
+          "h": 2730,
+          "l": 2430,
+          "c": 2515
+        },
+        {
+          "date": "2026-06-26",
+          "o": 2475,
+          "h": 2530,
+          "l": 2150,
+          "c": 2305
+        },
+        {
+          "date": "2026-06-29",
+          "o": 2360,
+          "h": 2500,
+          "l": 2305,
+          "c": 2415
+        },
+        {
+          "date": "2026-06-30",
+          "o": 2525,
+          "h": 3085,
+          "l": 2275,
+          "c": 2690
+        },
+        {
+          "date": "2026-07-01",
+          "o": 2655,
+          "h": 2680,
+          "l": 2420,
+          "c": 2440
+        },
+        {
+          "date": "2026-07-02",
+          "o": 2570,
+          "h": 2570,
+          "l": 2300,
+          "c": 2300
+        },
+        {
+          "date": "2026-07-03",
+          "o": 2300,
+          "h": 2480,
+          "l": 2230,
+          "c": 2370
+        },
+        {
+          "date": "2026-07-06",
+          "o": 2350,
+          "h": 2430,
+          "l": 2170,
+          "c": 2225
+        },
+        {
+          "date": "2026-07-07",
+          "o": 2290,
+          "h": 2290,
+          "l": 1932,
+          "c": 1967
+        },
+        {
+          "date": "2026-07-08",
+          "o": 2090,
+          "h": 2520,
+          "l": 1967,
+          "c": 1984
+        },
+        {
+          "date": "2026-07-09",
+          "o": 1984,
+          "h": 2135,
+          "l": 1847,
+          "c": 1915
+        },
+        {
+          "date": "2026-07-10",
+          "o": 2060,
+          "h": 2060,
+          "l": 1926,
+          "c": 1980
+        },
+        {
+          "date": "2026-07-13",
+          "o": 2070,
+          "h": 2115,
+          "l": 1900,
+          "c": 1989
+        },
+        {
+          "date": "2026-07-14",
+          "o": 1977,
+          "h": 1977,
+          "l": 1848,
+          "c": 1898
+        },
+        {
+          "date": "2026-07-15",
+          "o": 1898,
+          "h": 2300,
+          "l": 1897,
+          "c": 2205
+        },
+        {
+          "date": "2026-07-16",
+          "o": 2865,
+          "h": 2865,
+          "l": 2865,
+          "c": 2865
+        }
+      ],
+      "status_badges": [
+        {
+          "label": "상한가",
+          "severity": "hot",
+          "source": "v1_condition",
+          "view_date": "2026-07-16",
+          "summary": "형지I&C 상한가 (29.93%)",
+          "cur_prc": 2865,
+          "flu_rt": 29.93,
+          "trde_qty": 188218,
+          "trde_prica_calc": 539000000,
+          "consecutive_count": 1,
+          "effect_badges": [
+            {
+              "effect": "limit-up",
+              "when": "today",
+              "severity": "hot",
+              "source_label": "상한가",
+              "source_kind": "limit_up",
+              "consecutive_count": 1
+            }
+          ],
+          "next_trading_day": "2026-07-17"
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 2865,
+        "base": 2865,
+        "prices": [
+          2865,
+          2865,
+          2865
+        ]
+      },
+      "credit_risk": true,
+      "credit_reason": "회사한도초과",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
+    },
+    {
+      "code": "044380",
+      "name": "주연테크",
+      "rank": 7,
+      "trade_amount": 163000000,
+      "change_pct": 30.0,
+      "close_price": 1040,
+      "open_price": 868,
+      "high_price": 1040,
+      "low_price": 828,
+      "industry": null,
+      "sector": null,
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-07-16"
+      ],
+      "news": [],
+      "fallback": true,
+      "range_240d": {
+        "high": 2970,
+        "high_date": "2025-09-09",
+        "high_pct": -64.98,
+        "low": 662,
+        "low_date": "2026-07-14",
+        "low_pct": 57.1,
+        "current": 1040
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-19",
+          "o": 1410,
+          "h": 1410,
+          "l": 1291,
+          "c": 1342
+        },
+        {
+          "date": "2026-06-22",
+          "o": 1291,
+          "h": 1352,
+          "l": 1280,
+          "c": 1304
+        },
+        {
+          "date": "2026-06-23",
+          "o": 1304,
+          "h": 1317,
+          "l": 1121,
+          "c": 1125
+        },
+        {
+          "date": "2026-06-24",
+          "o": 1121,
+          "h": 1210,
+          "l": 1019,
+          "c": 1092
+        },
+        {
+          "date": "2026-06-25",
+          "o": 1092,
+          "h": 1185,
+          "l": 850,
+          "c": 964
+        },
+        {
+          "date": "2026-06-26",
+          "o": 950,
+          "h": 950,
+          "l": 870,
+          "c": 917
+        },
+        {
+          "date": "2026-06-29",
+          "o": 917,
+          "h": 980,
+          "l": 886,
+          "c": 934
+        },
+        {
+          "date": "2026-06-30",
+          "o": 934,
+          "h": 960,
+          "l": 880,
+          "c": 908
+        },
+        {
+          "date": "2026-07-01",
+          "o": 917,
+          "h": 1029,
+          "l": 917,
+          "c": 1000
+        },
+        {
+          "date": "2026-07-02",
+          "o": 1014,
+          "h": 1015,
+          "l": 938,
+          "c": 992
+        },
+        {
+          "date": "2026-07-03",
+          "o": 992,
+          "h": 992,
+          "l": 921,
+          "c": 965
+        },
+        {
+          "date": "2026-07-06",
+          "o": 965,
+          "h": 986,
+          "l": 937,
+          "c": 966
+        },
+        {
+          "date": "2026-07-07",
+          "o": 966,
+          "h": 1015,
+          "l": 920,
+          "c": 934
+        },
+        {
+          "date": "2026-07-08",
+          "o": 933,
+          "h": 946,
+          "l": 850,
+          "c": 870
+        },
+        {
+          "date": "2026-07-09",
+          "o": 880,
+          "h": 914,
+          "l": 830,
+          "c": 834
+        },
+        {
+          "date": "2026-07-10",
+          "o": 844,
+          "h": 898,
+          "l": 844,
+          "c": 873
+        },
+        {
+          "date": "2026-07-13",
+          "o": 873,
+          "h": 888,
+          "l": 720,
+          "c": 735
+        },
+        {
+          "date": "2026-07-14",
+          "o": 735,
+          "h": 800,
+          "l": 662,
+          "c": 730
+        },
+        {
+          "date": "2026-07-15",
+          "o": 730,
+          "h": 828,
+          "l": 730,
+          "c": 800
+        },
+        {
+          "date": "2026-07-16",
+          "o": 868,
+          "h": 1040,
+          "l": 828,
+          "c": 1040
+        }
+      ],
+      "status_badges": [
+        {
+          "label": "상한가",
+          "severity": "hot",
+          "source": "v1_condition",
+          "view_date": "2026-07-16",
+          "summary": "주연테크 상한가 (30.00%)",
+          "cur_prc": 1040,
+          "flu_rt": 30.0,
+          "trde_qty": 165883,
+          "trde_prica_calc": 163000000,
           "consecutive_count": 1,
           "effect_badges": [
             {
@@ -720,10 +1708,7 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
-      "togusa_verdict": "neutral",
-      "theme_leader": true,
-      "hugepark_grade": "관찰"
+      "credit_reason": "신용거래 제한 종목"
     }
   ]
 }
