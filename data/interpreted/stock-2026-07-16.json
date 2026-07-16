@@ -1,6 +1,6 @@
 {
   "date": "2026-07-16",
-  "generated_at": "2026-07-16T13:05:19.563673",
+  "generated_at": "2026-07-16T13:07:08.695820",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -9,10 +9,40 @@
     }
   ],
   "narratives": [],
-  "themes_macro_summary": [],
+  "themes_macro_summary": [
+    {
+      "keyword": "이상기후",
+      "summary": "이상기후 → 냉방·공기정화 에너지 수요 증가 → 필터·공기청정기 섹터 수혜",
+      "source_count": 1,
+      "verified": false
+    }
+  ],
   "themes_tree": {
     "date": "2026-07-16",
-    "roots": []
+    "roots": [
+      {
+        "name": "기후변화",
+        "children": [
+          {
+            "name": "폭염·이상기후 수혜",
+            "summary": "이상기후에 따른 폭염으로 에어컨·공기청정기 수요가 늘며 필터 소재 업체 매출 증가 기대",
+            "source_count": 1,
+            "verdict": "pass"
+          }
+        ]
+      },
+      {
+        "name": "신약개발",
+        "children": [
+          {
+            "name": "제약·바이오 FDA 모멘텀",
+            "summary": "HLB가 CRL(FDA 보완요구) 재이슈로 급락했으나 임상·허가 관련 빅이벤트를 앞두고 주가 변동성 확대",
+            "source_count": 1,
+            "verdict": "weak"
+          }
+        ]
+      }
+    ]
   },
   "stocks": [
     {
@@ -28,9 +58,16 @@
       "industry": "의약품 제조업",
       "sector": "타코실, 마이녹실, 테놀민, 미에로화이바 등",
       "themes": [
+        "정치테마",
         "바이오"
       ],
       "theme_paths": [
+        {
+          "name": "정치테마",
+          "path": [
+            "정치테마"
+          ]
+        },
         {
           "name": "바이오",
           "path": [
@@ -57,16 +94,16 @@
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03155366645515176",
           "source": "이데일리",
           "published_at": "2026-07-16T00:19:15",
-          "causal_chain": "",
-          "macro_event": null,
+          "causal_chain": "이재명 대통령의 낙태약 '미프진' 도입 검토 발언(정책 이벤트) → 미프진 관련 의약품을 보유·개발할 수 있는 제약사로 현대약품이 지목 → 정책 수혜 기대 매수세 집중 → 당일 종가 7,790원(+16.10%)·거래대금 1,530억원의 대규모 자금 유입 형성. 발언 이튿날까지 이틀 연속 급등 흐름으로 정책 모멘텀이 이어짐.",
+          "macro_event": "이재명 대통령 '미프진(낙태약) 도입 검토' 발언 → 미프진 관련 제약사 정책 수혜 기대",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.55,
+          "newzy_virality": 0.7,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.61,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": false,
@@ -309,9 +346,7 @@
       },
       "togusa_verdict": "strong_bull",
       "theme_leader": true,
-      "hugepark_grade": "적극",
-      "causal_chain": "",
-      "parent_theme": ""
+      "hugepark_grade": "적극"
     },
     {
       "code": "005360",
@@ -652,9 +687,27 @@
       "industry": "은행 및 저축기관",
       "sector": "은행 및 저축기관",
       "themes": [
+        "은행",
+        "금융",
+        "스테이블코인",
+        "가상자산",
         "신규상장"
       ],
       "theme_paths": [
+        {
+          "name": "은행",
+          "path": [
+            "금융",
+            "은행"
+          ]
+        },
+        {
+          "name": "스테이블코인",
+          "path": [
+            "가상자산",
+            "스테이블코인"
+          ]
+        },
         {
           "name": "신규상장",
           "path": [
@@ -673,32 +726,32 @@
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03234086645515176",
           "source": "이데일리",
           "published_at": "2026-07-16T00:35:53",
-          "causal_chain": "",
-          "macro_event": null,
+          "causal_chain": "코픽스 상승에 따른 은행권 예대마진 개선 기대로 은행주가 동반 강세를 보인 가운데, 인터넷은행 중 가장 적극적으로 스테이블코인(판게아·리플 해외송금·오프램프)과 AI 인프라 신사업을 구체화하는 케이뱅크의 미래금융 모멘텀이 부각 → 매수세 유입으로 당일 종가 6,210원(+8.00%)·거래대금 752억원 형성(52주 고가 대비 -37.1%).",
+          "macro_event": "코픽스(자금조달비용지수) 상승 → 은행권 예대마진 개선 기대로 은행주 동반 강세",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.5,
+          "newzy_virality": 0.5,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.5,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "[특징주] 폭락장 대피처, 은행株 강세…케이뱅크 등 5.9% 상승",
           "url": "https://www.etoday.co.kr/news/view/2604331",
           "source": "이투데이",
           "published_at": "2026-07-16T00:12:00",
-          "causal_chain": "",
-          "macro_event": null,
+          "causal_chain": "코픽스 상승에 따른 은행권 예대마진 개선 기대로 은행주가 동반 강세를 보인 가운데, 인터넷은행 중 가장 적극적으로 스테이블코인(판게아·리플 해외송금·오프램프)과 AI 인프라 신사업을 구체화하는 케이뱅크의 미래금융 모멘텀이 부각 → 매수세 유입으로 당일 종가 6,210원(+8.00%)·거래대금 752억원 형성(52주 고가 대비 -37.1%).",
+          "macro_event": "코픽스(자금조달비용지수) 상승 → 은행권 예대마진 개선 기대로 은행주 동반 강세",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.5,
+          "newzy_virality": 0.5,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.5,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "시세정형"
         }
       ],
       "fallback": false,
@@ -914,9 +967,7 @@
       },
       "togusa_verdict": "weak_bull",
       "theme_leader": true,
-      "hugepark_grade": "관찰",
-      "causal_chain": "",
-      "parent_theme": ""
+      "hugepark_grade": "관찰"
     },
     {
       "code": "049080",
@@ -931,11 +982,26 @@
       "industry": "전자부품 제조업",
       "sector": "RF통신부품 및 반도체 장비",
       "themes": [
+        "반도체소부장",
+        "5G",
         "반도체",
         "통신장비",
         "테스트소켓"
       ],
       "theme_paths": [
+        {
+          "name": "반도체소부장",
+          "path": [
+            "반도체",
+            "반도체소부장"
+          ]
+        },
+        {
+          "name": "5G",
+          "path": [
+            "5G"
+          ]
+        },
         {
           "name": "통신장비",
           "path": [
@@ -972,7 +1038,7 @@
           "url": "https://www.mk.co.kr/news/stock/12100008",
           "source": "매경",
           "published_at": "2026-07-16T00:45:47",
-          "causal_chain": "",
+          "causal_chain": "제공된 뉴스는 매경 MK시그널의 AI 기반 골든크로스(7월 15일 5일선의 20일선 상향 돌파) 기술적 신호 안내뿐으로, RF통신부품·반도체 장비 기업 기가레인의 펀더멘털을 움직일 실질 재료(수주·실적·정책)나 매크로 사슬이 부재하다. 당일 종가 14,050원(+19.78%)이 형성됐으나 이는 뉴스 인과가 아닌 기술적 신호 확산에 따른 얇은 수급 급등으로, 뉴스 기반 인과로 설명 가능한 본질 테마가 없다.",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -981,7 +1047,7 @@
           "newzy_tradability": null,
           "newzy_score": null,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "시세정형"
         }
       ],
       "fallback": false,
@@ -991,6 +1057,8 @@
           "통신장비"
         ],
         "pm320_only": [
+          "반도체소부장",
+          "5G",
           "테스트소켓"
         ],
         "cafe_only": []
@@ -1234,11 +1302,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bull",
+      "togusa_verdict": "strong_bull",
       "theme_leader": true,
-      "hugepark_grade": "관찰",
-      "causal_chain": "",
-      "parent_theme": ""
+      "hugepark_grade": "적극"
     },
     {
       "code": "000020",
@@ -1681,7 +1747,12 @@
           "l": 11120,
           "c": 13090
         }
-      ]
+      ],
+      "togusa_verdict": "weak_bull",
+      "theme_leader": true,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "012690",
@@ -1968,9 +2039,9 @@
           2170
         ]
       },
-      "togusa_verdict": "neutral",
+      "togusa_verdict": "weak_bear",
       "theme_leader": false,
-      "hugepark_grade": "관찰"
+      "hugepark_grade": "주의"
     },
     {
       "code": "014950",
@@ -4841,16 +4912,16 @@
           "url": "https://view.asiae.co.kr/article/2026062209490648636",
           "source": "아시아경제",
           "published_at": "2026-06-22T00:49:06",
-          "causal_chain": null,
+          "causal_chain": "제공된 뉴스는 형지I&C의 중국 국영기관 네트워크 구축 완료 및 연내 상하이 팝업스토어 추진이라는 자체 사업 확장·홍보성 단신(2026-06-22)뿐으로, 의류 종목 펀더멘털을 실질적으로 움직일 매크로 사슬이나 확정 재료가 부재하다. 당일 시초가부터 점상한가(+29.93%, 종가 2,865원)가 형성됐으나 거래대금이 7억원에 불과해 대규모 자금 유입 없는 얇은 수급의 급등으로, 뉴스 기반 인과로 설명하기 어렵다.",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.15,
+          "newzy_virality": 0.1,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.13,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": true,
