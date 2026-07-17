@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 25487.14,
+      "point": 25484.93,
       "change_pct": -1.53,
       "candle": {
         "o": 25415.19,
         "h": 25601.24,
         "l": 25250.63,
-        "c": 25487.14
+        "c": 25484.93
       },
       "range_240d": {
         "low": 20650.13,
@@ -2033,7 +2033,7 @@
           "o": 25415.19,
           "h": 25601.24,
           "l": 25250.63,
-          "c": 25487.14
+          "c": 25484.93
         }
       ],
       "spark": [
@@ -2056,7 +2056,9 @@
         25535.99,
         25509.91,
         25480.19,
-        25487.14
+        25450.82,
+        25477.98,
+        25484.93
       ],
       "news": {
         "summary": "반도체주 광범위한 약세로 나스닥 하락. TSMC 기록경신에도 칩 기업들의 동반 손실로 성장주 심리 위축. 금리 경로 불확실성이 AI 투자 열풍의 모멘텀 약화.",
@@ -2076,13 +2078,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7476.14,
+      "point": 7476.62,
       "change_pct": -0.76,
       "candle": {
         "o": 7447.52,
         "h": 7498.43,
         "l": 7431.26,
-        "c": 7476.14
+        "c": 7476.62
       },
       "range_240d": {
         "low": 6238.01,
@@ -4106,7 +4108,7 @@
           "o": 7447.52,
           "h": 7498.43,
           "l": 7431.26,
-          "c": 7476.14
+          "c": 7476.62
         }
       ],
       "spark": [
@@ -4129,7 +4131,9 @@
         7482.51,
         7478.37,
         7475.39,
-        7476.14
+        7467.41,
+        7473.22,
+        7476.62
       ],
       "news": {
         "summary": "연준 의장 Warsh의 인플레이션 경계 발언으로 금리 경로 신호 강화. 미국 고용·소비·물가 지표는 혼조하면서 경기 모멘텀 약화 신호. Iran 분쟁 재개로 유가 상승 압박·인플레이션 불안 심화. 중국 성장 둔화·유럽 산업생산 감소 등 글로벌 동반 약세 전개.",
@@ -4153,13 +4157,13 @@
     },
     {
       "name": "DOW",
-      "point": 52506.61,
-      "change_pct": -0.09,
+      "point": 52488.94,
+      "change_pct": -0.12,
       "candle": {
         "o": 52426.46,
         "h": 52610.97,
         "l": 51986.74,
-        "c": 52506.61
+        "c": 52488.94
       },
       "range_240d": {
         "low": 43588.58,
@@ -6183,7 +6187,7 @@
           "o": 52426.46,
           "h": 52610.97,
           "l": 51986.74,
-          "c": 52506.61
+          "c": 52488.94
         }
       ],
       "spark": [
@@ -6206,7 +6210,9 @@
         52475.96,
         52507.9,
         52512.35,
-        52506.61
+        52468.36,
+        52476.12,
+        52488.94
       ],
       "news": {
         "summary": "금융주 역대급 호황 지속. 은행권 2분기 실적 강세·거래 수익 급증으로 황금기 국면. 다만 Iran 분쟁·금리 경로 불확실성·주택시장 규제 강화가 선행 리스크 부각. 에너지 기업의 중동 전략 재편(Chevron의 이라크 투자 검토).",
@@ -6231,52 +6237,59 @@
   ],
   "news_chips": [
     {
-      "summary": "대부분 개인투자자가 양호한 분기에도 시장 평균 수익률을 밑돌았다",
+      "summary": "호르무즈 해협 긴장 고조로 원유 공급 차단 리스크가 증가하며 사우디의 주요 수출로 안정성이 흔들리고 있다.",
       "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/why-most-investors-didnt-beat-the-market-during-a-great-quarter-24ce2833?mod=rss_markets_main",
-      "published_ts": 1784283840.0,
+      "url": "https://www.wsj.com/world/middle-east/the-threat-to-saudi-arabias-main-oil-export-route-is-growing-6927e974",
+      "published_ts": 1784300460.0,
       "impact_high": true
     },
     {
-      "summary": "IBM이 이사진 경영 논쟁으로 사상 최대 25% 낙폭을 기록",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/the-boardroom-debate-that-led-to-ibms-historic-25-stock-plunge-8a3b9170?mod=rss_markets_main",
-      "published_ts": 1784282280.0,
-      "impact_high": true
-    },
-    {
-      "summary": "나스닥이 중국 AI 모델 경쟁으로 반도체 매도 심화에 하락 마감",
+      "summary": "중국 AI 신모델 공개로 반도체 약세가 심화되며 나스닥이 하락 마감했다.",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-17-2026?mod=rss_markets_main",
       "published_ts": 1784277688.0,
       "impact_high": true
     },
     {
-      "summary": "미국 수입물가가 중국산 제품 가격 급등으로 2008년 이후 최고 수준에 도달했다",
+      "summary": "미시간 소비자심리지수가 휘발유 가격 안정에 힘입어 상승했다.",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/consumers/consumer-sentiment-climbed-in-july-per-michigan-survey-8c26dad4",
+      "published_ts": 1784298360.0,
+      "impact_high": false
+    },
+    {
+      "summary": "중국산 상품 원가가 2008년 이후 최고를 기록하면서 미국 수입 물가가 예상 외 상승했다.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/17/import-prices-post-surprise-gain-as-costs-of-goods-from-china-hit-highest-since-2008.html",
       "published_ts": 1784297629.0,
       "impact_high": false
     },
     {
-      "summary": "정유 설비 부족으로 유가 하락에도 휘발유 가격은 높은 수준을 유지한다",
+      "summary": "미국 정유 설비 부족으로 원유 가격 하락에도 불구하고 휘발유 가격이 상승 압력을 지속하고 있다.",
       "source": "WSJ",
       "url": "https://www.wsj.com/business/energy-oil/gas-prices-will-stay-higher-for-longer-even-if-oil-falls-93b61566?mod=rss_markets_main",
       "published_ts": 1784280600.0,
       "impact_high": false
     },
     {
-      "summary": "미국의 이란 압박 강화가 유가 변동성으로 에너지·정유 부문에 영향을 미치고 있다",
+      "summary": "트럼프의 강화된 이란 제재 정책이 호르무즈 해협 긴장을 심화시키며 원유 공급 불안정성을 높이고 있다.",
       "source": "WSJ",
       "url": "https://www.wsj.com/world/middle-east/trumps-tightening-squeeze-on-iran-will-heap-more-pain-on-its-battered-economy-9e2e8952",
       "published_ts": 1784253600.0,
       "impact_high": false
     },
     {
-      "summary": "미국 부동산 계약 건수가 6월 5.4% 하락하며 주택시장 약세가 확인되었다",
+      "summary": "미-이란 갈등으로 촉발된 인플레이션 우려 속에 한국은행이 2023년 이후 처음 기준금리를 인상했다.",
       "source": "WSJ",
-      "url": "https://www.wsj.com/economy/housing/u-s-pending-home-sales-fell-in-june-5370cc55",
-      "published_ts": 1784211720.0,
+      "url": "https://www.wsj.com/economy/central-banking/bank-of-korea-raise-rates-for-first-time-since-2023-17dea183",
+      "published_ts": 1784183280.0,
+      "impact_high": true
+    },
+    {
+      "summary": "미국 생산자 물가지수가 6월에 0.3% 하락하며 인플레이션 완화 신호를 보이고 있다.",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/central-banking/u-s-producer-price-index-fell-in-june-276a72e9",
+      "published_ts": 1784120640.0,
       "impact_high": false
     },
     {
@@ -6287,26 +6300,19 @@
       "impact_high": true
     },
     {
-      "summary": "중국이 투자 부진으로 2022년 이후 최저 분기성장률을 기록했다",
+      "summary": "중국 2분기 성장률이 2022년 이후 최저 수준으로 하락하며 추가 부양책 필요성이 커지고 있다.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/15/china-gdp-retail-sales-investment-june-.html",
       "published_ts": 1784092451.0,
       "impact_high": false
-    },
-    {
-      "summary": "미국 소비자물가가 에너지 가격 안정으로 기대 3.8%보다 낮은 3.5%로 상승했다",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html",
-      "published_ts": 1784063113.0,
-      "impact_high": false
     }
   ],
-  "_article_sig": "a936a8a18a038ef3e06e5992f2f0b035e42874fdd1c80b0a65d850104fa372bf",
+  "_article_sig": "bb635353342f3220cd7f4600e29ac66ba9b472f82770eb2fad561b4ae1d1a276",
   "built_at_kst": "2026-07-17T07:00:50.844740+09:00",
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "반도체 약세 가속화. 중국 문샤인 AI 모델 출시 우려 가중 중. NVIDIA 등 칩 수요는 일본 AI 투자 등으로 유지되나, 시장의 지정학적 우려와 중국 경쟁 심화로 기술주 조정 압력 지속.",
+      "summary": "반도체 강한 약세. 중국 신 AI 모델 출시로 경쟁 심화, 기술주 광범위 낙폭. IBM 사상 최대 낙폭(25%), 성장주 동시 부진 신호.",
       "sources": [
         {
           "name": "WSJ",
@@ -6314,12 +6320,12 @@
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/tech/ai/nvidia-noetra-to-build-ai-factory-to-power-japans-ai-ambitions-95e74210"
+          "url": "https://www.wsj.com/finance/investing/the-boardroom-debate-that-led-to-ibms-historic-25-stock-plunge-8a3b9170?mod=rss_markets_main"
         }
       ]
     },
     "S&P500": {
-      "summary": "인플레이션 국면 전환. 소비자심리 7월 개선, 생산자물가 6월 하락 신호인 반면 수입물가는 중국산 최고치 기록으로 상승 압력 재개. 지정학(이란 분쟁)·관세·재정적자 시장 변동성 요인. 한은 기준금리 인상으로 글로벌 금리 사이클 영향권 진입.",
+      "summary": "거시경제 신호 엇갈림. 소비자 심리 개선 반면 수입 물가(중국산 사상 최고)·주택 판매 부진·국채 적자 폭증으로 경기 약세 우려 누적. 채권시장 리스크 가시화.",
       "sources": [
         {
           "name": "WSJ",
@@ -6336,36 +6342,34 @@
       ]
     },
     "DOW": {
-      "summary": "금융·에너지 이중 강세. 은행권 실적 양호(제5제3은행, US뱅코프 M&A 효과) 중 대형주 약세 신호(IBM 25% 폭락). 호르무즈 유가 상승·에너지 리파이닝 병목, 셰브런 대체 수로 건설 검토 중. 주택시장 월스트리트 규제 법안 압박.",
+      "summary": "은행주 실적 호조 이면의 금리 불확실성 심화. 호르무즈 긴장 재개로 ECB 금리 재검토 신호, 글로벌 금리 싸이클 전환 가시화. 에너지 변동성 확대로 경기민감주 부진 심화.",
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/business/earnings/fifth-third-profit-boosted-by-comerica-acquisition-bae8e106?mod=rss_markets_main"
+          "url": "https://www.wsj.com/finance/banking/banks-are-on-a-goldilocks-run-dont-assume-it-will-last-9f49f12f?mod=rss_markets_main"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/15/ecb-interest-rates-outlook-iran-war-hormuz.html"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/business/earnings/u-s-bancorp-quarterly-revenue-rises-to-record-9516a2aa?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/business/energy-oil/gas-prices-will-stay-higher-for-longer-even-if-oil-falls-93b61566?mod=rss_markets_main"
+          "url": "https://www.wsj.com/economy/central-banking/bank-of-korea-raise-rates-for-first-time-since-2023-17dea183"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-07-18T00:00:08.350189+09:00",
+    "as_of_kst": "2026-07-18T00:10:05.327265+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7520.75,
-        "change_pct": -0.75,
+        "point": 7516.75,
+        "change_pct": -0.8,
         "spark": [
           7572.75,
-          7514.0,
-          7516.0,
           7519.75,
           7519.0,
           7513.25,
@@ -6403,21 +6407,23 @@
           7524.5,
           7522.25,
           7520.0,
-          7520.75
+          7516.25,
+          7507.75,
+          7516.75
         ],
         "candle": {
           "o": 7572.75,
           "h": 7575.0,
           "l": 7473.0,
-          "c": 7521.0
+          "c": 7517.25
         },
         "range_240d": {
           "low": 6325.25,
           "high": 7623.75,
           "low_date": "2025-08-05",
           "high_date": "2026-06-02",
-          "low_change_pct": 18.9,
-          "high_change_pct": -1.35
+          "low_change_pct": 18.85,
+          "high_change_pct": -1.4
         },
         "daily_expanded": [
           {
@@ -8433,13 +8439,13 @@
             "o": 7572.75,
             "h": 7575.0,
             "l": 7473.0,
-            "c": 7521.0,
-            "v": 732633
+            "c": 7517.25,
+            "v": 763614
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "인플레이션 국면 전환. 소비자심리 7월 개선, 생산자물가 6월 하락 신호인 반면 수입물가는 중국산 최고치 기록으로 상승 압력 재개. 지정학(이란 분쟁)·관세·재정적자 시장 변동성 요인. 한은 기준금리 인상으로 글로벌 금리 사이클 영향권 진입.",
+          "summary": "거시경제 신호 엇갈림. 소비자 심리 개선 반면 수입 물가(중국산 사상 최고)·주택 판매 부진·국채 적자 폭증으로 경기 약세 우려 누적. 채권시장 리스크 가시화.",
           "sources": [
             {
               "name": "WSJ",
@@ -8459,12 +8465,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28787.5,
-        "change_pct": -1.5,
+        "point": 28734.75,
+        "change_pct": -1.68,
         "spark": [
           29191.0,
-          28729.75,
-          28744.75,
           28757.5,
           28741.5,
           28699.75,
@@ -8502,21 +8506,23 @@
           28825.5,
           28788.25,
           28762.5,
-          28787.5
+          28727.0,
+          28690.0,
+          28734.75
         ],
         "candle": {
           "o": 29191.0,
           "h": 29220.0,
           "l": 28408.25,
-          "c": 28787.5
+          "c": 28734.75
         },
         "range_240d": {
           "low": 23132.0,
           "high": 30712.75,
           "low_date": "2025-08-05",
           "high_date": "2026-06-02",
-          "low_change_pct": 24.45,
-          "high_change_pct": -6.27
+          "low_change_pct": 24.22,
+          "high_change_pct": -6.44
         },
         "daily_expanded": [
           {
@@ -10532,13 +10538,13 @@
             "o": 29191.0,
             "h": 29220.0,
             "l": 28408.25,
-            "c": 28787.5,
-            "v": 324146
+            "c": 28734.75,
+            "v": 335929
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "반도체 약세 가속화. 중국 문샤인 AI 모델 출시 우려 가중 중. NVIDIA 등 칩 수요는 일본 AI 투자 등으로 유지되나, 시장의 지정학적 우려와 중국 경쟁 심화로 기술주 조정 압력 지속.",
+          "summary": "반도체 강한 약세. 중국 신 AI 모델 출시로 경쟁 심화, 기술주 광범위 낙폭. IBM 사상 최대 낙폭(25%), 성장주 동시 부진 신호.",
           "sources": [
             {
               "name": "WSJ",
@@ -10546,7 +10552,7 @@
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/tech/ai/nvidia-noetra-to-build-ai-factory-to-power-japans-ai-ambitions-95e74210"
+              "url": "https://www.wsj.com/finance/investing/the-boardroom-debate-that-led-to-ibms-historic-25-stock-plunge-8a3b9170?mod=rss_markets_main"
             }
           ]
         }
@@ -10554,12 +10560,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52686.0,
-        "change_pct": -0.19,
+        "point": 52729.0,
+        "change_pct": -0.11,
         "spark": [
           52778.0,
-          52513.0,
-          52508.0,
           52525.0,
           52506.0,
           52482.0,
@@ -10597,21 +10601,23 @@
           52692.0,
           52692.0,
           52728.0,
-          52686.0
+          52728.0,
+          52681.0,
+          52729.0
         ],
         "candle": {
           "o": 52778.0,
           "h": 52835.0,
           "l": 52174.0,
-          "c": 52686.0
+          "c": 52729.0
         },
         "range_240d": {
           "low": 44080.0,
           "high": 53372.0,
           "low_date": "2025-08-07",
           "high_date": "2026-07-06",
-          "low_change_pct": 19.52,
-          "high_change_pct": -1.29
+          "low_change_pct": 19.62,
+          "high_change_pct": -1.2
         },
         "daily_expanded": [
           {
@@ -12627,30 +12633,30 @@
             "o": 52778.0,
             "h": 52835.0,
             "l": 52174.0,
-            "c": 52686.0,
-            "v": 67542
+            "c": 52729.0,
+            "v": 69222
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "금융·에너지 이중 강세. 은행권 실적 양호(제5제3은행, US뱅코프 M&A 효과) 중 대형주 약세 신호(IBM 25% 폭락). 호르무즈 유가 상승·에너지 리파이닝 병목, 셰브런 대체 수로 건설 검토 중. 주택시장 월스트리트 규제 법안 압박.",
+          "summary": "은행주 실적 호조 이면의 금리 불확실성 심화. 호르무즈 긴장 재개로 ECB 금리 재검토 신호, 글로벌 금리 싸이클 전환 가시화. 에너지 변동성 확대로 경기민감주 부진 심화.",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/business/earnings/fifth-third-profit-boosted-by-comerica-acquisition-bae8e106?mod=rss_markets_main"
+              "url": "https://www.wsj.com/finance/banking/banks-are-on-a-goldilocks-run-dont-assume-it-will-last-9f49f12f?mod=rss_markets_main"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/07/15/ecb-interest-rates-outlook-iran-war-hormuz.html"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/business/earnings/u-s-bancorp-quarterly-revenue-rises-to-record-9516a2aa?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/business/energy-oil/gas-prices-will-stay-higher-for-longer-even-if-oil-falls-93b61566?mod=rss_markets_main"
+              "url": "https://www.wsj.com/economy/central-banking/bank-of-korea-raise-rates-for-first-time-since-2023-17dea183"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-07-18T00:02:33.931689+09:00"
+  "intraday_refreshed_kst": "2026-07-18T00:12:07.521159+09:00"
 }
