@@ -1,6 +1,6 @@
 {
   "date": "2026-07-17",
-  "generated_at": "2026-07-17T09:07:04.799161",
+  "generated_at": "2026-07-17T09:15:24.145388",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -302,6 +302,8 @@
           ]
         }
       ],
+      "credit_risk": true,
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "strong_bull",
       "theme_leader": true,
       "hugepark_grade": "적극"
@@ -758,7 +760,7 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "투자경고",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰"
@@ -1296,7 +1298,7 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "투자경고",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰"
@@ -1625,7 +1627,7 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "투자경고",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰"
@@ -2062,6 +2064,8 @@
           ]
         }
       ],
+      "credit_risk": true,
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": false,
       "hugepark_grade": "관찰"
@@ -2268,8 +2272,6 @@
           "c": 5570
         }
       ],
-      "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰",
@@ -2471,7 +2473,7 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰",
@@ -2685,7 +2687,7 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "투자경고",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰"
@@ -2869,7 +2871,7 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
@@ -3053,7 +3055,7 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
@@ -3071,21 +3073,21 @@
       "industry": "플라스틱제품 제조업",
       "sector": "가구용 ASA플라스틱 시트, 엣지밴드",
       "themes": [
-        "3자배정증자",
-        "중동 지정학"
+        "중동 지정학",
+        "3자배정증자"
       ],
       "theme_paths": [
-        {
-          "name": "3자배정증자",
-          "path": [
-            "3자배정증자"
-          ]
-        },
         {
           "name": "중동 지정학",
           "path": [
             "전쟁",
             "중동 지정학"
+          ]
+        },
+        {
+          "name": "3자배정증자",
+          "path": [
+            "3자배정증자"
           ]
         }
       ],
@@ -3134,17 +3136,14 @@
         }
       ],
       "fallback": true,
-      "cafe_themes": [
-        "중동 지정학"
-      ],
       "theme_crosscheck": {
-        "confirmed": [],
+        "confirmed": [
+          "중동 지정학"
+        ],
         "pm320_only": [
           "3자배정증자"
         ],
-        "cafe_only": [
-          "중동 지정학"
-        ]
+        "cafe_only": []
       },
       "index_change_pct": -4.53,
       "range_240d": {
@@ -3299,7 +3298,7 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰"
@@ -3483,7 +3482,7 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
@@ -3709,7 +3708,7 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "투자경고",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰",
@@ -3956,7 +3955,7 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "투자경고",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
@@ -4158,7 +4157,7 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰",
@@ -4370,7 +4369,7 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": false,
       "hugepark_grade": "관찰"
@@ -4587,7 +4586,7 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "투자경고",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
@@ -4788,7 +4787,7 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
@@ -4972,7 +4971,7 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
