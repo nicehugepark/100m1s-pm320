@@ -3168,20 +3168,14 @@ function renderCalExpandContent(date, data) {
   //   "M월 D일 (요일)은 휴장일입니다 — 픽이 발행되지 않는 날입니다." 한 줄만 (날짜·요일 동적).
   //   "수집되지 않은 날짜"는 비휴장 미수집일 전용 유지. 오늘(주말·휴장) 자동 폴백 suppress 뷰는
   //   기존 승인 동작(Q-20260606-113) 무회귀 — 과거 날짜(date < today)만 본 분기.
-  // fix/holiday-deploy (2026-07-17 임시공휴일 사고) — "오늘=휴장 + 당일 실데이터 실존" 신종 케이스 합류.
-  //   기존 조건(date < today)은 "과거 휴장일 + 데이터 실재"(6/3형)만 커버 → 임시공휴일이 holidays.json 에
-  //   늦게 등재돼 파이프라인이 오발동(스테일 시세로 kiwoom/interpreted 당일 파일 생성)한 날은 오늘 뷰가
-  //   "분석 대상 N종목 · HH:MM 기준" + 후보 리스트를 거래일인 양 렌더 (7/17 라이브 실측). 오늘이 휴장일이고
-  //   당일 귀속 실데이터(todayStocks, fallback 아님)가 실존하면 동일 휴장일 뷰로 강등 — 배너
-  //   "M월 D일 (요일)은 휴장일입니다" 한 줄 + 카드 리스트 미렌더 (기존 검증된 뷰 재사용, 신규 UI 0).
-  //   무회귀 가드: 데이터 없는 휴장일(일반 주말)은 hasAny=0 early-return 또는 fallback(_fallbackDate 존재)
-  //   → 본 분기 미발동 = 기존 suppress 뷰(Q-20260606-113/121) 불변. 과거 휴장일 분기도 불변.
+  // fix/holiday-deploy 2차 정렬 (2026-07-17 대표 지시) — "오늘=휴장"은 본 분기(과거 휴장일 배너 뷰)에
+  //   합류시키지 않는다. 오늘=휴장은 임시공휴일·주말 구분 없이 기존 ① suppress 뷰(Q-20260606-113 —
+  //   헤더 "주말·휴장" 라벨 + "주말·휴장일에는 국내장 종목을 표시하지 않습니다")가 단일 담당 —
+  //   휴장일마다 오늘 화면 UI가 달라지면 안 된다. 임시공휴일 늦은 등재 시 suppress 오판 근원은
+  //   calendar.js _refreshDataAsync 의 fresh holidays 재평가가 봉쇄(유지). 본 분기 = date < today 전용.
   const _isHolidayView = !_isSingleCardMode
     && typeof isMarketClosed === 'function'
-    && !!(date && isMarketClosed(date) && (
-      date < _todayMeta
-      || (date === _todayMeta && todayStocks.length > 0 && !(data && data._fallbackDate))
-    ));
+    && !!(date && date < _todayMeta && isMarketClosed(date));
   const metaText = _isHolidayView
     ? `휴장일${generatedSuffix}`
     : (_metaSuppressDomestic
