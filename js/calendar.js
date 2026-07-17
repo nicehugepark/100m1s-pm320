@@ -457,7 +457,8 @@ async function initCalendar() {
   }
 
   // 4단계: 비동기 네트워크 갱신 (사용자가 기다리지 않음)
-  _refreshDataAsync(initialDate);
+  // fix/holiday-deploy — hasUrlDate 전달: fresh holidays.json 도착 후 suppress 스냅샷 재평가용.
+  _refreshDataAsync(initialDate, hasUrlDate);
 
   // 이벤트 리스너 (동기, 즉시)
   window.addEventListener('popstate', () => {
@@ -486,7 +487,7 @@ async function initCalendar() {
 }
 
 // 비동기 데이터 갱신 — 초기 렌더 후 백그라운드
-async function _refreshDataAsync(initialDate) {
+async function _refreshDataAsync(initialDate, hasUrlDate) {
   try {
     // 네트워크에서 최신 메타 데이터 fetch (병렬)
     const [calIdx, themes, holidays] = await Promise.all([
@@ -495,6 +496,21 @@ async function _refreshDataAsync(initialDate) {
     if (calIdx) { calIndex = calIdx; try { localStorage.setItem('calIndex', JSON.stringify(calIdx)); } catch {} }
     if (themes) { themesData = themes; try { localStorage.setItem('themesData', JSON.stringify(themes)); } catch {} }
     if (holidays) { holidayData = holidays; try { localStorage.setItem('holidayData', JSON.stringify(holidays)); } catch {} }
+
+    // fix/holiday-deploy (2026-07-17 임시공휴일 사고) — suppress 스냅샷 재평가.
+    //   initCalendar 의 _todayClosed 판정은 localStorage holidayData 스냅샷 기준 1회 박제 — 임시공휴일이
+    //   holidays.json 에 늦게 등재된 날은 초기 판정(비휴장 오판)이 fresh 로드 후에도 유지돼 국내장
+    //   카드가 거래일인 양 렌더된다. fresh holidays 도착 시 동일 기준(오늘 + URL 명시 날짜 없음)으로
+    //   재평가한다. 사용자가 이미 달력을 클릭해 이동했으면(calSelectedDate ≠ initialDate) onCalCellClick
+    //   이 최신 판정을 이미 수행 — 덮지 않는다. 재평가 결과는 아래 renderCalExpandContent 재호출에 반영.
+    if (holidays && !hasUrlDate && calSelectedDate === initialDate) {
+      const _nowH = _kstNow();
+      const _tH = ymd(_nowH.getFullYear(), _nowH.getMonth() + 1, _nowH.getDate());
+      if (initialDate === _tH) {
+        window._pm320SuppressDomesticCards = isMarketClosed(initialDate);
+        toggleThemeSections(initialDate);  // 테마트리 표시/숨김도 최신 휴장 판정으로 재적용
+      }
+    }
 
     // 달력 재렌더 (인덱스 업데이트 반영)
     renderCalendar();
