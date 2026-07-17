@@ -21,6 +21,7 @@ on:
       - 'data/limit-up-trend.json' # 상한가 갯수 시계열
       - 'data/daily/**'            # 일별 집계
       - 'data/calendar/**'         # 일정 데이터 (픽 배포 동반)
+      - 'data/holidays.json'       # 휴장일 달력 (isMarketClosed 휴장 뷰 전환 SoT — 2026-07-17 임시공휴일 사고)
       - 'data/page-manifest.json'  # 페이지 매니페스트 (렌더 라우팅)
       - 'og/pm320/**'              # 공유 OG 썸네일 (픽마다 생성)
       - 'js/**'                    # 프론트 렌더 로직

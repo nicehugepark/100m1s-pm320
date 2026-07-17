@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T18:39:31+09:00",
+  "generated_at": "2026-07-17T19:18:21+09:00",
   "since": "2026-04-08",
   "first_pick_date": "2026-04-08",
   "last_settled_date": "2026-07-14",
@@ -10,17 +10,29 @@
   "expired_loss": 5,
   "expired_gain": 0,
   "win_rate": 91.2,
-  "worst_mdd_pct": -30.6,
+  "_basis": "HEAD 4/8~6/11(41픽)=검증 SoT balance_history×(10/12) 정밀값 무손상. TAIL 6/12~7/10(16픽)=라이브 date 파일 청산결과 + water1x_d6 4슬롯 복리 재적용. 테크윙(6/15)=물타기 발생·D+6=6/23 만기손실 settled 전환(2026-07-11 6/23 일봉 backfill 반영, 평단=조화평균·6/23 종가 cron DB 실측·build_card_history.py 공식 verbatim).",
+  "_source": "backtest_ssot",
+  "worst_mdd_pct": -34.7,
   "worst_mdd_name": "삼화콘덴서",
   "worst_mdd_date": "2026-06-18",
-  "avg_mdd_pct": -7.6,
+  "avg_mdd_pct": -6.4,
   "take_profit_target_pct": 3.2,
+  "_mdd_basis": "장중 최대낙폭 = 보유 중 진입평단 대비 최저 평가손실. 청산 완료 픽 기준 (승률 분모와 동일 모집단).",
+  "_generated_by": "backtest team reconstruct_58picks_gjfix.py (HEAD=SoT timeline resim / TAIL=live / 광전자 override)",
+  "_generated_at": "2026-07-14T12:42:56",
   "start_balance": 10000000,
   "final_balance": 10000000.0,
   "total_pnl": 0.0,
   "total_return_pct": 0.0,
+  "running_detail": [
+    {
+      "date": "2026-07-10",
+      "code": "006360",
+      "name": "GS건설",
+      "reason": "만기 미도래 정상 보유(D+3=7/15 이후)"
+    }
+  ],
   "backtest_detail": {
-    "as_of": "2026-07-14",
     "table": [
       {
         "date": "2026-04-08",
@@ -780,6 +792,11 @@
     "equity_curve": [
       {
         "date": "2026-04-10",
+        "balance": 10026666.67,
+        "name": "청산 대한광통신"
+      },
+      {
+        "date": "2026-04-10",
         "balance": 10053333.34,
         "name": "청산 대우건설"
       },
@@ -815,6 +832,21 @@
       },
       {
         "date": "2026-04-24",
+        "balance": 10205062.57,
+        "name": "청산 신성이엔지"
+      },
+      {
+        "date": "2026-04-24",
+        "balance": 10232375.53,
+        "name": "청산 제주반도체"
+      },
+      {
+        "date": "2026-04-24",
+        "balance": 10287147.11,
+        "name": "청산 주성엔지니어링"
+      },
+      {
+        "date": "2026-04-24",
         "balance": 10314532.9,
         "name": "청산 대원전선"
       },
@@ -827,6 +859,11 @@
         "date": "2026-04-29",
         "balance": 10397195.86,
         "name": "청산 고영"
+      },
+      {
+        "date": "2026-04-30",
+        "balance": 10452353.4,
+        "name": "청산 SK증권"
       },
       {
         "date": "2026-04-30",
@@ -855,6 +892,11 @@
       },
       {
         "date": "2026-05-12",
+        "balance": 10648581.89,
+        "name": "청산 서진시스템"
+      },
+      {
+        "date": "2026-05-12",
         "balance": 10676903.19,
         "name": "청산 현대오토에버"
       },
@@ -877,6 +919,11 @@
         "date": "2026-05-19",
         "balance": 10791246.51,
         "name": "청산 제주반도체"
+      },
+      {
+        "date": "2026-05-21",
+        "balance": 10848646.76,
+        "name": "청산 하나마이크론"
       },
       {
         "date": "2026-05-21",
@@ -905,6 +952,11 @@
       },
       {
         "date": "2026-06-01",
+        "balance": 10523579.46,
+        "name": "청산 광전자"
+      },
+      {
+        "date": "2026-06-01",
         "balance": 10582367.14,
         "name": "청산 현대오토에버"
       },
@@ -915,6 +967,11 @@
       },
       {
         "date": "2026-06-08",
+        "balance": 10162624.67,
+        "name": "청산 디앤디파마텍"
+      },
+      {
+        "date": "2026-06-08",
         "balance": 10219214.47,
         "name": "청산 원익IPS"
       },
@@ -922,6 +979,16 @@
         "date": "2026-06-10",
         "balance": 10246465.71,
         "name": "청산 테크윙"
+      },
+      {
+        "date": "2026-06-11",
+        "balance": 10303055.51,
+        "name": "청산 주성엔지니어링"
+      },
+      {
+        "date": "2026-06-11",
+        "balance": 10357703.33,
+        "name": "청산 후성"
       },
       {
         "date": "2026-06-11",
@@ -960,6 +1027,11 @@
       },
       {
         "date": "2026-06-26",
+        "balance": 9736361.06,
+        "name": "청산 삼화콘덴서"
+      },
+      {
+        "date": "2026-06-26",
         "balance": 9763571.2,
         "name": "청산 알테오젠"
       },
@@ -967,6 +1039,11 @@
         "date": "2026-06-29",
         "balance": 9789607.39,
         "name": "청산 브이엠"
+      },
+      {
+        "date": "2026-06-30",
+        "balance": 9352666.85,
+        "name": "청산 제주반도체"
       },
       {
         "date": "2026-06-30",
@@ -998,6 +1075,11 @@
         "balance": 9555114.52,
         "name": "청산 한성기업"
       }
-    ]
-  }
+    ],
+    "as_of": "2026-07-14"
+  },
+  "_backtest_baseline_running": 1,
+  "_live_tail_appended": 0,
+  "_serving_precomputed": true,
+  "_winrate_reconciled_from_scan": true
 }
