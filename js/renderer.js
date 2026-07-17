@@ -4433,7 +4433,23 @@ function renderCalExpandContent(date, data) {
   const _suppressDomestic = !_isSingleCardMode
     && (typeof window !== 'undefined' && window._pm320SuppressDomesticCards === true);
   const _suppressDomesticHtml = (() => {
-    const dl = formatKoDate(date);   // 표시 중 데이터 기준일(직전 거래일)
+    // fix/holiday-deploy 2차 (2026-07-17 lead catch) — "직전 거래일" 라벨이 뷰 날짜를 그대로 표기하던
+    //   자기모순 정정. suppress 는 오늘=주말·휴장 자동 폴백 시만 발동하고 Q-118 개편으로 기본 선택
+    //   날짜 = 오늘 유지 → 종전 formatKoDate(date) 는 휴장일 당일(예: 7월 17일 (금))을 "직전 거래일"로
+    //   표기 (토요일 접속 시에도 동일했을 잠복 결함). 실제 직전 거래일 = date 부터 최대 10일 역행 첫
+    //   개장일 (_closedLatestView PRE_MARKET 동형 산술). 역행 실패·가드 미충족 시 dl='' → 날짜 괄호
+    //   생략 graceful (기존 dl 가드 재사용).
+    let _prevOpenIso = '';
+    if (typeof isMarketClosed === 'function' && typeof date === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(date)) {
+      const _pd = new Date(date + 'T00:00:00');
+      for (let _j = 0; _j < 10; _j++) {
+        _pd.setDate(_pd.getDate() - 1);
+        const _pIso = _pd.getFullYear() + '-' + String(_pd.getMonth() + 1).padStart(2, '0')
+          + '-' + String(_pd.getDate()).padStart(2, '0');
+        if (!isMarketClosed(_pIso)) { _prevOpenIso = _pIso; break; }
+      }
+    }
+    const dl = _prevOpenIso ? formatKoDate(_prevOpenIso) : '';   // 실제 직전 거래일 (뷰 날짜 아님)
     return `<div style="text-align:center;padding:32px 0;">`
       + `<div style="font-size:15px;font-weight:700;color:var(--tx2);margin-bottom:6px;">주말·휴장일에는 국내장 종목을 표시하지 않습니다</div>`
       // R55 P2-7 (픽셀 sweep DOC-20260614-JDG-004 — 디스클레이머 다크 CR 4.46 < 4.5) — --dm → --dm-hi
