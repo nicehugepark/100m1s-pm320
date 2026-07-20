@@ -1,6 +1,6 @@
 {
   "date": "2026-07-20",
-  "generated_at": "2026-07-20T09:16:26.820248",
+  "generated_at": "2026-07-20T09:25:16.107775",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -25,6 +25,18 @@
       "verified": true
     },
     {
+      "keyword": "GLP-1경구화",
+      "summary": "FDA, 경구용 GLP-1 개발 경로 공식화 → 규제 불확실성 해소 → 바이오제약 섹터 긍정",
+      "source_count": 2,
+      "verified": true
+    },
+    {
+      "keyword": "반도체검사AI",
+      "summary": "한울반도체, AI 기반 MLCC 전수검사 플랫폼 개발 → 반도체 검사 자동화 진전 → 전자부품·검사장비 섹터 긍정",
+      "source_count": 2,
+      "verified": true
+    },
+    {
       "keyword": "항암백신",
       "summary": "HLB 자회사 항암백신 ITI-5000 미국 1상 투약 → 바이오 기업 글로벌 임상 진입 → 바이오헬스케어 섹터 긍정",
       "source_count": 1,
@@ -42,6 +54,45 @@
             "summary": "AI 기반 MLCC 전수검사 플랫폼이 상용화 직전 단계에 도달하고 글로벌 양산 공급 협의가 시작되면서, 제조 공정 내 AI 검사 수요 증가가 반도체 검사장비·MLCC 관련 섹터로 자금을 유인한다.",
             "source_count": 2,
             "verdict": "weak"
+          },
+          {
+            "name": "AI 반도체 검사",
+            "summary": "AI 기반 MLCC 전수검사 플랫폼이 상용화 직전 단계에 도달하고 글로벌 양산 공급 협의가 시작되면서, 제조 공정 내 AI 검사 수요 증가가 반도체 검사장비·MLCC 관련 섹터로 자금을 유인한다.",
+            "source_count": 2,
+            "verdict": "weak"
+          }
+        ]
+      },
+      {
+        "name": "비만·당뇨 치료제",
+        "children": [
+          {
+            "name": "경구용 GLP-1",
+            "summary": "삼천당제약 FDA 개발경로 공식 회신 확보로 규제 불확실성 완화→경구용 GLP-1 사업화 기대감 부각→제약·바이오 수혜",
+            "source_count": 2,
+            "verdict": "pass"
+          }
+        ]
+      },
+      {
+        "name": "MLCC·전자부품",
+        "children": [
+          {
+            "name": "AI 머신비전 검사",
+            "summary": "한울반도체 AI 기반 MLCC 전수검사 플랫폼 상용화·글로벌 양산 공급 협의→불량검사 자동화 확산 기대→MLCC·검사장비 수혜",
+            "source_count": 2,
+            "verdict": "pass"
+          }
+        ]
+      },
+      {
+        "name": "바이오 신약",
+        "children": [
+          {
+            "name": "항암 백신",
+            "summary": "HLB 자회사 이뮤노믹의 항암백신 ITI-5000이 미국 임상 1상에서 첫 환자 투약에 성공하며, 임상 진전 이벤트가 항암 바이오·제약 섹터 내 위험 선호 자금을 자극한다.",
+            "source_count": 1,
+            "verdict": "weak"
           }
         ]
       },
@@ -53,6 +104,29 @@
             "summary": "하나마이크론이 전 사업부 고른 성장을 발판으로 증권사 목표가 상향을 받으며, AI 반도체 수요 확산에 따른 후공정 패키징 물량 증가 기대가 반도체 후공정 섹터로 자금을 끌어들인다.",
             "source_count": 1,
             "verdict": "weak"
+          },
+          {
+            "name": "반도체 패키징",
+            "summary": "하나마이크론이 전 사업부 고른 성장을 발판으로 증권사 목표가 상향을 받으며, AI 반도체 수요 확산에 따른 후공정 패키징 물량 증가 기대가 반도체 후공정 섹터로 자금을 끌어들인다.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "반도체 후공정(OSAT)",
+            "summary": "하나마이크론 전 사업부 성장 전망에 목표가 상향→패키징 업황 개선 기대→반도체 후공정 수혜",
+            "source_count": 1,
+            "verdict": "weak"
+          }
+        ]
+      },
+      {
+        "name": "제약·바이오",
+        "children": [
+          {
+            "name": "항암 신약",
+            "summary": "HLB 자회사 이뮤노믹 항암백신 ITI-5000 미국 1상 첫 환자 투약→임상 진전 모멘텀→항암 파이프라인 바이오 수혜",
+            "source_count": 1,
+            "verdict": "weak"
           }
         ]
       }
@@ -60,10 +134,240 @@
   },
   "stocks": [
     {
+      "code": "465770",
+      "name": "STX그린로지스",
+      "rank": 1,
+      "trade_amount": 4938000000,
+      "change_pct": 29.98,
+      "close_price": 4140,
+      "open_price": 3615,
+      "high_price": 4140,
+      "low_price": 3435,
+      "industry": "해상 운송업",
+      "sector": "해상운송업 및 물류업",
+      "themes": [
+        "해운"
+      ],
+      "theme_paths": [
+        {
+          "name": "해운",
+          "path": [
+            "해운"
+          ]
+        }
+      ],
+      "pick_count": 1,
+      "prev_pick": {
+        "date": "2026-07-15",
+        "rank": 2,
+        "change_pct": 13.33,
+        "trade_amount": 39478000000
+      },
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-06-11",
+        "2026-07-13",
+        "2026-07-20"
+      ],
+      "news": [],
+      "fallback": true,
+      "theme_crosscheck": {
+        "confirmed": [
+          "해운"
+        ],
+        "pm320_only": [],
+        "cafe_only": []
+      },
+      "index_change_pct": -0.4,
+      "index_multiple_current": -74.95,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 9600,
+        "high_date": "2026-03-04",
+        "high_pct": -56.88,
+        "low": 1669,
+        "low_date": "2026-06-26",
+        "low_pct": 148.05,
+        "current": 4140
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-22",
+          "o": 2325,
+          "h": 2330,
+          "l": 2195,
+          "c": 2225
+        },
+        {
+          "date": "2026-06-23",
+          "o": 2225,
+          "h": 2440,
+          "l": 2040,
+          "c": 2040
+        },
+        {
+          "date": "2026-06-24",
+          "o": 2010,
+          "h": 2165,
+          "l": 1931,
+          "c": 1963
+        },
+        {
+          "date": "2026-06-25",
+          "o": 1963,
+          "h": 2075,
+          "l": 1842,
+          "c": 1878
+        },
+        {
+          "date": "2026-06-26",
+          "o": 1856,
+          "h": 1856,
+          "l": 1669,
+          "c": 1733
+        },
+        {
+          "date": "2026-06-29",
+          "o": 1709,
+          "h": 1875,
+          "l": 1709,
+          "c": 1875
+        },
+        {
+          "date": "2026-06-30",
+          "o": 1801,
+          "h": 1905,
+          "l": 1801,
+          "c": 1886
+        },
+        {
+          "date": "2026-07-01",
+          "o": 1886,
+          "h": 2045,
+          "l": 1830,
+          "c": 2040
+        },
+        {
+          "date": "2026-07-02",
+          "o": 1951,
+          "h": 2035,
+          "l": 1901,
+          "c": 1927
+        },
+        {
+          "date": "2026-07-03",
+          "o": 1850,
+          "h": 1998,
+          "l": 1850,
+          "c": 1988
+        },
+        {
+          "date": "2026-07-06",
+          "o": 1988,
+          "h": 2090,
+          "l": 1981,
+          "c": 2060
+        },
+        {
+          "date": "2026-07-07",
+          "o": 2060,
+          "h": 2265,
+          "l": 2060,
+          "c": 2265
+        },
+        {
+          "date": "2026-07-08",
+          "o": 2280,
+          "h": 2425,
+          "l": 2030,
+          "c": 2110
+        },
+        {
+          "date": "2026-07-09",
+          "o": 2025,
+          "h": 2120,
+          "l": 1890,
+          "c": 1902
+        },
+        {
+          "date": "2026-07-10",
+          "o": 1865,
+          "h": 1999,
+          "l": 1855,
+          "c": 1954
+        },
+        {
+          "date": "2026-07-13",
+          "o": 2020,
+          "h": 2540,
+          "l": 1980,
+          "c": 2540
+        },
+        {
+          "date": "2026-07-14",
+          "o": 3300,
+          "h": 3300,
+          "l": 3300,
+          "c": 3300
+        },
+        {
+          "date": "2026-07-15",
+          "o": 4290,
+          "h": 4290,
+          "l": 3300,
+          "c": 3740
+        },
+        {
+          "date": "2026-07-16",
+          "o": 4030,
+          "h": 4430,
+          "l": 3060,
+          "c": 3185
+        },
+        {
+          "date": "2026-07-20",
+          "o": 3615,
+          "h": 4140,
+          "l": 3435,
+          "c": 4140
+        }
+      ],
+      "status_badges": [
+        {
+          "label": "투자주의 근접",
+          "severity": "caution",
+          "source": "predicted",
+          "thresholds": [
+            {
+              "desc": "5일 전(2026-07-10) 대비 +60%↑",
+              "base_price": 1954,
+              "threshold": 3126,
+              "current": 4140,
+              "triggered": true
+            }
+          ],
+          "regulation": "KRX 시장경보 가격 조건 충족 (거래량 미검증, 자체 추정)",
+          "period_start": "2026-07-21",
+          "period_end": "2026-07-22",
+          "start": "2026-07-21",
+          "end": "2026-07-22",
+          "view_date": "2026-07-20",
+          "next_trading_day": "2026-07-21",
+          "next_trading_day_for_predicted": "2026-07-21",
+          "next_trading_day_source": "fallback_homepage",
+          "single_price": false,
+          "effect_badges": []
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "투자경고"
+    },
+    {
       "code": "000250",
       "name": "삼천당제약",
-      "rank": 1,
-      "trade_amount": 3555000000,
+      "rank": 2,
+      "trade_amount": 3787000000,
       "change_pct": 29.82,
       "close_price": 239000,
       "open_price": 239000,
@@ -124,8 +428,8 @@
         }
       ],
       "fallback": false,
-      "index_change_pct": -1.35,
-      "index_multiple_current": -22.09,
+      "index_change_pct": -1.77,
+      "index_multiple_current": -16.85,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 1233000,
@@ -285,6 +589,8 @@
         "prices": [
           239000,
           239000,
+          239000,
+          239000,
           239000
         ]
       },
@@ -297,8 +603,8 @@
     {
       "code": "066910",
       "name": "손오공",
-      "rank": 2,
-      "trade_amount": 3053000000,
+      "rank": 3,
+      "trade_amount": 3091000000,
       "change_pct": 29.98,
       "close_price": 2970,
       "open_price": 2485,
@@ -341,8 +647,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": -1.35,
-      "index_multiple_current": -22.21,
+      "index_change_pct": -1.77,
+      "index_multiple_current": -16.94,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 6000,
@@ -529,6 +835,8 @@
         "prices": [
           2485,
           2970,
+          2970,
+          2970,
           2970
         ]
       },
@@ -543,10 +851,10 @@
     {
       "code": "285800",
       "name": "진영",
-      "rank": 3,
-      "trade_amount": 1513000000,
-      "change_pct": 29.37,
-      "close_price": 1414,
+      "rank": 4,
+      "trade_amount": 1583000000,
+      "change_pct": 29.92,
+      "close_price": 1420,
       "open_price": 1170,
       "high_price": 1420,
       "low_price": 1158,
@@ -629,17 +937,17 @@
         ],
         "cafe_only": []
       },
-      "index_change_pct": -1.35,
-      "index_multiple_current": -21.76,
+      "index_change_pct": -1.77,
+      "index_multiple_current": -16.9,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 2965,
         "high_date": "2026-04-14",
-        "high_pct": -52.31,
+        "high_pct": -52.11,
         "low": 706,
         "low_date": "2026-06-29",
-        "low_pct": 100.28,
-        "current": 1414
+        "low_pct": 101.13,
+        "current": 1420
       },
       "daily_20": [
         {
@@ -780,7 +1088,7 @@
           "o": 1170,
           "h": 1420,
           "l": 1158,
-          "c": 1414
+          "c": 1420
         }
       ],
       "status_badges": [
@@ -793,7 +1101,7 @@
               "desc": "5일 전(2026-07-10) 대비 +60%↑",
               "base_price": 853,
               "threshold": 1364,
-              "current": 1414,
+              "current": 1420,
               "triggered": true
             }
           ],
@@ -810,17 +1118,62 @@
           "effect_badges": []
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 1170,
+        "base": 1170,
+        "prices": [
+          1170,
+          1398,
+          1420,
+          1420,
+          1420
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰"
     },
     {
+      "code": "208640",
+      "name": "썸에이지",
+      "rank": 5,
+      "trade_amount": 442000000,
+      "change_pct": null,
+      "close_price": null,
+      "open_price": null,
+      "high_price": null,
+      "low_price": null,
+      "industry": null,
+      "sector": null,
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [],
+      "news": [],
+      "fallback": true,
+      "range_240d": {
+        "high": 7106,
+        "high_date": "2025-08-13",
+        "high_pct": -88.73,
+        "low": 635,
+        "low_date": "2026-06-26",
+        "low_pct": 26.14,
+        "current": null
+      },
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
       "code": "079940",
       "name": "가비아",
-      "rank": 4,
-      "trade_amount": 270000000,
+      "rank": 6,
+      "trade_amount": 275000000,
       "change_pct": 29.94,
       "close_price": 44050,
       "open_price": 44050,
@@ -870,8 +1223,8 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": -1.35,
-      "index_multiple_current": -22.18,
+      "index_change_pct": -1.77,
+      "index_multiple_current": -16.92,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 44050,
@@ -1030,6 +1383,8 @@
         "base": 44050,
         "prices": [
           44050,
+          44050,
+          44050,
           44050
         ]
       },
@@ -1040,8 +1395,8 @@
     {
       "code": "044380",
       "name": "주연테크",
-      "rank": 5,
-      "trade_amount": 110000000,
+      "rank": 7,
+      "trade_amount": 125000000,
       "change_pct": 30.0,
       "close_price": 1352,
       "open_price": 1352,
@@ -1065,8 +1420,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": -1.1,
-      "index_multiple_current": -27.27,
+      "index_change_pct": -0.4,
+      "index_multiple_current": -75.0,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 2970,
@@ -1224,6 +1579,9 @@
         "open": 1352,
         "base": 1352,
         "prices": [
+          1352,
+          1352,
+          1352,
           1352,
           1352
         ]
