@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 25780.35,
-      "change_pct": 1.02,
+      "point": 25766.56,
+      "change_pct": 0.97,
       "candle": {
         "o": 25725.9,
-        "h": 25808.23,
+        "h": 25815.6,
         "l": 25715.44,
-        "c": 25780.35
+        "c": 25766.56
       },
       "range_240d": {
         "low": 20794.64,
@@ -2031,16 +2031,18 @@
         {
           "date": "2026-07-20",
           "o": 25725.9,
-          "h": 25808.23,
+          "h": 25815.6,
           "l": 25715.44,
-          "c": 25780.35
+          "c": 25766.56
         }
       ],
       "spark": [
         25725.9,
         25779.69,
-        25802.33,
-        25780.35
+        25780.35,
+        25804.91,
+        25764.88,
+        25766.56
       ],
       "news": {
         "summary": "반도체 약세 심화로 지수 하락세 가속 중. 중국 AI 모델 부상에 투자자 우려 확산되나, NVIDIA 등 칩 수요는 여전히 건재.",
@@ -2064,13 +2066,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7507.57,
-      "change_pct": 0.67,
+      "point": 7503.24,
+      "change_pct": 0.61,
       "candle": {
         "o": 7489.18,
         "h": 7513.23,
         "l": 7489.18,
-        "c": 7507.57
+        "c": 7503.24
       },
       "range_240d": {
         "low": 6299.19,
@@ -4094,14 +4096,16 @@
           "o": 7489.18,
           "h": 7513.23,
           "l": 7489.18,
-          "c": 7507.57
+          "c": 7503.24
         }
       ],
       "spark": [
         7489.18,
         7505.6,
         7506.91,
-        7507.57
+        7512.14,
+        7502.21,
+        7503.24
       ],
       "news": {
         "summary": "호르무즈 해협 긴장·수입 물가 상승·글로벌 경기 둔화 신호 복합 작용. 중국 GDP 3% 대 저성장, 유로존 산업생산 부진으로 선진국 성장률 압박 심화. 국채 수익률 상승·재정 적자 우려 속 소비자 심리는 부분 개선 지속.",
@@ -4125,13 +4129,13 @@
     },
     {
       "name": "DOW",
-      "point": 52294.28,
-      "change_pct": 0.28,
+      "point": 52218.94,
+      "change_pct": 0.14,
       "candle": {
         "o": 52154.57,
         "h": 52411.9,
         "l": 52154.57,
-        "c": 52294.28
+        "c": 52218.94
       },
       "range_240d": {
         "low": 43968.64,
@@ -6155,14 +6159,16 @@
           "o": 52154.57,
           "h": 52411.9,
           "l": 52154.57,
-          "c": 52294.28
+          "c": 52218.94
         }
       ],
       "spark": [
         52154.57,
         52302.68,
         52296.89,
-        52294.28
+        52262.47,
+        52200.59,
+        52218.94
       ],
       "news": {
         "summary": "금융주 2Q 실적 개선(M&A·대출 성장 견인)으로 은행 부문 강세 지속되나, 경기 리스크·금리 경로 불확실성 경고음 확대. 에너지·부동산 부진 신호(주택 판매 낙폭·가스 비용 상승)로 경기민감주 심리 악화.",
@@ -6187,146 +6193,144 @@
   ],
   "news_chips": [
     {
-      "summary": "정유 설비 병목현상으로 원유 가격 하락 속에도 휘발유 가격은 고수준 지속, 에너지 섹터 구조적 우위",
+      "summary": "개인 투자자 매그세븐 외면, AI 신규 종목으로 자금 집중",
       "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/is-passive-investing-sabotaging-fund-managers-856e9956?mod=rss_markets_main",
-      "published_ts": 1784543820.0,
-      "impact_high": false
+      "url": "https://www.wsj.com/finance/stocks/everyday-investors-sour-on-the-mag-seven-and-flock-to-newer-ai-trades-6e8f8d8b?mod=rss_markets_main",
+      "published_ts": 1784541660.0,
+      "impact_high": true
     },
     {
-      "summary": "AI 칩 공급 대형 장기계약들의 실질적 안정성에 의문, 반도체 공급망 우려 제기",
+      "summary": "AI 붐을 뒷받침하는 대규모 공급 계약의 불확실성 대두",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/the-massive-supply-deals-feeding-the-ai-frenzy-are-no-sure-thing-3a89ec09?mod=rss_markets_main",
       "published_ts": 1784539800.0,
       "impact_high": false
     },
     {
-      "summary": "반도체 강세로 미 증시 개장 모멘텀 형성, 중동 긴장이 유가 변동성 지속",
+      "summary": "반도체 강세로 나스닥 견조, 중동 긴장 속 유가 등락",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-20-2026?mod=rss_markets_main",
       "published_ts": 1784534514.0,
       "impact_high": false
     },
     {
-      "summary": "개인투자자들이 매그7에서 신흥 AI주로 자금 이동, 나스닥 구성 변화 심화",
+      "summary": "요르단 미사일 공격으로 미군 2명 사망·1명 실종, 호르무즈 분쟁 악화",
       "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/everyday-investors-are-over-the-mag-seven-and-into-new-ai-darlings-a112ea2b?mod=rss_markets_main",
-      "published_ts": 1784509200.0,
-      "impact_high": false
-    },
-    {
-      "summary": "연준이 주시하는 인플레 지표의 산정 방식 변경 추진, 금리 결정 기준 재검토 신호",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/economy/central-banking/pce-inflation-data-updates-ca7bfd61",
-      "published_ts": 1784453400.0,
+      "url": "https://www.wsj.com/world/middle-east/two-u-s-servicemembers-killed-one-missing-in-iran-missile-attack-on-jordan-a59f9699",
+      "published_ts": 1784414520.0,
       "impact_high": true
     },
     {
-      "summary": "미-이란 휴전 중 이란이 수십억 배럴 규모 유량을 아시아로 출수, 중동 정세 반영",
+      "summary": "휴전 중 이란이 60억 달러 규모 원유 중국 수출, 호르무즈 공급망 압박",
       "source": "WSJ",
       "url": "https://www.wsj.com/world/middle-east/iran-rushed-out-6-billion-of-oil-during-brief-truce-with-u-s-5a3d0818",
       "published_ts": 1784408400.0,
       "impact_high": false
     },
     {
-      "summary": "미시간 소비자심리지수가 휘발유 가격 하락에 따라 상승세 전환, 연준 금리 경로 변수 부상",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/economy/consumers/consumer-sentiment-climbed-in-july-per-michigan-survey-8c26dad4",
-      "published_ts": 1784298360.0,
+      "summary": "중국산 수입품 가격 2008년 이후 최고 수준 경신",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/17/import-prices-post-surprise-gain-as-costs-of-goods-from-china-hit-highest-since-2008.html",
+      "published_ts": 1784297629.0,
       "impact_high": false
     },
     {
-      "summary": "호르무즈 해협 긴장 재개가 유가 변동성을 높이며 글로벌 금리 전망에 불확실성 가중",
+      "summary": "6월 도매가격 0.3% 하락, 에너지 급락이 주도",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/15/wholesale-inflation-june-2026-.html",
+      "published_ts": 1784125368.0,
+      "impact_high": false
+    },
+    {
+      "summary": "호르무즈 분쟁으로 에너지 공급 불확실성 증가, ECB 금리 결정 영향",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/15/ecb-interest-rates-outlook-iran-war-hormuz.html",
       "published_ts": 1784115199.0,
       "impact_high": true
     },
     {
-      "summary": "중국 2분기 경제성장이 투자 위축으로 2년 만에 최저 수준 기록, 글로벌 성장 둔화 신호",
+      "summary": "중국 2분기 성장률 역대 최저 기록, 내수 약세 심화",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/15/china-gdp-retail-sales-investment-june-.html",
       "published_ts": 1784092451.0,
       "impact_high": false
     },
     {
-      "summary": "6월 소비자물가가 에너지 부문 약세로 예상치를 밑도는 3.5% 상승, 인플레 진정 신호",
+      "summary": "6월 CPI 3.5% 상승률, 에너지 가격 완화로 예상치 하회",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html",
       "published_ts": 1784063113.0,
       "impact_high": false
     }
   ],
-  "_article_sig": "bc50617ce18b248b97d05c59f1e5b9454bdf96ebcb3e251df3f39f18eccd4681",
+  "_article_sig": "9fc59cf7870c8f3f0d54513a76ac07b81bd01a103d678041fd764c6de135c5f3",
   "built_at_kst": "2026-07-18T07:01:46.790439+09:00",
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "반도체·AI 강세 지속. 일본 정부의 엔비디아 대량 납입 계획, AI 인프라 공급거래 확대 포착, Mag Seven 이후 신흥 AI 기업주로의 자금 이동.",
+      "summary": "반도체 강세에 나스닥100 선물 동조. AI 펀딩 열풍 지속으로 빅테크·신규 AI 종목 매수세 지속, 공급 계약 안정성 약화 신호 경보.",
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/tech/ai/nvidia-noetra-to-build-ai-factory-to-power-japans-ai-ambitions-95e74210"
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-20-2026?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/everyday-investors-are-over-the-mag-seven-and-into-new-ai-darlings-a112ea2b?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/the-massive-supply-deals-feeding-the-ai-frenzy-are-no-sure-thing-3a89ec09?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-20-2026?mod=rss_markets_main"
         }
       ]
     },
     "S&P500": {
-      "summary": "인플레 부분 진정 vs 실적·고용 엇갈림. 캐나다 물가 냉각(2.8%), 미국 소비심리 개선, 수입물가 상승(중국산 고점) 병존. 연준 금리경로 불확실성 속 선물 방향성 미정.",
+      "summary": "소비자심리 개선·물가 예상 하회로 경기 실질 신호 긍정적이나, 중국 성장률 둔화·미국-이란 호르무즈 긴장 재고조로 매크로 불확실성 고조. ECB 금리 결정·에너지 공급 리스크 변수 부각.",
       "sources": [
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/economy/central-banking/canada-inflation-cools-to-2-8-in-june-as-gasoline-decelerates-8eb85b77"
-        },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/economy/consumers/consumer-sentiment-climbed-in-july-per-michigan-survey-8c26dad4"
         },
         {
           "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/07/17/import-prices-post-surprise-gain-as-costs-of-goods-from-china-hit-highest-since-2008.html"
+          "url": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/15/china-gdp-retail-sales-investment-june-.html"
         }
       ]
     },
     "DOW": {
-      "summary": "지정학 리스크 재부상 우위. 호르무즈 해협 긴장(후티 해상봉쇄·미군 사상자 증가), 유가 $90 재돌파. 에너지·경기민감주 변동성 확대, 금융주 실적호조 상쇄.",
+      "summary": "금융권 실적 견조·유가 90달러 상향 재돌파로 에너지주·금융주 강세, 부동산 수요 부진·경기민감 소비재 약세. 호르무즈 지정학 긴장 고조로 유가 변동성 위험 심화.",
       "sources": [
         {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/2026072054077"
-        },
-        {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/2026072051421"
+          "name": "WSJ",
+          "url": "https://www.wsj.com/business/earnings/u-s-bancorp-quarterly-revenue-rises-to-record-9516a2aa?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/world/middle-east/jordan-becomes-new-flashpoint-in-u-s-iran-war-as-troop-deaths-rise-9858b7d1"
+          "url": "https://www.wsj.com/business/energy-oil/gas-prices-will-stay-higher-for-longer-even-if-oil-falls-93b61566?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/world/middle-east/iran-rushed-out-6-billion-of-oil-during-brief-truce-with-u-s-5a3d0818"
         }
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-07-20T22:40:08.000981+09:00",
+  "intraday_refreshed_kst": "2026-07-20T22:53:00.222587+09:00",
   "futures": {
-    "as_of_kst": "2026-07-20T22:40:04.438931+09:00",
+    "as_of_kst": "2026-07-20T22:50:08.950355+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7535.25,
-        "change_pct": 0.5,
+        "point": 7547.0,
+        "change_pct": 0.66,
         "spark": [
           7485.0,
-          7520.0,
-          7520.0,
           7520.5,
           7518.75,
           7519.5,
@@ -6364,21 +6368,23 @@
           7530.5,
           7534.25,
           7544.75,
-          7535.25
+          7546.0,
+          7550.25,
+          7547.0
         ],
         "candle": {
           "o": 7485.0,
-          "h": 7545.25,
+          "h": 7551.5,
           "l": 7482.0,
-          "c": 7535.25
+          "c": 7546.75
         },
         "range_240d": {
           "low": 6325.25,
           "high": 7623.75,
           "low_date": "2025-08-05",
           "high_date": "2026-06-02",
-          "low_change_pct": 19.13,
-          "high_change_pct": -1.16
+          "low_change_pct": 19.31,
+          "high_change_pct": -1.01
         },
         "daily_expanded": [
           {
@@ -8384,27 +8390,27 @@
           {
             "date": "2026-07-20",
             "o": 7485.0,
-            "h": 7545.25,
+            "h": 7551.5,
             "l": 7482.0,
-            "c": 7535.25,
-            "v": 244073
+            "c": 7546.75,
+            "v": 307488
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "인플레 부분 진정 vs 실적·고용 엇갈림. 캐나다 물가 냉각(2.8%), 미국 소비심리 개선, 수입물가 상승(중국산 고점) 병존. 연준 금리경로 불확실성 속 선물 방향성 미정.",
+          "summary": "소비자심리 개선·물가 예상 하회로 경기 실질 신호 긍정적이나, 중국 성장률 둔화·미국-이란 호르무즈 긴장 재고조로 매크로 불확실성 고조. ECB 금리 결정·에너지 공급 리스크 변수 부각.",
           "sources": [
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/economy/central-banking/canada-inflation-cools-to-2-8-in-june-as-gasoline-decelerates-8eb85b77"
-            },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/economy/consumers/consumer-sentiment-climbed-in-july-per-michigan-survey-8c26dad4"
             },
             {
               "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/07/17/import-prices-post-surprise-gain-as-costs-of-goods-from-china-hit-highest-since-2008.html"
+              "url": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/07/15/china-gdp-retail-sales-investment-june-.html"
             }
           ]
         }
@@ -8412,12 +8418,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29054.25,
-        "change_pct": 0.98,
+        "point": 29142.5,
+        "change_pct": 1.28,
         "spark": [
           28747.75,
-          28945.75,
-          28956.75,
           28965.75,
           28954.5,
           28967.25,
@@ -8455,21 +8459,23 @@
           29044.5,
           29045.0,
           29136.5,
-          29054.25
+          29125.0,
+          29178.25,
+          29142.5
         ],
         "candle": {
           "o": 28747.75,
-          "h": 29109.5,
+          "h": 29167.25,
           "l": 28709.75,
-          "c": 29054.25
+          "c": 29142.5
         },
         "range_240d": {
           "low": 23132.0,
           "high": 30712.75,
           "low_date": "2025-08-05",
           "high_date": "2026-06-02",
-          "low_change_pct": 25.6,
-          "high_change_pct": -5.4
+          "low_change_pct": 25.98,
+          "high_change_pct": -5.11
         },
         "daily_expanded": [
           {
@@ -10475,27 +10481,27 @@
           {
             "date": "2026-07-20",
             "o": 28747.75,
-            "h": 29109.5,
+            "h": 29167.25,
             "l": 28709.75,
-            "c": 29054.25,
-            "v": 123400
+            "c": 29142.5,
+            "v": 145501
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "반도체·AI 강세 지속. 일본 정부의 엔비디아 대량 납입 계획, AI 인프라 공급거래 확대 포착, Mag Seven 이후 신흥 AI 기업주로의 자금 이동.",
+          "summary": "반도체 강세에 나스닥100 선물 동조. AI 펀딩 열풍 지속으로 빅테크·신규 AI 종목 매수세 지속, 공급 계약 안정성 약화 신호 경보.",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/tech/ai/nvidia-noetra-to-build-ai-factory-to-power-japans-ai-ambitions-95e74210"
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-20-2026?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/everyday-investors-are-over-the-mag-seven-and-into-new-ai-darlings-a112ea2b?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/the-massive-supply-deals-feeding-the-ai-frenzy-are-no-sure-thing-3a89ec09?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-20-2026?mod=rss_markets_main"
             }
           ]
         }
@@ -10503,12 +10509,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52478.0,
-        "change_pct": 0.2,
+        "point": 52522.0,
+        "change_pct": 0.28,
         "spark": [
           52300.0,
-          52485.0,
-          52486.0,
           52467.0,
           52457.0,
           52452.0,
@@ -10546,21 +10550,23 @@
           52474.0,
           52491.0,
           52512.0,
-          52478.0
+          52516.0,
+          52475.0,
+          52522.0
         ],
         "candle": {
           "o": 52300.0,
-          "h": 52622.0,
+          "h": 52633.0,
           "l": 52238.0,
-          "c": 52478.0
+          "c": 52522.0
         },
         "range_240d": {
           "low": 44080.0,
           "high": 53372.0,
           "low_date": "2025-08-07",
           "high_date": "2026-07-06",
-          "low_change_pct": 19.05,
-          "high_change_pct": -1.68
+          "low_change_pct": 19.15,
+          "high_change_pct": -1.59
         },
         "daily_expanded": [
           {
@@ -12566,27 +12572,27 @@
           {
             "date": "2026-07-20",
             "o": 52300.0,
-            "h": 52622.0,
+            "h": 52633.0,
             "l": 52238.0,
-            "c": 52478.0,
-            "v": 21746
+            "c": 52522.0,
+            "v": 27082
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "지정학 리스크 재부상 우위. 호르무즈 해협 긴장(후티 해상봉쇄·미군 사상자 증가), 유가 $90 재돌파. 에너지·경기민감주 변동성 확대, 금융주 실적호조 상쇄.",
+          "summary": "금융권 실적 견조·유가 90달러 상향 재돌파로 에너지주·금융주 강세, 부동산 수요 부진·경기민감 소비재 약세. 호르무즈 지정학 긴장 고조로 유가 변동성 위험 심화.",
           "sources": [
             {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/2026072054077"
-            },
-            {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/2026072051421"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/business/earnings/u-s-bancorp-quarterly-revenue-rises-to-record-9516a2aa?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/world/middle-east/jordan-becomes-new-flashpoint-in-u-s-iran-war-as-troop-deaths-rise-9858b7d1"
+              "url": "https://www.wsj.com/business/energy-oil/gas-prices-will-stay-higher-for-longer-even-if-oil-falls-93b61566?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/world/middle-east/iran-rushed-out-6-billion-of-oil-during-brief-truce-with-u-s-5a3d0818"
             }
           ]
         }
