@@ -1,6 +1,6 @@
 {
   "date": "2026-07-20",
-  "generated_at": "2026-07-20T09:05:06.646162",
+  "generated_at": "2026-07-20T09:15:09.687862",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -8,26 +8,69 @@
       "summary": "한울반도체 AI 기반 MLCC 검사 시스템 상용화 → 반도체 생산 자동화·품질향상 → 반도체·전자부품 섹터 경쟁력 강화"
     },
     {
+      "title": "GLP-1경구화",
+      "summary": "FDA, 경구용 GLP-1 개발 경로 공식화 → 규제 불확실성 해소 → 바이오제약 섹터 긍정"
+    },
+    {
       "title": "항암백신",
       "summary": "HLB 자회사 항암백신 ITI-5000 미국 1상 투약 → 바이오 기업 글로벌 임상 진입 → 바이오헬스케어 섹터 긍정"
     }
   ],
   "narratives": [],
-  "themes_macro_summary": [],
-  "themes_tree": null,
+  "themes_macro_summary": [
+    {
+      "keyword": "MLCC검사",
+      "summary": "한울반도체 AI 기반 MLCC 검사 시스템 상용화 → 반도체 생산 자동화·품질향상 → 반도체·전자부품 섹터 경쟁력 강화",
+      "source_count": 2,
+      "verified": true
+    },
+    {
+      "keyword": "항암백신",
+      "summary": "HLB 자회사 항암백신 ITI-5000 미국 1상 투약 → 바이오 기업 글로벌 임상 진입 → 바이오헬스케어 섹터 긍정",
+      "source_count": 1,
+      "verified": false
+    }
+  ],
+  "themes_tree": {
+    "date": "2026-07-20",
+    "roots": [
+      {
+        "name": "AI 인프라",
+        "children": [
+          {
+            "name": "AI 반도체 검사",
+            "summary": "AI 기반 MLCC 전수검사 플랫폼이 상용화 직전 단계에 도달하고 글로벌 양산 공급 협의가 시작되면서, 제조 공정 내 AI 검사 수요 증가가 반도체 검사장비·MLCC 관련 섹터로 자금을 유인한다.",
+            "source_count": 2,
+            "verdict": "weak"
+          }
+        ]
+      },
+      {
+        "name": "반도체",
+        "children": [
+          {
+            "name": "반도체 패키징",
+            "summary": "하나마이크론이 전 사업부 고른 성장을 발판으로 증권사 목표가 상향을 받으며, AI 반도체 수요 확산에 따른 후공정 패키징 물량 증가 기대가 반도체 후공정 섹터로 자금을 끌어들인다.",
+            "source_count": 1,
+            "verdict": "weak"
+          }
+        ]
+      }
+    ]
+  },
   "stocks": [
     {
       "code": "000250",
       "name": "삼천당제약",
       "rank": 1,
-      "trade_amount": 2926000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
-      "industry": null,
-      "sector": null,
+      "trade_amount": 3555000000,
+      "change_pct": 29.82,
+      "close_price": 239000,
+      "open_price": 239000,
+      "high_price": 239000,
+      "low_price": 239000,
+      "industry": "의약품 제조업",
+      "sector": "하메론, 아토로우",
       "themes": [],
       "theme_paths": [],
       "pick_count": 1,
@@ -35,10 +78,191 @@
       "bullish_today": false,
       "bullish_streak": 0,
       "bullish_dates": [],
-      "news": [],
-      "fallback": true,
+      "news": [
+        {
+          "title": "삼천당제약, FDA 공식 회신 확보…\"경구용 GLP-1 사업화 탄력\"",
+          "url": "https://www.fnnews.com/news/202607200849569491",
+          "source": "파이낸셜뉴스",
+          "published_at": "2026-07-20T09:10:04.162375",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        }
+      ],
+      "fallback": false,
+      "index_change_pct": -1.35,
+      "index_multiple_current": -22.09,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 1233000,
+        "high_date": "2026-03-30",
+        "high_pct": -80.62,
+        "low": 172900,
+        "low_date": "2025-08-21",
+        "low_pct": 38.23,
+        "current": 239000
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-22",
+          "o": 242500,
+          "h": 250000,
+          "l": 233500,
+          "c": 241500
+        },
+        {
+          "date": "2026-06-23",
+          "o": 234000,
+          "h": 242500,
+          "l": 222000,
+          "c": 223500
+        },
+        {
+          "date": "2026-06-24",
+          "o": 222000,
+          "h": 241500,
+          "l": 218000,
+          "c": 238500
+        },
+        {
+          "date": "2026-06-25",
+          "o": 238500,
+          "h": 252000,
+          "l": 227000,
+          "c": 228000
+        },
+        {
+          "date": "2026-06-26",
+          "o": 227000,
+          "h": 229500,
+          "l": 205000,
+          "c": 210500
+        },
+        {
+          "date": "2026-06-29",
+          "o": 209500,
+          "h": 238500,
+          "l": 209500,
+          "c": 238500
+        },
+        {
+          "date": "2026-06-30",
+          "o": 236000,
+          "h": 236000,
+          "l": 222500,
+          "c": 226000
+        },
+        {
+          "date": "2026-07-01",
+          "o": 228000,
+          "h": 240000,
+          "l": 218000,
+          "c": 223500
+        },
+        {
+          "date": "2026-07-02",
+          "o": 202500,
+          "h": 214500,
+          "l": 201000,
+          "c": 204000
+        },
+        {
+          "date": "2026-07-03",
+          "o": 207500,
+          "h": 215000,
+          "l": 200500,
+          "c": 214000
+        },
+        {
+          "date": "2026-07-06",
+          "o": 211500,
+          "h": 214000,
+          "l": 199300,
+          "c": 204500
+        },
+        {
+          "date": "2026-07-07",
+          "o": 202000,
+          "h": 210000,
+          "l": 194300,
+          "c": 201000
+        },
+        {
+          "date": "2026-07-08",
+          "o": 197200,
+          "h": 201000,
+          "l": 183300,
+          "c": 189000
+        },
+        {
+          "date": "2026-07-09",
+          "o": 187300,
+          "h": 205000,
+          "l": 187300,
+          "c": 192900
+        },
+        {
+          "date": "2026-07-10",
+          "o": 194000,
+          "h": 206500,
+          "l": 190200,
+          "c": 199600
+        },
+        {
+          "date": "2026-07-13",
+          "o": 200000,
+          "h": 207000,
+          "l": 183400,
+          "c": 184900
+        },
+        {
+          "date": "2026-07-14",
+          "o": 181800,
+          "h": 186600,
+          "l": 173100,
+          "c": 180000
+        },
+        {
+          "date": "2026-07-15",
+          "o": 181200,
+          "h": 194400,
+          "l": 181100,
+          "c": 191600
+        },
+        {
+          "date": "2026-07-16",
+          "o": 190200,
+          "h": 190200,
+          "l": 182000,
+          "c": 184100
+        },
+        {
+          "date": "2026-07-20",
+          "o": 239000,
+          "h": 239000,
+          "l": 239000,
+          "c": 239000
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 239000,
+        "base": 239000,
+        "prices": [
+          239000,
+          239000,
+          239000
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": false,
       "hugepark_grade": "관찰"
@@ -47,11 +271,11 @@
       "code": "066910",
       "name": "손오공",
       "rank": 2,
-      "trade_amount": 1949000000,
-      "change_pct": 19.04,
-      "close_price": 2720,
+      "trade_amount": 3053000000,
+      "change_pct": 29.98,
+      "close_price": 2970,
       "open_price": 2485,
-      "high_price": 2730,
+      "high_price": 2970,
       "low_price": 2350,
       "industry": "기타 전문 도매업",
       "sector": "완구, 게임, 캐릭터수입수수료",
@@ -90,17 +314,17 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": -2.86,
-      "index_multiple_current": -6.66,
+      "index_change_pct": -1.35,
+      "index_multiple_current": -22.21,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 6000,
         "high_date": "2025-09-01",
-        "high_pct": -54.67,
+        "high_pct": -50.5,
         "low": 1630,
         "low_date": "2026-07-14",
-        "low_pct": 66.87,
-        "current": 2720
+        "low_pct": 82.21,
+        "current": 2970
       },
       "daily_20": [
         {
@@ -239,13 +463,50 @@
         {
           "date": "2026-07-20",
           "o": 2485,
-          "h": 2730,
+          "h": 2970,
           "l": 2350,
-          "c": 2720
+          "c": 2970
         }
       ],
+      "status_badges": [
+        {
+          "label": "투자주의 근접",
+          "severity": "caution",
+          "source": "predicted",
+          "thresholds": [
+            {
+              "desc": "5일 전(2026-07-10) 대비 +60%↑",
+              "base_price": 1826,
+              "threshold": 2921,
+              "current": 2970,
+              "triggered": true
+            }
+          ],
+          "regulation": "KRX 시장경보 가격 조건 충족 (거래량 미검증, 자체 추정)",
+          "period_start": "2026-07-21",
+          "period_end": "2026-07-22",
+          "start": "2026-07-21",
+          "end": "2026-07-22",
+          "view_date": "2026-07-20",
+          "next_trading_day": "2026-07-21",
+          "next_trading_day_for_predicted": "2026-07-21",
+          "next_trading_day_source": "fallback_homepage",
+          "single_price": false,
+          "effect_badges": []
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 2485,
+        "base": 2485,
+        "prices": [
+          2485,
+          2970,
+          2970
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰",
@@ -253,17 +514,290 @@
       "parent_theme": ""
     },
     {
+      "code": "285800",
+      "name": "진영",
+      "rank": 3,
+      "trade_amount": 1513000000,
+      "change_pct": 29.37,
+      "close_price": 1414,
+      "open_price": 1170,
+      "high_price": 1420,
+      "low_price": 1158,
+      "industry": "플라스틱제품 제조업",
+      "sector": "가구용 ASA플라스틱 시트, 엣지밴드",
+      "themes": [
+        "중동 지정학",
+        "3자배정증자"
+      ],
+      "theme_paths": [
+        {
+          "name": "중동 지정학",
+          "path": [
+            "전쟁",
+            "중동 지정학"
+          ]
+        },
+        {
+          "name": "3자배정증자",
+          "path": [
+            "3자배정증자"
+          ]
+        }
+      ],
+      "pick_count": 3,
+      "prev_pick": {
+        "date": "2026-07-17",
+        "rank": 14,
+        "change_pct": 2.996,
+        "trade_amount": 3573619243
+      },
+      "bullish_today": true,
+      "bullish_streak": 2,
+      "bullish_dates": [
+        "2026-06-30",
+        "2026-07-16",
+        "2026-07-20"
+      ],
+      "news": [
+        {
+          "title": "진영, 5억원 규모 유상증자 실시",
+          "url": "https://www.mk.co.kr/news/stock/12100586",
+          "source": "매경",
+          "published_at": "2026-07-16T08:56:17",
+          "causal_chain": "진영 5억원 규모 제3자배정 유상증자 → 외부 자본 유입·신규 투자자(전략적/재무적) 진입·보호예수 락업 기대 → 후속 시세 모멘텀 유입 → 당일 시초가(841원)부터 매수세가 집중되며 종가 상한가(+29.96%, 1,093원) 형성. 다만 거래대금이 34억원 수준에 그쳐 대규모 자금 유입 없이 소액 증자 기대감만으로 상한가가 나온 구조로, 모멘텀 지속성은 제한적.",
+          "macro_event": "진영 5억원 규모 제3자배정 유상증자 결정",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.5,
+          "newzy_virality": 0.2,
+          "newzy_tradability": null,
+          "newzy_score": 0.38,
+          "newzy_verdict": null,
+          "article_type": "공시"
+        },
+        {
+          "title": "진영, 5억 규모 제3자배정 유상증자 결정",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=04418166645515176",
+          "source": "이데일리",
+          "published_at": "2026-07-16T06:16:05",
+          "causal_chain": "진영 5억원 규모 제3자배정 유상증자 결정 → 외부 자본 유입·신규 투자자(전략적/재무적) 진입·보호예수 락업 기대 → 후속 시세 모멘텀 유입 → 당일 시초가(841원)에서 매수세 집중되며 종가 상한가(+29.96%, 1,093원) 형성. 다만 거래대금 34억원 수준으로 대규모 자금 유입은 제한적.",
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.45,
+          "newzy_virality": 0.25,
+          "newzy_tradability": null,
+          "newzy_score": 0.37,
+          "newzy_verdict": null,
+          "article_type": "공시"
+        }
+      ],
+      "fallback": true,
+      "theme_crosscheck": {
+        "confirmed": [
+          "중동 지정학"
+        ],
+        "pm320_only": [
+          "3자배정증자"
+        ],
+        "cafe_only": []
+      },
+      "index_change_pct": -1.35,
+      "index_multiple_current": -21.76,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 2965,
+        "high_date": "2026-04-14",
+        "high_pct": -52.31,
+        "low": 706,
+        "low_date": "2026-06-29",
+        "low_pct": 100.28,
+        "current": 1414
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-22",
+          "o": 962,
+          "h": 1004,
+          "l": 850,
+          "c": 898
+        },
+        {
+          "date": "2026-06-23",
+          "o": 898,
+          "h": 906,
+          "l": 840,
+          "c": 861
+        },
+        {
+          "date": "2026-06-24",
+          "o": 801,
+          "h": 868,
+          "l": 801,
+          "c": 821
+        },
+        {
+          "date": "2026-06-25",
+          "o": 821,
+          "h": 838,
+          "l": 805,
+          "c": 813
+        },
+        {
+          "date": "2026-06-26",
+          "o": 783,
+          "h": 809,
+          "l": 756,
+          "c": 772
+        },
+        {
+          "date": "2026-06-29",
+          "o": 707,
+          "h": 808,
+          "l": 706,
+          "c": 782
+        },
+        {
+          "date": "2026-06-30",
+          "o": 782,
+          "h": 1016,
+          "l": 782,
+          "c": 901
+        },
+        {
+          "date": "2026-07-01",
+          "o": 879,
+          "h": 895,
+          "l": 802,
+          "c": 841
+        },
+        {
+          "date": "2026-07-02",
+          "o": 864,
+          "h": 864,
+          "l": 721,
+          "c": 805
+        },
+        {
+          "date": "2026-07-03",
+          "o": 844,
+          "h": 844,
+          "l": 736,
+          "c": 814
+        },
+        {
+          "date": "2026-07-06",
+          "o": 785,
+          "h": 918,
+          "l": 785,
+          "c": 880
+        },
+        {
+          "date": "2026-07-07",
+          "o": 917,
+          "h": 917,
+          "l": 820,
+          "c": 824
+        },
+        {
+          "date": "2026-07-08",
+          "o": 865,
+          "h": 1070,
+          "l": 829,
+          "c": 921
+        },
+        {
+          "date": "2026-07-09",
+          "o": 922,
+          "h": 980,
+          "l": 805,
+          "c": 824
+        },
+        {
+          "date": "2026-07-10",
+          "o": 824,
+          "h": 880,
+          "l": 785,
+          "c": 853
+        },
+        {
+          "date": "2026-07-13",
+          "o": 872,
+          "h": 936,
+          "l": 836,
+          "c": 863
+        },
+        {
+          "date": "2026-07-14",
+          "o": 880,
+          "h": 909,
+          "l": 830,
+          "c": 842
+        },
+        {
+          "date": "2026-07-15",
+          "o": 870,
+          "h": 870,
+          "l": 829,
+          "c": 841
+        },
+        {
+          "date": "2026-07-16",
+          "o": 841,
+          "h": 1093,
+          "l": 841,
+          "c": 1093
+        },
+        {
+          "date": "2026-07-20",
+          "o": 1170,
+          "h": 1420,
+          "l": 1158,
+          "c": 1414
+        }
+      ],
+      "status_badges": [
+        {
+          "label": "투자주의 근접",
+          "severity": "caution",
+          "source": "predicted",
+          "thresholds": [
+            {
+              "desc": "5일 전(2026-07-10) 대비 +60%↑",
+              "base_price": 853,
+              "threshold": 1364,
+              "current": 1414,
+              "triggered": true
+            }
+          ],
+          "regulation": "KRX 시장경보 가격 조건 충족 (거래량 미검증, 자체 추정)",
+          "period_start": "2026-07-21",
+          "period_end": "2026-07-22",
+          "start": "2026-07-21",
+          "end": "2026-07-22",
+          "view_date": "2026-07-20",
+          "next_trading_day": "2026-07-21",
+          "next_trading_day_for_predicted": "2026-07-21",
+          "next_trading_day_source": "fallback_homepage",
+          "single_price": false,
+          "effect_badges": []
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
       "code": "079940",
       "name": "가비아",
-      "rank": 3,
-      "trade_amount": 267000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
-      "industry": null,
-      "sector": null,
+      "rank": 4,
+      "trade_amount": 270000000,
+      "change_pct": 29.94,
+      "close_price": 44050,
+      "open_price": 44050,
+      "high_price": 44050,
+      "low_price": 44050,
+      "industry": "소프트웨어 개발 및 공급업",
+      "sector": "도메인,호스팅",
       "themes": [],
       "theme_paths": [],
       "pick_count": 1,
@@ -271,10 +805,188 @@
       "bullish_today": false,
       "bullish_streak": 0,
       "bullish_dates": [],
-      "news": [],
+      "news": [
+        {
+          "title": "맥쿼리, 가비아 품는다…6300억 베팅에 상폐 추진",
+          "url": "https://www.etoday.co.kr/news/view/2605012",
+          "source": "이투데이",
+          "published_at": "2026-07-19T23:50:00",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        }
+      ],
       "fallback": true,
-      "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "index_change_pct": -1.35,
+      "index_multiple_current": -22.18,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 44050,
+        "high_date": "2026-07-20",
+        "high_pct": 0.0,
+        "low": 22250,
+        "low_date": "2025-08-20",
+        "low_pct": 97.98,
+        "current": 44050
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-22",
+          "o": 31100,
+          "h": 31800,
+          "l": 30800,
+          "c": 30900
+        },
+        {
+          "date": "2026-06-23",
+          "o": 31300,
+          "h": 31300,
+          "l": 29000,
+          "c": 29000
+        },
+        {
+          "date": "2026-06-24",
+          "o": 29700,
+          "h": 29700,
+          "l": 28600,
+          "c": 29400
+        },
+        {
+          "date": "2026-06-25",
+          "o": 29550,
+          "h": 30200,
+          "l": 29350,
+          "c": 29500
+        },
+        {
+          "date": "2026-06-26",
+          "o": 29150,
+          "h": 30000,
+          "l": 28500,
+          "c": 29500
+        },
+        {
+          "date": "2026-06-29",
+          "o": 29100,
+          "h": 30700,
+          "l": 29100,
+          "c": 30200
+        },
+        {
+          "date": "2026-06-30",
+          "o": 29450,
+          "h": 30400,
+          "l": 29450,
+          "c": 29650
+        },
+        {
+          "date": "2026-07-01",
+          "o": 30100,
+          "h": 30700,
+          "l": 29200,
+          "c": 30200
+        },
+        {
+          "date": "2026-07-02",
+          "o": 30900,
+          "h": 31050,
+          "l": 29700,
+          "c": 30100
+        },
+        {
+          "date": "2026-07-03",
+          "o": 30550,
+          "h": 31550,
+          "l": 29800,
+          "c": 31500
+        },
+        {
+          "date": "2026-07-06",
+          "o": 31500,
+          "h": 31850,
+          "l": 30550,
+          "c": 30800
+        },
+        {
+          "date": "2026-07-07",
+          "o": 31350,
+          "h": 32500,
+          "l": 31000,
+          "c": 31850
+        },
+        {
+          "date": "2026-07-08",
+          "o": 31750,
+          "h": 31750,
+          "l": 30100,
+          "c": 30850
+        },
+        {
+          "date": "2026-07-09",
+          "o": 31100,
+          "h": 31600,
+          "l": 30200,
+          "c": 31150
+        },
+        {
+          "date": "2026-07-10",
+          "o": 31250,
+          "h": 32000,
+          "l": 30900,
+          "c": 31650
+        },
+        {
+          "date": "2026-07-13",
+          "o": 31600,
+          "h": 32500,
+          "l": 30350,
+          "c": 30950
+        },
+        {
+          "date": "2026-07-14",
+          "o": 30900,
+          "h": 31450,
+          "l": 30000,
+          "c": 31100
+        },
+        {
+          "date": "2026-07-15",
+          "o": 31250,
+          "h": 33100,
+          "l": 31250,
+          "c": 32800
+        },
+        {
+          "date": "2026-07-16",
+          "o": 32600,
+          "h": 33950,
+          "l": 32500,
+          "c": 33900
+        },
+        {
+          "date": "2026-07-20",
+          "o": 44050,
+          "h": 44050,
+          "l": 44050,
+          "c": 44050
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 44050,
+        "base": 44050,
+        "prices": [
+          44050,
+          44050
+        ]
+      },
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
@@ -282,13 +994,13 @@
     {
       "code": "044380",
       "name": "주연테크",
-      "rank": 4,
-      "trade_amount": 98000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
+      "rank": 5,
+      "trade_amount": 110000000,
+      "change_pct": 30.0,
+      "close_price": 1352,
+      "open_price": 1352,
+      "high_price": 1352,
+      "low_price": 1352,
       "industry": "컴퓨터 및 주변장치 제조업",
       "sector": "각종컴퓨터,주변기기 제조/소프트웨어 개발",
       "themes": [],
@@ -302,18 +1014,22 @@
       },
       "bullish_today": false,
       "bullish_streak": 0,
-      "bullish_dates": [],
+      "bullish_dates": [
+        "2026-07-16"
+      ],
       "news": [],
       "fallback": true,
-      "index_change_pct": -4.36,
+      "index_change_pct": -1.1,
+      "index_multiple_current": -27.27,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 2970,
         "high_date": "2025-09-09",
-        "high_pct": -64.98,
+        "high_pct": -54.48,
         "low": 662,
         "low_date": "2026-07-14",
-        "low_pct": 57.1,
-        "current": 1040
+        "low_pct": 104.23,
+        "current": 1352
       },
       "daily_20": [
         {
@@ -457,8 +1173,17 @@
           "c": 1352
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 1352,
+        "base": 1352,
+        "prices": [
+          1352,
+          1352
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
