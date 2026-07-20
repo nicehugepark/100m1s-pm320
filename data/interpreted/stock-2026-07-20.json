@@ -1,6 +1,6 @@
 {
   "date": "2026-07-20",
-  "generated_at": "2026-07-20T09:15:09.687862",
+  "generated_at": "2026-07-20T09:16:26.820248",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -71,8 +71,35 @@
       "low_price": 239000,
       "industry": "의약품 제조업",
       "sector": "하메론, 아토로우",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "바이오",
+        "FDA 허가",
+        "GLP-1 비만치료제",
+        "비만약 테마주"
+      ],
+      "theme_paths": [
+        {
+          "name": "FDA 허가",
+          "path": [
+            "바이오",
+            "FDA 허가"
+          ]
+        },
+        {
+          "name": "GLP-1 비만치료제",
+          "path": [
+            "바이오",
+            "GLP-1 비만치료제"
+          ]
+        },
+        {
+          "name": "비만약 테마주",
+          "path": [
+            "바이오",
+            "비만약 테마주"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": false,
@@ -84,16 +111,16 @@
           "url": "https://www.fnnews.com/news/202607200849569491",
           "source": "파이낸셜뉴스",
           "published_at": "2026-07-20T09:10:04.162375",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "FDA가 삼천당제약의 경구용 세마글루타이드를 제네릭 허가(ANDA) 절차로 검토 중임을 공식 확인(대조약 리벨서스 명시) → SNAC-Free 차별화 제형(S-PASS) 기반 미국 시장 진입 규제 불확실성 완화 → GLP-1 비만·당뇨 치료제 글로벌 허가·사업화 기대(미국 파트너 약 1억달러 마일스톤·유럽 11개국 라이선스) → 매수세 집중되며 당일 시초가부터 점상한가(+29.82%, 239,000원) 형성.",
+          "macro_event": "삼천당제약, FDA로부터 경구용 세마글루타이드 Pre-ANDA 공식 답변서 확보 — 제네릭(ANDA) 허가 경로 확인",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.8,
+          "newzy_virality": 0.65,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.74,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": false,
@@ -263,8 +290,8 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "neutral",
-      "theme_leader": false,
+      "togusa_verdict": "weak_bull",
+      "theme_leader": true,
       "hugepark_grade": "관찰"
     },
     {
@@ -784,7 +811,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "079940",
@@ -798,8 +828,24 @@
       "low_price": 44050,
       "industry": "소프트웨어 개발 및 공급업",
       "sector": "도메인,호스팅",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "상장폐지 리스크",
+        "경영권 분쟁"
+      ],
+      "theme_paths": [
+        {
+          "name": "상장폐지 리스크",
+          "path": [
+            "상장폐지 리스크"
+          ]
+        },
+        {
+          "name": "경영권 분쟁",
+          "path": [
+            "경영권 분쟁"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": false,
@@ -811,16 +857,16 @@
           "url": "https://www.etoday.co.kr/news/view/2605012",
           "source": "이투데이",
           "published_at": "2026-07-19T23:50:00",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "맥쿼리가 가비아를 6300억원 규모로 인수하며 상장폐지(공개매수)를 추진 → 경영권 이전·공개매수 프리미엄 기대 유입 → 매수세 집중 → 당일 시초가부터 점상한가(시=고=저=종 44,050원, +29.94%)·52주 신고가 갱신. 다만 거래대금 3억원으로 유통물량이 얇아 소액 매수에도 가격이 밀어올려진 구조.",
+          "macro_event": "맥쿼리, 가비아 6300억 규모 인수·자진 상장폐지(공개매수) 추진",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.9,
+          "newzy_virality": 0.7,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.82,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": true,
@@ -987,9 +1033,9 @@
           44050
         ]
       },
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "044380",
