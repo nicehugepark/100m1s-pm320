@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 25692.5,
-      "change_pct": 0.67,
+      "point": 25685.32,
+      "change_pct": 0.65,
       "candle": {
         "o": 25725.9,
         "h": 25815.6,
         "l": 25581.47,
-        "c": 25692.5
+        "c": 25685.32
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,7 +2033,7 @@
           "o": 25725.9,
           "h": 25815.6,
           "l": 25581.47,
-          "c": 25692.5
+          "c": 25685.32
         }
       ],
       "spark": [
@@ -2062,7 +2062,9 @@
         25659.14,
         25678.86,
         25690.2,
-        25692.5
+        25702.46,
+        25687.42,
+        25685.32
       ],
       "news": {
         "summary": "반도체 약세 심화로 지수 하락세 가속 중. 중국 AI 모델 부상에 투자자 우려 확산되나, NVIDIA 등 칩 수요는 여전히 건재.",
@@ -2086,13 +2088,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7484.45,
-      "change_pct": 0.36,
+      "point": 7480.37,
+      "change_pct": 0.3,
       "candle": {
         "o": 7489.18,
         "h": 7513.23,
         "l": 7462.37,
-        "c": 7484.45
+        "c": 7480.37
       },
       "range_240d": {
         "low": 6299.19,
@@ -4116,7 +4118,7 @@
           "o": 7489.18,
           "h": 7513.23,
           "l": 7462.37,
-          "c": 7484.45
+          "c": 7480.37
         }
       ],
       "spark": [
@@ -4145,7 +4147,9 @@
         7478.21,
         7482.67,
         7484.35,
-        7484.45
+        7484.15,
+        7481.39,
+        7480.37
       ],
       "news": {
         "summary": "호르무즈 해협 긴장·수입 물가 상승·글로벌 경기 둔화 신호 복합 작용. 중국 GDP 3% 대 저성장, 유로존 산업생산 부진으로 선진국 성장률 압박 심화. 국채 수익률 상승·재정 적자 우려 속 소비자 심리는 부분 개선 지속.",
@@ -4169,13 +4173,13 @@
     },
     {
       "name": "DOW",
-      "point": 52058.87,
-      "change_pct": -0.17,
+      "point": 52016.79,
+      "change_pct": -0.25,
       "candle": {
         "o": 52154.57,
         "h": 52411.9,
         "l": 51923.6,
-        "c": 52058.87
+        "c": 52016.79
       },
       "range_240d": {
         "low": 43968.64,
@@ -6199,7 +6203,7 @@
           "o": 52154.57,
           "h": 52411.9,
           "l": 51923.6,
-          "c": 52058.87
+          "c": 52016.79
         }
       ],
       "spark": [
@@ -6228,7 +6232,9 @@
         52022.11,
         52051.46,
         52055.91,
-        52058.87
+        52046.29,
+        52020.84,
+        52016.79
       ],
       "news": {
         "summary": "금융주 2Q 실적 개선(M&A·대출 성장 견인)으로 은행 부문 강세 지속되나, 경기 리스크·금리 경로 불확실성 경고음 확대. 에너지·부동산 부진 신호(주택 판매 낙폭·가스 비용 상승)로 경기민감주 심리 악화.",
@@ -6253,82 +6259,82 @@
   ],
   "news_chips": [
     {
-      "summary": "개인투자자들이 매그니피센트 세븐을 외면하고 신흥 AI 종목으로 자산 배치 전환",
+      "summary": "투자자들이 메그세븐(거대기술주) 포트폴리오에서 벗어나 신규 AI 관련 종목으로 자금을 이동시키고 있다",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/stocks/everyday-investors-sour-on-the-mag-seven-and-flock-to-newer-ai-trades-6e8f8d8b?mod=rss_markets_main",
       "published_ts": 1784541660.0,
       "impact_high": true
     },
     {
-      "summary": "미국 경기 선행지수가 6월에 0.2% 하락해 경기 약세 신호 확산",
-      "source": "WSJ경제",
+      "summary": "미국 선행경기지수가 6월 0.2% 하락하며 소비 부진 신호를 보냈다",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/central-banking/u-s-leading-indicators-ticked-down-in-june-546daa61",
       "published_ts": 1784557920.0,
       "impact_high": false
     },
     {
-      "summary": "호르무즈 해협에서 유조선 폭발로 유가 물리적 차단 위협 고조",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026072053187",
-      "published_ts": 1784542867.0,
+      "summary": "AI 칩 장기 공급 계약이 기업 공시 수치만큼 확실하지 않다는 우려가 제기되었다",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/the-massive-supply-deals-feeding-the-ai-frenzy-are-no-sure-thing-3a89ec09?mod=rss_markets_main",
+      "published_ts": 1784539800.0,
       "impact_high": false
     },
     {
-      "summary": "유가가 배럴당 90달러를 재돌파하며 상승 추세 이어가",
-      "source": "한경국제",
+      "summary": "유가가 배럴당 90달러를 넘으며 중동 지정학적 긴장에 따른 에너지 공급망 우려가 증대되었다",
+      "source": "한경",
       "url": "https://www.hankyung.com/article/2026072051421",
       "published_ts": 1784538663.0,
       "impact_high": false
     },
     {
-      "summary": "중동 긴장 속 유가 변동성 지속 가운데 반도체는 강세 회복",
+      "summary": "반도체 주가가 중동 긴장 속 유가 변동성에도 불구하고 회복 기조를 나타냈다",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-20-2026?mod=rss_markets_main",
       "published_ts": 1784534514.0,
       "impact_high": false
     },
     {
-      "summary": "Fed가 주시하는 PCE 인플레이션 지표의 산정 방식을 변경해 정책 신호 가능",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/pce-inflation-data-updates-ca7bfd61",
+      "summary": "대형 식품회사들이 인플레이션과 GLP-1 약물 확산으로 인한 소비 약화에 대응 수단을 잃고 있다",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/business/retail/big-food-is-running-out-of-moves-with-shoppers-and-investors-5f4567e9?mod=rss_markets_main",
       "published_ts": 1784453400.0,
       "impact_high": true
     },
     {
-      "summary": "호르무즈 해협의 미국-이란 간 갈등 심화로 유럽중앙은행이 다음주 금리 결정을 재검토 중이며, 글로벌 금융시장 변동성이 확대되고 있습니다.",
+      "summary": "중국산 수입물가가 2008년 금융위기 이후 최고 수준으로 올라 미국 인플레이션 압력이 재부상했다",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/17/import-prices-post-surprise-gain-as-costs-of-goods-from-china-hit-highest-since-2008.html",
+      "published_ts": 1784297629.0,
+      "impact_high": false
+    },
+    {
+      "summary": "중동 호르무즈 해협 분쟁 격화로 유가 변동성이 확대되며 ECB가 금리 결정을 재검토하고 있다",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/15/ecb-interest-rates-outlook-iran-war-hormuz.html",
       "published_ts": 1784115199.0,
       "impact_high": true
     },
     {
-      "summary": "IMF가 중동 분쟁 지속 시 유가 충격에 대한 글로벌 경제 완충능력 부족을 경고",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/global/imf-sees-reduced-cushion-against-oil-disruption-for-global-economy-598c337d",
-      "published_ts": 1784110620.0,
+      "summary": "중국 2분기 GDP 증가율이 4.7%로 2022년 이후 최저 수준을 기록하며 글로벌 경기 약세 우려를 가중시켰다",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/15/china-gdp-retail-sales-investment-june-.html",
+      "published_ts": 1784092451.0,
       "impact_high": false
     },
     {
-      "summary": "미국 은행들이 2분기 실적 호조를 기록했지만 향후 악재 누적 가능성 제시",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/banking/banks-are-on-a-goldilocks-run-dont-assume-it-will-last-9f49f12f?mod=rss_markets_main",
-      "published_ts": 1784107800.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 6월 CPI가 3.5% 상승으로 예상치 이하, 에너지 가격 하락이 주도",
+      "summary": "미국 6월 소비자물가가 연 3.5% 오르며 예상(3.8%)을 하회했고 인플레이션 완화 추세가 지속되었다",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html",
       "published_ts": 1784063113.0,
       "impact_high": false
     }
   ],
-  "_article_sig": "7094926c1313603e273ea9b9880d79a9ee8be2400bd7162c5817b0150b7cff6d",
+  "_article_sig": "c22add3368deb9098307e41322aee54069c57a0b10b85125d6bb3fde9b247f0b",
   "built_at_kst": "2026-07-18T07:01:46.790439+09:00",
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "Mag Seven 약세 속 신흥 AI 재편 가속, GPU 수요 견조에 반도체주 강세 지속. 공급계약 견고성 우려 상존.",
+      "summary": "나스닥100 선물 약세, 매그 세븐 중심 대형 기술주 이탈 심화. AI 투자 재편 신호로 신흥 AI 종목 분산 매입 진행, 반도체 공급 계약 확실성 약화 vs 일본 GPU 대량 매입에 따른 칩 강세 신호 엇갈림.",
       "sources": [
         {
           "name": "WSJ",
@@ -6345,15 +6351,15 @@
       ]
     },
     "S&P500": {
-      "summary": "물가 에너지 완화 신호 양호, 경기선행지수 약화 신호 강화. 주택시장·중국 성장 부진으로 경기 둔화 우려 심화.",
+      "summary": "미국 경기 부진 신호 vs 물가 둔화 교차 심화. 경기선행지수 0.2% 하락·소비 약화 신호 대비 CPI 3.5%, 캐나다 2.8%로 물가 둔화. 중국 분기 성장률 최저(4.5% 미만) 기록, 유로존 산업생산 예상 외 하락으로 글로벌 성장 둔화 우려 확대. 이란·호르무즈 군사 긴장 격화에 유가 변동성 심화·에너지 공급 리스크 상향.",
       "sources": [
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html"
-        },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/economy/central-banking/u-s-leading-indicators-ticked-down-in-june-546daa61"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html"
         },
         {
           "name": "CNBC",
@@ -6362,7 +6368,7 @@
       ]
     },
     "DOW": {
-      "summary": "금융주 실적 우위로 은행권 강세, Comerica 인수 효과 계속. 에너지 가격 우상향에 정유 기제약으로 휘발유 가격 상승 가시화.",
+      "summary": "금융주 호실적 지속 vs 경기민감성 부분 경계. 5/3銀行·US뱅콥 등 대형행 2분기 실적 호조(M&A 시너지·수수료 수익 확대)로 은행주 강세 신호 이어지는 가운데, 부동산 시장 약화(기존주택 계약 5.4% 하락)·소비 선별화에 따른 대형식품주 이탈 우려로 경기순환주 부분 압박.",
       "sources": [
         {
           "name": "WSJ",
@@ -6370,24 +6376,26 @@
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/banks-are-on-a-goldilocks-run-dont-assume-it-will-last-9f49f12f?mod=rss_markets_main"
+          "url": "https://www.wsj.com/business/earnings/u-s-bancorp-quarterly-revenue-rises-to-record-9516a2aa?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/economy/housing/u-s-pending-home-sales-fell-in-june-5370cc55"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-07-21T00:30:06.246578+09:00",
+    "as_of_kst": "2026-07-21T00:40:04.306022+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7514.75,
-        "change_pct": 0.23,
+        "point": 7523.75,
+        "change_pct": 0.35,
         "spark": [
           7485.0,
-          7526.0,
-          7526.25,
           7524.75,
           7530.0,
           7529.0,
@@ -6425,21 +6433,23 @@
           7512.0,
           7516.5,
           7521.0,
-          7514.75
+          7522.5,
+          7522.75,
+          7523.75
         ],
         "candle": {
           "o": 7485.0,
           "h": 7552.0,
           "l": 7482.0,
-          "c": 7514.75
+          "c": 7523.75
         },
         "range_240d": {
           "low": 6325.25,
           "high": 7623.75,
           "low_date": "2025-08-05",
           "high_date": "2026-06-02",
-          "low_change_pct": 18.81,
-          "high_change_pct": -1.43
+          "low_change_pct": 18.95,
+          "high_change_pct": -1.31
         },
         "daily_expanded": [
           {
@@ -8447,21 +8457,21 @@
             "o": 7485.0,
             "h": 7552.0,
             "l": 7482.0,
-            "c": 7514.75,
-            "v": 641339
+            "c": 7523.75,
+            "v": 665512
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "물가 에너지 완화 신호 양호, 경기선행지수 약화 신호 강화. 주택시장·중국 성장 부진으로 경기 둔화 우려 심화.",
+          "summary": "미국 경기 부진 신호 vs 물가 둔화 교차 심화. 경기선행지수 0.2% 하락·소비 약화 신호 대비 CPI 3.5%, 캐나다 2.8%로 물가 둔화. 중국 분기 성장률 최저(4.5% 미만) 기록, 유로존 산업생산 예상 외 하락으로 글로벌 성장 둔화 우려 확대. 이란·호르무즈 군사 긴장 격화에 유가 변동성 심화·에너지 공급 리스크 상향.",
           "sources": [
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html"
-            },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/economy/central-banking/u-s-leading-indicators-ticked-down-in-june-546daa61"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html"
             },
             {
               "name": "CNBC",
@@ -8473,12 +8483,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28961.0,
-        "change_pct": 0.65,
+        "point": 29023.0,
+        "change_pct": 0.87,
         "spark": [
           28747.75,
-          29004.75,
-          29013.5,
           29008.75,
           29034.75,
           29035.75,
@@ -8516,21 +8524,23 @@
           28945.0,
           28972.25,
           29001.5,
-          28961.0
+          29015.5,
+          29020.5,
+          29023.0
         ],
         "candle": {
           "o": 28747.75,
           "h": 29192.5,
           "l": 28709.75,
-          "c": 28961.0
+          "c": 29023.0
         },
         "range_240d": {
           "low": 23132.0,
           "high": 30712.75,
           "low_date": "2025-08-05",
           "high_date": "2026-06-02",
-          "low_change_pct": 25.2,
-          "high_change_pct": -5.7
+          "low_change_pct": 25.47,
+          "high_change_pct": -5.5
         },
         "daily_expanded": [
           {
@@ -10538,13 +10548,13 @@
             "o": 28747.75,
             "h": 29192.5,
             "l": 28709.75,
-            "c": 28961.0,
-            "v": 280701
+            "c": 29023.0,
+            "v": 288564
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "Mag Seven 약세 속 신흥 AI 재편 가속, GPU 수요 견조에 반도체주 강세 지속. 공급계약 견고성 우려 상존.",
+          "summary": "나스닥100 선물 약세, 매그 세븐 중심 대형 기술주 이탈 심화. AI 투자 재편 신호로 신흥 AI 종목 분산 매입 진행, 반도체 공급 계약 확실성 약화 vs 일본 GPU 대량 매입에 따른 칩 강세 신호 엇갈림.",
           "sources": [
             {
               "name": "WSJ",
@@ -10564,12 +10574,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52234.0,
-        "change_pct": -0.27,
+        "point": 52279.0,
+        "change_pct": -0.18,
         "spark": [
           52300.0,
-          52474.0,
-          52468.0,
           52449.0,
           52495.0,
           52469.0,
@@ -10607,21 +10615,23 @@
           52208.0,
           52240.0,
           52268.0,
-          52234.0
+          52277.0,
+          52267.0,
+          52279.0
         ],
         "candle": {
           "o": 52300.0,
           "h": 52633.0,
           "l": 52138.0,
-          "c": 52234.0
+          "c": 52284.0
         },
         "range_240d": {
           "low": 44080.0,
           "high": 53372.0,
           "low_date": "2025-08-07",
           "high_date": "2026-07-06",
-          "low_change_pct": 18.5,
-          "high_change_pct": -2.13
+          "low_change_pct": 18.61,
+          "high_change_pct": -2.04
         },
         "daily_expanded": [
           {
@@ -12629,13 +12639,13 @@
             "o": 52300.0,
             "h": 52633.0,
             "l": 52138.0,
-            "c": 52234.0,
-            "v": 44284
+            "c": 52284.0,
+            "v": 45233
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "금융주 실적 우위로 은행권 강세, Comerica 인수 효과 계속. 에너지 가격 우상향에 정유 기제약으로 휘발유 가격 상승 가시화.",
+          "summary": "금융주 호실적 지속 vs 경기민감성 부분 경계. 5/3銀行·US뱅콥 등 대형행 2분기 실적 호조(M&A 시너지·수수료 수익 확대)로 은행주 강세 신호 이어지는 가운데, 부동산 시장 약화(기존주택 계약 5.4% 하락)·소비 선별화에 따른 대형식품주 이탈 우려로 경기순환주 부분 압박.",
           "sources": [
             {
               "name": "WSJ",
@@ -12643,12 +12653,16 @@
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/banks-are-on-a-goldilocks-run-dont-assume-it-will-last-9f49f12f?mod=rss_markets_main"
+              "url": "https://www.wsj.com/business/earnings/u-s-bancorp-quarterly-revenue-rises-to-record-9516a2aa?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/economy/housing/u-s-pending-home-sales-fell-in-june-5370cc55"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-07-21T00:30:10.139851+09:00"
+  "intraday_refreshed_kst": "2026-07-21T00:41:53.181670+09:00"
 }
