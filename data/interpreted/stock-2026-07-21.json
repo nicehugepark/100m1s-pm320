@@ -1,6 +1,6 @@
 {
   "date": "2026-07-21",
-  "generated_at": "2026-07-21T10:55:10.632766",
+  "generated_at": "2026-07-21T10:56:33.464368",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -1908,7 +1908,7 @@
       "sector": "올리고머화 베타-아밀로이드 검사제품(알츠하이머병 진단)",
       "themes": [
         "바이오",
-        "실적"
+        "AI"
       ],
       "theme_paths": [
         {
@@ -1918,9 +1918,9 @@
           ]
         },
         {
-          "name": "실적",
+          "name": "AI",
           "path": [
-            "실적"
+            "AI"
           ]
         }
       ],
@@ -1938,16 +1938,16 @@
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=02692886645516816",
           "source": "이데일리",
           "published_at": "2026-07-20T23:18:38",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "알츠하이머 진단(올리고머화 베타-아밀로이드) 본업의 피플바이오가 사명을 'TimeX AI'로 변경 → AI 사업 전환·리브랜딩 기대감이 투기적 매수세를 자극 → 시가 677원에서 상한가 직행, 종가 874원(+29.87%)·장중 저가·시가 동일(677) 상한가 마감. 다만 거래대금이 5억원에 불과해 소형·저유동 수급 규모는 제한적.",
+          "macro_event": "피플바이오, 사명을 '타임엑스에이아이(TimeX AI)'로 변경",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.3,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.36,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "피플바이오, 2분기 매출 128% 증가…영업손실 절반 이상 축소",
@@ -2168,8 +2168,19 @@
       "low_price": 1623,
       "industry": "그외 기타 전문, 과학 및 기술 서비스업",
       "sector": "유전체 분야 진단시약 제조 및 유전체 분야 소프트웨어 연구,개발,판매",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "바이오",
+        "희귀질환 진단"
+      ],
+      "theme_paths": [
+        {
+          "name": "희귀질환 진단",
+          "path": [
+            "바이오",
+            "희귀질환 진단"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": false,
@@ -2181,16 +2192,16 @@
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=02912646645516816",
           "source": "이데일리",
           "published_at": "2026-07-20T23:53:13",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "엔젠바이오가 혈액암 진단패널을 분당서울대병원에 공급하고 상급종합병원 20곳을 확보 → 유전체·체외진단 본업(도메인 핵심사업)의 제품 채택처 확대로 실적 개선 기대 → 저가권 진단주(52주 고가 대비 -73%) 턴어라운드 매수세 집중 → 당일 시가 1,712원에서 상한가 직행, 종가 1,825원(+29.99%). 다만 거래대금은 2억원으로 수급 규모는 매우 얇다.",
+          "macro_event": "체외진단·유전체 진단 제품의 상급종합병원 채택 확대(본업 매출 모멘텀)",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.2,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.32,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": true,
@@ -2375,9 +2386,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     }
   ]
 }
