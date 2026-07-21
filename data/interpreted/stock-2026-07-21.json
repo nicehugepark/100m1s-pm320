@@ -1,6 +1,6 @@
 {
   "date": "2026-07-21",
-  "generated_at": "2026-07-21T13:15:17.742127",
+  "generated_at": "2026-07-21T13:15:23.699883",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -3274,8 +3274,17 @@
       "low_price": 4190,
       "industry": "반도체 제조업",
       "sector": "전자집적회로, 모션제어칩",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "반도체"
+      ],
+      "theme_paths": [
+        {
+          "name": "반도체",
+          "path": [
+            "반도체"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": true,
@@ -3497,9 +3506,9 @@
           5600
         ]
       },
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "264850",
@@ -4859,7 +4868,9 @@
       "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": false,
-      "hugepark_grade": "관찰"
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "034940",
