@@ -1,6 +1,6 @@
 {
   "date": "2026-07-21",
-  "generated_at": "2026-07-21T12:35:16.371189",
+  "generated_at": "2026-07-21T12:36:23.698844",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -40,13 +40,13 @@
     },
     {
       "keyword": "GLP-1",
-      "summary": "삼천당제약, FDA 공식 회신 확보 → 경구용 GLP-1 사업화 탄력 → 제약·바이오 섹터 기대감",
+      "summary": "FDA GLP-1 경구약 승인 신호 → 국내 바이오 기업 해외수출 탄력 → 바이오제약 섹터 수혜",
       "source_count": 1,
       "verified": false
     },
     {
       "keyword": "AI검사",
-      "summary": "한울반도체 MLCC AI 전수검사 플랫폼 상용화 임박 → 반도체 검사 자동화·수율 개선 → 반도체 솔루션·제조 섹터 효율성 상승",
+      "summary": "MLCC 검사 AI 자동화 상용화 → 반도체 검사 산업 효율화 → 반도체·AI 섹터 트렌드",
       "source_count": 1,
       "verified": false
     },
@@ -2062,9 +2062,16 @@
       "industry": "1차 철강 제조업",
       "sector": "봉강",
       "themes": [
+        "실적",
         "철강"
       ],
       "theme_paths": [
+        {
+          "name": "실적",
+          "path": [
+            "실적"
+          ]
+        },
         {
           "name": "철강",
           "path": [
@@ -2089,6 +2096,22 @@
       ],
       "news": [
         {
+          "title": "동일스틸럭스, 2분기 영업이익 4.8억원…흑자전환",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03922886645516816",
+          "source": "이데일리",
+          "published_at": "2026-07-21T03:27:04",
+          "causal_chain": "2분기 영업이익 4.8억원 흑자전환 → 봉강 중심 철강 소재 본업의 수익성 개선·턴어라운드 기대 부각 → 저평가(52주 고가 대비 -74.8%) 실적 개선 종목에 매수세 집중 → 당일 시가 1,712원에서 상한가 직행, 종가 2,220원(+29.90%)·거래대금 125억원 형성",
+          "macro_event": "동일스틸럭스 2026년 2분기 영업이익 4.8억원 흑자전환",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.6,
+          "newzy_virality": 0.3,
+          "newzy_tradability": null,
+          "newzy_score": 0.48,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        },
+        {
           "title": "[MK 골든크로스 돌파종목 : 동일스틸럭스(023790) & 미디어젠(279600)]",
           "url": "https://www.mk.co.kr/news/stock/12103020",
           "source": "매경",
@@ -2103,22 +2126,6 @@
           "newzy_score": null,
           "newzy_verdict": null,
           "article_type": "시세정형"
-        },
-        {
-          "title": "동일스틸럭스, 2분기 영업이익 4.8억원…흑자전환",
-          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03922886645516816",
-          "source": "이데일리",
-          "published_at": "2026-07-21T03:27:04",
-          "causal_chain": null,
-          "macro_event": null,
-          "newzy_freshness": null,
-          "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
-          "newzy_tradability": null,
-          "newzy_score": null,
-          "newzy_verdict": null,
-          "article_type": null
         }
       ],
       "fallback": false,
@@ -2126,7 +2133,9 @@
         "confirmed": [
           "철강"
         ],
-        "pm320_only": [],
+        "pm320_only": [
+          "실적"
+        ],
         "cafe_only": []
       },
       "index_change_pct": -0.05,
@@ -2541,7 +2550,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "187790",
