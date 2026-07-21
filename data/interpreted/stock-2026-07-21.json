@@ -1,6 +1,6 @@
 {
   "date": "2026-07-21",
-  "generated_at": "2026-07-21T13:56:24.156876",
+  "generated_at": "2026-07-21T14:05:23.313811",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -9,11 +9,15 @@
     },
     {
       "title": "GLP-1",
-      "summary": "삼천당제약 FDA 공식 회신 획득 → 경구용 GLP-1 사업화 탄력 → 바이오제약 섹터 개발 가속"
+      "summary": "국내 바이오사 GLP-1 FDA 공식 회신 확보 → 경구용 GLP-1 사업화 탄력 → 바이오 제약 섹터 기대감 고조"
     },
     {
       "title": "AI웰니스",
       "summary": "손오공 AI 마사지 로봇 'R2E' 독점 유통 계약 → AI 웰니스 신사업 본격화 → 로봇·웰니스 섹터 성장"
+    },
+    {
+      "title": "AI로봇",
+      "summary": "AI 로봇 상용화 단계 진입 → 국내 마사지·휴머노이드 로봇 제조 본격화 → AI 로봇·제조자동화 산업 수혜"
     },
     {
       "title": "AI검사",
@@ -22,10 +26,20 @@
     {
       "title": "AI산업화",
       "summary": "AI 기술 상용화 소식 연쇄 → AI 산업화 가속화 추세 확인 → AI·반도체·바이오 등 기술 혁신 섹터 주목도 상승"
+    },
+    {
+      "title": "GLP-1국산화",
+      "summary": "GLP-1 국산화 가속 → 삼천당제약 FDA 회신 획득 → 경구용 대중화 임박 → 바이오제약 섹터 수혜"
     }
   ],
   "narratives": [],
   "themes_macro_summary": [
+    {
+      "keyword": "AI웰니스",
+      "summary": "손오공 AI 마사지 로봇 'R2E' 독점 유통 계약 → AI 웰니스 신사업 본격화 → 로봇·웰니스 섹터 성장",
+      "source_count": 2,
+      "verified": true
+    },
     {
       "keyword": "AI산업화",
       "summary": "AI 기술 상용화 소식 연쇄 → AI 산업화 가속화 추세 확인 → AI·반도체·바이오 등 기술 혁신 섹터 주목도 상승",
@@ -40,19 +54,13 @@
     },
     {
       "keyword": "GLP-1",
-      "summary": "FDA GLP-1 경구약 승인 신호 → 국내 바이오 기업 해외수출 탄력 → 바이오제약 섹터 수혜",
+      "summary": "삼천당제약 FDA 공식 회신 획득 → 경구용 GLP-1 사업화 탄력 → 바이오제약 섹터 개발 가속",
       "source_count": 1,
       "verified": false
     },
     {
       "keyword": "AI검사",
-      "summary": "한울반도체 MLCC AI 전수검사 플랫폼 상용화→반도체 검사 자동화 고도화→반도체·AI 섹터 산업경쟁력 강화",
-      "source_count": 1,
-      "verified": false
-    },
-    {
-      "keyword": "AI웰니스",
-      "summary": "손오공, AI 마사지 로봇 국내 독점유통 확보 → AI 웰니스 신사업 본격화 → AI·로봇·헬스케어 섹터 수혜 기대",
+      "summary": "한울반도체 AI 전수검사 플랫폼 상용화 → 반도체 품질관리 자동화 → 반도체·AI 섹터",
       "source_count": 1,
       "verified": false
     }
@@ -60,6 +68,41 @@
   "themes_tree": {
     "date": "2026-07-21",
     "roots": [
+      {
+        "name": "로봇",
+        "children": [
+          {
+            "name": "휴머노이드 로봇",
+            "summary": "손오공의 AI 마사지 로봇 국내 독점 유통과 에브리봇의 휴머노이드 제조공정 자동화 협력으로 로봇 상용화 기대가 부각되며 로봇·자동화 부품주로 매수세 유입",
+            "source_count": 3,
+            "verdict": "unverified"
+          },
+          {
+            "name": "AI 웰니스 로봇",
+            "summary": "손오공 AI 마사지 로봇 국내 독점 유통 확보로 웰니스 신사업 진출→서비스 로봇 유통 테마 부각",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "AI 헬스케어 로봇",
+            "summary": "손오공 AI 마사지 로봇 국내 독점 유통 확보로 AI 웰니스 신사업 진출, 헬스케어 로봇 유통 섹터 주목.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "AI 헬스케어 로봇",
+            "summary": "손오공 AI 마사지 로봇 국내 독점 유통 확보로 AI 웰니스·헬스케어 로봇 신사업 진출이 부각되며 서비스 로봇 테마로 자금 유입",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "AI 웰니스 로봇",
+            "summary": "손오공이 AI 마사지 로봇 국내 독점 유통을 확보하며 AI 웰니스 신사업 진출→헬스케어·서비스 로봇 유통 밸류체인으로 관심 이동→로봇·헬스케어 섹터",
+            "source_count": 1,
+            "verdict": "weak"
+          }
+        ]
+      },
       {
         "name": "비만치료제",
         "children": [
@@ -1625,35 +1668,6 @@
         ]
       },
       {
-        "name": "로봇",
-        "children": [
-          {
-            "name": "AI 웰니스 로봇",
-            "summary": "손오공 AI 마사지 로봇 국내 독점 유통 확보로 웰니스 신사업 진출→서비스 로봇 유통 테마 부각",
-            "source_count": 1,
-            "verdict": "weak"
-          },
-          {
-            "name": "AI 헬스케어 로봇",
-            "summary": "손오공 AI 마사지 로봇 국내 독점 유통 확보로 AI 웰니스 신사업 진출, 헬스케어 로봇 유통 섹터 주목.",
-            "source_count": 1,
-            "verdict": "weak"
-          },
-          {
-            "name": "AI 헬스케어 로봇",
-            "summary": "손오공 AI 마사지 로봇 국내 독점 유통 확보로 AI 웰니스·헬스케어 로봇 신사업 진출이 부각되며 서비스 로봇 테마로 자금 유입",
-            "source_count": 1,
-            "verdict": "weak"
-          },
-          {
-            "name": "AI 웰니스 로봇",
-            "summary": "손오공이 AI 마사지 로봇 국내 독점 유통을 확보하며 AI 웰니스 신사업 진출→헬스케어·서비스 로봇 유통 밸류체인으로 관심 이동→로봇·헬스케어 섹터",
-            "source_count": 1,
-            "verdict": "weak"
-          }
-        ]
-      },
-      {
         "name": "제약·바이오",
         "children": [
           {
@@ -2587,6 +2601,40 @@
             "verdict": "weak"
           }
         ]
+      },
+      {
+        "name": "제약바이오",
+        "children": [
+          {
+            "name": "비만치료제",
+            "summary": "삼천당제약이 경구용 GLP-1 관련 FDA 공식 회신을 확보하며 사업화 기대가 커져 비만·대사질환 치료제 관련주로 자금 집중",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "비만치료제",
+            "summary": "삼천당제약이 경구용 GLP-1 관련 FDA 공식 회신을 확보하며 사업화 기대가 커져 비만·대사질환 치료제 관련주로 자금 집중",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "비만치료제",
+            "summary": "삼천당제약이 경구용 GLP-1 관련 FDA 공식 회신을 확보하며 사업화 기대가 커져 비만·대사질환 치료제 관련주로 자금 집중",
+            "source_count": 1,
+            "verdict": "weak"
+          }
+        ]
+      },
+      {
+        "name": "인공지능",
+        "children": [
+          {
+            "name": "AI 인프라",
+            "summary": "한울반도체의 MLCC AI 전수검사 플랫폼 상용화 임박으로 제조 검사공정에 AI 도입이 확산되며 AI 검사·비전 장비 수혜 기대",
+            "source_count": 1,
+            "verdict": "unverified"
+          }
+        ]
       }
     ]
   },
@@ -2595,9 +2643,9 @@
       "code": "000250",
       "name": "삼천당제약",
       "rank": 1,
-      "trade_amount": 230239000000,
-      "change_pct": -29.83,
-      "close_price": 167700,
+      "trade_amount": 232063000000,
+      "change_pct": -29.92,
+      "close_price": 167500,
       "open_price": 251500,
       "high_price": 254000,
       "low_price": 167500,
@@ -2661,17 +2709,17 @@
         }
       ],
       "fallback": false,
-      "index_change_pct": 0.73,
-      "index_multiple_current": -40.86,
+      "index_change_pct": 0.19,
+      "index_multiple_current": -157.47,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 1233000,
         "high_date": "2026-03-30",
-        "high_pct": -86.4,
+        "high_pct": -86.42,
         "low": 167500,
         "low_date": "2026-07-21",
-        "low_pct": 0.12,
-        "current": 167700
+        "low_pct": 0.0,
+        "current": 167500
       },
       "daily_20": [
         {
@@ -2812,7 +2860,7 @@
           "o": 251500,
           "h": 254000,
           "l": 167500,
-          "c": 167700
+          "c": 167500
         }
       ],
       "status_badges": [
@@ -2896,7 +2944,9 @@
           167850,
           167700,
           167700,
-          167800
+          167700,
+          167500,
+          167500
         ]
       },
       "credit_risk": true,
@@ -2909,9 +2959,9 @@
       "code": "003280",
       "name": "흥아해운",
       "rank": 2,
-      "trade_amount": 108642000000,
-      "change_pct": 2.14,
-      "close_price": 1860,
+      "trade_amount": 109124000000,
+      "change_pct": 2.42,
+      "close_price": 1865,
       "open_price": 1806,
       "high_price": 2130,
       "low_price": 1790,
@@ -2940,17 +2990,17 @@
       "bullish_dates": [],
       "news": [],
       "fallback": true,
-      "index_change_pct": 4.39,
-      "index_multiple_current": 0.49,
+      "index_change_pct": 4.02,
+      "index_multiple_current": 0.6,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 4795,
         "high_date": "2026-04-02",
-        "high_pct": -61.21,
+        "high_pct": -61.11,
         "low": 1553,
         "low_date": "2026-01-09",
-        "low_pct": 19.77,
-        "current": 1860
+        "low_pct": 20.09,
+        "current": 1865
       },
       "daily_20": [
         {
@@ -3091,7 +3141,7 @@
           "o": 1806,
           "h": 2130,
           "l": 1790,
-          "c": 1860
+          "c": 1865
         }
       ],
       "intraday": {
@@ -3157,7 +3207,9 @@
           1857,
           1865,
           1863,
-          1860
+          1865,
+          1868,
+          1867
         ]
       },
       "togusa_verdict": "strong_bull",
@@ -3167,10 +3219,205 @@
       "parent_theme": ""
     },
     {
+      "code": "218150",
+      "name": "미래생명자원",
+      "rank": 3,
+      "trade_amount": 50240000000,
+      "change_pct": -5.5,
+      "close_price": 2490,
+      "open_price": 2950,
+      "high_price": 3180,
+      "low_price": 2475,
+      "industry": "동물용 사료 및 조제식품 제조업",
+      "sector": "동물용 사료 및 조제식품 제조업",
+      "themes": [
+        "농업"
+      ],
+      "theme_paths": [
+        {
+          "name": "농업",
+          "path": [
+            "농업"
+          ]
+        }
+      ],
+      "pick_count": 2,
+      "prev_pick": {
+        "date": "2026-07-20",
+        "rank": 7,
+        "change_pct": 29.8,
+        "trade_amount": 14198000000
+      },
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [
+        "2026-07-14",
+        "2026-07-20"
+      ],
+      "news": [],
+      "fallback": true,
+      "index_change_pct": 0.19,
+      "index_multiple_current": -28.95,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 4300,
+        "high_date": "2026-03-09",
+        "high_pct": -42.09,
+        "low": 1545,
+        "low_date": "2026-06-29",
+        "low_pct": 61.17,
+        "current": 2490
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-23",
+          "o": 1748,
+          "h": 1846,
+          "l": 1718,
+          "c": 1720
+        },
+        {
+          "date": "2026-06-24",
+          "o": 1689,
+          "h": 1753,
+          "l": 1650,
+          "c": 1726
+        },
+        {
+          "date": "2026-06-25",
+          "o": 1712,
+          "h": 1758,
+          "l": 1675,
+          "c": 1728
+        },
+        {
+          "date": "2026-06-26",
+          "o": 1714,
+          "h": 1720,
+          "l": 1622,
+          "c": 1622
+        },
+        {
+          "date": "2026-06-29",
+          "o": 1545,
+          "h": 1800,
+          "l": 1545,
+          "c": 1800
+        },
+        {
+          "date": "2026-06-30",
+          "o": 1741,
+          "h": 1820,
+          "l": 1705,
+          "c": 1738
+        },
+        {
+          "date": "2026-07-01",
+          "o": 1724,
+          "h": 1785,
+          "l": 1700,
+          "c": 1780
+        },
+        {
+          "date": "2026-07-02",
+          "o": 1760,
+          "h": 1782,
+          "l": 1650,
+          "c": 1710
+        },
+        {
+          "date": "2026-07-03",
+          "o": 1689,
+          "h": 1717,
+          "l": 1592,
+          "c": 1669
+        },
+        {
+          "date": "2026-07-06",
+          "o": 1639,
+          "h": 1779,
+          "l": 1639,
+          "c": 1768
+        },
+        {
+          "date": "2026-07-07",
+          "o": 1736,
+          "h": 1830,
+          "l": 1736,
+          "c": 1757
+        },
+        {
+          "date": "2026-07-08",
+          "o": 1701,
+          "h": 1805,
+          "l": 1701,
+          "c": 1710
+        },
+        {
+          "date": "2026-07-09",
+          "o": 1730,
+          "h": 1880,
+          "l": 1695,
+          "c": 1801
+        },
+        {
+          "date": "2026-07-10",
+          "o": 1790,
+          "h": 1840,
+          "l": 1775,
+          "c": 1804
+        },
+        {
+          "date": "2026-07-13",
+          "o": 1834,
+          "h": 1888,
+          "l": 1804,
+          "c": 1833
+        },
+        {
+          "date": "2026-07-14",
+          "o": 1833,
+          "h": 2380,
+          "l": 1833,
+          "c": 2380
+        },
+        {
+          "date": "2026-07-15",
+          "o": 2555,
+          "h": 2590,
+          "l": 2105,
+          "c": 2115
+        },
+        {
+          "date": "2026-07-16",
+          "o": 2240,
+          "h": 2430,
+          "l": 1920,
+          "c": 2030
+        },
+        {
+          "date": "2026-07-20",
+          "o": 2135,
+          "h": 2635,
+          "l": 1994,
+          "c": 2635
+        },
+        {
+          "date": "2026-07-21",
+          "o": 2950,
+          "h": 3180,
+          "l": 2475,
+          "c": 2490
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "투자주의"
+    },
+    {
       "code": "332570",
       "name": "PS일렉트로닉스",
-      "rank": 3,
-      "trade_amount": 41577000000,
+      "rank": 4,
+      "trade_amount": 41612000000,
       "change_pct": 29.88,
       "close_price": 6650,
       "open_price": 5140,
@@ -3189,8 +3436,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 0.73,
-      "index_multiple_current": 40.93,
+      "index_change_pct": 0.19,
+      "index_multiple_current": 157.26,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 14990,
@@ -3406,6 +3653,8 @@
           6650,
           6650,
           6650,
+          6650,
+          6650,
           6650
         ]
       },
@@ -3416,8 +3665,8 @@
     {
       "code": "439960",
       "name": "코스모로보틱스",
-      "rank": 4,
-      "trade_amount": 30937000000,
+      "rank": 5,
+      "trade_amount": 31148000000,
       "change_pct": 30.0,
       "close_price": 13520,
       "open_price": 10200,
@@ -3446,8 +3695,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 0.73,
-      "index_multiple_current": 41.1,
+      "index_change_pct": 0.19,
+      "index_multiple_current": 157.89,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 68500,
@@ -3663,6 +3912,8 @@
           13520,
           13520,
           13520,
+          13520,
+          13520,
           13520
         ]
       },
@@ -3677,8 +3928,8 @@
     {
       "code": "023790",
       "name": "동일스틸럭스",
-      "rank": 5,
-      "trade_amount": 13547000000,
+      "rank": 6,
+      "trade_amount": 13570000000,
       "change_pct": 29.9,
       "close_price": 2220,
       "open_price": 1712,
@@ -3763,8 +4014,8 @@
         ],
         "cafe_only": []
       },
-      "index_change_pct": 0.73,
-      "index_multiple_current": 40.96,
+      "index_change_pct": 0.19,
+      "index_multiple_current": 157.37,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 8807,
@@ -4006,6 +4257,9 @@
           2220,
           2220,
           2220,
+          2220,
+          2220,
+          2220,
           2220
         ]
       },
@@ -4018,8 +4272,8 @@
     {
       "code": "059120",
       "name": "아진엑스텍",
-      "rank": 6,
-      "trade_amount": 7395000000,
+      "rank": 7,
+      "trade_amount": 7412000000,
       "change_pct": 29.78,
       "close_price": 5600,
       "open_price": 4210,
@@ -4047,8 +4301,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 0.73,
-      "index_multiple_current": 40.79,
+      "index_change_pct": 0.19,
+      "index_multiple_current": 156.74,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 14500,
@@ -4264,6 +4518,8 @@
           5600,
           5600,
           5600,
+          5600,
+          5600,
           5600
         ]
       },
@@ -4276,8 +4532,8 @@
     {
       "code": "264850",
       "name": "이랜시스",
-      "rank": 7,
-      "trade_amount": 6751000000,
+      "rank": 8,
+      "trade_amount": 6861000000,
       "change_pct": 29.97,
       "close_price": 4705,
       "open_price": 3600,
@@ -4296,8 +4552,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 0.73,
-      "index_multiple_current": 41.05,
+      "index_change_pct": 0.19,
+      "index_multiple_current": 157.74,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 9530,
@@ -4513,6 +4769,8 @@
           4705,
           4705,
           4705,
+          4705,
+          4705,
           4705
         ]
       },
@@ -4523,8 +4781,8 @@
     {
       "code": "270660",
       "name": "에브리봇",
-      "rank": 8,
-      "trade_amount": 4339000000,
+      "rank": 9,
+      "trade_amount": 4366000000,
       "change_pct": 30.0,
       "close_price": 12610,
       "open_price": 9530,
@@ -4572,8 +4830,8 @@
         }
       ],
       "fallback": false,
-      "index_change_pct": 0.73,
-      "index_multiple_current": 41.1,
+      "index_change_pct": 0.19,
+      "index_multiple_current": 157.89,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 31900,
@@ -4789,6 +5047,8 @@
           12610,
           12610,
           12610,
+          12610,
+          12610,
           12610
         ]
       },
@@ -4801,8 +5061,8 @@
     {
       "code": "015260",
       "name": "에이엔피",
-      "rank": 9,
-      "trade_amount": 3975000000,
+      "rank": 10,
+      "trade_amount": 3977000000,
       "change_pct": 29.85,
       "close_price": 509,
       "open_price": 404,
@@ -4838,8 +5098,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 4.39,
-      "index_multiple_current": 6.8,
+      "index_change_pct": 4.02,
+      "index_multiple_current": 7.43,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 1077,
@@ -5054,6 +5314,8 @@
           507,
           509,
           509,
+          509,
+          509,
           509
         ]
       },
@@ -5068,8 +5330,8 @@
     {
       "code": "187790",
       "name": "나노",
-      "rank": 10,
-      "trade_amount": 3647000000,
+      "rank": 11,
+      "trade_amount": 3650000000,
       "change_pct": 29.97,
       "close_price": 3730,
       "open_price": 3035,
@@ -5139,8 +5401,8 @@
         }
       ],
       "fallback": false,
-      "index_change_pct": 0.73,
-      "index_multiple_current": 41.05,
+      "index_change_pct": 0.19,
+      "index_multiple_current": 157.74,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 7560,
@@ -5356,6 +5618,8 @@
           3730,
           3730,
           3730,
+          3730,
+          3730,
           3730
         ]
       },
@@ -5368,8 +5632,8 @@
     {
       "code": "215090",
       "name": "솔디펜스",
-      "rank": 11,
-      "trade_amount": 2903000000,
+      "rank": 12,
+      "trade_amount": 2910000000,
       "change_pct": 29.98,
       "close_price": 1682,
       "open_price": 1292,
@@ -5388,8 +5652,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 0.73,
-      "index_multiple_current": 41.07,
+      "index_change_pct": 0.19,
+      "index_multiple_current": 157.79,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 4910,
@@ -5605,6 +5869,7 @@
           1682,
           1682,
           1682,
+          1682,
           1682
         ]
       },
@@ -5617,7 +5882,7 @@
     {
       "code": "405000",
       "name": "플라즈맵",
-      "rank": 12,
+      "rank": 13,
       "trade_amount": 2477000000,
       "change_pct": 29.79,
       "close_price": 5010,
@@ -5652,8 +5917,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 0.73,
-      "index_multiple_current": 40.81,
+      "index_change_pct": 0.19,
+      "index_multiple_current": 156.79,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 9400,
@@ -5869,6 +6134,7 @@
           5010,
           5010,
           5010,
+          5010,
           5010
         ]
       },
@@ -5883,8 +6149,8 @@
     {
       "code": "290660",
       "name": "다이나믹솔루션",
-      "rank": 13,
-      "trade_amount": 2422000000,
+      "rank": 14,
+      "trade_amount": 2452000000,
       "change_pct": 29.97,
       "close_price": 1765,
       "open_price": 1385,
@@ -5903,8 +6169,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 0.73,
-      "index_multiple_current": 41.05,
+      "index_change_pct": 0.19,
+      "index_multiple_current": 157.74,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 3512,
@@ -6120,7 +6386,9 @@
           1765,
           1765,
           1765,
-          1764
+          1765,
+          1764,
+          1763
         ]
       },
       "credit_risk": true,
@@ -6132,7 +6400,7 @@
     {
       "code": "208640",
       "name": "썸에이지",
-      "rank": 14,
+      "rank": 15,
       "trade_amount": 1221000000,
       "change_pct": 29.95,
       "close_price": 1228,
@@ -6168,8 +6436,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 0.73,
-      "index_multiple_current": 41.03,
+      "index_change_pct": 0.19,
+      "index_multiple_current": 157.63,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 7106,
@@ -6401,6 +6669,8 @@
           1228,
           1228,
           1228,
+          1228,
+          1228,
           1228
         ]
       },
@@ -6415,7 +6685,7 @@
     {
       "code": "065420",
       "name": "에스아이리소스",
-      "rank": 15,
+      "rank": 16,
       "trade_amount": 1031000000,
       "change_pct": 29.59,
       "close_price": 127,
@@ -6437,8 +6707,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 0.73,
-      "index_multiple_current": 40.53,
+      "index_change_pct": 0.19,
+      "index_multiple_current": 155.74,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 418,
@@ -6652,6 +6922,7 @@
           127,
           127,
           127,
+          127,
           127
         ]
       },
@@ -6664,8 +6935,8 @@
     {
       "code": "304840",
       "name": "피플바이오",
-      "rank": 16,
-      "trade_amount": 823000000,
+      "rank": 17,
+      "trade_amount": 838000000,
       "change_pct": 29.87,
       "close_price": 874,
       "open_price": 677,
@@ -6734,8 +7005,8 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": 0.73,
-      "index_multiple_current": 40.92,
+      "index_change_pct": 0.19,
+      "index_multiple_current": 157.21,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 2870,
@@ -6951,6 +7222,8 @@
           874,
           874,
           874,
+          874,
+          874,
           874
         ]
       },
@@ -6963,7 +7236,7 @@
     {
       "code": "354200",
       "name": "엔젠바이오",
-      "rank": 17,
+      "rank": 18,
       "trade_amount": 225000000,
       "change_pct": 29.99,
       "close_price": 1825,
@@ -7009,8 +7282,8 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": 0.73,
-      "index_multiple_current": 41.08,
+      "index_change_pct": 0.19,
+      "index_multiple_current": 157.84,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 6785,
@@ -7169,6 +7442,7 @@
         "base": 1712,
         "prices": [
           1712,
+          1825,
           1825,
           1825,
           1825,
