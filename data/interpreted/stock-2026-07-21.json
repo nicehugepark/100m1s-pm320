@@ -1,6 +1,6 @@
 {
   "date": "2026-07-21",
-  "generated_at": "2026-07-21T09:45:12.671286",
+  "generated_at": "2026-07-21T09:48:08.015223",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -558,16 +558,16 @@
           "url": "https://biz.chosun.com/stock/stock_general/2026/07/21/Z7HIY7BOVVFGXKFNQQRUBDJUAA/",
           "source": "조선비즈",
           "published_at": "2026-07-21T00:30:57",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "미국 AI 데이터센터 전력 수요 폭증 → 데이터센터용 가스발전 설비 투자 확대 → SCR촉매·전력설비 도메인의 나노가 가스발전 설비 수주 → 직접 수혜 기대 매수세 집중, 당일 시가 3,035원에서 상한가로 직행하며 종가 3,730원(+29.97%)·거래대금 34억원 형성",
+          "macro_event": "美 AI 데이터센터 전력 수요 급증 → 가스발전 설비 투자 확대",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.55,
+          "newzy_virality": 0.4,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.49,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "시세정형"
         }
       ],
       "fallback": false,
@@ -1233,8 +1233,24 @@
       "low_price": 677,
       "industry": "의료용품 및 기타 의약 관련제품 제조업",
       "sector": "올리고머화 베타-아밀로이드 검사제품(알츠하이머병 진단)",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "바이오",
+        "실적"
+      ],
+      "theme_paths": [
+        {
+          "name": "바이오",
+          "path": [
+            "바이오"
+          ]
+        },
+        {
+          "name": "실적",
+          "path": [
+            "실적"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": true,
@@ -1249,16 +1265,16 @@
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=04306646645515176",
           "source": "이데일리",
           "published_at": "2026-07-16T05:55:54",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "2분기 매출 128% 증가 및 영업손실 절반 이상 축소로 알츠하이머 진단(올리고머화 베타-아밀로이드) 본업의 적자 축소·수익성 개선 기대 부각 → 저가 바이오주 실적 턴어라운드 기대 매수세 집중 → 당일 종가 874원(+29.87%) 상한가. 다만 거래대금은 5억원으로 수급 규모는 크지 않음.",
+          "macro_event": "피플바이오 2분기 매출 128% 증가·영업손실 절반 이상 축소(실적 개선)",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.5,
+          "newzy_virality": 0.2,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.38,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": true,
@@ -1434,9 +1450,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
+      "togusa_verdict": "neutral",
       "theme_leader": false,
-      "hugepark_grade": "주의"
+      "hugepark_grade": "관찰"
     },
     {
       "code": "354200",
