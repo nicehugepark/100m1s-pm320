@@ -1,6 +1,6 @@
 {
   "date": "2026-07-21",
-  "generated_at": "2026-07-21T09:15:09.277889",
+  "generated_at": "2026-07-21T09:16:31.437399",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -34,8 +34,26 @@
       "low_price": 3035,
       "industry": "기초 화학물질 제조업",
       "sector": "SCR촉매",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "AI데이터센터",
+        "AI",
+        "전력설비"
+      ],
+      "theme_paths": [
+        {
+          "name": "AI데이터센터",
+          "path": [
+            "AI",
+            "AI데이터센터"
+          ]
+        },
+        {
+          "name": "전력설비",
+          "path": [
+            "전력설비"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": true,
@@ -49,16 +67,16 @@
           "url": "https://www.etoday.co.kr/news/view/2605479",
           "source": "이투데이",
           "published_at": "2026-07-21T00:04:00",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "미국 AI 데이터센터의 전력난으로 가스터빈 등 온사이트 발전설비 도입이 확대 → 발전설비 배기 규제 대응용 SCR 촉매 수요 발생 → SCR촉매를 핵심사업으로 하는 나노가 해당 발전설비향 공급 수주를 확보(직접 수혜) → 수급 개선 기대가 매수세로 집중되며 당일 종가 3,730원(+29.97%) 상한가·거래대금 33억원.",
+          "macro_event": "미국 AI 데이터센터 온사이트(자체) 발전설비 확대 → 배기 NOx 저감용 SCR 촉매 수요 발생",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.6,
+          "newzy_virality": 0.4,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.52,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": false,
@@ -228,9 +246,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "strong_bull",
+      "theme_leader": true,
+      "hugepark_grade": "적극"
     },
     {
       "code": "034940",
@@ -262,15 +280,12 @@
       "bullish_dates": [],
       "news": [],
       "fallback": true,
-      "cafe_themes": [
-        "K-뷰티"
-      ],
       "theme_crosscheck": {
-        "confirmed": [],
-        "pm320_only": [],
-        "cafe_only": [
+        "confirmed": [
           "K-뷰티"
-        ]
+        ],
+        "pm320_only": [],
+        "cafe_only": []
       },
       "range_240d": {
         "high": 1420,
@@ -282,7 +297,12 @@
         "current": null
       },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "208640",
@@ -505,7 +525,12 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "083470",
@@ -529,7 +554,10 @@
       "news": [],
       "fallback": true,
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "354200",
