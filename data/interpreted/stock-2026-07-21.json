@@ -1,6 +1,6 @@
 {
   "date": "2026-07-21",
-  "generated_at": "2026-07-21T15:25:23.632136",
+  "generated_at": "2026-07-21T15:26:32.338468",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -7414,31 +7414,23 @@
       "industry": null,
       "sector": null,
       "themes": [
-        "휴머노이드 로봇",
-        "로봇",
-        "AI",
         "반도체소부장",
-        "반도체"
+        "반도체",
+        "휴머노이드 로봇"
       ],
       "theme_paths": [
-        {
-          "name": "휴머노이드 로봇",
-          "path": [
-            "로봇",
-            "휴머노이드 로봇"
-          ]
-        },
-        {
-          "name": "AI",
-          "path": [
-            "AI"
-          ]
-        },
         {
           "name": "반도체소부장",
           "path": [
             "반도체",
             "반도체소부장"
+          ]
+        },
+        {
+          "name": "휴머노이드 로봇",
+          "path": [
+            "로봇",
+            "휴머노이드 로봇"
           ]
         }
       ],
@@ -7458,32 +7450,32 @@
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=02699446645512552",
           "source": "이데일리",
           "published_at": "2026-07-07T23:23:59",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "웨어러블 OLED용 TDDI 공동개발 및 IT·전장용 고전압 햅틱 드라이버 IC 개발 본격화 → 팹리스 반도체 IC 설계 본업의 신제품 라인업 확대 기대 부각 → 반도체 소부장 도메인 정합 매수세 집중 → 당일 시가 1,806원에서 상한가 직행, 종가 2,405원(+29.86%) 형성(거래대금 25억원)",
+          "macro_event": "디스플레이 구동칩(TDDI)·고전압 햅틱 드라이버 IC 등 반도체 IC 신제품 개발 확대",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.3,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.36,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "지니틱스, 고전압 햅틱 드라이버 IC 개발 본격화…\"IT·전장 시장 공략\"",
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=02164806645486640",
           "source": "이데일리",
           "published_at": "2026-06-28T23:19:05",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "웨어러블 OLED용 TDDI 공동개발 및 IT·전장용 고전압 햅틱 드라이버 IC 개발 본격화 → 팹리스 반도체 IC 설계 본업의 신제품 라인업 확대 기대 부각 → 반도체 소부장 도메인 정합 매수세 집중 → 당일 시가 1,806원에서 상한가 직행, 종가 2,405원(+29.86%) 형성(거래대금 25억원)",
+          "macro_event": "디스플레이 구동칩(TDDI)·고전압 햅틱 드라이버 IC 등 반도체 IC 신제품 개발 확대",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.3,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.36,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "지니틱스, 휴머노이드 센서 IC 개발 국책과제 참여",
@@ -7519,17 +7511,18 @@
         }
       ],
       "fallback": true,
+      "cafe_themes": [
+        "휴머노이드 로봇"
+      ],
       "theme_crosscheck": {
-        "confirmed": [
-          "휴머노이드 로봇"
-        ],
+        "confirmed": [],
         "pm320_only": [
-          "로봇",
-          "AI",
           "반도체소부장",
           "반도체"
         ],
-        "cafe_only": []
+        "cafe_only": [
+          "휴머노이드 로봇"
+        ]
       },
       "range_240d": {
         "high": 5530,
@@ -7710,7 +7703,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "405000",
