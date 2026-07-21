@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 25817.69,
-      "change_pct": 1.21,
+      "point": 25844.85,
+      "change_pct": 1.32,
       "candle": {
         "o": 25771.22,
-        "h": 25854.86,
+        "h": 25856.31,
         "l": 25672.83,
-        "c": 25817.69
+        "c": 25844.85
       },
       "range_240d": {
         "low": 20794.64,
@@ -2031,9 +2031,9 @@
         {
           "date": "2026-07-21",
           "o": 25771.22,
-          "h": 25854.86,
+          "h": 25856.31,
           "l": 25672.83,
-          "c": 25817.69
+          "c": 25844.85
         }
       ],
       "spark": [
@@ -2067,8 +2067,10 @@
         25824.22,
         25843.11,
         25833.55,
-        25830.36,
-        25817.69
+        25817.69,
+        25847.67,
+        25845.59,
+        25844.85
       ],
       "news": {
         "summary": "경기선행지수 악화·중국 성장 둔화로 매크로 약화 신호 증폭. 인플레이션 부분 완화했으나 에너지·중국산 수입품 가격 상승 압박. 트럼프 관세·중동 긴장 불확실성 증대.",
@@ -2092,13 +2094,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7500.06,
-      "change_pct": 0.76,
+      "point": 7506.39,
+      "change_pct": 0.85,
       "candle": {
         "o": 7489.95,
-        "h": 7505.15,
+        "h": 7508.15,
         "l": 7467.86,
-        "c": 7500.06
+        "c": 7506.39
       },
       "range_240d": {
         "low": 6299.19,
@@ -4120,9 +4122,9 @@
         {
           "date": "2026-07-21",
           "o": 7489.95,
-          "h": 7505.15,
+          "h": 7508.15,
           "l": 7467.86,
-          "c": 7500.06
+          "c": 7506.39
         }
       ],
       "spark": [
@@ -4157,7 +4159,9 @@
         7503.93,
         7501.96,
         7499.52,
-        7500.06
+        7506.76,
+        7506.46,
+        7506.39
       ],
       "news": {
         "summary": "경기선행지수 악화·중국 성장 둔화로 매크로 약화 신호 증폭. 인플레이션 부분 완화했으나 에너지·중국산 수입품 가격 상승 압박. 트럼프 관세·중동 긴장 불확실성 증대.",
@@ -4181,13 +4185,13 @@
     },
     {
       "name": "DOW",
-      "point": 52207.3,
-      "change_pct": 0.71,
+      "point": 52242.17,
+      "change_pct": 0.78,
       "candle": {
         "o": 51916.79,
-        "h": 52237.16,
+        "h": 52247.09,
         "l": 51890.1,
-        "c": 52207.3
+        "c": 52242.17
       },
       "range_240d": {
         "low": 43968.64,
@@ -6209,9 +6213,9 @@
         {
           "date": "2026-07-21",
           "o": 51916.79,
-          "h": 52237.16,
+          "h": 52247.09,
           "l": 51890.1,
-          "c": 52207.3
+          "c": 52242.17
         }
       ],
       "spark": [
@@ -6246,7 +6250,9 @@
         52214.67,
         52212.84,
         52205.18,
-        52207.3
+        52229.35,
+        52242.29,
+        52242.17
       ],
       "news": {
         "summary": "경기선행지수 악화·중국 성장 둔화로 매크로 약화 신호 증폭. 인플레이션 부분 완화했으나 에너지·중국산 수입품 가격 상승 압박. 트럼프 관세·중동 긴장 불확실성 증대.",
@@ -6271,17 +6277,24 @@
   ],
   "news_chips": [
     {
-      "summary": "트럼프, 60개국 신규 관세 부과 예정, 한국은 12.5% 수준 유력",
-      "source": "한경국제",
+      "summary": "Trump이 60개국 대상 신규 관세 부과 예정, 한국은 12.5% 수준 협상 중",
+      "source": "한경",
       "url": "https://www.hankyung.com/article/2026072178097",
       "published_ts": 1784631140.0,
       "impact_high": true
     },
     {
-      "summary": "주식시장 표면 아래 약세 신호 감지, 대형 관세 재도입으로 시장 불확실성 심화",
+      "summary": "주식시장 지표 간 괴리 심화, Trump 관세 부과로 변동성 증대",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/stocks/something-weird-is-happening-beneath-the-stock-markets-surface-e8a47ac4?mod=rss_markets_main",
       "published_ts": 1784630340.0,
+      "impact_high": true
+    },
+    {
+      "summary": "Trump이 캐나다산 일부 제품에 50% 관세 추가 부과, 에너지 제외",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/trade/trump-imposes-additional-50-tariffs-on-certain-canadian-goods-5ab06a45",
+      "published_ts": 1784592840.0,
       "impact_high": true
     },
     {
@@ -6292,61 +6305,54 @@
       "impact_high": true
     },
     {
-      "summary": "나스닥이 반도체 주도로 상승 마감, AI 관련주 회복세 속 실적 시즌 시작 임박",
+      "summary": "나스닥이 반도체 회복 주도로 상승 마감, 대형 기술주 실적 발표 앞두고 강세",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/stocks/u-s-futures-higher-as-ai-trade-bounces-back-d120b6a2?mod=rss_markets_main",
       "published_ts": 1784643360.0,
       "impact_high": false
     },
     {
-      "summary": "6월 ADP 민간부문 고용이 98,000명으로 시장 예상 110,000명 미달, 노동시장 둔화 신호",
+      "summary": "6월 미국 민간 부문 고용이 예상치(11만) 아래 9.8만 건으로 증가 둔화",
       "source": "WSJ",
       "url": "https://www.wsj.com/economy/jobs/adp-says-june-private-sector-hiring-grew-slightly-below-expectations-1aba28ac",
       "published_ts": 1784637120.0,
       "impact_high": false
     },
     {
-      "summary": "후티의 홍해·호르무즈 선박 표적 경고로 유조선 우회 운항 심화, 유가 상승 압박",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026072178307",
-      "published_ts": 1784631172.0,
-      "impact_high": false
-    },
-    {
-      "summary": "중동 분쟁 격화로 유가 상승, 호르무즈 해협 운송 차질과 이란 보복 우려 지속",
+      "summary": "이란 미사일 공격으로 중동 긴장 심화, 에너지·해운 위험 프리미엄 상승",
       "source": "WSJ",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-21-2026?mod=rss_markets_main",
-      "published_ts": 1784621984.0,
+      "url": "https://www.wsj.com/world/middle-east/iran-missile-struck-housing-for-u-s-troops-at-jordan-base-9f5b8120",
+      "published_ts": 1784592060.0,
       "impact_high": false
     },
     {
-      "summary": "6월 미국 수입가격이 0.3% 상승, 중국산 비용이 2008년 이후 최고 수준으로 치솟음",
+      "summary": "BlackRock이 Meta AI 데이터센터 120억 달러 융자 주도, 기술 기업 설비투자 가속",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/business/deals/blackrock-leads-12-billion-financing-for-new-meta-data-centers-in-texas-e1c3d42c?mod=rss_markets_main",
+      "published_ts": 1784571420.0,
+      "impact_high": false
+    },
+    {
+      "summary": "SK하이닉스 등 반도체 장기 공급 계약의 안정성 의문, AI 칩 공급망 리스크 대두",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/the-massive-supply-deals-feeding-the-ai-frenzy-are-no-sure-thing-3a89ec09?mod=rss_markets_main",
+      "published_ts": 1784539800.0,
+      "impact_high": false
+    },
+    {
+      "summary": "미국 수입 물가가 0.3% 상승으로 예상 반하, 중국산 가격 2008년 이후 최고 수준",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/17/import-prices-post-surprise-gain-as-costs-of-goods-from-china-hit-highest-since-2008.html",
       "published_ts": 1784297629.0,
       "impact_high": false
-    },
-    {
-      "summary": "6월 미국 신규주택 계약이 5.4% 하락, 주택시장 침체 악화",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/economy/housing/u-s-pending-home-sales-fell-in-june-5370cc55",
-      "published_ts": 1784211720.0,
-      "impact_high": false
-    },
-    {
-      "summary": "6월 미국 도매가격이 0.3% 하락, 에너지 가격 급락으로 인플레이션 완화",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/15/wholesale-inflation-june-2026-.html",
-      "published_ts": 1784125368.0,
-      "impact_high": false
     }
   ],
-  "_article_sig": "7eebd23f7261ce10d3c06910e0aadb30972460e83ed29ca2e9ad789d2555a56b",
+  "_article_sig": "2154376f69cc2f2a9d4d1138ae57ebcba35f0715f2be367561da3fda423b3171",
   "built_at_kst": "2026-07-21T07:01:17.457741+09:00",
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "반도체 회복세에 나스닥100 선물 동조. AI 투자 열풍 지속 속 빅테크·칩 종목 매수세 확대. 다만 중국 AI 기업의 펀딩 경쟁과 공급망 안정성 우려 상존 중.",
+      "summary": "반도체 회복 주도 나스닥100 선물 강세 지속. AI 펀딩 경쟁 심화에 빅테크 매수세 유입, 메타 데이터센터 13조원대 대규모 조달로 자본지출 모멘텀 가시화. 공급망 불확실성(중국 AI 칩 부족, 고정 공급 계약 리스크)은 변동성 요인.",
       "sources": [
         {
           "name": "WSJ",
@@ -6354,7 +6360,7 @@
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-21-2026?mod=rss_markets_main"
+          "url": "https://www.wsj.com/world/china/china-ai-companies-rush-to-raise-funds-and-close-gap-with-u-s-55b9e2fd"
         },
         {
           "name": "WSJ",
@@ -6363,7 +6369,7 @@
       ]
     },
     "S&P500": {
-      "summary": "고용·주택 부진에 경기 신호 악화. 호르무즈 해협 긴장 고조로 유가 상승, 인플레 압력 재개 가능성 부각. 트럼프 추가 관세(캐나다 50%) 시행으로 경기 하방 리스크 확대 중.",
+      "summary": "매크로 혼합 신호로 선물 방향성 약화. 미국 고용 부진(ADP 10만 개 신규 고용, 예상 미달), 도입물가 예상 초과·도매물가는 반락 등 인플레이션 불안정. 트럼프 캐나다 50% 추가 관세로 통상 리스크 재부상, 글로벌 산업생산 약화(유럽 5월 악화) 신호. 지정학(호르무즈/홍해 긴장, 이란 미사일 공격)으로 에너지 변동성 확대 중.",
       "sources": [
         {
           "name": "WSJ",
@@ -6371,45 +6377,43 @@
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/economy/housing/u-s-pending-home-sales-fell-in-june-5370cc55"
+          "url": "https://www.wsj.com/economy/trade/trump-imposes-additional-50-tariffs-on-certain-canadian-goods-5ab06a45"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/economy/trade/trump-imposes-additional-50-tariffs-on-certain-canadian-goods-5ab06a45"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/17/import-prices-post-surprise-gain-as-costs-of-goods-from-china-hit-highest-since-2008.html"
         }
       ]
     },
     "DOW": {
-      "summary": "금융주 인수합병 가속(Fifth Third-Comerica) 속 대형주·경기민감 종목 선전. 다만 관세 부담, 고용 부진, 주택시장 약화에 전통 경기순환주 경기 둔화 우려 심화 중.",
+      "summary": "경기민감·대형주 약세 신호 심화 가능성. 고용·부동산(주택 계약 낙폭) 약화로 경기 모멘텀 불안정, 관세 불확실성이 산업재 심리 압박. 지정학(호르무즈/홍해) 유가 상승 지지로 에너지주 강세, 금융(제5써드 인수 효과) 양호. 하지만 실물 수요 신호 약화 우려로 대형주 수익성 변동성 확대.",
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/business/earnings/fifth-third-profit-boosted-by-comerica-acquisition-bae8e106?mod=rss_markets_main"
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-21-2026?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/economy/trade/trump-imposes-additional-50-tariffs-on-certain-canadian-goods-5ab06a45"
+          "url": "https://www.wsj.com/finance/commodities-futures/americas-most-prolific-oil-field-has-a-natural-gas-problem-22b816b0?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/economy/housing/evicting-wall-street-from-the-housing-market-will-be-messy-1c40a119"
+          "url": "https://www.wsj.com/economy/housing/u-s-pending-home-sales-fell-in-june-5370cc55"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-07-22T01:00:06.195805+09:00",
+    "as_of_kst": "2026-07-22T01:10:07.535388+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7542.0,
-        "change_pct": 0.77,
+        "point": 7539.5,
+        "change_pct": 0.74,
         "spark": [
           7484.0,
-          7510.0,
-          7515.0,
           7516.75,
           7515.5,
           7513.25,
@@ -6447,21 +6451,23 @@
           7539.25,
           7541.5,
           7540.5,
-          7542.0
+          7538.75,
+          7545.5,
+          7539.5
         ],
         "candle": {
           "o": 7484.0,
           "h": 7544.0,
           "l": 7473.0,
-          "c": 7542.0
+          "c": 7538.75
         },
         "range_240d": {
           "low": 6366.5,
           "high": 7623.75,
           "low_date": "2025-08-07",
           "high_date": "2026-06-02",
-          "low_change_pct": 18.46,
-          "high_change_pct": -1.07
+          "low_change_pct": 18.41,
+          "high_change_pct": -1.11
         },
         "daily_expanded": [
           {
@@ -8477,13 +8483,13 @@
             "o": 7484.0,
             "h": 7544.0,
             "l": 7473.0,
-            "c": 7542.0,
-            "v": 620418
+            "c": 7538.75,
+            "v": 632690
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "고용·주택 부진에 경기 신호 악화. 호르무즈 해협 긴장 고조로 유가 상승, 인플레 압력 재개 가능성 부각. 트럼프 추가 관세(캐나다 50%) 시행으로 경기 하방 리스크 확대 중.",
+          "summary": "매크로 혼합 신호로 선물 방향성 약화. 미국 고용 부진(ADP 10만 개 신규 고용, 예상 미달), 도입물가 예상 초과·도매물가는 반락 등 인플레이션 불안정. 트럼프 캐나다 50% 추가 관세로 통상 리스크 재부상, 글로벌 산업생산 약화(유럽 5월 악화) 신호. 지정학(호르무즈/홍해 긴장, 이란 미사일 공격)으로 에너지 변동성 확대 중.",
           "sources": [
             {
               "name": "WSJ",
@@ -8491,11 +8497,11 @@
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/economy/housing/u-s-pending-home-sales-fell-in-june-5370cc55"
+              "url": "https://www.wsj.com/economy/trade/trump-imposes-additional-50-tariffs-on-certain-canadian-goods-5ab06a45"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/economy/trade/trump-imposes-additional-50-tariffs-on-certain-canadian-goods-5ab06a45"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/07/17/import-prices-post-surprise-gain-as-costs-of-goods-from-china-hit-highest-since-2008.html"
             }
           ]
         }
@@ -8503,12 +8509,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29289.25,
-        "change_pct": 1.77,
+        "point": 29265.0,
+        "change_pct": 1.69,
         "spark": [
           28778.25,
-          29135.0,
-          29169.75,
           29176.75,
           29171.5,
           29164.25,
@@ -8546,21 +8550,23 @@
           29261.5,
           29288.5,
           29275.5,
-          29289.25
+          29259.25,
+          29302.5,
+          29265.0
         ],
         "candle": {
           "o": 28778.25,
           "h": 29320.0,
           "l": 28701.0,
-          "c": 29289.25
+          "c": 29259.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 26.58,
-          "high_change_pct": -4.63
+          "low_change_pct": 26.45,
+          "high_change_pct": -4.73
         },
         "daily_expanded": [
           {
@@ -10576,13 +10582,13 @@
             "o": 28778.25,
             "h": 29320.0,
             "l": 28701.0,
-            "c": 29289.25,
-            "v": 289084
+            "c": 29259.5,
+            "v": 294360
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "반도체 회복세에 나스닥100 선물 동조. AI 투자 열풍 지속 속 빅테크·칩 종목 매수세 확대. 다만 중국 AI 기업의 펀딩 경쟁과 공급망 안정성 우려 상존 중.",
+          "summary": "반도체 회복 주도 나스닥100 선물 강세 지속. AI 펀딩 경쟁 심화에 빅테크 매수세 유입, 메타 데이터센터 13조원대 대규모 조달로 자본지출 모멘텀 가시화. 공급망 불확실성(중국 AI 칩 부족, 고정 공급 계약 리스크)은 변동성 요인.",
           "sources": [
             {
               "name": "WSJ",
@@ -10590,7 +10596,7 @@
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-21-2026?mod=rss_markets_main"
+              "url": "https://www.wsj.com/world/china/china-ai-companies-rush-to-raise-funds-and-close-gap-with-u-s-55b9e2fd"
             },
             {
               "name": "WSJ",
@@ -10602,12 +10608,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52433.0,
+        "point": 52434.0,
         "change_pct": 0.69,
         "spark": [
           52091.0,
-          52150.0,
-          52198.0,
           52210.0,
           52201.0,
           52199.0,
@@ -10645,13 +10649,15 @@
           52424.0,
           52434.0,
           52435.0,
-          52433.0
+          52430.0,
+          52452.0,
+          52434.0
         ],
         "candle": {
           "o": 52091.0,
-          "h": 52448.0,
+          "h": 52456.0,
           "l": 52035.0,
-          "c": 52433.0
+          "c": 52434.0
         },
         "range_240d": {
           "low": 44080.0,
@@ -12673,32 +12679,32 @@
           {
             "date": "2026-07-21",
             "o": 52091.0,
-            "h": 52448.0,
+            "h": 52456.0,
             "l": 52035.0,
-            "c": 52433.0,
-            "v": 45080
+            "c": 52434.0,
+            "v": 45784
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "금융주 인수합병 가속(Fifth Third-Comerica) 속 대형주·경기민감 종목 선전. 다만 관세 부담, 고용 부진, 주택시장 약화에 전통 경기순환주 경기 둔화 우려 심화 중.",
+          "summary": "경기민감·대형주 약세 신호 심화 가능성. 고용·부동산(주택 계약 낙폭) 약화로 경기 모멘텀 불안정, 관세 불확실성이 산업재 심리 압박. 지정학(호르무즈/홍해) 유가 상승 지지로 에너지주 강세, 금융(제5써드 인수 효과) 양호. 하지만 실물 수요 신호 약화 우려로 대형주 수익성 변동성 확대.",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/business/earnings/fifth-third-profit-boosted-by-comerica-acquisition-bae8e106?mod=rss_markets_main"
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-21-2026?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/economy/trade/trump-imposes-additional-50-tariffs-on-certain-canadian-goods-5ab06a45"
+              "url": "https://www.wsj.com/finance/commodities-futures/americas-most-prolific-oil-field-has-a-natural-gas-problem-22b816b0?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/economy/housing/evicting-wall-street-from-the-housing-market-will-be-messy-1c40a119"
+              "url": "https://www.wsj.com/economy/housing/u-s-pending-home-sales-fell-in-june-5370cc55"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-07-22T01:00:09.934297+09:00"
+  "intraday_refreshed_kst": "2026-07-22T01:12:43.735754+09:00"
 }
