@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 25799.81,
-      "change_pct": -0.14,
+      "point": 25820.37,
+      "change_pct": -0.07,
       "candle": {
         "o": 25692.11,
         "h": 25840.86,
         "l": 25681.32,
-        "c": 25799.81
+        "c": 25820.37
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,13 +2033,11 @@
           "o": 25692.11,
           "h": 25840.86,
           "l": 25681.32,
-          "c": 25799.81
+          "c": 25820.37
         }
       ],
       "spark": [
         25692.11,
-        25711.57,
-        25722.21,
         25727.96,
         25755.62,
         25781.58,
@@ -2077,7 +2075,9 @@
         25814.96,
         25804.02,
         25800.51,
-        25799.81
+        25802.35,
+        25821.32,
+        25820.37
       ],
       "news": {
         "summary": "반도체·AI 기술주 반등으로 나스닥 회복세. 팹리스·AI 인프라 투자 경쟁 가속화 중, 공급망 리스크 상존.",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7521.48,
-      "change_pct": 0.16,
+      "point": 7523.91,
+      "change_pct": 0.2,
       "candle": {
         "o": 7497.47,
         "h": 7525.94,
         "l": 7485.85,
-        "c": 7521.48
+        "c": 7523.91
       },
       "range_240d": {
         "low": 6340.0,
@@ -4131,13 +4131,11 @@
           "o": 7497.47,
           "h": 7525.94,
           "l": 7485.85,
-          "c": 7521.48
+          "c": 7523.91
         }
       ],
       "spark": [
         7497.47,
-        7498.99,
-        7501.3,
         7502.83,
         7506.96,
         7513.24,
@@ -4175,7 +4173,9 @@
         7524.01,
         7522.96,
         7521.56,
-        7521.48
+        7520.85,
+        7523.88,
+        7523.91
       ],
       "news": {
         "summary": "트럼프 관세 정책 본격화·중동 갈등 재개로 매크로 불확실성 확대. 미국 고용 약세, 선진국 인플레이션 둔화로 중앙은행 완화 기조 강화 신호. 유가 변동성 상승이 글로벌 경제 제약요인.",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 52407.3,
-      "change_pct": 0.35,
+      "point": 52399.29,
+      "change_pct": 0.33,
       "candle": {
         "o": 52287.14,
         "h": 52511.21,
         "l": 52148.87,
-        "c": 52407.3
+        "c": 52399.29
       },
       "range_240d": {
         "low": 43968.64,
@@ -6229,13 +6229,11 @@
           "o": 52287.14,
           "h": 52511.21,
           "l": 52148.87,
-          "c": 52407.3
+          "c": 52399.29
         }
       ],
       "spark": [
         52287.14,
-        52306.89,
-        52333.36,
         52365.4,
         52386.27,
         52435.3,
@@ -6273,7 +6271,9 @@
         52437.46,
         52435.24,
         52407.15,
-        52407.3
+        52385.99,
+        52399.34,
+        52399.29
       ],
       "news": {
         "summary": "금융주 M&A 실적 개선 부분적. 에너지 부문 공급 제약 심화로 유가 상승세 지속, 주택시장 약세로 대형주 수익성 압박.",
@@ -6298,82 +6298,82 @@
   ],
   "news_chips": [
     {
-      "summary": "연준 고위 인사 워시의 최근 발언 빈도 분석으로 연준의 정책 신호가 재해석되고 있다.",
+      "summary": "연준 금리 결정 관련 핵심 표현을 반복 사용하는 워시 이사 후보의 발언이 금리 인상 기조 전환 신호로 시장에서 주목받고 있다.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/22/kevin-warsh-has-homed-in-on-three-key-phrases-how-fed-watchers-interpret-them.html",
-      "published_ts": 1784735396.0,
+      "published_ts": 1784739475.0,
       "impact_high": true
     },
     {
-      "summary": "트럼프 대통령의 이란 강경 발언으로 중동 지정학 리스크가 고조되면서 에너지 가격 변동성이 확대되고 있다.",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/world/middle-east/trump-says-u-s-will-bomb-irans-power-plants-bridges-if-tehran-strikes-ships-7db7e165",
-      "published_ts": 1784731320.0,
-      "impact_high": true
-    },
-    {
-      "summary": "영국 인플레가 15개월 만에 최저치로 내려갔으나 향후 물가 상승 신호가 포착되고 있다.",
-      "source": "WSJ",
+      "summary": "영국 6월 인플레가 2.6%로 15개월 만에 최저를 기록했으나 에너지·운송료 상승으로 재반등 리스크가 남아 있다.",
+      "source": "WSJ경제",
       "url": "https://www.wsj.com/world/uk/u-k-inflation-falls-to-15-month-low-f4c30cec",
       "published_ts": 1784712120.0,
       "impact_high": true
     },
     {
-      "summary": "트럼프 정부가 2028년부터 제네릭 의약품에 100% 관세를 부과할 계획으로 미국 의료비 상승 가능성이 높아지고 있다.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/22/trump-generic-drugs-tariffs-medicine-trade-.html",
-      "published_ts": 1784701688.0,
+      "summary": "연방법원의 기존 관세 무효화 판결 후 트럼프 정부가 대체 관세 조치를 준비하면서 무역 불확실성이 재점화되고 있다.",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/trade/trumps-tariffs-enter-new-phase-ending-months-of-calm-65f33e3e",
+      "published_ts": 1784685600.0,
       "impact_high": true
     },
     {
-      "summary": "홍해·흑해 분쟁으로 유조선 운송로 차단이 심화되면서 유가 상승 압력이 계속되고 있다.",
-      "source": "WSJ",
+      "summary": "이란이 파괴된 탄도미사일 프로그램을 부분 복구해 중동 분쟁 장기화 시 원유 공급 차단 위험이 증가했다.",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/iran-shows-its-ballistic-missiles-are-still-a-force-to-reckon-with-42b18204",
+      "published_ts": 1784684820.0,
+      "impact_high": true
+    },
+    {
+      "summary": "홍해·흑해 해운 차단으로 사우디유 운반선이 우회 항로를 택하며 정제 여유 부족 속 원유 공급 중단 위험이 증가했다.",
+      "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/war-risk-to-oil-supplies-grows-with-red-and-black-sea-disruptions-6de374e7",
       "published_ts": 1784665440.0,
       "impact_high": true
     },
     {
-      "summary": "산탄데르 은행이 신규 고객 확보와 대출 증가로 실적 목표 달성이 가시화되면서 금융섹터 강세가 지속되고 있다.",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/business/earnings/santander-posts-lower-net-profit-on-effects-of-tsb-poland-deals-c612d643?mod=rss_markets_main",
-      "published_ts": 1784710800.0,
-      "impact_high": false
-    },
-    {
-      "summary": "유가 급등으로 채권 수익률이 2026년 최고치 근처까지 올라가면서 나스닥이 약세를 기록했다.",
+      "summary": "유가 상승이 10년물 채권 수익률을 2026년 최고치 근처까지 밀어올리면서 나스닥이 일부 약세를 기록했다.",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-22-2026?mod=rss_markets_main",
       "published_ts": 1784708705.0,
       "impact_high": false
     },
     {
-      "summary": "독일 투자자 심리가 정부 개혁안에 힘입어 예상을 크게 웃돌면서 유럽 경기 회복 신호가 나오고 있다.",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/economy/central-banking/german-investor-confidence-climbs-ff64c3b7",
-      "published_ts": 1784628240.0,
+      "summary": "6월 민간 고용이 9.8만 명 증가로 예상치 11만을 하회하면서 경기 둔화 신호가 강해졌다.",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/jobs/adp-says-june-private-sector-hiring-grew-slightly-below-expectations-1aba28ac",
+      "published_ts": 1784637120.0,
+      "impact_high": false
+    },
+    {
+      "summary": "캐나다 6월 인플레가 3.2%에서 2.8%로 급락해 중앙은행의 추가 금리 인상 보류 신호가 강해졌다.",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/canada-inflation-cools-to-2-8-in-june-as-gasoline-decelerates-8eb85b77",
+      "published_ts": 1784559900.0,
       "impact_high": true
     },
     {
-      "summary": "대규모 AI 칩 공급 계약의 불안정성이 노출되면서 반도체 섹터의 수급 안정성이 의문시되고 있다.",
+      "summary": "SK하이닉스 등 반도체 업체의 장기 AI 칩 공급 계약이 해제·조정될 가능성으로 반도체 섹터 수급 전망이 불확실해졌다.",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/the-massive-supply-deals-feeding-the-ai-frenzy-are-no-sure-thing-3a89ec09?mod=rss_markets_main",
       "published_ts": 1784539800.0,
       "impact_high": false
     },
     {
-      "summary": "중국산 물품 수입가격이 2008년 이후 최고 수준으로 올라가면서 미국 인플레 압력이 재점화될 우려가 제기되고 있다.",
+      "summary": "미국 수입 물가가 중국산 물품 가격 상승으로 월 0.3% 올라 2008년 이후 최고치에 도달해 관세 부담 논쟁이 심화되고 있다.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/17/import-prices-post-surprise-gain-as-costs-of-goods-from-china-hit-highest-since-2008.html",
       "published_ts": 1784297629.0,
       "impact_high": false
     }
   ],
-  "_article_sig": "2d844a4abc8f6fc4f3ebf364fbcc18271a15b8b16e44d797079b919376d5b9f5",
+  "_article_sig": "c725f5430842f28d9e2567fbb70a5ff88e32fff767db813ca4401a431b4dbe59",
   "built_at_kst": "2026-07-22T07:01:34.524025+09:00",
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "AI 인프라 투자 열기 지속(데이터센터 SPAC IPO), 반도체 장기 공급 계약 구조적 리스크 부각으로 기술주 변동성 확대 중. 프라이빗마켓 펀드 확대는 자산 재배분 신호",
+      "summary": "AI 인프라 투자 확대·빅테크 어닝 시즌 본격화로 기술주 수요 지속 중. 반도체 공급 계약 불확실성과 글로벌 경기 약세 신호가 상쇄 요인.",
       "sources": [
         {
           "name": "WSJ",
@@ -6385,59 +6385,56 @@
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/blackstone-rolls-out-new-private-market-fundsthis-time-with-vanguard-09a981b0?mod=rss_markets_main"
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-22-2026?mod=rss_markets_main"
         }
       ]
     },
     "S&P500": {
-      "summary": "유가 급등과 채권 수익률 2026년 고점 근처 상승이 광범위 영향. 글로벌 인플레 완화 추세 반면 고용 약화·트럼프 관세 정책 불확실성·중동 지정학 위험 가중 중. 금가격 급락 후 역대 고점 회복 신호",
+      "summary": "연준 정책 해석 분기 속 관세 정책 2단계 진입으로 인플레이션 재상승 우려 고조. 글로벌 물가 안정화·미국 고용지표 호조에도 주택시장 약세 확산이 경기 둔화 신호로 작용.",
       "sources": [
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-22-2026?mod=rss_markets_main"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/22/kevin-warsh-has-homed-in-on-three-key-phrases-how-fed-watchers-interpret-them.html"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/economy/trade/trumps-tariffs-enter-new-phase-ending-months-of-calm-65f33e3e"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/world/middle-east/war-risk-to-oil-supplies-grows-with-red-and-black-sea-disruptions-6de374e7"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/22/trump-generic-drugs-tariffs-medicine-trade-.html"
         }
       ]
     },
     "DOW": {
-      "summary": "부동산 시장 본격적 약화 신호(pending sales -5.4% 급락), 금융주·경기민감주 수익성 악화 우려 심화. 빅푸드 등 전통 소비재 기업 구조적 약세, 글로벌 중앙은행 정책 불확실성 증대로 경기순환주 약세 확대",
+      "summary": "중동 분쟁 심화로 유가 상승·에너지·금융섹터 강세 전개. 대형 금융기관 실적 개선·고가층 소비 회복 등 긍정 요인 있으나 지정학 리스크 상존이 변수.",
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/economy/housing/u-s-pending-home-sales-fell-in-june-5370cc55"
+          "url": "https://www.wsj.com/world/middle-east/trump-approves-landmark-nuclear-deal-with-saudi-arabia-in-big-win-for-kingdom-2ed77584"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/business/retail/big-food-is-running-out-of-moves-with-shoppers-and-investors-5f4567e9?mod=rss_markets_main"
+          "url": "https://www.wsj.com/world/middle-east/trump-says-u-s-will-bomb-irans-power-plants-bridges-if-tehran-strikes-ships-7db7e165"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/economy/central-banking/german-investor-confidence-climbs-ff64c3b7"
+          "url": "https://www.wsj.com/world/middle-east/war-risk-to-oil-supplies-grows-with-red-and-black-sea-disruptions-6de374e7"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-07-23T01:50:04.501117+09:00",
+    "as_of_kst": "2026-07-23T02:00:06.544496+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7560.5,
-        "change_pct": 0.2,
+        "point": 7559.0,
+        "change_pct": 0.18,
         "spark": [
           7545.0,
-          7528.0,
-          7534.75,
-          7535.75,
           7537.5,
           7539.25,
           7543.25,
@@ -6474,21 +6471,24 @@
           7561.5,
           7562.0,
           7561.5,
-          7560.5
+          7560.5,
+          7558.75,
+          7558.0,
+          7559.0
         ],
         "candle": {
           "o": 7545.0,
           "h": 7563.5,
           "l": 7504.0,
-          "c": 7561.5
+          "c": 7559.0
         },
         "range_240d": {
           "low": 6366.5,
           "high": 7623.75,
           "low_date": "2025-08-07",
           "high_date": "2026-06-02",
-          "low_change_pct": 18.77,
-          "high_change_pct": -0.82
+          "low_change_pct": 18.73,
+          "high_change_pct": -0.85
         },
         "daily_expanded": [
           {
@@ -8504,25 +8504,25 @@
             "o": 7545.0,
             "h": 7563.5,
             "l": 7504.0,
-            "c": 7561.5,
-            "v": 607340
+            "c": 7559.0,
+            "v": 616459
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "유가 급등과 채권 수익률 2026년 고점 근처 상승이 광범위 영향. 글로벌 인플레 완화 추세 반면 고용 약화·트럼프 관세 정책 불확실성·중동 지정학 위험 가중 중. 금가격 급락 후 역대 고점 회복 신호",
+          "summary": "연준 정책 해석 분기 속 관세 정책 2단계 진입으로 인플레이션 재상승 우려 고조. 글로벌 물가 안정화·미국 고용지표 호조에도 주택시장 약세 확산이 경기 둔화 신호로 작용.",
           "sources": [
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-22-2026?mod=rss_markets_main"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/07/22/kevin-warsh-has-homed-in-on-three-key-phrases-how-fed-watchers-interpret-them.html"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/economy/trade/trumps-tariffs-enter-new-phase-ending-months-of-calm-65f33e3e"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/world/middle-east/war-risk-to-oil-supplies-grows-with-red-and-black-sea-disruptions-6de374e7"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/07/22/trump-generic-drugs-tariffs-medicine-trade-.html"
             }
           ]
         }
@@ -8530,12 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29305.75,
-        "change_pct": -0.03,
+        "point": 29288.25,
+        "change_pct": -0.09,
         "spark": [
           29310.75,
-          29151.0,
-          29155.75,
           29178.75,
           29172.25,
           29236.25,
@@ -8573,21 +8571,23 @@
           29323.0,
           29305.0,
           29290.5,
-          29305.75
+          29288.5,
+          29290.75,
+          29288.25
         ],
         "candle": {
           "o": 29310.75,
           "h": 29342.25,
           "l": 28952.0,
-          "c": 29305.75
+          "c": 29288.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 26.65,
-          "high_change_pct": -4.58
+          "low_change_pct": 26.57,
+          "high_change_pct": -4.64
         },
         "daily_expanded": [
           {
@@ -10603,13 +10603,13 @@
             "o": 29310.75,
             "h": 29342.25,
             "l": 28952.0,
-            "c": 29305.75,
-            "v": 296983
+            "c": 29288.0,
+            "v": 301683
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "AI 인프라 투자 열기 지속(데이터센터 SPAC IPO), 반도체 장기 공급 계약 구조적 리스크 부각으로 기술주 변동성 확대 중. 프라이빗마켓 펀드 확대는 자산 재배분 신호",
+          "summary": "AI 인프라 투자 확대·빅테크 어닝 시즌 본격화로 기술주 수요 지속 중. 반도체 공급 계약 불확실성과 글로벌 경기 약세 신호가 상쇄 요인.",
           "sources": [
             {
               "name": "WSJ",
@@ -10621,7 +10621,7 @@
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/blackstone-rolls-out-new-private-market-fundsthis-time-with-vanguard-09a981b0?mod=rss_markets_main"
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-22-2026?mod=rss_markets_main"
             }
           ]
         }
@@ -10629,12 +10629,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52643.0,
-        "change_pct": 0.38,
+        "point": 52616.0,
+        "change_pct": 0.33,
         "spark": [
           52431.0,
-          52435.0,
-          52520.0,
           52519.0,
           52527.0,
           52576.0,
@@ -10672,21 +10670,23 @@
           52633.0,
           52638.0,
           52647.0,
-          52643.0
+          52643.0,
+          52616.0,
+          52616.0
         ],
         "candle": {
           "o": 52431.0,
           "h": 52721.0,
           "l": 52262.0,
-          "c": 52648.0
+          "c": 52619.0
         },
         "range_240d": {
           "low": 44080.0,
           "high": 53372.0,
           "low_date": "2025-08-07",
           "high_date": "2026-07-06",
-          "low_change_pct": 19.44,
-          "high_change_pct": -1.36
+          "low_change_pct": 19.37,
+          "high_change_pct": -1.41
         },
         "daily_expanded": [
           {
@@ -12702,30 +12702,30 @@
             "o": 52431.0,
             "h": 52721.0,
             "l": 52262.0,
-            "c": 52648.0,
-            "v": 64465
+            "c": 52619.0,
+            "v": 64913
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "부동산 시장 본격적 약화 신호(pending sales -5.4% 급락), 금융주·경기민감주 수익성 악화 우려 심화. 빅푸드 등 전통 소비재 기업 구조적 약세, 글로벌 중앙은행 정책 불확실성 증대로 경기순환주 약세 확대",
+          "summary": "중동 분쟁 심화로 유가 상승·에너지·금융섹터 강세 전개. 대형 금융기관 실적 개선·고가층 소비 회복 등 긍정 요인 있으나 지정학 리스크 상존이 변수.",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/economy/housing/u-s-pending-home-sales-fell-in-june-5370cc55"
+              "url": "https://www.wsj.com/world/middle-east/trump-approves-landmark-nuclear-deal-with-saudi-arabia-in-big-win-for-kingdom-2ed77584"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/business/retail/big-food-is-running-out-of-moves-with-shoppers-and-investors-5f4567e9?mod=rss_markets_main"
+              "url": "https://www.wsj.com/world/middle-east/trump-says-u-s-will-bomb-irans-power-plants-bridges-if-tehran-strikes-ships-7db7e165"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/economy/central-banking/german-investor-confidence-climbs-ff64c3b7"
+              "url": "https://www.wsj.com/world/middle-east/war-risk-to-oil-supplies-grows-with-red-and-black-sea-disruptions-6de374e7"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-07-23T01:50:08.506667+09:00"
+  "intraday_refreshed_kst": "2026-07-23T02:03:01.414809+09:00"
 }
