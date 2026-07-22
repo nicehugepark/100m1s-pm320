@@ -1,6 +1,6 @@
 {
   "date": "2026-07-22",
-  "generated_at": "2026-07-22T12:15:18.586031",
+  "generated_at": "2026-07-22T12:16:24.225488",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -701,25 +701,30 @@
       "industry": "플라스틱제품 제조업",
       "sector": "전기재료연결부품",
       "themes": [
-        "휴머노이드 로봇",
-        "MLCC",
+        "전기차",
+        "전기차·하이브리드·PBV 성장축",
         "로봇",
         "케이블",
-        "반도체",
-        "반도체소부장"
+        "MLCC",
+        "반도체"
       ],
       "theme_paths": [
         {
-          "name": "휴머노이드 로봇",
+          "name": "전기차",
           "path": [
-            "로봇",
-            "휴머노이드 로봇"
+            "전기차"
           ]
         },
         {
-          "name": "MLCC",
+          "name": "전기차·하이브리드·PBV 성장축",
           "path": [
-            "MLCC"
+            "전기차·하이브리드·PBV 성장축"
+          ]
+        },
+        {
+          "name": "로봇",
+          "path": [
+            "로봇"
           ]
         },
         {
@@ -729,10 +734,15 @@
           ]
         },
         {
-          "name": "반도체소부장",
+          "name": "MLCC",
           "path": [
-            "반도체",
-            "반도체소부장"
+            "MLCC"
+          ]
+        },
+        {
+          "name": "반도체",
+          "path": [
+            "반도체"
           ]
         }
       ],
@@ -755,47 +765,52 @@
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03791686645517144",
           "source": "이데일리",
           "published_at": "2026-07-22T02:15:07",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "글로벌 완성차 부품사의 인도 전동화(전기차) 공장 로봇 설비 투자 확대 → 로봇 케이블 보호·관리 시스템 '로보웨이'를 본업으로 하는 씨피시스템이 해당 전동화 로봇 설비에 로보웨이를 공급 → 로봇·케이블 도메인 직접 정합 매수세 유입 → 당일 시가 3,445원에서 고가 4,095원까지 상승, 종가 3,725원(+10.37%)·거래대금 499억원 형성.",
+          "macro_event": "글로벌 완성차 전동화 전환 및 생산라인 로봇 자동화 투자 확대",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.5,
+          "newzy_virality": 0.4,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.46,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "씨피시스템, 글로벌 車부품사 인도 전동화 공장에 '로보웨이' 공급",
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03781846645517144",
           "source": "이데일리",
           "published_at": "2026-07-22T02:14:32",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "글로벌 완성차 부품사의 인도 전동화(전기차) 공장 로봇 설비 투자 확대 → 로봇 케이블 보호·관리 시스템 '로보웨이'를 본업으로 하는 씨피시스템이 해당 전동화 로봇 설비에 로보웨이를 공급 → 로봇·케이블 도메인 직접 정합 매수세 유입 → 당일 시가 3,445원에서 고가 4,095원까지 상승, 종가 3,725원(+10.37%)·거래대금 499억원 형성.",
+          "macro_event": "글로벌 완성차 전동화 전환 및 생산라인 로봇 자동화 투자 확대",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.5,
+          "newzy_virality": 0.4,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.46,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": false,
+      "cafe_themes": [
+        "MLCC",
+        "반도체"
+      ],
       "theme_crosscheck": {
         "confirmed": [
-          "MLCC",
-          "로봇",
-          "반도체"
+          "로봇"
         ],
         "pm320_only": [
-          "휴머노이드 로봇",
-          "케이블",
-          "반도체소부장"
+          "전기차",
+          "전기차·하이브리드·PBV 성장축",
+          "케이블"
         ],
-        "cafe_only": []
+        "cafe_only": [
+          "MLCC",
+          "반도체"
+        ]
       },
       "index_change_pct": 1.63,
       "index_multiple_current": 6.36,
@@ -979,7 +994,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "투자경고"
+      "credit_reason": "투자경고",
+      "togusa_verdict": "strong_bull",
+      "theme_leader": true,
+      "hugepark_grade": "적극"
     },
     {
       "code": "138360",
