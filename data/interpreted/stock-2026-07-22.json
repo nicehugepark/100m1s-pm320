@@ -1,22 +1,49 @@
 {
   "date": "2026-07-22",
-  "generated_at": "2026-07-22T09:05:19.444751",
+  "generated_at": "2026-07-22T09:15:14.102817",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
   "themes_macro_summary": [],
-  "themes_tree": null,
+  "themes_tree": {
+    "date": "2026-07-22",
+    "roots": []
+  },
   "stocks": [
     {
-      "code": "439960",
-      "name": "코스모로보틱스",
+      "code": "058610",
+      "name": "에스피지",
       "rank": 1,
-      "trade_amount": 7054000000,
+      "trade_amount": 17954000000,
       "change_pct": null,
       "close_price": null,
       "open_price": null,
       "high_price": null,
       "low_price": null,
+      "industry": null,
+      "sector": null,
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [],
+      "news": [],
+      "fallback": true,
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
+      "code": "439960",
+      "name": "코스모로보틱스",
+      "rank": 2,
+      "trade_amount": 7998000000,
+      "change_pct": 29.96,
+      "close_price": 17570,
+      "open_price": 17570,
+      "high_price": 17570,
+      "low_price": 17570,
       "industry": "의료용 기기 제조업",
       "sector": "웨어러블 로봇",
       "themes": [
@@ -39,18 +66,23 @@
       },
       "bullish_today": false,
       "bullish_streak": 0,
-      "bullish_dates": [],
+      "bullish_dates": [
+        "2026-06-15",
+        "2026-07-21"
+      ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 2.82,
+      "index_change_pct": 4.44,
+      "index_multiple_current": 6.75,
+      "index_multiple_eligible": true,
       "range_240d": {
         "high": 68500,
         "high_date": "2026-05-15",
-        "high_pct": -80.26,
+        "high_pct": -74.35,
         "low": 10000,
         "low_date": "2026-07-21",
-        "low_pct": 35.2,
-        "current": null
+        "low_pct": 75.7,
+        "current": 17570
       },
       "daily_20": [
         {
@@ -194,8 +226,18 @@
           "c": 17570
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 17570,
+        "base": 17570,
+        "prices": [
+          17570,
+          17570,
+          17570
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰",
@@ -203,15 +245,371 @@
       "parent_theme": ""
     },
     {
+      "code": "138360",
+      "name": "앤로보틱스",
+      "rank": 3,
+      "trade_amount": 6346000000,
+      "change_pct": 29.89,
+      "close_price": 2390,
+      "open_price": 1994,
+      "high_price": 2390,
+      "low_price": 1980,
+      "industry": null,
+      "sector": null,
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": true,
+      "bullish_streak": 2,
+      "bullish_dates": [
+        "2026-07-21",
+        "2026-07-22"
+      ],
+      "news": [],
+      "fallback": true,
+      "range_240d": {
+        "high": 4980,
+        "high_date": "2026-05-15",
+        "high_pct": -52.01,
+        "low": 700,
+        "low_date": "2025-08-04",
+        "low_pct": 241.43,
+        "current": 2390
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-24",
+          "o": 2065,
+          "h": 2170,
+          "l": 2045,
+          "c": 2110
+        },
+        {
+          "date": "2026-06-25",
+          "o": 2140,
+          "h": 2215,
+          "l": 2030,
+          "c": 2045
+        },
+        {
+          "date": "2026-06-26",
+          "o": 2045,
+          "h": 2105,
+          "l": 1907,
+          "c": 1973
+        },
+        {
+          "date": "2026-06-29",
+          "o": 2020,
+          "h": 2150,
+          "l": 1978,
+          "c": 2065
+        },
+        {
+          "date": "2026-06-30",
+          "o": 2110,
+          "h": 2495,
+          "l": 2015,
+          "c": 2260
+        },
+        {
+          "date": "2026-07-01",
+          "o": 2270,
+          "h": 2520,
+          "l": 2225,
+          "c": 2445
+        },
+        {
+          "date": "2026-07-02",
+          "o": 2650,
+          "h": 2650,
+          "l": 2200,
+          "c": 2200
+        },
+        {
+          "date": "2026-07-03",
+          "o": 2265,
+          "h": 2305,
+          "l": 2040,
+          "c": 2265
+        },
+        {
+          "date": "2026-07-06",
+          "o": 2265,
+          "h": 2275,
+          "l": 2000,
+          "c": 2030
+        },
+        {
+          "date": "2026-07-07",
+          "o": 2080,
+          "h": 2080,
+          "l": 1896,
+          "c": 1915
+        },
+        {
+          "date": "2026-07-08",
+          "o": 1867,
+          "h": 1960,
+          "l": 1839,
+          "c": 1879
+        },
+        {
+          "date": "2026-07-09",
+          "o": 1879,
+          "h": 1920,
+          "l": 1787,
+          "c": 1810
+        },
+        {
+          "date": "2026-07-10",
+          "o": 1863,
+          "h": 1932,
+          "l": 1816,
+          "c": 1871
+        },
+        {
+          "date": "2026-07-13",
+          "o": 2060,
+          "h": 2430,
+          "l": 1943,
+          "c": 2080
+        },
+        {
+          "date": "2026-07-14",
+          "o": 2060,
+          "h": 2075,
+          "l": 1800,
+          "c": 1840
+        },
+        {
+          "date": "2026-07-15",
+          "o": 1900,
+          "h": 2055,
+          "l": 1866,
+          "c": 1936
+        },
+        {
+          "date": "2026-07-16",
+          "o": 1855,
+          "h": 1921,
+          "l": 1810,
+          "c": 1835
+        },
+        {
+          "date": "2026-07-20",
+          "o": 1778,
+          "h": 1835,
+          "l": 1650,
+          "c": 1694
+        },
+        {
+          "date": "2026-07-21",
+          "o": 1677,
+          "h": 2190,
+          "l": 1626,
+          "c": 1840
+        },
+        {
+          "date": "2026-07-22",
+          "o": 1994,
+          "h": 2390,
+          "l": 1980,
+          "c": 2390
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
+      "code": "066430",
+      "name": "아이로보틱스",
+      "rank": 4,
+      "trade_amount": 4607000000,
+      "change_pct": 29.89,
+      "close_price": 2425,
+      "open_price": 2040,
+      "high_price": 2425,
+      "low_price": 2025,
+      "industry": null,
+      "sector": null,
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-06-12",
+        "2026-07-22"
+      ],
+      "news": [],
+      "fallback": true,
+      "range_240d": {
+        "high": 5080,
+        "high_date": "2026-05-19",
+        "high_pct": -52.26,
+        "low": 1002,
+        "low_date": "2025-12-02",
+        "low_pct": 142.02,
+        "current": 2425
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-24",
+          "o": 2845,
+          "h": 3050,
+          "l": 2680,
+          "c": 2915
+        },
+        {
+          "date": "2026-06-25",
+          "o": 3000,
+          "h": 3025,
+          "l": 2800,
+          "c": 2805
+        },
+        {
+          "date": "2026-06-26",
+          "o": 2785,
+          "h": 2785,
+          "l": 2425,
+          "c": 2470
+        },
+        {
+          "date": "2026-06-29",
+          "o": 2470,
+          "h": 2705,
+          "l": 2405,
+          "c": 2430
+        },
+        {
+          "date": "2026-06-30",
+          "o": 2430,
+          "h": 2655,
+          "l": 2370,
+          "c": 2555
+        },
+        {
+          "date": "2026-07-01",
+          "o": 2700,
+          "h": 2810,
+          "l": 2430,
+          "c": 2585
+        },
+        {
+          "date": "2026-07-02",
+          "o": 2585,
+          "h": 2585,
+          "l": 2410,
+          "c": 2425
+        },
+        {
+          "date": "2026-07-03",
+          "o": 2425,
+          "h": 2435,
+          "l": 2155,
+          "c": 2370
+        },
+        {
+          "date": "2026-07-06",
+          "o": 2370,
+          "h": 2390,
+          "l": 2200,
+          "c": 2290
+        },
+        {
+          "date": "2026-07-07",
+          "o": 2270,
+          "h": 2365,
+          "l": 2225,
+          "c": 2285
+        },
+        {
+          "date": "2026-07-08",
+          "o": 2265,
+          "h": 2265,
+          "l": 2065,
+          "c": 2075
+        },
+        {
+          "date": "2026-07-09",
+          "o": 2090,
+          "h": 2175,
+          "l": 2005,
+          "c": 2095
+        },
+        {
+          "date": "2026-07-10",
+          "o": 2200,
+          "h": 2205,
+          "l": 2095,
+          "c": 2195
+        },
+        {
+          "date": "2026-07-13",
+          "o": 2170,
+          "h": 2275,
+          "l": 1981,
+          "c": 1981
+        },
+        {
+          "date": "2026-07-14",
+          "o": 1981,
+          "h": 2000,
+          "l": 1871,
+          "c": 1997
+        },
+        {
+          "date": "2026-07-15",
+          "o": 2010,
+          "h": 2145,
+          "l": 2010,
+          "c": 2110
+        },
+        {
+          "date": "2026-07-16",
+          "o": 2090,
+          "h": 2090,
+          "l": 2015,
+          "c": 2025
+        },
+        {
+          "date": "2026-07-20",
+          "o": 2005,
+          "h": 2005,
+          "l": 1830,
+          "c": 1859
+        },
+        {
+          "date": "2026-07-21",
+          "o": 1859,
+          "h": 2320,
+          "l": 1730,
+          "c": 1867
+        },
+        {
+          "date": "2026-07-22",
+          "o": 2040,
+          "h": 2425,
+          "l": 2025,
+          "c": 2425
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
       "code": "065420",
       "name": "에스아이리소스",
-      "rank": 2,
-      "trade_amount": 258000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
+      "rank": 5,
+      "trade_amount": 271000000,
+      "change_pct": 29.92,
+      "close_price": 165,
+      "open_price": 156,
+      "high_price": 165,
+      "low_price": 150,
       "industry": "기타 화학제품 제조업",
       "sector": "유연탄",
       "themes": [],
@@ -225,18 +623,24 @@
       },
       "bullish_today": false,
       "bullish_streak": 0,
-      "bullish_dates": [],
+      "bullish_dates": [
+        "2026-05-27",
+        "2026-06-01",
+        "2026-07-21"
+      ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 2.82,
+      "index_change_pct": 4.44,
+      "index_multiple_current": 6.74,
+      "index_multiple_eligible": true,
       "range_240d": {
         "high": 418,
         "high_date": "2025-07-21",
-        "high_pct": -69.62,
+        "high_pct": -60.53,
         "low": 90,
         "low_date": "2026-07-21",
-        "low_pct": 41.11,
-        "current": 127
+        "low_pct": 83.33,
+        "current": 165
       },
       "daily_20": [
         {
@@ -380,17 +784,27 @@
           "c": 165
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 156,
+        "base": 156,
+        "prices": [
+          156,
+          165,
+          165
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
     },
     {
-      "code": "484810",
-      "name": "티엑스알로보틱스",
-      "rank": 3,
-      "trade_amount": 91000000,
+      "code": "078590",
+      "name": "휴림에이텍",
+      "rank": 6,
+      "trade_amount": 117000000,
       "change_pct": null,
       "close_price": null,
       "open_price": null,
@@ -408,7 +822,196 @@
       "news": [],
       "fallback": true,
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
+      "code": "484810",
+      "name": "티엑스알로보틱스",
+      "rank": 7,
+      "trade_amount": 96000000,
+      "change_pct": 29.95,
+      "close_price": 12540,
+      "open_price": 12540,
+      "high_price": 12540,
+      "low_price": 12540,
+      "industry": "일반 목적용 기계 제조업",
+      "sector": "물류자동화, 로봇자동화, AMR/AGV",
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [
+        "2026-06-12",
+        "2026-07-21"
+      ],
+      "news": [],
+      "fallback": true,
+      "index_change_pct": 4.44,
+      "index_multiple_current": 6.75,
+      "index_multiple_eligible": true,
+      "range_240d": {
+        "high": 26500,
+        "high_date": "2026-01-22",
+        "high_pct": -52.68,
+        "low": 7540,
+        "low_date": "2026-07-21",
+        "low_pct": 66.31,
+        "current": 12540
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-24",
+          "o": 10250,
+          "h": 10720,
+          "l": 10030,
+          "c": 10410
+        },
+        {
+          "date": "2026-06-25",
+          "o": 10430,
+          "h": 10690,
+          "l": 9920,
+          "c": 9960
+        },
+        {
+          "date": "2026-06-26",
+          "o": 9800,
+          "h": 10000,
+          "l": 8950,
+          "c": 9100
+        },
+        {
+          "date": "2026-06-29",
+          "o": 8950,
+          "h": 10250,
+          "l": 8920,
+          "c": 10220
+        },
+        {
+          "date": "2026-06-30",
+          "o": 10350,
+          "h": 10500,
+          "l": 9830,
+          "c": 9950
+        },
+        {
+          "date": "2026-07-01",
+          "o": 10200,
+          "h": 10520,
+          "l": 9740,
+          "c": 10520
+        },
+        {
+          "date": "2026-07-02",
+          "o": 10170,
+          "h": 10250,
+          "l": 9810,
+          "c": 9850
+        },
+        {
+          "date": "2026-07-03",
+          "o": 10370,
+          "h": 10750,
+          "l": 9360,
+          "c": 10200
+        },
+        {
+          "date": "2026-07-06",
+          "o": 10000,
+          "h": 10240,
+          "l": 9570,
+          "c": 9800
+        },
+        {
+          "date": "2026-07-07",
+          "o": 9620,
+          "h": 10060,
+          "l": 9090,
+          "c": 9490
+        },
+        {
+          "date": "2026-07-08",
+          "o": 9020,
+          "h": 9280,
+          "l": 8540,
+          "c": 8600
+        },
+        {
+          "date": "2026-07-09",
+          "o": 8460,
+          "h": 8950,
+          "l": 8410,
+          "c": 8500
+        },
+        {
+          "date": "2026-07-10",
+          "o": 8550,
+          "h": 9290,
+          "l": 8550,
+          "c": 9170
+        },
+        {
+          "date": "2026-07-13",
+          "o": 9000,
+          "h": 9550,
+          "l": 8630,
+          "c": 8660
+        },
+        {
+          "date": "2026-07-14",
+          "o": 8410,
+          "h": 8660,
+          "l": 7900,
+          "c": 8140
+        },
+        {
+          "date": "2026-07-15",
+          "o": 8240,
+          "h": 8650,
+          "l": 8230,
+          "c": 8480
+        },
+        {
+          "date": "2026-07-16",
+          "o": 8420,
+          "h": 8520,
+          "l": 8070,
+          "c": 8260
+        },
+        {
+          "date": "2026-07-20",
+          "o": 8300,
+          "h": 8300,
+          "l": 7710,
+          "c": 7800
+        },
+        {
+          "date": "2026-07-21",
+          "o": 7720,
+          "h": 10130,
+          "l": 7540,
+          "c": 9650
+        },
+        {
+          "date": "2026-07-22",
+          "o": 12540,
+          "h": 12540,
+          "l": 12540,
+          "c": 12540
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 12540,
+        "base": 12540,
+        "prices": [
+          12540,
+          12540,
+          12540
+        ]
+      },
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
