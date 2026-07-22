@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 25718.59,
+      "point": 25718.08,
       "change_pct": -0.46,
       "candle": {
         "o": 25692.11,
         "h": 25801.8,
         "l": 25681.32,
-        "c": 25718.59
+        "c": 25718.08
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,7 +2033,7 @@
           "o": 25692.11,
           "h": 25801.8,
           "l": 25681.32,
-          "c": 25718.59
+          "c": 25718.08
         }
       ],
       "spark": [
@@ -2050,7 +2050,9 @@
         25738.26,
         25715.46,
         25711.06,
-        25718.59
+        25716.88,
+        25716.49,
+        25718.08
       ],
       "news": {
         "summary": "반도체·AI 기술주 반등으로 나스닥 회복세. 팹리스·AI 인프라 투자 경쟁 가속화 중, 공급망 리스크 상존.",
@@ -2074,13 +2076,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7500.16,
-      "change_pct": -0.12,
+      "point": 7498.01,
+      "change_pct": -0.15,
       "candle": {
         "o": 7497.47,
         "h": 7519.22,
         "l": 7485.85,
-        "c": 7500.16
+        "c": 7498.01
       },
       "range_240d": {
         "low": 6340.0,
@@ -4104,7 +4106,7 @@
           "o": 7497.47,
           "h": 7519.22,
           "l": 7485.85,
-          "c": 7500.16
+          "c": 7498.01
         }
       ],
       "spark": [
@@ -4121,7 +4123,9 @@
         7506.66,
         7501.37,
         7499.0,
-        7500.16
+        7497.48,
+        7498.36,
+        7498.01
       ],
       "news": {
         "summary": "트럼프 관세 정책 본격화·중동 갈등 재개로 매크로 불확실성 확대. 미국 고용 약세, 선진국 인플레이션 둔화로 중앙은행 완화 기조 강화 신호. 유가 변동성 상승이 글로벌 경제 제약요인.",
@@ -4145,13 +4149,13 @@
     },
     {
       "name": "DOW",
-      "point": 52310.91,
-      "change_pct": 0.17,
+      "point": 52296.97,
+      "change_pct": 0.14,
       "candle": {
         "o": 52287.14,
         "h": 52511.21,
         "l": 52148.87,
-        "c": 52310.91
+        "c": 52296.97
       },
       "range_240d": {
         "low": 43968.64,
@@ -6175,7 +6179,7 @@
           "o": 52287.14,
           "h": 52511.21,
           "l": 52148.87,
-          "c": 52310.91
+          "c": 52296.97
         }
       ],
       "spark": [
@@ -6192,7 +6196,9 @@
         52386.61,
         52352.11,
         52317.71,
-        52310.91
+        52303.39,
+        52302.55,
+        52296.97
       ],
       "news": {
         "summary": "금융주 M&A 실적 개선 부분적. 에너지 부문 공급 제약 심화로 유가 상승세 지속, 주택시장 약세로 대형주 수익성 압박.",
@@ -6217,13 +6223,6 @@
   ],
   "news_chips": [
     {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/world/uk/u-k-inflation-falls-to-15-month-low-f4c30cec",
-      "published_ts": 1784712120.0,
-      "impact_high": true
-    },
-    {
       "summary": "인도네시아 중앙은행이 기준금리를 유지하기로 결정하며 이전 금리 인상 조치의 파급 효과를 주시하고 있다.",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/bank-indonesia-defies-market-expectations-with-rate-hold-46ee5f61",
@@ -6231,77 +6230,82 @@
       "impact_high": true
     },
     {
-      "summary": "중동 분쟁으로 인한 공급 압박에 원유 배럴당 $95선을 터치하며 나스닥이 약세 마감",
+      "summary": "중동 분쟁으로 유가가 $95에 도달하면서 나스닥이 하락 마감했고 테슬라·알파벳 등 빅테크 실적 발표 대기 중",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-22-2026?mod=rss_markets_main",
       "published_ts": 1784708705.0,
       "impact_high": true
     },
     {
-      "summary": "트럼프 정부가 대법원 판결 이후 새로운 관세 정책을 추진 중으로 시장 불확실성 고조",
+      "summary": "트럼프 행정부가 신규 관세 정책 추진으로 통상 정책 불확실성 재개",
       "source": "WSJ",
       "url": "https://www.wsj.com/economy/trade/trumps-tariffs-enter-new-phase-ending-months-of-calm-65f33e3e",
       "published_ts": 1784685600.0,
       "impact_high": true
     },
     {
-      "summary": "이란이 초기 공격 후 탄도미사일 프로그램을 재구성하며 원유 공급 리스크 상존",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/world/middle-east/iran-shows-its-ballistic-missiles-are-still-a-force-to-reckon-with-42b18204",
-      "published_ts": 1784684820.0,
-      "impact_high": true
-    },
-    {
-      "summary": "홍해·흑해 해로 차단으로 원유 공급 경로 우회 증가하며 에너지 가격 상승압 지속",
+      "summary": "홍해·흑해 운송 중단으로 원유 공급 경로 축소 우려 야기",
       "source": "WSJ",
       "url": "https://www.wsj.com/world/middle-east/war-risk-to-oil-supplies-grows-with-red-and-black-sea-disruptions-6de374e7",
       "published_ts": 1784665440.0,
       "impact_high": true
     },
     {
-      "summary": "6월 민간 고용 증가가 98,000건으로 예상 아래로 회복 둔화 신호 발생",
+      "summary": "사우디 핵 거래 승인으로 중동 지정학 불확실성 상존 가운데 이란 미사일 위협 지속",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/banking/digital-bank-revolut-europes-most-valuable-startup-valued-at-115-billion-0344c14e?mod=rss_markets_main",
+      "published_ts": 1784730840.0,
+      "impact_high": false
+    },
+    {
+      "summary": "블랙록이 메타 데이터센터 대규모 투자를 주도하면서 AI 인프라 구축 자금 조달 가속화",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/banking/digital-bank-revolut-europes-most-valuable-startup-valued-at-115-billion-0344c14e?mod=rss_markets_main",
+      "published_ts": 1784730840.0,
+      "impact_high": false
+    },
+    {
+      "summary": "AI 칩 장기 공급 계약이 예상만큼 견고하지 않을 수 있다는 평가로 반도체 공급 불확실성 증가",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/banking/digital-bank-revolut-europes-most-valuable-startup-valued-at-115-billion-0344c14e?mod=rss_markets_main",
+      "published_ts": 1784730840.0,
+      "impact_high": false
+    },
+    {
+      "summary": "장기채 수익률 상승으로 채권 시장 우려 확대 중 빅테크 기업 분기 실적 공개",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/investing/the-long-bond-is-making-people-nervous-5397f8b5?mod=rss_markets_main",
+      "published_ts": 1784716620.0,
+      "impact_high": false
+    },
+    {
+      "summary": "6월 민간 부문 고용이 예상 이하로 증가하면서 노동시장 둔화 신호",
       "source": "WSJ",
       "url": "https://www.wsj.com/economy/jobs/adp-says-june-private-sector-hiring-grew-slightly-below-expectations-1aba28ac",
       "published_ts": 1784637120.0,
       "impact_high": false
     },
     {
-      "summary": "블랙록이 메타 데이터센터 프로젝트에 120억 달러 조달을 주도하며 AI 인프라 투자 가속",
+      "summary": "6월 주택 선매 계약이 5.4% 하락하면서 부동산 시장 약세 심화",
       "source": "WSJ",
-      "url": "https://www.wsj.com/business/deals/blackrock-leads-12-billion-financing-for-new-meta-data-centers-in-texas-e1c3d42c?mod=rss_markets_main",
-      "published_ts": 1784571420.0,
-      "impact_high": false
-    },
-    {
-      "summary": "SK하이닉스 등의 장기 AI 칩 공급계약이 예상보다 높은 불확실성을 내포 중",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/the-massive-supply-deals-feeding-the-ai-frenzy-are-no-sure-thing-3a89ec09?mod=rss_markets_main",
-      "published_ts": 1784539800.0,
-      "impact_high": false
-    },
-    {
-      "summary": "중국산 수입물가가 2008년 이후 최고 수준으로 상승하며 공급망 인플레 압력 재점화",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/17/import-prices-post-surprise-gain-as-costs-of-goods-from-china-hit-highest-since-2008.html",
-      "published_ts": 1784297629.0,
+      "url": "https://www.wsj.com/economy/housing/u-s-pending-home-sales-fell-in-june-5370cc55",
+      "published_ts": 1784211720.0,
       "impact_high": false
     }
   ],
-  "_article_sig": "5f245f494d076ce689fac3de83475b96d14eb8610bf0e431df674762f2a6441b",
+  "_article_sig": "cae68946d29c409e55ad961fd0da60bdb35fdf983606a4b2df0fdf1757bc421f",
   "built_at_kst": "2026-07-22T07:01:34.524025+09:00",
   "futures": {
-    "as_of_kst": "2026-07-22T23:30:10.448546+09:00",
+    "as_of_kst": "2026-07-22T23:40:03.757872+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7543.5,
-        "change_pct": -0.03,
+        "point": 7534.5,
+        "change_pct": -0.15,
         "spark": [
           7545.0,
-          7528.75,
-          7525.25,
           7524.0,
           7525.75,
           7523.0,
@@ -6339,21 +6343,23 @@
           7547.75,
           7544.5,
           7543.5,
-          7543.5
+          7538.0,
+          7534.5,
+          7534.5
         ],
         "candle": {
           "o": 7545.0,
           "h": 7556.25,
           "l": 7504.0,
-          "c": 7542.5
+          "c": 7535.5
         },
         "range_240d": {
           "low": 6366.5,
           "high": 7623.75,
           "low_date": "2025-08-07",
           "high_date": "2026-06-02",
-          "low_change_pct": 18.47,
-          "high_change_pct": -1.07
+          "low_change_pct": 18.36,
+          "high_change_pct": -1.16
         },
         "daily_expanded": [
           {
@@ -8369,25 +8375,25 @@
             "o": 7545.0,
             "h": 7556.25,
             "l": 7504.0,
-            "c": 7542.5,
-            "v": 353163
+            "c": 7535.5,
+            "v": 387348
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "이란·미국 갈등 재격화로 유가 $95대 돌입, 해상 공급 교란 장기화 시나리오 심화. 트럼프 제네릭 약 관세 투사(2028년 100%)로 인플레 불확실성 확대·고용 약세(ADP 98k)·부동산 선행지표 악화(Pending -5.4%) 복합 작용, 경기둔화 신호 누적.",
+          "summary": "중동 지정학 긴장 격화에 유가 $95 근처 터치로 매크로 리스크온 심화. 트럼프 신규 관세(제네릭 약품 2028년 100%) 전개, ADP 고용 부진, 수입물가 상승 등 경기 혼조 신호 다중 포착. 채권 시장 불안감으로 변동성 확대 추세.",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-22-2026?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/world/middle-east/war-risk-to-oil-supplies-grows-with-red-and-black-sea-disruptions-6de374e7"
+              "url": "https://www.wsj.com/world/middle-east/trump-says-u-s-will-bomb-irans-power-plants-bridges-if-tehran-strikes-ships-7db7e165"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/economy/trade/trumps-tariffs-enter-new-phase-ending-months-of-calm-65f33e3e"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-22-2026?mod=rss_markets_main"
             }
           ]
         }
@@ -8395,12 +8401,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29243.0,
-        "change_pct": -0.25,
+        "point": 29232.0,
+        "change_pct": -0.29,
         "spark": [
           29310.75,
-          29124.25,
-          29114.25,
           29120.5,
           29101.75,
           29103.75,
@@ -8438,21 +8442,23 @@
           29236.25,
           29251.5,
           29217.75,
-          29243.0
+          29220.0,
+          29217.25,
+          29232.0
         ],
         "candle": {
           "o": 29310.75,
           "h": 29337.0,
           "l": 28952.0,
-          "c": 29243.0
+          "c": 29232.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 26.38,
-          "high_change_pct": -4.79
+          "low_change_pct": 26.33,
+          "high_change_pct": -4.82
         },
         "daily_expanded": [
           {
@@ -10468,13 +10474,13 @@
             "o": 29310.75,
             "h": 29337.0,
             "l": 28952.0,
-            "c": 29243.0,
-            "v": 195520
+            "c": 29232.0,
+            "v": 207433
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "AI 데이터센터·반도체 공급망 투자 열풍 지속. 프라이빗마켓 자금 유입(BlackRock-Meta $12B DC 파이낸싱, TECfusions SPAC 상장 추진) 가속화로 빅테크 자산 선호 심화, 성장주 우위.",
+          "summary": "AI 인프라 투자 열풍에 나스닥100 선물 강세세 지속 중. 메타 데이터센터 $12B 파이낸싱, 테크 기업 어닝 시즌 임박으로 매수 모멘텀 가속화. 다만 AI 공급 계약 리스크 상존으로 변동성 관리 필요.",
           "sources": [
             {
               "name": "WSJ",
@@ -10486,7 +10492,7 @@
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/the-massive-supply-deals-feeding-the-ai-frenzy-are-no-sure-thing-3a89ec09?mod=rss_markets_main"
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-22-2026?mod=rss_markets_main"
             }
           ]
         }
@@ -10494,12 +10500,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52590.0,
-        "change_pct": 0.28,
+        "point": 52519.0,
+        "change_pct": 0.14,
         "spark": [
           52431.0,
-          52377.0,
-          52369.0,
           52370.0,
           52359.0,
           52371.0,
@@ -10537,21 +10541,23 @@
           52612.0,
           52592.0,
           52553.0,
-          52590.0
+          52515.0,
+          52507.0,
+          52519.0
         ],
         "candle": {
           "o": 52431.0,
           "h": 52721.0,
           "l": 52262.0,
-          "c": 52590.0
+          "c": 52519.0
         },
         "range_240d": {
           "low": 44080.0,
           "high": 53372.0,
           "low_date": "2025-08-07",
           "high_date": "2026-07-06",
-          "low_change_pct": 19.31,
-          "high_change_pct": -1.47
+          "low_change_pct": 19.14,
+          "high_change_pct": -1.6
         },
         "daily_expanded": [
           {
@@ -12567,25 +12573,25 @@
             "o": 52431.0,
             "h": 52721.0,
             "l": 52262.0,
-            "c": 52590.0,
-            "v": 47941
+            "c": 52519.0,
+            "v": 51492
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "지정학 긴장·유가 상승에 경기민감주 약세 기저. 금융주(Santander 실적 견조)는 혼조지만, 부동산 선행지표 악화에 건설·금융 경기순환주 동조 약세 심화 우려.",
+          "summary": "전통 산업·금융주 실적 분화 심화로 블루칩 양극화 진행 중. 정제 용량 부족으로 연료비 상승 압박, 중국 경제 국내 약세로 경기민감주 약세 신호 강화. 부동산 시장 양극화(부자 업사이징 vs 펜딩 판매 하락) 지속으로 다우 구성 기업 실적 부담 우려.",
           "sources": [
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/world/middle-east/war-risk-to-oil-supplies-grows-with-red-and-black-sea-disruptions-6de374e7"
-            },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/business/earnings/santander-posts-lower-net-profit-on-effects-of-tsb-poland-deals-c612d643?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/economy/housing/u-s-pending-home-sales-fell-in-june-5370cc55"
+              "url": "https://www.wsj.com/business/retail/big-food-is-running-out-of-moves-with-shoppers-and-investors-5f4567e9?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/business/energy-oil/gas-prices-will-stay-higher-for-longer-even-if-oil-falls-93b61566?mod=rss_markets_main"
             }
           ]
         }
@@ -12593,10 +12599,10 @@
     ]
   },
   "regular_open": true,
-  "intraday_refreshed_kst": "2026-07-22T23:30:14.141168+09:00",
+  "intraday_refreshed_kst": "2026-07-22T23:42:59.488472+09:00",
   "_futures_news": {
     "NASDAQ": {
-      "summary": "AI 데이터센터·반도체 공급망 투자 열풍 지속. 프라이빗마켓 자금 유입(BlackRock-Meta $12B DC 파이낸싱, TECfusions SPAC 상장 추진) 가속화로 빅테크 자산 선호 심화, 성장주 우위.",
+      "summary": "AI 인프라 투자 열풍에 나스닥100 선물 강세세 지속 중. 메타 데이터센터 $12B 파이낸싱, 테크 기업 어닝 시즌 임박으로 매수 모멘텀 가속화. 다만 AI 공급 계약 리스크 상존으로 변동성 관리 필요.",
       "sources": [
         {
           "name": "WSJ",
@@ -12608,41 +12614,41 @@
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/the-massive-supply-deals-feeding-the-ai-frenzy-are-no-sure-thing-3a89ec09?mod=rss_markets_main"
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-22-2026?mod=rss_markets_main"
         }
       ]
     },
     "S&P500": {
-      "summary": "이란·미국 갈등 재격화로 유가 $95대 돌입, 해상 공급 교란 장기화 시나리오 심화. 트럼프 제네릭 약 관세 투사(2028년 100%)로 인플레 불확실성 확대·고용 약세(ADP 98k)·부동산 선행지표 악화(Pending -5.4%) 복합 작용, 경기둔화 신호 누적.",
+      "summary": "중동 지정학 긴장 격화에 유가 $95 근처 터치로 매크로 리스크온 심화. 트럼프 신규 관세(제네릭 약품 2028년 100%) 전개, ADP 고용 부진, 수입물가 상승 등 경기 혼조 신호 다중 포착. 채권 시장 불안감으로 변동성 확대 추세.",
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-22-2026?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/world/middle-east/war-risk-to-oil-supplies-grows-with-red-and-black-sea-disruptions-6de374e7"
+          "url": "https://www.wsj.com/world/middle-east/trump-says-u-s-will-bomb-irans-power-plants-bridges-if-tehran-strikes-ships-7db7e165"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/economy/trade/trumps-tariffs-enter-new-phase-ending-months-of-calm-65f33e3e"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-22-2026?mod=rss_markets_main"
         }
       ]
     },
     "DOW": {
-      "summary": "지정학 긴장·유가 상승에 경기민감주 약세 기저. 금융주(Santander 실적 견조)는 혼조지만, 부동산 선행지표 악화에 건설·금융 경기순환주 동조 약세 심화 우려.",
+      "summary": "전통 산업·금융주 실적 분화 심화로 블루칩 양극화 진행 중. 정제 용량 부족으로 연료비 상승 압박, 중국 경제 국내 약세로 경기민감주 약세 신호 강화. 부동산 시장 양극화(부자 업사이징 vs 펜딩 판매 하락) 지속으로 다우 구성 기업 실적 부담 우려.",
       "sources": [
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/world/middle-east/war-risk-to-oil-supplies-grows-with-red-and-black-sea-disruptions-6de374e7"
-        },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/business/earnings/santander-posts-lower-net-profit-on-effects-of-tsb-poland-deals-c612d643?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/economy/housing/u-s-pending-home-sales-fell-in-june-5370cc55"
+          "url": "https://www.wsj.com/business/retail/big-food-is-running-out-of-moves-with-shoppers-and-investors-5f4567e9?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/business/energy-oil/gas-prices-will-stay-higher-for-longer-even-if-oil-falls-93b61566?mod=rss_markets_main"
         }
       ]
     }
