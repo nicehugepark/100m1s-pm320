@@ -1,6 +1,6 @@
 {
   "date": "2026-07-22",
-  "generated_at": "2026-07-22T10:25:13.574558",
+  "generated_at": "2026-07-22T10:27:11.524210",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -1935,8 +1935,25 @@
       "low_price": 6860,
       "industry": "특수 목적용 기계 제조업",
       "sector": "이차전지 자동화 설비",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "로봇",
+        "2차전지 장비 수혜"
+      ],
+      "theme_paths": [
+        {
+          "name": "로봇",
+          "path": [
+            "로봇"
+          ]
+        },
+        {
+          "name": "2차전지 장비 수혜",
+          "path": [
+            "2차전지",
+            "2차전지 장비 수혜"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": true,
@@ -1951,32 +1968,32 @@
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03568646645517144",
           "source": "이데일리",
           "published_at": "2026-07-22T01:16:39",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "글로벌 자동화 설비 수요 확대 → 이차전지 자동화 설비·특수목적 기계 본업 기업 케이엔에스가 글로벌 S사향 400여대 로봇 추가 수주(누적 1,000여대 레퍼런스 확보) 부각 → 로봇·2차전지 장비 도메인 직접 정합 매수세 집중 → 당일 시가 6,860원에서 상한가 직행, 종가 8,900원(+29.93%) 형성",
+          "macro_event": "글로벌 기업 대상 산업용 로봇 자동화 설비 수요 확대",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.6,
+          "newzy_virality": 0.4,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.52,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "케이엔에스 “글로벌 S사향 400여대 로봇 추가 수주 성공…누적 1000여대 레퍼런스 확보”",
           "url": "https://www.etoday.co.kr/news/view/2606065",
           "source": "이투데이",
           "published_at": "2026-07-22T01:13:00",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "글로벌 자동화 설비 수요 확대 → 이차전지 자동화 설비·특수목적 기계 본업 기업 케이엔에스가 글로벌 S사향 400여대 로봇 추가 수주(누적 1,000여대 레퍼런스 확보) 부각 → 로봇·2차전지 장비 도메인 직접 정합 매수세 집중 → 당일 시가 6,860원에서 상한가 직행, 종가 8,900원(+29.93%) 형성",
+          "macro_event": "글로벌 기업 대상 산업용 로봇 자동화 설비 수요 확대",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.6,
+          "newzy_virality": 0.4,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.52,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": false,
@@ -2158,9 +2175,9 @@
           8900
         ]
       },
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "strong_bull",
+      "theme_leader": true,
+      "hugepark_grade": "적극"
     },
     {
       "code": "065420",
