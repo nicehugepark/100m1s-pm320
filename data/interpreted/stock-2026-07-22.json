@@ -1,6 +1,6 @@
 {
   "date": "2026-07-22",
-  "generated_at": "2026-07-22T14:15:20.530945",
+  "generated_at": "2026-07-22T14:16:25.431397",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -1171,32 +1171,12 @@
       "industry": "플라스틱제품 제조업",
       "sector": "전기재료연결부품",
       "themes": [
-        "전기차",
-        "전기차·하이브리드·PBV 성장축",
-        "MLCC",
         "로봇",
         "케이블",
-        "반도체"
+        "반도체",
+        "MLCC"
       ],
       "theme_paths": [
-        {
-          "name": "전기차",
-          "path": [
-            "전기차"
-          ]
-        },
-        {
-          "name": "전기차·하이브리드·PBV 성장축",
-          "path": [
-            "전기차·하이브리드·PBV 성장축"
-          ]
-        },
-        {
-          "name": "MLCC",
-          "path": [
-            "MLCC"
-          ]
-        },
         {
           "name": "로봇",
           "path": [
@@ -1214,6 +1194,12 @@
           "path": [
             "반도체"
           ]
+        },
+        {
+          "name": "MLCC",
+          "path": [
+            "MLCC"
+          ]
         }
       ],
       "pick_count": 1,
@@ -1230,6 +1216,22 @@
         "2026-07-15"
       ],
       "news": [
+        {
+          "title": "씨피시스템, 글로벌 부품사 인도 공장에 ‘로보웨이’ 공급",
+          "url": "https://www.sedaily.com/article/20070458",
+          "source": "서울경제",
+          "published_at": "2026-07-22T05:00:18",
+          "causal_chain": "로봇 자동화 설비·반도체 팹 투자 확산 → 다관절 로봇 반복구동 구간의 케이블 단선·마모 방지용 고청정 케이블 보호 솔루션(로보웨이·G클린체인) 수요 증가 → 케이블체인 본업 씨피시스템이 인도 글로벌 전동화 부품공장에 로보웨이를 공급하고 삼성·SK 반도체 설비 수혜 기대가 겹치며 로봇·반도체 도메인 직접 정합 매수세 유입 → 당일 시가 3,445원에서 종가 3,615원(+7.11%)까지 상승, 거래대금 567억원으로 관심 집중.",
+          "macro_event": "다관절 로봇·자동화 설비 확산 → 로봇 암 구간 케이블 보호 솔루션 수요 증가",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.5,
+          "newzy_virality": 0.4,
+          "newzy_tradability": null,
+          "newzy_score": 0.46,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        },
         {
           "title": "씨피시스템, 글로벌 완성차 부품사향 전동화 로봇 설비에 ‘로보웨이’ 공급",
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03791686645517144",
@@ -1261,37 +1263,23 @@
           "newzy_score": 0.46,
           "newzy_verdict": null,
           "article_type": "호재"
-        },
-        {
-          "title": "씨피시스템, 글로벌 부품사 인도 공장에 ‘로보웨이’ 공급",
-          "url": "https://www.sedaily.com/article/20070458",
-          "source": "서울경제",
-          "published_at": "2026-07-22T05:00:18",
-          "causal_chain": null,
-          "macro_event": null,
-          "newzy_freshness": null,
-          "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
-          "newzy_tradability": null,
-          "newzy_score": null,
-          "newzy_verdict": null,
-          "article_type": null
         }
       ],
       "fallback": false,
+      "cafe_themes": [
+        "MLCC"
+      ],
       "theme_crosscheck": {
         "confirmed": [
-          "MLCC",
           "로봇",
           "반도체"
         ],
         "pm320_only": [
-          "전기차",
-          "전기차·하이브리드·PBV 성장축",
           "케이블"
         ],
-        "cafe_only": []
+        "cafe_only": [
+          "MLCC"
+        ]
       },
       "index_change_pct": 1.55,
       "index_multiple_current": 4.59,
