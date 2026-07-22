@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 25783.37,
-      "change_pct": -0.21,
+      "point": 25751.08,
+      "change_pct": -0.33,
       "candle": {
         "o": 25692.11,
-        "h": 25783.37,
+        "h": 25801.8,
         "l": 25681.32,
-        "c": 25783.37
+        "c": 25751.08
       },
       "range_240d": {
         "low": 20794.64,
@@ -2031,9 +2031,9 @@
         {
           "date": "2026-07-22",
           "o": 25692.11,
-          "h": 25783.37,
+          "h": 25801.8,
           "l": 25681.32,
-          "c": 25783.37
+          "c": 25751.08
         }
       ],
       "spark": [
@@ -2044,7 +2044,9 @@
         25727.96,
         25755.62,
         25781.58,
-        25783.37
+        25781.2,
+        25763.84,
+        25751.08
       ],
       "news": {
         "summary": "반도체·AI 기술주 반등으로 나스닥 회복세. 팹리스·AI 인프라 투자 경쟁 가속화 중, 공급망 리스크 상존.",
@@ -2068,13 +2070,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7511.94,
-      "change_pct": 0.04,
+      "point": 7510.86,
+      "change_pct": 0.02,
       "candle": {
         "o": 7497.47,
-        "h": 7513.24,
+        "h": 7519.22,
         "l": 7485.85,
-        "c": 7511.94
+        "c": 7510.86
       },
       "range_240d": {
         "low": 6340.0,
@@ -4096,9 +4098,9 @@
         {
           "date": "2026-07-22",
           "o": 7497.47,
-          "h": 7513.24,
+          "h": 7519.22,
           "l": 7485.85,
-          "c": 7511.94
+          "c": 7510.86
         }
       ],
       "spark": [
@@ -4109,7 +4111,9 @@
         7502.83,
         7506.96,
         7513.24,
-        7511.94
+        7515.23,
+        7510.13,
+        7510.86
       ],
       "news": {
         "summary": "트럼프 관세 정책 본격화·중동 갈등 재개로 매크로 불확실성 확대. 미국 고용 약세, 선진국 인플레이션 둔화로 중앙은행 완화 기조 강화 신호. 유가 변동성 상승이 글로벌 경제 제약요인.",
@@ -4133,13 +4137,13 @@
     },
     {
       "name": "DOW",
-      "point": 52431.96,
-      "change_pct": 0.4,
+      "point": 52458.75,
+      "change_pct": 0.45,
       "candle": {
         "o": 52287.14,
-        "h": 52472.04,
+        "h": 52511.21,
         "l": 52148.87,
-        "c": 52431.96
+        "c": 52458.75
       },
       "range_240d": {
         "low": 43968.64,
@@ -6161,9 +6165,9 @@
         {
           "date": "2026-07-22",
           "o": 52287.14,
-          "h": 52472.04,
+          "h": 52511.21,
           "l": 52148.87,
-          "c": 52431.96
+          "c": 52458.75
         }
       ],
       "spark": [
@@ -6174,7 +6178,9 @@
         52365.4,
         52386.27,
         52435.3,
-        52431.96
+        52482.98,
+        52458.17,
+        52458.75
       ],
       "news": {
         "summary": "금융주 M&A 실적 개선 부분적. 에너지 부문 공급 제약 심화로 유가 상승세 지속, 주택시장 약세로 대형주 수익성 압박.",
@@ -6199,15 +6205,15 @@
   ],
   "news_chips": [
     {
-      "summary": "트럼프가 이란의 호르무즈 해역 선박 공격 시 발전소와 교량 폭격을 경고하며 중동 긴장이 고조되고 있다.",
-      "source": "WSJ",
+      "summary": "트럼프가 이란의 선박 공격 시 교량·발전소 폭격을 경고하면서 중동 긴장이 고조됨",
+      "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/trump-says-u-s-will-bomb-irans-power-plants-bridges-if-tehran-strikes-ships-7db7e165",
       "published_ts": 1784726880.0,
       "impact_high": true
     },
     {
-      "summary": "영국 6월 인플레이션이 2.6%로 15개월 만에 최저 수준으로 떨어졌으나 향후 가격 상승 우려가 남아있다.",
-      "source": "WSJ",
+      "summary": "영국 인플레이션이 15개월 만에 최저치로 떨어졌으나 향후 재상승 우려가 지속됨",
+      "source": "WSJ경제",
       "url": "https://www.wsj.com/world/uk/u-k-inflation-falls-to-15-month-low-f4c30cec",
       "published_ts": 1784712120.0,
       "impact_high": true
@@ -6220,69 +6226,68 @@
       "impact_high": true
     },
     {
-      "summary": "중동 분쟁으로 인한 공급망 차단에 따라 유가가 배럴당 95달러까지 급등했다.",
+      "summary": "중동 분쟁으로 유가가 배럴당 95달러까지 올라가며 나스닥이 약세를 보임",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-22-2026?mod=rss_markets_main",
       "published_ts": 1784708705.0,
       "impact_high": true
     },
     {
-      "summary": "트럼프가 대법원의 관세 무효화 이후 새로운 관세 정책을 추진하며 무역 분쟁이 재개되고 있다.",
-      "source": "WSJ",
+      "summary": "트럼프의 신규 관세 정책이 재개되면서 통상 불확실성이 높아지고 있음",
+      "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/trade/trumps-tariffs-enter-new-phase-ending-months-of-calm-65f33e3e",
       "published_ts": 1784685600.0,
       "impact_high": true
     },
     {
-      "summary": "홍해와 흑해 운송 차단으로 유가 상승 압력이 지속되며 해상 유조선들이 우회 항로를 택하고 있다.",
-      "source": "WSJ",
+      "summary": "홍해·흑해 해상 통항 혼란으로 원유 공급망 위험이 심화되고 있음",
+      "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/war-risk-to-oil-supplies-grows-with-red-and-black-sea-disruptions-6de374e7",
       "published_ts": 1784665440.0,
       "impact_high": true
     },
     {
-      "summary": "AI 수급 계약들이 기업 공시처럼 견고하지 않으면서 AI 투자 과열에 따른 공급망 불확실성이 커지고 있다.",
+      "summary": "장기채 금리 상승으로 채권시장 불안감이 고조되고 있음",
       "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/blackstone-rolls-out-new-private-market-fundsthis-time-with-vanguard-09a981b0?mod=rss_markets_main",
-      "published_ts": 1784724300.0,
+      "url": "https://www.wsj.com/finance/investing/the-long-bond-is-making-people-nervous-5397f8b5?mod=rss_markets_main",
+      "published_ts": 1784716620.0,
       "impact_high": false
     },
     {
-      "summary": "6월 미국 민간 고용 증가가 9만 8000명으로 예상 11만 명을 밑돌며 노동시장 약세를 시사했다.",
-      "source": "WSJ",
+      "summary": "미국 6월 민간부문 고용이 예상치를 하회하며 경기 약화 신호를 보임",
+      "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/jobs/adp-says-june-private-sector-hiring-grew-slightly-below-expectations-1aba28ac",
       "published_ts": 1784637120.0,
       "impact_high": false
     },
     {
-      "summary": "6월 미국 미결 주택 판매 지수가 5.4% 하락해 부동산 시장의 지속적 약세를 보여주고 있다.",
+      "summary": "블랙록이 메타의 텍사스 데이터센터 건설에 120억 달러 규모 자금을 주도 조달",
       "source": "WSJ",
-      "url": "https://www.wsj.com/economy/housing/u-s-pending-home-sales-fell-in-june-5370cc55",
-      "published_ts": 1784211720.0,
+      "url": "https://www.wsj.com/business/deals/blackrock-leads-12-billion-financing-for-new-meta-data-centers-in-texas-e1c3d42c?mod=rss_markets_main",
+      "published_ts": 1784571420.0,
       "impact_high": false
     },
     {
-      "summary": "유로존 5월 산업생산이 예상을 벗어나 급락하며 중동 분쟁의 에너지 비용 부담이 경제 성장을 압박하고 있다.",
+      "summary": "반도체 공급 계약의 확실성 부족으로 AI 투자 지속성에 의문이 제기되고 있음",
       "source": "WSJ",
-      "url": "https://www.wsj.com/economy/global/eurozone-industrial-production-fell-unexpectedly-in-may-ed079f2a",
-      "published_ts": 1784120040.0,
-      "impact_high": true
+      "url": "https://www.wsj.com/finance/the-massive-supply-deals-feeding-the-ai-frenzy-are-no-sure-thing-3a89ec09?mod=rss_markets_main",
+      "published_ts": 1784539800.0,
+      "impact_high": false
     }
   ],
-  "_article_sig": "d3499fabcd70ffc3e97ae2ae4733ee93b7c9740fc41f71232fa0afe72675c1d2",
+  "_article_sig": "874e8ace77311f75803e91d9571fa6c9f674b1c0649254f31f16895bbe2009f4",
   "built_at_kst": "2026-07-22T07:01:34.524025+09:00",
   "futures": {
-    "as_of_kst": "2026-07-22T23:00:05.098013+09:00",
+    "as_of_kst": "2026-07-22T23:10:03.673378+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7539.25,
-        "change_pct": -0.09,
+        "point": 7549.75,
+        "change_pct": 0.05,
         "spark": [
           7545.0,
-          7526.25,
           7531.5,
           7530.5,
           7530.0,
@@ -6321,21 +6326,22 @@
           7537.5,
           7539.25,
           7543.25,
-          7539.25
+          7549.75,
+          7549.75
         ],
         "candle": {
           "o": 7545.0,
-          "h": 7547.0,
+          "h": 7550.0,
           "l": 7504.0,
-          "c": 7539.25
+          "c": 7548.5
         },
         "range_240d": {
           "low": 6366.5,
           "high": 7623.75,
           "low_date": "2025-08-07",
           "high_date": "2026-06-02",
-          "low_change_pct": 18.42,
-          "high_change_pct": -1.11
+          "low_change_pct": 18.57,
+          "high_change_pct": -0.99
         },
         "daily_expanded": [
           {
@@ -8349,23 +8355,27 @@
           {
             "date": "2026-07-22",
             "o": 7545.0,
-            "h": 7547.0,
+            "h": 7550.0,
             "l": 7504.0,
-            "c": 7539.25,
-            "v": 257021
+            "c": 7548.5,
+            "v": 292773
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "이란 지정학 긴장 고조로 유류 선물 $95 급등·공급망 압박 신호. 트럼프 제네릭 의약품 관세(2028년 100%) 추진→ 인플레 재점화 우려 심화. 고용(ADP 부진)·주택거래(낙폭)·수입물가(중국산 최고값) 지표 혼조, 연준 정책 갈등 국면.",
+          "summary": "이란 미사일 위협 재확산으로 유가 $95 진입, 스태그플레이션 우려 심화. 트럼프 관세(의약품 2028년 100%) 및 사우디 핵거래 정책 불확실성 확대. 고용 부진(ADP 110k 미달) 신호, 인플레 이중성(CPI 약화·수입물가 상승).",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/world/middle-east/trump-says-u-s-will-bomb-irans-power-plants-bridges-if-tehran-strikes-ships-7db7e165"
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-22-2026?mod=rss_markets_main"
             },
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/07/22/trump-generic-drugs-tariffs-medicine-trade-.html"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/world/middle-east/trump-approves-landmark-nuclear-deal-with-saudi-arabia-in-big-win-for-kingdom-2ed77584"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/economy/jobs/adp-says-june-private-sector-hiring-grew-slightly-below-expectations-1aba28ac"
             }
           ]
         }
@@ -8373,12 +8383,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29169.75,
-        "change_pct": -0.5,
+        "point": 29271.5,
+        "change_pct": -0.15,
         "spark": [
           29310.75,
-          29136.25,
-          29170.75,
           29158.25,
           29153.0,
           29135.0,
@@ -8416,21 +8424,23 @@
           29178.75,
           29172.25,
           29236.25,
-          29169.75
+          29276.75,
+          29258.75,
+          29271.5
         ],
         "candle": {
           "o": 29310.75,
           "h": 29337.0,
           "l": 28952.0,
-          "c": 29169.75
+          "c": 29271.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 26.06,
-          "high_change_pct": -5.02
+          "low_change_pct": 26.5,
+          "high_change_pct": -4.69
         },
         "daily_expanded": [
           {
@@ -10446,21 +10456,25 @@
             "o": 29310.75,
             "h": 29337.0,
             "l": 28952.0,
-            "c": 29169.75,
-            "v": 153262
+            "c": 29271.5,
+            "v": 168918
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "이란 지정학 긴장 고조로 유류 선물 $95 급등·공급망 압박 신호. 트럼프 제네릭 의약품 관세(2028년 100%) 추진→ 인플레 재점화 우려 심화. 고용(ADP 부진)·주택거래(낙폭)·수입물가(중국산 최고값) 지표 혼조, 연준 정책 갈등 국면.",
+          "summary": "AI 데이터센터 자본투자 가속화. 메타 텍사스 프로젝트 12조 규모 파이낸싱(블랙록 주도), 테크퓨전스 나스닥 상장 추진. 반도체·클라우드 공급망 신뢰도 약화.",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/world/middle-east/trump-says-u-s-will-bomb-irans-power-plants-bridges-if-tehran-strikes-ships-7db7e165"
+              "url": "https://www.wsj.com/business/deals/blackrock-leads-12-billion-financing-for-new-meta-data-centers-in-texas-e1c3d42c?mod=rss_markets_main"
             },
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/07/22/trump-generic-drugs-tariffs-medicine-trade-.html"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/u-s-data-center-operator-tecfusions-plans-to-go-public-in-4-billion-spac-deal-e3f54495?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/the-massive-supply-deals-feeding-the-ai-frenzy-are-no-sure-thing-3a89ec09?mod=rss_markets_main"
             }
           ]
         }
@@ -10468,12 +10482,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52579.0,
-        "change_pct": 0.26,
+        "point": 52638.0,
+        "change_pct": 0.37,
         "spark": [
           52431.0,
-          52395.0,
-          52424.0,
           52422.0,
           52416.0,
           52403.0,
@@ -10511,21 +10523,23 @@
           52527.0,
           52576.0,
           52601.0,
-          52579.0
+          52644.0,
+          52688.0,
+          52638.0
         ],
         "candle": {
           "o": 52431.0,
-          "h": 52596.0,
+          "h": 52692.0,
           "l": 52262.0,
-          "c": 52579.0
+          "c": 52634.0
         },
         "range_240d": {
           "low": 44080.0,
           "high": 53372.0,
           "low_date": "2025-08-07",
           "high_date": "2026-07-06",
-          "low_change_pct": 19.28,
-          "high_change_pct": -1.49
+          "low_change_pct": 19.41,
+          "high_change_pct": -1.38
         },
         "daily_expanded": [
           {
@@ -12539,19 +12553,27 @@
           {
             "date": "2026-07-22",
             "o": 52431.0,
-            "h": 52596.0,
+            "h": 52692.0,
             "l": 52262.0,
-            "c": 52579.0,
-            "v": 40005
+            "c": 52634.0,
+            "v": 43356
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "유류 공급 긴급성 확대(홍해·흑해 해상 운송로 봉쇄)→ 에너지주 강세·가솔린 가격 고착 우려. 한·중·태만 지정학 긴장 고조로 방위산업·산업재 변동성 증대. 경기민감주(식품·소비) 약세 심화, GLP-1 영향 확산.",
+          "summary": "경기민감주 약세 심화. 금융부문 실적 개선(산탄데르) vs 신용 리스크(사모펀드 좀비화 가속, 자산 유동화 지연). 부동산 약세 가속(계약건 -5.4%), 대형 투자자 규제 논의 확산.",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/world/middle-east/war-risk-to-oil-supplies-grows-with-red-and-black-sea-disruptions-6de374e7"
+              "url": "https://www.wsj.com/business/earnings/santander-posts-lower-net-profit-on-effects-of-tsb-poland-deals-c612d643?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/private-equity-assets-stuck-in-zombie-funds-are-at-a-record-high-4dbd01be?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/economy/housing/u-s-pending-home-sales-fell-in-june-5370cc55"
             }
           ]
         }
@@ -12559,40 +12581,56 @@
     ]
   },
   "regular_open": true,
-  "intraday_refreshed_kst": "2026-07-22T23:00:09.109838+09:00",
+  "intraday_refreshed_kst": "2026-07-22T23:12:18.778794+09:00",
   "_futures_news": {
-    "S&P500": {
-      "summary": "이란 지정학 긴장 고조로 유류 선물 $95 급등·공급망 압박 신호. 트럼프 제네릭 의약품 관세(2028년 100%) 추진→ 인플레 재점화 우려 심화. 고용(ADP 부진)·주택거래(낙폭)·수입물가(중국산 최고값) 지표 혼조, 연준 정책 갈등 국면.",
+    "NASDAQ": {
+      "summary": "AI 데이터센터 자본투자 가속화. 메타 텍사스 프로젝트 12조 규모 파이낸싱(블랙록 주도), 테크퓨전스 나스닥 상장 추진. 반도체·클라우드 공급망 신뢰도 약화.",
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/world/middle-east/trump-says-u-s-will-bomb-irans-power-plants-bridges-if-tehran-strikes-ships-7db7e165"
+          "url": "https://www.wsj.com/business/deals/blackrock-leads-12-billion-financing-for-new-meta-data-centers-in-texas-e1c3d42c?mod=rss_markets_main"
         },
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/07/22/trump-generic-drugs-tariffs-medicine-trade-.html"
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/u-s-data-center-operator-tecfusions-plans-to-go-public-in-4-billion-spac-deal-e3f54495?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/the-massive-supply-deals-feeding-the-ai-frenzy-are-no-sure-thing-3a89ec09?mod=rss_markets_main"
+        }
+      ]
+    },
+    "S&P500": {
+      "summary": "이란 미사일 위협 재확산으로 유가 $95 진입, 스태그플레이션 우려 심화. 트럼프 관세(의약품 2028년 100%) 및 사우디 핵거래 정책 불확실성 확대. 고용 부진(ADP 110k 미달) 신호, 인플레 이중성(CPI 약화·수입물가 상승).",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-22-2026?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/world/middle-east/trump-approves-landmark-nuclear-deal-with-saudi-arabia-in-big-win-for-kingdom-2ed77584"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/economy/jobs/adp-says-june-private-sector-hiring-grew-slightly-below-expectations-1aba28ac"
         }
       ]
     },
     "DOW": {
-      "summary": "유류 공급 긴급성 확대(홍해·흑해 해상 운송로 봉쇄)→ 에너지주 강세·가솔린 가격 고착 우려. 한·중·태만 지정학 긴장 고조로 방위산업·산업재 변동성 증대. 경기민감주(식품·소비) 약세 심화, GLP-1 영향 확산.",
+      "summary": "경기민감주 약세 심화. 금융부문 실적 개선(산탄데르) vs 신용 리스크(사모펀드 좀비화 가속, 자산 유동화 지연). 부동산 약세 가속(계약건 -5.4%), 대형 투자자 규제 논의 확산.",
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/world/middle-east/war-risk-to-oil-supplies-grows-with-red-and-black-sea-disruptions-6de374e7"
-        }
-      ]
-    },
-    "NASDAQ": {
-      "summary": "이란 지정학 긴장 고조로 유류 선물 $95 급등·공급망 압박 신호. 트럼프 제네릭 의약품 관세(2028년 100%) 추진→ 인플레 재점화 우려 심화. 고용(ADP 부진)·주택거래(낙폭)·수입물가(중국산 최고값) 지표 혼조, 연준 정책 갈등 국면.",
-      "sources": [
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/world/middle-east/trump-says-u-s-will-bomb-irans-power-plants-bridges-if-tehran-strikes-ships-7db7e165"
+          "url": "https://www.wsj.com/business/earnings/santander-posts-lower-net-profit-on-effects-of-tsb-poland-deals-c612d643?mod=rss_markets_main"
         },
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/07/22/trump-generic-drugs-tariffs-medicine-trade-.html"
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/private-equity-assets-stuck-in-zombie-funds-are-at-a-record-high-4dbd01be?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/economy/housing/u-s-pending-home-sales-fell-in-june-5370cc55"
         }
       ]
     }
