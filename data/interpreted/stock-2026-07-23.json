@@ -1,6 +1,6 @@
 {
   "date": "2026-07-23",
-  "generated_at": "2026-07-23T09:45:19.561218",
+  "generated_at": "2026-07-23T09:55:17.940738",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -10,6 +10,14 @@
     {
       "title": "MSCI리밸런싱",
       "summary": "MSCI 8월 리뷰 통해 LG이노텍 편입·HLB 등 4종목 편출 → 지수 구성 변화 → 소재·정밀화학 섹터 리밸런싱"
+    },
+    {
+      "title": "AI방산로봇",
+      "summary": "AI 방산·치안 로봇 시장 본격 진출 → 휴림에이텍 등 기업 M&A 가속화 → AI 로봇/방산 섹터 실적 기대감"
+    },
+    {
+      "title": "바이오신약FDA",
+      "summary": "미국 FDA 규제 진전·CAR-T 임상 확대 → 한국 바이오신약 개발사 수익성 기대 → 바이오/제약 섹터 차용 강화"
     }
   ],
   "narratives": [],
@@ -67,6 +75,18 @@
             "summary": "중동 지정학 리스크로 국제유가가 폭등하며 정유·대체에너지 관련주로 매수세가 유입됐다.",
             "source_count": 1,
             "verdict": "pass"
+          },
+          {
+            "name": "중동 리스크·유가 급등",
+            "summary": "중동 지정학 리스크로 국제유가가 폭등하며 정유·대체에너지 관련주로 매수세가 유입됐다.",
+            "source_count": 1,
+            "verdict": "pass"
+          },
+          {
+            "name": "유가 급등 수혜",
+            "summary": "중동 지정학 리스크로 유가가 폭등하며 정유·대체에너지 관련주로 매수세가 유입됐다.",
+            "source_count": 1,
+            "verdict": "weak"
           }
         ]
       },
@@ -78,12 +98,24 @@
             "summary": "AI 방산로봇 기업 인수로 무인·자율 방산 로봇 밸류체인 기대감이 형성되며 관련주로 자금이 몰렸다.",
             "source_count": 1,
             "verdict": "pass"
+          },
+          {
+            "name": "AI 방산로봇",
+            "summary": "AI 방산로봇 기업 인수 가속화로 무인·로봇 방산 밸류체인에 자금이 몰렸다.",
+            "source_count": 1,
+            "verdict": "pass"
           }
         ]
       },
       {
         "name": "지정학 리스크",
         "children": [
+          {
+            "name": "유가 급등",
+            "summary": "중동 지정학 리스크 고조로 국제유가가 폭등하며 정유·에너지 관련주로 매수세가 유입됐다.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
           {
             "name": "유가 급등",
             "summary": "중동 지정학 리스크 고조로 국제유가가 폭등하며 정유·에너지 관련주로 매수세가 유입됐다.",
@@ -100,6 +132,29 @@
             "summary": "차세대 CAR-T 미국 임상이 고용량 시험으로 확대되며 세포치료제 개발 기대감에 자금이 몰렸다.",
             "source_count": 1,
             "verdict": "pass"
+          },
+          {
+            "name": "CAR-T 세포치료제",
+            "summary": "차세대 CAR-T 미국 임상이 고용량 시험으로 확대되며 세포치료제 개발 기대감에 자금이 몰렸다.",
+            "source_count": 1,
+            "verdict": "pass"
+          },
+          {
+            "name": "CAR-T 항암 치료",
+            "summary": "차세대 CAR-T 미국 임상이 고용량 시험으로 확대되며 항암 신약 개발 기대가 커졌다.",
+            "source_count": 1,
+            "verdict": "weak"
+          }
+        ]
+      },
+      {
+        "name": "건설",
+        "children": [
+          {
+            "name": "건설 대형 수주",
+            "summary": "3506억 규모 차고지 개발 수주 소식에 건설 수주 모멘텀 기대가 부각됐다.",
+            "source_count": 1,
+            "verdict": "unverified"
           }
         ]
       }
@@ -110,11 +165,11 @@
       "code": "475150",
       "name": "SK이터닉스",
       "rank": 1,
-      "trade_amount": 557070000000,
-      "change_pct": 17.9,
-      "close_price": 73100,
+      "trade_amount": 632035000000,
+      "change_pct": 20.0,
+      "close_price": 74400,
       "open_price": 64500,
-      "high_price": 74600,
+      "high_price": 75000,
       "low_price": 63500,
       "industry": "건물 건설업",
       "sector": "부동산 개발",
@@ -195,17 +250,17 @@
         }
       ],
       "fallback": false,
-      "index_change_pct": 3.06,
-      "index_multiple_current": 5.85,
+      "index_change_pct": 3.45,
+      "index_multiple_current": 5.8,
       "index_multiple_eligible": true,
       "range_240d": {
-        "high": 74600,
+        "high": 75000,
         "high_date": "2026-07-23",
-        "high_pct": -2.01,
+        "high_pct": -0.8,
         "low": 17210,
         "low_date": "2025-11-19",
-        "low_pct": 324.75,
-        "current": 73100
+        "low_pct": 332.31,
+        "current": 74400
       },
       "daily_20": [
         {
@@ -344,9 +399,9 @@
         {
           "date": "2026-07-23",
           "o": 64500,
-          "h": 74600,
+          "h": 75000,
           "l": 63500,
-          "c": 73100
+          "c": 74400
         }
       ],
       "intraday": {
@@ -362,7 +417,9 @@
           73100,
           72500,
           72800,
-          73300
+          74700,
+          74700,
+          74500
         ]
       },
       "togusa_verdict": "strong_bull",
@@ -373,9 +430,9 @@
       "code": "439960",
       "name": "코스모로보틱스",
       "rank": 2,
-      "trade_amount": 115667000000,
-      "change_pct": 1.59,
-      "close_price": 17850,
+      "trade_amount": 123518000000,
+      "change_pct": 2.79,
+      "close_price": 18060,
       "open_price": 19300,
       "high_price": 19400,
       "low_price": 15700,
@@ -407,17 +464,17 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 3.67,
-      "index_multiple_current": 0.43,
+      "index_change_pct": 3.58,
+      "index_multiple_current": 0.78,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 68500,
         "high_date": "2026-05-15",
-        "high_pct": -73.94,
+        "high_pct": -73.64,
         "low": 10000,
         "low_date": "2026-07-21",
-        "low_pct": 78.5,
-        "current": 17850
+        "low_pct": 80.6,
+        "current": 18060
       },
       "daily_20": [
         {
@@ -558,7 +615,7 @@
           "o": 19300,
           "h": 19400,
           "l": 15700,
-          "c": 17850
+          "c": 18060
         }
       ],
       "status_badges": [
@@ -586,7 +643,7 @@
               "desc": "최근 15일 최고가(2026-07-22)",
               "base_price": 17570,
               "threshold": 17570,
-              "current": 17850,
+              "current": 18060,
               "triggered": true
             }
           ],
@@ -616,7 +673,9 @@
           17700,
           18380,
           17830,
-          18070
+          17690,
+          17870,
+          17970
         ]
       },
       "credit_risk": true,
@@ -628,10 +687,34 @@
       "parent_theme": ""
     },
     {
+      "code": "396300",
+      "name": "세아메카닉스",
+      "rank": 3,
+      "trade_amount": 7773000000,
+      "change_pct": null,
+      "close_price": null,
+      "open_price": null,
+      "high_price": null,
+      "low_price": null,
+      "industry": null,
+      "sector": null,
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [],
+      "news": [],
+      "fallback": true,
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
       "code": "065420",
       "name": "에스아이리소스",
-      "rank": 3,
-      "trade_amount": 2691000000,
+      "rank": 4,
+      "trade_amount": 2693000000,
       "change_pct": 29.7,
       "close_price": 214,
       "open_price": 214,
@@ -657,8 +740,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 3.67,
-      "index_multiple_current": 8.09,
+      "index_change_pct": 3.58,
+      "index_multiple_current": 8.3,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 418,
@@ -824,6 +907,8 @@
           214,
           214,
           214,
+          214,
+          214,
           214
         ]
       },
@@ -834,10 +919,34 @@
       "hugepark_grade": "주의"
     },
     {
+      "code": "225190",
+      "name": "LK삼양",
+      "rank": 5,
+      "trade_amount": 2117000000,
+      "change_pct": null,
+      "close_price": null,
+      "open_price": null,
+      "high_price": null,
+      "low_price": null,
+      "industry": null,
+      "sector": null,
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [],
+      "news": [],
+      "fallback": true,
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
       "code": "039980",
       "name": "폴라리스AI",
-      "rank": 4,
-      "trade_amount": 1917000000,
+      "rank": 6,
+      "trade_amount": 1919000000,
       "change_pct": 29.99,
       "close_price": 5180,
       "open_price": 4100,
@@ -856,8 +965,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 3.67,
-      "index_multiple_current": 8.17,
+      "index_change_pct": 3.58,
+      "index_multiple_current": 8.38,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 14860,
@@ -1023,6 +1132,8 @@
           5180,
           5180,
           5180,
+          5180,
+          5180,
           5180
         ]
       },
@@ -1033,8 +1144,8 @@
     {
       "code": "377480",
       "name": "마음AI",
-      "rank": 5,
-      "trade_amount": 1798000000,
+      "rank": 7,
+      "trade_amount": 1849000000,
       "change_pct": 29.92,
       "close_price": 10900,
       "open_price": 8780,
@@ -1053,8 +1164,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 3.67,
-      "index_multiple_current": 8.15,
+      "index_change_pct": 3.58,
+      "index_multiple_current": 8.36,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 26500,
@@ -1220,6 +1331,8 @@
           10900,
           10900,
           10900,
+          10900,
+          10900,
           10900
         ]
       },
@@ -1232,8 +1345,8 @@
     {
       "code": "463020",
       "name": "뉴엔AI",
-      "rank": 6,
-      "trade_amount": 1453000000,
+      "rank": 8,
+      "trade_amount": 1455000000,
       "change_pct": 29.88,
       "close_price": 7650,
       "open_price": 6500,
@@ -1255,8 +1368,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 3.67,
-      "index_multiple_current": 8.14,
+      "index_change_pct": 3.58,
+      "index_multiple_current": 8.35,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 35950,
@@ -1422,6 +1535,7 @@
           7650,
           7650,
           7650,
+          7650,
           7650
         ]
       },
@@ -1432,8 +1546,8 @@
     {
       "code": "078590",
       "name": "휴림에이텍",
-      "rank": 7,
-      "trade_amount": 198000000,
+      "rank": 9,
+      "trade_amount": 201000000,
       "change_pct": 29.92,
       "close_price": 3365,
       "open_price": 3365,
@@ -1497,8 +1611,8 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": 3.67,
-      "index_multiple_current": 8.15,
+      "index_change_pct": 3.58,
+      "index_multiple_current": 8.36,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 15265,
@@ -1690,6 +1804,9 @@
           3365,
           3365,
           3365,
+          3365,
+          3365,
+          3365,
           3365
         ]
       },
@@ -1702,8 +1819,8 @@
     {
       "code": "199430",
       "name": "케이엔알시스템",
-      "rank": 8,
-      "trade_amount": 127000000,
+      "rank": 10,
+      "trade_amount": 129000000,
       "change_pct": 29.94,
       "close_price": 13280,
       "open_price": 13280,
@@ -1722,8 +1839,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 3.67,
-      "index_multiple_current": 8.16,
+      "index_change_pct": 3.58,
+      "index_multiple_current": 8.36,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 45300,
@@ -1889,6 +2006,8 @@
           13280,
           13280,
           13280,
+          13280,
+          13280,
           13280
         ]
       },
@@ -1901,7 +2020,7 @@
     {
       "code": "000227",
       "name": "유유제약2우B",
-      "rank": 9,
+      "rank": 11,
       "trade_amount": 25000000,
       "change_pct": 30.0,
       "close_price": 8190,
