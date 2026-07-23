@@ -1,6 +1,6 @@
 {
   "date": "2026-07-23",
-  "generated_at": "2026-07-23T14:35:21.616459",
+  "generated_at": "2026-07-23T14:35:27.666468",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -7350,9 +7350,9 @@
           35150
         ]
       },
-      "togusa_verdict": "weak_bull",
+      "togusa_verdict": "strong_bull",
       "theme_leader": true,
-      "hugepark_grade": "관찰"
+      "hugepark_grade": "적극"
     },
     {
       "code": "100090",
@@ -7932,9 +7932,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "strong_bull",
+      "togusa_verdict": "weak_bull",
       "theme_leader": true,
-      "hugepark_grade": "적극",
+      "hugepark_grade": "관찰",
       "causal_chain": "",
       "parent_theme": ""
     },
@@ -8251,7 +8251,10 @@
       "bullish_streak": 0,
       "bullish_dates": [],
       "news": [],
-      "fallback": true
+      "fallback": true,
+      "togusa_verdict": "neutral",
+      "theme_leader": false,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "322000",
@@ -8265,8 +8268,17 @@
       "low_price": 133300,
       "industry": "반도체 제조업",
       "sector": "태양광 셀·모듈, PV시스템, ESS",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "반도체"
+      ],
+      "theme_paths": [
+        {
+          "name": "반도체",
+          "path": [
+            "반도체"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": true,
@@ -8505,8 +8517,8 @@
           162500
         ]
       },
-      "togusa_verdict": "neutral",
-      "theme_leader": false,
+      "togusa_verdict": "weak_bull",
+      "theme_leader": true,
       "hugepark_grade": "관찰"
     },
     {
@@ -9626,7 +9638,10 @@
       "bullish_streak": 0,
       "bullish_dates": [],
       "news": [],
-      "fallback": true
+      "fallback": true,
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "076610",
