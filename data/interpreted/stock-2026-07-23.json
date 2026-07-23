@@ -1,6 +1,6 @@
 {
   "date": "2026-07-23",
-  "generated_at": "2026-07-23T09:05:09.366041",
+  "generated_at": "2026-07-23T09:06:15.407038",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -28,8 +28,31 @@
       "low_price": null,
       "industry": "자동차 신품 부품 제조업",
       "sector": "자동차내장카페트",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "방산",
+        "로봇",
+        "AI"
+      ],
+      "theme_paths": [
+        {
+          "name": "방산",
+          "path": [
+            "방산"
+          ]
+        },
+        {
+          "name": "로봇",
+          "path": [
+            "로봇"
+          ]
+        },
+        {
+          "name": "AI",
+          "path": [
+            "AI"
+          ]
+        }
+      ],
       "pick_count": 2,
       "prev_pick": {
         "date": "2026-07-22",
@@ -46,16 +69,16 @@
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03043846645517472",
           "source": "이데일리",
           "published_at": "2026-07-22T23:35:07",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "AI 방산로봇 시장 확산 → 자동차 내장부품이 본업이던 휴림에이텍이 AI 방산로봇 기업 '아이디오스' 인수를 가속화하며 방산·로봇·AI 신사업 진출 스토리 부각 → 사업 구조 전환 기대에 매수세 집중 → 당일 시가 2,190원에서 상한가 직행, 종가 2,590원(+29.95%)·고가 2,590원 형성.",
+          "macro_event": "AI 기반 방산로봇 시장 성장",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.7,
+          "newzy_virality": 0.5,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.62,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": true,
@@ -212,7 +235,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "199430",
@@ -236,7 +262,10 @@
       "news": [],
       "fallback": true,
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     }
   ]
 }
