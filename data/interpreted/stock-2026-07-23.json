@@ -1,6 +1,6 @@
 {
   "date": "2026-07-23",
-  "generated_at": "2026-07-23T10:05:13.962425",
+  "generated_at": "2026-07-23T10:06:37.909707",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -800,8 +800,24 @@
       "low_price": 3160,
       "industry": "기타 금속 가공제품 제조업",
       "sector": "TV스탠드, 전기 수소차 부품 등",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "전기차",
+        "전기차·하이브리드·PBV 성장축"
+      ],
+      "theme_paths": [
+        {
+          "name": "전기차",
+          "path": [
+            "전기차"
+          ]
+        },
+        {
+          "name": "전기차·하이브리드·PBV 성장축",
+          "path": [
+            "전기차·하이브리드·PBV 성장축"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": true,
@@ -815,7 +831,7 @@
           "url": "https://www.etoday.co.kr/news/view/2606520",
           "source": "이투데이",
           "published_at": "2026-07-23T00:44:00",
-          "causal_chain": null,
+          "causal_chain": "제공된 뉴스는 자동 시세요약 기사 1건뿐이며, '삼성전자 19조 로봇 투자 수혜 기대감'은 본 종목의 직접 수주·계약·신제품이 아니라 매크로 기대감에 기댄 간접 연상에 불과하다. 종목 본업(기타 금속 가공제품·TV스탠드·전기 수소차 부품)이 로봇 매크로의 핵심 산업과 직접 정합한다고 볼 근거가 본문에 없어, 당일 시가 3,245원→상한가 4,095원(+30.00%)·거래대금 78억원의 급등은 확인 가능한 본질 이벤트 없이 기대감 수급으로 형성된 것으로 판단된다.",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -824,7 +840,7 @@
           "newzy_tradability": null,
           "newzy_score": null,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "시세정형"
         }
       ],
       "fallback": false,
@@ -1002,9 +1018,9 @@
           4095
         ]
       },
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "strong_bull",
+      "theme_leader": true,
+      "hugepark_grade": "적극"
     },
     {
       "code": "065420",
