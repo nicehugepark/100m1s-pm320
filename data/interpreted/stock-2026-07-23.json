@@ -1,6 +1,6 @@
 {
   "date": "2026-07-23",
-  "generated_at": "2026-07-23T14:45:23.365275",
+  "generated_at": "2026-07-23T14:46:18.775834",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -8900,8 +8900,17 @@
       "low_price": 199000,
       "industry": "기타 금융업",
       "sector": "타르제품,카본블랙,무수프탈산,농약원제,석탄화학제품,정밀화학제품,플라스틱창호재 제조,판매",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "실적"
+      ],
+      "theme_paths": [
+        {
+          "name": "실적",
+          "path": [
+            "실적"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": true,
@@ -8916,16 +8925,16 @@
           "url": "https://www.etoday.co.kr/news/view/2606495",
           "source": "이투데이",
           "published_at": "2026-07-23T00:17:00",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "자회사 OCI의 흑자전환 소식 → 지주사 OCI홀딩스의 연결 실적 개선 기대 부각 → 실적 모멘텀에 매수세 집중 → 당일 시가 200,000원에서 종가 247,000원 상한가(+30.00%) 직행, 거래대금 1,026억원.",
+          "macro_event": "자회사 OCI 흑자전환에 따른 실적 개선 기대",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.6,
+          "newzy_virality": 0.35,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.5,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": false,
@@ -9159,9 +9168,9 @@
           247000
         ]
       },
-      "togusa_verdict": "neutral",
-      "theme_leader": false,
-      "hugepark_grade": "관찰"
+      "togusa_verdict": "strong_bull",
+      "theme_leader": true,
+      "hugepark_grade": "적극"
     },
     {
       "code": "058610",
