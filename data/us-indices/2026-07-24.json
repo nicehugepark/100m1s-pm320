@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 25149.28,
-      "change_pct": -2.11,
+      "point": 25158.66,
+      "change_pct": -2.07,
       "candle": {
         "o": 25240.65,
         "h": 25356.33,
         "l": 24957.01,
-        "c": 25149.28
+        "c": 25158.66
       },
       "range_240d": {
         "low": 20794.64,
@@ -2040,13 +2040,11 @@
           "o": 25240.65,
           "h": 25356.33,
           "l": 24957.01,
-          "c": 25149.28
+          "c": 25158.66
         }
       ],
       "spark": [
         25240.65,
-        25220.28,
-        25246.7,
         25200.13,
         25187.65,
         25186.46,
@@ -2084,7 +2082,9 @@
         25158.08,
         25142.56,
         25148.2,
-        25149.28
+        25163.57,
+        25156.22,
+        25158.66
       ],
       "news": {
         "summary": "반도체·AI 기술주 반등으로 나스닥 회복세. 팹리스·AI 인프라 투자 경쟁 가속화 중, 공급망 리스크 상존.",
@@ -2108,13 +2108,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7409.79,
-      "change_pct": -1.19,
+      "point": 7410.45,
+      "change_pct": -1.18,
       "candle": {
         "o": 7418.29,
         "h": 7450.12,
         "l": 7376.0,
-        "c": 7409.79
+        "c": 7410.45
       },
       "range_240d": {
         "low": 6340.0,
@@ -4145,13 +4145,11 @@
           "o": 7418.29,
           "h": 7450.12,
           "l": 7376.0,
-          "c": 7409.79
+          "c": 7410.45
         }
       ],
       "spark": [
         7418.29,
-        7421.41,
-        7428.28,
         7418.02,
         7421.53,
         7420.19,
@@ -4189,7 +4187,9 @@
         7410.61,
         7407.2,
         7409.3,
-        7409.79
+        7410.86,
+        7409.43,
+        7410.45
       ],
       "news": {
         "summary": "트럼프 관세 정책 본격화·중동 갈등 재개로 매크로 불확실성 확대. 미국 고용 약세, 선진국 인플레이션 둔화로 중앙은행 완화 기조 강화 신호. 유가 변동성 상승이 글로벌 경제 제약요인.",
@@ -4213,13 +4213,13 @@
     },
     {
       "name": "DOW",
-      "point": 51745.0,
-      "change_pct": -0.91,
+      "point": 51728.55,
+      "change_pct": -0.94,
       "candle": {
         "o": 51755.54,
         "h": 51885.14,
         "l": 51542.06,
-        "c": 51745.0
+        "c": 51728.55
       },
       "range_240d": {
         "low": 43968.64,
@@ -6250,13 +6250,11 @@
           "o": 51755.54,
           "h": 51885.14,
           "l": 51542.06,
-          "c": 51745.0
+          "c": 51728.55
         }
       ],
       "spark": [
         51755.54,
-        51690.24,
-        51733.0,
         51662.08,
         51712.66,
         51719.88,
@@ -6294,7 +6292,9 @@
         51742.04,
         51737.63,
         51741.72,
-        51745.0
+        51731.62,
+        51725.59,
+        51728.55
       ],
       "news": {
         "summary": "금융주 M&A 실적 개선 부분적. 에너지 부문 공급 제약 심화로 유가 상승세 지속, 주택시장 약세로 대형주 수익성 압박.",
@@ -6319,116 +6319,99 @@
   ],
   "news_chips": [
     {
-      "summary": "중동 지정학 긴장으로 유가 상승하면서 30년 모기지율이 거의 1년 만에 최고 수준으로 올라",
+      "summary": "중동 긴장 고조로 30년물 고정 모기지율이 최근 1년 최고인 6.58%까지 상승",
       "source": "WSJ",
       "url": "https://www.wsj.com/economy/housing/mortgage-rates-hit-highest-levels-in-nearly-a-year-ba480ebf",
       "published_ts": 1784822400.0,
       "impact_high": true
     },
     {
-      "summary": "10년물 국채 수익률이 2026년 고점 근처로 올라 주식·부동산 등 위험자산의 평가액 압박 우려",
+      "summary": "ECB가 금리를 동결하면서도 유가 급등이 인플레를 고착시킬 경우 재인상 가능성을 시사",
       "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/what-surging-bond-yields-mean-for-consumers-and-markets-cb37b61f?mod=rss_markets_main",
-      "published_ts": 1784821560.0,
+      "url": "https://www.wsj.com/economy/central-banking/reigniting-inflation-heaps-pressure-on-european-central-bank-613e7e94",
+      "published_ts": 1784821500.0,
       "impact_high": true
     },
     {
-      "summary": "이란 후원 후티 반군의 사우디 유조선 공격으로 브렌트유가 2개월 만에 배럴당 $100 도달",
+      "summary": "중동 후티 미사일 공격으로 유가가 2개월 만에 $100을 재돌파하며 공급망 차단 우려 고조",
       "source": "WSJ",
       "url": "https://www.wsj.com/business/energy-oil/brent-hits-100-again-as-houthi-attacks-threaten-further-supply-squeeze-b1faa05b",
       "published_ts": 1784816820.0,
       "impact_high": true
     },
     {
-      "summary": "미국 실업청구가 예상을 크게 밑돌며 감소, 노동시장이 여전히 강세를 유지하고 있다",
+      "summary": "미국 실업수당청구가 전주보다 22,000명 감소해 예상과 반대로 노동시장 회복력 유지",
       "source": "WSJ",
       "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-unexpectedly-drop-again-for-the-week-18a9cb52",
       "published_ts": 1784811780.0,
       "impact_high": true
     },
     {
-      "summary": "블랙스톤의 AI 투자 수익이 양호했으나 개인투자자들의 프라이빗 크레딧 이탈로 해당 부문은 부진",
+      "summary": "블랙스톤이 AI 투자 수익 확대로 2분기 순익을 늘리며 사모펀드 자금 유입 지속",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/investing/blackstone-bx-q2-earnings-report-stock-2026-99916051?mod=rss_markets_main",
       "published_ts": 1784804460.0,
       "impact_high": true
     },
     {
-      "summary": "유가 상승으로 인한 인플레이션 우려에 미국·영국·독일 등 글로벌 채권 수익률 동반 상승",
+      "summary": "유가 급등과 유로존 인플레 우려로 10년물 글로벌 채권 수익률이 2개월 고점과 2011년 이후 최고에 도달",
       "source": "WSJ",
       "url": "https://www.wsj.com/economy/central-banking/global-bond-yields-jump-as-oil-prices-surge-inflation-fears-mount-10715801",
       "published_ts": 1784799960.0,
       "impact_high": true
     },
     {
-      "summary": "인플레이션이 진정된 가운데 중동 분쟁 불확실성으로 다음 주 연준 금리 결정 방향성 불투명",
+      "summary": "연준이 다음 주 금리 회의를 앞두고 중동 분쟁과 인플레이션 변수로 정책 방향 예측이 불확실해짐",
       "source": "WSJ",
       "url": "https://www.wsj.com/economy/central-banking/the-fed-is-heading-into-one-of-its-most-unpredictable-meetings-in-years-849198f5",
       "published_ts": 1784799000.0,
       "impact_high": true
     },
     {
-      "summary": "기술주 약세로 나스닥 2% 이상 하락, 유가는 중동 분쟁으로 배럴당 $100 돌파",
+      "summary": "나스닥이 유가 $100 돌파와 테슬라·구글의 AI 투자 우려로 2% 하락 마감",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-23-2026?mod=rss_markets_main",
       "published_ts": 1784794232.0,
       "impact_high": true
     },
     {
-      "summary": "유럽중앙은행이 기준금리를 동결했으나 원유 가격 상승에 따른 인플레이션 재가열 가능성을 경계하고 있다",
-      "source": "한경",
-      "url": "https://www.hankyung.com/article/2026072329977",
-      "published_ts": 1784816078.0,
+      "summary": "구글이 AI 투자 부담에도 핵심 사업 강세로 2분기 수익성 기대에 부응",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/tech/ai/google-has-the-muscle-to-overpower-spending-worries-725a92e4?mod=rss_markets_main",
+      "published_ts": 1784799000.0,
       "impact_high": false
     },
     {
-      "summary": "트럼프 정부가 사우디아라비아에 민간 핵 기술을 공급하는 역사적 협정을 승인했으나 중동 핵 확산 우려 예상",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/world/middle-east/trump-approves-landmark-nuclear-deal-with-saudi-arabia-in-big-win-for-kingdom-2ed77584",
-      "published_ts": 1784756160.0,
-      "impact_high": false
+      "summary": "연준 의장이 금리 경로를 암시하는 3가지 주요 표현을 반복 사용하며 시장 해석 엇갈림",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/22/kevin-warsh-has-homed-in-on-three-key-phrases-how-fed-watchers-interpret-them.html",
+      "published_ts": 1784739475.0,
+      "impact_high": true
     }
   ],
-  "_article_sig": "73d43037fea6b1db58625a60afdd046224d20b5a88635b92345b544d88a83a61",
+  "_article_sig": "8a0a340cef3dc7021342479c3cacd12829dd48b9dcf1d5f0cb65b1c7fad0e748",
   "built_at_kst": "2026-07-22T07:01:34.524025+09:00",
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "AI 칩 동맹(AMD-앤스로픽 협력) 강화·Blackstone 수익 급증 등 기술주 긍정 신호 vs 장중 대량 매도(-2% 이상) 확대, AI 밸류에이션 우려·공급 계약 리스크 부각.",
+      "summary": "테크 셀오프 심화로 나스닥100 약세. AI 투자 수익성 의심에 빅테크 펀딩 우려 확산, 반도체 공급 불안정 신호 병행.",
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/blackstone-bx-q2-earnings-report-stock-2026-99916051?mod=rss_markets_main"
-        },
-        {
-          "name": "한경",
-          "url": "https://www.hankyung.com/article/202607231838i"
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-23-2026?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-23-2026?mod=rss_markets_main"
+          "url": "https://www.wsj.com/tech/ai/google-has-the-muscle-to-overpower-spending-worries-725a92e4?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/the-massive-supply-deals-feeding-the-ai-frenzy-are-no-sure-thing-3a89ec09?mod=rss_markets_main"
         }
       ]
     },
     "S&P500": {
-      "summary": "실업률 개선(청구건수 급감)·물가 완화 신호 vs 중동 지정학 고조로 유가 $100 돌파, 10년물 국채 수익률 사상최고·모기지금리 급등 추세. Warsh 의장 정책 방향성 모호로 차주 FRB 결정 예측 난항.",
-      "sources": [
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/economy/central-banking/the-fed-is-heading-into-one-of-its-most-unpredictable-meetings-in-years-849198f5"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/economy/central-banking/global-bond-yields-jump-as-oil-prices-surge-inflation-fears-mount-10715801"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-unexpectedly-drop-again-for-the-week-18a9cb52"
-        }
-      ]
-    },
-    "DOW": {
-      "summary": "중동 지정학 긴장 심화(후티 공격·이란 핵협상)로 유가 상승·유류비 부담 확대, 경기민감주 약세 신호 vs 캐나다 소매판매 강세·기업 이익 회복력 일부 보유. 중국산 수입 원가 상승 경계.",
+      "summary": "유가 $100 달성(후티 공격)으로 인플레 재점화 우려 확산. 글로벌 채권 수익률 급등, Fed 의장 모호 입장 속 차주 FOMC 금리 불확실성 극대화. 모기지 금리 상승으로 가계 금융비용 악화 신호.",
       "sources": [
         {
           "name": "WSJ",
@@ -6436,17 +6419,34 @@
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/economy/canada-retail-sales-rise-for-fifth-straight-month-in-may-a69ffd93"
+          "url": "https://www.wsj.com/economy/central-banking/global-bond-yields-jump-as-oil-prices-surge-inflation-fears-mount-10715801"
         },
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/07/17/import-prices-post-surprise-gain-as-costs-of-goods-from-china-hit-highest-since-2008.html"
+          "name": "WSJ",
+          "url": "https://www.wsj.com/economy/central-banking/the-fed-is-heading-into-one-of-its-most-unpredictable-meetings-in-years-849198f5"
+        }
+      ]
+    },
+    "DOW": {
+      "summary": "유가 급등·중동 분쟁 장기화로 에너지·운송·소비 부문 압박 심화. 주택시장 부진(pending home sales −5.4%), 규제 완화 기대감에 GM의 상대적 우위 형성.",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/business/energy-oil/brent-hits-100-again-as-houthi-attacks-threaten-further-supply-squeeze-b1faa05b"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/economy/housing/u-s-pending-home-sales-fell-in-june-5370cc55"
+        },
+        {
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/202607231189i"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-07-24T02:10:08.860667+09:00",
+    "as_of_kst": "2026-07-24T02:20:04.410161+09:00",
     "session_open": true,
     "futures": [
       {
@@ -6456,8 +6456,6 @@
         "change_pct": -1.26,
         "spark": [
           7530.25,
-          7469.75,
-          7455.75,
           7463.75,
           7453.75,
           7457.0,
@@ -6495,6 +6493,8 @@
           7440.25,
           7446.75,
           7442.5,
+          7445.0,
+          7446.0,
           7445.0
         ],
         "candle": {
@@ -8526,16 +8526,16 @@
             "h": 7549.5,
             "l": 7411.75,
             "c": 7445.0,
-            "v": 1106749
+            "v": 1127371
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "실업률 개선(청구건수 급감)·물가 완화 신호 vs 중동 지정학 고조로 유가 $100 돌파, 10년물 국채 수익률 사상최고·모기지금리 급등 추세. Warsh 의장 정책 방향성 모호로 차주 FRB 결정 예측 난항.",
+          "summary": "유가 $100 달성(후티 공격)으로 인플레 재점화 우려 확산. 글로벌 채권 수익률 급등, Fed 의장 모호 입장 속 차주 FOMC 금리 불확실성 극대화. 모기지 금리 상승으로 가계 금융비용 악화 신호.",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/economy/central-banking/the-fed-is-heading-into-one-of-its-most-unpredictable-meetings-in-years-849198f5"
+              "url": "https://www.wsj.com/business/energy-oil/brent-hits-100-again-as-houthi-attacks-threaten-further-supply-squeeze-b1faa05b"
             },
             {
               "name": "WSJ",
@@ -8543,7 +8543,7 @@
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-unexpectedly-drop-again-for-the-week-18a9cb52"
+              "url": "https://www.wsj.com/economy/central-banking/the-fed-is-heading-into-one-of-its-most-unpredictable-meetings-in-years-849198f5"
             }
           ]
         }
@@ -8551,12 +8551,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28623.0,
-        "change_pct": -1.91,
+        "point": 28627.0,
+        "change_pct": -1.9,
         "spark": [
           29100.0,
-          28815.75,
-          28707.75,
           28749.25,
           28716.75,
           28704.75,
@@ -8594,21 +8592,23 @@
           28611.75,
           28640.75,
           28615.0,
-          28623.0
+          28626.5,
+          28642.5,
+          28627.0
         ],
         "candle": {
           "o": 29100.0,
           "h": 29282.5,
           "l": 28432.5,
-          "c": 28623.0
+          "c": 28627.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 23.7,
-          "high_change_pct": -6.8
+          "low_change_pct": 23.71,
+          "high_change_pct": -6.79
         },
         "daily_expanded": [
           {
@@ -10624,25 +10624,25 @@
             "o": 29100.0,
             "h": 29282.5,
             "l": 28432.5,
-            "c": 28623.0,
-            "v": 479243
+            "c": 28627.0,
+            "v": 488365
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "AI 칩 동맹(AMD-앤스로픽 협력) 강화·Blackstone 수익 급증 등 기술주 긍정 신호 vs 장중 대량 매도(-2% 이상) 확대, AI 밸류에이션 우려·공급 계약 리스크 부각.",
+          "summary": "테크 셀오프 심화로 나스닥100 약세. AI 투자 수익성 의심에 빅테크 펀딩 우려 확산, 반도체 공급 불안정 신호 병행.",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/blackstone-bx-q2-earnings-report-stock-2026-99916051?mod=rss_markets_main"
-            },
-            {
-              "name": "한경",
-              "url": "https://www.hankyung.com/article/202607231838i"
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-23-2026?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-23-2026?mod=rss_markets_main"
+              "url": "https://www.wsj.com/tech/ai/google-has-the-muscle-to-overpower-spending-worries-725a92e4?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/the-massive-supply-deals-feeding-the-ai-frenzy-are-no-sure-thing-3a89ec09?mod=rss_markets_main"
             }
           ]
         }
@@ -10650,12 +10650,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51932.0,
-        "change_pct": -0.99,
+        "point": 51933.0,
+        "change_pct": -0.98,
         "spark": [
           52430.0,
-          51935.0,
-          51876.0,
           51916.0,
           51847.0,
           51908.0,
@@ -10693,13 +10691,15 @@
           51900.0,
           51938.0,
           51925.0,
-          51932.0
+          51933.0,
+          51917.0,
+          51933.0
         ],
         "candle": {
           "o": 52430.0,
           "h": 52515.0,
           "l": 51720.0,
-          "c": 51931.0
+          "c": 51932.0
         },
         "range_240d": {
           "low": 44084.0,
@@ -12723,13 +12723,13 @@
             "o": 52430.0,
             "h": 52515.0,
             "l": 51720.0,
-            "c": 51931.0,
-            "v": 77732
+            "c": 51932.0,
+            "v": 78518
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "중동 지정학 긴장 심화(후티 공격·이란 핵협상)로 유가 상승·유류비 부담 확대, 경기민감주 약세 신호 vs 캐나다 소매판매 강세·기업 이익 회복력 일부 보유. 중국산 수입 원가 상승 경계.",
+          "summary": "유가 급등·중동 분쟁 장기화로 에너지·운송·소비 부문 압박 심화. 주택시장 부진(pending home sales −5.4%), 규제 완화 기대감에 GM의 상대적 우위 형성.",
           "sources": [
             {
               "name": "WSJ",
@@ -12737,16 +12737,16 @@
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/economy/canada-retail-sales-rise-for-fifth-straight-month-in-may-a69ffd93"
+              "url": "https://www.wsj.com/economy/housing/u-s-pending-home-sales-fell-in-june-5370cc55"
             },
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/07/17/import-prices-post-surprise-gain-as-costs-of-goods-from-china-hit-highest-since-2008.html"
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/202607231189i"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-07-24T02:10:12.872151+09:00"
+  "intraday_refreshed_kst": "2026-07-24T02:23:57.661498+09:00"
 }
