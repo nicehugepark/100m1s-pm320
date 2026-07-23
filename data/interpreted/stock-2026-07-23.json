@@ -1,6 +1,6 @@
 {
   "date": "2026-07-23",
-  "generated_at": "2026-07-23T12:25:18.012419",
+  "generated_at": "2026-07-23T12:26:31.006843",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -4842,8 +4842,25 @@
       "low_price": 36450,
       "industry": "전동기, 발전기 및 전기 변환 · 공급 · 제어 장치 제조업",
       "sector": "비상발전기, 소형열병합발전설비, 바이오가스발전설비",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "전력설비",
+        "AI데이터센터"
+      ],
+      "theme_paths": [
+        {
+          "name": "전력설비",
+          "path": [
+            "전력설비"
+          ]
+        },
+        {
+          "name": "AI데이터센터",
+          "path": [
+            "AI",
+            "AI데이터센터"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": true,
@@ -4859,16 +4876,16 @@
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03371846645517472",
           "source": "이데일리",
           "published_at": "2026-07-23T00:30:43",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "AI·데이터센터 확산으로 비상발전기·발전설비 백업전원 수요가 구조적으로 늘어나는 '전례 없는 성장 사이클' 진입 → 증권가(NH)가 연내 대규모 신규 수주를 근거로 리레이팅 가능성 제시 → 비상발전기·소형열병합·발전설비 본업 실적 기대 부각 → 매수세 집중되며 당일 시가 37,450원에서 상한가 직행, 종가 45,300원(+29.24%)·거래대금 555억원, 52주 고가(46,750원) 대비 -3.1% 근접.",
+          "macro_event": "증권가 '전례 없는 성장 사이클' 진단 + NH 연내 대규모 신규 수주 기반 리레이팅 전망",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.7,
+          "newzy_virality": 0.5,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.62,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": false,
@@ -5076,9 +5093,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "strong_bull",
+      "theme_leader": true,
+      "hugepark_grade": "적극"
     },
     {
       "code": "060250",
