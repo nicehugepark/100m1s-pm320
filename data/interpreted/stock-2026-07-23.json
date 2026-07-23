@@ -1,6 +1,6 @@
 {
   "date": "2026-07-23",
-  "generated_at": "2026-07-23T09:26:18.488454",
+  "generated_at": "2026-07-23T09:35:16.128484",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -41,18 +41,30 @@
   ],
   "themes_tree": {
     "date": "2026-07-23",
-    "roots": []
+    "roots": [
+      {
+        "name": "에너지",
+        "children": [
+          {
+            "name": "중동 리스크·유가 급등",
+            "summary": "중동 지정학 리스크로 국제유가가 폭등하며 정유·대체에너지 관련주로 매수세가 유입됐다.",
+            "source_count": 1,
+            "verdict": "pass"
+          }
+        ]
+      }
+    ]
   },
   "stocks": [
     {
       "code": "475150",
       "name": "SK이터닉스",
       "rank": 1,
-      "trade_amount": 418945000000,
-      "change_pct": 18.71,
-      "close_price": 73600,
+      "trade_amount": 492419000000,
+      "change_pct": 16.45,
+      "close_price": 72200,
       "open_price": 64500,
-      "high_price": 73800,
+      "high_price": 74600,
       "low_price": 63500,
       "industry": "건물 건설업",
       "sector": "부동산 개발",
@@ -133,17 +145,17 @@
         }
       ],
       "fallback": false,
-      "index_change_pct": 3.35,
-      "index_multiple_current": 5.59,
+      "index_change_pct": 2.79,
+      "index_multiple_current": 5.9,
       "index_multiple_eligible": true,
       "range_240d": {
-        "high": 73800,
+        "high": 74600,
         "high_date": "2026-07-23",
-        "high_pct": -0.27,
+        "high_pct": -3.22,
         "low": 17210,
         "low_date": "2025-11-19",
-        "low_pct": 327.66,
-        "current": 73600
+        "low_pct": 319.52,
+        "current": 72200
       },
       "daily_20": [
         {
@@ -282,9 +294,9 @@
         {
           "date": "2026-07-23",
           "o": 64500,
-          "h": 73800,
+          "h": 74600,
           "l": 63500,
-          "c": 73600
+          "c": 72200
         }
       ],
       "intraday": {
@@ -296,6 +308,8 @@
           71700,
           72600,
           72800,
+          74100,
+          73100,
           72800
         ]
       },
@@ -307,9 +321,9 @@
       "code": "439960",
       "name": "코스모로보틱스",
       "rank": 2,
-      "trade_amount": 56733000000,
-      "change_pct": -6.89,
-      "close_price": 16360,
+      "trade_amount": 99141000000,
+      "change_pct": 3.24,
+      "close_price": 18140,
       "open_price": 19300,
       "high_price": 19400,
       "low_price": 15700,
@@ -341,17 +355,17 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 2.43,
-      "index_multiple_current": -2.84,
-      "index_multiple_eligible": false,
+      "index_change_pct": 3.14,
+      "index_multiple_current": 1.03,
+      "index_multiple_eligible": true,
       "range_240d": {
         "high": 68500,
         "high_date": "2026-05-15",
-        "high_pct": -76.12,
+        "high_pct": -73.52,
         "low": 10000,
         "low_date": "2026-07-21",
-        "low_pct": 63.6,
-        "current": 16360
+        "low_pct": 81.4,
+        "current": 18140
       },
       "daily_20": [
         {
@@ -492,7 +506,7 @@
           "o": 19300,
           "h": 19400,
           "l": 15700,
-          "c": 16360
+          "c": 18140
         }
       ],
       "status_badges": [
@@ -520,8 +534,8 @@
               "desc": "최근 15일 최고가(2026-07-22)",
               "base_price": 17570,
               "threshold": 17570,
-              "current": 16360,
-              "triggered": false
+              "current": 18140,
+              "triggered": true
             }
           ],
           "reason_text": "코스모로보틱스(보통주)가 2026-07-22 종가가 5일 전일 종가보다 45% 이상 상승하고 「[1] 중 ③ 불건전요건」에 해당하여 2026-07-23(1일간) 투자주의종목으로 지정되며 투자경고종목으로 지정예고됨. 지정예고일부터 10일째 되는 날 이내 판단일(T)에 ①T종가가 T-5종가 대비 45% 이상 상승 ②T종가가 최근 15일 종가 중 최고가 ③최근 5일 특정계좌 매수관여 요건 ④시가총액 100위 이내 미해당을 모두 충족하면 다음 날 투자경고종목으로 지정됨(최초 판단일 07-23, 미충족 시 2026-08-05까지 순연).",
@@ -537,8 +551,22 @@
           ]
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 19300,
+        "base": 19300,
+        "prices": [
+          19300,
+          16300,
+          15930,
+          16090,
+          16770,
+          17700,
+          17800
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "투자경고",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰",
@@ -546,10 +574,188 @@
       "parent_theme": ""
     },
     {
+      "code": "076610",
+      "name": "해성옵틱스",
+      "rank": 3,
+      "trade_amount": 6961000000,
+      "change_pct": 29.98,
+      "close_price": 1279,
+      "open_price": 1010,
+      "high_price": 1279,
+      "low_price": 1004,
+      "industry": null,
+      "sector": null,
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-07-15",
+        "2026-07-23"
+      ],
+      "news": [],
+      "fallback": true,
+      "range_240d": {
+        "high": 2930,
+        "high_date": "2026-05-08",
+        "high_pct": -56.35,
+        "low": 485,
+        "low_date": "2025-11-24",
+        "low_pct": 163.71,
+        "current": 1279
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-25",
+          "o": 1060,
+          "h": 1285,
+          "l": 1054,
+          "c": 1067
+        },
+        {
+          "date": "2026-06-26",
+          "o": 1069,
+          "h": 1085,
+          "l": 965,
+          "c": 999
+        },
+        {
+          "date": "2026-06-29",
+          "o": 999,
+          "h": 1119,
+          "l": 999,
+          "c": 1119
+        },
+        {
+          "date": "2026-06-30",
+          "o": 1120,
+          "h": 1129,
+          "l": 1075,
+          "c": 1075
+        },
+        {
+          "date": "2026-07-01",
+          "o": 1096,
+          "h": 1159,
+          "l": 1090,
+          "c": 1145
+        },
+        {
+          "date": "2026-07-02",
+          "o": 1139,
+          "h": 1139,
+          "l": 1020,
+          "c": 1028
+        },
+        {
+          "date": "2026-07-03",
+          "o": 1040,
+          "h": 1065,
+          "l": 970,
+          "c": 1058
+        },
+        {
+          "date": "2026-07-06",
+          "o": 1058,
+          "h": 1077,
+          "l": 1001,
+          "c": 1031
+        },
+        {
+          "date": "2026-07-07",
+          "o": 1022,
+          "h": 1032,
+          "l": 980,
+          "c": 1004
+        },
+        {
+          "date": "2026-07-08",
+          "o": 995,
+          "h": 1008,
+          "l": 950,
+          "c": 957
+        },
+        {
+          "date": "2026-07-09",
+          "o": 958,
+          "h": 984,
+          "l": 935,
+          "c": 941
+        },
+        {
+          "date": "2026-07-10",
+          "o": 950,
+          "h": 1029,
+          "l": 950,
+          "c": 1020
+        },
+        {
+          "date": "2026-07-13",
+          "o": 1003,
+          "h": 1058,
+          "l": 941,
+          "c": 941
+        },
+        {
+          "date": "2026-07-14",
+          "o": 941,
+          "h": 950,
+          "l": 885,
+          "c": 895
+        },
+        {
+          "date": "2026-07-15",
+          "o": 912,
+          "h": 1160,
+          "l": 912,
+          "c": 1039
+        },
+        {
+          "date": "2026-07-16",
+          "o": 1017,
+          "h": 1031,
+          "l": 950,
+          "c": 991
+        },
+        {
+          "date": "2026-07-20",
+          "o": 980,
+          "h": 1047,
+          "l": 949,
+          "c": 953
+        },
+        {
+          "date": "2026-07-21",
+          "o": 956,
+          "h": 1025,
+          "l": 910,
+          "c": 1023
+        },
+        {
+          "date": "2026-07-22",
+          "o": 1040,
+          "h": 1060,
+          "l": 975,
+          "c": 984
+        },
+        {
+          "date": "2026-07-23",
+          "o": 1010,
+          "h": 1279,
+          "l": 1004,
+          "c": 1279
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
       "code": "065420",
       "name": "에스아이리소스",
-      "rank": 3,
-      "trade_amount": 2406000000,
+      "rank": 4,
+      "trade_amount": 2690000000,
       "change_pct": 29.7,
       "close_price": 214,
       "open_price": 214,
@@ -575,8 +781,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 2.43,
-      "index_multiple_current": 12.22,
+      "index_change_pct": 3.14,
+      "index_multiple_current": 9.46,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 418,
@@ -729,8 +935,22 @@
           "c": 214
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 214,
+        "base": 214,
+        "prices": [
+          214,
+          210,
+          208,
+          214,
+          214,
+          214,
+          214
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
@@ -738,8 +958,8 @@
     {
       "code": "039980",
       "name": "폴라리스AI",
-      "rank": 4,
-      "trade_amount": 1896000000,
+      "rank": 5,
+      "trade_amount": 1908000000,
       "change_pct": 29.99,
       "close_price": 5180,
       "open_price": 4100,
@@ -758,8 +978,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 2.43,
-      "index_multiple_current": 12.34,
+      "index_change_pct": 3.14,
+      "index_multiple_current": 9.55,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 14860,
@@ -921,6 +1141,7 @@
           5180,
           5180,
           5180,
+          5180,
           5180
         ]
       },
@@ -931,8 +1152,8 @@
     {
       "code": "377480",
       "name": "마음AI",
-      "rank": 5,
-      "trade_amount": 1690000000,
+      "rank": 6,
+      "trade_amount": 1729000000,
       "change_pct": 29.92,
       "close_price": 10900,
       "open_price": 8780,
@@ -951,8 +1172,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 2.43,
-      "index_multiple_current": 12.31,
+      "index_change_pct": 3.14,
+      "index_multiple_current": 9.53,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 26500,
@@ -1114,6 +1335,8 @@
           10900,
           10900,
           10900,
+          10900,
+          10900,
           10900
         ]
       },
@@ -1126,8 +1349,8 @@
     {
       "code": "463020",
       "name": "뉴엔AI",
-      "rank": 6,
-      "trade_amount": 1415000000,
+      "rank": 7,
+      "trade_amount": 1446000000,
       "change_pct": 29.88,
       "close_price": 7650,
       "open_price": 6500,
@@ -1149,8 +1372,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 2.43,
-      "index_multiple_current": 12.3,
+      "index_change_pct": 3.14,
+      "index_multiple_current": 9.52,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 35950,
@@ -1312,6 +1535,8 @@
           7650,
           7650,
           7650,
+          7650,
+          7650,
           7650
         ]
       },
@@ -1322,8 +1547,8 @@
     {
       "code": "078590",
       "name": "휴림에이텍",
-      "rank": 7,
-      "trade_amount": 171000000,
+      "rank": 8,
+      "trade_amount": 196000000,
       "change_pct": 29.92,
       "close_price": 3365,
       "open_price": 3365,
@@ -1387,8 +1612,8 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": 2.43,
-      "index_multiple_current": 12.31,
+      "index_change_pct": 3.14,
+      "index_multiple_current": 9.53,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 15265,
@@ -1576,6 +1801,8 @@
           3365,
           3365,
           3365,
+          3365,
+          3365,
           3365
         ]
       },
@@ -1588,8 +1815,8 @@
     {
       "code": "199430",
       "name": "케이엔알시스템",
-      "rank": 8,
-      "trade_amount": 87000000,
+      "rank": 9,
+      "trade_amount": 115000000,
       "change_pct": 29.94,
       "close_price": 13280,
       "open_price": 13280,
@@ -1608,8 +1835,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 2.43,
-      "index_multiple_current": 12.32,
+      "index_change_pct": 3.14,
+      "index_multiple_current": 9.54,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 45300,
@@ -1771,6 +1998,8 @@
           13280,
           13280,
           13280,
+          13280,
+          13280,
           13280
         ]
       },
@@ -1779,6 +2008,181 @@
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
+    },
+    {
+      "code": "000227",
+      "name": "유유제약2우B",
+      "rank": 10,
+      "trade_amount": 25000000,
+      "change_pct": 30.0,
+      "close_price": 8190,
+      "open_price": 7300,
+      "high_price": 8190,
+      "low_price": 7300,
+      "industry": null,
+      "sector": null,
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [],
+      "news": [],
+      "fallback": true,
+      "range_240d": {
+        "high": 12400,
+        "high_date": "2025-12-17",
+        "high_pct": -33.95,
+        "low": 5810,
+        "low_date": "2026-07-22",
+        "low_pct": 40.96,
+        "current": 8190
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-25",
+          "o": 10310,
+          "h": 10310,
+          "l": 10180,
+          "c": 10190
+        },
+        {
+          "date": "2026-06-26",
+          "o": 10180,
+          "h": 10180,
+          "l": 9000,
+          "c": 9000
+        },
+        {
+          "date": "2026-06-29",
+          "o": 8900,
+          "h": 9400,
+          "l": 8900,
+          "c": 9310
+        },
+        {
+          "date": "2026-06-30",
+          "o": 9310,
+          "h": 9630,
+          "l": 8510,
+          "c": 8520
+        },
+        {
+          "date": "2026-07-01",
+          "o": 8530,
+          "h": 8870,
+          "l": 8530,
+          "c": 8790
+        },
+        {
+          "date": "2026-07-02",
+          "o": 8600,
+          "h": 8690,
+          "l": 8600,
+          "c": 8690
+        },
+        {
+          "date": "2026-07-03",
+          "o": 8690,
+          "h": 8880,
+          "l": 8590,
+          "c": 8870
+        },
+        {
+          "date": "2026-07-06",
+          "o": 9000,
+          "h": 9000,
+          "l": 8590,
+          "c": 8810
+        },
+        {
+          "date": "2026-07-07",
+          "o": 8740,
+          "h": 8750,
+          "l": 8670,
+          "c": 8670
+        },
+        {
+          "date": "2026-07-08",
+          "o": 8600,
+          "h": 8650,
+          "l": 8500,
+          "c": 8650
+        },
+        {
+          "date": "2026-07-09",
+          "o": 8860,
+          "h": 8860,
+          "l": 8400,
+          "c": 8400
+        },
+        {
+          "date": "2026-07-10",
+          "o": 8600,
+          "h": 8640,
+          "l": 8450,
+          "c": 8610
+        },
+        {
+          "date": "2026-07-13",
+          "o": 8630,
+          "h": 8630,
+          "l": 8570,
+          "c": 8570
+        },
+        {
+          "date": "2026-07-14",
+          "o": 8770,
+          "h": 8770,
+          "l": 8700,
+          "c": 8760
+        },
+        {
+          "date": "2026-07-15",
+          "o": 8850,
+          "h": 8850,
+          "l": 8200,
+          "c": 8490
+        },
+        {
+          "date": "2026-07-16",
+          "o": 8540,
+          "h": 8540,
+          "l": 8210,
+          "c": 8210
+        },
+        {
+          "date": "2026-07-20",
+          "o": 8250,
+          "h": 8260,
+          "l": 8220,
+          "c": 8260
+        },
+        {
+          "date": "2026-07-21",
+          "o": 8000,
+          "h": 8370,
+          "l": 8000,
+          "c": 8100
+        },
+        {
+          "date": "2026-07-22",
+          "o": 8300,
+          "h": 8300,
+          "l": 5810,
+          "c": 6300
+        },
+        {
+          "date": "2026-07-23",
+          "o": 7300,
+          "h": 8190,
+          "l": 7300,
+          "c": 8190
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "우선주"
     }
   ]
 }
