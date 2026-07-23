@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 25253.35,
-      "change_pct": -1.7,
+      "point": 25220.28,
+      "change_pct": -1.83,
       "candle": {
         "o": 25240.65,
         "h": 25356.33,
-        "l": 25214.88,
-        "c": 25253.35
+        "l": 25209.26,
+        "c": 25220.28
       },
       "range_240d": {
         "low": 20794.64,
@@ -2039,8 +2039,8 @@
           "date": "2026-07-23",
           "o": 25240.65,
           "h": 25356.33,
-          "l": 25214.88,
-          "c": 25253.35
+          "l": 25209.26,
+          "c": 25220.28
         }
       ],
       "spark": [
@@ -2049,7 +2049,9 @@
         25291.52,
         25331.26,
         25249.56,
-        25253.35
+        25286.26,
+        25222.34,
+        25220.28
       ],
       "news": {
         "summary": "반도체·AI 기술주 반등으로 나스닥 회복세. 팹리스·AI 인프라 투자 경쟁 가속화 중, 공급망 리스크 상존.",
@@ -2073,13 +2075,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7428.81,
-      "change_pct": -0.94,
+      "point": 7422.86,
+      "change_pct": -1.01,
       "candle": {
         "o": 7418.29,
         "h": 7450.12,
         "l": 7408.24,
-        "c": 7428.81
+        "c": 7422.86
       },
       "range_240d": {
         "low": 6340.0,
@@ -4110,7 +4112,7 @@
           "o": 7418.29,
           "h": 7450.12,
           "l": 7408.24,
-          "c": 7428.81
+          "c": 7422.86
         }
       ],
       "spark": [
@@ -4119,7 +4121,9 @@
         7439.09,
         7443.63,
         7428.25,
-        7428.81
+        7434.11,
+        7421.41,
+        7422.86
       ],
       "news": {
         "summary": "트럼프 관세 정책 본격화·중동 갈등 재개로 매크로 불확실성 확대. 미국 고용 약세, 선진국 인플레이션 둔화로 중앙은행 완화 기조 강화 신호. 유가 변동성 상승이 글로벌 경제 제약요인.",
@@ -4143,13 +4147,13 @@
     },
     {
       "name": "DOW",
-      "point": 51724.4,
-      "change_pct": -0.95,
+      "point": 51689.28,
+      "change_pct": -1.01,
       "candle": {
         "o": 51755.54,
         "h": 51885.14,
         "l": 51557.68,
-        "c": 51724.4
+        "c": 51689.28
       },
       "range_240d": {
         "low": 43968.64,
@@ -6180,7 +6184,7 @@
           "o": 51755.54,
           "h": 51885.14,
           "l": 51557.68,
-          "c": 51724.4
+          "c": 51689.28
         }
       ],
       "spark": [
@@ -6189,7 +6193,9 @@
         51860.0,
         51825.47,
         51726.94,
-        51724.4
+        51743.29,
+        51686.91,
+        51689.28
       ],
       "news": {
         "summary": "금융주 M&A 실적 개선 부분적. 에너지 부문 공급 제약 심화로 유가 상승세 지속, 주택시장 약세로 대형주 수익성 압박.",
@@ -6214,138 +6220,139 @@
   ],
   "news_chips": [
     {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/reigniting-inflation-heaps-pressure-on-european-central-bank-613e7e94",
-      "published_ts": 1784809380.0,
+      "summary": "미국 실업수당 청구가 지난주 187,000명으로 예상외 감소했으며, 고용 시장 견조함을 보여줬다.",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-unexpectedly-drop-again-for-the-week-18a9cb52",
+      "published_ts": 1784811780.0,
       "impact_high": true
     },
     {
-      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
-      "source": "WSJ경제",
+      "summary": "블랙스톤이 AI 투자 수익 증가로 2분기 순이익이 급증했으며, 사모펀드 자금 유입이 사모채권 부진을 상쇄했다.",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/investing/blackstone-bx-q2-earnings-report-stock-2026-99916051?mod=rss_markets_main",
+      "published_ts": 1784804460.0,
+      "impact_high": true
+    },
+    {
+      "summary": "중동 분쟁 심화로 원유가 배럴당 100달러를 돌파하면서 글로벌 채권 수익률이 2개월 고점과 2011년 이후 최고 수준을 기록했다.",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/central-banking/global-bond-yields-jump-as-oil-prices-surge-inflation-fears-mount-10715801",
+      "published_ts": 1784799960.0,
+      "impact_high": true
+    },
+    {
+      "summary": "내일 연준 금리 결정을 앞두고 인플레이션 완화로 인상 압박이 줄었지만, 신임 의장의 입장 불명확으로 시장 예측이 어려워진 상황.",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/central-banking/the-fed-is-heading-into-one-of-its-most-unpredictable-meetings-in-years-849198f5",
       "published_ts": 1784799000.0,
       "impact_high": true
     },
     {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "summary": "2025년 글로벌 가계자산이 AI 수익성 기대에 견인돼 급증했지만, AI 수익 실적 부진 시 경제 타격 위험이 높아졌다.",
       "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/what-surging-bond-yields-mean-for-consumers-and-markets-cb37b61f?mod=rss_markets_main",
-      "published_ts": 1784761200.0,
+      "url": "https://www.wsj.com/economy/global/global-household-wealth-jumped-in-2025-raising-stakes-for-profitability-of-ai-1ecebcf6",
+      "published_ts": 1784780160.0,
       "impact_high": true
     },
     {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/trump-ties-saudi-nuclear-deal-to-normalization-of-relations-with-israel-d6f5091c",
-      "published_ts": 1784814540.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ경제",
+      "summary": "캐나다 5월 소매 판매가 전월 대비 1.0% 증가해 5개월 연속 상승을 기록했다.",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/canada-retail-sales-rise-for-fifth-straight-month-in-may-a69ffd93",
       "published_ts": 1784813880.0,
       "impact_high": false
     },
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/trump-says-iran-will-held-responsible-for-future-houthi-attacks-0bc23ec0",
-      "published_ts": 1784813580.0,
+      "summary": "구글이 AI 투자 지연과 지출 우려에도 불구하고 핵심 사업의 강한 실적으로 외부 걱정을 충분히 상쇄할 재정력을 보유하고 있다.",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/tech/ai/google-has-the-muscle-to-overpower-spending-worries-725a92e4?mod=rss_markets_main",
+      "published_ts": 1784799000.0,
       "impact_high": false
     },
     {
-      "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026072327311",
-      "published_ts": 1784800803.0,
+      "summary": "한국 2분기 경제성장이 예상을 상회했으며, 소비와 건설 부진 속에서도 반도체 수출이 성장을 견인했다.",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/south-koreas-economy-slows-chips-keep-driving-growth-e64ec394",
+      "published_ts": 1784794920.0,
       "impact_high": false
     },
     {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026072327291",
-      "published_ts": 1784797491.0,
+      "summary": "미국 증시가 원유 급등으로 나스닥이 하락했고, 테슬라·알파벳 등 대형주 약세가 주요 낙인 요인이었다.",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-23-2026?mod=rss_markets_main",
+      "published_ts": 1784794232.0,
       "impact_high": false
     },
     {
-      "summary": "기업 실적과 가이던스 변화가 대형주 중심의 선별 흐름을 강화하는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/202607231189i",
-      "published_ts": 1784781053.0,
-      "impact_high": false
+      "summary": "식품 대기업이 인플레이션과 GLP-1 의약품 보급의 이중 압박 속에서 소비자와 투자자 신뢰 상실로 전략 부재 상태에 놓였다.",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/business/retail/big-food-is-running-out-of-moves-with-shoppers-and-investors-5f4567e9?mod=rss_markets_main",
+      "published_ts": 1784453400.0,
+      "impact_high": true
     }
   ],
-  "_article_sig": "275eab92058d77d9776098ab4bdd91f698e35619ba049f498a46679f2be975b5",
+  "_article_sig": "51d3e7e17f40b6094c9335f4171d77c1860bb98638e41b979167f200cc0f0273",
   "built_at_kst": "2026-07-22T07:01:34.524025+09:00",
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "AI 투자 붐 속 빅테크 수익성 우려로 테슬라·알파벳 약세. AMD의 대규모 AI 칩 동맹 강화 추진하나 반도체 장기 공급 계약의 실질성 의문 제기로 나스닥 성장주 불안감 심화.",
+      "summary": "AI 펀딩 열풍에 반도체 공급 계약 잇따르며 기술주 매수 유입. 빅테크 실적 호조 vs 테슬라 등 성장주 약세로 내부 쏠림현상 심화.",
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/tech/ai/google-has-the-muscle-to-overpower-spending-worries-725a92e4?mod=rss_markets_main"
+          "url": "https://www.wsj.com/finance/investing/blackstone-bx-q2-earnings-report-stock-2026-99916051?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-23-2026?mod=rss_markets_main"
-        },
-        {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/202607231838i"
+          "url": "https://www.wsj.com/tech/ai/google-has-the-muscle-to-overpower-spending-worries-725a92e4?mod=rss_markets_main"
         }
       ]
     },
     "S&P500": {
-      "summary": "유가 $100 돌파에 채권 수익률 급등, 인플레이션 우려 재점화 중. Kevin Warsh 연준 의장의 정책 신호 모호로 다음 주 금리 결정 극도 불확실성 노출, 시장 방향성 난제 심화.",
+      "summary": "미국 고용지표 호조 vs 글로벌 채권 수익률 급등(유가 $100 돌파)으로 연준 금리 경로 불확실성 심화. 워시 의장 '가족 싸움' 반복 발언에 시장 해석 엇갈림, 다음주 FOMC 결정 예측 어려운 상황.",
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/economy/central-banking/global-bond-yields-jump-as-oil-prices-surge-inflation-fears-mount-10715801"
+          "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-unexpectedly-drop-again-for-the-week-18a9cb52"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/economy/central-banking/the-fed-is-heading-into-one-of-its-most-unpredictable-meetings-in-years-849198f5"
         },
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/07/22/kevin-warsh-has-homed-in-on-three-key-phrases-how-fed-watchers-interpret-them.html"
+          "name": "WSJ",
+          "url": "https://www.wsj.com/economy/central-banking/global-bond-yields-jump-as-oil-prices-surge-inflation-fears-mount-10715801"
         }
       ]
     },
     "DOW": {
-      "summary": "지정학 위기 심화(이란 미군 재배치)에 안전자산 선호 신호 강화. GM 규제 완화 수혜로 실적 호조 보인 반면, 금융·전통산업 지표는 유가 상승·금리 인상 가능성으로 경기민감주 약세 압박 예상.",
+      "summary": "유가 100달러 돌파·중동 긴장(사우디 핵협약·이란 공격 위협) 격화로 국방·에너지주 매수 유입. 트럼프 관세·규제 기대에 GM 등 산업주 쏠림, 식품·부동산 등 경기민감주 변동성 확대.",
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/world/middle-east/u-s-surges-forces-toward-middle-east-giving-trump-options-to-expand-iran-war-e5d627b1"
+          "url": "https://www.wsj.com/world/middle-east/trump-approves-landmark-nuclear-deal-with-saudi-arabia-in-big-win-for-kingdom-2ed77584"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/emirates-nbds-profit-holds-steady-as-u-a-e-economy-faces-iran-war-disruptions-568682ed?mod=rss_markets_main"
+          "url": "https://www.wsj.com/world/middle-east/trump-says-u-s-will-bomb-irans-power-plants-bridges-if-tehran-strikes-ships-7db7e165"
         },
         {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/2026072327291"
+          "name": "WSJ",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-23-2026?mod=rss_markets_main"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-07-23T22:50:07.936569+09:00",
+    "as_of_kst": "2026-07-23T23:00:04.900222+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7476.5,
-        "change_pct": -0.85,
+        "point": 7465.0,
+        "change_pct": -1.0,
         "spark": [
           7530.25,
-          7518.0,
-          7521.25,
           7520.5,
           7521.75,
           7520.5,
@@ -6383,21 +6390,23 @@
           7473.75,
           7474.5,
           7479.0,
-          7476.5
+          7464.25,
+          7469.75,
+          7465.0
         ],
         "candle": {
           "o": 7530.25,
           "h": 7549.5,
           "l": 7445.0,
-          "c": 7476.25
+          "c": 7465.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7623.75,
           "low_date": "2025-08-21",
           "high_date": "2026-06-02",
-          "low_change_pct": 17.03,
-          "high_change_pct": -1.93
+          "low_change_pct": 16.86,
+          "high_change_pct": -2.08
         },
         "daily_expanded": [
           {
@@ -8413,25 +8422,25 @@
             "o": 7530.25,
             "h": 7549.5,
             "l": 7445.0,
-            "c": 7476.25,
-            "v": 369677
+            "c": 7465.0,
+            "v": 425971
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "유가 $100 돌파에 채권 수익률 급등, 인플레이션 우려 재점화 중. Kevin Warsh 연준 의장의 정책 신호 모호로 다음 주 금리 결정 극도 불확실성 노출, 시장 방향성 난제 심화.",
+          "summary": "미국 고용지표 호조 vs 글로벌 채권 수익률 급등(유가 $100 돌파)으로 연준 금리 경로 불확실성 심화. 워시 의장 '가족 싸움' 반복 발언에 시장 해석 엇갈림, 다음주 FOMC 결정 예측 어려운 상황.",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/economy/central-banking/global-bond-yields-jump-as-oil-prices-surge-inflation-fears-mount-10715801"
+              "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-unexpectedly-drop-again-for-the-week-18a9cb52"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/economy/central-banking/the-fed-is-heading-into-one-of-its-most-unpredictable-meetings-in-years-849198f5"
             },
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/07/22/kevin-warsh-has-homed-in-on-three-key-phrases-how-fed-watchers-interpret-them.html"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/economy/central-banking/global-bond-yields-jump-as-oil-prices-surge-inflation-fears-mount-10715801"
             }
           ]
         }
@@ -8439,12 +8448,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28817.0,
-        "change_pct": -1.25,
+        "point": 28764.5,
+        "change_pct": -1.43,
         "spark": [
           29100.0,
-          29091.5,
-          29109.5,
           29101.25,
           29107.75,
           29097.75,
@@ -8482,21 +8489,23 @@
           28759.75,
           28797.5,
           28857.0,
-          28817.0
+          28760.0,
+          28815.75,
+          28764.5
         ],
         "candle": {
           "o": 29100.0,
           "h": 29282.5,
           "l": 28657.0,
-          "c": 28817.0
+          "c": 28764.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 24.53,
-          "high_change_pct": -6.17
+          "low_change_pct": 24.31,
+          "high_change_pct": -6.34
         },
         "daily_expanded": [
           {
@@ -10512,25 +10521,21 @@
             "o": 29100.0,
             "h": 29282.5,
             "l": 28657.0,
-            "c": 28817.0,
-            "v": 191636
+            "c": 28764.5,
+            "v": 215302
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "AI 투자 붐 속 빅테크 수익성 우려로 테슬라·알파벳 약세. AMD의 대규모 AI 칩 동맹 강화 추진하나 반도체 장기 공급 계약의 실질성 의문 제기로 나스닥 성장주 불안감 심화.",
+          "summary": "AI 펀딩 열풍에 반도체 공급 계약 잇따르며 기술주 매수 유입. 빅테크 실적 호조 vs 테슬라 등 성장주 약세로 내부 쏠림현상 심화.",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/tech/ai/google-has-the-muscle-to-overpower-spending-worries-725a92e4?mod=rss_markets_main"
+              "url": "https://www.wsj.com/finance/investing/blackstone-bx-q2-earnings-report-stock-2026-99916051?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-23-2026?mod=rss_markets_main"
-            },
-            {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/202607231838i"
+              "url": "https://www.wsj.com/tech/ai/google-has-the-muscle-to-overpower-spending-worries-725a92e4?mod=rss_markets_main"
             }
           ]
         }
@@ -10538,12 +10543,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52040.0,
-        "change_pct": -0.78,
+        "point": 51920.0,
+        "change_pct": -1.01,
         "spark": [
           52430.0,
-          52273.0,
-          52289.0,
           52291.0,
           52311.0,
           52315.0,
@@ -10581,21 +10584,23 @@
           52035.0,
           52041.0,
           52019.0,
-          52040.0
+          51921.0,
+          51935.0,
+          51920.0
         ],
         "candle": {
           "o": 52430.0,
           "h": 52515.0,
           "l": 51736.0,
-          "c": 52041.0
+          "c": 51920.0
         },
         "range_240d": {
           "low": 44084.0,
           "high": 53372.0,
           "low_date": "2025-08-11",
           "high_date": "2026-07-06",
-          "low_change_pct": 18.05,
-          "high_change_pct": -2.49
+          "low_change_pct": 17.78,
+          "high_change_pct": -2.72
         },
         "daily_expanded": [
           {
@@ -12611,30 +12616,30 @@
             "o": 52430.0,
             "h": 52515.0,
             "l": 51736.0,
-            "c": 52041.0,
-            "v": 35193
+            "c": 51920.0,
+            "v": 41649
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "지정학 위기 심화(이란 미군 재배치)에 안전자산 선호 신호 강화. GM 규제 완화 수혜로 실적 호조 보인 반면, 금융·전통산업 지표는 유가 상승·금리 인상 가능성으로 경기민감주 약세 압박 예상.",
+          "summary": "유가 100달러 돌파·중동 긴장(사우디 핵협약·이란 공격 위협) 격화로 국방·에너지주 매수 유입. 트럼프 관세·규제 기대에 GM 등 산업주 쏠림, 식품·부동산 등 경기민감주 변동성 확대.",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/world/middle-east/u-s-surges-forces-toward-middle-east-giving-trump-options-to-expand-iran-war-e5d627b1"
+              "url": "https://www.wsj.com/world/middle-east/trump-approves-landmark-nuclear-deal-with-saudi-arabia-in-big-win-for-kingdom-2ed77584"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/emirates-nbds-profit-holds-steady-as-u-a-e-economy-faces-iran-war-disruptions-568682ed?mod=rss_markets_main"
+              "url": "https://www.wsj.com/world/middle-east/trump-says-u-s-will-bomb-irans-power-plants-bridges-if-tehran-strikes-ships-7db7e165"
             },
             {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/2026072327291"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-23-2026?mod=rss_markets_main"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-07-23T22:55:55.134002+09:00"
+  "intraday_refreshed_kst": "2026-07-23T23:02:33.180944+09:00"
 }
