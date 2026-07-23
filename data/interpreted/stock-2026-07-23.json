@@ -1,6 +1,6 @@
 {
   "date": "2026-07-23",
-  "generated_at": "2026-07-23T10:06:37.909707",
+  "generated_at": "2026-07-23T10:15:13.538576",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -43,6 +43,12 @@
       "verified": false
     },
     {
+      "keyword": "제약FDA",
+      "summary": "삼천당제약 FDA Pre-ANDA 진전 및 日 세마글루타이드 사업 본격화 → 제약사 국제 경쟁력 강화 → 바이오·제약섹터 긍정",
+      "source_count": 2,
+      "verified": true
+    },
+    {
       "keyword": "MSCI리밸런싱",
       "summary": "MSCI 8월 리뷰 통해 LG이노텍 편입·HLB 등 4종목 편출 → 지수 구성 변화 → 소재·정밀화학 섹터 리밸런싱",
       "source_count": 1,
@@ -53,17 +59,22 @@
       "summary": "MSCI 8월 리뷰로 LG이노텍 신규 편입·HLB 등 4종목 편출 전망 → 인덱스 펀드 수급 변화 → 반도체·바이오 섹터 재편",
       "source_count": 1,
       "verified": false
-    },
-    {
-      "keyword": "MSCI리밸",
-      "summary": "MSCI 8월 리뷰 진행 → 지수 재구성 → LG이노텍 편입, 중소형주 편출로 대형주 선호 심화",
-      "source_count": 1,
-      "verified": true
     }
   ],
   "themes_tree": {
     "date": "2026-07-23",
     "roots": [
+      {
+        "name": "제약바이오",
+        "children": [
+          {
+            "name": "세마글루타이드 비만치료제",
+            "summary": "삼천당제약 FDA Pre-ANDA 진전·일본 세마글루타이드 판매계약 구체화로 GLP-1 비만·당뇨 시장 진입 기대가 커지며 바이오시밀러 섹터에 매수세 유입",
+            "source_count": 2,
+            "verdict": "pass"
+          }
+        ]
+      },
       {
         "name": "방위산업",
         "children": [
@@ -107,6 +118,18 @@
             "summary": "중동 지정학 리스크로 국제유가가 폭등하며 정유·대체에너지 관련주로 매수세가 유입됐다.",
             "source_count": 1,
             "verdict": "pass"
+          },
+          {
+            "name": "중동 리스크·유가 급등",
+            "summary": "중동 지정학 리스크로 국제유가가 폭등하며 정유·대체에너지 관련주로 매수세가 유입됐다.",
+            "source_count": 1,
+            "verdict": "pass"
+          },
+          {
+            "name": "유가 급등 수혜",
+            "summary": "중동 지정학 리스크로 유가가 폭등하며 정유·대체에너지 관련주로 매수세가 유입됐다.",
+            "source_count": 1,
+            "verdict": "weak"
           },
           {
             "name": "유가 급등 수혜",
@@ -224,12 +247,24 @@
             "summary": "차세대 CAR-T 미국 임상이 고용량 시험으로 확대되며 항암 신약 개발 기대가 커졌다.",
             "source_count": 1,
             "verdict": "weak"
+          },
+          {
+            "name": "CAR-T 항암 치료",
+            "summary": "차세대 CAR-T 미국 임상이 고용량 시험으로 확대되며 항암 신약 개발 기대가 커졌다.",
+            "source_count": 1,
+            "verdict": "weak"
           }
         ]
       },
       {
         "name": "제약·바이오",
         "children": [
+          {
+            "name": "GLP-1 비만치료제",
+            "summary": "삼천당제약이 미국 FDA 규제 진전과 일본 세마글루타이드 판매계약 구체화에 착수하며 GLP-1 비만·당뇨 치료제 시장 진입 기대가 관련 제약주로 자금을 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
           {
             "name": "GLP-1 비만치료제",
             "summary": "삼천당제약이 미국 FDA 규제 진전과 일본 세마글루타이드 판매계약 구체화에 착수하며 GLP-1 비만·당뇨 치료제 시장 진입 기대가 관련 제약주로 자금을 유입.",
@@ -263,9 +298,9 @@
       "code": "475150",
       "name": "SK이터닉스",
       "rank": 1,
-      "trade_amount": 690022000000,
-      "change_pct": 19.19,
-      "close_price": 73900,
+      "trade_amount": 720189000000,
+      "change_pct": 18.87,
+      "close_price": 73700,
       "open_price": 64500,
       "high_price": 75900,
       "low_price": 63500,
@@ -348,17 +383,17 @@
         }
       ],
       "fallback": false,
-      "index_change_pct": 3.43,
-      "index_multiple_current": 5.59,
+      "index_change_pct": 3.99,
+      "index_multiple_current": 4.73,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 75900,
         "high_date": "2026-07-23",
-        "high_pct": -2.64,
+        "high_pct": -2.9,
         "low": 17210,
         "low_date": "2025-11-19",
-        "low_pct": 329.4,
-        "current": 73900
+        "low_pct": 328.24,
+        "current": 73700
       },
       "daily_20": [
         {
@@ -499,7 +534,7 @@
           "o": 64500,
           "h": 75900,
           "l": 63500,
-          "c": 73900
+          "c": 73700
         }
       ],
       "intraday": {
@@ -519,7 +554,9 @@
           74700,
           75500,
           75500,
-          74700
+          74200,
+          74200,
+          74000
         ]
       },
       "togusa_verdict": "strong_bull",
@@ -530,9 +567,9 @@
       "code": "439960",
       "name": "코스모로보틱스",
       "rank": 2,
-      "trade_amount": 130123000000,
-      "change_pct": 2.05,
-      "close_price": 17930,
+      "trade_amount": 135185000000,
+      "change_pct": 0.4,
+      "close_price": 17640,
       "open_price": 19300,
       "high_price": 19400,
       "low_price": 15700,
@@ -564,17 +601,17 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 3.36,
-      "index_multiple_current": 0.61,
+      "index_change_pct": 3.67,
+      "index_multiple_current": 0.11,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 68500,
         "high_date": "2026-05-15",
-        "high_pct": -73.82,
+        "high_pct": -74.25,
         "low": 10000,
         "low_date": "2026-07-21",
-        "low_pct": 79.3,
-        "current": 17930
+        "low_pct": 76.4,
+        "current": 17640
       },
       "daily_20": [
         {
@@ -715,7 +752,7 @@
           "o": 19300,
           "h": 19400,
           "l": 15700,
-          "c": 17930
+          "c": 17640
         }
       ],
       "status_badges": [
@@ -743,7 +780,7 @@
               "desc": "최근 15일 최고가(2026-07-22)",
               "base_price": 17570,
               "threshold": 17570,
-              "current": 17930,
+              "current": 17640,
               "triggered": true
             }
           ],
@@ -777,7 +814,9 @@
           17870,
           17880,
           17960,
-          18090
+          17750,
+          17690,
+          17650
         ]
       },
       "credit_risk": true,
@@ -789,10 +828,216 @@
       "parent_theme": ""
     },
     {
+      "code": "076610",
+      "name": "해성옵틱스",
+      "rank": 3,
+      "trade_amount": 9764000000,
+      "change_pct": 29.47,
+      "close_price": 1274,
+      "open_price": 1010,
+      "high_price": 1279,
+      "low_price": 1004,
+      "industry": "사진장비 및 광학기기 제조업",
+      "sector": "휴대폰용 렌즈모듈 및 카메라모듈",
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-07-15",
+        "2026-07-23"
+      ],
+      "news": [],
+      "fallback": true,
+      "index_change_pct": 3.67,
+      "index_multiple_current": 8.03,
+      "index_multiple_eligible": true,
+      "range_240d": {
+        "high": 2930,
+        "high_date": "2026-05-08",
+        "high_pct": -56.52,
+        "low": 485,
+        "low_date": "2025-11-24",
+        "low_pct": 162.68,
+        "current": 1274
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-25",
+          "o": 1060,
+          "h": 1285,
+          "l": 1054,
+          "c": 1067
+        },
+        {
+          "date": "2026-06-26",
+          "o": 1069,
+          "h": 1085,
+          "l": 965,
+          "c": 999
+        },
+        {
+          "date": "2026-06-29",
+          "o": 999,
+          "h": 1119,
+          "l": 999,
+          "c": 1119
+        },
+        {
+          "date": "2026-06-30",
+          "o": 1120,
+          "h": 1129,
+          "l": 1075,
+          "c": 1075
+        },
+        {
+          "date": "2026-07-01",
+          "o": 1096,
+          "h": 1159,
+          "l": 1090,
+          "c": 1145
+        },
+        {
+          "date": "2026-07-02",
+          "o": 1139,
+          "h": 1139,
+          "l": 1020,
+          "c": 1028
+        },
+        {
+          "date": "2026-07-03",
+          "o": 1040,
+          "h": 1065,
+          "l": 970,
+          "c": 1058
+        },
+        {
+          "date": "2026-07-06",
+          "o": 1058,
+          "h": 1077,
+          "l": 1001,
+          "c": 1031
+        },
+        {
+          "date": "2026-07-07",
+          "o": 1022,
+          "h": 1032,
+          "l": 980,
+          "c": 1004
+        },
+        {
+          "date": "2026-07-08",
+          "o": 995,
+          "h": 1008,
+          "l": 950,
+          "c": 957
+        },
+        {
+          "date": "2026-07-09",
+          "o": 958,
+          "h": 984,
+          "l": 935,
+          "c": 941
+        },
+        {
+          "date": "2026-07-10",
+          "o": 950,
+          "h": 1029,
+          "l": 950,
+          "c": 1020
+        },
+        {
+          "date": "2026-07-13",
+          "o": 1003,
+          "h": 1058,
+          "l": 941,
+          "c": 941
+        },
+        {
+          "date": "2026-07-14",
+          "o": 941,
+          "h": 950,
+          "l": 885,
+          "c": 895
+        },
+        {
+          "date": "2026-07-15",
+          "o": 912,
+          "h": 1160,
+          "l": 912,
+          "c": 1039
+        },
+        {
+          "date": "2026-07-16",
+          "o": 1017,
+          "h": 1031,
+          "l": 950,
+          "c": 991
+        },
+        {
+          "date": "2026-07-20",
+          "o": 980,
+          "h": 1047,
+          "l": 949,
+          "c": 953
+        },
+        {
+          "date": "2026-07-21",
+          "o": 956,
+          "h": 1025,
+          "l": 910,
+          "c": 1023
+        },
+        {
+          "date": "2026-07-22",
+          "o": 1040,
+          "h": 1060,
+          "l": 975,
+          "c": 984
+        },
+        {
+          "date": "2026-07-23",
+          "o": 1010,
+          "h": 1279,
+          "l": 1004,
+          "c": 1274
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 1010,
+        "base": 1010,
+        "prices": [
+          1010,
+          1110,
+          1239,
+          1279,
+          1230,
+          1279,
+          1279,
+          1279,
+          1250,
+          1254,
+          1237,
+          1237,
+          1271,
+          1277,
+          1278
+        ]
+      },
+      "credit_risk": true,
+      "credit_reason": "회사한도초과",
+      "togusa_verdict": "neutral",
+      "theme_leader": false,
+      "hugepark_grade": "관찰"
+    },
+    {
       "code": "396300",
       "name": "세아메카닉스",
-      "rank": 3,
-      "trade_amount": 7839000000,
+      "rank": 4,
+      "trade_amount": 7864000000,
       "change_pct": 30.0,
       "close_price": 4095,
       "open_price": 3245,
@@ -844,8 +1089,8 @@
         }
       ],
       "fallback": false,
-      "index_change_pct": 3.36,
-      "index_multiple_current": 8.93,
+      "index_change_pct": 3.67,
+      "index_multiple_current": 8.17,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 7340,
@@ -1015,6 +1260,8 @@
           3925,
           4095,
           4095,
+          4095,
+          4095,
           4095
         ]
       },
@@ -1025,8 +1272,8 @@
     {
       "code": "065420",
       "name": "에스아이리소스",
-      "rank": 4,
-      "trade_amount": 2700000000,
+      "rank": 5,
+      "trade_amount": 2705000000,
       "change_pct": 29.7,
       "close_price": 214,
       "open_price": 214,
@@ -1052,8 +1299,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 3.36,
-      "index_multiple_current": 8.84,
+      "index_change_pct": 3.67,
+      "index_multiple_current": 8.09,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 418,
@@ -1223,6 +1470,8 @@
           214,
           214,
           214,
+          214,
+          214,
           214
         ]
       },
@@ -1235,8 +1484,8 @@
     {
       "code": "225190",
       "name": "LK삼양",
-      "rank": 5,
-      "trade_amount": 2150000000,
+      "rank": 6,
+      "trade_amount": 2174000000,
       "change_pct": 29.86,
       "close_price": 748,
       "open_price": 593,
@@ -1255,8 +1504,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 3.36,
-      "index_multiple_current": 8.89,
+      "index_change_pct": 3.67,
+      "index_multiple_current": 8.14,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 3155,
@@ -1426,6 +1675,8 @@
           748,
           748,
           748,
+          748,
+          748,
           748
         ]
       },
@@ -1438,8 +1689,8 @@
     {
       "code": "039980",
       "name": "폴라리스AI",
-      "rank": 6,
-      "trade_amount": 1929000000,
+      "rank": 7,
+      "trade_amount": 1974000000,
       "change_pct": 29.99,
       "close_price": 5180,
       "open_price": 4100,
@@ -1458,8 +1709,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 3.36,
-      "index_multiple_current": 8.93,
+      "index_change_pct": 3.67,
+      "index_multiple_current": 8.17,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 14860,
@@ -1629,6 +1880,8 @@
           5180,
           5180,
           5180,
+          5180,
+          5180,
           5180
         ]
       },
@@ -1637,213 +1890,10 @@
       "hugepark_grade": "주의"
     },
     {
-      "code": "377480",
-      "name": "마음AI",
-      "rank": 7,
-      "trade_amount": 1891000000,
-      "change_pct": 29.92,
-      "close_price": 10900,
-      "open_price": 8780,
-      "high_price": 10900,
-      "low_price": 8400,
-      "industry": "소프트웨어 개발 및 공급업",
-      "sector": "종합 인공지능 엔진 및 플랫폼",
-      "themes": [],
-      "theme_paths": [],
-      "pick_count": 1,
-      "prev_pick": null,
-      "bullish_today": true,
-      "bullish_streak": 1,
-      "bullish_dates": [
-        "2026-07-23"
-      ],
-      "news": [],
-      "fallback": true,
-      "index_change_pct": 3.36,
-      "index_multiple_current": 8.9,
-      "index_multiple_eligible": true,
-      "range_240d": {
-        "high": 26500,
-        "high_date": "2025-10-01",
-        "high_pct": -58.87,
-        "low": 7730,
-        "low_date": "2026-07-21",
-        "low_pct": 41.01,
-        "current": 10900
-      },
-      "daily_20": [
-        {
-          "date": "2026-06-25",
-          "o": 10300,
-          "h": 10600,
-          "l": 9800,
-          "c": 9810
-        },
-        {
-          "date": "2026-06-26",
-          "o": 10000,
-          "h": 10020,
-          "l": 9000,
-          "c": 9070
-        },
-        {
-          "date": "2026-06-29",
-          "o": 9080,
-          "h": 10290,
-          "l": 9080,
-          "c": 10250
-        },
-        {
-          "date": "2026-06-30",
-          "o": 10400,
-          "h": 10490,
-          "l": 9880,
-          "c": 10000
-        },
-        {
-          "date": "2026-07-01",
-          "o": 10010,
-          "h": 10250,
-          "l": 9720,
-          "c": 10020
-        },
-        {
-          "date": "2026-07-02",
-          "o": 10000,
-          "h": 10000,
-          "l": 9010,
-          "c": 9190
-        },
-        {
-          "date": "2026-07-03",
-          "o": 9220,
-          "h": 9900,
-          "l": 8850,
-          "c": 9420
-        },
-        {
-          "date": "2026-07-06",
-          "o": 9420,
-          "h": 9580,
-          "l": 8960,
-          "c": 9260
-        },
-        {
-          "date": "2026-07-07",
-          "o": 9200,
-          "h": 9450,
-          "l": 8860,
-          "c": 9150
-        },
-        {
-          "date": "2026-07-08",
-          "o": 9080,
-          "h": 9250,
-          "l": 8400,
-          "c": 8490
-        },
-        {
-          "date": "2026-07-09",
-          "o": 8490,
-          "h": 8760,
-          "l": 8270,
-          "c": 8490
-        },
-        {
-          "date": "2026-07-10",
-          "o": 8510,
-          "h": 9220,
-          "l": 8510,
-          "c": 9110
-        },
-        {
-          "date": "2026-07-13",
-          "o": 9110,
-          "h": 9350,
-          "l": 8350,
-          "c": 8380
-        },
-        {
-          "date": "2026-07-14",
-          "o": 8380,
-          "h": 8480,
-          "l": 8000,
-          "c": 8340
-        },
-        {
-          "date": "2026-07-15",
-          "o": 8360,
-          "h": 8940,
-          "l": 8360,
-          "c": 8880
-        },
-        {
-          "date": "2026-07-16",
-          "o": 8880,
-          "h": 8880,
-          "l": 8260,
-          "c": 8300
-        },
-        {
-          "date": "2026-07-20",
-          "o": 8250,
-          "h": 8250,
-          "l": 7830,
-          "c": 7890
-        },
-        {
-          "date": "2026-07-21",
-          "o": 7890,
-          "h": 8250,
-          "l": 7730,
-          "c": 8160
-        },
-        {
-          "date": "2026-07-22",
-          "o": 8500,
-          "h": 8820,
-          "l": 8380,
-          "c": 8390
-        },
-        {
-          "date": "2026-07-23",
-          "o": 8780,
-          "h": 10900,
-          "l": 8400,
-          "c": 10900
-        }
-      ],
-      "intraday": {
-        "step_min": 5,
-        "open": 8780,
-        "base": 8780,
-        "prices": [
-          8780,
-          10900,
-          10900,
-          10900,
-          10900,
-          10900,
-          10900,
-          10900,
-          10900,
-          10900,
-          10900,
-          10900,
-          10900
-        ]
-      },
-      "credit_risk": true,
-      "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
-    },
-    {
       "code": "463020",
       "name": "뉴엔AI",
       "rank": 8,
-      "trade_amount": 1456000000,
+      "trade_amount": 1462000000,
       "change_pct": 29.88,
       "close_price": 7650,
       "open_price": 6500,
@@ -1865,8 +1915,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 3.36,
-      "index_multiple_current": 8.89,
+      "index_change_pct": 3.67,
+      "index_multiple_current": 8.14,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 35950,
@@ -2036,6 +2086,7 @@
           7650,
           7650,
           7650,
+          7650,
           7650
         ]
       },
@@ -2047,7 +2098,7 @@
       "code": "078590",
       "name": "휴림에이텍",
       "rank": 9,
-      "trade_amount": 205000000,
+      "trade_amount": 207000000,
       "change_pct": 29.92,
       "close_price": 3365,
       "open_price": 3365,
@@ -2111,8 +2162,8 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": 3.36,
-      "index_multiple_current": 8.9,
+      "index_change_pct": 3.67,
+      "index_multiple_current": 8.15,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 15265,
@@ -2309,6 +2360,7 @@
           3365,
           3365,
           3365,
+          3365,
           3365
         ]
       },
@@ -2322,7 +2374,7 @@
       "code": "199430",
       "name": "케이엔알시스템",
       "rank": 10,
-      "trade_amount": 136000000,
+      "trade_amount": 138000000,
       "change_pct": 29.94,
       "close_price": 13280,
       "open_price": 13280,
@@ -2341,8 +2393,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 3.36,
-      "index_multiple_current": 8.91,
+      "index_change_pct": 3.67,
+      "index_multiple_current": 8.16,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 45300,
@@ -2500,6 +2552,8 @@
         "open": 13280,
         "base": 13280,
         "prices": [
+          13280,
+          13280,
           13280,
           13280,
           13280,
