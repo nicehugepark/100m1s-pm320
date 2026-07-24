@@ -1,6 +1,6 @@
 {
   "date": "2026-07-24",
-  "generated_at": "2026-07-24T10:55:14.297983",
+  "generated_at": "2026-07-24T10:56:16.066727",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -618,7 +618,7 @@
           "title": "\"하이닉스 290만→190만원됐는데\"...하락장에서 주가 2배 뛴 SK이터닉스",
           "url": "https://www.fnnews.com/news/202607231636425536",
           "source": "파이낸셜뉴스",
-          "published_at": "2026-07-24T10:40:06.480367",
+          "published_at": "2026-07-24T10:50:02.801876",
           "causal_chain": "국제유가 급등으로 화석연료 대비 태양광의 경제성이 부각되고, 정부의 RPS 개편·직접 PPA 활성화로 국내 태양광 시장이 연 3GW→5~6GW로 확대될 전망이라 규모 있는 소수 재생에너지 사업자에게 정책 수혜가 집중된다. 신재생에너지 개발(태양광 발전)이 본업인 SK이터닉스가 그 핵심 수혜주로 지목되며 반도체 급락장 속 매수세가 집중, 전 거래일 상한가(+30.0%, 8만600원)에 이어 당일에도 +4.22%로 52주 고가 84,300원(고가와 -0.4% 근접)을 갱신하고 거래대금 6,907억원이 몰렸다.",
           "macro_event": "국제유가 상승 → 화석연료 대비 태양광·풍력 등 신재생에너지의 상대적 가격 경쟁력 부각",
           "newzy_freshness": null,
@@ -2558,8 +2558,26 @@
       "low_price": 1733,
       "industry": "특수 목적용 기계 제조업",
       "sector": "OLED 제조장비",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "OLED 장비",
+        "디스플레이",
+        "실적"
+      ],
+      "theme_paths": [
+        {
+          "name": "OLED 장비",
+          "path": [
+            "디스플레이",
+            "OLED 장비"
+          ]
+        },
+        {
+          "name": "실적",
+          "path": [
+            "실적"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": true,
@@ -2573,16 +2591,16 @@
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03562086645517800",
           "source": "이데일리",
           "published_at": "2026-07-24T01:38:02",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "OLED 패널사 신규 투자로 제조장비 발주가 확대되는 국면에서, OLED 제조장비가 본업인 파인텍이 195억 규모의 10년만 최대 규모 수주를 확보 → 본업 직접 수혜·실적 개선 기대로 매수세 집중 → 당일 상한가(+30.00%, 종가 2,340원) 마감.",
+          "macro_event": "OLED 패널 투자 재개 → 제조장비 발주 확대",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.7,
+          "newzy_virality": 0.4,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.58,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": false,
@@ -2772,9 +2790,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "strong_bull",
+      "theme_leader": true,
+      "hugepark_grade": "적극"
     },
     {
       "code": "226330",
