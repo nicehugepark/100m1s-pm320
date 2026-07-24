@@ -1,6 +1,6 @@
 {
   "date": "2026-07-24",
-  "generated_at": "2026-07-24T09:25:09.375116",
+  "generated_at": "2026-07-24T09:27:25.118812",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -46,10 +46,33 @@
             "verdict": "weak"
           },
           {
+            "name": "비만치료제",
+            "summary": "삼천당제약이 FDA Pre-ANDA를 발판으로 일본 세마글루타이드 사업을 실행 단계로 전환하며 비만·당뇨 치료제 밸류체인 기대감이 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
             "name": "GLP-1 비만치료제",
             "summary": "삼천당제약 FDA Pre-ANDA 발판 日 세마글루타이드 사업 실행 단계 진입→GLP-1 비만·당뇨 치료제 밸류체인 기대감→제네릭·경구용 개발 제약주 수혜",
             "source_count": 1,
             "verdict": "weak"
+          },
+          {
+            "name": "GLP-1 비만치료제",
+            "summary": "삼천당제약 FDA Pre-ANDA 발판 日 세마글루타이드 사업 실행 단계 진입→GLP-1 비만·당뇨 치료제 밸류체인 기대감→제네릭·경구용 개발 제약주 수혜",
+            "source_count": 1,
+            "verdict": "weak"
+          }
+        ]
+      },
+      {
+        "name": "비만치료제",
+        "children": [
+          {
+            "name": "세마글루타이드",
+            "summary": "삼천당제약 FDA Pre-ANDA 통과로 일본 세마글루타이드(비만·당뇨) 사업이 실행 단계 진입→제네릭·바이오시밀러 밸류체인 부각",
+            "source_count": 1,
+            "verdict": "pass"
           }
         ]
       }
@@ -274,7 +297,12 @@
           "single_price": false,
           "effect_badges": []
         }
-      ]
+      ],
+      "togusa_verdict": "weak_bull",
+      "theme_leader": true,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "119850",
@@ -511,7 +539,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bull",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "010060",
@@ -792,7 +823,10 @@
           "l": 239000,
           "c": 252000
         }
-      ]
+      ],
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "285800",
@@ -1055,7 +1089,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "투자경고"
+      "credit_reason": "투자경고",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "078590",
@@ -1368,13 +1405,15 @@
       "industry": "의약품 제조업",
       "sector": "방사성의약품",
       "themes": [
-        "바이오"
+        "바이오",
+        "FDA 허가"
       ],
       "theme_paths": [
         {
-          "name": "바이오",
+          "name": "FDA 허가",
           "path": [
-            "바이오"
+            "바이오",
+            "FDA 허가"
           ]
         }
       ],
@@ -1389,16 +1428,16 @@
           "url": "https://biz.chosun.com/stock/stock_general/2026/07/24/TFKA5JVK5ZCOHEQE7CD3FSGFMI/",
           "source": "조선비즈",
           "published_at": "2026-07-24T00:15:23",
-          "causal_chain": "",
-          "macro_event": null,
+          "causal_chain": "파킨슨병 진단용 방사성의약품 원료가 미국 FDA에 등록 → 방사성의약품 진단제가 본업인 듀켐바이오의 본업 직접 성과(해외 규제 관문 통과) 부각 → 매수세가 시초부터 몰리며 당일 시가부터 점상한가로 잠겨 종가 7,310원(+29.84%)까지 상승. 다만 점상한가로 매물이 잠기며 거래대금은 2억원에 그침(강한 매수 우위·저유동성).",
+          "macro_event": "파킨슨병 진단제 원료 美 FDA 등록",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.6,
+          "newzy_virality": 0.4,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.52,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": false,
@@ -1569,10 +1608,8 @@
         ]
       },
       "togusa_verdict": "neutral",
-      "theme_leader": false,
-      "hugepark_grade": "관찰",
-      "causal_chain": "",
-      "parent_theme": ""
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     }
   ]
 }
