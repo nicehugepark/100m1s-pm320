@@ -1,6 +1,6 @@
 {
   "date": "2026-07-24",
-  "generated_at": "2026-07-24T09:15:10.502514",
+  "generated_at": "2026-07-24T09:16:16.268333",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -319,7 +319,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "투자경고"
+      "credit_reason": "투자경고",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "278650",
@@ -333,8 +336,17 @@
       "low_price": 1892,
       "industry": "자연과학 및 공학 연구개발업",
       "sector": "비임상실험 유효성(약리)평가",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "바이오"
+      ],
+      "theme_paths": [
+        {
+          "name": "바이오",
+          "path": [
+            "바이오"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": {
         "date": "2026-07-15",
@@ -354,16 +366,16 @@
           "url": "https://www.etoday.co.kr/news/view/2604317",
           "source": "이투데이",
           "published_at": "2026-07-15T23:57:00",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "비임상 유효성(약리)평가가 본업인 HLB바이오스텝이 옙바이오 파킨슨병 치료제 임상 1상 IND 승인을 비임상 CRO 서비스로 지원 → 신약 파이프라인 관련 본업 수행 부각으로 매수세 유입 → 당일 시가 2,035원에서 종가 2,290원(+26.59%)·장중 고가 2,290원까지 상승. 다만 거래대금은 2억원으로 매우 소량이라 모멘텀 강도는 제한적.",
+          "macro_event": "옙바이오 파킨슨병 치료제 임상 1상 IND 승인 — HLB바이오스텝 비임상 평가 지원",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.35,
+          "newzy_virality": 0.2,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.29,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": true,
@@ -522,7 +534,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "176750",
@@ -536,8 +551,17 @@
       "low_price": 7310,
       "industry": "의약품 제조업",
       "sector": "방사성의약품",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "바이오"
+      ],
+      "theme_paths": [
+        {
+          "name": "바이오",
+          "path": [
+            "바이오"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": false,
@@ -708,9 +732,9 @@
           7310
         ]
       },
-      "togusa_verdict": "weak_bear",
+      "togusa_verdict": "neutral",
       "theme_leader": false,
-      "hugepark_grade": "주의"
+      "hugepark_grade": "관찰"
     }
   ]
 }
