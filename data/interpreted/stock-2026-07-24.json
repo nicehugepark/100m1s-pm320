@@ -1,6 +1,6 @@
 {
   "date": "2026-07-24",
-  "generated_at": "2026-07-24T09:06:28.809322",
+  "generated_at": "2026-07-24T09:15:10.502514",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -13,21 +13,529 @@
     }
   ],
   "narratives": [],
-  "themes_macro_summary": [],
-  "themes_tree": null,
+  "themes_macro_summary": [
+    {
+      "keyword": "반도체약세",
+      "summary": "메모리칩 가격 폭락(하이닉스 -34%) → 반도체 생태계 재편 → 디스플레이·반도체장비 섹터 상대적 강세",
+      "source_count": 1,
+      "verified": false
+    },
+    {
+      "keyword": "GLP-1",
+      "summary": "GLP-1(세마글루타이드) 시장 확대 → 국내 제약사 관련 제품 개발 진행 → 바이오·의약품 섹터 수혜 기대",
+      "source_count": 1,
+      "verified": false
+    },
+    {
+      "keyword": "메모리칩약세",
+      "summary": "메모리칩 가격 급락(하이닉스 290만→190만원) → 반도체 소재·부품업체 상대적 수혜 → K-반도체 이차 섹터 재평가",
+      "source_count": 1,
+      "verified": false
+    }
+  ],
+  "themes_tree": {
+    "date": "2026-07-24",
+    "roots": []
+  },
   "stocks": [
+    {
+      "code": "078590",
+      "name": "휴림에이텍",
+      "rank": 1,
+      "trade_amount": 2225000000,
+      "change_pct": 29.87,
+      "close_price": 4370,
+      "open_price": 4370,
+      "high_price": 4370,
+      "low_price": 3935,
+      "industry": "자동차 신품 부품 제조업",
+      "sector": "자동차내장카페트",
+      "themes": [
+        "방산",
+        "로봇",
+        "AI"
+      ],
+      "theme_paths": [
+        {
+          "name": "방산",
+          "path": [
+            "방산"
+          ]
+        },
+        {
+          "name": "로봇",
+          "path": [
+            "로봇"
+          ]
+        },
+        {
+          "name": "AI",
+          "path": [
+            "AI"
+          ]
+        }
+      ],
+      "pick_count": 3,
+      "prev_pick": {
+        "date": "2026-07-23",
+        "rank": 16,
+        "change_pct": 2.992,
+        "trade_amount": 245000000
+      },
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [
+        "2026-07-22"
+      ],
+      "news": [
+        {
+          "title": "[인기검색TOP5] 휴림에이텍, SK이터닉스, NAVER, 삼성전기, SK하이닉스",
+          "url": "https://www.mk.co.kr/news/stock/12105833",
+          "source": "매경",
+          "published_at": "2026-07-23T09:17:58",
+          "causal_chain": "제공된 유일한 기사는 '라씨 매매비서' AI 인기검색종목 자동 시세요약으로, 본 종목의 실적·수주·신제품·정책 등 본질적 촉매가 전무하다. 자동차 카페트·트렁크 트림 등 차량 내외장재 본업, 스마트팩토리 신규 확장 언급은 있으나 구체적 계약·수주 사실이 없어 매크로 사슬로 연결할 근거가 없다. 당일 시=고=저=종 3,365원 점상한가(+29.92%)는 거래대금 2억원의 극소 유동성 종목이 AI검색 노출 후 물량 잠김으로 나타난 수급성 급등으로, 뉴스 촉매와 직접 인과가 성립하지 않는다.",
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": "시세정형"
+        },
+        {
+          "title": "휴림에이텍, AI 방산로봇 기업 '아이디오스' 인수 가속화",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03043846645517472",
+          "source": "이데일리",
+          "published_at": "2026-07-22T23:35:07",
+          "causal_chain": "AI 방산로봇 시장 확산 → 자동차 내장부품이 본업이던 휴림에이텍이 AI 방산로봇 기업 '아이디오스' 인수를 가속화하며 방산·로봇·AI 신사업 진출 스토리 부각 → 사업 구조 전환 기대에 매수세 집중 → 당일 시가 2,190원에서 상한가 직행, 종가 2,590원(+29.95%)·고가 2,590원 형성.",
+          "macro_event": "AI 기반 방산로봇 시장 성장",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.7,
+          "newzy_virality": 0.5,
+          "newzy_tradability": null,
+          "newzy_score": 0.62,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        }
+      ],
+      "fallback": true,
+      "index_change_pct": -2.58,
+      "index_multiple_current": -11.58,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 15265,
+        "high_date": "2026-01-23",
+        "high_pct": -71.37,
+        "low": 1900,
+        "low_date": "2026-07-20",
+        "low_pct": 130.0,
+        "current": 4370
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-26",
+          "o": 2230,
+          "h": 2240,
+          "l": 2010,
+          "c": 2090
+        },
+        {
+          "date": "2026-06-29",
+          "o": 2050,
+          "h": 2300,
+          "l": 2050,
+          "c": 2250
+        },
+        {
+          "date": "2026-06-30",
+          "o": 2295,
+          "h": 2295,
+          "l": 2100,
+          "c": 2230
+        },
+        {
+          "date": "2026-07-01",
+          "o": 2215,
+          "h": 2405,
+          "l": 2170,
+          "c": 2350
+        },
+        {
+          "date": "2026-07-02",
+          "o": 2350,
+          "h": 2405,
+          "l": 2230,
+          "c": 2260
+        },
+        {
+          "date": "2026-07-03",
+          "o": 2260,
+          "h": 2295,
+          "l": 2095,
+          "c": 2180
+        },
+        {
+          "date": "2026-07-06",
+          "o": 2200,
+          "h": 2230,
+          "l": 2105,
+          "c": 2165
+        },
+        {
+          "date": "2026-07-07",
+          "o": 2190,
+          "h": 2220,
+          "l": 2025,
+          "c": 2100
+        },
+        {
+          "date": "2026-07-08",
+          "o": 2085,
+          "h": 2125,
+          "l": 2030,
+          "c": 2040
+        },
+        {
+          "date": "2026-07-09",
+          "o": 2025,
+          "h": 2160,
+          "l": 1975,
+          "c": 2060
+        },
+        {
+          "date": "2026-07-10",
+          "o": 2060,
+          "h": 2205,
+          "l": 2060,
+          "c": 2205
+        },
+        {
+          "date": "2026-07-13",
+          "o": 2205,
+          "h": 2235,
+          "l": 2015,
+          "c": 2090
+        },
+        {
+          "date": "2026-07-14",
+          "o": 2090,
+          "h": 2090,
+          "l": 1970,
+          "c": 1980
+        },
+        {
+          "date": "2026-07-15",
+          "o": 2000,
+          "h": 2130,
+          "l": 1991,
+          "c": 2095
+        },
+        {
+          "date": "2026-07-16",
+          "o": 2095,
+          "h": 2145,
+          "l": 2015,
+          "c": 2090
+        },
+        {
+          "date": "2026-07-20",
+          "o": 2010,
+          "h": 2090,
+          "l": 1900,
+          "c": 1955
+        },
+        {
+          "date": "2026-07-21",
+          "o": 1939,
+          "h": 2170,
+          "l": 1915,
+          "c": 1993
+        },
+        {
+          "date": "2026-07-22",
+          "o": 2190,
+          "h": 2590,
+          "l": 2080,
+          "c": 2590
+        },
+        {
+          "date": "2026-07-23",
+          "o": 3365,
+          "h": 3365,
+          "l": 3365,
+          "c": 3365
+        },
+        {
+          "date": "2026-07-24",
+          "o": 4370,
+          "h": 4370,
+          "l": 3935,
+          "c": 4370
+        }
+      ],
+      "status_badges": [
+        {
+          "label": "투자경고 예고",
+          "severity": "warning",
+          "start": "2026-07-24",
+          "end": "2026-07-24",
+          "summary": "휴림에이텍(보통주)이 2026-07-23 종가가 5일 전일의 종가보다 60% 이상 상승하여 2026-07-24(1일간) 투자주의종목으로 지정되며 투자경고종목으로 지정예고됨. 최초 판단일 2026-07-24부터 10일째 되는 날 이내 판단일(T)에 4개 요건에 모두 해당하면 그 다음 날 투자경고종목으로 지정되고, 미해당 시 2026-08-06까지 하루씩 순연 판단됨.",
+          "condition": "판단일(T) 종가가 T-5 종가 대비 60% 이상 상승 + 최근 15일 종가중 최고가 + T-5 기준 주가상승률이 지수 상승률의 5배 이상 + T-1 기준 시총 100위 이내 미해당",
+          "regulation": "2026-07-24~2026-08-06 (투자경고종목 지정여부 판단기간)",
+          "view_date": "2026-07-24",
+          "next_trading_day": "2026-07-27",
+          "single_price": false,
+          "source": "disclosure",
+          "entry_threshold_price": 3344,
+          "entry_threshold_via": "warn_surge_5d_60pct",
+          "entry_threshold_and_condition": "KOSPI 동기간 상승률 5배 동시 충족 시",
+          "entry_window_end": "2026-08-07",
+          "entry_threshold_assumption": "KOSPI 횡보 가정",
+          "disclosure_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260723000730",
+          "disclosure_title": "[투자주의]투자경고종목 지정예고",
+          "thresholds": [
+            {
+              "desc": "최근 15일 최고가(2026-07-23)",
+              "base_price": 3365,
+              "threshold": 3365,
+              "current": 4370,
+              "triggered": true
+            }
+          ],
+          "reason_text": "휴림에이텍(보통주)이 2026-07-23 종가가 5일 전일의 종가보다 60% 이상 상승하여 2026-07-24(1일간) 투자주의종목으로 지정되며 투자경고종목으로 지정예고됨. 최초 판단일 2026-07-24부터 10일째 되는 날 이내 판단일(T)에 4개 요건에 모두 해당하면 그 다음 날 투자경고종목으로 지정되고, 미해당 시 2026-08-06까지 하루씩 순연 판단됨.",
+          "prev_stage": null,
+          "effect_badges": [
+            {
+              "effect": "credit-block",
+              "when": "tomorrow",
+              "severity": "warning",
+              "source_label": "투자경고 예고",
+              "source_kind": "disclosure"
+            }
+          ]
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "투자경고"
+    },
+    {
+      "code": "278650",
+      "name": "HLB바이오스텝",
+      "rank": 2,
+      "trade_amount": 337000000,
+      "change_pct": 26.59,
+      "close_price": 2290,
+      "open_price": 2035,
+      "high_price": 2290,
+      "low_price": 1892,
+      "industry": "자연과학 및 공학 연구개발업",
+      "sector": "비임상실험 유효성(약리)평가",
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": {
+        "date": "2026-07-15",
+        "rank": 19,
+        "change_pct": 29.86,
+        "trade_amount": 1209000000
+      },
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-07-15",
+        "2026-07-24"
+      ],
+      "news": [
+        {
+          "title": "HLB바이오스텝, 옙바이오 파킨슨병 치료제 임상 1상 IND 승인 지원",
+          "url": "https://www.etoday.co.kr/news/view/2604317",
+          "source": "이투데이",
+          "published_at": "2026-07-15T23:57:00",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        }
+      ],
+      "fallback": true,
+      "index_change_pct": -2.58,
+      "index_multiple_current": -10.31,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 10100,
+        "high_date": "2025-11-05",
+        "high_pct": -77.33,
+        "low": 1740,
+        "low_date": "2026-07-23",
+        "low_pct": 31.61,
+        "current": 2290
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-26",
+          "o": 2635,
+          "h": 2640,
+          "l": 2440,
+          "c": 2510
+        },
+        {
+          "date": "2026-06-29",
+          "o": 2500,
+          "h": 2790,
+          "l": 2500,
+          "c": 2790
+        },
+        {
+          "date": "2026-06-30",
+          "o": 2790,
+          "h": 2895,
+          "l": 2740,
+          "c": 2860
+        },
+        {
+          "date": "2026-07-01",
+          "o": 2860,
+          "h": 2910,
+          "l": 2750,
+          "c": 2905
+        },
+        {
+          "date": "2026-07-02",
+          "o": 2820,
+          "h": 2965,
+          "l": 2820,
+          "c": 2845
+        },
+        {
+          "date": "2026-07-03",
+          "o": 2850,
+          "h": 2975,
+          "l": 2570,
+          "c": 2895
+        },
+        {
+          "date": "2026-07-06",
+          "o": 2895,
+          "h": 3085,
+          "l": 2895,
+          "c": 2960
+        },
+        {
+          "date": "2026-07-07",
+          "o": 2980,
+          "h": 3065,
+          "l": 2910,
+          "c": 2935
+        },
+        {
+          "date": "2026-07-08",
+          "o": 2935,
+          "h": 2995,
+          "l": 2705,
+          "c": 2780
+        },
+        {
+          "date": "2026-07-09",
+          "o": 2775,
+          "h": 2985,
+          "l": 2740,
+          "c": 2860
+        },
+        {
+          "date": "2026-07-10",
+          "o": 2005,
+          "h": 2165,
+          "l": 2005,
+          "c": 2010
+        },
+        {
+          "date": "2026-07-13",
+          "o": 1949,
+          "h": 2065,
+          "l": 1886,
+          "c": 1933
+        },
+        {
+          "date": "2026-07-14",
+          "o": 1933,
+          "h": 1946,
+          "l": 1788,
+          "c": 1852
+        },
+        {
+          "date": "2026-07-15",
+          "o": 1977,
+          "h": 2405,
+          "l": 1924,
+          "c": 2405
+        },
+        {
+          "date": "2026-07-16",
+          "o": 2630,
+          "h": 2700,
+          "l": 2095,
+          "c": 2100
+        },
+        {
+          "date": "2026-07-20",
+          "o": 2095,
+          "h": 2095,
+          "l": 1886,
+          "c": 1889
+        },
+        {
+          "date": "2026-07-21",
+          "o": 1936,
+          "h": 2125,
+          "l": 1800,
+          "c": 1892
+        },
+        {
+          "date": "2026-07-22",
+          "o": 1985,
+          "h": 1985,
+          "l": 1755,
+          "c": 1760
+        },
+        {
+          "date": "2026-07-23",
+          "o": 1760,
+          "h": 1845,
+          "l": 1740,
+          "c": 1809
+        },
+        {
+          "date": "2026-07-24",
+          "o": 2035,
+          "h": 2290,
+          "l": 1892,
+          "c": 2290
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
     {
       "code": "176750",
       "name": "듀켐바이오",
-      "rank": 1,
-      "trade_amount": 192000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
-      "industry": null,
-      "sector": null,
+      "rank": 3,
+      "trade_amount": 194000000,
+      "change_pct": 29.84,
+      "close_price": 7310,
+      "open_price": 7310,
+      "high_price": 7310,
+      "low_price": 7310,
+      "industry": "의약품 제조업",
+      "sector": "방사성의약품",
       "themes": [],
       "theme_paths": [],
       "pick_count": 1,
@@ -37,8 +545,169 @@
       "bullish_dates": [],
       "news": [],
       "fallback": true,
-      "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "index_change_pct": -2.58,
+      "index_multiple_current": -11.57,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 12770,
+        "high_date": "2026-02-23",
+        "high_pct": -42.76,
+        "low": 5340,
+        "low_date": "2026-07-21",
+        "low_pct": 36.89,
+        "current": 7310
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-26",
+          "o": 6300,
+          "h": 6330,
+          "l": 6000,
+          "c": 6330
+        },
+        {
+          "date": "2026-06-29",
+          "o": 6000,
+          "h": 6400,
+          "l": 6000,
+          "c": 6330
+        },
+        {
+          "date": "2026-06-30",
+          "o": 6390,
+          "h": 6390,
+          "l": 6150,
+          "c": 6270
+        },
+        {
+          "date": "2026-07-01",
+          "o": 6420,
+          "h": 6420,
+          "l": 6220,
+          "c": 6390
+        },
+        {
+          "date": "2026-07-02",
+          "o": 6330,
+          "h": 6330,
+          "l": 6020,
+          "c": 6100
+        },
+        {
+          "date": "2026-07-03",
+          "o": 6080,
+          "h": 6240,
+          "l": 6000,
+          "c": 6240
+        },
+        {
+          "date": "2026-07-06",
+          "o": 6350,
+          "h": 6370,
+          "l": 6180,
+          "c": 6280
+        },
+        {
+          "date": "2026-07-07",
+          "o": 6390,
+          "h": 6390,
+          "l": 6070,
+          "c": 6230
+        },
+        {
+          "date": "2026-07-08",
+          "o": 6370,
+          "h": 6370,
+          "l": 5870,
+          "c": 5870
+        },
+        {
+          "date": "2026-07-09",
+          "o": 6050,
+          "h": 6050,
+          "l": 5750,
+          "c": 5970
+        },
+        {
+          "date": "2026-07-10",
+          "o": 5910,
+          "h": 6150,
+          "l": 5870,
+          "c": 6060
+        },
+        {
+          "date": "2026-07-13",
+          "o": 6810,
+          "h": 6810,
+          "l": 5970,
+          "c": 6090
+        },
+        {
+          "date": "2026-07-14",
+          "o": 6030,
+          "h": 6030,
+          "l": 5590,
+          "c": 5890
+        },
+        {
+          "date": "2026-07-15",
+          "o": 5890,
+          "h": 6010,
+          "l": 5850,
+          "c": 5970
+        },
+        {
+          "date": "2026-07-16",
+          "o": 5980,
+          "h": 6080,
+          "l": 5770,
+          "c": 6020
+        },
+        {
+          "date": "2026-07-20",
+          "o": 6010,
+          "h": 6010,
+          "l": 5590,
+          "c": 5620
+        },
+        {
+          "date": "2026-07-21",
+          "o": 5790,
+          "h": 5790,
+          "l": 5340,
+          "c": 5740
+        },
+        {
+          "date": "2026-07-22",
+          "o": 5710,
+          "h": 5790,
+          "l": 5540,
+          "c": 5650
+        },
+        {
+          "date": "2026-07-23",
+          "o": 5700,
+          "h": 5700,
+          "l": 5500,
+          "c": 5630
+        },
+        {
+          "date": "2026-07-24",
+          "o": 7310,
+          "h": 7310,
+          "l": 7310,
+          "c": 7310
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 7310,
+        "base": 7310,
+        "prices": [
+          7310,
+          7310
+        ]
+      },
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
