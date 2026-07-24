@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 25103.78,
-      "change_pct": -0.13,
+      "point": 24977.68,
+      "change_pct": -0.64,
       "candle": {
         "o": 25101.02,
         "h": 25161.38,
-        "l": 25050.77,
-        "c": 25103.78
+        "l": 24968.05,
+        "c": 24977.68
       },
       "range_240d": {
         "low": 20794.64,
@@ -2032,8 +2032,8 @@
           "date": "2026-07-24",
           "o": 25101.02,
           "h": 25161.38,
-          "l": 25050.77,
-          "c": 25103.78
+          "l": 24968.05,
+          "c": 24977.68
         }
       ],
       "spark": [
@@ -2041,8 +2041,10 @@
         25149.21,
         25097.38,
         25066.33,
-        25071.7,
-        25103.78
+        25103.78,
+        24982.5,
+        24993.28,
+        24977.68
       ],
       "news": {
         "summary": "테슬라 실적 부진에 대형 성장주 약세 심화. AI 투자 수익성 의구심 속 기술주 이익 실현 압박 지속하는 가운데, 반도체 기업의 AI 칩셋 동맹 강화 흐름은 가속.",
@@ -2066,13 +2068,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7421.18,
-      "change_pct": 0.17,
+      "point": 7398.97,
+      "change_pct": -0.13,
       "candle": {
         "o": 7406.3,
         "h": 7423.01,
-        "l": 7406.3,
-        "c": 7421.18
+        "l": 7397.85,
+        "c": 7398.97
       },
       "range_240d": {
         "low": 6343.72,
@@ -4095,8 +4097,8 @@
           "date": "2026-07-24",
           "o": 7406.3,
           "h": 7423.01,
-          "l": 7406.3,
-          "c": 7421.18
+          "l": 7397.85,
+          "c": 7398.97
         }
       ],
       "spark": [
@@ -4105,7 +4107,9 @@
         7414.63,
         7411.83,
         7421.86,
-        7421.18
+        7401.28,
+        7399.53,
+        7398.97
       ],
       "news": {
         "summary": "연준 금리 결정 임박 가운데 채권 수익률 2개월 고점 돌파. 중동 긴장에 원유 $100 재진입하며 인플레이션 재부상 우려 심화. 글로벌 자산 증가로 시장 기대감 높으나 금리 경로 불확실성 증대 신호.",
@@ -4129,13 +4133,13 @@
     },
     {
       "name": "DOW",
-      "point": 51853.31,
-      "change_pct": 0.27,
+      "point": 51809.21,
+      "change_pct": 0.19,
       "candle": {
         "o": 51791.37,
         "h": 51888.43,
         "l": 51701.72,
-        "c": 51853.31
+        "c": 51809.21
       },
       "range_240d": {
         "low": 43975.09,
@@ -6159,7 +6163,7 @@
           "o": 51791.37,
           "h": 51888.43,
           "l": 51701.72,
-          "c": 51853.31
+          "c": 51809.21
         }
       ],
       "spark": [
@@ -6168,7 +6172,9 @@
         51782.17,
         51774.28,
         51850.4,
-        51853.31
+        51799.99,
+        51809.21,
+        51809.21
       ],
       "news": {
         "summary": "금융·투자사 AI 수익 호조로 견조 유지하는 반면 부동산 시장은 금리 상승에 약세 심화. 고령층 주택 대형화 구매로 럭셔리 소비 회복, 경기순환 양극화 심화 추세.",
@@ -6193,60 +6199,67 @@
   ],
   "news_chips": [
     {
-      "summary": "트럼프 신정부의 신규 글로벌 관세에 강제노동 명분을 내세워 무역 상대국 반발 초래",
+      "summary": "트럼프 행정부의 신규 글로벌 관세에 주요 교역국들이 강제노동 명분을 거부하며 강하게 반발했다.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/24/trump-global-tariffs-trade-imbalance-forced-labor.html",
       "published_ts": 1784894949.0,
       "impact_high": true
     },
     {
-      "summary": "연준 금리 인상 가능성이 시장의 주요 변수로 부상",
+      "summary": "연방준비제도의 금리 인상 가능성이 시장 관심의 중심에 있다.",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/investing/is-the-fed-about-to-hike-rates-9307037d?mod=rss_markets_main",
       "published_ts": 1784888400.0,
       "impact_high": true
     },
     {
-      "summary": "유가 상승이 인플레 기대를 높이면서 30년물 모기지 금리가 6.58%로 거의 1년 만에 최고 수준 기록",
+      "summary": "이란이 지원하는 후티군이 홍해 유역 유조선 공격을 확대하면서 미국-이란 갈등이 심화되고 있다.",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/world/middle-east/the-houthis-have-opened-a-new-front-in-the-u-s-iran-war-37afcf41",
+      "published_ts": 1784862000.0,
+      "impact_high": true
+    },
+    {
+      "summary": "중동 분쟁으로 유가가 상승하면서 30년물 모기지 금리가 6.58%로 거의 1년 만에 최고조를 기록했다.",
       "source": "WSJ",
       "url": "https://www.wsj.com/economy/housing/mortgage-rates-hit-highest-levels-in-nearly-a-year-ba480ebf",
       "published_ts": 1784822400.0,
       "impact_high": true
     },
     {
-      "summary": "이란 지원 후티 세력의 사우디 유조선 공격으로 브렌트유가 배럴당 100달러 재돌파",
+      "summary": "중동 분쟁으로 후티군의 유조선 공격이 격화되면서 브렌트유가 2개월 만에 배럴당 100달러를 돌파했다.",
       "source": "WSJ",
       "url": "https://www.wsj.com/business/energy-oil/brent-hits-100-again-as-houthi-attacks-threaten-further-supply-squeeze-b1faa05b",
       "published_ts": 1784816820.0,
       "impact_high": true
     },
     {
-      "summary": "중동 분쟁으로 유가가 배럴당 100달러를 돌파하면서 인플레 우려 재점화로 주식 하락",
+      "summary": "유가가 배럴당 100달러를 돌파하면서 경제 침체 우려와 함께 연방준비제도의 금리 인상 압력이 가중되고 있다.",
       "source": "WSJ",
       "url": "https://www.wsj.com/business/energy-oil/oil-prices-roar-back-threatening-economy-and-gops-midterm-hopes-73df238a?mod=rss_markets_main",
       "published_ts": 1784854800.0,
       "impact_high": false
     },
     {
-      "summary": "AI 지출 급증 우려로 Magnificent Seven이 약 890억 달러 시가총액 감소",
+      "summary": "인공지능 관련 기술주들의 과도한 투자 규모 우려로 마그니피션 7의 시가총액이 약 890억 달러 하락했다.",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/stocks/investors-zero-in-on-runaway-tech-spending-putting-dent-in-ai-trade-1da74e98?mod=rss_markets_main",
       "published_ts": 1784854800.0,
       "impact_high": false
     },
     {
-      "summary": "테슬라가 분기 실적 부진으로 주가 15% 급락, 스페이스X도 고점 대비 50% 하락",
+      "summary": "테슬라가 실적 부진으로 주가가 15% 급락했고 스페이스X도 고점 대비 50% 하락했다.",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/stocks/reality-bites-elon-musk-and-his-tesla-spacex-believers-1b639591?mod=rss_markets_main",
       "published_ts": 1784840640.0,
       "impact_high": false
     },
     {
-      "summary": "AI 수익성 미실현 시 경기 침체 위험을 배경으로 2025년 글로벌 가계자산 급증에도 불구하고 투자 위험 증대",
+      "summary": "구글의 우호적 분기 실적으로 기술주의 과도한 인공지능 투자 우려가 부분적으로 상쇄되는 모습이다.",
       "source": "WSJ",
-      "url": "https://www.wsj.com/economy/global/global-household-wealth-jumped-in-2025-raising-stakes-for-profitability-of-ai-1ecebcf6",
-      "published_ts": 1784780160.0,
-      "impact_high": true
+      "url": "https://www.wsj.com/tech/ai/google-has-the-muscle-to-overpower-spending-worries-725a92e4?mod=rss_markets_main",
+      "published_ts": 1784799000.0,
+      "impact_high": false
     },
     {
       "summary": "연준 정책 고위 인사 Kevin Warsh가 연방준비제도의 인플레이션 관리 기본 원칙에 관해 반복적으로 사용하는 특정 표현들이 시장에서 연준의 향후 금리 정책 신호를 읽는 핵심 지표로 주목받고 있다.",
@@ -6254,31 +6267,21 @@
       "url": "https://www.cnbc.com/2026/07/22/kevin-warsh-has-homed-in-on-three-key-phrases-how-fed-watchers-interpret-them.html",
       "published_ts": 1784739475.0,
       "impact_high": true
-    },
-    {
-      "summary": "6월 미국 미결주택판매지수가 전월비 5.4% 하락하며 부동산 시장 약세 신호 발생",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/economy/housing/u-s-pending-home-sales-fell-in-june-5370cc55",
-      "published_ts": 1784211720.0,
-      "impact_high": false
     }
   ],
-  "_article_sig": "2de0d0ba6b9a9ab7613a7f7096cc3f48091792419955e214e79a107d366824f5",
+  "_article_sig": "7e4b4e2daa7ce82b16b24ae890fd399df8ca6cf634b3b5f0178ee14ac2d71dbf",
   "built_at_kst": "2026-07-24T07:01:05.150639+09:00",
   "futures": {
-    "as_of_kst": "2026-07-24T22:50:03.964065+09:00",
+    "as_of_kst": "2026-07-24T23:00:05.743966+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7449.25,
-        "change_pct": 0.06,
+        "point": 7456.0,
+        "change_pct": 0.15,
         "spark": [
           7450.5,
-          7461.75,
-          7461.5,
-          7459.5,
           7460.75,
           7461.0,
           7458.75,
@@ -6315,21 +6318,24 @@
           7443.75,
           7451.25,
           7449.5,
-          7449.25
+          7446.5,
+          7456.75,
+          7436.5,
+          7456.0
         ],
         "candle": {
           "o": 7450.5,
           "h": 7469.0,
           "l": 7433.75,
-          "c": 7448.75
+          "c": 7455.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7623.75,
           "low_date": "2025-08-21",
           "high_date": "2026-06-02",
-          "low_change_pct": 16.6,
-          "high_change_pct": -2.3
+          "low_change_pct": 16.71,
+          "high_change_pct": -2.2
         },
         "daily_expanded": [
           {
@@ -8345,21 +8351,25 @@
             "o": 7450.5,
             "h": 7469.0,
             "l": 7433.75,
-            "c": 7448.75,
-            "v": 240807
+            "c": 7455.75,
+            "v": 276083
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "중동 분쟁 확산으로 유가 100달러 돌파, 인플레 재점화. 연준 금리 인상 가능성 제기로 광범위 리스크 회피. 트럼프 관세 재개로 매크로 불확실성 심화.",
+          "summary": "유가 100달러 돌파·트럼프 관세 12.5% 재확대로 인플레·경기둔화 공포 복합화. 연준 금리 인상 신호(Kevin Warsh) + 모기지 금리 6.58% 최고 경신으로 금융시장 리스크 확대.",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/business/energy-oil/brent-hits-100-again-as-houthi-attacks-threaten-further-supply-squeeze-b1faa05b"
+              "url": "https://www.wsj.com/business/energy-oil/oil-prices-roar-back-threatening-economy-and-gops-midterm-hopes-73df238a?mod=rss_markets_main"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/07/24/trump-global-tariffs-trade-imbalance-forced-labor.html"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/economy/housing/mortgage-rates-hit-highest-levels-in-nearly-a-year-ba480ebf"
             }
           ]
         }
@@ -8367,12 +8377,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28523.0,
-        "change_pct": -0.34,
+        "point": 28495.5,
+        "change_pct": -0.44,
         "spark": [
           28700.25,
-          28665.25,
-          28647.0,
           28646.5,
           28651.0,
           28638.5,
@@ -8410,21 +8418,23 @@
           28603.25,
           28528.25,
           28485.0,
-          28523.0
+          28501.25,
+          28344.75,
+          28495.5
         ],
         "candle": {
           "o": 28700.25,
           "h": 28736.0,
-          "l": 28465.5,
-          "c": 28523.0
+          "l": 28445.0,
+          "c": 28494.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 23.26,
-          "high_change_pct": -7.13
+          "low_change_pct": 23.14,
+          "high_change_pct": -7.22
         },
         "daily_expanded": [
           {
@@ -10439,22 +10449,26 @@
             "date": "2026-07-24",
             "o": 28700.25,
             "h": 28736.0,
-            "l": 28465.5,
-            "c": 28523.0,
-            "v": 150584
+            "l": 28445.0,
+            "c": 28494.75,
+            "v": 169721
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "중동 분쟁 확산으로 유가 100달러 돌파, 인플레 재점화. 연준 금리 인상 가능성 제기로 광범위 리스크 회피. 트럼프 관세 재개로 매크로 불확실성 심화.",
+          "summary": "테슬라 15% 급락, 스페이스X 50% 낙폭으로 엘론 뮤스크 계열 신뢰도 동요. AI 반도체 공급 계약 리스크·구글 강세 속 기술주 수익성 불확실성 심화.",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/business/energy-oil/brent-hits-100-again-as-houthi-attacks-threaten-further-supply-squeeze-b1faa05b"
+              "url": "https://www.wsj.com/finance/stocks/reality-bites-elon-musk-and-his-tesla-spacex-believers-1b639591?mod=rss_markets_main"
             },
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/07/24/trump-global-tariffs-trade-imbalance-forced-labor.html"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/the-massive-supply-deals-feeding-the-ai-frenzy-are-no-sure-thing-3a89ec09?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/tech/ai/google-has-the-muscle-to-overpower-spending-worries-725a92e4?mod=rss_markets_main"
             }
           ]
         }
@@ -10462,13 +10476,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51972.0,
-        "change_pct": 0.15,
+        "point": 52039.0,
+        "change_pct": 0.28,
         "spark": [
           51920.0,
-          52168.0,
-          52162.0,
-          52164.0,
           52166.0,
           52171.0,
           52154.0,
@@ -10505,21 +10516,24 @@
           51985.0,
           51908.0,
           51973.0,
-          51972.0
+          51965.0,
+          52042.0,
+          51986.0,
+          52039.0
         ],
         "candle": {
           "o": 51920.0,
           "h": 52196.0,
           "l": 51846.0,
-          "c": 51972.0
+          "c": 52035.0
         },
         "range_240d": {
           "low": 44084.0,
           "high": 53372.0,
           "low_date": "2025-08-11",
           "high_date": "2026-07-06",
-          "low_change_pct": 17.89,
-          "high_change_pct": -2.62
+          "low_change_pct": 18.04,
+          "high_change_pct": -2.51
         },
         "daily_expanded": [
           {
@@ -12535,21 +12549,25 @@
             "o": 51920.0,
             "h": 52196.0,
             "l": 51846.0,
-            "c": 51972.0,
-            "v": 26896
+            "c": 52035.0,
+            "v": 29733
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "에너지 급등에 동반 약세. 모기지금리 1년 최고(6.58%), 주택 계약 5.4% 감소로 경기둔화 신호. 경기민감·금융주 부진 확산.",
+          "summary": "유가 100달러·트럼프 관세 12.5% 재확대로 산업재·경기민감주 동반 약세. Commercial real estate 회복도 경기둔화 공포 속 제한적 영향, 은행권 중동 전쟁 영향평가 진행 중.",
           "sources": [
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/housing/mortgage-rates-hit-highest-levels-in-nearly-a-year-ba480ebf"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/business/energy-oil/oil-prices-roar-back-threatening-economy-and-gops-midterm-hopes-73df238a?mod=rss_markets_main"
             },
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/housing/u-s-pending-home-sales-fell-in-june-5370cc55"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/07/24/trump-global-tariffs-trade-imbalance-forced-labor.html"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/banking/big-banks-are-wading-back-into-commercial-real-estate-lending-07faec10?mod=rss_markets_main"
             }
           ]
         }
@@ -12557,44 +12575,56 @@
     ]
   },
   "regular_open": true,
-  "intraday_refreshed_kst": "2026-07-24T22:50:07.858395+09:00",
+  "intraday_refreshed_kst": "2026-07-24T23:03:02.818000+09:00",
   "_futures_news": {
-    "S&P500": {
-      "summary": "중동 분쟁 확산으로 유가 100달러 돌파, 인플레 재점화. 연준 금리 인상 가능성 제기로 광범위 리스크 회피. 트럼프 관세 재개로 매크로 불확실성 심화.",
+    "NASDAQ": {
+      "summary": "테슬라 15% 급락, 스페이스X 50% 낙폭으로 엘론 뮤스크 계열 신뢰도 동요. AI 반도체 공급 계약 리스크·구글 강세 속 기술주 수익성 불확실성 심화.",
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/business/energy-oil/brent-hits-100-again-as-houthi-attacks-threaten-further-supply-squeeze-b1faa05b"
+          "url": "https://www.wsj.com/finance/stocks/reality-bites-elon-musk-and-his-tesla-spacex-believers-1b639591?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/the-massive-supply-deals-feeding-the-ai-frenzy-are-no-sure-thing-3a89ec09?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/tech/ai/google-has-the-muscle-to-overpower-spending-worries-725a92e4?mod=rss_markets_main"
+        }
+      ]
+    },
+    "S&P500": {
+      "summary": "유가 100달러 돌파·트럼프 관세 12.5% 재확대로 인플레·경기둔화 공포 복합화. 연준 금리 인상 신호(Kevin Warsh) + 모기지 금리 6.58% 최고 경신으로 금융시장 리스크 확대.",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-roar-back-threatening-economy-and-gops-midterm-hopes-73df238a?mod=rss_markets_main"
         },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/07/24/trump-global-tariffs-trade-imbalance-forced-labor.html"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/economy/housing/mortgage-rates-hit-highest-levels-in-nearly-a-year-ba480ebf"
         }
       ]
     },
     "DOW": {
-      "summary": "에너지 급등에 동반 약세. 모기지금리 1년 최고(6.58%), 주택 계약 5.4% 감소로 경기둔화 신호. 경기민감·금융주 부진 확산.",
-      "sources": [
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/housing/mortgage-rates-hit-highest-levels-in-nearly-a-year-ba480ebf"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/housing/u-s-pending-home-sales-fell-in-june-5370cc55"
-        }
-      ]
-    },
-    "NASDAQ": {
-      "summary": "중동 분쟁 확산으로 유가 100달러 돌파, 인플레 재점화. 연준 금리 인상 가능성 제기로 광범위 리스크 회피. 트럼프 관세 재개로 매크로 불확실성 심화.",
+      "summary": "유가 100달러·트럼프 관세 12.5% 재확대로 산업재·경기민감주 동반 약세. Commercial real estate 회복도 경기둔화 공포 속 제한적 영향, 은행권 중동 전쟁 영향평가 진행 중.",
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/business/energy-oil/brent-hits-100-again-as-houthi-attacks-threaten-further-supply-squeeze-b1faa05b"
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-roar-back-threatening-economy-and-gops-midterm-hopes-73df238a?mod=rss_markets_main"
         },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/07/24/trump-global-tariffs-trade-imbalance-forced-labor.html"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/banking/big-banks-are-wading-back-into-commercial-real-estate-lending-07faec10?mod=rss_markets_main"
         }
       ]
     }
