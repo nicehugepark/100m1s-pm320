@@ -1,6 +1,6 @@
 {
   "date": "2026-07-24",
-  "generated_at": "2026-07-24T09:35:11.255802",
+  "generated_at": "2026-07-24T09:36:14.877672",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -332,8 +332,6 @@
       "sector": "타르제품,카본블랙,무수프탈산,농약원제,석탄화학제품,정밀화학제품,플라스틱창호재 제조,판매",
       "themes": [
         "태양광",
-        "AI데이터센터",
-        "AI 인프라",
         "실적"
       ],
       "theme_paths": [
@@ -341,20 +339,6 @@
           "name": "태양광",
           "path": [
             "태양광"
-          ]
-        },
-        {
-          "name": "AI데이터센터",
-          "path": [
-            "AI",
-            "AI데이터센터"
-          ]
-        },
-        {
-          "name": "AI 인프라",
-          "path": [
-            "AI",
-            "AI 인프라"
           ]
         },
         {
@@ -383,16 +367,16 @@
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03250486645517800",
           "source": "이데일리",
           "published_at": "2026-07-24T00:24:01",
-          "causal_chain": "",
-          "macro_event": null,
+          "causal_chain": "OCI홀딩스가 2분기 흑자전환을 달성하고 태양광 폴리실리콘 본업 증설 기대가 부각 → 본업 실적 개선 모멘텀으로 매수세 유입 → 당일 시가 258,500원에서 장중 고가 262,000원까지 상승, 종가 249,500원(+1.01%)·거래대금 668억원의 강세 마감.",
+          "macro_event": "OCI홀딩스 2분기 흑자전환 + 폴리실리콘/태양광 증설 기대",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.5,
+          "newzy_virality": 0.3,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.42,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": false,
@@ -564,11 +548,9 @@
           250500
         ]
       },
-      "togusa_verdict": "neutral",
+      "togusa_verdict": "strong_bull",
       "theme_leader": true,
-      "hugepark_grade": "관찰",
-      "causal_chain": "",
-      "parent_theme": ""
+      "hugepark_grade": "적극"
     },
     {
       "code": "119850",
@@ -820,7 +802,7 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bull",
+      "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰"
     },
