@@ -1,6 +1,6 @@
 {
   "date": "2026-07-27",
-  "generated_at": "2026-07-27T11:45:18.167757",
+  "generated_at": "2026-07-27T11:46:49.360896",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -513,9 +513,9 @@
           13930
         ]
       },
-      "togusa_verdict": "weak_bull",
+      "togusa_verdict": "strong_bull",
       "theme_leader": true,
-      "hugepark_grade": "관찰",
+      "hugepark_grade": "적극",
       "causal_chain": "",
       "parent_theme": ""
     },
@@ -531,8 +531,24 @@
       "low_price": 3860,
       "industry": "컴퓨터 프로그래밍, 시스템 통합 및 관리업",
       "sector": "인터넷핵심망(CCR,MCR,NAS등)",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "통신장비",
+        "실적"
+      ],
+      "theme_paths": [
+        {
+          "name": "통신장비",
+          "path": [
+            "통신장비"
+          ]
+        },
+        {
+          "name": "실적",
+          "path": [
+            "실적"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": false,
@@ -546,16 +562,16 @@
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=04244326645517800",
           "source": "이데일리",
           "published_at": "2026-07-24T06:24:32",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "323억 규모 대형 공급계약 체결 → 인터넷핵심망(CCR·MCR·NAS)·시스템통합 본업 매출 확대 기대 → 매수세 시초부터 집중 → 당일 상한가(+30.0%)로 마감, 거래대금 119억원.",
+          "macro_event": "323억 규모 대형 공급계약 체결 (수주 모멘텀)",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.6,
+          "newzy_virality": 0.35,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.5,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": true,
@@ -755,8 +771,8 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "neutral",
-      "theme_leader": false,
+      "togusa_verdict": "weak_bull",
+      "theme_leader": true,
       "hugepark_grade": "관찰"
     },
     {
@@ -1299,9 +1315,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "strong_bull",
-      "theme_leader": true,
-      "hugepark_grade": "적극"
+      "togusa_verdict": "weak_bull",
+      "theme_leader": false,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "900100",
@@ -1325,7 +1341,10 @@
       "news": [],
       "fallback": true,
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "417860",
