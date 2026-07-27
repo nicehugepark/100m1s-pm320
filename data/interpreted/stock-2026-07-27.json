@@ -1,6 +1,6 @@
 {
   "date": "2026-07-27",
-  "generated_at": "2026-07-27T09:15:10.331175",
+  "generated_at": "2026-07-27T09:16:15.065795",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -637,7 +637,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "199730",
@@ -651,8 +654,24 @@
       "low_price": 2035,
       "industry": "자연과학 및 공학 연구개발업",
       "sector": "생동성시험, 검체 분석",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "실적",
+        "바이오"
+      ],
+      "theme_paths": [
+        {
+          "name": "실적",
+          "path": [
+            "실적"
+          ]
+        },
+        {
+          "name": "바이오",
+          "path": [
+            "바이오"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": false,
@@ -666,16 +685,16 @@
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=04841286645517800",
           "source": "이데일리",
           "published_at": "2026-07-24T08:32:14",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "생동성시험·검체분석(바이오 CRO) 본업의 2분기 영업이익 2.3억원 흑자전환 발표 → 실적 개선 기대 매수세 유입 → 거래대금 1억원의 얇은 유동성에서도 시초부터 점상한가(+29.70%)로 마감.",
+          "macro_event": "2026년 2분기 영업이익 2.3억원 전년비 흑자전환",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.45,
+          "newzy_virality": 0.2,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.35,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": true,
@@ -844,9 +863,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     }
   ]
 }
