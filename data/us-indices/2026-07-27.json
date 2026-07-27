@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 25066.22,
-      "change_pct": 0.36,
+      "point": 25032.75,
+      "change_pct": 0.23,
       "candle": {
         "o": 25239.26,
         "h": 25260.27,
-        "l": 25040.76,
-        "c": 25066.22
+        "l": 25010.42,
+        "c": 25032.75
       },
       "range_240d": {
         "low": 20794.64,
@@ -2032,8 +2032,8 @@
           "date": "2026-07-27",
           "o": 25239.26,
           "h": 25260.27,
-          "l": 25040.76,
-          "c": 25066.22
+          "l": 25010.42,
+          "c": 25032.75
         }
       ],
       "spark": [
@@ -2046,7 +2046,9 @@
         25074.24,
         25060.61,
         25080.03,
-        25066.22
+        25036.13,
+        25036.75,
+        25032.75
       ],
       "news": {
         "summary": "AI 과투자 우려로 빅테크 $890B 손실 기록 vs. 구글 등 핵심주 실적 강세로 회복세 견인. 반도체 공급 거래 지속성 논란과 AI 위험 규제 강화가 변수.",
@@ -2070,13 +2072,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7439.62,
-      "change_pct": 0.37,
+      "point": 7434.35,
+      "change_pct": 0.3,
       "candle": {
         "o": 7464.2,
         "h": 7480.57,
-        "l": 7436.42,
-        "c": 7439.62
+        "l": 7428.9,
+        "c": 7434.35
       },
       "range_240d": {
         "low": 6343.72,
@@ -4099,8 +4101,8 @@
           "date": "2026-07-27",
           "o": 7464.2,
           "h": 7480.57,
-          "l": 7436.42,
-          "c": 7439.62
+          "l": 7428.9,
+          "c": 7434.35
         }
       ],
       "spark": [
@@ -4113,7 +4115,9 @@
         7441.2,
         7440.9,
         7441.99,
-        7439.62
+        7433.5,
+        7434.35,
+        7434.35
       ],
       "news": {
         "summary": "연준 금리 결정 임박, 중동 지정학 긴장과 유가 $100 돌파에 인플레 재점화 우려 재확산. 글로벌 채권 수익률 상승과 기술주 지출 논란 속 시장 회복 충돌.",
@@ -4137,13 +4141,13 @@
     },
     {
       "name": "DOW",
-      "point": 52383.0,
-      "change_pct": 0.84,
+      "point": 52365.57,
+      "change_pct": 0.81,
       "candle": {
         "o": 52173.42,
         "h": 52607.78,
         "l": 52173.42,
-        "c": 52383.0
+        "c": 52365.57
       },
       "range_240d": {
         "low": 43975.09,
@@ -6167,7 +6171,7 @@
           "o": 52173.42,
           "h": 52607.78,
           "l": 52173.42,
-          "c": 52383.0
+          "c": 52365.57
         }
       ],
       "spark": [
@@ -6179,8 +6183,10 @@
         52479.69,
         52404.75,
         52425.63,
-        52378.31,
-        52383.0
+        52385.19,
+        52388.41,
+        52373.71,
+        52365.57
       ],
       "news": {
         "summary": "은행 부동산 대출 재개와 금융기관 실적 견조 vs. 일반 소비재 기업 투자자 관심 상실 심화. 럭셔리 소비와 주택시장 양극화 속 경기민감주 분화 현상.",
@@ -6205,82 +6211,82 @@
   ],
   "news_chips": [
     {
-      "summary": "빅테크 기업들의 실적 발표와 연준 금리 회의 결과가 현재 주가 반등의 지속성을 결정할 주요 변수가 될 전망이다.",
+      "summary": "연준의 금리 결정이 주간 초점으로 빅테크 실적 여부에 따라 주가 상승세 지속 여부 결정",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/stocks/big-tech-earnings-and-fed-rate-decision-put-stock-rally-to-the-test-be602633?mod=rss_markets_main",
       "published_ts": 1785147000.0,
       "impact_high": true
     },
     {
-      "summary": "싱가포르 통화당국이 인플레이션 리스크를 제어하기 위해 예상 밖의 연속 긴축을 단행했다.",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/singapore-central-bank-delivers-surprise-back-to-back-tightening-04300256",
-      "published_ts": 1785122760.0,
-      "impact_high": true
-    },
-    {
-      "summary": "미국-이란 간 무력분쟁의 일시 중단으로 10년물·2년물 국채 수익률이 하락했다.",
+      "summary": "중동 긴장 완화로 10년물과 2년물 채권 수익률이 하락하며 안전자산 선호 심화",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/investing/jgb-futures-rise-amid-falling-crude-oil-prices-2f1d5195?mod=rss_markets_main",
       "published_ts": 1785157500.0,
       "impact_high": false
     },
     {
-      "summary": "6월 미국 내구재 주문이 전월 대비 0.3% 증가로 예상치를 밑돌았다.",
-      "source": "WSJ경제",
+      "summary": "6월 미국 내구재 주문이 전월 대비 0.3% 증가에 그쳐 경제 약세 신호",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/u-s-durable-goods-orders-rose-less-than-expected-in-june-d226a9f6",
       "published_ts": 1785157020.0,
       "impact_high": false
     },
     {
-      "summary": "트럼프 대통령의 이란 공습 일시 중단으로 국제유가가 배럴당 87달러까지 내려오면서 주가 선물지수가 상승했다.",
+      "summary": "AI 금융 호황을 활용한 지역은행이 월가 대형은행 대비 상대적 가치 개선",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/banking/main-street-banks-are-a-cheaper-way-to-play-the-ai-banking-boom-0df36b9f?mod=rss_markets_main",
+      "published_ts": 1785144600.0,
+      "impact_high": false
+    },
+    {
+      "summary": "중동 무력 충돌 소강으로 유가가 5% 근처 하락하며 다우지수는 상승",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-27-2026?mod=rss_markets_main",
       "published_ts": 1785139580.0,
       "impact_high": false
     },
     {
-      "summary": "트럼프 대통령이 만료되는 기존 관세를 새로운 관세로 대체하며 글로벌 통상 긴장을 지속했다.",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/trade/what-trumps-latest-tariffs-mean-for-the-american-economy-0641c57b",
-      "published_ts": 1784995200.0,
-      "impact_high": true
+      "summary": "인도네시아 중앙은행장 예상 외 사직으로 동남아 금융정책 독립성과 정책 방향 불확실성 증가",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/central-banking/indonesia-central-bank-chief-resigns-unexpectedly-36620c11",
+      "published_ts": 1785130260.0,
+      "impact_high": false
     },
     {
-      "summary": "이번 주 환율·채권 시장은 연준의 금리 결정과 향후 통화정책 신호에 집중할 전망이다.",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/global/week-ahead-for-fx-bonds-fed-decision-awaited-middle-east-events-eyed-83e73b63",
-      "published_ts": 1784905860.0,
-      "impact_high": true
+      "summary": "투자자 대다수가 분기보고 폐지에 반대하며 기업 공시 축소 논의에 제동",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/regulation/investors-dont-want-to-scrap-quarterly-reports-companies-should-think-twice-fed293b0?mod=rss_markets_main",
+      "published_ts": 1785058200.0,
+      "impact_high": false
     },
     {
-      "summary": "유가 급등 이전까지 미국과 유럽, 아시아 일부 지역의 경제가 7월 중 완만한 회복세를 시현했다.",
-      "source": "WSJ경제",
+      "summary": "미국·유럽·아시아 경기 활동이 에너지 가격 급등 직전까지 회복 흐름을 지속",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/global/global-economy-picked-up-before-fresh-energy-hit-cb862cc9",
       "published_ts": 1784903040.0,
       "impact_high": true
     },
     {
-      "summary": "중동 분쟁으로 원유가 급등하자 30년 고정 모기지 금리가 6.58%로 거의 1년 만에 최고 수준에 도달했다.",
-      "source": "WSJ경제",
+      "summary": "모기지 금리가 거의 1년 만에 최고 수준에 도달하며 부동산 시장 압박",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/housing/mortgage-rates-hit-highest-levels-in-nearly-a-year-ba480ebf",
       "published_ts": 1784822400.0,
       "impact_high": true
     },
     {
-      "summary": "연준 이사 Kevin Warsh가 최근 연설에서 '가족 싸움', '첫 원칙', '인플레이션은 선택'이라는 표현을 반복하며 향후 통화정책 기조를 암시하고 있다.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/22/kevin-warsh-has-homed-in-on-three-key-phrases-how-fed-watchers-interpret-them.html",
-      "published_ts": 1784739475.0,
-      "impact_high": true
+      "summary": "구글의 AI 투자 지출 우려에도 핵심 사업군의 강세로 실적 부담 상쇄 가능성",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/tech/ai/google-has-the-muscle-to-overpower-spending-worries-725a92e4?mod=rss_markets_main",
+      "published_ts": 1784799000.0,
+      "impact_high": false
     }
   ],
-  "_article_sig": "3ebaee92324b2aef4764996a453ae02ad5d70f3097fa91ac3c2e1b54725366d0",
+  "_article_sig": "41651a4fe97a2a23cccc2c610af91b38f52efdeffe109af97ff4c49e2ff1db40",
   "built_at_kst": "2026-07-25T07:02:23.616836+09:00",
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "빅테크 earnings 시즌 진입 + 연준 금리결정 임박. AI 관련 성장주 실적 미팅이 Mag Seven 선물의 방향성 결정 변수.",
+      "summary": "빅테크 실적·AI 투자 모멘텀·반도체(SK하이닉스) 호실적 결합으로 나스닥100 선물 강세. 구글 등 메가캡 기술주 매수 심화.",
       "sources": [
         {
           "name": "WSJ",
@@ -6289,54 +6295,60 @@
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/tech/ai/google-has-the-muscle-to-overpower-spending-worries-725a92e4?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/world/asia/nvidia-sk-hynix-chips-ceo-chey-divorce-30016f65"
         }
       ]
     },
     "S&P500": {
-      "summary": "중동 소강으로 유가 5% 하락, 선물 강세 전환. 연준 금리결정·매크로 경기 둔화·Trump 관세 간 불확실성이 방향성 결정 중.",
+      "summary": "중동 긴장 완화로 유가 급락(5%), 인플레 우려 경감 가운데 미국 내구재 부진 신호. 28일 연준 금리결정·관세 정책이 S&P500 변동성 결정 변수.",
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-27-2026?mod=rss_markets_main"
+          "url": "https://www.wsj.com/finance/investing/jgb-futures-rise-amid-falling-crude-oil-prices-2f1d5195?mod=rss_markets_main"
         },
         {
-          "name": "WSJ경제",
+          "name": "WSJ",
           "url": "https://www.wsj.com/economy/u-s-durable-goods-orders-rose-less-than-expected-in-june-d226a9f6"
         },
         {
-          "name": "WSJ경제",
+          "name": "WSJ",
           "url": "https://www.wsj.com/economy/global/week-ahead-for-fx-bonds-fed-decision-awaited-middle-east-events-eyed-83e73b63"
         }
       ]
     },
     "DOW": {
-      "summary": "금융주 CRE 대출 복귀 신호로 경기민감 blue chip 동조 기대. 유가 하락이 transportation 등에 긍정, 매크로 경기지표의 상충이 변동성 요인.",
+      "summary": "유가 급락 후 다우 선물 강세 전환. 금융주(대형은행)의 상업용 부동산 대출 복귀로 신용 확대 신호, 소비재 부분 실적 분화 심화.",
       "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-27-2026?mod=rss_markets_main"
+        },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/banking/big-banks-are-wading-back-into-commercial-real-estate-lending-07faec10?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-27-2026?mod=rss_markets_main"
+          "url": "https://www.wsj.com/business/retail/nikes-sneakerhead-market-share-is-slipping-thats-good-for-its-stock-70d8230c?mod=rss_markets_main"
         }
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-07-27T23:10:08.975653+09:00",
+  "intraday_refreshed_kst": "2026-07-27T23:22:31.354645+09:00",
   "futures": {
-    "as_of_kst": "2026-07-27T23:10:05.309227+09:00",
+    "as_of_kst": "2026-07-27T23:20:07.992669+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7473.25,
+        "point": 7473.5,
         "change_pct": 0.35,
         "spark": [
           7490.0,
-          7522.75,
-          7521.75,
           7519.5,
           7518.75,
           7517.75,
@@ -6374,21 +6386,23 @@
           7492.75,
           7474.0,
           7474.25,
-          7473.25
+          7475.5,
+          7467.5,
+          7473.5
         ],
         "candle": {
           "o": 7490.0,
           "h": 7524.75,
-          "l": 7473.25,
-          "c": 7473.25
+          "l": 7469.75,
+          "c": 7474.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7623.75,
           "low_date": "2025-08-21",
           "high_date": "2026-06-02",
-          "low_change_pct": 16.98,
-          "high_change_pct": -1.97
+          "low_change_pct": 17.0,
+          "high_change_pct": -1.96
         },
         "daily_expanded": [
           {
@@ -8395,25 +8409,25 @@
             "date": "2026-07-27",
             "o": 7490.0,
             "h": 7524.75,
-            "l": 7473.25,
-            "c": 7473.25,
-            "v": 357118
+            "l": 7469.75,
+            "c": 7474.0,
+            "v": 409527
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "중동 소강으로 유가 5% 하락, 선물 강세 전환. 연준 금리결정·매크로 경기 둔화·Trump 관세 간 불확실성이 방향성 결정 중.",
+          "summary": "중동 긴장 완화로 유가 급락(5%), 인플레 우려 경감 가운데 미국 내구재 부진 신호. 28일 연준 금리결정·관세 정책이 S&P500 변동성 결정 변수.",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-27-2026?mod=rss_markets_main"
+              "url": "https://www.wsj.com/finance/investing/jgb-futures-rise-amid-falling-crude-oil-prices-2f1d5195?mod=rss_markets_main"
             },
             {
-              "name": "WSJ경제",
+              "name": "WSJ",
               "url": "https://www.wsj.com/economy/u-s-durable-goods-orders-rose-less-than-expected-in-june-d226a9f6"
             },
             {
-              "name": "WSJ경제",
+              "name": "WSJ",
               "url": "https://www.wsj.com/economy/global/week-ahead-for-fx-bonds-fed-decision-awaited-middle-east-events-eyed-83e73b63"
             }
           ]
@@ -8422,12 +8436,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28338.25,
-        "change_pct": 0.2,
+        "point": 28306.75,
+        "change_pct": 0.09,
         "spark": [
           28500.0,
-          28745.0,
-          28740.75,
           28722.0,
           28714.0,
           28712.5,
@@ -8465,21 +8477,23 @@
           28459.5,
           28347.75,
           28319.5,
-          28338.25
+          28322.0,
+          28252.0,
+          28306.75
         ],
         "candle": {
           "o": 28500.0,
           "h": 28763.25,
-          "l": 28336.5,
-          "c": 28346.0
+          "l": 28277.0,
+          "c": 28306.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 22.5,
-          "high_change_pct": -7.71
+          "low_change_pct": 22.33,
+          "high_change_pct": -7.83
         },
         "daily_expanded": [
           {
@@ -10486,14 +10500,14 @@
             "date": "2026-07-27",
             "o": 28500.0,
             "h": 28763.25,
-            "l": 28336.5,
-            "c": 28346.0,
-            "v": 178969
+            "l": 28277.0,
+            "c": 28306.75,
+            "v": 200671
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "빅테크 earnings 시즌 진입 + 연준 금리결정 임박. AI 관련 성장주 실적 미팅이 Mag Seven 선물의 방향성 결정 변수.",
+          "summary": "빅테크 실적·AI 투자 모멘텀·반도체(SK하이닉스) 호실적 결합으로 나스닥100 선물 강세. 구글 등 메가캡 기술주 매수 심화.",
           "sources": [
             {
               "name": "WSJ",
@@ -10502,6 +10516,10 @@
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/tech/ai/google-has-the-muscle-to-overpower-spending-worries-725a92e4?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/world/asia/nvidia-sk-hynix-chips-ceo-chey-divorce-30016f65"
             }
           ]
         }
@@ -10509,12 +10527,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52580.0,
-        "change_pct": 0.87,
+        "point": 52562.0,
+        "change_pct": 0.84,
         "spark": [
           52299.0,
-          52700.0,
-          52700.0,
           52692.0,
           52709.0,
           52703.0,
@@ -10552,21 +10568,23 @@
           52657.0,
           52579.0,
           52609.0,
-          52580.0
+          52574.0,
+          52574.0,
+          52562.0
         ],
         "candle": {
           "o": 52299.0,
           "h": 52790.0,
           "l": 52299.0,
-          "c": 52580.0
+          "c": 52551.0
         },
         "range_240d": {
           "low": 44558.0,
           "high": 53372.0,
           "low_date": "2025-08-12",
           "high_date": "2026-07-06",
-          "low_change_pct": 18.0,
-          "high_change_pct": -1.48
+          "low_change_pct": 17.94,
+          "high_change_pct": -1.54
         },
         "daily_expanded": [
           {
@@ -12574,21 +12592,25 @@
             "o": 52299.0,
             "h": 52790.0,
             "l": 52299.0,
-            "c": 52580.0,
-            "v": 33791
+            "c": 52551.0,
+            "v": 37212
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "금융주 CRE 대출 복귀 신호로 경기민감 blue chip 동조 기대. 유가 하락이 transportation 등에 긍정, 매크로 경기지표의 상충이 변동성 요인.",
+          "summary": "유가 급락 후 다우 선물 강세 전환. 금융주(대형은행)의 상업용 부동산 대출 복귀로 신용 확대 신호, 소비재 부분 실적 분화 심화.",
           "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-27-2026?mod=rss_markets_main"
+            },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/banking/big-banks-are-wading-back-into-commercial-real-estate-lending-07faec10?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-27-2026?mod=rss_markets_main"
+              "url": "https://www.wsj.com/business/retail/nikes-sneakerhead-market-share-is-slipping-thats-good-for-its-stock-70d8230c?mod=rss_markets_main"
             }
           ]
         }
