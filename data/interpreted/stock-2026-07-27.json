@@ -1,6 +1,6 @@
 {
   "date": "2026-07-27",
-  "generated_at": "2026-07-27T09:05:10.915674",
+  "generated_at": "2026-07-27T09:05:15.905876",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -20,20 +20,20 @@
       "industry": null,
       "sector": null,
       "themes": [
-        "케이블",
-        "전신/전력"
+        "전신/전력",
+        "케이블"
       ],
       "theme_paths": [
-        {
-          "name": "케이블",
-          "path": [
-            "케이블"
-          ]
-        },
         {
           "name": "전신/전력",
           "path": [
             "전신/전력"
+          ]
+        },
+        {
+          "name": "케이블",
+          "path": [
+            "케이블"
           ]
         }
       ],
@@ -44,17 +44,13 @@
       "bullish_dates": [],
       "news": [],
       "fallback": true,
-      "cafe_themes": [
-        "전신/전력"
-      ],
       "theme_crosscheck": {
         "confirmed": [
+          "전신/전력",
           "케이블"
         ],
         "pm320_only": [],
-        "cafe_only": [
-          "전신/전력"
-        ]
+        "cafe_only": []
       },
       "range_240d": {
         "high": 20300,
@@ -64,7 +60,12 @@
         "low_date": "2025-09-03",
         "low_pct": 363.29,
         "current": null
-      }
+      },
+      "togusa_verdict": "weak_bull",
+      "theme_leader": true,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "347860",
@@ -88,7 +89,10 @@
       "news": [],
       "fallback": true,
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "368600",
@@ -278,7 +282,12 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "199730",
@@ -302,7 +311,10 @@
       "news": [],
       "fallback": true,
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     }
   ]
 }
