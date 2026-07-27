@@ -1,6 +1,6 @@
 {
   "date": "2026-07-27",
-  "generated_at": "2026-07-27T09:25:13.134353",
+  "generated_at": "2026-07-27T09:26:42.680167",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -687,7 +687,12 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "417860",
@@ -701,8 +706,19 @@
       "low_price": 7000,
       "industry": "소프트웨어 개발 및 공급업",
       "sector": "CRM 소프트웨어",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "AI",
+        "AI에이전트"
+      ],
+      "theme_paths": [
+        {
+          "name": "AI에이전트",
+          "path": [
+            "AI",
+            "AI에이전트"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": false,
@@ -714,16 +730,16 @@
           "url": "https://www.etoday.co.kr/news/view/2607623",
           "source": "이투데이",
           "published_at": "2026-07-27T00:17:00",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "네이버-엔비디아 AI 투자 소식으로 국내 AI 생태계 파트너십 가치가 재평가 → AI 마케팅·CRM 소프트웨어가 본업인 오브젠이 도메인 직접 수혜주로 부각 → 매수세 집중으로 당일 상한가(+30.00%)·종가 7,930원 마감(거래대금 7억원의 얇은 유동성).",
+          "macro_event": "네이버-엔비디아 AI 투자·협력 소식으로 국내 AI 소프트웨어 파트너십 가치 재평가",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.5,
+          "newzy_virality": 0.4,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.46,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "시세정형"
         }
       ],
       "fallback": false,
@@ -895,9 +911,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "208640",
@@ -1094,7 +1110,12 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "투자경고"
+      "credit_reason": "투자경고",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "199730",
