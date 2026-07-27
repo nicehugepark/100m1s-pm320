@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 24831.27,
+      "point": 24831.66,
       "change_pct": -0.58,
       "candle": {
         "o": 25239.26,
         "h": 25260.27,
         "l": 24775.82,
-        "c": 24831.27
+        "c": 24831.66
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,13 +2033,11 @@
           "o": 25239.26,
           "h": 25260.27,
           "l": 24775.82,
-          "c": 24831.27
+          "c": 24831.66
         }
       ],
       "spark": [
         25239.26,
-        24885.91,
-        24867.62,
         24854.28,
         24780.28,
         24872.33,
@@ -2077,7 +2075,9 @@
         24808.45,
         24847.26,
         24835.41,
-        24831.27
+        24830.65,
+        24833.18,
+        24831.66
       ],
       "news": {
         "summary": "AI 과투자 우려로 빅테크 $890B 손실 기록 vs. 구글 등 핵심주 실적 강세로 회복세 견인. 반도체 공급 거래 지속성 논란과 AI 위험 규제 강화가 변수.",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7390.55,
-      "change_pct": -0.29,
+      "point": 7391.52,
+      "change_pct": -0.28,
       "candle": {
         "o": 7464.2,
         "h": 7480.57,
         "l": 7382.74,
-        "c": 7390.55
+        "c": 7391.52
       },
       "range_240d": {
         "low": 6343.72,
@@ -4131,13 +4131,11 @@
           "o": 7464.2,
           "h": 7480.57,
           "l": 7382.74,
-          "c": 7390.55
+          "c": 7391.52
         }
       ],
       "spark": [
         7464.2,
-        7406.15,
-        7403.25,
         7403.84,
         7390.65,
         7403.55,
@@ -4175,7 +4173,9 @@
         7385.5,
         7394.95,
         7391.41,
-        7390.55
+        7391.59,
+        7391.25,
+        7391.52
       ],
       "news": {
         "summary": "연준 금리 결정 임박, 중동 지정학 긴장과 유가 $100 돌파에 인플레 재점화 우려 재확산. 글로벌 채권 수익률 상승과 기술주 지출 논란 속 시장 회복 충돌.",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 52046.92,
-      "change_pct": 0.19,
+      "point": 52052.51,
+      "change_pct": 0.2,
       "candle": {
         "o": 52173.42,
         "h": 52607.78,
         "l": 51985.38,
-        "c": 52046.92
+        "c": 52052.51
       },
       "range_240d": {
         "low": 43975.09,
@@ -6229,13 +6229,11 @@
           "o": 52173.42,
           "h": 52607.78,
           "l": 51985.38,
-          "c": 52046.92
+          "c": 52052.51
         }
       ],
       "spark": [
         52173.42,
-        52246.48,
-        52204.44,
         52207.33,
         52139.85,
         52143.31,
@@ -6273,7 +6271,9 @@
         52005.26,
         52061.46,
         52047.65,
-        52046.92
+        52062.28,
+        52055.4,
+        52052.51
       ],
       "news": {
         "summary": "은행 부동산 대출 재개와 금융기관 실적 견조 vs. 일반 소비재 기업 투자자 관심 상실 심화. 럭셔리 소비와 주택시장 양극화 속 경기민감주 분화 현상.",
@@ -6298,146 +6298,143 @@
   ],
   "news_chips": [
     {
-      "summary": "싱가포르 중앙은행 긴축으로 유가 상승에 따른 인플레 관리",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/singapore-central-bank-delivers-surprise-back-to-back-tightening-04300256",
-      "published_ts": 1785122760.0,
+      "summary": "싱가포르 중앙은행이 중동 유가 상승에 따른 인플레이션 리스크에 대응해 기준금리를 인상했다",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/27/singapore-mas-july-monetary-policy-middle-east-oil-prices-inflation-.html",
+      "published_ts": 1785162135.0,
       "impact_high": true
     },
     {
-      "summary": "미-이란 적대 완화로 미국채 10년물 수익률 하락",
+      "summary": "이번주 거대 기술주 실적과 연준 금리 결정이 미장 상승세의 지속성을 시험할 전망이다",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/stocks/big-tech-earnings-and-fed-rate-decision-put-stock-rally-to-the-test-be602633?mod=rss_markets_main",
+      "published_ts": 1785147000.0,
+      "impact_high": true
+    },
+    {
+      "summary": "유가 하락에도 엔비디아 등 반도체주가 약세를 나타냈다",
+      "source": "한경",
+      "url": "https://www.hankyung.com/article/202607289209i",
+      "published_ts": 1785171685.0,
+      "impact_high": false
+    },
+    {
+      "summary": "미국-이란 무력 긴장 완화로 10년물·2년물 트레저리 수익률이 하락했다",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/investing/jgb-futures-rise-amid-falling-crude-oil-prices-2f1d5195?mod=rss_markets_main",
       "published_ts": 1785157500.0,
       "impact_high": false
     },
     {
-      "summary": "미국 내구재 주문 증가가 예상 미달로 경기 선행지표 약화",
-      "source": "WSJ경제",
+      "summary": "미국 6월 내구재 신규 주문이 0.3% 증가로 시장 예상을 하회했다",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/u-s-durable-goods-orders-rose-less-than-expected-in-june-d226a9f6",
       "published_ts": 1785157020.0,
       "impact_high": false
     },
     {
-      "summary": "나스닥 반도체주 약세 주도로 하락, 중동 긴장 완화에 유가 내림",
+      "summary": "독일 기업심리가 중동 불확실성에도 불구하고 개선세를 보였다",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/central-banking/german-business-sentiment-improves-shrugging-off-middle-east-uncertainties-8f1318a1",
+      "published_ts": 1785147840.0,
+      "impact_high": false
+    },
+    {
+      "summary": "반도체주 약세로 나스닥이 하락했고, 트럼프의 중동 군사작전 일시 중단으로 유가는 하락했다",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-27-2026?mod=rss_markets_main",
       "published_ts": 1785139580.0,
       "impact_high": false
     },
     {
-      "summary": "미국의 이란 공격 일시 중단으로 에너지 시장 긴장 완화",
-      "source": "WSJ세계",
+      "summary": "미국이 이란 군사작전 확대를 일시 중단하면서 유가 상승 위험이 완화되었다",
+      "source": "WSJ",
       "url": "https://www.wsj.com/world/middle-east/trump-pauses-iran-strikes-as-officials-weigh-dwindling-air-defense-stocks-c7d7ebb0",
       "published_ts": 1785094200.0,
       "impact_high": false
     },
     {
-      "summary": "예멘 휴전 붕괴로 중동 전쟁 확대 우려, 에너지 공급 위협 증가",
-      "source": "WSJ세계",
+      "summary": "예멘 휴전 결렬로 중동 분쟁 확산이 우려되면서 글로벌 에너지 시장이 압박받고 있다",
+      "source": "WSJ",
       "url": "https://www.wsj.com/world/middle-east/a-truce-in-yemen-unravels-threatening-to-widen-mideast-war-d0b2b678",
       "published_ts": 1785083220.0,
       "impact_high": true
     },
     {
-      "summary": "트럼프 신규 관세 시행으로 무역 보호주의 강화 신호",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/trade/what-trumps-latest-tariffs-mean-for-the-american-economy-0641c57b",
-      "published_ts": 1784995200.0,
-      "impact_high": true
-    },
-    {
-      "summary": "연준 금리 결정과 중동 분쟁 전개가 주간 시장 초점",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/global/week-ahead-for-fx-bonds-fed-decision-awaited-middle-east-events-eyed-83e73b63",
-      "published_ts": 1784905860.0,
-      "impact_high": true
-    },
-    {
-      "summary": "글로벌 경제 회복 후 유가 급등으로 매크로 하방 리스크 증가",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/global/global-economy-picked-up-before-fresh-energy-hit-cb862cc9",
-      "published_ts": 1784903040.0,
-      "impact_high": true
-    },
-    {
-      "summary": "글로벌 가계자산 증가로 AI 수익성 기대 부풀어지며 기술주 변동성 위험",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/global/global-household-wealth-jumped-in-2025-raising-stakes-for-profitability-of-ai-1ecebcf6",
-      "published_ts": 1784780160.0,
+      "summary": "중동 긴장으로 인한 인플레이션 우려가 30년물 고정금리를 근 1년 최고 수준으로 끌어올렸다",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/housing/mortgage-rates-hit-highest-levels-in-nearly-a-year-ba480ebf",
+      "published_ts": 1784822400.0,
       "impact_high": true
     }
   ],
-  "_article_sig": "1a23f76248412decc6c02d3126eda39e28c152dfbf6b2553381d1e694150c48b",
+  "_article_sig": "b5530b809af33408357c6568e4c8ec3f341706d1a55189e8bab5c138ef7a38db",
   "built_at_kst": "2026-07-25T07:02:23.616836+09:00",
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "반도체 약세 우위. 유가 급락(Iran 일시 휴전)에 기술주 동조 낙폭 확대 중. 빅테크 실적 검증 시점 진입으로 AI 투자 수익성 증명 부담 가중.",
+      "summary": "반도체 약세 가속화 중. 엔비디아 보증 관련 우려로 칩 부진 심화. 중국 CXMT 메모리 상장 후 시총 1위 달성으로 공급망 재편 신호. 빅테크 AI 투자 불확실성 대응 과제.",
       "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-27-2026?mod=rss_markets_main"
+        },
         {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/202607289209i"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-27-2026?mod=rss_markets_main"
-        },
-        {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/2026072788611"
+          "url": "https://www.wsj.com/finance/stocks/big-tech-earnings-and-fed-rate-decision-put-stock-rally-to-the-test-be602633?mod=rss_markets_main"
         }
       ]
     },
     "S&P500": {
-      "summary": "연준 금리 결정 임박으로 시장 초점 집중. 유가 하락(Iran 일시 휴전)으로 인플레 둔화·금리 인하 기대감 강화 중. 경기 약화 신호(내구재 부진, 주택금리 급등) 대비 글로벌 통화 긴축(싱가포르 MAS) 신흥국 리스크 부상.",
+      "summary": "연준 금리 결정 대기 국면. 트럼프 신 관세 시행(강제노동·의약품)으로 무역 불확실성 심화. 중동 긴장 완화로 유가 하락하나 모기지율 상승(6.58%)으로 주택시장 압박 심화. 에너지 충격 이전까지 글로벌 경기 완만한 회복 모멘텀.",
       "sources": [
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/jgb-futures-rise-amid-falling-crude-oil-prices-2f1d5195?mod=rss_markets_main"
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/global/week-ahead-for-fx-bonds-fed-decision-awaited-middle-east-events-eyed-83e73b63"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/big-tech-earnings-and-fed-rate-decision-put-stock-rally-to-the-test-be602633?mod=rss_markets_main"
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/trade/what-trumps-latest-tariffs-mean-for-the-american-economy-0641c57b"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/economy/central-banking/singapore-central-bank-delivers-surprise-back-to-back-tightening-04300256"
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/housing/mortgage-rates-hit-highest-levels-in-nearly-a-year-ba480ebf"
         }
       ]
     },
     "DOW": {
-      "summary": "에너지·금융주 약세 점진화. 유가 급락(Iran 휴전)에 에너지주 동조 낙폭, 금리 인하 기대로 금융주도 약화 신호. 경기민감주 낙폭 확대(내구재·주택 부진), Trump 관세·정책 영향 지속 중.",
+      "summary": "중동 지정학 긴장 완화 신호. 트럼프 이란 강경 정책 보류로 에너지 시장 안정화 국면. 대형은행의 CRE 대출 재개로 금융부문 활동성 회복. 중동 전쟁 확대 우려 후퇴.",
       "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/trump-pauses-iran-strikes-as-officials-weigh-dwindling-air-defense-stocks-c7d7ebb0"
+        },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/banking/big-banks-are-wading-back-into-commercial-real-estate-lending-07faec10?mod=rss_markets_main"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-27-2026?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/four-takeaways-from-our-report-on-the-irs-chief-who-spied-on-colleagues-at-jpmorgan-b4b2519f?mod=rss_markets_main"
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/a-truce-in-yemen-unravels-threatening-to-widen-mideast-war-d0b2b678"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-07-28T02:40:03.770778+09:00",
+    "as_of_kst": "2026-07-28T02:50:03.376486+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7429.5,
-        "change_pct": -0.24,
+        "point": 7423.75,
+        "change_pct": -0.32,
         "spark": [
           7490.0,
-          7467.5,
-          7456.25,
-          7440.75,
           7437.5,
           7438.75,
           7426.0,
@@ -6474,21 +6471,24 @@
           7420.25,
           7421.75,
           7420.0,
-          7429.5
+          7429.5,
+          7424.75,
+          7426.0,
+          7423.75
         ],
         "candle": {
           "o": 7490.0,
           "h": 7524.75,
           "l": 7416.25,
-          "c": 7420.25
+          "c": 7425.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7623.75,
           "low_date": "2025-08-21",
           "high_date": "2026-06-02",
-          "low_change_pct": 16.15,
-          "high_change_pct": -2.67
+          "low_change_pct": 16.23,
+          "high_change_pct": -2.61
         },
         "daily_expanded": [
           {
@@ -8496,25 +8496,25 @@
             "o": 7490.0,
             "h": 7524.75,
             "l": 7416.25,
-            "c": 7420.25,
-            "v": 1044782
+            "c": 7425.0,
+            "v": 1061455
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "연준 금리 결정 임박으로 시장 초점 집중. 유가 하락(Iran 일시 휴전)으로 인플레 둔화·금리 인하 기대감 강화 중. 경기 약화 신호(내구재 부진, 주택금리 급등) 대비 글로벌 통화 긴축(싱가포르 MAS) 신흥국 리스크 부상.",
+          "summary": "연준 금리 결정 대기 국면. 트럼프 신 관세 시행(강제노동·의약품)으로 무역 불확실성 심화. 중동 긴장 완화로 유가 하락하나 모기지율 상승(6.58%)으로 주택시장 압박 심화. 에너지 충격 이전까지 글로벌 경기 완만한 회복 모멘텀.",
           "sources": [
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/jgb-futures-rise-amid-falling-crude-oil-prices-2f1d5195?mod=rss_markets_main"
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/global/week-ahead-for-fx-bonds-fed-decision-awaited-middle-east-events-eyed-83e73b63"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/big-tech-earnings-and-fed-rate-decision-put-stock-rally-to-the-test-be602633?mod=rss_markets_main"
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/trade/what-trumps-latest-tariffs-mean-for-the-american-economy-0641c57b"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/economy/central-banking/singapore-central-bank-delivers-surprise-back-to-back-tightening-04300256"
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/housing/mortgage-rates-hit-highest-levels-in-nearly-a-year-ba480ebf"
             }
           ]
         }
@@ -8522,12 +8522,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 27999.0,
-        "change_pct": -1.0,
+        "point": 28025.0,
+        "change_pct": -0.91,
         "spark": [
           28500.0,
-          28182.0,
-          28086.25,
           28050.75,
           28031.0,
           27959.0,
@@ -8565,21 +8563,23 @@
           28011.25,
           27998.75,
           28059.5,
-          27999.0
+          28030.5,
+          28036.25,
+          28025.0
         ],
         "candle": {
           "o": 28500.0,
           "h": 28763.25,
           "l": 27939.0,
-          "c": 27999.0
+          "c": 28025.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 21.0,
-          "high_change_pct": -8.84
+          "low_change_pct": 21.11,
+          "high_change_pct": -8.75
         },
         "daily_expanded": [
           {
@@ -10587,25 +10587,25 @@
             "o": 28500.0,
             "h": 28763.25,
             "l": 27939.0,
-            "c": 27999.0,
-            "v": 458061
+            "c": 28025.0,
+            "v": 464514
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "반도체 약세 우위. 유가 급락(Iran 일시 휴전)에 기술주 동조 낙폭 확대 중. 빅테크 실적 검증 시점 진입으로 AI 투자 수익성 증명 부담 가중.",
+          "summary": "반도체 약세 가속화 중. 엔비디아 보증 관련 우려로 칩 부진 심화. 중국 CXMT 메모리 상장 후 시총 1위 달성으로 공급망 재편 신호. 빅테크 AI 투자 불확실성 대응 과제.",
           "sources": [
-            {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/202607289209i"
-            },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-27-2026?mod=rss_markets_main"
             },
             {
               "name": "한경국제",
-              "url": "https://www.hankyung.com/article/2026072788611"
+              "url": "https://www.hankyung.com/article/202607289209i"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/big-tech-earnings-and-fed-rate-decision-put-stock-rally-to-the-test-be602633?mod=rss_markets_main"
             }
           ]
         }
@@ -10613,12 +10613,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52242.0,
-        "change_pct": 0.23,
+        "point": 52233.0,
+        "change_pct": 0.21,
         "spark": [
           52299.0,
-          52553.0,
-          52496.0,
           52424.0,
           52385.0,
           52385.0,
@@ -10656,21 +10654,23 @@
           52196.0,
           52219.0,
           52197.0,
-          52242.0
+          52242.0,
+          52233.0,
+          52233.0
         ],
         "candle": {
           "o": 52299.0,
           "h": 52790.0,
           "l": 52173.0,
-          "c": 52193.0
+          "c": 52233.0
         },
         "range_240d": {
           "low": 44558.0,
           "high": 53372.0,
           "low_date": "2025-08-12",
           "high_date": "2026-07-06",
-          "low_change_pct": 17.13,
-          "high_change_pct": -2.21
+          "low_change_pct": 17.22,
+          "high_change_pct": -2.13
         },
         "daily_expanded": [
           {
@@ -12678,30 +12678,30 @@
             "o": 52299.0,
             "h": 52790.0,
             "l": 52173.0,
-            "c": 52193.0,
-            "v": 70713
+            "c": 52233.0,
+            "v": 71511
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "에너지·금융주 약세 점진화. 유가 급락(Iran 휴전)에 에너지주 동조 낙폭, 금리 인하 기대로 금융주도 약화 신호. 경기민감주 낙폭 확대(내구재·주택 부진), Trump 관세·정책 영향 지속 중.",
+          "summary": "중동 지정학 긴장 완화 신호. 트럼프 이란 강경 정책 보류로 에너지 시장 안정화 국면. 대형은행의 CRE 대출 재개로 금융부문 활동성 회복. 중동 전쟁 확대 우려 후퇴.",
           "sources": [
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/trump-pauses-iran-strikes-as-officials-weigh-dwindling-air-defense-stocks-c7d7ebb0"
+            },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/banking/big-banks-are-wading-back-into-commercial-real-estate-lending-07faec10?mod=rss_markets_main"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-27-2026?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/four-takeaways-from-our-report-on-the-irs-chief-who-spied-on-colleagues-at-jpmorgan-b4b2519f?mod=rss_markets_main"
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/a-truce-in-yemen-unravels-threatening-to-widen-mideast-war-d0b2b678"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-07-28T02:40:07.259791+09:00"
+  "intraday_refreshed_kst": "2026-07-28T02:53:24.148584+09:00"
 }
