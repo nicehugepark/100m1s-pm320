@@ -1,6 +1,6 @@
 {
   "date": "2026-07-27",
-  "generated_at": "2026-07-27T09:46:25.367316",
+  "generated_at": "2026-07-27T09:55:11.424345",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -9,11 +9,50 @@
     "date": "2026-07-27",
     "roots": [
       {
+        "name": "실적 턴어라운드",
+        "children": [
+          {
+            "name": "실적 흑자전환",
+            "summary": "바이오인프라의 2분기 영업이익 흑자전환이 복수 매체로 확인되며 실적 개선 기대가 매수세를 유발.",
+            "source_count": 2,
+            "verdict": "pass"
+          }
+        ]
+      },
+      {
         "name": "AI 인프라",
         "children": [
           {
             "name": "네이버-엔비디아 AI 파트너십",
             "summary": "네이버-엔비디아 투자 소식으로 AI 파트너십이 재평가되며 관련 AI 소프트웨어·인프라 수혜주로 자금 유입",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "네이버-엔비디아 AI 파트너십",
+            "summary": "네이버-엔비디아 투자 소식으로 AI 파트너십이 재평가되며 관련 AI 소프트웨어·인프라 수혜주로 자금 유입",
+            "source_count": 1,
+            "verdict": "weak"
+          }
+        ]
+      },
+      {
+        "name": "IT 부품",
+        "children": [
+          {
+            "name": "폴더블폰 부품·소재",
+            "summary": "삼성전자 폴더블폰 소재 공급 소식에 아이씨에이치가 상한가로 반응하며 폴더블 확대 기대가 부품·소재 섹터로 확산.",
+            "source_count": 1,
+            "verdict": "pass"
+          }
+        ]
+      },
+      {
+        "name": "AI",
+        "children": [
+          {
+            "name": "AI 인프라",
+            "summary": "네이버-엔비디아 투자 소식으로 오브젠의 AI 파트너십이 재평가되며 AI 인프라·솔루션 수혜주로 자금 유입.",
             "source_count": 1,
             "verdict": "weak"
           }
@@ -26,9 +65,9 @@
       "code": "006340",
       "name": "대원전선",
       "rank": 1,
-      "trade_amount": 128826000000,
-      "change_pct": 4.15,
-      "close_price": 14300,
+      "trade_amount": 136558000000,
+      "change_pct": 5.32,
+      "close_price": 14460,
       "open_price": 14360,
       "high_price": 15200,
       "low_price": 13760,
@@ -70,17 +109,17 @@
         "pm320_only": [],
         "cafe_only": []
       },
-      "index_change_pct": 0.62,
-      "index_multiple_current": 6.69,
+      "index_change_pct": 1.23,
+      "index_multiple_current": 4.33,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 20300,
         "high_date": "2026-05-06",
-        "high_pct": -29.56,
+        "high_pct": -28.77,
         "low": 2765,
         "low_date": "2025-09-03",
-        "low_pct": 417.18,
-        "current": 14300
+        "low_pct": 422.97,
+        "current": 14460
       },
       "daily_20": [
         {
@@ -221,7 +260,7 @@
           "o": 14360,
           "h": 15200,
           "l": 13760,
-          "c": 14300
+          "c": 14460
         }
       ],
       "intraday": {
@@ -237,7 +276,9 @@
           14440,
           14330,
           14270,
-          14290
+          14270,
+          14500,
+          14480
         ]
       },
       "togusa_verdict": "weak_bull",
@@ -250,7 +291,7 @@
       "code": "368600",
       "name": "아이씨에이치",
       "rank": 2,
-      "trade_amount": 2005000000,
+      "trade_amount": 2012000000,
       "change_pct": 29.94,
       "close_price": 1033,
       "open_price": 1033,
@@ -300,8 +341,8 @@
         }
       ],
       "fallback": false,
-      "index_change_pct": 3.03,
-      "index_multiple_current": 9.88,
+      "index_change_pct": 4.13,
+      "index_multiple_current": 7.25,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 2491,
@@ -494,6 +535,7 @@
           1033,
           1033,
           1033,
+          1033,
           1033
         ]
       },
@@ -507,7 +549,7 @@
       "code": "199430",
       "name": "케이엔알시스템",
       "rank": 3,
-      "trade_amount": 1352000000,
+      "trade_amount": 1356000000,
       "change_pct": 29.96,
       "close_price": 14270,
       "open_price": 12960,
@@ -540,8 +582,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 3.03,
-      "index_multiple_current": 9.89,
+      "index_change_pct": 4.13,
+      "index_multiple_current": 7.25,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 45300,
@@ -734,6 +776,7 @@
           14270,
           14270,
           14270,
+          14270,
           14270
         ]
       },
@@ -749,7 +792,7 @@
       "code": "417860",
       "name": "오브젠",
       "rank": 4,
-      "trade_amount": 771000000,
+      "trade_amount": 781000000,
       "change_pct": 30.0,
       "close_price": 7930,
       "open_price": 7410,
@@ -794,8 +837,8 @@
         }
       ],
       "fallback": false,
-      "index_change_pct": 3.03,
-      "index_multiple_current": 9.9,
+      "index_change_pct": 4.13,
+      "index_multiple_current": 7.26,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 19480,
@@ -960,6 +1003,9 @@
           7930,
           7930,
           7930,
+          7930,
+          7930,
+          7930,
           7930
         ]
       },
@@ -973,7 +1019,7 @@
       "code": "208640",
       "name": "썸에이지",
       "rank": 5,
-      "trade_amount": 729000000,
+      "trade_amount": 736000000,
       "change_pct": 30.0,
       "close_price": 1157,
       "open_price": 894,
@@ -1009,8 +1055,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 3.03,
-      "index_multiple_current": 9.9,
+      "index_change_pct": 4.13,
+      "index_multiple_current": 7.26,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 7106,
@@ -1175,6 +1221,8 @@
           1157,
           1157,
           1157,
+          1157,
+          1157,
           1157
         ]
       },
@@ -1190,7 +1238,7 @@
       "code": "199730",
       "name": "바이오인프라",
       "rank": 6,
-      "trade_amount": 97000000,
+      "trade_amount": 98000000,
       "change_pct": 29.7,
       "close_price": 2035,
       "open_price": 2035,
@@ -1242,8 +1290,8 @@
         }
       ],
       "fallback": false,
-      "index_change_pct": 3.03,
-      "index_multiple_current": 9.8,
+      "index_change_pct": 4.13,
+      "index_multiple_current": 7.19,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 5880,
@@ -1401,6 +1449,8 @@
         "open": 2035,
         "base": 2035,
         "prices": [
+          2035,
+          2035,
           2035,
           2035,
           2035,
