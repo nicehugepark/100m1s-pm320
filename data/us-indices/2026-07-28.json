@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 24973.76,
-      "change_pct": -0.01,
+      "point": 24938.35,
+      "change_pct": -0.15,
       "candle": {
         "o": 25239.26,
         "h": 25260.27,
         "l": 24775.82,
-        "c": 24973.76
+        "c": 24938.35
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,13 +2033,11 @@
           "o": 25239.26,
           "h": 25260.27,
           "l": 24775.82,
-          "c": 24973.76
+          "c": 24938.35
         }
       ],
       "spark": [
         25239.26,
-        24860.69,
-        24883.48,
         24931.46,
         24930.43,
         24939.63,
@@ -2077,7 +2075,9 @@
         24957.09,
         24966.44,
         24974.24,
-        24973.76
+        24977.85,
+        24934.93,
+        24938.35
       ],
       "news": {
         "summary": "AI 과투자 우려로 빅테크 $890B 손실 기록 vs. 구글 등 핵심주 실적 강세로 회복세 견인. 반도체 공급 거래 지속성 논란과 AI 위험 규제 강화가 변수.",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7419.6,
-      "change_pct": 0.1,
+      "point": 7414.19,
+      "change_pct": 0.03,
       "candle": {
         "o": 7464.2,
         "h": 7480.57,
         "l": 7382.74,
-        "c": 7419.6
+        "c": 7414.19
       },
       "range_240d": {
         "low": 6343.72,
@@ -4131,13 +4131,11 @@
           "o": 7464.2,
           "h": 7480.57,
           "l": 7382.74,
-          "c": 7419.6
+          "c": 7414.19
         }
       ],
       "spark": [
         7464.2,
-        7396.41,
-        7401.43,
         7410.95,
         7412.26,
         7412.85,
@@ -4175,7 +4173,9 @@
         7418.55,
         7420.16,
         7420.4,
-        7419.6
+        7419.71,
+        7413.1,
+        7414.19
       ],
       "news": {
         "summary": "연준 금리 결정 임박, 중동 지정학 긴장과 유가 $100 돌파에 인플레 재점화 우려 재확산. 글로벌 채권 수익률 상승과 기술주 지출 논란 속 시장 회복 충돌.",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 52187.53,
-      "change_pct": 0.46,
+      "point": 52192.91,
+      "change_pct": 0.47,
       "candle": {
         "o": 52173.42,
         "h": 52607.78,
         "l": 51985.38,
-        "c": 52187.53
+        "c": 52192.91
       },
       "range_240d": {
         "low": 43975.09,
@@ -6229,13 +6229,11 @@
           "o": 52173.42,
           "h": 52607.78,
           "l": 51985.38,
-          "c": 52187.53
+          "c": 52192.91
         }
       ],
       "spark": [
         52173.42,
-        52044.05,
-        52080.36,
         52142.93,
         52183.33,
         52149.15,
@@ -6273,7 +6271,9 @@
         52197.24,
         52194.09,
         52190.22,
-        52187.53
+        52202.96,
+        52193.32,
+        52192.91
       ],
       "news": {
         "summary": "은행 부동산 대출 재개와 금융기관 실적 견조 vs. 일반 소비재 기업 투자자 관심 상실 심화. 럭셔리 소비와 주택시장 양극화 속 경기민감주 분화 현상.",
@@ -6298,90 +6298,86 @@
   ],
   "news_chips": [
     {
-      "summary": "싱가포르 중앙은행이 유가 상승에 따른 인플레이션 우려로 기준금리 추가 인상",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/singapore-central-bank-delivers-surprise-back-to-back-tightening-04300256",
-      "published_ts": 1785122760.0,
+      "summary": "싱가포르 중앙은행이 유가 상승에 따른 인플레이션 위험을 견제하며 기준금리를 예상 외 인상",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/27/singapore-mas-july-monetary-policy-middle-east-oil-prices-inflation-.html",
+      "published_ts": 1785162135.0,
       "impact_high": true
     },
     {
-      "summary": "6월 내구재 주문 0.3% 증가로 경기 회복력 약화 신호 발생",
+      "summary": "빅테크 2분기 실적과 연준 금리 결정이 현물주 상승 랠리를 시험하는 국면",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/stocks/big-tech-earnings-and-fed-rate-decision-put-stock-rally-to-the-test-be602633?mod=rss_markets_main",
+      "published_ts": 1785147000.0,
+      "impact_high": true
+    },
+    {
+      "summary": "미국 10년물·2년물 국채 수익률이 이란과의 무력 충돌 휴지에 따라 하락",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/investing/jgb-futures-rise-amid-falling-crude-oil-prices-2f1d5195?mod=rss_markets_main",
+      "published_ts": 1785157500.0,
+      "impact_high": false
+    },
+    {
+      "summary": "미국 6월 내구재 주문이 0.3% 증가로 시장 예상(0.3% 이상)을 하회",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/u-s-durable-goods-orders-rose-less-than-expected-in-june-d226a9f6",
       "published_ts": 1785157020.0,
       "impact_high": false
     },
     {
-      "summary": "반도체 약세로 나스닥 지수 하락 마감, 유가 급락 후 기술주 하방 압박 지속",
+      "summary": "반도체 주가 약세가 나스닥 지수 하락의 주요 견인 요인",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-27-2026?mod=rss_markets_main",
       "published_ts": 1785139580.0,
       "impact_high": false
     },
     {
-      "summary": "트럼프 이란 공격 일시 중단 결정으로 유가 5% 급락, 에너지 시장 약세 전환",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/trump-pauses-iran-strikes-as-officials-weigh-dwindling-air-defense-stocks-c7d7ebb0",
-      "published_ts": 1785094200.0,
+      "summary": "트럼프 행정부의 이란 공습 일시 중단으로 국제유가가 약 5% 하락",
+      "source": "한경",
+      "url": "https://www.hankyung.com/article/202607277961i",
+      "published_ts": 1785123134.0,
       "impact_high": false
     },
     {
-      "summary": "예멘 휴전 붕괴로 사우디-후티 무력충돌 재개, 글로벌 에너지 공급망 위험 확대",
+      "summary": "예멘 호우티 민병대와 사우디 간 휴전 붕괴로 중동 전쟁 확대 가능성이 글로벌 에너지 시장 압박",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/a-truce-in-yemen-unravels-threatening-to-widen-mideast-war-d0b2b678",
       "published_ts": 1785083220.0,
       "impact_high": true
     },
     {
-      "summary": "연준 금리 결정이 주간 초점으로, 중동 지정학 사건과 연계 모니터링",
+      "summary": "연방준비제도(Fed)의 금리 결정이 외환·채권 시장의 주요 변수이며, 중동 정세도 시장 영향 요인으로 주시",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/global/week-ahead-for-fx-bonds-fed-decision-awaited-middle-east-events-eyed-83e73b63",
       "published_ts": 1784905860.0,
       "impact_high": true
     },
     {
-      "summary": "7월 초 글로벌 경제 활동 회복세 보였으나, 유가 급등으로 선행 전망 악화",
+      "summary": "세계 경제가 7월 회복세를 보였으나 유가 급등이 신규 인플레이션 리스크로 부상",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/global/global-economy-picked-up-before-fresh-energy-hit-cb862cc9",
       "published_ts": 1784903040.0,
       "impact_high": true
     },
     {
-      "summary": "중동 긴장에 따른 유가 상승으로 인플레이션 우려 재점화, 30년 모기지금리 6.58% 수준",
+      "summary": "미국 30년 고정금리 모기지가 6.58%로 약 1년 만에 최고 수준 기록",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/housing/mortgage-rates-hit-highest-levels-in-nearly-a-year-ba480ebf",
       "published_ts": 1784822400.0,
       "impact_high": true
-    },
-    {
-      "summary": "구글 핵심 사업 견조로 AI 투자 부담 상쇄, 빅테크 실적 시즌 긍정 신호",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/tech/ai/google-has-the-muscle-to-overpower-spending-worries-725a92e4?mod=rss_markets_main",
-      "published_ts": 1784799000.0,
-      "impact_high": false
-    },
-    {
-      "summary": "금값 급락했으나, 중동 분쟁 심화로 인플레이션 헤징 수요 지속 가능성",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/commodities-futures/gold-prices-have-tanked-buying-the-dip-makes-sense-4db80abc?mod=rss_markets_main",
-      "published_ts": 1784626200.0,
-      "impact_high": true
     }
   ],
-  "_article_sig": "22c42dfcb3d9e6ae4108d64199a910e47409fe1aa4018dc00ca7c47018b673d9",
+  "_article_sig": "7b3f48543a77a6e0a5f728766b046f4bf5c22483dfb0367cd0d62d3b0d996014",
   "built_at_kst": "2026-07-25T07:02:23.616836+09:00",
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "반도체 약세 신호로 나스닥100 지수 하락 압박. 빅테크 실적 시즌 진입으로 AI 수익화 검증 단계. 고금리 환경에서 기술주 이익 창출 역량 시험대 위.",
+      "summary": "반도체 공급망 재편 본격화. 중국 메모리칩 CXMT 대규모 자본조달(14조원)로 메모리 경쟁 지형 변화 신호. 빅테크 실적 시즌 & AI 투자 부담·수익성 기대감 교차 현안 부각. ETF 열풍 가속 지속.",
       "sources": [
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-27-2026?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/big-tech-earnings-and-fed-rate-decision-put-stock-rally-to-the-test-be602633?mod=rss_markets_main"
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/2026072788611"
         },
         {
           "name": "WSJ",
@@ -6390,29 +6386,25 @@
       ]
     },
     "S&P500": {
-      "summary": "중동 소강 국면으로 유가 5% 급락, 광범위 수익성 개선 신호 가동. 연준 주간 금리 결정 대기로 시장 초점 집중. 경기 지표(내구재 수주 완만) 약세, 채권 수익률 하락으로 인플레이션 완화 신호 강화. 글로벌 경제 성장 둔화 추세이나 자산가치 상승 지속 중.",
+      "summary": "Fed Rate Decision 주간 최대 이벤트. 중동 군사 충돌 소강(Trump 일시 중단) → 유가 5% 근처 급락, 장기금리 하회 신호. 글로벌 가계자산 2025년 급증도 AI 수익성 기대치 프리미엄에 대한 리스크 내재. 미국 경기지표 약화 신호(내구재 주문 예상 이하, 모기지율 근 1년 최고)와 관세 불확실성 교차.",
       "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/big-tech-earnings-and-fed-rate-decision-put-stock-rally-to-the-test-be602633?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/global/week-ahead-for-fx-bonds-fed-decision-awaited-middle-east-events-eyed-83e73b63"
+        },
         {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/202607277961i"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/jgb-futures-rise-amid-falling-crude-oil-prices-2f1d5195?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/economy/u-s-durable-goods-orders-rose-less-than-expected-in-june-d226a9f6"
         }
       ]
     },
     "DOW": {
-      "summary": "유가 급락으로 대형주 수익성 개선 여유 확대. 금융주·은행권 CRE 시장 복귀, 고금리 환경에서 대형행 안정성 유지 신호. 블루칩 중심 경기민감 우위 형성. 관세 정책 불확실성은 산업재·전통제조업에 이중 압박 작용.",
+      "summary": "상업부동산 금융 회생 조짐. Big Banks CRE 대출 복귀로 경기민감 금융권 실적 견조(Emirates NBD 순이익 2.2% 증가). Iran 전쟁 소강 지속 → 유가 약세 신호 이어짐. 관세·경기순환 불확실성으로 블루칩 변동성 확대 신호.",
       "sources": [
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/world/middle-east/trump-pauses-iran-strikes-as-officials-weigh-dwindling-air-defense-stocks-c7d7ebb0"
-        },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/banking/big-banks-are-wading-back-into-commercial-real-estate-lending-07faec10?mod=rss_markets_main"
@@ -6420,23 +6412,25 @@
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/banking/emirates-nbds-profit-holds-steady-as-u-a-e-economy-faces-iran-war-disruptions-568682ed?mod=rss_markets_main"
+        },
+        {
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/202607277961i"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-07-28T04:30:07.256523+09:00",
+    "as_of_kst": "2026-07-28T04:40:07.422283+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7453.5,
-        "change_pct": 0.08,
+        "point": 7454.25,
+        "change_pct": 0.09,
         "spark": [
           7490.0,
-          7432.75,
-          7431.0,
           7435.75,
           7445.5,
           7447.5,
@@ -6474,21 +6468,23 @@
           7448.75,
           7453.0,
           7454.5,
-          7453.5
+          7454.75,
+          7453.75,
+          7454.25
         ],
         "candle": {
           "o": 7490.0,
           "h": 7524.75,
           "l": 7416.25,
-          "c": 7453.5
+          "c": 7454.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7623.75,
           "low_date": "2025-08-21",
           "high_date": "2026-06-02",
-          "low_change_pct": 16.68,
-          "high_change_pct": -2.23
+          "low_change_pct": 16.69,
+          "high_change_pct": -2.22
         },
         "daily_expanded": [
           {
@@ -8496,25 +8492,25 @@
             "o": 7490.0,
             "h": 7524.75,
             "l": 7416.25,
-            "c": 7453.5,
-            "v": 1235476
+            "c": 7454.25,
+            "v": 1250902
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "중동 소강 국면으로 유가 5% 급락, 광범위 수익성 개선 신호 가동. 연준 주간 금리 결정 대기로 시장 초점 집중. 경기 지표(내구재 수주 완만) 약세, 채권 수익률 하락으로 인플레이션 완화 신호 강화. 글로벌 경제 성장 둔화 추세이나 자산가치 상승 지속 중.",
+          "summary": "Fed Rate Decision 주간 최대 이벤트. 중동 군사 충돌 소강(Trump 일시 중단) → 유가 5% 근처 급락, 장기금리 하회 신호. 글로벌 가계자산 2025년 급증도 AI 수익성 기대치 프리미엄에 대한 리스크 내재. 미국 경기지표 약화 신호(내구재 주문 예상 이하, 모기지율 근 1년 최고)와 관세 불확실성 교차.",
           "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/big-tech-earnings-and-fed-rate-decision-put-stock-rally-to-the-test-be602633?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/global/week-ahead-for-fx-bonds-fed-decision-awaited-middle-east-events-eyed-83e73b63"
+            },
             {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/202607277961i"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/jgb-futures-rise-amid-falling-crude-oil-prices-2f1d5195?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/economy/u-s-durable-goods-orders-rose-less-than-expected-in-june-d226a9f6"
             }
           ]
         }
@@ -8522,12 +8518,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28218.0,
-        "change_pct": -0.23,
+        "point": 28238.5,
+        "change_pct": -0.15,
         "spark": [
           28500.0,
-          28078.75,
-          28064.0,
           28096.0,
           28154.5,
           28149.25,
@@ -8565,21 +8559,23 @@
           28201.25,
           28215.0,
           28225.0,
-          28218.0
+          28243.5,
+          28233.0,
+          28238.5
         ],
         "candle": {
           "o": 28500.0,
           "h": 28763.25,
           "l": 27939.0,
-          "c": 28218.0
+          "c": 28238.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 21.95,
-          "high_change_pct": -8.12
+          "low_change_pct": 22.03,
+          "high_change_pct": -8.06
         },
         "daily_expanded": [
           {
@@ -10587,21 +10583,17 @@
             "o": 28500.0,
             "h": 28763.25,
             "l": 27939.0,
-            "c": 28218.0,
-            "v": 529075
+            "c": 28238.5,
+            "v": 535960
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "반도체 약세 신호로 나스닥100 지수 하락 압박. 빅테크 실적 시즌 진입으로 AI 수익화 검증 단계. 고금리 환경에서 기술주 이익 창출 역량 시험대 위.",
+          "summary": "반도체 공급망 재편 본격화. 중국 메모리칩 CXMT 대규모 자본조달(14조원)로 메모리 경쟁 지형 변화 신호. 빅테크 실적 시즌 & AI 투자 부담·수익성 기대감 교차 현안 부각. ETF 열풍 가속 지속.",
           "sources": [
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-27-2026?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/big-tech-earnings-and-fed-rate-decision-put-stock-rally-to-the-test-be602633?mod=rss_markets_main"
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/2026072788611"
             },
             {
               "name": "WSJ",
@@ -10613,12 +10605,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52389.0,
-        "change_pct": 0.51,
+        "point": 52379.0,
+        "change_pct": 0.49,
         "spark": [
           52299.0,
-          52242.0,
-          52230.0,
           52265.0,
           52329.0,
           52372.0,
@@ -10656,21 +10646,23 @@
           52363.0,
           52388.0,
           52383.0,
-          52389.0
+          52382.0,
+          52394.0,
+          52379.0
         ],
         "candle": {
           "o": 52299.0,
           "h": 52790.0,
           "l": 52173.0,
-          "c": 52389.0
+          "c": 52379.0
         },
         "range_240d": {
           "low": 44558.0,
           "high": 53372.0,
           "low_date": "2025-08-12",
           "high_date": "2026-07-06",
-          "low_change_pct": 17.57,
-          "high_change_pct": -1.84
+          "low_change_pct": 17.55,
+          "high_change_pct": -1.86
         },
         "daily_expanded": [
           {
@@ -12678,18 +12670,14 @@
             "o": 52299.0,
             "h": 52790.0,
             "l": 52173.0,
-            "c": 52389.0,
-            "v": 81016
+            "c": 52379.0,
+            "v": 81810
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "유가 급락으로 대형주 수익성 개선 여유 확대. 금융주·은행권 CRE 시장 복귀, 고금리 환경에서 대형행 안정성 유지 신호. 블루칩 중심 경기민감 우위 형성. 관세 정책 불확실성은 산업재·전통제조업에 이중 압박 작용.",
+          "summary": "상업부동산 금융 회생 조짐. Big Banks CRE 대출 복귀로 경기민감 금융권 실적 견조(Emirates NBD 순이익 2.2% 증가). Iran 전쟁 소강 지속 → 유가 약세 신호 이어짐. 관세·경기순환 불확실성으로 블루칩 변동성 확대 신호.",
           "sources": [
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/world/middle-east/trump-pauses-iran-strikes-as-officials-weigh-dwindling-air-defense-stocks-c7d7ebb0"
-            },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/banking/big-banks-are-wading-back-into-commercial-real-estate-lending-07faec10?mod=rss_markets_main"
@@ -12697,11 +12685,15 @@
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/banking/emirates-nbds-profit-holds-steady-as-u-a-e-economy-faces-iran-war-disruptions-568682ed?mod=rss_markets_main"
+            },
+            {
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/202607277961i"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-07-28T04:30:11.386535+09:00"
+  "intraday_refreshed_kst": "2026-07-28T04:41:28.419209+09:00"
 }
