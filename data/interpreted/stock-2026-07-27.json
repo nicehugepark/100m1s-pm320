@@ -1,6 +1,6 @@
 {
   "date": "2026-07-27",
-  "generated_at": "2026-07-27T12:05:21.931992",
+  "generated_at": "2026-07-27T12:15:13.656208",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -399,9 +399,9 @@
       "code": "006340",
       "name": "대원전선",
       "rank": 1,
-      "trade_amount": 180041000000,
-      "change_pct": 0.95,
-      "close_price": 13860,
+      "trade_amount": 181109000000,
+      "change_pct": 0.58,
+      "close_price": 13810,
       "open_price": 14360,
       "high_price": 15200,
       "low_price": 13500,
@@ -443,17 +443,17 @@
         "pm320_only": [],
         "cafe_only": []
       },
-      "index_change_pct": -0.84,
-      "index_multiple_current": -1.13,
+      "index_change_pct": -0.99,
+      "index_multiple_current": -0.59,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 20300,
         "high_date": "2026-05-06",
-        "high_pct": -31.72,
+        "high_pct": -31.97,
         "low": 2765,
         "low_date": "2025-09-03",
-        "low_pct": 401.27,
-        "current": 13860
+        "low_pct": 399.46,
+        "current": 13810
       },
       "daily_20": [
         {
@@ -594,7 +594,7 @@
           "o": 14360,
           "h": 15200,
           "l": 13500,
-          "c": 13860
+          "c": 13810
         }
       ],
       "intraday": {
@@ -638,7 +638,9 @@
           13940,
           13810,
           13850,
-          13850
+          13830,
+          13830,
+          13810
         ]
       },
       "togusa_verdict": "strong_bull",
@@ -648,10 +650,308 @@
       "parent_theme": ""
     },
     {
+      "code": "044340",
+      "name": "위닉스",
+      "rank": 2,
+      "trade_amount": 51706000000,
+      "change_pct": 24.36,
+      "close_price": 6100,
+      "open_price": 5450,
+      "high_price": 6230,
+      "low_price": 5150,
+      "industry": "가정용 기기 제조업",
+      "sector": "일반목적용 기계제조업",
+      "themes": [
+        "여름 가전",
+        "폭염",
+        "제습기"
+      ],
+      "theme_paths": [
+        {
+          "name": "폭염",
+          "path": [
+            "폭염"
+          ]
+        },
+        {
+          "name": "제습기",
+          "path": [
+            "여름 가전",
+            "제습기"
+          ]
+        }
+      ],
+      "pick_count": 2,
+      "prev_pick": {
+        "date": "2026-07-24",
+        "rank": 9,
+        "change_pct": 29.93,
+        "trade_amount": 27737000000
+      },
+      "bullish_today": true,
+      "bullish_streak": 2,
+      "bullish_dates": [
+        "2026-07-06",
+        "2026-07-13",
+        "2026-07-15",
+        "2026-07-24",
+        "2026-07-27"
+      ],
+      "news": [
+        {
+          "title": "위닉스 공기청정기, 북미 판매량 2배로",
+          "url": "https://www.mk.co.kr/news/business/12104605",
+          "source": "매경",
+          "published_at": "2026-07-22T08:15:18",
+          "causal_chain": "캐나다 대형 산불(소실면적 300만㏊) 연기가 미국·캐나다로 확산되며 대기질이 악화, 실내 공기질 우려로 북미 공기청정기 수요가 폭발 → 실내공기질 전문기업 위닉스가 7/13~19 북미 주요 유통채널에서 공기청정기 판매량 직전 주 대비 2배 이상(미국 2.5배·캐나다 2.8배) 급증하며 직접 수혜. 동시에 국내 폭염·장마 성수기로 제습기·에어컨 수요가 겹치며 앞서 7/14 장중 20~24% 급등이 나온 바 있으나, 당일(2026-07-24)은 종가 3,775원 +0.00% 보합·거래대금 0억으로 초기 모멘텀은 소강 국면.",
+          "macro_event": "캐나다발 대형 산불 연기 북미 확산 → 대기질 악화 → 공기청정기 수요 급증",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.4,
+          "newzy_tradability": null,
+          "newzy_score": 0.4,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        },
+        {
+          "title": "[특징주] 위닉스, 폭염·장마 수혜 기대감에 장 초반 20% 급등",
+          "url": "https://biz.chosun.com/stock/stock_general/2026/07/14/3FBPYY2G25FRTBUORTZOZX44NY/",
+          "source": "조선비즈",
+          "published_at": "2026-07-14T00:50:51",
+          "causal_chain": "캐나다 대형 산불(소실면적 300만㏊) 연기가 미국·캐나다로 확산되며 대기질이 악화, 실내 공기질 우려로 북미 공기청정기 수요가 폭발 → 실내공기질 전문기업 위닉스가 7/13~19 북미 주요 유통채널에서 공기청정기 판매량 직전 주 대비 2배 이상(미국 2.5배·캐나다 2.8배) 급증하며 직접 수혜. 동시에 국내 폭염·장마 성수기로 제습기·에어컨 수요가 겹치며 앞서 7/14 장중 20~24% 급등이 나온 바 있으나, 당일(2026-07-24)은 종가 3,775원 +0.00% 보합·거래대금 0억으로 초기 모멘텀은 소강 국면.",
+          "macro_event": "캐나다발 대형 산불 연기 북미 확산 → 대기질 악화 → 공기청정기 수요 급증",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.4,
+          "newzy_tradability": null,
+          "newzy_score": 0.4,
+          "newzy_verdict": null,
+          "article_type": "시세정형"
+        },
+        {
+          "title": "[특징주] '고온다습, 장마·폭염'에…위닉스 등 제습기 관련株 급등",
+          "url": "https://www.etoday.co.kr/news/view/2603384",
+          "source": "이투데이",
+          "published_at": "2026-07-14T00:21:00",
+          "causal_chain": "캐나다 대형 산불(소실면적 300만㏊) 연기가 미국·캐나다로 확산되며 대기질이 악화, 실내 공기질 우려로 북미 공기청정기 수요가 폭발 → 실내공기질 전문기업 위닉스가 7/13~19 북미 주요 유통채널에서 공기청정기 판매량 직전 주 대비 2배 이상(미국 2.5배·캐나다 2.8배) 급증하며 직접 수혜. 동시에 국내 폭염·장마 성수기로 제습기·에어컨 수요가 겹치며 앞서 7/14 장중 20~24% 급등이 나온 바 있으나, 당일(2026-07-24)은 종가 3,775원 +0.00% 보합·거래대금 0억으로 초기 모멘텀은 소강 국면.",
+          "macro_event": "캐나다발 대형 산불 연기 북미 확산 → 대기질 악화 → 공기청정기 수요 급증",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.4,
+          "newzy_tradability": null,
+          "newzy_score": 0.4,
+          "newzy_verdict": null,
+          "article_type": "시세정형"
+        },
+        {
+          "title": "\"에어컨·제습기 사자\" 위닉스, 24% 상승[특징주]",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03063526645514520",
+          "source": "이데일리",
+          "published_at": "2026-07-14T00:13:51",
+          "causal_chain": "캐나다 대형 산불(소실면적 300만㏊) 연기가 미국·캐나다로 확산되며 대기질이 악화, 실내 공기질 우려로 북미 공기청정기 수요가 폭발 → 실내공기질 전문기업 위닉스가 7/13~19 북미 주요 유통채널에서 공기청정기 판매량 직전 주 대비 2배 이상(미국 2.5배·캐나다 2.8배) 급증하며 직접 수혜. 동시에 국내 폭염·장마 성수기로 제습기·에어컨 수요가 겹치며 앞서 7/14 장중 20~24% 급등이 나온 바 있으나, 당일(2026-07-24)은 종가 3,775원 +0.00% 보합·거래대금 0억으로 초기 모멘텀은 소강 국면.",
+          "macro_event": "캐나다발 대형 산불 연기 북미 확산 → 대기질 악화 → 공기청정기 수요 급증",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.4,
+          "newzy_tradability": null,
+          "newzy_score": 0.4,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        },
+        {
+          "title": "\"한증막 더위\" 파세코·위닉스 동반 급등[특징주]",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=02433766645514192",
+          "source": "이데일리",
+          "published_at": "2026-07-13T00:09:58",
+          "causal_chain": "극한 더위로 에어컨·냉방 수요 급증 → 냉방기기 제조사 실적 개선 기대 → 매수세 집중 → 당일 상한가(+29.97%) 돌파",
+          "macro_event": "한증막 여름 폭염 → 냉방 수요 증가",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        }
+      ],
+      "fallback": true,
+      "theme_crosscheck": {
+        "confirmed": [
+          "여름 가전"
+        ],
+        "pm320_only": [
+          "폭염",
+          "제습기"
+        ],
+        "cafe_only": []
+      },
+      "index_change_pct": 1.51,
+      "index_multiple_current": 16.13,
+      "index_multiple_eligible": true,
+      "range_240d": {
+        "high": 6720,
+        "high_date": "2025-08-18",
+        "high_pct": -9.23,
+        "low": 3100,
+        "low_date": "2026-07-09",
+        "low_pct": 96.77,
+        "current": 6100
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-29",
+          "o": 3135,
+          "h": 3465,
+          "l": 3135,
+          "c": 3465
+        },
+        {
+          "date": "2026-06-30",
+          "o": 3485,
+          "h": 3675,
+          "l": 3285,
+          "c": 3310
+        },
+        {
+          "date": "2026-07-01",
+          "o": 3340,
+          "h": 3470,
+          "l": 3280,
+          "c": 3435
+        },
+        {
+          "date": "2026-07-02",
+          "o": 3400,
+          "h": 3570,
+          "l": 3365,
+          "c": 3490
+        },
+        {
+          "date": "2026-07-03",
+          "o": 3490,
+          "h": 4055,
+          "l": 3445,
+          "c": 3590
+        },
+        {
+          "date": "2026-07-06",
+          "o": 3590,
+          "h": 4650,
+          "l": 3590,
+          "c": 4130
+        },
+        {
+          "date": "2026-07-07",
+          "o": 4015,
+          "h": 4415,
+          "l": 3550,
+          "c": 3550
+        },
+        {
+          "date": "2026-07-08",
+          "o": 3570,
+          "h": 3575,
+          "l": 3230,
+          "c": 3300
+        },
+        {
+          "date": "2026-07-09",
+          "o": 3210,
+          "h": 3535,
+          "l": 3100,
+          "c": 3100
+        },
+        {
+          "date": "2026-07-10",
+          "o": 3390,
+          "h": 3435,
+          "l": 3190,
+          "c": 3420
+        },
+        {
+          "date": "2026-07-13",
+          "o": 3560,
+          "h": 4445,
+          "l": 3540,
+          "c": 4445
+        },
+        {
+          "date": "2026-07-14",
+          "o": 5110,
+          "h": 5750,
+          "l": 4340,
+          "c": 4670
+        },
+        {
+          "date": "2026-07-15",
+          "o": 4880,
+          "h": 5900,
+          "l": 4595,
+          "c": 5410
+        },
+        {
+          "date": "2026-07-16",
+          "o": 5550,
+          "h": 6100,
+          "l": 5040,
+          "c": 5050
+        },
+        {
+          "date": "2026-07-20",
+          "o": 5030,
+          "h": 5370,
+          "l": 4480,
+          "c": 4570
+        },
+        {
+          "date": "2026-07-21",
+          "o": 4570,
+          "h": 4620,
+          "l": 4080,
+          "c": 4135
+        },
+        {
+          "date": "2026-07-22",
+          "o": 4135,
+          "h": 4175,
+          "l": 3800,
+          "c": 3850
+        },
+        {
+          "date": "2026-07-23",
+          "o": 3825,
+          "h": 3910,
+          "l": 3605,
+          "c": 3775
+        },
+        {
+          "date": "2026-07-24",
+          "o": 3775,
+          "h": 4905,
+          "l": 3755,
+          "c": 4905
+        },
+        {
+          "date": "2026-07-27",
+          "o": 5450,
+          "h": 6230,
+          "l": 5150,
+          "c": 6100
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
       "code": "052460",
       "name": "아이크래프트",
-      "rank": 2,
-      "trade_amount": 11930000000,
+      "rank": 3,
+      "trade_amount": 11942000000,
       "change_pct": 30.0,
       "close_price": 4420,
       "open_price": 3895,
@@ -703,8 +1003,8 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": 1.75,
-      "index_multiple_current": 17.14,
+      "index_change_pct": 1.51,
+      "index_multiple_current": 19.87,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 4760,
@@ -897,6 +1197,8 @@
           4420,
           4420,
           4420,
+          4420,
+          4420,
           4420
         ]
       },
@@ -909,8 +1211,8 @@
     {
       "code": "199430",
       "name": "케이엔알시스템",
-      "rank": 3,
-      "trade_amount": 3310000000,
+      "rank": 4,
+      "trade_amount": 3316000000,
       "change_pct": 29.96,
       "close_price": 14270,
       "open_price": 12960,
@@ -943,8 +1245,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 1.75,
-      "index_multiple_current": 17.12,
+      "index_change_pct": 1.51,
+      "index_multiple_current": 19.84,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 45300,
@@ -1165,6 +1467,8 @@
           14270,
           14270,
           14270,
+          14270,
+          14270,
           14270
         ]
       },
@@ -1179,8 +1483,8 @@
     {
       "code": "368600",
       "name": "아이씨에이치",
-      "rank": 4,
-      "trade_amount": 2055000000,
+      "rank": 5,
+      "trade_amount": 2058000000,
       "change_pct": 29.94,
       "close_price": 1033,
       "open_price": 1033,
@@ -1230,8 +1534,8 @@
         }
       ],
       "fallback": false,
-      "index_change_pct": 1.75,
-      "index_multiple_current": 17.11,
+      "index_change_pct": 1.51,
+      "index_multiple_current": 19.83,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 2491,
@@ -1461,8 +1765,8 @@
     {
       "code": "900100",
       "name": "파이온엑스",
-      "rank": 5,
-      "trade_amount": 971000000,
+      "rank": 6,
+      "trade_amount": 974000000,
       "change_pct": 29.9,
       "close_price": 2715,
       "open_price": 2145,
@@ -1483,8 +1787,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 1.75,
-      "index_multiple_current": 17.09,
+      "index_change_pct": 1.51,
+      "index_multiple_current": 19.8,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 14500,
@@ -1677,6 +1981,9 @@
           2715,
           2715,
           2715,
+          2715,
+          2715,
+          2715,
           2715
         ]
       },
@@ -1689,7 +1996,7 @@
     {
       "code": "417860",
       "name": "오브젠",
-      "rank": 6,
+      "rank": 7,
       "trade_amount": 897000000,
       "change_pct": 30.0,
       "close_price": 7930,
@@ -1735,8 +2042,8 @@
         }
       ],
       "fallback": false,
-      "index_change_pct": 1.75,
-      "index_multiple_current": 17.14,
+      "index_change_pct": 1.51,
+      "index_multiple_current": 19.87,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 19480,
@@ -1922,6 +2229,7 @@
           7930,
           7930,
           7930,
+          7930,
           7930
         ]
       },
@@ -1934,8 +2242,8 @@
     {
       "code": "299660",
       "name": "셀리드",
-      "rank": 7,
-      "trade_amount": 857000000,
+      "rank": 8,
+      "trade_amount": 858000000,
       "change_pct": 29.94,
       "close_price": 1367,
       "open_price": 1060,
@@ -1955,8 +2263,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 1.75,
-      "index_multiple_current": 17.11,
+      "index_change_pct": 1.51,
+      "index_multiple_current": 19.83,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 4760,
@@ -2148,6 +2456,8 @@
           1367,
           1367,
           1367,
+          1367,
+          1367,
           1367
         ]
       },
@@ -2160,7 +2470,7 @@
     {
       "code": "208640",
       "name": "썸에이지",
-      "rank": 8,
+      "rank": 9,
       "trade_amount": 761000000,
       "change_pct": 30.0,
       "close_price": 1157,
@@ -2197,8 +2507,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 1.75,
-      "index_multiple_current": 17.14,
+      "index_change_pct": 1.51,
+      "index_multiple_current": 19.87,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 7106,
@@ -2403,7 +2713,7 @@
     {
       "code": "199730",
       "name": "바이오인프라",
-      "rank": 9,
+      "rank": 10,
       "trade_amount": 99000000,
       "change_pct": 29.7,
       "close_price": 2035,
@@ -2456,8 +2766,8 @@
         }
       ],
       "fallback": false,
-      "index_change_pct": 1.75,
-      "index_multiple_current": 16.97,
+      "index_change_pct": 1.51,
+      "index_multiple_current": 19.67,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 5880,
