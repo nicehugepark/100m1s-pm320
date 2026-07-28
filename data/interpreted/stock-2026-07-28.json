@@ -1,6 +1,6 @@
 {
   "date": "2026-07-28",
-  "generated_at": "2026-07-28T09:45:13.064809",
+  "generated_at": "2026-07-28T09:46:05.147111",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -1307,8 +1307,17 @@
       "low_price": 3300,
       "industry": "전자부품 제조업",
       "sector": "근적외선 흡수/반사 안료, 자외선 유기형광 안료, 적외선 발광체",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "실적"
+      ],
+      "theme_paths": [
+        {
+          "name": "실적",
+          "path": [
+            "실적"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": true,
@@ -1322,16 +1331,16 @@
           "url": "https://biz.chosun.com/stock/stock_general/2026/07/28/K5DEJ2CNAVEEDI64GDP7COT23E/",
           "source": "조선비즈",
           "published_at": "2026-07-28T00:35:07",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "나노씨엠에스 2분기 영업이익 흑자전환 발표 → 본업(근적외선 흡수·반사 안료 등 기능성 안료) 실적 개선 기대 매수세가 시초부터 유입 → 얇은 거래대금(5억원) 속에서 당일 상한가(+29.97%, 종가 3,925원)로 마감.",
+          "macro_event": "2026년 2분기 영업이익 흑자전환",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.5,
+          "newzy_virality": 0.2,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.38,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": false,
@@ -1507,9 +1516,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "strong_bull",
+      "theme_leader": true,
+      "hugepark_grade": "적극"
     },
     {
       "code": "199730",
@@ -1760,7 +1769,7 @@
       "credit_risk": true,
       "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
-      "theme_leader": true,
+      "theme_leader": false,
       "hugepark_grade": "관찰"
     },
     {
