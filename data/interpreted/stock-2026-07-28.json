@@ -1,6 +1,6 @@
 {
   "date": "2026-07-28",
-  "generated_at": "2026-07-28T09:15:27.029872",
+  "generated_at": "2026-07-28T09:25:09.714515",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -68,12 +68,24 @@
             "summary": "케이엔에스가 15억 규모 원통형(46시리즈) 배터리 자동화 설비를 수주하며 원통형 전지 증설 사이클이 부각돼 2차전지 장비주에 매수세 유입.",
             "source_count": 2,
             "verdict": "pass"
+          },
+          {
+            "name": "원통형 배터리 장비",
+            "summary": "케이엔에스가 15억 규모 원통형(46시리즈) 배터리 자동화 설비를 수주하며 원통형 전지 증설 사이클이 부각돼 2차전지 장비주에 매수세 유입.",
+            "source_count": 2,
+            "verdict": "weak"
           }
         ]
       },
       {
         "name": "디지털 화폐",
         "children": [
+          {
+            "name": "예금토큰 결제 인프라",
+            "summary": "다날이 과기부 예금토큰 기반 결제 인프라 확대 사업에 선정되며 정부 주도 디지털화폐 결제망 구축 기대가 커져 결제·핀테크주로 자금이 이동.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
           {
             "name": "예금토큰 결제 인프라",
             "summary": "다날이 과기부 예금토큰 기반 결제 인프라 확대 사업에 선정되며 정부 주도 디지털화폐 결제망 구축 기대가 커져 결제·핀테크주로 자금이 이동.",
@@ -90,6 +102,46 @@
             "summary": "네이버-엔비디아 투자 소식과 AI 투자심리 개선으로 셀바스AI·마음AI·오브젠 등이 동반 상승하며 AI 파트너십·응용 소프트웨어 밸류에이션 재평가 기대로 매수세 집중.",
             "source_count": 2,
             "verdict": "weak"
+          },
+          {
+            "name": "AI 소프트웨어",
+            "summary": "네이버-엔비디아 투자 소식과 AI 투자심리 개선으로 셀바스AI·마음AI·오브젠 등이 동반 상승하며 AI 파트너십·응용 소프트웨어 밸류에이션 재평가 기대로 매수세 집중.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "AI 파트너십 재평가",
+            "summary": "네이버-엔비디아 투자·파트너십 소식이 AI 인프라 투자 확대 기대로 번지며 관련 파트너·AI SW 종목의 밸류 재평가로 이어짐",
+            "source_count": 2,
+            "verdict": "weak"
+          }
+        ]
+      },
+      {
+        "name": "2차전지 장비",
+        "children": [
+          {
+            "name": "원통형 배터리 설비",
+            "summary": "케이엔에스가 원통형 배터리 자동화 설비를 수주하며 46파이 원통형 배터리 캐펙스 확대 신호로 이어져 2차전지 장비 섹터에 수급 유입",
+            "source_count": 2,
+            "verdict": "weak"
+          }
+        ]
+      },
+      {
+        "name": "디지털 결제",
+        "children": [
+          {
+            "name": "예금토큰 결제 인프라",
+            "summary": "과기부 예금토큰 기반 결제 인프라 확대 사업이 추진되며 토큰 결제 정책 수혜 기대가 전자결제 섹터로 유입",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "예금토큰 결제 인프라",
+            "summary": "과기부 예금토큰 기반 결제 인프라 확대 사업이 추진되며 토큰 결제 정책 수혜 기대가 전자결제 섹터로 유입",
+            "source_count": 2,
+            "verdict": "pass"
           }
         ]
       }
@@ -97,10 +149,319 @@
   },
   "stocks": [
     {
+      "code": "413630",
+      "name": "씨피시스템",
+      "rank": 1,
+      "trade_amount": 60386000000,
+      "change_pct": 11.32,
+      "close_price": 4525,
+      "open_price": 4160,
+      "high_price": 4630,
+      "low_price": 4070,
+      "industry": "플라스틱제품 제조업",
+      "sector": "전기재료연결부품",
+      "themes": [
+        "MLCC",
+        "로봇",
+        "케이블",
+        "반도체"
+      ],
+      "theme_paths": [
+        {
+          "name": "MLCC",
+          "path": [
+            "MLCC"
+          ]
+        },
+        {
+          "name": "로봇",
+          "path": [
+            "로봇"
+          ]
+        },
+        {
+          "name": "케이블",
+          "path": [
+            "케이블"
+          ]
+        },
+        {
+          "name": "반도체",
+          "path": [
+            "반도체"
+          ]
+        }
+      ],
+      "pick_count": 2,
+      "prev_pick": {
+        "date": "2026-07-27",
+        "rank": 3,
+        "change_pct": 29.87,
+        "trade_amount": 67339000000
+      },
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [
+        "2026-06-24",
+        "2026-07-15",
+        "2026-07-27"
+      ],
+      "news": [
+        {
+          "title": "씨피시스템, 글로벌 부품사 인도 공장에 ‘로보웨이’ 공급",
+          "url": "https://www.sedaily.com/article/20070458",
+          "source": "서울경제",
+          "published_at": "2026-07-22T05:00:18",
+          "causal_chain": "로봇 자동화 설비·반도체 팹 투자 확산 → 다관절 로봇 반복구동 구간의 케이블 단선·마모 방지용 고청정 케이블 보호 솔루션(로보웨이·G클린체인) 수요 증가 → 케이블체인 본업 씨피시스템이 인도 글로벌 전동화 부품공장에 로보웨이를 공급하고 삼성·SK 반도체 설비 수혜 기대가 겹치며 로봇·반도체 도메인 직접 정합 매수세 유입 → 당일 시가 3,445원에서 종가 3,615원(+7.11%)까지 상승, 거래대금 567억원으로 관심 집중.",
+          "macro_event": "다관절 로봇·자동화 설비 확산 → 로봇 암 구간 케이블 보호 솔루션 수요 증가",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.5,
+          "newzy_virality": 0.4,
+          "newzy_tradability": null,
+          "newzy_score": 0.46,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        },
+        {
+          "title": "씨피시스템, 글로벌 완성차 부품사향 전동화 로봇 설비에 ‘로보웨이’ 공급",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03791686645517144",
+          "source": "이데일리",
+          "published_at": "2026-07-22T02:15:07",
+          "causal_chain": "글로벌 완성차 부품사의 인도 전동화(전기차) 공장 로봇 설비 투자 확대 → 로봇 케이블 보호·관리 시스템 '로보웨이'를 본업으로 하는 씨피시스템이 해당 전동화 로봇 설비에 로보웨이를 공급 → 로봇·케이블 도메인 직접 정합 매수세 유입 → 당일 시가 3,445원에서 고가 4,095원까지 상승, 종가 3,725원(+10.37%)·거래대금 499억원 형성.",
+          "macro_event": "글로벌 완성차 전동화 전환 및 생산라인 로봇 자동화 투자 확대",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.5,
+          "newzy_virality": 0.4,
+          "newzy_tradability": null,
+          "newzy_score": 0.46,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        },
+        {
+          "title": "씨피시스템, 글로벌 車부품사 인도 전동화 공장에 '로보웨이' 공급",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03781846645517144",
+          "source": "이데일리",
+          "published_at": "2026-07-22T02:14:32",
+          "causal_chain": "글로벌 완성차 부품사의 인도 전동화(전기차) 공장 로봇 설비 투자 확대 → 로봇 케이블 보호·관리 시스템 '로보웨이'를 본업으로 하는 씨피시스템이 해당 전동화 로봇 설비에 로보웨이를 공급 → 로봇·케이블 도메인 직접 정합 매수세 유입 → 당일 시가 3,445원에서 고가 4,095원까지 상승, 종가 3,725원(+10.37%)·거래대금 499억원 형성.",
+          "macro_event": "글로벌 완성차 전동화 전환 및 생산라인 로봇 자동화 투자 확대",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.5,
+          "newzy_virality": 0.4,
+          "newzy_tradability": null,
+          "newzy_score": 0.46,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        },
+        {
+          "title": "씨피시스템, 국내 반도체 기업에 ‘로보킷’ 시제품 공급",
+          "url": "https://www.sedaily.com/article/20068064",
+          "source": "서울경제",
+          "published_at": "2026-07-15T05:00:35",
+          "causal_chain": "반도체 메가 클러스터(2047년까지 622조 투입) 조성으로 클린룸·자동화 부품 수요가 늘고, 세미휴머노이드·협동로봇 확산으로 다축 구동 케이블 가이드 수요가 커지는 국면에서, 케이블체인 전문기업 씨피시스템이 국내 종합 반도체 기업 클린룸·차세대 자동화 라인에 '로보킷' 세미휴머노이드용 시제품을 공급. 반도체 공정장비·협동로봇·지능형 로봇으로 적용 범위를 넓히는 국산 대체 레퍼런스 확보가 부각되며 매수세가 집중, 당일 종가 3,485원(+16.56%)·거래대금 501억원으로 대규모 자금이 유입됐다.",
+          "macro_event": "경기 남부 반도체 메가 클러스터 622조 투자 → 초청정 클린룸·자동화 부품 수요 확대",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.55,
+          "newzy_virality": 0.5,
+          "newzy_tradability": null,
+          "newzy_score": 0.53,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        },
+        {
+          "title": "씨피시스템, 中 최대 D램 기업 CXMT향 반도체 세정 장비에 ‘G-클린체인’ 솔루션 공급…메모리ㆍ파운드리 공급망 확대 추진",
+          "url": "https://www.etoday.co.kr/news/view/2602992",
+          "source": "이투데이",
+          "published_at": "2026-07-13T01:00:00",
+          "causal_chain": "반도체 메가 클러스터(2047년까지 622조 투입) 조성으로 클린룸·자동화 부품 수요가 늘고, 세미휴머노이드·협동로봇 확산으로 다축 구동 케이블 가이드 수요가 커지는 국면에서, 케이블체인 전문기업 씨피시스템이 국내 종합 반도체 기업 클린룸·차세대 자동화 라인에 '로보킷' 세미휴머노이드용 시제품을 공급. 반도체 공정장비·협동로봇·지능형 로봇으로 적용 범위를 넓히는 국산 대체 레퍼런스 확보가 부각되며 매수세가 집중, 당일 종가 3,485원(+16.56%)·거래대금 501억원으로 대규모 자금이 유입됐다.",
+          "macro_event": "경기 남부 반도체 메가 클러스터 622조 투자 → 초청정 클린룸·자동화 부품 수요 확대",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.55,
+          "newzy_virality": 0.5,
+          "newzy_tradability": null,
+          "newzy_score": 0.53,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        }
+      ],
+      "fallback": true,
+      "theme_crosscheck": {
+        "confirmed": [
+          "MLCC",
+          "로봇",
+          "반도체"
+        ],
+        "pm320_only": [
+          "케이블"
+        ],
+        "cafe_only": []
+      },
+      "index_change_pct": -4.76,
+      "index_multiple_current": -2.38,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 6190,
+        "high_date": "2026-01-21",
+        "high_pct": -26.9,
+        "low": 1467,
+        "low_date": "2025-08-20",
+        "low_pct": 208.45,
+        "current": 4525
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-30",
+          "o": 2940,
+          "h": 3190,
+          "l": 2805,
+          "c": 2850
+        },
+        {
+          "date": "2026-07-01",
+          "o": 2895,
+          "h": 3055,
+          "l": 2750,
+          "c": 2975
+        },
+        {
+          "date": "2026-07-02",
+          "o": 2890,
+          "h": 2890,
+          "l": 2550,
+          "c": 2555
+        },
+        {
+          "date": "2026-07-03",
+          "o": 2570,
+          "h": 2585,
+          "l": 2305,
+          "c": 2460
+        },
+        {
+          "date": "2026-07-06",
+          "o": 2435,
+          "h": 2475,
+          "l": 2210,
+          "c": 2335
+        },
+        {
+          "date": "2026-07-07",
+          "o": 2335,
+          "h": 2345,
+          "l": 2105,
+          "c": 2120
+        },
+        {
+          "date": "2026-07-08",
+          "o": 2015,
+          "h": 2090,
+          "l": 1947,
+          "c": 1958
+        },
+        {
+          "date": "2026-07-09",
+          "o": 1960,
+          "h": 2080,
+          "l": 1938,
+          "c": 1992
+        },
+        {
+          "date": "2026-07-10",
+          "o": 2000,
+          "h": 2225,
+          "l": 2000,
+          "c": 2170
+        },
+        {
+          "date": "2026-07-13",
+          "o": 2220,
+          "h": 2775,
+          "l": 2130,
+          "c": 2400
+        },
+        {
+          "date": "2026-07-14",
+          "o": 2345,
+          "h": 2400,
+          "l": 2065,
+          "c": 2300
+        },
+        {
+          "date": "2026-07-15",
+          "o": 2335,
+          "h": 2990,
+          "l": 2280,
+          "c": 2990
+        },
+        {
+          "date": "2026-07-16",
+          "o": 3285,
+          "h": 3830,
+          "l": 2995,
+          "c": 3360
+        },
+        {
+          "date": "2026-07-20",
+          "o": 3300,
+          "h": 3915,
+          "l": 3070,
+          "c": 3345
+        },
+        {
+          "date": "2026-07-21",
+          "o": 3500,
+          "h": 3820,
+          "l": 3245,
+          "c": 3375
+        },
+        {
+          "date": "2026-07-22",
+          "o": 3445,
+          "h": 4095,
+          "l": 3395,
+          "c": 3570
+        },
+        {
+          "date": "2026-07-23",
+          "o": 3700,
+          "h": 3700,
+          "l": 3140,
+          "c": 3165
+        },
+        {
+          "date": "2026-07-24",
+          "o": 3170,
+          "h": 3645,
+          "l": 3035,
+          "c": 3130
+        },
+        {
+          "date": "2026-07-27",
+          "o": 3130,
+          "h": 4065,
+          "l": 3000,
+          "c": 4065
+        },
+        {
+          "date": "2026-07-28",
+          "o": 4160,
+          "h": 4630,
+          "l": 4070,
+          "c": 4525
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "투자경고"
+    },
+    {
       "code": "299660",
       "name": "셀리드",
-      "rank": 1,
-      "trade_amount": 3019000000,
+      "rank": 2,
+      "trade_amount": 3055000000,
       "change_pct": 29.99,
       "close_price": 1777,
       "open_price": 1440,
@@ -137,8 +498,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": -4.55,
-      "index_multiple_current": -6.59,
+      "index_change_pct": -4.76,
+      "index_multiple_current": -6.3,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 4760,
@@ -318,8 +679,20 @@
           "effect_badges": []
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 1440,
+        "base": 1440,
+        "prices": [
+          1440,
+          1765,
+          1777,
+          1777,
+          1777
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰",
@@ -329,8 +702,8 @@
     {
       "code": "368600",
       "name": "아이씨에이치",
-      "rank": 2,
-      "trade_amount": 2645000000,
+      "rank": 3,
+      "trade_amount": 2683000000,
       "change_pct": 29.91,
       "close_price": 1342,
       "open_price": 1167,
@@ -381,8 +754,8 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": -4.55,
-      "index_multiple_current": -6.57,
+      "index_change_pct": -4.76,
+      "index_multiple_current": -6.28,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 2491,
@@ -568,8 +941,20 @@
           ]
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 1167,
+        "base": 1167,
+        "prices": [
+          1167,
+          1342,
+          1342,
+          1342,
+          1342
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "투자경고",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰"
@@ -577,42 +962,15 @@
     {
       "code": "208710",
       "name": "포톤",
-      "rank": 3,
-      "trade_amount": 785000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
-      "industry": null,
-      "sector": null,
-      "themes": [],
-      "theme_paths": [],
-      "pick_count": 1,
-      "prev_pick": null,
-      "bullish_today": false,
-      "bullish_streak": 0,
-      "bullish_dates": [],
-      "news": [],
-      "fallback": true,
-      "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
-    },
-    {
-      "code": "247660",
-      "name": "나노씨엠에스",
       "rank": 4,
-      "trade_amount": 458000000,
-      "change_pct": 29.97,
-      "close_price": 3925,
-      "open_price": 3495,
-      "high_price": 3925,
-      "low_price": 3300,
-      "industry": null,
-      "sector": null,
+      "trade_amount": 847000000,
+      "change_pct": 30.0,
+      "close_price": 2340,
+      "open_price": 1870,
+      "high_price": 2340,
+      "low_price": 1820,
+      "industry": "전자부품 제조업",
+      "sector": "모바일용 카메라모듈 부품외",
       "themes": [],
       "theme_paths": [],
       "pick_count": 1,
@@ -624,6 +982,204 @@
       ],
       "news": [],
       "fallback": true,
+      "index_change_pct": -4.76,
+      "index_multiple_current": -6.3,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 5660,
+        "high_date": "2026-05-28",
+        "high_pct": -58.66,
+        "low": 1678,
+        "low_date": "2026-07-14",
+        "low_pct": 39.45,
+        "current": 2340
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-30",
+          "o": 2010,
+          "h": 2100,
+          "l": 1980,
+          "c": 1991
+        },
+        {
+          "date": "2026-07-01",
+          "o": 1999,
+          "h": 2055,
+          "l": 1952,
+          "c": 2045
+        },
+        {
+          "date": "2026-07-02",
+          "o": 2030,
+          "h": 2180,
+          "l": 1899,
+          "c": 1960
+        },
+        {
+          "date": "2026-07-03",
+          "o": 1960,
+          "h": 2020,
+          "l": 1887,
+          "c": 1994
+        },
+        {
+          "date": "2026-07-06",
+          "o": 2000,
+          "h": 2060,
+          "l": 1943,
+          "c": 1969
+        },
+        {
+          "date": "2026-07-07",
+          "o": 1970,
+          "h": 1987,
+          "l": 1850,
+          "c": 1891
+        },
+        {
+          "date": "2026-07-08",
+          "o": 1806,
+          "h": 1891,
+          "l": 1786,
+          "c": 1813
+        },
+        {
+          "date": "2026-07-09",
+          "o": 1789,
+          "h": 1869,
+          "l": 1789,
+          "c": 1833
+        },
+        {
+          "date": "2026-07-10",
+          "o": 1833,
+          "h": 1967,
+          "l": 1833,
+          "c": 1960
+        },
+        {
+          "date": "2026-07-13",
+          "o": 1970,
+          "h": 2030,
+          "l": 1790,
+          "c": 1849
+        },
+        {
+          "date": "2026-07-14",
+          "o": 1845,
+          "h": 1845,
+          "l": 1678,
+          "c": 1826
+        },
+        {
+          "date": "2026-07-15",
+          "o": 2010,
+          "h": 2010,
+          "l": 1902,
+          "c": 1929
+        },
+        {
+          "date": "2026-07-16",
+          "o": 1840,
+          "h": 1929,
+          "l": 1840,
+          "c": 1925
+        },
+        {
+          "date": "2026-07-20",
+          "o": 1925,
+          "h": 1925,
+          "l": 1801,
+          "c": 1824
+        },
+        {
+          "date": "2026-07-21",
+          "o": 1809,
+          "h": 1897,
+          "l": 1777,
+          "c": 1820
+        },
+        {
+          "date": "2026-07-22",
+          "o": 1834,
+          "h": 1884,
+          "l": 1811,
+          "c": 1811
+        },
+        {
+          "date": "2026-07-23",
+          "o": 1850,
+          "h": 1870,
+          "l": 1775,
+          "c": 1870
+        },
+        {
+          "date": "2026-07-24",
+          "o": 1876,
+          "h": 1879,
+          "l": 1800,
+          "c": 1811
+        },
+        {
+          "date": "2026-07-27",
+          "o": 1811,
+          "h": 1845,
+          "l": 1751,
+          "c": 1800
+        },
+        {
+          "date": "2026-07-28",
+          "o": 1870,
+          "h": 2340,
+          "l": 1820,
+          "c": 2340
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 1870,
+        "base": 1870,
+        "prices": [
+          1870,
+          2050,
+          2340,
+          2340,
+          2340
+        ]
+      },
+      "credit_risk": true,
+      "credit_reason": "회사한도초과",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
+    },
+    {
+      "code": "247660",
+      "name": "나노씨엠에스",
+      "rank": 5,
+      "trade_amount": 465000000,
+      "change_pct": 29.97,
+      "close_price": 3925,
+      "open_price": 3495,
+      "high_price": 3925,
+      "low_price": 3300,
+      "industry": "전자부품 제조업",
+      "sector": "근적외선 흡수/반사 안료, 자외선 유기형광 안료, 적외선 발광체",
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-07-28"
+      ],
+      "news": [],
+      "fallback": true,
+      "index_change_pct": -4.76,
+      "index_multiple_current": -6.3,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 5610,
         "high_date": "2025-12-29",
@@ -775,8 +1331,19 @@
           "c": 3925
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 3495,
+        "base": 3495,
+        "prices": [
+          3495,
+          3925,
+          3925,
+          3925
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
@@ -784,7 +1351,7 @@
     {
       "code": "199730",
       "name": "바이오인프라",
-      "rank": 5,
+      "rank": 6,
       "trade_amount": 136000000,
       "change_pct": 29.98,
       "close_price": 2645,
@@ -858,8 +1425,8 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": -4.55,
-      "index_multiple_current": -6.59,
+      "index_change_pct": -4.76,
+      "index_multiple_current": -6.3,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 5880,
@@ -1017,6 +1584,7 @@
         "open": 2645,
         "base": 2645,
         "prices": [
+          2645,
           2645,
           2645,
           2645
