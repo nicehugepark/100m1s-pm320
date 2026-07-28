@@ -1,6 +1,6 @@
 {
   "date": "2026-07-28",
-  "generated_at": "2026-07-28T09:05:06.588596",
+  "generated_at": "2026-07-28T09:15:18.998935",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -25,19 +25,758 @@
     }
   ],
   "narratives": [],
-  "themes_macro_summary": [],
-  "themes_tree": null,
+  "themes_macro_summary": [
+    {
+      "keyword": "배터리수주",
+      "summary": "EV 배터리 부품 수주 증가 → 산업 수요 확대 → 배터리·부품 섹터 강세",
+      "source_count": 2,
+      "verified": true
+    },
+    {
+      "keyword": "CBDC정책",
+      "summary": "정부 CBDC 결제 인프라 정책 → 디지털 결제 생태계 확대 → 핀테크 섹터 수혜",
+      "source_count": 2,
+      "verified": true
+    },
+    {
+      "keyword": "AI심리",
+      "summary": "AI 투자심리 개선 → 기술주 관심도 상승 → AI·소프트웨어 섹터 강세",
+      "source_count": 1,
+      "verified": false
+    },
+    {
+      "keyword": "폭염수요",
+      "summary": "폭염 심화 → 냉방기기 수요 급증 → 냉방가전·전력 섹터 호조",
+      "source_count": 1,
+      "verified": false
+    },
+    {
+      "keyword": "금융IT",
+      "summary": "AI 기반 금융서비스 출시 → 핀테크 산업 고도화 → 디지털금융 섹터 수혜",
+      "source_count": 1,
+      "verified": false
+    }
+  ],
+  "themes_tree": {
+    "date": "2026-07-28",
+    "roots": [
+      {
+        "name": "2차전지",
+        "children": [
+          {
+            "name": "원통형 배터리 장비",
+            "summary": "케이엔에스가 15억 규모 원통형(46시리즈) 배터리 자동화 설비를 수주하며 원통형 전지 증설 사이클이 부각돼 2차전지 장비주에 매수세 유입.",
+            "source_count": 2,
+            "verdict": "pass"
+          }
+        ]
+      },
+      {
+        "name": "디지털 화폐",
+        "children": [
+          {
+            "name": "예금토큰 결제 인프라",
+            "summary": "다날이 과기부 예금토큰 기반 결제 인프라 확대 사업에 선정되며 정부 주도 디지털화폐 결제망 구축 기대가 커져 결제·핀테크주로 자금이 이동.",
+            "source_count": 2,
+            "verdict": "pass"
+          }
+        ]
+      },
+      {
+        "name": "AI",
+        "children": [
+          {
+            "name": "AI 소프트웨어",
+            "summary": "네이버-엔비디아 투자 소식과 AI 투자심리 개선으로 셀바스AI·마음AI·오브젠 등이 동반 상승하며 AI 파트너십·응용 소프트웨어 밸류에이션 재평가 기대로 매수세 집중.",
+            "source_count": 2,
+            "verdict": "weak"
+          }
+        ]
+      }
+    ]
+  },
   "stocks": [
     {
-      "code": "199730",
-      "name": "바이오인프라",
+      "code": "299660",
+      "name": "셀리드",
       "rank": 1,
-      "trade_amount": 133000000,
+      "trade_amount": 3019000000,
+      "change_pct": 29.99,
+      "close_price": 1777,
+      "open_price": 1440,
+      "high_price": 1777,
+      "low_price": 1440,
+      "industry": "자연과학 및 공학 연구개발업",
+      "sector": "항암면역치료백신",
+      "themes": [
+        "면역항암제",
+        "바이오"
+      ],
+      "theme_paths": [
+        {
+          "name": "면역항암제",
+          "path": [
+            "바이오",
+            "면역항암제"
+          ]
+        }
+      ],
+      "pick_count": 2,
+      "prev_pick": {
+        "date": "2026-07-27",
+        "rank": 11,
+        "change_pct": 29.94,
+        "trade_amount": 896000000
+      },
+      "bullish_today": true,
+      "bullish_streak": 2,
+      "bullish_dates": [
+        "2026-06-26",
+        "2026-07-27",
+        "2026-07-28"
+      ],
+      "news": [],
+      "fallback": true,
+      "index_change_pct": -4.55,
+      "index_multiple_current": -6.59,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 4760,
+        "high_date": "2026-04-20",
+        "high_pct": -62.67,
+        "low": 973,
+        "low_date": "2026-07-21",
+        "low_pct": 82.63,
+        "current": 1777
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-30",
+          "o": 1658,
+          "h": 1716,
+          "l": 1369,
+          "c": 1406
+        },
+        {
+          "date": "2026-07-01",
+          "o": 1420,
+          "h": 1591,
+          "l": 1411,
+          "c": 1534
+        },
+        {
+          "date": "2026-07-02",
+          "o": 1501,
+          "h": 1570,
+          "l": 1414,
+          "c": 1427
+        },
+        {
+          "date": "2026-07-03",
+          "o": 1412,
+          "h": 1490,
+          "l": 1356,
+          "c": 1443
+        },
+        {
+          "date": "2026-07-06",
+          "o": 1498,
+          "h": 1498,
+          "l": 1375,
+          "c": 1430
+        },
+        {
+          "date": "2026-07-07",
+          "o": 1360,
+          "h": 1467,
+          "l": 1360,
+          "c": 1417
+        },
+        {
+          "date": "2026-07-08",
+          "o": 1411,
+          "h": 1411,
+          "l": 1270,
+          "c": 1345
+        },
+        {
+          "date": "2026-07-09",
+          "o": 1301,
+          "h": 1376,
+          "l": 1263,
+          "c": 1275
+        },
+        {
+          "date": "2026-07-10",
+          "o": 1278,
+          "h": 1334,
+          "l": 1250,
+          "c": 1255
+        },
+        {
+          "date": "2026-07-13",
+          "o": 1246,
+          "h": 1285,
+          "l": 1141,
+          "c": 1155
+        },
+        {
+          "date": "2026-07-14",
+          "o": 1155,
+          "h": 1198,
+          "l": 1100,
+          "c": 1121
+        },
+        {
+          "date": "2026-07-15",
+          "o": 1121,
+          "h": 1169,
+          "l": 1121,
+          "c": 1147
+        },
+        {
+          "date": "2026-07-16",
+          "o": 1147,
+          "h": 1162,
+          "l": 1074,
+          "c": 1136
+        },
+        {
+          "date": "2026-07-20",
+          "o": 1136,
+          "h": 1147,
+          "l": 1071,
+          "c": 1071
+        },
+        {
+          "date": "2026-07-21",
+          "o": 1062,
+          "h": 1069,
+          "l": 973,
+          "c": 1033
+        },
+        {
+          "date": "2026-07-22",
+          "o": 1035,
+          "h": 1084,
+          "l": 1015,
+          "c": 1025
+        },
+        {
+          "date": "2026-07-23",
+          "o": 1025,
+          "h": 1138,
+          "l": 1025,
+          "c": 1082
+        },
+        {
+          "date": "2026-07-24",
+          "o": 1085,
+          "h": 1135,
+          "l": 1045,
+          "c": 1052
+        },
+        {
+          "date": "2026-07-27",
+          "o": 1060,
+          "h": 1367,
+          "l": 1045,
+          "c": 1367
+        },
+        {
+          "date": "2026-07-28",
+          "o": 1440,
+          "h": 1777,
+          "l": 1440,
+          "c": 1777
+        }
+      ],
+      "status_badges": [
+        {
+          "label": "투자주의 근접",
+          "severity": "caution",
+          "source": "predicted",
+          "thresholds": [
+            {
+              "desc": "5일 전(2026-07-21) 대비 +60%↑",
+              "base_price": 1033,
+              "threshold": 1652,
+              "current": 1777,
+              "triggered": true
+            }
+          ],
+          "regulation": "KRX 시장경보 가격 조건 충족 (거래량 미검증, 자체 추정)",
+          "period_start": "2026-07-29",
+          "period_end": "2026-07-30",
+          "start": "2026-07-29",
+          "end": "2026-07-30",
+          "view_date": "2026-07-28",
+          "next_trading_day": "2026-07-29",
+          "next_trading_day_for_predicted": "2026-07-29",
+          "next_trading_day_source": "fallback_homepage",
+          "single_price": false,
+          "effect_badges": []
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
+      "code": "368600",
+      "name": "아이씨에이치",
+      "rank": 2,
+      "trade_amount": 2645000000,
+      "change_pct": 29.91,
+      "close_price": 1342,
+      "open_price": 1167,
+      "high_price": 1342,
+      "low_price": 1136,
+      "industry": "전자부품 제조업",
+      "sector": "스마트기기용 필름형 안테나",
+      "themes": [
+        "통신장비"
+      ],
+      "theme_paths": [
+        {
+          "name": "통신장비",
+          "path": [
+            "통신장비"
+          ]
+        }
+      ],
+      "pick_count": 3,
+      "prev_pick": {
+        "date": "2026-07-27",
+        "rank": 8,
+        "change_pct": 2.994,
+        "trade_amount": 2067000000
+      },
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-07-24",
+        "2026-07-28"
+      ],
+      "news": [
+        {
+          "title": "[특징주] “삼성전자 폴더블폰에 소재 공급 중” 소식에…아이씨에이치, 上",
+          "url": "https://biz.chosun.com/stock/stock_general/2026/07/27/3ZRXOSPLMNGCTFWZGTXS7PD2LM/",
+          "source": "조선비즈",
+          "published_at": "2026-07-27T00:30:40",
+          "causal_chain": "삼성전자 폴더블폰에 스마트기기용 필름형 안테나 소재를 공급 중이라는 사실이 부각 → 폴더블폰 판매 확대 시 안테나 소재 납품 물량 증가 기대 → 매수세가 시초부터 집중되며 점상한가(시=고=저=종 1,033원, +29.94%)로 거래대금 20억원에 마감.",
+          "macro_event": "삼성전자 폴더블폰에 필름형 안테나 소재 공급 사실 부각",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.55,
+          "newzy_virality": 0.4,
+          "newzy_tradability": null,
+          "newzy_score": 0.49,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        }
+      ],
+      "fallback": true,
+      "index_change_pct": -4.55,
+      "index_multiple_current": -6.57,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 2491,
+        "high_date": "2025-08-01",
+        "high_pct": -46.13,
+        "low": 491,
+        "low_date": "2026-06-29",
+        "low_pct": 173.32,
+        "current": 1342
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-30",
+          "o": 539,
+          "h": 584,
+          "l": 520,
+          "c": 570
+        },
+        {
+          "date": "2026-07-01",
+          "o": 543,
+          "h": 620,
+          "l": 536,
+          "c": 600
+        },
+        {
+          "date": "2026-07-02",
+          "o": 600,
+          "h": 617,
+          "l": 560,
+          "c": 607
+        },
+        {
+          "date": "2026-07-03",
+          "o": 565,
+          "h": 644,
+          "l": 528,
+          "c": 609
+        },
+        {
+          "date": "2026-07-06",
+          "o": 670,
+          "h": 670,
+          "l": 550,
+          "c": 618
+        },
+        {
+          "date": "2026-07-07",
+          "o": 618,
+          "h": 624,
+          "l": 569,
+          "c": 616
+        },
+        {
+          "date": "2026-07-08",
+          "o": 600,
+          "h": 617,
+          "l": 547,
+          "c": 611
+        },
+        {
+          "date": "2026-07-09",
+          "o": 669,
+          "h": 669,
+          "l": 570,
+          "c": 611
+        },
+        {
+          "date": "2026-07-10",
+          "o": 606,
+          "h": 639,
+          "l": 546,
+          "c": 575
+        },
+        {
+          "date": "2026-07-13",
+          "o": 592,
+          "h": 628,
+          "l": 542,
+          "c": 580
+        },
+        {
+          "date": "2026-07-14",
+          "o": 585,
+          "h": 600,
+          "l": 555,
+          "c": 579
+        },
+        {
+          "date": "2026-07-15",
+          "o": 562,
+          "h": 610,
+          "l": 560,
+          "c": 600
+        },
+        {
+          "date": "2026-07-16",
+          "o": 639,
+          "h": 639,
+          "l": 561,
+          "c": 590
+        },
+        {
+          "date": "2026-07-20",
+          "o": 588,
+          "h": 625,
+          "l": 563,
+          "c": 612
+        },
+        {
+          "date": "2026-07-21",
+          "o": 599,
+          "h": 612,
+          "l": 564,
+          "c": 611
+        },
+        {
+          "date": "2026-07-22",
+          "o": 611,
+          "h": 616,
+          "l": 576,
+          "c": 598
+        },
+        {
+          "date": "2026-07-23",
+          "o": 645,
+          "h": 777,
+          "l": 600,
+          "c": 612
+        },
+        {
+          "date": "2026-07-24",
+          "o": 632,
+          "h": 795,
+          "l": 578,
+          "c": 795
+        },
+        {
+          "date": "2026-07-27",
+          "o": 1033,
+          "h": 1033,
+          "l": 1033,
+          "c": 1033
+        },
+        {
+          "date": "2026-07-28",
+          "o": 1167,
+          "h": 1342,
+          "l": 1136,
+          "c": 1342
+        }
+      ],
+      "status_badges": [
+        {
+          "label": "투자경고 예고",
+          "severity": "warning",
+          "start": "2026-07-28",
+          "end": "2026-07-28",
+          "summary": "아이씨에이치(보통주)가 2026-07-27 종가가 5일 전일 종가보다 60% 이상 상승하여 2026-07-28(1일간) 투자주의종목으로 지정되며 투자경고종목으로 지정예고됨. 최초 판단일 2026-07-28부터 10일째(2026-08-10)까지 판단일(T)에 지정요건 모두 충족 시 그 다음 날 투자경고종목으로 지정된다.",
+          "condition": "판단일(T) 종가가 T-5 종가보다 60% 이상 상승 + 최근 15일 종가 중 최고 + 주가상승률이 지수상승률 5배 이상 + 시총 100위 이내 미해당",
+          "regulation": "2026-07-28 ~ 2026-08-10",
+          "view_date": "2026-07-28",
+          "next_trading_day": "2026-07-29",
+          "single_price": false,
+          "source": "disclosure",
+          "entry_threshold_price": 977,
+          "entry_threshold_via": "warn_surge_5d_60pct",
+          "entry_threshold_and_condition": "KOSPI 동기간 상승률 5배 동시 충족 시",
+          "entry_window_end": "2026-08-11",
+          "entry_threshold_assumption": "KOSPI 횡보 가정",
+          "disclosure_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260727000536",
+          "disclosure_title": "[투자주의]투자경고종목 지정예고",
+          "reason_text": "아이씨에이치(보통주)가 2026-07-27 종가가 5일 전일 종가보다 60% 이상 상승하여 2026-07-28(1일간) 투자주의종목으로 지정되며 투자경고종목으로 지정예고됨. 최초 판단일 2026-07-28부터 10일째(2026-08-10)까지 판단일(T)에 지정요건 모두 충족 시 그 다음 날 투자경고종목으로 지정된다.",
+          "prev_stage": null,
+          "effect_badges": [
+            {
+              "effect": "credit-block",
+              "when": "tomorrow",
+              "severity": "warning",
+              "source_label": "투자경고 예고",
+              "source_kind": "disclosure"
+            }
+          ]
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "투자경고"
+    },
+    {
+      "code": "208710",
+      "name": "포톤",
+      "rank": 3,
+      "trade_amount": 785000000,
       "change_pct": null,
       "close_price": null,
       "open_price": null,
       "high_price": null,
       "low_price": null,
+      "industry": null,
+      "sector": null,
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [],
+      "news": [],
+      "fallback": true,
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
+      "code": "247660",
+      "name": "나노씨엠에스",
+      "rank": 4,
+      "trade_amount": 458000000,
+      "change_pct": 29.97,
+      "close_price": 3925,
+      "open_price": 3495,
+      "high_price": 3925,
+      "low_price": 3300,
+      "industry": null,
+      "sector": null,
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-07-28"
+      ],
+      "news": [],
+      "fallback": true,
+      "range_240d": {
+        "high": 5610,
+        "high_date": "2025-12-29",
+        "high_pct": -30.04,
+        "low": 2315,
+        "low_date": "2026-06-26",
+        "low_pct": 69.55,
+        "current": 3925
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-30",
+          "o": 2985,
+          "h": 3265,
+          "l": 2895,
+          "c": 2920
+        },
+        {
+          "date": "2026-07-01",
+          "o": 3210,
+          "h": 3225,
+          "l": 2970,
+          "c": 3070
+        },
+        {
+          "date": "2026-07-02",
+          "o": 3070,
+          "h": 3235,
+          "l": 2905,
+          "c": 3005
+        },
+        {
+          "date": "2026-07-03",
+          "o": 3005,
+          "h": 3095,
+          "l": 2900,
+          "c": 3095
+        },
+        {
+          "date": "2026-07-06",
+          "o": 3095,
+          "h": 3295,
+          "l": 3000,
+          "c": 3060
+        },
+        {
+          "date": "2026-07-07",
+          "o": 2965,
+          "h": 3240,
+          "l": 2875,
+          "c": 3160
+        },
+        {
+          "date": "2026-07-08",
+          "o": 3160,
+          "h": 3220,
+          "l": 2700,
+          "c": 3205
+        },
+        {
+          "date": "2026-07-09",
+          "o": 3200,
+          "h": 3200,
+          "l": 2880,
+          "c": 2900
+        },
+        {
+          "date": "2026-07-10",
+          "o": 2900,
+          "h": 2980,
+          "l": 2900,
+          "c": 2905
+        },
+        {
+          "date": "2026-07-13",
+          "o": 2920,
+          "h": 3195,
+          "l": 2920,
+          "c": 3045
+        },
+        {
+          "date": "2026-07-14",
+          "o": 3045,
+          "h": 3150,
+          "l": 2900,
+          "c": 3050
+        },
+        {
+          "date": "2026-07-15",
+          "o": 3190,
+          "h": 3190,
+          "l": 2890,
+          "c": 2995
+        },
+        {
+          "date": "2026-07-16",
+          "o": 2995,
+          "h": 3080,
+          "l": 2910,
+          "c": 2995
+        },
+        {
+          "date": "2026-07-20",
+          "o": 2995,
+          "h": 3145,
+          "l": 2785,
+          "c": 2845
+        },
+        {
+          "date": "2026-07-21",
+          "o": 3110,
+          "h": 3110,
+          "l": 2615,
+          "c": 2795
+        },
+        {
+          "date": "2026-07-22",
+          "o": 2810,
+          "h": 2890,
+          "l": 2720,
+          "c": 2720
+        },
+        {
+          "date": "2026-07-23",
+          "o": 2980,
+          "h": 3045,
+          "l": 2750,
+          "c": 2845
+        },
+        {
+          "date": "2026-07-24",
+          "o": 3125,
+          "h": 3125,
+          "l": 2870,
+          "c": 2880
+        },
+        {
+          "date": "2026-07-27",
+          "o": 2880,
+          "h": 3130,
+          "l": 2800,
+          "c": 3020
+        },
+        {
+          "date": "2026-07-28",
+          "o": 3495,
+          "h": 3925,
+          "l": 3300,
+          "c": 3925
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
+      "code": "199730",
+      "name": "바이오인프라",
+      "rank": 5,
+      "trade_amount": 136000000,
+      "change_pct": 29.98,
+      "close_price": 2645,
+      "open_price": 2645,
+      "high_price": 2645,
+      "low_price": 2645,
       "industry": "자연과학 및 공학 연구개발업",
       "sector": "생동성시험, 검체 분석",
       "themes": [
@@ -67,7 +806,9 @@
       },
       "bullish_today": false,
       "bullish_streak": 0,
-      "bullish_dates": [],
+      "bullish_dates": [
+        "2026-07-23"
+      ],
       "news": [
         {
           "title": "[특징주] 바이오인프라, 2분기 흑자전환 소식에 ‘上’",
@@ -103,15 +844,17 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": -3.63,
+      "index_change_pct": -4.55,
+      "index_multiple_current": -6.59,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 5880,
         "high_date": "2025-08-14",
-        "high_pct": -65.39,
+        "high_pct": -55.02,
         "low": 1500,
         "low_date": "2026-07-15",
-        "low_pct": 35.67,
-        "current": 2035
+        "low_pct": 76.33,
+        "current": 2645
       },
       "daily_20": [
         {
@@ -255,8 +998,18 @@
           "c": 2645
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 2645,
+        "base": 2645,
+        "prices": [
+          2645,
+          2645,
+          2645
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰"
