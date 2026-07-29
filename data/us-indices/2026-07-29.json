@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "기업 실적과 가이던스 변화가 대형주 중심의 선별 흐름을 강화하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/finance/stocks/oil-gains-chip-stocks-extend-losses-ahead-of-fed-decision-day-0121f4c3",
+      "published_ts": 1785323700.0,
+      "impact_high": true
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/oil-surges-as-fresh-middle-east-strikes-threaten-fragile-diplomacy-7fd2d4e8",
@@ -6323,13 +6330,6 @@
       "impact_high": false
     },
     {
-      "summary": "기업 실적과 가이던스 변화가 대형주 중심의 선별 흐름을 강화하는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/banking/stanchart-posts-profit-beat-announces-1-0-bln-buyback-54606388?mod=rss_markets_main",
-      "published_ts": 1785308100.0,
-      "impact_high": false
-    },
-    {
       "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/banking/morgan-stanley-bankers-were-pressured-to-approve-mortgages-for-wealthy-clients-378092ae?mod=rss_markets_main",
@@ -6344,22 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "e43d19b41ecc954ac9434d00cc8896bd4594327d6d785d2ea4bed15f162e40b1",
+  "_article_sig": "c1f6c3e457e9e3b75c02034e07eb957e57551e53ca0435ff2bd3b080e0a147c1",
   "built_at_kst": "2026-07-29T07:01:22.959450+09:00",
   "futures": {
-    "as_of_kst": "2026-07-29T20:10:07.490903+09:00",
+    "as_of_kst": "2026-07-29T20:20:04.306465+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7477.0,
-        "change_pct": 0.16,
+        "point": 7482.5,
+        "change_pct": 0.23,
         "spark": [
           7464.0,
-          7482.5,
-          7480.5,
-          7478.5,
           7481.25,
           7479.75,
           7478.75,
@@ -6396,21 +6393,24 @@
           7480.5,
           7477.0,
           7477.5,
-          7477.0
+          7479.5,
+          7482.75,
+          7481.5,
+          7482.5
         ],
         "candle": {
           "o": 7464.0,
           "h": 7501.0,
           "l": 7438.5,
-          "c": 7478.25
+          "c": 7482.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7623.75,
           "low_date": "2025-08-21",
           "high_date": "2026-06-02",
-          "low_change_pct": 17.06,
-          "high_change_pct": -1.91
+          "low_change_pct": 17.13,
+          "high_change_pct": -1.85
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7464.0,
             "h": 7501.0,
             "l": 7438.5,
-            "c": 7478.25,
-            "v": 214871
+            "c": 7482.5,
+            "v": 217178
           }
         ],
         "rollover_gaps": [],
@@ -8435,16 +8435,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/finance/stocks/oil-gains-chip-stocks-extend-losses-ahead-of-fed-decision-day-0121f4c3"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/china-shock-just-came-for-your-portfolio-367eb097?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/oil-surges-as-fresh-middle-east-strikes-threaten-fragile-diplomacy-7fd2d4e8"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/democratic-socialists-rise-rattles-mainstream-democrats-e7ed7ee1"
             }
           ]
         }
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 27948.75,
-        "change_pct": 0.1,
+        "point": 27988.0,
+        "change_pct": 0.24,
         "spark": [
           27962.0,
-          27906.75,
-          27894.75,
           27906.0,
           27906.75,
           27891.75,
@@ -8495,21 +8493,23 @@
           27942.5,
           27948.0,
           27963.75,
-          27948.75
+          27988.5,
+          27992.25,
+          27988.0
         ],
         "candle": {
           "o": 27962.0,
           "h": 28178.25,
           "l": 27640.0,
-          "c": 27951.0
+          "c": 27988.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 20.79,
-          "high_change_pct": -8.99
+          "low_change_pct": 20.95,
+          "high_change_pct": -8.87
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 27962.0,
             "h": 28178.25,
             "l": 27640.0,
-            "c": 27951.0,
-            "v": 143322
+            "c": 27988.0,
+            "v": 144957
           }
         ],
         "rollover_gaps": [],
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52816.0,
-        "change_pct": -0.24,
+        "point": 52799.0,
+        "change_pct": -0.27,
         "spark": [
           52915.0,
-          52988.0,
-          52977.0,
           52994.0,
           52983.0,
           52994.0,
@@ -10594,21 +10592,23 @@
           52792.0,
           52809.0,
           52793.0,
-          52816.0
+          52801.0,
+          52786.0,
+          52799.0
         ],
         "candle": {
           "o": 52915.0,
           "h": 53033.0,
-          "l": 52787.0,
-          "c": 52816.0
+          "l": 52766.0,
+          "c": 52799.0
         },
         "range_240d": {
           "low": 44854.0,
           "high": 53372.0,
           "low_date": "2025-08-21",
           "high_date": "2026-07-06",
-          "low_change_pct": 17.75,
-          "high_change_pct": -1.04
+          "low_change_pct": 17.71,
+          "high_change_pct": -1.07
         },
         "daily_expanded": [
           {
@@ -12623,9 +12623,9 @@
             "date": "2026-07-29",
             "o": 52915.0,
             "h": 53033.0,
-            "l": 52787.0,
-            "c": 52816.0,
-            "v": 20894
+            "l": 52766.0,
+            "c": 52799.0,
+            "v": 21314
           }
         ],
         "rollover_gaps": [],
@@ -12650,7 +12650,7 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-07-29T20:10:11.399607+09:00",
+  "intraday_refreshed_kst": "2026-07-29T20:20:31.085008+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
@@ -12673,16 +12673,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/finance/stocks/oil-gains-chip-stocks-extend-losses-ahead-of-fed-decision-day-0121f4c3"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/china-shock-just-came-for-your-portfolio-367eb097?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/oil-surges-as-fresh-middle-east-strikes-threaten-fragile-diplomacy-7fd2d4e8"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/democratic-socialists-rise-rattles-mainstream-democrats-e7ed7ee1"
         }
       ]
     },
