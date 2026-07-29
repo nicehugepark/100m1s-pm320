@@ -6302,7 +6302,14 @@
       "impact_high": true
     },
     {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "summary": "반도체 수요와 공급망 뉴스가 기술주 투자심리의 핵심 변수로 작용하는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/2026072941117",
+      "published_ts": 1785326553.0,
+      "impact_high": false
+    },
+    {
+      "summary": "전력·유틸리티 투자와 인프라 수요가 방어주와 산업재 관심을 확대하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/asia/the-quake-struck-japan-eighty-minutes-later-a-lethal-explosion-028310fe",
       "published_ts": 1785326280.0,
@@ -6323,13 +6330,6 @@
       "impact_high": false
     },
     {
-      "summary": "반도체 수요와 공급망 뉴스가 기술주 투자심리의 핵심 변수로 작용하는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026072937507",
-      "published_ts": 1785313686.0,
-      "impact_high": false
-    },
-    {
       "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/banking/morgan-stanley-bankers-were-pressured-to-approve-mortgages-for-wealthy-clients-378092ae?mod=rss_markets_main",
@@ -6344,10 +6344,10 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "41fe28a3a26090bf9d9e31a47c626a416584a32b87ca751b6dcafab68410ffe7",
+  "_article_sig": "6168fccf9b46f8489aae14a1e4b6772a83dee2ede2d3b60488daba44942ac96e",
   "built_at_kst": "2026-07-29T07:01:22.959450+09:00",
   "futures": {
-    "as_of_kst": "2026-07-29T21:00:07.942305+09:00",
+    "as_of_kst": "2026-07-29T21:10:09.119767+09:00",
     "session_open": true,
     "futures": [
       {
@@ -6357,8 +6357,6 @@
         "change_pct": 0.2,
         "spark": [
           7464.0,
-          7482.5,
-          7484.5,
           7481.25,
           7480.75,
           7482.0,
@@ -6396,6 +6394,8 @@
           7478.0,
           7480.75,
           7477.25,
+          7480.75,
+          7478.0,
           7480.5
         ],
         "candle": {
@@ -8427,7 +8427,7 @@
             "h": 7501.0,
             "l": 7438.5,
             "c": 7480.5,
-            "v": 225558
+            "v": 228016
           }
         ],
         "rollover_gaps": [],
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 27986.25,
-        "change_pct": 0.23,
+        "point": 28000.25,
+        "change_pct": 0.28,
         "spark": [
           27962.0,
-          27923.25,
-          27931.75,
           27905.5,
           27904.0,
           27936.0,
@@ -8495,21 +8493,23 @@
           27965.75,
           27988.0,
           27960.5,
-          27986.25
+          28002.75,
+          27984.0,
+          28000.25
         ],
         "candle": {
           "o": 27962.0,
           "h": 28178.25,
           "l": 27640.0,
-          "c": 27986.25
+          "c": 28000.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 20.94,
-          "high_change_pct": -8.88
+          "low_change_pct": 21.0,
+          "high_change_pct": -8.83
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 27962.0,
             "h": 28178.25,
             "l": 27640.0,
-            "c": 27986.25,
-            "v": 150403
+            "c": 28000.25,
+            "v": 151616
           }
         ],
         "rollover_gaps": [],
@@ -10534,16 +10534,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/2026072941117"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-20180f16?mod=rss_markets_main"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/democratic-socialists-rise-rattles-mainstream-democrats-e7ed7ee1"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/how-blackstone-put-jersey-mikes-on-a-fast-track-to-this-weeks-ipo-36ac1140?mod=rss_markets_main"
             }
           ]
         }
@@ -10551,13 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52774.0,
-        "change_pct": -0.32,
+        "point": 52758.0,
+        "change_pct": -0.35,
         "spark": [
           52915.0,
-          52987.0,
-          53003.0,
-          53013.0,
           52999.0,
           52987.0,
           52956.0,
@@ -10594,21 +10591,24 @@
           52762.0,
           52769.0,
           52774.0,
-          52774.0
+          52754.0,
+          52761.0,
+          52732.0,
+          52758.0
         ],
         "candle": {
           "o": 52915.0,
           "h": 53033.0,
           "l": 52749.0,
-          "c": 52774.0
+          "c": 52758.0
         },
         "range_240d": {
           "low": 44854.0,
           "high": 53372.0,
           "low_date": "2025-08-21",
           "high_date": "2026-07-06",
-          "low_change_pct": 17.66,
-          "high_change_pct": -1.12
+          "low_change_pct": 17.62,
+          "high_change_pct": -1.15
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 52915.0,
             "h": 53033.0,
             "l": 52749.0,
-            "c": 52774.0,
-            "v": 22740
+            "c": 52758.0,
+            "v": 22997
           }
         ],
         "rollover_gaps": [],
@@ -12650,11 +12650,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-07-29T21:00:34.341415+09:00",
+  "intraday_refreshed_kst": "2026-07-29T21:10:35.556837+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/2026072941117"
+        },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-20180f16?mod=rss_markets_main"
@@ -12662,10 +12666,6 @@
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/democratic-socialists-rise-rattles-mainstream-democrats-e7ed7ee1"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/how-blackstone-put-jersey-mikes-on-a-fast-track-to-this-weeks-ipo-36ac1140?mod=rss_markets_main"
         }
       ]
     },
