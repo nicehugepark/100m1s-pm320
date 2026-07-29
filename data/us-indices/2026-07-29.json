@@ -6274,17 +6274,17 @@
   ],
   "news_chips": [
     {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/iran-gambles-on-escalation-with-surprise-attack-on-u-s-forces-72cfd422",
+      "published_ts": 1785324300.0,
+      "impact_high": true
+    },
+    {
       "summary": "기업 실적과 가이던스 변화가 대형주 중심의 선별 흐름을 강화하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/finance/stocks/oil-gains-chip-stocks-extend-losses-ahead-of-fed-decision-day-0121f4c3",
       "published_ts": 1785323700.0,
-      "impact_high": true
-    },
-    {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/oil-surges-as-fresh-middle-east-strikes-threaten-fragile-diplomacy-7fd2d4e8",
-      "published_ts": 1785319800.0,
       "impact_high": true
     },
     {
@@ -6344,21 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "c1f6c3e457e9e3b75c02034e07eb957e57551e53ca0435ff2bd3b080e0a147c1",
+  "_article_sig": "6284735b4b4a4164bd84e7596739779792a511aa135ad736c783f8db9305aba3",
   "built_at_kst": "2026-07-29T07:01:22.959450+09:00",
   "futures": {
-    "as_of_kst": "2026-07-29T20:20:04.306465+09:00",
+    "as_of_kst": "2026-07-29T20:30:05.358296+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7482.5,
+        "point": 7482.75,
         "change_pct": 0.23,
         "spark": [
           7464.0,
-          7481.25,
-          7479.75,
           7478.75,
           7474.75,
           7471.5,
@@ -6396,13 +6394,15 @@
           7479.5,
           7482.75,
           7481.5,
-          7482.5
+          7482.5,
+          7481.75,
+          7482.75
         ],
         "candle": {
           "o": 7464.0,
           "h": 7501.0,
           "l": 7438.5,
-          "c": 7482.5
+          "c": 7482.75
         },
         "range_240d": {
           "low": 6388.25,
@@ -8426,8 +8426,8 @@
             "o": 7464.0,
             "h": 7501.0,
             "l": 7438.5,
-            "c": 7482.5,
-            "v": 217178
+            "c": 7482.75,
+            "v": 218847
           }
         ],
         "rollover_gaps": [],
@@ -8436,15 +8436,15 @@
           "sources": [
             {
               "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/iran-gambles-on-escalation-with-surprise-attack-on-u-s-forces-72cfd422"
+            },
+            {
+              "name": "WSJ세계",
               "url": "https://www.wsj.com/finance/stocks/oil-gains-chip-stocks-extend-losses-ahead-of-fed-decision-day-0121f4c3"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/china-shock-just-came-for-your-portfolio-367eb097?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/oil-surges-as-fresh-middle-east-strikes-threaten-fragile-diplomacy-7fd2d4e8"
             }
           ]
         }
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 27988.0,
-        "change_pct": 0.24,
+        "point": 28012.0,
+        "change_pct": 0.32,
         "spark": [
           27962.0,
-          27906.0,
-          27906.75,
           27891.75,
           27861.0,
           27831.75,
@@ -8495,21 +8493,23 @@
           27963.75,
           27988.5,
           27992.25,
-          27988.0
+          28007.5,
+          28002.5,
+          28012.0
         ],
         "candle": {
           "o": 27962.0,
           "h": 28178.25,
           "l": 27640.0,
-          "c": 27988.0
+          "c": 28012.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 20.95,
-          "high_change_pct": -8.87
+          "low_change_pct": 21.06,
+          "high_change_pct": -8.79
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 27962.0,
             "h": 28178.25,
             "l": 27640.0,
-            "c": 27988.0,
-            "v": 144957
+            "c": 28012.0,
+            "v": 146555
           }
         ],
         "rollover_gaps": [],
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52799.0,
-        "change_pct": -0.27,
+        "point": 52789.0,
+        "change_pct": -0.29,
         "spark": [
           52915.0,
-          52994.0,
-          52983.0,
           52994.0,
           52979.0,
           52959.0,
@@ -10594,21 +10592,23 @@
           52793.0,
           52801.0,
           52786.0,
-          52799.0
+          52789.0,
+          52776.0,
+          52789.0
         ],
         "candle": {
           "o": 52915.0,
           "h": 53033.0,
           "l": 52766.0,
-          "c": 52799.0
+          "c": 52789.0
         },
         "range_240d": {
           "low": 44854.0,
           "high": 53372.0,
           "low_date": "2025-08-21",
           "high_date": "2026-07-06",
-          "low_change_pct": 17.71,
-          "high_change_pct": -1.07
+          "low_change_pct": 17.69,
+          "high_change_pct": -1.09
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 52915.0,
             "h": 53033.0,
             "l": 52766.0,
-            "c": 52799.0,
-            "v": 21314
+            "c": 52789.0,
+            "v": 21622
           }
         ],
         "rollover_gaps": [],
@@ -12650,7 +12650,7 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-07-29T20:20:31.085008+09:00",
+  "intraday_refreshed_kst": "2026-07-29T20:30:30.120330+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
@@ -12674,15 +12674,15 @@
       "sources": [
         {
           "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/iran-gambles-on-escalation-with-surprise-attack-on-u-s-forces-72cfd422"
+        },
+        {
+          "name": "WSJ세계",
           "url": "https://www.wsj.com/finance/stocks/oil-gains-chip-stocks-extend-losses-ahead-of-fed-decision-day-0121f4c3"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/china-shock-just-came-for-your-portfolio-367eb097?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/oil-surges-as-fresh-middle-east-strikes-threaten-fragile-diplomacy-7fd2d4e8"
         }
       ]
     },
