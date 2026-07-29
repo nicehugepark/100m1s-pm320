@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 24599.94,
-      "change_pct": -1.11,
+      "point": 24575.23,
+      "change_pct": -1.21,
       "candle": {
         "o": 24852.34,
         "h": 24895.46,
-        "l": 24568.97,
-        "c": 24599.94
+        "l": 24535.94,
+        "c": 24575.23
       },
       "range_240d": {
         "low": 20794.64,
@@ -2032,8 +2032,8 @@
           "date": "2026-07-29",
           "o": 24852.34,
           "h": 24895.46,
-          "l": 24568.97,
-          "c": 24599.94
+          "l": 24535.94,
+          "c": 24575.23
         }
       ],
       "spark": [
@@ -2066,7 +2066,9 @@
         24586.48,
         24580.2,
         24597.38,
-        24599.94
+        24554.94,
+        24572.07,
+        24575.23
       ],
       "news": {
         "summary": "반도체주 약세 심화와 AI 데이터센터 금융 비용 상승 압력. 빅테크 주가에 내재된 비현실적 비용 절감 가정 리스크 부각. 일본 구마모토 강진으로 TSMC 등 반도체 생산 차질 우려 확산 중.",
@@ -2090,13 +2092,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7367.76,
-      "change_pct": -0.82,
+      "point": 7361.23,
+      "change_pct": -0.91,
       "candle": {
         "o": 7418.16,
         "h": 7426.38,
-        "l": 7360.24,
-        "c": 7367.76
+        "l": 7353.61,
+        "c": 7361.23
       },
       "range_240d": {
         "low": 6343.72,
@@ -4119,8 +4121,8 @@
           "date": "2026-07-29",
           "o": 7418.16,
           "h": 7426.38,
-          "l": 7360.24,
-          "c": 7367.76
+          "l": 7353.61,
+          "c": 7361.23
         }
       ],
       "spark": [
@@ -4153,7 +4155,9 @@
         7363.25,
         7363.01,
         7367.37,
-        7367.76
+        7357.91,
+        7360.62,
+        7361.23
       ],
       "news": {
         "summary": "연준 회의 임박 속 금리 결정의 방향성 불확실성 가중(Warsh 의장). 미국 소비자 심리 악화, 내구재 수주 부진으로 경기 약화 신호 부각. 중동 지정학 긴장(이란-호르무즈 협상 난항, 사우디 유조선 공격)과 유가 급등으로 모기지 금리 1년 최고 수준. 글로벌 경기 회복세 후퇴 우려 확산.",
@@ -4177,13 +4181,13 @@
     },
     {
       "name": "DOW",
-      "point": 51932.54,
-      "change_pct": -1.54,
+      "point": 51895.87,
+      "change_pct": -1.61,
       "candle": {
         "o": 52674.21,
         "h": 52674.21,
-        "l": 51877.86,
-        "c": 51932.54
+        "l": 51855.8,
+        "c": 51895.87
       },
       "range_240d": {
         "low": 44785.5,
@@ -6206,8 +6210,8 @@
           "date": "2026-07-29",
           "o": 52674.21,
           "h": 52674.21,
-          "l": 51877.86,
-          "c": 51932.54
+          "l": 51855.8,
+          "c": 51895.87
         }
       ],
       "spark": [
@@ -6240,7 +6244,9 @@
         51910.22,
         51902.5,
         51928.02,
-        51932.54
+        51882.9,
+        51895.78,
+        51895.87
       ],
       "news": {
         "summary": "금융주 신용순환 회복 신호(대형은행 상용부동산 대출 복귀) vs 신용 위험 재부각. 지역은행이 AI 금융 붐의 상대적 저가 벤치마크로 부상. 모기지 금리 급등과 소비자 심리 악화로 경기민감주 변동성 확대 신호 심화.",
@@ -6265,6 +6271,13 @@
   ],
   "news_chips": [
     {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/oil-surges-as-fresh-middle-east-strikes-threaten-fragile-diplomacy-7fd2d4e8",
+      "published_ts": 1785339240.0,
+      "impact_high": true
+    },
+    {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/finance/stocks/oil-gains-chip-stocks-extend-losses-ahead-of-fed-decision-day-0121f4c3",
@@ -6284,13 +6297,6 @@
       "url": "https://www.wsj.com/economy/central-banking/what-to-watch-for-at-the-fed-meeting-cf44f94c",
       "published_ts": 1785286800.0,
       "impact_high": true
-    },
-    {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/china/china-closes-the-satellite-gap-in-space-race-with-the-u-s-12b432b0",
-      "published_ts": 1785337200.0,
-      "impact_high": false
     },
     {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
@@ -6335,7 +6341,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "b67d48ca6f0f98f54bfc71e3dbd550efba8522cda23687a5bdfe9a592075d1dd",
+  "_article_sig": "31d4cb730d4fb7c3b7c24b51b70c455d3ddab7d33f40d8100f7325f86f643190",
   "built_at_kst": "2026-07-29T07:01:22.959450+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6360,12 +6366,12 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/china/china-closes-the-satellite-gap-in-space-race-with-the-u-s-12b432b0"
-        },
-        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/oil-surges-as-fresh-middle-east-strikes-threaten-fragile-diplomacy-7fd2d4e8"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/china/china-closes-the-satellite-gap-in-space-race-with-the-u-s-12b432b0"
         },
         {
           "name": "WSJ경제",
@@ -6378,32 +6384,30 @@
       "sources": [
         {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/oil-surges-as-fresh-middle-east-strikes-threaten-fragile-diplomacy-7fd2d4e8"
-        },
-        {
-          "name": "WSJ경제",
           "url": "https://www.wsj.com/finance/stocks/oil-gains-chip-stocks-extend-losses-ahead-of-fed-decision-day-0121f4c3"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-20180f16?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/business/earnings/ubs-plans-new-3-billion-buyback-after-net-profit-rises-d2d4fca9?mod=rss_markets_main"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-07-30T00:50:05.912638+09:00",
+    "as_of_kst": "2026-07-30T01:00:05.673451+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7395.5,
-        "change_pct": -0.93,
+        "point": 7400.25,
+        "change_pct": -0.87,
         "spark": [
           7464.0,
-          7462.25,
-          7462.5,
           7466.25,
           7466.25,
           7464.5,
@@ -6441,21 +6445,23 @@
           7401.5,
           7395.75,
           7395.75,
-          7395.5
+          7400.0,
+          7390.25,
+          7400.25
         ],
         "candle": {
           "o": 7464.0,
           "h": 7501.0,
           "l": 7393.0,
-          "c": 7396.0
+          "c": 7400.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7623.75,
           "low_date": "2025-08-21",
           "high_date": "2026-06-02",
-          "low_change_pct": 15.78,
-          "high_change_pct": -2.99
+          "low_change_pct": 15.84,
+          "high_change_pct": -2.93
         },
         "daily_expanded": [
           {
@@ -8471,8 +8477,8 @@
             "o": 7464.0,
             "h": 7501.0,
             "l": 7393.0,
-            "c": 7396.0,
-            "v": 806962
+            "c": 7400.25,
+            "v": 829036
           }
         ],
         "rollover_gaps": [],
@@ -8480,12 +8486,12 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/china/china-closes-the-satellite-gap-in-space-race-with-the-u-s-12b432b0"
-            },
-            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/oil-surges-as-fresh-middle-east-strikes-threaten-fragile-diplomacy-7fd2d4e8"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/china/china-closes-the-satellite-gap-in-space-race-with-the-u-s-12b432b0"
             },
             {
               "name": "WSJ경제",
@@ -8497,12 +8503,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 27537.0,
-        "change_pct": -1.38,
+        "point": 27561.0,
+        "change_pct": -1.29,
         "spark": [
           27962.0,
-          27888.25,
-          27888.75,
           27911.75,
           27925.25,
           27926.5,
@@ -8540,21 +8544,23 @@
           27559.25,
           27535.25,
           27535.25,
-          27537.0
+          27558.5,
+          27492.25,
+          27561.0
         ],
         "candle": {
           "o": 27962.0,
           "h": 28178.25,
           "l": 27510.0,
-          "c": 27537.0
+          "c": 27561.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 19.0,
-          "high_change_pct": -10.34
+          "low_change_pct": 19.11,
+          "high_change_pct": -10.26
         },
         "daily_expanded": [
           {
@@ -10570,8 +10576,8 @@
             "o": 27962.0,
             "h": 28178.25,
             "l": 27510.0,
-            "c": 27537.0,
-            "v": 398126
+            "c": 27561.0,
+            "v": 405824
           }
         ],
         "rollover_gaps": [],
@@ -10596,12 +10602,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52067.0,
-        "change_pct": -1.66,
+        "point": 52095.0,
+        "change_pct": -1.6,
         "spark": [
           52915.0,
-          52619.0,
-          52601.0,
           52618.0,
           52615.0,
           52575.0,
@@ -10639,21 +10643,23 @@
           52087.0,
           52069.0,
           52064.0,
-          52067.0
+          52096.0,
+          52043.0,
+          52095.0
         ],
         "candle": {
           "o": 52915.0,
           "h": 53033.0,
-          "l": 52042.0,
-          "c": 52067.0
+          "l": 52041.0,
+          "c": 52098.0
         },
         "range_240d": {
           "low": 44854.0,
           "high": 53372.0,
           "low_date": "2025-08-21",
           "high_date": "2026-07-06",
-          "low_change_pct": 16.08,
-          "high_change_pct": -2.45
+          "low_change_pct": 16.15,
+          "high_change_pct": -2.39
         },
         "daily_expanded": [
           {
@@ -12668,9 +12674,9 @@
             "date": "2026-07-29",
             "o": 52915.0,
             "h": 53033.0,
-            "l": 52042.0,
-            "c": 52067.0,
-            "v": 74512
+            "l": 52041.0,
+            "c": 52098.0,
+            "v": 75918
           }
         ],
         "rollover_gaps": [],
@@ -12679,20 +12685,20 @@
           "sources": [
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/oil-surges-as-fresh-middle-east-strikes-threaten-fragile-diplomacy-7fd2d4e8"
-            },
-            {
-              "name": "WSJ경제",
               "url": "https://www.wsj.com/finance/stocks/oil-gains-chip-stocks-extend-losses-ahead-of-fed-decision-day-0121f4c3"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-20180f16?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/business/earnings/ubs-plans-new-3-billion-buyback-after-net-profit-rises-d2d4fca9?mod=rss_markets_main"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-07-30T00:50:09.550538+09:00"
+  "intraday_refreshed_kst": "2026-07-30T01:00:25.986324+09:00"
 }
