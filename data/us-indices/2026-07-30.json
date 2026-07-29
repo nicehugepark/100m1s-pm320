@@ -6299,9 +6299,9 @@
   "news_chips": [
     {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/fed-holds-rates-steady-but-three-officials-voted-for-increase-3a6903e0",
-      "published_ts": 1785355680.0,
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/stocks/fed-holds-but-warsh-hobbles-market-c3406392?mod=rss_markets_main",
+      "published_ts": 1785357420.0,
       "impact_high": true
     },
     {
@@ -6368,7 +6368,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "b2be8ad2ae079bfa67f94d5a0d8c1112d114687e8568c57caec1c15fe14c0a0f",
+  "_article_sig": "717e92cba5eb27753ea069e1afd7f2241382011b57c3f3e2b0c290bb21f33a63",
   "built_at_kst": "2026-07-29T07:01:22.959450+09:00",
   "regular_open": false,
   "_futures_news": {
@@ -6393,16 +6393,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/fed-holds-but-warsh-hobbles-market-c3406392?mod=rss_markets_main"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/fed-holds-rates-steady-but-three-officials-voted-for-increase-3a6903e0"
         },
         {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/202607304326i"
-        },
-        {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/202607304320i"
         }
       ]
     },
@@ -6425,19 +6425,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-07-30T05:30:05.179118+09:00",
+    "as_of_kst": "2026-07-30T05:40:08.261509+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7333.5,
-        "change_pct": -1.76,
+        "point": 7331.0,
+        "change_pct": -1.8,
         "spark": [
           7464.0,
-          7409.5,
-          7421.5,
-          7423.0,
           7419.0,
           7413.0,
           7414.0,
@@ -6474,21 +6471,24 @@
           7330.5,
           7336.5,
           7334.25,
-          7333.5
+          7332.0,
+          7331.0,
+          7338.25,
+          7331.0
         ],
         "candle": {
           "o": 7464.0,
           "h": 7501.0,
-          "l": 7326.25,
-          "c": 7333.75
+          "l": 7324.0,
+          "c": 7331.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7623.75,
           "low_date": "2025-08-21",
           "high_date": "2026-06-02",
-          "low_change_pct": 14.8,
-          "high_change_pct": -3.8
+          "low_change_pct": 14.76,
+          "high_change_pct": -3.84
         },
         "daily_expanded": [
           {
@@ -8503,9 +8503,9 @@
             "date": "2026-07-29",
             "o": 7464.0,
             "h": 7501.0,
-            "l": 7326.25,
-            "c": 7333.75,
-            "v": 1913686
+            "l": 7324.0,
+            "c": 7331.0,
+            "v": 1923697
           }
         ],
         "rollover_gaps": [],
@@ -8513,16 +8513,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/fed-holds-but-warsh-hobbles-market-c3406392?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/fed-holds-rates-steady-but-three-officials-voted-for-increase-3a6903e0"
             },
             {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/202607304326i"
-            },
-            {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/202607304320i"
             }
           ]
         }
@@ -8530,12 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 27276.0,
-        "change_pct": -2.31,
+        "point": 27237.5,
+        "change_pct": -2.45,
         "spark": [
           27962.0,
-          27736.5,
-          27715.5,
           27694.25,
           27651.0,
           27673.5,
@@ -8573,21 +8571,23 @@
           27300.5,
           27282.25,
           27265.75,
-          27276.0
+          27242.25,
+          27274.25,
+          27237.5
         ],
         "candle": {
           "o": 27962.0,
           "h": 28178.25,
           "l": 27201.5,
-          "c": 27284.5
+          "c": 27237.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 17.91,
-          "high_change_pct": -11.16
+          "low_change_pct": 17.71,
+          "high_change_pct": -11.32
         },
         "daily_expanded": [
           {
@@ -10603,8 +10603,8 @@
             "o": 27962.0,
             "h": 28178.25,
             "l": 27201.5,
-            "c": 27284.5,
-            "v": 786655
+            "c": 27237.5,
+            "v": 790286
           }
         ],
         "rollover_gaps": [],
@@ -10629,13 +10629,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51700.0,
+        "point": 51698.0,
         "change_pct": -2.35,
         "spark": [
           52915.0,
-          52136.0,
-          52182.0,
-          52213.0,
           52187.0,
           52164.0,
           52159.0,
@@ -10672,21 +10669,24 @@
           51688.0,
           51681.0,
           51700.0,
-          51700.0
+          51694.0,
+          51698.0,
+          51755.0,
+          51698.0
         ],
         "candle": {
           "o": 52915.0,
           "h": 53033.0,
           "l": 51630.0,
-          "c": 51702.0
+          "c": 51697.0
         },
         "range_240d": {
           "low": 44854.0,
           "high": 53372.0,
           "low_date": "2025-08-21",
           "high_date": "2026-07-06",
-          "low_change_pct": 15.27,
-          "high_change_pct": -3.13
+          "low_change_pct": 15.26,
+          "high_change_pct": -3.14
         },
         "daily_expanded": [
           {
@@ -12702,8 +12702,8 @@
             "o": 52915.0,
             "h": 53033.0,
             "l": 51630.0,
-            "c": 51702.0,
-            "v": 139387
+            "c": 51697.0,
+            "v": 140088
           }
         ],
         "rollover_gaps": [],
@@ -12727,5 +12727,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-07-30T05:30:09.053493+09:00"
+  "intraday_refreshed_kst": "2026-07-30T05:40:28.322532+09:00"
 }
