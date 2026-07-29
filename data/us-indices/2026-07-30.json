@@ -6299,9 +6299,9 @@
   "news_chips": [
     {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/202607304320i",
-      "published_ts": 1785351223.0,
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/fed-holds-rates-steady-but-three-officials-voted-for-increase-3a6903e0",
+      "published_ts": 1785355680.0,
       "impact_high": true
     },
     {
@@ -6347,6 +6347,13 @@
       "impact_high": false
     },
     {
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/livecoverage/fed-meeting-warsh-interest-rate-07-29-2026?mod=rss_markets_main",
+      "published_ts": 1785312839.0,
+      "impact_high": false
+    },
+    {
       "summary": "기업 실적과 가이던스 변화가 대형주 중심의 선별 흐름을 강화하는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/banking/stanchart-posts-profit-beat-announces-1-0-bln-buyback-54606388?mod=rss_markets_main",
@@ -6359,16 +6366,9 @@
       "url": "https://www.wsj.com/finance/banking/morgan-stanley-bankers-were-pressured-to-approve-mortgages-for-wealthy-clients-378092ae?mod=rss_markets_main",
       "published_ts": 1785287340.0,
       "impact_high": false
-    },
-    {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/big-tech-stocks-are-pricing-in-a-miracle-on-costs-6d93664f?mod=rss_markets_main",
-      "published_ts": 1785231000.0,
-      "impact_high": false
     }
   ],
-  "_article_sig": "5ad913e7f697ab6c45ab7ecaf62e2b71ff644b99d10f4da0baacdcf2f1e01660",
+  "_article_sig": "b2be8ad2ae079bfa67f94d5a0d8c1112d114687e8568c57caec1c15fe14c0a0f",
   "built_at_kst": "2026-07-29T07:01:22.959450+09:00",
   "regular_open": false,
   "_futures_news": {
@@ -6393,16 +6393,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/202607304320i"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/iran-gambles-on-escalation-with-surprise-attack-on-u-s-forces-72cfd422"
-        },
-        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/fed-holds-rates-steady-but-three-officials-voted-for-increase-3a6903e0"
+        },
+        {
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/202607304326i"
+        },
+        {
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/202607304320i"
         }
       ]
     },
@@ -6419,24 +6419,22 @@
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/stanchart-posts-profit-beat-announces-1-0-bln-buyback-54606388?mod=rss_markets_main"
+          "url": "https://www.wsj.com/livecoverage/fed-meeting-warsh-interest-rate-07-29-2026?mod=rss_markets_main"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-07-30T05:10:03.673425+09:00",
+    "as_of_kst": "2026-07-30T05:20:06.125004+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7351.5,
-        "change_pct": -1.52,
+        "point": 7334.0,
+        "change_pct": -1.76,
         "spark": [
           7464.0,
-          7394.75,
-          7398.5,
           7404.5,
           7414.5,
           7409.5,
@@ -6474,21 +6472,23 @@
           7373.0,
           7363.5,
           7350.25,
-          7351.5
+          7339.25,
+          7330.5,
+          7334.0
         ],
         "candle": {
           "o": 7464.0,
           "h": 7501.0,
-          "l": 7345.75,
-          "c": 7353.5
+          "l": 7328.75,
+          "c": 7328.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7623.75,
           "low_date": "2025-08-21",
           "high_date": "2026-06-02",
-          "low_change_pct": 15.11,
-          "high_change_pct": -3.54
+          "low_change_pct": 14.72,
+          "high_change_pct": -3.87
         },
         "daily_expanded": [
           {
@@ -8503,9 +8503,9 @@
             "date": "2026-07-29",
             "o": 7464.0,
             "h": 7501.0,
-            "l": 7345.75,
-            "c": 7353.5,
-            "v": 1813757
+            "l": 7328.75,
+            "c": 7328.75,
+            "v": 1886318
           }
         ],
         "rollover_gaps": [],
@@ -8513,16 +8513,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/202607304320i"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/iran-gambles-on-escalation-with-surprise-attack-on-u-s-forces-72cfd422"
-            },
-            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/fed-holds-rates-steady-but-three-officials-voted-for-increase-3a6903e0"
+            },
+            {
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/202607304326i"
+            },
+            {
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/202607304320i"
             }
           ]
         }
@@ -8530,12 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 27351.0,
-        "change_pct": -2.04,
+        "point": 27250.0,
+        "change_pct": -2.41,
         "spark": [
           27962.0,
-          27563.0,
-          27603.25,
           27661.0,
           27652.75,
           27736.5,
@@ -8573,21 +8571,23 @@
           27435.25,
           27336.75,
           27253.75,
-          27351.0
+          27255.0,
+          27300.5,
+          27250.0
         ],
         "candle": {
           "o": 27962.0,
           "h": 28178.25,
-          "l": 27317.5,
-          "c": 27351.0
+          "l": 27201.5,
+          "c": 27250.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 18.2,
-          "high_change_pct": -10.95
+          "low_change_pct": 17.76,
+          "high_change_pct": -11.27
         },
         "daily_expanded": [
           {
@@ -10602,9 +10602,9 @@
             "date": "2026-07-29",
             "o": 27962.0,
             "h": 28178.25,
-            "l": 27317.5,
-            "c": 27351.0,
-            "v": 756597
+            "l": 27201.5,
+            "c": 27250.0,
+            "v": 778838
           }
         ],
         "rollover_gaps": [],
@@ -10629,11 +10629,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51773.0,
-        "change_pct": -2.21,
+        "point": 51688.0,
+        "change_pct": -2.37,
         "spark": [
           52915.0,
-          52082.0,
           52114.0,
           52181.0,
           52136.0,
@@ -10672,21 +10671,22 @@
           51765.0,
           51765.0,
           51757.0,
-          51773.0
+          51688.0,
+          51688.0
         ],
         "candle": {
           "o": 52915.0,
           "h": 53033.0,
-          "l": 51698.0,
-          "c": 51773.0
+          "l": 51679.0,
+          "c": 51688.0
         },
         "range_240d": {
           "low": 44854.0,
           "high": 53372.0,
           "low_date": "2025-08-21",
           "high_date": "2026-07-06",
-          "low_change_pct": 15.43,
-          "high_change_pct": -3.0
+          "low_change_pct": 15.24,
+          "high_change_pct": -3.16
         },
         "daily_expanded": [
           {
@@ -12701,9 +12701,9 @@
             "date": "2026-07-29",
             "o": 52915.0,
             "h": 53033.0,
-            "l": 51698.0,
-            "c": 51773.0,
-            "v": 134697
+            "l": 51679.0,
+            "c": 51688.0,
+            "v": 137410
           }
         ],
         "rollover_gaps": [],
@@ -12720,12 +12720,12 @@
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/stanchart-posts-profit-beat-announces-1-0-bln-buyback-54606388?mod=rss_markets_main"
+              "url": "https://www.wsj.com/livecoverage/fed-meeting-warsh-interest-rate-07-29-2026?mod=rss_markets_main"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-07-30T05:10:07.592037+09:00"
+  "intraday_refreshed_kst": "2026-07-30T05:20:51.759840+09:00"
 }
