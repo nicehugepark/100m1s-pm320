@@ -1,8 +1,12 @@
 {
   "date": "2026-07-29",
-  "generated_at": "2026-07-29T09:25:12.137580",
+  "generated_at": "2026-07-29T09:35:13.485583",
   "data_source": "kiwoom",
   "macro_events": [
+    {
+      "title": "호주인프라",
+      "summary": "호주 인프라 프로젝트 진행 → 한국 건설사의 국제 시공역량 입증 → 건설·인프라 수출 기대감"
+    },
     {
       "title": "통신AI우주",
       "summary": "통신시장의 AI·우주 기술 도입 확대 → 정부 규제체계 개선 필요 → 통신·AI·우주항공 섹터 성장 기대"
@@ -38,7 +42,7 @@
       "code": "484810",
       "name": "티엑스알로보틱스",
       "rank": 1,
-      "trade_amount": 5248000000,
+      "trade_amount": 5315000000,
       "change_pct": 29.92,
       "close_price": 14460,
       "open_price": 12900,
@@ -74,9 +78,9 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 0.38,
-      "index_multiple_current": 78.74,
-      "index_multiple_eligible": true,
+      "index_change_pct": -1.11,
+      "index_multiple_current": -26.95,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 26500,
         "high_date": "2026-01-22",
@@ -228,8 +232,22 @@
           "c": 14460
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 12900,
+        "base": 12900,
+        "prices": [
+          12900,
+          13790,
+          14460,
+          14460,
+          14460,
+          14460,
+          14460
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰",
@@ -237,10 +255,85 @@
       "parent_theme": ""
     },
     {
+      "code": "900300",
+      "name": "오가닉티코스메틱",
+      "rank": 2,
+      "trade_amount": 971000000,
+      "change_pct": null,
+      "close_price": null,
+      "open_price": null,
+      "high_price": null,
+      "low_price": null,
+      "industry": null,
+      "sector": null,
+      "themes": [
+        "3자배정증자",
+        "K-뷰티"
+      ],
+      "theme_paths": [
+        {
+          "name": "3자배정증자",
+          "path": [
+            "3자배정증자"
+          ]
+        },
+        {
+          "name": "K-뷰티",
+          "path": [
+            "K-뷰티"
+          ]
+        }
+      ],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [],
+      "news": [
+        {
+          "title": "오가닉티코스메틱, 582억원 규모 제3자배정 유상증자 결정",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=05028246645484672",
+          "source": "이데일리",
+          "published_at": "2026-06-23T08:35:55",
+          "causal_chain": "오가닉티코스메틱이 582억원 규모 제3자배정 유상증자를 결정 → 외부 자본 유입·신규(전략적/재무적) 투자자 진입·보호예수 락업 기대 → 후속 모멘텀을 노린 매수세가 집중되며 시가 5,910원·고가 5,910원으로 출발, 당일 종가 5,470원(+20.22%)으로 강세 마감(거래대금 44억원).",
+          "macro_event": "582억원 규모 제3자배정 유상증자 결정",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.6,
+          "newzy_virality": 0.3,
+          "newzy_tradability": null,
+          "newzy_score": 0.48,
+          "newzy_verdict": null,
+          "article_type": "공시"
+        }
+      ],
+      "fallback": true,
+      "theme_crosscheck": {
+        "confirmed": [
+          "K-뷰티"
+        ],
+        "pm320_only": [
+          "3자배정증자"
+        ],
+        "cafe_only": []
+      },
+      "range_240d": {
+        "high": 33350,
+        "high_date": "2025-07-14",
+        "high_pct": -93.09,
+        "low": 2070,
+        "low_date": "2026-07-02",
+        "low_pct": 11.35,
+        "current": null
+      },
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
       "code": "455900",
       "name": "엔젤로보틱스",
-      "rank": 2,
-      "trade_amount": 288000000,
+      "rank": 3,
+      "trade_amount": 300000000,
       "change_pct": 29.87,
       "close_price": 20650,
       "open_price": 20650,
@@ -257,9 +350,9 @@
       "bullish_dates": [],
       "news": [],
       "fallback": true,
-      "index_change_pct": 0.38,
-      "index_multiple_current": 78.61,
-      "index_multiple_eligible": true,
+      "index_change_pct": -1.11,
+      "index_multiple_current": -26.91,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 43950,
         "high_date": "2026-01-22",
@@ -416,6 +509,9 @@
         "open": 20650,
         "base": 20650,
         "prices": [
+          20650,
+          20650,
+          20650,
           20650,
           20650,
           20650,
