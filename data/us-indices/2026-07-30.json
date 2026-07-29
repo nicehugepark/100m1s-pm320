@@ -6299,16 +6299,9 @@
   "news_chips": [
     {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/fed-holds-but-warsh-hobbles-market-c3406392?mod=rss_markets_main",
-      "published_ts": 1785357420.0,
-      "impact_high": true
-    },
-    {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/iran-gambles-on-escalation-with-surprise-attack-on-u-s-forces-72cfd422",
-      "published_ts": 1785349380.0,
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/fed-holds-rates-steady-but-three-officials-voted-for-increase-3a6903e0",
+      "published_ts": 1785358620.0,
       "impact_high": true
     },
     {
@@ -6317,6 +6310,13 @@
       "url": "https://www.wsj.com/economy/oil-surges-as-fresh-middle-east-strikes-threaten-fragile-diplomacy-7fd2d4e8",
       "published_ts": 1785339240.0,
       "impact_high": true
+    },
+    {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/trump-vows-to-retaliate-against-iran-with-very-hard-round-of-fresh-strikes-2f45f993",
+      "published_ts": 1785358260.0,
+      "impact_high": false
     },
     {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
@@ -6368,7 +6368,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "717e92cba5eb27753ea069e1afd7f2241382011b57c3f3e2b0c290bb21f33a63",
+  "_article_sig": "7fdaca3f18794ba96c10f444ac9ad193a9735fb991cfce174f39b9a599e7dd9e",
   "built_at_kst": "2026-07-29T07:01:22.959450+09:00",
   "regular_open": false,
   "_futures_news": {
@@ -6381,11 +6381,11 @@
         },
         {
           "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/china/china-closes-the-satellite-gap-in-space-race-with-the-u-s-12b432b0"
+          "url": "https://www.wsj.com/world/middle-east/trump-vows-to-retaliate-against-iran-with-very-hard-round-of-fresh-strikes-2f45f993"
         },
         {
           "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/russia-charges-telegram-founder-durov-with-aiding-terrorism-06285c1f"
+          "url": "https://www.wsj.com/world/china/china-closes-the-satellite-gap-in-space-race-with-the-u-s-12b432b0"
         }
       ]
     },
@@ -6393,16 +6393,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/fed-holds-but-warsh-hobbles-market-c3406392?mod=rss_markets_main"
-        },
-        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/fed-holds-rates-steady-but-three-officials-voted-for-increase-3a6903e0"
         },
         {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/202607304326i"
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/trump-vows-to-retaliate-against-iran-with-very-hard-round-of-fresh-strikes-2f45f993"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/fed-holds-but-warsh-hobbles-market-c3406392?mod=rss_markets_main"
         }
       ]
     },
@@ -6425,19 +6425,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-07-30T05:50:03.252510+09:00",
-    "session_open": true,
+    "as_of_kst": "2026-07-30T06:00:05.165965+09:00",
+    "session_open": false,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7345.5,
-        "change_pct": -1.6,
+        "point": 7335.0,
+        "change_pct": -1.74,
         "spark": [
           7464.0,
-          7413.0,
-          7414.0,
-          7412.0,
           7413.25,
           7415.75,
           7417.75,
@@ -6474,21 +6471,24 @@
           7331.0,
           7338.25,
           7345.75,
-          7345.5
+          7341.0,
+          7336.0,
+          7342.5,
+          7335.0
         ],
         "candle": {
           "o": 7464.0,
           "h": 7501.0,
           "l": 7324.0,
-          "c": 7345.75
+          "c": 7335.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7623.75,
           "low_date": "2025-08-21",
           "high_date": "2026-06-02",
-          "low_change_pct": 14.99,
-          "high_change_pct": -3.65
+          "low_change_pct": 14.82,
+          "high_change_pct": -3.79
         },
         "daily_expanded": [
           {
@@ -8504,8 +8504,8 @@
             "o": 7464.0,
             "h": 7501.0,
             "l": 7324.0,
-            "c": 7345.75,
-            "v": 1933195
+            "c": 7335.0,
+            "v": 1939156
           }
         ],
         "rollover_gaps": [],
@@ -8513,16 +8513,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/fed-holds-but-warsh-hobbles-market-c3406392?mod=rss_markets_main"
-            },
-            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/fed-holds-rates-steady-but-three-officials-voted-for-increase-3a6903e0"
             },
             {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/202607304326i"
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/trump-vows-to-retaliate-against-iran-with-very-hard-round-of-fresh-strikes-2f45f993"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/fed-holds-but-warsh-hobbles-market-c3406392?mod=rss_markets_main"
             }
           ]
         }
@@ -8530,13 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 27327.75,
-        "change_pct": -2.13,
+        "point": 27271.0,
+        "change_pct": -2.33,
         "spark": [
           27962.0,
-          27651.0,
-          27673.5,
-          27658.75,
           27681.0,
           27695.0,
           27711.75,
@@ -8573,21 +8570,24 @@
           27242.25,
           27274.25,
           27327.25,
-          27327.75
+          27312.0,
+          27275.0,
+          27308.0,
+          27271.0
         ],
         "candle": {
           "o": 27962.0,
           "h": 28178.25,
           "l": 27201.5,
-          "c": 27327.0
+          "c": 27271.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 18.1,
-          "high_change_pct": -11.02
+          "low_change_pct": 17.85,
+          "high_change_pct": -11.21
         },
         "daily_expanded": [
           {
@@ -10603,8 +10603,8 @@
             "o": 27962.0,
             "h": 28178.25,
             "l": 27201.5,
-            "c": 27327.0,
-            "v": 793691
+            "c": 27271.0,
+            "v": 796133
           }
         ],
         "rollover_gaps": [],
@@ -10617,11 +10617,11 @@
             },
             {
               "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/china/china-closes-the-satellite-gap-in-space-race-with-the-u-s-12b432b0"
+              "url": "https://www.wsj.com/world/middle-east/trump-vows-to-retaliate-against-iran-with-very-hard-round-of-fresh-strikes-2f45f993"
             },
             {
               "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/russia-charges-telegram-founder-durov-with-aiding-terrorism-06285c1f"
+              "url": "https://www.wsj.com/world/china/china-closes-the-satellite-gap-in-space-race-with-the-u-s-12b432b0"
             }
           ]
         }
@@ -10629,13 +10629,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51797.0,
-        "change_pct": -2.17,
+        "point": 51728.0,
+        "change_pct": -2.3,
         "spark": [
           52915.0,
-          52164.0,
-          52159.0,
-          52145.0,
           52135.0,
           52148.0,
           52156.0,
@@ -10672,21 +10669,24 @@
           51698.0,
           51755.0,
           51792.0,
-          51797.0
+          51760.0,
+          51732.0,
+          51751.0,
+          51728.0
         ],
         "candle": {
           "o": 52915.0,
           "h": 53033.0,
           "l": 51630.0,
-          "c": 51792.0
+          "c": 51729.0
         },
         "range_240d": {
           "low": 44854.0,
           "high": 53372.0,
           "low_date": "2025-08-21",
           "high_date": "2026-07-06",
-          "low_change_pct": 15.47,
-          "high_change_pct": -2.96
+          "low_change_pct": 15.33,
+          "high_change_pct": -3.08
         },
         "daily_expanded": [
           {
@@ -12702,8 +12702,8 @@
             "o": 52915.0,
             "h": 53033.0,
             "l": 51630.0,
-            "c": 51792.0,
-            "v": 140575
+            "c": 51729.0,
+            "v": 140976
           }
         ],
         "rollover_gaps": [],
@@ -12727,5 +12727,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-07-30T05:50:06.950684+09:00"
+  "intraday_refreshed_kst": "2026-07-30T06:00:26.418959+09:00"
 }
