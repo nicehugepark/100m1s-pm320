@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/kevin-warsh-asked-the-market-to-speak-it-answered-c5b589f9",
+      "published_ts": 1785380040.0,
+      "impact_high": true
+    },
+    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/us-news/pows-world-war-ii-recovery-mission-62a90f9e",
@@ -6281,24 +6288,17 @@
       "impact_high": true
     },
     {
-      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/29/fed-meeting-interest-rates-warsh-stocks-bonds.html",
-      "published_ts": 1785368194.0,
-      "impact_high": true
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/trump-vows-to-retaliate-against-iran-with-very-hard-round-of-fresh-strikes-2f45f993",
+      "published_ts": 1785380220.0,
+      "impact_high": false
     },
     {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/europe/france-is-using-12-aging-planes-to-fight-its-wildfires-36b0210b",
       "published_ts": 1785376800.0,
-      "impact_high": false
-    },
-    {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/politics/policy/the-u-s-commander-with-a-two-week-plan-to-escalate-strikes-in-iran-0ce32cb2",
-      "published_ts": 1785376200.0,
       "impact_high": false
     },
     {
@@ -6344,20 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "a006af3723f0df9d50b9488a91d321c8008d8037587b3debde0bd50bf4a0c103",
+  "_article_sig": "3d6f4681ac7f2dce0d4b3f461cc85232e4b96b0507bd5b232a7e4703f471b72f",
   "built_at_kst": "2026-07-30T07:00:35.764521+09:00",
   "futures": {
-    "as_of_kst": "2026-07-30T11:50:07.775017+09:00",
+    "as_of_kst": "2026-07-30T12:00:03.940720+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7382.75,
-        "change_pct": 0.43,
+        "point": 7385.0,
+        "change_pct": 0.46,
         "spark": [
           7338.0,
-          7379.75,
           7379.75,
           7377.5,
           7377.0,
@@ -6395,22 +6394,23 @@
           7386.0,
           7383.25,
           7382.75,
-          7384.25,
-          7382.75
+          7387.0,
+          7385.0,
+          7385.0
         ],
         "candle": {
           "o": 7338.0,
           "h": 7392.75,
           "l": 7331.0,
-          "c": 7382.75
+          "c": 7385.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7623.75,
           "low_date": "2025-08-21",
           "high_date": "2026-06-02",
-          "low_change_pct": 15.57,
-          "high_change_pct": -3.16
+          "low_change_pct": 15.6,
+          "high_change_pct": -3.13
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7338.0,
             "h": 7392.75,
             "l": 7331.0,
-            "c": 7382.75,
-            "v": 88193
+            "c": 7385.0,
+            "v": 89777
           }
         ],
         "rollover_gaps": [],
@@ -8436,15 +8436,15 @@
           "sources": [
             {
               "name": "WSJ세계",
-              "url": "https://www.wsj.com/politics/policy/the-u-s-commander-with-a-two-week-plan-to-escalate-strikes-in-iran-0ce32cb2"
-            },
-            {
-              "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/trump-vows-to-retaliate-against-iran-with-very-hard-round-of-fresh-strikes-2f45f993"
             },
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/kevin-warsh-asked-the-market-to-speak-it-answered-c5b589f9"
+            },
+            {
               "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/see-the-new-fronts-of-the-iran-war-erupting-across-the-middle-east-dda24313"
+              "url": "https://www.wsj.com/politics/policy/the-u-s-commander-with-a-two-week-plan-to-escalate-strikes-in-iran-0ce32cb2"
             }
           ]
         }
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 27569.5,
-        "change_pct": 0.83,
+        "point": 27596.0,
+        "change_pct": 0.93,
         "spark": [
           27202.0,
-          27540.5,
-          27535.75,
           27523.75,
           27513.5,
           27538.0,
@@ -8494,22 +8492,24 @@
           27610.5,
           27587.25,
           27569.75,
-          27580.5,
-          27569.5
+          27610.0,
+          27596.0,
+          27594.0,
+          27596.0
         ],
         "candle": {
           "o": 27202.0,
           "h": 27696.75,
           "l": 27202.0,
-          "c": 27569.5
+          "c": 27596.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 19.14,
-          "high_change_pct": -10.23
+          "low_change_pct": 19.26,
+          "high_change_pct": -10.15
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 27202.0,
             "h": 27696.75,
             "l": 27202.0,
-            "c": 27569.5,
-            "v": 66219
+            "c": 27596.0,
+            "v": 67938
           }
         ],
         "rollover_gaps": [],
@@ -10535,15 +10535,15 @@
           "sources": [
             {
               "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/europe/france-is-using-12-aging-planes-to-fight-its-wildfires-36b0210b"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/politics/policy/the-u-s-commander-with-a-two-week-plan-to-escalate-strikes-in-iran-0ce32cb2"
-            },
-            {
-              "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/trump-vows-to-retaliate-against-iran-with-very-hard-round-of-fresh-strikes-2f45f993"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/kevin-warsh-asked-the-market-to-speak-it-answered-c5b589f9"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/europe/france-is-using-12-aging-planes-to-fight-its-wildfires-36b0210b"
             }
           ]
         }
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51893.0,
-        "change_pct": 0.25,
+        "point": 51887.0,
+        "change_pct": 0.24,
         "spark": [
           51759.0,
-          51905.0,
-          51914.0,
           51923.0,
           51918.0,
           51910.0,
@@ -10594,21 +10592,23 @@
           51898.0,
           51887.0,
           51893.0,
-          51893.0
+          51903.0,
+          51887.0,
+          51887.0
         ],
         "candle": {
           "o": 51759.0,
           "h": 51962.0,
           "l": 51744.0,
-          "c": 51893.0
+          "c": 51887.0
         },
         "range_240d": {
           "low": 44854.0,
           "high": 53372.0,
           "low_date": "2025-08-21",
           "high_date": "2026-07-06",
-          "low_change_pct": 15.69,
-          "high_change_pct": -2.77
+          "low_change_pct": 15.68,
+          "high_change_pct": -2.78
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 51759.0,
             "h": 51962.0,
             "l": 51744.0,
-            "c": 51893.0,
-            "v": 7065
+            "c": 51887.0,
+            "v": 7170
           }
         ],
         "rollover_gaps": [],
@@ -12650,22 +12650,22 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-07-30T11:50:11.604978+09:00",
+  "intraday_refreshed_kst": "2026-07-30T12:00:24.564791+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
           "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/europe/france-is-using-12-aging-planes-to-fight-its-wildfires-36b0210b"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/politics/policy/the-u-s-commander-with-a-two-week-plan-to-escalate-strikes-in-iran-0ce32cb2"
-        },
-        {
-          "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/trump-vows-to-retaliate-against-iran-with-very-hard-round-of-fresh-strikes-2f45f993"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/kevin-warsh-asked-the-market-to-speak-it-answered-c5b589f9"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/europe/france-is-using-12-aging-planes-to-fight-its-wildfires-36b0210b"
         }
       ]
     },
@@ -12674,15 +12674,15 @@
       "sources": [
         {
           "name": "WSJ세계",
-          "url": "https://www.wsj.com/politics/policy/the-u-s-commander-with-a-two-week-plan-to-escalate-strikes-in-iran-0ce32cb2"
-        },
-        {
-          "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/trump-vows-to-retaliate-against-iran-with-very-hard-round-of-fresh-strikes-2f45f993"
         },
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/kevin-warsh-asked-the-market-to-speak-it-answered-c5b589f9"
+        },
+        {
           "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/see-the-new-fronts-of-the-iran-war-erupting-across-the-middle-east-dda24313"
+          "url": "https://www.wsj.com/politics/policy/the-u-s-commander-with-a-two-week-plan-to-escalate-strikes-in-iran-0ce32cb2"
         }
       ]
     },
