@@ -6276,15 +6276,22 @@
     {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/feds-preferred-inflation-index-cooled-but-remained-elevated-in-june-1329a745",
-      "published_ts": 1785416700.0,
+      "url": "https://www.wsj.com/economy/central-banking/boe-on-alert-for-signs-of-persistent-inflation-as-it-holds-rates-a1c57cb6",
+      "published_ts": 1785417300.0,
+      "impact_high": true
+    },
+    {
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/trade/are-tariffs-the-new-normal-9836f5bc",
+      "published_ts": 1785417240.0,
       "impact_high": true
     },
     {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-rebound-after-streak-of-declines-681f14f7",
-      "published_ts": 1785415740.0,
+      "url": "https://www.wsj.com/economy/french-economy-rebounded-in-second-quarter-despite-war-uncertainty-f2221427",
+      "published_ts": 1785417060.0,
       "impact_high": true
     },
     {
@@ -6328,30 +6335,21 @@
       "url": "https://www.wsj.com/finance/banking/stanchart-posts-profit-beat-announces-1-0-bln-buyback-54606388?mod=rss_markets_main",
       "published_ts": 1785308100.0,
       "impact_high": false
-    },
-    {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/24/trump-global-tariffs-trade-imbalance-forced-labor.html",
-      "published_ts": 1784894949.0,
-      "impact_high": true
     }
   ],
-  "_article_sig": "5f093ff1ca9238ca50ca660a837716ebfeafe52bc29890619d11a110b8dd1bfc",
+  "_article_sig": "fde5a929385cc7b08733c081d01cdcbeaf21ed0bf5559baf93b2c889a1ac29c5",
   "built_at_kst": "2026-07-30T07:00:35.764521+09:00",
   "futures": {
-    "as_of_kst": "2026-07-30T22:10:04.110214+09:00",
+    "as_of_kst": "2026-07-30T22:20:05.987782+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7399.25,
-        "change_pct": 0.65,
+        "point": 7403.25,
+        "change_pct": 0.71,
         "spark": [
           7338.0,
-          7383.0,
-          7374.5,
           7374.0,
           7380.5,
           7377.25,
@@ -6389,21 +6387,23 @@
           7398.0,
           7398.75,
           7403.75,
-          7399.25
+          7402.75,
+          7402.5,
+          7403.25
         ],
         "candle": {
           "o": 7338.0,
-          "h": 7406.0,
+          "h": 7410.0,
           "l": 7331.0,
-          "c": 7398.75
+          "c": 7403.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7623.75,
           "low_date": "2025-08-21",
           "high_date": "2026-06-02",
-          "low_change_pct": 15.82,
-          "high_change_pct": -2.95
+          "low_change_pct": 15.89,
+          "high_change_pct": -2.89
         },
         "daily_expanded": [
           {
@@ -8417,10 +8417,10 @@
           {
             "date": "2026-07-30",
             "o": 7338.0,
-            "h": 7406.0,
+            "h": 7410.0,
             "l": 7331.0,
-            "c": 7398.75,
-            "v": 286897
+            "c": 7403.25,
+            "v": 300353
           }
         ],
         "rollover_gaps": [],
@@ -8429,15 +8429,15 @@
           "sources": [
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/feds-preferred-inflation-index-cooled-but-remained-elevated-in-june-1329a745"
+              "url": "https://www.wsj.com/economy/central-banking/boe-on-alert-for-signs-of-persistent-inflation-as-it-holds-rates-a1c57cb6"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/trade/are-tariffs-the-new-normal-9836f5bc"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/07/30/us-economy-slowed-to-1point5percent-growth-rate-in-q2-june-core-inflation-at-3point3percent.html"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/french-economy-rebounded-in-second-quarter-despite-war-uncertainty-f2221427"
             }
           ]
         }
@@ -8445,11 +8445,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 27809.25,
-        "change_pct": 1.71,
+        "point": 27844.0,
+        "change_pct": 1.84,
         "spark": [
           27202.0,
-          27554.5,
           27514.75,
           27506.25,
           27554.25,
@@ -8488,21 +8487,22 @@
           27799.0,
           27805.5,
           27848.75,
-          27809.25
+          27841.5,
+          27844.0
         ],
         "candle": {
           "o": 27202.0,
-          "h": 27821.75,
+          "h": 27876.25,
           "l": 27202.0,
-          "c": 27809.25
+          "c": 27841.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 20.18,
-          "high_change_pct": -9.45
+          "low_change_pct": 20.32,
+          "high_change_pct": -9.35
         },
         "daily_expanded": [
           {
@@ -10516,10 +10516,10 @@
           {
             "date": "2026-07-30",
             "o": 27202.0,
-            "h": 27821.75,
+            "h": 27876.25,
             "l": 27202.0,
-            "c": 27809.25,
-            "v": 169565
+            "c": 27841.75,
+            "v": 180013
           }
         ],
         "rollover_gaps": [],
@@ -10528,15 +10528,15 @@
           "sources": [
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/feds-preferred-inflation-index-cooled-but-remained-elevated-in-june-1329a745"
+              "url": "https://www.wsj.com/economy/central-banking/boe-on-alert-for-signs-of-persistent-inflation-as-it-holds-rates-a1c57cb6"
             },
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-rebound-after-streak-of-declines-681f14f7"
+              "url": "https://www.wsj.com/economy/french-economy-rebounded-in-second-quarter-despite-war-uncertainty-f2221427"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/ings-defense-loan-book-could-double-in-next-couple-of-years-ceo-says-cb5401d3?mod=rss_markets_main"
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/feds-preferred-inflation-index-cooled-but-remained-elevated-in-june-1329a745"
             }
           ]
         }
@@ -10544,12 +10544,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51969.0,
-        "change_pct": 0.39,
+        "point": 52035.0,
+        "change_pct": 0.52,
         "spark": [
           51759.0,
-          51915.0,
-          51844.0,
           51857.0,
           51888.0,
           51856.0,
@@ -10587,21 +10585,23 @@
           51976.0,
           51968.0,
           52014.0,
-          51969.0
+          52029.0,
+          52030.0,
+          52035.0
         ],
         "candle": {
           "o": 51759.0,
-          "h": 52048.0,
+          "h": 52078.0,
           "l": 51732.0,
-          "c": 51969.0
+          "c": 52034.0
         },
         "range_240d": {
           "low": 44854.0,
           "high": 53372.0,
           "low_date": "2025-08-21",
           "high_date": "2026-07-06",
-          "low_change_pct": 15.86,
-          "high_change_pct": -2.63
+          "low_change_pct": 16.01,
+          "high_change_pct": -2.51
         },
         "daily_expanded": [
           {
@@ -12615,10 +12615,10 @@
           {
             "date": "2026-07-30",
             "o": 51759.0,
-            "h": 52048.0,
+            "h": 52078.0,
             "l": 51732.0,
-            "c": 51969.0,
-            "v": 24241
+            "c": 52034.0,
+            "v": 25312
           }
         ],
         "rollover_gaps": [],
@@ -12626,16 +12626,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/ings-defense-loan-book-could-double-in-next-couple-of-years-ceo-says-cb5401d3?mod=rss_markets_main"
-            },
-            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/boe-on-alert-for-signs-of-persistent-inflation-as-it-holds-rates-a1c57cb6"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/warshs-posture-on-interest-rates-sparks-market-inflation-fears-60b9933c?mod=rss_markets_main"
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/trade/are-tariffs-the-new-normal-9836f5bc"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/french-economy-rebounded-in-second-quarter-despite-war-uncertainty-f2221427"
             }
           ]
         }
@@ -12643,22 +12643,22 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-07-30T22:10:29.130127+09:00",
+  "intraday_refreshed_kst": "2026-07-30T22:20:29.036550+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/feds-preferred-inflation-index-cooled-but-remained-elevated-in-june-1329a745"
+          "url": "https://www.wsj.com/economy/central-banking/boe-on-alert-for-signs-of-persistent-inflation-as-it-holds-rates-a1c57cb6"
         },
         {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-rebound-after-streak-of-declines-681f14f7"
+          "url": "https://www.wsj.com/economy/french-economy-rebounded-in-second-quarter-despite-war-uncertainty-f2221427"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/ings-defense-loan-book-could-double-in-next-couple-of-years-ceo-says-cb5401d3?mod=rss_markets_main"
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/feds-preferred-inflation-index-cooled-but-remained-elevated-in-june-1329a745"
         }
       ]
     },
@@ -12667,15 +12667,15 @@
       "sources": [
         {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/feds-preferred-inflation-index-cooled-but-remained-elevated-in-june-1329a745"
+          "url": "https://www.wsj.com/economy/central-banking/boe-on-alert-for-signs-of-persistent-inflation-as-it-holds-rates-a1c57cb6"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/trade/are-tariffs-the-new-normal-9836f5bc"
         },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/07/30/us-economy-slowed-to-1point5percent-growth-rate-in-q2-june-core-inflation-at-3point3percent.html"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/french-economy-rebounded-in-second-quarter-despite-war-uncertainty-f2221427"
         }
       ]
     },
@@ -12683,16 +12683,16 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/ings-defense-loan-book-could-double-in-next-couple-of-years-ceo-says-cb5401d3?mod=rss_markets_main"
-        },
-        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/boe-on-alert-for-signs-of-persistent-inflation-as-it-holds-rates-a1c57cb6"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/warshs-posture-on-interest-rates-sparks-market-inflation-fears-60b9933c?mod=rss_markets_main"
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/trade/are-tariffs-the-new-normal-9836f5bc"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/french-economy-rebounded-in-second-quarter-despite-war-uncertainty-f2221427"
         }
       ]
     }
