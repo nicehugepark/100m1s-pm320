@@ -6276,15 +6276,8 @@
     {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/how-ai-is-helping-one-person-companies-scale-to-1-millionand-beyond-5cfe84d5",
-      "published_ts": 1785405000.0,
-      "impact_high": true
-    },
-    {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-soar-as-market-struggles-to-interpret-fed-16885819",
-      "published_ts": 1785404640.0,
+      "url": "https://www.wsj.com/world/middle-east/egypt-suffers-first-drone-attack-widening-the-iran-war-5ce2b49e",
+      "published_ts": 1785408060.0,
       "impact_high": true
     },
     {
@@ -6300,6 +6293,13 @@
       "url": "https://www.wsj.com/economy/central-banking/the-problem-with-warshs-deference-to-markets-872edf9c",
       "published_ts": 1785402000.0,
       "impact_high": true
+    },
+    {
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/stocks/these-companies-are-cooking-with-gas-028e6992?mod=rss_markets_main",
+      "published_ts": 1785408360.0,
+      "impact_high": false
     },
     {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
@@ -6344,22 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "42de1570aded5ab8069e879607ead3012902538de5ba5dfba3747b450c57ffc2",
+  "_article_sig": "93cec03b3042a3d215a78024439ae8fbd4cf36f722da7cda051947aa8dc5b962",
   "built_at_kst": "2026-07-30T07:00:35.764521+09:00",
   "futures": {
-    "as_of_kst": "2026-07-30T19:40:04.526638+09:00",
+    "as_of_kst": "2026-07-30T19:50:09.001473+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7385.0,
-        "change_pct": 0.46,
+        "point": 7386.75,
+        "change_pct": 0.48,
         "spark": [
           7338.0,
-          7367.25,
-          7368.25,
-          7365.25,
           7360.0,
           7363.25,
           7365.75,
@@ -6396,21 +6393,24 @@
           7383.75,
           7385.75,
           7386.0,
-          7385.0
+          7385.0,
+          7387.25,
+          7389.75,
+          7386.75
         ],
         "candle": {
           "o": 7338.0,
           "h": 7392.75,
           "l": 7331.0,
-          "c": 7386.0
+          "c": 7387.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7623.75,
           "low_date": "2025-08-21",
           "high_date": "2026-06-02",
-          "low_change_pct": 15.62,
-          "high_change_pct": -3.12
+          "low_change_pct": 15.64,
+          "high_change_pct": -3.1
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7338.0,
             "h": 7392.75,
             "l": 7331.0,
-            "c": 7386.0,
-            "v": 216595
+            "c": 7387.25,
+            "v": 218971
           }
         ],
         "rollover_gaps": [],
@@ -8435,16 +8435,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/these-companies-are-cooking-with-gas-028e6992?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/egypt-suffers-first-drone-attack-widening-the-iran-war-5ce2b49e"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/how-ai-is-helping-one-person-companies-scale-to-1-millionand-beyond-5cfe84d5"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-soar-as-market-struggles-to-interpret-fed-16885819"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/french-economy-rebounded-in-second-quarter-despite-war-uncertainty-f2221427"
             }
           ]
         }
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 27617.0,
-        "change_pct": 1.01,
+        "point": 27621.25,
+        "change_pct": 1.02,
         "spark": [
           27202.0,
-          27429.5,
-          27408.0,
           27380.5,
           27418.75,
           27434.0,
@@ -8495,21 +8493,23 @@
           27603.25,
           27617.75,
           27611.75,
-          27617.0
+          27621.5,
+          27631.0,
+          27621.25
         ],
         "candle": {
           "o": 27202.0,
           "h": 27696.75,
           "l": 27202.0,
-          "c": 27617.0
+          "c": 27621.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 19.35,
-          "high_change_pct": -10.08
+          "low_change_pct": 19.37,
+          "high_change_pct": -10.07
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 27202.0,
             "h": 27696.75,
             "l": 27202.0,
-            "c": 27617.0,
-            "v": 132510
+            "c": 27621.25,
+            "v": 134142
           }
         ],
         "rollover_gaps": [],
@@ -10534,16 +10534,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/egypt-suffers-first-drone-attack-widening-the-iran-war-5ce2b49e"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/japan-aims-to-cut-food-sales-tax-to-1-from-april-2027-41b57113"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/europe/russian-airstrikes-kill-at-least-eight-in-ukraine-ce1b1756"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/europe/eu-opens-call-for-creation-of-local-ai-gigafactories-c286213d"
             }
           ]
         }
@@ -10551,13 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51904.0,
-        "change_pct": 0.27,
+        "point": 51911.0,
+        "change_pct": 0.28,
         "spark": [
           51759.0,
-          51854.0,
-          51866.0,
-          51855.0,
           51793.0,
           51794.0,
           51828.0,
@@ -10594,21 +10591,24 @@
           51897.0,
           51899.0,
           51904.0,
-          51904.0
+          51891.0,
+          51914.0,
+          51923.0,
+          51911.0
         ],
         "candle": {
           "o": 51759.0,
           "h": 51962.0,
           "l": 51732.0,
-          "c": 51904.0
+          "c": 51911.0
         },
         "range_240d": {
           "low": 44854.0,
           "high": 53372.0,
           "low_date": "2025-08-21",
           "high_date": "2026-07-06",
-          "low_change_pct": 15.72,
-          "high_change_pct": -2.75
+          "low_change_pct": 15.73,
+          "high_change_pct": -2.74
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 51759.0,
             "h": 51962.0,
             "l": 51732.0,
-            "c": 51904.0,
-            "v": 18405
+            "c": 51911.0,
+            "v": 18625
           }
         ],
         "rollover_gaps": [],
@@ -12650,11 +12650,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-07-30T19:40:28.005968+09:00",
+  "intraday_refreshed_kst": "2026-07-30T19:50:32.620842+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/egypt-suffers-first-drone-attack-widening-the-iran-war-5ce2b49e"
+        },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/japan-aims-to-cut-food-sales-tax-to-1-from-april-2027-41b57113"
@@ -12662,10 +12666,6 @@
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/europe/russian-airstrikes-kill-at-least-eight-in-ukraine-ce1b1756"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/europe/eu-opens-call-for-creation-of-local-ai-gigafactories-c286213d"
         }
       ]
     },
@@ -12673,16 +12673,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/these-companies-are-cooking-with-gas-028e6992?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/egypt-suffers-first-drone-attack-widening-the-iran-war-5ce2b49e"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/how-ai-is-helping-one-person-companies-scale-to-1-millionand-beyond-5cfe84d5"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-soar-as-market-struggles-to-interpret-fed-16885819"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/french-economy-rebounded-in-second-quarter-despite-war-uncertainty-f2221427"
         }
       ]
     },
