@@ -1,6 +1,6 @@
 {
   "date": "2026-07-30",
-  "generated_at": "2026-07-30T09:35:12.039798",
+  "generated_at": "2026-07-30T09:35:31.666455",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -23,15 +23,27 @@
       "industry": null,
       "sector": null,
       "themes": [
+        "반도체",
+        "지역 인프라",
+        "3대 메가프로젝트 (AI 데이터센터・건설/레미콘)",
         "반도체 클러스터(호남)",
         "메가프로젝트 건설",
         "건설",
-        "인프라 수혜",
-        "반도체",
-        "지역 인프라",
-        "3대 메가프로젝트 (AI 데이터센터・건설/레미콘)"
+        "인프라 수혜"
       ],
       "theme_paths": [
+        {
+          "name": "지역 인프라",
+          "path": [
+            "지역 인프라"
+          ]
+        },
+        {
+          "name": "3대 메가프로젝트 (AI 데이터센터・건설/레미콘)",
+          "path": [
+            "3대 메가프로젝트 (AI 데이터센터・건설/레미콘)"
+          ]
+        },
         {
           "name": "반도체 클러스터(호남)",
           "path": [
@@ -51,18 +63,6 @@
           "path": [
             "건설",
             "인프라 수혜"
-          ]
-        },
-        {
-          "name": "지역 인프라",
-          "path": [
-            "지역 인프라"
-          ]
-        },
-        {
-          "name": "3대 메가프로젝트 (AI 데이터센터・건설/레미콘)",
-          "path": [
-            "3대 메가프로젝트 (AI 데이터센터・건설/레미콘)"
           ]
         }
       ],
@@ -91,7 +91,7 @@
           "url": "https://www.newsis.com/view/NISX20260723_0003720726",
           "source": "뉴시스",
           "published_at": "2026-07-23T06:22:33",
-          "causal_chain": null,
+          "causal_chain": "",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -107,7 +107,7 @@
           "url": "https://www.mk.co.kr/news/realestate/12105279",
           "source": "매경",
           "published_at": "2026-07-23T02:10:34",
-          "causal_chain": null,
+          "causal_chain": "",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -123,7 +123,7 @@
           "url": "https://biz.chosun.com/stock/stock_general/2026/07/23/XEHNDMPK3ZGNRNFIJFOVPFVW4A/",
           "source": "조선비즈",
           "published_at": "2026-07-23T00:37:03",
-          "causal_chain": null,
+          "causal_chain": "",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -139,7 +139,7 @@
           "url": "https://www.newsis.com/view/NISX20260710_0003703848",
           "source": "뉴시스",
           "published_at": "2026-07-10T00:47:15",
-          "causal_chain": null,
+          "causal_chain": "",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -155,7 +155,7 @@
           "url": "https://www.newsis.com/view/NISX20260707_0003698636",
           "source": "뉴시스",
           "published_at": "2026-07-07T01:19:06",
-          "causal_chain": null,
+          "causal_chain": "",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -168,13 +168,11 @@
         }
       ],
       "fallback": true,
-      "cafe_themes": [
-        "반도체",
-        "지역 인프라",
-        "3대 메가프로젝트 (AI 데이터센터・건설/레미콘)"
-      ],
       "theme_crosscheck": {
         "confirmed": [
+          "반도체",
+          "지역 인프라",
+          "3대 메가프로젝트 (AI 데이터센터・건설/레미콘)",
           "건설"
         ],
         "pm320_only": [
@@ -182,11 +180,7 @@
           "메가프로젝트 건설",
           "인프라 수혜"
         ],
-        "cafe_only": [
-          "반도체",
-          "지역 인프라",
-          "3대 메가프로젝트 (AI 데이터센터・건설/레미콘)"
-        ]
+        "cafe_only": []
       },
       "range_240d": {
         "high": 19380,
@@ -340,7 +334,12 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bull",
+      "theme_leader": true,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "255440",
@@ -653,17 +652,13 @@
         }
       ],
       "fallback": true,
-      "cafe_themes": [
-        "반도체",
-        "태양광"
-      ],
       "theme_crosscheck": {
-        "confirmed": [],
-        "pm320_only": [],
-        "cafe_only": [
+        "confirmed": [
           "반도체",
           "태양광"
-        ]
+        ],
+        "pm320_only": [],
+        "cafe_only": []
       },
       "range_240d": {
         "high": 10300,
@@ -817,7 +812,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "002995",
@@ -860,44 +858,12 @@
       ],
       "news": [
         {
-          "title": "금호건설, 과천 공공하수처리시설 현대화사업 수주…경쟁력 입증",
-          "url": "https://www.mk.co.kr/news/realestate/12087683",
-          "source": "매경",
-          "published_at": "2026-07-01T05:39:42",
-          "causal_chain": "금호건설 본주가 한국환경공단 발주 2249억원 규모 과천 하수처리시설 현대화사업을 대표사(40%)로 수주 → 환경 인프라 수주 성과로 본주 실적·기업가치 재평가 기대 → 의결권 없는 우선주(002995)의 보통주 대비 할인 괴리율 축소 및 배당 매력 부각 → 매수세 집중으로 당일 시초가 41,000원에서 고가·종가 43,900원까지 밀어올리며 +29.88% 상한가(거래대금 12억원) 마감.",
-          "macro_event": "금호건설(본주) 과천 공공하수처리시설 현대화사업 2249억원 수주(대표사 지분 40%), 환경 인프라 턴키 수주 경쟁력 입증",
-          "newzy_freshness": null,
-          "newzy_persistence": null,
-          "newzy_magnitude": 0.55,
-          "newzy_virality": 0.35,
-          "newzy_tradability": null,
-          "newzy_score": 0.47,
-          "newzy_verdict": null,
-          "article_type": "호재"
-        },
-        {
-          "title": "금호건설, '과천 공공하수처리시설 현대화사업' 수주",
-          "url": "https://www.newsis.com/view/NISX20260701_0003691011",
+          "title": "금호건설, 3506억 규모 '장지차고지 입체화사업 건설공사' 수주",
+          "url": "https://www.newsis.com/view/NISX20260723_0003720726",
           "source": "뉴시스",
-          "published_at": "2026-07-01T02:19:56",
-          "causal_chain": "금호건설(본주)이 총사업비 2249억원 규모 과천 공공하수처리시설 현대화사업을 대표사(지분 40%)로 수주하며 환경 인프라 턴키 수주 성과 지속 → 본주 실적·수주잔고 재평가 기대 → 의결권 없는 우선주(금호건설우)의 보통주 대비 할인 괴리율 축소 기대 + 배당 우선권 매력 부각 → 매수세 집중으로 당일 시초가부터 상한가(+29.88%, 종가 43,900원) 마감(거래대금 11억원).",
-          "macro_event": "금호건설 과천 공공하수처리시설 현대화사업(2249억원) 수주 — 환경 인프라 턴키 수주 지속",
-          "newzy_freshness": null,
-          "newzy_persistence": null,
-          "newzy_magnitude": 0.5,
-          "newzy_virality": 0.3,
-          "newzy_tradability": null,
-          "newzy_score": 0.42,
-          "newzy_verdict": null,
-          "article_type": "호재"
-        },
-        {
-          "title": "[특징주] ‘호남 반도체 클러스터’ 기대에 관련주 급등⋯금호건설우ㆍ동양파일 上",
-          "url": "https://www.etoday.co.kr/news/view/2598659",
-          "source": "이투데이",
-          "published_at": "2026-06-30T01:48:00",
-          "causal_chain": "호남 반도체 클러스터 조성 기대 → 본주 금호건설의 클러스터 인프라·플랜트 건설 수주 기대 → 본주 재평가 가능성 → 의결권은 없으나 배당 우선권을 지닌 우선주(금호건설우)의 본주 대비 할인 괴리율 축소 기대 → 시세차익·배당 양면 매력에 매수세 집중 → 당일 +30.00% 상한가(종가 33,800원).",
-          "macro_event": "호남 반도체 클러스터 조성 기대감 (자동 시세요약 단서 — 본질 촉매 미확인)",
+          "published_at": "2026-07-23T06:22:33",
+          "causal_chain": "제공된 뉴스는 금호건설 임원(경영관리본부 전무)의 부친상 부고로, 우선주(금호건설우)의 펀더멘털·괴리율·배당과 무관한 단발성 사건이다. 당일 +30% 상한가·52주 신고가(52,000원)·거래대금 22억원의 강한 시세가 관측되나, 이를 정당화할 본질 매크로·재료가 뉴스에 존재하지 않아 인과 사슬을 구성할 수 없다.",
+          "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
           "newzy_magnitude": null,
@@ -905,39 +871,71 @@
           "newzy_tradability": null,
           "newzy_score": null,
           "newzy_verdict": null,
-          "article_type": "시세정형"
+          "article_type": null
         },
         {
-          "title": "\"열은 내리고 안전은 높이고\"…금호건설·롯데칠성음료 맞손",
-          "url": "https://www.newsis.com/view/NISX20260629_0003687265",
-          "source": "뉴시스",
-          "published_at": "2026-06-29T01:05:47",
-          "causal_chain": "제공된 뉴스는 금호건설(본주)이 롯데칠성음료와 체결한 혹서기 온열질환 예방 MOU('Heat Down, Safety Up' 캠페인)로, 건설현장 근로자 건강보호·안전문화 확산을 위한 ESG·사회공헌성 협약에 불과하다 → 본주 본질 사업(주택·건축·토목)의 수주·실적·정책 수혜와 무관해 본주 재평가 동력 자체가 부재하다 → 따라서 의결권 없는 우선주(금호건설우)의 본주 대비 할인 괴리율 축소·배당 매력 같은 본질 경로도 작동하지 않는다. 당일 시초가부터 점상한가(시=고=저=종 26,000원, +30.00%)는 거래대금 5억원의 극히 얇은 유동성에서 발생한 수급 이벤트일 뿐, 본 ESG 뉴스가 만든 펀더멘털 촉매가 아니다(52주 고가 50,100원 대비 -48.1% 수준).",
-          "macro_event": null,
-          "newzy_freshness": null,
-          "newzy_persistence": null,
-          "newzy_magnitude": 0.1,
-          "newzy_virality": 0.1,
-          "newzy_tradability": null,
-          "newzy_score": 0.1,
-          "newzy_verdict": null,
-          "article_type": "호재"
-        },
-        {
-          "title": "금호건설, 롯데칠성음료와 온열질환 예방 MOU…건설현장 근로자 건강 보호 나서",
-          "url": "https://www.mk.co.kr/news/realestate/12085269",
+          "title": "금호건설, 3506억원 규모 ‘장지차고지 입체화사업 건설공사’ 수주",
+          "url": "https://www.mk.co.kr/news/realestate/12105279",
           "source": "매경",
-          "published_at": "2026-06-29T00:36:25",
-          "causal_chain": "본주 금호건설의 롯데칠성음료 온열질환 예방 MOU는 건설현장 근로자 보호를 위한 ESG·사회공헌 활동으로 펀더멘털 촉매가 아니다 → 본주 재평가 동력이 부재하므로 의결권 없는 우선주의 괴리율 축소·배당 매력 같은 본질 경로도 작동하지 않는다 → 결국 거래대금 5억원의 매우 얇은 유동성 속 소량 매수만으로 시=고=저=종 26,000원 점상한가(+30.00%)가 형성된 저유동성 변동성 성격의 강세로 해석된다.",
+          "published_at": "2026-07-23T02:10:34",
+          "causal_chain": "제공된 뉴스는 금호건설 임원(경영관리본부 전무)의 부친상 부고로, 우선주(금호건설우)의 펀더멘털·괴리율·배당과 무관한 단발성 사건이다. 당일 +30% 상한가·52주 신고가(52,000원)·거래대금 22억원의 강한 시세가 관측되나, 이를 정당화할 본질 매크로·재료가 뉴스에 존재하지 않아 인과 사슬을 구성할 수 없다.",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": 0.1,
-          "newzy_virality": 0.05,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
           "newzy_tradability": null,
-          "newzy_score": 0.08,
+          "newzy_score": null,
           "newzy_verdict": null,
-          "article_type": "호재"
+          "article_type": null
+        },
+        {
+          "title": "[특징주] 금호건설, 3506억 장지차고지 수주 소식에 10% 급등",
+          "url": "https://biz.chosun.com/stock/stock_general/2026/07/23/XEHNDMPK3ZGNRNFIJFOVPFVW4A/",
+          "source": "조선비즈",
+          "published_at": "2026-07-23T00:37:03",
+          "causal_chain": "제공된 뉴스는 금호건설 임원(경영관리본부 전무)의 부친상 부고로, 우선주(금호건설우)의 펀더멘털·괴리율·배당과 무관한 단발성 사건이다. 당일 +30% 상한가·52주 신고가(52,000원)·거래대금 22억원의 강한 시세가 관측되나, 이를 정당화할 본질 매크로·재료가 뉴스에 존재하지 않아 인과 사슬을 구성할 수 없다.",
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "금호건설, 4382억 규모 평택 고덕 민참사업 우선협상대상자 선정",
+          "url": "https://www.newsis.com/view/NISX20260710_0003703848",
+          "source": "뉴시스",
+          "published_at": "2026-07-10T00:47:15",
+          "causal_chain": "제공된 뉴스는 금호건설 임원(경영관리본부 전무)의 부친상 부고로, 우선주(금호건설우)의 펀더멘털·괴리율·배당과 무관한 단발성 사건이다. 당일 +30% 상한가·52주 신고가(52,000원)·거래대금 22억원의 강한 시세가 관측되나, 이를 정당화할 본질 매크로·재료가 뉴스에 존재하지 않아 인과 사슬을 구성할 수 없다.",
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "[부고]이관상(금호건설 경영관리본부 전무)씨 부친상",
+          "url": "https://www.newsis.com/view/NISX20260707_0003698636",
+          "source": "뉴시스",
+          "published_at": "2026-07-07T01:19:06",
+          "causal_chain": "제공된 뉴스는 금호건설 임원(경영관리본부 전무)의 부친상 부고로, 우선주(금호건설우)의 펀더멘털·괴리율·배당과 무관한 단발성 사건이다. 당일 +30% 상한가·52주 신고가(52,000원)·거래대금 22억원의 강한 시세가 관측되나, 이를 정당화할 본질 매크로·재료가 뉴스에 존재하지 않아 인과 사슬을 구성할 수 없다.",
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": "사건사고"
         }
       ],
       "fallback": true,
@@ -1093,7 +1091,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "우선주"
+      "credit_reason": "우선주",
+      "togusa_verdict": "neutral",
+      "theme_leader": false,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "004870",
