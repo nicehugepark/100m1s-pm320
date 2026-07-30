@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/see-the-new-fronts-of-the-iran-war-erupting-across-the-middle-east-dda24313",
+      "published_ts": 1785374340.0,
+      "impact_high": true
+    },
+    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/us-news/pows-world-war-ii-recovery-mission-62a90f9e",
@@ -6295,13 +6302,6 @@
       "impact_high": false
     },
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/trump-vows-to-retaliate-against-iran-with-very-hard-round-of-fresh-strikes-2f45f993",
-      "published_ts": 1785372000.0,
-      "impact_high": false
-    },
-    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/202607304610i",
@@ -6309,17 +6309,17 @@
       "impact_high": false
     },
     {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/russia-charges-telegram-founder-durov-with-aiding-terrorism-06285c1f",
-      "published_ts": 1785330900.0,
-      "impact_high": false
-    },
-    {
       "summary": "전력·유틸리티 투자와 인프라 수요가 방어주와 산업재 관심을 확대하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/asia/the-quake-struck-japan-eighty-minutes-later-a-lethal-explosion-028310fe",
       "published_ts": 1785326280.0,
+      "impact_high": false
+    },
+    {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/how-blackstone-put-jersey-mikes-on-a-fast-track-to-this-weeks-ipo-36ac1140?mod=rss_markets_main",
+      "published_ts": 1785317400.0,
       "impact_high": false
     },
     {
@@ -6344,22 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "561abe5929892a60276a1bdfcd97e9da51572eb1281e68dfdf16096de0963243",
+  "_article_sig": "5ec1015c68bc09bfd8e804c8d6091751b546c8e8fa9d0c4a1f865b5418fb255f",
   "built_at_kst": "2026-07-30T07:00:35.764521+09:00",
   "futures": {
-    "as_of_kst": "2026-07-30T10:20:05.050982+09:00",
+    "as_of_kst": "2026-07-30T10:30:08.363426+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7382.25,
+        "point": 7382.0,
         "change_pct": 0.42,
         "spark": [
           7338.0,
-          7335.25,
-          7353.0,
-          7366.75,
           7369.0,
           7374.75,
           7370.5,
@@ -6396,21 +6393,24 @@
           7375.75,
           7380.25,
           7380.25,
-          7382.25
+          7378.0,
+          7380.75,
+          7380.75,
+          7382.0
         ],
         "candle": {
           "o": 7338.0,
           "h": 7389.0,
           "l": 7331.0,
-          "c": 7380.5
+          "c": 7382.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7623.75,
           "low_date": "2025-08-21",
           "high_date": "2026-06-02",
-          "low_change_pct": 15.53,
-          "high_change_pct": -3.19
+          "low_change_pct": 15.56,
+          "high_change_pct": -3.17
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7338.0,
             "h": 7389.0,
             "l": 7331.0,
-            "c": 7380.5,
-            "v": 68737
+            "c": 7382.0,
+            "v": 71414
           }
         ],
         "rollover_gaps": [],
@@ -8436,15 +8436,15 @@
           "sources": [
             {
               "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/see-the-new-fronts-of-the-iran-war-erupting-across-the-middle-east-dda24313"
+            },
+            {
+              "name": "WSJ세계",
               "url": "https://www.wsj.com/us-news/pows-world-war-ii-recovery-mission-62a90f9e"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/trump-vows-to-retaliate-against-iran-with-very-hard-round-of-fresh-strikes-2f45f993"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/07/29/fed-meeting-interest-rates-warsh-stocks-bonds.html"
             }
           ]
         }
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 27600.25,
-        "change_pct": 0.94,
+        "point": 27601.75,
+        "change_pct": 0.95,
         "spark": [
           27202.0,
-          27352.25,
-          27439.5,
           27434.75,
           27477.0,
           27435.25,
@@ -8494,22 +8492,24 @@
           27547.25,
           27590.5,
           27600.0,
-          27610.75,
-          27600.25
+          27570.75,
+          27591.75,
+          27585.75,
+          27601.75
         ],
         "candle": {
           "o": 27202.0,
           "h": 27664.25,
           "l": 27202.0,
-          "c": 27599.5
+          "c": 27601.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 19.27,
-          "high_change_pct": -10.14
+          "low_change_pct": 19.28,
+          "high_change_pct": -10.13
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 27202.0,
             "h": 27664.25,
             "l": 27202.0,
-            "c": 27599.5,
-            "v": 50323
+            "c": 27601.75,
+            "v": 52478
           }
         ],
         "rollover_gaps": [],
@@ -10551,13 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51889.0,
-        "change_pct": 0.24,
+        "point": 51876.0,
+        "change_pct": 0.21,
         "spark": [
           51759.0,
-          51735.0,
-          51869.0,
-          51920.0,
           51927.0,
           51932.0,
           51905.0,
@@ -10594,21 +10591,24 @@
           51884.0,
           51890.0,
           51887.0,
-          51889.0
+          51871.0,
+          51873.0,
+          51869.0,
+          51876.0
         ],
         "candle": {
           "o": 51759.0,
           "h": 51962.0,
           "l": 51744.0,
-          "c": 51885.0
+          "c": 51875.0
         },
         "range_240d": {
           "low": 44854.0,
           "high": 53372.0,
           "low_date": "2025-08-21",
           "high_date": "2026-07-06",
-          "low_change_pct": 15.68,
-          "high_change_pct": -2.79
+          "low_change_pct": 15.65,
+          "high_change_pct": -2.8
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 51759.0,
             "h": 51962.0,
             "l": 51744.0,
-            "c": 51885.0,
-            "v": 5141
+            "c": 51875.0,
+            "v": 5515
           }
         ],
         "rollover_gaps": [],
@@ -12650,7 +12650,7 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-07-30T10:20:08.827553+09:00",
+  "intraday_refreshed_kst": "2026-07-30T10:30:27.620964+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
@@ -12674,15 +12674,15 @@
       "sources": [
         {
           "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/see-the-new-fronts-of-the-iran-war-erupting-across-the-middle-east-dda24313"
+        },
+        {
+          "name": "WSJ세계",
           "url": "https://www.wsj.com/us-news/pows-world-war-ii-recovery-mission-62a90f9e"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/trump-vows-to-retaliate-against-iran-with-very-hard-round-of-fresh-strikes-2f45f993"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/07/29/fed-meeting-interest-rates-warsh-stocks-bonds.html"
         }
       ]
     },
