@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 25257.47,
-      "change_pct": 0.54,
+      "point": 25269.43,
+      "change_pct": 0.59,
       "candle": {
         "o": 25327.02,
         "h": 25456.65,
         "l": 25004.33,
-        "c": 25257.47
+        "c": 25269.43
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,13 +2033,11 @@
           "o": 25327.02,
           "h": 25456.65,
           "l": 25004.33,
-          "c": 25257.47
+          "c": 25269.43
         }
       ],
       "spark": [
         25327.02,
-        25325.67,
-        25261.46,
         25213.97,
         25204.01,
         25212.09,
@@ -2077,7 +2075,9 @@
         25261.6,
         25236.67,
         25257.47,
-        25257.47
+        25262.18,
+        25275.44,
+        25269.43
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7469.3,
-      "change_pct": 0.43,
+      "point": 7470.88,
+      "change_pct": 0.45,
       "candle": {
         "o": 7462.13,
         "h": 7489.52,
         "l": 7399.83,
-        "c": 7469.3
+        "c": 7470.88
       },
       "range_240d": {
         "low": 6343.72,
@@ -4131,13 +4131,11 @@
           "o": 7462.13,
           "h": 7489.52,
           "l": 7399.83,
-          "c": 7469.3
+          "c": 7470.88
         }
       ],
       "spark": [
         7462.13,
-        7467.1,
-        7454.74,
         7448.29,
         7442.99,
         7443.41,
@@ -4175,7 +4173,9 @@
         7468.33,
         7465.04,
         7468.87,
-        7469.3
+        7469.7,
+        7470.26,
+        7470.88
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 52445.77,
-      "change_pct": 0.46,
+      "point": 52440.79,
+      "change_pct": 0.45,
       "candle": {
         "o": 52235.03,
         "h": 52477.96,
         "l": 51996.32,
-        "c": 52445.77
+        "c": 52440.79
       },
       "range_240d": {
         "low": 44785.5,
@@ -6229,13 +6229,11 @@
           "o": 52235.03,
           "h": 52477.96,
           "l": 51996.32,
-          "c": 52445.77
+          "c": 52440.79
         }
       ],
       "spark": [
         52235.03,
-        52336.43,
-        52360.89,
         52257.67,
         52241.74,
         52213.83,
@@ -6273,7 +6271,9 @@
         52438.89,
         52438.94,
         52447.19,
-        52445.77
+        52452.2,
+        52441.07,
+        52440.79
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6298,6 +6298,13 @@
   ],
   "news_chips": [
     {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/feds-barkin-says-its-a-close-call-whether-rates-are-high-enough-99f2b676",
+      "published_ts": 1785516540.0,
+      "impact_high": true
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/leopold-aschenbrenner-situational-awareness-ai-fund-597633d3?mod=rss_markets_main",
@@ -6319,13 +6326,6 @@
       "impact_high": true
     },
     {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-stands-pat-continues-to-see-inflation-around-2-3b20439c",
-      "published_ts": 1785491220.0,
-      "impact_high": true
-    },
-    {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-31-2026?mod=rss_markets_main",
@@ -6335,8 +6335,8 @@
     {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/europe/spain-rushes-to-control-border-after-tens-of-thousands-of-migrants-flood-into-exclave-0a6382d0",
-      "published_ts": 1785509520.0,
+      "url": "https://www.wsj.com/world/middle-east/latest-gaza-peace-plan-runs-up-against-reality-607e32bf",
+      "published_ts": 1785516480.0,
       "impact_high": false
     },
     {
@@ -6368,7 +6368,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "7c465d566f077fb9f4c19744c60a99224c6b8546a2a3b1e17cb4a2ec83956347",
+  "_article_sig": "b574daa987bda97c6acf29ca75b9745d9c3c228aef747f77feea61b5ebee56a1",
   "built_at_kst": "2026-07-31T07:00:32.926004+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6376,16 +6376,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/feds-barkin-says-its-a-close-call-whether-rates-are-high-enough-99f2b676"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/latest-gaza-peace-plan-runs-up-against-reality-607e32bf"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/leopold-aschenbrenner-situational-awareness-ai-fund-597633d3?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/russia-clamps-down-on-posting-videos-of-ukrainian-drone-strikes-999092a5"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/europe/spain-rushes-to-control-border-after-tens-of-thousands-of-migrants-flood-into-exclave-0a6382d0"
         }
       ]
     },
@@ -6394,15 +6394,15 @@
       "sources": [
         {
           "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/feds-barkin-says-its-a-close-call-whether-rates-are-high-enough-99f2b676"
+        },
+        {
+          "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/global/week-ahead-for-fx-bonds-u-s-jobs-data-in-focus-could-give-steer-on-fed-outlook-50e95649"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/rise-of-bond-e-trading-underpins-nyse-owners-6-billion-marketaxess-deal-07f40706?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/canada-gdp-grows-in-may-amid-expansion-in-oil-and-gas-activity-295e9bca"
         }
       ]
     },
@@ -6410,33 +6410,31 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/feds-barkin-says-its-a-close-call-whether-rates-are-high-enough-99f2b676"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/russia-clamps-down-on-posting-videos-of-ukrainian-drone-strikes-999092a5"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/consumers/consumer-sentiment-rose-in-july-per-michigan-survey-4fd855d8"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/two-fed-officials-say-inflation-should-have-prompted-higher-rates-e203c5ac"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-08-01T01:50:04.091630+09:00",
+    "as_of_kst": "2026-08-01T02:00:05.059792+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7497.0,
+        "point": 7497.25,
         "change_pct": 0.33,
         "spark": [
           7479.5,
-          7512.0,
-          7493.0,
           7482.75,
           7474.25,
           7471.5,
@@ -6474,21 +6472,23 @@
           7499.5,
           7497.0,
           7493.5,
-          7497.0
+          7497.0,
+          7497.5,
+          7497.25
         ],
         "candle": {
           "o": 7479.5,
           "h": 7517.75,
           "l": 7427.5,
-          "c": 7496.75
+          "c": 7497.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7623.75,
           "low_date": "2025-08-21",
           "high_date": "2026-06-02",
-          "low_change_pct": 17.35,
-          "high_change_pct": -1.67
+          "low_change_pct": 17.36,
+          "high_change_pct": -1.66
         },
         "daily_expanded": [
           {
@@ -8504,8 +8504,8 @@
             "o": 7479.5,
             "h": 7517.75,
             "l": 7427.5,
-            "c": 7496.75,
-            "v": 1106541
+            "c": 7497.25,
+            "v": 1127381
           }
         ],
         "rollover_gaps": [],
@@ -8514,15 +8514,15 @@
           "sources": [
             {
               "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/feds-barkin-says-its-a-close-call-whether-rates-are-high-enough-99f2b676"
+            },
+            {
+              "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/global/week-ahead-for-fx-bonds-u-s-jobs-data-in-focus-could-give-steer-on-fed-outlook-50e95649"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/rise-of-bond-e-trading-underpins-nyse-owners-6-billion-marketaxess-deal-07f40706?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/canada-gdp-grows-in-may-amid-expansion-in-oil-and-gas-activity-295e9bca"
             }
           ]
         }
@@ -8530,12 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28363.5,
-        "change_pct": 0.45,
+        "point": 28346.75,
+        "change_pct": 0.39,
         "spark": [
           28317.0,
-          28681.5,
-          28561.0,
           28419.0,
           28360.5,
           28333.0,
@@ -8573,21 +8571,23 @@
           28376.75,
           28362.75,
           28321.5,
-          28363.5
+          28348.0,
+          28354.25,
+          28346.75
         ],
         "candle": {
           "o": 28317.0,
           "h": 28725.75,
           "l": 28079.75,
-          "c": 28363.5
+          "c": 28346.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 22.57,
-          "high_change_pct": -7.65
+          "low_change_pct": 22.5,
+          "high_change_pct": -7.7
         },
         "daily_expanded": [
           {
@@ -10603,8 +10603,8 @@
             "o": 28317.0,
             "h": 28725.75,
             "l": 28079.75,
-            "c": 28363.5,
-            "v": 483992
+            "c": 28346.75,
+            "v": 491998
           }
         ],
         "rollover_gaps": [],
@@ -10612,16 +10612,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/feds-barkin-says-its-a-close-call-whether-rates-are-high-enough-99f2b676"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/latest-gaza-peace-plan-runs-up-against-reality-607e32bf"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/leopold-aschenbrenner-situational-awareness-ai-fund-597633d3?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/russia-clamps-down-on-posting-videos-of-ukrainian-drone-strikes-999092a5"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/europe/spain-rushes-to-control-border-after-tens-of-thousands-of-migrants-flood-into-exclave-0a6382d0"
             }
           ]
         }
@@ -10629,12 +10629,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52579.0,
-        "change_pct": 0.38,
+        "point": 52592.0,
+        "change_pct": 0.4,
         "spark": [
           52395.0,
-          52615.0,
-          52548.0,
           52468.0,
           52489.0,
           52378.0,
@@ -10672,21 +10670,23 @@
           52571.0,
           52604.0,
           52577.0,
-          52579.0
+          52579.0,
+          52587.0,
+          52592.0
         ],
         "candle": {
           "o": 52395.0,
           "h": 52742.0,
           "l": 52124.0,
-          "c": 52581.0
+          "c": 52587.0
         },
         "range_240d": {
           "low": 44854.0,
           "high": 53372.0,
           "low_date": "2025-08-21",
           "high_date": "2026-07-06",
-          "low_change_pct": 17.23,
-          "high_change_pct": -1.48
+          "low_change_pct": 17.24,
+          "high_change_pct": -1.47
         },
         "daily_expanded": [
           {
@@ -12702,8 +12702,8 @@
             "o": 52395.0,
             "h": 52742.0,
             "l": 52124.0,
-            "c": 52581.0,
-            "v": 65028
+            "c": 52587.0,
+            "v": 65787
           }
         ],
         "rollover_gaps": [],
@@ -12711,21 +12711,21 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/feds-barkin-says-its-a-close-call-whether-rates-are-high-enough-99f2b676"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/russia-clamps-down-on-posting-videos-of-ukrainian-drone-strikes-999092a5"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/consumers/consumer-sentiment-rose-in-july-per-michigan-survey-4fd855d8"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/two-fed-officials-say-inflation-should-have-prompted-higher-rates-e203c5ac"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-08-01T01:50:28.107288+09:00"
+  "intraday_refreshed_kst": "2026-08-01T02:00:29.844753+09:00"
 }
