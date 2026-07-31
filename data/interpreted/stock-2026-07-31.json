@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "generated_at": "2026-07-31T14:25:26.096532",
+  "generated_at": "2026-07-31T14:25:55.598140",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -181,7 +181,10 @@
           "l": 1586000,
           "c": 1718000
         }
-      ]
+      ],
+      "togusa_verdict": "neutral",
+      "theme_leader": false,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "402340",
@@ -822,7 +825,7 @@
           "url": "https://www.sedaily.com/article/20074282",
           "source": "서울경제",
           "published_at": "2026-07-31T02:33:59",
-          "causal_chain": null,
+          "causal_chain": "",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -994,7 +997,12 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bull",
+      "theme_leader": true,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "058610",
@@ -2016,7 +2024,10 @@
           "l": 7600,
           "c": 9000
         }
-      ]
+      ],
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "440110",
@@ -2030,8 +2041,17 @@
       "low_price": 56700,
       "industry": "반도체 제조업",
       "sector": "SSD 컨트롤러",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "반도체"
+      ],
+      "theme_paths": [
+        {
+          "name": "반도체",
+          "path": [
+            "반도체"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": false,
@@ -2269,9 +2289,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
+      "togusa_verdict": "neutral",
       "theme_leader": false,
-      "hugepark_grade": "주의"
+      "hugepark_grade": "관찰"
     },
     {
       "code": "089030",
@@ -2805,7 +2825,7 @@
         ]
       },
       "togusa_verdict": "neutral",
-      "theme_leader": true,
+      "theme_leader": false,
       "hugepark_grade": "관찰",
       "causal_chain": "",
       "parent_theme": ""
@@ -3624,9 +3644,9 @@
           186600
         ]
       },
-      "togusa_verdict": "neutral",
+      "togusa_verdict": "weak_bear",
       "theme_leader": false,
-      "hugepark_grade": "관찰",
+      "hugepark_grade": "주의",
       "causal_chain": "",
       "parent_theme": ""
     },
