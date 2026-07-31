@@ -6275,9 +6275,9 @@
   "news_chips": [
     {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/kevin-warshs-bear-steepener-is-no-goldilocks-moment-for-stocks-fdd33606?mod=rss_markets_main",
-      "published_ts": 1785494160.0,
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/two-fed-officials-say-inflation-should-have-prompted-higher-rates-e203c5ac",
+      "published_ts": 1785500040.0,
       "impact_high": true
     },
     {
@@ -6295,17 +6295,17 @@
       "impact_high": true
     },
     {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/2026073188147",
+      "published_ts": 1785497964.0,
+      "impact_high": false
+    },
+    {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/europe/spain-rushes-to-control-border-after-tens-of-thousands-of-migrants-flood-into-exclave-0a6382d0",
       "published_ts": 1785495960.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026073187517",
-      "published_ts": 1785491429.0,
       "impact_high": false
     },
     {
@@ -6330,13 +6330,6 @@
       "impact_high": false
     },
     {
-      "summary": "가계 재정과 소비 부담 지표가 경기 방어 심리에 영향을 주는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/202607317505i",
-      "published_ts": 1785461302.0,
-      "impact_high": false
-    },
-    {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-soar-as-market-struggles-to-interpret-fed-16885819",
@@ -6344,21 +6337,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "ac15aba62f578553bdab3e9d245baaf089a34f8a12270c2b61ab018a68ea6411",
+  "_article_sig": "eac7f916fe8c7e866c13fb08f5449a6621fa118d056c5ec84db9805da2655fc1",
   "built_at_kst": "2026-07-31T07:00:32.926004+09:00",
   "futures": {
-    "as_of_kst": "2026-07-31T21:10:04.382101+09:00",
+    "as_of_kst": "2026-07-31T21:20:08.648261+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7494.0,
-        "change_pct": 0.29,
+        "point": 7492.25,
+        "change_pct": 0.26,
         "spark": [
           7479.5,
-          7511.0,
-          7510.5,
           7513.0,
           7513.5,
           7515.25,
@@ -6396,21 +6387,23 @@
           7497.75,
           7499.5,
           7499.25,
-          7494.0
+          7494.0,
+          7492.5,
+          7492.25
         ],
         "candle": {
           "o": 7479.5,
           "h": 7517.75,
           "l": 7468.25,
-          "c": 7499.5
+          "c": 7492.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7623.75,
           "low_date": "2025-08-21",
           "high_date": "2026-06-02",
-          "low_change_pct": 17.4,
-          "high_change_pct": -1.63
+          "low_change_pct": 17.28,
+          "high_change_pct": -1.72
         },
         "daily_expanded": [
           {
@@ -8426,8 +8419,8 @@
             "o": 7479.5,
             "h": 7517.75,
             "l": 7468.25,
-            "c": 7499.5,
-            "v": 169870
+            "c": 7492.25,
+            "v": 173972
           }
         ],
         "rollover_gaps": [],
@@ -8436,15 +8429,15 @@
           "sources": [
             {
               "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/two-fed-officials-say-inflation-should-have-prompted-higher-rates-e203c5ac"
+            },
+            {
+              "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-stands-pat-continues-to-see-inflation-around-2-3b20439c"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/tankers-are-being-blown-out-of-the-water-see-how-mideast-strikes-are-piling-up-00801570"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-31-2026?mod=rss_markets_main"
             }
           ]
         }
@@ -8452,12 +8445,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28554.5,
-        "change_pct": 1.12,
+        "point": 28498.75,
+        "change_pct": 0.92,
         "spark": [
           28317.0,
-          28583.5,
-          28602.75,
           28618.0,
           28625.25,
           28629.25,
@@ -8495,21 +8486,23 @@
           28553.25,
           28553.5,
           28512.75,
-          28554.5
+          28500.75,
+          28481.0,
+          28498.75
         ],
         "candle": {
           "o": 28317.0,
           "h": 28640.75,
           "l": 28300.0,
-          "c": 28554.5
+          "c": 28498.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 23.4,
-          "high_change_pct": -7.03
+          "low_change_pct": 23.16,
+          "high_change_pct": -7.21
         },
         "daily_expanded": [
           {
@@ -10525,8 +10518,8 @@
             "o": 28317.0,
             "h": 28640.75,
             "l": 28300.0,
-            "c": 28554.5,
-            "v": 112360
+            "c": 28498.75,
+            "v": 114368
           }
         ],
         "rollover_gaps": [],
@@ -10534,16 +10527,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/two-fed-officials-say-inflation-should-have-prompted-higher-rates-e203c5ac"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/europe/spain-rushes-to-control-border-after-tens-of-thousands-of-migrants-flood-into-exclave-0a6382d0"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-31-2026?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/asia/famed-british-mountain-climber-missing-after-avalanche-in-pakistan-96b0de8a"
             }
           ]
         }
@@ -10551,13 +10544,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52624.0,
-        "change_pct": 0.47,
+        "point": 52629.0,
+        "change_pct": 0.48,
         "spark": [
           52395.0,
-          52652.0,
-          52650.0,
-          52664.0,
           52652.0,
           52665.0,
           52685.0,
@@ -10594,21 +10584,24 @@
           52627.0,
           52656.0,
           52662.0,
-          52624.0
+          52624.0,
+          52623.0,
+          52625.0,
+          52629.0
         ],
         "candle": {
           "o": 52395.0,
           "h": 52742.0,
           "l": 52375.0,
-          "c": 52663.0
+          "c": 52629.0
         },
         "range_240d": {
           "low": 44854.0,
           "high": 53372.0,
           "low_date": "2025-08-21",
           "high_date": "2026-07-06",
-          "low_change_pct": 17.41,
-          "high_change_pct": -1.33
+          "low_change_pct": 17.33,
+          "high_change_pct": -1.39
         },
         "daily_expanded": [
           {
@@ -12624,8 +12617,8 @@
             "o": 52395.0,
             "h": 52742.0,
             "l": 52375.0,
-            "c": 52663.0,
-            "v": 16556
+            "c": 52629.0,
+            "v": 16910
           }
         ],
         "rollover_gaps": [],
@@ -12634,15 +12627,15 @@
           "sources": [
             {
               "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/two-fed-officials-say-inflation-should-have-prompted-higher-rates-e203c5ac"
+            },
+            {
+              "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-stands-pat-continues-to-see-inflation-around-2-3b20439c"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/finance/stocks/korean-stock-surge-leads-asian-rally-on-renewed-ai-enthusiasm-36d3aa8f"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f?mod=rss_markets_main"
             }
           ]
         }
@@ -12650,11 +12643,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-07-31T21:10:08.290201+09:00",
+  "intraday_refreshed_kst": "2026-07-31T21:20:33.814915+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/two-fed-officials-say-inflation-should-have-prompted-higher-rates-e203c5ac"
+        },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/europe/spain-rushes-to-control-border-after-tens-of-thousands-of-migrants-flood-into-exclave-0a6382d0"
@@ -12662,10 +12659,6 @@
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-31-2026?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/asia/famed-british-mountain-climber-missing-after-avalanche-in-pakistan-96b0de8a"
         }
       ]
     },
@@ -12674,15 +12667,15 @@
       "sources": [
         {
           "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/two-fed-officials-say-inflation-should-have-prompted-higher-rates-e203c5ac"
+        },
+        {
+          "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-stands-pat-continues-to-see-inflation-around-2-3b20439c"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/tankers-are-being-blown-out-of-the-water-see-how-mideast-strikes-are-piling-up-00801570"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-31-2026?mod=rss_markets_main"
         }
       ]
     },
@@ -12691,15 +12684,15 @@
       "sources": [
         {
           "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/two-fed-officials-say-inflation-should-have-prompted-higher-rates-e203c5ac"
+        },
+        {
+          "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-stands-pat-continues-to-see-inflation-around-2-3b20439c"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/finance/stocks/korean-stock-surge-leads-asian-rally-on-renewed-ai-enthusiasm-36d3aa8f"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f?mod=rss_markets_main"
         }
       ]
     }
