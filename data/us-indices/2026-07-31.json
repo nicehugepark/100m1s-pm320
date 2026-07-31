@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-stands-pat-continues-to-see-inflation-around-2-3b20439c",
+      "published_ts": 1785491220.0,
+      "impact_high": true
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/tankers-are-being-blown-out-of-the-water-see-how-mideast-strikes-are-piling-up-00801570",
@@ -6288,13 +6295,6 @@
       "impact_high": true
     },
     {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-stands-pat-continues-to-see-inflation-around-2-3b20439c",
-      "published_ts": 1785470100.0,
-      "impact_high": true
-    },
-    {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026073177947",
@@ -6302,17 +6302,10 @@
       "impact_high": true
     },
     {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-soar-as-market-struggles-to-interpret-fed-16885819",
-      "published_ts": 1785404640.0,
-      "impact_high": true
-    },
-    {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/business/autos/ford-and-gm-attempts-to-go-beyond-cars-deserve-skepticism-797a9d87?mod=rss_markets_main",
-      "published_ts": 1785490200.0,
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/2026073187517",
+      "published_ts": 1785491429.0,
       "impact_high": false
     },
     {
@@ -6342,23 +6335,28 @@
       "url": "https://www.hankyung.com/article/202607317505i",
       "published_ts": 1785461302.0,
       "impact_high": false
+    },
+    {
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-soar-as-market-struggles-to-interpret-fed-16885819",
+      "published_ts": 1785404640.0,
+      "impact_high": true
     }
   ],
-  "_article_sig": "35e0c0f0eb677de853c78e111cb5ea125d32b9849f4dbe146bfe7b2bde5e1c16",
+  "_article_sig": "8744f485dfbc2052542b9187d9fd173103015a16ac9a17e1ea924eba6f8d5b2a",
   "built_at_kst": "2026-07-31T07:00:32.926004+09:00",
   "futures": {
-    "as_of_kst": "2026-07-31T18:50:07.230997+09:00",
+    "as_of_kst": "2026-07-31T19:00:04.445206+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7506.5,
-        "change_pct": 0.46,
+        "point": 7507.25,
+        "change_pct": 0.47,
         "spark": [
           7479.5,
-          7508.0,
-          7499.75,
           7498.25,
           7496.5,
           7495.0,
@@ -6396,21 +6394,23 @@
           7511.75,
           7508.5,
           7505.5,
-          7506.5
+          7506.5,
+          7507.25,
+          7507.25
         ],
         "candle": {
           "o": 7479.5,
           "h": 7517.75,
           "l": 7468.25,
-          "c": 7505.25
+          "c": 7507.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7623.75,
           "low_date": "2025-08-21",
           "high_date": "2026-06-02",
-          "low_change_pct": 17.49,
-          "high_change_pct": -1.55
+          "low_change_pct": 17.52,
+          "high_change_pct": -1.53
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7479.5,
             "h": 7517.75,
             "l": 7468.25,
-            "c": 7505.25,
-            "v": 135630
+            "c": 7507.25,
+            "v": 137357
           }
         ],
         "rollover_gaps": [],
@@ -8435,16 +8435,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-stands-pat-continues-to-see-inflation-around-2-3b20439c"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/tankers-are-being-blown-out-of-the-water-see-how-mideast-strikes-are-piling-up-00801570"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-31-2026?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-stands-pat-continues-to-see-inflation-around-2-3b20439c"
             }
           ]
         }
@@ -8452,11 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28547.0,
-        "change_pct": 1.1,
+        "point": 28565.0,
+        "change_pct": 1.16,
         "spark": [
           28317.0,
-          28523.0,
           28509.0,
           28484.0,
           28473.5,
@@ -8495,21 +8494,22 @@
           28564.5,
           28545.5,
           28552.5,
-          28547.0
+          28565.0,
+          28565.0
         ],
         "candle": {
           "o": 28317.0,
           "h": 28640.75,
           "l": 28300.0,
-          "c": 28547.0
+          "c": 28565.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 23.37,
-          "high_change_pct": -7.05
+          "low_change_pct": 23.45,
+          "high_change_pct": -6.99
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 28317.0,
             "h": 28640.75,
             "l": 28300.0,
-            "c": 28547.0,
-            "v": 96812
+            "c": 28565.0,
+            "v": 97781
           }
         ],
         "rollover_gaps": [],
@@ -10551,11 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52626.0,
-        "change_pct": 0.47,
+        "point": 52636.0,
+        "change_pct": 0.49,
         "spark": [
           52395.0,
-          52590.0,
           52590.0,
           52572.0,
           52562.0,
@@ -10594,21 +10593,22 @@
           52648.0,
           52625.0,
           52637.0,
-          52626.0
+          52636.0,
+          52636.0
         ],
         "candle": {
           "o": 52395.0,
           "h": 52697.0,
           "l": 52375.0,
-          "c": 52626.0
+          "c": 52636.0
         },
         "range_240d": {
           "low": 44854.0,
           "high": 53372.0,
           "low_date": "2025-08-21",
           "high_date": "2026-07-06",
-          "low_change_pct": 17.33,
-          "high_change_pct": -1.4
+          "low_change_pct": 17.35,
+          "high_change_pct": -1.38
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 52395.0,
             "h": 52697.0,
             "l": 52375.0,
-            "c": 52626.0,
-            "v": 12464
+            "c": 52636.0,
+            "v": 12712
           }
         ],
         "rollover_gaps": [],
@@ -12633,16 +12633,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-stands-pat-continues-to-see-inflation-around-2-3b20439c"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/finance/stocks/korean-stock-surge-leads-asian-rally-on-renewed-ai-enthusiasm-36d3aa8f"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-stands-pat-continues-to-see-inflation-around-2-3b20439c"
             }
           ]
         }
@@ -12650,7 +12650,7 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-07-31T18:50:11.086079+09:00",
+  "intraday_refreshed_kst": "2026-07-31T19:00:28.124152+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
@@ -12673,16 +12673,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-stands-pat-continues-to-see-inflation-around-2-3b20439c"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/tankers-are-being-blown-out-of-the-water-see-how-mideast-strikes-are-piling-up-00801570"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-31-2026?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-stands-pat-continues-to-see-inflation-around-2-3b20439c"
         }
       ]
     },
@@ -12690,16 +12690,16 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-stands-pat-continues-to-see-inflation-around-2-3b20439c"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/finance/stocks/korean-stock-surge-leads-asian-rally-on-renewed-ai-enthusiasm-36d3aa8f"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-stands-pat-continues-to-see-inflation-around-2-3b20439c"
         }
       ]
     }
