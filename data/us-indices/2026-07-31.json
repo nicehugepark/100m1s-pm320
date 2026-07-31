@@ -6274,13 +6274,6 @@
   ],
   "news_chips": [
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/microsoft-posts-biggest-one-day-market-cap-gain-for-any-u-s-company-b8713761?mod=rss_markets_main",
-      "published_ts": 1785448140.0,
-      "impact_high": true
-    },
-    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/30/us-economy-slowed-to-1point5percent-growth-rate-in-q2-june-core-inflation-at-3point3percent.html",
@@ -6293,6 +6286,13 @@
       "url": "https://www.wsj.com/economy/central-banking/the-problem-with-warshs-deference-to-markets-872edf9c",
       "published_ts": 1785402000.0,
       "impact_high": true
+    },
+    {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/the-u-s-liberated-kuwait-but-now-struggles-to-protect-it-from-iran-acb68e94",
+      "published_ts": 1785456000.0,
+      "impact_high": false
     },
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
@@ -6330,21 +6330,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "7d314c31ecb40ea4e1ba42cc75f0599c9156915e7e8209add28613791dc9421a",
+  "_article_sig": "c71c58936e7223e969805854a06e57c88070c91072aa2f29a71ee3a9804da53e",
   "built_at_kst": "2026-07-31T07:00:32.926004+09:00",
   "futures": {
-    "as_of_kst": "2026-07-31T09:00:05.899921+09:00",
+    "as_of_kst": "2026-07-31T09:10:09.060274+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7489.5,
-        "change_pct": 0.23,
+        "point": 7487.0,
+        "change_pct": 0.19,
         "spark": [
           7479.5,
-          7471.75,
-          7470.0,
           7468.5,
           7472.75,
           7491.75,
@@ -6381,22 +6379,24 @@
           7485.75,
           7487.75,
           7489.75,
-          7485.5,
-          7489.5
+          7490.0,
+          7487.75,
+          7487.5,
+          7487.0
         ],
         "candle": {
           "o": 7479.5,
-          "h": 7490.5,
+          "h": 7491.5,
           "l": 7468.25,
-          "c": 7489.5
+          "c": 7487.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7623.75,
           "low_date": "2025-08-21",
           "high_date": "2026-06-02",
-          "low_change_pct": 17.24,
-          "high_change_pct": -1.76
+          "low_change_pct": 17.2,
+          "high_change_pct": -1.79
         },
         "daily_expanded": [
           {
@@ -8410,10 +8410,10 @@
           {
             "date": "2026-07-30",
             "o": 7479.5,
-            "h": 7490.5,
+            "h": 7491.5,
             "l": 7468.25,
-            "c": 7489.5,
-            "v": 16047
+            "c": 7487.0,
+            "v": 17629
           }
         ],
         "rollover_gaps": [],
@@ -8421,16 +8421,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/the-u-s-liberated-kuwait-but-now-struggles-to-protect-it-from-iran-acb68e94"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/microsoft-posts-biggest-one-day-market-cap-gain-for-any-u-s-company-b8713761?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/housing/mortgage-rates-jump-to-a-one-year-high-9ea35b8a"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/07/30/us-economy-slowed-to-1point5percent-growth-rate-in-q2-june-core-inflation-at-3point3percent.html"
             }
           ]
         }
@@ -8438,12 +8438,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28417.5,
-        "change_pct": 0.64,
+        "point": 28423.0,
+        "change_pct": 0.66,
         "spark": [
           28317.0,
-          28232.25,
-          28235.5,
           28224.25,
           28230.75,
           28336.25,
@@ -8480,22 +8478,24 @@
           28392.75,
           28406.75,
           28420.0,
-          28392.0,
-          28417.5
+          28433.75,
+          28422.75,
+          28419.5,
+          28423.0
         ],
         "candle": {
           "o": 28317.0,
-          "h": 28426.5,
+          "h": 28445.0,
           "l": 28300.0,
-          "c": 28417.5
+          "c": 28423.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 22.81,
-          "high_change_pct": -7.47
+          "low_change_pct": 22.83,
+          "high_change_pct": -7.46
         },
         "daily_expanded": [
           {
@@ -10509,10 +10509,10 @@
           {
             "date": "2026-07-30",
             "o": 28317.0,
-            "h": 28426.5,
+            "h": 28445.0,
             "l": 28300.0,
-            "c": 28417.5,
-            "v": 14330
+            "c": 28423.0,
+            "v": 16132
           }
         ],
         "rollover_gaps": [],
@@ -10520,16 +10520,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/the-u-s-liberated-kuwait-but-now-struggles-to-protect-it-from-iran-acb68e94"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/microsoft-posts-biggest-one-day-market-cap-gain-for-any-u-s-company-b8713761?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/ai-stocks-stage-a-rebound-98689961?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/citadel-buys-situational-awarenesss-stock-portfolio-after-big-losses-in-ai-5117159b?mod=rss_markets_main"
             }
           ]
         }
@@ -10537,13 +10537,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52497.0,
-        "change_pct": 0.22,
+        "point": 52472.0,
+        "change_pct": 0.18,
         "spark": [
           52395.0,
-          52369.0,
-          52376.0,
-          52363.0,
           52342.0,
           52378.0,
           52473.0,
@@ -10580,21 +10577,24 @@
           52479.0,
           52492.0,
           52497.0,
-          52497.0
+          52486.0,
+          52482.0,
+          52478.0,
+          52472.0
         ],
         "candle": {
           "o": 52395.0,
           "h": 52504.0,
           "l": 52375.0,
-          "c": 52497.0
+          "c": 52473.0
         },
         "range_240d": {
           "low": 44854.0,
           "high": 53372.0,
           "low_date": "2025-08-21",
           "high_date": "2026-07-06",
-          "low_change_pct": 17.04,
-          "high_change_pct": -1.64
+          "low_change_pct": 16.99,
+          "high_change_pct": -1.68
         },
         "daily_expanded": [
           {
@@ -12610,8 +12610,8 @@
             "o": 52395.0,
             "h": 52504.0,
             "l": 52375.0,
-            "c": 52497.0,
-            "v": 1400
+            "c": 52473.0,
+            "v": 1546
           }
         ],
         "rollover_gaps": [],
@@ -12636,11 +12636,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-07-31T09:00:09.840049+09:00",
+  "intraday_refreshed_kst": "2026-07-31T09:10:29.919583+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/the-u-s-liberated-kuwait-but-now-struggles-to-protect-it-from-iran-acb68e94"
+        },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/microsoft-posts-biggest-one-day-market-cap-gain-for-any-u-s-company-b8713761?mod=rss_markets_main"
@@ -12648,10 +12652,6 @@
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/ai-stocks-stage-a-rebound-98689961?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/citadel-buys-situational-awarenesss-stock-portfolio-after-big-losses-in-ai-5117159b?mod=rss_markets_main"
         }
       ]
     },
@@ -12659,16 +12659,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/the-u-s-liberated-kuwait-but-now-struggles-to-protect-it-from-iran-acb68e94"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/microsoft-posts-biggest-one-day-market-cap-gain-for-any-u-s-company-b8713761?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/housing/mortgage-rates-jump-to-a-one-year-high-9ea35b8a"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/07/30/us-economy-slowed-to-1point5percent-growth-rate-in-q2-june-core-inflation-at-3point3percent.html"
         }
       ]
     },
