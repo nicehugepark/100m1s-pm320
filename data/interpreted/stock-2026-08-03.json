@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "generated_at": "2026-08-03T10:25:16.389088",
+  "generated_at": "2026-08-03T10:26:38.196710",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -2051,8 +2051,17 @@
       "low_price": 2180,
       "industry": "기타 화학제품 제조업",
       "sector": "기업인수합병",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "경영권 분쟁"
+      ],
+      "theme_paths": [
+        {
+          "name": "경영권 분쟁",
+          "path": [
+            "경영권 분쟁"
+          ]
+        }
+      ],
       "pick_count": 2,
       "prev_pick": {
         "date": "2026-07-31",
@@ -2069,16 +2078,16 @@
           "url": "https://www.etoday.co.kr/news/view/2610282",
           "source": "이투데이",
           "published_at": "2026-08-03T01:16:00",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "아워홈을 떠난 구미현이 코스닥 본느를 인수하며 자본시장에 전면 등판 → 최대주주·경영권 변경에 따른 지분 매집·우호 지분 확보 기대감 → 매수세가 얇은 유통물량에 집중되며 시초가부터 점상한가(시=고=저=종 2,180원, +29.99%) 형성. 다만 거래대금은 1억원에 불과해 초박형 수급 위의 기대 선반영 구간이다.",
+          "macro_event": "아워홈 오너家 구미현, 코스닥 본느 인수·자본시장 전면 등판 (최대주주·경영권 변경)",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.6,
+          "newzy_virality": 0.4,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.52,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": false,
@@ -2259,9 +2268,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     }
   ]
 }
