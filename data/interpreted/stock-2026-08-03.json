@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "generated_at": "2026-08-03T09:35:11.684078",
+  "generated_at": "2026-08-03T09:35:30.417697",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -1172,8 +1172,17 @@
       "low_price": 651,
       "industry": "영화, 비디오물, 방송프로그램 제작 및 배급업",
       "sector": "석탄(점결탄) 판매",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "엔터테인먼트"
+      ],
+      "theme_paths": [
+        {
+          "name": "엔터테인먼트",
+          "path": [
+            "엔터테인먼트"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": {
         "date": "2026-07-07",
@@ -1409,9 +1418,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "079190",
@@ -1590,7 +1599,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "226340",
