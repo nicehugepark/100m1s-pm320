@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 25921.67,
-      "change_pct": 2.16,
+      "point": 25946.38,
+      "change_pct": 2.26,
       "candle": {
         "o": 25460.36,
         "h": 25967.25,
         "l": 25424.26,
-        "c": 25921.67
+        "c": 25946.38
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,13 +2033,11 @@
           "o": 25460.36,
           "h": 25967.25,
           "l": 25424.26,
-          "c": 25921.67
+          "c": 25946.38
         }
       ],
       "spark": [
         25460.36,
-        25810.5,
-        25843.57,
         25840.33,
         25850.06,
         25851.47,
@@ -2077,7 +2075,9 @@
         25916.5,
         25916.86,
         25920.25,
-        25921.67
+        25943.16,
+        25946.88,
+        25946.38
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7601.0,
-      "change_pct": 1.49,
+      "point": 7605.32,
+      "change_pct": 1.54,
       "candle": {
         "o": 7504.78,
         "h": 7607.99,
         "l": 7504.78,
-        "c": 7601.0
+        "c": 7605.32
       },
       "range_240d": {
         "low": 6343.72,
@@ -4131,13 +4131,11 @@
           "o": 7504.78,
           "h": 7607.99,
           "l": 7504.78,
-          "c": 7601.0
+          "c": 7605.32
         }
       ],
       "spark": [
         7504.78,
-        7575.39,
-        7577.89,
         7580.18,
         7581.22,
         7584.7,
@@ -4175,7 +4173,9 @@
         7600.05,
         7599.33,
         7600.86,
-        7601.0
+        7605.45,
+        7605.43,
+        7605.32
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 53133.82,
-      "change_pct": 1.24,
+      "point": 53153.04,
+      "change_pct": 1.27,
       "candle": {
         "o": 52759.06,
         "h": 53224.38,
         "l": 52759.06,
-        "c": 53133.82
+        "c": 53153.04
       },
       "range_240d": {
         "low": 44785.5,
@@ -6229,13 +6229,11 @@
           "o": 52759.06,
           "h": 53224.38,
           "l": 52759.06,
-          "c": 53133.82
+          "c": 53153.04
         }
       ],
       "spark": [
         52759.06,
-        53028.75,
-        53022.17,
         53045.79,
         53026.73,
         53053.42,
@@ -6273,7 +6271,9 @@
         53129.98,
         53107.66,
         53133.8,
-        53133.82
+        53155.59,
+        53151.43,
+        53153.04
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6298,141 +6298,143 @@
   ],
   "news_chips": [
     {
-      "summary": "제조업 경기실사지수에서 인플레이션 우려가 팬데믹 이후 최악 수준으로 악화, 연준의 금리 인상 압박 증가",
+      "summary": "제조업 구매관리자들이 인플레이션 우려를 팬데믹 시기보다 심각하게 평가하면서 연준의 정책 결정 압박이 커졌다.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/03/manufacturing-survey-shows-inflation-worries-adding-to-pressure-on-fed.html",
       "published_ts": 1785776059.0,
       "impact_high": true
     },
     {
-      "summary": "비자가 인공지능 기반 사기 방지 플랫폼을 24억 달러에 인수하며 금융 보안 강화 전략 추진",
+      "summary": "비자가 AI 기반 사기 방지 플랫폼 바이오캐치를 24억 달러에 인수하며 금융·보안 기술 강화를 추진한다.",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/banking/visa-to-buy-fraud-defense-platform-biocatch-in-2-4-billion-deal-5e36f6e3?mod=rss_markets_main",
       "published_ts": 1785771900.0,
       "impact_high": false
     },
     {
-      "summary": "JPM이 2035년까지 750억 달러를 미국 주택 공급 확대에 투자, 저가주택 100만 호 자금화 목표",
+      "summary": "JP모건 체이스가 2035년까지 저소득층 주택 공급 100만 가구 조성과 첫 주택 구매자 대출에 7500억 달러를 투자한다.",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/banking/jpmorgan-chase-to-invest-750-billion-to-boost-u-s-housing-supply-homeownership-11a389e5?mod=rss_markets_main",
       "published_ts": 1785768960.0,
       "impact_high": false
     },
     {
-      "summary": "7월 ISM 제조업 지수 55.6으로 전월 53.3에서 상승, 경제 회복 모멘텀 유지",
+      "summary": "ISM 제조업 지수가 6월 53.3에서 7월 55.6으로 상승하며 경기 회복 모멘텀이 지속되었다.",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/u-s-factory-activity-expands-again-in-july-620ff592",
       "published_ts": 1785768000.0,
       "impact_high": false
     },
     {
-      "summary": "미국 주식이 중동 외교 진전 기대로 상승했으나 유가는 지역 긴장 완화에 하락, 섹터별 수익성 영향 엇갈림",
+      "summary": "중동 외교 진전으로 원유 공급 불안이 완화되면서 유가가 급락하고 다우지수는 500포인트 상승 마감했다.",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-03-2026?mod=rss_markets_main",
       "published_ts": 1785743894.0,
       "impact_high": false
     },
     {
-      "summary": "OPEC과 동맹국이 6번째 연속 감산 완화 결정, 중동 긴장 완화에 따른 원유 공급 정상화 신호",
-      "source": "WSJ세계",
+      "summary": "OPEC과 동맹국이 석유 생산을 6연속 증산하며 중동 지정학 완화에 따른 공급 불안 해소를 진행했다.",
+      "source": "WSJ",
       "url": "https://www.wsj.com/business/energy-oil/opec-allies-increase-oil-output-for-sixth-time-in-a-row-e56378d9",
       "published_ts": 1785671820.0,
       "impact_high": false
     },
     {
-      "summary": "트럼프 대통령이 중동 외교 진전을 배경으로 이란 공격을 취소, 호르무즈 해협 개방 협상 재개로 원유 공급 정상화 기대",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/iran-stokes-the-middle-east-war-with-drone-attacks-on-kuwait-f25530a0",
-      "published_ts": 1785642960.0,
-      "impact_high": false
-    },
-    {
-      "summary": "워시 연준 의장이 금리 정책 불확실성 속 회의 빈도를 줄이는 방안을 제안, 중앙은행 운영 방식의 큰 전환 신호",
+      "summary": "연준 의장이 FOMC 회의 개최 횟수를 현재 8회 아래로 줄이는 방안을 동료에게 제시했다.",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/warsh-floats-fewer-fed-meetings-debf5a23",
       "published_ts": 1785537540.0,
       "impact_high": true
     },
     {
-      "summary": "중국 7월 PMI 지수가 예상을 밑돌아 축소로 전환, 수출 추진력 약화와 수요 부진이 성장 전망 악화",
+      "summary": "중국 제조업 활동이 예상을 깨고 7월 수축하면서 글로벌 경기 둔화 우려가 확산되었다.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/31/china-pmi-factory-activity-economic-growth-exports-.html",
       "published_ts": 1785469795.0,
       "impact_high": false
     },
     {
-      "summary": "2분기 GDP 성장률 1.5%로 예상치 하회, 정부 지출 감소와 재고 조정이 주요 요인",
+      "summary": "2분기 미국 GDP 성장률이 1.5%로 시장 예상(2% 내외)을 하회하며 경제 둔화 신호가 점화되었다.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/30/us-economy-slowed-to-1point5percent-growth-rate-in-q2-june-core-inflation-at-3point3percent.html",
       "published_ts": 1785423883.0,
       "impact_high": true
+    },
+    {
+      "summary": "메타의 AI 대규모 투자가 높은 비용 구조와 투자자 회의론에 직면하면서 수익성 논리가 약화되었다.",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/tech/ai/metas-case-for-its-ai-spending-keeps-getting-weaker-aa4b9a5c?mod=rss_markets_main",
+      "published_ts": 1785403800.0,
+      "impact_high": false
     }
   ],
-  "_article_sig": "475add99954df6dd42e3e2bd351cb6085096e97d01801da5cff081a0b2ce7cf7",
+  "_article_sig": "ca0131ad26af9f8b4fe3692d922412571e476a68caaa103d24b946eea43efe66",
   "built_at_kst": "2026-08-01T07:00:29.271299+09:00",
   "regular_open": true,
   "_futures_news": {
-    "NASDAQ": {
-      "summary": "빅테크 AI 투자 수익성 의문 심화. Meta 등 대형 기술사의 막대한 AI 지출 대비 수익화 경로 불분명, 투자자 회의론 부각.",
-      "sources": [
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/tech/ai/metas-case-for-its-ai-spending-keeps-getting-weaker-aa4b9a5c?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/tech/ai/wall-street-thinks-it-knows-how-tech-giants-will-make-ai-pay-96f76438?mod=rss_markets_main"
-        }
-      ]
-    },
     "S&P500": {
-      "summary": "제조업 강세(ISM PMI 55.6)에도 GDP 약세(1.5%), 인플레이션 고착(3.3%) 상황 속 Fed 정책 불확실성 심화. 중동 외교 복귀로 유가 하락, 미-일 엔화 방어 개입으로 환율 변동성 증대.",
+      "summary": "제조업 둔화(ISM 55.6), 모기지 금리 1년 최고 진입(6.66%)으로 경기 부정 신호. 연준 금리 정책 불확실성 고조. 중동 외교 진전에 따른 유가 급락 동조.",
       "sources": [
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/economy/central-banking/u-s-factory-activity-expands-again-in-july-620ff592"
-        },
         {
           "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/07/30/us-economy-slowed-to-1point5percent-growth-rate-in-q2-june-core-inflation-at-3point3percent.html"
+          "url": "https://www.cnbc.com/2026/08/03/manufacturing-survey-shows-inflation-worries-adding-to-pressure-on-fed.html"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/housing/mortgage-rates-jump-to-a-one-year-high-9ea35b8a"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/currencies/the-worries-that-drove-uncle-sam-to-buy-yen-4ff554f1"
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-03-2026?mod=rss_markets_main"
         }
       ]
     },
     "DOW": {
-      "summary": "금융 대형주 주도의 강세 속 경기민감 신호 엇갈림. JPMorgan 대규모 주택투자 자금조달로 금융섹터 매수, 유가 하락은 에너지 약세. 주택모기지금리 1년 최고(6.66%) 에 주택경기 약화 신호도 동시 포착.",
+      "summary": "대형금융(JP모건 주택투자 $750B, Visa 인수 $2.4B) 긍정 신호와 에너지섹터 유가 하락 압박 혼재. 자동차(Ford/GM) 다각화 전략 회의론으로 산업 구조 부정 신호 심화.",
       "sources": [
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/jpmorgan-chase-to-invest-750-billion-to-boost-u-s-housing-supply-homeownership-11a389e5?mod=rss_markets_main"
-        },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-03-2026?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/economy/housing/mortgage-rates-jump-to-a-one-year-high-9ea35b8a"
+          "url": "https://www.wsj.com/finance/banking/jpmorgan-chase-to-invest-750-billion-to-boost-u-s-housing-supply-homeownership-11a389e5?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/business/autos/ford-and-gm-attempts-to-go-beyond-cars-deserve-skepticism-797a9d87?mod=rss_markets_main"
+        }
+      ]
+    },
+    "NASDAQ": {
+      "summary": "빅테크 AI 투자 수익화 지연(Meta 차입제약·비용 상승). 한국 반도체 수출 견조로 기술 수요 회복 신호. 중국 팩토리 약세(7월 축소)와 Cloud 연계 여부가 글로벌 기술·수익화 분수령.",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/tech/ai/metas-case-for-its-ai-spending-keeps-getting-weaker-aa4b9a5c?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/trade/south-koreas-export-growth-moderates-but-remains-solid-on-chip-demand-267d79d7"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/31/china-pmi-factory-activity-economic-growth-exports-.html"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-08-04T03:40:06.139652+09:00",
+    "as_of_kst": "2026-08-04T03:50:03.908946+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7627.75,
-        "change_pct": 1.44,
+        "point": 7628.5,
+        "change_pct": 1.45,
         "spark": [
           7550.0,
-          7607.75,
-          7603.25,
           7604.75,
           7607.25,
           7608.5,
@@ -6470,20 +6472,22 @@
           7631.25,
           7627.5,
           7626.5,
-          7627.75
+          7628.25,
+          7632.5,
+          7628.5
         ],
         "candle": {
           "o": 7550.0,
           "h": 7635.0,
           "l": 7542.75,
-          "c": 7627.75
+          "c": 7628.5
         },
         "range_240d": {
           "low": 6388.25,
-          "high": 7627.75,
+          "high": 7628.5,
           "low_date": "2025-08-21",
           "high_date": "2026-08-03",
-          "low_change_pct": 19.4,
+          "low_change_pct": 19.41,
           "high_change_pct": 0.0
         },
         "daily_expanded": [
@@ -8492,25 +8496,25 @@
             "o": 7550.0,
             "h": 7635.0,
             "l": 7542.75,
-            "c": 7627.75,
-            "v": 1026893
+            "c": 7628.5,
+            "v": 1045669
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "제조업 강세(ISM PMI 55.6)에도 GDP 약세(1.5%), 인플레이션 고착(3.3%) 상황 속 Fed 정책 불확실성 심화. 중동 외교 복귀로 유가 하락, 미-일 엔화 방어 개입으로 환율 변동성 증대.",
+          "summary": "제조업 둔화(ISM 55.6), 모기지 금리 1년 최고 진입(6.66%)으로 경기 부정 신호. 연준 금리 정책 불확실성 고조. 중동 외교 진전에 따른 유가 급락 동조.",
           "sources": [
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/economy/central-banking/u-s-factory-activity-expands-again-in-july-620ff592"
-            },
-            {
               "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/07/30/us-economy-slowed-to-1point5percent-growth-rate-in-q2-june-core-inflation-at-3point3percent.html"
+              "url": "https://www.cnbc.com/2026/08/03/manufacturing-survey-shows-inflation-worries-adding-to-pressure-on-fed.html"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/housing/mortgage-rates-jump-to-a-one-year-high-9ea35b8a"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/currencies/the-worries-that-drove-uncle-sam-to-buy-yen-4ff554f1"
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-03-2026?mod=rss_markets_main"
             }
           ]
         }
@@ -8518,12 +8522,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28893.0,
-        "change_pct": 1.72,
+        "point": 28890.75,
+        "change_pct": 1.71,
         "spark": [
           28565.0,
-          28780.75,
-          28734.25,
           28764.5,
           28767.0,
           28782.5,
@@ -8561,20 +8563,22 @@
           28921.5,
           28892.75,
           28893.0,
-          28893.0
+          28889.75,
+          28913.0,
+          28890.75
         ],
         "candle": {
           "o": 28565.0,
           "h": 28964.25,
           "l": 28313.5,
-          "c": 28893.0
+          "c": 28890.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 24.86,
+          "low_change_pct": 24.85,
           "high_change_pct": -5.93
         },
         "daily_expanded": [
@@ -10583,21 +10587,25 @@
             "o": 28565.0,
             "h": 28964.25,
             "l": 28313.5,
-            "c": 28893.0,
-            "v": 438635
+            "c": 28890.75,
+            "v": 444986
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "빅테크 AI 투자 수익성 의문 심화. Meta 등 대형 기술사의 막대한 AI 지출 대비 수익화 경로 불분명, 투자자 회의론 부각.",
+          "summary": "빅테크 AI 투자 수익화 지연(Meta 차입제약·비용 상승). 한국 반도체 수출 견조로 기술 수요 회복 신호. 중국 팩토리 약세(7월 축소)와 Cloud 연계 여부가 글로벌 기술·수익화 분수령.",
           "sources": [
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/tech/ai/metas-case-for-its-ai-spending-keeps-getting-weaker-aa4b9a5c?mod=rss_markets_main"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/tech/ai/wall-street-thinks-it-knows-how-tech-giants-will-make-ai-pay-96f76438?mod=rss_markets_main"
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/trade/south-koreas-export-growth-moderates-but-remains-solid-on-chip-demand-267d79d7"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/07/31/china-pmi-factory-activity-economic-growth-exports-.html"
             }
           ]
         }
@@ -10605,11 +10613,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53278.0,
-        "change_pct": 1.22,
+        "point": 53302.0,
+        "change_pct": 1.27,
         "spark": [
           52780.0,
-          53181.0,
           53182.0,
           53163.0,
           53189.0,
@@ -10648,21 +10655,22 @@
           53272.0,
           53275.0,
           53254.0,
-          53278.0
+          53281.0,
+          53302.0
         ],
         "candle": {
           "o": 52780.0,
           "h": 53377.0,
           "l": 52777.0,
-          "c": 53278.0
+          "c": 53280.0
         },
         "range_240d": {
           "low": 44854.0,
           "high": 53372.0,
           "low_date": "2025-08-21",
           "high_date": "2026-07-06",
-          "low_change_pct": 18.78,
-          "high_change_pct": -0.18
+          "low_change_pct": 18.79,
+          "high_change_pct": -0.17
         },
         "daily_expanded": [
           {
@@ -12670,30 +12678,30 @@
             "o": 52780.0,
             "h": 53377.0,
             "l": 52777.0,
-            "c": 53278.0,
-            "v": 72148
+            "c": 53280.0,
+            "v": 72971
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "금융 대형주 주도의 강세 속 경기민감 신호 엇갈림. JPMorgan 대규모 주택투자 자금조달로 금융섹터 매수, 유가 하락은 에너지 약세. 주택모기지금리 1년 최고(6.66%) 에 주택경기 약화 신호도 동시 포착.",
+          "summary": "대형금융(JP모건 주택투자 $750B, Visa 인수 $2.4B) 긍정 신호와 에너지섹터 유가 하락 압박 혼재. 자동차(Ford/GM) 다각화 전략 회의론으로 산업 구조 부정 신호 심화.",
           "sources": [
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/jpmorgan-chase-to-invest-750-billion-to-boost-u-s-housing-supply-homeownership-11a389e5?mod=rss_markets_main"
-            },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-03-2026?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/economy/housing/mortgage-rates-jump-to-a-one-year-high-9ea35b8a"
+              "url": "https://www.wsj.com/finance/banking/jpmorgan-chase-to-invest-750-billion-to-boost-u-s-housing-supply-homeownership-11a389e5?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/business/autos/ford-and-gm-attempts-to-go-beyond-cars-deserve-skepticism-797a9d87?mod=rss_markets_main"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-08-04T03:40:11.566580+09:00"
+  "intraday_refreshed_kst": "2026-08-04T03:53:11.141394+09:00"
 }
