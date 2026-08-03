@@ -1,22 +1,67 @@
 {
   "date": "2026-08-03",
-  "generated_at": "2026-08-03T10:06:23.872264",
+  "generated_at": "2026-08-03T10:15:16.445875",
   "data_source": "kiwoom",
-  "macro_events": [],
+  "macro_events": [
+    {
+      "title": "환율약세",
+      "summary": "메모리 칩 수익성 회복→외화수취증가→원화유입→환율약세(1400원대 진입)"
+    },
+    {
+      "title": "MLCC부족",
+      "summary": "메모리 수요 회복→칩 부족→MLCC 공급 긴장심화→반도체부품·삼성전기 연일 강세"
+    },
+    {
+      "title": "AI서버수요",
+      "summary": "생성AI 확산→AI서버 시장 급성장→광통신·RF부품 수요 폭증→통신부품사 상승세"
+    },
+    {
+      "title": "폭염냉방",
+      "summary": "폭염·열대야 심화→냉방수요 급증→에어컨·선풍기 업계 수혜→냉방기사 상한가"
+    },
+    {
+      "title": "관광객복귀",
+      "summary": "관광객 복귀→내수·소비심리 개선→면세·뷰티 섹터 강세→신세계면세점 상승장"
+    }
+  ],
   "narratives": [],
   "themes_macro_summary": [],
   "themes_tree": {
     "date": "2026-08-03",
-    "roots": []
+    "roots": [
+      {
+        "name": "AI 반도체",
+        "children": [
+          {
+            "name": "HBM 메모리 슈퍼사이클",
+            "summary": "HBM4 3분기 본격 효과·메모리 재평가 기대에 증권사 목표가 릴레이 상향으로 SK하이닉스·삼성전자 등 메모리 반도체에 자금 집중.",
+            "source_count": 4,
+            "verdict": "pass"
+          },
+          {
+            "name": "반도체 소부장",
+            "summary": "두산의 SK실트론(웨이퍼) 인수로 소부장 밸류체인 확보·실적 개선 기대가 부각되며 반도체 소재·부품·장비 섹터로 매수세 유입.",
+            "source_count": 4,
+            "verdict": "weak"
+          },
+          {
+            "name": "원달러 환율 하락",
+            "summary": "반도체 수출 달러 유입으로 환율이 한 달 새 125원 급락해 1400원선을 위협, 수입원가 하락 수혜 섹터에 관심.",
+            "source_count": 1,
+            "verdict": "weak"
+          }
+        ]
+      }
+    ]
   },
   "stocks": [
     {
       "code": "058610",
       "name": "에스피지",
       "rank": 1,
-      "trade_amount": 105843000000,
-      "change_pct": 9.09,
-      "close_price": 103200,
+      "trade_amount": 113158000000,
+      "change_pct": 10.04,
+      "close_price": 104100,
       "open_price": 100600,
       "high_price": 107600,
       "low_price": 97900,
@@ -47,17 +92,17 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 2.36,
-      "index_multiple_current": 3.85,
+      "index_change_pct": 2.4,
+      "index_multiple_current": 4.18,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 165700,
         "high_date": "2026-01-29",
-        "high_pct": -37.72,
+        "high_pct": -37.18,
         "low": 22500,
         "low_date": "2025-08-20",
-        "low_pct": 358.67,
-        "current": 103200
+        "low_pct": 362.67,
+        "current": 104100
       },
       "daily_20": [
         {
@@ -198,7 +243,7 @@
           "o": 100600,
           "h": 107600,
           "l": 97900,
-          "c": 103200
+          "c": 104100
         }
       ],
       "intraday": {
@@ -218,7 +263,9 @@
           104600,
           102900,
           102600,
-          103100
+          104200,
+          103800,
+          103900
         ]
       },
       "togusa_verdict": "strong_bull",
@@ -231,7 +278,7 @@
       "code": "484810",
       "name": "티엑스알로보틱스",
       "rank": 2,
-      "trade_amount": 12093000000,
+      "trade_amount": 12131000000,
       "change_pct": 29.93,
       "close_price": 17450,
       "open_price": 16200,
@@ -300,8 +347,8 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": 2.36,
-      "index_multiple_current": 12.68,
+      "index_change_pct": 2.4,
+      "index_multiple_current": 12.47,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 26500,
@@ -471,6 +518,8 @@
           17450,
           17450,
           17450,
+          17450,
+          17450,
           17450
         ]
       },
@@ -484,7 +533,7 @@
       "code": "459550",
       "name": "알트",
       "rank": 3,
-      "trade_amount": 4696000000,
+      "trade_amount": 4727000000,
       "change_pct": 29.97,
       "close_price": 1492,
       "open_price": 1148,
@@ -518,8 +567,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 2.36,
-      "index_multiple_current": 12.7,
+      "index_change_pct": 2.4,
+      "index_multiple_current": 12.49,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 6250,
@@ -672,8 +721,28 @@
           "c": 1492
         }
       ],
-      "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "intraday": {
+        "step_min": 5,
+        "open": 1148,
+        "base": 1148,
+        "prices": [
+          1148,
+          1229,
+          1248,
+          1316,
+          1450,
+          1433,
+          1410,
+          1412,
+          1420,
+          1486,
+          1478,
+          1492,
+          1492,
+          1492,
+          1492
+        ]
+      },
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰",
@@ -684,7 +753,7 @@
       "code": "002070",
       "name": "비비안",
       "rank": 4,
-      "trade_amount": 2100000000,
+      "trade_amount": 2113000000,
       "change_pct": 29.98,
       "close_price": 6590,
       "open_price": 5900,
@@ -776,8 +845,8 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": -3.99,
-      "index_multiple_current": -7.51,
+      "index_change_pct": -4.26,
+      "index_multiple_current": -7.04,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 15754,
@@ -944,6 +1013,8 @@
           6590,
           6590,
           6590,
+          6590,
+          6590,
           6590
         ]
       },
@@ -957,7 +1028,7 @@
       "code": "208640",
       "name": "썸에이지",
       "rank": 5,
-      "trade_amount": 780000000,
+      "trade_amount": 783000000,
       "change_pct": 29.94,
       "close_price": 1341,
       "open_price": 1118,
@@ -994,8 +1065,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 2.36,
-      "index_multiple_current": 12.69,
+      "index_change_pct": 2.4,
+      "index_multiple_current": 12.48,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 7106,
@@ -1164,6 +1235,8 @@
           1341,
           1341,
           1341,
+          1341,
+          1341,
           1341
         ]
       },
@@ -1179,7 +1252,7 @@
       "code": "004870",
       "name": "티웨이홀딩스",
       "rank": 6,
-      "trade_amount": 771000000,
+      "trade_amount": 782000000,
       "change_pct": 30.0,
       "close_price": 1248,
       "open_price": 1015,
@@ -1206,8 +1279,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": -3.99,
-      "index_multiple_current": -7.52,
+      "index_change_pct": -4.26,
+      "index_multiple_current": -7.04,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 3297,
@@ -1376,6 +1449,8 @@
           1248,
           1248,
           1248,
+          1248,
+          1248,
           1248
         ]
       },
@@ -1389,7 +1464,7 @@
       "code": "012170",
       "name": "아센디오",
       "rank": 7,
-      "trade_amount": 662000000,
+      "trade_amount": 663000000,
       "change_pct": 29.94,
       "close_price": 842,
       "open_price": 651,
@@ -1480,8 +1555,8 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": -3.99,
-      "index_multiple_current": -7.5,
+      "index_change_pct": -4.26,
+      "index_multiple_current": -7.03,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 4955,
@@ -1651,6 +1726,8 @@
           842,
           842,
           842,
+          842,
+          842,
           842
         ]
       },
@@ -1664,7 +1741,7 @@
       "code": "079190",
       "name": "케스피온",
       "rank": 8,
-      "trade_amount": 412000000,
+      "trade_amount": 413000000,
       "change_pct": 29.93,
       "close_price": 1172,
       "open_price": 902,
@@ -1694,8 +1771,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 2.36,
-      "index_multiple_current": 12.68,
+      "index_change_pct": 2.4,
+      "index_multiple_current": 12.47,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 2789,
@@ -1864,6 +1941,8 @@
           1172,
           1172,
           1172,
+          1172,
+          1172,
           1172
         ]
       },
@@ -1901,8 +1980,8 @@
       "bullish_dates": [],
       "news": [],
       "fallback": true,
-      "index_change_pct": 2.36,
-      "index_multiple_current": 12.71,
+      "index_change_pct": 2.4,
+      "index_multiple_current": 12.5,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 4950,
@@ -2060,6 +2139,8 @@
         "open": 2180,
         "base": 2180,
         "prices": [
+          2180,
+          2180,
           2180,
           2180,
           2180,
