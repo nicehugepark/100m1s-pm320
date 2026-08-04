@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "generated_at": "2026-08-04T19:01:26+09:00",
+  "generated_at": "2026-08-04T19:11:24+09:00",
   "picked_code": "196170",
   "stocks": [
     {
@@ -16,7 +16,7 @@
         "take_profit_after_watering_price": 346645,
         "expiry_date": "2026-08-07",
         "current_state": "running",
-        "current_pnl_pct": 0.0,
+        "current_pnl_pct": 0.144,
         "current_mdd_pct": -0.72,
         "current_mdd_peak_pct": -0.863,
         "d_offset": 0,
@@ -35,12 +35,20 @@
         "take_profit_target_price": 52838,
         "take_profit_after_watering_price": 51148,
         "expiry_date": "2026-08-07",
-        "current_state": "running",
-        "current_pnl_pct": 1.758,
-        "current_mdd_pct": -1.953,
-        "current_mdd_peak_pct": -3.462,
+        "current_state": "taken_profit",
+        "current_pnl_pct": 3.2,
+        "current_mdd_pct": null,
+        "current_mdd_peak_pct": null,
         "d_offset": 0,
-        "result": null
+        "result": {
+          "final_price": 52838,
+          "final_pnl_pct": 3.2,
+          "watered": false,
+          "result_date": "2026-08-04",
+          "mdd_pct": -1.953,
+          "mdd_peak_pct": -3.462,
+          "same_day_afterhours": true
+        }
       }
     },
     {
@@ -56,7 +64,7 @@
         "take_profit_after_watering_price": 173622,
         "expiry_date": "2026-08-07",
         "current_state": "running",
-        "current_pnl_pct": -1.208,
+        "current_pnl_pct": -1.151,
         "current_mdd_pct": -1.726,
         "current_mdd_peak_pct": -2.844,
         "d_offset": 0,
@@ -409,7 +417,7 @@
     "virtual_count": 19,
     "skip_count": 0,
     "total_cards": 20,
-    "expired_count": 0,
-    "running_count": 20
+    "expired_count": 1,
+    "running_count": 19
   }
 }
