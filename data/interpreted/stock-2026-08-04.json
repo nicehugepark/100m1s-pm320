@@ -1,62 +1,1243 @@
 {
   "date": "2026-08-04",
-  "generated_at": "2026-08-04T09:05:13.719062",
+  "generated_at": "2026-08-04T09:15:09.678736",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
   "themes_macro_summary": [],
-  "themes_tree": null,
+  "themes_tree": {
+    "date": "2026-08-04",
+    "roots": [
+      {
+        "name": "AI 응용",
+        "children": [
+          {
+            "name": "의료 AI",
+            "summary": "딥노이드가 부산대병원과 생성형 의료AI 첫 공급 계약을 체결하며 대형병원 레퍼런스 확보→의료AI 상용화 기대감이 관련 소프트웨어 섹터로 확산.",
+            "source_count": 1,
+            "verdict": "weak"
+          }
+        ]
+      },
+      {
+        "name": "(독립)",
+        "children": [
+          {
+            "name": "방산",
+            "summary": "한화에어로스페이스가 시장 예상(1조)을 3천억 상회하는 어닝 서프라이즈를 기록→방산 수출 실적 모멘텀이 방위산업 섹터 전반으로 확산.",
+            "source_count": 1,
+            "verdict": "pass"
+          }
+        ]
+      },
+      {
+        "name": "반도체",
+        "children": [
+          {
+            "name": "반도체 소재",
+            "summary": "두산이 SK실트론(실리콘 웨이퍼)을 저가 인수했다는 평가→웨이퍼 등 반도체 핵심 소재 내재화 기대가 반도체 소재 섹터로 확산.",
+            "source_count": 1,
+            "verdict": "weak"
+          }
+        ]
+      }
+    ]
+  },
   "stocks": [
     {
-      "code": "304100",
-      "name": "솔트룩스",
+      "code": "049080",
+      "name": "기가레인",
       "rank": 1,
-      "trade_amount": 283000000,
+      "trade_amount": 5031000000,
       "change_pct": null,
       "close_price": null,
       "open_price": null,
       "high_price": null,
       "low_price": null,
+      "industry": "전자부품 제조업",
+      "sector": "RF통신부품 및 반도체 장비",
+      "themes": [
+        "반도체",
+        "통신장비"
+      ],
+      "theme_paths": [
+        {
+          "name": "반도체",
+          "path": [
+            "반도체"
+          ]
+        },
+        {
+          "name": "통신장비",
+          "path": [
+            "통신장비"
+          ]
+        }
+      ],
+      "pick_count": 1,
+      "prev_pick": {
+        "date": "2026-07-17",
+        "rank": 5,
+        "change_pct": -0.375,
+        "trade_amount": 81618356690
+      },
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [],
+      "news": [
+        {
+          "title": "기가레인, 한국항공우주연구원과 27억 규모 시제품 개발 계약",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=04769126645515176",
+          "source": "이데일리",
+          "published_at": "2026-07-16T07:11:28",
+          "causal_chain": "기가레인이 한국항공우주연구원과 27억원 규모 시제품 개발 계약을 체결했으나, 이는 종목 핵심 사업(RF통신부품·반도체 장비)을 관통하는 매크로 사슬이 아닌 단발성·소규모 개발 수주에 해당한다. 계약 규모(27억원)가 기업 체급 대비 크지 않고 지속 실적으로 이어질 확정 재료가 부족해, 당일 거래대금 974억원의 활발한 손바뀜에도 종가는 11,290원(-3.75%)으로 하락 마감했다.",
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.35,
+          "newzy_virality": 0.15,
+          "newzy_tradability": null,
+          "newzy_score": 0.27,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        },
+        {
+          "title": "[MK 골든크로스 돌파종목 : 기가레인(049080) & 이노테나(333050)]",
+          "url": "https://www.mk.co.kr/news/stock/12100008",
+          "source": "매경",
+          "published_at": "2026-07-16T00:45:47",
+          "causal_chain": "제공된 뉴스는 매경 MK시그널의 AI 기반 골든크로스(7월 15일 5일선의 20일선 상향 돌파) 기술적 신호 안내뿐으로, RF통신부품·반도체 장비 기업 기가레인의 펀더멘털을 움직일 실질 재료(수주·실적·정책)나 매크로 사슬이 부재하다. 당일 종가 14,050원(+19.78%)이 형성됐으나 이는 뉴스 인과가 아닌 기술적 신호 확산에 따른 얇은 수급 급등으로, 뉴스 기반 인과로 설명 가능한 본질 테마가 없다.",
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": "시세정형"
+        },
+        {
+          "title": "거래소 \"기가레인, 현저환 시황변동 조회공시 요구\"",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=04437846645514192",
+          "source": "이데일리",
+          "published_at": "2026-07-13T08:52:43",
+          "causal_chain": "제공된 뉴스 본문이 없어 인과관계 특정 불가. 거래소 현저환 시황변동 조회공시는 주가 급변 시 발생하는 행정 절차이며, 호재·악재 신호 없음. 상한가 상승 원인 미상.",
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": "공시"
+        }
+      ],
+      "fallback": true,
+      "theme_crosscheck": {
+        "confirmed": [
+          "반도체",
+          "통신장비"
+        ],
+        "pm320_only": [],
+        "cafe_only": []
+      },
+      "index_change_pct": 3.74,
+      "range_240d": {
+        "high": 31250,
+        "high_date": "2026-04-15",
+        "high_pct": -80.51,
+        "low": 3580,
+        "low_date": "2026-02-23",
+        "low_pct": 70.11,
+        "current": 6090
+      },
+      "daily_20": [
+        {
+          "date": "2026-07-03",
+          "o": 5240,
+          "h": 5500,
+          "l": 4995,
+          "c": 5480
+        },
+        {
+          "date": "2026-07-06",
+          "o": 5320,
+          "h": 5480,
+          "l": 4965,
+          "c": 5050
+        },
+        {
+          "date": "2026-07-07",
+          "o": 4970,
+          "h": 5180,
+          "l": 4780,
+          "c": 4900
+        },
+        {
+          "date": "2026-07-08",
+          "o": 4680,
+          "h": 4900,
+          "l": 4395,
+          "c": 4395
+        },
+        {
+          "date": "2026-07-09",
+          "o": 4360,
+          "h": 4795,
+          "l": 4360,
+          "c": 4595
+        },
+        {
+          "date": "2026-07-10",
+          "o": 4700,
+          "h": 5970,
+          "l": 4695,
+          "c": 5970
+        },
+        {
+          "date": "2026-07-13",
+          "o": 6700,
+          "h": 7760,
+          "l": 6700,
+          "c": 7760
+        },
+        {
+          "date": "2026-07-14",
+          "o": 9000,
+          "h": 9890,
+          "l": 7900,
+          "c": 9030
+        },
+        {
+          "date": "2026-07-15",
+          "o": 9520,
+          "h": 11730,
+          "l": 9450,
+          "c": 11730
+        },
+        {
+          "date": "2026-07-16",
+          "o": 12190,
+          "h": 14950,
+          "l": 10750,
+          "c": 11290
+        },
+        {
+          "date": "2026-07-20",
+          "o": 11250,
+          "h": 14400,
+          "l": 11240,
+          "c": 12990
+        },
+        {
+          "date": "2026-07-21",
+          "o": 13100,
+          "h": 13740,
+          "l": 9200,
+          "c": 9430
+        },
+        {
+          "date": "2026-07-22",
+          "o": 9870,
+          "h": 10830,
+          "l": 8730,
+          "c": 9300
+        },
+        {
+          "date": "2026-07-23",
+          "o": 9350,
+          "h": 9560,
+          "l": 8400,
+          "c": 8650
+        },
+        {
+          "date": "2026-07-24",
+          "o": 8630,
+          "h": 8630,
+          "l": 7580,
+          "c": 7810
+        },
+        {
+          "date": "2026-07-27",
+          "o": 8100,
+          "h": 8790,
+          "l": 7340,
+          "c": 7470
+        },
+        {
+          "date": "2026-07-28",
+          "o": 7360,
+          "h": 7360,
+          "l": 6540,
+          "c": 6680
+        },
+        {
+          "date": "2026-07-29",
+          "o": 6710,
+          "h": 7200,
+          "l": 5590,
+          "c": 6290
+        },
+        {
+          "date": "2026-07-30",
+          "o": 6000,
+          "h": 6090,
+          "l": 5990,
+          "c": 6090
+        },
+        {
+          "date": "2026-08-04",
+          "o": 7780,
+          "h": 9620,
+          "l": 7540,
+          "c": 9620
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
+      "code": "355390",
+      "name": "크라우드웍스",
+      "rank": 2,
+      "trade_amount": 465000000,
+      "change_pct": 29.83,
+      "close_price": 2115,
+      "open_price": 1700,
+      "high_price": 2115,
+      "low_price": 1700,
       "industry": null,
       "sector": null,
       "themes": [],
       "theme_paths": [],
       "pick_count": 1,
       "prev_pick": null,
-      "bullish_today": false,
-      "bullish_streak": 0,
-      "bullish_dates": [],
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-08-04"
+      ],
       "news": [],
       "fallback": true,
+      "range_240d": {
+        "high": 7020,
+        "high_date": "2025-08-13",
+        "high_pct": -69.87,
+        "low": 1435,
+        "low_date": "2026-07-21",
+        "low_pct": 47.39,
+        "current": 2115
+      },
+      "daily_20": [
+        {
+          "date": "2026-07-07",
+          "o": 1800,
+          "h": 1800,
+          "l": 1645,
+          "c": 1699
+        },
+        {
+          "date": "2026-07-08",
+          "o": 1699,
+          "h": 1900,
+          "l": 1638,
+          "c": 1734
+        },
+        {
+          "date": "2026-07-09",
+          "o": 1740,
+          "h": 1913,
+          "l": 1561,
+          "c": 1700
+        },
+        {
+          "date": "2026-07-10",
+          "o": 1700,
+          "h": 1762,
+          "l": 1605,
+          "c": 1759
+        },
+        {
+          "date": "2026-07-13",
+          "o": 1880,
+          "h": 1880,
+          "l": 1640,
+          "c": 1640
+        },
+        {
+          "date": "2026-07-14",
+          "o": 1641,
+          "h": 1700,
+          "l": 1551,
+          "c": 1612
+        },
+        {
+          "date": "2026-07-15",
+          "o": 1660,
+          "h": 1699,
+          "l": 1612,
+          "c": 1645
+        },
+        {
+          "date": "2026-07-16",
+          "o": 1595,
+          "h": 1667,
+          "l": 1552,
+          "c": 1582
+        },
+        {
+          "date": "2026-07-20",
+          "o": 1582,
+          "h": 1684,
+          "l": 1492,
+          "c": 1493
+        },
+        {
+          "date": "2026-07-21",
+          "o": 1493,
+          "h": 1585,
+          "l": 1435,
+          "c": 1493
+        },
+        {
+          "date": "2026-07-22",
+          "o": 1503,
+          "h": 1700,
+          "l": 1503,
+          "c": 1616
+        },
+        {
+          "date": "2026-07-23",
+          "o": 1616,
+          "h": 1953,
+          "l": 1616,
+          "c": 1750
+        },
+        {
+          "date": "2026-07-24",
+          "o": 1750,
+          "h": 1750,
+          "l": 1640,
+          "c": 1641
+        },
+        {
+          "date": "2026-07-27",
+          "o": 1740,
+          "h": 2110,
+          "l": 1662,
+          "c": 1679
+        },
+        {
+          "date": "2026-07-28",
+          "o": 1679,
+          "h": 1709,
+          "l": 1551,
+          "c": 1601
+        },
+        {
+          "date": "2026-07-29",
+          "o": 1601,
+          "h": 1720,
+          "l": 1536,
+          "c": 1619
+        },
+        {
+          "date": "2026-07-30",
+          "o": 1619,
+          "h": 1683,
+          "l": 1530,
+          "c": 1556
+        },
+        {
+          "date": "2026-07-31",
+          "o": 1600,
+          "h": 1650,
+          "l": 1556,
+          "c": 1642
+        },
+        {
+          "date": "2026-08-03",
+          "o": 1642,
+          "h": 1692,
+          "l": 1579,
+          "c": 1629
+        },
+        {
+          "date": "2026-08-04",
+          "o": 1700,
+          "h": 2115,
+          "l": 1700,
+          "c": 2115
+        }
+      ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
+      "code": "225190",
+      "name": "LK삼양",
+      "rank": 3,
+      "trade_amount": 356000000,
+      "change_pct": 29.94,
+      "close_price": 703,
+      "open_price": 541,
+      "high_price": 703,
+      "low_price": 541,
+      "industry": "사진장비 및 광학기기 제조업",
+      "sector": "디지털 카메라용 교환렌즈",
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": {
+        "date": "2026-07-23",
+        "rank": 17,
+        "change_pct": 15.1,
+        "trade_amount": 2956000000
+      },
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-07-23",
+        "2026-08-04"
+      ],
+      "news": [],
+      "fallback": true,
+      "index_change_pct": 3.74,
+      "index_multiple_current": 8.01,
+      "index_multiple_eligible": true,
+      "range_240d": {
+        "high": 3155,
+        "high_date": "2026-02-09",
+        "high_pct": -77.72,
+        "low": 489,
+        "low_date": "2026-07-30",
+        "low_pct": 43.76,
+        "current": 703
+      },
+      "daily_20": [
+        {
+          "date": "2026-07-07",
+          "o": 828,
+          "h": 835,
+          "l": 777,
+          "c": 783
+        },
+        {
+          "date": "2026-07-08",
+          "o": 781,
+          "h": 781,
+          "l": 691,
+          "c": 705
+        },
+        {
+          "date": "2026-07-09",
+          "o": 710,
+          "h": 739,
+          "l": 691,
+          "c": 708
+        },
+        {
+          "date": "2026-07-10",
+          "o": 650,
+          "h": 761,
+          "l": 650,
+          "c": 744
+        },
+        {
+          "date": "2026-07-13",
+          "o": 760,
+          "h": 772,
+          "l": 660,
+          "c": 667
+        },
+        {
+          "date": "2026-07-14",
+          "o": 685,
+          "h": 685,
+          "l": 593,
+          "c": 645
+        },
+        {
+          "date": "2026-07-15",
+          "o": 649,
+          "h": 685,
+          "l": 649,
+          "c": 675
+        },
+        {
+          "date": "2026-07-16",
+          "o": 675,
+          "h": 691,
+          "l": 631,
+          "c": 635
+        },
+        {
+          "date": "2026-07-20",
+          "o": 649,
+          "h": 649,
+          "l": 593,
+          "c": 611
+        },
+        {
+          "date": "2026-07-21",
+          "o": 609,
+          "h": 636,
+          "l": 569,
+          "c": 610
+        },
+        {
+          "date": "2026-07-22",
+          "o": 611,
+          "h": 700,
+          "l": 576,
+          "c": 576
+        },
+        {
+          "date": "2026-07-23",
+          "o": 593,
+          "h": 748,
+          "l": 586,
+          "c": 663
+        },
+        {
+          "date": "2026-07-24",
+          "o": 663,
+          "h": 671,
+          "l": 591,
+          "c": 601
+        },
+        {
+          "date": "2026-07-27",
+          "o": 617,
+          "h": 628,
+          "l": 592,
+          "c": 617
+        },
+        {
+          "date": "2026-07-28",
+          "o": 612,
+          "h": 618,
+          "l": 551,
+          "c": 563
+        },
+        {
+          "date": "2026-07-29",
+          "o": 570,
+          "h": 580,
+          "l": 490,
+          "c": 508
+        },
+        {
+          "date": "2026-07-30",
+          "o": 508,
+          "h": 544,
+          "l": 489,
+          "c": 514
+        },
+        {
+          "date": "2026-07-31",
+          "o": 514,
+          "h": 547,
+          "l": 508,
+          "c": 546
+        },
+        {
+          "date": "2026-08-03",
+          "o": 546,
+          "h": 579,
+          "l": 532,
+          "c": 541
+        },
+        {
+          "date": "2026-08-04",
+          "o": 541,
+          "h": 703,
+          "l": 541,
+          "c": 703
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
+      "code": "304100",
+      "name": "솔트룩스",
+      "rank": 4,
+      "trade_amount": 322000000,
+      "change_pct": 29.97,
+      "close_price": 17000,
+      "open_price": 17000,
+      "high_price": 17000,
+      "low_price": 17000,
+      "industry": "소프트웨어 개발 및 공급업",
+      "sector": "인공지능 및 빅데이터 소프트웨어",
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [
+        "2026-06-29"
+      ],
+      "news": [],
+      "fallback": true,
+      "index_change_pct": 3.74,
+      "index_multiple_current": 8.01,
+      "index_multiple_eligible": true,
+      "range_240d": {
+        "high": 38350,
+        "high_date": "2025-09-12",
+        "high_pct": -55.67,
+        "low": 9960,
+        "low_date": "2026-07-21",
+        "low_pct": 70.68,
+        "current": 17000
+      },
+      "daily_20": [
+        {
+          "date": "2026-07-07",
+          "o": 12010,
+          "h": 12490,
+          "l": 11820,
+          "c": 12200
+        },
+        {
+          "date": "2026-07-08",
+          "o": 11640,
+          "h": 12450,
+          "l": 11100,
+          "c": 11390
+        },
+        {
+          "date": "2026-07-09",
+          "o": 11280,
+          "h": 11810,
+          "l": 11040,
+          "c": 11180
+        },
+        {
+          "date": "2026-07-10",
+          "o": 11130,
+          "h": 12250,
+          "l": 11130,
+          "c": 12020
+        },
+        {
+          "date": "2026-07-13",
+          "o": 12040,
+          "h": 12350,
+          "l": 11100,
+          "c": 11110
+        },
+        {
+          "date": "2026-07-14",
+          "o": 10930,
+          "h": 11220,
+          "l": 10500,
+          "c": 10920
+        },
+        {
+          "date": "2026-07-15",
+          "o": 11080,
+          "h": 11650,
+          "l": 11080,
+          "c": 11450
+        },
+        {
+          "date": "2026-07-16",
+          "o": 11210,
+          "h": 11370,
+          "l": 10870,
+          "c": 10960
+        },
+        {
+          "date": "2026-07-20",
+          "o": 10670,
+          "h": 10940,
+          "l": 10240,
+          "c": 10250
+        },
+        {
+          "date": "2026-07-21",
+          "o": 9960,
+          "h": 10500,
+          "l": 9960,
+          "c": 10320
+        },
+        {
+          "date": "2026-07-22",
+          "o": 10580,
+          "h": 10930,
+          "l": 10500,
+          "c": 10610
+        },
+        {
+          "date": "2026-07-23",
+          "o": 11230,
+          "h": 12350,
+          "l": 10830,
+          "c": 11910
+        },
+        {
+          "date": "2026-07-24",
+          "o": 11660,
+          "h": 11660,
+          "l": 10900,
+          "c": 11070
+        },
+        {
+          "date": "2026-07-27",
+          "o": 13460,
+          "h": 14090,
+          "l": 12210,
+          "c": 12910
+        },
+        {
+          "date": "2026-07-28",
+          "o": 13920,
+          "h": 14510,
+          "l": 12150,
+          "c": 12830
+        },
+        {
+          "date": "2026-07-29",
+          "o": 13330,
+          "h": 13420,
+          "l": 10900,
+          "c": 11630
+        },
+        {
+          "date": "2026-07-30",
+          "o": 11650,
+          "h": 12620,
+          "l": 11160,
+          "c": 11920
+        },
+        {
+          "date": "2026-07-31",
+          "o": 12180,
+          "h": 12610,
+          "l": 11930,
+          "c": 12570
+        },
+        {
+          "date": "2026-08-03",
+          "o": 12720,
+          "h": 13300,
+          "l": 11880,
+          "c": 13080
+        },
+        {
+          "date": "2026-08-04",
+          "o": 17000,
+          "h": 17000,
+          "l": 17000,
+          "c": 17000
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 17000,
+        "base": 17000,
+        "prices": [
+          17000,
+          17000,
+          17000
+        ]
+      },
       "togusa_verdict": "neutral",
       "theme_leader": false,
       "hugepark_grade": "관찰"
     },
     {
-      "code": "239340",
-      "name": "이스트에이드",
-      "rank": 2,
-      "trade_amount": 161000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
-      "industry": null,
-      "sector": null,
+      "code": "148780",
+      "name": "비큐AI",
+      "rank": 5,
+      "trade_amount": 203000000,
+      "change_pct": 30.0,
+      "close_price": 2990,
+      "open_price": 2300,
+      "high_price": 2990,
+      "low_price": 2280,
+      "industry": "소프트웨어 개발 및 공급업",
+      "sector": "AIsurfer,RDPLINE 등",
       "themes": [],
       "theme_paths": [],
       "pick_count": 1,
       "prev_pick": null,
-      "bullish_today": false,
-      "bullish_streak": 0,
-      "bullish_dates": [],
+      "bullish_today": true,
+      "bullish_streak": 2,
+      "bullish_dates": [
+        "2026-06-29",
+        "2026-07-10",
+        "2026-08-04"
+      ],
       "news": [],
       "fallback": true,
+      "index_change_pct": 3.74,
+      "index_multiple_current": 8.02,
+      "index_multiple_eligible": true,
+      "range_240d": {
+        "high": 13161,
+        "high_date": "2025-07-23",
+        "high_pct": -77.28,
+        "low": 1862,
+        "low_date": "2026-07-09",
+        "low_pct": 60.58,
+        "current": 2990
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-16",
+          "o": 3120,
+          "h": 3810,
+          "l": 3120,
+          "c": 3307
+        },
+        {
+          "date": "2026-06-17",
+          "o": 3322,
+          "h": 3327,
+          "l": 3095,
+          "c": 3110
+        },
+        {
+          "date": "2026-06-18",
+          "o": 3135,
+          "h": 3146,
+          "l": 3035,
+          "c": 3115
+        },
+        {
+          "date": "2026-06-19",
+          "o": 3130,
+          "h": 3140,
+          "l": 2934,
+          "c": 2949
+        },
+        {
+          "date": "2026-06-22",
+          "o": 2949,
+          "h": 2949,
+          "l": 2667,
+          "c": 2703
+        },
+        {
+          "date": "2026-06-23",
+          "o": 2682,
+          "h": 2758,
+          "l": 2516,
+          "c": 2542
+        },
+        {
+          "date": "2026-06-24",
+          "o": 2542,
+          "h": 2662,
+          "l": 2416,
+          "c": 2511
+        },
+        {
+          "date": "2026-06-25",
+          "o": 2506,
+          "h": 2768,
+          "l": 2391,
+          "c": 2461
+        },
+        {
+          "date": "2026-06-26",
+          "o": 2461,
+          "h": 2461,
+          "l": 2063,
+          "c": 2164
+        },
+        {
+          "date": "2026-06-29",
+          "o": 2144,
+          "h": 2511,
+          "l": 2144,
+          "c": 2386
+        },
+        {
+          "date": "2026-06-30",
+          "o": 2386,
+          "h": 2431,
+          "l": 2164,
+          "c": 2290
+        },
+        {
+          "date": "2026-07-01",
+          "o": 2290,
+          "h": 2667,
+          "l": 2230,
+          "c": 2431
+        },
+        {
+          "date": "2026-07-02",
+          "o": 2431,
+          "h": 2672,
+          "l": 2245,
+          "c": 2552
+        },
+        {
+          "date": "2026-07-03",
+          "o": 2547,
+          "h": 2547,
+          "l": 2325,
+          "c": 2547
+        },
+        {
+          "date": "2026-07-06",
+          "o": 2622,
+          "h": 2622,
+          "l": 2320,
+          "c": 2396
+        },
+        {
+          "date": "2026-07-07",
+          "o": 2391,
+          "h": 2461,
+          "l": 2340,
+          "c": 2396
+        },
+        {
+          "date": "2026-07-08",
+          "o": 2391,
+          "h": 2391,
+          "l": 2164,
+          "c": 2340
+        },
+        {
+          "date": "2026-07-09",
+          "o": 2290,
+          "h": 2295,
+          "l": 1862,
+          "c": 1983
+        },
+        {
+          "date": "2026-07-10",
+          "o": 1983,
+          "h": 2325,
+          "l": 1983,
+          "c": 2300
+        },
+        {
+          "date": "2026-08-04",
+          "o": 2300,
+          "h": 2990,
+          "l": 2280,
+          "c": 2990
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 2300,
+        "base": 2300,
+        "prices": [
+          2300,
+          2990,
+          2990
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
+    },
+    {
+      "code": "239340",
+      "name": "이스트에이드",
+      "rank": 6,
+      "trade_amount": 174000000,
+      "change_pct": 29.95,
+      "close_price": 755,
+      "open_price": 608,
+      "high_price": 755,
+      "low_price": 606,
+      "industry": "자료처리, 호스팅, 포털 및 기타 인터넷 정보매개 서비스업",
+      "sector": "줌닷컴, 뉴썸 등",
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-07-14",
+        "2026-07-21",
+        "2026-07-23",
+        "2026-08-04"
+      ],
+      "news": [],
+      "fallback": true,
+      "index_change_pct": 3.74,
+      "index_multiple_current": 8.01,
+      "index_multiple_eligible": true,
+      "range_240d": {
+        "high": 2545,
+        "high_date": "2025-09-18",
+        "high_pct": -70.33,
+        "low": 510,
+        "low_date": "2026-06-23",
+        "low_pct": 48.04,
+        "current": 755
+      },
+      "daily_20": [
+        {
+          "date": "2026-07-07",
+          "o": 630,
+          "h": 637,
+          "l": 583,
+          "c": 607
+        },
+        {
+          "date": "2026-07-08",
+          "o": 605,
+          "h": 639,
+          "l": 589,
+          "c": 605
+        },
+        {
+          "date": "2026-07-09",
+          "o": 605,
+          "h": 628,
+          "l": 572,
+          "c": 590
+        },
+        {
+          "date": "2026-07-10",
+          "o": 590,
+          "h": 619,
+          "l": 573,
+          "c": 606
+        },
+        {
+          "date": "2026-07-13",
+          "o": 605,
+          "h": 609,
+          "l": 558,
+          "c": 565
+        },
+        {
+          "date": "2026-07-14",
+          "o": 565,
+          "h": 700,
+          "l": 530,
+          "c": 700
+        },
+        {
+          "date": "2026-07-15",
+          "o": 700,
+          "h": 700,
+          "l": 626,
+          "c": 651
+        },
+        {
+          "date": "2026-07-16",
+          "o": 651,
+          "h": 670,
+          "l": 570,
+          "c": 630
+        },
+        {
+          "date": "2026-07-20",
+          "o": 621,
+          "h": 621,
+          "l": 560,
+          "c": 564
+        },
+        {
+          "date": "2026-07-21",
+          "o": 559,
+          "h": 733,
+          "l": 542,
+          "c": 640
+        },
+        {
+          "date": "2026-07-22",
+          "o": 640,
+          "h": 650,
+          "l": 588,
+          "c": 608
+        },
+        {
+          "date": "2026-07-23",
+          "o": 607,
+          "h": 739,
+          "l": 607,
+          "c": 679
+        },
+        {
+          "date": "2026-07-24",
+          "o": 678,
+          "h": 729,
+          "l": 641,
+          "c": 679
+        },
+        {
+          "date": "2026-07-27",
+          "o": 713,
+          "h": 713,
+          "l": 625,
+          "c": 649
+        },
+        {
+          "date": "2026-07-28",
+          "o": 674,
+          "h": 674,
+          "l": 570,
+          "c": 642
+        },
+        {
+          "date": "2026-07-29",
+          "o": 634,
+          "h": 651,
+          "l": 576,
+          "c": 579
+        },
+        {
+          "date": "2026-07-30",
+          "o": 575,
+          "h": 624,
+          "l": 541,
+          "c": 541
+        },
+        {
+          "date": "2026-07-31",
+          "o": 522,
+          "h": 570,
+          "l": 522,
+          "c": 561
+        },
+        {
+          "date": "2026-08-03",
+          "o": 604,
+          "h": 622,
+          "l": 564,
+          "c": 581
+        },
+        {
+          "date": "2026-08-04",
+          "o": 608,
+          "h": 755,
+          "l": 606,
+          "c": 755
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 608,
+        "base": 608,
+        "prices": [
+          608,
+          755
+        ]
+      },
+      "credit_risk": true,
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
@@ -64,13 +1245,13 @@
     {
       "code": "226340",
       "name": "본느",
-      "rank": 3,
-      "trade_amount": 59000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
+      "rank": 7,
+      "trade_amount": 68000000,
+      "change_pct": 29.82,
+      "close_price": 2830,
+      "open_price": 2830,
+      "high_price": 2830,
+      "low_price": 2830,
       "industry": "기타 화학제품 제조업",
       "sector": "기업인수합병",
       "themes": [
@@ -136,15 +1317,17 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": 2.5,
+      "index_change_pct": 3.74,
+      "index_multiple_current": 7.97,
+      "index_multiple_eligible": true,
       "range_240d": {
         "high": 4950,
         "high_date": "2025-09-18",
-        "high_pct": -55.96,
+        "high_pct": -42.83,
         "low": 1220,
         "low_date": "2026-07-30",
-        "low_pct": 78.69,
-        "current": 2180
+        "low_pct": 131.97,
+        "current": 2830
       },
       "daily_20": [
         {
@@ -288,38 +1471,48 @@
           "c": 2830
         }
       ],
+      "status_badges": [
+        {
+          "label": "투자주의 근접",
+          "severity": "caution",
+          "source": "predicted",
+          "thresholds": [
+            {
+              "desc": "5일 전(2026-07-28) 대비 +60%↑",
+              "base_price": 1410,
+              "threshold": 2256,
+              "current": 2830,
+              "triggered": true
+            }
+          ],
+          "regulation": "KRX 시장경보 가격 조건 충족 (거래량 미검증, 자체 추정)",
+          "period_start": "2026-08-05",
+          "period_end": "2026-08-06",
+          "start": "2026-08-05",
+          "end": "2026-08-06",
+          "view_date": "2026-08-04",
+          "next_trading_day": "2026-08-05",
+          "next_trading_day_for_predicted": "2026-08-05",
+          "next_trading_day_source": "fallback_homepage",
+          "single_price": false,
+          "effect_badges": []
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 2830,
+        "base": 2830,
+        "prices": [
+          2830,
+          2830,
+          2830
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰"
-    },
-    {
-      "code": "148780",
-      "name": "비큐AI",
-      "rank": 4,
-      "trade_amount": 36000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
-      "industry": null,
-      "sector": null,
-      "themes": [],
-      "theme_paths": [],
-      "pick_count": 1,
-      "prev_pick": null,
-      "bullish_today": false,
-      "bullish_streak": 0,
-      "bullish_dates": [],
-      "news": [],
-      "fallback": true,
-      "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
     }
   ]
 }
