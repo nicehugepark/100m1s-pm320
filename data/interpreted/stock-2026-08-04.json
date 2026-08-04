@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "generated_at": "2026-08-04T13:55:21.079492",
+  "generated_at": "2026-08-04T13:56:41.648282",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -3924,7 +3924,10 @@
         "current": null
       },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "355390",
@@ -4189,7 +4192,11 @@
       "sector": null,
       "themes": [
         "로봇",
-        "휴머노이드 로봇"
+        "휴머노이드 로봇",
+        "2차전지",
+        "AI데이터센터",
+        "AI 인프라",
+        "전기차"
       ],
       "theme_paths": [
         {
@@ -4197,6 +4204,32 @@
           "path": [
             "로봇",
             "휴머노이드 로봇"
+          ]
+        },
+        {
+          "name": "2차전지",
+          "path": [
+            "2차전지"
+          ]
+        },
+        {
+          "name": "AI데이터센터",
+          "path": [
+            "AI",
+            "AI데이터센터"
+          ]
+        },
+        {
+          "name": "AI 인프라",
+          "path": [
+            "AI",
+            "AI 인프라"
+          ]
+        },
+        {
+          "name": "전기차",
+          "path": [
+            "전기차"
           ]
         }
       ],
@@ -4215,30 +4248,31 @@
           "url": "https://www.fnnews.com/news/202607301031170897",
           "source": "파이낸셜뉴스",
           "published_at": "2026-07-31T10:30:03.072678",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "AI 데이터센터 확산으로 대규모·안정적 전력 공급을 위한 ESS 구축이 필수화되면서 배터리뿐 아니라 셀-BMS를 잇는 커넥터 수요가 함께 늘어난다 → 삼기에너지솔루션즈는 구리 절감·경량화가 가능한 자체 FF-PCB 공법 ESS 커넥터를 글로벌 배터리사·북미 대형 ESS 프로젝트에 양산 공급 중이라 직접 수혜 → ESS 관련 매출 증가 기대에 매수세 집중되며 당일 상한가(+29.96%, 1,449원) 형성. 다만 거래대금 36억원 수준으로 유동성은 제한적.",
+          "macro_event": "AI 데이터센터(AIDC) 확산 → 안정적 전력 공급용 ESS 구축 필수 → ESS 밸류체인(배터리·커넥터·전력제어 부품) 수요 급증",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.55,
+          "newzy_virality": 0.4,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.49,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": true,
-      "cafe_themes": [
-        "로봇",
-        "휴머노이드 로봇"
-      ],
       "theme_crosscheck": {
-        "confirmed": [],
-        "pm320_only": [],
-        "cafe_only": [
+        "confirmed": [
           "로봇",
           "휴머노이드 로봇"
-        ]
+        ],
+        "pm320_only": [
+          "2차전지",
+          "AI데이터센터",
+          "AI 인프라",
+          "전기차"
+        ],
+        "cafe_only": []
       },
       "range_240d": {
         "high": 2615,
@@ -4392,7 +4426,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "084650",
