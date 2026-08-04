@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "generated_at": "2026-08-04T09:35:13.196678",
+  "generated_at": "2026-08-04T09:36:14.022752",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -121,10 +121,19 @@
       "industry": "전동기, 발전기 및 전기 변환 · 공급 · 제어 장치 제조업",
       "sector": "비상발전기, 소형열병합발전설비, 바이오가스발전설비",
       "themes": [
+        "AI 인프라",
+        "AI",
         "전력설비",
         "AI데이터센터"
       ],
       "theme_paths": [
+        {
+          "name": "AI 인프라",
+          "path": [
+            "AI",
+            "AI 인프라"
+          ]
+        },
         {
           "name": "전력설비",
           "path": [
@@ -161,32 +170,32 @@
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=02804406645543712",
           "source": "이데일리",
           "published_at": "2026-08-03T01:26:04",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "AI 데이터센터 투자 확대 → 데이터센터 가동에 필수인 비상(백업)발전기 수요 급증 → 비상발전기가 핵심 사업인 지엔씨에너지가 KT 데이터센터 755억·국가 AI컴퓨팅센터 359억 규모 발전기를 잇따라 수주하며 사업 가시성 확대 → 수주 모멘텀에 매수세 집중 → 당일 +23.57% 급등·거래대금 523억·52주 신고가(51,900원) 갱신.",
+          "macro_event": "AI 데이터센터 대규모 증설 국면 → 데이터센터 필수 인프라인 비상발전기 수요 급증",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.7,
+          "newzy_virality": 0.6,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.66,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "지엔씨에너지, 359억 규모 국가 AI컴퓨팅센터 비상발전기 수주…‘3대 메가프로젝트’ 수혜 기대",
           "url": "https://www.etoday.co.kr/news/view/2609191",
           "source": "이투데이",
           "published_at": "2026-07-30T01:41:00",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "AI 데이터센터 투자 확대 → 데이터센터 가동에 필수인 비상(백업)발전기 수요 급증 → 비상발전기가 핵심 사업인 지엔씨에너지가 KT 데이터센터 755억·국가 AI컴퓨팅센터 359억 규모 발전기를 잇따라 수주하며 사업 가시성 확대 → 수주 모멘텀에 매수세 집중 → 당일 +23.57% 급등·거래대금 523억·52주 신고가(51,900원) 갱신.",
+          "macro_event": "AI 데이터센터 대규모 증설 국면 → 데이터센터 필수 인프라인 비상발전기 수요 급증",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.7,
+          "newzy_virality": 0.6,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.66,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "증권가 \"전례 없는 성장 사이클\"…지엔씨에너지 14%↑[특징주]",
@@ -404,7 +413,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "strong_bull",
+      "theme_leader": true,
+      "hugepark_grade": "적극"
     },
     {
       "code": "115180",
@@ -428,7 +440,10 @@
       "news": [],
       "fallback": true,
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": false,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "084650",
@@ -452,7 +467,10 @@
       "news": [],
       "fallback": true,
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "355390",
@@ -647,9 +665,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "neutral",
+      "togusa_verdict": "weak_bear",
       "theme_leader": false,
-      "hugepark_grade": "관찰"
+      "hugepark_grade": "주의"
     },
     {
       "code": "225190",
