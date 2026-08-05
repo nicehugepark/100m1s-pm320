@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26441.82,
-      "change_pct": -0.54,
+      "point": 26519.43,
+      "change_pct": -0.25,
       "candle": {
         "o": 26695.91,
         "h": 26736.7,
         "l": 26393.69,
-        "c": 26441.82
+        "c": 26519.43
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,7 +2033,7 @@
           "o": 26695.91,
           "h": 26736.7,
           "l": 26393.69,
-          "c": 26441.82
+          "c": 26519.43
         }
       ],
       "spark": [
@@ -2072,7 +2072,9 @@
         26413.99,
         26416.03,
         26440.85,
-        26441.82
+        26464.7,
+        26519.52,
+        26519.43
       ],
       "news": {
         "summary": "반도체주 약세 지속 중(이익 증가에도 약보합), AI 투자 열풍은 유지되나 빅테크 실적 부담 부각. 메타의 AI 지출 정당성 약화·팔란티르 상승 대비 기술주 수익성 검증 강화 움직임.",
@@ -2096,13 +2098,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7730.6,
-      "change_pct": -0.08,
+      "point": 7745.29,
+      "change_pct": 0.11,
       "candle": {
         "o": 7771.62,
         "h": 7793.68,
         "l": 7722.36,
-        "c": 7730.6
+        "c": 7745.29
       },
       "range_240d": {
         "low": 6343.72,
@@ -4126,7 +4128,7 @@
           "o": 7771.62,
           "h": 7793.68,
           "l": 7722.36,
-          "c": 7730.6
+          "c": 7745.29
         }
       ],
       "spark": [
@@ -4165,7 +4167,9 @@
         7725.34,
         7727.79,
         7729.68,
-        7730.6
+        7734.52,
+        7744.72,
+        7745.29
       ],
       "news": {
         "summary": "연준 정책 기조 불확실성 심화(Warsh 의장 회의 축소 검토) 속 연기 실시. 6월 GDP 1.5% 성장 부진·물가 지표 혼조(제조업 인플레 우려 심화 vs 코어 3.3% 안정화). 호르무즈 해협 재개방 협상 진전으로 유가 하락·환율 개입(엔화 매수) 영향권 진입.",
@@ -4189,13 +4193,13 @@
     },
     {
       "name": "DOW",
-      "point": 54502.96,
-      "change_pct": 0.77,
+      "point": 54551.2,
+      "change_pct": 0.86,
       "candle": {
         "o": 54266.12,
         "h": 54744.33,
         "l": 54266.12,
-        "c": 54502.96
+        "c": 54551.2
       },
       "range_240d": {
         "low": 44785.5,
@@ -6219,7 +6223,7 @@
           "o": 54266.12,
           "h": 54744.33,
           "l": 54266.12,
-          "c": 54502.96
+          "c": 54551.2
         }
       ],
       "spark": [
@@ -6258,7 +6262,9 @@
         54495.08,
         54501.35,
         54500.94,
-        54502.96
+        54508.65,
+        54545.55,
+        54551.2
       ],
       "news": {
         "summary": "금융주 선제적 수익 관성(HSBC/비자 인수합병) 유지 중. 주택시장 부진심화(30년 모기지금리 6.66% 1년 만 고점) 신호로 경기민감도 상승. 자동차 다각화 시도(포드·GM) 성과 의문부호·블록체인 기반 결제 혁신(웰스파고) 추진 중.",
@@ -6283,83 +6289,87 @@
   ],
   "news_chips": [
     {
-      "summary": "호르무즈 해협 개방 협상 진전으로 국제유가가 5% 급락했다.",
+      "summary": "호르무즈 해협 개방 전망에 국제유가 5% 급락하며 원유 공급 우려 완화",
       "source": "한경",
       "url": "https://www.hankyung.com/article/2026080570261",
       "published_ts": 1785922267.0,
       "impact_high": true
     },
     {
-      "summary": "유럽의 극심한 가뭄으로 라인·도나우강 수위 저하가 에너지·물류 공급망을 압박하고 있다.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/05/drought-rhine-danube-water-levels-economy.html",
-      "published_ts": 1785914117.0,
-      "impact_high": true
-    },
-    {
-      "summary": "연준 캔자스시티 연방준비은행장이 인플레이션이 에너지 중심이 아니라 광범위하며 2% 목표 달성을 위해 강한 정책이 필요하다고 경고했다.",
-      "source": "WSJ경제",
+      "summary": "연준 정책 입안자들이 에너지 이상의 광범위 인플레 압력을 강조하며 금리 인상 필요성 시사",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/central-banking/inflation-problem-isnt-only-about-energy-feds-schmid-says-88ce3857?mod=rss_socialeconomyfeed",
       "published_ts": 1785905520.0,
       "impact_high": true
     },
     {
-      "summary": "7월 민간 기업 신규 고용이 4만4000명으로 기대를 크게 밑돌며 노동시장 약세를 드러냈다.",
+      "summary": "ADP 7월 민간 고용 증가 44,000명으로 예상치 크게 밑돌며 고용 부진 신호",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/05/private-companies-added-just-44000-workers-in-july-below-expectations-adp-reports.html",
       "published_ts": 1785942526.0,
       "impact_high": false
     },
     {
-      "summary": "다우지수는 상승했으나 AI 투자 과열 우려로 기술주가 혼조를 보이며 마감했다.",
+      "summary": "ISM 서비스 지수 54.1로 유지되며 비제조업 경기도 확장세 지속",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/central-banking/u-s-services-sector-activity-continued-to-expand-in-july-c30dcbc0?mod=rss_socialeconomyfeed",
+      "published_ts": 1785939900.0,
+      "impact_high": false
+    },
+    {
+      "summary": "미국이 희귀금속 폐기물 수출을 제한하며 중국으로부터의 공급망 독립 추진",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/business/u-s-to-ban-exports-of-recycled-battery-metals-and-tungsten-e2d38838?mod=rss_worldnews",
+      "published_ts": 1785933000.0,
+      "impact_high": false
+    },
+    {
+      "summary": "다우지수는 중동 협상 낙관으로 상승했으나 AI 투자 우려로 테크 섹터 약세 마감",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-05-2026?mod=rss_markets_main",
       "published_ts": 1785916436.0,
       "impact_high": false
     },
     {
-      "summary": "이란의 호르무즈 해협 통제 강경 입장으로 중동 긴장이 고조되며 원유 공급망 차단 우려가 커지고 있다.",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/iran-strait-of-hormuz-trump-talks-ec566cd7?mod=rss_worldnews",
-      "published_ts": 1785895200.0,
+      "summary": "미국과 일본이 엔화 방어를 위해 공동개입했으나 구조적 엔저 문제는 심화 중",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/currencies/five-charts-that-show-why-the-u-s-and-japan-teamed-up-to-buy-yen-a1ed9bbb?mod=rss_worldnews",
+      "published_ts": 1785844800.0,
       "impact_high": false
     },
     {
-      "summary": "7월 제조업 PMI가 55.6으로 상승하며 생산 회복세를 이어갔다.",
-      "source": "WSJ경제",
+      "summary": "HSBC 분기 순이익이 부의 관리 부문 호조로 급증하고 10억 달러 자사주 매입 발표",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/business/earnings/hsbc-posts-sharply-higher-quarterly-profit-plans-1-bln-share-buyback-00845c03?mod=rss_markets_main",
+      "published_ts": 1785831120.0,
+      "impact_high": false
+    },
+    {
+      "summary": "ISM 제조업 지수 55.6으로 상승하며 미국 산업 경기 호조 지속",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/central-banking/u-s-factory-activity-expands-again-in-july-620ff592?mod=rss_socialeconomyfeed",
       "published_ts": 1785768000.0,
       "impact_high": false
     },
     {
-      "summary": "수요 부진과 자연재해로 중국 제조업이 예상 외로 축소되며 회복 모멘텀이 꺾였다.",
+      "summary": "중국 7월 제조업 활동이 수출 부진과 악천후로 예상 밖으로 축소",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/31/china-pmi-factory-activity-economic-growth-exports-.html",
       "published_ts": 1785469795.0,
       "impact_high": false
-    },
-    {
-      "summary": "30년물 모기지금리가 6.66%로 1년 만에 최고치를 기록하며 부동산 시장 약세가 심화되었다.",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/housing/mortgage-rates-jump-to-a-one-year-high-9ea35b8a?mod=rss_socialeconomyfeed",
-      "published_ts": 1785427200.0,
-      "impact_high": false
-    },
-    {
-      "summary": "2분기 GDP 성장률이 1.5%로 예상 이하였고 6월 핵심 인플레이션이 3.3%로 경직되었다.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/30/us-economy-slowed-to-1point5percent-growth-rate-in-q2-june-core-inflation-at-3point3percent.html",
-      "published_ts": 1785423883.0,
-      "impact_high": true
     }
   ],
-  "_article_sig": "5284ef75d54f86ffd093c7f13d80fee95e7bcddf367e5d9a86b843f57d5b30ab",
+  "_article_sig": "23c43cca27a28a1bf35d9c903669e4fcce398b0a7a5faa9cf4442a5f1adb17af",
   "built_at_kst": "2026-08-05T07:00:41.936865+09:00",
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "AI 투자 수익성 증명에 대한 시장 낙관론 지속, 빅테크 자금 유입 활발. 과도한 AI 펀딩 우려로 순수 기술주 부문 수익성 압박, 가시적 실적 개선 필요.",
+      "summary": "AI 투자 열풍 속 수익성 검증 요구 강화. SpaceX 주가 부진, Situational Awareness 펀드 손실 사례 확산으로 기술주 변동성 확대 중. 빅테크 AI 본드 발행 러시도 투자자 신중론과 충돌.",
       "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/spacex-needs-to-make-its-bigger-rockets-work-c800f9c2?mod=rss_markets_main"
+        },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/tech/ai/wall-street-thinks-it-knows-how-tech-giants-will-make-ai-pay-96f76438?mod=rss_markets_main"
@@ -6367,15 +6377,11 @@
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/how-to-play-the-flood-of-ai-bonds-279f6ba5?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-05-2026?mod=rss_markets_main"
         }
       ]
     },
     "S&P500": {
-      "summary": "7월 민간 고용 부진(44K 추정 이하) 및 Q2 경기 둔화(1.5%) 신호로 연준 정책 전환 임박 가능성. 서비스·제조업 확장 지속하나 인플레 압박 심화, 주택담보대출금리 1년 최고 수준 진입.",
+      "summary": "7월 고용 부진(ADP 44,000명 선발급, 예상치 대폭 하회)에 GDP 성장 둔화(Q2 1.5%) 겹치면서 경기 둔화 신호 강화. 연준도 물가 압박 광범위 인정, 모기지 율 1년 만에 최고(6.66%)로 장기금리 상승 지속. Hormuz Strait 긴장·중국 PMI 약세로 지정학·글로벌 공급망 리스크 확대.",
       "sources": [
         {
           "name": "CNBC",
@@ -6392,36 +6398,34 @@
       ]
     },
     "DOW": {
-      "summary": "금융권 2분기 어닝서프라이즈(HSBC 수익 급등) 및 에너지 부문 호황(Adnoc 매출·수익 배증). 다우 구성 금융·에너지주의 배당 및 자사주 매입 확대, 경기순환주 수익성 제고 추세.",
+      "summary": "금융권 실적 호조(HSBC 분기순이익 급증, 월스트리트 보너스 호황) 주도로 Dow 랠리 지속, 에너지주도 견조. 다만 제조업 인플레 우려 심화·자동차 다변화 회의론으로 경기민감주 약세 신호, JPY 약세 대응 중앙은행 개입으로 환율 변동성 주목.",
       "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-05-2026?mod=rss_markets_main"
+        },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/business/earnings/hsbc-posts-sharply-higher-quarterly-profit-plans-1-bln-share-buyback-00845c03?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/business/earnings/abu-dhabis-adnoc-distribution-profit-nearly-doubles-on-fuel-demand-inventory-gains-99a12f0a?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/bankers-are-betting-on-supersize-bonuses-this-year-with-profits-surging-91c9395d?mod=rss_markets_main"
+          "url": "https://www.cnbc.com/2026/08/03/manufacturing-survey-shows-inflation-worries-adding-to-pressure-on-fed.html"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-08-06T01:20:04.410485+09:00",
+    "as_of_kst": "2026-08-06T01:30:04.255251+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7753.75,
-        "change_pct": -0.15,
+        "point": 7757.25,
+        "change_pct": -0.11,
         "spark": [
           7772.0,
-          7803.5,
-          7807.75,
           7806.5,
           7805.75,
           7804.0,
@@ -6459,21 +6463,23 @@
           7760.0,
           7754.0,
           7756.0,
-          7753.75
+          7757.75,
+          7762.0,
+          7757.25
         ],
         "candle": {
           "o": 7772.0,
           "h": 7820.25,
           "l": 7750.5,
-          "c": 7753.75
+          "c": 7757.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7765.5,
           "low_date": "2025-08-21",
           "high_date": "2026-08-04",
-          "low_change_pct": 21.38,
-          "high_change_pct": -0.15
+          "low_change_pct": 21.43,
+          "high_change_pct": -0.11
         },
         "daily_expanded": [
           {
@@ -8489,13 +8495,13 @@
             "o": 7772.0,
             "h": 7820.25,
             "l": 7750.5,
-            "c": 7753.75,
-            "v": 867174
+            "c": 7757.25,
+            "v": 889635
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "7월 민간 고용 부진(44K 추정 이하) 및 Q2 경기 둔화(1.5%) 신호로 연준 정책 전환 임박 가능성. 서비스·제조업 확장 지속하나 인플레 압박 심화, 주택담보대출금리 1년 최고 수준 진입.",
+          "summary": "7월 고용 부진(ADP 44,000명 선발급, 예상치 대폭 하회)에 GDP 성장 둔화(Q2 1.5%) 겹치면서 경기 둔화 신호 강화. 연준도 물가 압박 광범위 인정, 모기지 율 1년 만에 최고(6.66%)로 장기금리 상승 지속. Hormuz Strait 긴장·중국 PMI 약세로 지정학·글로벌 공급망 리스크 확대.",
           "sources": [
             {
               "name": "CNBC",
@@ -8515,12 +8521,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29721.75,
-        "change_pct": -0.47,
+        "point": 29737.25,
+        "change_pct": -0.42,
         "spark": [
           29777.25,
-          29937.5,
-          29937.75,
           29929.5,
           29917.25,
           29910.25,
@@ -8558,21 +8562,23 @@
           29757.0,
           29721.0,
           29731.25,
-          29721.75
+          29739.25,
+          29768.75,
+          29737.25
         ],
         "candle": {
           "o": 29777.25,
           "h": 30074.0,
-          "l": 29703.25,
-          "c": 29721.75
+          "l": 29702.0,
+          "c": 29737.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 28.44,
-          "high_change_pct": -3.23
+          "low_change_pct": 28.51,
+          "high_change_pct": -3.18
         },
         "daily_expanded": [
           {
@@ -10587,15 +10593,19 @@
             "date": "2026-08-05",
             "o": 29777.25,
             "h": 30074.0,
-            "l": 29703.25,
-            "c": 29721.75,
-            "v": 380911
+            "l": 29702.0,
+            "c": 29737.25,
+            "v": 388627
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "AI 투자 수익성 증명에 대한 시장 낙관론 지속, 빅테크 자금 유입 활발. 과도한 AI 펀딩 우려로 순수 기술주 부문 수익성 압박, 가시적 실적 개선 필요.",
+          "summary": "AI 투자 열풍 속 수익성 검증 요구 강화. SpaceX 주가 부진, Situational Awareness 펀드 손실 사례 확산으로 기술주 변동성 확대 중. 빅테크 AI 본드 발행 러시도 투자자 신중론과 충돌.",
           "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/spacex-needs-to-make-its-bigger-rockets-work-c800f9c2?mod=rss_markets_main"
+            },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/tech/ai/wall-street-thinks-it-knows-how-tech-giants-will-make-ai-pay-96f76438?mod=rss_markets_main"
@@ -10603,10 +10613,6 @@
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/how-to-play-the-flood-of-ai-bonds-279f6ba5?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-05-2026?mod=rss_markets_main"
             }
           ]
         }
@@ -10618,8 +10624,6 @@
         "change_pct": 0.68,
         "spark": [
           54369.0,
-          54477.0,
-          54487.0,
           54507.0,
           54504.0,
           54509.0,
@@ -10656,6 +10660,8 @@
           54654.0,
           54641.0,
           54647.0,
+          54638.0,
+          54645.0,
           54638.0,
           54638.0
         ],
@@ -12688,29 +12694,29 @@
             "h": 54884.0,
             "l": 54342.0,
             "c": 54638.0,
-            "v": 52642
+            "v": 53553
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "금융권 2분기 어닝서프라이즈(HSBC 수익 급등) 및 에너지 부문 호황(Adnoc 매출·수익 배증). 다우 구성 금융·에너지주의 배당 및 자사주 매입 확대, 경기순환주 수익성 제고 추세.",
+          "summary": "금융권 실적 호조(HSBC 분기순이익 급증, 월스트리트 보너스 호황) 주도로 Dow 랠리 지속, 에너지주도 견조. 다만 제조업 인플레 우려 심화·자동차 다변화 회의론으로 경기민감주 약세 신호, JPY 약세 대응 중앙은행 개입으로 환율 변동성 주목.",
           "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-05-2026?mod=rss_markets_main"
+            },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/business/earnings/hsbc-posts-sharply-higher-quarterly-profit-plans-1-bln-share-buyback-00845c03?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/business/earnings/abu-dhabis-adnoc-distribution-profit-nearly-doubles-on-fuel-demand-inventory-gains-99a12f0a?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/bankers-are-betting-on-supersize-bonuses-this-year-with-profits-surging-91c9395d?mod=rss_markets_main"
+              "url": "https://www.cnbc.com/2026/08/03/manufacturing-survey-shows-inflation-worries-adding-to-pressure-on-fed.html"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-08-06T01:20:08.578256+09:00"
+  "intraday_refreshed_kst": "2026-08-06T01:32:02.291911+09:00"
 }
