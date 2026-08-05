@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "generated_at": "2026-08-05T14:05:19.548744",
+  "generated_at": "2026-08-05T14:05:28.514631",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -8922,7 +8922,8 @@
       "sector": "동ROD, 모터코어",
       "themes": [
         "케이블",
-        "전신/전력"
+        "전신/전력",
+        "비철금속"
       ],
       "theme_paths": [
         {
@@ -8935,6 +8936,12 @@
           "name": "전신/전력",
           "path": [
             "전신/전력"
+          ]
+        },
+        {
+          "name": "비철금속",
+          "path": [
+            "비철금속"
           ]
         }
       ],
@@ -8955,7 +8962,9 @@
           "케이블",
           "전신/전력"
         ],
-        "pm320_only": [],
+        "pm320_only": [
+          "비철금속"
+        ],
         "cafe_only": []
       },
       "index_change_pct": 2.27,
@@ -9181,7 +9190,7 @@
         ]
       },
       "togusa_verdict": "neutral",
-      "theme_leader": false,
+      "theme_leader": true,
       "hugepark_grade": "관찰",
       "causal_chain": "",
       "parent_theme": ""
@@ -10733,7 +10742,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "우선주"
+      "credit_reason": "우선주",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "372170",
