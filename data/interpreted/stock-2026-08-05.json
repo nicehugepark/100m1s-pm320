@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "generated_at": "2026-08-05T15:05:23.420691",
+  "generated_at": "2026-08-05T15:07:10.463359",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -9057,7 +9057,12 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "투자경고"
+      "credit_reason": "투자경고",
+      "togusa_verdict": "neutral",
+      "theme_leader": false,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "477850",
@@ -11807,8 +11812,31 @@
       "low_price": 311500,
       "industry": "기타 금융업",
       "sector": "전력용전선,일반전선,통신케이블,동선,알루미늄선,공조기,프라스틱사출성형기 제조,도매",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "케이블",
+        "전력설비",
+        "비철금속"
+      ],
+      "theme_paths": [
+        {
+          "name": "케이블",
+          "path": [
+            "케이블"
+          ]
+        },
+        {
+          "name": "전력설비",
+          "path": [
+            "전력설비"
+          ]
+        },
+        {
+          "name": "비철금속",
+          "path": [
+            "비철금속"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": false,
@@ -11816,27 +11844,11 @@
       "bullish_dates": [],
       "news": [
         {
-          "title": "\"최대 실적에도 하반기 둔화 예상\" 삼성증권 목표가↓-LS證",
-          "url": "https://www.fnnews.com/news/202608050908367203",
-          "source": "파이낸셜뉴스",
-          "published_at": "2026-08-05T15:00:04.159887",
-          "causal_chain": null,
-          "macro_event": null,
-          "newzy_freshness": null,
-          "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
-          "newzy_tradability": null,
-          "newzy_score": null,
-          "newzy_verdict": null,
-          "article_type": null
-        },
-        {
           "title": "카카오페이, 2분기 컨센서스 상회…중장기 성장성 가속화-LS證",
           "url": "https://www.fnnews.com/news/202608050902076623",
           "source": "파이낸셜뉴스",
           "published_at": "2026-08-05T15:00:04.159883",
-          "causal_chain": null,
+          "causal_chain": "제공된 뉴스 2건은 모두 LS의 자회사 LS증권이 발간한 타사(삼성증권·카카오페이) 종목분석 리포트로, 본 종목 LS(지주사) 자체의 펀더멘털·매크로 사건이 아니다. 당일 종가 329,500원(+9.65%)·거래대금 520억원의 상승은 이 뉴스로 설명되지 않으며, 본문에 LS 본질 사업(전선·케이블·전력설비)이나 지주 NAV 관련 직접 단서가 없어 부착 가능한 매크로 사슬이 없다.",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -11845,7 +11857,23 @@
           "newzy_tradability": null,
           "newzy_score": null,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
+        },
+        {
+          "title": "\"최대 실적에도 하반기 둔화 예상\" 삼성증권 목표가↓-LS證",
+          "url": "https://www.fnnews.com/news/202608050908367203",
+          "source": "파이낸셜뉴스",
+          "published_at": "2026-08-05T15:00:04.159887",
+          "causal_chain": "제공된 뉴스 2건은 모두 LS의 자회사 LS증권이 발간한 타사(삼성증권·카카오페이) 종목분석 리포트로, 본 종목 LS(지주사) 자체의 펀더멘털·매크로 사건이 아니다. 당일 종가 329,500원(+9.65%)·거래대금 520억원의 상승은 이 뉴스로 설명되지 않으며, 본문에 LS 본질 사업(전선·케이블·전력설비)이나 지주 NAV 관련 직접 단서가 없어 부착 가능한 매크로 사슬이 없다.",
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": "악재"
         }
       ],
       "fallback": false,
@@ -12083,9 +12111,9 @@
           329000
         ]
       },
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "032820",
@@ -12373,9 +12401,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "strong_bull",
-      "theme_leader": true,
-      "hugepark_grade": "적극"
+      "togusa_verdict": "weak_bull",
+      "theme_leader": false,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "024840",
@@ -12671,7 +12699,7 @@
         ]
       },
       "togusa_verdict": "neutral",
-      "theme_leader": true,
+      "theme_leader": false,
       "hugepark_grade": "관찰",
       "causal_chain": "",
       "parent_theme": ""
