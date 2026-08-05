@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "generated_at": "2026-08-05T09:16:29.585659",
+  "generated_at": "2026-08-05T09:25:11.558933",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -9,21 +9,51 @@
     }
   ],
   "narratives": [],
-  "themes_macro_summary": [],
+  "themes_macro_summary": [
+    {
+      "keyword": "AI인프라",
+      "summary": "글로벌 AI 데이터센터·해외 원전 수요 증가 → 한국 건설·플랜트 엔지니어링 기업의 해외 수주 기회 확대 → 건설·플랜트 섹터 이익",
+      "source_count": 1,
+      "verified": false
+    }
+  ],
   "themes_tree": {
     "date": "2026-08-05",
-    "roots": []
+    "roots": [
+      {
+        "name": "AI 인프라",
+        "children": [
+          {
+            "name": "AI 데이터센터",
+            "summary": "AI 데이터센터 증설·전력 수요 확대 기대가 관련 건설·EPC 수혜로 연결",
+            "source_count": 1,
+            "verdict": "weak"
+          }
+        ]
+      },
+      {
+        "name": "(독립)",
+        "children": [
+          {
+            "name": "원자력발전",
+            "summary": "해외 원전 수주 모멘텀 기대가 원전 EPC·기자재 섹터 수혜로 연결",
+            "source_count": 1,
+            "verdict": "pass"
+          }
+        ]
+      }
+    ]
   },
   "stocks": [
     {
       "code": "006340",
       "name": "대원전선",
       "rank": 1,
-      "trade_amount": 169553000000,
-      "change_pct": 9.35,
-      "close_price": 15080,
+      "trade_amount": 248166000000,
+      "change_pct": 13.85,
+      "close_price": 15700,
       "open_price": 14530,
-      "high_price": 15620,
+      "high_price": 15900,
       "low_price": 14340,
       "industry": "절연선 및 케이블 제조업",
       "sector": "전선,통신케이블,무선통신장비,합성수지 제조,도매/부동산 매매,임대",
@@ -69,17 +99,17 @@
         "pm320_only": [],
         "cafe_only": []
       },
-      "index_change_pct": 4.13,
-      "index_multiple_current": 2.26,
+      "index_change_pct": 4.19,
+      "index_multiple_current": 3.31,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 20300,
         "high_date": "2026-05-06",
-        "high_pct": -25.71,
+        "high_pct": -22.66,
         "low": 2765,
         "low_date": "2025-09-03",
-        "low_pct": 445.39,
-        "current": 15080
+        "low_pct": 467.81,
+        "current": 15700
       },
       "daily_20": [
         {
@@ -218,9 +248,9 @@
         {
           "date": "2026-08-05",
           "o": 14530,
-          "h": 15620,
+          "h": 15900,
           "l": 14340,
-          "c": 15080
+          "c": 15700
         }
       ],
       "intraday": {
@@ -230,7 +260,9 @@
         "prices": [
           14530,
           15290,
-          15130
+          15550,
+          15750,
+          15660
         ]
       },
       "togusa_verdict": "weak_bull",
@@ -243,25 +275,193 @@
       "code": "010170",
       "name": "대한광통신",
       "rank": 2,
-      "trade_amount": 62397000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
-      "industry": null,
-      "sector": null,
+      "trade_amount": 82472000000,
+      "change_pct": 13.65,
+      "close_price": 11570,
+      "open_price": 12040,
+      "high_price": 12140,
+      "low_price": 11030,
+      "industry": "절연선 및 케이블 제조업",
+      "sector": "광섬유, 광케이블",
       "themes": [],
       "theme_paths": [],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": false,
       "bullish_streak": 0,
-      "bullish_dates": [],
+      "bullish_dates": [
+        "2026-07-10"
+      ],
       "news": [],
       "fallback": true,
+      "index_change_pct": 1.88,
+      "index_multiple_current": 7.26,
+      "index_multiple_eligible": true,
+      "range_240d": {
+        "high": 31500,
+        "high_date": "2026-05-12",
+        "high_pct": -63.27,
+        "low": 885,
+        "low_date": "2025-08-20",
+        "low_pct": 1207.34,
+        "current": 11570
+      },
+      "daily_20": [
+        {
+          "date": "2026-07-08",
+          "o": 10500,
+          "h": 11240,
+          "l": 10180,
+          "c": 10340
+        },
+        {
+          "date": "2026-07-09",
+          "o": 10340,
+          "h": 11670,
+          "l": 10340,
+          "c": 10650
+        },
+        {
+          "date": "2026-07-10",
+          "o": 11110,
+          "h": 13550,
+          "l": 11090,
+          "c": 12600
+        },
+        {
+          "date": "2026-07-13",
+          "o": 12700,
+          "h": 13250,
+          "l": 10910,
+          "c": 10910
+        },
+        {
+          "date": "2026-07-14",
+          "o": 10850,
+          "h": 11320,
+          "l": 10140,
+          "c": 11050
+        },
+        {
+          "date": "2026-07-15",
+          "o": 11660,
+          "h": 12090,
+          "l": 11270,
+          "c": 11680
+        },
+        {
+          "date": "2026-07-16",
+          "o": 11150,
+          "h": 11350,
+          "l": 10300,
+          "c": 10300
+        },
+        {
+          "date": "2026-07-20",
+          "o": 9680,
+          "h": 10250,
+          "l": 9330,
+          "c": 9460
+        },
+        {
+          "date": "2026-07-21",
+          "o": 9570,
+          "h": 10140,
+          "l": 9030,
+          "c": 9860
+        },
+        {
+          "date": "2026-07-22",
+          "o": 10470,
+          "h": 11240,
+          "l": 10090,
+          "c": 10090
+        },
+        {
+          "date": "2026-07-23",
+          "o": 10330,
+          "h": 10880,
+          "l": 10050,
+          "c": 10840
+        },
+        {
+          "date": "2026-07-24",
+          "o": 10550,
+          "h": 10720,
+          "l": 9910,
+          "c": 9920
+        },
+        {
+          "date": "2026-07-27",
+          "o": 10190,
+          "h": 10290,
+          "l": 9580,
+          "c": 9740
+        },
+        {
+          "date": "2026-07-28",
+          "o": 9100,
+          "h": 9320,
+          "l": 8320,
+          "c": 8450
+        },
+        {
+          "date": "2026-07-29",
+          "o": 8500,
+          "h": 8580,
+          "l": 6910,
+          "c": 7450
+        },
+        {
+          "date": "2026-07-30",
+          "o": 7400,
+          "h": 7680,
+          "l": 6990,
+          "c": 7160
+        },
+        {
+          "date": "2026-07-31",
+          "o": 8200,
+          "h": 8640,
+          "l": 7710,
+          "c": 8530
+        },
+        {
+          "date": "2026-08-03",
+          "o": 8510,
+          "h": 9850,
+          "l": 8030,
+          "c": 9250
+        },
+        {
+          "date": "2026-08-04",
+          "o": 9700,
+          "h": 10580,
+          "l": 9550,
+          "c": 10180
+        },
+        {
+          "date": "2026-08-05",
+          "o": 12040,
+          "h": 12140,
+          "l": 11030,
+          "c": 11570
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 12040,
+        "base": 12040,
+        "prices": [
+          12040,
+          11200,
+          11250,
+          11530,
+          11580
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": false,
       "hugepark_grade": "관찰"
@@ -270,9 +470,9 @@
       "code": "196170",
       "name": "알테오젠",
       "rank": 3,
-      "trade_amount": 54496000000,
-      "change_pct": 2.05,
-      "close_price": 272500,
+      "trade_amount": 67957000000,
+      "change_pct": 4.3,
+      "close_price": 278500,
       "open_price": 289500,
       "high_price": 290000,
       "low_price": 271000,
@@ -384,17 +584,17 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": 0.53,
-      "index_multiple_current": 3.87,
+      "index_change_pct": 1.88,
+      "index_multiple_current": 2.29,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 437846,
         "high_date": "2025-11-18",
-        "high_pct": -37.76,
+        "high_pct": -36.39,
         "low": 194684,
         "low_date": "2026-07-14",
-        "low_pct": 39.97,
-        "current": 272500
+        "low_pct": 43.05,
+        "current": 278500
       },
       "daily_20": [
         {
@@ -535,11 +735,21 @@
           "o": 289500,
           "h": 290000,
           "l": 271000,
-          "c": 272500
+          "c": 278500
         }
       ],
-      "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "intraday": {
+        "step_min": 5,
+        "open": 289500,
+        "base": 289500,
+        "prices": [
+          289500,
+          275500,
+          275000,
+          279000,
+          278500
+        ]
+      },
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰"
@@ -548,7 +758,7 @@
       "code": "138080",
       "name": "오이솔루션",
       "rank": 4,
-      "trade_amount": 2712000000,
+      "trade_amount": 2887000000,
       "change_pct": 29.84,
       "close_price": 25150,
       "open_price": 25100,
@@ -576,8 +786,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 0.53,
-      "index_multiple_current": 56.3,
+      "index_change_pct": 1.88,
+      "index_multiple_current": 15.87,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 57900,
@@ -764,6 +974,8 @@
         "prices": [
           25100,
           25150,
+          25150,
+          25150,
           25150
         ]
       },
@@ -771,15 +983,17 @@
       "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
-      "hugepark_grade": "관찰"
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "148780",
       "name": "비큐AI",
       "rank": 5,
-      "trade_amount": 2692000000,
-      "change_pct": 22.41,
-      "close_price": 3660,
+      "trade_amount": 2776000000,
+      "change_pct": 29.93,
+      "close_price": 3885,
       "open_price": 3305,
       "high_price": 3885,
       "low_price": 3305,
@@ -813,17 +1027,17 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 0.53,
-      "index_multiple_current": 42.28,
+      "index_change_pct": 1.88,
+      "index_multiple_current": 15.92,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 13161,
         "high_date": "2025-07-23",
-        "high_pct": -72.19,
+        "high_pct": -70.48,
         "low": 1862,
         "low_date": "2026-07-09",
-        "low_pct": 96.56,
-        "current": 3660
+        "low_pct": 108.65,
+        "current": 3885
       },
       "daily_20": [
         {
@@ -964,11 +1178,50 @@
           "o": 3305,
           "h": 3885,
           "l": 3305,
-          "c": 3660
+          "c": 3885
         }
       ],
+      "status_badges": [
+        {
+          "label": "투자주의 근접",
+          "severity": "caution",
+          "source": "predicted",
+          "thresholds": [
+            {
+              "desc": "5일 전(2026-07-07) 대비 +60%↑",
+              "base_price": 2396,
+              "threshold": 3833,
+              "current": 3885,
+              "triggered": true
+            }
+          ],
+          "regulation": "KRX 시장경보 가격 조건 충족 (거래량 미검증, 자체 추정)",
+          "period_start": "2026-08-06",
+          "period_end": "2026-08-07",
+          "start": "2026-08-06",
+          "end": "2026-08-07",
+          "view_date": "2026-08-05",
+          "next_trading_day": "2026-08-06",
+          "next_trading_day_for_predicted": "2026-08-06",
+          "next_trading_day_source": "fallback_homepage",
+          "single_price": false,
+          "effect_badges": []
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 3305,
+        "base": 3305,
+        "prices": [
+          3305,
+          3755,
+          3885,
+          3885,
+          3885
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰",
@@ -979,12 +1232,12 @@
       "code": "065770",
       "name": "CS",
       "rank": 6,
-      "trade_amount": 1039000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
+      "trade_amount": 1342000000,
+      "change_pct": 29.98,
+      "close_price": 1990,
+      "open_price": 1625,
+      "high_price": 1990,
+      "low_price": 1554,
       "industry": "통신 및 방송 장비 제조업",
       "sector": "이동통신중계기, 위성방송(DMB)중계기(Gap-Filler)",
       "themes": [
@@ -1012,9 +1265,13 @@
         "change_pct": 29.73,
         "trade_amount": 2387000000
       },
-      "bullish_today": false,
-      "bullish_streak": 0,
-      "bullish_dates": [],
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-07-10",
+        "2026-07-14",
+        "2026-08-05"
+      ],
       "news": [
         {
           "title": "한전, '청렴·CS 신뢰도약 위크' 개최…국민 신뢰 제고",
@@ -1091,59 +1348,19 @@
         ],
         "cafe_only": []
       },
-      "index_change_pct": 0.53,
+      "index_change_pct": 1.88,
+      "index_multiple_current": 15.95,
+      "index_multiple_eligible": true,
       "range_240d": {
         "high": 6354,
         "high_date": "2026-04-10",
-        "high_pct": -75.53,
+        "high_pct": -68.68,
         "low": 1203,
         "low_date": "2026-03-04",
-        "low_pct": 29.26,
-        "current": 1555
+        "low_pct": 65.42,
+        "current": 1990
       },
       "daily_20": [
-        {
-          "date": "2026-06-30",
-          "o": 1445,
-          "h": 1507,
-          "l": 1399,
-          "c": 1482
-        },
-        {
-          "date": "2026-07-01",
-          "o": 1481,
-          "h": 1555,
-          "l": 1465,
-          "c": 1498
-        },
-        {
-          "date": "2026-07-02",
-          "o": 1537,
-          "h": 1537,
-          "l": 1420,
-          "c": 1441
-        },
-        {
-          "date": "2026-07-03",
-          "o": 1873,
-          "h": 1873,
-          "l": 1873,
-          "c": 1873
-        },
-        {
-          "date": "2026-07-06",
-          "o": 2430,
-          "h": 2430,
-          "l": 1560,
-          "c": 1650
-        },
-        {
-          "date": "2026-07-07",
-          "o": 1750,
-          "h": 2145,
-          "l": 1559,
-          "c": 1792
-        },
         {
           "date": "2026-07-08",
           "o": 1890,
@@ -1231,9 +1448,51 @@
         {
           "date": "2026-07-27",
           "o": 1550,
-          "h": 1555,
-          "l": 1550,
-          "c": 1555
+          "h": 1601,
+          "l": 1500,
+          "c": 1526
+        },
+        {
+          "date": "2026-07-28",
+          "o": 1526,
+          "h": 1526,
+          "l": 1401,
+          "c": 1443
+        },
+        {
+          "date": "2026-07-29",
+          "o": 1443,
+          "h": 1492,
+          "l": 1280,
+          "c": 1326
+        },
+        {
+          "date": "2026-07-30",
+          "o": 1444,
+          "h": 1444,
+          "l": 1289,
+          "c": 1349
+        },
+        {
+          "date": "2026-07-31",
+          "o": 1349,
+          "h": 1510,
+          "l": 1349,
+          "c": 1463
+        },
+        {
+          "date": "2026-08-03",
+          "o": 1463,
+          "h": 1526,
+          "l": 1400,
+          "c": 1453
+        },
+        {
+          "date": "2026-08-04",
+          "o": 1438,
+          "h": 1549,
+          "l": 1434,
+          "c": 1531
         },
         {
           "date": "2026-08-05",
@@ -1243,8 +1502,20 @@
           "c": 1990
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 1625,
+        "base": 1625,
+        "prices": [
+          1625,
+          1694,
+          1990,
+          1990,
+          1990
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰"
@@ -1253,7 +1524,7 @@
       "code": "226340",
       "name": "본느",
       "rank": 7,
-      "trade_amount": 988000000,
+      "trade_amount": 1022000000,
       "change_pct": 29.86,
       "close_price": 3675,
       "open_price": 3675,
@@ -1324,8 +1595,8 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": 0.53,
-      "index_multiple_current": 56.34,
+      "index_change_pct": 1.88,
+      "index_multiple_current": 15.88,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 4950,
@@ -1518,6 +1789,8 @@
         "prices": [
           3675,
           3675,
+          3675,
+          3675,
           3675
         ]
       },
@@ -1531,7 +1804,7 @@
       "code": "348080",
       "name": "큐라티스",
       "rank": 8,
-      "trade_amount": 214000000,
+      "trade_amount": 216000000,
       "change_pct": 30.0,
       "close_price": 2990,
       "open_price": 2365,
@@ -1551,8 +1824,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 0.53,
-      "index_multiple_current": 56.6,
+      "index_change_pct": 1.88,
+      "index_multiple_current": 15.96,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 12976,
@@ -1711,7 +1984,10 @@
         "base": 2365,
         "prices": [
           2365,
-          2945
+          2945,
+          2990,
+          2990,
+          2990
         ]
       },
       "credit_risk": true,
@@ -1724,7 +2000,7 @@
       "code": "372170",
       "name": "윤성에프앤씨",
       "rank": 9,
-      "trade_amount": 36000000,
+      "trade_amount": 37000000,
       "change_pct": 29.99,
       "close_price": 20500,
       "open_price": 20500,
@@ -1743,8 +2019,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 0.53,
-      "index_multiple_current": 56.58,
+      "index_change_pct": 1.88,
+      "index_multiple_current": 15.95,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 43900,
@@ -1929,6 +2205,7 @@
         "open": 20500,
         "base": 20500,
         "prices": [
+          20500,
           20500,
           20500,
           20500
