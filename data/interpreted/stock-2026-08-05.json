@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "generated_at": "2026-08-05T14:55:22.522826",
+  "generated_at": "2026-08-05T14:56:35.017551",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -9843,7 +9843,7 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "neutral",
+      "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰"
     },
@@ -10889,7 +10889,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "073240",
@@ -11275,8 +11278,17 @@
       "low_price": 11020,
       "industry": "전동기, 발전기 및 전기 변환 · 공급 · 제어 장치 제조업",
       "sector": "시스템사업, 정보통신사업",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "전력설비"
+      ],
+      "theme_paths": [
+        {
+          "name": "전력설비",
+          "path": [
+            "전력설비"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": false,
@@ -11291,16 +11303,16 @@
           "url": "https://www.sedaily.com/article/20075932",
           "source": "서울경제",
           "published_at": "2026-08-05T01:39:47",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "글로벌 석유화학사의 탄소감축·순환경제 대응으로 폐플라스틱 기반 정제유(재생원료) 수요 확대 → 우리기술 자회사 웨이브정읍이 글로벌 원자재 트레이더 트라피구라향 정제유 초도물량 220톤 선적 완료(6월 최대 1만5000톤 공급계약의 첫 물량) → 하반기 해외 매출 성장 기대감에 매수세 유입 → 당일 +8.30%(종가 11,740원)·거래대금 507억원.",
+          "macro_event": "폐플라스틱 기반 재생원료(정제유) 수요 확대 — 글로벌 석유화학사 순환경제·탄소감축 대응",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.3,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.36,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": false,
@@ -11538,9 +11550,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "strong_bull",
+      "theme_leader": true,
+      "hugepark_grade": "적극"
     },
     {
       "code": "006260",
@@ -11562,7 +11574,10 @@
       "bullish_streak": 0,
       "bullish_dates": [],
       "news": [],
-      "fallback": true
+      "fallback": true,
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "024840",
