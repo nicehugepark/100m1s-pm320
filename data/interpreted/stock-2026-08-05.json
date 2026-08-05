@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "generated_at": "2026-08-05T09:45:15.491646",
+  "generated_at": "2026-08-05T09:46:24.831180",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -618,16 +618,16 @@
           "url": "https://biz.chosun.com/stock/stock_general/2026/08/05/NLEHAMYCW5A63AJUEWDH6GDDKU/",
           "source": "조선비즈",
           "published_at": "2026-08-05T00:29:39",
-          "causal_chain": "",
-          "macro_event": null,
+          "causal_chain": "글로벌 제약사의 SC(피하주사) 제형 전환 수요 → SC 제형 플랫폼(ALT-B4)이 핵심사업인 알테오젠이 5000억원 규모 라이선스 계약 소식 → 플랫폼 기술 사업성 재확인 기대 → 매수세 유입 → 당일 +6.36%(종가 284,000원)·거래대금 817억원의 강세 형성. 다만 52주 고가(437,846원) 대비 -35.1% 수준으로 고점 회복은 미완.",
+          "macro_event": "글로벌 바이오 SC 제형 플랫폼 기술 라이선스 수요 지속",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.6,
+          "newzy_virality": 0.5,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.56,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": false,
@@ -803,9 +803,7 @@
       },
       "togusa_verdict": "neutral",
       "theme_leader": true,
-      "hugepark_grade": "관찰",
-      "causal_chain": "",
-      "parent_theme": ""
+      "hugepark_grade": "관찰"
     },
     {
       "code": "069540",
@@ -820,9 +818,17 @@
       "industry": "통신 및 방송 장비 제조업",
       "sector": "기타무선통신장비제조업",
       "themes": [
+        "광통신",
         "통신장비"
       ],
       "theme_paths": [
+        {
+          "name": "광통신",
+          "path": [
+            "AI",
+            "광통신"
+          ]
+        },
         {
           "name": "통신장비",
           "path": [
@@ -848,16 +854,16 @@
           "url": "https://www.mk.co.kr/news/stock/12104738",
           "source": "매경",
           "published_at": "2026-07-22T09:01:18",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "빛과전자가 160억원 규모 전환사채 발행 → 광통신·통신장비 사업 확장을 위한 외부 자본 유입 기대 → AI 광통신 수요 국면과 맞물려 매수세 집중 → 당일 상한가(+29.89%, 종가 2,890원)·거래대금 541억원 형성.",
+          "macro_event": "빛과전자 160억원 규모 전환사채(CB) 발행 결정",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.6,
+          "newzy_virality": 0.4,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.52,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "공시"
         }
       ],
       "fallback": true,
@@ -865,7 +871,9 @@
         "confirmed": [
           "통신장비"
         ],
-        "pm320_only": [],
+        "pm320_only": [
+          "광통신"
+        ],
         "cafe_only": []
       },
       "index_change_pct": 2.84,
@@ -1050,7 +1058,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "215790",
@@ -1263,7 +1274,7 @@
       "credit_risk": true,
       "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
-      "theme_leader": true,
+      "theme_leader": false,
       "hugepark_grade": "관찰",
       "causal_chain": "",
       "parent_theme": ""
@@ -1813,20 +1824,13 @@
       "industry": "기타 화학제품 제조업",
       "sector": "기업인수합병",
       "themes": [
-        "경영권 분쟁",
-        "상장폐지 리스크"
+        "경영권 분쟁"
       ],
       "theme_paths": [
         {
           "name": "경영권 분쟁",
           "path": [
             "경영권 분쟁"
-          ]
-        },
-        {
-          "name": "상장폐지 리스크",
-          "path": [
-            "상장폐지 리스크"
           ]
         }
       ],
@@ -1846,16 +1850,16 @@
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03414486645544368",
           "source": "이데일리",
           "published_at": "2026-08-05T00:30:12",
-          "causal_chain": "",
-          "macro_event": null,
+          "causal_chain": "최대주주 변경 기대 → 경영권 이동·우호 지분 확보 관측 → 지분 가치 재평가 기대에 매수세 집중 → 당일 시초가부터 점상한가(+29.86%)로 '4연상' 형성. 다만 거래대금 13억원으로 유통량이 얇아 소량 매수로도 상한가에 도달한 정황.",
+          "macro_event": "최대주주 변경 기대에 따른 경영권 이동 모멘텀",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.5,
+          "newzy_virality": 0.3,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.42,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": false,
@@ -2066,9 +2070,7 @@
       "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
-      "hugepark_grade": "관찰",
-      "causal_chain": "",
-      "parent_theme": ""
+      "hugepark_grade": "관찰"
     },
     {
       "code": "348080",
