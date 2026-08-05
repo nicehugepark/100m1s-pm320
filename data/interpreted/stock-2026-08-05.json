@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "generated_at": "2026-08-05T14:25:20.076967",
+  "generated_at": "2026-08-05T14:26:33.170912",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -7279,7 +7279,7 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "neutral",
+      "togusa_verdict": "weak_bull",
       "theme_leader": false,
       "hugepark_grade": "관찰",
       "causal_chain": "",
@@ -8469,9 +8469,9 @@
           73300
         ]
       },
-      "togusa_verdict": "weak_bear",
+      "togusa_verdict": "neutral",
       "theme_leader": false,
-      "hugepark_grade": "주의"
+      "hugepark_grade": "관찰"
     },
     {
       "code": "069540",
@@ -9729,10 +9729,24 @@
       "industry": "특수 목적용 기계 제조업",
       "sector": "굴삭기, 지게차, 휠로더 등",
       "themes": [
+        "방산",
+        "실적",
         "건설",
         "인프라 수혜"
       ],
       "theme_paths": [
+        {
+          "name": "방산",
+          "path": [
+            "방산"
+          ]
+        },
+        {
+          "name": "실적",
+          "path": [
+            "실적"
+          ]
+        },
         {
           "name": "인프라 수혜",
           "path": [
@@ -9757,16 +9771,16 @@
           "url": "https://www.mk.co.kr/news/stock/12111605",
           "source": "매경",
           "published_at": "2026-07-30T00:29:38",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "아프리카·중남미 등 신흥시장의 광산·인프라 투자 확대 → 굴삭기·중대형 건설장비가 핵심사업인 HD건설기계의 고수익 중대형 장비 판매 확대 → 2분기 영업이익 92% 급증 → 여기에 방산용 K2 전차 엔진 등 엔진 사업 경쟁력이 부각되며 성장 기대 → 매수세 유입으로 당일 종가 133,500원(+5.04%). 다만 거래대금이 9억원에 그쳐 시장 관심은 제한적이었다.",
+          "macro_event": "아프리카·중남미 등 신흥시장 광산·인프라 수요 확대",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.2,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.32,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": true,
@@ -9923,7 +9937,10 @@
           "l": 131800,
           "c": 133500
         }
-      ]
+      ],
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "024840",
