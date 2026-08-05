@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "generated_at": "2026-08-05T09:15:16.259263",
+  "generated_at": "2026-08-05T09:16:29.585659",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -261,7 +261,10 @@
       "news": [],
       "fallback": true,
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": false,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "196170",
@@ -536,7 +539,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "138080",
@@ -550,8 +556,17 @@
       "low_price": 25100,
       "industry": "통신 및 방송 장비 제조업",
       "sector": "광트랜시버",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "통신장비"
+      ],
+      "theme_paths": [
+        {
+          "name": "통신장비",
+          "path": [
+            "통신장비"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": false,
@@ -754,9 +769,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "148780",
@@ -953,7 +968,12 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "065770",
@@ -968,20 +988,20 @@
       "industry": "통신 및 방송 장비 제조업",
       "sector": "이동통신중계기, 위성방송(DMB)중계기(Gap-Filler)",
       "themes": [
-        "통신장비",
-        "CCTV·보안"
+        "CCTV·보안",
+        "통신장비"
       ],
       "theme_paths": [
-        {
-          "name": "통신장비",
-          "path": [
-            "통신장비"
-          ]
-        },
         {
           "name": "CCTV·보안",
           "path": [
             "CCTV·보안"
+          ]
+        },
+        {
+          "name": "통신장비",
+          "path": [
+            "통신장비"
           ]
         }
       ],
@@ -1001,32 +1021,32 @@
           "url": "https://www.newsis.com/view/NISX20260722_0003718163",
           "source": "뉴시스",
           "published_at": "2026-07-22T00:39:44",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "공공기관 CCTV 수요 확대 국면 → CS가 미래정보기술 인수를 완료하며 공공기관 CCTV 유통 사업에 진출 → 기존 통신장비에 더해 CCTV·보안 사업 영역 확장. 다만 당일(2026-07-27) 종가 1,555원(+0.00% 보합)·거래대금 0억원으로 시장 반응은 사실상 부재해 인수 재료가 시세로 반영되지 않았다.",
+          "macro_event": "CS, 미래정보기술 인수 완료 — 공공기관 CCTV 유통 사업 진출",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.3,
+          "newzy_virality": 0.1,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.22,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "사건사고"
         },
         {
           "title": "﻿CS, 미래정보기술 인수 완료… 공공기관 CCTV 유통 사업 진출",
           "url": "https://biz.chosun.com/stock/stock_general/2026/07/20/EA3C64EQONFFRJQN2FNL2M2YN4/",
           "source": "조선비즈",
           "published_at": "2026-07-20T07:00:35",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "공공기관 CCTV 수요 확대 국면 → CS가 미래정보기술 인수를 완료하며 공공기관 CCTV 유통 사업에 진출 → 기존 통신장비에 더해 CCTV·보안 사업 영역 확장. 다만 당일(2026-07-27) 종가 1,555원(+0.00% 보합)·거래대금 0억원으로 시장 반응은 사실상 부재해 인수 재료가 시세로 반영되지 않았다.",
+          "macro_event": "CS, 미래정보기술 인수 완료 — 공공기관 CCTV 유통 사업 진출",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.3,
+          "newzy_virality": 0.1,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.22,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "코스닥 상장사 CS, 미래정보기술 품는다…인수자금 전액 확보 [시그널]",
@@ -1224,7 +1244,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "226340",
