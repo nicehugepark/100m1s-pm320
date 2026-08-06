@@ -1,11 +1,11 @@
 {
   "date": "2026-08-06",
-  "generated_at": "2026-08-06T09:26:36.711095",
+  "generated_at": "2026-08-06T09:35:12.506794",
   "data_source": "kiwoom",
   "macro_events": [
     {
-      "title": "반도체회복",
-      "summary": "반도체 사이클 회복(삼성·SK하이닉스 강세) → 국내 팹·소재·장비 기업 수혜 기대 → 반도체 섹터 4%대 코스피 견인"
+      "title": "반도체수급",
+      "summary": "반도체 수급 개선 신호 → 삼성전자·SK하이닉스 3~6% 상승 → 반도체 섹터 랠리로 코스피 4% 강세"
     },
     {
       "title": "데이터센터",
@@ -37,21 +37,15 @@
     },
     {
       "title": "우주산업",
-      "summary": "우주산업 성장(스페이스X·아르테미스) → 우주·방위산업 소재 기업(OCI홀딩스) 신사업 진출 → 신성장산업 테마주 부상"
+      "summary": "태양광 포화 국면 진입→우주·위성 산업 전환 신호→에너지 포트폴리오 다각화 트렌드"
     },
     {
       "title": "의료AI",
-      "summary": "의료 AI 기술 상용화 단계 진입 → 딥노이드 원격판독 플랫폼 첫 허가 → 헬스테크 섹터 성장 신호"
+      "summary": "의료 AI 원격판독 플랫폼 규제 허가→의료 AI 운영체제 구축 시작→헬스테크 섹터 진입장벽 제거"
     }
   ],
   "narratives": [],
   "themes_macro_summary": [
-    {
-      "keyword": "반도체",
-      "summary": "반도체 산업 회복 신호 → 삼성전자·SK하이닉스·장비업체 연쇄 상승 → 반도체 섹터 강세",
-      "source_count": 2,
-      "verified": true
-    },
     {
       "keyword": "AI인프라",
       "summary": "AI 데이터센터·원전 인프라 수요 급증 → GS건설 10조 공사물량·한울반도체 AI 검사장비 → 건설·전자 섹터 연쇄 수혜",
@@ -75,6 +69,12 @@
       "summary": "우주산업 성장(스페이스X·아르테미스) → 우주·방위산업 소재 기업(OCI홀딩스) 신사업 진출 → 신성장산업 테마주 부상",
       "source_count": 1,
       "verified": false
+    },
+    {
+      "keyword": "실적둔화",
+      "summary": "실적 최고치도 하반기 성장 둔화 전망 → 시장 심리 조정 → 반도체·IT 섹터 밸류에이션 재평가",
+      "source_count": 1,
+      "verified": true
     }
   ],
   "themes_tree": {
@@ -83,6 +83,12 @@
       {
         "name": "(독립)",
         "children": [
+          {
+            "name": "반도체",
+            "summary": "반도체 업황 반등 기대로 삼성전자·SK하이닉스 등 대형주에 매수세가 몰리며 코스피를 끌어올렸다.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
           {
             "name": "반도체",
             "summary": "반도체 업황 반등 기대로 삼성전자·SK하이닉스 등 대형주에 매수세가 몰리며 코스피를 끌어올렸다.",
@@ -102,6 +108,12 @@
             "verdict": "weak"
           },
           {
+            "name": "AI 데이터센터",
+            "summary": "AI 데이터센터 시공 물량 확대 기대로 GS건설 등 건설·인프라주에 모멘텀이 형성됐다.",
+            "source_count": 2,
+            "verdict": "weak"
+          },
+          {
             "name": "원전",
             "summary": "해외 원전 수주 모멘텀 기대로 GS건설 등 원전 밸류체인 관련주가 부각됐다.",
             "source_count": 2,
@@ -109,7 +121,37 @@
           },
           {
             "name": "원전",
+            "summary": "해외 원전 수주 모멘텀 기대로 GS건설 등 원전 밸류체인 관련주가 부각됐다.",
+            "source_count": 2,
+            "verdict": "weak"
+          },
+          {
+            "name": "원전",
+            "summary": "GS건설 해외 원전 수주 모멘텀이 데이터센터와 겹치며 원전 EPC·건설 섹터 기대감 확대",
+            "source_count": 2,
+            "verdict": "weak"
+          },
+          {
+            "name": "원전",
+            "summary": "GS건설 해외 원전 수주 모멘텀이 데이터센터와 겹치며 원전 EPC·건설 섹터 기대감 확대",
+            "source_count": 2,
+            "verdict": "weak"
+          },
+          {
+            "name": "원전",
             "summary": "GS건설 해외 원전 수주 모멘텀 부각으로 원전 EPC·기자재 섹터 관심 확대",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "원전",
+            "summary": "GS건설 해외 원전 수주 모멘텀 부각으로 원전 EPC·기자재 섹터 관심 확대",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "핀테크",
+            "summary": "카카오페이 2분기 사상 최대 실적·컨센서스 상회로 중장기 성장성 부각, 핀테크 섹터 강세",
             "source_count": 1,
             "verdict": "weak"
           },
@@ -135,12 +177,60 @@
             "summary": "AI 수요發 부품 업황 개선 기대로 삼성전기·LG이노텍 등 MLCC·전자부품주가 두 자릿수 급등했다.",
             "source_count": 2,
             "verdict": "pass"
+          },
+          {
+            "name": "MLCC",
+            "summary": "AI 수요發 부품 업황 개선 기대로 삼성전기·LG이노텍 등 MLCC·전자부품주가 두 자릿수 급등했다.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "반도체 업황 회복",
+            "summary": "삼성전자·SK하이닉스 반등으로 코스피 4%대 급등, 삼성전기·LG이노텍 두 자릿수 상승 등 반도체·부품 섹터로 수급 집중",
+            "source_count": 2,
+            "verdict": "weak"
+          },
+          {
+            "name": "반도체 업황 회복",
+            "summary": "삼성전자·SK하이닉스 반등으로 코스피 4%대 급등, 삼성전기·LG이노텍 두 자릿수 상승 등 반도체·부품 섹터로 수급 집중",
+            "source_count": 2,
+            "verdict": "weak"
+          },
+          {
+            "name": "반도체 업황 회복",
+            "summary": "삼성전자·SK하이닉스 반등으로 코스피 4%대 급등, 삼성전기·LG이노텍 두 자릿수 상승 등 반도체·부품 섹터로 수급 집중",
+            "source_count": 2,
+            "verdict": "pass"
           }
         ]
       },
       {
         "name": "AI 인프라",
         "children": [
+          {
+            "name": "AI 데이터센터",
+            "summary": "GS건설이 AI 데이터센터 시공 물량 기대감으로 부각되며 건설·데이터센터 밸류체인으로 매수세 유입",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "GS건설이 AI 데이터센터 시공 물량 기대감으로 부각되며 건설·데이터센터 밸류체인으로 매수세 유입",
+            "source_count": 2,
+            "verdict": "weak"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "GS건설이 AI 데이터센터 시공 물량 기대감으로 부각되며 건설·데이터센터 밸류체인으로 매수세 유입",
+            "source_count": 2,
+            "verdict": "weak"
+          },
+          {
+            "name": "반도체 업황 회복",
+            "summary": "삼성전자·SK하이닉스 등 반도체 대형주 급등으로 코스피 반등, 반도체·부품 섹터 자금 유입",
+            "source_count": 1,
+            "verdict": "weak"
+          },
           {
             "name": "반도체 업황 회복",
             "summary": "삼성전자·SK하이닉스 등 반도체 대형주 급등으로 코스피 반등, 반도체·부품 섹터 자금 유입",
@@ -158,6 +248,12 @@
             "summary": "GS건설의 AI 데이터센터 시공물량 확대 기대감이 건설·인프라 섹터로 확산",
             "source_count": 1,
             "verdict": "pass"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "GS건설의 AI 데이터센터 시공물량 확대 기대감이 건설·인프라 섹터로 확산",
+            "source_count": 1,
+            "verdict": "weak"
           },
           {
             "name": "AI 데이터센터",
@@ -175,6 +271,23 @@
             "summary": "한울반도체 MLCC 후공정 고도화 및 AI 초음파 검사장비 개발로 부품 후공정·검사장비 수혜",
             "source_count": 1,
             "verdict": "pass"
+          },
+          {
+            "name": "MLCC",
+            "summary": "한울반도체 MLCC 후공정 고도화 및 AI 초음파 검사장비 개발로 부품 후공정·검사장비 수혜",
+            "source_count": 1,
+            "verdict": "pass"
+          }
+        ]
+      },
+      {
+        "name": "로봇",
+        "children": [
+          {
+            "name": "휴머노이드 로봇",
+            "summary": "유니켐이 美 로봇 전자피부 기업 인수로 휴머노이드 촉각 시장에 베팅하며 로봇 센서·부품 밸류체인 부각",
+            "source_count": 1,
+            "verdict": "weak"
           }
         ]
       }
@@ -185,12 +298,12 @@
       "code": "439960",
       "name": "코스모로보틱스",
       "rank": 1,
-      "trade_amount": 84361000000,
-      "change_pct": 0.58,
-      "close_price": 19110,
+      "trade_amount": 92895000000,
+      "change_pct": -0.37,
+      "close_price": 18930,
       "open_price": 19820,
       "high_price": 21700,
-      "low_price": 19110,
+      "low_price": 18730,
       "industry": "의료용 기기 제조업",
       "sector": "웨어러블 로봇",
       "themes": [
@@ -219,17 +332,17 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": -0.49,
-      "index_multiple_current": -1.18,
+      "index_change_pct": -1.32,
+      "index_multiple_current": 0.28,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 68500,
         "high_date": "2026-05-15",
-        "high_pct": -72.1,
+        "high_pct": -72.36,
         "low": 10000,
         "low_date": "2026-07-21",
-        "low_pct": 91.1,
-        "current": 19110
+        "low_pct": 89.3,
+        "current": 18930
       },
       "daily_20": [
         {
@@ -369,8 +482,8 @@
           "date": "2026-08-06",
           "o": 19820,
           "h": 21700,
-          "l": 19110,
-          "c": 19110
+          "l": 18730,
+          "c": 18930
         }
       ],
       "intraday": {
@@ -382,7 +495,9 @@
           20100,
           19660,
           19370,
-          19270
+          19210,
+          19040,
+          19130
         ]
       },
       "credit_risk": true,
@@ -397,14 +512,14 @@
       "code": "047040",
       "name": "대우건설",
       "rank": 2,
-      "trade_amount": 66928000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
-      "industry": null,
-      "sector": null,
+      "trade_amount": 79577000000,
+      "change_pct": 1.79,
+      "close_price": 16520,
+      "open_price": 16240,
+      "high_price": 17440,
+      "low_price": 16190,
+      "industry": "건물 건설업",
+      "sector": "아파트건설,토목공사,건축공사,포장공사,전기공사,무역/중장비 대여",
       "themes": [],
       "theme_paths": [],
       "pick_count": 1,
@@ -412,301 +527,204 @@
       "bullish_today": false,
       "bullish_streak": 0,
       "bullish_dates": [],
-      "news": [],
+      "news": [
+        {
+          "title": "대신證 “대우건설, 하반기 수주 모멘텀 유효하지만…해외 플랜트 반영해 목표가 하향\"",
+          "url": "https://biz.chosun.com/stock/stock_general/2026/08/05/D3PSM6QASNBQHCJFXDBBDAAJZY/",
+          "source": "조선비즈",
+          "published_at": "2026-08-04T22:43:17",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        }
+      ],
       "fallback": true,
+      "index_change_pct": -2.73,
+      "index_multiple_current": -0.66,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 40350,
+        "high_date": "2026-04-28",
+        "high_pct": -59.06,
+        "low": 3320,
+        "low_date": "2025-11-07",
+        "low_pct": 397.59,
+        "current": 16520
+      },
+      "daily_20": [
+        {
+          "date": "2026-07-09",
+          "o": 15830,
+          "h": 16210,
+          "l": 15000,
+          "c": 16040
+        },
+        {
+          "date": "2026-07-10",
+          "o": 16300,
+          "h": 18360,
+          "l": 16130,
+          "c": 17450
+        },
+        {
+          "date": "2026-07-13",
+          "o": 17370,
+          "h": 18280,
+          "l": 15860,
+          "c": 16010
+        },
+        {
+          "date": "2026-07-14",
+          "o": 16010,
+          "h": 16290,
+          "l": 15130,
+          "c": 15830
+        },
+        {
+          "date": "2026-07-15",
+          "o": 16300,
+          "h": 16910,
+          "l": 16090,
+          "c": 16240
+        },
+        {
+          "date": "2026-07-16",
+          "o": 15800,
+          "h": 15870,
+          "l": 15030,
+          "c": 15150
+        },
+        {
+          "date": "2026-07-20",
+          "o": 14750,
+          "h": 15100,
+          "l": 14260,
+          "c": 14540
+        },
+        {
+          "date": "2026-07-21",
+          "o": 14230,
+          "h": 15190,
+          "l": 13920,
+          "c": 14800
+        },
+        {
+          "date": "2026-07-22",
+          "o": 15150,
+          "h": 16090,
+          "l": 15030,
+          "c": 15270
+        },
+        {
+          "date": "2026-07-23",
+          "o": 15500,
+          "h": 16500,
+          "l": 15100,
+          "c": 16340
+        },
+        {
+          "date": "2026-07-24",
+          "o": 15860,
+          "h": 16300,
+          "l": 15170,
+          "c": 15300
+        },
+        {
+          "date": "2026-07-27",
+          "o": 15610,
+          "h": 15730,
+          "l": 14850,
+          "c": 15180
+        },
+        {
+          "date": "2026-07-28",
+          "o": 14450,
+          "h": 14500,
+          "l": 13180,
+          "c": 13430
+        },
+        {
+          "date": "2026-07-29",
+          "o": 13550,
+          "h": 13670,
+          "l": 11390,
+          "c": 12020
+        },
+        {
+          "date": "2026-07-30",
+          "o": 11610,
+          "h": 12270,
+          "l": 11080,
+          "c": 11200
+        },
+        {
+          "date": "2026-07-31",
+          "o": 11880,
+          "h": 13090,
+          "l": 11880,
+          "c": 12780
+        },
+        {
+          "date": "2026-08-03",
+          "o": 12720,
+          "h": 14540,
+          "l": 12250,
+          "c": 13300
+        },
+        {
+          "date": "2026-08-04",
+          "o": 13200,
+          "h": 15220,
+          "l": 13050,
+          "c": 15200
+        },
+        {
+          "date": "2026-08-05",
+          "o": 15850,
+          "h": 16650,
+          "l": 15060,
+          "c": 16230
+        },
+        {
+          "date": "2026-08-06",
+          "o": 16240,
+          "h": 17440,
+          "l": 16190,
+          "c": 16520
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 16240,
+        "base": 16240,
+        "prices": [
+          16240,
+          17045,
+          17270,
+          17010,
+          16800,
+          16430,
+          16550
+        ]
+      },
       "togusa_verdict": "neutral",
       "theme_leader": false,
       "hugepark_grade": "관찰"
     },
     {
-      "code": "477850",
-      "name": "마키나락스",
-      "rank": 3,
-      "trade_amount": 65086000000,
-      "change_pct": 0.67,
-      "close_price": 30000,
-      "open_price": 30800,
-      "high_price": 31700,
-      "low_price": 28750,
-      "industry": "소프트웨어 개발 및 공급업",
-      "sector": "Runway Platform (산업특화 인공지능 개발 및 운영 체계 구축 플랫폼)",
-      "themes": [
-        "실적",
-        "로봇",
-        "휴머노이드 로봇",
-        "AI",
-        "신규상장"
-      ],
-      "theme_paths": [
-        {
-          "name": "실적",
-          "path": [
-            "실적"
-          ]
-        },
-        {
-          "name": "휴머노이드 로봇",
-          "path": [
-            "로봇",
-            "휴머노이드 로봇"
-          ]
-        },
-        {
-          "name": "AI",
-          "path": [
-            "AI"
-          ]
-        },
-        {
-          "name": "신규상장",
-          "path": [
-            "신규상장"
-          ]
-        }
-      ],
-      "pick_count": 2,
-      "prev_pick": {
-        "date": "2026-08-05",
-        "rank": 5,
-        "change_pct": 29.85,
-        "trade_amount": 132296000000
-      },
-      "bullish_today": false,
-      "bullish_streak": 0,
-      "bullish_dates": [
-        "2026-06-26",
-        "2026-07-02",
-        "2026-07-06",
-        "2026-07-08",
-        "2026-07-09",
-        "2026-07-14",
-        "2026-07-22",
-        "2026-08-05"
-      ],
-      "news": [
-        {
-          "title": "마키나락스, 에너토크와 'AI 네이티브 팩토리' 구축 맞손",
-          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=04280406645517800",
-          "source": "이데일리",
-          "published_at": "2026-07-24T06:37:02",
-          "causal_chain": "제조 현장의 AI 네이티브 전환 흐름 → 산업 AI가 핵심사업인 마키나락스가 에너토크와 'AI 네이티브 팩토리' 구축에 나서며 사업 레퍼런스 확보 → 한국투자증권이 외형 성장·수익성 개선 본격화 및 보호예수 해제를 매수 기회로 제시. 다만 당일(2026-07-23) 종가 22,750원(+0.66% 보합권)·거래대금 19억원에 그쳐 시장 반응은 제한적이었고, 52주 고가 대비 -72.8% 수준에 머물렀다.",
-          "macro_event": "산업 AI(AI 네이티브 팩토리) 도입 확산",
-          "newzy_freshness": null,
-          "newzy_persistence": null,
-          "newzy_magnitude": 0.3,
-          "newzy_virality": 0.2,
-          "newzy_tradability": null,
-          "newzy_score": 0.26,
-          "newzy_verdict": null,
-          "article_type": "호재"
-        },
-        {
-          "title": "마키나락스, 외형 성장·수익성 개선 본격화…보호예수 해제는 기회-한투",
-          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=02646966645516816",
-          "source": "이데일리",
-          "published_at": "2026-07-20T23:09:04",
-          "causal_chain": "제조 현장의 AI 네이티브 전환 흐름 → 산업 AI가 핵심사업인 마키나락스가 에너토크와 'AI 네이티브 팩토리' 구축에 나서며 사업 레퍼런스 확보 → 한국투자증권이 외형 성장·수익성 개선 본격화 및 보호예수 해제를 매수 기회로 제시. 다만 당일(2026-07-23) 종가 22,750원(+0.66% 보합권)·거래대금 19억원에 그쳐 시장 반응은 제한적이었고, 52주 고가 대비 -72.8% 수준에 머물렀다.",
-          "macro_event": "산업 AI(AI 네이티브 팩토리) 도입 확산",
-          "newzy_freshness": null,
-          "newzy_persistence": null,
-          "newzy_magnitude": 0.3,
-          "newzy_virality": 0.2,
-          "newzy_tradability": null,
-          "newzy_score": 0.26,
-          "newzy_verdict": null,
-          "article_type": "호재"
-        }
-      ],
-      "fallback": true,
-      "theme_crosscheck": {
-        "confirmed": [
-          "로봇",
-          "휴머노이드 로봇",
-          "AI"
-        ],
-        "pm320_only": [
-          "실적",
-          "신규상장"
-        ],
-        "cafe_only": []
-      },
-      "index_change_pct": -0.49,
-      "index_multiple_current": -1.37,
-      "index_multiple_eligible": false,
-      "range_240d": {
-        "high": 83600,
-        "high_date": "2026-05-22",
-        "high_pct": -64.11,
-        "low": 13420,
-        "low_date": "2026-06-24",
-        "low_pct": 123.55,
-        "current": 30000
-      },
-      "daily_20": [
-        {
-          "date": "2026-07-09",
-          "o": 26800,
-          "h": 31400,
-          "l": 26750,
-          "c": 29650
-        },
-        {
-          "date": "2026-07-10",
-          "o": 30400,
-          "h": 32350,
-          "l": 28600,
-          "c": 29600
-        },
-        {
-          "date": "2026-07-13",
-          "o": 29500,
-          "h": 32000,
-          "l": 24250,
-          "c": 24600
-        },
-        {
-          "date": "2026-07-14",
-          "o": 25150,
-          "h": 29150,
-          "l": 22900,
-          "c": 27950
-        },
-        {
-          "date": "2026-07-15",
-          "o": 28950,
-          "h": 31350,
-          "l": 28100,
-          "c": 30150
-        },
-        {
-          "date": "2026-07-16",
-          "o": 29150,
-          "h": 30050,
-          "l": 25900,
-          "c": 26200
-        },
-        {
-          "date": "2026-07-20",
-          "o": 24000,
-          "h": 24800,
-          "l": 20750,
-          "c": 21200
-        },
-        {
-          "date": "2026-07-21",
-          "o": 21350,
-          "h": 21700,
-          "l": 19020,
-          "c": 19660
-        },
-        {
-          "date": "2026-07-22",
-          "o": 20100,
-          "h": 23950,
-          "l": 19210,
-          "c": 22600
-        },
-        {
-          "date": "2026-07-23",
-          "o": 23300,
-          "h": 25000,
-          "l": 22750,
-          "c": 23450
-        },
-        {
-          "date": "2026-07-24",
-          "o": 23200,
-          "h": 26050,
-          "l": 22450,
-          "c": 24250
-        },
-        {
-          "date": "2026-07-27",
-          "o": 25500,
-          "h": 29150,
-          "l": 24750,
-          "c": 26750
-        },
-        {
-          "date": "2026-07-28",
-          "o": 25800,
-          "h": 28250,
-          "l": 22800,
-          "c": 23500
-        },
-        {
-          "date": "2026-07-29",
-          "o": 24000,
-          "h": 26300,
-          "l": 21550,
-          "c": 23950
-        },
-        {
-          "date": "2026-07-30",
-          "o": 23500,
-          "h": 24500,
-          "l": 19450,
-          "c": 19500
-        },
-        {
-          "date": "2026-07-31",
-          "o": 20950,
-          "h": 22300,
-          "l": 19990,
-          "c": 19990
-        },
-        {
-          "date": "2026-08-03",
-          "o": 20500,
-          "h": 20900,
-          "l": 19480,
-          "c": 20000
-        },
-        {
-          "date": "2026-08-04",
-          "o": 21600,
-          "h": 23900,
-          "l": 21150,
-          "c": 22950
-        },
-        {
-          "date": "2026-08-05",
-          "o": 24800,
-          "h": 29800,
-          "l": 23850,
-          "c": 29800
-        },
-        {
-          "date": "2026-08-06",
-          "o": 30800,
-          "h": 31700,
-          "l": 28750,
-          "c": 30000
-        }
-      ],
-      "intraday": {
-        "step_min": 5,
-        "open": 30800,
-        "base": 30800,
-        "prices": [
-          30800,
-          30850,
-          30200,
-          29600,
-          29950
-        ]
-      },
-      "togusa_verdict": "weak_bull",
-      "theme_leader": true,
-      "hugepark_grade": "관찰"
-    },
-    {
       "code": "073240",
       "name": "금호타이어",
-      "rank": 4,
-      "trade_amount": 62101000000,
-      "change_pct": 11.38,
-      "close_price": 8220,
+      "rank": 3,
+      "trade_amount": 74761000000,
+      "change_pct": 7.32,
+      "close_price": 7920,
       "open_price": 7200,
       "high_price": 8470,
       "low_price": 7120,
@@ -836,17 +854,17 @@
         ],
         "cafe_only": []
       },
-      "index_change_pct": -1.99,
-      "index_multiple_current": -5.72,
+      "index_change_pct": -2.73,
+      "index_multiple_current": -2.68,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 8470,
         "high_date": "2026-08-06",
-        "high_pct": -2.95,
+        "high_pct": -6.49,
         "low": 4220,
         "low_date": "2026-06-24",
-        "low_pct": 94.79,
-        "current": 8220
+        "low_pct": 87.68,
+        "current": 7920
       },
       "daily_20": [
         {
@@ -987,10 +1005,308 @@
           "o": 7200,
           "h": 8470,
           "l": 7120,
-          "c": 8220
+          "c": 7920
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 7200,
+        "base": 7200,
+        "prices": [
+          7200,
+          7940,
+          8260,
+          8290,
+          8130,
+          7990,
+          7950
+        ]
+      },
       "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
+    },
+    {
+      "code": "477850",
+      "name": "마키나락스",
+      "rank": 4,
+      "trade_amount": 72275000000,
+      "change_pct": 1.68,
+      "close_price": 30300,
+      "open_price": 30800,
+      "high_price": 31700,
+      "low_price": 28750,
+      "industry": "소프트웨어 개발 및 공급업",
+      "sector": "Runway Platform (산업특화 인공지능 개발 및 운영 체계 구축 플랫폼)",
+      "themes": [
+        "실적",
+        "로봇",
+        "휴머노이드 로봇",
+        "AI",
+        "신규상장"
+      ],
+      "theme_paths": [
+        {
+          "name": "실적",
+          "path": [
+            "실적"
+          ]
+        },
+        {
+          "name": "휴머노이드 로봇",
+          "path": [
+            "로봇",
+            "휴머노이드 로봇"
+          ]
+        },
+        {
+          "name": "AI",
+          "path": [
+            "AI"
+          ]
+        },
+        {
+          "name": "신규상장",
+          "path": [
+            "신규상장"
+          ]
+        }
+      ],
+      "pick_count": 2,
+      "prev_pick": {
+        "date": "2026-08-05",
+        "rank": 5,
+        "change_pct": 29.85,
+        "trade_amount": 132296000000
+      },
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [
+        "2026-06-26",
+        "2026-07-02",
+        "2026-07-06",
+        "2026-07-08",
+        "2026-07-09",
+        "2026-07-14",
+        "2026-07-22",
+        "2026-08-05"
+      ],
+      "news": [
+        {
+          "title": "마키나락스, 에너토크와 'AI 네이티브 팩토리' 구축 맞손",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=04280406645517800",
+          "source": "이데일리",
+          "published_at": "2026-07-24T06:37:02",
+          "causal_chain": "제조 현장의 AI 네이티브 전환 흐름 → 산업 AI가 핵심사업인 마키나락스가 에너토크와 'AI 네이티브 팩토리' 구축에 나서며 사업 레퍼런스 확보 → 한국투자증권이 외형 성장·수익성 개선 본격화 및 보호예수 해제를 매수 기회로 제시. 다만 당일(2026-07-23) 종가 22,750원(+0.66% 보합권)·거래대금 19억원에 그쳐 시장 반응은 제한적이었고, 52주 고가 대비 -72.8% 수준에 머물렀다.",
+          "macro_event": "산업 AI(AI 네이티브 팩토리) 도입 확산",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.3,
+          "newzy_virality": 0.2,
+          "newzy_tradability": null,
+          "newzy_score": 0.26,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        },
+        {
+          "title": "마키나락스, 외형 성장·수익성 개선 본격화…보호예수 해제는 기회-한투",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=02646966645516816",
+          "source": "이데일리",
+          "published_at": "2026-07-20T23:09:04",
+          "causal_chain": "제조 현장의 AI 네이티브 전환 흐름 → 산업 AI가 핵심사업인 마키나락스가 에너토크와 'AI 네이티브 팩토리' 구축에 나서며 사업 레퍼런스 확보 → 한국투자증권이 외형 성장·수익성 개선 본격화 및 보호예수 해제를 매수 기회로 제시. 다만 당일(2026-07-23) 종가 22,750원(+0.66% 보합권)·거래대금 19억원에 그쳐 시장 반응은 제한적이었고, 52주 고가 대비 -72.8% 수준에 머물렀다.",
+          "macro_event": "산업 AI(AI 네이티브 팩토리) 도입 확산",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.3,
+          "newzy_virality": 0.2,
+          "newzy_tradability": null,
+          "newzy_score": 0.26,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        }
+      ],
+      "fallback": true,
+      "theme_crosscheck": {
+        "confirmed": [
+          "로봇",
+          "휴머노이드 로봇",
+          "AI"
+        ],
+        "pm320_only": [
+          "실적",
+          "신규상장"
+        ],
+        "cafe_only": []
+      },
+      "index_change_pct": -1.32,
+      "index_multiple_current": -1.27,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 83600,
+        "high_date": "2026-05-22",
+        "high_pct": -63.76,
+        "low": 13420,
+        "low_date": "2026-06-24",
+        "low_pct": 125.78,
+        "current": 30300
+      },
+      "daily_20": [
+        {
+          "date": "2026-07-09",
+          "o": 26800,
+          "h": 31400,
+          "l": 26750,
+          "c": 29650
+        },
+        {
+          "date": "2026-07-10",
+          "o": 30400,
+          "h": 32350,
+          "l": 28600,
+          "c": 29600
+        },
+        {
+          "date": "2026-07-13",
+          "o": 29500,
+          "h": 32000,
+          "l": 24250,
+          "c": 24600
+        },
+        {
+          "date": "2026-07-14",
+          "o": 25150,
+          "h": 29150,
+          "l": 22900,
+          "c": 27950
+        },
+        {
+          "date": "2026-07-15",
+          "o": 28950,
+          "h": 31350,
+          "l": 28100,
+          "c": 30150
+        },
+        {
+          "date": "2026-07-16",
+          "o": 29150,
+          "h": 30050,
+          "l": 25900,
+          "c": 26200
+        },
+        {
+          "date": "2026-07-20",
+          "o": 24000,
+          "h": 24800,
+          "l": 20750,
+          "c": 21200
+        },
+        {
+          "date": "2026-07-21",
+          "o": 21350,
+          "h": 21700,
+          "l": 19020,
+          "c": 19660
+        },
+        {
+          "date": "2026-07-22",
+          "o": 20100,
+          "h": 23950,
+          "l": 19210,
+          "c": 22600
+        },
+        {
+          "date": "2026-07-23",
+          "o": 23300,
+          "h": 25000,
+          "l": 22750,
+          "c": 23450
+        },
+        {
+          "date": "2026-07-24",
+          "o": 23200,
+          "h": 26050,
+          "l": 22450,
+          "c": 24250
+        },
+        {
+          "date": "2026-07-27",
+          "o": 25500,
+          "h": 29150,
+          "l": 24750,
+          "c": 26750
+        },
+        {
+          "date": "2026-07-28",
+          "o": 25800,
+          "h": 28250,
+          "l": 22800,
+          "c": 23500
+        },
+        {
+          "date": "2026-07-29",
+          "o": 24000,
+          "h": 26300,
+          "l": 21550,
+          "c": 23950
+        },
+        {
+          "date": "2026-07-30",
+          "o": 23500,
+          "h": 24500,
+          "l": 19450,
+          "c": 19500
+        },
+        {
+          "date": "2026-07-31",
+          "o": 20950,
+          "h": 22300,
+          "l": 19990,
+          "c": 19990
+        },
+        {
+          "date": "2026-08-03",
+          "o": 20500,
+          "h": 20900,
+          "l": 19480,
+          "c": 20000
+        },
+        {
+          "date": "2026-08-04",
+          "o": 21600,
+          "h": 23900,
+          "l": 21150,
+          "c": 22950
+        },
+        {
+          "date": "2026-08-05",
+          "o": 24800,
+          "h": 29800,
+          "l": 23850,
+          "c": 29800
+        },
+        {
+          "date": "2026-08-06",
+          "o": 30800,
+          "h": 31700,
+          "l": 28750,
+          "c": 30300
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 30800,
+        "base": 30800,
+        "prices": [
+          30800,
+          30850,
+          30200,
+          29600,
+          30500,
+          30050,
+          30200
+        ]
+      },
+      "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰"
     },
@@ -998,9 +1314,9 @@
       "code": "069540",
       "name": "빛과전자",
       "rank": 5,
-      "trade_amount": 60587000000,
-      "change_pct": -3.63,
-      "close_price": 2785,
+      "trade_amount": 68717000000,
+      "change_pct": -0.87,
+      "close_price": 2865,
       "open_price": 2890,
       "high_price": 3205,
       "low_price": 2690,
@@ -1065,17 +1381,17 @@
         ],
         "cafe_only": []
       },
-      "index_change_pct": -0.49,
-      "index_multiple_current": 7.41,
+      "index_change_pct": -1.32,
+      "index_multiple_current": 0.66,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 8100,
         "high_date": "2026-04-16",
-        "high_pct": -65.62,
+        "high_pct": -64.63,
         "low": 592,
         "low_date": "2026-01-02",
-        "low_pct": 370.44,
-        "current": 2785
+        "low_pct": 383.95,
+        "current": 2865
       },
       "daily_20": [
         {
@@ -1216,7 +1532,7 @@
           "o": 2890,
           "h": 3205,
           "l": 2690,
-          "c": 2785
+          "c": 2865
         }
       ],
       "status_badges": [
@@ -1252,8 +1568,22 @@
           ]
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 2890,
+        "base": 2890,
+        "prices": [
+          2890,
+          3175,
+          2885,
+          2765,
+          2900,
+          2905,
+          2855
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "투자경고",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰"
@@ -1262,12 +1592,12 @@
       "code": "058610",
       "name": "에스피지",
       "rank": 6,
-      "trade_amount": 50230000000,
-      "change_pct": 1.01,
-      "close_price": 110000,
+      "trade_amount": 55418000000,
+      "change_pct": -0.83,
+      "close_price": 108000,
       "open_price": 113300,
       "high_price": 118300,
-      "low_price": 108000,
+      "low_price": 106900,
       "industry": "전동기, 발전기 및 전기 변환 · 공급 · 제어 장치 제조업",
       "sector": "소형 Geared Motor",
       "themes": [
@@ -1295,17 +1625,17 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": -0.49,
-      "index_multiple_current": -2.06,
+      "index_change_pct": -1.32,
+      "index_multiple_current": 0.63,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 165700,
         "high_date": "2026-01-29",
-        "high_pct": -33.61,
+        "high_pct": -34.82,
         "low": 22500,
         "low_date": "2025-08-20",
-        "low_pct": 388.89,
-        "current": 110000
+        "low_pct": 380.0,
+        "current": 108000
       },
       "daily_20": [
         {
@@ -1445,12 +1775,26 @@
           "date": "2026-08-06",
           "o": 113300,
           "h": 118300,
-          "l": 108000,
-          "c": 110000
+          "l": 106900,
+          "c": 108000
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 113300,
+        "base": 113300,
+        "prices": [
+          113300,
+          112000,
+          111400,
+          111600,
+          108500,
+          107300,
+          107700
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰",
@@ -1461,7 +1805,7 @@
       "code": "210980",
       "name": "SK디앤디",
       "rank": 7,
-      "trade_amount": 1596000000,
+      "trade_amount": 1611000000,
       "change_pct": 29.84,
       "close_price": 5940,
       "open_price": 4800,
@@ -1522,8 +1866,8 @@
         }
       ],
       "fallback": false,
-      "index_change_pct": -1.99,
-      "index_multiple_current": -14.99,
+      "index_change_pct": -2.73,
+      "index_multiple_current": -10.93,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 13810,
@@ -1685,6 +2029,8 @@
           5940,
           5940,
           5940,
+          5940,
+          5940,
           5940
         ]
       },
@@ -1698,7 +2044,7 @@
       "code": "148780",
       "name": "비큐AI",
       "rank": 8,
-      "trade_amount": 1437000000,
+      "trade_amount": 1463000000,
       "change_pct": 29.99,
       "close_price": 5050,
       "open_price": 4780,
@@ -1734,8 +2080,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": -0.49,
-      "index_multiple_current": -61.2,
+      "index_change_pct": -1.32,
+      "index_multiple_current": -22.72,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 13161,
@@ -1924,6 +2270,8 @@
           5050,
           5050,
           5050,
+          5050,
+          5050,
           5050
         ]
       },
@@ -1939,7 +2287,7 @@
       "code": "011330",
       "name": "유니켐",
       "rank": 9,
-      "trade_amount": 264000000,
+      "trade_amount": 265000000,
       "change_pct": 30.0,
       "close_price": 4550,
       "open_price": 4550,
@@ -1994,8 +2342,8 @@
         }
       ],
       "fallback": false,
-      "index_change_pct": -1.99,
-      "index_multiple_current": -15.08,
+      "index_change_pct": -2.73,
+      "index_multiple_current": -10.99,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 18910,
@@ -2156,6 +2504,9 @@
           4550,
           4550,
           4550,
+          4550,
+          4550,
+          4550,
           4550
         ]
       },
@@ -2169,7 +2520,7 @@
       "code": "348080",
       "name": "큐라티스",
       "rank": 10,
-      "trade_amount": 197000000,
+      "trade_amount": 201000000,
       "change_pct": 29.93,
       "close_price": 3885,
       "open_price": 3885,
@@ -2203,8 +2554,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": -0.49,
-      "index_multiple_current": -61.08,
+      "index_change_pct": -1.32,
+      "index_multiple_current": -22.67,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 12976,
@@ -2389,6 +2740,8 @@
         "open": 3885,
         "base": 3885,
         "prices": [
+          3885,
+          3885,
           3885,
           3885,
           3885,
