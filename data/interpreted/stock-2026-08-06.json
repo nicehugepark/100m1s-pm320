@@ -1,11 +1,15 @@
 {
   "date": "2026-08-06",
-  "generated_at": "2026-08-06T12:05:30.019696",
+  "generated_at": "2026-08-06T12:15:19.867503",
   "data_source": "kiwoom",
   "macro_events": [
     {
       "title": "반도체수급",
       "summary": "반도체 수급 개선 신호 → 삼성전자·SK하이닉스 3~6% 상승 → 반도체 섹터 랠리로 코스피 4% 강세"
+    },
+    {
+      "title": "장비주",
+      "summary": "반도체 회복 → 반도체 장비 수요 증가 → 삼성전기·LG이노텍 두 자릿수 급등"
     },
     {
       "title": "AI데이터센터",
@@ -16,20 +20,16 @@
       "summary": "디지털 결제 수요 확대 → 금융기술 실적 개선 → 카카오페이 사상 최대 실적 달성"
     },
     {
-      "title": "장비주",
-      "summary": "반도체 회복 → 반도체 장비 수요 증가 → 삼성전기·LG이노텍 두 자릿수 급등"
-    },
-    {
       "title": "카페실적",
       "summary": "카카오페이 2분기 사상 최대 실적·컨센서스 상회 → 결제 플랫폼 성장성 재확인 → 핀테크 섹터 우상향"
     },
     {
-      "title": "실적둔화",
-      "summary": "실적 최고치도 하반기 성장 둔화 전망 → 시장 심리 조정 → 반도체·IT 섹터 밸류에이션 재평가"
-    },
-    {
       "title": "스페이스",
       "summary": "태양광 포화 국면 → 우주산업 투자 전환 → 신성장 테마 발굴 가속"
+    },
+    {
+      "title": "실적둔화",
+      "summary": "실적 최고치도 하반기 성장 둔화 전망 → 시장 심리 조정 → 반도체·IT 섹터 밸류에이션 재평가"
     },
     {
       "title": "AI인프라",
@@ -37,7 +37,7 @@
     },
     {
       "title": "의료AI",
-      "summary": "의료 AI 규제 허가 확대 → 딥노이드 원격판독 플랫폼 상용화 가속 → 의료·헬스테크 섹터 수익성 구조전환"
+      "summary": "의료 AI 원격판독 플랫폼 규제 허가 → 헬스케어 AI 운영체제 구축 → 의료 AI 섹터 성장 신호"
     },
     {
       "title": "우주",
@@ -180,6 +180,18 @@
             "verdict": "pass"
           },
           {
+            "name": "반도체",
+            "summary": "삼성전자·SK하이닉스 반등으로 반도체 대형주에 매수세 유입되며 코스피를 끌어올림",
+            "source_count": 9,
+            "verdict": "pass"
+          },
+          {
+            "name": "MLCC",
+            "summary": "AI 수요 기대에 삼성전기·LG이노텍 두 자릿수 급등하고 한울반도체 MLCC 후공정 고도화가 부각되며 전자부품 섹터로 자금 유입",
+            "source_count": 9,
+            "verdict": "pass"
+          },
+          {
             "name": "MLCC",
             "summary": "AI 수요 기대에 삼성전기·LG이노텍 두 자릿수 급등하고 한울반도체 MLCC 후공정 고도화가 부각되며 전자부품 섹터로 자금 유입",
             "source_count": 9,
@@ -333,31 +345,19 @@
             "name": "AI 데이터센터",
             "summary": "GS건설이 데이터센터 대규모 시공물량과 해외 원전 겹모멘텀으로 부각되며 건설·인프라 섹터 수혜",
             "source_count": 8,
-            "verdict": "weak"
-          },
-          {
-            "name": "AI 데이터센터",
-            "summary": "GS건설이 데이터센터 대규모 시공물량과 해외 원전 겹모멘텀으로 부각되며 건설·인프라 섹터 수혜",
-            "source_count": 8,
-            "verdict": "weak"
-          },
-          {
-            "name": "AI 데이터센터",
-            "summary": "GS건설이 데이터센터 대규모 시공물량과 해외 원전 겹모멘텀으로 부각되며 건설·인프라 섹터 수혜",
-            "source_count": 8,
-            "verdict": "weak"
-          },
-          {
-            "name": "AI 데이터센터",
-            "summary": "GS건설이 데이터센터 대규모 시공물량과 해외 원전 겹모멘텀으로 부각되며 건설·인프라 섹터 수혜",
-            "source_count": 8,
             "verdict": "pass"
           },
           {
             "name": "AI 데이터센터",
             "summary": "GS건설이 데이터센터 대규모 시공물량과 해외 원전 겹모멘텀으로 부각되며 건설·인프라 섹터 수혜",
             "source_count": 8,
-            "verdict": "pass"
+            "verdict": "weak"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "GS건설이 데이터센터 대규모 시공물량과 해외 원전 겹모멘텀으로 부각되며 건설·인프라 섹터 수혜",
+            "source_count": 8,
+            "verdict": "weak"
           },
           {
             "name": "AI 데이터센터",
@@ -378,6 +378,30 @@
             "verdict": "pass"
           },
           {
+            "name": "AI 데이터센터",
+            "summary": "GS건설이 데이터센터 대규모 시공물량과 해외 원전 겹모멘텀으로 부각되며 건설·인프라 섹터 수혜",
+            "source_count": 8,
+            "verdict": "weak"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "GS건설이 데이터센터 대규모 시공물량과 해외 원전 겹모멘텀으로 부각되며 건설·인프라 섹터 수혜",
+            "source_count": 8,
+            "verdict": "pass"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "GS건설이 데이터센터 대규모 시공물량과 해외 원전 겹모멘텀으로 부각되며 건설·인프라 섹터 수혜",
+            "source_count": 8,
+            "verdict": "pass"
+          },
+          {
+            "name": "반도체",
+            "summary": "AI 메모리 수요 회복 기대로 삼성전자 3%·SK하이닉스 6% 반등하며 코스피를 끌어올려 반도체 대형주에 매수세 집중.",
+            "source_count": 8,
+            "verdict": "pass"
+          },
+          {
             "name": "반도체",
             "summary": "AI 메모리 수요 회복 기대로 삼성전자 3%·SK하이닉스 6% 반등하며 코스피를 끌어올려 반도체 대형주에 매수세 집중.",
             "source_count": 8,
@@ -537,6 +561,12 @@
             "name": "AI 데이터센터",
             "summary": "GS건설이 10조원 데이터센터·해외 원전 시공 물량 모멘텀으로 부각되며 건설·전력 인프라 섹터로 매수 이유 확산.",
             "source_count": 3,
+            "verdict": "pass"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "GS건설이 10조원 데이터센터·해외 원전 시공 물량 모멘텀으로 부각되며 건설·전력 인프라 섹터로 매수 이유 확산.",
+            "source_count": 3,
             "verdict": "weak"
           },
           {
@@ -578,6 +608,12 @@
           {
             "name": "AI 데이터센터",
             "summary": "GS건설이 10조원 데이터센터·해외 원전 시공 물량 모멘텀으로 부각되며 건설·전력 인프라 섹터로 매수 이유 확산.",
+            "source_count": 3,
+            "verdict": "pass"
+          },
+          {
+            "name": "반도체",
+            "summary": "삼성전자·SK하이닉스 반등과 삼성전기·LG이노텍 두 자릿수 급등으로 반도체·부품주에 매수세 집중.",
             "source_count": 3,
             "verdict": "pass"
           },
@@ -730,6 +766,12 @@
             "summary": "GS건설이 AI 데이터센터 시공 물량 기대감으로 부각되며 건설·데이터센터 밸류체인으로 매수세 유입",
             "source_count": 2,
             "verdict": "weak"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "GS건설이 AI 데이터센터 시공 물량 기대감으로 부각되며 건설·데이터센터 밸류체인으로 매수세 유입",
+            "source_count": 2,
+            "verdict": "pass"
           },
           {
             "name": "AI 데이터센터",
@@ -855,31 +897,19 @@
             "name": "AI 데이터센터",
             "summary": "AI 데이터센터 시공물량 확대 기대로 GS건설에 수급 집중되며 건설·인프라 섹터 수혜",
             "source_count": 2,
-            "verdict": "weak"
-          },
-          {
-            "name": "AI 데이터센터",
-            "summary": "AI 데이터센터 시공물량 확대 기대로 GS건설에 수급 집중되며 건설·인프라 섹터 수혜",
-            "source_count": 2,
-            "verdict": "weak"
-          },
-          {
-            "name": "AI 데이터센터",
-            "summary": "AI 데이터센터 시공물량 확대 기대로 GS건설에 수급 집중되며 건설·인프라 섹터 수혜",
-            "source_count": 2,
-            "verdict": "weak"
-          },
-          {
-            "name": "AI 데이터센터",
-            "summary": "AI 데이터센터 시공물량 확대 기대로 GS건설에 수급 집중되며 건설·인프라 섹터 수혜",
-            "source_count": 2,
             "verdict": "pass"
           },
           {
             "name": "AI 데이터센터",
             "summary": "AI 데이터센터 시공물량 확대 기대로 GS건설에 수급 집중되며 건설·인프라 섹터 수혜",
             "source_count": 2,
-            "verdict": "pass"
+            "verdict": "weak"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "AI 데이터센터 시공물량 확대 기대로 GS건설에 수급 집중되며 건설·인프라 섹터 수혜",
+            "source_count": 2,
+            "verdict": "weak"
           },
           {
             "name": "AI 데이터센터",
@@ -900,6 +930,24 @@
             "verdict": "pass"
           },
           {
+            "name": "AI 데이터센터",
+            "summary": "AI 데이터센터 시공물량 확대 기대로 GS건설에 수급 집중되며 건설·인프라 섹터 수혜",
+            "source_count": 2,
+            "verdict": "weak"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "AI 데이터센터 시공물량 확대 기대로 GS건설에 수급 집중되며 건설·인프라 섹터 수혜",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "AI 데이터센터 시공물량 확대 기대로 GS건설에 수급 집중되며 건설·인프라 섹터 수혜",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
             "name": "MLCC",
             "summary": "AI 수요 기반 전장·MLCC 업황 개선 기대로 삼성전기·LG이노텍 급등, MLCC 후공정 장비 업체까지 온기 확산",
             "source_count": 2,
@@ -990,26 +1038,8 @@
             "verdict": "pass"
           },
           {
-            "name": "AI 데이터센터",
-            "summary": "GS건설의 AI 데이터센터 시공물량 모멘텀이 부각되며 데이터센터 건설·인프라 관련주로 자금 유입.",
-            "source_count": 2,
-            "verdict": "weak"
-          },
-          {
-            "name": "AI 데이터센터",
-            "summary": "GS건설의 AI 데이터센터 시공물량 모멘텀이 부각되며 데이터센터 건설·인프라 관련주로 자금 유입.",
-            "source_count": 2,
-            "verdict": "pass"
-          },
-          {
-            "name": "AI 데이터센터",
-            "summary": "GS건설의 AI 데이터센터 시공물량 모멘텀이 부각되며 데이터센터 건설·인프라 관련주로 자금 유입.",
-            "source_count": 2,
-            "verdict": "pass"
-          },
-          {
-            "name": "AI 데이터센터",
-            "summary": "GS건설의 AI 데이터센터 시공물량 모멘텀이 부각되며 데이터센터 건설·인프라 관련주로 자금 유입.",
+            "name": "MLCC",
+            "summary": "AI 수요 기반 전장·MLCC 업황 개선 기대로 삼성전기·LG이노텍 급등, MLCC 후공정 장비 업체까지 온기 확산",
             "source_count": 2,
             "verdict": "pass"
           },
@@ -1042,6 +1072,36 @@
             "summary": "GS건설의 AI 데이터센터 시공물량 모멘텀이 부각되며 데이터센터 건설·인프라 관련주로 자금 유입.",
             "source_count": 2,
             "verdict": "weak"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "GS건설의 AI 데이터센터 시공물량 모멘텀이 부각되며 데이터센터 건설·인프라 관련주로 자금 유입.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "GS건설의 AI 데이터센터 시공물량 모멘텀이 부각되며 데이터센터 건설·인프라 관련주로 자금 유입.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "GS건설의 AI 데이터센터 시공물량 모멘텀이 부각되며 데이터센터 건설·인프라 관련주로 자금 유입.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "GS건설의 AI 데이터센터 시공물량 모멘텀이 부각되며 데이터센터 건설·인프라 관련주로 자금 유입.",
+            "source_count": 2,
+            "verdict": "weak"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "GS건설의 AI 데이터센터 시공물량 모멘텀이 부각되며 데이터센터 건설·인프라 관련주로 자금 유입.",
+            "source_count": 2,
+            "verdict": "pass"
           },
           {
             "name": "AI 데이터센터",
@@ -1194,6 +1254,36 @@
             "verdict": "weak"
           },
           {
+            "name": "원전",
+            "summary": "AI 데이터센터 전력 수요와 맞물린 해외 원전 수주 기대가 GS건설 등 건설·원전 밸류체인 매수 재료로 부상.",
+            "source_count": 2,
+            "verdict": "weak"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "GS건설이 10조원 규모 데이터센터·해외 원전 시공 모멘텀을 확보하며 AI 인프라 투자 확대가 건설·원전 섹터 수혜로 연결",
+            "source_count": 2,
+            "verdict": "weak"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "GS건설이 10조원 규모 데이터센터·해외 원전 시공 모멘텀을 확보하며 AI 인프라 투자 확대가 건설·원전 섹터 수혜로 연결",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "GS건설이 10조원 규모 데이터센터·해외 원전 시공 모멘텀을 확보하며 AI 인프라 투자 확대가 건설·원전 섹터 수혜로 연결",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "GS건설이 10조원 규모 데이터센터·해외 원전 시공 모멘텀을 확보하며 AI 인프라 투자 확대가 건설·원전 섹터 수혜로 연결",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
             "name": "AI 데이터센터",
             "summary": "GS건설이 10조원 규모 데이터센터·해외 원전 시공 모멘텀을 확보하며 AI 인프라 투자 확대가 건설·원전 섹터 수혜로 연결",
             "source_count": 2,
@@ -1239,24 +1329,6 @@
             "name": "AI 데이터센터",
             "summary": "GS건설이 10조원 규모 데이터센터·해외 원전 시공 모멘텀을 확보하며 AI 인프라 투자 확대가 건설·원전 섹터 수혜로 연결",
             "source_count": 2,
-            "verdict": "pass"
-          },
-          {
-            "name": "AI 데이터센터",
-            "summary": "GS건설이 10조원 규모 데이터센터·해외 원전 시공 모멘텀을 확보하며 AI 인프라 투자 확대가 건설·원전 섹터 수혜로 연결",
-            "source_count": 2,
-            "verdict": "weak"
-          },
-          {
-            "name": "AI 데이터센터",
-            "summary": "GS건설이 10조원 규모 데이터센터·해외 원전 시공 모멘텀을 확보하며 AI 인프라 투자 확대가 건설·원전 섹터 수혜로 연결",
-            "source_count": 2,
-            "verdict": "pass"
-          },
-          {
-            "name": "AI 데이터센터",
-            "summary": "GS건설이 10조원 규모 데이터센터·해외 원전 시공 모멘텀을 확보하며 AI 인프라 투자 확대가 건설·원전 섹터 수혜로 연결",
-            "source_count": 2,
             "verdict": "weak"
           },
           {
@@ -1298,6 +1370,12 @@
           {
             "name": "AI 데이터센터",
             "summary": "GS건설이 10조원 규모 데이터센터·해외 원전 시공 모멘텀을 확보하며 AI 인프라 투자 확대가 건설·원전 섹터 수혜로 연결",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "반도체",
+            "summary": "메모리 업황 반등 기대로 삼성전자·SK하이닉스 강세, MLCC 등 부품주까지 확산되며 코스피 지수를 끌어올림.",
             "source_count": 2,
             "verdict": "pass"
           },
@@ -1468,6 +1546,12 @@
             "summary": "GS건설의 AI 데이터센터 시공물량 확대 기대감이 건설·인프라 섹터로 확산",
             "source_count": 1,
             "verdict": "weak"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "GS건설의 AI 데이터센터 시공물량 확대 기대감이 건설·인프라 섹터로 확산",
+            "source_count": 1,
+            "verdict": "pass"
           },
           {
             "name": "AI 데이터센터",
@@ -1674,6 +1758,12 @@
             "verdict": "pass"
           },
           {
+            "name": "반도체",
+            "summary": "삼성전자·SK하이닉스 급등에 코스피 4%대 반등하며 반도체 대형주로 매수세 집중.",
+            "source_count": 1,
+            "verdict": "pass"
+          },
+          {
             "name": "데이터센터",
             "summary": "GS건설이 데이터센터·원전 겹모멘텀으로 10조 시공물량 기대를 받으며 건설 수혜주로 매수 이유 형성.",
             "source_count": 1,
@@ -1702,6 +1792,12 @@
             "summary": "AI 전력수요 확대로 원전 시공물량이 부각되며 건설·원전 밸류체인 기대감 형성",
             "source_count": 1,
             "verdict": "unverified"
+          },
+          {
+            "name": "데이터센터",
+            "summary": "GS건설이 데이터센터·원전 겹모멘텀으로 10조원 시공물량을 언급하며 데이터센터 건설·전력 인프라 수혜 부각.",
+            "source_count": 1,
+            "verdict": "weak"
           }
         ]
       },
@@ -1805,6 +1901,18 @@
             "verdict": "weak"
           },
           {
+            "name": "원전",
+            "summary": "GS건설 해외 원전 수주 기대가 데이터센터와 함께 겹호재로 작용하며 원전 밸류체인에 관심 집중",
+            "source_count": 8,
+            "verdict": "weak"
+          },
+          {
+            "name": "반도체",
+            "summary": "삼성전자·SK하이닉스 강세로 반도체 업황 회복 기대가 부각되며 코스피를 견인, 반도체·소재부품 섹터 수혜",
+            "source_count": 8,
+            "verdict": "pass"
+          },
+          {
             "name": "반도체",
             "summary": "삼성전자·SK하이닉스 강세로 반도체 업황 회복 기대가 부각되며 코스피를 견인, 반도체·소재부품 섹터 수혜",
             "source_count": 8,
@@ -1953,6 +2061,12 @@
             "summary": "GS건설이 10조원 시공물량과 AI 데이터센터·해외 원전 겹모멘텀으로 건설·데이터센터 인프라 섹터 수혜",
             "source_count": 5,
             "verdict": "weak"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "GS건설이 10조원 시공물량과 AI 데이터센터·해외 원전 겹모멘텀으로 건설·데이터센터 인프라 섹터 수혜",
+            "source_count": 5,
+            "verdict": "pass"
           },
           {
             "name": "AI 데이터센터",
@@ -2159,26 +2273,8 @@
             "verdict": "pass"
           },
           {
-            "name": "AI 데이터센터",
-            "summary": "AI 데이터센터 시공 물량 확대 기대로 GS건설 등 건설·인프라주에 모멘텀이 형성됐다.",
-            "source_count": 2,
-            "verdict": "weak"
-          },
-          {
-            "name": "AI 데이터센터",
-            "summary": "AI 데이터센터 시공 물량 확대 기대로 GS건설 등 건설·인프라주에 모멘텀이 형성됐다.",
-            "source_count": 2,
-            "verdict": "pass"
-          },
-          {
-            "name": "AI 데이터센터",
-            "summary": "AI 데이터센터 시공 물량 확대 기대로 GS건설 등 건설·인프라주에 모멘텀이 형성됐다.",
-            "source_count": 2,
-            "verdict": "pass"
-          },
-          {
-            "name": "AI 데이터센터",
-            "summary": "AI 데이터센터 시공 물량 확대 기대로 GS건설 등 건설·인프라주에 모멘텀이 형성됐다.",
+            "name": "반도체",
+            "summary": "반도체 업황 반등 기대로 삼성전자·SK하이닉스 등 대형주에 매수세가 몰리며 코스피를 끌어올렸다.",
             "source_count": 2,
             "verdict": "pass"
           },
@@ -2222,6 +2318,36 @@
             "name": "AI 데이터센터",
             "summary": "AI 데이터센터 시공 물량 확대 기대로 GS건설 등 건설·인프라주에 모멘텀이 형성됐다.",
             "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "AI 데이터센터 시공 물량 확대 기대로 GS건설 등 건설·인프라주에 모멘텀이 형성됐다.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "AI 데이터센터 시공 물량 확대 기대로 GS건설 등 건설·인프라주에 모멘텀이 형성됐다.",
+            "source_count": 2,
+            "verdict": "weak"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "AI 데이터센터 시공 물량 확대 기대로 GS건설 등 건설·인프라주에 모멘텀이 형성됐다.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "AI 데이터센터 시공 물량 확대 기대로 GS건설 등 건설·인프라주에 모멘텀이 형성됐다.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "AI 데이터센터 시공 물량 확대 기대로 GS건설 등 건설·인프라주에 모멘텀이 형성됐다.",
+            "source_count": 2,
             "verdict": "weak"
           },
           {
@@ -2359,6 +2485,18 @@
           {
             "name": "원전",
             "summary": "해외 원전 수주 모멘텀 기대로 GS건설 등 원전 밸류체인 관련주가 부각됐다.",
+            "source_count": 2,
+            "verdict": "weak"
+          },
+          {
+            "name": "원전",
+            "summary": "해외 원전 수주 모멘텀 기대로 GS건설 등 원전 밸류체인 관련주가 부각됐다.",
+            "source_count": 2,
+            "verdict": "weak"
+          },
+          {
+            "name": "원전",
+            "summary": "GS건설 해외 원전 수주 모멘텀이 데이터센터와 겹치며 원전 EPC·건설 섹터 기대감 확대",
             "source_count": 2,
             "verdict": "weak"
           },
@@ -2573,6 +2711,12 @@
             "verdict": "pass"
           },
           {
+            "name": "반도체",
+            "summary": "삼성전자·SK하이닉스 급등으로 반도체 업황 회복 기대가 코스피 반등을 견인해 반도체 대형주·소부장으로 매수세 집중.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
             "name": "원자력발전",
             "summary": "GS건설 해외 원전 수주 모멘텀이 데이터센터 전력 수요와 맞물리며 원전 밸류체인 수혜 기대.",
             "source_count": 2,
@@ -2669,6 +2813,18 @@
             "verdict": "pass"
           },
           {
+            "name": "MLCC",
+            "summary": "삼성전기·LG이노텍 두 자릿수 급등과 한울반도체 후공정 고도화로 MLCC·전자부품 수요 회복 기대.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "반도체",
+            "summary": "삼성전자·SK하이닉스 동반 급등으로 반도체 대형주가 코스피를 4%대 상승으로 끌어올리며 시장 주도주로 복귀했다.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
             "name": "반도체",
             "summary": "삼성전자·SK하이닉스 동반 급등으로 반도체 대형주가 코스피를 4%대 상승으로 끌어올리며 시장 주도주로 복귀했다.",
             "source_count": 2,
@@ -2859,6 +3015,18 @@
             "summary": "메모리 업황 반등 기대에 삼성전자·SK하이닉스가 급등하며 코스피를 끌어올려 대형 반도체주로 매수세 집중",
             "source_count": 2,
             "verdict": "pass"
+          },
+          {
+            "name": "반도체",
+            "summary": "메모리 업황 반등 기대에 삼성전자·SK하이닉스가 급등하며 코스피를 끌어올려 대형 반도체주로 매수세 집중",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "원전",
+            "summary": "GS건설 해외 원전 수주 모멘텀 부각으로 원전 EPC·기자재 섹터 관심 확대",
+            "source_count": 1,
+            "verdict": "weak"
           },
           {
             "name": "원전",
@@ -3193,6 +3361,18 @@
           {
             "name": "원전",
             "summary": "원전 발주 모멘텀이 데이터센터 전력 수요와 맞물리며 GS건설 등 원전 시공·기자재 섹터로 자금이 유입됐다.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "원전",
+            "summary": "원전 발주 모멘텀이 데이터센터 전력 수요와 맞물리며 GS건설 등 원전 시공·기자재 섹터로 자금이 유입됐다.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "원전",
+            "summary": "전력 수요 증가와 원전 발주 모멘텀으로 GS건설 등 원전 시공·기자재 관련주로 매수세 유입",
             "source_count": 1,
             "verdict": "weak"
           },
@@ -3388,6 +3568,12 @@
             "verdict": "pass"
           },
           {
+            "name": "MLCC",
+            "summary": "삼성전기·LG이노텍 두 자릿수 급등과 한울반도체 MLCC 후공정 고도화로 적층세라믹콘덴서 밸류체인 수혜",
+            "source_count": 5,
+            "verdict": "pass"
+          },
+          {
             "name": "MLCC·전장부품",
             "summary": "AI·전장 수요 기대에 삼성전기·LG이노텍이 두 자릿수 급등하고 후공정 검사장비까지 부각되며 MLCC 밸류체인에 자금 유입.",
             "source_count": 3,
@@ -3490,6 +3676,12 @@
             "verdict": "pass"
           },
           {
+            "name": "MLCC",
+            "summary": "AI 수요發 부품 업황 개선 기대로 삼성전기·LG이노텍 등 MLCC·전자부품주가 두 자릿수 급등했다.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
             "name": "반도체 업황 회복",
             "summary": "삼성전자·SK하이닉스 반등으로 코스피 4%대 급등, 삼성전기·LG이노텍 두 자릿수 상승 등 반도체·부품 섹터로 수급 집중",
             "source_count": 2,
@@ -3599,6 +3791,18 @@
           },
           {
             "name": "MLCC",
+            "summary": "AI 수요發 부품 사이클 기대에 삼성전기·LG이노텍이 두 자릿수 급등하고 후공정 장비까지 온기가 확산됐다.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "MLCC",
+            "summary": "AI 수요 확대에 따른 적층세라믹콘덴서 업황 개선 기대로 삼성전기·LG이노텍 급등 및 후공정 검사장비 업체까지 온기 확산",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "MLCC",
             "summary": "AI 수요 확대에 따른 적층세라믹콘덴서 업황 개선 기대로 삼성전기·LG이노텍 급등 및 후공정 검사장비 업체까지 온기 확산",
             "source_count": 2,
             "verdict": "pass"
@@ -3774,6 +3978,18 @@
           {
             "name": "MLCC",
             "summary": "한울반도체가 AI 초음파 검사장비로 MLCC 후공정 고도화에 나서며 전장·AI향 MLCC 수요 기대.",
+            "source_count": 1,
+            "verdict": "pass"
+          },
+          {
+            "name": "MLCC",
+            "summary": "한울반도체가 AI 초음파 검사장비로 MLCC 후공정 고도화에 나서며 전장·AI향 MLCC 수요 기대.",
+            "source_count": 1,
+            "verdict": "pass"
+          },
+          {
+            "name": "MLCC",
+            "summary": "삼성전기·LG이노텍 두 자릿수 급등에 한울반도체 후공정 검사장비까지 부각되며 MLCC 밸류체인 수급 유입.",
             "source_count": 1,
             "verdict": "pass"
           },
@@ -4201,6 +4417,12 @@
             "summary": "유니켐이 美 전자피부 기업 인수로 휴머노이드 촉각센서 시장에 진출하며 로봇 부품주로 자금 유입",
             "source_count": 1,
             "verdict": "weak"
+          },
+          {
+            "name": "휴머노이드",
+            "summary": "유니켐이 美 로봇 전자피부 기업을 인수해 휴머노이드 촉각 시장에 진출, 로봇 센서·부품 밸류체인 수혜 기대.",
+            "source_count": 1,
+            "verdict": "weak"
           }
         ]
       },
@@ -4300,6 +4522,18 @@
           {
             "name": "MLCC",
             "summary": "한울반도체가 AI 초음파 검사장비로 MLCC 후공정을 고도화하고 삼성전기 급등이 겹치며 MLCC 밸류체인으로 매수세 유입.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "MLCC",
+            "summary": "한울반도체가 AI 초음파 검사장비로 MLCC 후공정을 고도화하고 삼성전기 급등이 겹치며 MLCC 밸류체인으로 매수세 유입.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "MLCC",
+            "summary": "AI·전장용 수요 확대로 MLCC 급등, 삼성전기와 후공정 검사장비 업체까지 밸류체인 전반 수혜",
             "source_count": 2,
             "verdict": "pass"
           },
@@ -4485,6 +4719,18 @@
           {
             "name": "MLCC",
             "summary": "한울반도체가 AI 초음파 검사장비로 MLCC 후공정을 고도화하고 삼성전기 급등하며 MLCC 밸류체인 부각.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "MLCC",
+            "summary": "한울반도체가 AI 초음파 검사장비로 MLCC 후공정을 고도화하고 삼성전기 급등하며 MLCC 밸류체인 부각.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "MLCC",
+            "summary": "삼성전기·LG이노텍 두 자릿수 급등과 한울반도체 MLCC 후공정 AI 검사장비 개발로 적층세라믹콘덴서 밸류체인에 관심 집중.",
             "source_count": 2,
             "verdict": "pass"
           },
@@ -4696,12 +4942,131 @@
             "summary": "딥노이드가 원격판독 플랫폼 허가로 의료 AI 운영체제 구축에 착수하며 헬스케어 AI 기대 부각",
             "source_count": 1,
             "verdict": "weak"
+          },
+          {
+            "name": "의료 AI",
+            "summary": "딥노이드가 원격판독 플랫폼 허가로 의료 AI 운영체제 구축에 나서며 의료 AI·디지털헬스케어 섹터 관심 부각.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "의료 AI",
+            "summary": "딥노이드가 원격판독 플랫폼 허가로 의료 AI 운영체제 구축에 나서며 의료 AI·디지털헬스케어 섹터 관심 부각.",
+            "source_count": 1,
+            "verdict": "weak"
+          }
+        ]
+      },
+      {
+        "name": "IT부품",
+        "children": [
+          {
+            "name": "MLCC",
+            "summary": "삼성전기·LG이노텍 두 자릿수 급등에 한울반도체 MLCC 후공정 AI 검사장비 개발까지 겹치며 적층세라믹콘덴서 밸류체인으로 수급 집중.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "MLCC",
+            "summary": "삼성전기·LG이노텍 두 자릿수 급등에 한울반도체 MLCC 후공정 AI 검사장비 개발까지 겹치며 적층세라믹콘덴서 밸류체인으로 수급 집중.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "MLCC",
+            "summary": "삼성전기·LG이노텍 두 자릿수 급등에 한울반도체 MLCC 후공정 AI 검사장비 개발까지 겹치며 적층세라믹콘덴서 밸류체인으로 수급 집중.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "MLCC",
+            "summary": "삼성전기·LG이노텍 두 자릿수 급등에 한울반도체 MLCC 후공정 AI 검사장비 개발까지 겹치며 적층세라믹콘덴서 밸류체인으로 수급 집중.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "MLCC",
+            "summary": "삼성전기·LG이노텍 두 자릿수 급등에 한울반도체 MLCC 후공정 AI 검사장비 개발까지 겹치며 적층세라믹콘덴서 밸류체인으로 수급 집중.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "MLCC",
+            "summary": "삼성전기·LG이노텍 두 자릿수 급등에 한울반도체 MLCC 후공정 AI 검사장비 개발까지 겹치며 적층세라믹콘덴서 밸류체인으로 수급 집중.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "MLCC",
+            "summary": "삼성전기·LG이노텍 두 자릿수 급등에 한울반도체 MLCC 후공정 AI 검사장비 개발까지 겹치며 적층세라믹콘덴서 밸류체인으로 수급 집중.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "MLCC",
+            "summary": "삼성전기·LG이노텍 두 자릿수 급등에 한울반도체 MLCC 후공정 AI 검사장비 개발까지 겹치며 적층세라믹콘덴서 밸류체인으로 수급 집중.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "MLCC",
+            "summary": "삼성전기·LG이노텍 두 자릿수 급등에 한울반도체 MLCC 후공정 AI 검사장비 개발까지 겹치며 적층세라믹콘덴서 밸류체인으로 수급 집중.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "MLCC",
+            "summary": "삼성전기·LG이노텍 두 자릿수 급등에 한울반도체 MLCC 후공정 AI 검사장비 개발까지 겹치며 적층세라믹콘덴서 밸류체인으로 수급 집중.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "MLCC",
+            "summary": "삼성전기·LG이노텍 두 자릿수 급등에 한울반도체 MLCC 후공정 AI 검사장비 개발까지 겹치며 적층세라믹콘덴서 밸류체인으로 수급 집중.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "MLCC",
+            "summary": "삼성전기·LG이노텍 두 자릿수 급등에 한울반도체 MLCC 후공정 AI 검사장비 개발까지 겹치며 적층세라믹콘덴서 밸류체인으로 수급 집중.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "MLCC",
+            "summary": "삼성전기·LG이노텍 두 자릿수 급등에 한울반도체 MLCC 후공정 AI 검사장비 개발까지 겹치며 적층세라믹콘덴서 밸류체인으로 수급 집중.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "MLCC",
+            "summary": "삼성전기·LG이노텍 두 자릿수 급등에 한울반도체 MLCC 후공정 AI 검사장비 개발까지 겹치며 적층세라믹콘덴서 밸류체인으로 수급 집중.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "MLCC",
+            "summary": "삼성전기·LG이노텍 두 자릿수 급등에 한울반도체 MLCC 후공정 AI 검사장비 개발까지 겹치며 적층세라믹콘덴서 밸류체인으로 수급 집중.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "MLCC",
+            "summary": "삼성전기·LG이노텍 두 자릿수 급등에 한울반도체 MLCC 후공정 AI 검사장비 개발까지 겹치며 적층세라믹콘덴서 밸류체인으로 수급 집중.",
+            "source_count": 2,
+            "verdict": "pass"
           }
         ]
       },
       {
         "name": "반도체 업황 회복",
         "children": [
+          {
+            "name": "MLCC",
+            "summary": "한울반도체 MLCC 후공정 고도화 및 AI 초음파 검사장비 개발로 부품 후공정·검사장비 수혜",
+            "source_count": 1,
+            "verdict": "pass"
+          },
           {
             "name": "MLCC",
             "summary": "한울반도체 MLCC 후공정 고도화 및 AI 초음파 검사장비 개발로 부품 후공정·검사장비 수혜",
@@ -4814,6 +5179,12 @@
       {
         "name": "IT",
         "children": [
+          {
+            "name": "반도체",
+            "summary": "삼성전자·SK하이닉스·삼성전기·LG이노텍 급등으로 반도체·전자부품 섹터가 코스피 반등 주도.",
+            "source_count": 1,
+            "verdict": "pass"
+          },
           {
             "name": "반도체",
             "summary": "삼성전자·SK하이닉스·삼성전기·LG이노텍 급등으로 반도체·전자부품 섹터가 코스피 반등 주도.",
@@ -5033,6 +5404,23 @@
             "summary": "GS건설의 원전 겹모멘텀 부각으로 데이터센터 전력공급용 원전 밸류체인 수혜 기대가 형성.",
             "source_count": 1,
             "verdict": "weak"
+          },
+          {
+            "name": "원전",
+            "summary": "GS건설의 원전 겹모멘텀 부각으로 데이터센터 전력공급용 원전 밸류체인 수혜 기대가 형성.",
+            "source_count": 1,
+            "verdict": "weak"
+          }
+        ]
+      },
+      {
+        "name": "전력인프라",
+        "children": [
+          {
+            "name": "원자력발전",
+            "summary": "GS건설의 원전 모멘텀 부각으로 데이터센터 전력 수요와 맞물린 원전 건설·기자재 섹터 관심 확대.",
+            "source_count": 1,
+            "verdict": "unverified"
           }
         ]
       }
@@ -5043,9 +5431,9 @@
       "code": "477850",
       "name": "마키나락스",
       "rank": 1,
-      "trade_amount": 187767000000,
-      "change_pct": 6.04,
-      "close_price": 31600,
+      "trade_amount": 189462000000,
+      "change_pct": 5.2,
+      "close_price": 31350,
       "open_price": 30800,
       "high_price": 32600,
       "low_price": 28750,
@@ -5151,17 +5539,17 @@
         ],
         "cafe_only": []
       },
-      "index_change_pct": 0.49,
-      "index_multiple_current": 12.33,
+      "index_change_pct": 0.27,
+      "index_multiple_current": 19.26,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 83600,
         "high_date": "2026-05-22",
-        "high_pct": -62.2,
+        "high_pct": -62.5,
         "low": 13420,
         "low_date": "2026-06-24",
-        "low_pct": 135.47,
-        "current": 31600
+        "low_pct": 133.61,
+        "current": 31350
       },
       "daily_20": [
         {
@@ -5302,7 +5690,7 @@
           "o": 30800,
           "h": 32600,
           "l": 28750,
-          "c": 31600
+          "c": 31350
         }
       ],
       "status_badges": [
@@ -5315,7 +5703,7 @@
               "desc": "5일 전(2026-07-30) 대비 +60%↑",
               "base_price": 19500,
               "threshold": 31200,
-              "current": 31600,
+              "current": 31350,
               "triggered": true
             }
           ],
@@ -5373,7 +5761,9 @@
           31250,
           31200,
           31750,
-          31700
+          31550,
+          31450,
+          31300
         ]
       },
       "togusa_verdict": "strong_bull",
@@ -5384,7 +5774,7 @@
       "code": "047040",
       "name": "대우건설",
       "rank": 2,
-      "trade_amount": 140017000000,
+      "trade_amount": 142275000000,
       "change_pct": 4.37,
       "close_price": 16940,
       "open_price": 16240,
@@ -5427,8 +5817,8 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": -3.99,
-      "index_multiple_current": -1.1,
+      "index_change_pct": -4.09,
+      "index_multiple_current": -1.07,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 40350,
@@ -5622,7 +6012,9 @@
           16930,
           17000,
           16990,
-          16950
+          16990,
+          16900,
+          16920
         ]
       },
       "togusa_verdict": "weak_bull",
@@ -5633,9 +6025,9 @@
       "code": "439960",
       "name": "코스모로보틱스",
       "rank": 3,
-      "trade_amount": 130584000000,
-      "change_pct": 0.95,
-      "close_price": 19180,
+      "trade_amount": 131959000000,
+      "change_pct": 0.58,
+      "close_price": 19110,
       "open_price": 19820,
       "high_price": 21700,
       "low_price": 18410,
@@ -5667,17 +6059,17 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 0.49,
-      "index_multiple_current": 1.94,
+      "index_change_pct": 0.27,
+      "index_multiple_current": 2.15,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 68500,
         "high_date": "2026-05-15",
-        "high_pct": -72.0,
+        "high_pct": -72.1,
         "low": 10000,
         "low_date": "2026-07-21",
-        "low_pct": 91.8,
-        "current": 19180
+        "low_pct": 91.1,
+        "current": 19110
       },
       "daily_20": [
         {
@@ -5818,7 +6210,7 @@
           "o": 19820,
           "h": 21700,
           "l": 18410,
-          "c": 19180
+          "c": 19110
         }
       ],
       "intraday": {
@@ -5862,7 +6254,9 @@
           19250,
           19150,
           19220,
-          19210
+          19140,
+          19070,
+          19110
         ]
       },
       "credit_risk": true,
@@ -5877,9 +6271,9 @@
       "code": "073240",
       "name": "금호타이어",
       "rank": 4,
-      "trade_amount": 128560000000,
-      "change_pct": 4.2,
-      "close_price": 7690,
+      "trade_amount": 129592000000,
+      "change_pct": 4.61,
+      "close_price": 7720,
       "open_price": 7200,
       "high_price": 8470,
       "low_price": 7120,
@@ -6009,17 +6403,17 @@
         ],
         "cafe_only": []
       },
-      "index_change_pct": -3.99,
-      "index_multiple_current": -1.05,
+      "index_change_pct": -4.09,
+      "index_multiple_current": -1.13,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 8470,
         "high_date": "2026-08-06",
-        "high_pct": -9.21,
+        "high_pct": -8.85,
         "low": 4220,
         "low_date": "2026-06-24",
-        "low_pct": 82.23,
-        "current": 7690
+        "low_pct": 82.94,
+        "current": 7720
       },
       "daily_20": [
         {
@@ -6160,7 +6554,7 @@
           "o": 7200,
           "h": 8470,
           "l": 7120,
-          "c": 7690
+          "c": 7720
         }
       ],
       "intraday": {
@@ -6204,7 +6598,9 @@
           7620,
           7620,
           7690,
-          7680
+          7740,
+          7700,
+          7720
         ]
       },
       "togusa_verdict": "weak_bull",
@@ -6215,9 +6611,9 @@
       "code": "069540",
       "name": "빛과전자",
       "rank": 5,
-      "trade_amount": 108451000000,
-      "change_pct": 0.87,
-      "close_price": 2915,
+      "trade_amount": 109739000000,
+      "change_pct": 0.35,
+      "close_price": 2900,
       "open_price": 2890,
       "high_price": 3205,
       "low_price": 2690,
@@ -6282,17 +6678,17 @@
         ],
         "cafe_only": []
       },
-      "index_change_pct": 0.49,
-      "index_multiple_current": 1.78,
+      "index_change_pct": 0.27,
+      "index_multiple_current": 1.3,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 8100,
         "high_date": "2026-04-16",
-        "high_pct": -64.01,
+        "high_pct": -64.2,
         "low": 592,
         "low_date": "2026-01-02",
-        "low_pct": 392.4,
-        "current": 2915
+        "low_pct": 389.86,
+        "current": 2900
       },
       "daily_20": [
         {
@@ -6433,7 +6829,7 @@
           "o": 2890,
           "h": 3205,
           "l": 2690,
-          "c": 2915
+          "c": 2900
         }
       ],
       "status_badges": [
@@ -6510,6 +6906,8 @@
           2905,
           2910,
           2905,
+          2940,
+          2895,
           2905
         ]
       },
@@ -6522,10 +6920,10 @@
     {
       "code": "024840",
       "name": "KBI메탈",
-      "rank": 6,
-      "trade_amount": 87948000000,
-      "change_pct": 3.51,
-      "close_price": 5160,
+      "rank": 7,
+      "trade_amount": 90769000000,
+      "change_pct": 5.32,
+      "close_price": 5250,
       "open_price": 5240,
       "high_price": 5660,
       "low_price": 5030,
@@ -6583,17 +6981,17 @@
         ],
         "cafe_only": []
       },
-      "index_change_pct": 0.49,
-      "index_multiple_current": 7.16,
+      "index_change_pct": 0.27,
+      "index_multiple_current": 19.7,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 11760,
         "high_date": "2026-05-11",
-        "high_pct": -56.12,
+        "high_pct": -55.36,
         "low": 1620,
         "low_date": "2025-11-25",
-        "low_pct": 218.52,
-        "current": 5160
+        "low_pct": 224.07,
+        "current": 5250
       },
       "daily_20": [
         {
@@ -6734,7 +7132,7 @@
           "o": 5240,
           "h": 5660,
           "l": 5030,
-          "c": 5160
+          "c": 5250
         }
       ],
       "status_badges": [
@@ -6747,7 +7145,7 @@
               "desc": "5일 전(2026-07-30) 대비 +60%↑",
               "base_price": 3165,
               "threshold": 5064,
-              "current": 5160,
+              "current": 5250,
               "triggered": true
             }
           ],
@@ -6805,7 +7203,9 @@
           5180,
           5200,
           5150,
-          5160
+          5210,
+          5260,
+          5250
         ]
       },
       "togusa_verdict": "neutral",
@@ -6818,7 +7218,7 @@
       "code": "196170",
       "name": "알테오젠",
       "rank": 8,
-      "trade_amount": 86050000000,
+      "trade_amount": 88722000000,
       "change_pct": 3.97,
       "close_price": 288000,
       "open_price": 284000,
@@ -6937,8 +7337,8 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": 0.49,
-      "index_multiple_current": 8.1,
+      "index_change_pct": 0.27,
+      "index_multiple_current": 14.7,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 437846,
@@ -7132,7 +7532,9 @@
           289500,
           289500,
           288250,
-          288000
+          289500,
+          287500,
+          287500
         ]
       },
       "credit_risk": true,
@@ -7145,9 +7547,9 @@
       "code": "058610",
       "name": "에스피지",
       "rank": 9,
-      "trade_amount": 77278000000,
-      "change_pct": 1.38,
-      "close_price": 110400,
+      "trade_amount": 78171000000,
+      "change_pct": 1.1,
+      "close_price": 110100,
       "open_price": 113300,
       "high_price": 118300,
       "low_price": 106900,
@@ -7178,17 +7580,17 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 0.49,
-      "index_multiple_current": 2.82,
+      "index_change_pct": 0.27,
+      "index_multiple_current": 4.07,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 165700,
         "high_date": "2026-01-29",
-        "high_pct": -33.37,
+        "high_pct": -33.55,
         "low": 22500,
         "low_date": "2025-08-20",
-        "low_pct": 390.67,
-        "current": 110400
+        "low_pct": 389.33,
+        "current": 110100
       },
       "daily_20": [
         {
@@ -7329,7 +7731,7 @@
           "o": 113300,
           "h": 118300,
           "l": 106900,
-          "c": 110400
+          "c": 110100
         }
       ],
       "intraday": {
@@ -7373,7 +7775,9 @@
           111000,
           111400,
           110400,
-          110500
+          110700,
+          109700,
+          109700
         ]
       },
       "credit_risk": true,
@@ -7388,9 +7792,9 @@
       "code": "067290",
       "name": "JW신약",
       "rank": 10,
-      "trade_amount": 59843000000,
-      "change_pct": 18.45,
-      "close_price": 2375,
+      "trade_amount": 60088000000,
+      "change_pct": 17.96,
+      "close_price": 2365,
       "open_price": 2020,
       "high_price": 2535,
       "low_price": 2005,
@@ -7504,17 +7908,17 @@
         ],
         "cafe_only": []
       },
-      "index_change_pct": 0.49,
-      "index_multiple_current": 37.65,
+      "index_change_pct": 0.27,
+      "index_multiple_current": 66.52,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 3465,
         "high_date": "2026-06-23",
-        "high_pct": -31.46,
+        "high_pct": -31.75,
         "low": 1246,
         "low_date": "2026-06-08",
-        "low_pct": 90.61,
-        "current": 2375
+        "low_pct": 89.81,
+        "current": 2365
       },
       "daily_20": [
         {
@@ -7655,7 +8059,7 @@
           "o": 2020,
           "h": 2535,
           "l": 2005,
-          "c": 2375
+          "c": 2365
         }
       ],
       "intraday": {
@@ -7699,7 +8103,9 @@
           2365,
           2370,
           2375,
-          2380
+          2365,
+          2365,
+          2365
         ]
       },
       "togusa_verdict": "neutral",
@@ -7707,10 +8113,231 @@
       "hugepark_grade": "관찰"
     },
     {
+      "code": "006260",
+      "name": "LS",
+      "rank": 11,
+      "trade_amount": 50472000000,
+      "change_pct": 1.37,
+      "close_price": 333500,
+      "open_price": 328000,
+      "high_price": 354500,
+      "low_price": 326500,
+      "industry": "기타 금융업",
+      "sector": "전력용전선,일반전선,통신케이블,동선,알루미늄선,공조기,프라스틱사출성형기 제조,도매",
+      "themes": [
+        "케이블",
+        "전력설비",
+        "비철금속"
+      ],
+      "theme_paths": [
+        {
+          "name": "케이블",
+          "path": [
+            "케이블"
+          ]
+        },
+        {
+          "name": "전력설비",
+          "path": [
+            "전력설비"
+          ]
+        },
+        {
+          "name": "비철금속",
+          "path": [
+            "비철금속"
+          ]
+        }
+      ],
+      "pick_count": 2,
+      "prev_pick": {
+        "date": "2026-08-05",
+        "rank": 13,
+        "change_pct": 9.48,
+        "trade_amount": 57322000000
+      },
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [],
+      "news": [
+        {
+          "title": "카카오페이, 2분기 컨센서스 상회…중장기 성장성 가속화-LS證",
+          "url": "https://www.fnnews.com/news/202608050902076623",
+          "source": "파이낸셜뉴스",
+          "published_at": "2026-08-06T09:00:05.627757",
+          "causal_chain": "제공된 뉴스 3건은 모두 LS의 자회사 LS증권이 발간한 타사(삼성증권·카카오페이·에스엠) 종목분석 리포트로, 지주사 LS 자체의 펀더멘털·매크로 사건이 아니다. 당일 종가 328,000원(-0.30%)·거래대금 3억원의 미미한 흐름은 본 뉴스로 설명되지 않으며, LS 본질 사업(케이블·전력설비·비철금속) 관련 매크로 사슬을 식별할 근거가 본문에 없다.",
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        }
+      ],
+      "fallback": false,
+      "index_change_pct": -4.09,
+      "index_multiple_current": -0.33,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 604000,
+        "high_date": "2026-05-26",
+        "high_pct": -44.78,
+        "low": 148600,
+        "low_date": "2025-08-20",
+        "low_pct": 124.43,
+        "current": 333500
+      },
+      "daily_20": [
+        {
+          "date": "2026-07-09",
+          "o": 308000,
+          "h": 327500,
+          "l": 304500,
+          "c": 313500
+        },
+        {
+          "date": "2026-07-10",
+          "o": 326500,
+          "h": 339500,
+          "l": 323000,
+          "c": 329000
+        },
+        {
+          "date": "2026-07-13",
+          "o": 335000,
+          "h": 337750,
+          "l": 298000,
+          "c": 303500
+        },
+        {
+          "date": "2026-07-14",
+          "o": 305000,
+          "h": 306000,
+          "l": 276500,
+          "c": 292500
+        },
+        {
+          "date": "2026-07-15",
+          "o": 303500,
+          "h": 308500,
+          "l": 293500,
+          "c": 305000
+        },
+        {
+          "date": "2026-07-16",
+          "o": 293000,
+          "h": 295000,
+          "l": 278000,
+          "c": 288000
+        },
+        {
+          "date": "2026-07-20",
+          "o": 277500,
+          "h": 281500,
+          "l": 262000,
+          "c": 265500
+        },
+        {
+          "date": "2026-07-21",
+          "o": 262000,
+          "h": 277000,
+          "l": 259000,
+          "c": 275000
+        },
+        {
+          "date": "2026-07-22",
+          "o": 284000,
+          "h": 301500,
+          "l": 280000,
+          "c": 284500
+        },
+        {
+          "date": "2026-07-23",
+          "o": 288500,
+          "h": 324000,
+          "l": 288500,
+          "c": 321500
+        },
+        {
+          "date": "2026-07-24",
+          "o": 322000,
+          "h": 327500,
+          "l": 304000,
+          "c": 307000
+        },
+        {
+          "date": "2026-07-27",
+          "o": 314500,
+          "h": 317500,
+          "l": 288000,
+          "c": 305000
+        },
+        {
+          "date": "2026-07-28",
+          "o": 292000,
+          "h": 295000,
+          "l": 263500,
+          "c": 268000
+        },
+        {
+          "date": "2026-07-29",
+          "o": 271000,
+          "h": 274500,
+          "l": 224500,
+          "c": 243500
+        },
+        {
+          "date": "2026-07-30",
+          "o": 238500,
+          "h": 253500,
+          "l": 221000,
+          "c": 223500
+        },
+        {
+          "date": "2026-07-31",
+          "o": 253500,
+          "h": 270500,
+          "l": 244500,
+          "c": 267000
+        },
+        {
+          "date": "2026-08-03",
+          "o": 262000,
+          "h": 278000,
+          "l": 260000,
+          "c": 273000
+        },
+        {
+          "date": "2026-08-04",
+          "o": 280000,
+          "h": 301500,
+          "l": 277500,
+          "c": 300500
+        },
+        {
+          "date": "2026-08-05",
+          "o": 317500,
+          "h": 335000,
+          "l": 311500,
+          "c": 329000
+        },
+        {
+          "date": "2026-08-06",
+          "o": 328000,
+          "h": 354500,
+          "l": 326500,
+          "c": 333500
+        }
+      ]
+    },
+    {
       "code": "226340",
       "name": "본느",
-      "rank": 11,
-      "trade_amount": 14810000000,
+      "rank": 12,
+      "trade_amount": 14812000000,
       "change_pct": 29.93,
       "close_price": 4775,
       "open_price": 4510,
@@ -7790,8 +8417,8 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": 0.49,
-      "index_multiple_current": 61.08,
+      "index_change_pct": 0.27,
+      "index_multiple_current": 110.85,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 4950,
@@ -8012,6 +8639,8 @@
           4775,
           4775,
           4775,
+          4775,
+          4775,
           4775
         ]
       },
@@ -8024,8 +8653,8 @@
     {
       "code": "210980",
       "name": "SK디앤디",
-      "rank": 12,
-      "trade_amount": 1703000000,
+      "rank": 13,
+      "trade_amount": 1704000000,
       "change_pct": 29.84,
       "close_price": 5940,
       "open_price": 4800,
@@ -8070,8 +8699,8 @@
         }
       ],
       "fallback": false,
-      "index_change_pct": -3.99,
-      "index_multiple_current": -7.48,
+      "index_change_pct": -4.09,
+      "index_multiple_current": -7.3,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 13810,
@@ -8264,6 +8893,8 @@
           5940,
           5940,
           5940,
+          5940,
+          5940,
           5940
         ]
       },
@@ -8276,7 +8907,7 @@
     {
       "code": "148780",
       "name": "비큐AI",
-      "rank": 13,
+      "rank": 14,
       "trade_amount": 1541000000,
       "change_pct": 29.99,
       "close_price": 5050,
@@ -8313,8 +8944,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 0.49,
-      "index_multiple_current": 61.2,
+      "index_change_pct": 0.27,
+      "index_multiple_current": 111.07,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 13161,
@@ -8534,6 +9165,9 @@
           5050,
           5050,
           5050,
+          5050,
+          5050,
+          5050,
           5050
         ]
       },
@@ -8548,8 +9182,8 @@
     {
       "code": "001290",
       "name": "상상인증권",
-      "rank": 14,
-      "trade_amount": 1164000000,
+      "rank": 15,
+      "trade_amount": 1166000000,
       "change_pct": 29.87,
       "close_price": 926,
       "open_price": 775,
@@ -8568,8 +9202,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": -3.99,
-      "index_multiple_current": -7.49,
+      "index_change_pct": -4.09,
+      "index_multiple_current": -7.3,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 1782,
@@ -8761,6 +9395,7 @@
           926,
           926,
           926,
+          926,
           926
         ]
       },
@@ -8773,7 +9408,7 @@
     {
       "code": "011330",
       "name": "유니켐",
-      "rank": 15,
+      "rank": 16,
       "trade_amount": 271000000,
       "change_pct": 30.0,
       "close_price": 4550,
@@ -8829,8 +9464,8 @@
         }
       ],
       "fallback": false,
-      "index_change_pct": -3.99,
-      "index_multiple_current": -7.52,
+      "index_change_pct": -4.09,
+      "index_multiple_current": -7.33,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 18910,
@@ -9023,7 +9658,7 @@
     {
       "code": "348080",
       "name": "큐라티스",
-      "rank": 16,
+      "rank": 17,
       "trade_amount": 236000000,
       "change_pct": 29.93,
       "close_price": 3885,
@@ -9058,8 +9693,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 0.49,
-      "index_multiple_current": 61.08,
+      "index_change_pct": 0.27,
+      "index_multiple_current": 110.85,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 12976,
