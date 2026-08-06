@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "generated_at": "2026-08-06T13:55:23.458919",
+  "generated_at": "2026-08-06T13:56:17.500027",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -10890,9 +10890,9 @@
           16830
         ]
       },
-      "togusa_verdict": "weak_bull",
+      "togusa_verdict": "strong_bull",
       "theme_leader": true,
-      "hugepark_grade": "관찰"
+      "hugepark_grade": "적극"
     },
     {
       "code": "073240",
@@ -11865,7 +11865,7 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "neutral",
+      "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰"
     },
@@ -13729,7 +13729,10 @@
       "news": [],
       "fallback": true,
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "226340",
@@ -14654,7 +14657,8 @@
       "sector": "유가증권 매매",
       "themes": [
         "증권",
-        "금융"
+        "금융",
+        "경영권 분쟁"
       ],
       "theme_paths": [
         {
@@ -14662,6 +14666,12 @@
           "path": [
             "금융",
             "증권"
+          ]
+        },
+        {
+          "name": "경영권 분쟁",
+          "path": [
+            "경영권 분쟁"
           ]
         }
       ],
@@ -14673,6 +14683,22 @@
         "2026-08-06"
       ],
       "news": [
+        {
+          "title": "Sh수협은행, 상상인증권 인수 추진… “협의 진행 중”",
+          "url": "https://biz.chosun.com/stock/stock_general/2026/08/06/WAPRKDW2VBGEBOUYSYQ2AMS224/",
+          "source": "조선비즈",
+          "published_at": "2026-08-06T04:39:45",
+          "causal_chain": "Sh수협은행이 상상인증권 인수를 추진하며 협의 진행 중이라는 보도 → 피인수 프리미엄·경영권 변동에 따른 지분가치 재평가 기대 → 매수세가 집중되며 당일 상한가(+29.87%, 종가 926원) 마감.",
+          "macro_event": "Sh수협은행의 상상인증권 인수 추진 (협의 진행 중)",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.85,
+          "newzy_virality": 0.6,
+          "newzy_tradability": null,
+          "newzy_score": 0.75,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        },
         {
           "title": "상상인증권 \"Sh수협은행과 지분 매각 협의 중…확정 사항 없어\"",
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=04936406645544696",
@@ -14688,22 +14714,6 @@
           "newzy_score": 0.68,
           "newzy_verdict": null,
           "article_type": "호재"
-        },
-        {
-          "title": "Sh수협은행, 상상인증권 인수 추진… “협의 진행 중”",
-          "url": "https://biz.chosun.com/stock/stock_general/2026/08/06/WAPRKDW2VBGEBOUYSYQ2AMS224/",
-          "source": "조선비즈",
-          "published_at": "2026-08-06T04:39:45",
-          "causal_chain": null,
-          "macro_event": null,
-          "newzy_freshness": null,
-          "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
-          "newzy_tradability": null,
-          "newzy_score": null,
-          "newzy_verdict": null,
-          "article_type": null
         }
       ],
       "fallback": false,
@@ -14972,7 +14982,7 @@
           "title": "유니켐, 美 로봇 전자피부 기업 인수…'휴머노이드 촉각' 시장 베팅",
           "url": "https://www.fnnews.com/news/202608060825313100",
           "source": "파이낸셜뉴스",
-          "published_at": "2026-08-06T13:40:04.023102",
+          "published_at": "2026-08-06T13:50:04.999999",
           "causal_chain": "AI·휴머노이드 상용화로 로봇이 압력·재질·미끄러짐을 실시간 감지하는 촉각센서(전자피부) 중요성이 커지는 매크로 → 유니켐이 미국 루미아 테크놀로지스 지분 100%를 최대 630만달러(약 90억원)에 인수하는 텀시트를 체결(9월 말부터 단계 지급)해 초박형 유연전자(LEL) 촉각센서 플랫폼과 메타·아마존이 참여한 NSF HAND ERC 컨소시엄 네트워크를 내재화 → 자동차 소재기업에서 휴머노이드 스마트소재 플랫폼으로의 사업축 전환 기대에 매수세 집중 → 시초부터 점상한가(+30.00%) 4,550원.",
           "macro_event": "AI·휴머노이드 상용화로 로봇 촉각센서·전자피부(e-Skin) 수요 부각 — 구동부 경쟁에서 센싱 경쟁으로 이동",
           "newzy_freshness": null,
