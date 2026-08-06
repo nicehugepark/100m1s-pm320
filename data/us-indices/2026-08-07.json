@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26366.17,
-      "change_pct": 0.01,
+      "point": 26372.62,
+      "change_pct": 0.03,
       "candle": {
         "o": 26279.66,
         "h": 26499.32,
         "l": 26212.42,
-        "c": 26366.17
+        "c": 26372.62
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,13 +2033,11 @@
           "o": 26279.66,
           "h": 26499.32,
           "l": 26212.42,
-          "c": 26366.17
+          "c": 26372.62
         }
       ],
       "spark": [
         26279.66,
-        26448.13,
-        26427.69,
         26381.48,
         26380.97,
         26402.08,
@@ -2077,7 +2075,9 @@
         26348.34,
         26357.39,
         26367.25,
-        26366.17
+        26379.45,
+        26378.25,
+        26372.62
       ],
       "news": {
         "summary": "Big Tech의 AI 인프라 투자 대비 실적 전환 경로 불확실성 심화. SpaceX 주가 약세로 기술주 수익창출력 우려 증폭. AI 채권 발행 폭증에도 성과 입증 과제 미해결.",
@@ -2097,13 +2097,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7716.88,
-      "change_pct": -0.09,
+      "point": 7717.98,
+      "change_pct": -0.07,
       "candle": {
         "o": 7713.79,
         "h": 7742.85,
         "l": 7698.15,
-        "c": 7716.88
+        "c": 7717.98
       },
       "range_240d": {
         "low": 6343.72,
@@ -4127,13 +4127,11 @@
           "o": 7713.79,
           "h": 7742.85,
           "l": 7698.15,
-          "c": 7716.88
+          "c": 7717.98
         }
       ],
       "spark": [
         7713.79,
-        7729.5,
-        7723.08,
         7714.01,
         7713.47,
         7715.63,
@@ -4171,7 +4169,9 @@
         7712.03,
         7715.19,
         7716.63,
-        7716.88
+        7719.12,
+        7717.78,
+        7717.98
       ],
       "news": {
         "summary": "기업 실적 강세 지속이나 고용 부진(ADP 4.4만) 신호 경계. 제조·서비스 경기 확장 지속에도 중국 공장활동 위축 우려 가중. Fed 인플레이션 우려 심화에 금리 경로 불확실, Q2 성장 둔화(1.5%) 및 모기지 금리 1년 고점 진입으로 경기 경보 심화.",
@@ -4195,13 +4195,13 @@
     },
     {
       "name": "DOW",
-      "point": 53954.5,
+      "point": 53954.05,
       "change_pct": -0.73,
       "candle": {
         "o": 54426.85,
         "h": 54502.87,
         "l": 53873.56,
-        "c": 53954.5
+        "c": 53954.05
       },
       "range_240d": {
         "low": 44785.5,
@@ -6225,13 +6225,11 @@
           "o": 54426.85,
           "h": 54502.87,
           "l": 53873.56,
-          "c": 53954.5
+          "c": 53954.05
         }
       ],
       "spark": [
         54426.85,
-        54135.89,
-        54077.42,
         54059.58,
         54062.4,
         54039.61,
@@ -6269,7 +6267,9 @@
         53936.01,
         53948.76,
         53952.71,
-        53954.5
+        53962.38,
+        53953.31,
+        53954.05
       ],
       "news": {
         "summary": "대형주 실적 개선으로 24개 신고가 경신 중. 금융주 수익성 제고(HSBC, Wells Fargo) 및 블록체인 기반 자산화 추진. 주택·건설 경기 약세가 경기순환 리스크인 반면 에너지 부문 수익 호조 신호.",
@@ -6290,90 +6290,90 @@
   ],
   "news_chips": [
     {
-      "summary": "다우지수가 기업 실적 호조에 연중 24번째 신고가를 기록했고, 나스닥은 소폭 약세로 마감",
+      "summary": "미국 신규 실업수당이 19만9000건으로 3주 연속 20만명 아래를 기록, 노동시장 약화 신호",
+      "source": "한경",
+      "url": "https://www.hankyung.com/article/2026080695507",
+      "published_ts": 1786023806.0,
+      "impact_high": false
+    },
+    {
+      "summary": "테크 대형주들의 AI 인프라 투자 자금화로 장기 회사채 발행이 확대되고 있다",
+      "source": "한경",
+      "url": "https://www.hankyung.com/article/2026080695471",
+      "published_ts": 1786023655.0,
+      "impact_high": false
+    },
+    {
+      "summary": "다우지수가 강한 기업실적에 힘입어 올해 24번째 신고가를 달성했다",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/stocks/strong-earnings-power-dow-to-another-record-00bf7f81?mod=rss_markets_main",
       "published_ts": 1785964800.0,
       "impact_high": false
     },
     {
-      "summary": "호르무즈 해협 개방 협상이 막바지 단계에 접어들며 이란에 해상 감시권 부여 검토 중",
-      "source": "WSJ",
+      "summary": "호르무즈 해협 개방 협상이 진전되면서 원유 가격이 상승하고 있다",
+      "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/negotiators-close-in-on-deal-with-iran-to-open-hormuz-50c0f335?mod=rss_worldnews",
       "published_ts": 1785953820.0,
       "impact_high": false
     },
     {
-      "summary": "7월 민간기업 일자리 증가가 4만4000건으로 예상의 27% 수준에 그쳐 노동시장 둔화 신호",
+      "summary": "미국 7월 민간 기업 일자리 증가가 4만4000개에 그쳐 예상을 크게 하회했다",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/05/private-companies-added-just-44000-workers-in-july-below-expectations-adp-reports.html",
       "published_ts": 1785942526.0,
       "impact_high": false
     },
     {
-      "summary": "미국 서비스 산업 구매담당자지수가 54.1로 전개월 대비 상승하며 경제 확장세 지속",
-      "source": "WSJ",
+      "summary": "미국 7월 서비스부문 구매관리자지수가 54.1로 경제 확장이 지속되고 있다",
+      "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/u-s-services-sector-activity-continued-to-expand-in-july-c30dcbc0?mod=rss_socialeconomyfeed",
       "published_ts": 1785939900.0,
       "impact_high": false
     },
     {
-      "summary": "미국이 배터리 재활용 금속·텅스텐 수출을 금지하며 중국 공급망 의존도 감축 및 공급망 재편 가속화",
+      "summary": "엔화가 일본은행의 지원에도 달러 대비 약세를 지속하면서 금리 인상 필요성이 대두되고 있다",
       "source": "WSJ",
-      "url": "https://www.wsj.com/business/u-s-to-ban-exports-of-recycled-battery-metals-and-tungsten-e2d38838?mod=rss_worldnews",
-      "published_ts": 1785933000.0,
-      "impact_high": false
-    },
-    {
-      "summary": "이란이 호르무즈 해협 통제에 모든 것을 걸면서 중동 긴장 심화로 유가 변동성 확대 예상",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/world/middle-east/iran-strait-of-hormuz-trump-talks-ec566cd7?mod=rss_worldnews",
-      "published_ts": 1785895200.0,
-      "impact_high": false
-    },
-    {
-      "summary": "제조업 구매담당자 조사에서 인플레이션 우려가 팬데믹 시절 수준을 넘어서며 연준 정책 결정 부담 심화",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/03/manufacturing-survey-shows-inflation-worries-adding-to-pressure-on-fed.html",
-      "published_ts": 1785854559.0,
+      "url": "https://www.wsj.com/world/asia/only-the-bank-of-japan-can-arrest-the-yens-decline-dc351568?mod=rss_markets_main",
+      "published_ts": 1785835800.0,
       "impact_high": true
     },
     {
-      "summary": "월스트릿이 빅테크의 대규모 AI 투자가 클라우드 컴퓨팅 사업과 결합할 때만 수익화 가능하다고 평가",
+      "summary": "HSBC의 분기 순이익이 크게 증가하고 10억 달러 규모의 자사주 매입을 계획 중이다",
       "source": "WSJ",
-      "url": "https://www.wsj.com/tech/ai/wall-street-thinks-it-knows-how-tech-giants-will-make-ai-pay-96f76438?mod=rss_markets_main",
-      "published_ts": 1785576600.0,
+      "url": "https://www.wsj.com/business/earnings/hsbc-posts-sharply-higher-quarterly-profit-plans-1-bln-share-buyback-00845c03?mod=rss_markets_main",
+      "published_ts": 1785831120.0,
       "impact_high": false
     },
     {
-      "summary": "연준이 인플레이션 통제 압력을 받는 가운데 저평가된 지표들이 수년 최저 수준을 기록했으며, 인상 가능성 제한 신호",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/31/these-fed-alternative-indicators-show-inflation-is-at-lowest-in-years.html",
-      "published_ts": 1785516690.0,
-      "impact_high": true
+      "summary": "기술주들의 대규모 AI 채권 발행으로 장기 자금 수요 증가세가 뚜렷하다",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/investing/how-to-play-the-flood-of-ai-bonds-279f6ba5?mod=rss_markets_main",
+      "published_ts": 1785749400.0,
+      "impact_high": false
     },
     {
-      "summary": "중국 제조업이 7월 예상 외 위축되며 2분기 수출 반등이 해소되고 경기 둔화 우려 확산",
+      "summary": "중국 7월 제조업 지수가 수요 부진으로 예상 외 악화되었다",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/31/china-pmi-factory-activity-economic-growth-exports-.html",
       "published_ts": 1785469795.0,
       "impact_high": false
     }
   ],
-  "_article_sig": "3f20d32b11bf55130d6ac4c5cac407b30487e60e4526afb0faacd4846fd97eb2",
+  "_article_sig": "d14a4a8cc5f31c1faa4a991a6037993fe209dc4691e01cf27470d06de0eebc7e",
   "built_at_kst": "2026-08-06T07:01:40.819389+09:00",
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "AI 투자 가속화·빅테크 자금조달 확대. 알파벳 채권 발행(35조원 규모)·딥시크 요금 인상으로 수익화 모멘텀 강화, 반도체 경쟁 심화·AI 채권 위험성 동시 대두",
+      "summary": "빅테크 AI 투자 확대 신호 강화. 알파벳·테슬라 등 대형 기술기업들 대규모 회사채 발행 추진 중이며, 월가는 AI 지출이 클라우드 사업 연결고리에서 비로소 수익화 가능 판단. 반도체·빅테크 매수세 유입 국면.",
       "sources": [
         {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/2026080695471"
         },
         {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/2026080692831"
+          "name": "WSJ",
+          "url": "https://www.wsj.com/tech/ai/wall-street-thinks-it-knows-how-tech-giants-will-make-ai-pay-96f76438?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
@@ -6382,14 +6382,14 @@
       ]
     },
     "S&P500": {
-      "summary": "노동시장 신호 엇갈림. 실업수당 상승·민간채용 부진(44k) vs 서비스업 호조. 연준 물가통계 개혁 논란으로 정책 불확실성 고조. 글로벌 경기약세(유로존·중국)·인플레 우려·호르무즈 협상·엔화 지지 등 수급 불안정성 상존",
+      "summary": "고용 둔화·서비스 부문 여전히 확장중이나, 매크로 불안정성 심화. 미국 신규 실업수당 19만9000건(3주 연속 20만명 하회)·민간 고용 44000명으로 예상 이하이며, 제조업 물가 우려 팬데믹 시대 수준. 글로벌 경기 신호는 엇갈림(캐나다·유로존 약세, 中 공장활동 수축 대조).",
       "sources": [
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/warren-presses-trump-administration-on-inflation-data-changes-f6d8c0df?mod=rss_socialeconomyfeed"
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/2026080695507"
         },
         {
-          "name": "WSJ경제",
+          "name": "WSJ",
           "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-rose-last-week-4033e282?mod=rss_socialeconomyfeed"
         },
         {
@@ -6399,36 +6399,34 @@
       ]
     },
     "DOW": {
-      "summary": "블루칩 강세 지속·올해 24번째 신고가 경신. 금융주 실적 호조(HSBC 순이익 급증·자사주 매입) 및 금융업 재편 진행(Wells Fargo 토큰화 결제 확대, JPMorgan 사기 처리 투명성 강화). 자동차·제조업 다각화 신중 평가 국면",
+      "summary": "금융·대형주 실적 호조이나 경기민감도 높은 섹터 경계심 증대. HSBC 분기 순이익 급증·$10억 자사주매입 진행, 금융주 버팀목 역할 중. 다만 글로벌 지정학(이란 호르무즈 해협, 가자 평화협상 재개 위험) 및 기술 외 섹터 다각화(자동차·제약) 성장성 의문제기 부각.",
       "sources": [
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/strong-earnings-power-dow-to-another-record-00bf7f81?mod=rss_markets_main"
-        },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/business/earnings/hsbc-posts-sharply-higher-quarterly-profit-plans-1-bln-share-buyback-00845c03?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/wells-fargo-to-roll-out-tokenized-deposits-for-corporate-clients-75c5d2cc?mod=rss_markets_main"
+          "url": "https://www.wsj.com/business/autos/ford-and-gm-attempts-to-go-beyond-cars-deserve-skepticism-797a9d87?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/strong-earnings-power-dow-to-another-record-00bf7f81?mod=rss_markets_main"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-08-07T03:20:06.588937+09:00",
+    "as_of_kst": "2026-08-07T03:30:05.267397+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7738.25,
-        "change_pct": -0.15,
+        "point": 7743.25,
+        "change_pct": -0.08,
         "spark": [
           7756.75,
-          7752.75,
-          7756.0,
           7749.5,
           7739.25,
           7739.0,
@@ -6466,21 +6464,23 @@
           7738.75,
           7738.5,
           7741.25,
-          7738.25
+          7743.0,
+          7745.0,
+          7743.25
         ],
         "candle": {
           "o": 7756.75,
           "h": 7770.75,
           "l": 7724.25,
-          "c": 7738.25
+          "c": 7743.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7765.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-04",
-          "low_change_pct": 21.13,
-          "high_change_pct": -0.35
+          "low_change_pct": 21.21,
+          "high_change_pct": -0.29
         },
         "daily_expanded": [
           {
@@ -8496,20 +8496,20 @@
             "o": 7756.75,
             "h": 7770.75,
             "l": 7724.25,
-            "c": 7738.25,
-            "v": 888399
+            "c": 7743.25,
+            "v": 915198
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "노동시장 신호 엇갈림. 실업수당 상승·민간채용 부진(44k) vs 서비스업 호조. 연준 물가통계 개혁 논란으로 정책 불확실성 고조. 글로벌 경기약세(유로존·중국)·인플레 우려·호르무즈 협상·엔화 지지 등 수급 불안정성 상존",
+          "summary": "고용 둔화·서비스 부문 여전히 확장중이나, 매크로 불안정성 심화. 미국 신규 실업수당 19만9000건(3주 연속 20만명 하회)·민간 고용 44000명으로 예상 이하이며, 제조업 물가 우려 팬데믹 시대 수준. 글로벌 경기 신호는 엇갈림(캐나다·유로존 약세, 中 공장활동 수축 대조).",
           "sources": [
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/warren-presses-trump-administration-on-inflation-data-changes-f6d8c0df?mod=rss_socialeconomyfeed"
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/2026080695507"
             },
             {
-              "name": "WSJ경제",
+              "name": "WSJ",
               "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-rose-last-week-4033e282?mod=rss_socialeconomyfeed"
             },
             {
@@ -8522,12 +8522,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29531.5,
-        "change_pct": -0.28,
+        "point": 29553.0,
+        "change_pct": -0.21,
         "spark": [
           29569.5,
-          29612.0,
-          29671.75,
           29646.5,
           29579.75,
           29577.75,
@@ -8565,21 +8563,23 @@
           29531.25,
           29533.75,
           29542.75,
-          29531.5
+          29552.75,
+          29568.0,
+          29553.0
         ],
         "candle": {
           "o": 29569.5,
           "h": 29686.25,
           "l": 29241.25,
-          "c": 29531.5
+          "c": 29553.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.62,
-          "high_change_pct": -3.85
+          "low_change_pct": 27.72,
+          "high_change_pct": -3.78
         },
         "daily_expanded": [
           {
@@ -10595,21 +10595,21 @@
             "o": 29569.5,
             "h": 29686.25,
             "l": 29241.25,
-            "c": 29531.5,
-            "v": 459058
+            "c": 29553.0,
+            "v": 466907
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "AI 투자 가속화·빅테크 자금조달 확대. 알파벳 채권 발행(35조원 규모)·딥시크 요금 인상으로 수익화 모멘텀 강화, 반도체 경쟁 심화·AI 채권 위험성 동시 대두",
+          "summary": "빅테크 AI 투자 확대 신호 강화. 알파벳·테슬라 등 대형 기술기업들 대규모 회사채 발행 추진 중이며, 월가는 AI 지출이 클라우드 사업 연결고리에서 비로소 수익화 가능 판단. 반도체·빅테크 매수세 유입 국면.",
           "sources": [
             {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/2026080695471"
             },
             {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/2026080692831"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/tech/ai/wall-street-thinks-it-knows-how-tech-giants-will-make-ai-pay-96f76438?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
@@ -10621,12 +10621,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 54067.0,
-        "change_pct": -0.78,
+        "point": 54080.0,
+        "change_pct": -0.76,
         "spark": [
           54555.0,
-          54301.0,
-          54275.0,
           54215.0,
           54188.0,
           54191.0,
@@ -10664,21 +10662,23 @@
           54075.0,
           54066.0,
           54076.0,
-          54067.0
+          54078.0,
+          54089.0,
+          54080.0
         ],
         "candle": {
           "o": 54555.0,
           "h": 54678.0,
           "l": 54005.0,
-          "c": 54067.0
+          "c": 54080.0
         },
         "range_240d": {
           "low": 45308.0,
           "high": 54494.0,
           "low_date": "2025-09-03",
           "high_date": "2026-08-05",
-          "low_change_pct": 19.33,
-          "high_change_pct": -0.78
+          "low_change_pct": 19.36,
+          "high_change_pct": -0.76
         },
         "daily_expanded": [
           {
@@ -12694,30 +12694,30 @@
             "o": 54555.0,
             "h": 54678.0,
             "l": 54005.0,
-            "c": 54067.0,
-            "v": 52505
+            "c": 54080.0,
+            "v": 53749
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "블루칩 강세 지속·올해 24번째 신고가 경신. 금융주 실적 호조(HSBC 순이익 급증·자사주 매입) 및 금융업 재편 진행(Wells Fargo 토큰화 결제 확대, JPMorgan 사기 처리 투명성 강화). 자동차·제조업 다각화 신중 평가 국면",
+          "summary": "금융·대형주 실적 호조이나 경기민감도 높은 섹터 경계심 증대. HSBC 분기 순이익 급증·$10억 자사주매입 진행, 금융주 버팀목 역할 중. 다만 글로벌 지정학(이란 호르무즈 해협, 가자 평화협상 재개 위험) 및 기술 외 섹터 다각화(자동차·제약) 성장성 의문제기 부각.",
           "sources": [
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/strong-earnings-power-dow-to-another-record-00bf7f81?mod=rss_markets_main"
-            },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/business/earnings/hsbc-posts-sharply-higher-quarterly-profit-plans-1-bln-share-buyback-00845c03?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/wells-fargo-to-roll-out-tokenized-deposits-for-corporate-clients-75c5d2cc?mod=rss_markets_main"
+              "url": "https://www.wsj.com/business/autos/ford-and-gm-attempts-to-go-beyond-cars-deserve-skepticism-797a9d87?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/strong-earnings-power-dow-to-another-record-00bf7f81?mod=rss_markets_main"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-08-07T03:20:10.124538+09:00"
+  "intraday_refreshed_kst": "2026-08-07T03:33:53.039261+09:00"
 }
