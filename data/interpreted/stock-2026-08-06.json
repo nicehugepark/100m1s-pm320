@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "generated_at": "2026-08-06T09:25:12.239492",
+  "generated_at": "2026-08-06T09:26:36.711095",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -387,9 +387,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bull",
+      "togusa_verdict": "strong_bull",
       "theme_leader": true,
-      "hugepark_grade": "관찰",
+      "hugepark_grade": "적극",
       "causal_chain": "",
       "parent_theme": ""
     },
@@ -413,7 +413,10 @@
       "bullish_streak": 0,
       "bullish_dates": [],
       "news": [],
-      "fallback": true
+      "fallback": true,
+      "togusa_verdict": "neutral",
+      "theme_leader": false,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "477850",
@@ -693,7 +696,7 @@
           29950
         ]
       },
-      "togusa_verdict": "neutral",
+      "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰"
     },
@@ -986,7 +989,10 @@
           "l": 7120,
           "c": 8220
         }
-      ]
+      ],
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "069540",
@@ -1001,21 +1007,21 @@
       "industry": "통신 및 방송 장비 제조업",
       "sector": "기타무선통신장비제조업",
       "themes": [
-        "통신장비",
-        "광통신"
+        "광통신",
+        "통신장비"
       ],
       "theme_paths": [
-        {
-          "name": "통신장비",
-          "path": [
-            "통신장비"
-          ]
-        },
         {
           "name": "광통신",
           "path": [
             "AI",
             "광통신"
+          ]
+        },
+        {
+          "name": "통신장비",
+          "path": [
+            "통신장비"
           ]
         }
       ],
@@ -1247,7 +1253,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "투자경고"
+      "credit_reason": "투자경고",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "058610",
@@ -1441,7 +1450,12 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "210980",
@@ -1455,8 +1469,17 @@
       "low_price": 4720,
       "industry": "부동산 임대 및 공급업",
       "sector": "비주거용 부동산개발 및 임대(오피스, 지식산업센터, 호텔 등)",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "저PBR"
+      ],
+      "theme_paths": [
+        {
+          "name": "저PBR",
+          "path": [
+            "저PBR"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": true,
@@ -1470,32 +1493,32 @@
           "url": "https://www.fnnews.com/news/202608051941157537",
           "source": "파이낸셜뉴스",
           "published_at": "2026-08-06T09:20:02.793344",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "금감원이 SK디앤디의 채무상환용 1367억원 규모 주주배정 유상증자(신주 4468만주, 기존 발행주식의 약 2.4배) 증권신고서에 정정신고서 제출을 요구 → 대규모 주주가치 희석 우려가 컸던 증자에 당국이 제동을 걸면서 희석 리스크 완화 기대감 부각 → 매수세 집중으로 당일 상한가(+29.84%, 종가 5,940원). 다만 본질은 채무상환용 대규모 희석 증자로 부정 맥락이 우세하다.",
+          "macro_event": "금감원, SK디앤디 1367억원(발행주식 약 240%) 주주배정 유상증자 증권신고서에 정정요구",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.6,
+          "newzy_virality": 0.5,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.56,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "공시"
         },
         {
           "title": "금감원 유상증자 제동에…SK디앤디, 27%대 급등[특징주]",
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03447286645544696",
           "source": "이데일리",
           "published_at": "2026-08-06T00:15:29",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "금감원이 SK디앤디의 채무상환용 1367억원 규모 주주배정 유상증자(신주 4468만주, 기존 발행주식의 약 2.4배) 증권신고서에 정정신고서 제출을 요구 → 대규모 주주가치 희석 우려가 컸던 증자에 당국이 제동을 걸면서 희석 리스크 완화 기대감 부각 → 매수세 집중으로 당일 상한가(+29.84%, 종가 5,940원). 다만 본질은 채무상환용 대규모 희석 증자로 부정 맥락이 우세하다.",
+          "macro_event": "금감원, SK디앤디 1367억원(발행주식 약 240%) 주주배정 유상증자 증권신고서에 정정요구",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.6,
+          "newzy_virality": 0.5,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.56,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "시세정형"
         }
       ],
       "fallback": false,
@@ -1667,9 +1690,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
+      "togusa_verdict": "neutral",
       "theme_leader": false,
-      "hugepark_grade": "주의"
+      "hugepark_grade": "관찰"
     },
     {
       "code": "148780",
@@ -1926,7 +1949,8 @@
       "sector": "피혁 제조,도매,무역,부동산임대",
       "themes": [
         "로봇",
-        "휴머노이드 로봇"
+        "휴머노이드 로봇",
+        "AI"
       ],
       "theme_paths": [
         {
@@ -1934,6 +1958,12 @@
           "path": [
             "로봇",
             "휴머노이드 로봇"
+          ]
+        },
+        {
+          "name": "AI",
+          "path": [
+            "AI"
           ]
         }
       ],
@@ -1950,15 +1980,15 @@
           "title": "유니켐, 美 로봇 전자피부 기업 인수…'휴머노이드 촉각' 시장 베팅",
           "url": "https://www.fnnews.com/news/202608060825313100",
           "source": "파이낸셜뉴스",
-          "published_at": "2026-08-06T09:10:07.430037",
-          "causal_chain": "AI·휴머노이드 상용화로 로봇이 압력·재질·미끄러짐을 실시간 감지하는 촉각센서(전자피부) 수요가 커지는 매크로 → 유니켐이 미국 루미아 테크놀로지스 지분 100%를 인수(텀시트 체결)해 초박형 유연전자(LEL) 촉각센서 플랫폼과 메타·아마존이 참여한 NSF HAND ERC 컨소시엄 네트워크를 내재화 → 자동차 소재기업에서 휴머노이드 스마트소재 기업으로 사업축을 직접 전환 → 신성장 스토리에 매수세가 몰리며 시초부터 시=고=저=종 4,550원 점상한가(+30.00%)를 기록.",
-          "macro_event": "휴머노이드 로봇 경쟁 축이 구동부에서 촉각(센싱)으로 이동 — 전자피부(e-Skin) 기술 부각",
+          "published_at": "2026-08-06T09:20:02.793201",
+          "causal_chain": "휴머노이드 상용화로 로봇의 촉각센서·전자피부(e-Skin) 중요성이 커지는 매크로 → 유니켐이 미국 루미아 테크놀로지스 지분 100%를 최대 630만달러(약 90억원)에 인수하는 텀시트를 체결(9월 말부터 단계 지급), 초박형 유연전자 LEL 촉각센서 플랫폼과 메타·아마존이 참여한 NSF HAND ERC 컨소시엄 네트워크를 내재화 → 자동차 소재기업에서 휴머노이드 스마트소재 기업으로 사업축 전환 기대. 매수세가 시초부터 몰려 당일 점상한가(시=고=저=종 4,550원, +30.00%)를 형성했으나 거래대금은 3억원에 그쳐 물량 잠김·거래 희소성이 확인된다.",
+          "macro_event": "AI·휴머노이드 상용화로 로봇이 압력·재질·미끄러짐을 실시간 감지하는 촉각센서(전자피부) 수요 급증 — 휴머노이드 경쟁이 구동부에서 센싱(촉각)으로 이동",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": 0.8,
+          "newzy_magnitude": 0.75,
           "newzy_virality": 0.6,
           "newzy_tradability": null,
-          "newzy_score": 0.72,
+          "newzy_score": 0.69,
           "newzy_verdict": null,
           "article_type": "호재"
         }
@@ -2131,7 +2161,7 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bull",
+      "togusa_verdict": "neutral",
       "theme_leader": false,
       "hugepark_grade": "관찰"
     },
