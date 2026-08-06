@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "generated_at": "2026-08-06T09:15:09.285882",
+  "generated_at": "2026-08-06T09:16:26.771898",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -304,7 +304,12 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bull",
+      "theme_leader": true,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "477850",
@@ -319,19 +324,13 @@
       "industry": "소프트웨어 개발 및 공급업",
       "sector": "Runway Platform (산업특화 인공지능 개발 및 운영 체계 구축 플랫폼)",
       "themes": [
-        "신규상장",
         "실적",
         "로봇",
         "휴머노이드 로봇",
-        "AI"
+        "AI",
+        "신규상장"
       ],
       "theme_paths": [
-        {
-          "name": "신규상장",
-          "path": [
-            "신규상장"
-          ]
-        },
         {
           "name": "실적",
           "path": [
@@ -349,6 +348,12 @@
           "name": "AI",
           "path": [
             "AI"
+          ]
+        },
+        {
+          "name": "신규상장",
+          "path": [
+            "신규상장"
           ]
         }
       ],
@@ -413,8 +418,8 @@
           "AI"
         ],
         "pm320_only": [
-          "신규상장",
-          "실적"
+          "실적",
+          "신규상장"
         ],
         "cafe_only": []
       },
@@ -573,7 +578,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "210980",
@@ -750,7 +758,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "148780",
@@ -974,7 +985,12 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": false,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "011330",
@@ -988,8 +1004,19 @@
       "low_price": 4550,
       "industry": "자동차 신품 부품 제조업",
       "sector": "피혁 제조,도매,무역,부동산임대",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "로봇",
+        "휴머노이드 로봇"
+      ],
+      "theme_paths": [
+        {
+          "name": "휴머노이드 로봇",
+          "path": [
+            "로봇",
+            "휴머노이드 로봇"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": false,
@@ -1004,16 +1031,16 @@
           "url": "https://www.fnnews.com/news/202608060825313100",
           "source": "파이낸셜뉴스",
           "published_at": "2026-08-06T09:10:07.430037",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "AI·휴머노이드 상용화로 로봇이 압력·재질·미끄러짐을 실시간 감지하는 촉각센서(전자피부) 수요가 커지는 매크로 → 유니켐이 미국 루미아 테크놀로지스 지분 100%를 인수(텀시트 체결)해 초박형 유연전자(LEL) 촉각센서 플랫폼과 메타·아마존이 참여한 NSF HAND ERC 컨소시엄 네트워크를 내재화 → 자동차 소재기업에서 휴머노이드 스마트소재 기업으로 사업축을 직접 전환 → 신성장 스토리에 매수세가 몰리며 시초부터 시=고=저=종 4,550원 점상한가(+30.00%)를 기록.",
+          "macro_event": "휴머노이드 로봇 경쟁 축이 구동부에서 촉각(센싱)으로 이동 — 전자피부(e-Skin) 기술 부각",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.8,
+          "newzy_virality": 0.6,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.72,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": false,
@@ -1183,9 +1210,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
+      "togusa_verdict": "weak_bull",
       "theme_leader": false,
-      "hugepark_grade": "주의"
+      "hugepark_grade": "관찰"
     },
     {
       "code": "348080",
