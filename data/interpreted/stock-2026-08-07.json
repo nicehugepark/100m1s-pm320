@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "generated_at": "2026-08-07T09:25:16.463179",
+  "generated_at": "2026-08-07T09:26:25.462046",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -182,29 +182,20 @@
       "industry": "기타 금융업",
       "sector": "타르제품,카본블랙,무수프탈산,농약원제,석탄화학제품,정밀화학제품,플라스틱창호재 제조,판매",
       "themes": [
-        "우주항공",
-        "스페이스X",
-        "태양광",
-        "실적"
+        "에너지정책",
+        "태양광"
       ],
       "theme_paths": [
         {
-          "name": "스페이스X",
+          "name": "에너지정책",
           "path": [
-            "우주항공",
-            "스페이스X"
+            "에너지정책"
           ]
         },
         {
           "name": "태양광",
           "path": [
             "태양광"
-          ]
-        },
-        {
-          "name": "실적",
-          "path": [
-            "실적"
           ]
         }
       ],
@@ -226,16 +217,16 @@
           "url": "https://www.etoday.co.kr/news/view/2612025",
           "source": "이투데이",
           "published_at": "2026-08-07T00:13:00",
-          "causal_chain": "",
-          "macro_event": null,
+          "causal_chain": "미국의 태양광 수입 관세 부과로 인한 반사이익 기대 → 태양광 폴리실리콘·모듈을 핵심 사업으로 하는 OCI홀딩스가 직접 수혜주로 부각 → 매수세 유입으로 당일 종가 275,000원(+12.70%)·거래대금 855억원 기록.",
+          "macro_event": "美 태양광 관세 반사이익 기대감 부각",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.55,
+          "newzy_virality": 0.6,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.57,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "시세정형"
         }
       ],
       "fallback": false,
@@ -407,9 +398,7 @@
       },
       "togusa_verdict": "weak_bull",
       "theme_leader": true,
-      "hugepark_grade": "관찰",
-      "causal_chain": "",
-      "parent_theme": ""
+      "hugepark_grade": "관찰"
     },
     {
       "code": "062970",
@@ -423,8 +412,32 @@
       "low_price": 2560,
       "industry": "통신 및 방송 장비 제조업",
       "sector": "데이터센터용 AWG, 통신용 AWG, 스플리터, 계측기 등",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "통신장비",
+        "광통신",
+        "양자"
+      ],
+      "theme_paths": [
+        {
+          "name": "통신장비",
+          "path": [
+            "통신장비"
+          ]
+        },
+        {
+          "name": "광통신",
+          "path": [
+            "AI",
+            "광통신"
+          ]
+        },
+        {
+          "name": "양자",
+          "path": [
+            "양자"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": false,
@@ -439,16 +452,16 @@
           "url": "https://www.etoday.co.kr/news/view/2612011",
           "source": "이투데이",
           "published_at": "2026-08-07T00:01:00",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "양자정보기술 상용화 경쟁이 확산되는 매크로 → 한국첨단소재 자회사의 기업용 양자 검증 플랫폼이 국제 벤치마크에 등재되며 기술 신뢰성 부각 → 데이터센터·통신용 AWG·스플리터 등 광통신 본업(누적 테마 '통신장비')에 양자 신사업 기대가 더해져 매수세 유입 → 당일 종가 2,895원(+24.52%)·거래대금 84억원으로 급등.",
+          "macro_event": "양자정보기술 상용화 경쟁 심화 — 기업용 양자 검증 플랫폼 국제 벤치마크 등재로 기술력 입증",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.5,
+          "newzy_virality": 0.4,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.46,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": false,
@@ -620,9 +633,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "strong_bull",
+      "theme_leader": true,
+      "hugepark_grade": "적극"
     },
     {
       "code": "226340",
@@ -903,7 +916,7 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bull",
+      "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰"
     },
@@ -919,8 +932,17 @@
       "low_price": 706,
       "industry": "전동기, 발전기 및 전기 변환 · 공급 · 제어 장치 제조업",
       "sector": "태양광발전시스템,태양전지모듈",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "전력설비"
+      ],
+      "theme_paths": [
+        {
+          "name": "전력설비",
+          "path": [
+            "전력설비"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": true,
@@ -1099,9 +1121,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "001290",
@@ -1636,16 +1658,16 @@
           "url": "https://www.etoday.co.kr/news/view/2607575",
           "source": "이투데이",
           "published_at": "2026-07-26T23:10:00",
-          "causal_chain": null,
+          "causal_chain": "케이피엠테크가 225억원 규모 유상증자를 완료해 조달 자금으로 재무구조 개선 및 그룹 지배구조 정비에 나선다는 자본조달성 이벤트로, 3자배정 등 신규 전략적 투자자 유입이 명시되지 않은 일반 증자 성격이다. 본질 산업 매크로 사슬과 연결되는 사건이 아니며, 당일 종가 4,795원(+5.04%)에도 거래대금 0억원으로 실질 매수세 유입이 확인되지 않아 모멘텀은 미약하다.",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.2,
+          "newzy_virality": 0.1,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.16,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "공시"
         }
       ],
       "fallback": true,
@@ -1801,7 +1823,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "011330",
