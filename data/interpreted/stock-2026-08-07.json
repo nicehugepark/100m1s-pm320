@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "generated_at": "2026-08-07T09:06:44.350052",
+  "generated_at": "2026-08-07T09:15:17.504415",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -21,16 +21,302 @@
     }
   ],
   "narratives": [],
-  "themes_macro_summary": [],
-  "themes_tree": null,
+  "themes_macro_summary": [
+    {
+      "keyword": "반도체약세",
+      "summary": "반도체 공급 과잉 심화 → 메모리칩 약세 지속 → 반도체·IT 섹터 약세 신호",
+      "source_count": 1,
+      "verified": false
+    },
+    {
+      "keyword": "엔터실적",
+      "summary": "콘텐츠 흥행 탄력 → 엔터테인먼트 2분기 실적 회복 → 미디어·콘텐츠 섹터 강세",
+      "source_count": 1,
+      "verified": false
+    },
+    {
+      "keyword": "폭염수혜",
+      "summary": "극단적 폭염 심화 → 음료·아이스크림 수요 급증 → 식품·편의점 섹터 수혜",
+      "source_count": 1,
+      "verified": false
+    },
+    {
+      "keyword": "AI확산",
+      "summary": "AI 기술 고도화·도입 확산 → 반도체·의료 AI 투자 가속 → 기술주 강세",
+      "source_count": 1,
+      "verified": false
+    },
+    {
+      "keyword": "휴머노이드",
+      "summary": "휴머노이드 로봇 상용화 추진 → 첨단 부품 기술 인수 → 로봇·기술주 수혜",
+      "source_count": 1,
+      "verified": false
+    }
+  ],
+  "themes_tree": {
+    "date": "2026-08-07",
+    "roots": [
+      {
+        "name": "AI",
+        "children": [
+          {
+            "name": "휴머노이드 로봇",
+            "summary": "유니켐이 美 로봇 전자피부 기업을 인수하며 휴머노이드 촉각 시장에 베팅, 로봇 부품·촉각센서 섹터로 자금 유입 기대",
+            "source_count": 1,
+            "verdict": "pass"
+          },
+          {
+            "name": "의료 AI",
+            "summary": "딥노이드가 원격판독 플랫폼 허가로 의료 AI 운영체제 구축에 착수, 의료 AI 진단·판독 소프트웨어 섹터 부각",
+            "source_count": 1,
+            "verdict": "weak"
+          }
+        ]
+      },
+      {
+        "name": "(독립)",
+        "children": [
+          {
+            "name": "폭염 수혜",
+            "summary": "폭염 지속으로 음료·아이스크림 매출이 급증하며 편의점 등 여름 소비재 유통 섹터 실적 개선 기대",
+            "source_count": 1,
+            "verdict": "pass"
+          }
+        ]
+      },
+      {
+        "name": "미디어",
+        "children": [
+          {
+            "name": "드라마 콘텐츠",
+            "summary": "스튜디오드래곤이 신작 드라마 흥행으로 2분기 흑자 확대, 콘텐츠 제작·미디어 섹터 실적 모멘텀 부각",
+            "source_count": 1,
+            "verdict": "weak"
+          }
+        ]
+      }
+    ]
+  },
   "stocks": [
+    {
+      "code": "010060",
+      "name": "OCI홀딩스",
+      "rank": 1,
+      "trade_amount": 72744000000,
+      "change_pct": null,
+      "close_price": null,
+      "open_price": null,
+      "high_price": null,
+      "low_price": null,
+      "industry": "기타 금융업",
+      "sector": "타르제품,카본블랙,무수프탈산,농약원제,석탄화학제품,정밀화학제품,플라스틱창호재 제조,판매",
+      "themes": [
+        "태양광",
+        "실적"
+      ],
+      "theme_paths": [
+        {
+          "name": "태양광",
+          "path": [
+            "태양광"
+          ]
+        },
+        {
+          "name": "실적",
+          "path": [
+            "실적"
+          ]
+        }
+      ],
+      "pick_count": 1,
+      "prev_pick": {
+        "date": "2026-07-24",
+        "rank": 4,
+        "change_pct": 1.21,
+        "trade_amount": 325905000000
+      },
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [],
+      "news": [
+        {
+          "title": "\"태양광 끝? 이젠 우주다\"…OCI홀딩스, 스페이스 밸류체인 승부수",
+          "url": "https://www.fnnews.com/news/202608051018298555",
+          "source": "파이낸셜뉴스",
+          "published_at": "2026-08-06T10:30:05.550961",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        }
+      ],
+      "fallback": true,
+      "index_change_pct": 1.43,
+      "range_240d": {
+        "high": 414000,
+        "high_date": "2026-05-27",
+        "high_pct": -39.73,
+        "low": 83400,
+        "low_date": "2025-10-13",
+        "low_pct": 199.16,
+        "current": 249500
+      },
+      "daily_20": [
+        {
+          "date": "2026-07-10",
+          "o": 186200,
+          "h": 204000,
+          "l": 186200,
+          "c": 197800
+        },
+        {
+          "date": "2026-07-13",
+          "o": 204500,
+          "h": 224500,
+          "l": 201500,
+          "c": 204500
+        },
+        {
+          "date": "2026-07-14",
+          "o": 206500,
+          "h": 208500,
+          "l": 175200,
+          "c": 184000
+        },
+        {
+          "date": "2026-07-15",
+          "o": 191500,
+          "h": 208000,
+          "l": 191500,
+          "c": 203500
+        },
+        {
+          "date": "2026-07-16",
+          "o": 199700,
+          "h": 208000,
+          "l": 187500,
+          "c": 194300
+        },
+        {
+          "date": "2026-07-20",
+          "o": 194300,
+          "h": 220500,
+          "l": 186000,
+          "c": 199700
+        },
+        {
+          "date": "2026-07-21",
+          "o": 197800,
+          "h": 200500,
+          "l": 185100,
+          "c": 195000
+        },
+        {
+          "date": "2026-07-22",
+          "o": 201000,
+          "h": 216500,
+          "l": 188700,
+          "c": 190000
+        },
+        {
+          "date": "2026-07-23",
+          "o": 200000,
+          "h": 247000,
+          "l": 199000,
+          "c": 247000
+        },
+        {
+          "date": "2026-07-24",
+          "o": 258500,
+          "h": 283500,
+          "l": 239000,
+          "c": 250000
+        },
+        {
+          "date": "2026-07-27",
+          "o": 242000,
+          "h": 242000,
+          "l": 200500,
+          "c": 206000
+        },
+        {
+          "date": "2026-07-28",
+          "o": 195600,
+          "h": 199400,
+          "l": 180300,
+          "c": 184500
+        },
+        {
+          "date": "2026-07-29",
+          "o": 191200,
+          "h": 203000,
+          "l": 163100,
+          "c": 170100
+        },
+        {
+          "date": "2026-07-30",
+          "o": 170900,
+          "h": 196100,
+          "l": 170900,
+          "c": 175400
+        },
+        {
+          "date": "2026-07-31",
+          "o": 188000,
+          "h": 194100,
+          "l": 172500,
+          "c": 190300
+        },
+        {
+          "date": "2026-08-03",
+          "o": 184100,
+          "h": 206000,
+          "l": 180100,
+          "c": 196900
+        },
+        {
+          "date": "2026-08-04",
+          "o": 214000,
+          "h": 238000,
+          "l": 210000,
+          "c": 225000
+        },
+        {
+          "date": "2026-08-05",
+          "o": 233500,
+          "h": 256500,
+          "l": 226000,
+          "c": 246000
+        },
+        {
+          "date": "2026-08-06",
+          "o": 251000,
+          "h": 251000,
+          "l": 247000,
+          "c": 249500
+        },
+        {
+          "date": "2026-08-07",
+          "o": 262000,
+          "h": 288000,
+          "l": 258500,
+          "c": 288000
+        }
+      ]
+    },
     {
       "code": "226340",
       "name": "본느",
-      "rank": 1,
-      "trade_amount": 3566000000,
-      "change_pct": 0.0,
-      "close_price": 4775,
+      "rank": 2,
+      "trade_amount": 3667000000,
+      "change_pct": 29.84,
+      "close_price": 6200,
       "open_price": 6100,
       "high_price": 6200,
       "low_price": 5810,
@@ -108,17 +394,17 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": 1.3,
-      "index_multiple_current": 0.0,
-      "index_multiple_eligible": false,
+      "index_change_pct": 1.28,
+      "index_multiple_current": 23.31,
+      "index_multiple_eligible": true,
       "range_240d": {
         "high": 6200,
         "high_date": "2026-08-07",
-        "high_pct": -22.98,
+        "high_pct": 0.0,
         "low": 1220,
         "low_date": "2026-07-30",
-        "low_pct": 291.39,
-        "current": 4775
+        "low_pct": 408.2,
+        "current": 6200
       },
       "daily_20": [
         {
@@ -256,10 +542,10 @@
         },
         {
           "date": "2026-08-07",
-          "o": 4775,
-          "h": 4775,
-          "l": 4775,
-          "c": 4775
+          "o": 6100,
+          "h": 6200,
+          "l": 5810,
+          "c": 6200
         }
       ],
       "status_badges": [
@@ -272,7 +558,7 @@
               "desc": "5일 전(2026-07-31) 대비 +60%↑",
               "base_price": 1677,
               "threshold": 2683,
-              "current": 4775,
+              "current": 6200,
               "triggered": true
             }
           ],
@@ -289,22 +575,389 @@
           "effect_badges": []
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 6100,
+        "base": 6100,
+        "prices": [
+          6100,
+          6200,
+          6200
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "투자경고",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰"
     },
     {
+      "code": "062970",
+      "name": "한국첨단소재",
+      "rank": 3,
+      "trade_amount": 3354000000,
+      "change_pct": 29.89,
+      "close_price": 3020,
+      "open_price": 2750,
+      "high_price": 3020,
+      "low_price": 2560,
+      "industry": null,
+      "sector": null,
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": true,
+      "bullish_streak": 2,
+      "bullish_dates": [
+        "2026-07-10",
+        "2026-07-15",
+        "2026-08-07"
+      ],
+      "news": [],
+      "fallback": true,
+      "range_240d": {
+        "high": 10105,
+        "high_date": "2026-04-08",
+        "high_pct": -70.11,
+        "low": 1933,
+        "low_date": "2026-07-14",
+        "low_pct": 56.23,
+        "current": 3020
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-19",
+          "o": 3604,
+          "h": 3636,
+          "l": 3223,
+          "c": 3340
+        },
+        {
+          "date": "2026-06-22",
+          "o": 3321,
+          "h": 3444,
+          "l": 3101,
+          "c": 3207
+        },
+        {
+          "date": "2026-06-23",
+          "o": 3321,
+          "h": 3321,
+          "l": 2821,
+          "c": 2859
+        },
+        {
+          "date": "2026-06-24",
+          "o": 2859,
+          "h": 3121,
+          "l": 2811,
+          "c": 2955
+        },
+        {
+          "date": "2026-06-25",
+          "o": 2955,
+          "h": 3155,
+          "l": 2777,
+          "c": 2777
+        },
+        {
+          "date": "2026-06-26",
+          "o": 2701,
+          "h": 2761,
+          "l": 2501,
+          "c": 2587
+        },
+        {
+          "date": "2026-06-29",
+          "o": 2587,
+          "h": 2859,
+          "l": 2519,
+          "c": 2841
+        },
+        {
+          "date": "2026-06-30",
+          "o": 2841,
+          "h": 2897,
+          "l": 2629,
+          "c": 2701
+        },
+        {
+          "date": "2026-07-01",
+          "o": 2729,
+          "h": 2841,
+          "l": 2581,
+          "c": 2719
+        },
+        {
+          "date": "2026-07-02",
+          "o": 2611,
+          "h": 2637,
+          "l": 2419,
+          "c": 2431
+        },
+        {
+          "date": "2026-07-03",
+          "o": 2431,
+          "h": 2519,
+          "l": 2251,
+          "c": 2517
+        },
+        {
+          "date": "2026-07-06",
+          "o": 2599,
+          "h": 2601,
+          "l": 2321,
+          "c": 2429
+        },
+        {
+          "date": "2026-07-07",
+          "o": 2429,
+          "h": 2469,
+          "l": 2221,
+          "c": 2285
+        },
+        {
+          "date": "2026-07-08",
+          "o": 2219,
+          "h": 2219,
+          "l": 2037,
+          "c": 2067
+        },
+        {
+          "date": "2026-07-09",
+          "o": 2023,
+          "h": 2259,
+          "l": 2023,
+          "c": 2125
+        },
+        {
+          "date": "2026-07-10",
+          "o": 2131,
+          "h": 2681,
+          "l": 2131,
+          "c": 2489
+        },
+        {
+          "date": "2026-07-13",
+          "o": 2497,
+          "h": 2601,
+          "l": 2103,
+          "c": 2171
+        },
+        {
+          "date": "2026-07-14",
+          "o": 2107,
+          "h": 2195,
+          "l": 1933,
+          "c": 2011
+        },
+        {
+          "date": "2026-07-15",
+          "o": 2029,
+          "h": 2595,
+          "l": 2029,
+          "c": 2325
+        },
+        {
+          "date": "2026-08-07",
+          "o": 2750,
+          "h": 3020,
+          "l": 2560,
+          "c": 3020
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
+      "code": "095910",
+      "name": "에스에너지",
+      "rank": 4,
+      "trade_amount": 1703000000,
+      "change_pct": 29.9,
+      "close_price": 895,
+      "open_price": 706,
+      "high_price": 895,
+      "low_price": 706,
+      "industry": null,
+      "sector": null,
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-07-23",
+        "2026-08-07"
+      ],
+      "news": [],
+      "fallback": true,
+      "range_240d": {
+        "high": 2950,
+        "high_date": "2026-04-30",
+        "high_pct": -69.66,
+        "low": 571,
+        "low_date": "2026-07-29",
+        "low_pct": 56.74,
+        "current": 895
+      },
+      "daily_20": [
+        {
+          "date": "2026-07-10",
+          "o": 790,
+          "h": 833,
+          "l": 790,
+          "c": 829
+        },
+        {
+          "date": "2026-07-13",
+          "o": 831,
+          "h": 885,
+          "l": 762,
+          "c": 770
+        },
+        {
+          "date": "2026-07-14",
+          "o": 770,
+          "h": 785,
+          "l": 718,
+          "c": 748
+        },
+        {
+          "date": "2026-07-15",
+          "o": 755,
+          "h": 791,
+          "l": 751,
+          "c": 789
+        },
+        {
+          "date": "2026-07-16",
+          "o": 789,
+          "h": 789,
+          "l": 740,
+          "c": 771
+        },
+        {
+          "date": "2026-07-20",
+          "o": 771,
+          "h": 802,
+          "l": 690,
+          "c": 737
+        },
+        {
+          "date": "2026-07-21",
+          "o": 737,
+          "h": 755,
+          "l": 706,
+          "c": 751
+        },
+        {
+          "date": "2026-07-22",
+          "o": 769,
+          "h": 789,
+          "l": 759,
+          "c": 764
+        },
+        {
+          "date": "2026-07-23",
+          "o": 764,
+          "h": 910,
+          "l": 749,
+          "c": 905
+        },
+        {
+          "date": "2026-07-24",
+          "o": 980,
+          "h": 980,
+          "l": 778,
+          "c": 778
+        },
+        {
+          "date": "2026-07-27",
+          "o": 798,
+          "h": 800,
+          "l": 724,
+          "c": 745
+        },
+        {
+          "date": "2026-07-28",
+          "o": 740,
+          "h": 740,
+          "l": 685,
+          "c": 690
+        },
+        {
+          "date": "2026-07-29",
+          "o": 670,
+          "h": 706,
+          "l": 571,
+          "c": 617
+        },
+        {
+          "date": "2026-07-30",
+          "o": 620,
+          "h": 658,
+          "l": 615,
+          "c": 621
+        },
+        {
+          "date": "2026-07-31",
+          "o": 640,
+          "h": 678,
+          "l": 637,
+          "c": 652
+        },
+        {
+          "date": "2026-08-03",
+          "o": 652,
+          "h": 670,
+          "l": 614,
+          "c": 653
+        },
+        {
+          "date": "2026-08-04",
+          "o": 653,
+          "h": 715,
+          "l": 653,
+          "c": 680
+        },
+        {
+          "date": "2026-08-05",
+          "o": 697,
+          "h": 747,
+          "l": 683,
+          "c": 711
+        },
+        {
+          "date": "2026-08-06",
+          "o": 733,
+          "h": 733,
+          "l": 680,
+          "c": 689
+        },
+        {
+          "date": "2026-08-07",
+          "o": 706,
+          "h": 895,
+          "l": 706,
+          "c": 895
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
       "code": "001290",
       "name": "상상인증권",
-      "rank": 2,
-      "trade_amount": 893000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
+      "rank": 5,
+      "trade_amount": 1046000000,
+      "change_pct": 29.91,
+      "close_price": 1203,
+      "open_price": 1203,
+      "high_price": 1203,
+      "low_price": 1203,
       "industry": "금융 지원 서비스업",
       "sector": "유가증권 매매",
       "themes": [
@@ -336,7 +989,9 @@
       },
       "bullish_today": false,
       "bullish_streak": 0,
-      "bullish_dates": [],
+      "bullish_dates": [
+        "2026-08-06"
+      ],
       "news": [
         {
           "title": "[오늘의 증시일정] 파마리서치·금호석유화학·코오롱인더·상상인증권 등",
@@ -404,15 +1059,17 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": 1.06,
+      "index_change_pct": 1.43,
+      "index_multiple_current": 20.92,
+      "index_multiple_eligible": true,
       "range_240d": {
         "high": 1782,
         "high_date": "2026-02-27",
-        "high_pct": -48.04,
+        "high_pct": -32.49,
         "low": 587,
         "low_date": "2026-07-30",
-        "low_pct": 57.75,
-        "current": 926
+        "low_pct": 104.94,
+        "current": 1203
       },
       "daily_20": [
         {
@@ -556,8 +1213,45 @@
           "c": 1203
         }
       ],
+      "status_badges": [
+        {
+          "label": "투자주의 근접",
+          "severity": "caution",
+          "source": "predicted",
+          "thresholds": [
+            {
+              "desc": "5일 전(2026-07-31) 대비 +60%↑",
+              "base_price": 650,
+              "threshold": 1040,
+              "current": 1203,
+              "triggered": true
+            }
+          ],
+          "regulation": "KRX 시장경보 가격 조건 충족 (거래량 미검증, 자체 추정)",
+          "period_start": "2026-08-10",
+          "period_end": "2026-08-11",
+          "start": "2026-08-10",
+          "end": "2026-08-11",
+          "view_date": "2026-08-07",
+          "next_trading_day": "2026-08-10",
+          "next_trading_day_for_predicted": "2026-08-10",
+          "next_trading_day_source": "fallback_homepage",
+          "single_price": false,
+          "effect_badges": []
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 1203,
+        "base": 1203,
+        "prices": [
+          1203,
+          1203,
+          1203
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰"
@@ -565,15 +1259,15 @@
     {
       "code": "900340",
       "name": "윙입푸드",
-      "rank": 3,
-      "trade_amount": 387000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
-      "industry": null,
-      "sector": null,
+      "rank": 6,
+      "trade_amount": 415000000,
+      "change_pct": 29.93,
+      "close_price": 1554,
+      "open_price": 1482,
+      "high_price": 1554,
+      "low_price": 1480,
+      "industry": "기타 금융업",
+      "sector": "육가공 제품",
       "themes": [],
       "theme_paths": [],
       "pick_count": 1,
@@ -583,8 +1277,172 @@
       "bullish_dates": [],
       "news": [],
       "fallback": true,
+      "index_change_pct": 1.28,
+      "index_multiple_current": 23.38,
+      "index_multiple_eligible": true,
+      "range_240d": {
+        "high": 5079,
+        "high_date": "2025-07-18",
+        "high_pct": -69.4,
+        "low": 905,
+        "low_date": "2026-07-29",
+        "low_pct": 71.71,
+        "current": 1554
+      },
+      "daily_20": [
+        {
+          "date": "2026-07-10",
+          "o": 1310,
+          "h": 1319,
+          "l": 1275,
+          "c": 1293
+        },
+        {
+          "date": "2026-07-13",
+          "o": 1329,
+          "h": 1329,
+          "l": 1257,
+          "c": 1264
+        },
+        {
+          "date": "2026-07-14",
+          "o": 1252,
+          "h": 1277,
+          "l": 1227,
+          "c": 1250
+        },
+        {
+          "date": "2026-07-15",
+          "o": 1240,
+          "h": 1296,
+          "l": 1221,
+          "c": 1294
+        },
+        {
+          "date": "2026-07-16",
+          "o": 1294,
+          "h": 1310,
+          "l": 1257,
+          "c": 1287
+        },
+        {
+          "date": "2026-07-20",
+          "o": 1287,
+          "h": 1295,
+          "l": 1211,
+          "c": 1211
+        },
+        {
+          "date": "2026-07-21",
+          "o": 1211,
+          "h": 1250,
+          "l": 1203,
+          "c": 1232
+        },
+        {
+          "date": "2026-07-22",
+          "o": 1235,
+          "h": 1262,
+          "l": 1198,
+          "c": 1204
+        },
+        {
+          "date": "2026-07-23",
+          "o": 1265,
+          "h": 1270,
+          "l": 1200,
+          "c": 1227
+        },
+        {
+          "date": "2026-07-24",
+          "o": 1226,
+          "h": 1257,
+          "l": 1180,
+          "c": 1194
+        },
+        {
+          "date": "2026-07-27",
+          "o": 1188,
+          "h": 1219,
+          "l": 1142,
+          "c": 1179
+        },
+        {
+          "date": "2026-07-28",
+          "o": 1150,
+          "h": 1183,
+          "l": 1080,
+          "c": 1090
+        },
+        {
+          "date": "2026-07-29",
+          "o": 1089,
+          "h": 1142,
+          "l": 905,
+          "c": 977
+        },
+        {
+          "date": "2026-07-30",
+          "o": 977,
+          "h": 1029,
+          "l": 958,
+          "c": 973
+        },
+        {
+          "date": "2026-07-31",
+          "o": 990,
+          "h": 1024,
+          "l": 957,
+          "c": 1003
+        },
+        {
+          "date": "2026-08-03",
+          "o": 1003,
+          "h": 1066,
+          "l": 1003,
+          "c": 1037
+        },
+        {
+          "date": "2026-08-04",
+          "o": 1040,
+          "h": 1137,
+          "l": 1038,
+          "c": 1080
+        },
+        {
+          "date": "2026-08-05",
+          "o": 1165,
+          "h": 1165,
+          "l": 1093,
+          "c": 1159
+        },
+        {
+          "date": "2026-08-06",
+          "o": 1166,
+          "h": 1196,
+          "l": 1131,
+          "c": 1196
+        },
+        {
+          "date": "2026-08-07",
+          "o": 1482,
+          "h": 1554,
+          "l": 1480,
+          "c": 1554
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 1482,
+        "base": 1482,
+        "prices": [
+          1482,
+          1554,
+          1554
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
@@ -592,10 +1450,10 @@
     {
       "code": "011330",
       "name": "유니켐",
-      "rank": 4,
-      "trade_amount": 153000000,
-      "change_pct": 0.0,
-      "close_price": 4550,
+      "rank": 7,
+      "trade_amount": 165000000,
+      "change_pct": 29.89,
+      "close_price": 5910,
       "open_price": 5910,
       "high_price": 5910,
       "low_price": 5910,
@@ -653,17 +1511,17 @@
         }
       ],
       "fallback": false,
-      "index_change_pct": 1.06,
-      "index_multiple_current": 0.0,
-      "index_multiple_eligible": false,
+      "index_change_pct": 1.43,
+      "index_multiple_current": 20.9,
+      "index_multiple_eligible": true,
       "range_240d": {
         "high": 18890,
         "high_date": "2025-08-12",
-        "high_pct": -75.91,
+        "high_pct": -68.71,
         "low": 3060,
         "low_date": "2026-07-02",
-        "low_pct": 48.69,
-        "current": 4550
+        "low_pct": 93.14,
+        "current": 5910
       },
       "daily_20": [
         {
@@ -801,10 +1659,10 @@
         },
         {
           "date": "2026-08-07",
-          "o": 4550,
-          "h": 4550,
-          "l": 4550,
-          "c": 4550
+          "o": 5910,
+          "h": 5910,
+          "l": 5910,
+          "c": 5910
         }
       ],
       "status_badges": [
@@ -824,8 +1682,18 @@
           "effect_badges": []
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 5910,
+        "base": 5910,
+        "prices": [
+          5910,
+          5910,
+          5910
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "투자주의",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰"
@@ -833,26 +1701,190 @@
     {
       "code": "025900",
       "name": "동화기업",
-      "rank": 5,
-      "trade_amount": 151000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
-      "industry": null,
-      "sector": null,
+      "rank": 8,
+      "trade_amount": 162000000,
+      "change_pct": 30.0,
+      "close_price": 8060,
+      "open_price": 8060,
+      "high_price": 8060,
+      "low_price": 8060,
+      "industry": "나무제품 제조업",
+      "sector": "PB, MDF, 표면재,온돌마루, 창호, 도어 등",
       "themes": [],
       "theme_paths": [],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": false,
       "bullish_streak": 0,
-      "bullish_dates": [],
+      "bullish_dates": [
+        "2026-06-29"
+      ],
       "news": [],
       "fallback": true,
-      "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "index_change_pct": 1.28,
+      "index_multiple_current": 23.44,
+      "index_multiple_eligible": true,
+      "range_240d": {
+        "high": 12980,
+        "high_date": "2026-04-22",
+        "high_pct": -37.9,
+        "low": 4500,
+        "low_date": "2026-07-30",
+        "low_pct": 79.11,
+        "current": 8060
+      },
+      "daily_20": [
+        {
+          "date": "2026-07-10",
+          "o": 5730,
+          "h": 6240,
+          "l": 5730,
+          "c": 6200
+        },
+        {
+          "date": "2026-07-13",
+          "o": 6180,
+          "h": 6360,
+          "l": 5790,
+          "c": 5910
+        },
+        {
+          "date": "2026-07-14",
+          "o": 5980,
+          "h": 5980,
+          "l": 5580,
+          "c": 5760
+        },
+        {
+          "date": "2026-07-15",
+          "o": 5880,
+          "h": 6050,
+          "l": 5700,
+          "c": 5770
+        },
+        {
+          "date": "2026-07-16",
+          "o": 5940,
+          "h": 5940,
+          "l": 5610,
+          "c": 5700
+        },
+        {
+          "date": "2026-07-20",
+          "o": 5710,
+          "h": 5750,
+          "l": 5380,
+          "c": 5380
+        },
+        {
+          "date": "2026-07-21",
+          "o": 5310,
+          "h": 5500,
+          "l": 5260,
+          "c": 5460
+        },
+        {
+          "date": "2026-07-22",
+          "o": 5550,
+          "h": 5720,
+          "l": 5510,
+          "c": 5620
+        },
+        {
+          "date": "2026-07-23",
+          "o": 5630,
+          "h": 5970,
+          "l": 5590,
+          "c": 5970
+        },
+        {
+          "date": "2026-07-24",
+          "o": 5860,
+          "h": 6240,
+          "l": 5780,
+          "c": 5850
+        },
+        {
+          "date": "2026-07-27",
+          "o": 6000,
+          "h": 6060,
+          "l": 5620,
+          "c": 5850
+        },
+        {
+          "date": "2026-07-28",
+          "o": 5650,
+          "h": 5880,
+          "l": 5290,
+          "c": 5430
+        },
+        {
+          "date": "2026-07-29",
+          "o": 5340,
+          "h": 5550,
+          "l": 4800,
+          "c": 5000
+        },
+        {
+          "date": "2026-07-30",
+          "o": 4500,
+          "h": 5330,
+          "l": 4500,
+          "c": 5160
+        },
+        {
+          "date": "2026-07-31",
+          "o": 5230,
+          "h": 5660,
+          "l": 5220,
+          "c": 5590
+        },
+        {
+          "date": "2026-08-03",
+          "o": 5400,
+          "h": 6050,
+          "l": 5360,
+          "c": 5830
+        },
+        {
+          "date": "2026-08-04",
+          "o": 5840,
+          "h": 6140,
+          "l": 5840,
+          "c": 6100
+        },
+        {
+          "date": "2026-08-05",
+          "o": 6120,
+          "h": 6340,
+          "l": 6110,
+          "c": 6150
+        },
+        {
+          "date": "2026-08-06",
+          "o": 6150,
+          "h": 6300,
+          "l": 6010,
+          "c": 6200
+        },
+        {
+          "date": "2026-08-07",
+          "o": 8060,
+          "h": 8060,
+          "l": 8060,
+          "c": 8060
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 8060,
+        "base": 8060,
+        "prices": [
+          8060,
+          8060,
+          8060
+        ]
+      },
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
