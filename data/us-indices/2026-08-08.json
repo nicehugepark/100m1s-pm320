@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26660.62,
-      "change_pct": 1.19,
+      "point": 26591.46,
+      "change_pct": 0.92,
       "candle": {
         "o": 26546.68,
         "h": 26709.46,
         "l": 26478.31,
-        "c": 26660.62
+        "c": 26591.46
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,7 +2033,7 @@
           "o": 26546.68,
           "h": 26709.46,
           "l": 26478.31,
-          "c": 26660.62
+          "c": 26591.46
         }
       ],
       "spark": [
@@ -2072,7 +2072,9 @@
         26676.86,
         26668.87,
         26661.66,
-        26660.62
+        26623.68,
+        26593.37,
+        26591.46
       ],
       "news": {
         "summary": "메모리 반도체주 약세 속 빅테크 AI 투자 가속화. 알파벳·애플 등 대형 기술기업의 대규모 채권 발행으로 AI 인프라 투자 지속, 다만 성장주에 대한 금리 경계감 부각. AI 모델 가격 인상 경쟁 심화.",
@@ -2096,13 +2098,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7753.25,
-      "change_pct": 0.56,
+      "point": 7740.16,
+      "change_pct": 0.39,
       "candle": {
         "o": 7735.18,
         "h": 7763.08,
         "l": 7719.19,
-        "c": 7753.25
+        "c": 7740.16
       },
       "range_240d": {
         "low": 6343.72,
@@ -4126,7 +4128,7 @@
           "o": 7735.18,
           "h": 7763.08,
           "l": 7719.19,
-          "c": 7753.25
+          "c": 7740.16
         }
       ],
       "spark": [
@@ -4165,7 +4167,9 @@
         7755.76,
         7754.34,
         7753.21,
-        7753.25
+        7747.0,
+        7740.67,
+        7740.16
       ],
       "news": {
         "summary": "글로벌 중앙은행 금리 기조 분화 심화. 미국 고용 지표 견고한 가운데 인플레이션 우려 완화 추세. 일미 금리 격차 확대로 환율 변동성 증가, 유럽 경기 부진 신호 지속. 미국-이란 호르무즈 협상 진전 중 지정학 리스크 관리.",
@@ -4189,13 +4193,13 @@
     },
     {
       "name": "DOW",
-      "point": 53982.03,
-      "change_pct": 0.18,
+      "point": 53916.58,
+      "change_pct": 0.06,
       "candle": {
         "o": 53849.26,
         "h": 54094.65,
         "l": 53807.94,
-        "c": 53982.03
+        "c": 53916.58
       },
       "range_240d": {
         "low": 45166.64,
@@ -6219,7 +6223,7 @@
           "o": 53849.26,
           "h": 54094.65,
           "l": 53807.94,
-          "c": 53982.03
+          "c": 53916.58
         }
       ],
       "spark": [
@@ -6258,7 +6262,9 @@
         53966.74,
         53973.91,
         53980.48,
-        53982.03
+        53950.53,
+        53916.58,
+        53916.58
       ],
       "news": {
         "summary": "다우지수 상승 기조 중단 460포인트 하락. 금융주(HSBC) 수익성 개선, 제약주(AstraZeneca) 저평가 평가 지속. 중동 지정학 긴장 고조·이란 호르무즈 협상 진행으로 유가 변동성 가중. 고용 견조한 가운데 전통 산업 다각화 기대는 제한적.",
@@ -6283,142 +6289,139 @@
   ],
   "news_chips": [
     {
-      "summary": "러시아 NATO 도발 가능성 높여지며 에너지·상품 시장 영향 우려",
+      "summary": "미국이 7월에 예상 밖으로 고용 2.3만 명이 감소해 경기 부진 우려가 커지고 있다",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/07/jobs-report-july-2026.html",
+      "published_ts": 1786117945.0,
+      "impact_high": true
+    },
+    {
+      "summary": "최근 약한 고용지표로 인해 연준의 향후 금리 인상 필요성이 불명확해지면서, 7월 미국 인플레이션 데이터가 향후 통화정책 방향을 결정할 핵심 지표로 주목받고 있다.",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/week-ahead-for-fx-bonds-u-s-inflation-data-in-focus-ffd3ae8a?mod=rss_socialeconomyfeed",
+      "published_ts": 1786117080.0,
+      "impact_high": true
+    },
+    {
+      "summary": "북한 탄도미사일 시험발사로 인도태평양 지역의 군사 긴장이 고조되고 반도체 공급망 리스크가 커지고 있다",
       "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/new-intelligence-warns-russia-may-provoke-nato-amid-dwindling-u-s-munitions-68f497c7?mod=rss_markets_main",
-      "published_ts": 1786096980.0,
+      "url": "https://www.wsj.com/world/asia/pyongyang-missile-test-signals-growing-conflict-between-north-korea-and-u-s-allies-a8447ad9?mod=rss_worldnews",
+      "published_ts": 1786096560.0,
       "impact_high": true
     },
     {
-      "summary": "대만 중국 침략 대비 훈련 강화로 반도체 공급망 리스크 부각",
-      "source": "한경",
-      "url": "https://www.hankyung.com/article/2026080713191",
-      "published_ts": 1786092180.0,
-      "impact_high": true
-    },
-    {
-      "summary": "중국 수출 강세 지속되며 경제 성장 견인, 미국 무역 긴장 심화",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/economy/trade/chinas-export-growth-remains-robust-despite-renewed-u-s-tensions-247ad80c?mod=rss_socialeconomyfeed",
-      "published_ts": 1786085040.0,
-      "impact_high": true
-    },
-    {
-      "summary": "유가 상승 지속, 석유 공급 불일치 현상 심화",
+      "summary": "석유 공급 통계의 불일치가 커지면서 유가 변동성이 심화되고 시장 불확실성이 높아지고 있다",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/stocks/oil-analysts-stumped-by-the-case-of-the-missing-barrels-e4c364e6?mod=rss_markets_main",
       "published_ts": 1786098120.0,
       "impact_high": false
     },
     {
-      "summary": "7월 고용 23만 감소로 예상 미스되며 다우지수 강세 마감, 연준 인상 기대 축소",
+      "summary": "이스라엘의 헤즈볼라 공격 강화로 중동 분쟁이 악화되고 유가 상승 압력이 커지고 있다",
       "source": "WSJ",
-      "url": "https://www.wsj.com/livecoverage/july-jobs-report-stock-market-08-07-2026?mod=rss_markets_main",
-      "published_ts": 1786090932.0,
+      "url": "https://www.wsj.com/world/middle-east/israel-steps-up-attacks-on-hezbollah-clouding-talks-with-lebanon-0a9d01b4?mod=rss_worldnews",
+      "published_ts": 1786047780.0,
       "impact_high": false
     },
     {
-      "summary": "메모리 반도체 기업들 약한 가이던스로 주가 하락",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/shares-of-memory-giants-drop-on-soft-guidance-505f1796?mod=rss_markets_main",
-      "published_ts": 1786047900.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국-일본 협력 엔화 지지 정책이 연준 완화 우려 초래",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/economy/central-banking/scott-bessents-yen-trade-has-unintended-consequences-for-the-markets-5297044b?mod=rss_socialeconomyfeed",
-      "published_ts": 1785981600.0,
-      "impact_high": true
-    },
-    {
-      "summary": "호르무즈 해협 개방 협상 진전으로 유가 변동성 우려 확산",
+      "summary": "이란과 호르무즈 해협 협상 진전으로 유가 공급 차단 리스크가 완화 방향으로 움직이고 있다",
       "source": "WSJ",
       "url": "https://www.wsj.com/world/middle-east/negotiators-close-in-on-deal-with-iran-to-open-hormuz-50c0f335?mod=rss_worldnews",
       "published_ts": 1785953820.0,
       "impact_high": false
     },
     {
-      "summary": "프라이빗 기업 고용 44만에 그치며 노동시장 둔화 신호",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/05/private-companies-added-just-44000-workers-in-july-below-expectations-adp-reports.html",
-      "published_ts": 1785942526.0,
+      "summary": "중동 휴전 협상이 이스라엘 공격으로 위험에 빠져 지역 정정 불안이 장기화될 우려가 높다",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/world/middle-east/trumps-days-old-hamas-disarmament-deal-is-already-in-danger-24164a6a?mod=rss_worldnews",
+      "published_ts": 1785947100.0,
+      "impact_high": true
+    },
+    {
+      "summary": "미국 서비스업 지수가 7월에 54.1을 기록해 경기 회복력이 지속되고 있다",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/central-banking/u-s-services-sector-activity-continued-to-expand-in-july-c30dcbc0?mod=rss_socialeconomyfeed",
+      "published_ts": 1785939900.0,
       "impact_high": false
     },
     {
-      "summary": "일본 엔화 약세 심화되며 달러 환율 변동성 확대",
+      "summary": "대만이 중국 침략 대비 전쟁 훈련을 실시하며 대만해협 지정학 긴장이 심화되고 있다",
       "source": "WSJ",
-      "url": "https://www.wsj.com/world/asia/only-the-bank-of-japan-can-arrest-the-yens-decline-dc351568?mod=rss_markets_main",
-      "published_ts": 1785835800.0,
+      "url": "https://www.wsj.com/world/china/taiwan-tests-war-plans-to-thwart-chinese-invasion-951a2932?mod=rss_worldnews",
+      "published_ts": 1785938040.0,
+      "impact_high": true
+    },
+    {
+      "summary": "유럽의 극심한 가뭄이 라인강, 다뉴브강 수위를 낮춰 에너지 공급과 화물 운송에 차질을 일으키고 있다",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/05/drought-rhine-danube-water-levels-economy.html",
+      "published_ts": 1785914117.0,
       "impact_high": true
     }
   ],
-  "_article_sig": "03c629be6f5da8d1e7afdc8fe924309dbbaf2559d2a9500b7fc6293cfc2a0d81",
+  "_article_sig": "91b2ba513cd49c50d5374a8bc0b231cd757fc3eeb0e1bfc5a560782a4cc5fc20",
   "built_at_kst": "2026-08-07T07:01:02.019082+09:00",
   "regular_open": true,
   "_futures_news": {
-    "NASDAQ": {
-      "summary": "메모리 반도체 약한 가이던스에 약세 국면. 인덱스 펀드 수익성 편차는 소수 거대 기술주 쏠림 신호",
-      "sources": [
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/shares-of-memory-giants-drop-on-soft-guidance-505f1796?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/how-a-few-hot-stocks-can-make-twin-funds-act-like-strangers-0ef7c52b?mod=rss_markets_main"
-        }
-      ]
-    },
     "S&P500": {
-      "summary": "고용 예상 外 23,000명 감소로 경기둔화 우려 심화. 인플레이션·연준 금리 정책 발표 임박으로 시장 변동성 확대 국면",
+      "summary": "고용 충격으로 경기 둔화 신호 강화. 미국 7월 고용 23,000명 감소(예상 +83,000)는 금리 인상 기대 약화와 실업률 역설(4.1%)의 노동 공급 축소를 반영. 중국 수출 급증에 무역 긴장 심화, 유럽 경제 부진 동조, 일본 통화 개입까지 글로벌 경기·통화 불확실성 심화",
       "sources": [
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/08/07/jobs-report-july-2026.html"
         },
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/week-ahead-for-fx-bonds-u-s-inflation-data-in-focus-ffd3ae8a?mod=rss_socialeconomyfeed"
+          "name": "WSJ",
+          "url": "https://www.wsj.com/livecoverage/july-jobs-report-stock-market-08-07-2026?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/u-s-services-sector-activity-continued-to-expand-in-july-c30dcbc0?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/economy/trade/chinas-export-growth-remains-robust-despite-renewed-u-s-tensions-247ad80c?mod=rss_socialeconomyfeed"
+        }
+      ]
+    },
+    "NASDAQ": {
+      "summary": "성장주 선택성 심화. SpaceX 같은 고위험 우주·AI 기업과 기타 나스닥 간 펀더멘탈 편차 확대. 고용 악화와 AI 세금 논의는 성장주 수익성 압박 신호",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/spacex-needs-to-make-its-bigger-rockets-work-c800f9c2?mod=rss_markets_main"
+        },
+        {
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/2026080713171"
         }
       ]
     },
     "DOW": {
-      "summary": "고용 감소로 경기민감주 리스크 부각. 금융기관 거버넌스 이슈와 중동 지정학 긴장 동시 진행으로 변동성 확대",
+      "summary": "블루칩 경기순환 약세 신호 강화. 고용 둔화에 금융주 규제 강화(JPMorgan 부정행위), M&A 구조조정(Monte dei Paschi-Intesa) 압력. 제조업 인플레이션 우려와 유럽 경제 부진 동조로 경기민감주 수익성 불확실성 심화",
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/july-jobs-report-stock-market-08-07-2026?mod=rss_markets_main"
+          "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-78c77f4f?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/regulation/prosecutors-probed-whistleblower-claims-that-jpmorgan-mishandled-fraud-cases-3f941dc9?mod=rss_markets_main"
         },
         {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/iran-strait-of-hormuz-trump-talks-ec566cd7?mod=rss_worldnews"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/03/manufacturing-survey-shows-inflation-worries-adding-to-pressure-on-fed.html"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-08-08T01:20:04.430124+09:00",
+    "as_of_kst": "2026-08-08T01:30:06.840630+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7777.5,
+        "point": 7777.25,
         "change_pct": 0.55,
         "spark": [
           7735.0,
-          7774.75,
-          7766.75,
-          7765.5,
           7761.5,
           7760.75,
           7760.75,
@@ -6455,20 +6458,23 @@
           7778.0,
           7779.0,
           7779.25,
-          7777.5
+          7777.5,
+          7777.25,
+          7769.75,
+          7777.25
         ],
         "candle": {
           "o": 7735.0,
           "h": 7786.75,
           "l": 7725.5,
-          "c": 7779.5
+          "c": 7777.25
         },
         "range_240d": {
           "low": 6388.25,
-          "high": 7779.5,
+          "high": 7777.25,
           "low_date": "2026-03-30",
           "high_date": "2026-08-07",
-          "low_change_pct": 21.78,
+          "low_change_pct": 21.74,
           "high_change_pct": 0.0
         },
         "daily_expanded": [
@@ -8485,25 +8491,25 @@
             "o": 7735.0,
             "h": 7786.75,
             "l": 7725.5,
-            "c": 7779.5,
-            "v": 686765
+            "c": 7777.25,
+            "v": 697736
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "고용 예상 外 23,000명 감소로 경기둔화 우려 심화. 인플레이션·연준 금리 정책 발표 임박으로 시장 변동성 확대 국면",
+          "summary": "고용 충격으로 경기 둔화 신호 강화. 미국 7월 고용 23,000명 감소(예상 +83,000)는 금리 인상 기대 약화와 실업률 역설(4.1%)의 노동 공급 축소를 반영. 중국 수출 급증에 무역 긴장 심화, 유럽 경제 부진 동조, 일본 통화 개입까지 글로벌 경기·통화 불확실성 심화",
           "sources": [
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/08/07/jobs-report-july-2026.html"
             },
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/week-ahead-for-fx-bonds-u-s-inflation-data-in-focus-ffd3ae8a?mod=rss_socialeconomyfeed"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/livecoverage/july-jobs-report-stock-market-08-07-2026?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/u-s-services-sector-activity-continued-to-expand-in-july-c30dcbc0?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/economy/trade/chinas-export-growth-remains-robust-despite-renewed-u-s-tensions-247ad80c?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8511,12 +8517,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29826.0,
-        "change_pct": 1.15,
+        "point": 29795.0,
+        "change_pct": 1.04,
         "spark": [
           29514.25,
-          29786.25,
-          29780.0,
           29741.0,
           29731.5,
           29729.0,
@@ -8554,21 +8558,23 @@
           29812.0,
           29824.5,
           29800.75,
-          29826.0
+          29794.25,
+          29747.25,
+          29795.0
         ],
         "candle": {
           "o": 29514.25,
           "h": 29867.75,
           "l": 29453.5,
-          "c": 29828.0
+          "c": 29795.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 28.9,
-          "high_change_pct": -2.88
+          "low_change_pct": 28.76,
+          "high_change_pct": -2.99
         },
         "daily_expanded": [
           {
@@ -10584,21 +10590,21 @@
             "o": 29514.25,
             "h": 29867.75,
             "l": 29453.5,
-            "c": 29828.0,
-            "v": 366399
+            "c": 29795.0,
+            "v": 371417
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "메모리 반도체 약한 가이던스에 약세 국면. 인덱스 펀드 수익성 편차는 소수 거대 기술주 쏠림 신호",
+          "summary": "성장주 선택성 심화. SpaceX 같은 고위험 우주·AI 기업과 기타 나스닥 간 펀더멘탈 편차 확대. 고용 악화와 AI 세금 논의는 성장주 수익성 압박 신호",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/shares-of-memory-giants-drop-on-soft-guidance-505f1796?mod=rss_markets_main"
+              "url": "https://www.wsj.com/finance/spacex-needs-to-make-its-bigger-rockets-work-c800f9c2?mod=rss_markets_main"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/how-a-few-hot-stocks-can-make-twin-funds-act-like-strangers-0ef7c52b?mod=rss_markets_main"
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/2026080713171"
             }
           ]
         }
@@ -10606,13 +10612,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 54075.0,
-        "change_pct": 0.11,
+        "point": 54086.0,
+        "change_pct": 0.14,
         "spark": [
           54040.0,
-          54162.0,
-          54126.0,
-          54093.0,
           54076.0,
           54085.0,
           54098.0,
@@ -10649,21 +10652,24 @@
           54060.0,
           54081.0,
           54071.0,
-          54075.0
+          54075.0,
+          54081.0,
+          54054.0,
+          54086.0
         ],
         "candle": {
           "o": 54040.0,
           "h": 54202.0,
           "l": 53879.0,
-          "c": 54071.0
+          "c": 54086.0
         },
         "range_240d": {
           "low": 45308.0,
           "high": 54494.0,
           "low_date": "2025-09-03",
           "high_date": "2026-08-05",
-          "low_change_pct": 19.34,
-          "high_change_pct": -0.78
+          "low_change_pct": 19.37,
+          "high_change_pct": -0.75
         },
         "daily_expanded": [
           {
@@ -12679,30 +12685,30 @@
             "o": 54040.0,
             "h": 54202.0,
             "l": 53879.0,
-            "c": 54071.0,
-            "v": 36865
+            "c": 54086.0,
+            "v": 37294
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "고용 감소로 경기민감주 리스크 부각. 금융기관 거버넌스 이슈와 중동 지정학 긴장 동시 진행으로 변동성 확대",
+          "summary": "블루칩 경기순환 약세 신호 강화. 고용 둔화에 금융주 규제 강화(JPMorgan 부정행위), M&A 구조조정(Monte dei Paschi-Intesa) 압력. 제조업 인플레이션 우려와 유럽 경제 부진 동조로 경기민감주 수익성 불확실성 심화",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/july-jobs-report-stock-market-08-07-2026?mod=rss_markets_main"
+              "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-78c77f4f?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/regulation/prosecutors-probed-whistleblower-claims-that-jpmorgan-mishandled-fraud-cases-3f941dc9?mod=rss_markets_main"
             },
             {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/iran-strait-of-hormuz-trump-talks-ec566cd7?mod=rss_worldnews"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/08/03/manufacturing-survey-shows-inflation-worries-adding-to-pressure-on-fed.html"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-08-08T01:20:08.424601+09:00"
+  "intraday_refreshed_kst": "2026-08-08T01:32:23.809195+09:00"
 }
