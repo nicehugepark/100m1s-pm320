@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "generated_at": "2026-08-07T10:05:18.056456",
+  "generated_at": "2026-08-07T10:06:43.480151",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -1693,8 +1693,24 @@
       "low_price": 84000,
       "industry": "일차전지 및 이차전지 제조업",
       "sector": "이차전지 양극활물질",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "2차전지",
+        "실적"
+      ],
+      "theme_paths": [
+        {
+          "name": "2차전지",
+          "path": [
+            "2차전지"
+          ]
+        },
+        {
+          "name": "실적",
+          "path": [
+            "실적"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": false,
@@ -1704,36 +1720,36 @@
       ],
       "news": [
         {
-          "title": "[특징주] 엘앤에프, 2분기 흑자전환에 14%대 급등",
-          "url": "https://biz.chosun.com/stock/stock_general/2026/08/07/7OUSBQD555GZDGSY42N2IAM6LU/",
-          "source": "조선비즈",
-          "published_at": "2026-08-07T00:46:19",
-          "causal_chain": null,
-          "macro_event": null,
-          "newzy_freshness": null,
-          "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
-          "newzy_tradability": null,
-          "newzy_score": null,
-          "newzy_verdict": null,
-          "article_type": null
-        },
-        {
           "title": "2분기 흑자 전환…엘앤에프 13%↑[특징주]",
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=05284086645545024",
           "source": "이데일리",
           "published_at": "2026-08-07T00:20:53",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "엘앤에프가 2026년 2분기 흑자 전환에 성공하며 양극재 실적 턴어라운드가 확인되고, 3분기 말 LFP 양극재 양산 본격화 기대가 더해짐 → 2차전지 양극활물질 본업 모멘텀 부각 → 매수세 집중 → 당일 종가 90,100원(+12.91%)·거래대금 589억원으로 급등.",
+          "macro_event": "엘앤에프 2026년 2분기 흑자 전환(실적 턴어라운드)",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.6,
+          "newzy_virality": 0.5,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.56,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
+        },
+        {
+          "title": "[특징주] 엘앤에프, 2분기 흑자전환에 14%대 급등",
+          "url": "https://biz.chosun.com/stock/stock_general/2026/08/07/7OUSBQD555GZDGSY42N2IAM6LU/",
+          "source": "조선비즈",
+          "published_at": "2026-08-07T00:46:19",
+          "causal_chain": "엘앤에프가 2026년 2분기 흑자 전환에 성공하며 양극재 실적 턴어라운드가 확인되고, 3분기 말 LFP 양극재 양산 본격화 기대가 더해짐 → 2차전지 양극활물질 본업 모멘텀 부각 → 매수세 집중 → 당일 종가 90,100원(+12.91%)·거래대금 589억원으로 급등.",
+          "macro_event": "엘앤에프 2026년 2분기 흑자 전환(실적 턴어라운드)",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.6,
+          "newzy_virality": 0.5,
+          "newzy_tradability": null,
+          "newzy_score": 0.56,
+          "newzy_verdict": null,
+          "article_type": "시세정형"
         }
       ],
       "fallback": false,
@@ -1913,9 +1929,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
+      "togusa_verdict": "weak_bull",
       "theme_leader": false,
-      "hugepark_grade": "주의"
+      "hugepark_grade": "관찰"
     },
     {
       "code": "073240",
@@ -2275,15 +2291,15 @@
           "title": "한국첨단소재 자회사, 국제 양자 검증 무대 진출...'코리아퀀텀' QOBLIB 등재",
           "url": "https://www.fnnews.com/news/202608070930547937",
           "source": "파이낸셜뉴스",
-          "published_at": "2026-08-07T09:50:07.603791",
-          "causal_chain": "양자컴퓨팅 실용성 검증 수요가 커지는 매크로 속에서, 한국첨단소재 자회사 퀀텀AI솔루션의 기업용 양자전환 검증 플랫폼 '코리아퀀텀'이 독일 ZIB·IBM이 공동 운영하는 국제 벤치마크 QOBLIB에 등재됨(8개 표준 최적화 문제 전 시험 최적해 도출·제3자 검증 완료) → 누적 테마 '양자'를 보유한 종목의 기술력이 국제 무대에서 입증됐다는 기대감 부각 → 양자 테마 매수세 집중 → 당일 상한가(+29.89%)·종가 3,020원·거래대금 113억원.",
-          "macro_event": "양자컴퓨팅 상용화·성능검증 수요 확대 → 국제 양자 최적화 벤치마크(QOBLIB, 독일 ZIB·IBM 공동 운영) 등 객관적 검증 무대 부상",
+          "published_at": "2026-08-07T10:00:08.543260",
+          "causal_chain": "글로벌 양자컴퓨팅 상용화 검증 경쟁 심화 → 한국첨단소재 자회사 퀀텀AI솔루션의 '코리아퀀텀'이 QOBLIB 8개 표준 최적화 문제에서 전 시험 최적해 도출·제3자 검증까지 완료해 국제 벤치마크에 등재 → 국내 양자 기술 실증 레퍼런스 부각으로 매수세 집중 → 당일 상한가(+29.89%)·거래대금 114억원",
+          "macro_event": "한국첨단소재 자회사 퀀텀AI솔루션의 양자전환 검증 플랫폼 '코리아퀀텀'이 독일 ZIB·IBM 공동운영 국제 양자 최적화 벤치마크 QOBLIB에 등재",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": 0.6,
+          "newzy_magnitude": 0.7,
           "newzy_virality": 0.6,
           "newzy_tradability": null,
-          "newzy_score": 0.6,
+          "newzy_score": 0.66,
           "newzy_verdict": null,
           "article_type": "호재"
         },
