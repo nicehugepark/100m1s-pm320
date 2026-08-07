@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "generated_at": "2026-08-07T09:15:17.504415",
+  "generated_at": "2026-08-07T09:16:35.085334",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -111,10 +111,19 @@
       "industry": "기타 금융업",
       "sector": "타르제품,카본블랙,무수프탈산,농약원제,석탄화학제품,정밀화학제품,플라스틱창호재 제조,판매",
       "themes": [
+        "우주항공",
+        "스페이스X",
         "태양광",
         "실적"
       ],
       "theme_paths": [
+        {
+          "name": "스페이스X",
+          "path": [
+            "우주항공",
+            "스페이스X"
+          ]
+        },
         {
           "name": "태양광",
           "path": [
@@ -144,16 +153,16 @@
           "url": "https://www.fnnews.com/news/202608051018298555",
           "source": "파이낸셜뉴스",
           "published_at": "2026-08-06T10:30:05.550961",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "글로벌 우주기업 대상 초고순도 폴리실리콘 장기공급계약(LTA) 체결로 OCI 테라서스 3만5000t 생산능력이 사실상 완판 → 동일 규모 3만5000t 증설 결정(2029년 7만t)으로 우주용 폴리실리콘 핵심 공급사 지위 부각 → 스페이스X 협업 기대감과 태양광·우주 순환매가 겹치며 4거래일간 32% 급등 → 급등 후 당일(2026-08-06)은 종가 249,500원(+1.42%)·거래대금 14억원으로 차익실현 소화 속 소폭 상승 마감.",
+          "macro_event": "우주산업 공급망(밸류체인) 확대 → 초고순도 폴리실리콘 수요 증가",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.7,
+          "newzy_virality": 0.7,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.7,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": true,
@@ -308,7 +317,10 @@
           "l": 258500,
           "c": 288000
         }
-      ]
+      ],
+      "togusa_verdict": "weak_bull",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "226340",
@@ -768,7 +780,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "095910",
@@ -946,7 +961,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "001290",
