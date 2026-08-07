@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "generated_at": "2026-08-07T09:45:14.654553",
+  "generated_at": "2026-08-07T09:46:19.103813",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -1164,7 +1164,7 @@
           8460
         ]
       },
-      "togusa_verdict": "neutral",
+      "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰",
       "causal_chain": "",
@@ -1182,8 +1182,17 @@
       "low_price": 86000,
       "industry": "기타 금융업",
       "sector": "환경소재,화학필터,이차전지소재등",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "2차전지"
+      ],
+      "theme_paths": [
+        {
+          "name": "2차전지",
+          "path": [
+            "2차전지"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": false,
@@ -1197,7 +1206,7 @@
           "url": "https://www.etoday.co.kr/news/view/2611972",
           "source": "이투데이",
           "published_at": "2026-08-06T22:42:00",
-          "causal_chain": null,
+          "causal_chain": "제공된 뉴스는 '반도체 충격 뚫은 개별 호재'라며 포스코퓨처엠·에코프로·한화솔루션을 함께 거론한 증시키워드형 시황 요약으로, 에코프로 고유의 펀더멘털·매크로 사건은 특정되지 않았다. 종목 본질은 2차전지 소재(양극재) 계열 지주로 도메인 정합성만 인정되며, 당일 종가 86,800원(+3.83%)·거래대금 553억원의 소폭 반등은 본 헤드라인만으로는 인과적으로 설명되지 않는다.",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -1206,7 +1215,7 @@
           "newzy_tradability": null,
           "newzy_score": null,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "시세정형"
         }
       ],
       "fallback": true,
@@ -1381,7 +1390,7 @@
         ]
       },
       "togusa_verdict": "neutral",
-      "theme_leader": false,
+      "theme_leader": true,
       "hugepark_grade": "관찰"
     },
     {
@@ -1433,6 +1442,22 @@
       ],
       "news": [
         {
+          "title": "한국첨단소재 자회사, 국제 양자 검증 무대 진출...'코리아퀀텀' QOBLIB 등재",
+          "url": "https://www.fnnews.com/news/202608070930547937",
+          "source": "파이낸셜뉴스",
+          "published_at": "2026-08-07T09:40:03.891897",
+          "causal_chain": "양자컴퓨팅 실용화 국면에서 알고리즘 성능을 객관적으로 입증하는 국제 검증이 중요해지는 매크로 → 한국첨단소재 자회사 퀀텀AI솔루션의 기업용 양자전환 검증 플랫폼 '코리아퀀텀'이 독일 ZIB·IBM 공동운영 국제 벤치마크 QOBLIB에 등재(8개 표준 최적화 문제 전부 최적해 도출·제3자 검증 완료) → 누적 '양자' 테마 종목의 실체 있는 기술 검증 성과로 부각되며 매수세 집중 → 당일 상한가(+29.89%)·거래대금 113억원.",
+          "macro_event": "양자컴퓨팅 상용화·성능 검증 경쟁 본격화 (국제 벤치마크 QOBLIB 기반 객관 검증)",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.7,
+          "newzy_virality": 0.7,
+          "newzy_tradability": null,
+          "newzy_score": 0.7,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        },
+        {
           "title": "한국첨단소재, 자회사 기업용 양자 검증 플랫폼 국제 벤치마크 등재",
           "url": "https://www.etoday.co.kr/news/view/2612011",
           "source": "이투데이",
@@ -1447,22 +1472,6 @@
           "newzy_score": 0.46,
           "newzy_verdict": null,
           "article_type": "호재"
-        },
-        {
-          "title": "한국첨단소재 자회사, 국제 양자 검증 무대 진출...'코리아퀀텀' QOBLIB 등재",
-          "url": "https://www.fnnews.com/news/202608070930547937",
-          "source": "파이낸셜뉴스",
-          "published_at": "2026-08-07T09:40:03.891897",
-          "causal_chain": null,
-          "macro_event": null,
-          "newzy_freshness": null,
-          "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
-          "newzy_tradability": null,
-          "newzy_score": null,
-          "newzy_verdict": null,
-          "article_type": null
         }
       ],
       "fallback": false,
@@ -1638,9 +1647,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "strong_bull",
+      "togusa_verdict": "neutral",
       "theme_leader": true,
-      "hugepark_grade": "적극"
+      "hugepark_grade": "관찰"
     },
     {
       "code": "226340",
