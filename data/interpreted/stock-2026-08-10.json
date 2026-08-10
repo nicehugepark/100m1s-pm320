@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "generated_at": "2026-08-10T09:15:15.023329",
+  "generated_at": "2026-08-10T09:25:10.890352",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -28,10 +28,6 @@
       "summary": "합성고무 업황 개선 → 석유화학사 실적 회복 기대 → 화학 섹터 선제 강세"
     },
     {
-      "title": "AI냉각",
-      "summary": "AI 데이터센터 확산 → 냉각시스템 수요 급증 → 설비·냉각 부품 공급사 밸류에이션 재평가"
-    },
-    {
       "title": "경영변화",
       "summary": "반도체 기업 노조화·지분 매각 추진 → 경영권 구조 변화 → 반도체 섹터 리스크 요인"
     },
@@ -42,10 +38,20 @@
     {
       "title": "반도체계약",
       "summary": "반도체 기업 5년 장기 메모리 계약→칩 가격 안정·산업 구조 재편→반도체 섹터 환경 전환"
+    },
+    {
+      "title": "칩계약",
+      "summary": "글로벌 칩 공급 불안정 → 삼성·SK 5년 장기계약 체결 → 반도체 수익성 제약 vs 공급 안정성 이중주"
     }
   ],
   "narratives": [],
   "themes_macro_summary": [
+    {
+      "keyword": "AI센터",
+      "summary": "AI 데이터센터 투자 확대→냉각·인프라 기술 수요 급증→건설·전기·냉각기술 섹터 실적 개선",
+      "source_count": 4,
+      "verified": true
+    },
     {
       "keyword": "DC원전",
       "summary": "AI 데이터센터·원전 인프라 수요 증가 → 건설·장비사 수주 확대 → 건설·전기기기 섹터 수혜",
@@ -59,22 +65,16 @@
       "verified": true
     },
     {
+      "keyword": "원전정책",
+      "summary": "원전 에너지 정책 강화·한미 협력→국내 원전 기술 수출·건설사 수주 기대→건설·원전관련 섹터 수혜",
+      "source_count": 3,
+      "verified": true
+    },
+    {
       "keyword": "인프라투자",
       "summary": "AI 데이터센터·원전 투자 확대 → 인프라 건설 수주 기회 증가 → 건설 섹터 강세",
       "source_count": 2,
       "verified": true
-    },
-    {
-      "keyword": "중동재건",
-      "summary": "중동지역 정세 긴장 → 한국 해외사업(가스공사) 이익 증가 → 에너지·건설 섹터 수혜",
-      "source_count": 1,
-      "verified": false
-    },
-    {
-      "keyword": "AI냉각",
-      "summary": "AI 데이터센터 확산 → 냉각시스템 수요 급증 → 설비·냉각 부품 공급사 밸류에이션 재평가",
-      "source_count": 1,
-      "verified": false
     }
   ],
   "themes_tree": {
@@ -88,6 +88,24 @@
             "summary": "AI 데이터센터 증설 본격화로 냉각·건설·전력 수요가 확대되며 관련 수혜주로 자금 유입.",
             "source_count": 3,
             "verdict": "pass"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "AI 데이터센터 증설 본격화로 냉각·건설·전력 수요가 확대되며 관련 수혜주로 자금 유입.",
+            "source_count": 3,
+            "verdict": "pass"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "AI 데이터센터 증설 수요가 전력기기·건설·냉각 밸류체인으로 확산되며 산일전기·GS건설·대우건설·오텍 등 수혜 부각",
+            "source_count": 3,
+            "verdict": "pass"
+          },
+          {
+            "name": "AI 데이터센터",
+            "summary": "AI 데이터센터 증설 수요가 전력기기·건설·냉각 밸류체인으로 확산되며 산일전기·GS건설·대우건설·오텍 등 수혜 부각",
+            "source_count": 3,
+            "verdict": "pass"
           }
         ]
       },
@@ -99,12 +117,24 @@
             "summary": "한미 원전 협력 기대와 APR1400 수주 모멘텀에 원전 기자재·EPC로 매수세 집중.",
             "source_count": 2,
             "verdict": "pass"
+          },
+          {
+            "name": "원전",
+            "summary": "한미 원전 협력 기대로 APR1400 수주 모멘텀이 부각되며 한전기술·건설 대형사로 자금 유입",
+            "source_count": 2,
+            "verdict": "unverified"
           }
         ]
       },
       {
         "name": "(독립)",
         "children": [
+          {
+            "name": "건설",
+            "summary": "데이터센터·원전 신규 먹거리 부각과 랜드마크 수주 기대로 대형 건설주에 목표가 상향·추천 유입.",
+            "source_count": 2,
+            "verdict": "weak"
+          },
           {
             "name": "건설",
             "summary": "데이터센터·원전 신규 먹거리 부각과 랜드마크 수주 기대로 대형 건설주에 목표가 상향·추천 유입.",
@@ -117,10 +147,705 @@
   },
   "stocks": [
     {
+      "code": "010170",
+      "name": "대한광통신",
+      "rank": 1,
+      "trade_amount": 114111000000,
+      "change_pct": 12.74,
+      "close_price": 12920,
+      "open_price": 11750,
+      "high_price": 12920,
+      "low_price": 11750,
+      "industry": "절연선 및 케이블 제조업",
+      "sector": "광섬유, 광케이블",
+      "themes": [
+        "케이블"
+      ],
+      "theme_paths": [
+        {
+          "name": "케이블",
+          "path": [
+            "케이블"
+          ]
+        }
+      ],
+      "pick_count": 1,
+      "prev_pick": {
+        "date": "2026-08-05",
+        "rank": 2,
+        "change_pct": 18.57,
+        "trade_amount": 483047000000
+      },
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [
+        "2026-07-10"
+      ],
+      "news": [],
+      "fallback": true,
+      "index_change_pct": 3.15,
+      "index_multiple_current": 4.04,
+      "index_multiple_eligible": true,
+      "range_240d": {
+        "high": 31500,
+        "high_date": "2026-05-12",
+        "high_pct": -58.98,
+        "low": 885,
+        "low_date": "2025-08-20",
+        "low_pct": 1359.89,
+        "current": 12920
+      },
+      "daily_20": [
+        {
+          "date": "2026-07-13",
+          "o": 12700,
+          "h": 13250,
+          "l": 10910,
+          "c": 10910
+        },
+        {
+          "date": "2026-07-14",
+          "o": 10850,
+          "h": 11320,
+          "l": 10140,
+          "c": 11050
+        },
+        {
+          "date": "2026-07-15",
+          "o": 11660,
+          "h": 12090,
+          "l": 11270,
+          "c": 11680
+        },
+        {
+          "date": "2026-07-16",
+          "o": 11150,
+          "h": 11350,
+          "l": 10300,
+          "c": 10300
+        },
+        {
+          "date": "2026-07-20",
+          "o": 9680,
+          "h": 10250,
+          "l": 9330,
+          "c": 9460
+        },
+        {
+          "date": "2026-07-21",
+          "o": 9570,
+          "h": 10140,
+          "l": 9030,
+          "c": 9860
+        },
+        {
+          "date": "2026-07-22",
+          "o": 10470,
+          "h": 11240,
+          "l": 10090,
+          "c": 10090
+        },
+        {
+          "date": "2026-07-23",
+          "o": 10330,
+          "h": 10880,
+          "l": 10050,
+          "c": 10840
+        },
+        {
+          "date": "2026-07-24",
+          "o": 10550,
+          "h": 10720,
+          "l": 9910,
+          "c": 9920
+        },
+        {
+          "date": "2026-07-27",
+          "o": 10190,
+          "h": 10290,
+          "l": 9580,
+          "c": 9740
+        },
+        {
+          "date": "2026-07-28",
+          "o": 9100,
+          "h": 9320,
+          "l": 8320,
+          "c": 8450
+        },
+        {
+          "date": "2026-07-29",
+          "o": 8500,
+          "h": 8580,
+          "l": 6910,
+          "c": 7450
+        },
+        {
+          "date": "2026-07-30",
+          "o": 7400,
+          "h": 7680,
+          "l": 6990,
+          "c": 7160
+        },
+        {
+          "date": "2026-07-31",
+          "o": 8200,
+          "h": 8640,
+          "l": 7710,
+          "c": 8530
+        },
+        {
+          "date": "2026-08-03",
+          "o": 8510,
+          "h": 9850,
+          "l": 8030,
+          "c": 9250
+        },
+        {
+          "date": "2026-08-04",
+          "o": 9700,
+          "h": 10580,
+          "l": 9550,
+          "c": 10180
+        },
+        {
+          "date": "2026-08-05",
+          "o": 12040,
+          "h": 12760,
+          "l": 11030,
+          "c": 12070
+        },
+        {
+          "date": "2026-08-06",
+          "o": 11780,
+          "h": 11970,
+          "l": 10800,
+          "c": 11070
+        },
+        {
+          "date": "2026-08-07",
+          "o": 11170,
+          "h": 12030,
+          "l": 11070,
+          "c": 11460
+        },
+        {
+          "date": "2026-08-10",
+          "o": 11750,
+          "h": 12920,
+          "l": 11750,
+          "c": 12920
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "투자경고"
+    },
+    {
+      "code": "196170",
+      "name": "알테오젠",
+      "rank": 2,
+      "trade_amount": 79378000000,
+      "change_pct": 11.8,
+      "close_price": 341000,
+      "open_price": 316000,
+      "high_price": 342000,
+      "low_price": 313000,
+      "industry": "자연과학 및 공학 연구개발업",
+      "sector": "바이오시밀러 및 바이오베터",
+      "themes": [
+        "무상증자",
+        "바이오"
+      ],
+      "theme_paths": [
+        {
+          "name": "무상증자",
+          "path": [
+            "무상증자"
+          ]
+        },
+        {
+          "name": "바이오",
+          "path": [
+            "바이오"
+          ]
+        }
+      ],
+      "pick_count": 1,
+      "prev_pick": {
+        "date": "2026-08-06",
+        "rank": 2,
+        "change_pct": 5.96,
+        "trade_amount": 221833000000
+      },
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [],
+      "news": [
+        {
+          "title": "대신證 “알테오젠, 키트루다 큐렉스 판매 3배 급증…목표가 41만원 상향”",
+          "url": "https://www.etoday.co.kr/news/view/2612539",
+          "source": "이투데이",
+          "published_at": "2026-08-09T22:43:00",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "알테오젠, 2분기 영업익 342억원으로 흑자 전환…'키트루다SC' 판매 ↑",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=05654726645545024",
+          "source": "이데일리",
+          "published_at": "2026-08-07T01:47:42",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "알테오젠, 상반기 매출 37%·영업익 21% 증가…ALT-B4 상업화 효과 본격화",
+          "url": "https://www.mk.co.kr/news/it/12120720",
+          "source": "매경",
+          "published_at": "2026-08-07T01:47:27",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "신한證 “알테오젠, 하반기 추가 계약 가능성 …목표가 48만원 상향\"",
+          "url": "https://biz.chosun.com/stock/stock_general/2026/08/06/4QAOKO3HYBGMFPRYEKSCP2RD5M/",
+          "source": "조선비즈",
+          "published_at": "2026-08-05T23:58:07",
+          "causal_chain": "글로벌 SC 제형 특허 분쟁에서 MSD가 할로자임 상대로 잇따라 유리한 결론(네덜란드 판매금지 가처분 기각·美 PTAB 특허 무효·英 특허 취소)을 얻어내며 알테오젠의 핵심 SC 플랫폼 기술(ALT-B4) 사업 불확실성이 해소 → 바이오 플랫폼 기술 가치 회복 기대. 여기에 코스피 이전상장 유보 대신 30% 무상증자(1주당 0.3주)를 결정하며 권리락 후 단기 수급 모멘텀 요인이 더해진다.",
+          "macro_event": "MSD·알테오젠, 할로자임과의 키트루다SC(ALT-B4) 특허 분쟁에서 잇단 유리한 결론(네덜란드 가처분 기각·美 PTAB 특허 무효·英 특허 취소)으로 불확실성 해소",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.6,
+          "newzy_virality": 0.55,
+          "newzy_tradability": null,
+          "newzy_score": 0.58,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "알테오젠, 글로벌 제약사와 기술이전 3건…추가 계약 기대-신한",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03070086645544696",
+          "source": "이데일리",
+          "published_at": "2026-08-05T23:29:25",
+          "causal_chain": "글로벌 SC 제형 특허 분쟁에서 MSD가 할로자임 상대로 잇따라 유리한 결론(네덜란드 판매금지 가처분 기각·美 PTAB 특허 무효·英 특허 취소)을 얻어내며 알테오젠의 핵심 SC 플랫폼 기술(ALT-B4) 사업 불확실성이 해소 → 바이오 플랫폼 기술 가치 회복 기대. 여기에 코스피 이전상장 유보 대신 30% 무상증자(1주당 0.3주)를 결정하며 권리락 후 단기 수급 모멘텀 요인이 더해진다.",
+          "macro_event": "MSD·알테오젠, 할로자임과의 키트루다SC(ALT-B4) 특허 분쟁에서 잇단 유리한 결론(네덜란드 가처분 기각·美 PTAB 특허 무효·英 특허 취소)으로 불확실성 해소",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.6,
+          "newzy_virality": 0.55,
+          "newzy_tradability": null,
+          "newzy_score": 0.58,
+          "newzy_verdict": null,
+          "article_type": null
+        }
+      ],
+      "fallback": true,
+      "index_change_pct": 3.15,
+      "index_multiple_current": 3.75,
+      "index_multiple_eligible": true,
+      "range_240d": {
+        "high": 437846,
+        "high_date": "2025-11-18",
+        "high_pct": -22.12,
+        "low": 194684,
+        "low_date": "2026-07-14",
+        "low_pct": 75.16,
+        "current": 341000
+      },
+      "daily_20": [
+        {
+          "date": "2026-07-13",
+          "o": 252781,
+          "h": 264708,
+          "l": 241623,
+          "c": 243547
+        },
+        {
+          "date": "2026-07-14",
+          "o": 233928,
+          "h": 239315,
+          "l": 194684,
+          "c": 215075
+        },
+        {
+          "date": "2026-07-15",
+          "o": 222770,
+          "h": 227387,
+          "l": 209304,
+          "c": 222001
+        },
+        {
+          "date": "2026-07-16",
+          "o": 214691,
+          "h": 222001,
+          "l": 210843,
+          "c": 212767
+        },
+        {
+          "date": "2026-07-20",
+          "o": 216230,
+          "h": 218153,
+          "l": 205841,
+          "c": 207380
+        },
+        {
+          "date": "2026-07-21",
+          "o": 201609,
+          "h": 212382,
+          "l": 198146,
+          "c": 210074
+        },
+        {
+          "date": "2026-07-22",
+          "o": 213536,
+          "h": 218153,
+          "l": 205841,
+          "c": 206226
+        },
+        {
+          "date": "2026-07-23",
+          "o": 207380,
+          "h": 236237,
+          "l": 206996,
+          "c": 235852
+        },
+        {
+          "date": "2026-07-24",
+          "o": 228926,
+          "h": 243932,
+          "l": 227772,
+          "c": 231235
+        },
+        {
+          "date": "2026-07-27",
+          "o": 237776,
+          "h": 247779,
+          "l": 229311,
+          "c": 240084
+        },
+        {
+          "date": "2026-07-28",
+          "o": 235082,
+          "h": 245086,
+          "l": 221231,
+          "c": 228157
+        },
+        {
+          "date": "2026-07-29",
+          "o": 230465,
+          "h": 232389,
+          "l": 205072,
+          "c": 217384
+        },
+        {
+          "date": "2026-07-30",
+          "o": 210458,
+          "h": 227772,
+          "l": 210458,
+          "c": 215075
+        },
+        {
+          "date": "2026-07-31",
+          "o": 223155,
+          "h": 241238,
+          "l": 217769,
+          "c": 237391
+        },
+        {
+          "date": "2026-08-03",
+          "o": 233159,
+          "h": 248549,
+          "l": 232004,
+          "c": 244316
+        },
+        {
+          "date": "2026-08-04",
+          "o": 243162,
+          "h": 269325,
+          "l": 243162,
+          "c": 267017
+        },
+        {
+          "date": "2026-08-05",
+          "o": 289500,
+          "h": 290000,
+          "l": 271000,
+          "c": 277000
+        },
+        {
+          "date": "2026-08-06",
+          "o": 284000,
+          "h": 308000,
+          "l": 272000,
+          "c": 293500
+        },
+        {
+          "date": "2026-08-07",
+          "o": 290000,
+          "h": 305000,
+          "l": 283000,
+          "c": 305000
+        },
+        {
+          "date": "2026-08-10",
+          "o": 316000,
+          "h": 342000,
+          "l": 313000,
+          "c": 341000
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
+      "code": "017900",
+      "name": "광전자",
+      "rank": 3,
+      "trade_amount": 70072000000,
+      "change_pct": 22.54,
+      "close_price": 9570,
+      "open_price": 8120,
+      "high_price": 9640,
+      "low_price": 8100,
+      "industry": "반도체 제조업",
+      "sector": "트랜지스터,SMD TR,발광소자,리모콘모듈,발광다이오드(L.E.D),다이오드용웨이퍼팹(Fab) 제조,판매",
+      "themes": [
+        "반도체"
+      ],
+      "theme_paths": [
+        {
+          "name": "반도체",
+          "path": [
+            "반도체"
+          ]
+        }
+      ],
+      "pick_count": 2,
+      "prev_pick": {
+        "date": "2026-08-07",
+        "rank": 2,
+        "change_pct": 15.02,
+        "trade_amount": 174375000000
+      },
+      "bullish_today": true,
+      "bullish_streak": 2,
+      "bullish_dates": [
+        "2026-07-10",
+        "2026-08-07",
+        "2026-08-10"
+      ],
+      "news": [],
+      "fallback": true,
+      "index_change_pct": 0.83,
+      "index_multiple_current": 27.16,
+      "index_multiple_eligible": true,
+      "range_240d": {
+        "high": 22450,
+        "high_date": "2026-04-16",
+        "high_pct": -57.37,
+        "low": 1760,
+        "low_date": "2025-11-05",
+        "low_pct": 443.75,
+        "current": 9570
+      },
+      "daily_20": [
+        {
+          "date": "2026-07-13",
+          "o": 6530,
+          "h": 7300,
+          "l": 6030,
+          "c": 6060
+        },
+        {
+          "date": "2026-07-14",
+          "o": 5970,
+          "h": 6280,
+          "l": 5640,
+          "c": 6060
+        },
+        {
+          "date": "2026-07-15",
+          "o": 6320,
+          "h": 7070,
+          "l": 6200,
+          "c": 6490
+        },
+        {
+          "date": "2026-07-16",
+          "o": 6260,
+          "h": 6370,
+          "l": 5750,
+          "c": 5810
+        },
+        {
+          "date": "2026-07-20",
+          "o": 5250,
+          "h": 5720,
+          "l": 5250,
+          "c": 5480
+        },
+        {
+          "date": "2026-07-21",
+          "o": 5560,
+          "h": 5950,
+          "l": 5280,
+          "c": 5720
+        },
+        {
+          "date": "2026-07-22",
+          "o": 6080,
+          "h": 6500,
+          "l": 5880,
+          "c": 5900
+        },
+        {
+          "date": "2026-07-23",
+          "o": 6140,
+          "h": 6190,
+          "l": 5750,
+          "c": 6060
+        },
+        {
+          "date": "2026-07-24",
+          "o": 6010,
+          "h": 6020,
+          "l": 5700,
+          "c": 5700
+        },
+        {
+          "date": "2026-07-27",
+          "o": 5800,
+          "h": 5900,
+          "l": 5560,
+          "c": 5670
+        },
+        {
+          "date": "2026-07-28",
+          "o": 5490,
+          "h": 5490,
+          "l": 5070,
+          "c": 5120
+        },
+        {
+          "date": "2026-07-29",
+          "o": 5130,
+          "h": 5300,
+          "l": 4215,
+          "c": 4500
+        },
+        {
+          "date": "2026-07-30",
+          "o": 4345,
+          "h": 4650,
+          "l": 4250,
+          "c": 4365
+        },
+        {
+          "date": "2026-07-31",
+          "o": 4845,
+          "h": 5250,
+          "l": 4665,
+          "c": 5190
+        },
+        {
+          "date": "2026-08-03",
+          "o": 5040,
+          "h": 5650,
+          "l": 4935,
+          "c": 5430
+        },
+        {
+          "date": "2026-08-04",
+          "o": 5570,
+          "h": 6040,
+          "l": 5540,
+          "c": 5820
+        },
+        {
+          "date": "2026-08-05",
+          "o": 6700,
+          "h": 7490,
+          "l": 6100,
+          "c": 7060
+        },
+        {
+          "date": "2026-08-06",
+          "o": 6970,
+          "h": 7230,
+          "l": 6500,
+          "c": 6790
+        },
+        {
+          "date": "2026-08-07",
+          "o": 6870,
+          "h": 8570,
+          "l": 6710,
+          "c": 7810
+        },
+        {
+          "date": "2026-08-10",
+          "o": 8120,
+          "h": 9640,
+          "l": 8100,
+          "c": 9570
+        }
+      ],
+      "status_badges": [
+        {
+          "label": "투자주의 근접",
+          "severity": "caution",
+          "source": "predicted",
+          "thresholds": [
+            {
+              "desc": "5일 전(2026-08-03) 대비 +60%↑",
+              "base_price": 5430,
+              "threshold": 8688,
+              "current": 9570,
+              "triggered": true
+            }
+          ],
+          "regulation": "KRX 시장경보 가격 조건 충족 (거래량 미검증, 자체 추정)",
+          "period_start": "2026-08-11",
+          "period_end": "2026-08-12",
+          "start": "2026-08-11",
+          "end": "2026-08-12",
+          "view_date": "2026-08-10",
+          "next_trading_day": "2026-08-11",
+          "next_trading_day_for_predicted": "2026-08-11",
+          "next_trading_day_source": "fallback_homepage",
+          "single_price": false,
+          "effect_badges": []
+        }
+      ]
+    },
+    {
       "code": "225190",
       "name": "LK삼양",
-      "rank": 1,
-      "trade_amount": 2645000000,
+      "rank": 4,
+      "trade_amount": 2696000000,
       "change_pct": 29.92,
       "close_price": 812,
       "open_price": 686,
@@ -146,8 +871,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 2.5,
-      "index_multiple_current": 11.97,
+      "index_change_pct": 3.15,
+      "index_multiple_current": 9.5,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 3155,
@@ -300,8 +1025,20 @@
           "c": 812
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 686,
+        "base": 686,
+        "prices": [
+          686,
+          811,
+          812,
+          812,
+          812
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": false,
       "hugepark_grade": "관찰"
@@ -309,15 +1046,15 @@
     {
       "code": "203400",
       "name": "에이비온",
-      "rank": 2,
-      "trade_amount": 860000000,
+      "rank": 5,
+      "trade_amount": 868000000,
       "change_pct": 29.98,
       "close_price": 841,
       "open_price": 750,
       "high_price": 841,
       "low_price": 727,
-      "industry": null,
-      "sector": null,
+      "industry": "자연과학 및 공학 연구개발업",
+      "sector": "표적 항암제, 바이오 베터 신약",
       "themes": [],
       "theme_paths": [],
       "pick_count": 1,
@@ -332,6 +1069,9 @@
       ],
       "news": [],
       "fallback": true,
+      "index_change_pct": 3.15,
+      "index_multiple_current": 9.52,
+      "index_multiple_eligible": true,
       "range_240d": {
         "high": 4510,
         "high_date": "2025-12-03",
@@ -483,35 +1223,19 @@
           "c": 841
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 750,
+        "base": 750,
+        "prices": [
+          750,
+          841,
+          841,
+          841
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
-    },
-    {
-      "code": "027580",
-      "name": "상보",
-      "rank": 3,
-      "trade_amount": 378000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
-      "industry": null,
-      "sector": null,
-      "themes": [],
-      "theme_paths": [],
-      "pick_count": 1,
-      "prev_pick": null,
-      "bullish_today": false,
-      "bullish_streak": 0,
-      "bullish_dates": [],
-      "news": [],
-      "fallback": true,
-      "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
@@ -519,8 +1243,8 @@
     {
       "code": "377220",
       "name": "프롬바이오",
-      "rank": 4,
-      "trade_amount": 215000000,
+      "rank": 6,
+      "trade_amount": 219000000,
       "change_pct": 29.82,
       "close_price": 3330,
       "open_price": 2820,
@@ -647,8 +1371,8 @@
         ],
         "cafe_only": []
       },
-      "index_change_pct": 2.5,
-      "index_multiple_current": 11.93,
+      "index_change_pct": 3.15,
+      "index_multiple_current": 9.47,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 10050,
@@ -807,6 +1531,8 @@
         "base": 2820,
         "prices": [
           2820,
+          3330,
+          3330,
           3330,
           3330
         ]
