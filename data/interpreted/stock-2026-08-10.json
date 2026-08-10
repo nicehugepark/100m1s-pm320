@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "generated_at": "2026-08-10T10:15:14.624499",
+  "generated_at": "2026-08-10T10:16:57.277062",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -722,7 +722,7 @@
           "url": "https://biz.chosun.com/stock/stock_general/2026/08/10/MVSTIOBSGUYDQYRUGIYWGMZWHA/",
           "source": "조선비즈",
           "published_at": "2026-08-10T00:58:02",
-          "causal_chain": "",
+          "causal_chain": "코스닥 지수 5%대 급등으로 매수 사이드카 발동 → 시장 전반 위험선호 확대 속 대형 바이오주 알테오젠에 매수세 유입 → 당일 시가 316,000원에서 고가 354,500원까지 상승, 종가 352,500원(+15.57%)·거래대금 1,567억원 기록. 종목 고유 재료가 아닌 지수 급등에 연동된 베타성 강세.",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -731,7 +731,7 @@
           "newzy_tradability": null,
           "newzy_score": null,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "시세정형"
         }
       ],
       "fallback": false,
@@ -913,11 +913,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bull",
+      "togusa_verdict": "strong_bull",
       "theme_leader": true,
-      "hugepark_grade": "관찰",
-      "causal_chain": "",
-      "parent_theme": ""
+      "hugepark_grade": "적극"
     },
     {
       "code": "017900",
@@ -1532,6 +1530,22 @@
       "bullish_dates": [],
       "news": [
         {
+          "title": "AI·데이터센터 훈풍 탄 산일전기, 5개 분기 연속 ‘역대 최대 실적’",
+          "url": "https://www.mk.co.kr/news/stock/12122561",
+          "source": "매경",
+          "published_at": "2026-08-10T01:04:40",
+          "causal_chain": "AI 데이터센터·신재생·ESS향 특수변압기 수요 급증 → 산일전기 특수변압기 부문 매출 1334억(+51.7%)·2분기 신규 수주 2435억으로 5개 분기 연속 역대 최대 실적·영업이익률 37.8% 달성 → 주요 증권사 일제히 '매수' 의견 → 실적·수주 호조 기대에 매수세 집중 → 당일 종가 180,900원(+15.00%), 거래대금 668억원.",
+          "macro_event": "노후 전력망 교체 + AI 데이터센터 중심 특수변압기 수요 급증으로 전력기기 호황 사이클 지속",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.8,
+          "newzy_virality": 0.6,
+          "newzy_tradability": null,
+          "newzy_score": 0.72,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        },
+        {
           "title": "[특징주] 산일전기, 호실적·역대 최대 수주에 15% 급등",
           "url": "https://biz.chosun.com/stock/stock_general/2026/08/10/QEETB3GCMNEJ5KSTVMFZ7DCGB4/",
           "source": "조선비즈",
@@ -1578,22 +1592,6 @@
           "newzy_score": 0.56,
           "newzy_verdict": null,
           "article_type": "호재"
-        },
-        {
-          "title": "AI·데이터센터 훈풍 탄 산일전기, 5개 분기 연속 ‘역대 최대 실적’",
-          "url": "https://www.mk.co.kr/news/stock/12122561",
-          "source": "매경",
-          "published_at": "2026-08-10T01:04:40",
-          "causal_chain": null,
-          "macro_event": null,
-          "newzy_freshness": null,
-          "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
-          "newzy_tradability": null,
-          "newzy_score": null,
-          "newzy_verdict": null,
-          "article_type": null
         }
       ],
       "fallback": false,
@@ -2457,16 +2455,16 @@
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=02778166645483360",
           "source": "이데일리",
           "published_at": "2026-06-18T22:50:57",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "가상자산 보유·운용을 겨냥한 DAT(디지털 자산 트레저리) 전략이 본격화되고 DB 보안 본업도 성장세를 보이면서, 가상자산 자산가치 부각과 실적 개선 기대가 겹쳐 매수세가 집중 → 당일 상한가(+29.91%, 종가 1,112원)까지 급등했다. 다만 거래대금은 3억원으로 얇아 소형 수급 기반의 급등이다.",
+          "macro_event": "가상자산(이더리움) 트레저리(DAT) 전략 본격화",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.5,
+          "newzy_virality": 0.3,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.42,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": true,
@@ -2625,7 +2623,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "377220",
