@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "generated_at": "2026-08-10T10:55:21.151491",
+  "generated_at": "2026-08-10T10:56:48.143791",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -1724,9 +1724,16 @@
       "industry": "반도체 제조업",
       "sector": "모바일용 LP DDR SDRAM, CRAM, SRAM",
       "themes": [
+        "AI",
         "반도체"
       ],
       "theme_paths": [
+        {
+          "name": "AI",
+          "path": [
+            "AI"
+          ]
+        },
         {
           "name": "반도체",
           "path": [
@@ -1752,16 +1759,16 @@
           "url": "https://www.sedaily.com/article/20074282",
           "source": "서울경제",
           "published_at": "2026-07-31T02:33:59",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "간밤 미국 반도체주 급등 → AI 반도체 투자심리 회복으로 국내 반도체·소부장 전반 반등 → 모바일 LPDDR·CRAM·SRAM 등 메모리를 주력으로 하는 제주반도체에도 매수세 유입 → 당일 시가 76,000원에서 고가 84,300원까지 상승, 종가 84,200원(+11.67%)·거래대금 1,235억원 기록.",
+          "macro_event": "미국 반도체주 급등에 SK하이닉스·삼성전자 장중 20%대 반등, AI 반도체 투자심리 회복",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.4,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.4,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "[특징주] 제주반도체, 반도체 수출 호조 속 12% 급등",
@@ -1785,7 +1792,9 @@
         "confirmed": [
           "반도체"
         ],
-        "pm320_only": [],
+        "pm320_only": [
+          "AI"
+        ],
         "cafe_only": []
       },
       "index_change_pct": 6.71,
@@ -1943,7 +1952,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bull",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "017900",
@@ -2195,8 +2207,8 @@
           9370
         ]
       },
-      "togusa_verdict": "weak_bull",
-      "theme_leader": true,
+      "togusa_verdict": "neutral",
+      "theme_leader": false,
       "hugepark_grade": "관찰",
       "causal_chain": "",
       "parent_theme": ""
@@ -2525,7 +2537,7 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bull",
+      "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰"
     },
@@ -3396,7 +3408,10 @@
       "news": [],
       "fallback": true,
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "225190",
