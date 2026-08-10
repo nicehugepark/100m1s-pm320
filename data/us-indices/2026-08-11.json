@@ -6281,24 +6281,24 @@
       "impact_high": true
     },
     {
-      "summary": "전력·유틸리티 투자와 인프라 수요가 방어주와 산업재 관심을 확대하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/americas/colombia-earthquake-president-espriella-e901bc97?mod=rss_worldnews",
-      "published_ts": 1786397220.0,
-      "impact_high": false
-    },
-    {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026081154167",
-      "published_ts": 1786396828.0,
+      "url": "https://www.hankyung.com/article/202608115470H",
+      "published_ts": 1786400592.0,
       "impact_high": false
     },
     {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/currencies/retail-traders-crypto-cash-0d303c92?mod=rss_markets_main",
-      "published_ts": 1786394400.0,
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/trump-shifts-to-economic-pressure-again-as-iran-wont-meet-his-demands-4445c840?mod=rss_worldnews",
+      "published_ts": 1786400400.0,
+      "impact_high": false
+    },
+    {
+      "summary": "전력·유틸리티 투자와 인프라 수요가 방어주와 산업재 관심을 확대하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/americas/colombia-earthquake-president-espriella-e901bc97?mod=rss_worldnews",
+      "published_ts": 1786397220.0,
       "impact_high": false
     },
     {
@@ -6344,22 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "3e9edc67b2467b3ab89d34e4538ab4d5a266880da961757cbe264c1d6ed0dbb5",
+  "_article_sig": "b050640f6ca7e199e277b90e9a05447a76cb552a2dbff10a20e34a8af7d0d97e",
   "built_at_kst": "2026-08-11T07:00:32.964832+09:00",
   "futures": {
-    "as_of_kst": "2026-08-11T07:20:05.288437+09:00",
+    "as_of_kst": "2026-08-11T07:30:07.100831+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7777.5,
-        "change_pct": 0.01,
+        "point": 7776.0,
+        "change_pct": -0.01,
         "spark": [
           7778.25,
-          7773.75,
-          7773.75,
-          7776.0,
           7773.25,
           7772.25,
           7772.0,
@@ -6396,21 +6393,24 @@
           7777.25,
           7778.75,
           7777.5,
-          7777.5
+          7777.5,
+          7776.0,
+          7774.0,
+          7776.0
         ],
         "candle": {
           "o": 7778.25,
           "h": 7781.25,
-          "l": 7777.25,
-          "c": 7777.5
+          "l": 7775.75,
+          "c": 7776.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7779.75,
           "low_date": "2026-03-30",
           "high_date": "2026-08-07",
-          "low_change_pct": 21.75,
-          "high_change_pct": -0.03
+          "low_change_pct": 21.72,
+          "high_change_pct": -0.05
         },
         "daily_expanded": [
           {
@@ -8417,22 +8417,37 @@
             "date": "2026-08-10",
             "o": 7778.25,
             "h": 7781.25,
-            "l": 7777.25,
-            "c": 7777.5,
-            "v": 1186
+            "l": 7775.75,
+            "c": 7776.0,
+            "v": 2031
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/trump-shifts-to-economic-pressure-again-as-iran-wont-meet-his-demands-4445c840?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/currencies/retail-traders-crypto-cash-0d303c92?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/oil-surges-with-no-hormuz-deal-in-sight-10ab080d?mod=rss_markets_main"
+            }
+          ]
+        }
       },
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29761.25,
-        "change_pct": 0.08,
+        "point": 29748.25,
+        "change_pct": 0.04,
         "spark": [
           29764.5,
-          29759.75,
-          29754.5,
           29766.25,
           29751.25,
           29747.25,
@@ -8470,21 +8485,23 @@
           29764.25,
           29773.25,
           29761.25,
-          29761.25
+          29761.5,
+          29746.75,
+          29748.25
         ],
         "candle": {
           "o": 29764.5,
           "h": 29788.5,
-          "l": 29755.75,
-          "c": 29762.75
+          "l": 29745.75,
+          "c": 29746.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 28.62,
-          "high_change_pct": -3.09
+          "low_change_pct": 28.55,
+          "high_change_pct": -3.15
         },
         "daily_expanded": [
           {
@@ -10491,22 +10508,37 @@
             "date": "2026-08-10",
             "o": 29764.5,
             "h": 29788.5,
-            "l": 29755.75,
-            "c": 29762.75,
-            "v": 1019
+            "l": 29745.75,
+            "c": 29746.5,
+            "v": 1709
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/trump-shifts-to-economic-pressure-again-as-iran-wont-meet-his-demands-4445c840?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/currencies/retail-traders-crypto-cash-0d303c92?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/oil-surges-with-no-hormuz-deal-in-sight-10ab080d?mod=rss_markets_main"
+            }
+          ]
+        }
       },
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 54042.0,
-        "change_pct": -0.04,
+        "point": 54028.0,
+        "change_pct": -0.06,
         "spark": [
           54049.0,
-          54001.0,
-          54011.0,
           54002.0,
           53979.0,
           53976.0,
@@ -10544,21 +10576,23 @@
           54061.0,
           54041.0,
           54042.0,
-          54042.0
+          54038.0,
+          54028.0,
+          54028.0
         ],
         "candle": {
           "o": 54049.0,
           "h": 54074.0,
-          "l": 54039.0,
-          "c": 54042.0
+          "l": 54016.0,
+          "c": 54028.0
         },
         "range_240d": {
           "low": 45308.0,
           "high": 54494.0,
           "low_date": "2025-09-03",
           "high_date": "2026-08-05",
-          "low_change_pct": 19.28,
-          "high_change_pct": -0.83
+          "low_change_pct": 19.25,
+          "high_change_pct": -0.86
         },
         "daily_expanded": [
           {
@@ -12565,15 +12599,85 @@
             "date": "2026-08-10",
             "o": 54049.0,
             "h": 54074.0,
-            "l": 54039.0,
-            "c": 54042.0,
-            "v": 85
+            "l": 54016.0,
+            "c": 54028.0,
+            "v": 153
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+          "sources": [
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/asia/will-taiwan-fight-china-just-ask-its-people-a6e358eb?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/indonesia-names-destry-damayanti-as-sole-candidate-to-lead-central-bank-757dfbb0?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/economy/central-banking/indonesia-names-destry-damayanti-as-sole-candidate-to-lead-central-bank-757dfbb0?mod=rss_worldnews"
+            }
+          ]
+        }
       }
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-08-11T07:20:09.248716+09:00"
+  "intraday_refreshed_kst": "2026-08-11T07:30:26.574228+09:00",
+  "_futures_news": {
+    "NASDAQ": {
+      "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/trump-shifts-to-economic-pressure-again-as-iran-wont-meet-his-demands-4445c840?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/currencies/retail-traders-crypto-cash-0d303c92?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/oil-surges-with-no-hormuz-deal-in-sight-10ab080d?mod=rss_markets_main"
+        }
+      ]
+    },
+    "S&P500": {
+      "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/trump-shifts-to-economic-pressure-again-as-iran-wont-meet-his-demands-4445c840?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/currencies/retail-traders-crypto-cash-0d303c92?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/oil-surges-with-no-hormuz-deal-in-sight-10ab080d?mod=rss_markets_main"
+        }
+      ]
+    },
+    "DOW": {
+      "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+      "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/asia/will-taiwan-fight-china-just-ask-its-people-a6e358eb?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/indonesia-names-destry-damayanti-as-sole-candidate-to-lead-central-bank-757dfbb0?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/economy/central-banking/indonesia-names-destry-damayanti-as-sole-candidate-to-lead-central-bank-757dfbb0?mod=rss_worldnews"
+        }
+      ]
+    }
+  }
 }
