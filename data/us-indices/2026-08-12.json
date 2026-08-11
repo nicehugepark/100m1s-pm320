@@ -6274,13 +6274,6 @@
   ],
   "news_chips": [
     {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026081254347",
-      "published_ts": 1786483332.0,
-      "impact_high": true
-    },
-    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/stocks/u-s-stocks-fade-for-a-second-straight-session-oil-rises-0e7d9e21?mod=rss_markets_main",
@@ -6295,17 +6288,24 @@
       "impact_high": true
     },
     {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/americas/rescue-teams-in-colombia-dig-through-rubble-to-pull-out-quake-victims-ca1f1211?mod=rss_worldnews",
+      "published_ts": 1786487340.0,
+      "impact_high": false
+    },
+    {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/202608125494H",
+      "published_ts": 1786487217.0,
+      "impact_high": false
+    },
+    {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-4559d59b?mod=rss_markets_main",
       "published_ts": 1786485000.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/yemen-strikes-civilian-deaths-pentagon-report-d64b35d5?mod=rss_worldnews",
-      "published_ts": 1786484400.0,
       "impact_high": false
     },
     {
@@ -6344,21 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "fca79a67da4cb8ba8b6bb98cb6fe20db4b71f6f3ad425eb34364b977db6ce2bb",
+  "_article_sig": "da156215827fac0d658388c27fa1cea70f7458c9568403e6ba0e74e4cc3c7135",
   "built_at_kst": "2026-08-12T07:00:30.076685+09:00",
   "futures": {
-    "as_of_kst": "2026-08-12T07:30:05.647871+09:00",
+    "as_of_kst": "2026-08-12T07:40:09.188324+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7755.25,
-        "change_pct": 0.1,
+        "point": 7754.75,
+        "change_pct": 0.09,
         "spark": [
           7756.0,
-          7752.5,
-          7753.75,
           7753.0,
           7750.25,
           7740.25,
@@ -6396,13 +6394,15 @@
           7753.25,
           7755.25,
           7754.75,
-          7755.25
+          7755.25,
+          7754.5,
+          7754.75
         ],
         "candle": {
           "o": 7756.0,
           "h": 7756.5,
           "l": 7751.5,
-          "c": 7755.0
+          "c": 7754.5
         },
         "range_240d": {
           "low": 6388.25,
@@ -8426,21 +8426,36 @@
             "o": 7756.0,
             "h": 7756.5,
             "l": 7751.5,
-            "c": 7755.0,
-            "v": 2056
+            "c": 7754.5,
+            "v": 2405
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-4559d59b?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/iran-preps-for-worsening-economic-malaise-to-withstand-trumps-pressure-a60276c6?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/u-s-stocks-fade-for-a-second-straight-session-oil-rises-0e7d9e21?mod=rss_markets_main"
+            }
+          ]
+        }
       },
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29654.75,
+        "point": 29655.25,
         "change_pct": 0.1,
         "spark": [
           29657.75,
-          29607.75,
-          29604.25,
           29583.5,
           29544.25,
           29568.75,
@@ -8478,13 +8493,15 @@
           29658.25,
           29654.0,
           29655.25,
-          29654.75
+          29655.0,
+          29651.0,
+          29655.25
         ],
         "candle": {
           "o": 29657.75,
           "h": 29662.0,
           "l": 29626.75,
-          "c": 29654.75
+          "c": 29655.25
         },
         "range_240d": {
           "low": 23139.75,
@@ -10508,21 +10525,36 @@
             "o": 29657.75,
             "h": 29662.0,
             "l": 29626.75,
-            "c": 29654.75,
-            "v": 1629
+            "c": 29655.25,
+            "v": 1838
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/americas/rescue-teams-in-colombia-dig-through-rubble-to-pull-out-quake-victims-ca1f1211?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/yemen-strikes-civilian-deaths-pentagon-report-d64b35d5?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/iran-preps-for-worsening-economic-malaise-to-withstand-trumps-pressure-a60276c6?mod=rss_markets_main"
+            }
+          ]
+        }
       },
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53906.0,
-        "change_pct": 0.05,
+        "point": 53896.0,
+        "change_pct": 0.03,
         "spark": [
           53903.0,
-          53947.0,
-          53965.0,
           53960.0,
           53968.0,
           53913.0,
@@ -10560,21 +10592,23 @@
           53902.0,
           53907.0,
           53906.0,
-          53906.0
+          53901.0,
+          53896.0,
+          53896.0
         ],
         "candle": {
           "o": 53903.0,
           "h": 53914.0,
           "l": 53888.0,
-          "c": 53906.0
+          "c": 53896.0
         },
         "range_240d": {
           "low": 45308.0,
           "high": 54494.0,
           "low_date": "2025-09-03",
           "high_date": "2026-08-05",
-          "low_change_pct": 18.98,
-          "high_change_pct": -1.08
+          "low_change_pct": 18.95,
+          "high_change_pct": -1.1
         },
         "daily_expanded": [
           {
@@ -12590,14 +12624,84 @@
             "o": 53903.0,
             "h": 53914.0,
             "l": 53888.0,
-            "c": 53906.0,
-            "v": 78
+            "c": 53896.0,
+            "v": 92
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+          "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/iran-preps-for-worsening-economic-malaise-to-withstand-trumps-pressure-a60276c6?mod=rss_markets_main"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/08/11/an-inflation-report-wednesday-should-be-a-big-deal-for-the-fed-heres-what-to-expect.html"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/housing/july-home-sales-fell-after-higher-mortgage-rates-scared-off-buyers-4820b994?mod=rss_socialeconomyfeed"
+            }
+          ]
+        }
       }
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-08-12T07:30:09.591007+09:00"
+  "intraday_refreshed_kst": "2026-08-12T07:40:26.043928+09:00",
+  "_futures_news": {
+    "NASDAQ": {
+      "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/americas/rescue-teams-in-colombia-dig-through-rubble-to-pull-out-quake-victims-ca1f1211?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/yemen-strikes-civilian-deaths-pentagon-report-d64b35d5?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/iran-preps-for-worsening-economic-malaise-to-withstand-trumps-pressure-a60276c6?mod=rss_markets_main"
+        }
+      ]
+    },
+    "S&P500": {
+      "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-4559d59b?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/iran-preps-for-worsening-economic-malaise-to-withstand-trumps-pressure-a60276c6?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/u-s-stocks-fade-for-a-second-straight-session-oil-rises-0e7d9e21?mod=rss_markets_main"
+        }
+      ]
+    },
+    "DOW": {
+      "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/iran-preps-for-worsening-economic-malaise-to-withstand-trumps-pressure-a60276c6?mod=rss_markets_main"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/11/an-inflation-report-wednesday-should-be-a-big-deal-for-the-fed-heres-what-to-expect.html"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/housing/july-home-sales-fell-after-higher-mortgage-rates-scared-off-buyers-4820b994?mod=rss_socialeconomyfeed"
+        }
+      ]
+    }
+  }
 }
