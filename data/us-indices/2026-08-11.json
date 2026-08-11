@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/americas-mortgage-king-lost-600-million-and-needed-a-rescue-ab39465f?mod=rss_markets_main",
+      "published_ts": 1786440600.0,
+      "impact_high": true
+    },
+    {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/inflation-reports-could-test-warshs-tough-talk-3866e365?mod=rss_socialeconomyfeed",
@@ -6285,13 +6292,6 @@
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026081150701",
       "published_ts": 1786438571.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026081150221",
-      "published_ts": 1786438444.0,
       "impact_high": false
     },
     {
@@ -6344,22 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "2a7e323a8d735697b0d39afbbab7aa46f4ee65c3c9f9a4a1f1965583ccd7f0e0",
+  "_article_sig": "e93a0588adf2f04ea023d4db0e9a490fd329e9ce3b69bdb302185747022329e7",
   "built_at_kst": "2026-08-11T07:00:32.964832+09:00",
   "futures": {
-    "as_of_kst": "2026-08-11T18:30:06.340020+09:00",
+    "as_of_kst": "2026-08-11T18:40:08.443721+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7776.5,
-        "change_pct": -0.0,
+        "point": 7776.75,
+        "change_pct": 0.0,
         "spark": [
           7778.25,
-          7783.0,
-          7783.5,
-          7778.75,
           7777.5,
           7775.5,
           7772.75,
@@ -6396,13 +6393,16 @@
           7771.5,
           7774.0,
           7777.0,
-          7776.5
+          7776.5,
+          7776.75,
+          7777.75,
+          7776.75
         ],
         "candle": {
           "o": 7778.25,
           "h": 7789.5,
           "l": 7766.5,
-          "c": 7777.0
+          "c": 7776.75
         },
         "range_240d": {
           "low": 6388.25,
@@ -8426,8 +8426,8 @@
             "o": 7778.25,
             "h": 7789.5,
             "l": 7766.5,
-            "c": 7777.0,
-            "v": 69384
+            "c": 7776.75,
+            "v": 70406
           }
         ],
         "rollover_gaps": [],
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29755.5,
-        "change_pct": 0.06,
+        "point": 29759.0,
+        "change_pct": 0.07,
         "spark": [
           29764.5,
-          29819.5,
-          29792.25,
           29778.5,
           29771.25,
           29745.5,
@@ -8495,21 +8493,23 @@
           29733.0,
           29758.25,
           29753.5,
-          29755.5
+          29759.0,
+          29768.25,
+          29759.0
         ],
         "candle": {
           "o": 29764.5,
           "h": 29861.75,
           "l": 29666.0,
-          "c": 29755.5
+          "c": 29759.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 28.59,
-          "high_change_pct": -3.12
+          "low_change_pct": 28.61,
+          "high_change_pct": -3.11
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 29764.5,
             "h": 29861.75,
             "l": 29666.0,
-            "c": 29755.5,
-            "v": 57053
+            "c": 29759.0,
+            "v": 57709
           }
         ],
         "rollover_gaps": [],
@@ -10534,16 +10534,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/americas-mortgage-king-lost-600-million-and-needed-a-rescue-ab39465f?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/healthcare-investing-is-now-an-ai-short-in-disguise-104cb020?mod=rss_markets_main"
+            },
+            {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/2026081150221"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/business/earnings/abu-dhabis-adnoc-l-s-posts-record-quarterly-profit-despite-regional-disruption-b50ba787?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/reserve-bank-of-australia-holds-rates-steady-but-remains-worried-about-inflation-072fa5fe?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 54005.0,
+        "point": 54003.0,
         "change_pct": -0.11,
         "spark": [
           54049.0,
-          54047.0,
-          54018.0,
           54027.0,
           54000.0,
           53973.0,
@@ -10594,20 +10592,22 @@
           53991.0,
           54008.0,
           54000.0,
-          54005.0
+          53999.0,
+          54018.0,
+          54003.0
         ],
         "candle": {
           "o": 54049.0,
           "h": 54085.0,
           "l": 53949.0,
-          "c": 54006.0
+          "c": 54003.0
         },
         "range_240d": {
           "low": 45308.0,
           "high": 54494.0,
           "low_date": "2025-09-03",
           "high_date": "2026-08-05",
-          "low_change_pct": 19.2,
+          "low_change_pct": 19.19,
           "high_change_pct": -0.9
         },
         "daily_expanded": [
@@ -12624,8 +12624,8 @@
             "o": 54049.0,
             "h": 54085.0,
             "l": 53949.0,
-            "c": 54006.0,
-            "v": 5183
+            "c": 54003.0,
+            "v": 5239
           }
         ],
         "rollover_gaps": [],
@@ -12650,22 +12650,22 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-08-11T18:30:10.088476+09:00",
+  "intraday_refreshed_kst": "2026-08-11T18:40:32.273118+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/americas-mortgage-king-lost-600-million-and-needed-a-rescue-ab39465f?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/healthcare-investing-is-now-an-ai-short-in-disguise-104cb020?mod=rss_markets_main"
+        },
+        {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/2026081150221"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/business/earnings/abu-dhabis-adnoc-l-s-posts-record-quarterly-profit-despite-regional-disruption-b50ba787?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/reserve-bank-of-australia-holds-rates-steady-but-remains-worried-about-inflation-072fa5fe?mod=rss_socialeconomyfeed"
         }
       ]
     },
