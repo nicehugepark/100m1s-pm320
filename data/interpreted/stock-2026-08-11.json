@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "generated_at": "2026-08-11T10:15:11.346067",
+  "generated_at": "2026-08-11T10:15:32.596414",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -275,9 +275,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bull",
+      "togusa_verdict": "strong_bull",
       "theme_leader": true,
-      "hugepark_grade": "관찰"
+      "hugepark_grade": "적극"
     },
     {
       "code": "002990",
@@ -849,7 +849,7 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "neutral",
+      "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰",
       "causal_chain": "",
@@ -868,17 +868,11 @@
       "industry": "건물 건설업",
       "sector": "건축공사, 토목공사",
       "themes": [
-        "건설",
         "반도체",
-        "3대 메가프로젝트 (AI 데이터센터・건설/레미콘)"
+        "3대 메가프로젝트 (AI 데이터센터・건설/레미콘)",
+        "건설"
       ],
       "theme_paths": [
-        {
-          "name": "건설",
-          "path": [
-            "건설"
-          ]
-        },
         {
           "name": "반도체",
           "path": [
@@ -890,6 +884,12 @@
           "path": [
             "3대 메가프로젝트 (AI 데이터센터・건설/레미콘)"
           ]
+        },
+        {
+          "name": "건설",
+          "path": [
+            "건설"
+          ]
         }
       ],
       "pick_count": 1,
@@ -899,19 +899,15 @@
       "bullish_dates": [],
       "news": [],
       "fallback": true,
-      "cafe_themes": [
-        "반도체",
-        "3대 메가프로젝트 (AI 데이터센터・건설/레미콘)"
-      ],
       "theme_crosscheck": {
-        "confirmed": [],
+        "confirmed": [
+          "반도체",
+          "3대 메가프로젝트 (AI 데이터센터・건설/레미콘)"
+        ],
         "pm320_only": [
           "건설"
         ],
-        "cafe_only": [
-          "반도체",
-          "3대 메가프로젝트 (AI 데이터센터・건설/레미콘)"
-        ]
+        "cafe_only": []
       },
       "index_change_pct": 1.83,
       "range_240d": {
@@ -924,7 +920,12 @@
         "current": null
       },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": false,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "225190",
