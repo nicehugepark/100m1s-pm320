@@ -1,49 +1,560 @@
 {
   "date": "2026-08-11",
-  "generated_at": "2026-08-11T09:05:35.591900",
+  "generated_at": "2026-08-11T09:15:09.443540",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
   "themes_macro_summary": [],
-  "themes_tree": null,
+  "themes_tree": {
+    "date": "2026-08-11",
+    "roots": []
+  },
   "stocks": [
     {
-      "code": "228670",
-      "name": "레이",
+      "code": "001210",
+      "name": "금호전기",
       "rank": 1,
-      "trade_amount": 865000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
+      "trade_amount": 5305000000,
+      "change_pct": 29.94,
+      "close_price": 4080,
+      "open_price": 3140,
+      "high_price": 4080,
+      "low_price": 3140,
       "industry": null,
       "sector": null,
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "LED",
+        "조명",
+        "건설"
+      ],
+      "theme_paths": [
+        {
+          "name": "LED",
+          "path": [
+            "LED"
+          ]
+        },
+        {
+          "name": "조명",
+          "path": [
+            "조명"
+          ]
+        },
+        {
+          "name": "건설",
+          "path": [
+            "건설"
+          ]
+        }
+      ],
       "pick_count": 1,
-      "prev_pick": null,
-      "bullish_today": false,
-      "bullish_streak": 0,
-      "bullish_dates": [],
-      "news": [],
+      "prev_pick": {
+        "date": "2026-07-09",
+        "rank": 2,
+        "change_pct": 1.08,
+        "trade_amount": 193563000000
+      },
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-06-25",
+        "2026-06-26",
+        "2026-07-01",
+        "2026-07-06",
+        "2026-07-07",
+        "2026-07-08",
+        "2026-08-11"
+      ],
+      "news": [
+        {
+          "title": "[오늘의 증시일정] 큐라티스·한글과컴퓨터·금호전기 등",
+          "url": "https://www.etoday.co.kr/news/view/2599393",
+          "source": "이투데이",
+          "published_at": "2026-07-01T22:54:00",
+          "causal_chain": "제공된 뉴스는 '오늘의 증시일정'에 종목명이 나열된 단순 일정 언급뿐으로, 주가를 설명할 본질 매크로 사슬이 식별되지 않는다. 당일 종가 1,068원(-23.11%)의 급락과 거래대금 504억원이 관측되나 이를 인과적으로 연결할 뉴스 근거가 부재하다.",
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": "시세정형"
+        }
+      ],
       "fallback": true,
+      "cafe_themes": [
+        "건설"
+      ],
+      "theme_crosscheck": {
+        "confirmed": [],
+        "pm320_only": [
+          "LED",
+          "조명"
+        ],
+        "cafe_only": [
+          "건설"
+        ]
+      },
+      "range_240d": {
+        "high": 8140,
+        "high_date": "2026-07-09",
+        "high_pct": -49.88,
+        "low": 2325,
+        "low_date": "2026-06-02",
+        "low_pct": 75.48,
+        "current": 4080
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-29",
+          "o": 5045,
+          "h": 5490,
+          "l": 5040,
+          "c": 5490
+        },
+        {
+          "date": "2026-06-30",
+          "o": 5965,
+          "h": 6970,
+          "l": 4545,
+          "c": 5870
+        },
+        {
+          "date": "2026-07-01",
+          "o": 5330,
+          "h": 7440,
+          "l": 5320,
+          "c": 6945
+        },
+        {
+          "date": "2026-07-02",
+          "o": 6945,
+          "h": 7590,
+          "l": 4865,
+          "c": 4915
+        },
+        {
+          "date": "2026-07-03",
+          "o": 4885,
+          "h": 5370,
+          "l": 3570,
+          "c": 3705
+        },
+        {
+          "date": "2026-07-06",
+          "o": 3715,
+          "h": 4815,
+          "l": 3355,
+          "c": 4815
+        },
+        {
+          "date": "2026-07-07",
+          "o": 4575,
+          "h": 5950,
+          "l": 4120,
+          "c": 5010
+        },
+        {
+          "date": "2026-07-08",
+          "o": 5505,
+          "h": 6510,
+          "l": 5160,
+          "c": 6510
+        },
+        {
+          "date": "2026-07-09",
+          "o": 7050,
+          "h": 8140,
+          "l": 5615,
+          "c": 6580
+        },
+        {
+          "date": "2026-07-10",
+          "o": 6840,
+          "h": 7675,
+          "l": 6600,
+          "c": 6655
+        },
+        {
+          "date": "2026-07-13",
+          "o": 6500,
+          "h": 6895,
+          "l": 4920,
+          "c": 5075
+        },
+        {
+          "date": "2026-07-14",
+          "o": 5020,
+          "h": 5675,
+          "l": 4350,
+          "c": 4470
+        },
+        {
+          "date": "2026-07-31",
+          "o": 4600,
+          "h": 5490,
+          "l": 4070,
+          "c": 4115
+        },
+        {
+          "date": "2026-08-03",
+          "o": 4125,
+          "h": 4380,
+          "l": 3615,
+          "c": 3710
+        },
+        {
+          "date": "2026-08-04",
+          "o": 3710,
+          "h": 3940,
+          "l": 3465,
+          "c": 3665
+        },
+        {
+          "date": "2026-08-05",
+          "o": 3770,
+          "h": 3930,
+          "l": 3655,
+          "c": 3690
+        },
+        {
+          "date": "2026-08-06",
+          "o": 3705,
+          "h": 3795,
+          "l": 3400,
+          "c": 3415
+        },
+        {
+          "date": "2026-08-07",
+          "o": 3415,
+          "h": 3480,
+          "l": 3095,
+          "c": 3160
+        },
+        {
+          "date": "2026-08-10",
+          "o": 3180,
+          "h": 3290,
+          "l": 3075,
+          "c": 3140
+        },
+        {
+          "date": "2026-08-11",
+          "o": 3140,
+          "h": 4080,
+          "l": 3140,
+          "c": 4080
+        }
+      ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
+      "code": "377220",
+      "name": "프롬바이오",
+      "rank": 2,
+      "trade_amount": 1943000000,
+      "change_pct": 29.88,
+      "close_price": 4325,
+      "open_price": 3390,
+      "high_price": 4325,
+      "low_price": 3390,
+      "industry": "기타 식품 제조업",
+      "sector": "개별인정형 건강기능식품",
+      "themes": [
+        "K-뷰티",
+        "바이오"
+      ],
+      "theme_paths": [
+        {
+          "name": "K-뷰티",
+          "path": [
+            "K-뷰티"
+          ]
+        },
+        {
+          "name": "바이오",
+          "path": [
+            "바이오"
+          ]
+        }
+      ],
+      "pick_count": 2,
+      "prev_pick": {
+        "date": "2026-08-10",
+        "rank": 29,
+        "change_pct": 29.82,
+        "trade_amount": 525000000
+      },
+      "bullish_today": true,
+      "bullish_streak": 2,
+      "bullish_dates": [
+        "2026-07-02",
+        "2026-07-10",
+        "2026-08-10",
+        "2026-08-11"
+      ],
+      "news": [
+        {
+          "title": "프롬바이오, 렛츠팜과 AI 기반 건강기능식품 원료 개발 협력",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=02115606645546008",
+          "source": "이데일리",
+          "published_at": "2026-08-09T23:35:59",
+          "causal_chain": "프롬바이오가 8월 10일 거래재개되며 재무개선과 바이오 성장(탈모 세포치료제 비임상 착수)을 내세워 '제2 도약'을 표방 → 크릴오일 이중 기능성 개별인정형 원료 획득·'위엔 매스틱' 완판 등 건기식 본업 호조와 세포치료제 파이프라인 진전이 결합 → 재상장 초기 기대감으로 매수세 유입 요인.",
+          "macro_event": "거래재개(8/10) — 재무개선·바이오 성장 기반 재상장",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.3,
+          "newzy_tradability": null,
+          "newzy_score": 0.36,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        },
+        {
+          "title": "프롬바이오, 10일 거래재개…\"재무개선·바이오 성장으로 제2의 도약\"",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=06487846645545024",
+          "source": "이데일리",
+          "published_at": "2026-08-07T06:54:15",
+          "causal_chain": "프롬바이오가 8월 10일 거래재개되며 재무개선과 바이오 성장(탈모 세포치료제 비임상 착수)을 내세워 '제2 도약'을 표방 → 크릴오일 이중 기능성 개별인정형 원료 획득·'위엔 매스틱' 완판 등 건기식 본업 호조와 세포치료제 파이프라인 진전이 결합 → 재상장 초기 기대감으로 매수세 유입 요인.",
+          "macro_event": "거래재개(8/10) — 재무개선·바이오 성장 기반 재상장",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.3,
+          "newzy_tradability": null,
+          "newzy_score": 0.36,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        },
+        {
+          "title": "프롬바이오, '위엔 매스틱' 3회 완판…롯데홈쇼핑서 역대 최저가 판매",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03444006645517144",
+          "source": "이데일리",
+          "published_at": "2026-07-22T00:54:41",
+          "causal_chain": "프롬바이오가 8월 10일 거래재개되며 재무개선과 바이오 성장(탈모 세포치료제 비임상 착수)을 내세워 '제2 도약'을 표방 → 크릴오일 이중 기능성 개별인정형 원료 획득·'위엔 매스틱' 완판 등 건기식 본업 호조와 세포치료제 파이프라인 진전이 결합 → 재상장 초기 기대감으로 매수세 유입 요인.",
+          "macro_event": "거래재개(8/10) — 재무개선·바이오 성장 기반 재상장",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.3,
+          "newzy_tradability": null,
+          "newzy_score": 0.36,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        },
+        {
+          "title": "프롬바이오, 탈모 세포치료제 핵심 비임상 안전성 평가 착수",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=02899526645514520",
+          "source": "이데일리",
+          "published_at": "2026-07-13T23:51:46",
+          "causal_chain": "프롬바이오가 8월 10일 거래재개되며 재무개선과 바이오 성장(탈모 세포치료제 비임상 착수)을 내세워 '제2 도약'을 표방 → 크릴오일 이중 기능성 개별인정형 원료 획득·'위엔 매스틱' 완판 등 건기식 본업 호조와 세포치료제 파이프라인 진전이 결합 → 재상장 초기 기대감으로 매수세 유입 요인.",
+          "macro_event": "거래재개(8/10) — 재무개선·바이오 성장 기반 재상장",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.3,
+          "newzy_tradability": null,
+          "newzy_score": 0.36,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        },
+        {
+          "title": "프롬바이오, 국내 첫 '크릴오일 이중 기능성' 개별인정형 원료 획득",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=02922486645513208",
+          "source": "이데일리",
+          "published_at": "2026-07-09T23:42:52",
+          "causal_chain": "프롬바이오가 8월 10일 거래재개되며 재무개선과 바이오 성장(탈모 세포치료제 비임상 착수)을 내세워 '제2 도약'을 표방 → 크릴오일 이중 기능성 개별인정형 원료 획득·'위엔 매스틱' 완판 등 건기식 본업 호조와 세포치료제 파이프라인 진전이 결합 → 재상장 초기 기대감으로 매수세 유입 요인.",
+          "macro_event": "거래재개(8/10) — 재무개선·바이오 성장 기반 재상장",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.3,
+          "newzy_tradability": null,
+          "newzy_score": 0.36,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        }
+      ],
+      "fallback": true,
+      "theme_crosscheck": {
+        "confirmed": [
+          "K-뷰티"
+        ],
+        "pm320_only": [
+          "바이오"
+        ],
+        "cafe_only": []
+      },
+      "index_change_pct": -0.72,
+      "index_multiple_current": -41.5,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 9890,
+        "high_date": "2025-07-25",
+        "high_pct": -56.27,
+        "low": 2500,
+        "low_date": "2026-07-16",
+        "low_pct": 73.0,
+        "current": 4325
+      },
+      "daily_20": [
+        {
+          "date": "2026-06-23",
+          "o": 3555,
+          "h": 3555,
+          "l": 3205,
+          "c": 3255
+        },
+        {
+          "date": "2026-06-24",
+          "o": 3250,
+          "h": 3250,
+          "l": 2945,
+          "c": 3000
+        },
+        {
+          "date": "2026-06-25",
+          "o": 3000,
+          "h": 3410,
+          "l": 3000,
+          "c": 3110
+        },
+        {
+          "date": "2026-06-26",
+          "o": 3110,
+          "h": 3110,
+          "l": 2705,
+          "c": 2800
+        },
+        {
+          "date": "2026-06-29",
+          "o": 2800,
+          "h": 3060,
+          "l": 2800,
+          "c": 2895
+        },
+        {
+          "date": "2026-06-30",
+          "o": 2895,
+          "h": 2980,
+          "l": 2750,
+          "c": 2775
+        },
+        {
+          "date": "2026-07-01",
+          "o": 2775,
+          "h": 2840,
+          "l": 2700,
+          "c": 2750
+        },
+        {
+          "date": "2026-07-02",
+          "o": 2740,
+          "h": 3575,
+          "l": 2740,
+          "c": 3575
+        },
+        {
+          "date": "2026-07-03",
+          "o": 4050,
+          "h": 4505,
+          "l": 2810,
+          "c": 3075
+        },
+        {
+          "date": "2026-07-06",
+          "o": 3165,
+          "h": 3875,
+          "l": 2990,
+          "c": 3135
+        },
+        {
+          "date": "2026-07-07",
+          "o": 3135,
+          "h": 3135,
+          "l": 2835,
+          "c": 2900
+        },
+        {
+          "date": "2026-07-08",
+          "o": 2895,
+          "h": 2925,
+          "l": 2700,
+          "c": 2800
+        },
+        {
+          "date": "2026-07-09",
+          "o": 2805,
+          "h": 2865,
+          "l": 2575,
+          "c": 2725
+        },
+        {
+          "date": "2026-07-10",
+          "o": 2725,
+          "h": 3540,
+          "l": 2725,
+          "c": 3000
+        },
+        {
+          "date": "2026-07-13",
+          "o": 2950,
+          "h": 3020,
+          "l": 2750,
+          "c": 2940
+        },
+        {
+          "date": "2026-07-14",
+          "o": 2975,
+          "h": 3000,
+          "l": 2765,
+          "c": 2875
+        },
+        {
+          "date": "2026-07-15",
+          "o": 2830,
+          "h": 3000,
+          "l": 2735,
+          "c": 2740
+        },
+        {
+          "date": "2026-07-16",
+          "o": 2655,
+          "h": 2785,
+          "l": 2500,
+          "c": 2565
+        },
+        {
+          "date": "2026-08-10",
+          "o": 2820,
+          "h": 3330,
+          "l": 2820,
+          "c": 3330
+        },
+        {
+          "date": "2026-08-11",
+          "o": 3390,
+          "h": 4325,
+          "l": 3390,
+          "c": 4325
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
     },
     {
       "code": "354200",
       "name": "엔젠바이오",
-      "rank": 2,
-      "trade_amount": 648000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
+      "rank": 3,
+      "trade_amount": 729000000,
+      "change_pct": 29.94,
+      "close_price": 2595,
+      "open_price": 2190,
+      "high_price": 2595,
+      "low_price": 2170,
       "industry": "그외 기타 전문, 과학 및 기술 서비스업",
       "sector": "유전체 분야 진단시약 제조 및 유전체 분야 소프트웨어 연구,개발,판매",
       "themes": [
@@ -66,9 +577,13 @@
         "change_pct": 29.9,
         "trade_amount": 7058000000
       },
-      "bullish_today": false,
-      "bullish_streak": 0,
-      "bullish_dates": [],
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-07-22",
+        "2026-07-24",
+        "2026-08-11"
+      ],
       "news": [
         {
           "title": "엔젠바이오, 유방암·난소암 진단패널 국내 최초 CE-IVDR 인증 획득",
@@ -152,31 +667,19 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": -1.02,
+      "index_change_pct": -0.72,
+      "index_multiple_current": -41.58,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 6785,
         "high_date": "2026-02-05",
-        "high_pct": -74.36,
+        "high_pct": -61.75,
         "low": 1263,
         "low_date": "2026-07-14",
-        "low_pct": 37.77,
-        "current": 1740
+        "low_pct": 105.46,
+        "current": 2595
       },
       "daily_20": [
-        {
-          "date": "2026-06-22",
-          "o": 1939,
-          "h": 1980,
-          "l": 1806,
-          "c": 1809
-        },
-        {
-          "date": "2026-07-13",
-          "o": 1809,
-          "h": 1863,
-          "l": 1283,
-          "c": 1283
-        },
         {
           "date": "2026-07-14",
           "o": 1263,
@@ -292,9 +795,23 @@
         {
           "date": "2026-08-06",
           "o": 1749,
-          "h": 1749,
-          "l": 1739,
-          "c": 1740
+          "h": 1899,
+          "l": 1700,
+          "c": 1890
+        },
+        {
+          "date": "2026-08-07",
+          "o": 1854,
+          "h": 1884,
+          "l": 1711,
+          "c": 1828
+        },
+        {
+          "date": "2026-08-10",
+          "o": 1850,
+          "h": 2100,
+          "l": 1850,
+          "c": 1997
         },
         {
           "date": "2026-08-11",
@@ -304,65 +821,21 @@
           "c": 2595
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 2190,
+        "base": 2190,
+        "prices": [
+          2190,
+          2595,
+          2595
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰"
-    },
-    {
-      "code": "101730",
-      "name": "위메이드맥스",
-      "rank": 3,
-      "trade_amount": 206000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
-      "industry": null,
-      "sector": null,
-      "themes": [
-        "게임"
-      ],
-      "theme_paths": [
-        {
-          "name": "게임",
-          "path": [
-            "게임"
-          ]
-        }
-      ],
-      "pick_count": 1,
-      "prev_pick": null,
-      "bullish_today": false,
-      "bullish_streak": 0,
-      "bullish_dates": [],
-      "news": [],
-      "fallback": true,
-      "theme_crosscheck": {
-        "confirmed": [
-          "게임"
-        ],
-        "pm320_only": [],
-        "cafe_only": []
-      },
-      "range_240d": {
-        "high": 9230,
-        "high_date": "2025-07-15",
-        "high_pct": -52.11,
-        "low": 2600,
-        "low_date": "2026-06-26",
-        "low_pct": 70.0,
-        "current": null
-      },
-      "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
-      "togusa_verdict": "neutral",
-      "theme_leader": true,
-      "hugepark_grade": "관찰",
-      "causal_chain": "",
-      "parent_theme": ""
     }
   ]
 }
