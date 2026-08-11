@@ -6288,6 +6288,13 @@
       "impact_high": true
     },
     {
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-11-2026?mod=rss_markets_main",
+      "published_ts": 1786436957.0,
+      "impact_high": false
+    },
+    {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026081146257",
@@ -6330,13 +6337,6 @@
       "impact_high": false
     },
     {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/07/jobs-report-july-2026.html",
-      "published_ts": 1786130062.0,
-      "impact_high": true
-    },
-    {
       "summary": "미국 고용 지표가 경기 둔화와 임금 압력 해석을 동시에 키우는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/07/here-are-three-key-takeaways-from-the-disappointing-july-jobs-report.html",
@@ -6344,21 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "57b837a68395a9015336f4eb441f5f74df6edfa3989cc282a61e6d769f59916b",
+  "_article_sig": "74d40b61c2a721140dd9dab08617818ad20c6b4c00967359935fc5a29ce22491",
   "built_at_kst": "2026-08-11T07:00:32.964832+09:00",
   "futures": {
-    "as_of_kst": "2026-08-11T17:30:04.107961+09:00",
+    "as_of_kst": "2026-08-11T17:40:07.248482+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7772.75,
+        "point": 7773.0,
         "change_pct": -0.05,
         "spark": [
           7778.25,
-          7787.5,
-          7788.75,
           7786.5,
           7785.25,
           7785.0,
@@ -6396,21 +6394,23 @@
           7773.5,
           7771.25,
           7771.25,
-          7772.75
+          7772.75,
+          7772.75,
+          7773.0
         ],
         "candle": {
           "o": 7778.25,
           "h": 7789.5,
           "l": 7766.5,
-          "c": 7771.25
+          "c": 7773.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7779.75,
           "low_date": "2026-03-30",
           "high_date": "2026-08-07",
-          "low_change_pct": 21.65,
-          "high_change_pct": -0.11
+          "low_change_pct": 21.68,
+          "high_change_pct": -0.09
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7778.25,
             "h": 7789.5,
             "l": 7766.5,
-            "c": 7771.25,
-            "v": 59766
+            "c": 7773.0,
+            "v": 61864
           }
         ],
         "rollover_gaps": [],
@@ -8435,16 +8435,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-11-2026?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/business/earnings/abu-dhabis-adnoc-l-s-posts-record-quarterly-profit-despite-regional-disruption-b50ba787?mod=rss_worldnews"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/reserve-bank-of-australia-holds-rates-steady-but-remains-worried-about-inflation-072fa5fe?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/irans-mysterious-ruler-signals-a-hard-line-on-trump-with-new-leadership-4ae054ea?mod=rss_worldnews"
             }
           ]
         }
@@ -8452,13 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29734.25,
+        "point": 29735.25,
         "change_pct": -0.01,
         "spark": [
           29764.5,
-          29844.75,
-          29852.0,
-          29827.75,
           29815.75,
           29813.75,
           29817.0,
@@ -8495,21 +8492,24 @@
           29748.25,
           29731.25,
           29726.75,
-          29734.25
+          29734.25,
+          29733.0,
+          29722.25,
+          29735.25
         ],
         "candle": {
           "o": 29764.5,
           "h": 29861.75,
           "l": 29666.0,
-          "c": 29728.5
+          "c": 29735.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 28.47,
-          "high_change_pct": -3.2
+          "low_change_pct": 28.5,
+          "high_change_pct": -3.18
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 29764.5,
             "h": 29861.75,
             "l": 29666.0,
-            "c": 29728.5,
-            "v": 52344
+            "c": 29735.25,
+            "v": 53202
           }
         ],
         "rollover_gaps": [],
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53976.0,
-        "change_pct": -0.16,
+        "point": 53994.0,
+        "change_pct": -0.13,
         "spark": [
           54049.0,
-          54068.0,
-          54068.0,
           54065.0,
           54058.0,
           54062.0,
@@ -10594,21 +10592,23 @@
           53995.0,
           53980.0,
           53976.0,
-          53976.0
+          53988.0,
+          53994.0,
+          53994.0
         ],
         "candle": {
           "o": 54049.0,
           "h": 54085.0,
           "l": 53949.0,
-          "c": 53976.0
+          "c": 53994.0
         },
         "range_240d": {
           "low": 45308.0,
           "high": 54494.0,
           "low_date": "2025-09-03",
           "high_date": "2026-08-05",
-          "low_change_pct": 19.13,
-          "high_change_pct": -0.95
+          "low_change_pct": 19.17,
+          "high_change_pct": -0.92
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 54049.0,
             "h": 54085.0,
             "l": 53949.0,
-            "c": 53976.0,
-            "v": 4431
+            "c": 53994.0,
+            "v": 4609
           }
         ],
         "rollover_gaps": [],
@@ -12650,7 +12650,7 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-08-11T17:30:07.909258+09:00",
+  "intraday_refreshed_kst": "2026-08-11T17:40:29.416220+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
@@ -12673,16 +12673,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-11-2026?mod=rss_markets_main"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/business/earnings/abu-dhabis-adnoc-l-s-posts-record-quarterly-profit-despite-regional-disruption-b50ba787?mod=rss_worldnews"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/reserve-bank-of-australia-holds-rates-steady-but-remains-worried-about-inflation-072fa5fe?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/irans-mysterious-ruler-signals-a-hard-line-on-trump-with-new-leadership-4ae054ea?mod=rss_worldnews"
         }
       ]
     },
