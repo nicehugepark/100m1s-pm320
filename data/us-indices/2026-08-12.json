@@ -6305,13 +6305,6 @@
       "impact_high": true
     },
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/u-s-fires-on-ship-breaking-its-blockade-of-iran-d8b99456?mod=rss_worldnews",
-      "published_ts": 1786456560.0,
-      "impact_high": true
-    },
-    {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/inflation-reports-could-test-warshs-tough-talk-3866e365?mod=rss_socialeconomyfeed",
@@ -6319,10 +6312,17 @@
       "impact_high": true
     },
     {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/yen-intervention-wears-off-9a4fff02?mod=rss_markets_main",
+      "published_ts": 1786479300.0,
+      "impact_high": false
+    },
+    {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/americas/rescue-teams-in-colombia-dig-through-rubble-to-pull-out-quake-victims-ca1f1211?mod=rss_worldnews",
-      "published_ts": 1786476120.0,
+      "published_ts": 1786476780.0,
       "impact_high": false
     },
     {
@@ -6368,7 +6368,7 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "733cb8492bbfdd9a0c555712a0a17ed3db5e381d14ca3741f04a316d15838b9a",
+  "_article_sig": "25aae2d1ec951ac5ba914204d87fee26916c4a436cdcac1a62e973670cc7e93d",
   "built_at_kst": "2026-08-11T07:00:32.964832+09:00",
   "regular_open": false,
   "_futures_news": {
@@ -6376,16 +6376,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/yen-intervention-wears-off-9a4fff02?mod=rss_markets_main"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/americas/rescue-teams-in-colombia-dig-through-rubble-to-pull-out-quake-victims-ca1f1211?mod=rss_worldnews"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/business/deals/bezos-is-among-investors-nearing-deal-for-liverpool-soccer-team-365f54b5?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/how-this-100-year-old-company-is-recreating-a-lost-neon-color-bd7357a0?mod=rss_markets_main"
         }
       ]
     },
@@ -6393,16 +6393,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/yen-intervention-wears-off-9a4fff02?mod=rss_markets_main"
+        },
+        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/08/11/an-inflation-report-wednesday-should-be-a-big-deal-for-the-fed-heres-what-to-expect.html"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/housing/july-home-sales-fell-after-higher-mortgage-rates-scared-off-buyers-4820b994?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/u-s-fires-on-ship-breaking-its-blockade-of-iran-d8b99456?mod=rss_worldnews"
         }
       ]
     },
@@ -6425,17 +6425,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-08-12T05:10:04.387989+09:00",
+    "as_of_kst": "2026-08-12T05:20:05.772868+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7751.25,
-        "change_pct": -0.33,
+        "point": 7752.25,
+        "change_pct": -0.32,
         "spark": [
           7778.25,
-          7759.0,
           7756.75,
           7753.0,
           7754.25,
@@ -6474,7 +6473,8 @@
           7749.5,
           7750.0,
           7748.0,
-          7751.25
+          7752.0,
+          7752.25
         ],
         "candle": {
           "o": 7778.25,
@@ -8505,7 +8505,7 @@
             "h": 7796.0,
             "l": 7738.0,
             "c": 7751.25,
-            "v": 911216
+            "v": 931111
           }
         ],
         "rollover_gaps": [],
@@ -8513,16 +8513,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/yen-intervention-wears-off-9a4fff02?mod=rss_markets_main"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/08/11/an-inflation-report-wednesday-should-be-a-big-deal-for-the-fed-heres-what-to-expect.html"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/housing/july-home-sales-fell-after-higher-mortgage-rates-scared-off-buyers-4820b994?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/u-s-fires-on-ship-breaking-its-blockade-of-iran-d8b99456?mod=rss_worldnews"
             }
           ]
         }
@@ -8530,12 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29643.25,
-        "change_pct": -0.32,
+        "point": 29629.25,
+        "change_pct": -0.36,
         "spark": [
           29764.5,
-          29641.5,
-          29626.0,
           29605.5,
           29613.25,
           29578.25,
@@ -8573,21 +8571,23 @@
           29645.75,
           29635.25,
           29621.25,
-          29643.25
+          29632.0,
+          29640.25,
+          29629.25
         ],
         "candle": {
           "o": 29764.5,
           "h": 29886.75,
           "l": 29533.5,
-          "c": 29642.5
+          "c": 29629.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 28.1,
-          "high_change_pct": -3.48
+          "low_change_pct": 28.04,
+          "high_change_pct": -3.53
         },
         "daily_expanded": [
           {
@@ -10603,8 +10603,8 @@
             "o": 29764.5,
             "h": 29886.75,
             "l": 29533.5,
-            "c": 29642.5,
-            "v": 427146
+            "c": 29629.25,
+            "v": 433284
           }
         ],
         "rollover_gaps": [],
@@ -10612,16 +10612,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/yen-intervention-wears-off-9a4fff02?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/americas/rescue-teams-in-colombia-dig-through-rubble-to-pull-out-quake-victims-ca1f1211?mod=rss_worldnews"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/business/deals/bezos-is-among-investors-nearing-deal-for-liverpool-soccer-team-365f54b5?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/how-this-100-year-old-company-is-recreating-a-lost-neon-color-bd7357a0?mod=rss_markets_main"
             }
           ]
         }
@@ -10629,12 +10629,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53897.0,
+        "point": 53898.0,
         "change_pct": -0.31,
         "spark": [
           54049.0,
-          54005.0,
-          53993.0,
           53981.0,
           53988.0,
           53966.0,
@@ -10672,13 +10670,15 @@
           53893.0,
           53892.0,
           53889.0,
-          53897.0
+          53900.0,
+          53895.0,
+          53898.0
         ],
         "candle": {
           "o": 54049.0,
           "h": 54336.0,
           "l": 53855.0,
-          "c": 53897.0
+          "c": 53898.0
         },
         "range_240d": {
           "low": 45308.0,
@@ -10686,7 +10686,7 @@
           "low_date": "2025-09-03",
           "high_date": "2026-08-05",
           "low_change_pct": 18.96,
-          "high_change_pct": -1.1
+          "high_change_pct": -1.09
         },
         "daily_expanded": [
           {
@@ -12702,8 +12702,8 @@
             "o": 54049.0,
             "h": 54336.0,
             "l": 53855.0,
-            "c": 53897.0,
-            "v": 46993
+            "c": 53898.0,
+            "v": 47503
           }
         ],
         "rollover_gaps": [],
@@ -12727,5 +12727,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-08-12T05:10:07.991755+09:00"
+  "intraday_refreshed_kst": "2026-08-12T05:20:21.270753+09:00"
 }
