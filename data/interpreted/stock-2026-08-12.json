@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "generated_at": "2026-08-12T09:55:19.976166",
+  "generated_at": "2026-08-12T09:55:47.141863",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -597,7 +597,10 @@
       "news": [],
       "fallback": true,
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": false,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "103590",
@@ -611,8 +614,17 @@
       "low_price": 69200,
       "industry": "절연선 및 케이블 제조업",
       "sector": null,
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "케이블"
+      ],
+      "theme_paths": [
+        {
+          "name": "케이블",
+          "path": [
+            "케이블"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": false,
@@ -825,8 +837,8 @@
           71000
         ]
       },
-      "togusa_verdict": "neutral",
-      "theme_leader": false,
+      "togusa_verdict": "weak_bull",
+      "theme_leader": true,
       "hugepark_grade": "관찰"
     },
     {
@@ -1068,7 +1080,10 @@
       "bullish_streak": 0,
       "bullish_dates": [],
       "news": [],
-      "fallback": true
+      "fallback": true,
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "024840",
@@ -1288,7 +1303,12 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "투자경고"
+      "credit_reason": "투자경고",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "001210",
@@ -1985,7 +2005,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "002680",
