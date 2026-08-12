@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26586.22,
-      "change_pct": 0.53,
+      "point": 26592.58,
+      "change_pct": 0.56,
       "candle": {
         "o": 26677.67,
         "h": 26687.9,
         "l": 26532.18,
-        "c": 26586.22
+        "c": 26592.58
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,7 +2033,7 @@
           "o": 26677.67,
           "h": 26687.9,
           "l": 26532.18,
-          "c": 26586.22
+          "c": 26592.58
         }
       ],
       "spark": [
@@ -2074,7 +2074,9 @@
         26570.63,
         26583.48,
         26586.06,
-        26586.22
+        26565.71,
+        26591.64,
+        26592.58
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2098,13 +2100,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7747.76,
-      "change_pct": 0.25,
+      "point": 7750.72,
+      "change_pct": 0.29,
       "candle": {
         "o": 7765.46,
         "h": 7766.01,
         "l": 7737.95,
-        "c": 7747.76
+        "c": 7750.72
       },
       "range_240d": {
         "low": 6343.72,
@@ -4128,7 +4130,7 @@
           "o": 7765.46,
           "h": 7766.01,
           "l": 7737.95,
-          "c": 7747.76
+          "c": 7750.72
         }
       ],
       "spark": [
@@ -4169,7 +4171,9 @@
         7746.72,
         7747.84,
         7747.32,
-        7747.76
+        7744.71,
+        7750.5,
+        7750.72
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4193,13 +4197,13 @@
     },
     {
       "name": "DOW",
-      "point": 53809.48,
-      "change_pct": 0.03,
+      "point": 53832.74,
+      "change_pct": 0.08,
       "candle": {
         "o": 53797.47,
         "h": 53969.36,
         "l": 53731.96,
-        "c": 53809.48
+        "c": 53832.74
       },
       "range_240d": {
         "low": 45166.64,
@@ -6223,7 +6227,7 @@
           "o": 53797.47,
           "h": 53969.36,
           "l": 53731.96,
-          "c": 53809.48
+          "c": 53832.74
         }
       ],
       "spark": [
@@ -6264,7 +6268,9 @@
         53830.58,
         53827.06,
         53813.62,
-        53809.48
+        53813.31,
+        53829.14,
+        53832.74
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6303,6 +6309,13 @@
       "impact_high": true
     },
     {
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-4cbbe78d?mod=rss_markets_main",
+      "published_ts": 1786552020.0,
+      "impact_high": false
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/trump-says-hormuz-is-under-u-s-control-few-ships-are-listening-485ba60e?mod=rss_worldnews",
@@ -6331,13 +6344,6 @@
       "impact_high": false
     },
     {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/business/energy-oil/red-hot-power-stocks-are-losing-steam-a4677f03?mod=rss_markets_main",
-      "published_ts": 1786527000.0,
-      "impact_high": false
-    },
-    {
       "summary": "미국 고용 지표가 경기 둔화와 임금 압력 해석을 동시에 키우는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026081275761",
@@ -6359,7 +6365,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "c5aa4dc5ac47bd47e4bfcc54e99cfa073a8766b67ae5dbbd57b701f85fcffac2",
+  "_article_sig": "f5605186f8a58b2096a568a89468c24d26b3f6ed837a47db97ad5dc09cf012c7",
   "built_at_kst": "2026-08-12T07:00:30.076685+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6384,16 +6390,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-4cbbe78d?mod=rss_markets_main"
+        },
+        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/08/12/here-are-five-key-takeaways-from-the-july-cpi-inflation-report.html"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/inflation-federal-reserve-interest-rates-296d1430?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/trump-says-hormuz-is-under-u-s-control-few-ships-are-listening-485ba60e?mod=rss_worldnews"
         }
       ]
     },
@@ -6416,7 +6422,7 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-08-13T01:30:05.156962+09:00",
+    "as_of_kst": "2026-08-13T01:40:05.283571+09:00",
     "session_open": true,
     "futures": [
       {
@@ -6426,7 +6432,6 @@
         "change_pct": 0.28,
         "spark": [
           7756.0,
-          7785.75,
           7790.0,
           7788.75,
           7791.75,
@@ -6465,6 +6470,7 @@
           7769.75,
           7768.5,
           7770.25,
+          7768.75,
           7769.0
         ],
         "candle": {
@@ -8496,7 +8502,7 @@
             "h": 7794.0,
             "l": 7748.5,
             "c": 7769.0,
-            "v": 561699
+            "v": 571989
           }
         ],
         "rollover_gaps": [],
@@ -8504,16 +8510,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-4cbbe78d?mod=rss_markets_main"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/08/12/here-are-five-key-takeaways-from-the-july-cpi-inflation-report.html"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/inflation-federal-reserve-interest-rates-296d1430?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/trump-says-hormuz-is-under-u-s-control-few-ships-are-listening-485ba60e?mod=rss_worldnews"
             }
           ]
         }
@@ -8521,12 +8527,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29862.25,
-        "change_pct": 0.8,
+        "point": 29876.0,
+        "change_pct": 0.84,
         "spark": [
           29657.75,
-          29939.0,
-          29961.5,
           29970.0,
           29991.0,
           29878.25,
@@ -8564,21 +8568,23 @@
           29873.25,
           29861.5,
           29881.5,
-          29862.25
+          29873.5,
+          29852.0,
+          29876.0
         ],
         "candle": {
           "o": 29657.75,
           "h": 30001.75,
           "l": 29624.5,
-          "c": 29862.25
+          "c": 29876.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 29.05,
-          "high_change_pct": -2.77
+          "low_change_pct": 29.11,
+          "high_change_pct": -2.72
         },
         "daily_expanded": [
           {
@@ -10594,8 +10600,8 @@
             "o": 29657.75,
             "h": 30001.75,
             "l": 29624.5,
-            "c": 29862.25,
-            "v": 276605
+            "c": 29876.75,
+            "v": 280824
           }
         ],
         "rollover_gaps": [],
@@ -10620,12 +10626,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53930.0,
-        "change_pct": 0.09,
+        "point": 53913.0,
+        "change_pct": 0.06,
         "spark": [
           53903.0,
-          54034.0,
-          54041.0,
           54068.0,
           54051.0,
           54053.0,
@@ -10663,21 +10667,23 @@
           53919.0,
           53938.0,
           53930.0,
-          53930.0
+          53924.0,
+          53912.0,
+          53913.0
         ],
         "candle": {
           "o": 53903.0,
           "h": 54150.0,
           "l": 53830.0,
-          "c": 53930.0
+          "c": 53907.0
         },
         "range_240d": {
           "low": 45308.0,
           "high": 54494.0,
           "low_date": "2025-09-03",
           "high_date": "2026-08-05",
-          "low_change_pct": 19.03,
-          "high_change_pct": -1.03
+          "low_change_pct": 18.98,
+          "high_change_pct": -1.08
         },
         "daily_expanded": [
           {
@@ -12693,8 +12699,8 @@
             "o": 53903.0,
             "h": 54150.0,
             "l": 53830.0,
-            "c": 53930.0,
-            "v": 31974
+            "c": 53907.0,
+            "v": 32248
           }
         ],
         "rollover_gaps": [],
@@ -12718,5 +12724,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-08-13T01:30:29.883790+09:00"
+  "intraday_refreshed_kst": "2026-08-13T01:40:25.169384+09:00"
 }
