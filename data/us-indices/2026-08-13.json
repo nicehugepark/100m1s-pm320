@@ -6298,6 +6298,13 @@
   ],
   "news_chips": [
     {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/stocks/markets-get-inflation-relief-f713a9c7?mod=rss_markets_main",
+      "published_ts": 1786566900.0,
+      "impact_high": true
+    },
+    {
       "summary": "가계 재정과 소비 부담 지표가 경기 방어 심리에 영향을 주는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/12/lettuce-prices-cyclospora-cpi.html",
@@ -6309,13 +6316,6 @@
       "source": "WSJ세계",
       "url": "https://www.wsj.com/politics/national-security/u-s-and-ukrainian-forces-went-head-to-head-in-an-exercise-ukraines-drones-won-cc3663d5?mod=rss_worldnews",
       "published_ts": 1786555140.0,
-      "impact_high": true
-    },
-    {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/12/here-are-five-key-takeaways-from-the-july-cpi-inflation-report.html",
-      "published_ts": 1786554849.0,
       "impact_high": true
     },
     {
@@ -6368,7 +6368,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "eefbf29239c8d8985a764e87d09ff6af56faaa085bdcd25040d2a7043fc508f2",
+  "_article_sig": "3c29a866e9c58de4e2ad4bf9fb184897ae5e7b36a2d49ba4a550d89f309e24d2",
   "built_at_kst": "2026-08-12T07:00:30.076685+09:00",
   "regular_open": false,
   "_futures_news": {
@@ -6376,16 +6376,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/markets-get-inflation-relief-f713a9c7?mod=rss_markets_main"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/politics/national-security/u-s-and-ukrainian-forces-went-head-to-head-in-an-exercise-ukraines-drones-won-cc3663d5?mod=rss_worldnews"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/europe/war-is-squeezing-another-global-chokepoint-the-black-sea-ce08b232?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/inflation-federal-reserve-interest-rates-296d1430?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -6393,16 +6393,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/markets-get-inflation-relief-f713a9c7?mod=rss_markets_main"
+        },
+        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/08/12/here-are-five-key-takeaways-from-the-july-cpi-inflation-report.html"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/europe/war-is-squeezing-another-global-chokepoint-the-black-sea-ce08b232?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-4cbbe78d?mod=rss_markets_main"
         }
       ]
     },
@@ -6425,19 +6425,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-08-13T05:30:03.452506+09:00",
+    "as_of_kst": "2026-08-13T05:40:07.375913+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7769.5,
-        "change_pct": 0.28,
+        "point": 7768.0,
+        "change_pct": 0.26,
         "spark": [
           7756.0,
-          7774.25,
-          7774.75,
-          7772.25,
           7772.25,
           7772.5,
           7773.5,
@@ -6474,21 +6471,24 @@
           7773.75,
           7772.25,
           7769.75,
-          7769.5
+          7769.5,
+          7768.0,
+          7768.5,
+          7768.0
         ],
         "candle": {
           "o": 7756.0,
           "h": 7794.0,
           "l": 7748.5,
-          "c": 7770.0
+          "c": 7768.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7779.75,
           "low_date": "2026-03-30",
           "high_date": "2026-08-07",
-          "low_change_pct": 21.63,
-          "high_change_pct": -0.13
+          "low_change_pct": 21.6,
+          "high_change_pct": -0.15
         },
         "daily_expanded": [
           {
@@ -8504,8 +8504,8 @@
             "o": 7756.0,
             "h": 7794.0,
             "l": 7748.5,
-            "c": 7770.0,
-            "v": 883856
+            "c": 7768.0,
+            "v": 887112
           }
         ],
         "rollover_gaps": [],
@@ -8513,16 +8513,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/markets-get-inflation-relief-f713a9c7?mod=rss_markets_main"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/08/12/here-are-five-key-takeaways-from-the-july-cpi-inflation-report.html"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/europe/war-is-squeezing-another-global-chokepoint-the-black-sea-ce08b232?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-4cbbe78d?mod=rss_markets_main"
             }
           ]
         }
@@ -8530,13 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29830.5,
-        "change_pct": 0.69,
+        "point": 29818.25,
+        "change_pct": 0.65,
         "spark": [
           29657.75,
-          29909.25,
-          29911.25,
-          29899.5,
           29904.5,
           29909.25,
           29909.5,
@@ -8573,21 +8570,24 @@
           29863.5,
           29846.75,
           29830.25,
-          29830.5
+          29826.75,
+          29820.0,
+          29817.75,
+          29818.25
         ],
         "candle": {
           "o": 29657.75,
           "h": 30001.75,
           "l": 29624.5,
-          "c": 29831.25
+          "c": 29818.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 28.92,
-          "high_change_pct": -2.87
+          "low_change_pct": 28.86,
+          "high_change_pct": -2.91
         },
         "daily_expanded": [
           {
@@ -10603,8 +10603,8 @@
             "o": 29657.75,
             "h": 30001.75,
             "l": 29624.5,
-            "c": 29831.25,
-            "v": 395464
+            "c": 29818.25,
+            "v": 397176
           }
         ],
         "rollover_gaps": [],
@@ -10612,16 +10612,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/markets-get-inflation-relief-f713a9c7?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/politics/national-security/u-s-and-ukrainian-forces-went-head-to-head-in-an-exercise-ukraines-drones-won-cc3663d5?mod=rss_worldnews"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/europe/war-is-squeezing-another-global-chokepoint-the-black-sea-ce08b232?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/inflation-federal-reserve-interest-rates-296d1430?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10629,13 +10629,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53886.0,
-        "change_pct": 0.01,
+        "point": 53866.0,
+        "change_pct": -0.03,
         "spark": [
           53903.0,
-          53920.0,
-          53913.0,
-          53897.0,
           53896.0,
           53904.0,
           53917.0,
@@ -10672,21 +10669,24 @@
           53907.0,
           53898.0,
           53886.0,
-          53886.0
+          53882.0,
+          53871.0,
+          53862.0,
+          53866.0
         ],
         "candle": {
           "o": 53903.0,
           "h": 54150.0,
           "l": 53830.0,
-          "c": 53886.0
+          "c": 53866.0
         },
         "range_240d": {
           "low": 45308.0,
           "high": 54494.0,
           "low_date": "2025-09-03",
           "high_date": "2026-08-05",
-          "low_change_pct": 18.93,
-          "high_change_pct": -1.12
+          "low_change_pct": 18.89,
+          "high_change_pct": -1.15
         },
         "daily_expanded": [
           {
@@ -12702,8 +12702,8 @@
             "o": 53903.0,
             "h": 54150.0,
             "l": 53830.0,
-            "c": 53886.0,
-            "v": 43724
+            "c": 53866.0,
+            "v": 43859
           }
         ],
         "rollover_gaps": [],
@@ -12727,5 +12727,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-08-13T05:30:07.496701+09:00"
+  "intraday_refreshed_kst": "2026-08-13T05:40:30.150781+09:00"
 }
