@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/u-s-futures-edge-higher-after-subdued-inflation-data-74bd7dc4?mod=rss_socialeconomyfeed",
+      "published_ts": 1786611900.0,
+      "impact_high": true
+    },
+    {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/politics/national-security/u-s-and-ukrainian-forces-went-head-to-head-in-an-exercise-ukraines-drones-won-cc3663d5?mod=rss_worldnews",
@@ -6292,13 +6299,6 @@
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026081392857",
       "published_ts": 1786599057.0,
-      "impact_high": true
-    },
-    {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/inflation-pulls-back-slightly-buying-the-fed-more-time-074d812d?mod=rss_worldnews",
-      "published_ts": 1786569180.0,
       "impact_high": true
     },
     {
@@ -6344,20 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "bf971172a508b02776e95ec3d541906880a5bc05ae6c1613c6871eefd240c084",
+  "_article_sig": "7a21a7a665f9b343f781e07038b0db0b330b8beb06bfafd661a3e3902f768430",
   "built_at_kst": "2026-08-13T07:00:37.501952+09:00",
   "futures": {
-    "as_of_kst": "2026-08-13T18:00:10.386894+09:00",
+    "as_of_kst": "2026-08-13T18:10:05.807840+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7781.0,
+        "point": 7781.5,
         "change_pct": 0.14,
         "spark": [
           7770.0,
-          7778.5,
           7778.5,
           7777.75,
           7776.25,
@@ -6396,20 +6395,21 @@
           7781.75,
           7781.0,
           7781.0,
-          7781.0
+          7781.5,
+          7781.5
         ],
         "candle": {
           "o": 7770.0,
-          "h": 7782.25,
+          "h": 7783.0,
           "l": 7764.25,
-          "c": 7781.0
+          "c": 7781.5
         },
         "range_240d": {
           "low": 6388.25,
-          "high": 7781.0,
+          "high": 7781.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.8,
+          "low_change_pct": 21.81,
           "high_change_pct": 0.0
         },
         "daily_expanded": [
@@ -8424,10 +8424,10 @@
           {
             "date": "2026-08-13",
             "o": 7770.0,
-            "h": 7782.25,
+            "h": 7783.0,
             "l": 7764.25,
-            "c": 7781.0,
-            "v": 47654
+            "c": 7781.5,
+            "v": 48565
           }
         ],
         "rollover_gaps": [],
@@ -8435,16 +8435,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/u-s-futures-edge-higher-after-subdued-inflation-data-74bd7dc4?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-13-2026?mod=rss_markets_main"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/politics/national-security/how-trumps-ruse-to-evade-an-iranian-threat-unfolded-on-the-tarmac-in-turkey-94fa0915?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/business/media/inside-north-koreas-operation-to-conquer-the-american-job-market-93729962?mod=rss_worldnews"
             }
           ]
         }
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29858.25,
-        "change_pct": 0.02,
+        "point": 29861.5,
+        "change_pct": 0.03,
         "spark": [
           29825.0,
-          29902.75,
-          29904.75,
           29897.75,
           29884.5,
           29881.5,
@@ -8495,21 +8493,23 @@
           29862.5,
           29857.0,
           29862.0,
-          29858.25
+          29860.75,
+          29856.0,
+          29861.5
         ],
         "candle": {
           "o": 29825.0,
           "h": 29924.0,
           "l": 29780.5,
-          "c": 29858.25
+          "c": 29861.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 29.03,
-          "high_change_pct": -2.78
+          "low_change_pct": 29.05,
+          "high_change_pct": -2.77
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 29825.0,
             "h": 29924.0,
             "l": 29780.5,
-            "c": 29858.25,
-            "v": 48193
+            "c": 29861.5,
+            "v": 48779
           }
         ],
         "rollover_gaps": [],
@@ -10555,8 +10555,6 @@
         "change_pct": 0.2,
         "spark": [
           53905.0,
-          53874.0,
-          53875.0,
           53873.0,
           53874.0,
           53871.0,
@@ -10594,11 +10592,13 @@
           53965.0,
           53976.0,
           53979.0,
+          53970.0,
+          53979.0,
           53979.0
         ],
         "candle": {
           "o": 53905.0,
-          "h": 53985.0,
+          "h": 53987.0,
           "l": 53803.0,
           "c": 53979.0
         },
@@ -12622,10 +12622,10 @@
           {
             "date": "2026-08-13",
             "o": 53905.0,
-            "h": 53985.0,
+            "h": 53987.0,
             "l": 53803.0,
             "c": 53979.0,
-            "v": 5008
+            "v": 5108
           }
         ],
         "rollover_gaps": [],
@@ -12650,7 +12650,7 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-08-13T18:00:14.449815+09:00",
+  "intraday_refreshed_kst": "2026-08-13T18:10:31.290286+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
@@ -12673,16 +12673,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/u-s-futures-edge-higher-after-subdued-inflation-data-74bd7dc4?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-13-2026?mod=rss_markets_main"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/politics/national-security/how-trumps-ruse-to-evade-an-iranian-threat-unfolded-on-the-tarmac-in-turkey-94fa0915?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/business/media/inside-north-koreas-operation-to-conquer-the-american-job-market-93729962?mod=rss_worldnews"
         }
       ]
     },
