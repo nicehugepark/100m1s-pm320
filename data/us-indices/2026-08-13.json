@@ -6275,9 +6275,9 @@
   "news_chips": [
     {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/u-s-futures-edge-higher-after-subdued-inflation-data-74bd7dc4?mod=rss_socialeconomyfeed",
-      "published_ts": 1786611900.0,
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/investing/inflation-protection-is-on-sale-5ca057f5?mod=rss_markets_main",
+      "published_ts": 1786613400.0,
       "impact_high": true
     },
     {
@@ -6309,6 +6309,13 @@
       "impact_high": true
     },
     {
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/jobs/the-jobless-boom-has-arrived-41361a06?mod=rss_socialeconomyfeed",
+      "published_ts": 1786613400.0,
+      "impact_high": false
+    },
+    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/asia/taiwan-weaponizes-coast-guard-to-prepare-for-battle-with-china-e7235080?mod=rss_worldnews",
@@ -6320,13 +6327,6 @@
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026081300661",
       "published_ts": 1786610012.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/business/media/inside-north-koreas-operation-to-conquer-the-american-job-market-93729962?mod=rss_worldnews",
-      "published_ts": 1786582800.0,
       "impact_high": false
     },
     {
@@ -6344,20 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "d56c71055996986fd86da09d06288c528df43c5d628538404f4175380aa56013",
+  "_article_sig": "ca096b4792c7a14982fa916a3d4c1f74f88317c9de377da24bfd2b43562ef740",
   "built_at_kst": "2026-08-13T07:00:37.501952+09:00",
   "futures": {
-    "as_of_kst": "2026-08-13T18:30:09.611443+09:00",
+    "as_of_kst": "2026-08-13T18:40:07.682741+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7780.75,
+        "point": 7780.5,
         "change_pct": 0.13,
         "spark": [
           7770.0,
-          7778.25,
           7779.0,
           7779.5,
           7778.25,
@@ -6396,20 +6395,21 @@
           7779.5,
           7780.5,
           7781.5,
-          7780.75
+          7780.5,
+          7780.5
         ],
         "candle": {
           "o": 7770.0,
           "h": 7783.0,
           "l": 7764.25,
-          "c": 7780.75
+          "c": 7780.5
         },
         "range_240d": {
           "low": 6388.25,
-          "high": 7780.75,
+          "high": 7780.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.8,
+          "low_change_pct": 21.79,
           "high_change_pct": 0.0
         },
         "daily_expanded": [
@@ -8426,8 +8426,8 @@
             "o": 7770.0,
             "h": 7783.0,
             "l": 7764.25,
-            "c": 7780.75,
-            "v": 50473
+            "c": 7780.5,
+            "v": 51064
           }
         ],
         "rollover_gaps": [],
@@ -8435,16 +8435,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/inflation-protection-is-on-sale-5ca057f5?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/jobs/the-jobless-boom-has-arrived-41361a06?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/u-s-futures-edge-higher-after-subdued-inflation-data-74bd7dc4?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-13-2026?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/politics/national-security/how-trumps-ruse-to-evade-an-iranian-threat-unfolded-on-the-tarmac-in-turkey-94fa0915?mod=rss_worldnews"
             }
           ]
         }
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29839.75,
+        "point": 29838.25,
         "change_pct": -0.05,
         "spark": [
           29825.0,
-          29892.75,
-          29894.0,
           29905.25,
           29898.0,
           29890.25,
@@ -8495,13 +8493,15 @@
           29833.0,
           29839.5,
           29847.0,
-          29839.75
+          29838.75,
+          29854.25,
+          29838.25
         ],
         "candle": {
           "o": 29825.0,
           "h": 29924.0,
           "l": 29780.5,
-          "c": 29839.75
+          "c": 29838.25
         },
         "range_240d": {
           "low": 23139.75,
@@ -8509,7 +8509,7 @@
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
           "low_change_pct": 28.95,
-          "high_change_pct": -2.84
+          "high_change_pct": -2.85
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 29825.0,
             "h": 29924.0,
             "l": 29780.5,
-            "c": 29839.75,
-            "v": 50271
+            "c": 29838.25,
+            "v": 50633
           }
         ],
         "rollover_gaps": [],
@@ -10534,16 +10534,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/inflation-protection-is-on-sale-5ca057f5?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/asia/taiwan-weaponizes-coast-guard-to-prepare-for-battle-with-china-e7235080?mod=rss_worldnews"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/politics/national-security/u-s-and-ukrainian-forces-went-head-to-head-in-an-exercise-ukraines-drones-won-cc3663d5?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-13-2026?mod=rss_markets_main"
             }
           ]
         }
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 54010.0,
+        "point": 54009.0,
         "change_pct": 0.26,
         "spark": [
           53905.0,
-          53892.0,
-          53888.0,
           53896.0,
           53896.0,
           53889.0,
@@ -10594,21 +10592,23 @@
           53990.0,
           53996.0,
           54012.0,
-          54010.0
+          54012.0,
+          54009.0,
+          54009.0
         ],
         "candle": {
           "o": 53905.0,
-          "h": 54012.0,
+          "h": 54020.0,
           "l": 53803.0,
-          "c": 54012.0
+          "c": 53994.0
         },
         "range_240d": {
           "low": 45308.0,
           "high": 54494.0,
           "low_date": "2025-09-03",
           "high_date": "2026-08-05",
-          "low_change_pct": 19.21,
-          "high_change_pct": -0.88
+          "low_change_pct": 19.17,
+          "high_change_pct": -0.92
         },
         "daily_expanded": [
           {
@@ -12622,10 +12622,10 @@
           {
             "date": "2026-08-13",
             "o": 53905.0,
-            "h": 54012.0,
+            "h": 54020.0,
             "l": 53803.0,
-            "c": 54012.0,
-            "v": 5449
+            "c": 53994.0,
+            "v": 5672
           }
         ],
         "rollover_gaps": [],
@@ -12650,11 +12650,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-08-13T18:30:38.760691+09:00",
+  "intraday_refreshed_kst": "2026-08-13T18:40:35.372232+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/inflation-protection-is-on-sale-5ca057f5?mod=rss_markets_main"
+        },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/asia/taiwan-weaponizes-coast-guard-to-prepare-for-battle-with-china-e7235080?mod=rss_worldnews"
@@ -12662,10 +12666,6 @@
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/politics/national-security/u-s-and-ukrainian-forces-went-head-to-head-in-an-exercise-ukraines-drones-won-cc3663d5?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-13-2026?mod=rss_markets_main"
         }
       ]
     },
@@ -12673,16 +12673,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/inflation-protection-is-on-sale-5ca057f5?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/jobs/the-jobless-boom-has-arrived-41361a06?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/u-s-futures-edge-higher-after-subdued-inflation-data-74bd7dc4?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-13-2026?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/politics/national-security/how-trumps-ruse-to-evade-an-iranian-threat-unfolded-on-the-tarmac-in-turkey-94fa0915?mod=rss_worldnews"
         }
       ]
     },
