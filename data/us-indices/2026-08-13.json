@@ -6295,13 +6295,6 @@
       "impact_high": true
     },
     {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026081392857",
-      "published_ts": 1786599057.0,
-      "impact_high": true
-    },
-    {
       "summary": "가계 재정과 소비 부담 지표가 경기 방어 심리에 영향을 주는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/12/lettuce-prices-cyclospora-cpi.html",
@@ -6314,6 +6307,13 @@
       "url": "https://www.wsj.com/economy/central-banking/inflation-federal-reserve-interest-rates-296d1430?mod=rss_socialeconomyfeed",
       "published_ts": 1786550160.0,
       "impact_high": true
+    },
+    {
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/asia/taiwan-weaponizes-coast-guard-to-prepare-for-battle-with-china-e7235080?mod=rss_worldnews",
+      "published_ts": 1786613220.0,
+      "impact_high": false
     },
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
@@ -6344,22 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "7a21a7a665f9b343f781e07038b0db0b330b8beb06bfafd661a3e3902f768430",
+  "_article_sig": "d56c71055996986fd86da09d06288c528df43c5d628538404f4175380aa56013",
   "built_at_kst": "2026-08-13T07:00:37.501952+09:00",
   "futures": {
-    "as_of_kst": "2026-08-13T18:20:05.370490+09:00",
+    "as_of_kst": "2026-08-13T18:30:09.611443+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7780.0,
-        "change_pct": 0.12,
+        "point": 7780.75,
+        "change_pct": 0.13,
         "spark": [
           7770.0,
-          7776.25,
-          7777.0,
-          7778.0,
           7778.25,
           7779.0,
           7779.5,
@@ -6396,20 +6393,23 @@
           7781.5,
           7780.75,
           7780.0,
-          7780.0
+          7779.5,
+          7780.5,
+          7781.5,
+          7780.75
         ],
         "candle": {
           "o": 7770.0,
           "h": 7783.0,
           "l": 7764.25,
-          "c": 7780.0
+          "c": 7780.75
         },
         "range_240d": {
           "low": 6388.25,
-          "high": 7780.0,
+          "high": 7780.75,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.79,
+          "low_change_pct": 21.8,
           "high_change_pct": 0.0
         },
         "daily_expanded": [
@@ -8426,8 +8426,8 @@
             "o": 7770.0,
             "h": 7783.0,
             "l": 7764.25,
-            "c": 7780.0,
-            "v": 49506
+            "c": 7780.75,
+            "v": 50473
           }
         ],
         "rollover_gaps": [],
@@ -8452,13 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29847.0,
-        "change_pct": -0.02,
+        "point": 29839.75,
+        "change_pct": -0.05,
         "spark": [
           29825.0,
-          29884.5,
-          29881.5,
-          29887.0,
           29892.75,
           29894.0,
           29905.25,
@@ -8495,21 +8492,24 @@
           29860.75,
           29856.0,
           29847.0,
-          29847.0
+          29833.0,
+          29839.5,
+          29847.0,
+          29839.75
         ],
         "candle": {
           "o": 29825.0,
           "h": 29924.0,
           "l": 29780.5,
-          "c": 29847.0
+          "c": 29839.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 28.99,
-          "high_change_pct": -2.82
+          "low_change_pct": 28.95,
+          "high_change_pct": -2.84
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 29825.0,
             "h": 29924.0,
             "l": 29780.5,
-            "c": 29847.0,
-            "v": 49409
+            "c": 29839.75,
+            "v": 50271
           }
         ],
         "rollover_gaps": [],
@@ -10535,15 +10535,15 @@
           "sources": [
             {
               "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/asia/taiwan-weaponizes-coast-guard-to-prepare-for-battle-with-china-e7235080?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ세계",
               "url": "https://www.wsj.com/politics/national-security/u-s-and-ukrainian-forces-went-head-to-head-in-an-exercise-ukraines-drones-won-cc3663d5?mod=rss_worldnews"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-13-2026?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/u-k-economy-continues-robust-performance-in-second-quarter-f0460d48?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53990.0,
-        "change_pct": 0.22,
+        "point": 54010.0,
+        "change_pct": 0.26,
         "spark": [
           53905.0,
-          53871.0,
-          53882.0,
           53892.0,
           53888.0,
           53896.0,
@@ -10594,21 +10592,23 @@
           53979.0,
           53986.0,
           53990.0,
-          53990.0
+          53996.0,
+          54012.0,
+          54010.0
         ],
         "candle": {
           "o": 53905.0,
-          "h": 54002.0,
+          "h": 54012.0,
           "l": 53803.0,
-          "c": 53990.0
+          "c": 54012.0
         },
         "range_240d": {
           "low": 45308.0,
           "high": 54494.0,
           "low_date": "2025-09-03",
           "high_date": "2026-08-05",
-          "low_change_pct": 19.16,
-          "high_change_pct": -0.92
+          "low_change_pct": 19.21,
+          "high_change_pct": -0.88
         },
         "daily_expanded": [
           {
@@ -12622,10 +12622,10 @@
           {
             "date": "2026-08-13",
             "o": 53905.0,
-            "h": 54002.0,
+            "h": 54012.0,
             "l": 53803.0,
-            "c": 53990.0,
-            "v": 5273
+            "c": 54012.0,
+            "v": 5449
           }
         ],
         "rollover_gaps": [],
@@ -12650,11 +12650,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-08-13T18:20:09.148801+09:00",
+  "intraday_refreshed_kst": "2026-08-13T18:30:38.760691+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/asia/taiwan-weaponizes-coast-guard-to-prepare-for-battle-with-china-e7235080?mod=rss_worldnews"
+        },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/politics/national-security/u-s-and-ukrainian-forces-went-head-to-head-in-an-exercise-ukraines-drones-won-cc3663d5?mod=rss_worldnews"
@@ -12662,10 +12666,6 @@
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-13-2026?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/u-k-economy-continues-robust-performance-in-second-quarter-f0460d48?mod=rss_socialeconomyfeed"
         }
       ]
     },
