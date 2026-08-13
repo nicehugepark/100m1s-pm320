@@ -2088,7 +2088,8 @@
             "url": "https://www.cnbc.com/2026/08/12/ais-costly-buildout-complicates-the-feds-inflation-fight.html"
           }
         ]
-      }
+      },
+      "session_open": false
     },
     {
       "name": "S&P500",
@@ -4177,7 +4178,8 @@
             "url": "https://www.wsj.com/finance/stocks/stocks-hit-new-highs-on-inflation-relief-2049c5d4?mod=rss_markets_main"
           }
         ]
-      }
+      },
+      "session_open": false
     },
     {
       "name": "DOW",
@@ -6266,10 +6268,18 @@
             "url": "https://www.cnbc.com/2026/08/13/wholesale-prices-were-flat-in-july-below-expectations-for-0point2percent-increase.html"
           }
         ]
-      }
+      },
+      "session_open": false
     }
   ],
   "news_chips": [
+    {
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/2026081405427",
+      "published_ts": 1786658625.0,
+      "impact_high": true
+    },
     {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "WSJ",
@@ -6294,8 +6304,8 @@
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "한경국제",
-      "url": "https://www.hankyung.com/article/202608140475i",
-      "published_ts": 1786654804.0,
+      "url": "https://www.hankyung.com/article/2026081405277",
+      "published_ts": 1786657419.0,
       "impact_high": false
     },
     {
@@ -6310,13 +6320,6 @@
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/israel-puts-west-bank-village-on-lockdown-over-settler-siege-a3b40466?mod=rss_worldnews",
       "published_ts": 1786637760.0,
-      "impact_high": false
-    },
-    {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026081303367",
-      "published_ts": 1786619806.0,
       "impact_high": false
     },
     {
@@ -6341,20 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "7c7e206b3cd5949a88a40f32f36b922200dd83609e1e2b0b54eaba0873bbfff3",
+  "_article_sig": "58a622d087afa5738eb5660de091231f753ef5cd6b9191bfadcb0795ea7881fc",
   "built_at_kst": "2026-08-14T07:00:46.409845+09:00",
   "futures": {
-    "as_of_kst": "2026-08-14T07:00:46.409297+09:00",
+    "as_of_kst": "2026-08-14T07:10:08.021674+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7825.25,
-        "change_pct": 0.04,
+        "point": 7824.5,
+        "change_pct": 0.03,
         "spark": [
-          7770.0,
-          7812.5,
+          7825.0,
           7812.0,
           7811.75,
           7813.5,
@@ -6393,20 +6395,21 @@
           7823.75,
           7825.0,
           7825.25,
-          7825.25
+          7826.0,
+          7824.5
         ],
         "candle": {
-          "o": 7770.0,
-          "h": 7838.5,
-          "l": 7764.25,
-          "c": 7825.25
+          "o": 7825.0,
+          "h": 7826.0,
+          "l": 7824.5,
+          "c": 7824.5
         },
         "range_240d": {
           "low": 6388.25,
-          "high": 7825.25,
+          "high": 7824.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 22.49,
+          "low_change_pct": 22.48,
           "high_change_pct": 0.0
         },
         "daily_expanded": [
@@ -8420,23 +8423,39 @@
           },
           {
             "date": "2026-08-13",
-            "o": 7770.0,
-            "h": 7838.5,
-            "l": 7764.25,
-            "c": 7825.25,
-            "v": 1037237
+            "o": 7825.0,
+            "h": 7826.0,
+            "l": 7824.5,
+            "c": 7824.5,
+            "v": 131
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/202608140475i"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/cool-inflation-data-propels-stocks-to-fresh-records-cf7e46a9?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/stocks-hit-new-highs-on-inflation-relief-2049c5d4?mod=rss_markets_main"
+            }
+          ]
+        }
       },
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30214.25,
-        "change_pct": 0.09,
+        "point": 30206.5,
+        "change_pct": 0.06,
         "spark": [
-          29825.0,
-          30217.25,
+          30210.75,
           30207.0,
           30204.5,
           30207.25,
@@ -8475,21 +8494,22 @@
           30210.25,
           30212.75,
           30214.25,
-          30214.25
+          30200.5,
+          30206.5
         ],
         "candle": {
-          "o": 29825.0,
-          "h": 30272.75,
-          "l": 29780.5,
-          "c": 30214.25
+          "o": 30210.75,
+          "h": 30214.5,
+          "l": 30204.0,
+          "c": 30206.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 30.57,
-          "high_change_pct": -1.62
+          "low_change_pct": 30.54,
+          "high_change_pct": -1.65
         },
         "daily_expanded": [
           {
@@ -10502,23 +10522,39 @@
           },
           {
             "date": "2026-08-13",
-            "o": 29825.0,
-            "h": 30272.75,
-            "l": 29780.5,
-            "c": 30214.25,
-            "v": 450254
+            "o": 30210.75,
+            "h": 30214.5,
+            "l": 30204.0,
+            "c": 30206.5,
+            "v": 73
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/politics/national-security/u-s-sending-fresh-aircraft-carrier-to-middle-east-amid-iran-war-strain-d0d6e98d?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/bill-ackman-calls-his-new-funds-slumping-stock-price-frankly-absurd-12fc73be?mod=rss_markets_main"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/08/12/ais-costly-buildout-complicates-the-feds-inflation-fight.html"
+            }
+          ]
+        }
       },
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53960.0,
+        "point": 53962.0,
         "change_pct": 0.05,
         "spark": [
-          53905.0,
-          53834.0,
+          53961.0,
           53843.0,
           53841.0,
           53865.0,
@@ -10557,13 +10593,14 @@
           53950.0,
           53958.0,
           53960.0,
-          53960.0
+          53964.0,
+          53962.0
         ],
         "candle": {
-          "o": 53905.0,
-          "h": 54149.0,
-          "l": 53715.0,
-          "c": 53960.0
+          "o": 53961.0,
+          "h": 53962.0,
+          "l": 53958.0,
+          "c": 53962.0
         },
         "range_240d": {
           "low": 45308.0,
@@ -12584,15 +12621,87 @@
           },
           {
             "date": "2026-08-13",
-            "o": 53905.0,
-            "h": 54149.0,
-            "l": 53715.0,
-            "c": 53960.0,
-            "v": 50743
+            "o": 53961.0,
+            "h": 53962.0,
+            "l": 53958.0,
+            "c": 53962.0,
+            "v": 4
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+          "sources": [
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/israel-puts-west-bank-village-on-lockdown-over-settler-siege-a3b40466?mod=rss_worldnews"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/08/12/ais-costly-buildout-complicates-the-feds-inflation-fight.html"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/08/13/wholesale-prices-were-flat-in-july-below-expectations-for-0point2percent-increase.html"
+            }
+          ]
+        }
       }
     ]
-  }
+  },
+  "regular_open": false,
+  "_futures_news": {
+    "NASDAQ": {
+      "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/politics/national-security/u-s-sending-fresh-aircraft-carrier-to-middle-east-amid-iran-war-strain-d0d6e98d?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/bill-ackman-calls-his-new-funds-slumping-stock-price-frankly-absurd-12fc73be?mod=rss_markets_main"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/12/ais-costly-buildout-complicates-the-feds-inflation-fight.html"
+        }
+      ]
+    },
+    "S&P500": {
+      "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/202608140475i"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/cool-inflation-data-propels-stocks-to-fresh-records-cf7e46a9?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/stocks-hit-new-highs-on-inflation-relief-2049c5d4?mod=rss_markets_main"
+        }
+      ]
+    },
+    "DOW": {
+      "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+      "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/israel-puts-west-bank-village-on-lockdown-over-settler-siege-a3b40466?mod=rss_worldnews"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/12/ais-costly-buildout-complicates-the-feds-inflation-fight.html"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/13/wholesale-prices-were-flat-in-july-below-expectations-for-0point2percent-increase.html"
+        }
+      ]
+    }
+  },
+  "intraday_refreshed_kst": "2026-08-14T07:10:35.734463+09:00"
 }
