@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/business/north-koreans-use-stolen-ids-ai-to-land-u-s-jobsand-funnel-millions-to-kims-regime-1385adf7?mod=rss_worldnews",
+      "published_ts": 1786614480.0,
+      "impact_high": true
+    },
+    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/investing/inflation-protection-is-on-sale-5ca057f5?mod=rss_markets_main",
@@ -6316,13 +6323,6 @@
       "impact_high": false
     },
     {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/asia/taiwan-weaponizes-coast-guard-to-prepare-for-battle-with-china-e7235080?mod=rss_worldnews",
-      "published_ts": 1786613220.0,
-      "impact_high": false
-    },
-    {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026081300661",
@@ -6344,21 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "ca096b4792c7a14982fa916a3d4c1f74f88317c9de377da24bfd2b43562ef740",
+  "_article_sig": "c774c9038e5fd867df0bae7a8609836ea1a90e588e36d14b7ec68ac62f4f2b78",
   "built_at_kst": "2026-08-13T07:00:37.501952+09:00",
   "futures": {
-    "as_of_kst": "2026-08-13T18:40:07.682741+09:00",
+    "as_of_kst": "2026-08-13T18:50:09.466139+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7780.5,
-        "change_pct": 0.13,
+        "point": 7783.5,
+        "change_pct": 0.17,
         "spark": [
           7770.0,
-          7779.0,
-          7779.5,
           7778.25,
           7777.75,
           7776.5,
@@ -6396,20 +6394,22 @@
           7780.5,
           7781.5,
           7780.5,
-          7780.5
+          7782.5,
+          7782.0,
+          7783.5
         ],
         "candle": {
           "o": 7770.0,
           "h": 7783.0,
           "l": 7764.25,
-          "c": 7780.5
+          "c": 7782.0
         },
         "range_240d": {
           "low": 6388.25,
-          "high": 7780.5,
+          "high": 7782.0,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.79,
+          "low_change_pct": 21.82,
           "high_change_pct": 0.0
         },
         "daily_expanded": [
@@ -8426,8 +8426,8 @@
             "o": 7770.0,
             "h": 7783.0,
             "l": 7764.25,
-            "c": 7780.5,
-            "v": 51064
+            "c": 7782.0,
+            "v": 51866
           }
         ],
         "rollover_gaps": [],
@@ -8435,16 +8435,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/business/north-koreans-use-stolen-ids-ai-to-land-u-s-jobsand-funnel-millions-to-kims-regime-1385adf7?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/inflation-protection-is-on-sale-5ca057f5?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/jobs/the-jobless-boom-has-arrived-41361a06?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/u-s-futures-edge-higher-after-subdued-inflation-data-74bd7dc4?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29838.25,
-        "change_pct": -0.05,
+        "point": 29852.5,
+        "change_pct": -0.0,
         "spark": [
           29825.0,
-          29905.25,
-          29898.0,
           29890.25,
           29875.0,
           29862.25,
@@ -8495,21 +8493,23 @@
           29847.0,
           29838.75,
           29854.25,
-          29838.25
+          29851.75,
+          29860.75,
+          29852.5
         ],
         "candle": {
           "o": 29825.0,
           "h": 29924.0,
           "l": 29780.5,
-          "c": 29838.25
+          "c": 29852.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 28.95,
-          "high_change_pct": -2.85
+          "low_change_pct": 29.01,
+          "high_change_pct": -2.8
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 29825.0,
             "h": 29924.0,
             "l": 29780.5,
-            "c": 29838.25,
-            "v": 50633
+            "c": 29852.5,
+            "v": 51008
           }
         ],
         "rollover_gaps": [],
@@ -10534,16 +10534,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/business/north-koreans-use-stolen-ids-ai-to-land-u-s-jobsand-funnel-millions-to-kims-regime-1385adf7?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/inflation-protection-is-on-sale-5ca057f5?mod=rss_markets_main"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/asia/taiwan-weaponizes-coast-guard-to-prepare-for-battle-with-china-e7235080?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/politics/national-security/u-s-and-ukrainian-forces-went-head-to-head-in-an-exercise-ukraines-drones-won-cc3663d5?mod=rss_worldnews"
             }
           ]
         }
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 54009.0,
-        "change_pct": 0.26,
+        "point": 53994.0,
+        "change_pct": 0.23,
         "spark": [
           53905.0,
-          53896.0,
-          53896.0,
           53889.0,
           53885.0,
           53888.0,
@@ -10594,7 +10592,9 @@
           54012.0,
           54012.0,
           54009.0,
-          54009.0
+          54005.0,
+          53994.0,
+          53994.0
         ],
         "candle": {
           "o": 53905.0,
@@ -12633,16 +12633,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/business/north-koreans-use-stolen-ids-ai-to-land-u-s-jobsand-funnel-millions-to-kims-regime-1385adf7?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/trade/mexico-pushes-for-lower-auto-tariffs-in-trade-talks-c7ade480?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/goldman-sachs-is-doubling-down-on-investor-hunger-for-boomer-candy-923783e8?mod=rss_markets_main"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/08/12/lettuce-prices-cyclospora-cpi.html"
             }
           ]
         }
@@ -12650,11 +12650,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-08-13T18:40:35.372232+09:00",
+  "intraday_refreshed_kst": "2026-08-13T18:50:38.861081+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/business/north-koreans-use-stolen-ids-ai-to-land-u-s-jobsand-funnel-millions-to-kims-regime-1385adf7?mod=rss_worldnews"
+        },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/inflation-protection-is-on-sale-5ca057f5?mod=rss_markets_main"
@@ -12662,10 +12666,6 @@
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/asia/taiwan-weaponizes-coast-guard-to-prepare-for-battle-with-china-e7235080?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/politics/national-security/u-s-and-ukrainian-forces-went-head-to-head-in-an-exercise-ukraines-drones-won-cc3663d5?mod=rss_worldnews"
         }
       ]
     },
@@ -12673,16 +12673,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/business/north-koreans-use-stolen-ids-ai-to-land-u-s-jobsand-funnel-millions-to-kims-regime-1385adf7?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/inflation-protection-is-on-sale-5ca057f5?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/jobs/the-jobless-boom-has-arrived-41361a06?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/u-s-futures-edge-higher-after-subdued-inflation-data-74bd7dc4?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12690,16 +12690,16 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/business/north-koreans-use-stolen-ids-ai-to-land-u-s-jobsand-funnel-millions-to-kims-regime-1385adf7?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/trade/mexico-pushes-for-lower-auto-tariffs-in-trade-talks-c7ade480?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/goldman-sachs-is-doubling-down-on-investor-hunger-for-boomer-candy-923783e8?mod=rss_markets_main"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/08/12/lettuce-prices-cyclospora-cpi.html"
         }
       ]
     }
