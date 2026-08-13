@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26836.46,
-      "change_pct": 0.93,
+      "point": 26858.52,
+      "change_pct": 1.02,
       "candle": {
         "o": 26621.53,
         "h": 26875.08,
         "l": 26613.61,
-        "c": 26836.46
+        "c": 26858.52
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,13 +2033,11 @@
           "o": 26621.53,
           "h": 26875.08,
           "l": 26613.61,
-          "c": 26836.46
+          "c": 26858.52
         }
       ],
       "spark": [
         26621.53,
-        26740.71,
-        26720.13,
         26713.55,
         26738.95,
         26751.57,
@@ -2076,8 +2074,10 @@
         26817.09,
         26825.91,
         26829.38,
-        26836.1,
-        26836.46
+        26836.46,
+        26840.02,
+        26857.7,
+        26858.52
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7800.29,
-      "change_pct": 0.67,
+      "point": 7806.22,
+      "change_pct": 0.74,
       "candle": {
         "o": 7763.18,
         "h": 7816.7,
         "l": 7763.18,
-        "c": 7800.29
+        "c": 7806.22
       },
       "range_240d": {
         "low": 6343.72,
@@ -4131,13 +4131,11 @@
           "o": 7763.18,
           "h": 7816.7,
           "l": 7763.18,
-          "c": 7800.29
+          "c": 7806.22
         }
       ],
       "spark": [
         7763.18,
-        7782.34,
-        7779.12,
         7777.87,
         7781.51,
         7782.75,
@@ -4175,7 +4173,9 @@
         7800.79,
         7801.6,
         7800.43,
-        7800.29
+        7801.81,
+        7806.02,
+        7806.22
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 53778.97,
-      "change_pct": 0.02,
+      "point": 53809.68,
+      "change_pct": 0.07,
       "candle": {
         "o": 53828.55,
         "h": 54049.14,
         "l": 53622.46,
-        "c": 53778.97
+        "c": 53809.68
       },
       "range_240d": {
         "low": 45166.64,
@@ -6229,13 +6229,11 @@
           "o": 53828.55,
           "h": 54049.14,
           "l": 53622.46,
-          "c": 53778.97
+          "c": 53809.68
         }
       ],
       "spark": [
         53828.55,
-        53707.39,
-        53698.71,
         53659.2,
         53680.85,
         53667.26,
@@ -6273,7 +6271,9 @@
         53805.81,
         53803.6,
         53778.81,
-        53778.97
+        53789.16,
+        53808.38,
+        53809.68
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6319,6 +6319,13 @@
       "impact_high": true
     },
     {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/americas/cuba-throws-a-birthday-bash-for-fidel-as-his-legacy-lies-in-ruins-92389a0a?mod=rss_worldnews",
+      "published_ts": 1786647780.0,
+      "impact_high": false
+    },
+    {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/stocks/bill-ackman-calls-his-new-funds-slumping-stock-price-frankly-absurd-12fc73be?mod=rss_markets_main",
@@ -6330,13 +6337,6 @@
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/israel-puts-west-bank-village-on-lockdown-over-settler-siege-a3b40466?mod=rss_worldnews",
       "published_ts": 1786637760.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/lakers-mark-walter-joshua-kushner-bob-iger-0ceeea23?mod=rss_markets_main",
-      "published_ts": 1786636800.0,
       "impact_high": false
     },
     {
@@ -6368,7 +6368,7 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "776ef913d93567027f798d1aeffc4f0c69b0e1aac97894b5d5078bcc52f396a5",
+  "_article_sig": "361b5e6824ae8bdae6554ea0f02bbf7c65d6113712da09b866b308e6e3c2725d",
   "built_at_kst": "2026-08-13T07:00:37.501952+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6394,11 +6394,11 @@
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/bill-ackman-calls-his-new-funds-slumping-stock-price-frankly-absurd-12fc73be?mod=rss_markets_main"
+          "url": "https://www.wsj.com/sports/basketball/lakers-mark-walter-joshua-kushner-bob-iger-0ceeea23?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/lakers-mark-walter-joshua-kushner-bob-iger-0ceeea23?mod=rss_markets_main"
+          "url": "https://www.wsj.com/finance/stocks/bill-ackman-calls-his-new-funds-slumping-stock-price-frankly-absurd-12fc73be?mod=rss_markets_main"
         },
         {
           "name": "CNBC",
@@ -6425,7 +6425,7 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-08-14T04:00:05.402466+09:00",
+    "as_of_kst": "2026-08-14T04:10:04.373739+09:00",
     "session_open": true,
     "futures": [
       {
@@ -6435,8 +6435,6 @@
         "change_pct": 0.66,
         "spark": [
           7770.0,
-          7803.75,
-          7803.25,
           7800.75,
           7799.0,
           7803.0,
@@ -6474,17 +6472,19 @@
           7820.5,
           7822.0,
           7823.0,
+          7822.0,
+          7823.5,
           7822.0
         ],
         "candle": {
           "o": 7770.0,
           "h": 7838.5,
           "l": 7764.25,
-          "c": 7821.75
+          "c": 7822.0
         },
         "range_240d": {
           "low": 6388.25,
-          "high": 7821.75,
+          "high": 7822.0,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
           "low_change_pct": 22.44,
@@ -8504,8 +8504,8 @@
             "o": 7770.0,
             "h": 7838.5,
             "l": 7764.25,
-            "c": 7821.75,
-            "v": 806428
+            "c": 7822.0,
+            "v": 822689
           }
         ],
         "rollover_gaps": [],
@@ -8514,11 +8514,11 @@
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/bill-ackman-calls-his-new-funds-slumping-stock-price-frankly-absurd-12fc73be?mod=rss_markets_main"
+              "url": "https://www.wsj.com/sports/basketball/lakers-mark-walter-joshua-kushner-bob-iger-0ceeea23?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/lakers-mark-walter-joshua-kushner-bob-iger-0ceeea23?mod=rss_markets_main"
+              "url": "https://www.wsj.com/finance/stocks/bill-ackman-calls-his-new-funds-slumping-stock-price-frankly-absurd-12fc73be?mod=rss_markets_main"
             },
             {
               "name": "CNBC",
@@ -8530,12 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30239.25,
-        "change_pct": 1.29,
+        "point": 30244.0,
+        "change_pct": 1.31,
         "spark": [
           29825.0,
-          30157.0,
-          30139.75,
           30120.0,
           30115.5,
           30149.5,
@@ -8573,21 +8571,23 @@
           30229.0,
           30240.0,
           30239.0,
-          30239.25
+          30244.25,
+          30246.25,
+          30244.0
         ],
         "candle": {
           "o": 29825.0,
           "h": 30267.5,
           "l": 29780.5,
-          "c": 30239.25
+          "c": 30244.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 30.68,
-          "high_change_pct": -1.54
+          "low_change_pct": 30.7,
+          "high_change_pct": -1.53
         },
         "daily_expanded": [
           {
@@ -10603,8 +10603,8 @@
             "o": 29825.0,
             "h": 30267.5,
             "l": 29780.5,
-            "c": 30239.25,
-            "v": 377572
+            "c": 30244.0,
+            "v": 381556
           }
         ],
         "rollover_gaps": [],
@@ -10629,12 +10629,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53899.0,
-        "change_pct": 0.05,
+        "point": 53874.0,
+        "change_pct": 0.01,
         "spark": [
           53905.0,
-          53786.0,
-          53784.0,
           53799.0,
           53794.0,
           53758.0,
@@ -10672,21 +10670,23 @@
           53899.0,
           53908.0,
           53899.0,
-          53899.0
+          53896.0,
+          53874.0,
+          53874.0
         ],
         "candle": {
           "o": 53905.0,
           "h": 54149.0,
           "l": 53715.0,
-          "c": 53899.0
+          "c": 53874.0
         },
         "range_240d": {
           "low": 45308.0,
           "high": 54494.0,
           "low_date": "2025-09-03",
           "high_date": "2026-08-05",
-          "low_change_pct": 18.96,
-          "high_change_pct": -1.09
+          "low_change_pct": 18.91,
+          "high_change_pct": -1.14
         },
         "daily_expanded": [
           {
@@ -12702,8 +12702,8 @@
             "o": 53905.0,
             "h": 54149.0,
             "l": 53715.0,
-            "c": 53899.0,
-            "v": 43138
+            "c": 53874.0,
+            "v": 43540
           }
         ],
         "rollover_gaps": [],
@@ -12727,5 +12727,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-08-14T04:00:09.487941+09:00"
+  "intraday_refreshed_kst": "2026-08-14T04:10:28.452379+09:00"
 }
