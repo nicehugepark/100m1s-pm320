@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26756.23,
-      "change_pct": -0.17,
+      "point": 26749.39,
+      "change_pct": -0.2,
       "candle": {
         "o": 26842.32,
         "h": 26859.27,
         "l": 26728.72,
-        "c": 26756.23
+        "c": 26749.39
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,7 +2033,7 @@
           "o": 26842.32,
           "h": 26859.27,
           "l": 26728.72,
-          "c": 26756.23
+          "c": 26749.39
         }
       ],
       "spark": [
@@ -2052,7 +2052,9 @@
         26749.92,
         26738.95,
         26762.85,
-        26756.23
+        26753.34,
+        26751.38,
+        26749.39
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2076,13 +2078,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7794.38,
-      "change_pct": -0.06,
+      "point": 7793.73,
+      "change_pct": -0.07,
       "candle": {
         "o": 7806.6,
         "h": 7810.01,
         "l": 7789.78,
-        "c": 7794.38
+        "c": 7793.73
       },
       "range_240d": {
         "low": 6343.72,
@@ -4106,7 +4108,7 @@
           "o": 7806.6,
           "h": 7810.01,
           "l": 7789.78,
-          "c": 7794.38
+          "c": 7793.73
         }
       ],
       "spark": [
@@ -4125,7 +4127,9 @@
         7795.33,
         7790.75,
         7795.75,
-        7794.38
+        7792.95,
+        7793.99,
+        7793.73
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4149,13 +4153,13 @@
     },
     {
       "name": "DOW",
-      "point": 53768.04,
-      "change_pct": -0.13,
+      "point": 53762.17,
+      "change_pct": -0.14,
       "candle": {
         "o": 53842.8,
         "h": 53890.84,
         "l": 53685.58,
-        "c": 53768.04
+        "c": 53762.17
       },
       "range_240d": {
         "low": 45166.64,
@@ -6179,7 +6183,7 @@
           "o": 53842.8,
           "h": 53890.84,
           "l": 53685.58,
-          "c": 53768.04
+          "c": 53762.17
         }
       ],
       "spark": [
@@ -6198,7 +6202,9 @@
         53811.69,
         53765.94,
         53764.53,
-        53768.04
+        53747.58,
+        53763.81,
+        53762.17
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6251,6 +6257,13 @@
       "impact_high": true
     },
     {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/2026081428397",
+      "published_ts": 1786718222.0,
+      "impact_high": false
+    },
+    {
       "summary": "가계 재정과 소비 부담 지표가 경기 방어 심리에 영향을 주는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/consumers/consumer-sentiment-has-dropped-in-august-per-michigan-survey-f2960646?mod=rss_socialeconomyfeed",
@@ -6262,13 +6275,6 @@
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/weak-retail-sales-number-adds-to-softening-economic-data-c047dce9?mod=rss_socialeconomyfeed",
       "published_ts": 1786716480.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026081427997",
-      "published_ts": 1786712406.0,
       "impact_high": false
     },
     {
@@ -6293,21 +6299,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "767dd398976b19e9565ecea38d64f8e6a945b2fd98b4f19b186822cacc56dc32",
+  "_article_sig": "4dc44e7bfc50c195ef94a1e9afd43fe8a7dabbca34a1c4b246862fce963f7cef",
   "built_at_kst": "2026-08-14T07:00:46.409845+09:00",
   "futures": {
-    "as_of_kst": "2026-08-14T23:40:09.063660+09:00",
+    "as_of_kst": "2026-08-14T23:50:10.068712+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7816.25,
-        "change_pct": -0.08,
+        "point": 7815.25,
+        "change_pct": -0.09,
         "spark": [
           7825.0,
-          7827.5,
-          7827.0,
           7828.25,
           7828.25,
           7828.75,
@@ -6345,21 +6349,23 @@
           7817.75,
           7816.75,
           7811.25,
-          7816.25
+          7816.5,
+          7813.75,
+          7815.25
         ],
         "candle": {
           "o": 7825.0,
           "h": 7831.75,
-          "l": 7813.75,
-          "c": 7816.5
+          "l": 7810.5,
+          "c": 7815.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 22.36,
-          "high_change_pct": -0.08
+          "low_change_pct": 22.34,
+          "high_change_pct": -0.09
         },
         "daily_expanded": [
           {
@@ -8374,9 +8380,9 @@
             "date": "2026-08-14",
             "o": 7825.0,
             "h": 7831.75,
-            "l": 7813.75,
-            "c": 7816.5,
-            "v": 284572
+            "l": 7810.5,
+            "c": 7815.25,
+            "v": 313627
           }
         ],
         "rollover_gaps": [],
@@ -8388,12 +8394,12 @@
               "url": "https://www.wsj.com/economy/trade/trump-announces-drone-tariffs-to-protect-national-security-bolster-u-s-supply-chains-87bab5b8?mod=rss_socialeconomyfeed"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-14-2026?mod=rss_markets_main"
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/trade/white-house-says-china-avoids-billions-in-tariffs-by-rerouting-goods-3c4c972f?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/cool-inflation-data-propels-stocks-to-fresh-records-cf7e46a9?mod=rss_markets_main"
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-14-2026?mod=rss_markets_main"
             }
           ]
         }
@@ -8401,12 +8407,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30158.0,
-        "change_pct": -0.1,
+        "point": 30162.0,
+        "change_pct": -0.09,
         "spark": [
           30210.75,
-          30249.75,
-          30247.25,
           30252.0,
           30249.25,
           30251.5,
@@ -8444,21 +8448,23 @@
           30160.0,
           30160.25,
           30138.75,
-          30158.0
+          30169.0,
+          30155.5,
+          30162.0
         ],
         "candle": {
           "o": 30210.75,
           "h": 30283.0,
           "l": 30124.25,
-          "c": 30158.0
+          "c": 30162.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 30.33,
-          "high_change_pct": -1.81
+          "low_change_pct": 30.35,
+          "high_change_pct": -1.79
         },
         "daily_expanded": [
           {
@@ -10474,8 +10480,8 @@
             "o": 30210.75,
             "h": 30283.0,
             "l": 30124.25,
-            "c": 30158.0,
-            "v": 178150
+            "c": 30162.0,
+            "v": 191154
           }
         ],
         "rollover_gaps": [],
@@ -10500,12 +10506,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53888.0,
-        "change_pct": -0.09,
+        "point": 53844.0,
+        "change_pct": -0.17,
         "spark": [
           53961.0,
-          53834.0,
-          53829.0,
           53846.0,
           53863.0,
           53876.0,
@@ -10543,21 +10547,23 @@
           53897.0,
           53890.0,
           53846.0,
-          53888.0
+          53848.0,
+          53823.0,
+          53844.0
         ],
         "candle": {
           "o": 53961.0,
           "h": 53999.0,
           "l": 53757.0,
-          "c": 53888.0
+          "c": 53845.0
         },
         "range_240d": {
           "low": 45308.0,
           "high": 54494.0,
           "low_date": "2025-09-03",
           "high_date": "2026-08-05",
-          "low_change_pct": 18.94,
-          "high_change_pct": -1.11
+          "low_change_pct": 18.84,
+          "high_change_pct": -1.19
         },
         "daily_expanded": [
           {
@@ -12573,8 +12579,8 @@
             "o": 53961.0,
             "h": 53999.0,
             "l": 53757.0,
-            "c": 53888.0,
-            "v": 20821
+            "c": 53845.0,
+            "v": 22022
           }
         ],
         "rollover_gaps": [],
@@ -12625,12 +12631,12 @@
           "url": "https://www.wsj.com/economy/trade/trump-announces-drone-tariffs-to-protect-national-security-bolster-u-s-supply-chains-87bab5b8?mod=rss_socialeconomyfeed"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-14-2026?mod=rss_markets_main"
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/trade/white-house-says-china-avoids-billions-in-tariffs-by-rerouting-goods-3c4c972f?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/cool-inflation-data-propels-stocks-to-fresh-records-cf7e46a9?mod=rss_markets_main"
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-14-2026?mod=rss_markets_main"
         }
       ]
     },
@@ -12652,5 +12658,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-08-14T23:40:12.950213+09:00"
+  "intraday_refreshed_kst": "2026-08-14T23:50:38.813664+09:00"
 }
