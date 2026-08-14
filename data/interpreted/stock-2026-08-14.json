@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "generated_at": "2026-08-14T09:25:46.807289",
+  "generated_at": "2026-08-14T09:35:17.560327",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -14,7 +14,7 @@
       "code": "319400",
       "name": "현대무벡스",
       "rank": 1,
-      "trade_amount": 114071000000,
+      "trade_amount": 140414000000,
       "change_pct": 15.61,
       "close_price": 29250,
       "open_price": 25500,
@@ -49,8 +49,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 0.88,
-      "index_multiple_current": 17.74,
+      "index_change_pct": 1.25,
+      "index_multiple_current": 12.49,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 50400,
@@ -212,7 +212,9 @@
           29150,
           29850,
           29100,
-          28750
+          28550,
+          29000,
+          29150
         ]
       },
       "togusa_verdict": "weak_bull",
@@ -225,12 +227,12 @@
       "code": "001210",
       "name": "금호전기",
       "rank": 2,
-      "trade_amount": 57030000000,
-      "change_pct": 4.79,
-      "close_price": 7220,
+      "trade_amount": 67943000000,
+      "change_pct": -2.18,
+      "close_price": 6740,
       "open_price": 7940,
       "high_price": 8170,
-      "low_price": 7180,
+      "low_price": 6650,
       "industry": "전구 및 조명장치 제조업",
       "sector": "형광등,백열전구,전구식현광등,실드빔(차량용전조) 제조,판매",
       "themes": [
@@ -338,17 +340,17 @@
         ],
         "cafe_only": []
       },
-      "index_change_pct": 2.21,
-      "index_multiple_current": 2.17,
-      "index_multiple_eligible": true,
+      "index_change_pct": 2.44,
+      "index_multiple_current": -0.89,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 8170,
         "high_date": "2026-08-14",
-        "high_pct": -11.63,
+        "high_pct": -17.5,
         "low": 2325,
         "low_date": "2026-06-02",
-        "low_pct": 210.54,
-        "current": 7220
+        "low_pct": 189.89,
+        "current": 6740
       },
       "daily_20": [
         {
@@ -488,8 +490,8 @@
           "date": "2026-08-14",
           "o": 7940,
           "h": 8170,
-          "l": 7180,
-          "c": 7220
+          "l": 6650,
+          "c": 6740
         }
       ],
       "status_badges": [
@@ -502,7 +504,7 @@
               "desc": "5일 전(2026-08-07) 대비 +60%↑",
               "base_price": 3160,
               "threshold": 5056,
-              "current": 7220,
+              "current": 6740,
               "triggered": true
             }
           ],
@@ -519,8 +521,22 @@
           "effect_badges": []
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 7940,
+        "base": 7940,
+        "prices": [
+          7940,
+          7760,
+          7320,
+          7310,
+          7080,
+          6680,
+          6720
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "투자경고",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰"
@@ -529,9 +545,9 @@
       "code": "073240",
       "name": "금호타이어",
       "rank": 3,
-      "trade_amount": 51360000000,
-      "change_pct": 3.56,
-      "close_price": 8430,
+      "trade_amount": 55551000000,
+      "change_pct": 2.7,
+      "close_price": 8360,
       "open_price": 8210,
       "high_price": 8850,
       "low_price": 8020,
@@ -661,17 +677,17 @@
         ],
         "cafe_only": []
       },
-      "index_change_pct": 2.21,
-      "index_multiple_current": 1.61,
+      "index_change_pct": 2.44,
+      "index_multiple_current": 1.11,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 8850,
         "high_date": "2026-08-14",
-        "high_pct": -4.75,
+        "high_pct": -5.54,
         "low": 4220,
         "low_date": "2026-06-24",
-        "low_pct": 99.76,
-        "current": 8430
+        "low_pct": 98.1,
+        "current": 8360
       },
       "daily_20": [
         {
@@ -812,18 +828,475 @@
           "o": 8210,
           "h": 8850,
           "l": 8020,
-          "c": 8430
+          "c": 8360
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 8210,
+        "base": 8210,
+        "prices": [
+          8210,
+          8520,
+          8490,
+          8390,
+          8450,
+          8400,
+          8340
+        ]
+      },
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰"
     },
     {
+      "code": "064400",
+      "name": "LG씨엔에스",
+      "rank": 4,
+      "trade_amount": 51163000000,
+      "change_pct": 2.3,
+      "close_price": 80200,
+      "open_price": 79200,
+      "high_price": 84000,
+      "low_price": 78600,
+      "industry": "컴퓨터 프로그래밍, 시스템 통합 및 관리업",
+      "sector": "컨설팅, 시스템 구축/운영, 토탈 아웃소싱 및 AI, 클라우드·스마트팩토리 등 IT신기술 기반의 DX사업",
+      "themes": [
+        "AI",
+        "AI데이터센터",
+        "AI 인프라"
+      ],
+      "theme_paths": [
+        {
+          "name": "AI데이터센터",
+          "path": [
+            "AI",
+            "AI데이터센터"
+          ]
+        },
+        {
+          "name": "AI 인프라",
+          "path": [
+            "AI",
+            "AI 인프라"
+          ]
+        }
+      ],
+      "pick_count": 1,
+      "prev_pick": {
+        "date": "2026-08-05",
+        "rank": 6,
+        "change_pct": 7.64,
+        "trade_amount": 102207000000
+      },
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [],
+      "news": [],
+      "fallback": true,
+      "index_change_pct": 2.44,
+      "index_multiple_current": 0.94,
+      "index_multiple_eligible": true,
+      "range_240d": {
+        "high": 153300,
+        "high_date": "2026-06-02",
+        "high_pct": -47.68,
+        "low": 54100,
+        "low_date": "2025-11-07",
+        "low_pct": 48.24,
+        "current": 80200
+      },
+      "daily_20": [
+        {
+          "date": "2026-07-20",
+          "o": 63000,
+          "h": 63700,
+          "l": 60800,
+          "c": 61800
+        },
+        {
+          "date": "2026-07-21",
+          "o": 61000,
+          "h": 63600,
+          "l": 60500,
+          "c": 62500
+        },
+        {
+          "date": "2026-07-22",
+          "o": 64800,
+          "h": 67800,
+          "l": 64600,
+          "c": 64600
+        },
+        {
+          "date": "2026-07-23",
+          "o": 65600,
+          "h": 70100,
+          "l": 64700,
+          "c": 69900
+        },
+        {
+          "date": "2026-07-24",
+          "o": 68000,
+          "h": 68300,
+          "l": 64300,
+          "c": 64500
+        },
+        {
+          "date": "2026-07-27",
+          "o": 66300,
+          "h": 69200,
+          "l": 64500,
+          "c": 67000
+        },
+        {
+          "date": "2026-07-28",
+          "o": 64500,
+          "h": 65800,
+          "l": 61600,
+          "c": 61800
+        },
+        {
+          "date": "2026-07-29",
+          "o": 62600,
+          "h": 64400,
+          "l": 57800,
+          "c": 59300
+        },
+        {
+          "date": "2026-07-30",
+          "o": 57700,
+          "h": 61700,
+          "l": 57700,
+          "c": 58200
+        },
+        {
+          "date": "2026-07-31",
+          "o": 61400,
+          "h": 64800,
+          "l": 61000,
+          "c": 62500
+        },
+        {
+          "date": "2026-08-03",
+          "o": 61400,
+          "h": 64300,
+          "l": 60000,
+          "c": 62500
+        },
+        {
+          "date": "2026-08-04",
+          "o": 64400,
+          "h": 68200,
+          "l": 63000,
+          "c": 68100
+        },
+        {
+          "date": "2026-08-05",
+          "o": 69300,
+          "h": 74100,
+          "l": 67800,
+          "c": 73300
+        },
+        {
+          "date": "2026-08-06",
+          "o": 72700,
+          "h": 76100,
+          "l": 71000,
+          "c": 72100
+        },
+        {
+          "date": "2026-08-07",
+          "o": 74600,
+          "h": 74700,
+          "l": 70800,
+          "c": 72600
+        },
+        {
+          "date": "2026-08-10",
+          "o": 72800,
+          "h": 73800,
+          "l": 71700,
+          "c": 73600
+        },
+        {
+          "date": "2026-08-11",
+          "o": 73600,
+          "h": 76600,
+          "l": 72300,
+          "c": 75600
+        },
+        {
+          "date": "2026-08-12",
+          "o": 75500,
+          "h": 78900,
+          "l": 74700,
+          "c": 77300
+        },
+        {
+          "date": "2026-08-13",
+          "o": 78500,
+          "h": 79400,
+          "l": 77300,
+          "c": 78400
+        },
+        {
+          "date": "2026-08-14",
+          "o": 79200,
+          "h": 84000,
+          "l": 78600,
+          "c": 80200
+        }
+      ]
+    },
+    {
+      "code": "049630",
+      "name": "재영솔루텍",
+      "rank": 5,
+      "trade_amount": 20535000000,
+      "change_pct": 28.78,
+      "close_price": 8950,
+      "open_price": 9030,
+      "high_price": 9030,
+      "low_price": 7800,
+      "industry": "사진장비 및 광학기기 제조업",
+      "sector": "플라스틱 사출금형",
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [],
+      "news": [
+        {
+          "title": "재영솔루텍, 상반기 영업익 171억원 \"5년 선제투자 결실\"",
+          "url": "https://www.fnnews.com/news/202608131530419124",
+          "source": "파이낸셜뉴스",
+          "published_at": "2026-08-14T09:30:06.836104",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "[특징주] 재영솔루텍, 상반기에 1년치 다 벌었다...16% 급등",
+          "url": "https://biz.chosun.com/stock/stock_general/2026/08/14/EZX3S46OCVHZDPRSDDZ3XKWXGU/",
+          "source": "조선비즈",
+          "published_at": "2026-08-14T00:15:40",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "실적 개선 폭 확대…재영솔루텍 17%↑[특징주]",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03466966645547320",
+          "source": "이데일리",
+          "published_at": "2026-08-14T00:11:47",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        }
+      ],
+      "fallback": false,
+      "index_change_pct": 1.25,
+      "index_multiple_current": 23.02,
+      "index_multiple_eligible": true,
+      "range_240d": {
+        "high": 40500,
+        "high_date": "2026-01-20",
+        "high_pct": -77.9,
+        "low": 3560,
+        "low_date": "2025-09-08",
+        "low_pct": 151.4,
+        "current": 8950
+      },
+      "daily_20": [
+        {
+          "date": "2026-07-20",
+          "o": 5700,
+          "h": 5900,
+          "l": 5500,
+          "c": 5690
+        },
+        {
+          "date": "2026-07-21",
+          "o": 5550,
+          "h": 5850,
+          "l": 5450,
+          "c": 5750
+        },
+        {
+          "date": "2026-07-22",
+          "o": 5850,
+          "h": 6270,
+          "l": 5850,
+          "c": 5970
+        },
+        {
+          "date": "2026-07-23",
+          "o": 6010,
+          "h": 6380,
+          "l": 6010,
+          "c": 6330
+        },
+        {
+          "date": "2026-07-24",
+          "o": 6240,
+          "h": 6250,
+          "l": 6000,
+          "c": 6020
+        },
+        {
+          "date": "2026-07-27",
+          "o": 6050,
+          "h": 6280,
+          "l": 5990,
+          "c": 6060
+        },
+        {
+          "date": "2026-07-28",
+          "o": 5850,
+          "h": 6050,
+          "l": 5500,
+          "c": 5580
+        },
+        {
+          "date": "2026-07-29",
+          "o": 5570,
+          "h": 6000,
+          "l": 4850,
+          "c": 4995
+        },
+        {
+          "date": "2026-07-30",
+          "o": 4600,
+          "h": 5200,
+          "l": 4600,
+          "c": 4805
+        },
+        {
+          "date": "2026-07-31",
+          "o": 5040,
+          "h": 5400,
+          "l": 4980,
+          "c": 5340
+        },
+        {
+          "date": "2026-08-03",
+          "o": 5250,
+          "h": 5920,
+          "l": 5200,
+          "c": 5660
+        },
+        {
+          "date": "2026-08-04",
+          "o": 5700,
+          "h": 6150,
+          "l": 5660,
+          "c": 6120
+        },
+        {
+          "date": "2026-08-05",
+          "o": 6260,
+          "h": 6500,
+          "l": 6120,
+          "c": 6340
+        },
+        {
+          "date": "2026-08-06",
+          "o": 6340,
+          "h": 6420,
+          "l": 6090,
+          "c": 6220
+        },
+        {
+          "date": "2026-08-07",
+          "o": 6220,
+          "h": 6320,
+          "l": 5980,
+          "c": 6120
+        },
+        {
+          "date": "2026-08-10",
+          "o": 6200,
+          "h": 6580,
+          "l": 6160,
+          "c": 6570
+        },
+        {
+          "date": "2026-08-11",
+          "o": 6570,
+          "h": 6740,
+          "l": 6060,
+          "c": 6650
+        },
+        {
+          "date": "2026-08-12",
+          "o": 6700,
+          "h": 6750,
+          "l": 6460,
+          "c": 6710
+        },
+        {
+          "date": "2026-08-13",
+          "o": 6850,
+          "h": 7000,
+          "l": 6670,
+          "c": 6950
+        },
+        {
+          "date": "2026-08-14",
+          "o": 9030,
+          "h": 9030,
+          "l": 7800,
+          "c": 8950
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 9030,
+        "base": 9030,
+        "prices": [
+          9030,
+          8140,
+          7950,
+          8230,
+          8140,
+          8950
+        ]
+      },
+      "credit_risk": true,
+      "credit_reason": "회사한도초과",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
+    },
+    {
       "code": "066430",
       "name": "아이로보틱스",
-      "rank": 4,
-      "trade_amount": 9711000000,
+      "rank": 6,
+      "trade_amount": 13903000000,
       "change_pct": 29.91,
       "close_price": 2845,
       "open_price": 2245,
@@ -848,8 +1321,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 0.88,
-      "index_multiple_current": 33.99,
+      "index_change_pct": 1.25,
+      "index_multiple_current": 23.93,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 5080,
@@ -1002,8 +1475,22 @@
           "c": 2845
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 2245,
+        "base": 2245,
+        "prices": [
+          2245,
+          2630,
+          2730,
+          2845,
+          2845,
+          2750,
+          2800
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
@@ -1011,26 +1498,196 @@
     {
       "code": "445680",
       "name": "큐리옥스바이오시스템",
-      "rank": 5,
-      "trade_amount": 6471000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
-      "industry": null,
-      "sector": null,
+      "rank": 7,
+      "trade_amount": 6551000000,
+      "change_pct": 29.91,
+      "close_price": 50600,
+      "open_price": 42050,
+      "high_price": 50600,
+      "low_price": 41650,
+      "industry": "의료용 기기 제조업",
+      "sector": "세포 전처리 자동화기기 등",
       "themes": [],
       "theme_paths": [],
       "pick_count": 1,
       "prev_pick": null,
-      "bullish_today": false,
-      "bullish_streak": 0,
-      "bullish_dates": [],
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-08-14"
+      ],
       "news": [],
       "fallback": true,
+      "index_change_pct": 1.25,
+      "index_multiple_current": 23.93,
+      "index_multiple_eligible": true,
+      "range_240d": {
+        "high": 149200,
+        "high_date": "2026-03-19",
+        "high_pct": -66.09,
+        "low": 31650,
+        "low_date": "2026-07-29",
+        "low_pct": 59.87,
+        "current": 50600
+      },
+      "daily_20": [
+        {
+          "date": "2026-07-20",
+          "o": 39500,
+          "h": 39500,
+          "l": 34500,
+          "c": 35650
+        },
+        {
+          "date": "2026-07-21",
+          "o": 35650,
+          "h": 35750,
+          "l": 32900,
+          "c": 34600
+        },
+        {
+          "date": "2026-07-22",
+          "o": 35000,
+          "h": 36800,
+          "l": 34900,
+          "c": 34950
+        },
+        {
+          "date": "2026-07-23",
+          "o": 34950,
+          "h": 38050,
+          "l": 34850,
+          "c": 37300
+        },
+        {
+          "date": "2026-07-24",
+          "o": 36150,
+          "h": 41250,
+          "l": 35850,
+          "c": 38800
+        },
+        {
+          "date": "2026-07-27",
+          "o": 40000,
+          "h": 43700,
+          "l": 39000,
+          "c": 39950
+        },
+        {
+          "date": "2026-07-28",
+          "o": 39050,
+          "h": 39700,
+          "l": 36800,
+          "c": 38350
+        },
+        {
+          "date": "2026-07-29",
+          "o": 38400,
+          "h": 38750,
+          "l": 31650,
+          "c": 34300
+        },
+        {
+          "date": "2026-07-30",
+          "o": 35000,
+          "h": 36800,
+          "l": 33650,
+          "c": 34800
+        },
+        {
+          "date": "2026-07-31",
+          "o": 35700,
+          "h": 38400,
+          "l": 35600,
+          "c": 37550
+        },
+        {
+          "date": "2026-08-03",
+          "o": 36100,
+          "h": 40800,
+          "l": 36050,
+          "c": 38600
+        },
+        {
+          "date": "2026-08-04",
+          "o": 39300,
+          "h": 43850,
+          "l": 39150,
+          "c": 41950
+        },
+        {
+          "date": "2026-08-05",
+          "o": 42350,
+          "h": 43300,
+          "l": 41550,
+          "c": 42050
+        },
+        {
+          "date": "2026-08-06",
+          "o": 42550,
+          "h": 43200,
+          "l": 40000,
+          "c": 42000
+        },
+        {
+          "date": "2026-08-07",
+          "o": 40000,
+          "h": 41200,
+          "l": 38700,
+          "c": 41200
+        },
+        {
+          "date": "2026-08-10",
+          "o": 41200,
+          "h": 45400,
+          "l": 40800,
+          "c": 42700
+        },
+        {
+          "date": "2026-08-11",
+          "o": 41900,
+          "h": 46650,
+          "l": 40150,
+          "c": 45250
+        },
+        {
+          "date": "2026-08-12",
+          "o": 44800,
+          "h": 44800,
+          "l": 41450,
+          "c": 41750
+        },
+        {
+          "date": "2026-08-13",
+          "o": 41700,
+          "h": 41750,
+          "l": 38450,
+          "c": 38950
+        },
+        {
+          "date": "2026-08-14",
+          "o": 42050,
+          "h": 50600,
+          "l": 41650,
+          "c": 50600
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 42050,
+        "base": 42050,
+        "prices": [
+          42050,
+          47800,
+          47650,
+          48600,
+          50600,
+          50600,
+          50600
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
