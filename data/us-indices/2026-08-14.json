@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26770.54,
-      "change_pct": -0.12,
+      "point": 26749.92,
+      "change_pct": -0.2,
       "candle": {
         "o": 26842.32,
         "h": 26859.27,
-        "l": 26770.54,
-        "c": 26770.54
+        "l": 26738.3,
+        "c": 26749.92
       },
       "range_240d": {
         "low": 20794.64,
@@ -2032,8 +2032,8 @@
           "date": "2026-08-14",
           "o": 26842.32,
           "h": 26859.27,
-          "l": 26770.54,
-          "c": 26770.54
+          "l": 26738.3,
+          "c": 26749.92
         }
       ],
       "spark": [
@@ -2048,7 +2048,9 @@
         26813.6,
         26810.41,
         26774.51,
-        26770.54
+        26750.7,
+        26744.01,
+        26749.92
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2072,13 +2074,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7800.57,
-      "change_pct": 0.02,
+      "point": 7795.31,
+      "change_pct": -0.05,
       "candle": {
         "o": 7806.6,
         "h": 7810.01,
-        "l": 7797.81,
-        "c": 7800.57
+        "l": 7792.41,
+        "c": 7795.31
       },
       "range_240d": {
         "low": 6343.72,
@@ -4101,8 +4103,8 @@
           "date": "2026-08-14",
           "o": 7806.6,
           "h": 7810.01,
-          "l": 7797.81,
-          "c": 7800.57
+          "l": 7792.41,
+          "c": 7795.31
         }
       ],
       "spark": [
@@ -4116,8 +4118,10 @@
         7808.15,
         7807.09,
         7804.87,
-        7801.74,
-        7800.57
+        7800.14,
+        7796.73,
+        7795.33,
+        7795.31
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4141,13 +4145,13 @@
     },
     {
       "name": "DOW",
-      "point": 53829.56,
-      "change_pct": -0.02,
+      "point": 53810.52,
+      "change_pct": -0.05,
       "candle": {
         "o": 53842.8,
         "h": 53890.84,
         "l": 53685.58,
-        "c": 53829.56
+        "c": 53810.52
       },
       "range_240d": {
         "low": 45166.64,
@@ -6171,7 +6175,7 @@
           "o": 53842.8,
           "h": 53890.84,
           "l": 53685.58,
-          "c": 53829.56
+          "c": 53810.52
         }
       ],
       "spark": [
@@ -6186,7 +6190,9 @@
         53809.94,
         53807.14,
         53828.15,
-        53829.56
+        53822.0,
+        53811.69,
+        53810.52
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6239,6 +6245,13 @@
       "impact_high": true
     },
     {
+      "summary": "가계 재정과 소비 부담 지표가 경기 방어 심리에 영향을 주는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/consumers/consumer-sentiment-has-dropped-in-august-per-michigan-survey-f2960646?mod=rss_socialeconomyfeed",
+      "published_ts": 1786717680.0,
+      "impact_high": false
+    },
+    {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/weak-retail-sales-number-adds-to-softening-economic-data-c047dce9?mod=rss_socialeconomyfeed",
@@ -6260,13 +6273,6 @@
       "impact_high": false
     },
     {
-      "summary": "가계 재정과 소비 부담 지표가 경기 방어 심리에 영향을 주는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/12/lettuce-prices-cyclospora-cpi.html",
-      "published_ts": 1786564229.0,
-      "impact_high": true
-    },
-    {
       "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/articles/how-liquid-are-private-credit-funds-it-depends-how-you-define-liquidity-854ebcb0?mod=rss_markets_main",
@@ -6281,21 +6287,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "c52ebd6de3a1142fb618982f8fae6d759b3ad6bf9bd4cda3a4ce68499051c328",
+  "_article_sig": "767dd398976b19e9565ecea38d64f8e6a945b2fd98b4f19b186822cacc56dc32",
   "built_at_kst": "2026-08-14T07:00:46.409845+09:00",
   "futures": {
-    "as_of_kst": "2026-08-14T23:20:05.596963+09:00",
+    "as_of_kst": "2026-08-14T23:30:07.896296+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7828.25,
-        "change_pct": 0.07,
+        "point": 7821.5,
+        "change_pct": -0.01,
         "spark": [
           7825.0,
-          7827.5,
-          7827.75,
           7827.0,
           7827.0,
           7827.5,
@@ -6333,21 +6337,23 @@
           7828.25,
           7828.0,
           7825.25,
-          7828.25
+          7820.5,
+          7817.75,
+          7821.5
         ],
         "candle": {
           "o": 7825.0,
           "h": 7831.75,
           "l": 7819.25,
-          "c": 7828.25
+          "c": 7821.5
         },
         "range_240d": {
           "low": 6388.25,
-          "high": 7828.25,
+          "high": 7822.5,
           "low_date": "2026-03-30",
-          "high_date": "2026-08-14",
-          "low_change_pct": 22.54,
-          "high_change_pct": 0.0
+          "high_date": "2026-08-13",
+          "low_change_pct": 22.44,
+          "high_change_pct": -0.01
         },
         "daily_expanded": [
           {
@@ -8363,8 +8369,8 @@
             "o": 7825.0,
             "h": 7831.75,
             "l": 7819.25,
-            "c": 7828.25,
-            "v": 229149
+            "c": 7821.5,
+            "v": 254717
           }
         ],
         "rollover_gaps": [],
@@ -8376,12 +8382,12 @@
               "url": "https://www.wsj.com/economy/trade/trump-announces-drone-tariffs-to-protect-national-security-bolster-u-s-supply-chains-87bab5b8?mod=rss_socialeconomyfeed"
             },
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/trade/white-house-says-china-avoids-billions-in-tariffs-by-rerouting-goods-3c4c972f?mod=rss_socialeconomyfeed"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-14-2026?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-14-2026?mod=rss_markets_main"
+              "url": "https://www.wsj.com/finance/stocks/cool-inflation-data-propels-stocks-to-fresh-records-cf7e46a9?mod=rss_markets_main"
             }
           ]
         }
@@ -8389,12 +8395,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30238.0,
-        "change_pct": 0.16,
+        "point": 30176.0,
+        "change_pct": -0.04,
         "spark": [
           30210.75,
-          30248.0,
-          30256.25,
           30253.75,
           30248.0,
           30249.75,
@@ -8432,21 +8436,23 @@
           30254.25,
           30233.75,
           30221.25,
-          30238.0
+          30172.5,
+          30160.0,
+          30176.0
         ],
         "candle": {
           "o": 30210.75,
           "h": 30283.0,
           "l": 30124.25,
-          "c": 30238.0
+          "c": 30176.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 30.68,
-          "high_change_pct": -1.55
+          "low_change_pct": 30.41,
+          "high_change_pct": -1.75
         },
         "daily_expanded": [
           {
@@ -10462,8 +10468,8 @@
             "o": 30210.75,
             "h": 30283.0,
             "l": 30124.25,
-            "c": 30238.0,
-            "v": 151765
+            "c": 30176.0,
+            "v": 164415
           }
         ],
         "rollover_gaps": [],
@@ -10488,11 +10494,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53882.0,
-        "change_pct": -0.1,
+        "point": 53905.0,
+        "change_pct": -0.06,
         "spark": [
           53961.0,
-          53831.0,
           53823.0,
           53806.0,
           53822.0,
@@ -10531,21 +10536,22 @@
           53895.0,
           53883.0,
           53887.0,
-          53882.0
+          53905.0,
+          53905.0
         ],
         "candle": {
           "o": 53961.0,
           "h": 53999.0,
           "l": 53757.0,
-          "c": 53880.0
+          "c": 53909.0
         },
         "range_240d": {
           "low": 45308.0,
           "high": 54494.0,
           "low_date": "2025-09-03",
           "high_date": "2026-08-05",
-          "low_change_pct": 18.92,
-          "high_change_pct": -1.13
+          "low_change_pct": 18.98,
+          "high_change_pct": -1.07
         },
         "daily_expanded": [
           {
@@ -12561,8 +12567,8 @@
             "o": 53961.0,
             "h": 53999.0,
             "l": 53757.0,
-            "c": 53880.0,
-            "v": 18928
+            "c": 53909.0,
+            "v": 19831
           }
         ],
         "rollover_gaps": [],
@@ -12571,15 +12577,15 @@
           "sources": [
             {
               "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/consumers/consumer-sentiment-has-dropped-in-august-per-michigan-survey-f2960646?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ경제",
               "url": "https://www.wsj.com/world/americas/canada-manufacturing-sales-rise-for-fifth-straight-month-in-june-42515edd?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/trade/trump-announces-drone-tariffs-to-protect-national-security-bolster-u-s-supply-chains-87bab5b8?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/europe/nato-jet-downs-drone-as-concerns-grow-over-russia-threat-9b4b76c7?mod=rss_worldnews"
             }
           ]
         }
@@ -12613,12 +12619,12 @@
           "url": "https://www.wsj.com/economy/trade/trump-announces-drone-tariffs-to-protect-national-security-bolster-u-s-supply-chains-87bab5b8?mod=rss_socialeconomyfeed"
         },
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/trade/white-house-says-china-avoids-billions-in-tariffs-by-rerouting-goods-3c4c972f?mod=rss_socialeconomyfeed"
+          "name": "WSJ",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-14-2026?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-14-2026?mod=rss_markets_main"
+          "url": "https://www.wsj.com/finance/stocks/cool-inflation-data-propels-stocks-to-fresh-records-cf7e46a9?mod=rss_markets_main"
         }
       ]
     },
@@ -12627,18 +12633,18 @@
       "sources": [
         {
           "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/consumers/consumer-sentiment-has-dropped-in-august-per-michigan-survey-f2960646?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ경제",
           "url": "https://www.wsj.com/world/americas/canada-manufacturing-sales-rise-for-fifth-straight-month-in-june-42515edd?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/trade/trump-announces-drone-tariffs-to-protect-national-security-bolster-u-s-supply-chains-87bab5b8?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/europe/nato-jet-downs-drone-as-concerns-grow-over-russia-threat-9b4b76c7?mod=rss_worldnews"
         }
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-08-14T23:20:09.385969+09:00"
+  "intraday_refreshed_kst": "2026-08-14T23:30:49.305306+09:00"
 }
