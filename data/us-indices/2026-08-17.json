@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26731.96,
-      "change_pct": 0.01,
+      "point": 26724.83,
+      "change_pct": -0.02,
       "candle": {
         "o": 26795.61,
         "h": 26796.37,
-        "l": 26713.07,
-        "c": 26731.96
+        "l": 26705.91,
+        "c": 26724.83
       },
       "range_240d": {
         "low": 20794.64,
@@ -2032,8 +2032,8 @@
           "date": "2026-08-17",
           "o": 26795.61,
           "h": 26796.37,
-          "l": 26713.07,
-          "c": 26731.96
+          "l": 26705.91,
+          "c": 26724.83
         }
       ],
       "spark": [
@@ -2048,7 +2048,9 @@
         26736.78,
         26754.95,
         26735.11,
-        26731.96
+        26714.12,
+        26710.13,
+        26724.83
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2072,13 +2074,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7773.7,
-      "change_pct": -0.15,
+      "point": 7774.65,
+      "change_pct": -0.14,
       "candle": {
         "o": 7790.68,
         "h": 7790.68,
-        "l": 7771.33,
-        "c": 7773.7
+        "l": 7771.01,
+        "c": 7774.65
       },
       "range_240d": {
         "low": 6343.72,
@@ -4101,8 +4103,8 @@
           "date": "2026-08-17",
           "o": 7790.68,
           "h": 7790.68,
-          "l": 7771.33,
-          "c": 7773.7
+          "l": 7771.01,
+          "c": 7774.65
         }
       ],
       "spark": [
@@ -4117,7 +4119,9 @@
         7775.6,
         7777.86,
         7774.54,
-        7773.7
+        7773.12,
+        7774.48,
+        7774.65
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4141,13 +4145,13 @@
     },
     {
       "name": "DOW",
-      "point": 53592.79,
-      "change_pct": -0.26,
+      "point": 53565.53,
+      "change_pct": -0.31,
       "candle": {
         "o": 53663.11,
         "h": 53663.11,
         "l": 53511.63,
-        "c": 53592.79
+        "c": 53565.53
       },
       "range_240d": {
         "low": 45166.64,
@@ -6171,7 +6175,7 @@
           "o": 53663.11,
           "h": 53663.11,
           "l": 53511.63,
-          "c": 53592.79
+          "c": 53565.53
         }
       ],
       "spark": [
@@ -6186,7 +6190,9 @@
         53637.66,
         53603.67,
         53592.81,
-        53592.79
+        53587.45,
+        53560.17,
+        53565.53
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6232,6 +6238,13 @@
       "impact_high": true
     },
     {
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/housing/u-s-home-builder-sentiment-still-muted-by-affordability-concerns-2af68f49?mod=rss_socialeconomyfeed",
+      "published_ts": 1786976520.0,
+      "impact_high": false
+    },
+    {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/investment-firm-general-atlantic-is-eyeing-an-ipo-again-53d8ee7f?mod=rss_markets_main",
@@ -6260,13 +6273,6 @@
       "impact_high": false
     },
     {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/central-banks-are-stuck-in-a-rinse-and-repeat-cycle-of-crises-47da47e9?mod=rss_socialeconomyfeed",
-      "published_ts": 1786845600.0,
-      "impact_high": false
-    },
-    {
       "summary": "가계 재정과 소비 부담 지표가 경기 방어 심리에 영향을 주는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/consumers/consumer-sentiment-has-dropped-in-august-per-michigan-survey-f2960646?mod=rss_socialeconomyfeed",
@@ -6281,7 +6287,7 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "cca247532254ae8b1ce9abc022cc72e079038997beebaa87062081d9507cc8b8",
+  "_article_sig": "de019a9564608ca30a7d7a5ff59e4bcc6fcad9ac4d4e7c5f3b7cbfbc40e41598",
   "built_at_kst": "2026-08-15T07:00:39.865224+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6306,16 +6312,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/housing/u-s-home-builder-sentiment-still-muted-by-affordability-concerns-2af68f49?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/trump-oman-bomb-threats-hormuz-0941134f?mod=rss_worldnews"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/new-york-manufacturing-activity-accelerates-in-august-88911983?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/canada-inflation-heats-up-to-3-in-july-1c8548f3?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -6337,19 +6343,18 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-08-17T23:20:36.003046+09:00",
+  "intraday_refreshed_kst": "2026-08-17T23:30:38.208241+09:00",
   "futures": {
-    "as_of_kst": "2026-08-17T23:20:05.931328+09:00",
+    "as_of_kst": "2026-08-17T23:30:05.364722+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7795.5,
-        "change_pct": -0.12,
+        "point": 7793.75,
+        "change_pct": -0.14,
         "spark": [
           7809.25,
-          7816.5,
           7817.75,
           7816.0,
           7813.5,
@@ -6388,21 +6393,22 @@
           7795.5,
           7795.75,
           7798.0,
-          7795.5
+          7795.0,
+          7793.75
         ],
         "candle": {
           "o": 7809.25,
           "h": 7824.5,
           "l": 7791.5,
-          "c": 7795.75
+          "c": 7794.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 22.03,
-          "high_change_pct": -0.34
+          "low_change_pct": 22.02,
+          "high_change_pct": -0.35
         },
         "daily_expanded": [
           {
@@ -8410,8 +8416,8 @@
             "o": 7809.25,
             "h": 7824.5,
             "l": 7791.5,
-            "c": 7795.75,
-            "v": 263501
+            "c": 7794.75,
+            "v": 283021
           }
         ],
         "rollover_gaps": [],
@@ -8419,16 +8425,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/housing/u-s-home-builder-sentiment-still-muted-by-affordability-concerns-2af68f49?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/trump-oman-bomb-threats-hormuz-0941134f?mod=rss_worldnews"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/new-york-manufacturing-activity-accelerates-in-august-88911983?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/canada-inflation-heats-up-to-3-in-july-1c8548f3?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8436,12 +8442,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30198.75,
-        "change_pct": 0.19,
+        "point": 30182.75,
+        "change_pct": 0.14,
         "spark": [
           30170.0,
-          30311.25,
-          30320.5,
           30300.25,
           30288.25,
           30301.25,
@@ -8479,21 +8483,23 @@
           30206.75,
           30196.5,
           30224.25,
-          30198.75
+          30181.0,
+          30176.75,
+          30182.75
         ],
         "candle": {
           "o": 30170.0,
           "h": 30343.0,
           "l": 30161.0,
-          "c": 30198.75
+          "c": 30180.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 30.51,
-          "high_change_pct": -1.67
+          "low_change_pct": 30.43,
+          "high_change_pct": -1.73
         },
         "daily_expanded": [
           {
@@ -10501,8 +10507,8 @@
             "o": 30170.0,
             "h": 30343.0,
             "l": 30161.0,
-            "c": 30198.75,
-            "v": 153987
+            "c": 30180.5,
+            "v": 165045
           }
         ],
         "rollover_gaps": [],
@@ -10527,11 +10533,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53711.0,
-        "change_pct": -0.18,
+        "point": 53657.0,
+        "change_pct": -0.28,
         "spark": [
           53790.0,
-          53734.0,
           53734.0,
           53731.0,
           53705.0,
@@ -10570,21 +10575,22 @@
           53673.0,
           53710.0,
           53670.0,
-          53711.0
+          53659.0,
+          53657.0
         ],
         "candle": {
           "o": 53790.0,
           "h": 53840.0,
           "l": 53564.0,
-          "c": 53711.0
+          "c": 53662.0
         },
         "range_240d": {
           "low": 45308.0,
           "high": 54494.0,
           "low_date": "2025-09-03",
           "high_date": "2026-08-05",
-          "low_change_pct": 18.55,
-          "high_change_pct": -1.44
+          "low_change_pct": 18.44,
+          "high_change_pct": -1.53
         },
         "daily_expanded": [
           {
@@ -12592,8 +12598,8 @@
             "o": 53790.0,
             "h": 53840.0,
             "l": 53564.0,
-            "c": 53711.0,
-            "v": 21059
+            "c": 53662.0,
+            "v": 22149
           }
         ],
         "rollover_gaps": [],
