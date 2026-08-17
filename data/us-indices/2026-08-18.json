@@ -6298,13 +6298,6 @@
   ],
   "news_chips": [
     {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/canada-inflation-heats-up-to-3-in-july-1c8548f3?mod=rss_socialeconomyfeed",
-      "published_ts": 1786977840.0,
-      "impact_high": true
-    },
-    {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/new-york-manufacturing-activity-accelerates-in-august-88911983?mod=rss_socialeconomyfeed",
@@ -6313,6 +6306,13 @@
     },
     {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/articles/energy-utilities-roundup-market-talk-ab20cd93?mod=rss_worldnews",
+      "published_ts": 1787000640.0,
+      "impact_high": false
+    },
+    {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/investing/oil-prices-treasury-yields-rise-with-mideast-concerns-cecc3e36?mod=rss_markets_main",
       "published_ts": 1786999320.0,
@@ -6368,7 +6368,7 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "6743310de642cbbcde86050030b2379b46b7a31ffd924efd9df2b59ab045d4d8",
+  "_article_sig": "12a707c99f51b8b1d14e88bcbf943ba4b4b8732849a56b0dc599d4e04fcd52b1",
   "built_at_kst": "2026-08-15T07:00:39.865224+09:00",
   "regular_open": false,
   "_futures_news": {
@@ -6393,16 +6393,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/articles/energy-utilities-roundup-market-talk-ab20cd93?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/oil-prices-treasury-yields-rise-with-mideast-concerns-cecc3e36?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/oil-rises-bond-yields-climb-on-iran-tensions-ba2bb60b?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/canada-inflation-heats-up-to-3-in-july-1c8548f3?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -6410,32 +6410,31 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/articles/energy-utilities-roundup-market-talk-ab20cd93?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/canada-inflation-heats-up-to-3-in-july-1c8548f3?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/pro/bankruptcy/cd-rs-lenders-toughen-stance-after-contentious-multi-color-bankruptcy-02092a1f?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/new-york-manufacturing-activity-accelerates-in-august-88911983?mod=rss_socialeconomyfeed"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-08-18T06:00:12.348166+09:00",
+    "as_of_kst": "2026-08-18T06:10:11.629284+09:00",
     "session_open": false,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7764.25,
-        "change_pct": -0.52,
+        "point": 7765.5,
+        "change_pct": -0.51,
         "spark": [
           7809.25,
-          7778.5,
           7776.25,
           7776.25,
           7775.0,
@@ -6474,21 +6473,22 @@
           7764.5,
           7764.25,
           7766.0,
-          7764.25
+          7765.0,
+          7765.5
         ],
         "candle": {
           "o": 7809.25,
           "h": 7824.5,
           "l": 7763.5,
-          "c": 7763.5
+          "c": 7765.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.53,
-          "high_change_pct": -0.75
+          "low_change_pct": 21.56,
+          "high_change_pct": -0.73
         },
         "daily_expanded": [
           {
@@ -8496,8 +8496,8 @@
             "o": 7809.25,
             "h": 7824.5,
             "l": 7763.5,
-            "c": 7763.5,
-            "v": 932272
+            "c": 7765.5,
+            "v": 934724
           }
         ],
         "rollover_gaps": [],
@@ -8505,16 +8505,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/articles/energy-utilities-roundup-market-talk-ab20cd93?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/oil-prices-treasury-yields-rise-with-mideast-concerns-cecc3e36?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/oil-rises-bond-yields-climb-on-iran-tensions-ba2bb60b?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/canada-inflation-heats-up-to-3-in-july-1c8548f3?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8522,11 +8522,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30058.0,
-        "change_pct": -0.28,
+        "point": 30078.25,
+        "change_pct": -0.21,
         "spark": [
           30170.0,
-          30123.0,
           30111.0,
           30112.0,
           30102.25,
@@ -8565,21 +8564,22 @@
           30064.75,
           30058.75,
           30073.75,
-          30058.0
+          30070.5,
+          30078.25
         ],
         "candle": {
           "o": 30170.0,
           "h": 30343.0,
           "l": 30054.5,
-          "c": 30058.0
+          "c": 30078.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 29.9,
-          "high_change_pct": -2.13
+          "low_change_pct": 29.99,
+          "high_change_pct": -2.07
         },
         "daily_expanded": [
           {
@@ -10587,8 +10587,8 @@
             "o": 30170.0,
             "h": 30343.0,
             "l": 30054.5,
-            "c": 30058.0,
-            "v": 397920
+            "c": 30078.25,
+            "v": 398776
           }
         ],
         "rollover_gaps": [],
@@ -10613,11 +10613,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53506.0,
-        "change_pct": -0.56,
+        "point": 53509.0,
+        "change_pct": -0.55,
         "spark": [
           53790.0,
-          53518.0,
           53501.0,
           53507.0,
           53507.0,
@@ -10656,20 +10655,21 @@
           53512.0,
           53509.0,
           53513.0,
-          53506.0
+          53514.0,
+          53509.0
         ],
         "candle": {
           "o": 53790.0,
           "h": 53840.0,
           "l": 53464.0,
-          "c": 53506.0
+          "c": 53509.0
         },
         "range_240d": {
           "low": 45308.0,
           "high": 54494.0,
           "low_date": "2025-09-03",
           "high_date": "2026-08-05",
-          "low_change_pct": 18.09,
+          "low_change_pct": 18.1,
           "high_change_pct": -1.81
         },
         "daily_expanded": [
@@ -12678,8 +12678,8 @@
             "o": 53790.0,
             "h": 53840.0,
             "l": 53464.0,
-            "c": 53506.0,
-            "v": 49513
+            "c": 53509.0,
+            "v": 49626
           }
         ],
         "rollover_gaps": [],
@@ -12687,21 +12687,21 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/articles/energy-utilities-roundup-market-talk-ab20cd93?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/canada-inflation-heats-up-to-3-in-july-1c8548f3?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/pro/bankruptcy/cd-rs-lenders-toughen-stance-after-contentious-multi-color-bankruptcy-02092a1f?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/new-york-manufacturing-activity-accelerates-in-august-88911983?mod=rss_socialeconomyfeed"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-08-18T06:00:16.643083+09:00"
+  "intraday_refreshed_kst": "2026-08-18T06:10:50.841385+09:00"
 }
