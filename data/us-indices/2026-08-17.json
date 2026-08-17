@@ -6282,9 +6282,16 @@
     },
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026081750547",
-      "published_ts": 1786946591.0,
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/politics/national-security/trump-orders-cuts-to-u-s-south-korea-military-drills-2bc63cec?mod=rss_worldnews",
+      "published_ts": 1786951500.0,
+      "impact_high": false
+    },
+    {
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/chinas-economic-activity-weakened-in-july-0ce9bde7?mod=rss_socialeconomyfeed",
+      "published_ts": 1786951200.0,
       "impact_high": false
     },
     {
@@ -6292,13 +6299,6 @@
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/japans-economy-stays-on-growth-path-but-headwinds-loom-6abb9a34?mod=rss_socialeconomyfeed",
       "published_ts": 1786937040.0,
-      "impact_high": false
-    },
-    {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/202608164228i",
-      "published_ts": 1786911962.0,
       "impact_high": false
     },
     {
@@ -6344,7 +6344,7 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "6aaf55c9f73884e0bcdffa9268ea74743e69b25aa27f75287124de6c987d687c",
+  "_article_sig": "6ed30f3cc89956bc5bfc5a131ffb1b66ffa8e2deb017864a7455ae34df8d057b",
   "built_at_kst": "2026-08-15T07:00:39.865224+09:00",
   "regular_open": false,
   "_futures_news": {
@@ -6353,15 +6353,15 @@
       "sources": [
         {
           "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/chinas-economic-activity-weakened-in-july-0ce9bde7?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/japans-economy-stays-on-growth-path-but-headwinds-loom-6abb9a34?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/iran-plan-escalate-war-cc657664?mod=rss_worldnews"
-        },
-        {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/202608174548i"
         }
       ]
     },
@@ -6400,19 +6400,18 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-08-17T16:20:11.490453+09:00",
+  "intraday_refreshed_kst": "2026-08-17T16:30:34.782544+09:00",
   "futures": {
-    "as_of_kst": "2026-08-17T16:20:06.912342+09:00",
+    "as_of_kst": "2026-08-17T16:30:06.261164+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7819.5,
-        "change_pct": 0.19,
+        "point": 7814.75,
+        "change_pct": 0.12,
         "spark": [
           7809.25,
-          7812.75,
           7813.0,
           7813.25,
           7812.75,
@@ -6451,21 +6450,22 @@
           7819.75,
           7819.5,
           7815.75,
-          7819.5
+          7814.75,
+          7814.75
         ],
         "candle": {
           "o": 7809.25,
           "h": 7821.25,
           "l": 7804.0,
-          "c": 7819.5
+          "c": 7814.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 22.4,
-          "high_change_pct": -0.04
+          "low_change_pct": 22.33,
+          "high_change_pct": -0.1
         },
         "daily_expanded": [
           {
@@ -8473,8 +8473,8 @@
             "o": 7809.25,
             "h": 7821.25,
             "l": 7804.0,
-            "c": 7819.5,
-            "v": 37856
+            "c": 7814.75,
+            "v": 39591
           }
         ],
         "rollover_gaps": [],
@@ -8499,12 +8499,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30301.25,
-        "change_pct": 0.53,
+        "point": 30270.25,
+        "change_pct": 0.43,
         "spark": [
           30170.0,
-          30246.75,
-          30246.75,
           30251.25,
           30250.5,
           30243.75,
@@ -8542,21 +8540,23 @@
           30311.25,
           30301.0,
           30275.0,
-          30301.25
+          30267.0,
+          30271.0,
+          30270.25
         ],
         "candle": {
           "o": 30170.0,
           "h": 30331.5,
           "l": 30163.75,
-          "c": 30301.25
+          "c": 30270.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 30.95,
-          "high_change_pct": -1.34
+          "low_change_pct": 30.81,
+          "high_change_pct": -1.44
         },
         "daily_expanded": [
           {
@@ -10564,8 +10564,8 @@
             "o": 30170.0,
             "h": 30331.5,
             "l": 30163.75,
-            "c": 30301.25,
-            "v": 37579
+            "c": 30270.25,
+            "v": 39038
           }
         ],
         "rollover_gaps": [],
@@ -10574,15 +10574,15 @@
           "sources": [
             {
               "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/chinas-economic-activity-weakened-in-july-0ce9bde7?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/japans-economy-stays-on-growth-path-but-headwinds-loom-6abb9a34?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/iran-plan-escalate-war-cc657664?mod=rss_worldnews"
-            },
-            {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/202608174548i"
             }
           ]
         }
@@ -10590,11 +10590,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53756.0,
-        "change_pct": -0.09,
+        "point": 53746.0,
+        "change_pct": -0.11,
         "spark": [
           53790.0,
-          53749.0,
           53748.0,
           53748.0,
           53748.0,
@@ -10632,21 +10631,23 @@
           53777.0,
           53772.0,
           53783.0,
-          53756.0
+          53756.0,
+          53746.0,
+          53746.0
         ],
         "candle": {
           "o": 53790.0,
           "h": 53840.0,
           "l": 53719.0,
-          "c": 53782.0
+          "c": 53746.0
         },
         "range_240d": {
           "low": 45308.0,
           "high": 54494.0,
           "low_date": "2025-09-03",
           "high_date": "2026-08-05",
-          "low_change_pct": 18.7,
-          "high_change_pct": -1.31
+          "low_change_pct": 18.62,
+          "high_change_pct": -1.37
         },
         "daily_expanded": [
           {
@@ -12654,8 +12655,8 @@
             "o": 53790.0,
             "h": 53840.0,
             "l": 53719.0,
-            "c": 53782.0,
-            "v": 3169
+            "c": 53746.0,
+            "v": 3320
           }
         ],
         "rollover_gaps": [],
