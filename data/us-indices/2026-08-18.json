@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26750.34,
-      "change_pct": 0.08,
+      "point": 26759.31,
+      "change_pct": 0.11,
       "candle": {
         "o": 26795.61,
         "h": 26796.37,
         "l": 26705.91,
-        "c": 26750.34
+        "c": 26759.31
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,7 +2033,7 @@
           "o": 26795.61,
           "h": 26796.37,
           "l": 26705.91,
-          "c": 26750.34
+          "c": 26759.31
         }
       ],
       "spark": [
@@ -2056,7 +2056,9 @@
         26732.83,
         26726.01,
         26750.34,
-        26750.34
+        26764.65,
+        26764.47,
+        26759.31
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2080,13 +2082,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7773.76,
+      "point": 7774.36,
       "change_pct": -0.15,
       "candle": {
         "o": 7790.68,
         "h": 7790.68,
         "l": 7769.75,
-        "c": 7773.76
+        "c": 7774.36
       },
       "range_240d": {
         "low": 6343.72,
@@ -4110,7 +4112,7 @@
           "o": 7790.68,
           "h": 7790.68,
           "l": 7769.75,
-          "c": 7773.76
+          "c": 7774.36
         }
       ],
       "spark": [
@@ -4133,7 +4135,9 @@
         7773.41,
         7770.19,
         7773.8,
-        7773.76
+        7775.69,
+        7774.16,
+        7774.36
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4157,13 +4161,13 @@
     },
     {
       "name": "DOW",
-      "point": 53508.86,
-      "change_pct": -0.42,
+      "point": 53526.99,
+      "change_pct": -0.38,
       "candle": {
         "o": 53663.11,
         "h": 53663.11,
         "l": 53491.24,
-        "c": 53508.86
+        "c": 53526.99
       },
       "range_240d": {
         "low": 45166.64,
@@ -6187,7 +6191,7 @@
           "o": 53663.11,
           "h": 53663.11,
           "l": 53491.24,
-          "c": 53508.86
+          "c": 53526.99
         }
       ],
       "spark": [
@@ -6210,7 +6214,9 @@
         53538.91,
         53519.16,
         53513.75,
-        53508.86
+        53515.28,
+        53524.27,
+        53526.99
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6235,6 +6241,13 @@
   ],
   "news_chips": [
     {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/canada-inflation-heats-up-to-3-in-july-1c8548f3?mod=rss_socialeconomyfeed",
+      "published_ts": 1786977840.0,
+      "impact_high": true
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/trump-oman-bomb-threats-hormuz-0941134f?mod=rss_worldnews",
@@ -6246,13 +6259,6 @@
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/new-york-manufacturing-activity-accelerates-in-august-88911983?mod=rss_socialeconomyfeed",
       "published_ts": 1786971900.0,
-      "impact_high": true
-    },
-    {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/canada-inflation-heats-up-to-3-in-july-1c8548f3?mod=rss_socialeconomyfeed",
-      "published_ts": 1786971300.0,
       "impact_high": true
     },
     {
@@ -6270,10 +6276,10 @@
       "impact_high": false
     },
     {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/trump-says-israel-should-stop-striking-gaza-47c2efbf?mod=rss_worldnews",
-      "published_ts": 1786972260.0,
+      "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/pro/bankruptcy/cd-rs-lenders-toughen-stance-after-contentious-multi-color-bankruptcy-02092a1f?mod=rss_markets_main",
+      "published_ts": 1786973400.0,
       "impact_high": false
     },
     {
@@ -6305,7 +6311,7 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "de019a9564608ca30a7d7a5ff59e4bcc6fcad9ac4d4e7c5f3b7cbfbc40e41598",
+  "_article_sig": "de999284f455d601bc04e309a049041467089566d71c6de0b7527cc7dbf6dc2b",
   "built_at_kst": "2026-08-15T07:00:39.865224+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6313,16 +6319,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/canada-inflation-heats-up-to-3-in-july-1c8548f3?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/trump-oman-bomb-threats-hormuz-0941134f?mod=rss_worldnews"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investment-firm-general-atlantic-is-eyeing-an-ipo-again-53d8ee7f?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/new-york-manufacturing-activity-accelerates-in-august-88911983?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -6331,15 +6337,15 @@
       "sources": [
         {
           "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/canada-inflation-heats-up-to-3-in-july-1c8548f3?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/housing/u-s-home-builder-sentiment-still-muted-by-affordability-concerns-2af68f49?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/trump-oman-bomb-threats-hormuz-0941134f?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/new-york-manufacturing-activity-accelerates-in-august-88911983?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -6348,33 +6354,30 @@
       "sources": [
         {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/new-york-manufacturing-activity-accelerates-in-august-88911983?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/canada-inflation-heats-up-to-3-in-july-1c8548f3?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/the-secret-word-game-bank-of-americas-ceo-plays-with-wall-street-987dcbee?mod=rss_markets_main"
+          "url": "https://www.wsj.com/pro/bankruptcy/cd-rs-lenders-toughen-stance-after-contentious-multi-color-bankruptcy-02092a1f?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/new-york-manufacturing-activity-accelerates-in-august-88911983?mod=rss_socialeconomyfeed"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-08-18T00:00:04.840625+09:00",
+    "as_of_kst": "2026-08-18T00:10:06.734369+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7790.75,
-        "change_pct": -0.18,
+        "point": 7793.75,
+        "change_pct": -0.14,
         "spark": [
           7809.25,
-          7816.0,
-          7815.75,
-          7815.25,
           7814.0,
           7813.25,
           7809.75,
@@ -6411,21 +6414,24 @@
           7791.75,
           7792.5,
           7794.25,
-          7790.75
+          7790.75,
+          7794.0,
+          7796.25,
+          7793.75
         ],
         "candle": {
           "o": 7809.25,
           "h": 7824.5,
-          "l": 7790.5,
-          "c": 7794.5
+          "l": 7790.0,
+          "c": 7793.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 22.01,
-          "high_change_pct": -0.36
+          "low_change_pct": 22.0,
+          "high_change_pct": -0.37
         },
         "daily_expanded": [
           {
@@ -8432,9 +8438,9 @@
             "date": "2026-08-17",
             "o": 7809.25,
             "h": 7824.5,
-            "l": 7790.5,
-            "c": 7794.5,
-            "v": 342350
+            "l": 7790.0,
+            "c": 7793.75,
+            "v": 361530
           }
         ],
         "rollover_gaps": [],
@@ -8443,15 +8449,15 @@
           "sources": [
             {
               "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/canada-inflation-heats-up-to-3-in-july-1c8548f3?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/housing/u-s-home-builder-sentiment-still-muted-by-affordability-concerns-2af68f49?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/trump-oman-bomb-threats-hormuz-0941134f?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/new-york-manufacturing-activity-accelerates-in-august-88911983?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8459,12 +8465,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30218.0,
-        "change_pct": 0.25,
+        "point": 30243.75,
+        "change_pct": 0.34,
         "spark": [
           30170.0,
-          30304.5,
-          30309.0,
           30295.5,
           30286.75,
           30249.5,
@@ -8502,21 +8506,23 @@
           30204.25,
           30215.75,
           30209.5,
-          30218.0
+          30244.0,
+          30269.5,
+          30243.75
         ],
         "candle": {
           "o": 30170.0,
           "h": 30343.0,
           "l": 30155.25,
-          "c": 30218.0
+          "c": 30244.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 30.59,
-          "high_change_pct": -1.61
+          "low_change_pct": 30.7,
+          "high_change_pct": -1.53
         },
         "daily_expanded": [
           {
@@ -10524,8 +10530,8 @@
             "o": 30170.0,
             "h": 30343.0,
             "l": 30155.25,
-            "c": 30218.0,
-            "v": 188374
+            "c": 30244.0,
+            "v": 196762
           }
         ],
         "rollover_gaps": [],
@@ -10533,16 +10539,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/canada-inflation-heats-up-to-3-in-july-1c8548f3?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/trump-oman-bomb-threats-hormuz-0941134f?mod=rss_worldnews"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investment-firm-general-atlantic-is-eyeing-an-ipo-again-53d8ee7f?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/new-york-manufacturing-activity-accelerates-in-august-88911983?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10550,12 +10556,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53603.0,
-        "change_pct": -0.38,
+        "point": 53577.0,
+        "change_pct": -0.43,
         "spark": [
           53790.0,
-          53713.0,
-          53693.0,
           53690.0,
           53692.0,
           53673.0,
@@ -10593,21 +10597,23 @@
           53572.0,
           53601.0,
           53577.0,
-          53603.0
+          53578.0,
+          53585.0,
+          53577.0
         ],
         "candle": {
           "o": 53790.0,
           "h": 53840.0,
           "l": 53551.0,
-          "c": 53603.0
+          "c": 53577.0
         },
         "range_240d": {
           "low": 45308.0,
           "high": 54494.0,
           "low_date": "2025-09-03",
           "high_date": "2026-08-05",
-          "low_change_pct": 18.31,
-          "high_change_pct": -1.64
+          "low_change_pct": 18.25,
+          "high_change_pct": -1.68
         },
         "daily_expanded": [
           {
@@ -12615,8 +12621,8 @@
             "o": 53790.0,
             "h": 53840.0,
             "l": 53551.0,
-            "c": 53603.0,
-            "v": 26037
+            "c": 53577.0,
+            "v": 26753
           }
         ],
         "rollover_gaps": [],
@@ -12625,20 +12631,20 @@
           "sources": [
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/new-york-manufacturing-activity-accelerates-in-august-88911983?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/canada-inflation-heats-up-to-3-in-july-1c8548f3?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/the-secret-word-game-bank-of-americas-ceo-plays-with-wall-street-987dcbee?mod=rss_markets_main"
+              "url": "https://www.wsj.com/pro/bankruptcy/cd-rs-lenders-toughen-stance-after-contentious-multi-color-bankruptcy-02092a1f?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/new-york-manufacturing-activity-accelerates-in-august-88911983?mod=rss_socialeconomyfeed"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-08-18T00:00:08.956754+09:00"
+  "intraday_refreshed_kst": "2026-08-18T00:10:38.092291+09:00"
 }
