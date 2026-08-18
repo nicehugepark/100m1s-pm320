@@ -6250,7 +6250,7 @@
         53468.31,
         53465.78,
         53466.68,
-        53459.8
+        53459.78
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6281,10 +6281,10 @@
       "impact_high": true
     },
     {
-      "summary": "미국 고용 지표가 경기 둔화와 임금 압력 해석을 동시에 키우는 흐름",
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/u-k-s-jobless-rate-holds-steady-1c5a9048?mod=rss_socialeconomyfeed",
-      "published_ts": 1787034480.0,
+      "published_ts": 1787037960.0,
       "impact_high": false
     },
     {
@@ -6316,13 +6316,6 @@
       "impact_high": false
     },
     {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/housing/u-s-home-builder-sentiment-still-muted-by-affordability-concerns-2af68f49?mod=rss_socialeconomyfeed",
-      "published_ts": 1786976520.0,
-      "impact_high": false
-    },
-    {
       "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/pro/bankruptcy/cd-rs-lenders-toughen-stance-after-contentious-multi-color-bankruptcy-02092a1f?mod=rss_markets_main",
@@ -6342,18 +6335,25 @@
       "url": "https://www.wsj.com/economy/consumers/consumer-sentiment-has-dropped-in-august-per-michigan-survey-f2960646?mod=rss_socialeconomyfeed",
       "published_ts": 1786717680.0,
       "impact_high": false
+    },
+    {
+      "summary": "미국 고용 지표가 경기 둔화와 임금 압력 해석을 동시에 키우는 흐름",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/07/here-are-three-key-takeaways-from-the-disappointing-july-jobs-report.html",
+      "published_ts": 1786126158.0,
+      "impact_high": true
     }
   ],
-  "_article_sig": "54d72b31e2bb6e09a6694c5be67a4106b33cc3d5b02a2290cedc45dd274a0e92",
+  "_article_sig": "a346d7d999243e75a0f35a7a1e59d1486ec2a3362df4e56d74ae17dce25d0963",
   "built_at_kst": "2026-08-18T07:00:45.492809+09:00",
   "futures": {
-    "as_of_kst": "2026-08-18T16:20:05.795736+09:00",
+    "as_of_kst": "2026-08-18T16:30:06.936082+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7737.0,
+        "point": 7737.25,
         "change_pct": -0.41,
         "spark": [
           7766.0,
@@ -6394,21 +6394,23 @@
           7742.0,
           7738.5,
           7739.25,
-          7737.0
+          7737.0,
+          7737.5,
+          7737.25
         ],
         "candle": {
           "o": 7766.0,
           "h": 7770.5,
           "l": 7726.0,
-          "c": 7739.0
+          "c": 7737.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.14,
-          "high_change_pct": -1.07
+          "low_change_pct": 21.12,
+          "high_change_pct": -1.09
         },
         "daily_expanded": [
           {
@@ -8424,8 +8426,8 @@
             "o": 7766.0,
             "h": 7770.5,
             "l": 7726.0,
-            "c": 7739.0,
-            "v": 85773
+            "c": 7737.5,
+            "v": 87919
           }
         ],
         "rollover_gaps": [],
@@ -8433,16 +8435,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/u-k-s-jobless-rate-holds-steady-1c5a9048?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/iran-backed-houthis-threaten-coast-along-red-sea-chokepoint-01fba4cf?mod=rss_worldnews"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/walter-dodgers-lakers-investigation-3e114ef9?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/why-trump-oman-threats-5db5ab5f?mod=rss_worldnews"
             }
           ]
         }
@@ -8450,8 +8452,8 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29876.25,
-        "change_pct": -0.73,
+        "point": 29862.5,
+        "change_pct": -0.78,
         "spark": [
           30077.0,
           29895.25,
@@ -8492,21 +8494,22 @@
           29880.0,
           29878.5,
           29863.0,
-          29876.25
+          29862.5,
+          29862.5
         ],
         "candle": {
           "o": 30077.0,
           "h": 30121.25,
           "l": 29786.0,
-          "c": 29876.25
+          "c": 29860.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 29.11,
-          "high_change_pct": -2.72
+          "low_change_pct": 29.05,
+          "high_change_pct": -2.77
         },
         "daily_expanded": [
           {
@@ -10522,8 +10525,8 @@
             "o": 30077.0,
             "h": 30121.25,
             "l": 29786.0,
-            "c": 29876.25,
-            "v": 72649
+            "c": 29860.75,
+            "v": 73737
           }
         ],
         "rollover_gaps": [],
@@ -10548,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53477.0,
-        "change_pct": -0.13,
+        "point": 53480.0,
+        "change_pct": -0.12,
         "spark": [
           53501.0,
-          53476.0,
-          53479.0,
           53470.0,
           53472.0,
           53460.0,
@@ -10590,13 +10591,16 @@
           53526.0,
           53489.0,
           53478.0,
-          53477.0
+          53477.0,
+          53473.0,
+          53490.0,
+          53480.0
         ],
         "candle": {
           "o": 53501.0,
           "h": 53558.0,
           "l": 53424.0,
-          "c": 53482.0
+          "c": 53480.0
         },
         "range_240d": {
           "low": 45424.0,
@@ -12620,8 +12624,8 @@
             "o": 53501.0,
             "h": 53558.0,
             "l": 53424.0,
-            "c": 53482.0,
-            "v": 5439
+            "c": 53480.0,
+            "v": 5548
           }
         ],
         "rollover_gaps": [],
@@ -12646,7 +12650,7 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-08-18T16:20:09.992765+09:00",
+  "intraday_refreshed_kst": "2026-08-18T16:30:44.097644+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
@@ -12669,16 +12673,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/u-k-s-jobless-rate-holds-steady-1c5a9048?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/iran-backed-houthis-threaten-coast-along-red-sea-chokepoint-01fba4cf?mod=rss_worldnews"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/walter-dodgers-lakers-investigation-3e114ef9?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/why-trump-oman-threats-5db5ab5f?mod=rss_worldnews"
         }
       ]
     },
