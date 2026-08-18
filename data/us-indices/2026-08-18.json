@@ -6274,18 +6274,25 @@
   ],
   "news_chips": [
     {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/german-investor-confidence-rises-for-fourth-straight-month-cc181da0?mod=rss_socialeconomyfeed",
+      "published_ts": 1787045220.0,
+      "impact_high": true
+    },
+    {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-18-2026?mod=rss_markets_main",
+      "published_ts": 1787040632.0,
+      "impact_high": true
+    },
+    {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/new-york-manufacturing-activity-accelerates-in-august-88911983?mod=rss_socialeconomyfeed",
       "published_ts": 1786971900.0,
       "impact_high": true
-    },
-    {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/global-bond-rout-deepens-as-oil-holds-above-90-f0124f3d?mod=rss_markets_main",
-      "published_ts": 1787041980.0,
-      "impact_high": false
     },
     {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
@@ -6316,13 +6323,6 @@
       "impact_high": false
     },
     {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/oil-prices-treasury-yields-rise-with-mideast-concerns-cecc3e36?mod=rss_markets_main",
-      "published_ts": 1786999320.0,
-      "impact_high": false
-    },
-    {
       "summary": "전력·유틸리티 투자와 인프라 수요가 방어주와 산업재 관심을 확대하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/asia/trump-tries-old-move-to-woo-a-more-powerful-kim-jong-un-3e7a3bde?mod=rss_worldnews",
@@ -6344,22 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "c4b089432fee15cedb901a4d98ab28b1edf2c120643ffda5fd348331430501c2",
+  "_article_sig": "f9eab9e0e6a839d4c54088d87e0aef2391cb8fa7d6ebeae68b44fcc428b2feaa",
   "built_at_kst": "2026-08-18T07:00:45.492809+09:00",
   "futures": {
-    "as_of_kst": "2026-08-18T18:20:05.047490+09:00",
+    "as_of_kst": "2026-08-18T18:30:04.875580+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7727.25,
-        "change_pct": -0.53,
+        "point": 7725.0,
+        "change_pct": -0.56,
         "spark": [
           7766.0,
-          7735.0,
-          7729.25,
-          7730.5,
           7735.5,
           7735.75,
           7735.25,
@@ -6396,21 +6393,24 @@
           7729.75,
           7730.25,
           7727.25,
-          7727.25
+          7727.25,
+          7725.0,
+          7724.0,
+          7725.0
         ],
         "candle": {
           "o": 7766.0,
           "h": 7770.5,
           "l": 7716.5,
-          "c": 7727.25
+          "c": 7725.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 20.96,
-          "high_change_pct": -1.22
+          "low_change_pct": 20.93,
+          "high_change_pct": -1.25
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7766.0,
             "h": 7770.5,
             "l": 7716.5,
-            "c": 7727.25,
-            "v": 124216
+            "c": 7725.0,
+            "v": 127043
           }
         ],
         "rollover_gaps": [],
@@ -8435,16 +8435,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/german-investor-confidence-rises-for-fourth-straight-month-cc181da0?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/global-bond-rout-deepens-as-oil-holds-above-90-f0124f3d?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-18-2026?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/u-k-s-jobless-rate-holds-steady-1c5a9048?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29764.5,
-        "change_pct": -1.1,
+        "point": 29739.0,
+        "change_pct": -1.19,
         "spark": [
           30077.0,
-          29842.0,
-          29806.0,
           29806.0,
           29836.25,
           29836.25,
@@ -8495,21 +8493,23 @@
           29765.5,
           29763.75,
           29752.0,
-          29764.5
+          29764.5,
+          29739.0,
+          29739.0
         ],
         "candle": {
           "o": 30077.0,
           "h": 30121.25,
-          "l": 29735.75,
-          "c": 29752.0
+          "l": 29735.0,
+          "c": 29742.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 28.58,
-          "high_change_pct": -3.13
+          "low_change_pct": 28.53,
+          "high_change_pct": -3.16
         },
         "daily_expanded": [
           {
@@ -10524,9 +10524,9 @@
             "date": "2026-08-18",
             "o": 30077.0,
             "h": 30121.25,
-            "l": 29735.75,
-            "c": 29752.0,
-            "v": 90657
+            "l": 29735.0,
+            "c": 29742.0,
+            "v": 91898
           }
         ],
         "rollover_gaps": [],
@@ -10534,16 +10534,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/german-investor-confidence-rises-for-fourth-straight-month-cc181da0?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/global-bond-rout-deepens-as-oil-holds-above-90-f0124f3d?mod=rss_markets_main"
             },
             {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/202608187808i"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-18-2026?mod=rss_markets_main"
             }
           ]
         }
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53474.0,
-        "change_pct": -0.13,
+        "point": 53484.0,
+        "change_pct": -0.11,
         "spark": [
           53501.0,
-          53466.0,
-          53434.0,
           53442.0,
           53472.0,
           53473.0,
@@ -10594,21 +10592,23 @@
           53496.0,
           53512.0,
           53479.0,
-          53474.0
+          53474.0,
+          53484.0,
+          53484.0
         ],
         "candle": {
           "o": 53501.0,
           "h": 53558.0,
           "l": 53382.0,
-          "c": 53476.0
+          "c": 53484.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 17.73,
-          "high_change_pct": -1.87
+          "low_change_pct": 17.74,
+          "high_change_pct": -1.85
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 53501.0,
             "h": 53558.0,
             "l": 53382.0,
-            "c": 53476.0,
-            "v": 8191
+            "c": 53484.0,
+            "v": 8358
           }
         ],
         "rollover_gaps": [],
@@ -12650,11 +12650,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-08-18T18:20:09.335874+09:00",
+  "intraday_refreshed_kst": "2026-08-18T18:30:49.920909+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/german-investor-confidence-rises-for-fourth-straight-month-cc181da0?mod=rss_socialeconomyfeed"
+        },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/global-bond-rout-deepens-as-oil-holds-above-90-f0124f3d?mod=rss_markets_main"
@@ -12662,10 +12666,6 @@
         {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/202608187808i"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-18-2026?mod=rss_markets_main"
         }
       ]
     },
@@ -12673,16 +12673,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/german-investor-confidence-rises-for-fourth-straight-month-cc181da0?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/global-bond-rout-deepens-as-oil-holds-above-90-f0124f3d?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-18-2026?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/u-k-s-jobless-rate-holds-steady-1c5a9048?mod=rss_socialeconomyfeed"
         }
       ]
     },
