@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "generated_at": "2026-08-18T09:05:13.563637",
+  "generated_at": "2026-08-18T09:05:47.144772",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -41,7 +41,7 @@
           "url": "https://www.mk.co.kr/news/stock/12116856",
           "source": "매경",
           "published_at": "2026-08-04T12:31:54",
-          "causal_chain": null,
+          "causal_chain": "",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -57,7 +57,7 @@
           "url": "https://www.etoday.co.kr/news/view/2604988",
           "source": "이투데이",
           "published_at": "2026-07-19T23:15:00",
-          "causal_chain": null,
+          "causal_chain": "",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -70,15 +70,12 @@
         }
       ],
       "fallback": true,
-      "cafe_themes": [
-        "반도체"
-      ],
       "theme_crosscheck": {
-        "confirmed": [],
-        "pm320_only": [],
-        "cafe_only": [
+        "confirmed": [
           "반도체"
-        ]
+        ],
+        "pm320_only": [],
+        "cafe_only": []
       },
       "range_240d": {
         "high": 58500,
@@ -90,7 +87,12 @@
         "current": null
       },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bull",
+      "theme_leader": true,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "098120",
@@ -114,7 +116,10 @@
       "news": [],
       "fallback": true,
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "047770",
@@ -138,7 +143,10 @@
       "news": [],
       "fallback": true,
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "014990",
@@ -319,7 +327,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     }
   ]
 }
