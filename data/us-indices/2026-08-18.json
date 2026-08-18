@@ -6281,10 +6281,24 @@
       "impact_high": true
     },
     {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-18-2026?mod=rss_markets_main",
-      "published_ts": 1787040632.0,
+      "url": "https://www.wsj.com/finance/investing/global-bond-rout-deepens-as-oil-holds-above-90-f0124f3d?mod=rss_markets_main",
+      "published_ts": 1787041980.0,
+      "impact_high": false
+    },
+    {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/202608187808i",
+      "published_ts": 1787041674.0,
+      "impact_high": false
+    },
+    {
+      "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/2026081876257",
+      "published_ts": 1787039919.0,
       "impact_high": false
     },
     {
@@ -6292,13 +6306,6 @@
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/u-k-s-jobless-rate-holds-steady-1c5a9048?mod=rss_socialeconomyfeed",
       "published_ts": 1787037960.0,
-      "impact_high": false
-    },
-    {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/iran-backed-houthis-threaten-coast-along-red-sea-chokepoint-01fba4cf?mod=rss_worldnews",
-      "published_ts": 1787022000.0,
       "impact_high": false
     },
     {
@@ -6313,13 +6320,6 @@
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/investing/oil-prices-treasury-yields-rise-with-mideast-concerns-cecc3e36?mod=rss_markets_main",
       "published_ts": 1786999320.0,
-      "impact_high": false
-    },
-    {
-      "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/pro/bankruptcy/cd-rs-lenders-toughen-stance-after-contentious-multi-color-bankruptcy-02092a1f?mod=rss_markets_main",
-      "published_ts": 1786973400.0,
       "impact_high": false
     },
     {
@@ -6344,21 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "11dc04577f501f583246c94a17bd9fdf64b654dc23c33d4c89fd52f79f3000db",
+  "_article_sig": "c4b089432fee15cedb901a4d98ab28b1edf2c120643ffda5fd348331430501c2",
   "built_at_kst": "2026-08-18T07:00:45.492809+09:00",
   "futures": {
-    "as_of_kst": "2026-08-18T17:30:05.281209+09:00",
+    "as_of_kst": "2026-08-18T17:40:04.923926+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7726.75,
+        "point": 7726.5,
         "change_pct": -0.54,
         "spark": [
           7766.0,
-          7738.25,
-          7740.0,
           7739.5,
           7738.0,
           7737.5,
@@ -6396,13 +6394,15 @@
           7725.75,
           7726.25,
           7724.0,
-          7726.75
+          7726.25,
+          7728.5,
+          7726.5
         ],
         "candle": {
           "o": 7766.0,
           "h": 7770.5,
           "l": 7716.5,
-          "c": 7726.75
+          "c": 7726.5
         },
         "range_240d": {
           "low": 6388.25,
@@ -6410,7 +6410,7 @@
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
           "low_change_pct": 20.95,
-          "high_change_pct": -1.22
+          "high_change_pct": -1.23
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7766.0,
             "h": 7770.5,
             "l": 7716.5,
-            "c": 7726.75,
-            "v": 112175
+            "c": 7726.5,
+            "v": 114742
           }
         ],
         "rollover_gaps": [],
@@ -8436,15 +8436,15 @@
           "sources": [
             {
               "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/global-bond-rout-deepens-as-oil-holds-above-90-f0124f3d?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-18-2026?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/u-k-s-jobless-rate-holds-steady-1c5a9048?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/iran-backed-houthis-threaten-coast-along-red-sea-chokepoint-01fba4cf?mod=rss_worldnews"
             }
           ]
         }
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29770.0,
-        "change_pct": -1.08,
+        "point": 29760.0,
+        "change_pct": -1.12,
         "spark": [
           30077.0,
-          29879.25,
-          29881.0,
           29879.25,
           29876.0,
           29867.0,
@@ -8495,21 +8493,23 @@
           29766.75,
           29767.5,
           29740.5,
-          29770.0
+          29759.75,
+          29778.0,
+          29760.0
         ],
         "candle": {
           "o": 30077.0,
           "h": 30121.25,
-          "l": 29736.5,
-          "c": 29770.0
+          "l": 29735.75,
+          "c": 29760.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 28.65,
-          "high_change_pct": -3.07
+          "low_change_pct": 28.61,
+          "high_change_pct": -3.1
         },
         "daily_expanded": [
           {
@@ -10524,9 +10524,9 @@
             "date": "2026-08-18",
             "o": 30077.0,
             "h": 30121.25,
-            "l": 29736.5,
-            "c": 29770.0,
-            "v": 84215
+            "l": 29735.75,
+            "c": 29760.0,
+            "v": 85701
           }
         ],
         "rollover_gaps": [],
@@ -10535,15 +10535,15 @@
           "sources": [
             {
               "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/global-bond-rout-deepens-as-oil-holds-above-90-f0124f3d?mod=rss_markets_main"
+            },
+            {
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/202608187808i"
+            },
+            {
+              "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-18-2026?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/uk/crackdown-on-sidewalk-drinking-pits-british-pubgoers-against-the-fun-police-5206b403?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/iran-backed-houthis-threaten-coast-along-red-sea-chokepoint-01fba4cf?mod=rss_worldnews"
             }
           ]
         }
@@ -10551,11 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53430.0,
-        "change_pct": -0.21,
+        "point": 53427.0,
+        "change_pct": -0.22,
         "spark": [
           53501.0,
-          53452.0,
           53468.0,
           53466.0,
           53461.0,
@@ -10594,21 +10593,22 @@
           53430.0,
           53433.0,
           53423.0,
-          53430.0
+          53427.0,
+          53427.0
         ],
         "candle": {
           "o": 53501.0,
           "h": 53558.0,
           "l": 53382.0,
-          "c": 53430.0
+          "c": 53427.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 17.63,
-          "high_change_pct": -1.95
+          "low_change_pct": 17.62,
+          "high_change_pct": -1.96
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 53501.0,
             "h": 53558.0,
             "l": 53382.0,
-            "c": 53430.0,
-            "v": 7175
+            "c": 53427.0,
+            "v": 7381
           }
         ],
         "rollover_gaps": [],
@@ -12633,16 +12633,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/global-bond-rout-deepens-as-oil-holds-above-90-f0124f3d?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/uk/crackdown-on-sidewalk-drinking-pits-british-pubgoers-against-the-fun-police-5206b403?mod=rss_worldnews"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/iran-backed-houthis-threaten-coast-along-red-sea-chokepoint-01fba4cf?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/articles/energy-utilities-roundup-market-talk-ab20cd93?mod=rss_worldnews"
             }
           ]
         }
@@ -12650,22 +12650,22 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-08-18T17:30:09.540385+09:00",
+  "intraday_refreshed_kst": "2026-08-18T17:40:50.048977+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
           "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/global-bond-rout-deepens-as-oil-holds-above-90-f0124f3d?mod=rss_markets_main"
+        },
+        {
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/202608187808i"
+        },
+        {
+          "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-18-2026?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/uk/crackdown-on-sidewalk-drinking-pits-british-pubgoers-against-the-fun-police-5206b403?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/iran-backed-houthis-threaten-coast-along-red-sea-chokepoint-01fba4cf?mod=rss_worldnews"
         }
       ]
     },
@@ -12674,15 +12674,15 @@
       "sources": [
         {
           "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/global-bond-rout-deepens-as-oil-holds-above-90-f0124f3d?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-18-2026?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/u-k-s-jobless-rate-holds-steady-1c5a9048?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/iran-backed-houthis-threaten-coast-along-red-sea-chokepoint-01fba4cf?mod=rss_worldnews"
         }
       ]
     },
@@ -12690,16 +12690,16 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/global-bond-rout-deepens-as-oil-holds-above-90-f0124f3d?mod=rss_markets_main"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/uk/crackdown-on-sidewalk-drinking-pits-british-pubgoers-against-the-fun-police-5206b403?mod=rss_worldnews"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/iran-backed-houthis-threaten-coast-along-red-sea-chokepoint-01fba4cf?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/articles/energy-utilities-roundup-market-talk-ab20cd93?mod=rss_worldnews"
         }
       ]
     }
