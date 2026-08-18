@@ -6281,6 +6281,13 @@
       "impact_high": true
     },
     {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/walter-dodgers-lakers-investigation-3e114ef9?mod=rss_markets_main",
+      "published_ts": 1787014800.0,
+      "impact_high": false
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/why-trump-oman-threats-5db5ab5f?mod=rss_worldnews",
@@ -6302,13 +6309,6 @@
       "impact_high": false
     },
     {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investment-firm-general-atlantic-is-eyeing-an-ipo-again-53d8ee7f?mod=rss_markets_main",
-      "published_ts": 1786973400.0,
-      "impact_high": false
-    },
-    {
       "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/pro/bankruptcy/cd-rs-lenders-toughen-stance-after-contentious-multi-color-bankruptcy-02092a1f?mod=rss_markets_main",
@@ -6324,9 +6324,9 @@
     },
     {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/home-improvements-hangover-could-last-90cb961d?mod=rss_markets_main",
-      "published_ts": 1786961820.0,
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/chinas-economic-activity-weakened-in-july-0ce9bde7?mod=rss_socialeconomyfeed",
+      "published_ts": 1786958400.0,
       "impact_high": false
     },
     {
@@ -6344,21 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "554d474f7b4871962385dc18efec638593efb26b312630eef2ceefd0dbdff77e",
+  "_article_sig": "f94f531f0e4c112e96224e0b52ae3d12cd88aa1e32b139396d91f541ca2c0b32",
   "built_at_kst": "2026-08-18T07:00:45.492809+09:00",
   "futures": {
-    "as_of_kst": "2026-08-18T10:00:09.328366+09:00",
+    "as_of_kst": "2026-08-18T10:10:06.958257+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7767.75,
-        "change_pct": -0.01,
+        "point": 7767.25,
+        "change_pct": -0.02,
         "spark": [
           7766.0,
-          7764.5,
-          7764.25,
           7766.0,
           7765.5,
           7767.5,
@@ -6395,22 +6393,24 @@
           7767.75,
           7767.5,
           7767.75,
-          7769.0,
-          7767.75
+          7766.75,
+          7766.75,
+          7767.25,
+          7767.25
         ],
         "candle": {
           "o": 7766.0,
           "h": 7770.5,
           "l": 7762.5,
-          "c": 7767.75
+          "c": 7767.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.59,
-          "high_change_pct": -0.7
+          "low_change_pct": 21.58,
+          "high_change_pct": -0.71
         },
         "daily_expanded": [
           {
@@ -8418,8 +8418,8 @@
             "o": 7766.0,
             "h": 7770.5,
             "l": 7762.5,
-            "c": 7767.75,
-            "v": 14437
+            "c": 7767.0,
+            "v": 15488
           }
         ],
         "rollover_gaps": [],
@@ -8427,16 +8427,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/walter-dodgers-lakers-investigation-3e114ef9?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/why-trump-oman-threats-5db5ab5f?mod=rss_worldnews"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/articles/energy-utilities-roundup-market-talk-ab20cd93?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/oil-prices-treasury-yields-rise-with-mideast-concerns-cecc3e36?mod=rss_markets_main"
             }
           ]
         }
@@ -8444,12 +8444,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30112.75,
-        "change_pct": 0.06,
+        "point": 30099.5,
+        "change_pct": 0.01,
         "spark": [
           30077.0,
-          30064.75,
-          30058.75,
           30073.75,
           30078.25,
           30082.5,
@@ -8486,22 +8484,24 @@
           30109.5,
           30112.0,
           30111.75,
-          30118.25,
-          30112.75
+          30104.0,
+          30098.0,
+          30095.0,
+          30099.5
         ],
         "candle": {
           "o": 30077.0,
-          "h": 30114.75,
+          "h": 30121.25,
           "l": 30062.25,
-          "c": 30112.75
+          "c": 30099.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 30.13,
-          "high_change_pct": -1.95
+          "low_change_pct": 30.08,
+          "high_change_pct": -2.0
         },
         "daily_expanded": [
           {
@@ -10507,10 +10507,10 @@
           {
             "date": "2026-08-17",
             "o": 30077.0,
-            "h": 30114.75,
+            "h": 30121.25,
             "l": 30062.25,
-            "c": 30112.75,
-            "v": 11437
+            "c": 30099.5,
+            "v": 12548
           }
         ],
         "rollover_gaps": [],
@@ -10518,16 +10518,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/walter-dodgers-lakers-investigation-3e114ef9?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/why-trump-oman-threats-5db5ab5f?mod=rss_worldnews"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/oil-rises-bond-yields-climb-on-iran-tensions-ba2bb60b?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/canada-inflation-heats-up-to-3-in-july-1c8548f3?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10535,11 +10535,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53509.0,
-        "change_pct": -0.07,
+        "point": 53524.0,
+        "change_pct": -0.04,
         "spark": [
           53501.0,
-          53512.0,
           53509.0,
           53513.0,
           53509.0,
@@ -10577,22 +10576,23 @@
           53512.0,
           53509.0,
           53509.0,
-          53511.0,
-          53509.0
+          53509.0,
+          53515.0,
+          53524.0
         ],
         "candle": {
           "o": 53501.0,
           "h": 53544.0,
           "l": 53488.0,
-          "c": 53509.0
+          "c": 53518.0
         },
         "range_240d": {
           "low": 45308.0,
           "high": 54494.0,
           "low_date": "2025-09-03",
           "high_date": "2026-08-05",
-          "low_change_pct": 18.1,
-          "high_change_pct": -1.81
+          "low_change_pct": 18.12,
+          "high_change_pct": -1.79
         },
         "daily_expanded": [
           {
@@ -12600,8 +12600,8 @@
             "o": 53501.0,
             "h": 53544.0,
             "l": 53488.0,
-            "c": 53509.0,
-            "v": 953
+            "c": 53518.0,
+            "v": 1047
           }
         ],
         "rollover_gaps": [],
@@ -12626,11 +12626,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-08-18T10:00:15.114390+09:00",
+  "intraday_refreshed_kst": "2026-08-18T10:10:48.880914+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/walter-dodgers-lakers-investigation-3e114ef9?mod=rss_markets_main"
+        },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/why-trump-oman-threats-5db5ab5f?mod=rss_worldnews"
@@ -12638,10 +12642,6 @@
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/oil-rises-bond-yields-climb-on-iran-tensions-ba2bb60b?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/canada-inflation-heats-up-to-3-in-july-1c8548f3?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12649,16 +12649,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/walter-dodgers-lakers-investigation-3e114ef9?mod=rss_markets_main"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/why-trump-oman-threats-5db5ab5f?mod=rss_worldnews"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/articles/energy-utilities-roundup-market-talk-ab20cd93?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/oil-prices-treasury-yields-rise-with-mideast-concerns-cecc3e36?mod=rss_markets_main"
         }
       ]
     },
