@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/18/ukraine-war-russia-economy-klepach.html",
+      "published_ts": 1787053875.0,
+      "impact_high": true
+    },
+    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026081877681",
@@ -6309,13 +6316,6 @@
       "impact_high": false
     },
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/global-bond-rout-deepens-as-oil-holds-above-90-f0124f3d?mod=rss_markets_main",
-      "published_ts": 1787051400.0,
-      "impact_high": false
-    },
-    {
       "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026081876257",
@@ -6344,22 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "c46950428b4f8196df49b557788452ae57297251b22b8f76f4a2a104e029e665",
+  "_article_sig": "fa4f709fdc727b71ed228977ed3720d6e4ce9ec79077a4e1c65a3c8fc8f61a2b",
   "built_at_kst": "2026-08-18T07:00:45.492809+09:00",
   "futures": {
-    "as_of_kst": "2026-08-18T21:30:04.379134+09:00",
+    "as_of_kst": "2026-08-18T21:40:04.677474+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7735.0,
-        "change_pct": -0.43,
+        "point": 7732.25,
+        "change_pct": -0.47,
         "spark": [
           7766.0,
-          7727.25,
-          7727.25,
-          7725.0,
           7724.0,
           7726.5,
           7727.75,
@@ -6396,21 +6393,24 @@
           7735.0,
           7733.75,
           7735.25,
-          7735.0
+          7734.5,
+          7732.75,
+          7731.25,
+          7732.25
         ],
         "candle": {
           "o": 7766.0,
           "h": 7770.5,
           "l": 7716.5,
-          "c": 7735.25
+          "c": 7732.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.09,
-          "high_change_pct": -1.12
+          "low_change_pct": 21.04,
+          "high_change_pct": -1.15
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7766.0,
             "h": 7770.5,
             "l": 7716.5,
-            "c": 7735.25,
-            "v": 175829
+            "c": 7732.25,
+            "v": 179511
           }
         ],
         "rollover_gaps": [],
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29733.0,
-        "change_pct": -1.21,
+        "point": 29716.0,
+        "change_pct": -1.26,
         "spark": [
           30077.0,
-          29764.5,
-          29739.0,
           29727.25,
           29735.0,
           29732.5,
@@ -8495,21 +8493,23 @@
           29733.5,
           29733.0,
           29728.5,
-          29733.0
+          29714.5,
+          29708.5,
+          29716.0
         ],
         "candle": {
           "o": 30077.0,
           "h": 30121.25,
           "l": 29687.25,
-          "c": 29733.0
+          "c": 29716.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 28.49,
-          "high_change_pct": -3.19
+          "low_change_pct": 28.42,
+          "high_change_pct": -3.25
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 30077.0,
             "h": 30121.25,
             "l": 29687.25,
-            "c": 29733.0,
-            "v": 115343
+            "c": 29716.0,
+            "v": 118312
           }
         ],
         "rollover_gaps": [],
@@ -10534,16 +10534,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/08/18/ukraine-war-russia-economy-klepach.html"
+            },
+            {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/2026081881071"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/global-bond-rout-deepens-as-oil-holds-above-90-f0124f3d?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/german-investor-confidence-rises-for-fourth-straight-month-cc181da0?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10551,13 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53497.0,
+        "point": 53495.0,
         "change_pct": -0.09,
         "spark": [
           53501.0,
-          53479.0,
-          53474.0,
-          53484.0,
           53477.0,
           53489.0,
           53497.0,
@@ -10594,21 +10591,24 @@
           53498.0,
           53490.0,
           53512.0,
-          53497.0
+          53497.0,
+          53482.0,
+          53466.0,
+          53495.0
         ],
         "candle": {
           "o": 53501.0,
           "h": 53594.0,
           "l": 53382.0,
-          "c": 53515.0
+          "c": 53495.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 17.81,
-          "high_change_pct": -1.8
+          "low_change_pct": 17.77,
+          "high_change_pct": -1.83
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 53501.0,
             "h": 53594.0,
             "l": 53382.0,
-            "c": 53515.0,
-            "v": 12722
+            "c": 53495.0,
+            "v": 12978
           }
         ],
         "rollover_gaps": [],
@@ -12650,11 +12650,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-08-18T21:30:08.536741+09:00",
+  "intraday_refreshed_kst": "2026-08-18T21:40:38.124948+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/18/ukraine-war-russia-economy-klepach.html"
+        },
         {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/2026081881071"
@@ -12662,10 +12666,6 @@
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/global-bond-rout-deepens-as-oil-holds-above-90-f0124f3d?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/german-investor-confidence-rises-for-fourth-straight-month-cc181da0?mod=rss_socialeconomyfeed"
         }
       ]
     },
