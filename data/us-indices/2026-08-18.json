@@ -6274,13 +6274,6 @@
   ],
   "news_chips": [
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/18/ukraine-war-russia-economy-klepach.html",
-      "published_ts": 1787048113.0,
-      "impact_high": true
-    },
-    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026081877681",
@@ -6300,6 +6293,13 @@
       "url": "https://www.wsj.com/economy/central-banking/new-york-manufacturing-activity-accelerates-in-august-88911983?mod=rss_socialeconomyfeed",
       "published_ts": 1786971900.0,
       "impact_high": true
+    },
+    {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/stocks/big-oils-liabilities-are-shrinking-whats-next-c2242dbf?mod=rss_markets_main",
+      "published_ts": 1787048880.0,
+      "impact_high": false
     },
     {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
@@ -6344,20 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "55d142a7d745929fb3170f12d2db874c432f2ad638370b05c6d1a77ba795945f",
+  "_article_sig": "77c8493f03019238c680c760eb9c1d5a49f661400c217b4bbf9bbe900035ca54",
   "built_at_kst": "2026-08-18T07:00:45.492809+09:00",
   "futures": {
-    "as_of_kst": "2026-08-18T19:20:08.632339+09:00",
+    "as_of_kst": "2026-08-18T19:30:04.276133+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7732.25,
-        "change_pct": -0.47,
+        "point": 7729.0,
+        "change_pct": -0.51,
         "spark": [
           7766.0,
-          7738.5,
           7739.25,
           7737.0,
           7737.5,
@@ -6396,21 +6395,22 @@
           7730.5,
           7731.5,
           7730.0,
-          7732.25
+          7729.0,
+          7729.0
         ],
         "candle": {
           "o": 7766.0,
           "h": 7770.5,
           "l": 7716.5,
-          "c": 7732.25
+          "c": 7729.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.04,
-          "high_change_pct": -1.15
+          "low_change_pct": 20.99,
+          "high_change_pct": -1.2
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7766.0,
             "h": 7770.5,
             "l": 7716.5,
-            "c": 7732.25,
-            "v": 141805
+            "c": 7729.0,
+            "v": 143495
           }
         ],
         "rollover_gaps": [],
@@ -8436,15 +8436,15 @@
           "sources": [
             {
               "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/big-oils-liabilities-are-shrinking-whats-next-c2242dbf?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/the-hidden-financial-deals-that-put-the-dodgers-owner-in-the-crosshairs-of-the-feds-3a54ebc1?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/auto-insurance-premiums-have-room-to-keep-falling-93243754?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/german-investor-confidence-rises-for-fourth-straight-month-cc181da0?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29739.0,
-        "change_pct": -1.19,
+        "point": 29713.0,
+        "change_pct": -1.27,
         "spark": [
           30077.0,
-          29880.0,
-          29878.5,
           29863.0,
           29862.5,
           29860.25,
@@ -8495,21 +8493,23 @@
           29733.25,
           29737.25,
           29722.0,
-          29739.0
+          29713.0,
+          29708.0,
+          29713.0
         ],
         "candle": {
           "o": 30077.0,
           "h": 30121.25,
           "l": 29687.25,
-          "c": 29739.0
+          "c": 29713.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 28.52,
-          "high_change_pct": -3.17
+          "low_change_pct": 28.41,
+          "high_change_pct": -3.26
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 30077.0,
             "h": 30121.25,
             "l": 29687.25,
-            "c": 29739.0,
-            "v": 99628
+            "c": 29713.0,
+            "v": 100595
           }
         ],
         "rollover_gaps": [],
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53562.0,
-        "change_pct": 0.03,
+        "point": 53540.0,
+        "change_pct": -0.01,
         "spark": [
           53501.0,
-          53489.0,
-          53478.0,
           53477.0,
           53473.0,
           53490.0,
@@ -10594,21 +10592,23 @@
           53542.0,
           53553.0,
           53555.0,
-          53562.0
+          53542.0,
+          53545.0,
+          53540.0
         ],
         "candle": {
           "o": 53501.0,
           "h": 53594.0,
           "l": 53382.0,
-          "c": 53562.0
+          "c": 53540.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 17.92,
-          "high_change_pct": -1.71
+          "low_change_pct": 17.87,
+          "high_change_pct": -1.75
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 53501.0,
             "h": 53594.0,
             "l": 53382.0,
-            "c": 53562.0,
-            "v": 10121
+            "c": 53540.0,
+            "v": 10341
           }
         ],
         "rollover_gaps": [],
@@ -12650,7 +12650,7 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-08-18T19:20:50.801991+09:00",
+  "intraday_refreshed_kst": "2026-08-18T19:30:50.023581+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
@@ -12674,15 +12674,15 @@
       "sources": [
         {
           "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/big-oils-liabilities-are-shrinking-whats-next-c2242dbf?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/the-hidden-financial-deals-that-put-the-dodgers-owner-in-the-crosshairs-of-the-feds-3a54ebc1?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/auto-insurance-premiums-have-room-to-keep-falling-93243754?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/german-investor-confidence-rises-for-fourth-straight-month-cc181da0?mod=rss_socialeconomyfeed"
         }
       ]
     },
