@@ -6275,9 +6275,16 @@
   "news_chips": [
     {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/the-hidden-financial-deals-that-put-the-dodgers-owner-in-the-crosshairs-of-the-feds-3a54ebc1?mod=rss_markets_main",
-      "published_ts": 1787047200.0,
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/18/ukraine-war-russia-economy-klepach.html",
+      "published_ts": 1787048113.0,
+      "impact_high": true
+    },
+    {
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/2026081877681",
+      "published_ts": 1787048030.0,
       "impact_high": true
     },
     {
@@ -6323,13 +6330,6 @@
       "impact_high": false
     },
     {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/chinas-economic-activity-weakened-in-july-0ce9bde7?mod=rss_socialeconomyfeed",
-      "published_ts": 1786958400.0,
-      "impact_high": false
-    },
-    {
       "summary": "가계 재정과 소비 부담 지표가 경기 방어 심리에 영향을 주는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/consumers/consumer-sentiment-has-dropped-in-august-per-michigan-survey-f2960646?mod=rss_socialeconomyfeed",
@@ -6344,21 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "5af49c5eac01fb54e79cde816f9a96509c59e27a57e00574b7f38042aeec2886",
+  "_article_sig": "55d142a7d745929fb3170f12d2db874c432f2ad638370b05c6d1a77ba795945f",
   "built_at_kst": "2026-08-18T07:00:45.492809+09:00",
   "futures": {
-    "as_of_kst": "2026-08-18T19:10:08.749935+09:00",
+    "as_of_kst": "2026-08-18T19:20:08.632339+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7730.5,
-        "change_pct": -0.49,
+        "point": 7732.25,
+        "change_pct": -0.47,
         "spark": [
           7766.0,
-          7738.0,
-          7742.0,
           7738.5,
           7739.25,
           7737.0,
@@ -6396,21 +6394,23 @@
           7728.75,
           7729.5,
           7730.5,
-          7730.5
+          7731.5,
+          7730.0,
+          7732.25
         ],
         "candle": {
           "o": 7766.0,
           "h": 7770.5,
           "l": 7716.5,
-          "c": 7730.5
+          "c": 7732.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.01,
-          "high_change_pct": -1.18
+          "low_change_pct": 21.04,
+          "high_change_pct": -1.15
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7766.0,
             "h": 7770.5,
             "l": 7716.5,
-            "c": 7730.5,
-            "v": 139191
+            "c": 7732.25,
+            "v": 141805
           }
         ],
         "rollover_gaps": [],
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29730.0,
-        "change_pct": -1.22,
+        "point": 29739.0,
+        "change_pct": -1.19,
         "spark": [
           30077.0,
-          29868.5,
-          29893.0,
           29880.0,
           29878.5,
           29863.0,
@@ -8495,21 +8493,23 @@
           29714.0,
           29733.0,
           29733.25,
-          29730.0
+          29737.25,
+          29722.0,
+          29739.0
         ],
         "candle": {
           "o": 30077.0,
           "h": 30121.25,
           "l": 29687.25,
-          "c": 29730.0
+          "c": 29739.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 28.48,
-          "high_change_pct": -3.2
+          "low_change_pct": 28.52,
+          "high_change_pct": -3.17
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 30077.0,
             "h": 30121.25,
             "l": 29687.25,
-            "c": 29730.0,
-            "v": 98504
+            "c": 29739.0,
+            "v": 99628
           }
         ],
         "rollover_gaps": [],
@@ -10534,12 +10534,12 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/the-hidden-financial-deals-that-put-the-dodgers-owner-in-the-crosshairs-of-the-feds-3a54ebc1?mod=rss_markets_main"
-            },
-            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/08/18/ukraine-war-russia-economy-klepach.html"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/the-hidden-financial-deals-that-put-the-dodgers-owner-in-the-crosshairs-of-the-feds-3a54ebc1?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53563.0,
-        "change_pct": 0.04,
+        "point": 53562.0,
+        "change_pct": 0.03,
         "spark": [
           53501.0,
-          53491.0,
-          53526.0,
           53489.0,
           53478.0,
           53477.0,
@@ -10594,13 +10592,15 @@
           53512.0,
           53515.0,
           53542.0,
-          53563.0
+          53553.0,
+          53555.0,
+          53562.0
         ],
         "candle": {
           "o": 53501.0,
-          "h": 53584.0,
+          "h": 53594.0,
           "l": 53382.0,
-          "c": 53563.0
+          "c": 53562.0
         },
         "range_240d": {
           "low": 45424.0,
@@ -12622,10 +12622,10 @@
           {
             "date": "2026-08-18",
             "o": 53501.0,
-            "h": 53584.0,
+            "h": 53594.0,
             "l": 53382.0,
-            "c": 53563.0,
-            "v": 9477
+            "c": 53562.0,
+            "v": 10121
           }
         ],
         "rollover_gaps": [],
@@ -12650,18 +12650,18 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-08-18T19:10:53.110024+09:00",
+  "intraday_refreshed_kst": "2026-08-18T19:20:50.801991+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/the-hidden-financial-deals-that-put-the-dodgers-owner-in-the-crosshairs-of-the-feds-3a54ebc1?mod=rss_markets_main"
-        },
-        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/08/18/ukraine-war-russia-economy-klepach.html"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/the-hidden-financial-deals-that-put-the-dodgers-owner-in-the-crosshairs-of-the-feds-3a54ebc1?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
