@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "generated_at": "2026-08-19T09:45:19.375936",
+  "generated_at": "2026-08-19T09:46:20.977674",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -843,15 +843,12 @@
       ],
       "news": [],
       "fallback": true,
-      "cafe_themes": [
-        "자동차 부품"
-      ],
       "theme_crosscheck": {
-        "confirmed": [],
-        "pm320_only": [],
-        "cafe_only": [
+        "confirmed": [
           "자동차 부품"
-        ]
+        ],
+        "pm320_only": [],
+        "cafe_only": []
       },
       "index_change_pct": -0.6,
       "index_multiple_current": -49.65,
@@ -1008,7 +1005,12 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "064550",
@@ -1022,8 +1024,17 @@
       "low_price": 8090,
       "industry": "의료용품 및 기타 의약 관련제품 제조업",
       "sector": "합성유전자,시약및유전자분석장비",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "바이오"
+      ],
+      "theme_paths": [
+        {
+          "name": "바이오",
+          "path": [
+            "바이오"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": false,
@@ -1217,9 +1228,9 @@
           9190
         ]
       },
-      "togusa_verdict": "weak_bear",
+      "togusa_verdict": "neutral",
       "theme_leader": false,
-      "hugepark_grade": "주의"
+      "hugepark_grade": "관찰"
     },
     {
       "code": "014990",
