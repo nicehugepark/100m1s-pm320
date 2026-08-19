@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/britains-economy-isnt-working-for-young-people-its-new-prime-minster-wants-to-fix-that-9b58efeb?mod=rss_socialeconomyfeed",
+      "published_ts": 1787137740.0,
+      "impact_high": true
+    },
+    {
       "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/bank-indonesia-holds-rates-steady-as-rupiah-pressure-eases-402e9fc0?mod=rss_socialeconomyfeed",
@@ -6316,13 +6323,6 @@
       "impact_high": false
     },
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/irans-attacks-on-ships-in-hormuz-pile-up-testing-u-s-military-restraint-6ff9f5dd?mod=rss_worldnews",
-      "published_ts": 1787086860.0,
-      "impact_high": false
-    },
-    {
       "summary": "기업 실적과 가이던스 변화가 대형주 중심의 선별 흐름을 강화하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/the-morning-risk-report-l3harris-ousts-ceo-after-investigation-into-conduct-d65739d6?mod=rss_worldnews",
@@ -6344,21 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "377c9d71b652472d4cc67a5d4e834c3b60f4fb93e07c2cdf888db2c54f337404",
+  "_article_sig": "c7e98f7b3b8c01ad5e96d6d274b3d16c0a1dc369b9df91152caed555146f38fb",
   "built_at_kst": "2026-08-19T07:01:14.334232+09:00",
   "futures": {
-    "as_of_kst": "2026-08-19T20:00:09.614855+09:00",
+    "as_of_kst": "2026-08-19T20:10:09.876277+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7714.25,
+        "point": 7714.0,
         "change_pct": 0.0,
         "spark": [
           7714.0,
-          7715.5,
-          7715.5,
           7715.25,
           7718.5,
           7719.75,
@@ -6396,21 +6394,23 @@
           7716.0,
           7714.25,
           7714.25,
-          7714.25
+          7713.5,
+          7717.75,
+          7714.0
         ],
         "candle": {
           "o": 7714.0,
           "h": 7722.0,
           "l": 7698.25,
-          "c": 7714.25
+          "c": 7714.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 20.76,
-          "high_change_pct": -1.38
+          "low_change_pct": 20.75,
+          "high_change_pct": -1.39
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7714.0,
             "h": 7722.0,
             "l": 7698.25,
-            "c": 7714.25,
-            "v": 127898
+            "c": 7714.0,
+            "v": 129253
           }
         ],
         "rollover_gaps": [],
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29538.5,
-        "change_pct": -0.16,
+        "point": 29522.5,
+        "change_pct": -0.21,
         "spark": [
           29566.5,
-          29571.0,
-          29581.75,
           29578.75,
           29601.25,
           29632.75,
@@ -8495,21 +8493,23 @@
           29555.0,
           29540.5,
           29531.5,
-          29538.5
+          29521.0,
+          29561.25,
+          29522.5
         ],
         "candle": {
           "o": 29566.5,
           "h": 29640.75,
           "l": 29430.5,
-          "c": 29539.25
+          "c": 29522.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.66,
-          "high_change_pct": -3.82
+          "low_change_pct": 27.58,
+          "high_change_pct": -3.88
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 29566.5,
             "h": 29640.75,
             "l": 29430.5,
-            "c": 29539.25,
-            "v": 104894
+            "c": 29522.5,
+            "v": 105780
           }
         ],
         "rollover_gaps": [],
@@ -10534,16 +10534,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/britains-economy-isnt-working-for-young-people-its-new-prime-minster-wants-to-fix-that-9b58efeb?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/tech/chinas-unitree-soars-in-debut-as-investors-bet-big-on-robotics-d2d73c08?mod=rss_worldnews"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/does-less-is-more-work-for-etfs-48bd01f1?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/bonds-chip-stocks-steady-ahead-of-fed-meeting-minutes-258030f3?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53411.0,
-        "change_pct": 0.01,
+        "point": 53439.0,
+        "change_pct": 0.07,
         "spark": [
           53408.0,
-          53455.0,
-          53439.0,
           53433.0,
           53433.0,
           53457.0,
@@ -10594,21 +10592,23 @@
           53397.0,
           53400.0,
           53417.0,
-          53411.0
+          53411.0,
+          53420.0,
+          53439.0
         ],
         "candle": {
           "o": 53408.0,
           "h": 53467.0,
           "l": 53337.0,
-          "c": 53412.0
+          "c": 53422.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 17.59,
-          "high_change_pct": -1.99
+          "low_change_pct": 17.61,
+          "high_change_pct": -1.97
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 53408.0,
             "h": 53467.0,
             "l": 53337.0,
-            "c": 53412.0,
-            "v": 8431
+            "c": 53422.0,
+            "v": 8534
           }
         ],
         "rollover_gaps": [],
@@ -12650,11 +12650,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-08-19T20:00:13.670398+09:00",
+  "intraday_refreshed_kst": "2026-08-19T20:10:46.064893+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/britains-economy-isnt-working-for-young-people-its-new-prime-minster-wants-to-fix-that-9b58efeb?mod=rss_socialeconomyfeed"
+        },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/tech/chinas-unitree-soars-in-debut-as-investors-bet-big-on-robotics-d2d73c08?mod=rss_worldnews"
@@ -12662,10 +12666,6 @@
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/does-less-is-more-work-for-etfs-48bd01f1?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/bonds-chip-stocks-steady-ahead-of-fed-meeting-minutes-258030f3?mod=rss_socialeconomyfeed"
         }
       ]
     },
