@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "generated_at": "2026-08-19T09:25:18.456994",
+  "generated_at": "2026-08-19T09:26:01.127867",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -511,7 +511,12 @@
           "l": 14950,
           "c": 16540
         }
-      ]
+      ],
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "082800",
@@ -535,7 +540,10 @@
       "news": [],
       "fallback": true,
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "206560",
@@ -549,8 +557,17 @@
       "low_price": 811,
       "industry": "영화, 비디오물, 방송프로그램 제작 및 배급업",
       "sector": "시각효과(Visual Effect, VFX)",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "엔터테인먼트"
+      ],
+      "theme_paths": [
+        {
+          "name": "엔터테인먼트",
+          "path": [
+            "엔터테인먼트"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": true,
@@ -728,9 +745,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "014990",
