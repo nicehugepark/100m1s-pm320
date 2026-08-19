@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/trade/trump-pauses-50-tariff-on-some-canadian-products-2b3fd404?mod=rss_socialeconomyfeed",
+      "published_ts": 1787107020.0,
+      "impact_high": true
+    },
+    {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/investing/wall-street-sees-no-end-in-sight-to-the-global-bond-selloff-a1b5d1e3?mod=rss_markets_main",
@@ -6292,13 +6299,6 @@
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/europe/the-tiny-spanish-territory-of-ceuta-is-grappling-with-a-new-migrant-crisis-5762ebb9?mod=rss_worldnews",
       "published_ts": 1787104800.0,
-      "impact_high": false
-    },
-    {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/202608198556i",
-      "published_ts": 1787101102.0,
       "impact_high": false
     },
     {
@@ -6344,21 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "419d30b8989547de272cbf4f33eccfed4457a5d0e046b0e2fde69ee044dadd49",
+  "_article_sig": "f939e432e3338c7d6ed9b9efce6a0698aa25c29c4a903a4bca758f9e5189f536",
   "built_at_kst": "2026-08-19T07:01:14.334232+09:00",
   "futures": {
-    "as_of_kst": "2026-08-19T11:30:07.635127+09:00",
+    "as_of_kst": "2026-08-19T11:40:11.436341+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7707.0,
-        "change_pct": -0.09,
+        "point": 7709.5,
+        "change_pct": -0.06,
         "spark": [
           7714.0,
-          7710.5,
-          7709.25,
           7712.25,
           7711.25,
           7711.75,
@@ -6395,22 +6393,24 @@
           7708.75,
           7706.75,
           7707.0,
-          7708.5,
-          7707.0
+          7710.25,
+          7709.5,
+          7709.25,
+          7709.5
         ],
         "candle": {
           "o": 7714.0,
           "h": 7717.5,
           "l": 7702.0,
-          "c": 7707.0
+          "c": 7709.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 20.64,
-          "high_change_pct": -1.48
+          "low_change_pct": 20.68,
+          "high_change_pct": -1.44
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7714.0,
             "h": 7717.5,
             "l": 7702.0,
-            "c": 7707.0,
-            "v": 42887
+            "c": 7709.5,
+            "v": 43970
           }
         ],
         "rollover_gaps": [],
@@ -8435,16 +8435,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/trade/trump-pauses-50-tariff-on-some-canadian-products-2b3fd404?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/economy/trade/trump-pauses-50-tariff-on-some-canadian-products-2b3fd404?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/irans-attacks-on-ships-in-hormuz-pile-up-testing-u-s-military-restraint-6ff9f5dd?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/bonds-are-getting-hammered-and-wall-street-says-the-rout-wont-end-anytime-soon-895e0ad8?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/u-k-s-jobless-rate-holds-steady-1c5a9048?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29525.5,
-        "change_pct": -0.2,
+        "point": 29541.5,
+        "change_pct": -0.15,
         "spark": [
           29566.5,
-          29533.25,
-          29525.25,
           29553.0,
           29546.0,
           29542.5,
@@ -8494,22 +8492,24 @@
           29546.25,
           29533.25,
           29526.75,
-          29539.5,
-          29525.5
+          29556.25,
+          29542.0,
+          29539.75,
+          29541.5
         ],
         "candle": {
           "o": 29566.5,
           "h": 29609.5,
           "l": 29442.0,
-          "c": 29525.5
+          "c": 29541.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.6,
-          "high_change_pct": -3.87
+          "low_change_pct": 27.67,
+          "high_change_pct": -3.81
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 29566.5,
             "h": 29609.5,
             "l": 29442.0,
-            "c": 29525.5,
-            "v": 43556
+            "c": 29541.5,
+            "v": 44973
           }
         ],
         "rollover_gaps": [],
@@ -10534,16 +10534,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/trade/trump-pauses-50-tariff-on-some-canadian-products-2b3fd404?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/europe/the-tiny-spanish-territory-of-ceuta-is-grappling-with-a-new-migrant-crisis-5762ebb9?mod=rss_worldnews"
             },
             {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/202608198556i"
-            },
-            {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/202608198852i"
             }
           ]
         }
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53358.0,
-        "change_pct": -0.08,
+        "point": 53369.0,
+        "change_pct": -0.06,
         "spark": [
           53408.0,
-          53404.0,
-          53401.0,
           53395.0,
           53406.0,
           53403.0,
@@ -10594,21 +10592,23 @@
           53359.0,
           53350.0,
           53358.0,
-          53358.0
+          53369.0,
+          53369.0,
+          53369.0
         ],
         "candle": {
           "o": 53408.0,
           "h": 53420.0,
           "l": 53348.0,
-          "c": 53358.0
+          "c": 53369.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 17.47,
-          "high_change_pct": -2.08
+          "low_change_pct": 17.49,
+          "high_change_pct": -2.06
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 53408.0,
             "h": 53420.0,
             "l": 53348.0,
-            "c": 53358.0,
-            "v": 2503
+            "c": 53369.0,
+            "v": 2572
           }
         ],
         "rollover_gaps": [],
@@ -12633,16 +12633,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/trade/trump-pauses-50-tariff-on-some-canadian-products-2b3fd404?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/economy/trade/trump-pauses-50-tariff-on-some-canadian-products-2b3fd404?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/inside-the-race-to-build-americas-first-nuclear-reactor-in-a-generation-b17ea0c2?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/iran-backed-houthis-threaten-coast-along-red-sea-chokepoint-01fba4cf?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/articles/energy-utilities-roundup-market-talk-ab20cd93?mod=rss_worldnews"
             }
           ]
         }
@@ -12650,11 +12650,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-08-19T11:30:56.863689+09:00",
+  "intraday_refreshed_kst": "2026-08-19T11:41:13.101971+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/trade/trump-pauses-50-tariff-on-some-canadian-products-2b3fd404?mod=rss_socialeconomyfeed"
+        },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/europe/the-tiny-spanish-territory-of-ceuta-is-grappling-with-a-new-migrant-crisis-5762ebb9?mod=rss_worldnews"
@@ -12662,10 +12666,6 @@
         {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/202608198556i"
-        },
-        {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/202608198852i"
         }
       ]
     },
@@ -12673,16 +12673,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/trade/trump-pauses-50-tariff-on-some-canadian-products-2b3fd404?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/economy/trade/trump-pauses-50-tariff-on-some-canadian-products-2b3fd404?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/irans-attacks-on-ships-in-hormuz-pile-up-testing-u-s-military-restraint-6ff9f5dd?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/bonds-are-getting-hammered-and-wall-street-says-the-rout-wont-end-anytime-soon-895e0ad8?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/u-k-s-jobless-rate-holds-steady-1c5a9048?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12690,16 +12690,16 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/trade/trump-pauses-50-tariff-on-some-canadian-products-2b3fd404?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/economy/trade/trump-pauses-50-tariff-on-some-canadian-products-2b3fd404?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/inside-the-race-to-build-americas-first-nuclear-reactor-in-a-generation-b17ea0c2?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/iran-backed-houthis-threaten-coast-along-red-sea-chokepoint-01fba4cf?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/articles/energy-utilities-roundup-market-talk-ab20cd93?mod=rss_worldnews"
         }
       ]
     }
