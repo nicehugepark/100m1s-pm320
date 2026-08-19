@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26317.1,
-      "change_pct": 0.1,
+      "point": 26336.33,
+      "change_pct": 0.18,
       "candle": {
         "o": 26379.5,
         "h": 26456.1,
         "l": 26189.24,
-        "c": 26317.1
+        "c": 26336.33
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,13 +2033,11 @@
           "o": 26379.5,
           "h": 26456.1,
           "l": 26189.24,
-          "c": 26317.1
+          "c": 26336.33
         }
       ],
       "spark": [
         26379.5,
-        26383.75,
-        26400.58,
         26405.41,
         26393.44,
         26395.41,
@@ -2077,7 +2075,9 @@
         26311.65,
         26325.39,
         26320.33,
-        26317.1
+        26318.88,
+        26334.43,
+        26336.33
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7712.18,
-      "change_pct": 0.27,
+      "point": 7715.99,
+      "change_pct": 0.32,
       "candle": {
         "o": 7716.74,
         "h": 7743.93,
         "l": 7700.07,
-        "c": 7712.18
+        "c": 7715.99
       },
       "range_240d": {
         "low": 6343.72,
@@ -4131,13 +4131,11 @@
           "o": 7716.74,
           "h": 7743.93,
           "l": 7700.07,
-          "c": 7712.18
+          "c": 7715.99
         }
       ],
       "spark": [
         7716.74,
-        7735.2,
-        7738.02,
         7734.91,
         7731.9,
         7730.32,
@@ -4175,7 +4173,9 @@
         7709.87,
         7713.83,
         7712.93,
-        7712.18
+        7712.47,
+        7715.4,
+        7715.99
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 53462.83,
-      "change_pct": 0.22,
+      "point": 53480.4,
+      "change_pct": 0.26,
       "candle": {
         "o": 53463.47,
         "h": 53710.06,
         "l": 53399.53,
-        "c": 53462.83
+        "c": 53480.4
       },
       "range_240d": {
         "low": 45166.64,
@@ -6229,13 +6229,11 @@
           "o": 53463.47,
           "h": 53710.06,
           "l": 53399.53,
-          "c": 53462.83
+          "c": 53480.4
         }
       ],
       "spark": [
         53463.47,
-        53641.15,
-        53667.23,
         53591.39,
         53571.78,
         53545.1,
@@ -6273,7 +6271,9 @@
         53441.72,
         53466.73,
         53467.31,
-        53462.83
+        53463.89,
+        53477.86,
+        53480.4
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6297,6 +6297,13 @@
     }
   ],
   "news_chips": [
+    {
+      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/fed-minutes-show-rising-concern-over-inflation-bea12df8?mod=rss_socialeconomyfeed",
+      "published_ts": 1787164080.0,
+      "impact_high": true
+    },
     {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ세계",
@@ -6354,13 +6361,6 @@
       "impact_high": false
     },
     {
-      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/new-york-manufacturing-activity-accelerates-in-august-88911983?mod=rss_socialeconomyfeed",
-      "published_ts": 1786971900.0,
-      "impact_high": true
-    },
-    {
       "summary": "미국 고용 지표가 경기 둔화와 임금 압력 해석을 동시에 키우는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/07/here-are-three-key-takeaways-from-the-disappointing-july-jobs-report.html",
@@ -6368,7 +6368,7 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "5e96ba2b8f152ff668b9dfefda23050b9841c38ed15e0fb3e99bbbdb8af6a8fd",
+  "_article_sig": "adc0ef43ae85a3c995708784528ff5f1534bb53ee3f61a7be34fc4c7180591f3",
   "built_at_kst": "2026-08-19T07:01:14.334232+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6376,16 +6376,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/fed-minutes-show-rising-concern-over-inflation-bea12df8?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/why-scott-bessent-is-playing-with-the-treasury-market-828256d4?mod=rss_markets_main"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/europe/zelenskys-leadership-comes-under-biggest-threat-since-war-began-0946f40e?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/britains-economy-isnt-working-for-young-people-its-new-prime-minster-wants-to-fix-that-9b58efeb?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -6393,16 +6393,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/fed-minutes-show-rising-concern-over-inflation-bea12df8?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/why-scott-bessent-is-playing-with-the-treasury-market-828256d4?mod=rss_markets_main"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/asia/why-the-philippines-is-central-to-americas-strategy-in-asia-54fc2919?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/cantor-lets-hedge-funds-place-big-bets-on-kalshis-prediction-markets-625d21e7?mod=rss_markets_main"
         }
       ]
     },
@@ -6425,18 +6425,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-08-20T03:20:06.395008+09:00",
+    "as_of_kst": "2026-08-20T03:30:06.097837+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7729.75,
-        "change_pct": 0.2,
+        "point": 7732.0,
+        "change_pct": 0.23,
         "spark": [
           7714.0,
-          7761.75,
-          7754.75,
           7758.0,
           7754.5,
           7751.5,
@@ -6474,21 +6472,23 @@
           7740.75,
           7729.25,
           7734.0,
-          7729.75
+          7732.25,
+          7732.0,
+          7732.0
         ],
         "candle": {
           "o": 7714.0,
           "h": 7764.75,
           "l": 7698.25,
-          "c": 7729.75
+          "c": 7732.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.0,
-          "high_change_pct": -1.19
+          "low_change_pct": 21.03,
+          "high_change_pct": -1.16
         },
         "daily_expanded": [
           {
@@ -8504,8 +8504,8 @@
             "o": 7714.0,
             "h": 7764.75,
             "l": 7698.25,
-            "c": 7729.75,
-            "v": 1065893
+            "c": 7732.0,
+            "v": 1083738
           }
         ],
         "rollover_gaps": [],
@@ -8513,16 +8513,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/fed-minutes-show-rising-concern-over-inflation-bea12df8?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/why-scott-bessent-is-playing-with-the-treasury-market-828256d4?mod=rss_markets_main"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/asia/why-the-philippines-is-central-to-americas-strategy-in-asia-54fc2919?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/cantor-lets-hedge-funds-place-big-bets-on-kalshis-prediction-markets-625d21e7?mod=rss_markets_main"
             }
           ]
         }
@@ -8530,12 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29505.25,
-        "change_pct": -0.27,
+        "point": 29509.0,
+        "change_pct": -0.26,
         "spark": [
           29566.5,
-          29596.25,
-          29586.5,
           29617.25,
           29624.0,
           29602.5,
@@ -8573,21 +8571,23 @@
           29562.75,
           29501.75,
           29520.0,
-          29505.25
+          29511.25,
+          29512.75,
+          29509.0
         ],
         "candle": {
           "o": 29566.5,
           "h": 29757.25,
           "l": 29375.75,
-          "c": 29504.25
+          "c": 29511.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.5,
-          "high_change_pct": -3.93
+          "low_change_pct": 27.53,
+          "high_change_pct": -3.91
         },
         "daily_expanded": [
           {
@@ -10603,8 +10603,8 @@
             "o": 29566.5,
             "h": 29757.25,
             "l": 29375.75,
-            "c": 29504.25,
-            "v": 480279
+            "c": 29511.25,
+            "v": 486795
           }
         ],
         "rollover_gaps": [],
@@ -10612,16 +10612,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/fed-minutes-show-rising-concern-over-inflation-bea12df8?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/why-scott-bessent-is-playing-with-the-treasury-market-828256d4?mod=rss_markets_main"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/europe/zelenskys-leadership-comes-under-biggest-threat-since-war-began-0946f40e?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/britains-economy-isnt-working-for-young-people-its-new-prime-minster-wants-to-fix-that-9b58efeb?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10629,12 +10629,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53510.0,
-        "change_pct": 0.2,
+        "point": 53531.0,
+        "change_pct": 0.24,
         "spark": [
           53408.0,
-          53766.0,
-          53713.0,
           53739.0,
           53665.0,
           53642.0,
@@ -10672,21 +10670,23 @@
           53554.0,
           53511.0,
           53537.0,
-          53510.0
+          53535.0,
+          53529.0,
+          53531.0
         ],
         "candle": {
           "o": 53408.0,
           "h": 53780.0,
           "l": 53337.0,
-          "c": 53508.0
+          "c": 53531.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 17.8,
-          "high_change_pct": -1.81
+          "low_change_pct": 17.85,
+          "high_change_pct": -1.77
         },
         "daily_expanded": [
           {
@@ -12702,8 +12702,8 @@
             "o": 53408.0,
             "h": 53780.0,
             "l": 53337.0,
-            "c": 53508.0,
-            "v": 55543
+            "c": 53531.0,
+            "v": 55969
           }
         ],
         "rollover_gaps": [],
@@ -12727,5 +12727,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-08-20T03:20:10.348706+09:00"
+  "intraday_refreshed_kst": "2026-08-20T03:30:49.775380+09:00"
 }
