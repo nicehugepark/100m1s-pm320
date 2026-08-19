@@ -2088,7 +2088,8 @@
             "url": "https://www.wsj.com/economy/central-banking/fed-minutes-show-rising-concern-over-inflation-bea12df8?mod=rss_socialeconomyfeed"
           }
         ]
-      }
+      },
+      "session_open": false
     },
     {
       "name": "S&P500",
@@ -4177,7 +4178,8 @@
             "url": "https://www.wsj.com/health/pharma/the-key-to-pharma-m-a-never-shopping-hungry-34f55ff3?mod=rss_markets_main"
           }
         ]
-      }
+      },
+      "session_open": false
     },
     {
       "name": "DOW",
@@ -6266,7 +6268,8 @@
             "url": "https://www.wsj.com/world/middle-east/how-saudi-arabias-neom-megacity-dream-collapsed-67bd4df4?mod=rss_worldnews"
           }
         ]
-      }
+      },
+      "session_open": false
     }
   ],
   "news_chips": [
@@ -6285,18 +6288,18 @@
       "impact_high": true
     },
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/britains-economy-isnt-working-for-young-people-its-new-prime-minster-wants-to-fix-that-9b58efeb?mod=rss_socialeconomyfeed",
-      "published_ts": 1787137740.0,
-      "impact_high": true
-    },
-    {
       "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/bank-indonesia-holds-rates-steady-as-rupiah-pressure-eases-402e9fc0?mod=rss_socialeconomyfeed",
       "published_ts": 1787130180.0,
       "impact_high": true
+    },
+    {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/trumps-plan-to-squeeze-irans-economy-will-live-or-die-in-dubai-8f9f561e?mod=rss_worldnews",
+      "published_ts": 1787176800.0,
+      "impact_high": false
     },
     {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
@@ -6341,21 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "d6c02cc36b9c8a6cf60b9d75e9ec9bc6875c90cb623e14e46d8b564082e21009",
+  "_article_sig": "c6c6c43a2def0c3b9f78ce8cff0828f132fca689474e1688d19fc6b0a8dad0b4",
   "built_at_kst": "2026-08-20T07:01:08.059854+09:00",
   "futures": {
-    "as_of_kst": "2026-08-20T07:01:08.059457+09:00",
+    "as_of_kst": "2026-08-20T07:10:06.085158+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7730.5,
-        "change_pct": 0.02,
+        "point": 7734.75,
+        "change_pct": 0.07,
         "spark": [
-          7714.0,
-          7735.0,
-          7734.75,
+          7733.0,
           7735.5,
           7734.75,
           7740.75,
@@ -6393,21 +6394,23 @@
           7728.75,
           7730.0,
           7731.0,
-          7730.5
+          7730.5,
+          7737.75,
+          7734.75
         ],
         "candle": {
-          "o": 7714.0,
-          "h": 7764.75,
-          "l": 7698.25,
-          "c": 7730.5
+          "o": 7733.0,
+          "h": 7734.75,
+          "l": 7732.5,
+          "c": 7734.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.01,
-          "high_change_pct": -1.18
+          "low_change_pct": 21.08,
+          "high_change_pct": -1.12
         },
         "daily_expanded": [
           {
@@ -8420,24 +8423,39 @@
           },
           {
             "date": "2026-08-19",
-            "o": 7714.0,
-            "h": 7764.75,
-            "l": 7698.25,
-            "c": 7730.5,
-            "v": 1382198
+            "o": 7733.0,
+            "h": 7734.75,
+            "l": 7732.5,
+            "c": 7734.75,
+            "v": 178
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/trumps-plan-to-squeeze-irans-economy-will-live-or-die-in-dubai-8f9f561e?mod=rss_worldnews"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/08/19/trump-bemoans-fed-interest-rate-policy-says-us-should-be-paying-much-less.html"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/trade/u-s-eyes-lower-tariffs-on-metals-and-autos-in-canada-trade-deal-e14dc655?mod=rss_socialeconomyfeed"
+            }
+          ]
+        }
       },
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29561.0,
-        "change_pct": 0.16,
+        "point": 29571.0,
+        "change_pct": 0.2,
         "spark": [
-          29566.5,
-          29537.0,
-          29541.0,
+          29561.5,
           29551.5,
           29544.25,
           29562.75,
@@ -8475,21 +8493,23 @@
           29529.25,
           29541.0,
           29553.75,
-          29561.0
+          29561.0,
+          29605.5,
+          29571.0
         ],
         "candle": {
-          "o": 29566.5,
-          "h": 29757.25,
-          "l": 29375.75,
-          "c": 29561.0
+          "o": 29561.5,
+          "h": 29579.5,
+          "l": 29557.75,
+          "c": 29571.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.75,
-          "high_change_pct": -3.75
+          "low_change_pct": 27.79,
+          "high_change_pct": -3.72
         },
         "daily_expanded": [
           {
@@ -10502,23 +10522,39 @@
           },
           {
             "date": "2026-08-19",
-            "o": 29566.5,
-            "h": 29757.25,
-            "l": 29375.75,
-            "c": 29561.0,
-            "v": 563393
+            "o": 29561.5,
+            "h": 29579.5,
+            "l": 29557.75,
+            "c": 29571.0,
+            "v": 93
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/trumps-plan-to-squeeze-irans-economy-will-live-or-die-in-dubai-8f9f561e?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/pro/bankruptcy/spirit-flight-attendants-fight-googles-data-bid-for-ai-e939e049?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/europe/the-tiny-spanish-territory-of-ceuta-is-grappling-with-a-new-migrant-crisis-5762ebb9?mod=rss_worldnews"
+            }
+          ]
+        }
       },
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53527.0,
-        "change_pct": -0.01,
+        "point": 53547.0,
+        "change_pct": 0.03,
         "spark": [
-          53408.0,
-          53524.0,
+          53529.0,
           53527.0,
           53520.0,
           53554.0,
@@ -10557,21 +10593,22 @@
           53541.0,
           53537.0,
           53527.0,
-          53527.0
+          53553.0,
+          53547.0
         ],
         "candle": {
-          "o": 53408.0,
-          "h": 53780.0,
-          "l": 53337.0,
-          "c": 53527.0
+          "o": 53529.0,
+          "h": 53547.0,
+          "l": 53529.0,
+          "c": 53547.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 17.84,
-          "high_change_pct": -1.77
+          "low_change_pct": 17.88,
+          "high_change_pct": -1.74
         },
         "daily_expanded": [
           {
@@ -12584,15 +12621,87 @@
           },
           {
             "date": "2026-08-19",
-            "o": 53408.0,
-            "h": 53780.0,
-            "l": 53337.0,
-            "c": 53527.0,
-            "v": 64395
+            "o": 53529.0,
+            "h": 53547.0,
+            "l": 53529.0,
+            "c": 53547.0,
+            "v": 7
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+          "sources": [
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/trumps-plan-to-squeeze-irans-economy-will-live-or-die-in-dubai-8f9f561e?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/trade/u-s-eyes-lower-tariffs-on-metals-and-autos-in-canada-trade-deal-e14dc655?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/fed-minutes-show-rising-concern-over-inflation-bea12df8?mod=rss_socialeconomyfeed"
+            }
+          ]
+        }
       }
     ]
-  }
+  },
+  "regular_open": false,
+  "_futures_news": {
+    "NASDAQ": {
+      "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/trumps-plan-to-squeeze-irans-economy-will-live-or-die-in-dubai-8f9f561e?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/pro/bankruptcy/spirit-flight-attendants-fight-googles-data-bid-for-ai-e939e049?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/europe/the-tiny-spanish-territory-of-ceuta-is-grappling-with-a-new-migrant-crisis-5762ebb9?mod=rss_worldnews"
+        }
+      ]
+    },
+    "S&P500": {
+      "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/trumps-plan-to-squeeze-irans-economy-will-live-or-die-in-dubai-8f9f561e?mod=rss_worldnews"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/19/trump-bemoans-fed-interest-rate-policy-says-us-should-be-paying-much-less.html"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/trade/u-s-eyes-lower-tariffs-on-metals-and-autos-in-canada-trade-deal-e14dc655?mod=rss_socialeconomyfeed"
+        }
+      ]
+    },
+    "DOW": {
+      "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+      "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/trumps-plan-to-squeeze-irans-economy-will-live-or-die-in-dubai-8f9f561e?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/trade/u-s-eyes-lower-tariffs-on-metals-and-autos-in-canada-trade-deal-e14dc655?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/fed-minutes-show-rising-concern-over-inflation-bea12df8?mod=rss_socialeconomyfeed"
+        }
+      ]
+    }
+  },
+  "intraday_refreshed_kst": "2026-08-20T07:10:39.651955+09:00"
 }
