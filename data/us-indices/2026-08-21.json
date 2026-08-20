@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26123.7,
-      "change_pct": -0.79,
+      "point": 26088.99,
+      "change_pct": -0.92,
       "candle": {
         "o": 26203.32,
         "h": 26263.4,
         "l": 26059.54,
-        "c": 26123.7
+        "c": 26088.99
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,13 +2033,11 @@
           "o": 26203.32,
           "h": 26263.4,
           "l": 26059.54,
-          "c": 26123.7
+          "c": 26088.99
         }
       ],
       "spark": [
         26203.32,
-        26167.4,
-        26147.62,
         26170.65,
         26153.43,
         26112.78,
@@ -2077,7 +2075,9 @@
         26158.13,
         26137.04,
         26123.19,
-        26123.7
+        26114.7,
+        26089.02,
+        26088.99
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7675.87,
-      "change_pct": -0.42,
+      "point": 7667.4,
+      "change_pct": -0.53,
       "candle": {
         "o": 7690.49,
         "h": 7699.96,
-        "l": 7671.14,
-        "c": 7675.87
+        "l": 7667.25,
+        "c": 7667.4
       },
       "range_240d": {
         "low": 6343.72,
@@ -4130,14 +4130,12 @@
           "date": "2026-08-20",
           "o": 7690.49,
           "h": 7699.96,
-          "l": 7671.14,
-          "c": 7675.87
+          "l": 7667.25,
+          "c": 7667.4
         }
       ],
       "spark": [
         7690.49,
-        7685.44,
-        7680.01,
         7685.32,
         7679.06,
         7673.3,
@@ -4175,7 +4173,9 @@
         7683.03,
         7678.96,
         7675.97,
-        7675.87
+        7673.91,
+        7667.25,
+        7667.4
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 53024.43,
-      "change_pct": -0.82,
+      "point": 52966.76,
+      "change_pct": -0.93,
       "candle": {
         "o": 53381.22,
         "h": 53381.22,
-        "l": 52985.78,
-        "c": 53024.43
+        "l": 52963.64,
+        "c": 52966.76
       },
       "range_240d": {
         "low": 45166.64,
@@ -6228,14 +6228,12 @@
           "date": "2026-08-20",
           "o": 53381.22,
           "h": 53381.22,
-          "l": 52985.78,
-          "c": 53024.43
+          "l": 52963.64,
+          "c": 52966.76
         }
       ],
       "spark": [
         53381.22,
-        53136.61,
-        53096.92,
         53095.51,
         53026.59,
         53016.27,
@@ -6273,7 +6271,9 @@
         53058.71,
         53038.57,
         53025.02,
-        53024.43
+        53011.12,
+        52963.64,
+        52966.76
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6319,6 +6319,13 @@
       "impact_high": true
     },
     {
+      "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/banking/private-equity-firms-look-for-an-exit-three-years-after-buying-everbank-d9cfe378?mod=rss_markets_main",
+      "published_ts": 1787245980.0,
+      "impact_high": false
+    },
+    {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/20/bessent-budget-deficit-trump.html",
@@ -6330,13 +6337,6 @@
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/u-s-leading-indicators-ticked-up-in-july-8a288be9?mod=rss_socialeconomyfeed",
       "published_ts": 1787236680.0,
-      "impact_high": false
-    },
-    {
-      "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/philadelphia-area-manufacturing-activity-continued-to-expand-in-august-cadc4a64?mod=rss_socialeconomyfeed",
-      "published_ts": 1787231340.0,
       "impact_high": false
     },
     {
@@ -6368,7 +6368,7 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "136442a49acfa737521d06415a1dbae51edf3e6bfcb43305163acff44dc0023b",
+  "_article_sig": "9b3860e11fde29b2ac2ad1f384563609b44869ca20584475aa5215fc30d4ddf8",
   "built_at_kst": "2026-08-20T07:01:08.059854+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6410,33 +6410,31 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/banking/private-equity-firms-look-for-an-exit-three-years-after-buying-everbank-d9cfe378?mod=rss_markets_main"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/philadelphia-area-manufacturing-activity-continued-to-expand-in-august-cadc4a64?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/pro/central-banking/low-rhine-water-levels-to-slow-german-economy-bundesbank-says-e0571f55?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/swedens-central-bank-holds-key-rate-and-still-sees-chance-of-a-hike-later-this-year-07cf4a17?mod=rss_socialeconomyfeed"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-08-21T02:10:09.346386+09:00",
+    "as_of_kst": "2026-08-21T02:20:08.796416+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7702.0,
-        "change_pct": -0.35,
+        "point": 7695.25,
+        "change_pct": -0.44,
         "spark": [
           7733.0,
-          7708.25,
-          7703.75,
           7698.25,
           7704.75,
           7698.25,
@@ -6474,21 +6472,23 @@
           7699.75,
           7702.0,
           7698.5,
-          7702.0
+          7695.0,
+          7693.25,
+          7695.25
         ],
         "candle": {
           "o": 7733.0,
           "h": 7746.5,
           "l": 7680.25,
-          "c": 7702.0
+          "c": 7695.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 20.57,
-          "high_change_pct": -1.54
+          "low_change_pct": 20.46,
+          "high_change_pct": -1.63
         },
         "daily_expanded": [
           {
@@ -8504,8 +8504,8 @@
             "o": 7733.0,
             "h": 7746.5,
             "l": 7680.25,
-            "c": 7702.0,
-            "v": 901574
+            "c": 7695.25,
+            "v": 914964
           }
         ],
         "rollover_gaps": [],
@@ -8530,12 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29379.5,
-        "change_pct": -0.45,
+        "point": 29344.25,
+        "change_pct": -0.57,
         "spark": [
           29561.5,
-          29367.5,
-          29354.0,
           29328.0,
           29391.5,
           29368.0,
@@ -8573,21 +8571,23 @@
           29370.0,
           29380.0,
           29358.75,
-          29379.5
+          29343.0,
+          29337.0,
+          29344.25
         ],
         "candle": {
           "o": 29561.5,
           "h": 29689.75,
           "l": 29240.0,
-          "c": 29379.5
+          "c": 29344.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 26.97,
-          "high_change_pct": -4.34
+          "low_change_pct": 26.81,
+          "high_change_pct": -4.46
         },
         "daily_expanded": [
           {
@@ -10603,8 +10603,8 @@
             "o": 29561.5,
             "h": 29689.75,
             "l": 29240.0,
-            "c": 29379.5,
-            "v": 406366
+            "c": 29344.25,
+            "v": 411202
           }
         ],
         "rollover_gaps": [],
@@ -10629,12 +10629,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53126.0,
-        "change_pct": -0.75,
+        "point": 53091.0,
+        "change_pct": -0.82,
         "spark": [
           53529.0,
-          53243.0,
-          53194.0,
           53153.0,
           53155.0,
           53088.0,
@@ -10672,21 +10670,23 @@
           53117.0,
           53132.0,
           53108.0,
-          53126.0
+          53090.0,
+          53079.0,
+          53091.0
         ],
         "candle": {
           "o": 53529.0,
           "h": 53589.0,
           "l": 53045.0,
-          "c": 53128.0
+          "c": 53091.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 16.96,
-          "high_change_pct": -2.51
+          "low_change_pct": 16.88,
+          "high_change_pct": -2.57
         },
         "daily_expanded": [
           {
@@ -12702,8 +12702,8 @@
             "o": 53529.0,
             "h": 53589.0,
             "l": 53045.0,
-            "c": 53128.0,
-            "v": 48219
+            "c": 53091.0,
+            "v": 48677
           }
         ],
         "rollover_gaps": [],
@@ -12711,21 +12711,21 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/banking/private-equity-firms-look-for-an-exit-three-years-after-buying-everbank-d9cfe378?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/philadelphia-area-manufacturing-activity-continued-to-expand-in-august-cadc4a64?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/pro/central-banking/low-rhine-water-levels-to-slow-german-economy-bundesbank-says-e0571f55?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/swedens-central-bank-holds-key-rate-and-still-sees-chance-of-a-hike-later-this-year-07cf4a17?mod=rss_socialeconomyfeed"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-08-21T02:10:13.035983+09:00"
+  "intraday_refreshed_kst": "2026-08-21T02:20:46.296682+09:00"
 }
