@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/japan-inflation-picks-up-as-rate-boost-bets-firm-1d63fed4?mod=rss_socialeconomyfeed",
+      "published_ts": 1787278800.0,
+      "impact_high": true
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/us-weapons-stockpile-d869e58a?mod=rss_worldnews",
@@ -6281,24 +6288,17 @@
       "impact_high": true
     },
     {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/202608213917i",
-      "published_ts": 1787271809.0,
-      "impact_high": true
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/china/hong-kong-court-convicts-activists-who-organized-tiananmen-vigils-39d49bfa?mod=rss_worldnews",
+      "published_ts": 1787280240.0,
+      "impact_high": false
     },
     {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/uk/the-controversial-academic-who-ignited-the-jason-arday-furor-1071e7fc?mod=rss_worldnews",
       "published_ts": 1787277600.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/202608214299i",
-      "published_ts": 1787276719.0,
       "impact_high": false
     },
     {
@@ -6344,22 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "73557aa37aa1f020dadc80972fc89dda2306eaa4805789cea28f8b62ac81a79b",
+  "_article_sig": "9c714749f8d82522940bd3b2fb8abfbcfcd8ee6e1d6153a346e940143267920a",
   "built_at_kst": "2026-08-21T07:01:09.191077+09:00",
   "futures": {
-    "as_of_kst": "2026-08-21T11:40:06.122582+09:00",
+    "as_of_kst": "2026-08-21T11:50:06.410854+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7672.0,
-        "change_pct": 0.12,
+        "point": 7671.0,
+        "change_pct": 0.11,
         "spark": [
           7669.0,
-          7668.25,
-          7668.0,
-          7667.75,
           7667.5,
           7666.5,
           7667.75,
@@ -6396,21 +6393,24 @@
           7669.25,
           7671.0,
           7671.75,
-          7672.0
+          7671.25,
+          7671.0,
+          7671.25,
+          7671.0
         ],
         "candle": {
           "o": 7669.0,
           "h": 7673.0,
           "l": 7661.25,
-          "c": 7671.75
+          "c": 7671.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 20.09,
-          "high_change_pct": -1.93
+          "low_change_pct": 20.08,
+          "high_change_pct": -1.94
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7669.0,
             "h": 7673.0,
             "l": 7661.25,
-            "c": 7671.75,
-            "v": 29441
+            "c": 7671.0,
+            "v": 30309
           }
         ],
         "rollover_gaps": [],
@@ -8435,16 +8435,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/japan-inflation-picks-up-as-rate-boost-bets-firm-1d63fed4?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/us-weapons-stockpile-d869e58a?mod=rss_worldnews"
             },
             {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/202608213917i"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/japan-inflation-picks-up-as-rate-boost-bets-firm-1d63fed4?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8452,11 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29392.0,
-        "change_pct": 0.31,
+        "point": 29384.5,
+        "change_pct": 0.29,
         "spark": [
           29327.0,
-          29319.25,
           29315.5,
           29313.25,
           29302.25,
@@ -8494,22 +8493,23 @@
           29370.0,
           29382.75,
           29390.0,
-          29393.0,
-          29392.0
+          29392.5,
+          29383.75,
+          29384.5
         ],
         "candle": {
           "o": 29327.0,
-          "h": 29395.0,
+          "h": 29396.25,
           "l": 29274.25,
-          "c": 29392.0
+          "c": 29383.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.02,
-          "high_change_pct": -4.3
+          "low_change_pct": 26.98,
+          "high_change_pct": -4.33
         },
         "daily_expanded": [
           {
@@ -10523,10 +10523,10 @@
           {
             "date": "2026-08-20",
             "o": 29327.0,
-            "h": 29395.0,
+            "h": 29396.25,
             "l": 29274.25,
-            "c": 29392.0,
-            "v": 25683
+            "c": 29383.25,
+            "v": 26315
           }
         ],
         "rollover_gaps": [],
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52862.0,
-        "change_pct": 0.02,
+        "point": 52863.0,
+        "change_pct": 0.03,
         "spark": [
           52876.0,
-          52873.0,
-          52873.0,
           52872.0,
           52872.0,
           52869.0,
@@ -10594,20 +10592,22 @@
           52851.0,
           52865.0,
           52862.0,
-          52862.0
+          52858.0,
+          52863.0,
+          52863.0
         ],
         "candle": {
           "o": 52876.0,
           "h": 52901.0,
           "l": 52838.0,
-          "c": 52862.0
+          "c": 52863.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 16.37,
+          "low_change_pct": 16.38,
           "high_change_pct": -2.99
         },
         "daily_expanded": [
@@ -12624,8 +12624,8 @@
             "o": 52876.0,
             "h": 52901.0,
             "l": 52838.0,
-            "c": 52862.0,
-            "v": 2766
+            "c": 52863.0,
+            "v": 2894
           }
         ],
         "rollover_gaps": [],
@@ -12633,12 +12633,12 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/uk/the-controversial-academic-who-ignited-the-jason-arday-furor-1071e7fc?mod=rss_worldnews"
-            },
-            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/japan-inflation-picks-up-as-rate-boost-bets-firm-1d63fed4?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/uk/the-controversial-academic-who-ignited-the-jason-arday-furor-1071e7fc?mod=rss_worldnews"
             },
             {
               "name": "WSJ",
@@ -12672,16 +12672,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/japan-inflation-picks-up-as-rate-boost-bets-firm-1d63fed4?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/us-weapons-stockpile-d869e58a?mod=rss_worldnews"
         },
         {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/202608213917i"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/japan-inflation-picks-up-as-rate-boost-bets-firm-1d63fed4?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12689,12 +12689,12 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/uk/the-controversial-academic-who-ignited-the-jason-arday-furor-1071e7fc?mod=rss_worldnews"
-        },
-        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/japan-inflation-picks-up-as-rate-boost-bets-firm-1d63fed4?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/uk/the-controversial-academic-who-ignited-the-jason-arday-furor-1071e7fc?mod=rss_worldnews"
         },
         {
           "name": "WSJ",
@@ -12703,5 +12703,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-08-21T11:40:10.458982+09:00"
+  "intraday_refreshed_kst": "2026-08-21T11:51:06.189174+09:00"
 }
