@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/2026082149637",
+      "published_ts": 1787293226.0,
+      "impact_high": true
+    },
+    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/japan-inflation-picks-up-as-rate-boost-bets-firm-1d63fed4?mod=rss_socialeconomyfeed",
@@ -6286,13 +6293,6 @@
       "url": "https://www.wsj.com/world/us-weapons-stockpile-d869e58a?mod=rss_worldnews",
       "published_ts": 1787277600.0,
       "impact_high": true
-    },
-    {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026082146477",
-      "published_ts": 1787285682.0,
-      "impact_high": false
     },
     {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
@@ -6344,17 +6344,17 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "cd5a7485a648228f6df9dcd43211b971db77dfe1f4b1f3e2bcbf6e6fd079ee8f",
+  "_article_sig": "e7b2b0637548338f35e8f5803a8df30f4c7c74f9cfcc5719ae8b420c11a7b7c5",
   "built_at_kst": "2026-08-21T07:01:09.191077+09:00",
   "futures": {
-    "as_of_kst": "2026-08-21T15:30:04.767846+09:00",
+    "as_of_kst": "2026-08-21T15:40:09.318236+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7669.75,
-        "change_pct": 0.09,
+        "point": 7670.5,
+        "change_pct": 0.1,
         "spark": [
           7669.0,
           7669.0,
@@ -6384,21 +6384,24 @@
           7668.0,
           7669.75,
           7669.75,
-          7669.75
+          7668.75,
+          7670.25,
+          7673.75,
+          7670.5
         ],
         "candle": {
           "o": 7669.0,
           "h": 7673.0,
           "l": 7661.25,
-          "c": 7669.75
+          "c": 7670.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 20.06,
-          "high_change_pct": -1.95
+          "low_change_pct": 20.07,
+          "high_change_pct": -1.94
         },
         "daily_expanded": [
           {
@@ -8414,8 +8417,8 @@
             "o": 7669.0,
             "h": 7673.0,
             "l": 7661.25,
-            "c": 7669.75,
-            "v": 46359
+            "c": 7670.5,
+            "v": 46942
           }
         ],
         "rollover_gaps": [],
@@ -8440,8 +8443,8 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29370.75,
-        "change_pct": 0.24,
+        "point": 29376.5,
+        "change_pct": 0.26,
         "spark": [
           29327.0,
           29358.5,
@@ -8471,21 +8474,23 @@
           29363.25,
           29374.0,
           29370.75,
-          29370.75
+          29368.0,
+          29376.25,
+          29376.5
         ],
         "candle": {
           "o": 29327.0,
           "h": 29399.25,
           "l": 29274.25,
-          "c": 29370.75
+          "c": 29377.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 26.93,
-          "high_change_pct": -4.37
+          "low_change_pct": 26.96,
+          "high_change_pct": -4.35
         },
         "daily_expanded": [
           {
@@ -10501,8 +10506,8 @@
             "o": 29327.0,
             "h": 29399.25,
             "l": 29274.25,
-            "c": 29370.75,
-            "v": 39701
+            "c": 29377.25,
+            "v": 40147
           }
         ],
         "rollover_gaps": [],
@@ -10527,8 +10532,8 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52885.0,
-        "change_pct": 0.07,
+        "point": 52897.0,
+        "change_pct": 0.09,
         "spark": [
           52876.0,
           52880.0,
@@ -10559,21 +10564,24 @@
           52882.0,
           52890.0,
           52890.0,
-          52885.0
+          52885.0,
+          52894.0,
+          52912.0,
+          52897.0
         ],
         "candle": {
           "o": 52876.0,
           "h": 52901.0,
           "l": 52838.0,
-          "c": 52890.0
+          "c": 52897.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 16.44,
-          "high_change_pct": -2.94
+          "low_change_pct": 16.45,
+          "high_change_pct": -2.93
         },
         "daily_expanded": [
           {
@@ -12589,8 +12597,8 @@
             "o": 52876.0,
             "h": 52901.0,
             "l": 52838.0,
-            "c": 52890.0,
-            "v": 4403
+            "c": 52897.0,
+            "v": 4476
           }
         ],
         "rollover_gaps": [],
@@ -12668,5 +12676,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-08-21T15:30:09.212802+09:00"
+  "intraday_refreshed_kst": "2026-08-21T15:41:52.840663+09:00"
 }
