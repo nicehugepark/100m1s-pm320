@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26027.75,
-      "change_pct": -0.58,
+      "point": 26021.93,
+      "change_pct": -0.61,
       "candle": {
         "o": 26058.26,
         "h": 26109.96,
         "l": 25913.13,
-        "c": 26027.75
+        "c": 26021.93
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,13 +2033,11 @@
           "o": 26058.26,
           "h": 26109.96,
           "l": 25913.13,
-          "c": 26027.75
+          "c": 26021.93
         }
       ],
       "spark": [
         26058.26,
-        25963.39,
-        26010.65,
         26015.55,
         26021.29,
         26035.29,
@@ -2076,8 +2074,10 @@
         26037.36,
         26032.57,
         26023.86,
-        26022.07,
-        26027.75
+        26027.75,
+        26017.84,
+        26021.93,
+        26021.93
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7651.87,
-      "change_pct": -0.29,
+      "point": 7650.4,
+      "change_pct": -0.31,
       "candle": {
         "o": 7663.38,
         "h": 7670.3,
         "l": 7638.17,
-        "c": 7651.87
+        "c": 7650.4
       },
       "range_240d": {
         "low": 6343.72,
@@ -4131,13 +4131,11 @@
           "o": 7663.38,
           "h": 7670.3,
           "l": 7638.17,
-          "c": 7651.87
+          "c": 7650.4
         }
       ],
       "spark": [
         7663.38,
-        7647.67,
-        7654.58,
         7655.1,
         7655.31,
         7656.39,
@@ -4175,7 +4173,9 @@
         7652.03,
         7651.66,
         7651.94,
-        7651.87
+        7649.42,
+        7650.52,
+        7650.4
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 53334.23,
-      "change_pct": 0.11,
+      "point": 53326.64,
+      "change_pct": 0.09,
       "candle": {
         "o": 53261.95,
         "h": 53508.18,
         "l": 53261.95,
-        "c": 53334.23
+        "c": 53326.64
       },
       "range_240d": {
         "low": 45166.64,
@@ -6229,13 +6229,11 @@
           "o": 53261.95,
           "h": 53508.18,
           "l": 53261.95,
-          "c": 53334.23
+          "c": 53326.64
         }
       ],
       "spark": [
         53261.95,
-        53414.44,
-        53413.96,
         53414.8,
         53401.03,
         53431.76,
@@ -6273,7 +6271,9 @@
         53330.86,
         53331.36,
         53332.82,
-        53334.23
+        53318.49,
+        53324.56,
+        53326.64
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6298,17 +6298,17 @@
   ],
   "news_chips": [
     {
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/trade/whats-getting-hit-with-the-new-u-s-canada-tariffs-4cb8141c?mod=rss_socialeconomyfeed",
+      "published_ts": 1787593680.0,
+      "impact_high": true
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/bessent-launches-operation-economic-outcast-to-isolate-iran-0e4db091?mod=rss_worldnews",
       "published_ts": 1787593020.0,
-      "impact_high": true
-    },
-    {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/tech/taiwan-charges-nine-in-connection-with-smuggling-of-ai-servers-to-china-d1f72f47?mod=rss_worldnews",
-      "published_ts": 1787583180.0,
       "impact_high": true
     },
     {
@@ -6326,17 +6326,17 @@
       "impact_high": true
     },
     {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/uk/prodigal-prince-harrys-return-to-u-k-poses-dilemma-for-william-41eb9e7b?mod=rss_worldnews",
+      "published_ts": 1787593380.0,
+      "impact_high": false
+    },
+    {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/banking/canadas-big-banks-expected-to-log-another-strong-quarter-while-valuations-stretched-0eaa08bc?mod=rss_markets_main",
       "published_ts": 1787592420.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026082498451",
-      "published_ts": 1787588375.0,
       "impact_high": false
     },
     {
@@ -6361,7 +6361,7 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "b198811d5f4987c9c1415506354e62176dc71eab49c5b21876cd80658cff4f3c",
+  "_article_sig": "7e6554f8a0ef8d870df91bc649fee52e7f381263aa491f5065cddb37f117c958",
   "built_at_kst": "2026-08-22T07:00:58.161486+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6386,16 +6386,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/trade/whats-getting-hit-with-the-new-u-s-canada-tariffs-4cb8141c?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/bessent-launches-operation-economic-outcast-to-isolate-iran-0e4db091?mod=rss_worldnews"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/banking/canadas-big-banks-expected-to-log-another-strong-quarter-while-valuations-stretched-0eaa08bc?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/trade/trump-threatens-50-tariff-on-automobiles-and-parts-from-canada-83c10448?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -6403,32 +6403,31 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/trade/whats-getting-hit-with-the-new-u-s-canada-tariffs-4cb8141c?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/banking/canadas-big-banks-expected-to-log-another-strong-quarter-while-valuations-stretched-0eaa08bc?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/trade/trump-threatens-50-tariff-on-automobiles-and-parts-from-canada-83c10448?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/tech/taiwan-charges-nine-in-connection-with-smuggling-of-ai-servers-to-china-d1f72f47?mod=rss_worldnews"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-08-25T02:40:07.194655+09:00",
+    "as_of_kst": "2026-08-25T02:50:03.663817+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7667.5,
-        "change_pct": -0.31,
+        "point": 7665.25,
+        "change_pct": -0.34,
         "spark": [
           7693.5,
-          7662.5,
           7663.25,
           7670.5,
           7671.0,
@@ -6467,13 +6466,14 @@
           7669.75,
           7668.25,
           7667.25,
-          7667.5
+          7668.0,
+          7665.25
         ],
         "candle": {
           "o": 7693.5,
           "h": 7703.25,
           "l": 7655.0,
-          "c": 7667.5
+          "c": 7668.0
         },
         "range_240d": {
           "low": 6388.25,
@@ -8489,8 +8489,8 @@
             "o": 7693.5,
             "h": 7703.25,
             "l": 7655.0,
-            "c": 7667.5,
-            "v": 734429
+            "c": 7668.0,
+            "v": 750904
           }
         ],
         "rollover_gaps": [],
@@ -8498,16 +8498,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/trade/whats-getting-hit-with-the-new-u-s-canada-tariffs-4cb8141c?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/bessent-launches-operation-economic-outcast-to-isolate-iran-0e4db091?mod=rss_worldnews"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/banking/canadas-big-banks-expected-to-log-another-strong-quarter-while-valuations-stretched-0eaa08bc?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/trade/trump-threatens-50-tariff-on-automobiles-and-parts-from-canada-83c10448?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8515,12 +8515,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29136.5,
-        "change_pct": -0.85,
+        "point": 29132.25,
+        "change_pct": -0.87,
         "spark": [
           29392.25,
-          29001.75,
-          29012.25,
           29076.5,
           29081.25,
           29085.5,
@@ -8558,21 +8556,23 @@
           29144.25,
           29140.0,
           29129.25,
-          29136.5
+          29131.75,
+          29119.25,
+          29132.25
         ],
         "candle": {
           "o": 29392.25,
           "h": 29480.5,
           "l": 28946.75,
-          "c": 29136.5
+          "c": 29132.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 25.92,
-          "high_change_pct": -5.13
+          "low_change_pct": 25.9,
+          "high_change_pct": -5.15
         },
         "daily_expanded": [
           {
@@ -10580,8 +10580,8 @@
             "o": 29392.25,
             "h": 29480.5,
             "l": 28946.75,
-            "c": 29136.5,
-            "v": 406431
+            "c": 29132.25,
+            "v": 411723
           }
         ],
         "rollover_gaps": [],
@@ -10606,11 +10606,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53391.0,
+        "point": 53393.0,
         "change_pct": 0.07,
         "spark": [
           53367.0,
-          53459.0,
           53478.0,
           53479.0,
           53471.0,
@@ -10649,13 +10648,14 @@
           53405.0,
           53394.0,
           53392.0,
-          53391.0
+          53393.0,
+          53393.0
         ],
         "candle": {
           "o": 53367.0,
           "h": 53567.0,
           "l": 53210.0,
-          "c": 53391.0
+          "c": 53393.0
         },
         "range_240d": {
           "low": 45424.0,
@@ -12671,8 +12671,8 @@
             "o": 53367.0,
             "h": 53567.0,
             "l": 53210.0,
-            "c": 53391.0,
-            "v": 45292
+            "c": 53393.0,
+            "v": 45789
           }
         ],
         "rollover_gaps": [],
@@ -12680,21 +12680,21 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/trade/whats-getting-hit-with-the-new-u-s-canada-tariffs-4cb8141c?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/banking/canadas-big-banks-expected-to-log-another-strong-quarter-while-valuations-stretched-0eaa08bc?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/trade/trump-threatens-50-tariff-on-automobiles-and-parts-from-canada-83c10448?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/tech/taiwan-charges-nine-in-connection-with-smuggling-of-ai-servers-to-china-d1f72f47?mod=rss_worldnews"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-08-25T02:40:42.563221+09:00"
+  "intraday_refreshed_kst": "2026-08-25T02:50:46.688836+09:00"
 }
