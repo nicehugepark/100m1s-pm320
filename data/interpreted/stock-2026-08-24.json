@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "generated_at": "2026-08-24T11:55:28.285749",
+  "generated_at": "2026-08-24T11:58:18.520505",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -22,8 +22,17 @@
       "low_price": 438000,
       "industry": "의약품 제조업",
       "sector": "의약품",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "바이오"
+      ],
+      "theme_paths": [
+        {
+          "name": "바이오",
+          "path": [
+            "바이오"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": true,
@@ -246,9 +255,9 @@
           540000
         ]
       },
-      "togusa_verdict": "neutral",
-      "theme_leader": false,
-      "hugepark_grade": "관찰"
+      "togusa_verdict": "strong_bull",
+      "theme_leader": true,
+      "hugepark_grade": "적극"
     },
     {
       "code": "124500",
@@ -1146,7 +1155,10 @@
       "bullish_streak": 0,
       "bullish_dates": [],
       "news": [],
-      "fallback": true
+      "fallback": true,
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "041190",
@@ -1882,7 +1894,7 @@
       "credit_risk": true,
       "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
-      "theme_leader": true,
+      "theme_leader": false,
       "hugepark_grade": "관찰",
       "causal_chain": "",
       "parent_theme": ""
