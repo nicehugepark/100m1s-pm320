@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26094.51,
-      "change_pct": 0.44,
+      "point": 26078.54,
+      "change_pct": 0.38,
       "candle": {
         "o": 26153.53,
         "h": 26225.83,
         "l": 26035.72,
-        "c": 26094.51
+        "c": 26078.54
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,7 +2033,7 @@
           "o": 26153.53,
           "h": 26225.83,
           "l": 26035.72,
-          "c": 26094.51
+          "c": 26078.54
         }
       ],
       "spark": [
@@ -2055,8 +2055,10 @@
         26086.49,
         26091.67,
         26104.9,
-        26097.28,
-        26094.51
+        26094.51,
+        26068.04,
+        26079.28,
+        26078.54
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2080,13 +2082,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7665.22,
+      "point": 7664.74,
       "change_pct": 0.16,
       "candle": {
         "o": 7676.66,
         "h": 7686.11,
         "l": 7650.92,
-        "c": 7665.22
+        "c": 7664.74
       },
       "range_240d": {
         "low": 6343.72,
@@ -4110,7 +4112,7 @@
           "o": 7676.66,
           "h": 7686.11,
           "l": 7650.92,
-          "c": 7665.22
+          "c": 7664.74
         }
       ],
       "spark": [
@@ -4133,7 +4135,9 @@
         7660.62,
         7664.92,
         7664.73,
-        7665.22
+        7662.07,
+        7664.43,
+        7664.74
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4157,13 +4161,13 @@
     },
     {
       "name": "DOW",
-      "point": 53452.08,
-      "change_pct": 0.07,
+      "point": 53478.17,
+      "change_pct": 0.11,
       "candle": {
         "o": 53594.92,
         "h": 53675.32,
         "l": 53386.37,
-        "c": 53452.08
+        "c": 53478.17
       },
       "range_240d": {
         "low": 45166.64,
@@ -6187,7 +6191,7 @@
           "o": 53594.92,
           "h": 53675.32,
           "l": 53386.37,
-          "c": 53452.08
+          "c": 53478.17
         }
       ],
       "spark": [
@@ -6210,7 +6214,9 @@
         53412.29,
         53439.84,
         53450.27,
-        53452.08
+        53444.33,
+        53476.36,
+        53478.17
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6234,6 +6240,13 @@
     }
   ],
   "news_chips": [
+    {
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/americas/canada-targets-u-s-metals-foods-motorcycles-in-retaliatory-tariff-package-f677222b?mod=rss_worldnews",
+      "published_ts": 1787670000.0,
+      "impact_high": true
+    },
     {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ",
@@ -6260,13 +6273,6 @@
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/russia/russia-tests-readiness-for-new-round-of-military-mobilization-87d61b96?mod=rss_worldnews",
       "published_ts": 1787663700.0,
-      "impact_high": false
-    },
-    {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/canada-wholesale-sales-estimated-to-have-fallen-0-6-in-july-89466837?mod=rss_socialeconomyfeed",
-      "published_ts": 1787662680.0,
       "impact_high": false
     },
     {
@@ -6298,7 +6304,7 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "3d9aa7217bc8e69a0d368f1731bf4991f0e09b7a57252e847fddf9fc88cdbd6d",
+  "_article_sig": "2d18fbd7a35dc6fb1f28cdc7be86345f585236ec9fe4b3d360f3c7b0191b261a",
   "built_at_kst": "2026-08-25T07:00:52.588396+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6323,16 +6329,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/americas/canada-targets-u-s-metals-foods-motorcycles-in-retaliatory-tariff-package-f677222b?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/are-inflation-fighting-bonds-on-sale-376ad05a?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/u-s-consumer-sentiment-fell-in-august-conference-board-says-9453f12c?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/new-tanker-strike-in-hormuz-as-iran-vows-retaliation-for-u-s-economic-offensive-6f1a1f54?mod=rss_worldnews"
         }
       ]
     },
@@ -6340,33 +6346,31 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/americas/canada-targets-u-s-metals-foods-motorcycles-in-retaliatory-tariff-package-f677222b?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/banking/bank-of-montreal-plans-to-buy-back-shares-after-earnings-hit-by-charge-f5979a80?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/u-s-consumer-sentiment-fell-in-august-conference-board-says-9453f12c?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/regulation/regulators-probing-near-collapse-of-hedge-fund-situational-awareness-dbf5dfc6?mod=rss_markets_main"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-08-26T00:00:08.872467+09:00",
+    "as_of_kst": "2026-08-26T00:10:05.942569+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7675.0,
-        "change_pct": 0.07,
+        "point": 7680.75,
+        "change_pct": 0.14,
         "spark": [
           7676.0,
-          7701.5,
-          7704.5,
           7703.5,
           7704.75,
           7704.5,
@@ -6404,21 +6408,23 @@
           7676.5,
           7675.25,
           7679.75,
-          7675.0
+          7680.25,
+          7677.5,
+          7680.75
         ],
         "candle": {
           "o": 7676.0,
           "h": 7714.0,
           "l": 7660.25,
-          "c": 7675.0
+          "c": 7680.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 20.14,
-          "high_change_pct": -1.89
+          "low_change_pct": 20.23,
+          "high_change_pct": -1.81
         },
         "daily_expanded": [
           {
@@ -8434,8 +8440,8 @@
             "o": 7676.0,
             "h": 7714.0,
             "l": 7660.25,
-            "c": 7675.0,
-            "v": 430408
+            "c": 7680.75,
+            "v": 449816
           }
         ],
         "rollover_gaps": [],
@@ -8443,16 +8449,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/americas/canada-targets-u-s-metals-foods-motorcycles-in-retaliatory-tariff-package-f677222b?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/are-inflation-fighting-bonds-on-sale-376ad05a?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/u-s-consumer-sentiment-fell-in-august-conference-board-says-9453f12c?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/new-tanker-strike-in-hormuz-as-iran-vows-retaliation-for-u-s-economic-offensive-6f1a1f54?mod=rss_worldnews"
             }
           ]
         }
@@ -8460,12 +8466,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29216.75,
-        "change_pct": 0.38,
+        "point": 29233.5,
+        "change_pct": 0.44,
         "spark": [
           29140.5,
-          29358.25,
-          29380.0,
           29372.75,
           29373.0,
           29378.0,
@@ -8503,21 +8507,23 @@
           29219.25,
           29218.5,
           29244.75,
-          29216.75
+          29232.5,
+          29204.75,
+          29233.5
         ],
         "candle": {
           "o": 29140.5,
           "h": 29425.75,
           "l": 29017.0,
-          "c": 29219.0
+          "c": 29233.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 26.27,
-          "high_change_pct": -4.86
+          "low_change_pct": 26.33,
+          "high_change_pct": -4.82
         },
         "daily_expanded": [
           {
@@ -10533,8 +10539,8 @@
             "o": 29140.5,
             "h": 29425.75,
             "l": 29017.0,
-            "c": 29219.0,
-            "v": 276748
+            "c": 29233.5,
+            "v": 286103
           }
         ],
         "rollover_gaps": [],
@@ -10559,12 +10565,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53480.0,
-        "change_pct": -0.02,
+        "point": 53522.0,
+        "change_pct": 0.06,
         "spark": [
           53524.0,
-          53752.0,
-          53770.0,
           53764.0,
           53786.0,
           53781.0,
@@ -10602,21 +10606,23 @@
           53498.0,
           53482.0,
           53508.0,
-          53480.0
+          53520.0,
+          53516.0,
+          53522.0
         ],
         "candle": {
           "o": 53524.0,
           "h": 53797.0,
           "l": 53426.0,
-          "c": 53484.0
+          "c": 53522.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 17.74,
-          "high_change_pct": -1.85
+          "low_change_pct": 17.83,
+          "high_change_pct": -1.78
         },
         "daily_expanded": [
           {
@@ -12632,8 +12638,8 @@
             "o": 53524.0,
             "h": 53797.0,
             "l": 53426.0,
-            "c": 53484.0,
-            "v": 32415
+            "c": 53522.0,
+            "v": 33077
           }
         ],
         "rollover_gaps": [],
@@ -12641,21 +12647,21 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/americas/canada-targets-u-s-metals-foods-motorcycles-in-retaliatory-tariff-package-f677222b?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/banking/bank-of-montreal-plans-to-buy-back-shares-after-earnings-hit-by-charge-f5979a80?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/u-s-consumer-sentiment-fell-in-august-conference-board-says-9453f12c?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/regulation/regulators-probing-near-collapse-of-hedge-fund-situational-awareness-dbf5dfc6?mod=rss_markets_main"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-08-26T00:01:02.703348+09:00"
+  "intraday_refreshed_kst": "2026-08-26T00:10:48.401538+09:00"
 }
