@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26111.0,
-      "change_pct": 0.5,
+      "point": 26112.29,
+      "change_pct": 0.51,
       "candle": {
         "o": 26153.53,
         "h": 26225.83,
         "l": 26035.72,
-        "c": 26111.0
+        "c": 26112.29
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,13 +2033,11 @@
           "o": 26153.53,
           "h": 26225.83,
           "l": 26035.72,
-          "c": 26111.0
+          "c": 26112.29
         }
       ],
       "spark": [
         26153.53,
-        26143.57,
-        26140.52,
         26146.69,
         26126.97,
         26133.55,
@@ -2077,7 +2075,9 @@
         26099.88,
         26102.77,
         26110.35,
-        26111.0
+        26112.39,
+        26120.68,
+        26112.29
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7670.81,
-      "change_pct": 0.23,
+      "point": 7670.91,
+      "change_pct": 0.24,
       "candle": {
         "o": 7676.66,
         "h": 7686.11,
         "l": 7650.92,
-        "c": 7670.81
+        "c": 7670.91
       },
       "range_240d": {
         "low": 6343.72,
@@ -4131,13 +4131,11 @@
           "o": 7676.66,
           "h": 7686.11,
           "l": 7650.92,
-          "c": 7670.81
+          "c": 7670.91
         }
       ],
       "spark": [
         7676.66,
-        7675.53,
-        7675.21,
         7677.35,
         7673.83,
         7673.99,
@@ -4175,7 +4173,9 @@
         7670.04,
         7669.38,
         7670.72,
-        7670.81
+        7672.03,
+        7673.13,
+        7670.91
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 53566.08,
-      "change_pct": 0.28,
+      "point": 53575.82,
+      "change_pct": 0.3,
       "candle": {
         "o": 53594.92,
         "h": 53675.32,
         "l": 53386.37,
-        "c": 53566.08
+        "c": 53575.82
       },
       "range_240d": {
         "low": 45166.64,
@@ -6229,13 +6229,11 @@
           "o": 53594.92,
           "h": 53675.32,
           "l": 53386.37,
-          "c": 53566.08
+          "c": 53575.82
         }
       ],
       "spark": [
         53594.92,
-        53490.95,
-        53493.18,
         53515.23,
         53509.11,
         53510.1,
@@ -6273,7 +6271,9 @@
         53564.29,
         53560.41,
         53565.05,
-        53566.08
+        53581.83,
+        53586.23,
+        53575.82
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6298,6 +6298,13 @@
   ],
   "news_chips": [
     {
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/americas/canada-targets-u-s-metals-foods-motorcycles-in-retaliatory-tariff-package-f677222b?mod=rss_worldnews",
+      "published_ts": 1787675940.0,
+      "impact_high": true
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/25/china-iran-us-sanctions-banks-cips.html",
@@ -6305,24 +6312,17 @@
       "impact_high": true
     },
     {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/americas/canada-targets-u-s-metals-foods-motorcycles-in-retaliatory-tariff-package-f677222b?mod=rss_worldnews",
-      "published_ts": 1787670000.0,
-      "impact_high": true
-    },
-    {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/25/stanley-druckenmiller-leads-doubters-who-think-bessents-bond-ploys-will-fail.html",
-      "published_ts": 1787675254.0,
+      "source": "WSJ",
+      "url": "https://www.wsj.com/business/media/former-forbes-editor-got-6-million-for-helping-magazines-partner-with-sale-e892131a?mod=rss_markets_main",
+      "published_ts": 1787686980.0,
       "impact_high": false
     },
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/cia-director-john-ratcliffe-makes-surprise-trip-to-moscow-c1c68fa6?mod=rss_worldnews",
-      "published_ts": 1787674680.0,
+      "published_ts": 1787677560.0,
       "impact_high": false
     },
     {
@@ -6361,7 +6361,7 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "439bd26b72fa11ede093f8e7703e76f778f5ab31c3ef8cda8c3b5527cf4095bd",
+  "_article_sig": "a5d9780c2c5322c3d4fdf336202f124d243fc56c35087fc0c34cbcdda0741e14",
   "built_at_kst": "2026-08-25T07:00:52.588396+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6369,16 +6369,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/business/media/former-forbes-editor-got-6-million-for-helping-magazines-partner-with-sale-e892131a?mod=rss_markets_main"
+        },
+        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/08/25/stanley-druckenmiller-leads-doubters-who-think-bessents-bond-ploys-will-fail.html"
         },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/08/25/china-iran-us-sanctions-banks-cips.html"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/tech/ai/anthropic-expected-to-tell-investors-it-sees-over-30-trillion-in-potential-revenue-a611efea?mod=rss_markets_main"
         }
       ]
     },
@@ -6390,12 +6390,12 @@
           "url": "https://www.cnbc.com/2026/08/25/stanley-druckenmiller-leads-doubters-who-think-bessents-bond-ploys-will-fail.html"
         },
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/08/25/china-iran-us-sanctions-banks-cips.html"
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/americas/canada-targets-u-s-metals-foods-motorcycles-in-retaliatory-tariff-package-f677222b?mod=rss_worldnews"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/tech/ai/anthropic-expected-to-tell-investors-it-sees-over-30-trillion-in-potential-revenue-a611efea?mod=rss_markets_main"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/25/china-iran-us-sanctions-banks-cips.html"
         }
       ]
     },
@@ -6403,12 +6403,12 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/08/25/china-iran-us-sanctions-banks-cips.html"
-        },
-        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/americas/canada-targets-u-s-metals-foods-motorcycles-in-retaliatory-tariff-package-f677222b?mod=rss_worldnews"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/25/china-iran-us-sanctions-banks-cips.html"
         },
         {
           "name": "WSJ",
@@ -6418,18 +6418,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-08-26T04:40:05.453660+09:00",
+    "as_of_kst": "2026-08-26T04:50:08.796749+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7684.5,
-        "change_pct": 0.19,
+        "point": 7685.5,
+        "change_pct": 0.21,
         "spark": [
           7676.0,
-          7689.25,
-          7690.75,
           7690.5,
           7692.25,
           7688.75,
@@ -6467,21 +6465,23 @@
           7683.5,
           7684.5,
           7684.0,
-          7684.5
+          7685.25,
+          7686.5,
+          7685.5
         ],
         "candle": {
           "o": 7676.0,
           "h": 7714.0,
           "l": 7660.25,
-          "c": 7684.5
+          "c": 7685.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 20.29,
-          "high_change_pct": -1.76
+          "low_change_pct": 20.31,
+          "high_change_pct": -1.75
         },
         "daily_expanded": [
           {
@@ -8497,8 +8497,8 @@
             "o": 7676.0,
             "h": 7714.0,
             "l": 7660.25,
-            "c": 7684.5,
-            "v": 809789
+            "c": 7685.5,
+            "v": 822404
           }
         ],
         "rollover_gaps": [],
@@ -8510,12 +8510,12 @@
               "url": "https://www.cnbc.com/2026/08/25/stanley-druckenmiller-leads-doubters-who-think-bessents-bond-ploys-will-fail.html"
             },
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/08/25/china-iran-us-sanctions-banks-cips.html"
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/americas/canada-targets-u-s-metals-foods-motorcycles-in-retaliatory-tariff-package-f677222b?mod=rss_worldnews"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/tech/ai/anthropic-expected-to-tell-investors-it-sees-over-30-trillion-in-potential-revenue-a611efea?mod=rss_markets_main"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/08/25/china-iran-us-sanctions-banks-cips.html"
             }
           ]
         }
@@ -8523,12 +8523,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29225.25,
-        "change_pct": 0.41,
+        "point": 29235.0,
+        "change_pct": 0.44,
         "spark": [
           29140.5,
-          29286.5,
-          29293.75,
           29287.75,
           29291.75,
           29265.25,
@@ -8566,21 +8564,23 @@
           29223.75,
           29226.0,
           29227.0,
-          29225.25
+          29234.5,
+          29239.0,
+          29235.0
         ],
         "candle": {
           "o": 29140.5,
           "h": 29425.75,
           "l": 29017.0,
-          "c": 29225.25
+          "c": 29235.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 26.3,
-          "high_change_pct": -4.84
+          "low_change_pct": 26.34,
+          "high_change_pct": -4.81
         },
         "daily_expanded": [
           {
@@ -10596,8 +10596,8 @@
             "o": 29140.5,
             "h": 29425.75,
             "l": 29017.0,
-            "c": 29225.25,
-            "v": 436152
+            "c": 29235.0,
+            "v": 441198
           }
         ],
         "rollover_gaps": [],
@@ -10605,16 +10605,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/business/media/former-forbes-editor-got-6-million-for-helping-magazines-partner-with-sale-e892131a?mod=rss_markets_main"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/08/25/stanley-druckenmiller-leads-doubters-who-think-bessents-bond-ploys-will-fail.html"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/08/25/china-iran-us-sanctions-banks-cips.html"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/tech/ai/anthropic-expected-to-tell-investors-it-sees-over-30-trillion-in-potential-revenue-a611efea?mod=rss_markets_main"
             }
           ]
         }
@@ -10622,13 +10622,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53630.0,
-        "change_pct": 0.26,
+        "point": 53635.0,
+        "change_pct": 0.27,
         "spark": [
           53524.0,
-          53546.0,
-          53551.0,
-          53562.0,
           53566.0,
           53583.0,
           53579.0,
@@ -10665,20 +10662,23 @@
           53600.0,
           53614.0,
           53633.0,
-          53630.0
+          53630.0,
+          53634.0,
+          53651.0,
+          53635.0
         ],
         "candle": {
           "o": 53524.0,
           "h": 53797.0,
           "l": 53426.0,
-          "c": 53632.0
+          "c": 53635.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 18.07,
+          "low_change_pct": 18.08,
           "high_change_pct": -1.58
         },
         "daily_expanded": [
@@ -12695,8 +12695,8 @@
             "o": 53524.0,
             "h": 53797.0,
             "l": 53426.0,
-            "c": 53632.0,
-            "v": 46078
+            "c": 53635.0,
+            "v": 46701
           }
         ],
         "rollover_gaps": [],
@@ -12704,12 +12704,12 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/08/25/china-iran-us-sanctions-banks-cips.html"
-            },
-            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/americas/canada-targets-u-s-metals-foods-motorcycles-in-retaliatory-tariff-package-f677222b?mod=rss_worldnews"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/08/25/china-iran-us-sanctions-banks-cips.html"
             },
             {
               "name": "WSJ",
@@ -12720,5 +12720,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-08-26T04:40:09.467175+09:00"
+  "intraday_refreshed_kst": "2026-08-26T04:50:51.142568+09:00"
 }
