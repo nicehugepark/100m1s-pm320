@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "generated_at": "2026-08-26T13:05:21.617515",
+  "generated_at": "2026-08-26T13:07:11.211629",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -2479,8 +2479,17 @@
       "low_price": 15450,
       "industry": "일차전지 및 이차전지 제조업",
       "sector": "2차전지용 습식 분리막 및 폴더블 커버 윈도우",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "2차전지"
+      ],
+      "theme_paths": [
+        {
+          "name": "2차전지",
+          "path": [
+            "2차전지"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": true,
@@ -2700,9 +2709,9 @@
           18850
         ]
       },
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "033170",
@@ -3259,7 +3268,10 @@
       "news": [],
       "fallback": true,
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "083660",
