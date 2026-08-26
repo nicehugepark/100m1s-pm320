@@ -6274,13 +6274,6 @@
   ],
   "news_chips": [
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/thailand-central-bank-holds-rate-steady-c57eeaee?mod=rss_socialeconomyfeed",
-      "published_ts": 1787732400.0,
-      "impact_high": true
-    },
-    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/nvidia-earnings-stock-market-today-08-26-2026?mod=rss_markets_main",
@@ -6295,10 +6288,17 @@
       "impact_high": true
     },
     {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/the-u-s-is-trying-to-strangle-irans-economy-heres-how-tehran-is-surviving-ca3d4cae?mod=rss_worldnews",
+      "published_ts": 1787735160.0,
+      "impact_high": false
+    },
+    {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026082648701",
-      "published_ts": 1787734420.0,
+      "url": "https://www.hankyung.com/article/2026082648121",
+      "published_ts": 1787734945.0,
       "impact_high": false
     },
     {
@@ -6323,20 +6323,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "ea8760007dd6deeeb178d3ad2636a49b87e0aadd1f988558e05fc8b9b89d2037",
+  "_article_sig": "2989dde5253c1873e708e5a696f3b041004e41f2b52604b7f5ec7d88c9057d27",
   "built_at_kst": "2026-08-26T07:01:39.080123+09:00",
   "futures": {
-    "as_of_kst": "2026-08-26T18:00:06.071084+09:00",
+    "as_of_kst": "2026-08-26T18:10:06.579221+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7689.25,
-        "change_pct": -0.04,
+        "point": 7688.5,
+        "change_pct": -0.05,
         "spark": [
           7691.5,
-          7686.0,
           7684.5,
           7684.0,
           7685.0,
@@ -6375,21 +6374,22 @@
           7690.25,
           7689.25,
           7688.25,
-          7689.25
+          7688.5,
+          7688.5
         ],
         "candle": {
           "o": 7691.5,
           "h": 7694.0,
           "l": 7670.75,
-          "c": 7689.25
+          "c": 7688.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 20.37,
-          "high_change_pct": -1.7
+          "low_change_pct": 20.35,
+          "high_change_pct": -1.71
         },
         "daily_expanded": [
           {
@@ -8405,8 +8405,8 @@
             "o": 7691.5,
             "h": 7694.0,
             "l": 7670.75,
-            "c": 7689.25,
-            "v": 80038
+            "c": 7688.5,
+            "v": 80955
           }
         ],
         "rollover_gaps": [],
@@ -8414,16 +8414,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/the-u-s-is-trying-to-strangle-irans-economy-heres-how-tehran-is-surviving-ca3d4cae?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/thailand-central-bank-holds-rate-steady-c57eeaee?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/nvidia-earnings-stock-market-today-08-26-2026?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/stubborn-australian-inflation-adds-pressure-on-rba-572bfc69?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8431,13 +8431,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29231.25,
-        "change_pct": -0.16,
+        "point": 29227.25,
+        "change_pct": -0.17,
         "spark": [
           29288.0,
-          29245.25,
-          29248.25,
-          29234.5,
           29227.0,
           29243.0,
           29219.5,
@@ -8474,21 +8471,24 @@
           29238.5,
           29242.5,
           29231.25,
-          29231.25
+          29225.75,
+          29228.0,
+          29221.25,
+          29227.25
         ],
         "candle": {
           "o": 29288.0,
           "h": 29309.75,
           "l": 29096.0,
-          "c": 29232.75
+          "c": 29227.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 26.33,
-          "high_change_pct": -4.82
+          "low_change_pct": 26.31,
+          "high_change_pct": -4.84
         },
         "daily_expanded": [
           {
@@ -10504,8 +10504,8 @@
             "o": 29288.0,
             "h": 29309.75,
             "l": 29096.0,
-            "c": 29232.75,
-            "v": 70351
+            "c": 29227.25,
+            "v": 70861
           }
         ],
         "rollover_gaps": [],
@@ -10513,16 +10513,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/the-u-s-is-trying-to-strangle-irans-economy-heres-how-tehran-is-surviving-ca3d4cae?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/thailand-central-bank-holds-rate-steady-c57eeaee?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/nvidia-earnings-stock-market-today-08-26-2026?mod=rss_markets_main"
-            },
-            {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/202608263557i"
             }
           ]
         }
@@ -10530,12 +10530,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53705.0,
-        "change_pct": 0.11,
+        "point": 53699.0,
+        "change_pct": 0.1,
         "spark": [
           53643.0,
-          53637.0,
-          53640.0,
           53633.0,
           53639.0,
           53641.0,
@@ -10573,21 +10571,23 @@
           53700.0,
           53702.0,
           53705.0,
-          53705.0
+          53699.0,
+          53699.0,
+          53699.0
         ],
         "candle": {
           "o": 53643.0,
-          "h": 53713.0,
+          "h": 53717.0,
           "l": 53591.0,
-          "c": 53705.0
+          "c": 53699.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 18.23,
-          "high_change_pct": -1.45
+          "low_change_pct": 18.22,
+          "high_change_pct": -1.46
         },
         "daily_expanded": [
           {
@@ -12601,10 +12601,10 @@
           {
             "date": "2026-08-26",
             "o": 53643.0,
-            "h": 53713.0,
+            "h": 53717.0,
             "l": 53591.0,
-            "c": 53705.0,
-            "v": 5677
+            "c": 53699.0,
+            "v": 5754
           }
         ],
         "rollover_gaps": [],
@@ -12612,16 +12612,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/the-u-s-is-trying-to-strangle-irans-economy-heres-how-tehran-is-surviving-ca3d4cae?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/thailand-central-bank-holds-rate-steady-c57eeaee?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/stubborn-australian-inflation-adds-pressure-on-rba-572bfc69?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/americas/canada-tariffs-us-economy-impact-ef702321?mod=rss_worldnews"
             }
           ]
         }
@@ -12629,11 +12629,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-08-26T18:01:09.737491+09:00",
+  "intraday_refreshed_kst": "2026-08-26T18:10:59.751273+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/the-u-s-is-trying-to-strangle-irans-economy-heres-how-tehran-is-surviving-ca3d4cae?mod=rss_worldnews"
+        },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/thailand-central-bank-holds-rate-steady-c57eeaee?mod=rss_socialeconomyfeed"
@@ -12641,10 +12645,6 @@
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/nvidia-earnings-stock-market-today-08-26-2026?mod=rss_markets_main"
-        },
-        {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/202608263557i"
         }
       ]
     },
@@ -12652,16 +12652,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/the-u-s-is-trying-to-strangle-irans-economy-heres-how-tehran-is-surviving-ca3d4cae?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/thailand-central-bank-holds-rate-steady-c57eeaee?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/nvidia-earnings-stock-market-today-08-26-2026?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/stubborn-australian-inflation-adds-pressure-on-rba-572bfc69?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12669,16 +12669,16 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/the-u-s-is-trying-to-strangle-irans-economy-heres-how-tehran-is-surviving-ca3d4cae?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/thailand-central-bank-holds-rate-steady-c57eeaee?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/stubborn-australian-inflation-adds-pressure-on-rba-572bfc69?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/americas/canada-tariffs-us-economy-impact-ef702321?mod=rss_worldnews"
         }
       ]
     }
