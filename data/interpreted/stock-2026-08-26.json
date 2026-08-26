@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "generated_at": "2026-08-26T09:45:19.776844",
+  "generated_at": "2026-08-26T09:46:37.540975",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -321,7 +321,7 @@
           "url": "https://www.mk.co.kr/news/stock/12136055",
           "source": "매경",
           "published_at": "2026-08-25T08:47:57",
-          "causal_chain": null,
+          "causal_chain": "",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -337,7 +337,7 @@
           "url": "https://www.fnnews.com/news/202608100725148070",
           "source": "파이낸셜뉴스",
           "published_at": "2026-08-11T07:30:06.026589",
-          "causal_chain": null,
+          "causal_chain": "",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -503,7 +503,12 @@
           "l": 107600,
           "c": 132600
         }
-      ]
+      ],
+      "togusa_verdict": "weak_bull",
+      "theme_leader": true,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "006360",
@@ -961,7 +966,7 @@
           109000
         ]
       },
-      "togusa_verdict": "weak_bull",
+      "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰",
       "causal_chain": "",
@@ -979,8 +984,17 @@
       "low_price": 1781,
       "industry": "반도체 제조업",
       "sector": "반도체 패키징",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "반도체"
+      ],
+      "theme_paths": [
+        {
+          "name": "반도체",
+          "path": [
+            "반도체"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": false,
@@ -1160,9 +1174,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "900270",
