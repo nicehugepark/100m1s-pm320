@@ -6281,11 +6281,25 @@
       "impact_high": true
     },
     {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026082648141",
-      "published_ts": 1787735208.0,
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/livecoverage/nvidia-earnings-stock-market-today-08-26-2026?mod=rss_markets_main",
+      "published_ts": 1787731918.0,
       "impact_high": true
+    },
+    {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-oman-iran-talks-raise-hopes-for-hormuz-reopening-877838a6?mod=rss_worldnews",
+      "published_ts": 1787747700.0,
+      "impact_high": false
+    },
+    {
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/foreign-tourists-among-hundreds-missing-after-flash-floods-in-nepal-and-tibet-39e73ce7?mod=rss_worldnews",
+      "published_ts": 1787747700.0,
+      "impact_high": false
     },
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
@@ -6302,20 +6316,6 @@
       "impact_high": false
     },
     {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-oman-iran-talks-raise-hopes-for-hormuz-reopening-877838a6?mod=rss_worldnews",
-      "published_ts": 1787736660.0,
-      "impact_high": false
-    },
-    {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/the-u-s-is-trying-to-strangle-irans-economy-heres-how-tehran-is-surviving-ca3d4cae?mod=rss_worldnews",
-      "published_ts": 1787735160.0,
-      "impact_high": false
-    },
-    {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/stocks/tech-stocks-lead-major-indexes-higher-6291aac9?mod=rss_markets_main",
@@ -6323,21 +6323,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "0cb5901968d8ae94d1fa1d256375f21d48d748939d16724740cdec43b24fbb8f",
+  "_article_sig": "a76f5e276ca62fd4fd5703b1121e140b0b7026a388a119930eea275760e4b49b",
   "built_at_kst": "2026-08-26T07:01:39.080123+09:00",
   "futures": {
-    "as_of_kst": "2026-08-26T21:30:05.434853+09:00",
+    "as_of_kst": "2026-08-26T21:40:05.823602+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7691.0,
-        "change_pct": -0.01,
+        "point": 7684.0,
+        "change_pct": -0.1,
         "spark": [
           7691.5,
-          7686.0,
-          7686.5,
           7685.5,
           7683.75,
           7685.0,
@@ -6375,21 +6373,23 @@
           7686.25,
           7687.75,
           7687.75,
-          7691.0
+          7691.0,
+          7696.0,
+          7684.0
         ],
         "candle": {
           "o": 7691.5,
-          "h": 7694.75,
+          "h": 7698.5,
           "l": 7670.75,
-          "c": 7687.75
+          "c": 7696.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 20.34,
-          "high_change_pct": -1.72
+          "low_change_pct": 20.48,
+          "high_change_pct": -1.61
         },
         "daily_expanded": [
           {
@@ -8403,10 +8403,10 @@
           {
             "date": "2026-08-26",
             "o": 7691.5,
-            "h": 7694.75,
+            "h": 7698.5,
             "l": 7670.75,
-            "c": 7687.75,
-            "v": 115017
+            "c": 7696.25,
+            "v": 119999
           }
         ],
         "rollover_gaps": [],
@@ -8431,12 +8431,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29203.0,
-        "change_pct": -0.25,
+        "point": 29258.25,
+        "change_pct": -0.06,
         "spark": [
           29288.0,
-          29218.75,
-          29210.0,
           29196.0,
           29198.0,
           29205.75,
@@ -8474,21 +8472,23 @@
           29215.75,
           29203.25,
           29230.25,
-          29203.0
+          29257.25,
+          29177.0,
+          29258.25
         ],
         "candle": {
           "o": 29288.0,
           "h": 29309.75,
           "l": 29096.0,
-          "c": 29202.75
+          "c": 29258.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 26.2,
-          "high_change_pct": -4.92
+          "low_change_pct": 26.44,
+          "high_change_pct": -4.74
         },
         "daily_expanded": [
           {
@@ -10504,8 +10504,8 @@
             "o": 29288.0,
             "h": 29309.75,
             "l": 29096.0,
-            "c": 29202.75,
-            "v": 88982
+            "c": 29258.25,
+            "v": 91179
           }
         ],
         "rollover_gaps": [],
@@ -10514,11 +10514,11 @@
           "sources": [
             {
               "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/the-ai-prodigy-who-won-over-silicon-valleyand-lost-45-billion-24603833?mod=rss_worldnews"
+              "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-oman-iran-talks-raise-hopes-for-hormuz-reopening-877838a6?mod=rss_worldnews"
             },
             {
               "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-oman-iran-talks-raise-hopes-for-hormuz-reopening-877838a6?mod=rss_worldnews"
+              "url": "https://www.wsj.com/world/the-ai-prodigy-who-won-over-silicon-valleyand-lost-45-billion-24603833?mod=rss_worldnews"
             },
             {
               "name": "WSJ",
@@ -10530,13 +10530,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53707.0,
-        "change_pct": 0.12,
+        "point": 53776.0,
+        "change_pct": 0.24,
         "spark": [
           53643.0,
-          53691.0,
-          53683.0,
-          53679.0,
           53670.0,
           53676.0,
           53688.0,
@@ -10573,21 +10570,24 @@
           53672.0,
           53700.0,
           53707.0,
-          53707.0
+          53725.0,
+          53765.0,
+          53673.0,
+          53776.0
         ],
         "candle": {
           "o": 53643.0,
-          "h": 53717.0,
+          "h": 53778.0,
           "l": 53591.0,
-          "c": 53705.0
+          "c": 53776.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 18.23,
-          "high_change_pct": -1.45
+          "low_change_pct": 18.39,
+          "high_change_pct": -1.32
         },
         "daily_expanded": [
           {
@@ -12601,10 +12601,10 @@
           {
             "date": "2026-08-26",
             "o": 53643.0,
-            "h": 53717.0,
+            "h": 53778.0,
             "l": 53591.0,
-            "c": 53705.0,
-            "v": 7662
+            "c": 53776.0,
+            "v": 8127
           }
         ],
         "rollover_gaps": [],
@@ -12629,18 +12629,18 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-08-26T21:31:04.005145+09:00",
+  "intraday_refreshed_kst": "2026-08-26T21:40:47.503793+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
           "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/the-ai-prodigy-who-won-over-silicon-valleyand-lost-45-billion-24603833?mod=rss_worldnews"
+          "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-oman-iran-talks-raise-hopes-for-hormuz-reopening-877838a6?mod=rss_worldnews"
         },
         {
           "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-oman-iran-talks-raise-hopes-for-hormuz-reopening-877838a6?mod=rss_worldnews"
+          "url": "https://www.wsj.com/world/the-ai-prodigy-who-won-over-silicon-valleyand-lost-45-billion-24603833?mod=rss_worldnews"
         },
         {
           "name": "WSJ",
