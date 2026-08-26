@@ -6275,9 +6275,9 @@
   "news_chips": [
     {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html",
-      "published_ts": 1787748551.0,
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/feds-preferred-inflation-gauge-remains-above-target-range-cd9100c9?mod=rss_socialeconomyfeed",
+      "published_ts": 1787748660.0,
       "impact_high": true
     },
     {
@@ -6286,6 +6286,13 @@
       "url": "https://www.wsj.com/economy/central-banking/the-fed-chairman-is-heading-to-jackson-hole-without-a-clear-stance-on-inflation-eed625d3?mod=rss_socialeconomyfeed",
       "published_ts": 1787736600.0,
       "impact_high": true
+    },
+    {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/u-s-durable-goods-orders-rose-more-than-expected-in-july-3d0e2c90?mod=rss_socialeconomyfeed",
+      "published_ts": 1787748540.0,
+      "impact_high": false
     },
     {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
@@ -6299,13 +6306,6 @@
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/foreign-tourists-among-hundreds-missing-after-flash-floods-in-nepal-and-tibet-39e73ce7?mod=rss_worldnews",
       "published_ts": 1787747700.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/business/deals/vanguard-buys-wealth-management-platform-altruist-in-4-billion-deal-68e7260c?mod=rss_markets_main",
-      "published_ts": 1787746920.0,
       "impact_high": false
     },
     {
@@ -6323,21 +6323,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "0542cb989eb1a9ba8087f75d4bbb94fb95fdd4b757013cb62917c613aea708c7",
+  "_article_sig": "143aa7ee58af5eaa96d432ee982d1854720034d43c382e893ad1f78b7277548d",
   "built_at_kst": "2026-08-26T07:01:39.080123+09:00",
   "futures": {
-    "as_of_kst": "2026-08-26T21:50:04.450254+09:00",
+    "as_of_kst": "2026-08-26T22:00:05.858809+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7681.0,
-        "change_pct": -0.14,
+        "point": 7679.25,
+        "change_pct": -0.17,
         "spark": [
           7691.5,
-          7685.0,
-          7686.25,
           7686.5,
           7686.5,
           7687.5,
@@ -6375,21 +6373,23 @@
           7696.0,
           7684.0,
           7681.5,
-          7681.0
+          7681.0,
+          7683.25,
+          7679.25
         ],
         "candle": {
           "o": 7691.5,
           "h": 7698.5,
           "l": 7670.75,
-          "c": 7681.5
+          "c": 7683.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 20.24,
-          "high_change_pct": -1.8
+          "low_change_pct": 20.28,
+          "high_change_pct": -1.78
         },
         "daily_expanded": [
           {
@@ -8405,8 +8405,8 @@
             "o": 7691.5,
             "h": 7698.5,
             "l": 7670.75,
-            "c": 7681.5,
-            "v": 131800
+            "c": 7683.5,
+            "v": 137311
           }
         ],
         "rollover_gaps": [],
@@ -8414,16 +8414,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/feds-preferred-inflation-gauge-remains-above-target-range-cd9100c9?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-oman-iran-talks-raise-hopes-for-hormuz-reopening-877838a6?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/the-fed-chairman-is-heading-to-jackson-hole-without-a-clear-stance-on-inflation-eed625d3?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8431,12 +8431,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29172.75,
+        "point": 29170.5,
         "change_pct": -0.36,
         "spark": [
           29288.0,
-          29205.75,
-          29209.5,
           29214.75,
           29224.5,
           29231.25,
@@ -8474,21 +8472,23 @@
           29177.0,
           29172.75,
           29164.75,
-          29172.75
+          29175.25,
+          29145.25,
+          29170.5
         ],
         "candle": {
           "o": 29288.0,
           "h": 29309.75,
           "l": 29096.0,
-          "c": 29172.75
+          "c": 29170.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 26.07,
-          "high_change_pct": -5.01
+          "low_change_pct": 26.06,
+          "high_change_pct": -5.02
         },
         "daily_expanded": [
           {
@@ -10504,8 +10504,8 @@
             "o": 29288.0,
             "h": 29309.75,
             "l": 29096.0,
-            "c": 29172.75,
-            "v": 97927
+            "c": 29170.5,
+            "v": 101645
           }
         ],
         "rollover_gaps": [],
@@ -10513,16 +10513,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/feds-preferred-inflation-gauge-remains-above-target-range-cd9100c9?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-oman-iran-talks-raise-hopes-for-hormuz-reopening-877838a6?mod=rss_worldnews"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/the-ai-prodigy-who-won-over-silicon-valleyand-lost-45-billion-24603833?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/tech/ai/microsoft-is-leaving-investors-flying-blind-on-its-ai-businesses-3607360a?mod=rss_markets_main"
             }
           ]
         }
@@ -10530,12 +10530,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53650.0,
-        "change_pct": 0.01,
+        "point": 53672.0,
+        "change_pct": 0.05,
         "spark": [
           53643.0,
-          53676.0,
-          53688.0,
           53688.0,
           53682.0,
           53682.0,
@@ -10573,21 +10571,23 @@
           53765.0,
           53673.0,
           53650.0,
-          53650.0
+          53652.0,
+          53672.0,
+          53672.0
         ],
         "candle": {
           "o": 53643.0,
           "h": 53778.0,
           "l": 53591.0,
-          "c": 53650.0
+          "c": 53672.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 18.11,
-          "high_change_pct": -1.55
+          "low_change_pct": 18.16,
+          "high_change_pct": -1.51
         },
         "daily_expanded": [
           {
@@ -12603,8 +12603,8 @@
             "o": 53643.0,
             "h": 53778.0,
             "l": 53591.0,
-            "c": 53650.0,
-            "v": 8885
+            "c": 53672.0,
+            "v": 9102
           }
         ],
         "rollover_gaps": [],
@@ -12612,16 +12612,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/feds-preferred-inflation-gauge-remains-above-target-range-cd9100c9?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/the-fed-chairman-is-heading-to-jackson-hole-without-a-clear-stance-on-inflation-eed625d3?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/the-u-s-is-trying-to-strangle-irans-economy-heres-how-tehran-is-surviving-ca3d4cae?mod=rss_worldnews"
             }
           ]
         }
@@ -12629,11 +12629,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-08-26T21:50:40.590237+09:00",
+  "intraday_refreshed_kst": "2026-08-26T22:01:06.353790+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/feds-preferred-inflation-gauge-remains-above-target-range-cd9100c9?mod=rss_socialeconomyfeed"
+        },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-oman-iran-talks-raise-hopes-for-hormuz-reopening-877838a6?mod=rss_worldnews"
@@ -12641,10 +12645,6 @@
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/the-ai-prodigy-who-won-over-silicon-valleyand-lost-45-billion-24603833?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/tech/ai/microsoft-is-leaving-investors-flying-blind-on-its-ai-businesses-3607360a?mod=rss_markets_main"
         }
       ]
     },
@@ -12652,16 +12652,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/feds-preferred-inflation-gauge-remains-above-target-range-cd9100c9?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-oman-iran-talks-raise-hopes-for-hormuz-reopening-877838a6?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/the-fed-chairman-is-heading-to-jackson-hole-without-a-clear-stance-on-inflation-eed625d3?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12669,16 +12669,16 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/feds-preferred-inflation-gauge-remains-above-target-range-cd9100c9?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/the-fed-chairman-is-heading-to-jackson-hole-without-a-clear-stance-on-inflation-eed625d3?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/the-u-s-is-trying-to-strangle-irans-economy-heres-how-tehran-is-surviving-ca3d4cae?mod=rss_worldnews"
         }
       ]
     }
