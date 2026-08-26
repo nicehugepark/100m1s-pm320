@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "generated_at": "2026-08-26T09:26:02.519169",
+  "generated_at": "2026-08-26T09:35:18.487168",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -14,9 +14,9 @@
       "code": "010170",
       "name": "대한광통신",
       "rank": 1,
-      "trade_amount": 94413000000,
-      "change_pct": 1.41,
-      "close_price": 13690,
+      "trade_amount": 106019000000,
+      "change_pct": 0.22,
+      "close_price": 13530,
       "open_price": 13610,
       "high_price": 14800,
       "low_price": 13260,
@@ -103,17 +103,17 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": 0.21,
-      "index_multiple_current": 6.71,
-      "index_multiple_eligible": true,
+      "index_change_pct": -0.22,
+      "index_multiple_current": -1.0,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 31500,
         "high_date": "2026-05-12",
-        "high_pct": -56.54,
+        "high_pct": -57.05,
         "low": 1049,
         "low_date": "2025-09-03",
-        "low_pct": 1205.05,
-        "current": 13690
+        "low_pct": 1189.8,
+        "current": 13530
       },
       "daily_20": [
         {
@@ -254,7 +254,7 @@
           "o": 13610,
           "h": 14800,
           "l": 13260,
-          "c": 13690
+          "c": 13530
         }
       ],
       "intraday": {
@@ -266,7 +266,9 @@
           14070,
           13810,
           13700,
-          13670
+          13520,
+          13500,
+          13520
         ]
       },
       "credit_risk": true,
@@ -279,9 +281,9 @@
       "code": "001820",
       "name": "삼화콘덴서",
       "rank": 2,
-      "trade_amount": 53648000000,
-      "change_pct": 4.77,
-      "close_price": 109900,
+      "trade_amount": 60256000000,
+      "change_pct": 3.43,
+      "close_price": 108500,
       "open_price": 104300,
       "high_price": 113200,
       "low_price": 100700,
@@ -313,17 +315,17 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 1.17,
-      "index_multiple_current": 4.08,
+      "index_change_pct": 0.36,
+      "index_multiple_current": 9.53,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 196800,
         "high_date": "2026-06-18",
-        "high_pct": -44.16,
+        "high_pct": -44.87,
         "low": 25000,
         "low_date": "2025-09-01",
-        "low_pct": 339.6,
-        "current": 109900
+        "low_pct": 334.0,
+        "current": 108500
       },
       "daily_20": [
         {
@@ -464,9 +466,23 @@
           "o": 104300,
           "h": 113200,
           "l": 100700,
-          "c": 109900
+          "c": 108500
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 104300,
+        "base": 104300,
+        "prices": [
+          104300,
+          110700,
+          109800,
+          109900,
+          109000,
+          107900,
+          108000
+        ]
+      },
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰",
@@ -474,10 +490,237 @@
       "parent_theme": ""
     },
     {
-      "code": "007460",
-      "name": "에이프로젠",
+      "code": "006360",
+      "name": "GS건설",
       "rank": 3,
-      "trade_amount": 4658000000,
+      "trade_amount": 58200000000,
+      "change_pct": 5.86,
+      "close_price": 37050,
+      "open_price": 36000,
+      "high_price": 37150,
+      "low_price": 34550,
+      "industry": "건물 건설업",
+      "sector": "토목공사,건축공사,주택공사,산업플랜트공사,리모델링공사,시설물유지관리공사/산업설비설계,감리 용역,수출입/에너지관리 진단,연구개발",
+      "themes": [
+        "건설",
+        "AI데이터센터",
+        "AI 인프라"
+      ],
+      "theme_paths": [
+        {
+          "name": "건설",
+          "path": [
+            "건설"
+          ]
+        },
+        {
+          "name": "AI데이터센터",
+          "path": [
+            "AI",
+            "AI데이터센터"
+          ]
+        },
+        {
+          "name": "AI 인프라",
+          "path": [
+            "AI",
+            "AI 인프라"
+          ]
+        }
+      ],
+      "pick_count": 1,
+      "prev_pick": {
+        "date": "2026-08-20",
+        "rank": 9,
+        "change_pct": 1.86,
+        "trade_amount": 80495000000
+      },
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [
+        "2026-07-22",
+        "2026-07-23",
+        "2026-08-04"
+      ],
+      "news": [
+        {
+          "title": "\"주택실적 반등에 AI데이터센터 수혜\" GS건설 목표가↑-한화證",
+          "url": "https://www.fnnews.com/news/202608260840393403",
+          "source": "파이낸셜뉴스",
+          "published_at": "2026-08-26T09:30:03.346273",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        }
+      ],
+      "fallback": false,
+      "index_change_pct": 0.36,
+      "index_multiple_current": 16.28,
+      "index_multiple_eligible": true,
+      "range_240d": {
+        "high": 44850,
+        "high_date": "2026-04-28",
+        "high_pct": -17.39,
+        "low": 17790,
+        "low_date": "2025-09-03",
+        "low_pct": 108.26,
+        "current": 37050
+      },
+      "daily_20": [
+        {
+          "date": "2026-07-29",
+          "o": 25750,
+          "h": 26050,
+          "l": 20900,
+          "c": 22200
+        },
+        {
+          "date": "2026-07-30",
+          "o": 21500,
+          "h": 24000,
+          "l": 21500,
+          "c": 22250
+        },
+        {
+          "date": "2026-07-31",
+          "o": 23850,
+          "h": 24250,
+          "l": 22700,
+          "c": 23450
+        },
+        {
+          "date": "2026-08-03",
+          "o": 23400,
+          "h": 25700,
+          "l": 23150,
+          "c": 24250
+        },
+        {
+          "date": "2026-08-04",
+          "o": 24500,
+          "h": 29150,
+          "l": 24250,
+          "c": 28750
+        },
+        {
+          "date": "2026-08-05",
+          "o": 29100,
+          "h": 32350,
+          "l": 28000,
+          "c": 31150
+        },
+        {
+          "date": "2026-08-06",
+          "o": 30900,
+          "h": 33900,
+          "l": 30700,
+          "c": 32600
+        },
+        {
+          "date": "2026-08-07",
+          "o": 32550,
+          "h": 33150,
+          "l": 31300,
+          "c": 31650
+        },
+        {
+          "date": "2026-08-10",
+          "o": 32150,
+          "h": 35050,
+          "l": 32000,
+          "c": 34900
+        },
+        {
+          "date": "2026-08-11",
+          "o": 34200,
+          "h": 36200,
+          "l": 33050,
+          "c": 34750
+        },
+        {
+          "date": "2026-08-12",
+          "o": 35150,
+          "h": 36100,
+          "l": 34000,
+          "c": 35200
+        },
+        {
+          "date": "2026-08-13",
+          "o": 35450,
+          "h": 36650,
+          "l": 34700,
+          "c": 35700
+        },
+        {
+          "date": "2026-08-14",
+          "o": 36450,
+          "h": 36650,
+          "l": 33750,
+          "c": 35350
+        },
+        {
+          "date": "2026-08-18",
+          "o": 35050,
+          "h": 36000,
+          "l": 33650,
+          "c": 34150
+        },
+        {
+          "date": "2026-08-19",
+          "o": 33050,
+          "h": 35900,
+          "l": 32100,
+          "c": 34950
+        },
+        {
+          "date": "2026-08-20",
+          "o": 35100,
+          "h": 36800,
+          "l": 34550,
+          "c": 35600
+        },
+        {
+          "date": "2026-08-21",
+          "o": 34700,
+          "h": 35100,
+          "l": 32300,
+          "c": 33250
+        },
+        {
+          "date": "2026-08-24",
+          "o": 33200,
+          "h": 34300,
+          "l": 32800,
+          "c": 33900
+        },
+        {
+          "date": "2026-08-25",
+          "o": 33900,
+          "h": 35450,
+          "l": 32650,
+          "c": 35000
+        },
+        {
+          "date": "2026-08-26",
+          "o": 36000,
+          "h": 37150,
+          "l": 34550,
+          "c": 37050
+        }
+      ]
+    },
+    {
+      "code": "033170",
+      "name": "시그네틱스",
+      "rank": 4,
+      "trade_amount": 2217000000,
       "change_pct": null,
       "close_price": null,
       "open_price": null,
@@ -495,16 +738,13 @@
       "news": [],
       "fallback": true,
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "credit_reason": "신용거래 제한 종목"
     },
     {
       "code": "373110",
       "name": "엑셀세라퓨틱스",
-      "rank": 4,
-      "trade_amount": 1520000000,
+      "rank": 5,
+      "trade_amount": 1585000000,
       "change_pct": 30.0,
       "close_price": 1482,
       "open_price": 1197,
@@ -532,9 +772,9 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 0.21,
-      "index_multiple_current": 142.86,
-      "index_multiple_eligible": true,
+      "index_change_pct": -0.22,
+      "index_multiple_current": -136.36,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 3557,
         "high_date": "2025-09-22",
@@ -695,6 +935,8 @@
           1467,
           1482,
           1482,
+          1482,
+          1482,
           1482
         ]
       },
@@ -709,8 +951,8 @@
     {
       "code": "900270",
       "name": "헝셩그룹",
-      "rank": 5,
-      "trade_amount": 1071000000,
+      "rank": 6,
+      "trade_amount": 1104000000,
       "change_pct": 29.85,
       "close_price": 3545,
       "open_price": 3485,
@@ -792,9 +1034,9 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": 0.21,
-      "index_multiple_current": 142.14,
-      "index_multiple_eligible": true,
+      "index_change_pct": -0.22,
+      "index_multiple_current": -135.68,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 14961,
         "high_date": "2025-07-04",
@@ -954,6 +1196,8 @@
           3485,
           3545,
           3545,
+          3545,
+          3545,
           3545
         ]
       },
@@ -966,8 +1210,8 @@
     {
       "code": "083660",
       "name": "CSA 코스믹",
-      "rank": 6,
-      "trade_amount": 132000000,
+      "rank": 7,
+      "trade_amount": 140000000,
       "change_pct": 30.0,
       "close_price": 1859,
       "open_price": 1550,
@@ -992,9 +1236,9 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 0.21,
-      "index_multiple_current": 142.86,
-      "index_multiple_eligible": true,
+      "index_change_pct": -0.22,
+      "index_multiple_current": -136.36,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 17259,
         "high_date": "2025-07-28",
@@ -1152,6 +1396,8 @@
         "base": 1550,
         "prices": [
           1550,
+          1859,
+          1859,
           1859,
           1859,
           1859,
