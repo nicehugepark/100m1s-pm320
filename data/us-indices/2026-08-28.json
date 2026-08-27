@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26519.14,
-      "change_pct": 1.49,
+      "point": 26506.82,
+      "change_pct": 1.44,
       "candle": {
         "o": 26365.29,
         "h": 26553.27,
         "l": 26273.87,
-        "c": 26519.14
+        "c": 26506.82
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,13 +2033,11 @@
           "o": 26365.29,
           "h": 26553.27,
           "l": 26273.87,
-          "c": 26519.14
+          "c": 26506.82
         }
       ],
       "spark": [
         26365.29,
-        26448.63,
-        26421.14,
         26403.13,
         26413.67,
         26448.57,
@@ -2077,7 +2075,9 @@
         26520.37,
         26519.96,
         26519.15,
-        26519.14
+        26519.27,
+        26505.73,
+        26506.82
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7735.26,
-      "change_pct": 0.78,
+      "point": 7732.1,
+      "change_pct": 0.73,
       "candle": {
         "o": 7710.34,
         "h": 7741.27,
         "l": 7689.89,
-        "c": 7735.26
+        "c": 7732.1
       },
       "range_240d": {
         "low": 6343.72,
@@ -4131,13 +4131,11 @@
           "o": 7710.34,
           "h": 7741.27,
           "l": 7689.89,
-          "c": 7735.26
+          "c": 7732.1
         }
       ],
       "spark": [
         7710.34,
-        7714.15,
-        7711.18,
         7711.24,
         7713.73,
         7720.62,
@@ -4175,7 +4173,9 @@
         7735.14,
         7735.4,
         7735.2,
-        7735.26
+        7734.6,
+        7731.75,
+        7732.1
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 53668.67,
-      "change_pct": 0.38,
+      "point": 53646.28,
+      "change_pct": 0.34,
       "candle": {
         "o": 53613.66,
         "h": 53707.62,
         "l": 53345.62,
-        "c": 53668.67
+        "c": 53646.28
       },
       "range_240d": {
         "low": 45166.64,
@@ -6229,13 +6229,11 @@
           "o": 53613.66,
           "h": 53707.62,
           "l": 53345.62,
-          "c": 53668.67
+          "c": 53646.28
         }
       ],
       "spark": [
         53613.66,
-        53470.45,
-        53514.98,
         53565.15,
         53591.4,
         53638.93,
@@ -6273,7 +6271,9 @@
         53653.27,
         53677.16,
         53663.28,
-        53668.67
+        53665.61,
+        53644.23,
+        53646.28
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6298,6 +6298,13 @@
   ],
   "news_chips": [
     {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/27/feds-hammack-says-now-is-the-time-to-act-on-raising-interest-rates.html",
+      "published_ts": 1787851869.0,
+      "impact_high": true
+    },
+    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026082780231",
@@ -6312,18 +6319,11 @@
       "impact_high": true
     },
     {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/27/feds-hammack-says-now-is-the-time-to-act-on-raising-interest-rates.html",
-      "published_ts": 1787846538.0,
-      "impact_high": true
-    },
-    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/us-news/law/takeaways-from-jes-staleys-testimony-about-epstein-b51036f9?mod=rss_markets_main",
-      "published_ts": 1787837700.0,
-      "impact_high": true
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/iran-talks-sputter-as-trump-spurns-a-return-to-his-june-deal-f4c2eab7?mod=rss_worldnews",
+      "published_ts": 1787852640.0,
+      "impact_high": false
     },
     {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
@@ -6368,7 +6368,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "8461a880452b51eb4558e5941f3c878c2483657e668be04569726786d8ca152c",
+  "_article_sig": "3b1dd053e73508a46736f860e65c4b59b8788d20561852ebcf40f9800fb8b593",
   "built_at_kst": "2026-08-27T07:01:06.764044+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6376,25 +6376,8 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/nasdaq-futures-buoyed-by-nvidia-earnings-software-as-oil-falls-ff5cea2d?mod=rss_markets_main"
-        },
-        {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/2026082780231"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/bessents-moves-test-boundaries-between-treasury-and-fed-8db4af4a?mod=rss_socialeconomyfeed"
-        }
-      ]
-    },
-    "S&P500": {
-      "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
-      "sources": [
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/bessents-moves-test-boundaries-between-treasury-and-fed-8db4af4a?mod=rss_socialeconomyfeed"
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/iran-talks-sputter-as-trump-spurns-a-return-to-his-june-deal-f4c2eab7?mod=rss_worldnews"
         },
         {
           "name": "CNBC",
@@ -6402,7 +6385,24 @@
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/business/earnings/td-banky-earnings-lifted-by-growth-in-canada-capital-markets-activity-ba64e9cd?mod=rss_markets_main"
+          "url": "https://www.wsj.com/finance/stocks/nasdaq-futures-buoyed-by-nvidia-earnings-software-as-oil-falls-ff5cea2d?mod=rss_markets_main"
+        }
+      ]
+    },
+    "S&P500": {
+      "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/iran-talks-sputter-as-trump-spurns-a-return-to-his-june-deal-f4c2eab7?mod=rss_worldnews"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/27/feds-hammack-says-now-is-the-time-to-act-on-raising-interest-rates.html"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/bessents-moves-test-boundaries-between-treasury-and-fed-8db4af4a?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -6425,18 +6425,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-08-28T02:40:06.090765+09:00",
+    "as_of_kst": "2026-08-28T02:50:06.447534+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7749.5,
+        "point": 7749.0,
         "change_pct": 0.77,
         "spark": [
           7722.0,
-          7726.25,
-          7728.5,
           7725.25,
           7725.0,
           7727.75,
@@ -6474,21 +6472,23 @@
           7753.75,
           7749.0,
           7749.25,
-          7749.5
+          7749.0,
+          7747.75,
+          7749.0
         ],
         "candle": {
           "o": 7722.0,
           "h": 7755.5,
           "l": 7702.75,
-          "c": 7749.5
+          "c": 7749.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.31,
-          "high_change_pct": -0.93
+          "low_change_pct": 21.3,
+          "high_change_pct": -0.94
         },
         "daily_expanded": [
           {
@@ -8504,8 +8504,8 @@
             "o": 7722.0,
             "h": 7755.5,
             "l": 7702.75,
-            "c": 7749.5,
-            "v": 864312
+            "c": 7749.0,
+            "v": 876551
           }
         ],
         "rollover_gaps": [],
@@ -8513,16 +8513,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/bessents-moves-test-boundaries-between-treasury-and-fed-8db4af4a?mod=rss_socialeconomyfeed"
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/iran-talks-sputter-as-trump-spurns-a-return-to-his-june-deal-f4c2eab7?mod=rss_worldnews"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/08/27/feds-hammack-says-now-is-the-time-to-act-on-raising-interest-rates.html"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/business/earnings/td-banky-earnings-lifted-by-growth-in-canada-capital-markets-activity-ba64e9cd?mod=rss_markets_main"
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/bessents-moves-test-boundaries-between-treasury-and-fed-8db4af4a?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8530,12 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29640.25,
-        "change_pct": 1.2,
+        "point": 29633.0,
+        "change_pct": 1.17,
         "spark": [
           29499.5,
-          29593.0,
-          29606.75,
           29573.25,
           29544.0,
           29558.25,
@@ -8573,21 +8571,23 @@
           29673.0,
           29641.5,
           29638.25,
-          29640.25
+          29632.5,
+          29628.75,
+          29633.0
         ],
         "candle": {
           "o": 29499.5,
           "h": 29677.0,
           "l": 29401.75,
-          "c": 29640.25
+          "c": 29632.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 28.09,
-          "high_change_pct": -3.49
+          "low_change_pct": 28.06,
+          "high_change_pct": -3.52
         },
         "daily_expanded": [
           {
@@ -10603,8 +10603,8 @@
             "o": 29499.5,
             "h": 29677.0,
             "l": 29401.75,
-            "c": 29640.25,
-            "v": 426106
+            "c": 29632.25,
+            "v": 432123
           }
         ],
         "rollover_gaps": [],
@@ -10612,16 +10612,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/iran-talks-sputter-as-trump-spurns-a-return-to-his-june-deal-f4c2eab7?mod=rss_worldnews"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/08/27/feds-hammack-says-now-is-the-time-to-act-on-raising-interest-rates.html"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/nasdaq-futures-buoyed-by-nvidia-earnings-software-as-oil-falls-ff5cea2d?mod=rss_markets_main"
-            },
-            {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/2026082780231"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/bessents-moves-test-boundaries-between-treasury-and-fed-8db4af4a?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10629,12 +10629,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53716.0,
-        "change_pct": 0.36,
+        "point": 53722.0,
+        "change_pct": 0.38,
         "spark": [
           53724.0,
-          53536.0,
-          53526.0,
           53571.0,
           53618.0,
           53647.0,
@@ -10672,21 +10670,23 @@
           53711.0,
           53713.0,
           53729.0,
-          53716.0
+          53719.0,
+          53718.0,
+          53722.0
         ],
         "candle": {
           "o": 53724.0,
           "h": 53811.0,
           "l": 53369.0,
-          "c": 53716.0
+          "c": 53722.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 18.25,
-          "high_change_pct": -1.43
+          "low_change_pct": 18.27,
+          "high_change_pct": -1.42
         },
         "daily_expanded": [
           {
@@ -12702,8 +12702,8 @@
             "o": 53724.0,
             "h": 53811.0,
             "l": 53369.0,
-            "c": 53716.0,
-            "v": 42181
+            "c": 53722.0,
+            "v": 42681
           }
         ],
         "rollover_gaps": [],
@@ -12727,5 +12727,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-08-28T02:40:10.788605+09:00"
+  "intraday_refreshed_kst": "2026-08-28T02:50:34.729557+09:00"
 }
