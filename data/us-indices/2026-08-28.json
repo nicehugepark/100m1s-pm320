@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/202608288135i",
+      "published_ts": 1787866307.0,
+      "impact_high": true
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/stocks/nvidias-victory-lap-bbe710b5?mod=rss_markets_main",
@@ -6293,6 +6300,13 @@
       "url": "https://www.wsj.com/economy/central-banking/bessents-moves-test-boundaries-between-treasury-and-fed-8db4af4a?mod=rss_socialeconomyfeed",
       "published_ts": 1787849100.0,
       "impact_high": true
+    },
+    {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/202608288161i",
+      "published_ts": 1787867737.0,
+      "impact_high": false
     },
     {
       "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
@@ -6316,13 +6330,6 @@
       "impact_high": false
     },
     {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/india/more-than-1-400-missing-in-nepal-and-china-in-floods-likely-sparked-by-glacier-break-39fb0cac?mod=rss_worldnews",
-      "published_ts": 1787853660.0,
-      "impact_high": false
-    },
-    {
       "summary": "기업 실적과 가이던스 변화가 대형주 중심의 선별 흐름을 강화하는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/banking/royal-bank-of-canada-notches-record-income-fc748b0c?mod=rss_markets_main",
@@ -6335,19 +6342,12 @@
       "url": "https://www.hankyung.com/article/202608278007i",
       "published_ts": 1787837205.0,
       "impact_high": false
-    },
-    {
-      "summary": "반도체 수요와 공급망 뉴스가 기술주 투자심리의 핵심 변수로 작용하는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026082779061",
-      "published_ts": 1787826955.0,
-      "impact_high": false
     }
   ],
-  "_article_sig": "9cdb768b7d21512152f5543e6b39dd6457485b0a84284bc1240178576c452f29",
+  "_article_sig": "d40275cdb38a1e29860531932d1e34efcc519558a598a3fd33c1e25c51e0c8ca",
   "built_at_kst": "2026-08-28T07:00:43.937266+09:00",
   "futures": {
-    "as_of_kst": "2026-08-28T07:10:04.373133+09:00",
+    "as_of_kst": "2026-08-28T07:20:04.396156+09:00",
     "session_open": true,
     "futures": [
       {
@@ -6357,7 +6357,6 @@
         "change_pct": -0.13,
         "spark": [
           7733.75,
-          7745.0,
           7743.75,
           7737.0,
           7736.5,
@@ -6396,20 +6395,21 @@
           7732.0,
           7733.0,
           7731.75,
+          7732.75,
           7732.75
         ],
         "candle": {
           "o": 7733.75,
-          "h": 7733.75,
-          "l": 7732.25,
-          "c": 7732.75
+          "h": 7734.75,
+          "l": 7727.5,
+          "c": 7732.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.05,
+          "low_change_pct": 21.04,
           "high_change_pct": -1.15
         },
         "daily_expanded": [
@@ -8424,23 +8424,38 @@
           {
             "date": "2026-08-27",
             "o": 7733.75,
-            "h": 7733.75,
-            "l": 7732.25,
-            "c": 7732.75,
-            "v": 107
+            "h": 7734.75,
+            "l": 7727.5,
+            "c": 7732.5,
+            "v": 1982
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/trump-family-crypto-bank-backed-by-abu-dhabi-royal-f18bb424?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-4b1349cb?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/a-walk-around-dubai-shows-no-signs-of-trumps-d-day-for-iran-a51d28e7?mod=rss_worldnews"
+            }
+          ]
+        }
       },
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29628.75,
-        "change_pct": -0.23,
+        "point": 29624.25,
+        "change_pct": -0.24,
         "spark": [
           29635.5,
-          29625.25,
-          29611.5,
           29574.5,
           29581.0,
           29577.0,
@@ -8478,21 +8493,23 @@
           29624.75,
           29635.25,
           29617.0,
-          29628.75
+          29624.25,
+          29620.5,
+          29624.25
         ],
         "candle": {
           "o": 29635.5,
-          "h": 29635.75,
-          "l": 29622.25,
-          "c": 29634.75
+          "h": 29644.75,
+          "l": 29600.0,
+          "c": 29624.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 28.07,
-          "high_change_pct": -3.51
+          "low_change_pct": 28.02,
+          "high_change_pct": -3.54
         },
         "daily_expanded": [
           {
@@ -10506,22 +10523,38 @@
           {
             "date": "2026-08-27",
             "o": 29635.5,
-            "h": 29635.75,
-            "l": 29622.25,
-            "c": 29634.75,
-            "v": 112
+            "h": 29644.75,
+            "l": 29600.0,
+            "c": 29624.25,
+            "v": 1775
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/202608288135i"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/nvidia-breaks-its-post-earnings-curse-with-442-billion-day-ce412657?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/nvidias-victory-lap-bbe710b5?mod=rss_markets_main"
+            }
+          ]
+        }
       },
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53608.0,
-        "change_pct": -0.02,
+        "point": 53605.0,
+        "change_pct": -0.03,
         "spark": [
           53608.0,
-          53682.0,
           53664.0,
           53635.0,
           53620.0,
@@ -10560,20 +10593,21 @@
           53605.0,
           53600.0,
           53604.0,
-          53608.0
+          53605.0,
+          53605.0
         ],
         "candle": {
           "o": 53608.0,
-          "h": 53611.0,
-          "l": 53603.0,
-          "c": 53608.0
+          "h": 53613.0,
+          "l": 53585.0,
+          "c": 53605.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 18.02,
+          "low_change_pct": 18.01,
           "high_change_pct": -1.63
         },
         "daily_expanded": [
@@ -12588,16 +12622,86 @@
           {
             "date": "2026-08-27",
             "o": 53608.0,
-            "h": 53611.0,
-            "l": 53603.0,
-            "c": 53608.0,
-            "v": 11
+            "h": 53613.0,
+            "l": 53585.0,
+            "c": 53605.0,
+            "v": 54
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+          "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/trump-family-crypto-bank-backed-by-abu-dhabi-royal-f18bb424?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-4b1349cb?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/a-walk-around-dubai-shows-no-signs-of-trumps-d-day-for-iran-a51d28e7?mod=rss_worldnews"
+            }
+          ]
+        }
       }
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-08-28T07:10:08.046230+09:00"
+  "intraday_refreshed_kst": "2026-08-28T07:20:33.678384+09:00",
+  "_futures_news": {
+    "NASDAQ": {
+      "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/202608288135i"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/nvidia-breaks-its-post-earnings-curse-with-442-billion-day-ce412657?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/nvidias-victory-lap-bbe710b5?mod=rss_markets_main"
+        }
+      ]
+    },
+    "S&P500": {
+      "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/trump-family-crypto-bank-backed-by-abu-dhabi-royal-f18bb424?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-4b1349cb?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/a-walk-around-dubai-shows-no-signs-of-trumps-d-day-for-iran-a51d28e7?mod=rss_worldnews"
+        }
+      ]
+    },
+    "DOW": {
+      "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/trump-family-crypto-bank-backed-by-abu-dhabi-royal-f18bb424?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-4b1349cb?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/a-walk-around-dubai-shows-no-signs-of-trumps-d-day-for-iran-a51d28e7?mod=rss_worldnews"
+        }
+      ]
+    }
+  }
 }
