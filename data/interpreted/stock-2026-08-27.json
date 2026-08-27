@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "generated_at": "2026-08-27T13:25:17.723789",
+  "generated_at": "2026-08-27T13:27:01.639599",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -2021,11 +2021,17 @@
       "industry": null,
       "sector": null,
       "themes": [
+        "무상증자",
         "AI데이터센터",
-        "케이블",
-        "무상증자"
+        "케이블"
       ],
       "theme_paths": [
+        {
+          "name": "무상증자",
+          "path": [
+            "무상증자"
+          ]
+        },
         {
           "name": "AI데이터센터",
           "path": [
@@ -2037,12 +2043,6 @@
           "name": "케이블",
           "path": [
             "케이블"
-          ]
-        },
-        {
-          "name": "무상증자",
-          "path": [
-            "무상증자"
           ]
         }
       ],
@@ -2134,19 +2134,15 @@
         }
       ],
       "fallback": true,
-      "cafe_themes": [
-        "무상증자"
-      ],
       "theme_crosscheck": {
         "confirmed": [
+          "무상증자",
           "케이블"
         ],
         "pm320_only": [
           "AI데이터센터"
         ],
-        "cafe_only": [
-          "무상증자"
-        ]
+        "cafe_only": []
       },
       "range_240d": {
         "high": 352870,
@@ -2156,7 +2152,10 @@
         "low_date": "2025-10-13",
         "low_pct": 868.18,
         "current": null
-      }
+      },
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "043200",
@@ -2194,7 +2193,7 @@
           "url": "https://www.mk.co.kr/news/business/12136512",
           "source": "매경",
           "published_at": "2026-08-26T01:30:28",
-          "causal_chain": null,
+          "causal_chain": "",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -2210,7 +2209,7 @@
           "url": "https://www.mk.co.kr/news/business/12115133",
           "source": "매경",
           "published_at": "2026-08-03T05:20:19",
-          "causal_chain": null,
+          "causal_chain": "",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -2441,7 +2440,9 @@
       "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": false,
-      "hugepark_grade": "관찰"
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "084110",
