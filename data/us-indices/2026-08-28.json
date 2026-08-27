@@ -6319,6 +6319,13 @@
       "impact_high": true
     },
     {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/stocks/nvidia-breaks-its-post-earnings-curse-with-442-billion-day-ce412657?mod=rss_markets_main",
+      "published_ts": 1787864280.0,
+      "impact_high": false
+    },
+    {
       "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/currencies/trump-familys-new-crypto-bank-is-backed-by-abu-dhabi-sheikh-38579473?mod=rss_markets_main",
@@ -6330,13 +6337,6 @@
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/india/more-than-1-400-missing-in-nepal-and-china-in-floods-likely-sparked-by-glacier-break-39fb0cac?mod=rss_worldnews",
       "published_ts": 1787853660.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/nasdaq-futures-buoyed-by-nvidia-earnings-software-as-oil-falls-ff5cea2d?mod=rss_markets_main",
-      "published_ts": 1787849580.0,
       "impact_high": false
     },
     {
@@ -6368,7 +6368,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "c1d1608248a2b044da90b33a2f3d5c33265bed8fe894bfecea2d3408e440b7f9",
+  "_article_sig": "0d98a8905f9186e2338c61c2d328d81962166747f966d22f55832607f8fa8aab",
   "built_at_kst": "2026-08-27T07:01:06.764044+09:00",
   "regular_open": false,
   "_futures_news": {
@@ -6377,15 +6377,15 @@
       "sources": [
         {
           "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/nvidia-breaks-its-post-earnings-curse-with-442-billion-day-ce412657?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/nvidias-victory-lap-bbe710b5?mod=rss_markets_main"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/a-walk-around-dubai-shows-no-signs-of-trumps-d-day-for-iran-a51d28e7?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/iran-talks-sputter-as-trump-spurns-a-return-to-his-june-deal-f4c2eab7?mod=rss_worldnews"
         }
       ]
     },
@@ -6425,18 +6425,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-08-28T06:00:08.473902+09:00",
+    "as_of_kst": "2026-08-28T06:10:08.698494+09:00",
     "session_open": false,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7732.75,
+        "point": 7733.0,
         "change_pct": 0.56,
         "spark": [
           7722.0,
-          7749.0,
-          7747.75,
           7745.5,
           7745.0,
           7743.75,
@@ -6474,21 +6472,23 @@
           7733.0,
           7733.75,
           7732.75,
-          7732.75
+          7732.0,
+          7732.5,
+          7733.0
         ],
         "candle": {
           "o": 7722.0,
           "h": 7755.5,
           "l": 7702.75,
-          "c": 7732.5
+          "c": 7733.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.04,
-          "high_change_pct": -1.15
+          "low_change_pct": 21.05,
+          "high_change_pct": -1.14
         },
         "daily_expanded": [
           {
@@ -8504,8 +8504,8 @@
             "o": 7722.0,
             "h": 7755.5,
             "l": 7702.75,
-            "c": 7732.5,
-            "v": 1275548
+            "c": 7733.0,
+            "v": 1277999
           }
         ],
         "rollover_gaps": [],
@@ -8530,11 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29629.5,
-        "change_pct": 1.16,
+        "point": 29635.25,
+        "change_pct": 1.18,
         "spark": [
           29499.5,
-          29628.75,
           29618.0,
           29625.25,
           29611.5,
@@ -8573,21 +8572,22 @@
           29639.75,
           29630.75,
           29624.75,
-          29629.5
+          29632.25,
+          29635.25
         ],
         "candle": {
           "o": 29499.5,
           "h": 29708.0,
           "l": 29401.75,
-          "c": 29629.5
+          "c": 29635.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 28.05,
-          "high_change_pct": -3.53
+          "low_change_pct": 28.07,
+          "high_change_pct": -3.51
         },
         "daily_expanded": [
           {
@@ -10603,8 +10603,8 @@
             "o": 29499.5,
             "h": 29708.0,
             "l": 29401.75,
-            "c": 29629.5,
-            "v": 559545
+            "c": 29635.25,
+            "v": 560772
           }
         ],
         "rollover_gaps": [],
@@ -10613,15 +10613,15 @@
           "sources": [
             {
               "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/nvidia-breaks-its-post-earnings-curse-with-442-billion-day-ce412657?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/nvidias-victory-lap-bbe710b5?mod=rss_markets_main"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/a-walk-around-dubai-shows-no-signs-of-trumps-d-day-for-iran-a51d28e7?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/iran-talks-sputter-as-trump-spurns-a-return-to-his-june-deal-f4c2eab7?mod=rss_worldnews"
             }
           ]
         }
@@ -10629,11 +10629,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53602.0,
+        "point": 53600.0,
         "change_pct": 0.15,
         "spark": [
           53724.0,
-          53718.0,
           53698.0,
           53682.0,
           53664.0,
@@ -10672,13 +10671,14 @@
           53602.0,
           53603.0,
           53605.0,
-          53602.0
+          53603.0,
+          53600.0
         ],
         "candle": {
           "o": 53724.0,
           "h": 53811.0,
           "l": 53369.0,
-          "c": 53602.0
+          "c": 53600.0
         },
         "range_240d": {
           "low": 45424.0,
@@ -12702,8 +12702,8 @@
             "o": 53724.0,
             "h": 53811.0,
             "l": 53369.0,
-            "c": 53602.0,
-            "v": 55960
+            "c": 53600.0,
+            "v": 56044
           }
         ],
         "rollover_gaps": [],
@@ -12727,5 +12727,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-08-28T06:00:12.136068+09:00"
+  "intraday_refreshed_kst": "2026-08-28T06:10:33.296065+09:00"
 }
