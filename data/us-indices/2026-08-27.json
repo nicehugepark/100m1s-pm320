@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/investing/kevin-warsh-has-to-pick-a-side-in-the-bond-market-battle-d1229f20?mod=rss_markets_main",
+      "published_ts": 1787826600.0,
+      "impact_high": true
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/the-russia-ukraine-war-gets-more-ruthless-and-destructivebut-no-closer-to-ending-2af495fb?mod=rss_worldnews",
@@ -6321,30 +6328,21 @@
       "url": "https://www.hankyung.com/article/2026082777111",
       "published_ts": 1787822623.0,
       "impact_high": false
-    },
-    {
-      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/19/trump-bemoans-fed-interest-rate-policy-says-us-should-be-paying-much-less.html",
-      "published_ts": 1787174978.0,
-      "impact_high": true
     }
   ],
-  "_article_sig": "6f877d11060513018ba3363e5577b6d11cc15945f2a0c0245db4de0e5ec0f514",
+  "_article_sig": "676606386aed073990f34b4ed67301a060a18d92a5d5abe8d07dd78562481bcc",
   "built_at_kst": "2026-08-27T07:01:06.764044+09:00",
   "futures": {
-    "as_of_kst": "2026-08-27T19:30:05.074052+09:00",
+    "as_of_kst": "2026-08-27T19:40:09.004714+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7722.5,
-        "change_pct": 0.42,
+        "point": 7720.25,
+        "change_pct": 0.39,
         "spark": [
           7722.0,
-          7719.25,
-          7720.75,
           7720.5,
           7718.5,
           7721.25,
@@ -6382,21 +6380,23 @@
           7722.75,
           7721.75,
           7721.25,
-          7722.5
+          7720.0,
+          7720.5,
+          7720.25
         ],
         "candle": {
           "o": 7722.0,
           "h": 7741.25,
           "l": 7707.0,
-          "c": 7722.5
+          "c": 7720.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 20.89,
-          "high_change_pct": -1.28
+          "low_change_pct": 20.85,
+          "high_change_pct": -1.31
         },
         "daily_expanded": [
           {
@@ -8412,8 +8412,8 @@
             "o": 7722.0,
             "h": 7741.25,
             "l": 7707.0,
-            "c": 7722.5,
-            "v": 134533
+            "c": 7720.25,
+            "v": 135940
           }
         ],
         "rollover_gaps": [],
@@ -8421,16 +8421,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/kevin-warsh-has-to-pick-a-side-in-the-bond-market-battle-d1229f20?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/the-russia-ukraine-war-gets-more-ruthless-and-destructivebut-no-closer-to-ending-2af495fb?mod=rss_worldnews"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/global/think-treasurys-are-having-a-rough-summer-its-even-uglier-abroad-7224cf70?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/2026082777081"
             }
           ]
         }
@@ -8438,12 +8438,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29591.5,
-        "change_pct": 1.03,
+        "point": 29580.0,
+        "change_pct": 0.99,
         "spark": [
           29499.5,
-          29521.0,
-          29535.75,
           29537.75,
           29528.75,
           29548.25,
@@ -8481,21 +8479,23 @@
           29598.75,
           29583.75,
           29586.5,
-          29591.5
+          29579.75,
+          29582.75,
+          29580.0
         ],
         "candle": {
           "o": 29499.5,
           "h": 29660.5,
           "l": 29401.75,
-          "c": 29591.5
+          "c": 29580.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.88,
-          "high_change_pct": -3.65
+          "low_change_pct": 27.83,
+          "high_change_pct": -3.69
         },
         "daily_expanded": [
           {
@@ -10511,8 +10511,8 @@
             "o": 29499.5,
             "h": 29660.5,
             "l": 29401.75,
-            "c": 29591.5,
-            "v": 109028
+            "c": 29580.0,
+            "v": 109727
           }
         ],
         "rollover_gaps": [],
@@ -10520,16 +10520,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/kevin-warsh-has-to-pick-a-side-in-the-bond-market-battle-d1229f20?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/the-russia-ukraine-war-gets-more-ruthless-and-destructivebut-no-closer-to-ending-2af495fb?mod=rss_worldnews"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/tech/ai/nvidias-279-billion-supply-chain-gamble-cbe316d2?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/global/bank-lending-to-eurozone-businesses-fell-again-in-july-48f676af?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10537,12 +10537,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53484.0,
-        "change_pct": -0.07,
+        "point": 53466.0,
+        "change_pct": -0.1,
         "spark": [
           53724.0,
-          53645.0,
-          53646.0,
           53644.0,
           53628.0,
           53637.0,
@@ -10580,21 +10578,23 @@
           53473.0,
           53481.0,
           53474.0,
-          53484.0
+          53467.0,
+          53466.0,
+          53466.0
         ],
         "candle": {
           "o": 53724.0,
           "h": 53811.0,
-          "l": 53469.0,
-          "c": 53484.0
+          "l": 53448.0,
+          "c": 53466.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 17.74,
-          "high_change_pct": -1.85
+          "low_change_pct": 17.7,
+          "high_change_pct": -1.89
         },
         "daily_expanded": [
           {
@@ -12609,9 +12609,9 @@
             "date": "2026-08-27",
             "o": 53724.0,
             "h": 53811.0,
-            "l": 53469.0,
-            "c": 53484.0,
-            "v": 9077
+            "l": 53448.0,
+            "c": 53466.0,
+            "v": 9213
           }
         ],
         "rollover_gaps": [],
@@ -12636,11 +12636,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-08-27T19:30:09.690365+09:00",
+  "intraday_refreshed_kst": "2026-08-27T19:40:44.197847+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/kevin-warsh-has-to-pick-a-side-in-the-bond-market-battle-d1229f20?mod=rss_markets_main"
+        },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/the-russia-ukraine-war-gets-more-ruthless-and-destructivebut-no-closer-to-ending-2af495fb?mod=rss_worldnews"
@@ -12648,10 +12652,6 @@
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/tech/ai/nvidias-279-billion-supply-chain-gamble-cbe316d2?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/global/bank-lending-to-eurozone-businesses-fell-again-in-july-48f676af?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12659,16 +12659,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/kevin-warsh-has-to-pick-a-side-in-the-bond-market-battle-d1229f20?mod=rss_markets_main"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/the-russia-ukraine-war-gets-more-ruthless-and-destructivebut-no-closer-to-ending-2af495fb?mod=rss_worldnews"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/global/think-treasurys-are-having-a-rough-summer-its-even-uglier-abroad-7224cf70?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/2026082777081"
         }
       ]
     },
