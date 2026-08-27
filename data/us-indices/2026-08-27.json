@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26393.4,
-      "change_pct": 1.01,
+      "point": 26427.14,
+      "change_pct": 1.14,
       "candle": {
         "o": 26365.29,
-        "h": 26431.52,
+        "h": 26437.09,
         "l": 26273.87,
-        "c": 26393.4
+        "c": 26427.14
       },
       "range_240d": {
         "low": 20794.64,
@@ -2031,9 +2031,9 @@
         {
           "date": "2026-08-27",
           "o": 26365.29,
-          "h": 26431.52,
+          "h": 26437.09,
           "l": 26273.87,
-          "c": 26393.4
+          "c": 26427.14
         }
       ],
       "spark": [
@@ -2046,7 +2046,9 @@
         26364.64,
         26395.85,
         26384.21,
-        26393.4
+        26409.92,
+        26426.46,
+        26427.14
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2070,13 +2072,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7703.68,
-      "change_pct": 0.36,
+      "point": 7709.59,
+      "change_pct": 0.44,
       "candle": {
         "o": 7710.34,
         "h": 7715.07,
         "l": 7689.89,
-        "c": 7703.68
+        "c": 7709.59
       },
       "range_240d": {
         "low": 6343.72,
@@ -4100,7 +4102,7 @@
           "o": 7710.34,
           "h": 7715.07,
           "l": 7689.89,
-          "c": 7703.68
+          "c": 7709.59
         }
       ],
       "spark": [
@@ -4113,7 +4115,9 @@
         7702.46,
         7706.49,
         7702.6,
-        7703.68
+        7705.48,
+        7709.53,
+        7709.59
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4137,13 +4141,13 @@
     },
     {
       "name": "DOW",
-      "point": 53412.22,
-      "change_pct": -0.1,
+      "point": 53458.1,
+      "change_pct": -0.01,
       "candle": {
         "o": 53613.66,
         "h": 53613.66,
         "l": 53345.62,
-        "c": 53412.22
+        "c": 53458.1
       },
       "range_240d": {
         "low": 45166.64,
@@ -6167,7 +6171,7 @@
           "o": 53613.66,
           "h": 53613.66,
           "l": 53345.62,
-          "c": 53412.22
+          "c": 53458.1
         }
       ],
       "spark": [
@@ -6180,7 +6184,9 @@
         53470.17,
         53446.29,
         53423.11,
-        53412.22
+        53431.67,
+        53452.94,
+        53458.1
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6205,13 +6211,6 @@
   ],
   "news_chips": [
     {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/202608278015i",
-      "published_ts": 1787838059.0,
-      "impact_high": true
-    },
-    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/us-news/law/takeaways-from-jes-staleys-testimony-about-epstein-b51036f9?mod=rss_markets_main",
@@ -6233,10 +6232,24 @@
       "impact_high": true
     },
     {
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/asia/taiwan-prepares-a-7-billion-boost-to-drone-builders-to-counter-china-5c91ac2e?mod=rss_worldnews",
+      "published_ts": 1787840160.0,
+      "impact_high": false
+    },
+    {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/stocks/nasdaq-futures-buoyed-by-nvidia-earnings-software-as-oil-falls-ff5cea2d?mod=rss_markets_main",
+      "published_ts": 1787839860.0,
+      "impact_high": false
+    },
+    {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026082780267",
-      "published_ts": 1787839167.0,
+      "url": "https://www.hankyung.com/article/2026082780217",
+      "published_ts": 1787839488.0,
       "impact_high": false
     },
     {
@@ -6244,13 +6257,6 @@
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/202608278007i",
       "published_ts": 1787837205.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/global/bank-lending-to-eurozone-businesses-fell-again-in-july-48f676af?mod=rss_socialeconomyfeed",
-      "published_ts": 1787832240.0,
       "impact_high": false
     },
     {
@@ -6266,30 +6272,21 @@
       "url": "https://www.hankyung.com/article/2026082779061",
       "published_ts": 1787826955.0,
       "impact_high": false
-    },
-    {
-      "summary": "전력·유틸리티 투자와 인프라 수요가 방어주와 산업재 관심을 확대하는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026082777111",
-      "published_ts": 1787822623.0,
-      "impact_high": false
     }
   ],
-  "_article_sig": "d5e3a88d4da818e77f770c52b42b8f6baeb5975d99c61f547b6a27cf769281cb",
+  "_article_sig": "b893b064efffb3e499de301dbd1d9b8fdaaff69d173c9cd1fa495eb8899ddf16",
   "built_at_kst": "2026-08-27T07:01:06.764044+09:00",
   "futures": {
-    "as_of_kst": "2026-08-27T23:10:04.775897+09:00",
+    "as_of_kst": "2026-08-27T23:20:05.410202+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7715.5,
-        "change_pct": 0.33,
+        "point": 7716.0,
+        "change_pct": 0.34,
         "spark": [
           7722.0,
-          7723.5,
-          7724.0,
           7725.75,
           7727.25,
           7728.25,
@@ -6327,13 +6324,15 @@
           7723.5,
           7715.25,
           7719.25,
-          7715.5
+          7715.75,
+          7718.0,
+          7716.0
         ],
         "candle": {
           "o": 7722.0,
           "h": 7741.25,
           "l": 7702.75,
-          "c": 7715.5
+          "c": 7716.0
         },
         "range_240d": {
           "low": 6388.25,
@@ -6341,7 +6340,7 @@
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
           "low_change_pct": 20.78,
-          "high_change_pct": -1.37
+          "high_change_pct": -1.36
         },
         "daily_expanded": [
           {
@@ -8357,8 +8356,8 @@
             "o": 7722.0,
             "h": 7741.25,
             "l": 7702.75,
-            "c": 7715.5,
-            "v": 389155
+            "c": 7716.0,
+            "v": 426331
           }
         ],
         "rollover_gaps": [],
@@ -8367,15 +8366,15 @@
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/nasdaq-futures-buoyed-by-nvidia-earnings-software-as-oil-falls-ff5cea2d?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
               "url": "https://www.wsj.com/business/earnings/td-banky-earnings-lifted-by-growth-in-canada-capital-markets-activity-ba64e9cd?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/logistics-report/vietnams-factories-thrive-amid-trade-upheaval-8a127d00?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/kalshi-and-the-weather-co-join-forces-on-climate-trades-76b7e307?mod=rss_markets_main"
             }
           ]
         }
@@ -8383,12 +8382,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29489.0,
-        "change_pct": 0.68,
+        "point": 29533.25,
+        "change_pct": 0.83,
         "spark": [
           29499.5,
-          29595.5,
-          29597.5,
           29605.25,
           29609.0,
           29616.25,
@@ -8426,21 +8423,23 @@
           29542.5,
           29482.5,
           29535.5,
-          29489.0
+          29530.25,
+          29559.0,
+          29533.25
         ],
         "candle": {
           "o": 29499.5,
           "h": 29660.5,
           "l": 29401.75,
-          "c": 29490.5
+          "c": 29533.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.45,
-          "high_change_pct": -3.98
+          "low_change_pct": 27.63,
+          "high_change_pct": -3.84
         },
         "daily_expanded": [
           {
@@ -10456,8 +10455,8 @@
             "o": 29499.5,
             "h": 29660.5,
             "l": 29401.75,
-            "c": 29490.5,
-            "v": 240331
+            "c": 29533.25,
+            "v": 259151
           }
         ],
         "rollover_gaps": [],
@@ -10465,16 +10464,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/202608278015i"
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/asia/taiwan-prepares-a-7-billion-boost-to-drone-builders-to-counter-china-5c91ac2e?mod=rss_worldnews"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/us-news/law/takeaways-from-jes-staleys-testimony-about-epstein-b51036f9?mod=rss_markets_main"
+              "url": "https://www.wsj.com/finance/stocks/nasdaq-futures-buoyed-by-nvidia-earnings-software-as-oil-falls-ff5cea2d?mod=rss_markets_main"
             },
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-pull-back-again-13d03ae9?mod=rss_socialeconomyfeed"
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/202608278015i"
             }
           ]
         }
@@ -10482,12 +10481,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53527.0,
-        "change_pct": 0.01,
+        "point": 53457.0,
+        "change_pct": -0.12,
         "spark": [
           53724.0,
-          53492.0,
-          53499.0,
           53492.0,
           53503.0,
           53494.0,
@@ -10525,21 +10522,23 @@
           53568.0,
           53521.0,
           53498.0,
-          53527.0
+          53468.0,
+          53471.0,
+          53457.0
         ],
         "candle": {
           "o": 53724.0,
           "h": 53811.0,
           "l": 53369.0,
-          "c": 53530.0
+          "c": 53457.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 17.85,
-          "high_change_pct": -1.77
+          "low_change_pct": 17.68,
+          "high_change_pct": -1.9
         },
         "daily_expanded": [
           {
@@ -12555,8 +12554,8 @@
             "o": 53724.0,
             "h": 53811.0,
             "l": 53369.0,
-            "c": 53530.0,
-            "v": 24529
+            "c": 53457.0,
+            "v": 26000
           }
         ],
         "rollover_gaps": [],
@@ -12581,22 +12580,22 @@
     ]
   },
   "regular_open": true,
-  "intraday_refreshed_kst": "2026-08-27T23:10:30.803166+09:00",
+  "intraday_refreshed_kst": "2026-08-27T23:20:29.985289+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/202608278015i"
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/asia/taiwan-prepares-a-7-billion-boost-to-drone-builders-to-counter-china-5c91ac2e?mod=rss_worldnews"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/us-news/law/takeaways-from-jes-staleys-testimony-about-epstein-b51036f9?mod=rss_markets_main"
+          "url": "https://www.wsj.com/finance/stocks/nasdaq-futures-buoyed-by-nvidia-earnings-software-as-oil-falls-ff5cea2d?mod=rss_markets_main"
         },
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-pull-back-again-13d03ae9?mod=rss_socialeconomyfeed"
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/202608278015i"
         }
       ]
     },
@@ -12605,15 +12604,15 @@
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/nasdaq-futures-buoyed-by-nvidia-earnings-software-as-oil-falls-ff5cea2d?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
           "url": "https://www.wsj.com/business/earnings/td-banky-earnings-lifted-by-growth-in-canada-capital-markets-activity-ba64e9cd?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/logistics-report/vietnams-factories-thrive-amid-trade-upheaval-8a127d00?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/kalshi-and-the-weather-co-join-forces-on-climate-trades-76b7e307?mod=rss_markets_main"
         }
       ]
     },
