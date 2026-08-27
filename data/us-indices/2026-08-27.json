@@ -6274,24 +6274,24 @@
   ],
   "news_chips": [
     {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/boj-deputy-gov-himino-vows-inflation-vigilance-as-rate-hike-bets-mount-41245641?mod=rss_socialeconomyfeed",
-      "published_ts": 1787813520.0,
-      "impact_high": true
-    },
-    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/german-consumer-confidence-rises-on-economic-resilience-826942fe?mod=rss_socialeconomyfeed",
-      "published_ts": 1787811660.0,
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/stocks/nasdaq-futures-buoyed-by-nvidia-earnings-software-as-oil-falls-ff5cea2d?mod=rss_markets_main",
+      "published_ts": 1787821140.0,
       "impact_high": true
     },
     {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/global/bank-lending-to-eurozone-businesses-fell-again-in-july-48f676af?mod=rss_socialeconomyfeed",
-      "published_ts": 1787820360.0,
+      "published_ts": 1787821740.0,
+      "impact_high": false
+    },
+    {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/philippine-central-bank-raises-rates-for-third-straight-meeting-a944113d?mod=rss_socialeconomyfeed",
+      "published_ts": 1787820720.0,
       "impact_high": false
     },
     {
@@ -6323,21 +6323,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "beca2c3c6a5a53bdb85b84f5ccb41049004b3a0c05450c6d2544d3043198e880",
+  "_article_sig": "bef0a9fe27f9b7eba1ea4d5313cab8ee17ed9063a8ae41425bd6d7e02cb08664",
   "built_at_kst": "2026-08-27T07:01:06.764044+09:00",
   "futures": {
-    "as_of_kst": "2026-08-27T18:00:07.279073+09:00",
+    "as_of_kst": "2026-08-27T18:10:09.067795+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7732.25,
-        "change_pct": 0.55,
+        "point": 7727.75,
+        "change_pct": 0.49,
         "spark": [
           7722.0,
-          7713.75,
-          7710.5,
           7712.25,
           7711.75,
           7712.0,
@@ -6375,21 +6373,23 @@
           7730.0,
           7732.5,
           7729.0,
-          7732.25
+          7728.0,
+          7722.25,
+          7727.75
         ],
         "candle": {
           "o": 7722.0,
           "h": 7741.25,
           "l": 7707.0,
-          "c": 7732.25
+          "c": 7727.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.04,
-          "high_change_pct": -1.15
+          "low_change_pct": 20.97,
+          "high_change_pct": -1.21
         },
         "daily_expanded": [
           {
@@ -8405,8 +8405,8 @@
             "o": 7722.0,
             "h": 7741.25,
             "l": 7707.0,
-            "c": 7732.25,
-            "v": 114782
+            "c": 7727.75,
+            "v": 117023
           }
         ],
         "rollover_gaps": [],
@@ -8415,15 +8415,15 @@
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-27-2026?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/boj-deputy-gov-himino-vows-inflation-vigilance-as-rate-hike-bets-mount-41245641?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/finance/stocks/nasdaq-futures-buoyed-by-nvidia-earnings-software-as-oil-falls-ff5cea2d?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/philippine-central-bank-raises-rates-for-third-straight-meeting-a944113d?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-27-2026?mod=rss_markets_main"
             }
           ]
         }
@@ -8431,12 +8431,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29651.25,
-        "change_pct": 1.24,
+        "point": 29624.0,
+        "change_pct": 1.14,
         "spark": [
           29499.5,
-          29460.0,
-          29442.5,
           29460.5,
           29442.25,
           29438.75,
@@ -8474,21 +8472,23 @@
           29629.5,
           29652.25,
           29632.5,
-          29651.25
+          29623.75,
+          29591.75,
+          29624.0
         ],
         "candle": {
           "o": 29499.5,
-          "h": 29659.25,
+          "h": 29660.5,
           "l": 29401.75,
-          "c": 29650.5
+          "c": 29619.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 28.14,
-          "high_change_pct": -3.46
+          "low_change_pct": 28.0,
+          "high_change_pct": -3.56
         },
         "daily_expanded": [
           {
@@ -10502,10 +10502,10 @@
           {
             "date": "2026-08-27",
             "o": 29499.5,
-            "h": 29659.25,
+            "h": 29660.5,
             "l": 29401.75,
-            "c": 29650.5,
-            "v": 95926
+            "c": 29619.0,
+            "v": 97621
           }
         ],
         "rollover_gaps": [],
@@ -10518,7 +10518,7 @@
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-27-2026?mod=rss_markets_main"
+              "url": "https://www.wsj.com/finance/stocks/nasdaq-futures-buoyed-by-nvidia-earnings-software-as-oil-falls-ff5cea2d?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
@@ -10530,12 +10530,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53537.0,
-        "change_pct": 0.03,
+        "point": 53513.0,
+        "change_pct": -0.01,
         "spark": [
           53724.0,
-          53630.0,
-          53611.0,
           53608.0,
           53611.0,
           53621.0,
@@ -10573,21 +10571,23 @@
           53543.0,
           53536.0,
           53526.0,
-          53537.0
+          53518.0,
+          53493.0,
+          53513.0
         ],
         "candle": {
           "o": 53724.0,
           "h": 53811.0,
-          "l": 53532.0,
-          "c": 53537.0
+          "l": 53513.0,
+          "c": 53513.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 17.86,
-          "high_change_pct": -1.76
+          "low_change_pct": 17.81,
+          "high_change_pct": -1.8
         },
         "daily_expanded": [
           {
@@ -12602,9 +12602,9 @@
             "date": "2026-08-27",
             "o": 53724.0,
             "h": 53811.0,
-            "l": 53532.0,
-            "c": 53537.0,
-            "v": 7170
+            "l": 53513.0,
+            "c": 53513.0,
+            "v": 7381
           }
         ],
         "rollover_gaps": [],
@@ -12617,11 +12617,11 @@
             },
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/boj-deputy-gov-himino-vows-inflation-vigilance-as-rate-hike-bets-mount-41245641?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/economy/central-banking/philippine-central-bank-raises-rates-for-third-straight-meeting-a944113d?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/philippine-central-bank-raises-rates-for-third-straight-meeting-a944113d?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/economy/central-banking/boj-deputy-gov-himino-vows-inflation-vigilance-as-rate-hike-bets-mount-41245641?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -12629,7 +12629,7 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-08-27T18:00:12.055290+09:00",
+  "intraday_refreshed_kst": "2026-08-27T18:10:41.756006+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
@@ -12640,7 +12640,7 @@
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-27-2026?mod=rss_markets_main"
+          "url": "https://www.wsj.com/finance/stocks/nasdaq-futures-buoyed-by-nvidia-earnings-software-as-oil-falls-ff5cea2d?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
@@ -12653,15 +12653,15 @@
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-27-2026?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/boj-deputy-gov-himino-vows-inflation-vigilance-as-rate-hike-bets-mount-41245641?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/finance/stocks/nasdaq-futures-buoyed-by-nvidia-earnings-software-as-oil-falls-ff5cea2d?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/philippine-central-bank-raises-rates-for-third-straight-meeting-a944113d?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-27-2026?mod=rss_markets_main"
         }
       ]
     },
@@ -12674,11 +12674,11 @@
         },
         {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/boj-deputy-gov-himino-vows-inflation-vigilance-as-rate-hike-bets-mount-41245641?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/economy/central-banking/philippine-central-bank-raises-rates-for-third-straight-meeting-a944113d?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/philippine-central-bank-raises-rates-for-third-straight-meeting-a944113d?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/economy/central-banking/boj-deputy-gov-himino-vows-inflation-vigilance-as-rate-hike-bets-mount-41245641?mod=rss_socialeconomyfeed"
         }
       ]
     }
