@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/investing/andreessen-horowitz-hardware-fund-ai-supply-chain-887774c5?mod=rss_markets_main",
+      "published_ts": 1787922000.0,
+      "impact_high": true
+    },
+    {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-jackson-hole-08-28-2026?mod=rss_markets_main",
@@ -6286,6 +6293,13 @@
       "url": "https://www.wsj.com/economy/central-banking/feds-collins-says-rate-increase-warranted-if-inflation-disappoints-2938832e?mod=rss_socialeconomyfeed",
       "published_ts": 1787853840.0,
       "impact_high": true
+    },
+    {
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/investing/what-a-125-year-old-bull-market-says-about-todays-trading-craze-59ee249e?mod=rss_markets_main",
+      "published_ts": 1787922000.0,
+      "impact_high": false
     },
     {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
@@ -6309,27 +6323,6 @@
       "impact_high": false
     },
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-a-walk-around-dubai-shows-no-signs-of-trumps-d-day-for-iran-5b70a53d?mod=rss_markets_main",
-      "published_ts": 1787914320.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/regulation/u-s-servicemember-kpmg-employee-are-targets-of-prediction-markets-crackdown-ec7fdd04?mod=rss_markets_main",
-      "published_ts": 1787875200.0,
-      "impact_high": false
-    },
-    {
-      "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/trump-family-crypto-bank-backed-by-abu-dhabi-royal-f18bb424?mod=rss_markets_main",
-      "published_ts": 1787865780.0,
-      "impact_high": false
-    },
-    {
       "summary": "기업 실적과 가이던스 변화가 대형주 중심의 선별 흐름을 강화하는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/banking/royal-bank-of-canada-notches-record-income-fc748b0c?mod=rss_markets_main",
@@ -6337,21 +6330,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "9ae3837878ffa5f155677ab7b779fd993135eb616f8ba8b75bafec756abb9538",
+  "_article_sig": "220a21be4689d7f006dfb512c26975433da8852a1f187711a50993e1af297052",
   "built_at_kst": "2026-08-28T07:00:43.937266+09:00",
   "futures": {
-    "as_of_kst": "2026-08-28T22:00:08.067108+09:00",
+    "as_of_kst": "2026-08-28T22:10:08.147490+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7750.5,
+        "point": 7750.0,
         "change_pct": 0.1,
         "spark": [
           7733.75,
-          7738.25,
-          7738.5,
           7739.5,
           7738.75,
           7738.25,
@@ -6389,21 +6380,23 @@
           7750.0,
           7750.25,
           7750.0,
-          7750.5
+          7749.75,
+          7752.0,
+          7750.0
         ],
         "candle": {
           "o": 7733.75,
-          "h": 7751.0,
+          "h": 7751.25,
           "l": 7727.25,
-          "c": 7750.5
+          "c": 7749.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.32,
-          "high_change_pct": -0.92
+          "low_change_pct": 21.31,
+          "high_change_pct": -0.93
         },
         "daily_expanded": [
           {
@@ -8417,10 +8410,10 @@
           {
             "date": "2026-08-28",
             "o": 7733.75,
-            "h": 7751.0,
+            "h": 7751.25,
             "l": 7727.25,
-            "c": 7750.5,
-            "v": 107817
+            "c": 7749.75,
+            "v": 110297
           }
         ],
         "rollover_gaps": [],
@@ -8429,15 +8422,15 @@
           "sources": [
             {
               "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/what-a-125-year-old-bull-market-says-about-todays-trading-craze-59ee249e?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
               "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-a-walk-around-dubai-shows-no-signs-of-trumps-d-day-for-iran-5b70a53d?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/world/europe/french-inflation-accelerated-in-august-8dc6e124?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-jackson-hole-08-28-2026?mod=rss_markets_main"
             }
           ]
         }
@@ -8445,12 +8438,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29659.5,
-        "change_pct": -0.12,
+        "point": 29658.25,
+        "change_pct": -0.13,
         "spark": [
           29635.5,
-          29607.5,
-          29606.0,
           29614.0,
           29605.5,
           29599.5,
@@ -8488,21 +8479,23 @@
           29658.25,
           29659.75,
           29659.25,
-          29659.5
+          29659.0,
+          29664.0,
+          29658.25
         ],
         "candle": {
           "o": 29635.5,
           "h": 29707.0,
           "l": 29578.25,
-          "c": 29659.5
+          "c": 29657.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 28.18,
-          "high_change_pct": -3.43
+          "low_change_pct": 28.16,
+          "high_change_pct": -3.44
         },
         "daily_expanded": [
           {
@@ -10518,8 +10511,8 @@
             "o": 29635.5,
             "h": 29707.0,
             "l": 29578.25,
-            "c": 29659.5,
-            "v": 78205
+            "c": 29657.0,
+            "v": 79478
           }
         ],
         "rollover_gaps": [],
@@ -10527,16 +10520,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/andreessen-horowitz-hardware-fund-ai-supply-chain-887774c5?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/canadas-economy-grows-3-3-in-second-quarter-37b0f512?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/jobs/blue-collar-jobs-are-the-new-flashpoint-in-data-center-fight-aaca5b7e?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-a-walk-around-dubai-shows-no-signs-of-trumps-d-day-for-iran-5b70a53d?mod=rss_markets_main"
             }
           ]
         }
@@ -10544,13 +10537,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53717.0,
-        "change_pct": 0.18,
+        "point": 53714.0,
+        "change_pct": 0.17,
         "spark": [
           53608.0,
-          53674.0,
-          53675.0,
-          53685.0,
           53678.0,
           53677.0,
           53676.0,
@@ -10587,21 +10577,24 @@
           53704.0,
           53722.0,
           53719.0,
-          53717.0
+          53717.0,
+          53712.0,
+          53738.0,
+          53714.0
         ],
         "candle": {
           "o": 53608.0,
           "h": 53757.0,
           "l": 53571.0,
-          "c": 53723.0
+          "c": 53714.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 18.27,
-          "high_change_pct": -1.41
+          "low_change_pct": 18.25,
+          "high_change_pct": -1.43
         },
         "daily_expanded": [
           {
@@ -12617,8 +12610,8 @@
             "o": 53608.0,
             "h": 53757.0,
             "l": 53571.0,
-            "c": 53723.0,
-            "v": 7747
+            "c": 53714.0,
+            "v": 7944
           }
         ],
         "rollover_gaps": [],
@@ -12643,11 +12636,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-08-28T22:00:57.323738+09:00",
+  "intraday_refreshed_kst": "2026-08-28T22:10:41.887928+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/andreessen-horowitz-hardware-fund-ai-supply-chain-887774c5?mod=rss_markets_main"
+        },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/canadas-economy-grows-3-3-in-second-quarter-37b0f512?mod=rss_socialeconomyfeed"
@@ -12655,10 +12652,6 @@
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/jobs/blue-collar-jobs-are-the-new-flashpoint-in-data-center-fight-aaca5b7e?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-a-walk-around-dubai-shows-no-signs-of-trumps-d-day-for-iran-5b70a53d?mod=rss_markets_main"
         }
       ]
     },
@@ -12667,15 +12660,15 @@
       "sources": [
         {
           "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/what-a-125-year-old-bull-market-says-about-todays-trading-craze-59ee249e?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
           "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-a-walk-around-dubai-shows-no-signs-of-trumps-d-day-for-iran-5b70a53d?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/world/europe/french-inflation-accelerated-in-august-8dc6e124?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-jackson-hole-08-28-2026?mod=rss_markets_main"
         }
       ]
     },
