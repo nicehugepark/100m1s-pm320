@@ -1,6 +1,6 @@
 {
   "date": "2026-08-28",
-  "generated_at": "2026-08-28T09:45:12.125971",
+  "generated_at": "2026-08-28T09:45:50.480038",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -297,7 +297,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "투자경고"
+      "credit_reason": "투자경고",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "032820",
@@ -603,7 +606,7 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "neutral",
+      "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰"
     },
@@ -798,7 +801,12 @@
           "l": 107200,
           "c": 115100
         }
-      ]
+      ],
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "222800",
@@ -1073,8 +1081,17 @@
       "low_price": 1133,
       "industry": "영화, 비디오물, 방송프로그램 제작 및 배급업",
       "sector": "방송영상 제작, 공급",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "엔터테인먼트"
+      ],
+      "theme_paths": [
+        {
+          "name": "엔터테인먼트",
+          "path": [
+            "엔터테인먼트"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": true,
@@ -1258,9 +1275,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     }
   ]
 }
