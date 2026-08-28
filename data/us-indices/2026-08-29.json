@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26381.64,
-      "change_pct": -0.6,
+      "point": 26373.78,
+      "change_pct": -0.63,
       "candle": {
         "o": 26515.89,
         "h": 26698.57,
-        "l": 26373.39,
-        "c": 26381.64
+        "l": 26359.5,
+        "c": 26373.78
       },
       "range_240d": {
         "low": 20794.64,
@@ -2032,14 +2032,12 @@
           "date": "2026-08-28",
           "o": 26515.89,
           "h": 26698.57,
-          "l": 26373.39,
-          "c": 26381.64
+          "l": 26359.5,
+          "c": 26373.78
         }
       ],
       "spark": [
         26515.89,
-        26624.74,
-        26581.85,
         26552.34,
         26531.93,
         26483.15,
@@ -2077,7 +2075,9 @@
         26395.99,
         26404.02,
         26382.45,
-        26381.64
+        26367.99,
+        26373.56,
+        26373.78
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7705.04,
+      "point": 7704.55,
       "change_pct": -0.34,
       "candle": {
         "o": 7735.17,
         "h": 7771.48,
-        "l": 7701.35,
-        "c": 7705.04
+        "l": 7700.91,
+        "c": 7704.55
       },
       "range_240d": {
         "low": 6343.72,
@@ -4130,14 +4130,12 @@
           "date": "2026-08-28",
           "o": 7735.17,
           "h": 7771.48,
-          "l": 7701.35,
-          "c": 7705.04
+          "l": 7700.91,
+          "c": 7704.55
         }
       ],
       "spark": [
         7735.17,
-        7754.56,
-        7745.58,
         7740.27,
         7738.77,
         7728.82,
@@ -4175,7 +4173,9 @@
         7708.69,
         7710.48,
         7705.22,
-        7705.04
+        7702.81,
+        7704.32,
+        7704.55
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 53517.99,
-      "change_pct": -0.1,
+      "point": 53539.57,
+      "change_pct": -0.06,
       "candle": {
         "o": 53611.94,
         "h": 53819.65,
         "l": 53489.41,
-        "c": 53517.99
+        "c": 53539.57
       },
       "range_240d": {
         "low": 45166.64,
@@ -6229,13 +6229,11 @@
           "o": 53611.94,
           "h": 53819.65,
           "l": 53489.41,
-          "c": 53517.99
+          "c": 53539.57
         }
       ],
       "spark": [
         53611.94,
-        53709.77,
-        53650.81,
         53654.38,
         53687.28,
         53633.87,
@@ -6273,7 +6271,9 @@
         53535.52,
         53546.83,
         53516.67,
-        53517.99
+        53528.18,
+        53539.42,
+        53539.57
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6298,17 +6298,17 @@
   ],
   "news_chips": [
     {
+      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed",
+      "published_ts": 1787942340.0,
+      "impact_high": true
+    },
+    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/canadas-economy-grows-3-3-in-second-quarter-37b0f512?mod=rss_socialeconomyfeed",
       "published_ts": 1787934360.0,
-      "impact_high": true
-    },
-    {
-      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html",
-      "published_ts": 1787933511.0,
       "impact_high": true
     },
     {
@@ -6319,16 +6319,16 @@
       "impact_high": true
     },
     {
-      "summary": "전력·유틸리티 투자와 인프라 수요가 방어주와 산업재 관심을 확대하는 흐름",
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/europe/iceland-weighs-security-versus-sovereignty-in-vote-over-eu-membership-talks-c1158126?mod=rss_worldnews",
-      "published_ts": 1787939460.0,
+      "url": "https://www.wsj.com/world/russia/whats-left-of-russian-democracy-some-say-a-debate-over-a-statue-9483bcb8?mod=rss_worldnews",
+      "published_ts": 1787943300.0,
       "impact_high": false
     },
     {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "summary": "전력·유틸리티 투자와 인프라 수요가 방어주와 산업재 관심을 확대하는 흐름",
       "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/asia/we-tested-a-smartphone-smuggled-from-north-korea-c2915548?mod=rss_worldnews",
+      "url": "https://www.wsj.com/world/europe/iceland-weighs-security-versus-sovereignty-in-vote-over-eu-membership-talks-c1158126?mod=rss_worldnews",
       "published_ts": 1787939460.0,
       "impact_high": false
     },
@@ -6368,7 +6368,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "d9699c58e252bb0d80c8ac48acf1c11934305ee70c567ae577514eb7dc4cad89",
+  "_article_sig": "d95c15d42902c7688c68c0f2b085023e88861d437d82e1ff32061e89afc43aba",
   "built_at_kst": "2026-08-28T07:00:43.937266+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6377,15 +6377,15 @@
       "sources": [
         {
           "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/canadas-economy-grows-3-3-in-second-quarter-37b0f512?mod=rss_socialeconomyfeed"
         },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/jobs/job-growth-bls-revision-5a632dc9?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -6393,16 +6393,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-319c8fd4?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/canadas-economy-grows-3-3-in-second-quarter-37b0f512?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html"
         }
       ]
     },
@@ -6411,33 +6411,30 @@
       "sources": [
         {
           "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/canadas-economy-grows-3-3-in-second-quarter-37b0f512?mod=rss_socialeconomyfeed"
         },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-08-29T03:50:02.781957+09:00",
+    "as_of_kst": "2026-08-29T04:00:05.241763+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7720.25,
-        "change_pct": -0.29,
+        "point": 7716.5,
+        "change_pct": -0.34,
         "spark": [
           7733.75,
-          7779.0,
-          7773.75,
-          7765.75,
           7757.5,
           7752.0,
           7750.0,
@@ -6474,21 +6471,24 @@
           7719.5,
           7722.75,
           7720.0,
-          7720.25
+          7721.75,
+          7717.0,
+          7714.75,
+          7716.5
         ],
         "candle": {
           "o": 7733.75,
           "h": 7782.5,
           "l": 7711.75,
-          "c": 7720.25
+          "c": 7716.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 20.85,
-          "high_change_pct": -1.31
+          "low_change_pct": 20.8,
+          "high_change_pct": -1.35
         },
         "daily_expanded": [
           {
@@ -8504,8 +8504,8 @@
             "o": 7733.75,
             "h": 7782.5,
             "l": 7711.75,
-            "c": 7720.25,
-            "v": 1189814
+            "c": 7716.75,
+            "v": 1201191
           }
         ],
         "rollover_gaps": [],
@@ -8513,16 +8513,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-319c8fd4?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/canadas-economy-grows-3-3-in-second-quarter-37b0f512?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html"
             }
           ]
         }
@@ -8530,11 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29481.0,
-        "change_pct": -0.72,
+        "point": 29466.25,
+        "change_pct": -0.77,
         "spark": [
           29635.5,
-          29763.25,
           29721.75,
           29671.25,
           29634.0,
@@ -8573,21 +8572,22 @@
           29497.5,
           29479.75,
           29491.25,
-          29481.0
+          29465.75,
+          29466.25
         ],
         "candle": {
           "o": 29635.5,
           "h": 29811.5,
           "l": 29436.25,
-          "c": 29481.0
+          "c": 29464.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.4,
-          "high_change_pct": -4.01
+          "low_change_pct": 27.33,
+          "high_change_pct": -4.07
         },
         "daily_expanded": [
           {
@@ -10603,8 +10603,8 @@
             "o": 29635.5,
             "h": 29811.5,
             "l": 29436.25,
-            "c": 29481.0,
-            "v": 495219
+            "c": 29464.25,
+            "v": 499597
           }
         ],
         "rollover_gaps": [],
@@ -10613,15 +10613,15 @@
           "sources": [
             {
               "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/canadas-economy-grows-3-3-in-second-quarter-37b0f512?mod=rss_socialeconomyfeed"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/jobs/job-growth-bls-revision-5a632dc9?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10629,12 +10629,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53575.0,
-        "change_pct": -0.09,
+        "point": 53546.0,
+        "change_pct": -0.14,
         "spark": [
           53608.0,
-          53833.0,
-          53779.0,
           53739.0,
           53687.0,
           53687.0,
@@ -10672,21 +10670,23 @@
           53545.0,
           53571.0,
           53564.0,
-          53575.0
+          53575.0,
+          53546.0,
+          53546.0
         ],
         "candle": {
           "o": 53608.0,
           "h": 53862.0,
           "l": 53513.0,
-          "c": 53565.0
+          "c": 53548.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 17.92,
-          "high_change_pct": -1.7
+          "low_change_pct": 17.88,
+          "high_change_pct": -1.74
         },
         "daily_expanded": [
           {
@@ -12702,8 +12702,8 @@
             "o": 53608.0,
             "h": 53862.0,
             "l": 53513.0,
-            "c": 53565.0,
-            "v": 47059
+            "c": 53548.0,
+            "v": 47319
           }
         ],
         "rollover_gaps": [],
@@ -12712,20 +12712,20 @@
           "sources": [
             {
               "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/canadas-economy-grows-3-3-in-second-quarter-37b0f512?mod=rss_socialeconomyfeed"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-08-29T03:50:06.873885+09:00"
+  "intraday_refreshed_kst": "2026-08-29T04:00:30.027974+09:00"
 }
