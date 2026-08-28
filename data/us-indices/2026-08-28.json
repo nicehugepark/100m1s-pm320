@@ -6274,13 +6274,6 @@
   ],
   "news_chips": [
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/world/europe/french-inflation-accelerated-in-august-8dc6e124?mod=rss_socialeconomyfeed",
-      "published_ts": 1787911860.0,
-      "impact_high": true
-    },
-    {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-jackson-hole-08-28-2026?mod=rss_markets_main",
@@ -6293,6 +6286,13 @@
       "url": "https://www.wsj.com/economy/central-banking/feds-collins-says-rate-increase-warranted-if-inflation-disappoints-2938832e?mod=rss_socialeconomyfeed",
       "published_ts": 1787853840.0,
       "impact_high": true
+    },
+    {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-a-walk-around-dubai-shows-no-signs-of-trumps-d-day-for-iran-5b70a53d?mod=rss_markets_main",
+      "published_ts": 1787914320.0,
+      "impact_high": false
     },
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
@@ -6337,21 +6337,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "d1d43c86ae61051f1c3b6e5b453aaf9daf1c660598886b909a330e7c26cd896c",
+  "_article_sig": "8e1fec2439b7d59e98034231acba80aeb144376d8aa2b42ef44cbcaff4923809",
   "built_at_kst": "2026-08-28T07:00:43.937266+09:00",
   "futures": {
-    "as_of_kst": "2026-08-28T19:50:03.237478+09:00",
+    "as_of_kst": "2026-08-28T20:00:06.028133+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7740.25,
-        "change_pct": -0.03,
+        "point": 7737.0,
+        "change_pct": -0.07,
         "spark": [
           7733.75,
-          7741.75,
-          7741.25,
           7741.0,
           7739.25,
           7743.0,
@@ -6389,21 +6387,23 @@
           7739.0,
           7739.0,
           7740.25,
-          7740.25
+          7737.25,
+          7736.75,
+          7737.0
         ],
         "candle": {
           "o": 7733.75,
           "h": 7747.5,
           "l": 7727.25,
-          "c": 7740.5
+          "c": 7736.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.17,
-          "high_change_pct": -1.05
+          "low_change_pct": 21.11,
+          "high_change_pct": -1.1
         },
         "daily_expanded": [
           {
@@ -8419,8 +8419,8 @@
             "o": 7733.75,
             "h": 7747.5,
             "l": 7727.25,
-            "c": 7740.5,
-            "v": 79688
+            "c": 7736.75,
+            "v": 82334
           }
         ],
         "rollover_gaps": [],
@@ -8428,16 +8428,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-a-walk-around-dubai-shows-no-signs-of-trumps-d-day-for-iran-5b70a53d?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/world/europe/french-inflation-accelerated-in-august-8dc6e124?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/stock-market-today-jackson-hole-08-28-2026?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/finance/commodities-futures/oil-edges-higher-on-fading-hopes-for-strait-of-hormuzs-reopening-7cf0d26d?mod=rss_worldnews"
             }
           ]
         }
@@ -8445,12 +8445,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29619.5,
-        "change_pct": -0.26,
+        "point": 29603.5,
+        "change_pct": -0.31,
         "spark": [
           29635.5,
-          29608.25,
-          29609.0,
           29597.5,
           29624.5,
           29612.75,
@@ -8488,21 +8486,23 @@
           29613.0,
           29619.5,
           29602.5,
-          29619.5
+          29605.75,
+          29603.0,
+          29603.5
         ],
         "candle": {
           "o": 29635.5,
           "h": 29707.0,
           "l": 29578.25,
-          "c": 29619.5
+          "c": 29603.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 28.0,
-          "high_change_pct": -3.56
+          "low_change_pct": 27.93,
+          "high_change_pct": -3.61
         },
         "daily_expanded": [
           {
@@ -10518,8 +10518,8 @@
             "o": 29635.5,
             "h": 29707.0,
             "l": 29578.25,
-            "c": 29619.5,
-            "v": 64255
+            "c": 29603.5,
+            "v": 64960
           }
         ],
         "rollover_gaps": [],
@@ -10527,16 +10527,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-a-walk-around-dubai-shows-no-signs-of-trumps-d-day-for-iran-5b70a53d?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/world/europe/french-inflation-accelerated-in-august-8dc6e124?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/tech/ai/south-koreas-ai-for-all-push-gives-free-access-to-every-citizen-451f6b2c?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-jackson-hole-08-28-2026?mod=rss_markets_main"
             }
           ]
         }
@@ -10544,12 +10544,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53667.0,
-        "change_pct": 0.09,
+        "point": 53637.0,
+        "change_pct": 0.03,
         "spark": [
           53608.0,
-          53735.0,
-          53735.0,
           53729.0,
           53727.0,
           53737.0,
@@ -10587,21 +10585,23 @@
           53664.0,
           53660.0,
           53671.0,
-          53667.0
+          53636.0,
+          53634.0,
+          53637.0
         ],
         "candle": {
           "o": 53608.0,
           "h": 53757.0,
           "l": 53571.0,
-          "c": 53671.0
+          "c": 53634.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 18.16,
-          "high_change_pct": -1.51
+          "low_change_pct": 18.07,
+          "high_change_pct": -1.58
         },
         "daily_expanded": [
           {
@@ -12617,8 +12617,8 @@
             "o": 53608.0,
             "h": 53757.0,
             "l": 53571.0,
-            "c": 53671.0,
-            "v": 5522
+            "c": 53634.0,
+            "v": 5645
           }
         ],
         "rollover_gaps": [],
@@ -12627,15 +12627,15 @@
           "sources": [
             {
               "name": "WSJ",
+              "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-a-walk-around-dubai-shows-no-signs-of-trumps-d-day-for-iran-5b70a53d?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/china-is-a-threat-to-biotechs-massive-bull-run-d6a8e314?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/world/europe/french-inflation-accelerated-in-august-8dc6e124?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/a-walk-around-dubai-shows-no-signs-of-trumps-d-day-for-iran-a51d28e7?mod=rss_worldnews"
             }
           ]
         }
@@ -12643,11 +12643,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-08-28T19:50:07.233828+09:00",
+  "intraday_refreshed_kst": "2026-08-28T20:00:38.576469+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-a-walk-around-dubai-shows-no-signs-of-trumps-d-day-for-iran-5b70a53d?mod=rss_markets_main"
+        },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/world/europe/french-inflation-accelerated-in-august-8dc6e124?mod=rss_socialeconomyfeed"
@@ -12655,10 +12659,6 @@
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/tech/ai/south-koreas-ai-for-all-push-gives-free-access-to-every-citizen-451f6b2c?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-jackson-hole-08-28-2026?mod=rss_markets_main"
         }
       ]
     },
@@ -12666,16 +12666,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-a-walk-around-dubai-shows-no-signs-of-trumps-d-day-for-iran-5b70a53d?mod=rss_markets_main"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/world/europe/french-inflation-accelerated-in-august-8dc6e124?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/stock-market-today-jackson-hole-08-28-2026?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/finance/commodities-futures/oil-edges-higher-on-fading-hopes-for-strait-of-hormuzs-reopening-7cf0d26d?mod=rss_worldnews"
         }
       ]
     },
@@ -12684,15 +12684,15 @@
       "sources": [
         {
           "name": "WSJ",
+          "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-a-walk-around-dubai-shows-no-signs-of-trumps-d-day-for-iran-5b70a53d?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/china-is-a-threat-to-biotechs-massive-bull-run-d6a8e314?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/world/europe/french-inflation-accelerated-in-august-8dc6e124?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/a-walk-around-dubai-shows-no-signs-of-trumps-d-day-for-iran-a51d28e7?mod=rss_worldnews"
         }
       ]
     }
