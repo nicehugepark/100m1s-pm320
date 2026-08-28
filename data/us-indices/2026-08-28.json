@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26566.67,
-      "change_pct": 0.1,
+      "point": 26559.06,
+      "change_pct": 0.07,
       "candle": {
         "o": 26515.89,
-        "h": 26572.19,
+        "h": 26604.58,
         "l": 26507.54,
-        "c": 26566.67
+        "c": 26559.06
       },
       "range_240d": {
         "low": 20794.64,
@@ -2031,16 +2031,18 @@
         {
           "date": "2026-08-28",
           "o": 26515.89,
-          "h": 26572.19,
+          "h": 26604.58,
           "l": 26507.54,
-          "c": 26566.67
+          "c": 26559.06
         }
       ],
       "spark": [
         26515.89,
         26536.92,
         26569.15,
-        26566.67
+        26600.26,
+        26559.06,
+        26559.06
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2064,13 +2066,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7741.08,
-      "change_pct": 0.13,
+      "point": 7740.04,
+      "change_pct": 0.12,
       "candle": {
         "o": 7735.17,
-        "h": 7743.11,
+        "h": 7747.37,
         "l": 7733.99,
-        "c": 7741.08
+        "c": 7740.04
       },
       "range_240d": {
         "low": 6343.72,
@@ -4092,16 +4094,18 @@
         {
           "date": "2026-08-28",
           "o": 7735.17,
-          "h": 7743.11,
+          "h": 7747.37,
           "l": 7733.99,
-          "c": 7741.08
+          "c": 7740.04
         }
       ],
       "spark": [
         7735.17,
         7738.98,
-        7739.71,
-        7741.08
+        7740.51,
+        7744.42,
+        7746.88,
+        7740.04
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4125,13 +4129,13 @@
     },
     {
       "name": "DOW",
-      "point": 53634.13,
-      "change_pct": 0.12,
+      "point": 53674.68,
+      "change_pct": 0.2,
       "candle": {
         "o": 53611.94,
         "h": 53738.5,
         "l": 53611.94,
-        "c": 53634.13
+        "c": 53674.68
       },
       "range_240d": {
         "low": 45166.64,
@@ -6155,14 +6159,16 @@
           "o": 53611.94,
           "h": 53738.5,
           "l": 53611.94,
-          "c": 53634.13
+          "c": 53674.68
         }
       ],
       "spark": [
         53611.94,
         53674.68,
         53634.55,
-        53634.13
+        53638.11,
+        53676.87,
+        53674.68
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6187,13 +6193,6 @@
   ],
   "news_chips": [
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/andreessen-horowitz-hardware-fund-ai-supply-chain-887774c5?mod=rss_markets_main",
-      "published_ts": 1787922000.0,
-      "impact_high": true
-    },
-    {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-jackson-hole-08-28-2026?mod=rss_markets_main",
@@ -6206,6 +6205,20 @@
       "url": "https://www.wsj.com/economy/central-banking/feds-collins-says-rate-increase-warranted-if-inflation-disappoints-2938832e?mod=rss_socialeconomyfeed",
       "published_ts": 1787853840.0,
       "impact_high": true
+    },
+    {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/business/energy-oil/chevron-other-u-s-firms-near-deal-to-invest-billions-in-venezuelan-oil-fields-55739e38?mod=rss_markets_main",
+      "published_ts": 1787924400.0,
+      "impact_high": false
+    },
+    {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/2026082803907",
+      "published_ts": 1787923722.0,
+      "impact_high": false
     },
     {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
@@ -6229,13 +6242,6 @@
       "impact_high": false
     },
     {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/finance/currencies/japan-spent-record-98-7-billion-to-prop-up-yen-in-past-month-ddb03c64?mod=rss_worldnews",
-      "published_ts": 1787916360.0,
-      "impact_high": false
-    },
-    {
       "summary": "기업 실적과 가이던스 변화가 대형주 중심의 선별 흐름을 강화하는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/banking/royal-bank-of-canada-notches-record-income-fc748b0c?mod=rss_markets_main",
@@ -6243,22 +6249,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "220a21be4689d7f006dfb512c26975433da8852a1f187711a50993e1af297052",
+  "_article_sig": "1dfd10d8c93f3291087076f15a85f43a857fef9636451a86664c61cf3755c840",
   "built_at_kst": "2026-08-28T07:00:43.937266+09:00",
   "futures": {
-    "as_of_kst": "2026-08-28T22:40:03.286343+09:00",
+    "as_of_kst": "2026-08-28T22:50:05.083514+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7749.25,
-        "change_pct": 0.09,
+        "point": 7751.5,
+        "change_pct": 0.12,
         "spark": [
           7733.75,
-          7737.5,
-          7739.75,
-          7739.0,
           7739.0,
           7740.25,
           7737.25,
@@ -6295,21 +6298,24 @@
           7748.5,
           7748.0,
           7746.25,
-          7749.25
+          7749.25,
+          7751.5,
+          7755.0,
+          7751.5
         ],
         "candle": {
           "o": 7733.75,
           "h": 7755.0,
           "l": 7727.25,
-          "c": 7746.5
+          "c": 7751.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.26,
-          "high_change_pct": -0.97
+          "low_change_pct": 21.34,
+          "high_change_pct": -0.91
         },
         "daily_expanded": [
           {
@@ -8325,8 +8331,8 @@
             "o": 7733.75,
             "h": 7755.0,
             "l": 7727.25,
-            "c": 7746.5,
-            "v": 130369
+            "c": 7751.5,
+            "v": 166325
           }
         ],
         "rollover_gaps": [],
@@ -8335,15 +8341,15 @@
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/what-a-125-year-old-bull-market-says-about-todays-trading-craze-59ee249e?mod=rss_markets_main"
+              "url": "https://www.wsj.com/business/energy-oil/chevron-other-u-s-firms-near-deal-to-invest-billions-in-venezuelan-oil-fields-55739e38?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/finance/commodities-futures/oil-edges-higher-on-fading-hopes-for-strait-of-hormuzs-reopening-7cf0d26d?mod=rss_worldnews"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-a-walk-around-dubai-shows-no-signs-of-trumps-d-day-for-iran-5b70a53d?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/world/europe/french-inflation-accelerated-in-august-8dc6e124?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/finance/investing/what-a-125-year-old-bull-market-says-about-todays-trading-craze-59ee249e?mod=rss_markets_main"
             }
           ]
         }
@@ -8351,12 +8357,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29613.5,
-        "change_pct": -0.28,
+        "point": 29652.0,
+        "change_pct": -0.15,
         "spark": [
           29635.5,
-          29616.25,
-          29611.5,
           29613.0,
           29619.5,
           29602.5,
@@ -8394,21 +8398,23 @@
           29647.0,
           29628.0,
           29605.75,
-          29613.5
+          29651.25,
+          29687.75,
+          29652.0
         ],
         "candle": {
           "o": 29635.5,
           "h": 29707.0,
-          "l": 29578.25,
-          "c": 29613.5
+          "l": 29562.75,
+          "c": 29652.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.98,
-          "high_change_pct": -3.58
+          "low_change_pct": 28.14,
+          "high_change_pct": -3.45
         },
         "daily_expanded": [
           {
@@ -10423,9 +10429,9 @@
             "date": "2026-08-28",
             "o": 29635.5,
             "h": 29707.0,
-            "l": 29578.25,
-            "c": 29613.5,
-            "v": 89313
+            "l": 29562.75,
+            "c": 29652.0,
+            "v": 117935
           }
         ],
         "rollover_gaps": [],
@@ -10433,16 +10439,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/finance/commodities-futures/oil-edges-higher-on-fading-hopes-for-strait-of-hormuzs-reopening-7cf0d26d?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/andreessen-horowitz-hardware-fund-ai-supply-chain-887774c5?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/canadas-economy-grows-3-3-in-second-quarter-37b0f512?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/jobs/blue-collar-jobs-are-the-new-flashpoint-in-data-center-fight-aaca5b7e?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10450,12 +10456,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53731.0,
-        "change_pct": 0.21,
+        "point": 53665.0,
+        "change_pct": 0.08,
         "spark": [
           53608.0,
-          53672.0,
-          53664.0,
           53660.0,
           53671.0,
           53636.0,
@@ -10493,21 +10497,23 @@
           53704.0,
           53741.0,
           53714.0,
-          53731.0
+          53674.0,
+          53668.0,
+          53665.0
         ],
         "candle": {
           "o": 53608.0,
-          "h": 53757.0,
+          "h": 53782.0,
           "l": 53571.0,
-          "c": 53731.0
+          "c": 53665.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 18.29,
-          "high_change_pct": -1.4
+          "low_change_pct": 18.14,
+          "high_change_pct": -1.52
         },
         "daily_expanded": [
           {
@@ -12521,10 +12527,10 @@
           {
             "date": "2026-08-28",
             "o": 53608.0,
-            "h": 53757.0,
+            "h": 53782.0,
             "l": 53571.0,
-            "c": 53731.0,
-            "v": 9462
+            "c": 53665.0,
+            "v": 13169
           }
         ],
         "rollover_gaps": [],
@@ -12549,11 +12555,15 @@
     ]
   },
   "regular_open": true,
-  "intraday_refreshed_kst": "2026-08-28T22:40:07.122533+09:00",
+  "intraday_refreshed_kst": "2026-08-28T22:50:45.073509+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/finance/commodities-futures/oil-edges-higher-on-fading-hopes-for-strait-of-hormuzs-reopening-7cf0d26d?mod=rss_worldnews"
+        },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/andreessen-horowitz-hardware-fund-ai-supply-chain-887774c5?mod=rss_markets_main"
@@ -12561,10 +12571,6 @@
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/canadas-economy-grows-3-3-in-second-quarter-37b0f512?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/jobs/blue-collar-jobs-are-the-new-flashpoint-in-data-center-fight-aaca5b7e?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12573,15 +12579,15 @@
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/what-a-125-year-old-bull-market-says-about-todays-trading-craze-59ee249e?mod=rss_markets_main"
+          "url": "https://www.wsj.com/business/energy-oil/chevron-other-u-s-firms-near-deal-to-invest-billions-in-venezuelan-oil-fields-55739e38?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/finance/commodities-futures/oil-edges-higher-on-fading-hopes-for-strait-of-hormuzs-reopening-7cf0d26d?mod=rss_worldnews"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-a-walk-around-dubai-shows-no-signs-of-trumps-d-day-for-iran-5b70a53d?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/world/europe/french-inflation-accelerated-in-august-8dc6e124?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/finance/investing/what-a-125-year-old-bull-market-says-about-todays-trading-craze-59ee249e?mod=rss_markets_main"
         }
       ]
     },
