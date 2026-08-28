@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26555.45,
-      "change_pct": 0.05,
+      "point": 26493.05,
+      "change_pct": -0.18,
       "candle": {
         "o": 26515.89,
         "h": 26604.58,
-        "l": 26507.54,
-        "c": 26555.45
+        "l": 26475.65,
+        "c": 26493.05
       },
       "range_240d": {
         "low": 20794.64,
@@ -2032,8 +2032,8 @@
           "date": "2026-08-28",
           "o": 26515.89,
           "h": 26604.58,
-          "l": 26507.54,
-          "c": 26555.45
+          "l": 26475.65,
+          "c": 26493.05
         }
       ],
       "spark": [
@@ -2043,8 +2043,10 @@
         26600.26,
         26559.06,
         26534.51,
-        26541.32,
-        26555.45
+        26555.45,
+        26522.08,
+        26497.37,
+        26493.05
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2068,13 +2070,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7736.59,
-      "change_pct": 0.07,
+      "point": 7728.12,
+      "change_pct": -0.04,
       "candle": {
         "o": 7735.17,
-        "h": 7747.37,
-        "l": 7733.99,
-        "c": 7736.59
+        "h": 7748.25,
+        "l": 7725.05,
+        "c": 7728.12
       },
       "range_240d": {
         "low": 6343.72,
@@ -4096,9 +4098,9 @@
         {
           "date": "2026-08-28",
           "o": 7735.17,
-          "h": 7747.37,
-          "l": 7733.99,
-          "c": 7736.59
+          "h": 7748.25,
+          "l": 7725.05,
+          "c": 7728.12
         }
       ],
       "spark": [
@@ -4109,7 +4111,9 @@
         7740.04,
         7736.47,
         7736.93,
-        7736.59
+        7735.91,
+        7729.19,
+        7728.12
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4133,13 +4137,13 @@
     },
     {
       "name": "DOW",
-      "point": 53650.38,
-      "change_pct": 0.15,
+      "point": 53640.74,
+      "change_pct": 0.13,
       "candle": {
         "o": 53611.94,
-        "h": 53738.5,
-        "l": 53611.94,
-        "c": 53650.38
+        "h": 53742.16,
+        "l": 53599.45,
+        "c": 53640.74
       },
       "range_240d": {
         "low": 45166.64,
@@ -6161,9 +6165,9 @@
         {
           "date": "2026-08-28",
           "o": 53611.94,
-          "h": 53738.5,
-          "l": 53611.94,
-          "c": 53650.38
+          "h": 53742.16,
+          "l": 53599.45,
+          "c": 53640.74
         }
       ],
       "spark": [
@@ -6174,7 +6178,9 @@
         53676.87,
         53664.37,
         53656.63,
-        53650.38
+        53656.38,
+        53648.75,
+        53640.74
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6200,17 +6206,24 @@
   "news_chips": [
     {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-jackson-hole-08-28-2026?mod=rss_markets_main",
-      "published_ts": 1787906026.0,
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed",
+      "published_ts": 1787925600.0,
       "impact_high": true
     },
     {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/feds-collins-says-rate-increase-warranted-if-inflation-disappoints-2938832e?mod=rss_socialeconomyfeed",
-      "published_ts": 1787853840.0,
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/27/feds-hammack-says-now-is-the-time-to-act-on-raising-interest-rates.html",
+      "published_ts": 1787851869.0,
       "impact_high": true
+    },
+    {
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/trade/why-the-world-needs-to-force-chinas-yuan-to-revalue-2db5ff9c?mod=rss_socialeconomyfeed",
+      "published_ts": 1787925600.0,
+      "impact_high": false
     },
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
@@ -6241,13 +6254,6 @@
       "impact_high": false
     },
     {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/jobs/blue-collar-jobs-are-the-new-flashpoint-in-data-center-fight-aaca5b7e?mod=rss_socialeconomyfeed",
-      "published_ts": 1787918400.0,
-      "impact_high": false
-    },
-    {
       "summary": "기업 실적과 가이던스 변화가 대형주 중심의 선별 흐름을 강화하는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/banking/royal-bank-of-canada-notches-record-income-fc748b0c?mod=rss_markets_main",
@@ -6255,20 +6261,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "c772c2449afc57aa036985ab79f41f7a034d32440c84e0bd3cfaf04bfd9b6396",
+  "_article_sig": "bacd0396a53dacfd5f5c29d948ef3703c1bd128f390d5baf02d4ddce9aee76f1",
   "built_at_kst": "2026-08-28T07:00:43.937266+09:00",
   "futures": {
-    "as_of_kst": "2026-08-28T23:00:04.304878+09:00",
+    "as_of_kst": "2026-08-28T23:10:04.414251+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7750.0,
-        "change_pct": 0.1,
+        "point": 7746.25,
+        "change_pct": 0.05,
         "spark": [
           7733.75,
-          7737.25,
           7736.75,
           7737.0,
           7739.75,
@@ -6307,21 +6312,22 @@
           7755.0,
           7750.5,
           7746.0,
-          7750.0
+          7746.25,
+          7746.25
         ],
         "candle": {
           "o": 7733.75,
           "h": 7758.0,
           "l": 7727.25,
-          "c": 7750.0
+          "c": 7744.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.32,
-          "high_change_pct": -0.93
+          "low_change_pct": 21.23,
+          "high_change_pct": -0.99
         },
         "daily_expanded": [
           {
@@ -8337,8 +8343,8 @@
             "o": 7733.75,
             "h": 7758.0,
             "l": 7727.25,
-            "c": 7750.0,
-            "v": 196774
+            "c": 7744.75,
+            "v": 219190
           }
         ],
         "rollover_gaps": [],
@@ -8346,16 +8352,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/business/energy-oil/chevron-other-u-s-firms-near-deal-to-invest-billions-in-venezuelan-oil-fields-55739e38?mod=rss_markets_main"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/finance/commodities-futures/oil-edges-higher-on-fading-hopes-for-strait-of-hormuzs-reopening-7cf0d26d?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/what-a-125-year-old-bull-market-says-about-todays-trading-craze-59ee249e?mod=rss_markets_main"
             }
           ]
         }
@@ -8363,11 +8369,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29658.0,
-        "change_pct": -0.13,
+        "point": 29629.0,
+        "change_pct": -0.22,
         "spark": [
           29635.5,
-          29602.5,
           29605.75,
           29603.0,
           29622.0,
@@ -8406,21 +8411,22 @@
           29687.75,
           29657.75,
           29633.5,
-          29658.0
+          29629.0,
+          29629.0
         ],
         "candle": {
           "o": 29635.5,
           "h": 29707.0,
           "l": 29562.75,
-          "c": 29658.0
+          "c": 29629.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 28.17,
-          "high_change_pct": -3.43
+          "low_change_pct": 28.05,
+          "high_change_pct": -3.53
         },
         "daily_expanded": [
           {
@@ -10436,8 +10442,8 @@
             "o": 29635.5,
             "h": 29707.0,
             "l": 29562.75,
-            "c": 29658.0,
-            "v": 136661
+            "c": 29629.5,
+            "v": 150271
           }
         ],
         "rollover_gaps": [],
@@ -10445,16 +10451,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/finance/commodities-futures/oil-edges-higher-on-fading-hopes-for-strait-of-hormuzs-reopening-7cf0d26d?mod=rss_worldnews"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/andreessen-horowitz-hardware-fund-ai-supply-chain-887774c5?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/canadas-economy-grows-3-3-in-second-quarter-37b0f512?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10462,12 +10468,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53704.0,
-        "change_pct": 0.15,
+        "point": 53705.0,
+        "change_pct": 0.16,
         "spark": [
           53608.0,
-          53636.0,
-          53634.0,
           53637.0,
           53638.0,
           53644.0,
@@ -10505,13 +10509,15 @@
           53668.0,
           53705.0,
           53699.0,
-          53704.0
+          53681.0,
+          53685.0,
+          53705.0
         ],
         "candle": {
           "o": 53608.0,
           "h": 53782.0,
           "l": 53571.0,
-          "c": 53704.0
+          "c": 53705.0
         },
         "range_240d": {
           "low": 45424.0,
@@ -12535,8 +12541,8 @@
             "o": 53608.0,
             "h": 53782.0,
             "l": 53571.0,
-            "c": 53704.0,
-            "v": 14970
+            "c": 53705.0,
+            "v": 16109
           }
         ],
         "rollover_gaps": [],
@@ -12544,16 +12550,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-a-walk-around-dubai-shows-no-signs-of-trumps-d-day-for-iran-5b70a53d?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/china-is-a-threat-to-biotechs-massive-bull-run-d6a8e314?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/world/europe/french-inflation-accelerated-in-august-8dc6e124?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -12561,11 +12567,15 @@
     ]
   },
   "regular_open": true,
-  "intraday_refreshed_kst": "2026-08-28T23:01:12.715808+09:00",
+  "intraday_refreshed_kst": "2026-08-28T23:10:42.588483+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
+        },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/finance/commodities-futures/oil-edges-higher-on-fading-hopes-for-strait-of-hormuzs-reopening-7cf0d26d?mod=rss_worldnews"
@@ -12573,10 +12583,6 @@
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/andreessen-horowitz-hardware-fund-ai-supply-chain-887774c5?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/canadas-economy-grows-3-3-in-second-quarter-37b0f512?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12584,16 +12590,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/business/energy-oil/chevron-other-u-s-firms-near-deal-to-invest-billions-in-venezuelan-oil-fields-55739e38?mod=rss_markets_main"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/finance/commodities-futures/oil-edges-higher-on-fading-hopes-for-strait-of-hormuzs-reopening-7cf0d26d?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/what-a-125-year-old-bull-market-says-about-todays-trading-craze-59ee249e?mod=rss_markets_main"
         }
       ]
     },
@@ -12601,16 +12607,16 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-a-walk-around-dubai-shows-no-signs-of-trumps-d-day-for-iran-5b70a53d?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/china-is-a-threat-to-biotechs-massive-bull-run-d6a8e314?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/world/europe/french-inflation-accelerated-in-august-8dc6e124?mod=rss_socialeconomyfeed"
         }
       ]
     }
