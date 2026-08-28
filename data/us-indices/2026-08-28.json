@@ -6288,17 +6288,17 @@
       "impact_high": true
     },
     {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/finance/currencies/japan-spent-record-98-7-billion-to-prop-up-yen-in-past-month-ddb03c64?mod=rss_worldnews",
+      "published_ts": 1787916360.0,
+      "impact_high": false
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-a-walk-around-dubai-shows-no-signs-of-trumps-d-day-for-iran-5b70a53d?mod=rss_markets_main",
       "published_ts": 1787914320.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026082802967",
-      "published_ts": 1787913086.0,
       "impact_high": false
     },
     {
@@ -6337,21 +6337,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "8e1fec2439b7d59e98034231acba80aeb144376d8aa2b42ef44cbcaff4923809",
+  "_article_sig": "3198681921fd5a33df615223dedf99d24aa8d7b220da6f2f0250f509bfd0d296",
   "built_at_kst": "2026-08-28T07:00:43.937266+09:00",
   "futures": {
-    "as_of_kst": "2026-08-28T20:20:08.195442+09:00",
+    "as_of_kst": "2026-08-28T20:30:08.578989+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7737.75,
-        "change_pct": -0.06,
+        "point": 7741.0,
+        "change_pct": -0.02,
         "spark": [
           7733.75,
-          7738.5,
-          7737.75,
           7738.25,
           7737.25,
           7738.25,
@@ -6389,21 +6387,23 @@
           7740.5,
           7737.5,
           7739.75,
-          7737.75
+          7740.75,
+          7742.5,
+          7741.0
         ],
         "candle": {
           "o": 7733.75,
           "h": 7747.5,
           "l": 7727.25,
-          "c": 7737.75
+          "c": 7741.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.12,
-          "high_change_pct": -1.08
+          "low_change_pct": 21.18,
+          "high_change_pct": -1.04
         },
         "daily_expanded": [
           {
@@ -8419,8 +8419,8 @@
             "o": 7733.75,
             "h": 7747.5,
             "l": 7727.25,
-            "c": 7737.75,
-            "v": 85131
+            "c": 7741.0,
+            "v": 86296
           }
         ],
         "rollover_gaps": [],
@@ -8445,12 +8445,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29602.5,
-        "change_pct": -0.31,
+        "point": 29627.75,
+        "change_pct": -0.23,
         "spark": [
           29635.5,
-          29591.0,
-          29589.25,
           29584.75,
           29586.75,
           29596.25,
@@ -8488,21 +8486,23 @@
           29627.25,
           29599.75,
           29614.5,
-          29602.5
+          29623.75,
+          29636.5,
+          29627.75
         ],
         "candle": {
           "o": 29635.5,
           "h": 29707.0,
           "l": 29578.25,
-          "c": 29602.5
+          "c": 29627.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.93,
-          "high_change_pct": -3.61
+          "low_change_pct": 28.04,
+          "high_change_pct": -3.53
         },
         "daily_expanded": [
           {
@@ -10518,8 +10518,8 @@
             "o": 29635.5,
             "h": 29707.0,
             "l": 29578.25,
-            "c": 29602.5,
-            "v": 66859
+            "c": 29627.75,
+            "v": 67649
           }
         ],
         "rollover_gaps": [],
@@ -10544,13 +10544,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53635.0,
-        "change_pct": 0.03,
+        "point": 53631.0,
+        "change_pct": 0.02,
         "spark": [
           53608.0,
-          53737.0,
-          53717.0,
-          53717.0,
           53724.0,
           53711.0,
           53715.0,
@@ -10587,20 +10584,23 @@
           53638.0,
           53644.0,
           53635.0,
-          53635.0
+          53639.0,
+          53633.0,
+          53638.0,
+          53631.0
         ],
         "candle": {
           "o": 53608.0,
           "h": 53757.0,
           "l": 53571.0,
-          "c": 53635.0
+          "c": 53631.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 18.08,
+          "low_change_pct": 18.07,
           "high_change_pct": -1.58
         },
         "daily_expanded": [
@@ -12617,8 +12617,8 @@
             "o": 53608.0,
             "h": 53757.0,
             "l": 53571.0,
-            "c": 53635.0,
-            "v": 5968
+            "c": 53631.0,
+            "v": 6019
           }
         ],
         "rollover_gaps": [],
@@ -12643,7 +12643,7 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-08-28T20:20:12.126550+09:00",
+  "intraday_refreshed_kst": "2026-08-28T20:30:56.662681+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
