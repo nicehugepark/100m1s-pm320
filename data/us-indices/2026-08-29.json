@@ -2038,8 +2038,6 @@
       ],
       "spark": [
         26515.89,
-        26444.98,
-        26418.49,
         26461.94,
         26439.8,
         26430.94,
@@ -2077,7 +2075,9 @@
         26413.39,
         26412.83,
         26401.71,
-        26421.53
+        26405.81,
+        26398.08,
+        26402.42
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2096,7 +2096,7 @@
           }
         ]
       },
-      "session_open": true,
+      "session_open": false,
       "trade_date_local": "2026-08-28"
     },
     {
@@ -4136,8 +4136,6 @@
       ],
       "spark": [
         7735.17,
-        7720.86,
-        7714.56,
         7721.56,
         7717.21,
         7715.15,
@@ -4175,7 +4173,9 @@
         7712.9,
         7713.74,
         7710.08,
-        7712.84
+        7711.24,
+        7709.9,
+        7711.49
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4194,7 +4194,7 @@
           }
         ]
       },
-      "session_open": true,
+      "session_open": false,
       "trade_date_local": "2026-08-28"
     },
     {
@@ -6234,8 +6234,6 @@
       ],
       "spark": [
         53611.94,
-        53591.25,
-        53556.22,
         53575.08,
         53568.25,
         53555.03,
@@ -6273,7 +6271,9 @@
         53562.3,
         53571.68,
         53544.8,
-        53560.85
+        53566.21,
+        53546.79,
+        53559.34
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6292,7 +6292,7 @@
           }
         ]
       },
-      "session_open": true,
+      "session_open": false,
       "trade_date_local": "2026-08-28"
     }
   ],
@@ -6317,6 +6317,13 @@
       "url": "https://www.hankyung.com/article/202608280422i",
       "published_ts": 1787928581.0,
       "impact_high": true
+    },
+    {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/world/middle-east/a-core-egyptian-bank-gets-caught-up-in-treasurys-iran-crackdown-bb867772?mod=rss_markets_main",
+      "published_ts": 1787946960.0,
+      "impact_high": false
     },
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
@@ -6352,29 +6359,19 @@
       "url": "https://www.wsj.com/world/india/indian-nationalist-leader-stirs-anger-with-u-s-appearance-521e5a21?mod=rss_worldnews",
       "published_ts": 1787928600.0,
       "impact_high": false
-    },
-    {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/finance/commodities-futures/oil-edges-higher-on-fading-hopes-for-strait-of-hormuzs-reopening-7cf0d26d?mod=rss_worldnews",
-      "published_ts": 1787923020.0,
-      "impact_high": false
-    },
-    {
-      "summary": "기업 실적과 가이던스 변화가 대형주 중심의 선별 흐름을 강화하는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/banking/royal-bank-of-canada-notches-record-income-fc748b0c?mod=rss_markets_main",
-      "published_ts": 1787848620.0,
-      "impact_high": false
     }
   ],
-  "_article_sig": "cd763c9a752d48868906f4d063df49cbb1f30916724190bafaebc791110e4636",
+  "_article_sig": "7b0f445a4c9844ad98ceaa075f10bddce96f66ad509c9d951a83ed36e33143f1",
   "built_at_kst": "2026-08-28T07:00:43.937266+09:00",
-  "regular_open": true,
+  "regular_open": false,
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/finance/commodities-futures/oil-edges-higher-on-fading-hopes-for-strait-of-hormuzs-reopening-7cf0d26d?mod=rss_worldnews"
+        },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/week-ahead-for-fx-bonds-u-s-jobs-data-in-focus-bank-of-canada-decision-due-d4581c92?mod=rss_socialeconomyfeed"
@@ -6382,10 +6379,6 @@
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/canadas-economy-grows-3-3-in-second-quarter-37b0f512?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -6393,16 +6386,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/week-ahead-for-fx-bonds-u-s-jobs-data-in-focus-bank-of-canada-decision-due-d4581c92?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
-        },
-        {
           "name": "WSJ",
-          "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-319c8fd4?mod=rss_markets_main"
+          "url": "https://www.wsj.com/world/middle-east/a-core-egyptian-bank-gets-caught-up-in-treasurys-iran-crackdown-bb867772?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/a-core-egyptian-bank-gets-caught-up-in-treasurys-iran-crackdown-bb867772?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/finance/commodities-futures/oil-edges-higher-on-fading-hopes-for-strait-of-hormuzs-reopening-7cf0d26d?mod=rss_worldnews"
         }
       ]
     },
@@ -6410,22 +6403,22 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/world/middle-east/a-core-egyptian-bank-gets-caught-up-in-treasurys-iran-crackdown-bb867772?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/a-core-egyptian-bank-gets-caught-up-in-treasurys-iran-crackdown-bb867772?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/week-ahead-for-fx-bonds-u-s-jobs-data-in-focus-bank-of-canada-decision-due-d4581c92?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/canadas-economy-grows-3-3-in-second-quarter-37b0f512?mod=rss_socialeconomyfeed"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-08-29T04:50:05.844042+09:00",
+    "as_of_kst": "2026-08-29T05:00:05.208853+09:00",
     "session_open": true,
     "futures": [
       {
@@ -6435,8 +6428,6 @@
         "change_pct": -0.23,
         "spark": [
           7733.75,
-          7725.5,
-          7732.5,
           7725.5,
           7733.0,
           7728.5,
@@ -6474,6 +6465,8 @@
           7723.0,
           7724.75,
           7725.5,
+          7721.75,
+          7723.0,
           7724.75
         ],
         "candle": {
@@ -8505,7 +8498,7 @@
             "h": 7782.5,
             "l": 7711.75,
             "c": 7724.75,
-            "v": 1286255
+            "v": 1307566
           }
         ],
         "rollover_gaps": [],
@@ -8513,16 +8506,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/week-ahead-for-fx-bonds-u-s-jobs-data-in-focus-bank-of-canada-decision-due-d4581c92?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
-            },
-            {
               "name": "WSJ",
-              "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-319c8fd4?mod=rss_markets_main"
+              "url": "https://www.wsj.com/world/middle-east/a-core-egyptian-bank-gets-caught-up-in-treasurys-iran-crackdown-bb867772?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/a-core-egyptian-bank-gets-caught-up-in-treasurys-iran-crackdown-bb867772?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/finance/commodities-futures/oil-edges-higher-on-fading-hopes-for-strait-of-hormuzs-reopening-7cf0d26d?mod=rss_worldnews"
             }
           ]
         }
@@ -8530,12 +8523,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29502.25,
-        "change_pct": -0.65,
+        "point": 29508.25,
+        "change_pct": -0.63,
         "spark": [
           29635.5,
-          29476.75,
-          29512.0,
           29483.75,
           29537.5,
           29513.0,
@@ -8573,21 +8564,23 @@
           29498.0,
           29501.25,
           29503.0,
-          29502.25
+          29490.5,
+          29491.25,
+          29508.25
         ],
         "candle": {
           "o": 29635.5,
           "h": 29811.5,
           "l": 29436.25,
-          "c": 29500.75
+          "c": 29507.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.49,
-          "high_change_pct": -3.95
+          "low_change_pct": 27.52,
+          "high_change_pct": -3.92
         },
         "daily_expanded": [
           {
@@ -10603,8 +10596,8 @@
             "o": 29635.5,
             "h": 29811.5,
             "l": 29436.25,
-            "c": 29500.75,
-            "v": 528702
+            "c": 29507.5,
+            "v": 537914
           }
         ],
         "rollover_gaps": [],
@@ -10612,16 +10605,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/finance/commodities-futures/oil-edges-higher-on-fading-hopes-for-strait-of-hormuzs-reopening-7cf0d26d?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/week-ahead-for-fx-bonds-u-s-jobs-data-in-focus-bank-of-canada-decision-due-d4581c92?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/canadas-economy-grows-3-3-in-second-quarter-37b0f512?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10629,13 +10622,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53601.0,
-        "change_pct": -0.04,
+        "point": 53591.0,
+        "change_pct": -0.06,
         "spark": [
           53608.0,
-          53565.0,
-          53571.0,
-          53625.0,
           53590.0,
           53605.0,
           53596.0,
@@ -10672,21 +10662,24 @@
           53610.0,
           53582.0,
           53596.0,
-          53601.0
+          53601.0,
+          53582.0,
+          53602.0,
+          53591.0
         ],
         "candle": {
           "o": 53608.0,
           "h": 53862.0,
           "l": 53513.0,
-          "c": 53595.0
+          "c": 53591.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 17.99,
-          "high_change_pct": -1.65
+          "low_change_pct": 17.98,
+          "high_change_pct": -1.66
         },
         "daily_expanded": [
           {
@@ -12702,8 +12695,8 @@
             "o": 53608.0,
             "h": 53862.0,
             "l": 53513.0,
-            "c": 53595.0,
-            "v": 50012
+            "c": 53591.0,
+            "v": 51035
           }
         ],
         "rollover_gaps": [],
@@ -12711,21 +12704,21 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/world/middle-east/a-core-egyptian-bank-gets-caught-up-in-treasurys-iran-crackdown-bb867772?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/a-core-egyptian-bank-gets-caught-up-in-treasurys-iran-crackdown-bb867772?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/week-ahead-for-fx-bonds-u-s-jobs-data-in-focus-bank-of-canada-decision-due-d4581c92?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/canadas-economy-grows-3-3-in-second-quarter-37b0f512?mod=rss_socialeconomyfeed"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-08-29T04:50:09.784978+09:00"
+  "intraday_refreshed_kst": "2026-08-29T05:00:41.143260+09:00"
 }
