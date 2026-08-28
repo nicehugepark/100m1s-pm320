@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26563.99,
-      "change_pct": 0.09,
+      "point": 26635.2,
+      "change_pct": 0.35,
       "candle": {
         "o": 26515.89,
-        "h": 26604.58,
+        "h": 26638.62,
         "l": 26429.15,
-        "c": 26563.99
+        "c": 26635.2
       },
       "range_240d": {
         "low": 20794.64,
@@ -2031,9 +2031,9 @@
         {
           "date": "2026-08-28",
           "o": 26515.89,
-          "h": 26604.58,
+          "h": 26638.62,
           "l": 26429.15,
-          "c": 26563.99
+          "c": 26635.2
         }
       ],
       "spark": [
@@ -2052,7 +2052,9 @@
         26523.54,
         26545.2,
         26565.26,
-        26563.99
+        26618.73,
+        26635.51,
+        26635.2
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2076,13 +2078,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7741.54,
-      "change_pct": 0.14,
+      "point": 7755.81,
+      "change_pct": 0.32,
       "candle": {
         "o": 7735.17,
-        "h": 7748.25,
+        "h": 7756.22,
         "l": 7715.87,
-        "c": 7741.54
+        "c": 7755.81
       },
       "range_240d": {
         "low": 6343.72,
@@ -4104,9 +4106,9 @@
         {
           "date": "2026-08-28",
           "o": 7735.17,
-          "h": 7748.25,
+          "h": 7756.22,
           "l": 7715.87,
-          "c": 7741.54
+          "c": 7755.81
         }
       ],
       "spark": [
@@ -4125,7 +4127,9 @@
         7730.37,
         7738.08,
         7741.75,
-        7741.54
+        7752.73,
+        7756.06,
+        7755.81
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4149,13 +4153,13 @@
     },
     {
       "name": "DOW",
-      "point": 53627.64,
-      "change_pct": 0.11,
+      "point": 53687.7,
+      "change_pct": 0.22,
       "candle": {
         "o": 53611.94,
         "h": 53742.16,
         "l": 53498.73,
-        "c": 53627.64
+        "c": 53687.7
       },
       "range_240d": {
         "low": 45166.64,
@@ -6179,7 +6183,7 @@
           "o": 53611.94,
           "h": 53742.16,
           "l": 53498.73,
-          "c": 53627.64
+          "c": 53687.7
         }
       ],
       "spark": [
@@ -6198,7 +6202,9 @@
         53532.46,
         53600.07,
         53626.17,
-        53627.64
+        53679.06,
+        53680.75,
+        53687.7
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6224,9 +6230,9 @@
   "news_chips": [
     {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html",
-      "published_ts": 1787927264.0,
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed",
+      "published_ts": 1787928060.0,
       "impact_high": true
     },
     {
@@ -6235,6 +6241,13 @@
       "url": "https://www.cnbc.com/2026/08/27/feds-hammack-says-now-is-the-time-to-act-on-raising-interest-rates.html",
       "published_ts": 1787851869.0,
       "impact_high": true
+    },
+    {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/2026082804167",
+      "published_ts": 1787928221.0,
+      "impact_high": false
     },
     {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
@@ -6258,13 +6271,6 @@
       "impact_high": false
     },
     {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/currencies/japan-spent-record-98-7-billion-to-prop-up-yen-in-past-month-ddb03c64?mod=rss_markets_main",
-      "published_ts": 1787925000.0,
-      "impact_high": false
-    },
-    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/finance/commodities-futures/oil-edges-higher-on-fading-hopes-for-strait-of-hormuzs-reopening-7cf0d26d?mod=rss_worldnews",
@@ -6279,21 +6285,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "00ad209ed2a40a82a508ecdb76bc0c1d898b84fb18e2d865bf0e3ead1dccf1e7",
+  "_article_sig": "2b337a4b91c8fa228d006d62fda41f6cd08e09d994437df324034c3cd38179c3",
   "built_at_kst": "2026-08-28T07:00:43.937266+09:00",
   "futures": {
-    "as_of_kst": "2026-08-28T23:40:05.688696+09:00",
+    "as_of_kst": "2026-08-28T23:50:07.169797+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7741.75,
-        "change_pct": -0.01,
+        "point": 7752.5,
+        "change_pct": 0.13,
         "spark": [
           7733.75,
-          7742.5,
-          7742.25,
           7740.0,
           7740.25,
           7739.0,
@@ -6331,21 +6335,23 @@
           7744.75,
           7742.0,
           7750.75,
-          7741.75
+          7752.5,
+          7763.25,
+          7752.5
         ],
         "candle": {
           "o": 7733.75,
           "h": 7760.5,
           "l": 7726.5,
-          "c": 7741.75
+          "c": 7752.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.19,
-          "high_change_pct": -1.03
+          "low_change_pct": 21.36,
+          "high_change_pct": -0.89
         },
         "daily_expanded": [
           {
@@ -8361,8 +8367,8 @@
             "o": 7733.75,
             "h": 7760.5,
             "l": 7726.5,
-            "c": 7741.75,
-            "v": 406510
+            "c": 7752.5,
+            "v": 452950
           }
         ],
         "rollover_gaps": [],
@@ -8370,16 +8376,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html"
-            },
-            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
             },
             {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/finance/commodities-futures/oil-edges-higher-on-fading-hopes-for-strait-of-hormuzs-reopening-7cf0d26d?mod=rss_worldnews"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html"
+            },
+            {
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/202608280409i"
             }
           ]
         }
@@ -8387,12 +8393,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29648.75,
-        "change_pct": -0.16,
+        "point": 29680.0,
+        "change_pct": -0.05,
         "spark": [
           29635.5,
-          29636.5,
-          29633.5,
           29620.5,
           29618.25,
           29610.25,
@@ -8430,21 +8434,23 @@
           29643.5,
           29653.5,
           29683.25,
-          29648.75
+          29680.0,
+          29734.25,
+          29680.0
         ],
         "candle": {
           "o": 29635.5,
-          "h": 29707.0,
+          "h": 29713.0,
           "l": 29505.0,
-          "c": 29648.75
+          "c": 29680.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 28.13,
-          "high_change_pct": -3.46
+          "low_change_pct": 28.26,
+          "high_change_pct": -3.36
         },
         "daily_expanded": [
           {
@@ -10458,10 +10464,10 @@
           {
             "date": "2026-08-28",
             "o": 29635.5,
-            "h": 29707.0,
+            "h": 29713.0,
             "l": 29505.0,
-            "c": 29648.75,
-            "v": 223720
+            "c": 29680.0,
+            "v": 241806
           }
         ],
         "rollover_gaps": [],
@@ -10469,16 +10475,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/jobs/job-growth-bls-revision-5a632dc9?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10486,12 +10492,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53578.0,
-        "change_pct": -0.08,
+        "point": 53668.0,
+        "change_pct": 0.09,
         "spark": [
           53608.0,
-          53638.0,
-          53628.0,
           53620.0,
           53627.0,
           53620.0,
@@ -10529,21 +10533,23 @@
           53613.0,
           53573.0,
           53644.0,
-          53578.0
+          53661.0,
+          53716.0,
+          53668.0
         ],
         "candle": {
           "o": 53608.0,
           "h": 53785.0,
           "l": 53531.0,
-          "c": 53578.0
+          "c": 53668.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 17.95,
-          "high_change_pct": -1.68
+          "low_change_pct": 18.15,
+          "high_change_pct": -1.52
         },
         "daily_expanded": [
           {
@@ -12559,8 +12565,8 @@
             "o": 53608.0,
             "h": 53785.0,
             "l": 53531.0,
-            "c": 53578.0,
-            "v": 22269
+            "c": 53668.0,
+            "v": 23697
           }
         ],
         "rollover_gaps": [],
@@ -12568,16 +12574,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/consumer-sentiment-was-weaker-in-august-per-michigan-survey-24d25174?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -12585,11 +12591,15 @@
     ]
   },
   "regular_open": true,
-  "intraday_refreshed_kst": "2026-08-28T23:40:09.659536+09:00",
+  "intraday_refreshed_kst": "2026-08-28T23:50:41.848983+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
+        },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html"
@@ -12597,10 +12607,6 @@
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/jobs/job-growth-bls-revision-5a632dc9?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12608,16 +12614,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html"
-        },
-        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
         },
         {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/finance/commodities-futures/oil-edges-higher-on-fading-hopes-for-strait-of-hormuzs-reopening-7cf0d26d?mod=rss_worldnews"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html"
+        },
+        {
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/202608280409i"
         }
       ]
     },
@@ -12625,16 +12631,16 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/consumer-sentiment-was-weaker-in-august-per-michigan-survey-24d25174?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51?mod=rss_socialeconomyfeed"
         }
       ]
     }
