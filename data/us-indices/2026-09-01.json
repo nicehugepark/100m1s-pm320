@@ -2080,7 +2080,8 @@
             "url": "https://www.wsj.com/pro/bankruptcy/fdic-beats-investor-claim-to-1-71-billion-silicon-valley-bank-deposit-fdff001a?mod=rss_markets_main"
           }
         ]
-      }
+      },
+      "session_open": false
     },
     {
       "name": "S&P500",
@@ -4161,7 +4162,8 @@
             "url": "https://www.wsj.com/finance/investing/flaring-middle-east-tensions-push-oil-prices-up-a1dc32bb?mod=rss_markets_main"
           }
         ]
-      }
+      },
+      "session_open": false
     },
     {
       "name": "DOW",
@@ -6242,7 +6244,8 @@
             "url": "https://www.cnbc.com/2026/08/31/bailey-frontier-ai-financial-stability-risk.html"
           }
         ]
-      }
+      },
+      "session_open": false
     }
   ],
   "news_chips": [
@@ -6251,6 +6254,13 @@
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/stocks/stocks-decline-to-end-august-as-war-fears-persist-4388a594?mod=rss_markets_main",
       "published_ts": 1788210120.0,
+      "impact_high": true
+    },
+    {
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/202608314475i",
+      "published_ts": 1788210004.0,
       "impact_high": true
     },
     {
@@ -6266,6 +6276,13 @@
       "url": "https://www.wsj.com/economy/yen-caught-between-top-u-s-officials-remarks-49eb48ee?mod=rss_socialeconomyfeed",
       "published_ts": 1788142200.0,
       "impact_high": true
+    },
+    {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/business/retail/shein-had-4-4-billion-reasons-to-speed-its-ipo-along-1827a317?mod=rss_markets_main",
+      "published_ts": 1788213600.0,
+      "impact_high": false
     },
     {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
@@ -6289,13 +6306,6 @@
       "impact_high": false
     },
     {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026083149231",
-      "published_ts": 1788195009.0,
-      "impact_high": false
-    },
-    {
       "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026083148271",
@@ -6308,29 +6318,21 @@
       "url": "https://www.hankyung.com/article/202608314783i",
       "published_ts": 1788169914.0,
       "impact_high": false
-    },
-    {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/asia/japan-targets-record-defense-spend-as-china-pressure-grows-c30a382e?mod=rss_worldnews",
-      "published_ts": 1788168780.0,
-      "impact_high": false
     }
   ],
-  "_article_sig": "ff3daff26e8b8e8d3430675174342e94fbb77a47954db53d809943e0c1255f1e",
+  "_article_sig": "16405ac114527fd0e1f6ba12504f5cb60128254baacb99262422b711b294e16b",
   "built_at_kst": "2026-09-01T07:00:44.206080+09:00",
   "futures": {
-    "as_of_kst": "2026-09-01T07:00:44.205609+09:00",
+    "as_of_kst": "2026-09-01T07:10:07.541258+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7701.25,
-        "change_pct": 0.03,
+        "point": 7701.75,
+        "change_pct": 0.04,
         "spark": [
-          7723.5,
-          7691.25,
+          7701.25,
           7695.75,
           7693.0,
           7693.5,
@@ -6369,21 +6371,22 @@
           7700.5,
           7701.75,
           7701.25,
-          7701.25
+          7702.0,
+          7701.75
         ],
         "candle": {
-          "o": 7723.5,
-          "h": 7724.0,
-          "l": 7674.75,
-          "c": 7701.25
+          "o": 7701.25,
+          "h": 7702.0,
+          "l": 7700.75,
+          "c": 7701.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 20.55,
-          "high_change_pct": -1.55
+          "low_change_pct": 20.56,
+          "high_change_pct": -1.54
         },
         "daily_expanded": [
           {
@@ -8388,23 +8391,39 @@
           },
           {
             "date": "2026-08-31",
-            "o": 7723.5,
-            "h": 7724.0,
-            "l": 7674.75,
-            "c": 7701.25,
-            "v": 1173947
+            "o": 7701.25,
+            "h": 7702.0,
+            "l": 7700.75,
+            "c": 7701.75,
+            "v": 127
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/stocks-decline-to-end-august-as-war-fears-persist-4388a594?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/donald-trump-jr-s-fund-boosts-polymarket-investment-by-around-300-million-45270bba?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/flaring-middle-east-tensions-push-oil-prices-up-a1dc32bb?mod=rss_markets_main"
+            }
+          ]
+        }
       },
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29521.0,
-        "change_pct": 0.03,
+        "point": 29514.0,
+        "change_pct": 0.0,
         "spark": [
-          29540.0,
-          29437.0,
+          29518.25,
           29453.75,
           29442.0,
           29452.0,
@@ -8443,21 +8462,22 @@
           29507.5,
           29517.0,
           29521.0,
-          29521.0
+          29506.25,
+          29514.0
         ],
         "candle": {
-          "o": 29540.0,
-          "h": 29546.25,
-          "l": 29273.5,
-          "c": 29521.0
+          "o": 29518.25,
+          "h": 29521.75,
+          "l": 29511.25,
+          "c": 29514.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.58,
-          "high_change_pct": -3.88
+          "low_change_pct": 27.55,
+          "high_change_pct": -3.9
         },
         "daily_expanded": [
           {
@@ -10462,23 +10482,39 @@
           },
           {
             "date": "2026-08-31",
-            "o": 29540.0,
-            "h": 29546.25,
-            "l": 29273.5,
-            "c": 29521.0,
-            "v": 456647
+            "o": 29518.25,
+            "h": 29521.75,
+            "l": 29511.25,
+            "c": 29514.0,
+            "v": 120
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/stocks-decline-to-end-august-as-war-fears-persist-4388a594?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/americas/bessent-criticizes-canada-as-global-summit-shows-divisions-483a0b70?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/pro/bankruptcy/fdic-beats-investor-claim-to-1-71-billion-silicon-valley-bank-deposit-fdff001a?mod=rss_markets_main"
+            }
+          ]
+        }
       },
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53256.0,
-        "change_pct": 0.03,
+        "point": 53252.0,
+        "change_pct": 0.02,
         "spark": [
-          53664.0,
-          53257.0,
+          53259.0,
           53288.0,
           53274.0,
           53276.0,
@@ -10517,21 +10553,22 @@
           53260.0,
           53269.0,
           53256.0,
-          53256.0
+          53267.0,
+          53252.0
         ],
         "candle": {
-          "o": 53664.0,
-          "h": 53664.0,
-          "l": 53149.0,
-          "c": 53256.0
+          "o": 53259.0,
+          "h": 53261.0,
+          "l": 53252.0,
+          "c": 53252.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 17.24,
-          "high_change_pct": -2.27
+          "low_change_pct": 17.23,
+          "high_change_pct": -2.28
         },
         "daily_expanded": [
           {
@@ -12536,15 +12573,87 @@
           },
           {
             "date": "2026-08-31",
-            "o": 53664.0,
-            "h": 53664.0,
-            "l": 53149.0,
-            "c": 53256.0,
-            "v": 55501
+            "o": 53259.0,
+            "h": 53261.0,
+            "l": 53252.0,
+            "c": 53252.0,
+            "v": 8
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+          "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/pro/bankruptcy/fdic-beats-investor-claim-to-1-71-billion-silicon-valley-bank-deposit-fdff001a?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/russia-turns-to-new-generation-drones-and-all-day-attacks-to-wear-down-ukrainians-b492ec1b?mod=rss_worldnews"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/08/31/bailey-frontier-ai-financial-stability-risk.html"
+            }
+          ]
+        }
       }
     ]
-  }
+  },
+  "regular_open": false,
+  "_futures_news": {
+    "NASDAQ": {
+      "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/stocks-decline-to-end-august-as-war-fears-persist-4388a594?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/americas/bessent-criticizes-canada-as-global-summit-shows-divisions-483a0b70?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/pro/bankruptcy/fdic-beats-investor-claim-to-1-71-billion-silicon-valley-bank-deposit-fdff001a?mod=rss_markets_main"
+        }
+      ]
+    },
+    "S&P500": {
+      "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/stocks-decline-to-end-august-as-war-fears-persist-4388a594?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/donald-trump-jr-s-fund-boosts-polymarket-investment-by-around-300-million-45270bba?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/flaring-middle-east-tensions-push-oil-prices-up-a1dc32bb?mod=rss_markets_main"
+        }
+      ]
+    },
+    "DOW": {
+      "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/pro/bankruptcy/fdic-beats-investor-claim-to-1-71-billion-silicon-valley-bank-deposit-fdff001a?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/russia-turns-to-new-generation-drones-and-all-day-attacks-to-wear-down-ukrainians-b492ec1b?mod=rss_worldnews"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/31/bailey-frontier-ai-financial-stability-risk.html"
+        }
+      ]
+    }
+  },
+  "intraday_refreshed_kst": "2026-09-01T07:10:42.039458+09:00"
 }
