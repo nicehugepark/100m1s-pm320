@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "generated_at": "2026-08-31T12:25:13.813218",
+  "generated_at": "2026-08-31T12:26:36.927473",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -363,9 +363,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bull",
+      "togusa_verdict": "strong_bull",
       "theme_leader": true,
-      "hugepark_grade": "관찰"
+      "hugepark_grade": "적극"
     },
     {
       "code": "066970",
@@ -980,7 +980,7 @@
           2375
         ]
       },
-      "togusa_verdict": "neutral",
+      "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰"
     },
@@ -1243,17 +1243,11 @@
       "industry": "절연선 및 케이블 제조업",
       "sector": "전력선,통신케이블 제조,도매,수출입",
       "themes": [
-        "케이블",
         "무상증자",
-        "AI데이터센터"
+        "AI데이터센터",
+        "케이블"
       ],
       "theme_paths": [
-        {
-          "name": "케이블",
-          "path": [
-            "케이블"
-          ]
-        },
         {
           "name": "무상증자",
           "path": [
@@ -1265,6 +1259,12 @@
           "path": [
             "AI",
             "AI데이터센터"
+          ]
+        },
+        {
+          "name": "케이블",
+          "path": [
+            "케이블"
           ]
         }
       ],
@@ -1367,8 +1367,8 @@
       "fallback": true,
       "theme_crosscheck": {
         "confirmed": [
-          "케이블",
-          "무상증자"
+          "무상증자",
+          "케이블"
         ],
         "pm320_only": [
           "AI데이터센터"
@@ -1528,7 +1528,10 @@
           "l": 198200,
           "c": 210000
         }
-      ]
+      ],
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "054940",
@@ -1579,7 +1582,7 @@
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=02699446645552896",
           "source": "이데일리",
           "published_at": "2026-08-31T01:23:06",
-          "causal_chain": null,
+          "causal_chain": "",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -1747,7 +1750,12 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "225190",
