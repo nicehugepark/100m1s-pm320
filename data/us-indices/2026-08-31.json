@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/31/bailey-frontier-ai-financial-stability-risk.html",
+      "published_ts": 1788171539.0,
+      "impact_high": true
+    },
+    {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026083146191",
@@ -6292,13 +6299,6 @@
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/stocks/the-index-fund-strategy-quietly-beating-big-tech-this-year-c74bb58e?mod=rss_markets_main",
       "published_ts": 1788171120.0,
-      "impact_high": false
-    },
-    {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/americas-biggest-companies-ring-up-hefty-sales-and-raise-their-outlooks-1b78875a?mod=rss_worldnews",
-      "published_ts": 1788170400.0,
       "impact_high": false
     },
     {
@@ -6330,7 +6330,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "ab03be38cc9524e6c1cf827b4098d52db66ce8c4f2fd3121631ecdf956dd51a7",
+  "_article_sig": "3904299adc2001df2922bee134151c54d309e86a71c1ca7b1d8165117cdc0ca7",
   "built_at_kst": "2026-08-29T07:00:33.623584+09:00",
   "regular_open": false,
   "_futures_news": {
@@ -6338,16 +6338,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/31/bailey-frontier-ai-financial-stability-risk.html"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/americas-biggest-companies-ring-up-hefty-sales-and-raise-their-outlooks-1b78875a?mod=rss_worldnews"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/asia/nepal-focuses-on-dangerous-tunnel-rescues-as-flood-toll-tops-900-712e3a57?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-31-2026?mod=rss_markets_main"
         }
       ]
     },
@@ -6372,23 +6372,23 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/31/bailey-frontier-ai-financial-stability-risk.html"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/business/retail/dont-count-shein-out-just-yet-37acc559?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/chinas-official-gauges-point-to-continued-contraction-in-economic-activity-207d350d?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/the-sudden-unraveling-of-wall-streets-momentum-trade-fe79b4fa?mod=rss_markets_main"
         }
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-08-31T19:20:47.545161+09:00",
+  "intraday_refreshed_kst": "2026-08-31T19:30:43.456216+09:00",
   "futures": {
-    "as_of_kst": "2026-08-31T19:20:04.602854+09:00",
+    "as_of_kst": "2026-08-31T19:30:03.840238+09:00",
     "session_open": true,
     "futures": [
       {
@@ -6398,8 +6398,6 @@
         "change_pct": -0.19,
         "spark": [
           7723.5,
-          7711.0,
-          7709.5,
           7709.25,
           7710.25,
           7708.75,
@@ -6436,6 +6434,8 @@
           7708.0,
           7707.25,
           7707.75,
+          7707.5,
+          7709.0,
           7707.5,
           7707.5
         ],
@@ -8460,7 +8460,7 @@
             "h": 7724.0,
             "l": 7683.75,
             "c": 7707.5,
-            "v": 122579
+            "v": 123748
           }
         ],
         "rollover_gaps": [],
@@ -8485,11 +8485,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29449.5,
+        "point": 29451.0,
         "change_pct": -0.14,
         "spark": [
           29540.0,
-          29509.75,
           29507.5,
           29513.75,
           29503.75,
@@ -8528,20 +8527,21 @@
           29449.25,
           29450.0,
           29458.0,
-          29449.5
+          29451.0,
+          29451.0
         ],
         "candle": {
           "o": 29540.0,
           "h": 29546.25,
           "l": 29273.5,
-          "c": 29449.5
+          "c": 29451.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.27,
+          "low_change_pct": 27.28,
           "high_change_pct": -4.11
         },
         "daily_expanded": [
@@ -10550,8 +10550,8 @@
             "o": 29540.0,
             "h": 29546.25,
             "l": 29273.5,
-            "c": 29449.5,
-            "v": 90852
+            "c": 29451.5,
+            "v": 91773
           }
         ],
         "rollover_gaps": [],
@@ -10559,16 +10559,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/08/31/bailey-frontier-ai-financial-stability-risk.html"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/americas-biggest-companies-ring-up-hefty-sales-and-raise-their-outlooks-1b78875a?mod=rss_worldnews"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/asia/nepal-focuses-on-dangerous-tunnel-rescues-as-flood-toll-tops-900-712e3a57?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-31-2026?mod=rss_markets_main"
             }
           ]
         }
@@ -10576,12 +10576,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53490.0,
-        "change_pct": -0.18,
+        "point": 53484.0,
+        "change_pct": -0.19,
         "spark": [
           53664.0,
-          53536.0,
-          53509.0,
           53501.0,
           53514.0,
           53520.0,
@@ -10619,21 +10617,23 @@
           53495.0,
           53497.0,
           53490.0,
-          53490.0
+          53495.0,
+          53486.0,
+          53484.0
         ],
         "candle": {
           "o": 53664.0,
           "h": 53664.0,
           "l": 53386.0,
-          "c": 53491.0
+          "c": 53486.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 17.76,
-          "high_change_pct": -1.84
+          "low_change_pct": 17.75,
+          "high_change_pct": -1.85
         },
         "daily_expanded": [
           {
@@ -12641,8 +12641,8 @@
             "o": 53664.0,
             "h": 53664.0,
             "l": 53386.0,
-            "c": 53491.0,
-            "v": 8160
+            "c": 53486.0,
+            "v": 8260
           }
         ],
         "rollover_gaps": [],
@@ -12650,16 +12650,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/08/31/bailey-frontier-ai-financial-stability-risk.html"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/business/retail/dont-count-shein-out-just-yet-37acc559?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/chinas-official-gauges-point-to-continued-contraction-in-economic-activity-207d350d?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/the-sudden-unraveling-of-wall-streets-momentum-trade-fe79b4fa?mod=rss_markets_main"
             }
           ]
         }
