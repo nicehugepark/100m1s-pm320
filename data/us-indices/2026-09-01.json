@@ -6298,13 +6298,6 @@
   ],
   "news_chips": [
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/31/bailey-frontier-ai-financial-stability-risk.html",
-      "published_ts": 1788183311.0,
-      "impact_high": true
-    },
-    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/global/german-inflation-rises-but-few-signs-of-energy-shock-spillover-e22ff3b0?mod=rss_socialeconomyfeed",
@@ -6317,6 +6310,13 @@
       "url": "https://www.wsj.com/economy/yen-caught-between-top-u-s-officials-remarks-49eb48ee?mod=rss_socialeconomyfeed",
       "published_ts": 1788142200.0,
       "impact_high": true
+    },
+    {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/investing/flaring-middle-east-tensions-push-oil-prices-up-a1dc32bb?mod=rss_markets_main",
+      "published_ts": 1788208740.0,
+      "impact_high": false
     },
     {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
@@ -6368,7 +6368,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "67e4e6ccf743725ff8cd8734c8e499e679615fd356b79cad7ff38f68fa29147a",
+  "_article_sig": "f54bd243fc0a37eba5860962b2f2ca2541a32556341066d24d963b16efc19305",
   "built_at_kst": "2026-08-29T07:00:33.623584+09:00",
   "regular_open": false,
   "_futures_news": {
@@ -6394,15 +6394,15 @@
       "sources": [
         {
           "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/flaring-middle-east-tensions-push-oil-prices-up-a1dc32bb?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
           "url": "https://www.wsj.com/pro/bankruptcy/fdic-beats-investor-claim-to-1-71-billion-silicon-valley-bank-deposit-fdff001a?mod=rss_markets_main"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/u-s-strikes-two-iranian-rocket-launchers-in-first-attack-in-weeks-17602dcf?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/global/german-inflation-rises-but-few-signs-of-energy-shock-spillover-e22ff3b0?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -6425,19 +6425,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-09-01T05:40:03.863934+09:00",
+    "as_of_kst": "2026-09-01T05:50:08.939313+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7702.5,
-        "change_pct": -0.25,
+        "point": 7702.25,
+        "change_pct": -0.26,
         "spark": [
           7723.5,
-          7686.5,
-          7685.75,
-          7682.0,
           7680.75,
           7686.25,
           7690.5,
@@ -6474,13 +6471,16 @@
           7702.0,
           7701.25,
           7702.5,
-          7702.5
+          7701.75,
+          7702.25,
+          7702.5,
+          7702.25
         ],
         "candle": {
           "o": 7723.5,
           "h": 7724.0,
           "l": 7674.75,
-          "c": 7702.5
+          "c": 7702.25
         },
         "range_240d": {
           "low": 6388.25,
@@ -6488,7 +6488,7 @@
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
           "low_change_pct": 20.57,
-          "high_change_pct": -1.53
+          "high_change_pct": -1.54
         },
         "daily_expanded": [
           {
@@ -8496,8 +8496,8 @@
             "o": 7723.5,
             "h": 7724.0,
             "l": 7674.75,
-            "c": 7702.5,
-            "v": 1167419
+            "c": 7702.25,
+            "v": 1169681
           }
         ],
         "rollover_gaps": [],
@@ -8506,15 +8506,15 @@
           "sources": [
             {
               "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/flaring-middle-east-tensions-push-oil-prices-up-a1dc32bb?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
               "url": "https://www.wsj.com/pro/bankruptcy/fdic-beats-investor-claim-to-1-71-billion-silicon-valley-bank-deposit-fdff001a?mod=rss_markets_main"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/u-s-strikes-two-iranian-rocket-launchers-in-first-attack-in-weeks-17602dcf?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/global/german-inflation-rises-but-few-signs-of-energy-shock-spillover-e22ff3b0?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8522,12 +8522,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29512.0,
-        "change_pct": 0.07,
+        "point": 29516.25,
+        "change_pct": 0.08,
         "spark": [
           29540.0,
-          29418.5,
-          29396.75,
           29388.25,
           29416.75,
           29439.5,
@@ -8565,21 +8563,23 @@
           29510.5,
           29513.75,
           29514.75,
-          29512.0
+          29516.0,
+          29516.75,
+          29516.25
         ],
         "candle": {
           "o": 29540.0,
           "h": 29546.25,
           "l": 29273.5,
-          "c": 29512.0
+          "c": 29516.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.54,
-          "high_change_pct": -3.91
+          "low_change_pct": 27.56,
+          "high_change_pct": -3.9
         },
         "daily_expanded": [
           {
@@ -10587,8 +10587,8 @@
             "o": 29540.0,
             "h": 29546.25,
             "l": 29273.5,
-            "c": 29512.0,
-            "v": 454550
+            "c": 29516.25,
+            "v": 455107
           }
         ],
         "rollover_gaps": [],
@@ -10613,13 +10613,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53272.0,
-        "change_pct": -0.58,
+        "point": 53267.0,
+        "change_pct": -0.59,
         "spark": [
           53664.0,
-          53255.0,
-          53248.0,
-          53228.0,
           53224.0,
           53244.0,
           53254.0,
@@ -10656,21 +10653,24 @@
           53267.0,
           53265.0,
           53272.0,
-          53272.0
+          53268.0,
+          53270.0,
+          53273.0,
+          53267.0
         ],
         "candle": {
           "o": 53664.0,
           "h": 53664.0,
           "l": 53149.0,
-          "c": 53272.0
+          "c": 53267.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 17.28,
-          "high_change_pct": -2.24
+          "low_change_pct": 17.27,
+          "high_change_pct": -2.25
         },
         "daily_expanded": [
           {
@@ -12678,8 +12678,8 @@
             "o": 53664.0,
             "h": 53664.0,
             "l": 53149.0,
-            "c": 53272.0,
-            "v": 55211
+            "c": 53267.0,
+            "v": 55287
           }
         ],
         "rollover_gaps": [],
@@ -12703,5 +12703,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-09-01T05:40:07.799094+09:00"
+  "intraday_refreshed_kst": "2026-09-01T05:50:40.142768+09:00"
 }
