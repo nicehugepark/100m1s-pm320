@@ -6251,16 +6251,9 @@
   "news_chips": [
     {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/stocks-decline-to-end-august-as-war-fears-persist-4388a594?mod=rss_markets_main",
-      "published_ts": 1788210120.0,
-      "impact_high": true
-    },
-    {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/global/german-inflation-rises-but-few-signs-of-energy-shock-spillover-e22ff3b0?mod=rss_socialeconomyfeed",
-      "published_ts": 1788181200.0,
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/europe/mine-warfare-with-iran-hampers-u-s-efforts-to-win-control-of-hormuz-45abc6b0?mod=rss_worldnews",
+      "published_ts": 1788224400.0,
       "impact_high": true
     },
     {
@@ -6269,6 +6262,13 @@
       "url": "https://www.wsj.com/economy/yen-caught-between-top-u-s-officials-remarks-49eb48ee?mod=rss_socialeconomyfeed",
       "published_ts": 1788142200.0,
       "impact_high": true
+    },
+    {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/iran-oil-houthis-shipping-terrorism-bfa4fd9b?mod=rss_worldnews",
+      "published_ts": 1788224400.0,
+      "impact_high": false
     },
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
@@ -6299,20 +6299,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "48298ae7009870da95a30f83d0f20adac9d78542e1a84ed42a7b87657c87ddc3",
+  "_article_sig": "8a8a9c9415b46b5384eedcc2c46d1f0bbe150f9ece3909cbdcdf8c92523babfd",
   "built_at_kst": "2026-09-01T07:00:44.206080+09:00",
   "futures": {
-    "as_of_kst": "2026-09-01T10:00:06.702687+09:00",
+    "as_of_kst": "2026-09-01T10:10:04.296278+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7705.5,
+        "point": 7705.25,
         "change_pct": 0.08,
         "spark": [
           7701.25,
-          7702.5,
           7700.5,
           7701.75,
           7701.25,
@@ -6351,21 +6350,22 @@
           7705.5,
           7705.25,
           7704.75,
-          7705.5
+          7705.0,
+          7705.25
         ],
         "candle": {
           "o": 7701.25,
           "h": 7708.0,
           "l": 7700.0,
-          "c": 7705.5
+          "c": 7704.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 20.62,
-          "high_change_pct": -1.5
+          "low_change_pct": 20.61,
+          "high_change_pct": -1.51
         },
         "daily_expanded": [
           {
@@ -8373,8 +8373,8 @@
             "o": 7701.25,
             "h": 7708.0,
             "l": 7700.0,
-            "c": 7705.5,
-            "v": 18430
+            "c": 7704.75,
+            "v": 19172
           }
         ],
         "rollover_gaps": [],
@@ -8382,16 +8382,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/iran-oil-houthis-shipping-terrorism-bfa4fd9b?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/europe/mine-warfare-with-iran-hampers-u-s-efforts-to-win-control-of-hormuz-45abc6b0?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/stocks-decline-to-end-august-as-war-fears-persist-4388a594?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/donald-trump-jr-s-fund-boosts-polymarket-investment-by-around-300-million-45270bba?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/flaring-middle-east-tensions-push-oil-prices-up-a1dc32bb?mod=rss_markets_main"
             }
           ]
         }
@@ -8399,13 +8399,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29504.0,
+        "point": 29505.25,
         "change_pct": -0.03,
         "spark": [
           29518.25,
-          29516.0,
-          29516.75,
-          29507.5,
           29517.0,
           29521.0,
           29506.25,
@@ -8442,21 +8439,24 @@
           29487.5,
           29501.75,
           29504.0,
-          29504.0
+          29498.25,
+          29506.0,
+          29512.75,
+          29505.25
         ],
         "candle": {
           "o": 29518.25,
           "h": 29522.5,
           "l": 29478.25,
-          "c": 29504.0
+          "c": 29505.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.5,
-          "high_change_pct": -3.94
+          "low_change_pct": 27.51,
+          "high_change_pct": -3.93
         },
         "daily_expanded": [
           {
@@ -10464,8 +10464,8 @@
             "o": 29518.25,
             "h": 29522.5,
             "l": 29478.25,
-            "c": 29504.0,
-            "v": 13186
+            "c": 29505.25,
+            "v": 13666
           }
         ],
         "rollover_gaps": [],
@@ -10473,16 +10473,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/europe/mine-warfare-with-iran-hampers-u-s-efforts-to-win-control-of-hormuz-45abc6b0?mod=rss_worldnews"
+            },
+            {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/2026090152517"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/stocks-decline-to-end-august-as-war-fears-persist-4388a594?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/americas/bessent-criticizes-canada-as-global-summit-shows-divisions-483a0b70?mod=rss_worldnews"
             }
           ]
         }
@@ -10490,11 +10490,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53309.0,
+        "point": 53308.0,
         "change_pct": 0.13,
         "spark": [
           53259.0,
-          53273.0,
           53260.0,
           53269.0,
           53256.0,
@@ -10532,22 +10531,23 @@
           53315.0,
           53317.0,
           53308.0,
-          53309.0,
-          53309.0
+          53311.0,
+          53304.0,
+          53308.0
         ],
         "candle": {
           "o": 53259.0,
           "h": 53343.0,
           "l": 53248.0,
-          "c": 53309.0
+          "c": 53303.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 17.36,
-          "high_change_pct": -2.17
+          "low_change_pct": 17.35,
+          "high_change_pct": -2.19
         },
         "daily_expanded": [
           {
@@ -12555,8 +12555,8 @@
             "o": 53259.0,
             "h": 53343.0,
             "l": 53248.0,
-            "c": 53309.0,
-            "v": 1242
+            "c": 53303.0,
+            "v": 1316
           }
         ],
         "rollover_gaps": [],
@@ -12586,16 +12586,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/europe/mine-warfare-with-iran-hampers-u-s-efforts-to-win-control-of-hormuz-45abc6b0?mod=rss_worldnews"
+        },
+        {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/2026090152517"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/stocks-decline-to-end-august-as-war-fears-persist-4388a594?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/americas/bessent-criticizes-canada-as-global-summit-shows-divisions-483a0b70?mod=rss_worldnews"
         }
       ]
     },
@@ -12603,16 +12603,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/iran-oil-houthis-shipping-terrorism-bfa4fd9b?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/europe/mine-warfare-with-iran-hampers-u-s-efforts-to-win-control-of-hormuz-45abc6b0?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/stocks-decline-to-end-august-as-war-fears-persist-4388a594?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/donald-trump-jr-s-fund-boosts-polymarket-investment-by-around-300-million-45270bba?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/flaring-middle-east-tensions-push-oil-prices-up-a1dc32bb?mod=rss_markets_main"
         }
       ]
     },
@@ -12634,5 +12634,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-09-01T10:00:10.614624+09:00"
+  "intraday_refreshed_kst": "2026-09-01T10:10:42.013434+09:00"
 }
