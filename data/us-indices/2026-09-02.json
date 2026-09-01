@@ -6274,17 +6274,17 @@
   ],
   "news_chips": [
     {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/south-koreas-inflation-rebounds-above-3-6a68d2c0?mod=rss_socialeconomyfeed",
+      "published_ts": 1788305880.0,
+      "impact_high": true
+    },
+    {
       "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/investing/bond-yields-around-the-world-soar-in-challenge-to-government-borrowing-c519c53f?mod=rss_markets_main",
       "published_ts": 1788295140.0,
-      "impact_high": true
-    },
-    {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/global/global-bond-yields-surge-as-oil-prices-fuel-inflation-worries-ef5c0192?mod=rss_socialeconomyfeed",
-      "published_ts": 1788294180.0,
       "impact_high": true
     },
     {
@@ -6302,6 +6302,13 @@
       "impact_high": true
     },
     {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/iran-strikes-us-1d263f3f?mod=rss_worldnews",
+      "published_ts": 1788304140.0,
+      "impact_high": false
+    },
+    {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/202609028165H",
@@ -6316,13 +6323,6 @@
       "impact_high": false
     },
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/iran-strikes-us-1d263f3f?mod=rss_worldnews",
-      "published_ts": 1788302220.0,
-      "impact_high": false
-    },
-    {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/the-thai-town-hosting-the-uss-abraham-lincoln-after-a-grueling-deployment-f66e1962?mod=rss_worldnews",
@@ -6330,10 +6330,10 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "f9b3ca0b510ae06d3394556971fa4464b066af4710b0cc3395dc898efd79e1f7",
+  "_article_sig": "04758f99f02b14afdd6a28d52eb761b4c4aa5b81167dc36ece63efe7c0180d3c",
   "built_at_kst": "2026-09-02T07:02:29.407834+09:00",
   "futures": {
-    "as_of_kst": "2026-09-02T08:30:03.007879+09:00",
+    "as_of_kst": "2026-09-02T08:40:04.970730+09:00",
     "session_open": true,
     "futures": [
       {
@@ -6343,9 +6343,6 @@
         "change_pct": 0.04,
         "spark": [
           7645.0,
-          7637.75,
-          7641.75,
-          7641.25,
           7640.0,
           7640.75,
           7638.25,
@@ -6382,6 +6379,9 @@
           7645.25,
           7645.5,
           7645.25,
+          7645.25,
+          7645.75,
+          7645.75,
           7645.5
         ],
         "candle": {
@@ -8413,7 +8413,7 @@
             "h": 7648.0,
             "l": 7641.5,
             "c": 7645.5,
-            "v": 6229
+            "v": 6754
           }
         ],
         "rollover_gaps": [],
@@ -8421,16 +8421,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/a-guide-to-owning-bonds-when-they-are-selling-off-be8e0a2b?mod=rss_markets_main"
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/south-koreas-inflation-rebounds-above-3-6a68d2c0?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/iran-strikes-us-1d263f3f?mod=rss_worldnews"
             },
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/global/global-bond-yields-surge-as-oil-prices-fuel-inflation-worries-ef5c0192?mod=rss_socialeconomyfeed"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/a-guide-to-owning-bonds-when-they-are-selling-off-be8e0a2b?mod=rss_markets_main"
             }
           ]
         }
@@ -8438,13 +8438,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29131.75,
-        "change_pct": 0.02,
+        "point": 29137.25,
+        "change_pct": 0.04,
         "spark": [
           29136.5,
-          29102.75,
-          29120.0,
-          29116.0,
           29117.25,
           29127.25,
           29119.25,
@@ -8481,21 +8478,24 @@
           29129.5,
           29129.0,
           29130.5,
-          29131.75
+          29131.75,
+          29136.5,
+          29135.5,
+          29137.25
         ],
         "candle": {
           "o": 29136.5,
           "h": 29149.0,
           "l": 29102.25,
-          "c": 29128.75
+          "c": 29137.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 25.88,
-          "high_change_pct": -5.16
+          "low_change_pct": 25.92,
+          "high_change_pct": -5.13
         },
         "daily_expanded": [
           {
@@ -10511,8 +10511,8 @@
             "o": 29136.5,
             "h": 29149.0,
             "l": 29102.25,
-            "c": 29128.75,
-            "v": 4482
+            "c": 29137.25,
+            "v": 5244
           }
         ],
         "rollover_gaps": [],
@@ -10520,16 +10520,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/south-koreas-inflation-rebounds-above-3-6a68d2c0?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/iran-strikes-us-1d263f3f?mod=rss_worldnews"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/the-thai-town-hosting-the-uss-abraham-lincoln-after-a-grueling-deployment-f66e1962?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/europe/germany-blames-russia-for-explosive-drones-sent-to-leipzig-airport-03599b93?mod=rss_worldnews"
             }
           ]
         }
@@ -10537,12 +10537,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52837.0,
+        "point": 52839.0,
         "change_pct": 0.02,
         "spark": [
           52844.0,
-          52854.0,
-          52841.0,
           52822.0,
           52826.0,
           52815.0,
@@ -10580,13 +10578,15 @@
           52840.0,
           52838.0,
           52837.0,
-          52837.0
+          52837.0,
+          52839.0,
+          52839.0
         ],
         "candle": {
           "o": 52844.0,
           "h": 52854.0,
           "l": 52822.0,
-          "c": 52837.0
+          "c": 52839.0
         },
         "range_240d": {
           "low": 45424.0,
@@ -12610,8 +12610,8 @@
             "o": 52844.0,
             "h": 52854.0,
             "l": 52822.0,
-            "c": 52837.0,
-            "v": 338
+            "c": 52839.0,
+            "v": 364
           }
         ],
         "rollover_gaps": [],
@@ -12619,16 +12619,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/south-koreas-inflation-rebounds-above-3-6a68d2c0?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/middle-east-conflict-sends-oil-up-bonds-down-a4923bec?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/oil-prices-push-global-bond-market-closer-to-the-edge-13135ed4?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/a-war-that-wont-end-is-complicating-the-feds-next-move-77f186d1?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -12636,11 +12636,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-09-02T08:30:06.812152+09:00",
+  "intraday_refreshed_kst": "2026-09-02T08:42:27.966983+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/south-koreas-inflation-rebounds-above-3-6a68d2c0?mod=rss_socialeconomyfeed"
+        },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/iran-strikes-us-1d263f3f?mod=rss_worldnews"
@@ -12648,10 +12652,6 @@
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/the-thai-town-hosting-the-uss-abraham-lincoln-after-a-grueling-deployment-f66e1962?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/europe/germany-blames-russia-for-explosive-drones-sent-to-leipzig-airport-03599b93?mod=rss_worldnews"
         }
       ]
     },
@@ -12659,16 +12659,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/a-guide-to-owning-bonds-when-they-are-selling-off-be8e0a2b?mod=rss_markets_main"
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/south-koreas-inflation-rebounds-above-3-6a68d2c0?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/iran-strikes-us-1d263f3f?mod=rss_worldnews"
         },
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/global/global-bond-yields-surge-as-oil-prices-fuel-inflation-worries-ef5c0192?mod=rss_socialeconomyfeed"
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/a-guide-to-owning-bonds-when-they-are-selling-off-be8e0a2b?mod=rss_markets_main"
         }
       ]
     },
@@ -12676,16 +12676,16 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/south-koreas-inflation-rebounds-above-3-6a68d2c0?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/middle-east-conflict-sends-oil-up-bonds-down-a4923bec?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/oil-prices-push-global-bond-market-closer-to-the-edge-13135ed4?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/a-war-that-wont-end-is-complicating-the-feds-next-move-77f186d1?mod=rss_socialeconomyfeed"
         }
       ]
     }
