@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "generated_at": "2026-09-01T09:15:49.423293",
+  "generated_at": "2026-09-01T09:25:13.370082",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -14,9 +14,9 @@
       "code": "001210",
       "name": "금호전기",
       "rank": 1,
-      "trade_amount": 72885000000,
-      "change_pct": 12.1,
-      "close_price": 13990,
+      "trade_amount": 85003000000,
+      "change_pct": 11.94,
+      "close_price": 13970,
       "open_price": 13140,
       "high_price": 14350,
       "low_price": 12800,
@@ -159,17 +159,17 @@
         ],
         "cafe_only": []
       },
-      "index_change_pct": -1.03,
-      "index_multiple_current": -11.75,
+      "index_change_pct": -0.81,
+      "index_multiple_current": -14.74,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 14350,
         "high_date": "2026-09-01",
-        "high_pct": -2.51,
+        "high_pct": -2.65,
         "low": 2325,
         "low_date": "2026-06-02",
-        "low_pct": 501.72,
-        "current": 13990
+        "low_pct": 500.86,
+        "current": 13970
       },
       "daily_20": [
         {
@@ -310,7 +310,7 @@
           "o": 13140,
           "h": 14350,
           "l": 12800,
-          "c": 13990
+          "c": 13970
         }
       ],
       "status_badges": [
@@ -323,7 +323,7 @@
               "desc": "5일 전(2026-08-25) 대비 +60%↑",
               "base_price": 8580,
               "threshold": 13728,
-              "current": 13990,
+              "current": 13970,
               "triggered": true
             }
           ],
@@ -340,8 +340,20 @@
           "effect_badges": []
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 13140,
+        "base": 13140,
+        "prices": [
+          13140,
+          14190,
+          13880,
+          13990,
+          13960
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "투자경고",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰"
@@ -350,7 +362,7 @@
       "code": "320000",
       "name": "한울반도체",
       "rank": 2,
-      "trade_amount": 5500000000,
+      "trade_amount": 5815000000,
       "change_pct": 29.94,
       "close_price": 11500,
       "open_price": 9210,
@@ -437,8 +449,8 @@
         ],
         "cafe_only": []
       },
-      "index_change_pct": -1.03,
-      "index_multiple_current": -29.07,
+      "index_change_pct": -1.18,
+      "index_multiple_current": -25.37,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 29050,
@@ -591,8 +603,20 @@
           "c": 11500
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 9210,
+        "base": 9210,
+        "prices": [
+          9210,
+          11500,
+          11500,
+          11500,
+          11500
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰",
@@ -603,7 +627,7 @@
       "code": "210980",
       "name": "SK디앤디",
       "rank": 3,
-      "trade_amount": 1237000000,
+      "trade_amount": 1239000000,
       "change_pct": 29.89,
       "close_price": 3650,
       "open_price": 3020,
@@ -663,8 +687,8 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": -1.03,
-      "index_multiple_current": -29.02,
+      "index_change_pct": -0.81,
+      "index_multiple_current": -36.9,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 9396,
@@ -823,6 +847,8 @@
         "base": 3020,
         "prices": [
           3020,
+          3650,
+          3650,
           3650,
           3650
         ]
