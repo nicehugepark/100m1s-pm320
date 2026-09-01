@@ -6250,6 +6250,13 @@
   ],
   "news_chips": [
     {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/finance/commodities-futures/oil-prices-rise-as-renewed-u-s-iran-fighting-deepens-hormuz-supply-risks-3a35f63a?mod=rss_worldnews",
+      "published_ts": 1788267420.0,
+      "impact_high": true
+    },
+    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-expected-to-remain-on-hold-as-trade-conflict-with-u-s-escalates-fcf9659c?mod=rss_socialeconomyfeed",
@@ -6261,13 +6268,6 @@
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/eurozone-inflation-climbs-to-near-three-year-high-ahead-of-ecb-meeting-2566d178?mod=rss_socialeconomyfeed",
       "published_ts": 1788261360.0,
-      "impact_high": true
-    },
-    {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/china/a-food-crawl-in-taiwan-finds-chinese-tradition-without-the-spectacle-239d8da6?mod=rss_worldnews",
-      "published_ts": 1788260100.0,
       "impact_high": true
     },
     {
@@ -6287,8 +6287,8 @@
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026090176687",
-      "published_ts": 1788258988.0,
+      "url": "https://www.hankyung.com/article/2026090177297",
+      "published_ts": 1788264709.0,
       "impact_high": false
     },
     {
@@ -6299,21 +6299,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "469929d5a385a6ccbe3c68779c240585dab9b59a4384875e70beb04798b27408",
+  "_article_sig": "78d34281da04225c3c457942b244b0d6fbd3172a3a1bf0798f257f26331d4369",
   "built_at_kst": "2026-09-01T07:00:44.206080+09:00",
   "futures": {
-    "as_of_kst": "2026-09-01T21:50:04.639447+09:00",
+    "as_of_kst": "2026-09-01T22:00:07.535691+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7648.25,
-        "change_pct": -0.66,
+        "point": 7647.25,
+        "change_pct": -0.67,
         "spark": [
           7701.25,
-          7652.75,
-          7650.0,
           7652.5,
           7655.0,
           7655.25,
@@ -6351,21 +6349,23 @@
           7649.0,
           7648.5,
           7647.75,
-          7648.25
+          7647.75,
+          7647.75,
+          7647.25
         ],
         "candle": {
           "o": 7701.25,
           "h": 7708.0,
           "l": 7645.0,
-          "c": 7648.25
+          "c": 7647.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 19.72,
-          "high_change_pct": -2.23
+          "low_change_pct": 19.7,
+          "high_change_pct": -2.24
         },
         "daily_expanded": [
           {
@@ -8381,8 +8381,8 @@
             "o": 7701.25,
             "h": 7708.0,
             "l": 7645.0,
-            "c": 7648.25,
-            "v": 220045
+            "c": 7647.0,
+            "v": 226377
           }
         ],
         "rollover_gaps": [],
@@ -8390,16 +8390,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/finance/commodities-futures/oil-prices-rise-as-renewed-u-s-iran-fighting-deepens-hormuz-supply-risks-3a35f63a?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/eurozone-inflation-climbs-to-near-three-year-high-ahead-of-ecb-meeting-2566d178?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/china/a-food-crawl-in-taiwan-finds-chinese-tradition-without-the-spectacle-239d8da6?mod=rss_worldnews"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/09/01/euro-zone-inflation-rate-hike.html"
             }
           ]
         }
@@ -8407,12 +8407,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29138.5,
-        "change_pct": -1.27,
+        "point": 29125.25,
+        "change_pct": -1.31,
         "spark": [
           29518.25,
-          29203.0,
-          29187.0,
           29213.25,
           29219.75,
           29222.75,
@@ -8450,21 +8448,23 @@
           29149.5,
           29138.75,
           29129.5,
-          29138.5
+          29127.0,
+          29131.25,
+          29125.25
         ],
         "candle": {
           "o": 29518.25,
           "h": 29571.25,
-          "l": 29126.25,
-          "c": 29136.75
+          "l": 29123.25,
+          "c": 29125.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 25.92,
-          "high_change_pct": -5.13
+          "low_change_pct": 25.87,
+          "high_change_pct": -5.17
         },
         "daily_expanded": [
           {
@@ -10479,9 +10479,9 @@
             "date": "2026-09-01",
             "o": 29518.25,
             "h": 29571.25,
-            "l": 29126.25,
-            "c": 29136.75,
-            "v": 117235
+            "l": 29123.25,
+            "c": 29125.25,
+            "v": 120571
           }
         ],
         "rollover_gaps": [],
@@ -10506,12 +10506,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52897.0,
-        "change_pct": -0.64,
+        "point": 52921.0,
+        "change_pct": -0.6,
         "spark": [
           53259.0,
-          52914.0,
-          52917.0,
           52891.0,
           52891.0,
           52911.0,
@@ -10549,21 +10547,23 @@
           52913.0,
           52894.0,
           52897.0,
-          52897.0
+          52900.0,
+          52921.0,
+          52921.0
         ],
         "candle": {
           "o": 53259.0,
           "h": 53343.0,
           "l": 52868.0,
-          "c": 52899.0
+          "c": 52921.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 16.46,
-          "high_change_pct": -2.93
+          "low_change_pct": 16.5,
+          "high_change_pct": -2.89
         },
         "daily_expanded": [
           {
@@ -12579,8 +12579,8 @@
             "o": 53259.0,
             "h": 53343.0,
             "l": 52868.0,
-            "c": 52899.0,
-            "v": 16531
+            "c": 52921.0,
+            "v": 16920
           }
         ],
         "rollover_gaps": [],
@@ -12627,16 +12627,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/finance/commodities-futures/oil-prices-rise-as-renewed-u-s-iran-fighting-deepens-hormuz-supply-risks-3a35f63a?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/eurozone-inflation-climbs-to-near-three-year-high-ahead-of-ecb-meeting-2566d178?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/china/a-food-crawl-in-taiwan-finds-chinese-tradition-without-the-spectacle-239d8da6?mod=rss_worldnews"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/01/euro-zone-inflation-rate-hike.html"
         }
       ]
     },
@@ -12658,5 +12658,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-09-01T21:50:08.518626+09:00"
+  "intraday_refreshed_kst": "2026-09-01T22:02:05.940762+09:00"
 }
