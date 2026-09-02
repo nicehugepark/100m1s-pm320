@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26092.22,
-      "change_pct": -0.03,
+      "point": 26116.85,
+      "change_pct": 0.07,
       "candle": {
         "o": 26085.48,
-        "h": 26115.69,
+        "h": 26116.85,
         "l": 26063.6,
-        "c": 26092.22
+        "c": 26116.85
       },
       "range_240d": {
         "low": 20794.64,
@@ -2031,9 +2031,9 @@
         {
           "date": "2026-09-02",
           "o": 26085.48,
-          "h": 26115.69,
+          "h": 26116.85,
           "l": 26063.6,
-          "c": 26092.22
+          "c": 26116.85
         }
       ],
       "spark": [
@@ -2041,8 +2041,10 @@
         26102.4,
         26092.67,
         26103.42,
-        26103.28,
-        26092.22
+        26092.22,
+        26087.03,
+        26093.62,
+        26116.85
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2066,13 +2068,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7638.13,
-      "change_pct": 0.09,
+      "point": 7646.06,
+      "change_pct": 0.19,
       "candle": {
         "o": 7634.58,
-        "h": 7646.43,
+        "h": 7647.06,
         "l": 7633.62,
-        "c": 7638.13
+        "c": 7646.06
       },
       "range_240d": {
         "low": 6343.72,
@@ -4094,9 +4096,9 @@
         {
           "date": "2026-09-02",
           "o": 7634.58,
-          "h": 7646.43,
+          "h": 7647.06,
           "l": 7633.62,
-          "c": 7638.13
+          "c": 7646.06
         }
       ],
       "spark": [
@@ -4105,7 +4107,9 @@
         7641.46,
         7644.03,
         7637.56,
-        7638.13
+        7640.23,
+        7646.91,
+        7646.06
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4129,13 +4133,13 @@
     },
     {
       "name": "DOW",
-      "point": 52950.38,
-      "change_pct": 0.35,
+      "point": 53038.65,
+      "change_pct": 0.52,
       "candle": {
         "o": 52829.58,
         "h": 53066.48,
         "l": 52829.58,
-        "c": 52950.38
+        "c": 53038.65
       },
       "range_240d": {
         "low": 45166.64,
@@ -6159,7 +6163,7 @@
           "o": 52829.58,
           "h": 53066.48,
           "l": 52829.58,
-          "c": 52950.38
+          "c": 53038.65
         }
       ],
       "spark": [
@@ -6167,8 +6171,10 @@
         52999.9,
         53035.27,
         53013.59,
-        52958.35,
-        52950.38
+        52946.54,
+        53019.3,
+        53033.51,
+        53038.65
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6193,6 +6199,13 @@
   ],
   "news_chips": [
     {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html",
+      "published_ts": 1788355889.0,
+      "impact_high": true
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/after-286-days-at-sea-5-000-sailors-on-the-uss-abraham-lincoln-dock-in-thailand-0a955b3d?mod=rss_worldnews",
@@ -6207,6 +6220,13 @@
       "impact_high": true
     },
     {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/2026090206187",
+      "published_ts": 1788357024.0,
+      "impact_high": false
+    },
+    {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/consumers/what-does-a-bond-selloff-mean-for-american-consumers-236e4be6?mod=rss_socialeconomyfeed",
@@ -6218,20 +6238,6 @@
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/china/u-s-says-its-fed-up-with-chinas-overcapacityand-more-countries-agree-ec6cc8e5?mod=rss_worldnews",
       "published_ts": 1788353580.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/jobs/private-sector-hiring-slowed-in-august-90d95697?mod=rss_socialeconomyfeed",
-      "published_ts": 1788353100.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026090205037",
-      "published_ts": 1788345261.0,
       "impact_high": false
     },
     {
@@ -6256,21 +6262,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "0a4ef681d344ab7f9fc314795dbd8e5bc0c23f33f908d91aaf5a4ebf9b110629",
+  "_article_sig": "fd3b80846dc332758394a7e933e8cf2a6baa1811d88be9c1c46c2d8cec14f6c3",
   "built_at_kst": "2026-09-02T07:02:29.407834+09:00",
   "futures": {
-    "as_of_kst": "2026-09-02T22:50:04.696227+09:00",
+    "as_of_kst": "2026-09-02T23:00:04.762039+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7650.75,
-        "change_pct": 0.1,
+        "point": 7647.25,
+        "change_pct": 0.06,
         "spark": [
           7645.0,
-          7625.5,
-          7623.5,
           7623.25,
           7625.0,
           7624.25,
@@ -6308,21 +6312,23 @@
           7650.0,
           7650.75,
           7654.25,
-          7650.75
+          7646.75,
+          7650.5,
+          7647.25
         ],
         "candle": {
           "o": 7645.0,
           "h": 7658.75,
           "l": 7618.5,
-          "c": 7650.75
+          "c": 7647.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 19.76,
-          "high_change_pct": -2.2
+          "low_change_pct": 19.71,
+          "high_change_pct": -2.24
         },
         "daily_expanded": [
           {
@@ -8346,8 +8352,8 @@
             "o": 7645.0,
             "h": 7658.75,
             "l": 7618.5,
-            "c": 7650.75,
-            "v": 278643
+            "c": 7647.25,
+            "v": 318260
           }
         ],
         "rollover_gaps": [],
@@ -8355,16 +8361,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/consumers/what-does-a-bond-selloff-mean-for-american-consumers-236e4be6?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/china/u-s-says-its-fed-up-with-chinas-overcapacityand-more-countries-agree-ec6cc8e5?mod=rss_worldnews"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html"
             }
           ]
         }
@@ -8372,12 +8378,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29082.0,
-        "change_pct": -0.15,
+        "point": 29052.0,
+        "change_pct": -0.25,
         "spark": [
           29136.5,
-          28975.0,
-          28966.0,
           28966.5,
           28977.0,
           28972.75,
@@ -8415,21 +8419,23 @@
           29083.75,
           29086.75,
           29091.0,
-          29082.0
+          29047.5,
+          29029.75,
+          29052.0
         ],
         "candle": {
           "o": 29136.5,
           "h": 29170.0,
           "l": 28927.25,
-          "c": 29082.0
+          "c": 29052.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 25.68,
-          "high_change_pct": -5.31
+          "low_change_pct": 25.55,
+          "high_change_pct": -5.41
         },
         "daily_expanded": [
           {
@@ -10453,8 +10459,8 @@
             "o": 29136.5,
             "h": 29170.0,
             "l": 28927.25,
-            "c": 29082.0,
-            "v": 143601
+            "c": 29052.0,
+            "v": 160619
           }
         ],
         "rollover_gaps": [],
@@ -10462,12 +10468,12 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/jobs/private-sector-hiring-slowed-in-august-90d95697?mod=rss_socialeconomyfeed"
-            },
-            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/jobs/private-sector-hiring-slowed-in-august-90d95697?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ세계",
@@ -10479,12 +10485,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53087.0,
-        "change_pct": 0.49,
+        "point": 53012.0,
+        "change_pct": 0.35,
         "spark": [
           52844.0,
-          52760.0,
-          52743.0,
           52750.0,
           52761.0,
           52754.0,
@@ -10522,21 +10526,23 @@
           53065.0,
           53095.0,
           53078.0,
-          53087.0
+          53007.0,
+          53082.0,
+          53012.0
         ],
         "candle": {
           "o": 52844.0,
           "h": 53110.0,
           "l": 52720.0,
-          "c": 53087.0
+          "c": 53012.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 16.87,
-          "high_change_pct": -2.58
+          "low_change_pct": 16.7,
+          "high_change_pct": -2.72
         },
         "daily_expanded": [
           {
@@ -12560,8 +12566,8 @@
             "o": 52844.0,
             "h": 53110.0,
             "l": 52720.0,
-            "c": 53087.0,
-            "v": 19125
+            "c": 53012.0,
+            "v": 22108
           }
         ],
         "rollover_gaps": [],
@@ -12577,8 +12583,8 @@
               "url": "https://www.hankyung.com/article/2026090203311"
             },
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/reserve-bank-of-new-zealand-delivers-further-rate-increase-d71e3fde?mod=rss_socialeconomyfeed"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-02-2026?mod=rss_markets_main"
             }
           ]
         }
@@ -12586,18 +12592,18 @@
     ]
   },
   "regular_open": true,
-  "intraday_refreshed_kst": "2026-09-02T22:50:08.894137+09:00",
+  "intraday_refreshed_kst": "2026-09-02T23:03:46.147546+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/jobs/private-sector-hiring-slowed-in-august-90d95697?mod=rss_socialeconomyfeed"
-        },
-        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/jobs/private-sector-hiring-slowed-in-august-90d95697?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ세계",
@@ -12609,16 +12615,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/consumers/what-does-a-bond-selloff-mean-for-american-consumers-236e4be6?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/china/u-s-says-its-fed-up-with-chinas-overcapacityand-more-countries-agree-ec6cc8e5?mod=rss_worldnews"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html"
         }
       ]
     },
@@ -12634,8 +12640,8 @@
           "url": "https://www.hankyung.com/article/2026090203311"
         },
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/reserve-bank-of-new-zealand-delivers-further-rate-increase-d71e3fde?mod=rss_socialeconomyfeed"
+          "name": "WSJ",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-02-2026?mod=rss_markets_main"
         }
       ]
     }
