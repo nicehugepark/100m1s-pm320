@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "generated_at": "2026-09-02T09:25:12.695040",
+  "generated_at": "2026-09-02T09:26:58.450881",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -339,7 +339,7 @@
           3225
         ]
       },
-      "togusa_verdict": "neutral",
+      "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰"
     },
@@ -635,7 +635,7 @@
           8230
         ]
       },
-      "togusa_verdict": "weak_bull",
+      "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰"
     },
@@ -880,7 +880,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "053950",
@@ -894,8 +897,17 @@
       "low_price": 1670,
       "industry": "의약품 제조업",
       "sector": "의약품",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "바이오"
+      ],
+      "theme_paths": [
+        {
+          "name": "바이오",
+          "path": [
+            "바이오"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": true,
@@ -1090,9 +1102,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
+      "togusa_verdict": "neutral",
       "theme_leader": false,
-      "hugepark_grade": "주의"
+      "hugepark_grade": "관찰"
     },
     {
       "code": "207760",
