@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html",
+      "published_ts": 1788351320.0,
+      "impact_high": true
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/after-286-days-at-sea-5-000-sailors-on-the-uss-abraham-lincoln-dock-in-thailand-0a955b3d?mod=rss_worldnews",
@@ -6299,13 +6306,6 @@
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026090205037",
       "published_ts": 1788345261.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/europe/germany-blames-russia-for-explosive-drones-sent-to-leipzig-airport-03599b93?mod=rss_worldnews",
-      "published_ts": 1788343560.0,
       "impact_high": false
     },
     {
@@ -6337,21 +6337,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "bb48b6ed6a2631b610a1542c1a4b1829819cccd0b67043deb85b8e0bb42baf14",
+  "_article_sig": "7b503e15b5169a836f73b758b3841650c0cdc479db56997278e11ba52496755e",
   "built_at_kst": "2026-09-02T07:02:29.407834+09:00",
   "futures": {
-    "as_of_kst": "2026-09-02T21:20:07.306497+09:00",
+    "as_of_kst": "2026-09-02T21:30:04.205222+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7647.25,
-        "change_pct": 0.06,
+        "point": 7649.25,
+        "change_pct": 0.09,
         "spark": [
           7645.0,
-          7630.25,
-          7629.5,
           7624.5,
           7628.25,
           7624.75,
@@ -6389,21 +6387,23 @@
           7647.5,
           7647.0,
           7653.0,
-          7647.25
+          7649.25,
+          7653.25,
+          7649.25
         ],
         "candle": {
           "o": 7645.0,
-          "h": 7651.5,
+          "h": 7654.0,
           "l": 7618.5,
-          "c": 7647.25
+          "c": 7649.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 19.71,
-          "high_change_pct": -2.24
+          "low_change_pct": 19.74,
+          "high_change_pct": -2.21
         },
         "daily_expanded": [
           {
@@ -8425,10 +8425,10 @@
           {
             "date": "2026-09-02",
             "o": 7645.0,
-            "h": 7651.5,
+            "h": 7654.0,
             "l": 7618.5,
-            "c": 7647.25,
-            "v": 162385
+            "c": 7649.25,
+            "v": 170077
           }
         ],
         "rollover_gaps": [],
@@ -8436,16 +8436,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-02-2026?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/reserve-bank-of-new-zealand-delivers-further-rate-increase-d71e3fde?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/the-bond-market-issues-world-leaders-a-failing-grade-621cf4dc?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8453,12 +8453,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29092.25,
-        "change_pct": -0.11,
+        "point": 29097.25,
+        "change_pct": -0.1,
         "spark": [
           29136.5,
-          29010.0,
-          29001.5,
           28969.25,
           28990.75,
           28968.0,
@@ -8496,21 +8494,23 @@
           29086.75,
           29091.25,
           29121.5,
-          29092.25
+          29099.0,
+          29127.5,
+          29097.25
         ],
         "candle": {
           "o": 29136.5,
           "h": 29170.0,
           "l": 28927.25,
-          "c": 29092.25
+          "c": 29097.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 25.72,
-          "high_change_pct": -5.28
+          "low_change_pct": 25.75,
+          "high_change_pct": -5.26
         },
         "daily_expanded": [
           {
@@ -10534,8 +10534,8 @@
             "o": 29136.5,
             "h": 29170.0,
             "l": 28927.25,
-            "c": 29092.25,
-            "v": 95286
+            "c": 29097.25,
+            "v": 98143
           }
         ],
         "rollover_gaps": [],
@@ -10543,16 +10543,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/after-286-days-at-sea-5-000-sailors-on-the-uss-abraham-lincoln-dock-in-thailand-0a955b3d?mod=rss_worldnews"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/europe/germany-blames-russia-for-explosive-drones-sent-to-leipzig-airport-03599b93?mod=rss_worldnews"
-            },
-            {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/2026090203721"
             }
           ]
         }
@@ -10560,11 +10560,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52949.0,
-        "change_pct": 0.23,
+        "point": 52960.0,
+        "change_pct": 0.25,
         "spark": [
           52844.0,
-          52786.0,
           52800.0,
           52765.0,
           52782.0,
@@ -10603,21 +10602,22 @@
           52964.0,
           52945.0,
           52978.0,
-          52949.0
+          52960.0,
+          52960.0
         ],
         "candle": {
           "o": 52844.0,
           "h": 52994.0,
           "l": 52720.0,
-          "c": 52949.0
+          "c": 52960.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 16.57,
-          "high_change_pct": -2.84
+          "low_change_pct": 16.59,
+          "high_change_pct": -2.81
         },
         "daily_expanded": [
           {
@@ -12641,8 +12641,8 @@
             "o": 52844.0,
             "h": 52994.0,
             "l": 52720.0,
-            "c": 52949.0,
-            "v": 10325
+            "c": 52960.0,
+            "v": 10678
           }
         ],
         "rollover_gaps": [],
@@ -12650,16 +12650,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html"
+            },
+            {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/2026090203311"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/reserve-bank-of-new-zealand-delivers-further-rate-increase-d71e3fde?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/world/g-20-squabbling-overshadows-summit-as-global-bond-markets-strain-dd61e2ef?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -12667,11 +12667,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-09-02T21:20:11.459588+09:00",
+  "intraday_refreshed_kst": "2026-09-02T21:33:46.275121+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html"
+        },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/after-286-days-at-sea-5-000-sailors-on-the-uss-abraham-lincoln-dock-in-thailand-0a955b3d?mod=rss_worldnews"
@@ -12679,10 +12683,6 @@
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/europe/germany-blames-russia-for-explosive-drones-sent-to-leipzig-airport-03599b93?mod=rss_worldnews"
-        },
-        {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/2026090203721"
         }
       ]
     },
@@ -12690,16 +12690,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-02-2026?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/reserve-bank-of-new-zealand-delivers-further-rate-increase-d71e3fde?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/the-bond-market-issues-world-leaders-a-failing-grade-621cf4dc?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12707,16 +12707,16 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html"
+        },
+        {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/2026090203311"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/reserve-bank-of-new-zealand-delivers-further-rate-increase-d71e3fde?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/world/g-20-squabbling-overshadows-summit-as-global-bond-markets-strain-dd61e2ef?mod=rss_socialeconomyfeed"
         }
       ]
     }
