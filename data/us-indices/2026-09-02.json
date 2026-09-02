@@ -6281,13 +6281,6 @@
       "impact_high": true
     },
     {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026090203761",
-      "published_ts": 1788340943.0,
-      "impact_high": true
-    },
-    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/reserve-bank-of-new-zealand-delivers-further-rate-increase-d71e3fde?mod=rss_socialeconomyfeed",
@@ -6295,10 +6288,17 @@
       "impact_high": true
     },
     {
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/china/u-s-says-its-fed-up-with-chinas-overcapacityand-more-countries-agree-ec6cc8e5?mod=rss_worldnews",
+      "published_ts": 1788353580.0,
+      "impact_high": false
+    },
+    {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/jobs/private-sector-hiring-slowed-in-august-90d95697?mod=rss_socialeconomyfeed",
-      "published_ts": 1788352680.0,
+      "published_ts": 1788353100.0,
       "impact_high": false
     },
     {
@@ -6337,22 +6337,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "cddf37624f5b54c9b9c8d52c6539b6648b413300d93a14ddbb9ed76362f42aa2",
+  "_article_sig": "bd3333517f9840dc31844086a93726355e8019d8363a4b697b3927b7067fa717",
   "built_at_kst": "2026-09-02T07:02:29.407834+09:00",
   "futures": {
-    "as_of_kst": "2026-09-02T21:50:04.623422+09:00",
+    "as_of_kst": "2026-09-02T22:00:07.356291+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7645.25,
-        "change_pct": 0.03,
+        "point": 7644.25,
+        "change_pct": 0.02,
         "spark": [
           7645.0,
-          7626.0,
-          7622.75,
-          7623.25,
           7623.0,
           7624.5,
           7624.25,
@@ -6389,21 +6386,24 @@
           7650.25,
           7647.5,
           7645.5,
-          7645.25
+          7645.25,
+          7643.75,
+          7640.75,
+          7644.25
         ],
         "candle": {
           "o": 7645.0,
           "h": 7658.75,
           "l": 7618.5,
-          "c": 7645.5
+          "c": 7644.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 19.68,
-          "high_change_pct": -2.26
+          "low_change_pct": 19.66,
+          "high_change_pct": -2.28
         },
         "daily_expanded": [
           {
@@ -8427,8 +8427,8 @@
             "o": 7645.0,
             "h": 7658.75,
             "l": 7618.5,
-            "c": 7645.5,
-            "v": 190225
+            "c": 7644.25,
+            "v": 194549
           }
         ],
         "rollover_gaps": [],
@@ -8436,16 +8436,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/china/u-s-says-its-fed-up-with-chinas-overcapacityand-more-countries-agree-ec6cc8e5?mod=rss_worldnews"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-02-2026?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/reserve-bank-of-new-zealand-delivers-further-rate-increase-d71e3fde?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8453,12 +8453,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29076.5,
-        "change_pct": -0.17,
+        "point": 29058.25,
+        "change_pct": -0.23,
         "spark": [
           29136.5,
-          28954.5,
-          28948.0,
           28948.75,
           28957.25,
           28957.5,
@@ -8496,21 +8494,23 @@
           29087.25,
           29077.5,
           29069.75,
-          29076.5
+          29056.25,
+          29042.25,
+          29058.25
         ],
         "candle": {
           "o": 29136.5,
           "h": 29170.0,
           "l": 28927.25,
-          "c": 29076.5
+          "c": 29057.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 25.66,
-          "high_change_pct": -5.33
+          "low_change_pct": 25.58,
+          "high_change_pct": -5.39
         },
         "daily_expanded": [
           {
@@ -10534,8 +10534,8 @@
             "o": 29136.5,
             "h": 29170.0,
             "l": 28927.25,
-            "c": 29076.5,
-            "v": 104742
+            "c": 29057.75,
+            "v": 106346
           }
         ],
         "rollover_gaps": [],
@@ -10560,12 +10560,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52935.0,
-        "change_pct": 0.2,
+        "point": 52921.0,
+        "change_pct": 0.18,
         "spark": [
           52844.0,
-          52764.0,
-          52732.0,
           52756.0,
           52748.0,
           52764.0,
@@ -10603,21 +10601,23 @@
           52956.0,
           52944.0,
           52944.0,
-          52935.0
+          52935.0,
+          52943.0,
+          52921.0
         ],
         "candle": {
           "o": 52844.0,
           "h": 53020.0,
           "l": 52720.0,
-          "c": 52942.0
+          "c": 52945.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 16.55,
-          "high_change_pct": -2.85
+          "low_change_pct": 16.56,
+          "high_change_pct": -2.84
         },
         "daily_expanded": [
           {
@@ -12641,8 +12641,8 @@
             "o": 52844.0,
             "h": 53020.0,
             "l": 52720.0,
-            "c": 52942.0,
-            "v": 11769
+            "c": 52945.0,
+            "v": 11981
           }
         ],
         "rollover_gaps": [],
@@ -12667,7 +12667,7 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-09-02T21:50:09.151226+09:00",
+  "intraday_refreshed_kst": "2026-09-02T22:03:35.512688+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
@@ -12690,16 +12690,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/china/u-s-says-its-fed-up-with-chinas-overcapacityand-more-countries-agree-ec6cc8e5?mod=rss_worldnews"
+        },
+        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-02-2026?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/reserve-bank-of-new-zealand-delivers-further-rate-increase-d71e3fde?mod=rss_socialeconomyfeed"
         }
       ]
     },
