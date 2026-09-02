@@ -1,17 +1,621 @@
 {
   "date": "2026-09-02",
-  "generated_at": "2026-09-02T09:05:16.310237",
+  "generated_at": "2026-09-02T09:15:12.727804",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
   "themes_macro_summary": [],
-  "themes_tree": null,
+  "themes_tree": {
+    "date": "2026-09-02",
+    "roots": []
+  },
   "stocks": [
     {
-      "code": "207760",
-      "name": "미스터블루",
+      "code": "067290",
+      "name": "JW신약",
       "rank": 1,
-      "trade_amount": 164000000,
+      "trade_amount": 52873000000,
+      "change_pct": 7.19,
+      "close_price": 3205,
+      "open_price": 3365,
+      "high_price": 3470,
+      "low_price": 3185,
+      "industry": "의약품 제조업",
+      "sector": "매니큐어세트, 손톱깎이",
+      "themes": [
+        "탈모 치료 테마",
+        "탈모 치료",
+        "K-뷰티",
+        "바이오"
+      ],
+      "theme_paths": [
+        {
+          "name": "탈모 치료 테마",
+          "path": [
+            "탈모 치료 테마"
+          ]
+        },
+        {
+          "name": "탈모 치료",
+          "path": [
+            "탈모 치료"
+          ]
+        },
+        {
+          "name": "K-뷰티",
+          "path": [
+            "K-뷰티"
+          ]
+        },
+        {
+          "name": "바이오",
+          "path": [
+            "바이오"
+          ]
+        }
+      ],
+      "pick_count": 3,
+      "prev_pick": {
+        "date": "2026-09-01",
+        "rank": 4,
+        "change_pct": 30.0,
+        "trade_amount": 102994000000
+      },
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [
+        "2026-07-30",
+        "2026-08-06",
+        "2026-09-01"
+      ],
+      "news": [
+        {
+          "title": "[급등락주 짚어보기] 탈모치료제株 동반 급등…현대약품·JW신약 '上'",
+          "url": "https://www.etoday.co.kr/news/view/2620699",
+          "source": "이투데이",
+          "published_at": "2026-09-01T08:44:00",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "[특징주] JW신약, 탈모 건보 적용 검토…정부 정책 수혜 기대감에 7%대↑",
+          "url": "https://www.etoday.co.kr/news/view/2595799",
+          "source": "이투데이",
+          "published_at": "2026-06-22T00:20:00",
+          "causal_chain": "탈모 치료제 건강보험 적용 검토 소식에 정부 정책 수혜 기대감 부각 → 제약사 JW신약 본업(바이오) 모멘텀으로 직결 → 매수세 집중되며 장중 시가 2,070원에서 고가 2,635원까지 급등, 당일 종가 2,335원(+13.08%)·거래대금 1,557억원으로 시장 관심 집중.",
+          "macro_event": "탈모 치료제 건강보험 적용 검토 — 정부 정책 수혜 기대",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.5,
+          "newzy_virality": 0.45,
+          "newzy_tradability": null,
+          "newzy_score": 0.48,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        },
+        {
+          "title": "탈모주가 이끈 바이오 강세…JW신약 '上', LG 손잡은 디앤디파마텍도 부각[바이오맥짚기]",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=02847046645483360",
+          "source": "이데일리",
+          "published_at": "2026-06-18T23:01:04",
+          "causal_chain": "탈모 치료제 기대감으로 바이오 섹터 강세 → 제약사 JW신약에 매수세 집중되며 장중 시가 2,425원에서 고가 2,595원까지 급등 → 다만 종가는 2,065원(-11.56%)으로 차익실현 매물에 약세 전환, 거래대금 1,433억원으로 시장 관심은 집중.",
+          "macro_event": "탈모 치료제 모멘텀에 바이오 섹터 강세, JW신약 주도주로 부각",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.5,
+          "newzy_virality": 0.45,
+          "newzy_tradability": null,
+          "newzy_score": 0.48,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        },
+        {
+          "title": "[급등락주 짚어보기]무상증자·실적·개별 호재…가온전선·JW신약 등 '上'",
+          "url": "https://www.etoday.co.kr/news/view/2594602",
+          "source": "이투데이",
+          "published_at": "2026-06-17T07:05:00",
+          "causal_chain": "무상증자·실적 호재 → 매수세 집중 → 당일 거래대금 1,335억원 기록하며 장중 상한가 근처 진입 → 장중 급락으로 종가 2,265원(-3.00%) 마감",
+          "macro_event": "무상증자 호재",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": "시세정형"
+        }
+      ],
+      "fallback": true,
+      "theme_crosscheck": {
+        "confirmed": [
+          "탈모 치료 테마",
+          "K-뷰티",
+          "바이오"
+        ],
+        "pm320_only": [
+          "탈모 치료"
+        ],
+        "cafe_only": []
+      },
+      "index_change_pct": -2.51,
+      "index_multiple_current": -2.86,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 3470,
+        "high_date": "2026-09-02",
+        "high_pct": -7.64,
+        "low": 1246,
+        "low_date": "2026-06-08",
+        "low_pct": 157.22,
+        "current": 3205
+      },
+      "daily_20": [
+        {
+          "date": "2026-08-05",
+          "o": 1940,
+          "h": 2095,
+          "l": 1920,
+          "c": 2005
+        },
+        {
+          "date": "2026-08-06",
+          "o": 2020,
+          "h": 2535,
+          "l": 2005,
+          "c": 2330
+        },
+        {
+          "date": "2026-08-07",
+          "o": 2435,
+          "h": 2435,
+          "l": 2090,
+          "c": 2180
+        },
+        {
+          "date": "2026-08-10",
+          "o": 2180,
+          "h": 2375,
+          "l": 2135,
+          "c": 2225
+        },
+        {
+          "date": "2026-08-11",
+          "o": 2245,
+          "h": 2420,
+          "l": 2215,
+          "c": 2280
+        },
+        {
+          "date": "2026-08-12",
+          "o": 2395,
+          "h": 2445,
+          "l": 2315,
+          "c": 2325
+        },
+        {
+          "date": "2026-08-13",
+          "o": 2330,
+          "h": 2335,
+          "l": 2140,
+          "c": 2150
+        },
+        {
+          "date": "2026-08-14",
+          "o": 2170,
+          "h": 2185,
+          "l": 2055,
+          "c": 2100
+        },
+        {
+          "date": "2026-08-18",
+          "o": 2105,
+          "h": 2350,
+          "l": 2045,
+          "c": 2215
+        },
+        {
+          "date": "2026-08-19",
+          "o": 2250,
+          "h": 2370,
+          "l": 2115,
+          "c": 2150
+        },
+        {
+          "date": "2026-08-20",
+          "o": 2210,
+          "h": 2400,
+          "l": 2210,
+          "c": 2295
+        },
+        {
+          "date": "2026-08-21",
+          "o": 2220,
+          "h": 2220,
+          "l": 2050,
+          "c": 2050
+        },
+        {
+          "date": "2026-08-24",
+          "o": 2085,
+          "h": 2175,
+          "l": 1982,
+          "c": 2005
+        },
+        {
+          "date": "2026-08-25",
+          "o": 1995,
+          "h": 2000,
+          "l": 1905,
+          "c": 1971
+        },
+        {
+          "date": "2026-08-26",
+          "o": 1990,
+          "h": 2040,
+          "l": 1936,
+          "c": 1993
+        },
+        {
+          "date": "2026-08-27",
+          "o": 1974,
+          "h": 2030,
+          "l": 1960,
+          "c": 1990
+        },
+        {
+          "date": "2026-08-28",
+          "o": 1990,
+          "h": 2160,
+          "l": 1981,
+          "c": 2100
+        },
+        {
+          "date": "2026-08-31",
+          "o": 2185,
+          "h": 2530,
+          "l": 2165,
+          "c": 2300
+        },
+        {
+          "date": "2026-09-01",
+          "o": 2375,
+          "h": 2990,
+          "l": 2350,
+          "c": 2990
+        },
+        {
+          "date": "2026-09-02",
+          "o": 3365,
+          "h": 3470,
+          "l": 3185,
+          "c": 3205
+        }
+      ],
+      "status_badges": [
+        {
+          "label": "투자주의 근접",
+          "severity": "caution",
+          "source": "predicted",
+          "thresholds": [
+            {
+              "desc": "5일 전(2026-08-26) 대비 +60%↑",
+              "base_price": 1993,
+              "threshold": 3188,
+              "current": 3205,
+              "triggered": true
+            }
+          ],
+          "regulation": "KRX 시장경보 가격 조건 충족 (거래량 미검증, 자체 추정)",
+          "period_start": "2026-09-03",
+          "period_end": "2026-09-04",
+          "start": "2026-09-03",
+          "end": "2026-09-04",
+          "view_date": "2026-09-02",
+          "next_trading_day": "2026-09-03",
+          "next_trading_day_for_predicted": "2026-09-03",
+          "next_trading_day_source": "fallback_homepage",
+          "single_price": false,
+          "effect_badges": []
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
+      "code": "004310",
+      "name": "현대약품",
+      "rank": 2,
+      "trade_amount": 51322000000,
+      "change_pct": 1.09,
+      "close_price": 8380,
+      "open_price": 8580,
+      "high_price": 9050,
+      "low_price": 8250,
+      "industry": "의약품 제조업",
+      "sector": "타코실, 마이녹실, 테놀민, 미에로화이바 등",
+      "themes": [
+        "정치테마",
+        "바이오"
+      ],
+      "theme_paths": [
+        {
+          "name": "정치테마",
+          "path": [
+            "정치테마"
+          ]
+        },
+        {
+          "name": "바이오",
+          "path": [
+            "바이오"
+          ]
+        }
+      ],
+      "pick_count": 2,
+      "prev_pick": {
+        "date": "2026-09-01",
+        "rank": 2,
+        "change_pct": 29.94,
+        "trade_amount": 149747000000
+      },
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [
+        "2026-08-06",
+        "2026-09-01"
+      ],
+      "news": [
+        {
+          "title": "[급등락주 짚어보기] 탈모치료제株 동반 급등…현대약품·JW신약 '上'",
+          "url": "https://www.etoday.co.kr/news/view/2620699",
+          "source": "이투데이",
+          "published_at": "2026-09-01T08:44:00",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "현대약품, 미프진 기대감에 13%대 강세[특징주]",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03903206645544696",
+          "source": "이데일리",
+          "published_at": "2026-08-06T01:15:51",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "현대약품 13%↑…임신중지약 도입 논의에 강세[특징주]",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03161926645516816",
+          "source": "이데일리",
+          "published_at": "2026-07-21T00:36:35",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "낙태약 미프진 허가될까?…현대약품, 李대통령 발언에 14%↑[특징주]",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03155366645515176",
+          "source": "이데일리",
+          "published_at": "2026-07-16T00:19:15",
+          "causal_chain": "이재명 대통령의 낙태약 '미프진' 도입 검토 발언(정책 이벤트) → 미프진 관련 의약품을 보유·개발할 수 있는 제약사로 현대약품이 지목 → 정책 수혜 기대 매수세 집중 → 당일 종가 7,790원(+16.10%)·거래대금 1,530억원의 대규모 자금 유입 형성. 발언 이튿날까지 이틀 연속 급등 흐름으로 정책 모멘텀이 이어짐.",
+          "macro_event": "이재명 대통령 '미프진(낙태약) 도입 검토' 발언 → 미프진 관련 제약사 정책 수혜 기대",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.55,
+          "newzy_virality": 0.7,
+          "newzy_tradability": null,
+          "newzy_score": 0.61,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        },
+        {
+          "title": "[특징주] 현대약품, 李대통령 ‘미프진 도입 검토’ 발언에 15% 급등",
+          "url": "https://www.etoday.co.kr/news/view/2603929",
+          "source": "이투데이",
+          "published_at": "2026-07-15T00:59:00",
+          "causal_chain": "이재명 대통령의 낙태약 '미프진' 도입 검토 발언(정책 이벤트) → 미프진 관련 의약품을 보유·개발할 수 있는 제약사로 현대약품이 지목 → 정책 수혜 기대 매수세 집중 → 당일 종가 7,790원(+16.10%)·거래대금 1,530억원의 대규모 자금 유입 형성. 발언 이튿날까지 이틀 연속 급등 흐름으로 정책 모멘텀이 이어짐.",
+          "macro_event": "이재명 대통령 '미프진(낙태약) 도입 검토' 발언 → 미프진 관련 제약사 정책 수혜 기대",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.55,
+          "newzy_virality": 0.7,
+          "newzy_tradability": null,
+          "newzy_score": 0.61,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        }
+      ],
+      "fallback": true,
+      "index_change_pct": -2.48,
+      "index_multiple_current": -0.44,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 15960,
+        "high_date": "2026-02-13",
+        "high_pct": -47.49,
+        "low": 3500,
+        "low_date": "2025-11-25",
+        "low_pct": 139.43,
+        "current": 8380
+      },
+      "daily_20": [
+        {
+          "date": "2026-08-05",
+          "o": 5690,
+          "h": 6140,
+          "l": 5650,
+          "c": 5850
+        },
+        {
+          "date": "2026-08-06",
+          "o": 5870,
+          "h": 7070,
+          "l": 5860,
+          "c": 6590
+        },
+        {
+          "date": "2026-08-07",
+          "o": 6610,
+          "h": 6650,
+          "l": 6030,
+          "c": 6150
+        },
+        {
+          "date": "2026-08-10",
+          "o": 6280,
+          "h": 6500,
+          "l": 6030,
+          "c": 6360
+        },
+        {
+          "date": "2026-08-11",
+          "o": 6300,
+          "h": 6690,
+          "l": 6300,
+          "c": 6400
+        },
+        {
+          "date": "2026-08-12",
+          "o": 6450,
+          "h": 6520,
+          "l": 6280,
+          "c": 6400
+        },
+        {
+          "date": "2026-08-13",
+          "o": 6430,
+          "h": 6540,
+          "l": 6310,
+          "c": 6490
+        },
+        {
+          "date": "2026-08-14",
+          "o": 6480,
+          "h": 6560,
+          "l": 6260,
+          "c": 6310
+        },
+        {
+          "date": "2026-08-18",
+          "o": 6370,
+          "h": 6520,
+          "l": 6100,
+          "c": 6130
+        },
+        {
+          "date": "2026-08-19",
+          "o": 6100,
+          "h": 6350,
+          "l": 6000,
+          "c": 6010
+        },
+        {
+          "date": "2026-08-20",
+          "o": 6250,
+          "h": 6630,
+          "l": 6100,
+          "c": 6110
+        },
+        {
+          "date": "2026-08-21",
+          "o": 6060,
+          "h": 6060,
+          "l": 5800,
+          "c": 5850
+        },
+        {
+          "date": "2026-08-24",
+          "o": 5960,
+          "h": 6480,
+          "l": 5900,
+          "c": 5900
+        },
+        {
+          "date": "2026-08-25",
+          "o": 5900,
+          "h": 5970,
+          "l": 5600,
+          "c": 5940
+        },
+        {
+          "date": "2026-08-26",
+          "o": 5920,
+          "h": 6110,
+          "l": 5900,
+          "c": 6070
+        },
+        {
+          "date": "2026-08-27",
+          "o": 6070,
+          "h": 6100,
+          "l": 5970,
+          "c": 6010
+        },
+        {
+          "date": "2026-08-28",
+          "o": 6060,
+          "h": 6270,
+          "l": 6000,
+          "c": 6160
+        },
+        {
+          "date": "2026-08-31",
+          "o": 6210,
+          "h": 6950,
+          "l": 6150,
+          "c": 6380
+        },
+        {
+          "date": "2026-09-01",
+          "o": 6390,
+          "h": 8290,
+          "l": 6300,
+          "c": 8290
+        },
+        {
+          "date": "2026-09-02",
+          "o": 8580,
+          "h": 9050,
+          "l": 8250,
+          "c": 8380
+        }
+      ]
+    },
+    {
+      "code": "053950",
+      "name": "경남제약",
+      "rank": 3,
+      "trade_amount": 477000000,
       "change_pct": null,
       "close_price": null,
       "open_price": null,
@@ -26,10 +630,227 @@
       "bullish_today": false,
       "bullish_streak": 0,
       "bullish_dates": [],
+      "news": [
+        {
+          "title": "\"건기식도 소장템\"…경남제약 '칼로', 산리오 손잡고 올리브영 공략",
+          "url": "https://www.fnnews.com/news/202608311132458902",
+          "source": "파이낸셜뉴스",
+          "published_at": "2026-09-01T11:30:04.778700",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        }
+      ],
+      "fallback": true,
+      "range_240d": {
+        "high": 5580,
+        "high_date": "2025-11-06",
+        "high_pct": -70.48,
+        "low": 1550,
+        "low_date": "2026-06-29",
+        "low_pct": 6.26,
+        "current": null
+      },
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
+      "code": "207760",
+      "name": "미스터블루",
+      "rank": 4,
+      "trade_amount": 453000000,
+      "change_pct": 29.95,
+      "close_price": 2495,
+      "open_price": 2490,
+      "high_price": 2495,
+      "low_price": 2360,
+      "industry": "기타 정보 서비스업",
+      "sector": "온라인 만화 콘텐츠 서비스 및 제공, 만화 출판",
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [
+        "2026-07-06",
+        "2026-07-10"
+      ],
       "news": [],
       "fallback": true,
+      "index_change_pct": -2.51,
+      "index_multiple_current": -11.93,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 11175,
+        "high_date": "2025-09-17",
+        "high_pct": -77.67,
+        "low": 1700,
+        "low_date": "2026-07-30",
+        "low_pct": 46.76,
+        "current": 2495
+      },
+      "daily_20": [
+        {
+          "date": "2026-07-06",
+          "o": 2205,
+          "h": 2850,
+          "l": 2205,
+          "c": 2625
+        },
+        {
+          "date": "2026-07-07",
+          "o": 2525,
+          "h": 2600,
+          "l": 2230,
+          "c": 2250
+        },
+        {
+          "date": "2026-07-08",
+          "o": 2230,
+          "h": 2555,
+          "l": 2150,
+          "c": 2430
+        },
+        {
+          "date": "2026-07-09",
+          "o": 2290,
+          "h": 2500,
+          "l": 2200,
+          "c": 2235
+        },
+        {
+          "date": "2026-07-10",
+          "o": 2215,
+          "h": 2580,
+          "l": 2215,
+          "c": 2475
+        },
+        {
+          "date": "2026-07-13",
+          "o": 2475,
+          "h": 2535,
+          "l": 2180,
+          "c": 2230
+        },
+        {
+          "date": "2026-07-14",
+          "o": 2100,
+          "h": 2240,
+          "l": 2100,
+          "c": 2200
+        },
+        {
+          "date": "2026-07-15",
+          "o": 2190,
+          "h": 2315,
+          "l": 2175,
+          "c": 2250
+        },
+        {
+          "date": "2026-07-16",
+          "o": 2275,
+          "h": 2350,
+          "l": 2230,
+          "c": 2305
+        },
+        {
+          "date": "2026-07-20",
+          "o": 2375,
+          "h": 2375,
+          "l": 2180,
+          "c": 2225
+        },
+        {
+          "date": "2026-07-21",
+          "o": 2045,
+          "h": 2245,
+          "l": 2045,
+          "c": 2130
+        },
+        {
+          "date": "2026-07-22",
+          "o": 2200,
+          "h": 2200,
+          "l": 2075,
+          "c": 2130
+        },
+        {
+          "date": "2026-07-23",
+          "o": 2155,
+          "h": 2155,
+          "l": 2015,
+          "c": 2100
+        },
+        {
+          "date": "2026-07-24",
+          "o": 2145,
+          "h": 2145,
+          "l": 2055,
+          "c": 2095
+        },
+        {
+          "date": "2026-07-27",
+          "o": 2120,
+          "h": 2125,
+          "l": 2005,
+          "c": 2020
+        },
+        {
+          "date": "2026-07-28",
+          "o": 1930,
+          "h": 2400,
+          "l": 1930,
+          "c": 1955
+        },
+        {
+          "date": "2026-07-29",
+          "o": 1910,
+          "h": 2245,
+          "l": 1850,
+          "c": 1910
+        },
+        {
+          "date": "2026-07-30",
+          "o": 1700,
+          "h": 1900,
+          "l": 1700,
+          "c": 1805
+        },
+        {
+          "date": "2026-07-31",
+          "o": 1775,
+          "h": 1970,
+          "l": 1775,
+          "c": 1920
+        },
+        {
+          "date": "2026-09-02",
+          "o": 2490,
+          "h": 2495,
+          "l": 2360,
+          "c": 2495
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 2490,
+        "base": 2490,
+        "prices": [
+          2490,
+          2495,
+          2495
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
@@ -37,15 +858,15 @@
     {
       "code": "373170",
       "name": "엠아이큐브솔루션",
-      "rank": 2,
-      "trade_amount": 99000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
-      "industry": null,
-      "sector": null,
+      "rank": 5,
+      "trade_amount": 143000000,
+      "change_pct": 30.0,
+      "close_price": 2210,
+      "open_price": 2210,
+      "high_price": 2210,
+      "low_price": 2210,
+      "industry": "소프트웨어 개발 및 공급업",
+      "sector": "스마트팩토리 솔루션, 제조지능화 솔루션",
       "themes": [],
       "theme_paths": [],
       "pick_count": 1,
@@ -55,8 +876,171 @@
       "bullish_dates": [],
       "news": [],
       "fallback": true,
+      "index_change_pct": -2.51,
+      "index_multiple_current": -11.95,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 5820,
+        "high_date": "2026-02-09",
+        "high_pct": -62.03,
+        "low": 1370,
+        "low_date": "2026-07-30",
+        "low_pct": 61.31,
+        "current": 2210
+      },
+      "daily_20": [
+        {
+          "date": "2026-08-05",
+          "o": 1750,
+          "h": 1750,
+          "l": 1561,
+          "c": 1588
+        },
+        {
+          "date": "2026-08-06",
+          "o": 1687,
+          "h": 1687,
+          "l": 1632,
+          "c": 1650
+        },
+        {
+          "date": "2026-08-07",
+          "o": 1700,
+          "h": 1799,
+          "l": 1607,
+          "c": 1790
+        },
+        {
+          "date": "2026-08-10",
+          "o": 1746,
+          "h": 1822,
+          "l": 1723,
+          "c": 1780
+        },
+        {
+          "date": "2026-08-11",
+          "o": 1764,
+          "h": 1822,
+          "l": 1729,
+          "c": 1741
+        },
+        {
+          "date": "2026-08-12",
+          "o": 1793,
+          "h": 1900,
+          "l": 1711,
+          "c": 1724
+        },
+        {
+          "date": "2026-08-13",
+          "o": 1728,
+          "h": 1796,
+          "l": 1657,
+          "c": 1665
+        },
+        {
+          "date": "2026-08-14",
+          "o": 1709,
+          "h": 1772,
+          "l": 1678,
+          "c": 1734
+        },
+        {
+          "date": "2026-08-18",
+          "o": 1734,
+          "h": 1795,
+          "l": 1689,
+          "c": 1754
+        },
+        {
+          "date": "2026-08-19",
+          "o": 1850,
+          "h": 1850,
+          "l": 1700,
+          "c": 1756
+        },
+        {
+          "date": "2026-08-20",
+          "o": 1756,
+          "h": 1815,
+          "l": 1675,
+          "c": 1756
+        },
+        {
+          "date": "2026-08-21",
+          "o": 1775,
+          "h": 1775,
+          "l": 1700,
+          "c": 1743
+        },
+        {
+          "date": "2026-08-24",
+          "o": 1708,
+          "h": 1761,
+          "l": 1706,
+          "c": 1720
+        },
+        {
+          "date": "2026-08-25",
+          "o": 1720,
+          "h": 1743,
+          "l": 1715,
+          "c": 1717
+        },
+        {
+          "date": "2026-08-26",
+          "o": 1779,
+          "h": 1780,
+          "l": 1701,
+          "c": 1716
+        },
+        {
+          "date": "2026-08-27",
+          "o": 1724,
+          "h": 1724,
+          "l": 1680,
+          "c": 1713
+        },
+        {
+          "date": "2026-08-28",
+          "o": 1722,
+          "h": 1722,
+          "l": 1682,
+          "c": 1714
+        },
+        {
+          "date": "2026-08-31",
+          "o": 1720,
+          "h": 1720,
+          "l": 1696,
+          "c": 1707
+        },
+        {
+          "date": "2026-09-01",
+          "o": 1707,
+          "h": 1729,
+          "l": 1675,
+          "c": 1700
+        },
+        {
+          "date": "2026-09-02",
+          "o": 2210,
+          "h": 2210,
+          "l": 2210,
+          "c": 2210
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 2210,
+        "base": 2210,
+        "prices": [
+          2210,
+          2210
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
