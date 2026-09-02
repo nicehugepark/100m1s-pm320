@@ -6295,6 +6295,13 @@
       "impact_high": true
     },
     {
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-02-2026?mod=rss_markets_main",
+      "published_ts": 1788337401.0,
+      "impact_high": false
+    },
+    {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/202609029940i",
@@ -6323,13 +6330,6 @@
       "impact_high": false
     },
     {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/a-guide-to-owning-bonds-when-they-are-selling-off-be8e0a2b?mod=rss_markets_main",
-      "published_ts": 1788302280.0,
-      "impact_high": false
-    },
-    {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/the-thai-town-hosting-the-uss-abraham-lincoln-after-a-grueling-deployment-f66e1962?mod=rss_worldnews",
@@ -6344,20 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "17d5df76692f486d27b40b84d8256d8a952461f09996880903c388f15eda5824",
+  "_article_sig": "0f88ef1bef9faa20ebe45177949054bed66c376e65bd0dd934cb908dc0532fa6",
   "built_at_kst": "2026-09-02T07:02:29.407834+09:00",
   "futures": {
-    "as_of_kst": "2026-09-02T17:20:06.811503+09:00",
+    "as_of_kst": "2026-09-02T17:30:06.304226+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7640.25,
-        "change_pct": -0.03,
+        "point": 7638.25,
+        "change_pct": -0.06,
         "spark": [
           7645.0,
-          7633.75,
           7633.0,
           7637.0,
           7639.25,
@@ -6396,21 +6395,22 @@
           7642.75,
           7640.0,
           7640.0,
-          7640.25
+          7637.75,
+          7638.25
         ],
         "candle": {
           "o": 7645.0,
           "h": 7651.5,
           "l": 7631.75,
-          "c": 7640.25
+          "c": 7638.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 19.6,
-          "high_change_pct": -2.33
+          "low_change_pct": 19.57,
+          "high_change_pct": -2.36
         },
         "daily_expanded": [
           {
@@ -8434,8 +8434,8 @@
             "o": 7645.0,
             "h": 7651.5,
             "l": 7631.75,
-            "c": 7640.25,
-            "v": 86904
+            "c": 7638.25,
+            "v": 87981
           }
         ],
         "rollover_gaps": [],
@@ -8443,16 +8443,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-02-2026?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/reserve-bank-of-new-zealand-delivers-further-rate-increase-d71e3fde?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/the-bond-market-issues-world-leaders-a-failing-grade-621cf4dc?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/world/g-20-squabbling-overshadows-summit-as-global-bond-markets-strain-dd61e2ef?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8460,12 +8460,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29074.0,
-        "change_pct": -0.18,
+        "point": 29060.5,
+        "change_pct": -0.22,
         "spark": [
           29136.5,
-          29044.0,
-          29039.0,
           29066.25,
           29079.75,
           29083.75,
@@ -8503,21 +8501,23 @@
           29095.25,
           29075.0,
           29073.75,
-          29074.0
+          29056.75,
+          29047.0,
+          29060.5
         ],
         "candle": {
           "o": 29136.5,
           "h": 29170.0,
           "l": 29016.5,
-          "c": 29074.0
+          "c": 29060.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 25.65,
-          "high_change_pct": -5.34
+          "low_change_pct": 25.59,
+          "high_change_pct": -5.38
         },
         "daily_expanded": [
           {
@@ -10541,8 +10541,8 @@
             "o": 29136.5,
             "h": 29170.0,
             "l": 29016.5,
-            "c": 29074.0,
-            "v": 58342
+            "c": 29060.5,
+            "v": 59165
           }
         ],
         "rollover_gaps": [],
@@ -10567,13 +10567,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52857.0,
-        "change_pct": 0.05,
+        "point": 52841.0,
+        "change_pct": 0.02,
         "spark": [
           52844.0,
-          52818.0,
-          52813.0,
-          52811.0,
           52827.0,
           52837.0,
           52836.0,
@@ -10610,21 +10607,24 @@
           52838.0,
           52865.0,
           52857.0,
-          52857.0
+          52854.0,
+          52838.0,
+          52829.0,
+          52841.0
         ],
         "candle": {
           "o": 52844.0,
           "h": 52924.0,
           "l": 52776.0,
-          "c": 52857.0
+          "c": 52841.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 16.36,
-          "high_change_pct": -3.0
+          "low_change_pct": 16.33,
+          "high_change_pct": -3.03
         },
         "daily_expanded": [
           {
@@ -12648,8 +12648,8 @@
             "o": 52844.0,
             "h": 52924.0,
             "l": 52776.0,
-            "c": 52857.0,
-            "v": 5128
+            "c": 52841.0,
+            "v": 5227
           }
         ],
         "rollover_gaps": [],
@@ -12674,7 +12674,7 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-09-02T17:20:11.131991+09:00",
+  "intraday_refreshed_kst": "2026-09-02T17:33:24.199632+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
@@ -12697,16 +12697,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-02-2026?mod=rss_markets_main"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/reserve-bank-of-new-zealand-delivers-further-rate-increase-d71e3fde?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/the-bond-market-issues-world-leaders-a-failing-grade-621cf4dc?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/world/g-20-squabbling-overshadows-summit-as-global-bond-markets-strain-dd61e2ef?mod=rss_socialeconomyfeed"
         }
       ]
     },
