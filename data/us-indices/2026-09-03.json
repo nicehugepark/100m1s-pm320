@@ -6298,18 +6298,18 @@
   ],
   "news_chips": [
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/commodities-futures/winter-is-approaching-and-europe-is-running-low-on-natural-gas-ee52167a?mod=rss_markets_main",
-      "published_ts": 1788374340.0,
-      "impact_high": true
-    },
-    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-keeps-rate-steady-warns-trade-conflict-could-upend-recovery-9a477b9d?mod=rss_socialeconomyfeed",
       "published_ts": 1788366060.0,
       "impact_high": true
+    },
+    {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/stocks/stocks-rise-as-middle-east-tensions-fray-66e6cd02?mod=rss_markets_main",
+      "published_ts": 1788379800.0,
+      "impact_high": false
     },
     {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
@@ -6361,7 +6361,7 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "4d0b8270353be8ef1656ba05c112e0bff65d4a6a57d5218abd9b5c008df2f48a",
+  "_article_sig": "19af815408097e53d5053a4583bf8b7b3e037ffcd6316777ee7ca5e31adad1ca",
   "built_at_kst": "2026-09-02T07:02:29.407834+09:00",
   "regular_open": false,
   "_futures_news": {
@@ -6387,15 +6387,15 @@
       "sources": [
         {
           "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/stocks-rise-as-middle-east-tensions-fray-66e6cd02?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
           "url": "https://www.wsj.com/finance/commodities-futures/winter-is-approaching-and-europe-is-running-low-on-natural-gas-ee52167a?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-keeps-rate-steady-warns-trade-conflict-could-upend-recovery-9a477b9d?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/borrowing-isnt-the-bond-markets-only-concerngrowth-is-too-91596036?mod=rss_markets_main"
         }
       ]
     },
@@ -6418,17 +6418,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-09-03T05:10:06.459333+09:00",
+    "as_of_kst": "2026-09-03T05:20:03.855568+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7678.75,
-        "change_pct": 0.47,
+        "point": 7680.5,
+        "change_pct": 0.49,
         "spark": [
           7645.0,
-          7678.0,
           7675.5,
           7680.75,
           7673.25,
@@ -6467,21 +6466,22 @@
           7678.75,
           7678.25,
           7680.25,
-          7678.75
+          7680.75,
+          7680.5
         ],
         "candle": {
           "o": 7645.0,
           "h": 7691.25,
           "l": 7618.5,
-          "c": 7678.75
+          "c": 7680.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 20.2,
-          "high_change_pct": -1.84
+          "low_change_pct": 20.23,
+          "high_change_pct": -1.81
         },
         "daily_expanded": [
           {
@@ -8505,8 +8505,8 @@
             "o": 7645.0,
             "h": 7691.25,
             "l": 7618.5,
-            "c": 7678.75,
-            "v": 1228657
+            "c": 7680.75,
+            "v": 1245748
           }
         ],
         "rollover_gaps": [],
@@ -8515,15 +8515,15 @@
           "sources": [
             {
               "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/stocks-rise-as-middle-east-tensions-fray-66e6cd02?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
               "url": "https://www.wsj.com/finance/commodities-futures/winter-is-approaching-and-europe-is-running-low-on-natural-gas-ee52167a?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-keeps-rate-steady-warns-trade-conflict-could-upend-recovery-9a477b9d?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/borrowing-isnt-the-bond-markets-only-concerngrowth-is-too-91596036?mod=rss_markets_main"
             }
           ]
         }
@@ -8531,12 +8531,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29194.0,
-        "change_pct": 0.24,
+        "point": 29198.75,
+        "change_pct": 0.25,
         "spark": [
           29136.5,
-          29164.5,
-          29155.0,
           29174.0,
           29131.0,
           29145.25,
@@ -8574,21 +8572,23 @@
           29192.0,
           29190.25,
           29198.5,
-          29194.0
+          29199.0,
+          29194.25,
+          29198.75
         ],
         "candle": {
           "o": 29136.5,
           "h": 29213.0,
           "l": 28927.25,
-          "c": 29194.0
+          "c": 29198.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 26.16,
-          "high_change_pct": -4.95
+          "low_change_pct": 26.18,
+          "high_change_pct": -4.93
         },
         "daily_expanded": [
           {
@@ -10612,8 +10612,8 @@
             "o": 29136.5,
             "h": 29213.0,
             "l": 28927.25,
-            "c": 29194.0,
-            "v": 423925
+            "c": 29198.75,
+            "v": 427742
           }
         ],
         "rollover_gaps": [],
@@ -10638,11 +10638,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53128.0,
-        "change_pct": 0.57,
+        "point": 53149.0,
+        "change_pct": 0.61,
         "spark": [
           52844.0,
-          53061.0,
           53044.0,
           53092.0,
           53068.0,
@@ -10681,21 +10680,22 @@
           53129.0,
           53130.0,
           53152.0,
-          53128.0
+          53149.0,
+          53149.0
         ],
         "candle": {
           "o": 52844.0,
           "h": 53283.0,
           "l": 52720.0,
-          "c": 53128.0
+          "c": 53149.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 16.96,
-          "high_change_pct": -2.51
+          "low_change_pct": 17.01,
+          "high_change_pct": -2.47
         },
         "daily_expanded": [
           {
@@ -12719,8 +12719,8 @@
             "o": 52844.0,
             "h": 53283.0,
             "l": 52720.0,
-            "c": 53128.0,
-            "v": 58818
+            "c": 53149.0,
+            "v": 59448
           }
         ],
         "rollover_gaps": [],
@@ -12744,5 +12744,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-09-03T05:10:10.380386+09:00"
+  "intraday_refreshed_kst": "2026-09-03T05:23:54.410367+09:00"
 }
