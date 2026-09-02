@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "generated_at": "2026-09-02T09:16:32.144760",
+  "generated_at": "2026-09-02T09:25:12.695040",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -14,12 +14,12 @@
       "code": "067290",
       "name": "JW신약",
       "rank": 1,
-      "trade_amount": 52873000000,
-      "change_pct": 7.19,
-      "close_price": 3205,
+      "trade_amount": 64707000000,
+      "change_pct": 8.7,
+      "close_price": 3250,
       "open_price": 3365,
       "high_price": 3470,
-      "low_price": 3185,
+      "low_price": 3175,
       "industry": "의약품 제조업",
       "sector": "매니큐어세트, 손톱깎이",
       "themes": [
@@ -146,17 +146,17 @@
         ],
         "cafe_only": []
       },
-      "index_change_pct": -2.51,
-      "index_multiple_current": -2.86,
+      "index_change_pct": -1.16,
+      "index_multiple_current": -7.5,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 3470,
         "high_date": "2026-09-02",
-        "high_pct": -7.64,
+        "high_pct": -6.34,
         "low": 1246,
         "low_date": "2026-06-08",
-        "low_pct": 157.22,
-        "current": 3205
+        "low_pct": 160.83,
+        "current": 3250
       },
       "daily_20": [
         {
@@ -296,8 +296,8 @@
           "date": "2026-09-02",
           "o": 3365,
           "h": 3470,
-          "l": 3185,
-          "c": 3205
+          "l": 3175,
+          "c": 3250
         }
       ],
       "status_badges": [
@@ -310,7 +310,7 @@
               "desc": "5일 전(2026-08-26) 대비 +60%↑",
               "base_price": 1993,
               "threshold": 3188,
-              "current": 3205,
+              "current": 3250,
               "triggered": true
             }
           ],
@@ -327,8 +327,18 @@
           "effect_badges": []
         }
       ],
-      "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "intraday": {
+        "step_min": 5,
+        "open": 3365,
+        "base": 3365,
+        "prices": [
+          3365,
+          3260,
+          3225,
+          3240,
+          3225
+        ]
+      },
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰"
@@ -337,12 +347,12 @@
       "code": "004310",
       "name": "현대약품",
       "rank": 2,
-      "trade_amount": 51322000000,
-      "change_pct": 1.09,
-      "close_price": 8380,
+      "trade_amount": 58059000000,
+      "change_pct": -0.97,
+      "close_price": 8210,
       "open_price": 8580,
       "high_price": 9050,
-      "low_price": 8250,
+      "low_price": 8080,
       "industry": "의약품 제조업",
       "sector": "타코실, 마이녹실, 테놀민, 미에로화이바 등",
       "themes": [
@@ -459,17 +469,17 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": -2.48,
-      "index_multiple_current": -0.44,
+      "index_change_pct": -2.51,
+      "index_multiple_current": 0.39,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 15960,
         "high_date": "2026-02-13",
-        "high_pct": -47.49,
+        "high_pct": -48.56,
         "low": 3500,
         "low_date": "2025-11-25",
-        "low_pct": 139.43,
-        "current": 8380
+        "low_pct": 134.57,
+        "current": 8210
       },
       "daily_20": [
         {
@@ -609,33 +619,290 @@
           "date": "2026-09-02",
           "o": 8580,
           "h": 9050,
-          "l": 8250,
-          "c": 8380
+          "l": 8080,
+          "c": 8210
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 8580,
+        "base": 8580,
+        "prices": [
+          8580,
+          8430,
+          8300,
+          8280,
+          8230
+        ]
+      },
       "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰"
     },
     {
-      "code": "053950",
-      "name": "경남제약",
+      "code": "024060",
+      "name": "흥구석유",
       "rank": 3,
-      "trade_amount": 477000000,
+      "trade_amount": 51667000000,
       "change_pct": null,
       "close_price": null,
       "open_price": null,
       "high_price": null,
       "low_price": null,
-      "industry": null,
-      "sector": null,
+      "industry": "기타 전문 도매업",
+      "sector": "휘발유등",
+      "themes": [
+        "중동 지정학",
+        "유가상승",
+        "호르무즈 해협"
+      ],
+      "theme_paths": [
+        {
+          "name": "유가상승",
+          "path": [
+            "유가상승"
+          ]
+        },
+        {
+          "name": "호르무즈 해협",
+          "path": [
+            "전쟁",
+            "중동 지정학",
+            "호르무즈 해협"
+          ]
+        }
+      ],
+      "pick_count": 1,
+      "prev_pick": {
+        "date": "2026-07-24",
+        "rank": 7,
+        "change_pct": 1.8,
+        "trade_amount": 104849000000
+      },
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [],
+      "news": [
+        {
+          "title": "[특징주] 美-이란 갈등에 국제유가 급등… 흥구석유 장 초반 강세",
+          "url": "https://biz.chosun.com/stock/stock_general/2026/07/20/R6IRYAVMFRDOXO7MJFUR3E7RLI/",
+          "source": "조선비즈",
+          "published_at": "2026-07-20T00:25:25",
+          "causal_chain": "美-이란 갈등 격화·호르무즈 해협 긴장 고조 → 국제유가 급등 → 휘발유 도매(본업)가 유가상승 매크로에 직접 정합 → 유가 수혜 매수세 유입되며 장 초반 강세, 당일 시가 13,340원에서 종가 14,200원(+3.57%) 마감, 거래대금 504억원.",
+          "macro_event": "美-이란 갈등 격화에 국제유가 급등",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.35,
+          "newzy_virality": 0.4,
+          "newzy_tradability": null,
+          "newzy_score": 0.37,
+          "newzy_verdict": null,
+          "article_type": "시세정형"
+        },
+        {
+          "title": "흥구석유, 호르무즈 해협 재봉쇄에 17%대 급등[특징주]",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03106166645514520",
+          "source": "이데일리",
+          "published_at": "2026-07-14T00:20:23",
+          "causal_chain": "호르무즈 해협 재봉쇄 → 중동發 원유 수송 차질 우려로 국제 유가 상승 기대 → 석유 유통업체 흥구석유(휘발유 등 도매) 마진·재고평가 수혜 기대 매수세 집중 → 당일 +13.92%(종가 13,260원)·장중 고가 13,990원·거래대금 690억원",
+          "macro_event": "호르무즈 해협 재봉쇄 우려로 국제 유가 상승 기대",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.6,
+          "newzy_virality": 0.6,
+          "newzy_tradability": null,
+          "newzy_score": 0.6,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        }
+      ],
+      "fallback": true,
+      "theme_crosscheck": {
+        "confirmed": [
+          "중동 지정학"
+        ],
+        "pm320_only": [
+          "유가상승",
+          "호르무즈 해협"
+        ],
+        "cafe_only": []
+      },
+      "index_change_pct": -1.16,
+      "range_240d": {
+        "high": 36200,
+        "high_date": "2026-03-05",
+        "high_pct": -72.21,
+        "low": 8920,
+        "low_date": "2026-07-06",
+        "low_pct": 12.78,
+        "current": 10060
+      },
+      "daily_20": [
+        {
+          "date": "2026-07-10",
+          "o": 10440,
+          "h": 11150,
+          "l": 10120,
+          "c": 10840
+        },
+        {
+          "date": "2026-07-13",
+          "o": 11540,
+          "h": 12760,
+          "l": 11400,
+          "c": 11640
+        },
+        {
+          "date": "2026-07-14",
+          "o": 12740,
+          "h": 13990,
+          "l": 12310,
+          "c": 12680
+        },
+        {
+          "date": "2026-07-15",
+          "o": 12050,
+          "h": 13200,
+          "l": 12010,
+          "c": 12580
+        },
+        {
+          "date": "2026-07-16",
+          "o": 13060,
+          "h": 13330,
+          "l": 11900,
+          "c": 12010
+        },
+        {
+          "date": "2026-07-20",
+          "o": 13200,
+          "h": 13800,
+          "l": 12550,
+          "c": 13440
+        },
+        {
+          "date": "2026-07-21",
+          "o": 13140,
+          "h": 13850,
+          "l": 12280,
+          "c": 12430
+        },
+        {
+          "date": "2026-07-22",
+          "o": 12530,
+          "h": 13710,
+          "l": 12330,
+          "c": 13710
+        },
+        {
+          "date": "2026-07-23",
+          "o": 13340,
+          "h": 14460,
+          "l": 13300,
+          "c": 13870
+        },
+        {
+          "date": "2026-07-24",
+          "o": 15070,
+          "h": 15250,
+          "l": 13800,
+          "c": 14120
+        },
+        {
+          "date": "2026-07-27",
+          "o": 12330,
+          "h": 12600,
+          "l": 10910,
+          "c": 10990
+        },
+        {
+          "date": "2026-07-28",
+          "o": 10490,
+          "h": 10770,
+          "l": 9760,
+          "c": 9990
+        },
+        {
+          "date": "2026-07-29",
+          "o": 9990,
+          "h": 11570,
+          "l": 9990,
+          "c": 10510
+        },
+        {
+          "date": "2026-07-30",
+          "o": 10820,
+          "h": 11380,
+          "l": 10620,
+          "c": 10910
+        },
+        {
+          "date": "2026-07-31",
+          "o": 10500,
+          "h": 11170,
+          "l": 10320,
+          "c": 11140
+        },
+        {
+          "date": "2026-08-03",
+          "o": 10330,
+          "h": 10340,
+          "l": 9540,
+          "c": 9900
+        },
+        {
+          "date": "2026-08-04",
+          "o": 9810,
+          "h": 10620,
+          "l": 9810,
+          "c": 10540
+        },
+        {
+          "date": "2026-08-05",
+          "o": 10090,
+          "h": 10540,
+          "l": 10010,
+          "c": 10230
+        },
+        {
+          "date": "2026-08-06",
+          "o": 10110,
+          "h": 10160,
+          "l": 10010,
+          "c": 10060
+        },
+        {
+          "date": "2026-09-02",
+          "o": 11000,
+          "h": 12150,
+          "l": 10990,
+          "c": 11350
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
+      "code": "053950",
+      "name": "경남제약",
+      "rank": 4,
+      "trade_amount": 631000000,
+      "change_pct": 29.77,
+      "close_price": 2210,
+      "open_price": 1703,
+      "high_price": 2210,
+      "low_price": 1670,
+      "industry": "의약품 제조업",
+      "sector": "의약품",
       "themes": [],
       "theme_paths": [],
       "pick_count": 1,
       "prev_pick": null,
-      "bullish_today": false,
-      "bullish_streak": 0,
-      "bullish_dates": [],
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-09-02"
+      ],
       "news": [
         {
           "title": "\"건기식도 소장템\"…경남제약 '칼로', 산리오 손잡고 올리브영 공략",
@@ -655,17 +922,174 @@
         }
       ],
       "fallback": true,
+      "index_change_pct": -1.16,
+      "index_multiple_current": -25.66,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 5580,
         "high_date": "2025-11-06",
-        "high_pct": -70.48,
-        "low": 1550,
-        "low_date": "2026-06-29",
-        "low_pct": 6.26,
-        "current": null
+        "high_pct": -60.39,
+        "low": 1415,
+        "low_date": "2026-07-31",
+        "low_pct": 56.18,
+        "current": 2210
+      },
+      "daily_20": [
+        {
+          "date": "2026-08-05",
+          "o": 1590,
+          "h": 1621,
+          "l": 1589,
+          "c": 1610
+        },
+        {
+          "date": "2026-08-06",
+          "o": 1640,
+          "h": 1640,
+          "l": 1557,
+          "c": 1581
+        },
+        {
+          "date": "2026-08-07",
+          "o": 1590,
+          "h": 1640,
+          "l": 1570,
+          "c": 1610
+        },
+        {
+          "date": "2026-08-10",
+          "o": 1610,
+          "h": 1695,
+          "l": 1610,
+          "c": 1677
+        },
+        {
+          "date": "2026-08-11",
+          "o": 1677,
+          "h": 1700,
+          "l": 1652,
+          "c": 1671
+        },
+        {
+          "date": "2026-08-12",
+          "o": 1656,
+          "h": 1679,
+          "l": 1637,
+          "c": 1646
+        },
+        {
+          "date": "2026-08-13",
+          "o": 1646,
+          "h": 1655,
+          "l": 1595,
+          "c": 1615
+        },
+        {
+          "date": "2026-08-14",
+          "o": 1615,
+          "h": 1649,
+          "l": 1560,
+          "c": 1595
+        },
+        {
+          "date": "2026-08-18",
+          "o": 1595,
+          "h": 1700,
+          "l": 1570,
+          "c": 1658
+        },
+        {
+          "date": "2026-08-19",
+          "o": 1658,
+          "h": 1658,
+          "l": 1550,
+          "c": 1566
+        },
+        {
+          "date": "2026-08-20",
+          "o": 1566,
+          "h": 1606,
+          "l": 1566,
+          "c": 1600
+        },
+        {
+          "date": "2026-08-21",
+          "o": 1600,
+          "h": 1600,
+          "l": 1511,
+          "c": 1535
+        },
+        {
+          "date": "2026-08-24",
+          "o": 1535,
+          "h": 1922,
+          "l": 1535,
+          "c": 1635
+        },
+        {
+          "date": "2026-08-25",
+          "o": 1604,
+          "h": 1608,
+          "l": 1525,
+          "c": 1584
+        },
+        {
+          "date": "2026-08-26",
+          "o": 1592,
+          "h": 1758,
+          "l": 1581,
+          "c": 1581
+        },
+        {
+          "date": "2026-08-27",
+          "o": 1581,
+          "h": 1629,
+          "l": 1581,
+          "c": 1601
+        },
+        {
+          "date": "2026-08-28",
+          "o": 1601,
+          "h": 1657,
+          "l": 1553,
+          "c": 1648
+        },
+        {
+          "date": "2026-08-31",
+          "o": 1715,
+          "h": 1723,
+          "l": 1609,
+          "c": 1670
+        },
+        {
+          "date": "2026-09-01",
+          "o": 1669,
+          "h": 1720,
+          "l": 1625,
+          "c": 1703
+        },
+        {
+          "date": "2026-09-02",
+          "o": 1703,
+          "h": 2210,
+          "l": 1670,
+          "c": 2210
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 1703,
+        "base": 1703,
+        "prices": [
+          1703,
+          1928,
+          2210,
+          2210,
+          2210
+        ]
       },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
@@ -673,8 +1097,8 @@
     {
       "code": "207760",
       "name": "미스터블루",
-      "rank": 4,
-      "trade_amount": 453000000,
+      "rank": 5,
+      "trade_amount": 459000000,
       "change_pct": 29.95,
       "close_price": 2495,
       "open_price": 2490,
@@ -692,10 +1116,43 @@
         "2026-07-06",
         "2026-07-10"
       ],
-      "news": [],
-      "fallback": true,
-      "index_change_pct": -2.51,
-      "index_multiple_current": -11.93,
+      "news": [
+        {
+          "title": "주식병합 마친 미스터블루, '청풍' 앞세워 IP 수익화 드라이브",
+          "url": "https://www.fnnews.com/news/202609020906217128",
+          "source": "파이낸셜뉴스",
+          "published_at": "2026-09-02T09:20:09.099277",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "미스터블루, ‘청풍’ 게임에 접목…웹툰·소설·게임 IP 시너지 강화",
+          "url": "https://www.etoday.co.kr/news/view/2620859",
+          "source": "이투데이",
+          "published_at": "2026-09-02T00:15:00",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        }
+      ],
+      "fallback": false,
+      "index_change_pct": -1.16,
+      "index_multiple_current": -25.82,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 11175,
@@ -855,6 +1312,8 @@
         "prices": [
           2490,
           2495,
+          2495,
+          2495,
           2495
         ]
       },
@@ -867,8 +1326,8 @@
     {
       "code": "373170",
       "name": "엠아이큐브솔루션",
-      "rank": 5,
-      "trade_amount": 143000000,
+      "rank": 6,
+      "trade_amount": 144000000,
       "change_pct": 30.0,
       "close_price": 2210,
       "open_price": 2210,
@@ -885,8 +1344,8 @@
       "bullish_dates": [],
       "news": [],
       "fallback": true,
-      "index_change_pct": -2.51,
-      "index_multiple_current": -11.95,
+      "index_change_pct": -1.16,
+      "index_multiple_current": -25.86,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 5820,
@@ -1044,6 +1503,8 @@
         "open": 2210,
         "base": 2210,
         "prices": [
+          2210,
+          2210,
           2210,
           2210
         ]
