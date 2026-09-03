@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/03/fed-governor-waller-indicates-he-will-support-holding-rates-steady-at-september-meeting.html",
+      "published_ts": 1788438621.0,
+      "impact_high": true
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/03/supersized-el-nino-un-economy.html",
@@ -6292,13 +6299,6 @@
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026090329191",
       "published_ts": 1788424852.0,
-      "impact_high": true
-    },
-    {
-      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/there-are-four-forces-pressuring-bonds-war-is-no-1-68d3ace9?mod=rss_markets_main",
-      "published_ts": 1788397200.0,
       "impact_high": true
     },
     {
@@ -6330,20 +6330,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "fe42e6a529084f68e5afff91f827ac31251eba2ee1ba315cbdf43093baa4a27e",
+  "_article_sig": "780c4a54f0ef06b5589b623fd5b6110853b258f41f5a8f13ff37480d90db70d6",
   "built_at_kst": "2026-09-03T07:04:12.875501+09:00",
   "futures": {
-    "as_of_kst": "2026-09-03T21:40:03.872586+09:00",
+    "as_of_kst": "2026-09-03T21:50:07.667726+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7692.0,
-        "change_pct": 0.2,
+        "point": 7692.25,
+        "change_pct": 0.21,
         "spark": [
           7673.5,
-          7684.25,
           7682.25,
           7682.0,
           7680.5,
@@ -6382,11 +6381,12 @@
           7680.0,
           7681.0,
           7693.25,
-          7692.0
+          7692.5,
+          7692.25
         ],
         "candle": {
           "o": 7673.5,
-          "h": 7694.5,
+          "h": 7701.5,
           "l": 7661.25,
           "c": 7692.0
         },
@@ -8418,10 +8418,10 @@
           {
             "date": "2026-09-03",
             "o": 7673.5,
-            "h": 7694.5,
+            "h": 7701.5,
             "l": 7661.25,
             "c": 7692.0,
-            "v": 133439
+            "v": 147045
           }
         ],
         "rollover_gaps": [],
@@ -8430,15 +8430,15 @@
           "sources": [
             {
               "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/09/03/fed-governor-waller-indicates-he-will-support-holding-rates-steady-at-september-meeting.html"
+            },
+            {
+              "name": "CNBC",
               "url": "https://www.cnbc.com/2026/09/03/supersized-el-nino-un-economy.html"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-trumps-economic-d-day-against-iran-faces-an-uphill-battle-2018461a?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/finance/investing/why-well-have-to-get-used-to-meh-job-reports-e903a625?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8446,12 +8446,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29205.25,
-        "change_pct": 0.07,
+        "point": 29197.75,
+        "change_pct": 0.04,
         "spark": [
           29177.0,
-          29197.25,
-          29187.75,
           29187.5,
           29177.5,
           29176.75,
@@ -8489,21 +8487,23 @@
           29134.75,
           29145.75,
           29207.25,
-          29205.25
+          29200.25,
+          29189.75,
+          29197.75
         ],
         "candle": {
           "o": 29177.0,
           "h": 29292.75,
           "l": 29075.0,
-          "c": 29205.25
+          "c": 29197.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 26.21,
-          "high_change_pct": -4.91
+          "low_change_pct": 26.18,
+          "high_change_pct": -4.93
         },
         "daily_expanded": [
           {
@@ -10527,8 +10527,8 @@
             "o": 29177.0,
             "h": 29292.75,
             "l": 29075.0,
-            "c": 29205.25,
-            "v": 105365
+            "c": 29197.75,
+            "v": 112146
           }
         ],
         "rollover_gaps": [],
@@ -10536,16 +10536,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/09/03/fed-governor-waller-indicates-he-will-support-holding-rates-steady-at-september-meeting.html"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/netherlands-moves-gold-from-new-york-to-london-citing-geopolitical-unrest-7a095eb8?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-trumps-economic-d-day-against-iran-faces-an-uphill-battle-2018461a?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/malaysia-central-bank-holds-rates-as-growth-stays-firm-a7b16bb7?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10553,11 +10553,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53360.0,
+        "point": 53358.0,
         "change_pct": 0.45,
         "spark": [
           53120.0,
-          53231.0,
           53229.0,
           53216.0,
           53213.0,
@@ -10595,14 +10594,15 @@
           53271.0,
           53267.0,
           53359.0,
-          53361.0,
-          53360.0
+          53360.0,
+          53349.0,
+          53358.0
         ],
         "candle": {
           "o": 53120.0,
           "h": 53415.0,
           "l": 53093.0,
-          "c": 53360.0
+          "c": 53358.0
         },
         "range_240d": {
           "low": 45424.0,
@@ -12634,8 +12634,8 @@
             "o": 53120.0,
             "h": 53415.0,
             "l": 53093.0,
-            "c": 53360.0,
-            "v": 10981
+            "c": 53358.0,
+            "v": 10984
           }
         ],
         "rollover_gaps": [],
@@ -12665,16 +12665,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/03/fed-governor-waller-indicates-he-will-support-holding-rates-steady-at-september-meeting.html"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/netherlands-moves-gold-from-new-york-to-london-citing-geopolitical-unrest-7a095eb8?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-trumps-economic-d-day-against-iran-faces-an-uphill-battle-2018461a?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/malaysia-central-bank-holds-rates-as-growth-stays-firm-a7b16bb7?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12683,15 +12683,15 @@
       "sources": [
         {
           "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/03/fed-governor-waller-indicates-he-will-support-holding-rates-steady-at-september-meeting.html"
+        },
+        {
+          "name": "CNBC",
           "url": "https://www.cnbc.com/2026/09/03/supersized-el-nino-un-economy.html"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-trumps-economic-d-day-against-iran-faces-an-uphill-battle-2018461a?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/finance/investing/why-well-have-to-get-used-to-meh-job-reports-e903a625?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12713,5 +12713,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-09-03T21:43:42.183012+09:00"
+  "intraday_refreshed_kst": "2026-09-03T21:53:36.982653+09:00"
 }
