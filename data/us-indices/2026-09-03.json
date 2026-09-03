@@ -6295,6 +6295,13 @@
       "impact_high": true
     },
     {
+      "summary": "반도체 수요와 공급망 뉴스가 기술주 투자심리의 핵심 변수로 작용하는 흐름",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/03/south-korea-semiconductor-exports-surging-concerns.html",
+      "published_ts": 1788397901.0,
+      "impact_high": false
+    },
+    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/202609030858i",
@@ -6330,20 +6337,18 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "138c631cef1d15860fa566f287dea13043dde95afc6259778381b478089c7645",
+  "_article_sig": "bc18525e62da7488945b3b66bd7f1371c0434a5bcd45b94ce8877051ea28b2c0",
   "built_at_kst": "2026-09-03T07:04:12.875501+09:00",
   "futures": {
-    "as_of_kst": "2026-09-03T10:20:03.176680+09:00",
+    "as_of_kst": "2026-09-03T10:30:05.326610+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7675.75,
-        "change_pct": -0.01,
+        "point": 7678.5,
+        "change_pct": 0.03,
         "spark": [
-          7673.5,
-          7669.25,
           7673.5,
           7673.5,
           7677.25,
@@ -6382,21 +6387,23 @@
           7672.75,
           7674.75,
           7675.75,
-          7675.75
+          7676.75,
+          7678.5,
+          7678.5
         ],
         "candle": {
           "o": 7673.5,
           "h": 7681.25,
           "l": 7671.5,
-          "c": 7675.75
+          "c": 7678.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 20.15,
-          "high_change_pct": -1.88
+          "low_change_pct": 20.2,
+          "high_change_pct": -1.84
         },
         "daily_expanded": [
           {
@@ -8420,8 +8427,8 @@
             "o": 7673.5,
             "h": 7681.25,
             "l": 7671.5,
-            "c": 7675.75,
-            "v": 17309
+            "c": 7678.5,
+            "v": 18490
           }
         ],
         "rollover_gaps": [],
@@ -8446,12 +8453,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29175.0,
-        "change_pct": -0.04,
+        "point": 29195.25,
+        "change_pct": 0.03,
         "spark": [
           29177.0,
-          29162.75,
-          29159.0,
           29185.75,
           29185.25,
           29203.75,
@@ -8488,22 +8493,24 @@
           29151.0,
           29172.0,
           29176.5,
-          29166.25,
-          29175.0
+          29183.25,
+          29195.75,
+          29195.75,
+          29195.25
         ],
         "candle": {
           "o": 29177.0,
           "h": 29213.0,
           "l": 29141.0,
-          "c": 29175.0
+          "c": 29194.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 26.08,
-          "high_change_pct": -5.01
+          "low_change_pct": 26.17,
+          "high_change_pct": -4.94
         },
         "daily_expanded": [
           {
@@ -10527,8 +10534,8 @@
             "o": 29177.0,
             "h": 29213.0,
             "l": 29141.0,
-            "c": 29175.0,
-            "v": 15729
+            "c": 29194.5,
+            "v": 16998
           }
         ],
         "rollover_gaps": [],
@@ -10536,16 +10543,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/09/03/south-korea-semiconductor-exports-surging-concerns.html"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/there-are-four-forces-pressuring-bonds-war-is-no-1-68d3ace9?mod=rss_markets_main"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/politics/national-security/hegseth-extends-mideast-deployments-into-2027-escalating-strain-on-troops-c10fc533?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/why-washingtons-economic-d-day-against-iran-faces-steep-odds-19a21279?mod=rss_worldnews"
             }
           ]
         }
@@ -10553,13 +10560,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53147.0,
-        "change_pct": 0.05,
+        "point": 53166.0,
+        "change_pct": 0.08,
         "spark": [
           53120.0,
-          53136.0,
-          53119.0,
-          53126.0,
           53135.0,
           53132.0,
           53136.0,
@@ -10596,21 +10600,24 @@
           53140.0,
           53142.0,
           53147.0,
-          53147.0
+          53156.0,
+          53166.0,
+          53166.0,
+          53166.0
         ],
         "candle": {
           "o": 53120.0,
-          "h": 53164.0,
+          "h": 53167.0,
           "l": 53093.0,
-          "c": 53147.0
+          "c": 53166.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 17.0,
-          "high_change_pct": -2.47
+          "low_change_pct": 17.04,
+          "high_change_pct": -2.44
         },
         "daily_expanded": [
           {
@@ -12632,10 +12639,10 @@
           {
             "date": "2026-09-02",
             "o": 53120.0,
-            "h": 53164.0,
+            "h": 53167.0,
             "l": 53093.0,
-            "c": 53147.0,
-            "v": 1158
+            "c": 53166.0,
+            "v": 1217
           }
         ],
         "rollover_gaps": [],
@@ -12643,16 +12650,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/09/03/south-korea-semiconductor-exports-surging-concerns.html"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-keeps-rate-steady-warns-trade-conflict-could-upend-recovery-9a477b9d?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/politics/policy/in-surprise-twist-california-lawmakers-fail-to-pass-watered-down-wildfire-bill-f54df9bc?mod=rss_markets_main"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html"
             }
           ]
         }
@@ -12665,16 +12672,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/03/south-korea-semiconductor-exports-surging-concerns.html"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/there-are-four-forces-pressuring-bonds-war-is-no-1-68d3ace9?mod=rss_markets_main"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/politics/national-security/hegseth-extends-mideast-deployments-into-2027-escalating-strain-on-troops-c10fc533?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/why-washingtons-economic-d-day-against-iran-faces-steep-odds-19a21279?mod=rss_worldnews"
         }
       ]
     },
@@ -12699,19 +12706,19 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/03/south-korea-semiconductor-exports-surging-concerns.html"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-keeps-rate-steady-warns-trade-conflict-could-upend-recovery-9a477b9d?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/politics/policy/in-surprise-twist-california-lawmakers-fail-to-pass-watered-down-wildfire-bill-f54df9bc?mod=rss_markets_main"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html"
         }
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-09-03T10:22:58.950228+09:00"
+  "intraday_refreshed_kst": "2026-09-03T10:33:00.015481+09:00"
 }
