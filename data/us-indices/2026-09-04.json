@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26591.38,
-      "change_pct": 1.42,
+      "point": 26573.01,
+      "change_pct": 1.35,
       "candle": {
         "o": 26331.67,
-        "h": 26592.95,
+        "h": 26594.47,
         "l": 26329.7,
-        "c": 26591.38
+        "c": 26573.01
       },
       "range_240d": {
         "low": 20794.64,
@@ -2031,9 +2031,9 @@
         {
           "date": "2026-09-03",
           "o": 26331.67,
-          "h": 26592.95,
+          "h": 26594.47,
           "l": 26329.7,
-          "c": 26591.38
+          "c": 26573.01
         }
       ],
       "spark": [
@@ -2068,7 +2068,9 @@
         26572.46,
         26586.13,
         26592.95,
-        26591.38
+        26576.96,
+        26573.81,
+        26573.01
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2092,13 +2094,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7749.21,
-      "change_pct": 1.08,
+      "point": 7742.21,
+      "change_pct": 0.99,
       "candle": {
         "o": 7686.71,
-        "h": 7749.46,
+        "h": 7749.68,
         "l": 7686.71,
-        "c": 7749.21
+        "c": 7742.21
       },
       "range_240d": {
         "low": 6343.72,
@@ -4120,9 +4122,9 @@
         {
           "date": "2026-09-03",
           "o": 7686.71,
-          "h": 7749.46,
+          "h": 7749.68,
           "l": 7686.71,
-          "c": 7749.21
+          "c": 7742.21
         }
       ],
       "spark": [
@@ -4157,7 +4159,9 @@
         7745.78,
         7748.15,
         7749.46,
-        7749.21
+        7745.07,
+        7742.62,
+        7742.21
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4181,13 +4185,13 @@
     },
     {
       "name": "DOW",
-      "point": 53712.9,
-      "change_pct": 1.23,
+      "point": 53638.12,
+      "change_pct": 1.09,
       "candle": {
         "o": 53309.17,
         "h": 53746.5,
         "l": 53286.15,
-        "c": 53712.9
+        "c": 53638.12
       },
       "range_240d": {
         "low": 45166.64,
@@ -6211,7 +6215,7 @@
           "o": 53309.17,
           "h": 53746.5,
           "l": 53286.15,
-          "c": 53712.9
+          "c": 53638.12
         }
       ],
       "spark": [
@@ -6246,7 +6250,9 @@
         53720.89,
         53712.35,
         53712.3,
-        53712.9
+        53681.63,
+        53642.51,
+        53638.12
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6271,6 +6277,13 @@
   ],
   "news_chips": [
     {
+      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/global-bond-markets-take-a-breather-1572d1e3?mod=rss_socialeconomyfeed",
+      "published_ts": 1788451680.0,
+      "impact_high": true
+    },
+    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/boes-chief-economist-sees-need-for-rate-rise-as-wars-course-remains-uncertain-3a2976f4?mod=rss_socialeconomyfeed",
@@ -6278,11 +6291,11 @@
       "impact_high": true
     },
     {
-      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/03/fed-governor-waller-indicates-he-will-support-holding-rates-steady-at-september-meeting.html",
-      "published_ts": 1788444412.0,
-      "impact_high": true
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/global/el-nino-is-yet-to-peak-bringing-heat-and-agricultural-damage-in-tow-un-says-1cfe9dd0?mod=rss_socialeconomyfeed",
+      "published_ts": 1788451680.0,
+      "impact_high": false
     },
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
@@ -6313,13 +6326,6 @@
       "impact_high": false
     },
     {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/international-overseas-etf-usa-index-stocks-9d4487d5?mod=rss_markets_main",
-      "published_ts": 1788433200.0,
-      "impact_high": false
-    },
-    {
       "summary": "반도체 수요와 공급망 뉴스가 기술주 투자심리의 핵심 변수로 작용하는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/03/south-korea-semiconductor-exports-surging-concerns.html",
@@ -6327,7 +6333,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "ebca556fce3a294c975f141297fcea953235af92a5bee02df9c82cd0ebf1c4e0",
+  "_article_sig": "d83b282065a0c118249a68fcdc21f0b3dfb892115337660920f61ad5d6feb678",
   "built_at_kst": "2026-09-03T07:04:12.875501+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6353,15 +6359,15 @@
       "sources": [
         {
           "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/global-bond-markets-take-a-breather-1572d1e3?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/global/el-nino-is-yet-to-peak-bringing-heat-and-agricultural-damage-in-tow-un-says-1cfe9dd0?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/boes-chief-economist-sees-need-for-rate-rise-as-wars-course-remains-uncertain-3a2976f4?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/2026090332141"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/03/fed-governor-waller-indicates-he-will-support-holding-rates-steady-at-september-meeting.html"
         }
       ]
     },
@@ -6384,17 +6390,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-09-04T01:00:05.221775+09:00",
+    "as_of_kst": "2026-09-04T01:10:04.512701+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7755.5,
-        "change_pct": 1.03,
+        "point": 7754.0,
+        "change_pct": 1.01,
         "spark": [
           7673.5,
-          7690.75,
           7693.5,
           7699.5,
           7701.25,
@@ -6433,21 +6438,22 @@
           7752.25,
           7755.75,
           7757.75,
-          7755.5
+          7759.5,
+          7754.0
         ],
         "candle": {
           "o": 7673.5,
-          "h": 7758.5,
+          "h": 7759.5,
           "l": 7661.25,
-          "c": 7755.75
+          "c": 7758.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.41,
-          "high_change_pct": -0.85
+          "low_change_pct": 21.45,
+          "high_change_pct": -0.81
         },
         "daily_expanded": [
           {
@@ -8469,10 +8475,10 @@
           {
             "date": "2026-09-03",
             "o": 7673.5,
-            "h": 7758.5,
+            "h": 7759.5,
             "l": 7661.25,
-            "c": 7755.75,
-            "v": 826025
+            "c": 7758.75,
+            "v": 853003
           }
         ],
         "rollover_gaps": [],
@@ -8481,15 +8487,15 @@
           "sources": [
             {
               "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/global-bond-markets-take-a-breather-1572d1e3?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/global/el-nino-is-yet-to-peak-bringing-heat-and-agricultural-damage-in-tow-un-says-1cfe9dd0?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/boes-chief-economist-sees-need-for-rate-rise-as-wars-course-remains-uncertain-3a2976f4?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/2026090332141"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/09/03/fed-governor-waller-indicates-he-will-support-holding-rates-steady-at-september-meeting.html"
             }
           ]
         }
@@ -8497,12 +8503,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29513.0,
-        "change_pct": 1.12,
+        "point": 29533.5,
+        "change_pct": 1.19,
         "spark": [
           29177.0,
-          29189.75,
-          29200.25,
           29239.25,
           29244.5,
           29214.25,
@@ -8540,21 +8544,23 @@
           29506.5,
           29513.75,
           29528.25,
-          29513.0
+          29538.0,
+          29512.5,
+          29533.5
         ],
         "candle": {
           "o": 29177.0,
           "h": 29542.5,
           "l": 29075.0,
-          "c": 29513.0
+          "c": 29533.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.54,
-          "high_change_pct": -3.91
+          "low_change_pct": 27.63,
+          "high_change_pct": -3.84
         },
         "daily_expanded": [
           {
@@ -10578,8 +10584,8 @@
             "o": 29177.0,
             "h": 29542.5,
             "l": 29075.0,
-            "c": 29513.0,
-            "v": 369021
+            "c": 29533.5,
+            "v": 375451
           }
         ],
         "rollover_gaps": [],
@@ -10604,13 +10610,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53799.0,
-        "change_pct": 1.28,
+        "point": 53793.0,
+        "change_pct": 1.27,
         "spark": [
           53120.0,
-          53360.0,
-          53349.0,
-          53380.0,
           53436.0,
           53453.0,
           53401.0,
@@ -10647,21 +10650,24 @@
           53742.0,
           53766.0,
           53797.0,
-          53799.0
+          53790.0,
+          53794.0,
+          53759.0,
+          53793.0
         ],
         "candle": {
           "o": 53120.0,
           "h": 53827.0,
           "l": 53093.0,
-          "c": 53798.0
+          "c": 53793.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 18.44,
-          "high_change_pct": -1.28
+          "low_change_pct": 18.42,
+          "high_change_pct": -1.29
         },
         "daily_expanded": [
           {
@@ -12685,8 +12691,8 @@
             "o": 53120.0,
             "h": 53827.0,
             "l": 53093.0,
-            "c": 53798.0,
-            "v": 46197
+            "c": 53793.0,
+            "v": 47408
           }
         ],
         "rollover_gaps": [],
@@ -12710,5 +12716,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-09-04T01:03:41.193742+09:00"
+  "intraday_refreshed_kst": "2026-09-04T01:13:21.135786+09:00"
 }
