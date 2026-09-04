@@ -6368,21 +6368,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "e9073903ca4c665b2db57388c8b88d045aa1a49be650b909e5839d9715a38940",
+  "_article_sig": "5baa1007bb838540ad46523c808b92fa85821916a422883892c3af7f2032e86f",
   "built_at_kst": "2026-09-04T07:04:03.091098+09:00",
   "futures": {
-    "as_of_kst": "2026-09-04T22:00:04.483858+09:00",
+    "as_of_kst": "2026-09-04T22:10:03.475666+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7735.0,
-        "change_pct": -0.25,
+        "point": 7736.25,
+        "change_pct": -0.24,
         "spark": [
           7749.75,
-          7757.75,
-          7758.0,
           7758.25,
           7758.25,
           7758.25,
@@ -6420,21 +6418,23 @@
           7740.5,
           7739.5,
           7734.75,
-          7735.0
+          7736.5,
+          7738.25,
+          7736.25
         ],
         "candle": {
           "o": 7749.75,
           "h": 7764.5,
           "l": 7731.25,
-          "c": 7734.5
+          "c": 7738.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.07,
-          "high_change_pct": -1.12
+          "low_change_pct": 21.13,
+          "high_change_pct": -1.08
         },
         "daily_expanded": [
           {
@@ -8458,8 +8458,8 @@
             "o": 7749.75,
             "h": 7764.5,
             "l": 7731.25,
-            "c": 7734.5,
-            "v": 154885
+            "c": 7738.25,
+            "v": 163544
           }
         ],
         "rollover_gaps": [],
@@ -8468,15 +8468,15 @@
           "sources": [
             {
               "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/jobs/august-jobs-report-unemployment-c9da2f0c?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/jobs/canada-unemployment-holds-at-6-4-though-employment-falls-821342b6?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/global/u-s-european-bond-yields-little-changed-ahead-of-key-jobs-data-6528bb59?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/stocks-bonds-rally-after-dovish-fed-comments-b95763ae?mod=rss_markets_main"
             }
           ]
         }
@@ -8484,12 +8484,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29521.25,
-        "change_pct": -0.01,
+        "point": 29543.25,
+        "change_pct": 0.06,
         "spark": [
           29505.0,
-          29643.0,
-          29651.0,
           29655.75,
           29657.25,
           29662.5,
@@ -8527,21 +8525,23 @@
           29557.75,
           29518.25,
           29530.0,
-          29521.25
+          29546.5,
+          29536.75,
+          29543.25
         ],
         "candle": {
           "o": 29505.0,
           "h": 29704.5,
           "l": 29482.0,
-          "c": 29521.25
+          "c": 29543.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.58,
-          "high_change_pct": -3.88
+          "low_change_pct": 27.67,
+          "high_change_pct": -3.81
         },
         "daily_expanded": [
           {
@@ -10565,8 +10565,8 @@
             "o": 29505.0,
             "h": 29704.5,
             "l": 29482.0,
-            "c": 29521.25,
-            "v": 87734
+            "c": 29543.25,
+            "v": 92708
           }
         ],
         "rollover_gaps": [],
@@ -10591,11 +10591,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53568.0,
-        "change_pct": -0.33,
+        "point": 53558.0,
+        "change_pct": -0.35,
         "spark": [
           53707.0,
-          53698.0,
           53698.0,
           53691.0,
           53690.0,
@@ -10634,21 +10633,22 @@
           53599.0,
           53572.0,
           53592.0,
-          53568.0
+          53589.0,
+          53558.0
         ],
         "candle": {
           "o": 53707.0,
           "h": 53772.0,
           "l": 53523.0,
-          "c": 53568.0
+          "c": 53585.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 17.93,
-          "high_change_pct": -1.7
+          "low_change_pct": 17.97,
+          "high_change_pct": -1.67
         },
         "daily_expanded": [
           {
@@ -12672,8 +12672,8 @@
             "o": 53707.0,
             "h": 53772.0,
             "l": 53523.0,
-            "c": 53568.0,
-            "v": 12237
+            "c": 53585.0,
+            "v": 12793
           }
         ],
         "rollover_gaps": [],
@@ -12721,15 +12721,15 @@
       "sources": [
         {
           "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/jobs/august-jobs-report-unemployment-c9da2f0c?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/jobs/canada-unemployment-holds-at-6-4-though-employment-falls-821342b6?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/global/u-s-european-bond-yields-little-changed-ahead-of-key-jobs-data-6528bb59?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/stocks-bonds-rally-after-dovish-fed-comments-b95763ae?mod=rss_markets_main"
         }
       ]
     },
@@ -12751,5 +12751,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-09-04T22:04:45.147379+09:00"
+  "intraday_refreshed_kst": "2026-09-04T22:14:42.035976+09:00"
 }
