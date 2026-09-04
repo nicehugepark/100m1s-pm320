@@ -6298,13 +6298,6 @@
   ],
   "news_chips": [
     {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html",
-      "published_ts": 1788525986.0,
-      "impact_high": true
-    },
-    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/202609044351i",
@@ -6316,13 +6309,6 @@
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/global/u-s-european-bond-yields-little-changed-ahead-of-key-jobs-data-6528bb59?mod=rss_socialeconomyfeed",
       "published_ts": 1788510840.0,
-      "impact_high": true
-    },
-    {
-      "summary": "미국 고용 지표가 경기 둔화와 임금 압력 해석을 동시에 키우는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/livecoverage/august-jobs-report-stock-market-09-04-2026?mod=rss_markets_main",
-      "published_ts": 1788509915.0,
       "impact_high": true
     },
     {
@@ -6343,7 +6329,21 @@
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/jobs/august-jobs-report-unemployment-c9da2f0c?mod=rss_socialeconomyfeed",
-      "published_ts": 1788526080.0,
+      "published_ts": 1788526680.0,
+      "impact_high": false
+    },
+    {
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/jobs/canada-unemployment-holds-at-6-4-though-employment-falls-821342b6?mod=rss_socialeconomyfeed",
+      "published_ts": 1788526500.0,
+      "impact_high": false
+    },
+    {
+      "summary": "미국 고용 지표가 경기 둔화와 임금 압력 해석을 동시에 키우는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/2026090454097",
+      "published_ts": 1788525935.0,
       "impact_high": false
     },
     {
@@ -6368,20 +6368,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "b3d3eca17a96c593e09e7a0a7e3f171db19e149e98f508d779971ea1726da560",
+  "_article_sig": "e9073903ca4c665b2db57388c8b88d045aa1a49be650b909e5839d9715a38940",
   "built_at_kst": "2026-09-04T07:04:03.091098+09:00",
   "futures": {
-    "as_of_kst": "2026-09-04T21:50:04.509443+09:00",
+    "as_of_kst": "2026-09-04T22:00:04.483858+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7741.0,
-        "change_pct": -0.18,
+        "point": 7735.0,
+        "change_pct": -0.25,
         "spark": [
           7749.75,
-          7756.75,
           7757.75,
           7758.0,
           7758.25,
@@ -6420,21 +6419,22 @@
           7738.0,
           7740.5,
           7739.5,
-          7741.0
+          7734.75,
+          7735.0
         ],
         "candle": {
           "o": 7749.75,
           "h": 7764.5,
-          "l": 7732.0,
-          "c": 7741.0
+          "l": 7731.25,
+          "c": 7734.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.18,
-          "high_change_pct": -1.04
+          "low_change_pct": 21.07,
+          "high_change_pct": -1.12
         },
         "daily_expanded": [
           {
@@ -8457,9 +8457,9 @@
             "date": "2026-09-04",
             "o": 7749.75,
             "h": 7764.5,
-            "l": 7732.0,
-            "c": 7741.0,
-            "v": 142094
+            "l": 7731.25,
+            "c": 7734.5,
+            "v": 154885
           }
         ],
         "rollover_gaps": [],
@@ -8468,15 +8468,15 @@
           "sources": [
             {
               "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/jobs/canada-unemployment-holds-at-6-4-though-employment-falls-821342b6?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/global/u-s-european-bond-yields-little-changed-ahead-of-key-jobs-data-6528bb59?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/stocks-bonds-rally-after-dovish-fed-comments-b95763ae?mod=rss_markets_main"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/09/03/august-2026-jobs-report-payrolls.html"
             }
           ]
         }
@@ -8484,12 +8484,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29559.5,
-        "change_pct": 0.12,
+        "point": 29521.25,
+        "change_pct": -0.01,
         "spark": [
           29505.0,
-          29629.0,
-          29637.25,
           29643.0,
           29651.0,
           29655.75,
@@ -8527,21 +8525,23 @@
           29552.5,
           29556.5,
           29557.75,
-          29559.5
+          29518.25,
+          29530.0,
+          29521.25
         ],
         "candle": {
           "o": 29505.0,
           "h": 29704.5,
           "l": 29482.0,
-          "c": 29559.5
+          "c": 29521.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.74,
-          "high_change_pct": -3.75
+          "low_change_pct": 27.58,
+          "high_change_pct": -3.88
         },
         "daily_expanded": [
           {
@@ -10565,8 +10565,8 @@
             "o": 29505.0,
             "h": 29704.5,
             "l": 29482.0,
-            "c": 29559.5,
-            "v": 80945
+            "c": 29521.25,
+            "v": 87734
           }
         ],
         "rollover_gaps": [],
@@ -10591,13 +10591,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53618.0,
-        "change_pct": -0.24,
+        "point": 53568.0,
+        "change_pct": -0.33,
         "spark": [
           53707.0,
-          53698.0,
-          53698.0,
-          53705.0,
           53698.0,
           53698.0,
           53691.0,
@@ -10634,21 +10631,24 @@
           53717.0,
           53587.0,
           53619.0,
-          53618.0
+          53599.0,
+          53572.0,
+          53592.0,
+          53568.0
         ],
         "candle": {
           "o": 53707.0,
           "h": 53772.0,
           "l": 53523.0,
-          "c": 53620.0
+          "c": 53568.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 18.04,
-          "high_change_pct": -1.6
+          "low_change_pct": 17.93,
+          "high_change_pct": -1.7
         },
         "daily_expanded": [
           {
@@ -12672,8 +12672,8 @@
             "o": 53707.0,
             "h": 53772.0,
             "l": 53523.0,
-            "c": 53620.0,
-            "v": 11304
+            "c": 53568.0,
+            "v": 12237
           }
         ],
         "rollover_gaps": [],
@@ -12721,15 +12721,15 @@
       "sources": [
         {
           "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/jobs/canada-unemployment-holds-at-6-4-though-employment-falls-821342b6?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/global/u-s-european-bond-yields-little-changed-ahead-of-key-jobs-data-6528bb59?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/stocks-bonds-rally-after-dovish-fed-comments-b95763ae?mod=rss_markets_main"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/03/august-2026-jobs-report-payrolls.html"
         }
       ]
     },
@@ -12751,5 +12751,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-09-04T21:54:44.725663+09:00"
+  "intraday_refreshed_kst": "2026-09-04T22:04:45.147379+09:00"
 }
