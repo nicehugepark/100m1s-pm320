@@ -2,7 +2,7 @@
   "date": "2026-09-04",
   "condition_name": "v1",
   "first_snapshot_at": "2026-09-04T09:05:04+09:00",
-  "snapshot_count": 3,
+  "snapshot_count": 4,
   "accumulated_stocks": {
     "003060": {
       "ticker": "003060",
@@ -21,20 +21,48 @@
     "048770": {
       "ticker": "048770",
       "name": "TPC로보틱스",
-      "max_trade_amount": 6430000000,
+      "max_trade_amount": 6476000000,
       "max_change_pct": 3.0,
       "min_change_pct": 3.0,
       "first_seen": "09:15",
-      "last_seen": "09:25",
-      "appearances": 2,
+      "last_seen": "09:35",
+      "appearances": 3,
       "last_price": 3965,
       "open": 3120,
       "high": 3965,
       "low": 3120
+    },
+    "108490": {
+      "ticker": "108490",
+      "name": "로보티즈",
+      "max_trade_amount": 150229000000,
+      "max_change_pct": 2.153,
+      "min_change_pct": 2.153,
+      "first_seen": "09:35",
+      "last_seen": "09:35",
+      "appearances": 1,
+      "last_price": 302000,
+      "open": 267000,
+      "high": 308500,
+      "low": 265000
     }
   },
-  "last_snapshot_at": "2026-09-04T09:25:02+09:00",
+  "last_snapshot_at": "2026-09-04T09:35:05+09:00",
   "latest_stocks": [
+    {
+      "ticker": "108490",
+      "name": "로보티즈",
+      "price": 302000,
+      "open": 267000,
+      "high": 308500,
+      "low": 265000,
+      "change": 53500,
+      "change_pct": 2.153,
+      "volume": 515080,
+      "trade_amount": 150229000000,
+      "trade_amount_source": "ka10081",
+      "rank": 1
+    },
     {
       "ticker": "048770",
       "name": "TPC로보틱스",
@@ -44,22 +72,36 @@
       "low": 3120,
       "change": 915,
       "change_pct": 3.0,
-      "volume": 1712437,
-      "trade_amount": 6430000000,
+      "volume": 1724041,
+      "trade_amount": 6476000000,
       "trade_amount_source": "ka10081",
-      "rank": 1
+      "rank": 2
     }
   ],
   "daily_top": [
     {
+      "ticker": "108490",
+      "name": "로보티즈",
+      "max_trade_amount": 150229000000,
+      "max_change_pct": 2.153,
+      "min_change_pct": 2.153,
+      "first_seen": "09:35",
+      "last_seen": "09:35",
+      "appearances": 1,
+      "last_price": 302000,
+      "open": 267000,
+      "high": 308500,
+      "low": 265000
+    },
+    {
       "ticker": "048770",
       "name": "TPC로보틱스",
-      "max_trade_amount": 6430000000,
+      "max_trade_amount": 6476000000,
       "max_change_pct": 3.0,
       "min_change_pct": 3.0,
       "first_seen": "09:15",
-      "last_seen": "09:25",
-      "appearances": 2,
+      "last_seen": "09:35",
+      "appearances": 3,
       "last_price": 3965,
       "open": 3120,
       "high": 3965,
