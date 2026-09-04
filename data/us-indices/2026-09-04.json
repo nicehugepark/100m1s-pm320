@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26558.7,
+      "point": 26556.37,
       "change_pct": -0.1,
       "candle": {
         "o": 26585.23,
         "h": 26625.79,
-        "l": 26549.81,
-        "c": 26558.7
+        "l": 26534.21,
+        "c": 26556.37
       },
       "range_240d": {
         "low": 20794.64,
@@ -2040,8 +2040,8 @@
           "date": "2026-09-04",
           "o": 26585.23,
           "h": 26625.79,
-          "l": 26549.81,
-          "c": 26558.7
+          "l": 26534.21,
+          "c": 26556.37
         }
       ],
       "spark": [
@@ -2056,7 +2056,9 @@
         26590.11,
         26588.46,
         26558.76,
-        26558.7
+        26551.93,
+        26556.21,
+        26556.37
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2080,13 +2082,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7726.73,
-      "change_pct": -0.27,
+      "point": 7728.04,
+      "change_pct": -0.25,
       "candle": {
         "o": 7750.19,
         "h": 7750.19,
-        "l": 7724.68,
-        "c": 7726.73
+        "l": 7723.78,
+        "c": 7728.04
       },
       "range_240d": {
         "low": 6343.72,
@@ -4117,8 +4119,8 @@
           "date": "2026-09-04",
           "o": 7750.19,
           "h": 7750.19,
-          "l": 7724.68,
-          "c": 7726.73
+          "l": 7723.78,
+          "c": 7728.04
         }
       ],
       "spark": [
@@ -4133,7 +4135,9 @@
         7732.26,
         7732.47,
         7725.4,
-        7726.73
+        7726.64,
+        7728.01,
+        7728.04
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4157,13 +4161,13 @@
     },
     {
       "name": "DOW",
-      "point": 53404.13,
-      "change_pct": -0.53,
+      "point": 53409.17,
+      "change_pct": -0.52,
       "candle": {
         "o": 53584.89,
         "h": 53635.35,
-        "l": 53393.2,
-        "c": 53404.13
+        "l": 53384.68,
+        "c": 53409.17
       },
       "range_240d": {
         "low": 45166.64,
@@ -6194,8 +6198,8 @@
           "date": "2026-09-04",
           "o": 53584.89,
           "h": 53635.35,
-          "l": 53393.2,
-          "c": 53404.13
+          "l": 53384.68,
+          "c": 53409.17
         }
       ],
       "spark": [
@@ -6210,7 +6214,9 @@
         53437.53,
         53433.13,
         53393.2,
-        53404.13
+        53404.63,
+        53406.23,
+        53409.17
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6235,17 +6241,24 @@
   ],
   "news_chips": [
     {
+      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/finance/stocks/u-s-stock-futures-treasurys-little-moved-ahead-of-jobs-data-36dab277?mod=rss_socialeconomyfeed",
+      "published_ts": 1788531600.0,
+      "impact_high": true
+    },
+    {
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html",
+      "published_ts": 1788531542.0,
+      "impact_high": true
+    },
+    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/202609044351i",
       "published_ts": 1788519733.0,
-      "impact_high": true
-    },
-    {
-      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/global/u-s-european-bond-yields-little-changed-ahead-of-key-jobs-data-6528bb59?mod=rss_socialeconomyfeed",
-      "published_ts": 1788510840.0,
       "impact_high": true
     },
     {
@@ -6263,17 +6276,17 @@
       "impact_high": true
     },
     {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/jobs/august-jobs-report-unemployment-c9da2f0c?mod=rss_socialeconomyfeed",
-      "published_ts": 1788526680.0,
+      "summary": "가계 재정과 소비 부담 지표가 경기 방어 심리에 영향을 주는 흐름",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/04/private-security-spending-crime-allied-universal.html",
+      "published_ts": 1788531304.0,
       "impact_high": false
     },
     {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/jobs/canada-unemployment-holds-at-6-4-though-employment-falls-821342b6?mod=rss_socialeconomyfeed",
-      "published_ts": 1788526500.0,
+      "url": "https://www.wsj.com/economy/jobs/august-jobs-report-unemployment-c9da2f0c?mod=rss_socialeconomyfeed",
+      "published_ts": 1788527940.0,
       "impact_high": false
     },
     {
@@ -6281,13 +6294,6 @@
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026090454097",
       "published_ts": 1788525935.0,
-      "impact_high": false
-    },
-    {
-      "summary": "가계 재정과 소비 부담 지표가 경기 방어 심리에 영향을 주는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/04/private-security-spending-crime-allied-universal.html",
-      "published_ts": 1788523068.0,
       "impact_high": false
     },
     {
@@ -6305,21 +6311,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "5baa1007bb838540ad46523c808b92fa85821916a422883892c3af7f2032e86f",
+  "_article_sig": "9d53ef8d2f13a6b8a3c8757a67726de889293e744dcc837bfd8afb7226daf884",
   "built_at_kst": "2026-09-04T07:04:03.091098+09:00",
   "futures": {
-    "as_of_kst": "2026-09-04T23:20:06.435032+09:00",
+    "as_of_kst": "2026-09-04T23:30:04.444904+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7737.25,
-        "change_pct": -0.23,
+        "point": 7732.5,
+        "change_pct": -0.29,
         "spark": [
           7749.75,
-          7758.5,
-          7758.0,
           7758.25,
           7758.5,
           7759.0,
@@ -6357,21 +6361,23 @@
           7741.75,
           7737.25,
           7738.5,
-          7737.25
+          7731.5,
+          7732.75,
+          7732.5
         ],
         "candle": {
           "o": 7749.75,
           "h": 7764.5,
-          "l": 7731.25,
-          "c": 7737.25
+          "l": 7730.25,
+          "c": 7732.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.12,
-          "high_change_pct": -1.09
+          "low_change_pct": 21.04,
+          "high_change_pct": -1.15
         },
         "daily_expanded": [
           {
@@ -8394,9 +8400,9 @@
             "date": "2026-09-04",
             "o": 7749.75,
             "h": 7764.5,
-            "l": 7731.25,
-            "c": 7737.25,
-            "v": 345166
+            "l": 7730.25,
+            "c": 7732.25,
+            "v": 379414
           }
         ],
         "rollover_gaps": [],
@@ -8405,15 +8411,15 @@
           "sources": [
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/jobs/august-jobs-report-unemployment-c9da2f0c?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/jobs/canada-unemployment-holds-at-6-4-though-employment-falls-821342b6?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/finance/stocks/u-s-stock-futures-treasurys-little-moved-ahead-of-jobs-data-36dab277?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/global/u-s-european-bond-yields-little-changed-ahead-of-key-jobs-data-6528bb59?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/jobs/august-jobs-report-unemployment-c9da2f0c?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8421,12 +8427,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29647.5,
-        "change_pct": 0.42,
+        "point": 29602.75,
+        "change_pct": 0.26,
         "spark": [
           29505.0,
-          29656.75,
-          29653.0,
           29660.0,
           29657.75,
           29663.0,
@@ -8464,21 +8468,23 @@
           29668.0,
           29644.5,
           29648.5,
-          29647.5
+          29601.75,
+          29595.75,
+          29602.75
         ],
         "candle": {
           "o": 29505.0,
           "h": 29704.5,
           "l": 29482.0,
-          "c": 29647.5
+          "c": 29602.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 28.12,
-          "high_change_pct": -3.47
+          "low_change_pct": 27.93,
+          "high_change_pct": -3.61
         },
         "daily_expanded": [
           {
@@ -10502,8 +10508,8 @@
             "o": 29505.0,
             "h": 29704.5,
             "l": 29482.0,
-            "c": 29647.5,
-            "v": 183258
+            "c": 29602.75,
+            "v": 199482
           }
         ],
         "rollover_gaps": [],
@@ -10528,12 +10534,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53476.0,
-        "change_pct": -0.5,
+        "point": 53452.0,
+        "change_pct": -0.55,
         "spark": [
           53707.0,
-          53683.0,
-          53692.0,
           53688.0,
           53690.0,
           53700.0,
@@ -10571,21 +10575,23 @@
           53501.0,
           53485.0,
           53483.0,
-          53476.0
+          53443.0,
+          53451.0,
+          53452.0
         ],
         "candle": {
           "o": 53707.0,
           "h": 53772.0,
-          "l": 53475.0,
-          "c": 53476.0
+          "l": 53437.0,
+          "c": 53452.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 17.73,
-          "high_change_pct": -1.87
+          "low_change_pct": 17.67,
+          "high_change_pct": -1.91
         },
         "daily_expanded": [
           {
@@ -12608,9 +12614,9 @@
             "date": "2026-09-04",
             "o": 53707.0,
             "h": 53772.0,
-            "l": 53475.0,
-            "c": 53476.0,
-            "v": 25814
+            "l": 53437.0,
+            "c": 53452.0,
+            "v": 27557
           }
         ],
         "rollover_gaps": [],
@@ -12658,15 +12664,15 @@
       "sources": [
         {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/jobs/august-jobs-report-unemployment-c9da2f0c?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/jobs/canada-unemployment-holds-at-6-4-though-employment-falls-821342b6?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/finance/stocks/u-s-stock-futures-treasurys-little-moved-ahead-of-jobs-data-36dab277?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/global/u-s-european-bond-yields-little-changed-ahead-of-key-jobs-data-6528bb59?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/jobs/august-jobs-report-unemployment-c9da2f0c?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12688,5 +12694,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-09-04T23:20:10.168177+09:00"
+  "intraday_refreshed_kst": "2026-09-04T23:34:43.514377+09:00"
 }
