@@ -6361,17 +6361,17 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "0714a8a66627706fef1fbc2103d32d892e2a425753806854a87078006438328d",
+  "_article_sig": "d0508d188dbfbc2fd493194ce10cc90654d2cafe60833327d561cb0bdcdfca05",
   "built_at_kst": "2026-09-04T07:04:03.091098+09:00",
   "futures": {
-    "as_of_kst": "2026-09-04T14:00:04.786565+09:00",
+    "as_of_kst": "2026-09-04T14:10:02.506459+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7759.75,
-        "change_pct": 0.06,
+        "point": 7761.25,
+        "change_pct": 0.08,
         "spark": [
           7749.75,
           7757.5,
@@ -6383,21 +6383,23 @@
           7760.25,
           7760.25,
           7759.75,
-          7759.75
+          7760.5,
+          7761.25,
+          7761.25
         ],
         "candle": {
           "o": 7749.75,
           "h": 7761.75,
           "l": 7748.25,
-          "c": 7759.75
+          "c": 7761.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.47,
-          "high_change_pct": -0.8
+          "low_change_pct": 21.49,
+          "high_change_pct": -0.78
         },
         "daily_expanded": [
           {
@@ -8421,8 +8423,8 @@
             "o": 7749.75,
             "h": 7761.75,
             "l": 7748.25,
-            "c": 7759.75,
-            "v": 27266
+            "c": 7761.25,
+            "v": 27664
           }
         ],
         "rollover_gaps": [],
@@ -8431,15 +8433,15 @@
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/commodities-futures/oil-rises-amid-elevated-supply-disruption-concerns-fa01461e?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/stocks-bonds-rally-after-dovish-fed-comments-b95763ae?mod=rss_markets_main"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/09/03/august-2026-jobs-report-payrolls.html"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/boes-chief-economist-sees-need-for-rate-rise-as-wars-course-remains-uncertain-3a2976f4?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8447,8 +8449,8 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29583.5,
-        "change_pct": 0.2,
+        "point": 29598.75,
+        "change_pct": 0.25,
         "spark": [
           29505.0,
           29565.5,
@@ -8461,21 +8463,22 @@
           29588.0,
           29583.75,
           29586.25,
-          29583.5
+          29598.25,
+          29598.75
         ],
         "candle": {
           "o": 29505.0,
           "h": 29601.25,
           "l": 29482.0,
-          "c": 29583.5
+          "c": 29598.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.85,
-          "high_change_pct": -3.68
+          "low_change_pct": 27.91,
+          "high_change_pct": -3.63
         },
         "daily_expanded": [
           {
@@ -10499,8 +10502,8 @@
             "o": 29505.0,
             "h": 29601.25,
             "l": 29482.0,
-            "c": 29583.5,
-            "v": 25403
+            "c": 29598.25,
+            "v": 25845
           }
         ],
         "rollover_gaps": [],
@@ -10538,6 +10541,8 @@
           53755.0,
           53752.0,
           53752.0,
+          53753.0,
+          53754.0,
           53753.0,
           53753.0
         ],
@@ -12578,7 +12583,7 @@
             "h": 53772.0,
             "l": 53703.0,
             "c": 53753.0,
-            "v": 2084
+            "v": 2113
           }
         ],
         "rollover_gaps": [],
@@ -12626,15 +12631,15 @@
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/commodities-futures/oil-rises-amid-elevated-supply-disruption-concerns-fa01461e?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/stocks-bonds-rally-after-dovish-fed-comments-b95763ae?mod=rss_markets_main"
         },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/09/03/august-2026-jobs-report-payrolls.html"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/boes-chief-economist-sees-need-for-rate-rise-as-wars-course-remains-uncertain-3a2976f4?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12656,5 +12661,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-09-04T14:00:08.333718+09:00"
+  "intraday_refreshed_kst": "2026-09-04T14:14:08.379615+09:00"
 }
