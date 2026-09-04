@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "generated_at": "2026-09-04T09:36:49.234137",
+  "generated_at": "2026-09-04T09:46:58.618883",
   "data_source": "kiwoom",
   "macro_events": [],
   "narratives": [],
@@ -14,12 +14,12 @@
       "code": "108490",
       "name": "로보티즈",
       "rank": 1,
-      "trade_amount": 150229000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
+      "trade_amount": 171466000000,
+      "change_pct": 20.52,
+      "close_price": 299500,
+      "open_price": 267000,
+      "high_price": 308500,
+      "low_price": 265000,
       "industry": "특수 목적용 기계 제조업",
       "sector": "솔루션(로봇 엑츄에이터 모듈과 구동 소프트웨어), 에듀테인먼트 로봇, 로봇 플랫폼",
       "themes": [
@@ -42,9 +42,12 @@
         "change_pct": -0.36,
         "trade_amount": 125284000000
       },
-      "bullish_today": false,
-      "bullish_streak": 0,
-      "bullish_dates": [],
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-08-03",
+        "2026-09-04"
+      ],
       "news": [
         {
           "title": "KB證 \"로보티즈, 2Q 흑자전환…중국 매출 3배 급증\"",
@@ -80,38 +83,19 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": 2.55,
+      "index_change_pct": 1.94,
+      "index_multiple_current": 10.58,
+      "index_multiple_eligible": true,
       "range_240d": {
         "high": 464000,
         "high_date": "2026-06-02",
-        "high_pct": -46.88,
-        "low": 92901,
-        "low_date": "2025-09-09",
-        "low_pct": 165.34,
-        "current": 246500
+        "high_pct": -35.45,
+        "low": 93193,
+        "low_date": "2025-09-11",
+        "low_pct": 221.38,
+        "current": 299500
       },
       "daily_20": [
-        {
-          "date": "2026-08-04",
-          "o": 214000,
-          "h": 238500,
-          "l": 211500,
-          "c": 232500
-        },
-        {
-          "date": "2026-08-05",
-          "o": 236000,
-          "h": 243500,
-          "l": 226000,
-          "c": 242000
-        },
-        {
-          "date": "2026-08-06",
-          "o": 248000,
-          "h": 250000,
-          "l": 227000,
-          "c": 233500
-        },
         {
           "date": "2026-08-07",
           "o": 237500,
@@ -220,20 +204,55 @@
         {
           "date": "2026-08-31",
           "o": 245500,
-          "h": 248500,
-          "l": 244500,
-          "c": 246500
+          "h": 257500,
+          "l": 238500,
+          "c": 257500
+        },
+        {
+          "date": "2026-09-01",
+          "o": 266500,
+          "h": 272000,
+          "l": 254000,
+          "c": 254000
+        },
+        {
+          "date": "2026-09-02",
+          "o": 245500,
+          "h": 257500,
+          "l": 243000,
+          "c": 247000
+        },
+        {
+          "date": "2026-09-03",
+          "o": 249500,
+          "h": 263000,
+          "l": 243500,
+          "c": 248500
         },
         {
           "date": "2026-09-04",
           "o": 267000,
           "h": 308500,
           "l": 265000,
-          "c": 302000
+          "c": 299500
         }
       ],
-      "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "intraday": {
+        "step_min": 5,
+        "open": 267000,
+        "base": 267000,
+        "prices": [
+          267000,
+          285500,
+          293500,
+          294000,
+          304000,
+          307500,
+          302500,
+          297500,
+          297500
+        ]
+      },
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰",
@@ -244,7 +263,7 @@
       "code": "048770",
       "name": "TPC로보틱스",
       "rank": 2,
-      "trade_amount": 6476000000,
+      "trade_amount": 6527000000,
       "change_pct": 30.0,
       "close_price": 3965,
       "open_price": 3120,
@@ -264,8 +283,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": 2.55,
-      "index_multiple_current": 11.76,
+      "index_change_pct": 1.94,
+      "index_multiple_current": 15.46,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 10690,
@@ -425,6 +444,8 @@
         "prices": [
           3120,
           3690,
+          3965,
+          3965,
           3965,
           3965,
           3965,
