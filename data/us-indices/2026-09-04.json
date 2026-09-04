@@ -6312,6 +6312,13 @@
       "impact_high": true
     },
     {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/commodities-futures/oil-rises-amid-elevated-supply-disruption-concerns-fa01461e?mod=rss_markets_main",
+      "published_ts": 1788481620.0,
+      "impact_high": false
+    },
+    {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/202609043480H",
@@ -6340,13 +6347,6 @@
       "impact_high": false
     },
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/netherlands-moves-gold-from-new-york-to-london-citing-geopolitical-unrest-7a095eb8?mod=rss_socialeconomyfeed",
-      "published_ts": 1788447000.0,
-      "impact_high": false
-    },
-    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-widened-in-july-51cae4a2?mod=rss_socialeconomyfeed",
@@ -6361,20 +6361,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "617c91a195199bbfc6a52c8b14ba4713dbd2294c4fd596f952d15b82f25e8701",
+  "_article_sig": "894c58e2db2dfcdc3b7a7760864c20eac2342b6119989709c2f1557877c7ea61",
   "built_at_kst": "2026-09-04T07:04:03.091098+09:00",
   "futures": {
-    "as_of_kst": "2026-09-04T09:20:07.298660+09:00",
+    "as_of_kst": "2026-09-04T09:30:02.950332+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7752.25,
-        "change_pct": -0.03,
+        "point": 7753.5,
+        "change_pct": -0.02,
         "spark": [
           7749.75,
-          7753.0,
           7753.75,
           7753.5,
           7750.75,
@@ -6413,21 +6412,22 @@
           7752.25,
           7752.75,
           7752.25,
-          7752.25
+          7753.5,
+          7753.5
         ],
         "candle": {
           "o": 7749.75,
           "h": 7754.25,
           "l": 7748.25,
-          "c": 7752.25
+          "c": 7753.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.35,
-          "high_change_pct": -0.9
+          "low_change_pct": 21.37,
+          "high_change_pct": -0.88
         },
         "daily_expanded": [
           {
@@ -8451,8 +8451,8 @@
             "o": 7749.75,
             "h": 7754.25,
             "l": 7748.25,
-            "c": 7752.25,
-            "v": 7839
+            "c": 7753.5,
+            "v": 8690
           }
         ],
         "rollover_gaps": [],
@@ -8461,15 +8461,15 @@
           "sources": [
             {
               "name": "WSJ",
+              "url": "https://www.wsj.com/finance/commodities-futures/oil-rises-amid-elevated-supply-disruption-concerns-fa01461e?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/stocks-bonds-rally-after-dovish-fed-comments-b95763ae?mod=rss_markets_main"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/09/03/august-2026-jobs-report-payrolls.html"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/boes-chief-economist-sees-need-for-rate-rise-as-wars-course-remains-uncertain-3a2976f4?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8477,12 +8477,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29510.5,
-        "change_pct": -0.05,
+        "point": 29519.5,
+        "change_pct": -0.02,
         "spark": [
           29505.0,
-          29514.75,
-          29518.0,
           29521.25,
           29512.0,
           29505.25,
@@ -8519,22 +8517,24 @@
           29504.0,
           29511.25,
           29513.5,
-          29510.75,
-          29510.5
+          29509.75,
+          29519.0,
+          29523.0,
+          29519.5
         ],
         "candle": {
           "o": 29505.0,
           "h": 29520.5,
           "l": 29482.0,
-          "c": 29509.25
+          "c": 29519.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.53,
-          "high_change_pct": -3.92
+          "low_change_pct": 27.57,
+          "high_change_pct": -3.89
         },
         "daily_expanded": [
           {
@@ -10558,8 +10558,8 @@
             "o": 29505.0,
             "h": 29520.5,
             "l": 29482.0,
-            "c": 29509.25,
-            "v": 6437
+            "c": 29519.0,
+            "v": 7321
           }
         ],
         "rollover_gaps": [],
@@ -10584,12 +10584,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53735.0,
-        "change_pct": -0.02,
+        "point": 53741.0,
+        "change_pct": -0.01,
         "spark": [
           53707.0,
-          53755.0,
-          53750.0,
           53749.0,
           53750.0,
           53731.0,
@@ -10627,21 +10625,23 @@
           53744.0,
           53737.0,
           53735.0,
-          53735.0
+          53736.0,
+          53741.0,
+          53741.0
         ],
         "candle": {
           "o": 53707.0,
           "h": 53746.0,
           "l": 53703.0,
-          "c": 53731.0
+          "c": 53741.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 18.29,
-          "high_change_pct": -1.4
+          "low_change_pct": 18.31,
+          "high_change_pct": -1.38
         },
         "daily_expanded": [
           {
@@ -12665,8 +12665,8 @@
             "o": 53707.0,
             "h": 53746.0,
             "l": 53703.0,
-            "c": 53731.0,
-            "v": 704
+            "c": 53741.0,
+            "v": 790
           }
         ],
         "rollover_gaps": [],
@@ -12714,15 +12714,15 @@
       "sources": [
         {
           "name": "WSJ",
+          "url": "https://www.wsj.com/finance/commodities-futures/oil-rises-amid-elevated-supply-disruption-concerns-fa01461e?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/stocks-bonds-rally-after-dovish-fed-comments-b95763ae?mod=rss_markets_main"
         },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/09/03/august-2026-jobs-report-payrolls.html"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/boes-chief-economist-sees-need-for-rate-rise-as-wars-course-remains-uncertain-3a2976f4?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12744,5 +12744,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-09-04T09:20:10.944960+09:00"
+  "intraday_refreshed_kst": "2026-09-04T09:33:57.270340+09:00"
 }
