@@ -1,19 +1,23 @@
 {
   "date": "2026-09-07",
-  "generated_at": "2026-09-07T09:26:28.050788",
+  "generated_at": "2026-09-07T09:35:10.412478",
   "data_source": "kiwoom",
   "macro_events": [
-    {
-      "title": "로봇정책",
-      "summary": "정부 휴머노이드 로봇 육성 정책 + 글로벌 수요 확대 → 로봇부품·의료로봇 기업 성장 탄력 → 로봇·자동화 섹터 재평가"
-    },
     {
       "title": "AI데이터센터",
       "summary": "미 AI 클라우드 인프라 투자 확대 → 데이터센터 수주 급증 → 두산퓨얼셀·NHN·건설사 실적 개선"
     },
     {
+      "title": "로봇정책",
+      "summary": "정부 휴머노이드 로봇 육성 정책 + 글로벌 수요 확대 → 로봇부품·의료로봇 기업 성장 탄력 → 로봇·자동화 섹터 재평가"
+    },
+    {
       "title": "메모리공급부족",
       "summary": "2027년 메모리 반도체 사상 초유의 공급 부족 예상 → 극단적 저평가 해소 기대 → 삼성전자·SK하이닉스 상승기조"
+    },
+    {
+      "title": "폴더블스마트폰",
+      "summary": "폴더블 스마트폰 판매량 증가 → 부품·소재 수요 확대 → 파인엠텍 등 공급사 이익 레버리지"
     },
     {
       "title": "AI데센",
@@ -28,10 +32,6 @@
       "summary": "한국 바이오 기업 중국·동남아 유통망 확대 → 글로벌 매출 비중 상승 → 바이오 섹터 중기 성장성 재조명"
     },
     {
-      "title": "폴더블스마트폰",
-      "summary": "폴더블 스마트폰 판매량 증가 → 부품·소재 수요 확대 → 파인엠텍 등 공급사 이익 레버리지"
-    },
-    {
       "title": "글로벌제약수출",
       "summary": "글로벌 제약사 아웃소싱 수요 + 신흥시장 의료 접근성 개선 → 한국 제약·바이오 수출 확대 기회"
     },
@@ -40,15 +40,15 @@
       "summary": "AI 데이터센터 수요 확대 → 2차전지·AI 플랫폼 섹터 동반 성장 기대"
     },
     {
-      "title": "부품사이클",
-      "summary": "반도체 수요 급증(메모리·AI) → 부품·장비 수급 긴장 → 삼성전기 슈퍼사이클 진입 가능성"
+      "title": "AI2차전지",
+      "summary": "AI 인프라 확대→ AI·2차전지 섹터 재조명 → LG엔솔·삼성SDI·NHN·SKT 중장기 성장성 재평가"
     }
   ],
   "narratives": [],
   "themes_macro_summary": [
     {
       "keyword": "AI데이터센터",
-      "summary": "글로벌 AI 데이터센터 수요 증가 → 한국 기업 설비·부품 수주 폭증 → 에너지솔루션·인프라·반도체 섹터 강세",
+      "summary": "미 AI 클라우드 인프라 투자 확대 → 데이터센터 수주 급증 → 두산퓨얼셀·NHN·건설사 실적 개선",
       "source_count": 4,
       "verified": true
     },
@@ -125,6 +125,12 @@
         "name": "AI 인프라",
         "children": [
           {
+            "name": "AI 데이터센터",
+            "summary": "美 AI 데이터센터 대형 수주·실적이 확인되며 전력(연료전지)·클라우드·건설 모듈러 등 국내 데이터센터 밸류체인으로 매수세 집중",
+            "source_count": 4,
+            "verdict": "pass"
+          },
+          {
             "name": "연료전지",
             "summary": "두산퓨얼셀이 美 데이터센터에 5000억 규모를 수주하며 AI 데이터센터 전력 수요가 연료전지 발전 수혜로 이어져 발전용 연료전지 섹터에 매수세 집중.",
             "source_count": 3,
@@ -146,6 +152,12 @@
             "summary": "한라캐스트 휴머노이드 로봇부품 진출·큐렉소 의료로봇 수출국 확대로 성장축이 로봇으로 이동하며 로봇 부품·제조 섹터가 수혜.",
             "source_count": 3,
             "verdict": "weak"
+          },
+          {
+            "name": "휴머노이드 로봇",
+            "summary": "정부 로봇 육성책과 휴머노이드 부품 성장축 확대 기대에 로봇 부품·완성 로봇 기업으로 성장주 매수 유입",
+            "source_count": 2,
+            "verdict": "weak"
           }
         ]
       },
@@ -165,6 +177,18 @@
         "children": [
           {
             "name": "메모리 반도체 슈퍼사이클",
+            "summary": "AI 수요發 메모리 공급부족 전망에 삼성전자·SK하이닉스 재평가, MLCC(삼성전기)까지 부품 슈퍼사이클 기대 확산",
+            "source_count": 3,
+            "verdict": "pass"
+          },
+          {
+            "name": "메모리 반도체 슈퍼사이클",
+            "summary": "AI 수요發 메모리 공급부족 전망에 삼성전자·SK하이닉스 재평가, MLCC(삼성전기)까지 부품 슈퍼사이클 기대 확산",
+            "source_count": 3,
+            "verdict": "pass"
+          },
+          {
+            "name": "메모리 반도체 슈퍼사이클",
             "summary": "내년 메모리 사상 초유의 공급 부족 전망과 삼성전기 슈퍼사이클 진입론으로 삼성전자·SK하이닉스·부품주에 저평가 매수세 유입.",
             "source_count": 2,
             "verdict": "pass"
@@ -176,6 +200,17 @@
             "verdict": "pass"
           }
         ]
+      },
+      {
+        "name": "스마트폰 부품",
+        "children": [
+          {
+            "name": "폴더블",
+            "summary": "폴더블 스마트폰 출하 확대에 따른 이익 레버리지로 부품사(파인엠텍) 4분기 성장 가속·목표가 상향",
+            "source_count": 2,
+            "verdict": "weak"
+          }
+        ]
       }
     ]
   },
@@ -184,26 +219,20 @@
       "code": "067290",
       "name": "JW신약",
       "rank": 1,
-      "trade_amount": 75080000000,
-      "change_pct": 10.11,
-      "close_price": 3595,
+      "trade_amount": 101874000000,
+      "change_pct": 16.39,
+      "close_price": 3800,
       "open_price": 3200,
-      "high_price": 3650,
+      "high_price": 3900,
       "low_price": 3185,
       "industry": "의약품 제조업",
       "sector": "매니큐어세트, 손톱깎이",
       "themes": [
-        "바이오",
         "탈모 치료 테마",
-        "K-뷰티"
+        "K-뷰티",
+        "바이오"
       ],
       "theme_paths": [
-        {
-          "name": "바이오",
-          "path": [
-            "바이오"
-          ]
-        },
         {
           "name": "탈모 치료 테마",
           "path": [
@@ -215,6 +244,12 @@
           "path": [
             "K-뷰티"
           ]
+        },
+        {
+          "name": "바이오",
+          "path": [
+            "바이오"
+          ]
         }
       ],
       "pick_count": 1,
@@ -224,12 +259,13 @@
         "change_pct": 10.65,
         "trade_amount": 256535000000
       },
-      "bullish_today": false,
-      "bullish_streak": 0,
+      "bullish_today": true,
+      "bullish_streak": 1,
       "bullish_dates": [
         "2026-07-30",
         "2026-08-06",
-        "2026-09-01"
+        "2026-09-01",
+        "2026-09-07"
       ],
       "news": [
         {
@@ -282,31 +318,26 @@
         }
       ],
       "fallback": true,
-      "cafe_themes": [
-        "탈모 치료 테마",
-        "K-뷰티"
-      ],
       "theme_crosscheck": {
         "confirmed": [
+          "탈모 치료 테마",
+          "K-뷰티",
           "바이오"
         ],
         "pm320_only": [],
-        "cafe_only": [
-          "탈모 치료 테마",
-          "K-뷰티"
-        ]
+        "cafe_only": []
       },
-      "index_change_pct": 0.93,
-      "index_multiple_current": 10.87,
+      "index_change_pct": 1.38,
+      "index_multiple_current": 11.88,
       "index_multiple_eligible": true,
       "range_240d": {
-        "high": 3820,
-        "high_date": "2026-09-03",
-        "high_pct": -5.89,
+        "high": 3900,
+        "high_date": "2026-09-07",
+        "high_pct": -2.56,
         "low": 1246,
         "low_date": "2026-06-08",
-        "low_pct": 188.52,
-        "current": 3595
+        "low_pct": 204.98,
+        "current": 3800
       },
       "daily_20": [
         {
@@ -445,13 +476,54 @@
         {
           "date": "2026-09-07",
           "o": 3200,
-          "h": 3650,
+          "h": 3900,
           "l": 3185,
-          "c": 3595
+          "c": 3800
         }
       ],
+      "status_badges": [
+        {
+          "label": "투자주의 근접",
+          "severity": "caution",
+          "source": "predicted",
+          "thresholds": [
+            {
+              "desc": "5일 전(2026-08-31) 대비 +60%↑",
+              "base_price": 2300,
+              "threshold": 3680,
+              "current": 3800,
+              "triggered": true
+            }
+          ],
+          "regulation": "KRX 시장경보 가격 조건 충족 (거래량 미검증, 자체 추정)",
+          "period_start": "2026-09-08",
+          "period_end": "2026-09-09",
+          "start": "2026-09-08",
+          "end": "2026-09-09",
+          "view_date": "2026-09-07",
+          "next_trading_day": "2026-09-08",
+          "next_trading_day_for_predicted": "2026-09-08",
+          "next_trading_day_source": "fallback_homepage",
+          "single_price": false,
+          "effect_badges": []
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 3200,
+        "base": 3200,
+        "prices": [
+          3200,
+          3420,
+          3580,
+          3495,
+          3845,
+          3820,
+          3825
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "투자경고",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰"
@@ -460,11 +532,11 @@
       "code": "108490",
       "name": "로보티즈",
       "rank": 2,
-      "trade_amount": 65643000000,
-      "change_pct": 4.93,
-      "close_price": 319500,
+      "trade_amount": 97676000000,
+      "change_pct": 8.54,
+      "close_price": 330500,
       "open_price": 314500,
-      "high_price": 320500,
+      "high_price": 330500,
       "low_price": 303000,
       "industry": "특수 목적용 기계 제조업",
       "sector": "솔루션(로봇 엑츄에이터 모듈과 구동 소프트웨어), 에듀테인먼트 로봇, 로봇 플랫폼",
@@ -559,17 +631,17 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": 0.93,
-      "index_multiple_current": 5.3,
+      "index_change_pct": 1.38,
+      "index_multiple_current": 6.19,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 464000,
         "high_date": "2026-06-02",
-        "high_pct": -31.14,
+        "high_pct": -28.77,
         "low": 93193,
         "low_date": "2025-09-11",
-        "low_pct": 242.84,
-        "current": 319500
+        "low_pct": 254.64,
+        "current": 330500
       },
       "daily_20": [
         {
@@ -708,26 +780,533 @@
         {
           "date": "2026-09-07",
           "o": 314500,
-          "h": 320500,
+          "h": 330500,
           "l": 303000,
-          "c": 319500
+          "c": 330500
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 314500,
+        "base": 314500,
+        "prices": [
+          314500,
+          318000,
+          315000,
+          317500,
+          322000,
+          330000,
+          327000
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰"
     },
     {
+      "code": "004310",
+      "name": "현대약품",
+      "rank": 3,
+      "trade_amount": 57481000000,
+      "change_pct": 12.33,
+      "close_price": 8930,
+      "open_price": 8200,
+      "high_price": 9210,
+      "low_price": 7980,
+      "industry": "의약품 제조업",
+      "sector": "타코실, 마이녹실, 테놀민, 미에로화이바 등",
+      "themes": [
+        "정치테마",
+        "바이오"
+      ],
+      "theme_paths": [
+        {
+          "name": "정치테마",
+          "path": [
+            "정치테마"
+          ]
+        },
+        {
+          "name": "바이오",
+          "path": [
+            "바이오"
+          ]
+        }
+      ],
+      "pick_count": 1,
+      "prev_pick": {
+        "date": "2026-09-02",
+        "rank": 7,
+        "change_pct": -8.69,
+        "trade_amount": 100778000000
+      },
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [
+        "2026-08-06",
+        "2026-09-01"
+      ],
+      "news": [
+        {
+          "title": "[급등락주 짚어보기] 탈모치료제株 동반 급등…현대약품·JW신약 '上'",
+          "url": "https://www.etoday.co.kr/news/view/2620699",
+          "source": "이투데이",
+          "published_at": "2026-09-01T08:44:00",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "현대약품, 미프진 기대감에 13%대 강세[특징주]",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03903206645544696",
+          "source": "이데일리",
+          "published_at": "2026-08-06T01:15:51",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "현대약품 13%↑…임신중지약 도입 논의에 강세[특징주]",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03161926645516816",
+          "source": "이데일리",
+          "published_at": "2026-07-21T00:36:35",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "낙태약 미프진 허가될까?…현대약품, 李대통령 발언에 14%↑[특징주]",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03155366645515176",
+          "source": "이데일리",
+          "published_at": "2026-07-16T00:19:15",
+          "causal_chain": "이재명 대통령의 낙태약 '미프진' 도입 검토 발언(정책 이벤트) → 미프진 관련 의약품을 보유·개발할 수 있는 제약사로 현대약품이 지목 → 정책 수혜 기대 매수세 집중 → 당일 종가 7,790원(+16.10%)·거래대금 1,530억원의 대규모 자금 유입 형성. 발언 이튿날까지 이틀 연속 급등 흐름으로 정책 모멘텀이 이어짐.",
+          "macro_event": "이재명 대통령 '미프진(낙태약) 도입 검토' 발언 → 미프진 관련 제약사 정책 수혜 기대",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.55,
+          "newzy_virality": 0.7,
+          "newzy_tradability": null,
+          "newzy_score": 0.61,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        },
+        {
+          "title": "[특징주] 현대약품, 李대통령 ‘미프진 도입 검토’ 발언에 15% 급등",
+          "url": "https://www.etoday.co.kr/news/view/2603929",
+          "source": "이투데이",
+          "published_at": "2026-07-15T00:59:00",
+          "causal_chain": "이재명 대통령의 낙태약 '미프진' 도입 검토 발언(정책 이벤트) → 미프진 관련 의약품을 보유·개발할 수 있는 제약사로 현대약품이 지목 → 정책 수혜 기대 매수세 집중 → 당일 종가 7,790원(+16.10%)·거래대금 1,530억원의 대규모 자금 유입 형성. 발언 이튿날까지 이틀 연속 급등 흐름으로 정책 모멘텀이 이어짐.",
+          "macro_event": "이재명 대통령 '미프진(낙태약) 도입 검토' 발언 → 미프진 관련 제약사 정책 수혜 기대",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.55,
+          "newzy_virality": 0.7,
+          "newzy_tradability": null,
+          "newzy_score": 0.61,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        }
+      ],
+      "fallback": true,
+      "index_change_pct": 3.18,
+      "index_multiple_current": 3.88,
+      "index_multiple_eligible": true,
+      "range_240d": {
+        "high": 15960,
+        "high_date": "2026-02-13",
+        "high_pct": -44.05,
+        "low": 3500,
+        "low_date": "2025-11-25",
+        "low_pct": 155.14,
+        "current": 8930
+      },
+      "daily_20": [
+        {
+          "date": "2026-08-10",
+          "o": 6280,
+          "h": 6500,
+          "l": 6030,
+          "c": 6360
+        },
+        {
+          "date": "2026-08-11",
+          "o": 6300,
+          "h": 6690,
+          "l": 6300,
+          "c": 6400
+        },
+        {
+          "date": "2026-08-12",
+          "o": 6450,
+          "h": 6520,
+          "l": 6280,
+          "c": 6400
+        },
+        {
+          "date": "2026-08-13",
+          "o": 6430,
+          "h": 6540,
+          "l": 6310,
+          "c": 6490
+        },
+        {
+          "date": "2026-08-14",
+          "o": 6480,
+          "h": 6560,
+          "l": 6260,
+          "c": 6310
+        },
+        {
+          "date": "2026-08-18",
+          "o": 6370,
+          "h": 6520,
+          "l": 6100,
+          "c": 6130
+        },
+        {
+          "date": "2026-08-19",
+          "o": 6100,
+          "h": 6350,
+          "l": 6000,
+          "c": 6010
+        },
+        {
+          "date": "2026-08-20",
+          "o": 6250,
+          "h": 6630,
+          "l": 6100,
+          "c": 6110
+        },
+        {
+          "date": "2026-08-21",
+          "o": 6060,
+          "h": 6060,
+          "l": 5800,
+          "c": 5850
+        },
+        {
+          "date": "2026-08-24",
+          "o": 5960,
+          "h": 6480,
+          "l": 5900,
+          "c": 5900
+        },
+        {
+          "date": "2026-08-25",
+          "o": 5900,
+          "h": 5970,
+          "l": 5600,
+          "c": 5940
+        },
+        {
+          "date": "2026-08-26",
+          "o": 5920,
+          "h": 6110,
+          "l": 5900,
+          "c": 6070
+        },
+        {
+          "date": "2026-08-27",
+          "o": 6070,
+          "h": 6100,
+          "l": 5970,
+          "c": 6010
+        },
+        {
+          "date": "2026-08-28",
+          "o": 6060,
+          "h": 6270,
+          "l": 6000,
+          "c": 6160
+        },
+        {
+          "date": "2026-08-31",
+          "o": 6210,
+          "h": 6950,
+          "l": 6150,
+          "c": 6380
+        },
+        {
+          "date": "2026-09-01",
+          "o": 6390,
+          "h": 8290,
+          "l": 6300,
+          "c": 8290
+        },
+        {
+          "date": "2026-09-02",
+          "o": 8580,
+          "h": 9050,
+          "l": 7500,
+          "c": 7570
+        },
+        {
+          "date": "2026-09-03",
+          "o": 7870,
+          "h": 8870,
+          "l": 7450,
+          "c": 7680
+        },
+        {
+          "date": "2026-09-04",
+          "o": 7780,
+          "h": 8530,
+          "l": 7300,
+          "c": 7950
+        },
+        {
+          "date": "2026-09-07",
+          "o": 8200,
+          "h": 9210,
+          "l": 7980,
+          "c": 8930
+        }
+      ]
+    },
+    {
+      "code": "336260",
+      "name": "두산퓨얼셀",
+      "rank": 4,
+      "trade_amount": 50571000000,
+      "change_pct": 18.36,
+      "close_price": 51900,
+      "open_price": 45650,
+      "high_price": 52300,
+      "low_price": 45650,
+      "industry": "전동기, 발전기 및 전기 변환 · 공급 · 제어 장치 제조업",
+      "sector": "연료전지",
+      "themes": [
+        "전력설비"
+      ],
+      "theme_paths": [
+        {
+          "name": "전력설비",
+          "path": [
+            "전력설비"
+          ]
+        }
+      ],
+      "pick_count": 1,
+      "prev_pick": {
+        "date": "2026-08-26",
+        "rank": 11,
+        "change_pct": 7.44,
+        "trade_amount": 52059000000
+      },
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [
+        "2026-07-31",
+        "2026-08-05"
+      ],
+      "news": [
+        {
+          "title": "美데이터센터 뚫었다…두산퓨얼셀, 5000억 수주에 목표가 71% 상향",
+          "url": "https://www.fnnews.com/news/202609070828481612",
+          "source": "파이낸셜뉴스",
+          "published_at": "2026-09-07T09:30:07.198753",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        }
+      ],
+      "fallback": false,
+      "index_change_pct": 3.18,
+      "index_multiple_current": 5.77,
+      "index_multiple_eligible": true,
+      "range_240d": {
+        "high": 108900,
+        "high_date": "2026-05-28",
+        "high_pct": -52.34,
+        "low": 18230,
+        "low_date": "2026-07-30",
+        "low_pct": 184.7,
+        "current": 51900
+      },
+      "daily_20": [
+        {
+          "date": "2026-08-10",
+          "o": 30650,
+          "h": 33700,
+          "l": 30100,
+          "c": 33350
+        },
+        {
+          "date": "2026-08-11",
+          "o": 32550,
+          "h": 38000,
+          "l": 32550,
+          "c": 35500
+        },
+        {
+          "date": "2026-08-12",
+          "o": 35050,
+          "h": 36350,
+          "l": 33700,
+          "c": 35800
+        },
+        {
+          "date": "2026-08-13",
+          "o": 40600,
+          "h": 41200,
+          "l": 37000,
+          "c": 38100
+        },
+        {
+          "date": "2026-08-14",
+          "o": 38100,
+          "h": 38450,
+          "l": 36400,
+          "c": 37850
+        },
+        {
+          "date": "2026-08-18",
+          "o": 38200,
+          "h": 38250,
+          "l": 35550,
+          "c": 36200
+        },
+        {
+          "date": "2026-08-19",
+          "o": 34350,
+          "h": 40650,
+          "l": 34350,
+          "c": 39800
+        },
+        {
+          "date": "2026-08-20",
+          "o": 39800,
+          "h": 41850,
+          "l": 39050,
+          "c": 40650
+        },
+        {
+          "date": "2026-08-21",
+          "o": 39350,
+          "h": 39350,
+          "l": 34000,
+          "c": 37000
+        },
+        {
+          "date": "2026-08-24",
+          "o": 36850,
+          "h": 41350,
+          "l": 36450,
+          "c": 39150
+        },
+        {
+          "date": "2026-08-25",
+          "o": 38800,
+          "h": 42550,
+          "l": 36550,
+          "c": 42350
+        },
+        {
+          "date": "2026-08-26",
+          "o": 44200,
+          "h": 47350,
+          "l": 43350,
+          "c": 45500
+        },
+        {
+          "date": "2026-08-27",
+          "o": 45050,
+          "h": 46400,
+          "l": 44500,
+          "c": 45200
+        },
+        {
+          "date": "2026-08-28",
+          "o": 47100,
+          "h": 47450,
+          "l": 44100,
+          "c": 45400
+        },
+        {
+          "date": "2026-08-31",
+          "o": 44550,
+          "h": 45750,
+          "l": 43300,
+          "c": 45150
+        },
+        {
+          "date": "2026-09-01",
+          "o": 44950,
+          "h": 45450,
+          "l": 41250,
+          "c": 44350
+        },
+        {
+          "date": "2026-09-02",
+          "o": 44850,
+          "h": 46000,
+          "l": 37950,
+          "c": 38700
+        },
+        {
+          "date": "2026-09-03",
+          "o": 40000,
+          "h": 41150,
+          "l": 37250,
+          "c": 39000
+        },
+        {
+          "date": "2026-09-04",
+          "o": 40450,
+          "h": 44900,
+          "l": 39250,
+          "c": 43850
+        },
+        {
+          "date": "2026-09-07",
+          "o": 45650,
+          "h": 52300,
+          "l": 45650,
+          "c": 51900
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
       "code": "014950",
       "name": "삼익제약",
-      "rank": 3,
-      "trade_amount": 31377000000,
-      "change_pct": 21.15,
-      "close_price": 8190,
+      "rank": 5,
+      "trade_amount": 32318000000,
+      "change_pct": 29.88,
+      "close_price": 8780,
       "open_price": 6930,
-      "high_price": 8380,
+      "high_price": 8780,
       "low_price": 6870,
       "industry": "의약품 제조업",
       "sector": "완제의약품 제조 및 CMO",
@@ -791,17 +1370,17 @@
         "pm320_only": [],
         "cafe_only": []
       },
-      "index_change_pct": 0.93,
-      "index_multiple_current": 22.74,
+      "index_change_pct": 1.38,
+      "index_multiple_current": 21.65,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 25050,
         "high_date": "2025-11-19",
-        "high_pct": -67.31,
+        "high_pct": -64.95,
         "low": 3705,
         "low_date": "2026-07-14",
-        "low_pct": 121.05,
-        "current": 8190
+        "low_pct": 136.98,
+        "current": 8780
       },
       "daily_20": [
         {
@@ -940,13 +1519,52 @@
         {
           "date": "2026-09-07",
           "o": 6930,
-          "h": 8380,
+          "h": 8780,
           "l": 6870,
-          "c": 8190
+          "c": 8780
         }
       ],
-      "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "status_badges": [
+        {
+          "label": "투자주의 근접",
+          "severity": "caution",
+          "source": "predicted",
+          "thresholds": [
+            {
+              "desc": "5일 전(2026-08-31) 대비 +60%↑",
+              "base_price": 5390,
+              "threshold": 8624,
+              "current": 8780,
+              "triggered": true
+            }
+          ],
+          "regulation": "KRX 시장경보 가격 조건 충족 (거래량 미검증, 자체 추정)",
+          "period_start": "2026-09-08",
+          "period_end": "2026-09-09",
+          "start": "2026-09-08",
+          "end": "2026-09-09",
+          "view_date": "2026-09-07",
+          "next_trading_day": "2026-09-08",
+          "next_trading_day_for_predicted": "2026-09-08",
+          "next_trading_day_source": "fallback_homepage",
+          "single_price": false,
+          "effect_badges": []
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 6930,
+        "base": 6930,
+        "prices": [
+          6930,
+          7800,
+          8210,
+          8050,
+          8780,
+          8780,
+          8780
+        ]
+      },
       "togusa_verdict": "neutral",
       "theme_leader": false,
       "hugepark_grade": "관찰"
@@ -954,8 +1572,8 @@
     {
       "code": "082850",
       "name": "우리바이오",
-      "rank": 4,
-      "trade_amount": 636000000,
+      "rank": 6,
+      "trade_amount": 661000000,
       "change_pct": 29.99,
       "close_price": 5830,
       "open_price": 4570,
@@ -973,10 +1591,27 @@
         "2026-07-06",
         "2026-09-07"
       ],
-      "news": [],
-      "fallback": true,
-      "index_change_pct": 0.93,
-      "index_multiple_current": 32.25,
+      "news": [
+        {
+          "title": "우리바이오, 액면병합 후 거래 재개 첫날 ‘上’[특징주]",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=02276326645577824",
+          "source": "이데일리",
+          "published_at": "2026-09-07T00:21:06",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        }
+      ],
+      "fallback": false,
+      "index_change_pct": 1.38,
+      "index_multiple_current": 21.73,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 13375,
@@ -1135,6 +1770,8 @@
         "base": 4570,
         "prices": [
           4570,
+          5830,
+          5830,
           5830,
           5830,
           5830,
