@@ -6,9 +6,9 @@
       "point": 26506.99,
       "change_pct": -0.29,
       "candle": {
-        "o": 26587.9,
-        "h": 26628.58,
-        "l": 26444.84,
+        "o": 26585.23,
+        "h": 26625.79,
+        "l": 26444.9,
         "c": 26506.99
       },
       "range_240d": {
@@ -2030,15 +2030,14 @@
         },
         {
           "date": "2026-09-04",
-          "o": 26587.9,
-          "h": 26628.58,
-          "l": 26444.84,
-          "c": 26506.99,
-          "v": 5604391000
+          "o": 26585.23,
+          "h": 26625.79,
+          "l": 26444.9,
+          "c": 26506.99
         }
       ],
       "spark": [
-        26587.9,
+        26585.23,
         26529.99,
         26526.98,
         26518.47,
@@ -2097,7 +2096,8 @@
           }
         ]
       },
-      "session_open": false
+      "session_open": true,
+      "trade_date_local": "2026-09-04"
     },
     {
       "name": "S&P500",
@@ -4131,8 +4131,7 @@
           "o": 7750.19,
           "h": 7750.19,
           "l": 7706.12,
-          "c": 7718.6,
-          "v": 2531375000
+          "c": 7718.6
         }
       ],
       "spark": [
@@ -4195,7 +4194,8 @@
           }
         ]
       },
-      "session_open": false
+      "session_open": true,
+      "trade_date_local": "2026-09-04"
     },
     {
       "name": "DOW",
@@ -6229,8 +6229,7 @@
           "o": 53584.89,
           "h": 53635.35,
           "l": 53289.88,
-          "c": 53414.25,
-          "v": 381137227
+          "c": 53414.25
         }
       ],
       "spark": [
@@ -6293,87 +6292,88 @@
           }
         ]
       },
-      "session_open": false
+      "session_open": true,
+      "trade_date_local": "2026-09-04"
     }
   ],
   "news_chips": [
     {
-      "summary": "중동 분쟁으로 에너지 가격이 상승하면서 유로존 경제가 예상을 상회하는 성장을 기록했습니다.",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/economy/global/eurozone-economy-surged-as-war-ignited-energy-prices-29e7eb10?mod=rss_socialeconomyfeed",
-      "published_ts": 1788773700.0,
-      "impact_high": true
-    },
-    {
-      "summary": "금리 전망 변화로 엔화가 6개월 최고치를 기록해 글로벌 환율 변동성이 높아지고 있습니다.",
+      "summary": "엔화가 6개월 최고점 도달, 국제 금리 전망 변화와 일본 통화 재평가 추세 반영",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/currencies/japanese-yen-climbs-to-six-month-high-as-rate-outlooks-shift-df3980be?mod=rss_socialeconomyfeed",
       "published_ts": 1788777240.0,
       "impact_high": false
     },
     {
-      "summary": "중국 외환보유액이 계속 증가하면서 위안화 절상 우려가 재부상하고 있습니다.",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/economy/chinas-foreign-exchange-reserves-continue-to-climb-def2bb7d?mod=rss_socialeconomyfeed",
-      "published_ts": 1788772680.0,
+      "summary": "일본이 엔화 억제 위해 외환보유액에서 사상 최대 800억 달러 개입, 통화 방어 강도 심화",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/07/japan-foreign-reserves-yen-intervention.html",
+      "published_ts": 1788766722.0,
       "impact_high": false
     },
     {
-      "summary": "트럼프 행정부가 9월 연준 회의를 앞두고 금리 인상 방지를 위한 압박을 강화하고 있습니다.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/05/trump-warsh-fed-september-rate-hike.html",
-      "published_ts": 1788635573.0,
-      "impact_high": true
+      "summary": "독일 산업 생산이 자동차 부진으로 월간 1.1% 하락, 유로존 경기 둔화 신호 강화",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/trade/german-industrial-production-contracts-on-auto-sector-woes-28c2390a?mod=rss_socialeconomyfeed",
+      "published_ts": 1788764220.0,
+      "impact_high": false
     },
     {
-      "summary": "미국이 이란의 미사일 공격에 보복해 군함을 격침시켜 호르무즈 해협 긴장이 고조되고 원유 공급 불안정이 심화되고 있습니다.",
+      "summary": "미국이 호르무즈 해협에서 이란 선박 격침, 중동 분쟁 심화로 유가·에너지 공급망 불안정성 증가",
       "source": "WSJ",
       "url": "https://www.wsj.com/world/middle-east/u-s-strikes-three-iranian-ships-after-missiles-fired-at-american-aircraft-carrier-ec5b3d5c?mod=rss_worldnews",
       "published_ts": 1788628020.0,
       "impact_high": false
     },
     {
-      "summary": "미국의 석유 공급 차단 작전이 심화되면서 이란의 경제 압박이 심화되고 글로벌 에너지 시장 불안정이 고조되고 있습니다.",
+      "summary": "미국·걸프만 동맹의 이란 석유 수출 봉쇄 강화로 글로벌 유가 공급 구도 변동, 에너지 가격 리스크 상승",
       "source": "WSJ",
       "url": "https://www.wsj.com/world/middle-east/time-is-no-longer-on-irans-side-in-the-battle-of-the-blockades-e47b657d?mod=rss_worldnews",
       "published_ts": 1788570000.0,
       "impact_high": true
     },
     {
-      "summary": "고용 호조로 금리 인상 기대가 높아지면서 미국 주식시장이 하락 마감했습니다.",
+      "summary": "미국 근로자 직장 이동이 금융위기 이후 수준으로 둔화, 고용 시장 심리 약세 신호",
       "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/stocks-fall-after-hot-jobs-report-2298977c?mod=rss_markets_main",
-      "published_ts": 1788552420.0,
+      "url": "https://www.wsj.com/economy/jobs/american-workers-have-slammed-the-brakes-on-switching-jobs-767c45d1?mod=rss_socialeconomyfeed",
+      "published_ts": 1788570000.0,
       "impact_high": true
     },
     {
-      "summary": "미국이 예상을 크게 상회하는 162,000개 일자리를 추가해 경제 강세와 더불어 연준의 금리 인상 가능성을 높였습니다.",
+      "summary": "8월 미국 비농업 고용 16.2만 개 증가로 노동 시장 회복력 지속, 실업률 4.1% 유지",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html",
       "published_ts": 1788542197.0,
       "impact_high": true
     },
     {
-      "summary": "연준 이사 월러가 9월 회의에서 금리 동결을 지지할 것으로 시사해 연준 정책 방향의 불확실성이 지속되고 있습니다.",
+      "summary": "강한 8월 고용(비농업 16.2만개, 예상 5.3만)에 미국 국채 수익률 상승하며 9월 연준 금리 인상 베팅 확대",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/global/u-s-european-bond-yields-little-changed-ahead-of-key-jobs-data-6528bb59?mod=rss_socialeconomyfeed",
+      "published_ts": 1788529380.0,
+      "impact_high": true
+    },
+    {
+      "summary": "연준 이사 월러가 9월 회의 금리 동결 입장 표명, 행정부 금리 인상 압박과 충돌하며 정책 방향성 불확실",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/03/fed-governor-waller-indicates-he-will-support-holding-rates-steady-at-september-meeting.html",
       "published_ts": 1788444412.0,
       "impact_high": true
     },
     {
-      "summary": "한국의 반도체 수출이 전년비 3배 증가했지만 산업 성장률 둔화 시 경제 전체에 미칠 영향이 우려됩니다.",
+      "summary": "한국 반도체 수출이 전년 동기 대비 3배 증가 기록, 다만 경제 성장 산업 편중도 및 수급 조정 우려",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/03/south-korea-semiconductor-exports-surging-concerns.html",
       "published_ts": 1788397901.0,
       "impact_high": false
     }
   ],
-  "_article_sig": "d39b161791492d725f6c4d8f226b94f1fc0086144f9a475d7a0b722e7f746124",
+  "_article_sig": "ca693369145628b2725a8c02670f24d00de0e279431550366a8e88db835fff37",
   "built_at_kst": "2026-09-05T07:04:53.256415+09:00",
-  "regular_open": false,
+  "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "한국 반도체 수출 3배 급증과 암백신·진단 바이오테크 성장주 관심 상승으로 나스닥100 선물 동조강화. 빅테크·AI 칩 수요 지속.",
+      "summary": "반도체 초호황 가속 중. 한국 수출 전년비 3배 급증으로 AI 칩 수요 강진 반영, 개별 투자자도 암호화폐 외면하고 AI 관련 예측시장 집중 이동.",
       "sources": [
         {
           "name": "CNBC",
@@ -6381,44 +6381,44 @@
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/health/pharma/the-cancer-vaccine-gold-rush-has-begun-so-has-the-race-for-picks-and-shovels-4b0b6d50?mod=rss_markets_main"
+          "url": "https://www.wsj.com/finance/currencies/for-many-individual-traders-prediction-markets-are-hotand-crypto-is-not-bef27e3d?mod=rss_markets_main"
         }
       ]
     },
     "S&P500": {
-      "summary": "미국 8월 고용 162,000명(예상 53,000명) 크게 상회 → 금리 인상 기대 급상승 중. 연준 Waller-Warsh 입장 엇갈리면서 9월 FOMC 경로 불확실성 고조. 일본 외환 $80B 소진·엔화 급등으로 글로벌 통화변동성 심화 신호. 물가·취업 신호 혼조 속 통화정책 판단 난제 노출.",
+      "summary": "8월 고용 호황(16.2만명)이 금리 인상 기대 부상 주도. 국채 수익률 급등 중인 가운데 연준 정책 입장 갈등(Warsh vs Waller)으로 금리 경로 불확실성 심화. 엘니뇨 초대형 파고(내년 2월까지)로 글로벌 공급망 리스크 고조.",
       "sources": [
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html"
         },
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/03/fed-governor-waller-indicates-he-will-support-holding-rates-steady-at-september-meeting.html"
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/global/u-s-european-bond-yields-little-changed-ahead-of-key-jobs-data-6528bb59?mod=rss_socialeconomyfeed"
         },
         {
           "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/07/japan-foreign-reserves-yen-intervention.html"
+          "url": "https://www.cnbc.com/2026/09/03/supersized-el-nino-un-economy.html"
         }
       ]
     },
     "DOW": {
-      "summary": "보잉 Spirit 인수 적자 심화로 산업재·대형주 약세 신호 확대. 이란-미국 분쟁 고조(호르무즈 해협)·우크라이나 드론 공격 본격화로 지정학 프리미엄 상존. 독일 극우 정치리스크·노동 약화로 경기민감주 부담 지속.",
+      "summary": "경기민감주 약세 심화. 보잉·자동차산업 등 대형주 실적 부진(보잉 적자 확대, 독일 자동차 생산 감소) 및 일본 엔 개입 비용 급증(80억 달러)으로 환율 불안정 고조. 이란 긴장 고조에 에너지 가격 상승 압력 지속.",
       "sources": [
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/business/boeings-8-4-billion-deal-is-bleeding-red-ink-6a7bfb69?mod=rss_markets_main"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/world/middle-east/u-s-strikes-three-iranian-ships-after-missiles-fired-at-american-aircraft-carrier-ec5b3d5c?mod=rss_worldnews"
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/trade/german-industrial-production-contracts-on-auto-sector-woes-28c2390a?mod=rss_socialeconomyfeed"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/world/europe/germanys-right-wing-populists-on-course-for-historic-victory-56662408?mod=rss_worldnews"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/07/japan-foreign-reserves-yen-intervention.html"
         }
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-09-07T22:20:06.230127+09:00"
+  "intraday_refreshed_kst": "2026-09-07T22:32:12.241523+09:00"
 }
