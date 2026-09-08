@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26392.72,
+      "point": 26392.07,
       "change_pct": -0.43,
       "candle": {
         "o": 26530.28,
         "h": 26537.67,
         "l": 26341.54,
-        "c": 26392.72
+        "c": 26392.07
       },
       "range_240d": {
         "low": 20794.64,
@@ -2041,7 +2041,7 @@
           "o": 26530.28,
           "h": 26537.67,
           "l": 26341.54,
-          "c": 26392.72
+          "c": 26392.07
         }
       ],
       "spark": [
@@ -2058,7 +2058,9 @@
         26386.01,
         26405.28,
         26392.81,
-        26392.72
+        26392.43,
+        26390.89,
+        26392.07
       ],
       "news": {
         "summary": "암호화폐 시장의 밈코인 확산으로 리테일 투자자 심리의 리스크온 강화 신호. 암 백신 개발의 AI 분석 활용으로 Tempus·Personalis 등 주변기기(picks & shovels) 기업의 성장성 부각. 일본 대기업들의 성장투자 감축과 증시 탈출로 글로벌 기술주 수급 분산 압력.",
@@ -2082,13 +2084,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7682.76,
-      "change_pct": -0.46,
+      "point": 7684.46,
+      "change_pct": -0.44,
       "candle": {
         "o": 7717.81,
         "h": 7717.81,
         "l": 7675.69,
-        "c": 7682.76
+        "c": 7684.46
       },
       "range_240d": {
         "low": 6343.72,
@@ -4119,7 +4121,7 @@
           "o": 7717.81,
           "h": 7717.81,
           "l": 7675.69,
-          "c": 7682.76
+          "c": 7684.46
         }
       ],
       "spark": [
@@ -4136,7 +4138,9 @@
         7681.32,
         7685.92,
         7682.37,
-        7682.76
+        7685.12,
+        7684.78,
+        7684.46
       ],
       "news": {
         "summary": "8월 일자리 통계가 16.2만 건으로 예상(5.3만)의 3배 초과, 연준 금리인상 시나리오 강화 중. 장기채 수익률과 금리인상 베팅이 동반 상승하면서 경제 모멘텀 지속성에 대한 재평가 국면. 이란-미국 해상 충돌로 유가 상승압력 심화되는 추세 속 인플레이션 경로의 불확실성 확대.",
@@ -4160,13 +4164,13 @@
     },
     {
       "name": "DOW",
-      "point": 52731.61,
-      "change_pct": -1.28,
+      "point": 52784.31,
+      "change_pct": -1.18,
       "candle": {
         "o": 53110.45,
         "h": 53110.45,
         "l": 52721.62,
-        "c": 52731.61
+        "c": 52784.31
       },
       "range_240d": {
         "low": 45166.64,
@@ -6198,7 +6202,7 @@
           "o": 53110.45,
           "h": 53110.45,
           "l": 52721.62,
-          "c": 52731.61
+          "c": 52784.31
         }
       ],
       "spark": [
@@ -6215,7 +6219,9 @@
         52759.42,
         52786.01,
         52726.49,
-        52731.61
+        52752.55,
+        52788.82,
+        52784.31
       ],
       "news": {
         "summary": "보잉의 미항공사 인수(84억 달러) 후 대규모 적자 사태로 대형 산업재 M&A 리스크 재조명. 독일 제조업 생산 월 1.1% 감소로 경기순환주 약세 가속. 이란 유조선 격침에 따른 유가 상승이 에너지·운송·기초소재 섹터의 수익성 개선과 원가압 상충 야기.",
@@ -6240,96 +6246,83 @@
   ],
   "news_chips": [
     {
-      "summary": "캐나다의 50% 보복 관세 시행으로 미-캐나다 무역 분쟁이 가중되고 있다",
+      "summary": "연준과 인플레이션이 시장 재조명 되며 투자자들이 가을 변동성 고조에 대비",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/investing/investors-brace-for-a-choppier-fall-as-the-fed-inflation-return-to-center-stage-81f6f11f?mod=rss_markets_main",
+      "published_ts": 1788861240.0,
+      "impact_high": true
+    },
+    {
+      "summary": "AI 도입에도 세일즈포스·워크데이 등 소프트웨어 기업의 실적은 견조함이 지속",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/tech/ai/ai-is-disrupting-software-companiesbut-not-as-fast-as-many-feared-a380443a?mod=rss_markets_main",
+      "published_ts": 1788859800.0,
+      "impact_high": true
+    },
+    {
+      "summary": "캐나다가 미국 강철·알루미늄 보복 관세 50%로 인상, 양국 무역분쟁 심화",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html",
       "published_ts": 1788855693.0,
       "impact_high": true
     },
     {
-      "summary": "사우디 에너지 시설 공격으로 유가가 배럴당 100달러 근처로 올랐다",
-      "source": "WSJ",
+      "summary": "예멘 후티의 사우디 에너지시설 공격으로 호르무즈 공급 우려 심화, 유가 100달러 근처까지 상승",
+      "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/oil-nears-100-a-barrel-as-fresh-attacks-on-saudi-energy-operations-raise-supply-concerns-568aad5f?mod=rss_worldnews",
       "published_ts": 1788858600.0,
       "impact_high": false
     },
     {
-      "summary": "유가 상승과 금리 인상 우려로 미국 주식지수가 하락했다",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-08-2026?mod=rss_markets_main",
-      "published_ts": 1788856922.0,
-      "impact_high": false
-    },
-    {
-      "summary": "독일 수출이 6개월 만에 감소하면서 유로존 경기 둔화 신호가 포착되고 있다",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/economy/trade/german-exports-decline-for-first-time-in-six-months-05fb7099?mod=rss_socialeconomyfeed",
-      "published_ts": 1788853140.0,
-      "impact_high": false
-    },
-    {
-      "summary": "중국의 무역 흑자 확대로 위안화 절상 우려가 다시 제기되고 있다",
-      "source": "WSJ",
+      "summary": "중국 8월 무역수지 확대로 수출 호조 지속, 1조 2천억 달러 연간 흑자 추적",
+      "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/trade/chinas-trade-surplus-widens-as-export-growth-accelerates-f4418eda?mod=rss_socialeconomyfeed",
       "published_ts": 1788844980.0,
       "impact_high": false
     },
     {
-      "summary": "이란의 석유 수출이 급감하면서 경제 위기가 심화되고 있다",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/world/middle-east/irans-oil-dollars-are-drying-upand-plunging-it-deeper-into-crisis-21bae4bd?mod=rss_worldnews",
-      "published_ts": 1788801900.0,
-      "impact_high": false
-    },
-    {
-      "summary": "엔화가 6개월 최고가로 강세를 보이며 금리 전망 변화를 반영하고 있다",
-      "source": "WSJ",
+      "summary": "일본 엔화가 금리전망 변화에 따라 2월 이후 최고점까지 상승",
+      "source": "WSJ경제",
       "url": "https://www.wsj.com/finance/currencies/japanese-yen-climbs-to-six-month-high-as-rate-outlooks-shift-df3980be?mod=rss_socialeconomyfeed",
       "published_ts": 1788777240.0,
       "impact_high": false
     },
     {
-      "summary": "유로존 GDP는 상향 조정되었으나 중동 분쟁 장기화 시 에너지 가격 충격 리스크가 있다",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/economy/global/eurozone-economy-surged-as-war-ignited-energy-prices-29e7eb10?mod=rss_socialeconomyfeed",
-      "published_ts": 1788773700.0,
-      "impact_high": true
-    },
-    {
-      "summary": "호르무즈 해협에서 미-이란 군사 충돌이 심화되면서 에너지 공급 리스크가 증가했다",
-      "source": "WSJ",
+      "summary": "미국이 미사일 발사 이란 함정 반격으로 호르무즈 해협 주도권 경쟁 심화",
+      "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/u-s-strikes-three-iranian-ships-after-missiles-fired-at-american-aircraft-carrier-ec5b3d5c?mod=rss_worldnews",
       "published_ts": 1788628020.0,
       "impact_high": false
     },
     {
-      "summary": "8월 고용 강세로 9월 연준 금리 인상 기대가 높아지면서 채권 수익률이 상승했다",
-      "source": "WSJ",
+      "summary": "8월 미국 고용 증가분 거의 전부가 여성 인력 증가로 채워지며 노동시장 구조 변화",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/04/jobs-report-women-payrolls.html",
+      "published_ts": 1788546459.0,
+      "impact_high": true
+    },
+    {
+      "summary": "8월 미국 비농업 고용 16만 2천 명 증가로 예상치 크게 초과, 실업률 4.1% 유지",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html",
+      "published_ts": 1788542197.0,
+      "impact_high": true
+    },
+    {
+      "summary": "강한 8월 고용지표를 배경으로 연준 9월 금리 인상 베팅이 증가하며 채권 수익률 급등",
+      "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/global/u-s-european-bond-yields-little-changed-ahead-of-key-jobs-data-6528bb59?mod=rss_socialeconomyfeed",
       "published_ts": 1788529380.0,
       "impact_high": true
     }
   ],
-  "_article_sig": "592b608394abc56e71dec7d42b7caa97566e265e2603873d32f41c7f1f623ef3",
+  "_article_sig": "7ab9b9d6aff33edb67411fafc4f71010db024a2219938ef7ff26dcea293383f8",
   "built_at_kst": "2026-09-08T07:02:01.605322+09:00",
   "regular_open": true,
-  "intraday_refreshed_kst": "2026-09-08T23:30:08.801872+09:00",
+  "intraday_refreshed_kst": "2026-09-08T23:41:45.485607+09:00",
   "_futures_news": {
-    "NASDAQ": {
-      "summary": "소프트웨어 대형주들(Salesforce, Workday) AI 혁신 대응 실적 탄력성 유지 중. 암백신 기업(Tempus, Moderna, Merck, Personalis) 매수세 확대로 바이오 신약 부문 자금 열기 지속.",
-      "sources": [
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/tech/ai/ai-is-disrupting-software-companiesbut-not-as-fast-as-many-feared-a380443a?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/health/pharma/the-cancer-vaccine-gold-rush-has-begun-so-has-the-race-for-picks-and-shovels-4b0b6d50?mod=rss_markets_main"
-        }
-      ]
-    },
     "S&P500": {
-      "summary": "8월 고용 162K(컨센 53K 대폭 상회)로 연준 금리인상 압력 즉각 재점화. 장기금리·Treasury yield 동반상승 신호. 중동 호티 공격으로 유가 100달러 수순, 에너지 공급 우려 고조. 관세 전쟁 격화(캐나다 보복 27.6B), 엔화 6개월 고점 진입으로 통화 변동성 확대. 중국 무역흑자 지속 확대 vs 수입 부진으로 국내 수요 약화 신호.",
+      "summary": "강한 8월 고용지표(페이롤 162K, 예상치 대폭 상회)로 연준 금리인상 베팅 급증. Treasury yields 상승 + 달러화 강세 동반. 후티 공격으로 유가 100달러 근처, 인플레이션 압력 재부상. 캐나다 보복관세 등 무역 불확실성 심화 추세.",
       "sources": [
         {
           "name": "CNBC",
@@ -6340,42 +6333,49 @@
           "url": "https://www.wsj.com/economy/global/u-s-european-bond-yields-little-changed-ahead-of-key-jobs-data-6528bb59?mod=rss_socialeconomyfeed"
         },
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/world/middle-east/oil-nears-100-a-barrel-as-fresh-attacks-on-saudi-energy-operations-raise-supply-concerns-568aad5f?mod=rss_worldnews"
+        }
+      ]
+    },
+    "NASDAQ": {
+      "summary": "금리인상 기대로 성장주 밸류에이션 재평가 압력. AI 소프트웨어 기업들 실적 우려 지속하나 빅테크 재무력 버팀목 작용. 기술주 선물 약세 신호 강화.",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/tech/ai/ai-is-disrupting-software-companiesbut-not-as-fast-as-many-feared-a380443a?mod=rss_markets_main"
+        },
+        {
           "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html"
+          "url": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html"
         }
       ]
     },
     "DOW": {
-      "summary": "유가 100달러 근처 위협(호티 중동 공격 + 사우디 에너지 피해)으로 에너지 가격 압력 지속. 금융주 대형 재편(EverBank-WaFd 75B 합병, Robinhood-Crypto 거래) 진행. 관세 전쟁 확대(캐나다 보복)로 대형주 수익성 다운사이드 위험 표면화. 8월 강한 고용 vs 인상압력 이중 부담 속 경기순환주 변동성 심화 예상.",
+      "summary": "금융권 M&A 활발(EverBank-WaFd 75B 달러 규모) + 유가 100달러 근처 진입으로 에너지주 강세. 경기민감주 혼조 가운데 금리인상 압력 강화.",
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-08-2026?mod=rss_markets_main"
+          "url": "https://www.wsj.com/business/deals/everbank-to-combine-with-wafd-to-create-75-billion-bank-e71d023c?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/world/middle-east/oil-nears-100-a-barrel-as-fresh-attacks-on-saudi-energy-operations-raise-supply-concerns-568aad5f?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/business/deals/everbank-to-combine-with-wafd-to-create-75-billion-bank-e71d023c?mod=rss_markets_main"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-09-08T23:30:04.895545+09:00",
+    "as_of_kst": "2026-09-08T23:40:04.123349+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7685.75,
-        "change_pct": -0.47,
+        "point": 7690.25,
+        "change_pct": -0.41,
         "spark": [
           7715.5,
-          7698.0,
-          7695.5,
           7700.0,
           7698.5,
           7698.0,
@@ -6413,21 +6413,23 @@
           7684.5,
           7685.0,
           7685.5,
-          7685.75
+          7691.25,
+          7687.25,
+          7690.25
         ],
         "candle": {
           "o": 7715.5,
           "h": 7728.5,
           "l": 7680.0,
-          "c": 7686.25
+          "c": 7687.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 20.32,
-          "high_change_pct": -1.74
+          "low_change_pct": 20.34,
+          "high_change_pct": -1.73
         },
         "daily_expanded": [
           {
@@ -8443,13 +8445,13 @@
             "o": 7715.5,
             "h": 7728.5,
             "l": 7680.0,
-            "c": 7686.25,
-            "v": 594583
+            "c": 7687.5,
+            "v": 625283
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "8월 고용 162K(컨센 53K 대폭 상회)로 연준 금리인상 압력 즉각 재점화. 장기금리·Treasury yield 동반상승 신호. 중동 호티 공격으로 유가 100달러 수순, 에너지 공급 우려 고조. 관세 전쟁 격화(캐나다 보복 27.6B), 엔화 6개월 고점 진입으로 통화 변동성 확대. 중국 무역흑자 지속 확대 vs 수입 부진으로 국내 수요 약화 신호.",
+          "summary": "강한 8월 고용지표(페이롤 162K, 예상치 대폭 상회)로 연준 금리인상 베팅 급증. Treasury yields 상승 + 달러화 강세 동반. 후티 공격으로 유가 100달러 근처, 인플레이션 압력 재부상. 캐나다 보복관세 등 무역 불확실성 심화 추세.",
           "sources": [
             {
               "name": "CNBC",
@@ -8460,8 +8462,8 @@
               "url": "https://www.wsj.com/economy/global/u-s-european-bond-yields-little-changed-ahead-of-key-jobs-data-6528bb59?mod=rss_socialeconomyfeed"
             },
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/world/middle-east/oil-nears-100-a-barrel-as-fresh-attacks-on-saudi-energy-operations-raise-supply-concerns-568aad5f?mod=rss_worldnews"
             }
           ]
         }
@@ -8469,13 +8471,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29480.25,
-        "change_pct": -0.29,
+        "point": 29516.75,
+        "change_pct": -0.16,
         "spark": [
           29535.25,
-          29560.0,
-          29547.0,
-          29574.25,
           29567.25,
           29562.25,
           29570.75,
@@ -8512,21 +8511,24 @@
           29453.25,
           29462.5,
           29479.25,
-          29480.25
+          29522.25,
+          29516.75,
+          29522.75,
+          29516.75
         ],
         "candle": {
           "o": 29535.25,
           "h": 29764.75,
           "l": 29424.75,
-          "c": 29483.5
+          "c": 29516.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.41,
-          "high_change_pct": -4.0
+          "low_change_pct": 27.56,
+          "high_change_pct": -3.89
         },
         "daily_expanded": [
           {
@@ -10542,21 +10544,21 @@
             "o": 29535.25,
             "h": 29764.75,
             "l": 29424.75,
-            "c": 29483.5,
-            "v": 342362
+            "c": 29516.75,
+            "v": 353608
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "소프트웨어 대형주들(Salesforce, Workday) AI 혁신 대응 실적 탄력성 유지 중. 암백신 기업(Tempus, Moderna, Merck, Personalis) 매수세 확대로 바이오 신약 부문 자금 열기 지속.",
+          "summary": "금리인상 기대로 성장주 밸류에이션 재평가 압력. AI 소프트웨어 기업들 실적 우려 지속하나 빅테크 재무력 버팀목 작용. 기술주 선물 약세 신호 강화.",
           "sources": [
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/tech/ai/ai-is-disrupting-software-companiesbut-not-as-fast-as-many-feared-a380443a?mod=rss_markets_main"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/health/pharma/the-cancer-vaccine-gold-rush-has-begun-so-has-the-race-for-picks-and-shovels-4b0b6d50?mod=rss_markets_main"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html"
             }
           ]
         }
@@ -10564,12 +10566,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52794.0,
-        "change_pct": -1.21,
+        "point": 52768.0,
+        "change_pct": -1.26,
         "spark": [
           53261.0,
-          53005.0,
-          53031.0,
           53016.0,
           53005.0,
           53018.0,
@@ -10607,21 +10607,23 @@
           52808.0,
           52792.0,
           52820.0,
-          52794.0
+          52760.0,
+          52792.0,
+          52768.0
         ],
         "candle": {
           "o": 53261.0,
           "h": 53336.0,
-          "l": 52766.0,
-          "c": 52794.0
+          "l": 52758.0,
+          "c": 52763.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 16.22,
-          "high_change_pct": -3.12
+          "low_change_pct": 16.16,
+          "high_change_pct": -3.18
         },
         "daily_expanded": [
           {
@@ -12636,26 +12638,22 @@
             "date": "2026-09-08",
             "o": 53261.0,
             "h": 53336.0,
-            "l": 52766.0,
-            "c": 52794.0,
-            "v": 42912
+            "l": 52758.0,
+            "c": 52763.0,
+            "v": 44451
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "유가 100달러 근처 위협(호티 중동 공격 + 사우디 에너지 피해)으로 에너지 가격 압력 지속. 금융주 대형 재편(EverBank-WaFd 75B 합병, Robinhood-Crypto 거래) 진행. 관세 전쟁 확대(캐나다 보복)로 대형주 수익성 다운사이드 위험 표면화. 8월 강한 고용 vs 인상압력 이중 부담 속 경기순환주 변동성 심화 예상.",
+          "summary": "금융권 M&A 활발(EverBank-WaFd 75B 달러 규모) + 유가 100달러 근처 진입으로 에너지주 강세. 경기민감주 혼조 가운데 금리인상 압력 강화.",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-08-2026?mod=rss_markets_main"
+              "url": "https://www.wsj.com/business/deals/everbank-to-combine-with-wafd-to-create-75-billion-bank-e71d023c?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/world/middle-east/oil-nears-100-a-barrel-as-fresh-attacks-on-saudi-energy-operations-raise-supply-concerns-568aad5f?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/business/deals/everbank-to-combine-with-wafd-to-create-75-billion-bank-e71d023c?mod=rss_markets_main"
             }
           ]
         }
