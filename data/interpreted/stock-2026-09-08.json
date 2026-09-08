@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "generated_at": "2026-09-08T09:45:08.721152",
+  "generated_at": "2026-09-08T09:46:26.008290",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -399,7 +399,7 @@
           "url": "https://biz.chosun.com/stock/stock_general/2026/09/08/FWJRF2YAYNHBFAST3JXFTR7SMU/",
           "source": "조선비즈",
           "published_at": "2026-09-08T00:23:50",
-          "causal_chain": null,
+          "causal_chain": "상장 사흘째 신규상장주 수급 집중 → 유통물량 제한 속 매수세 쏠림 → 당일 종가 37,850원(+23.90%)·장중 고가 39,350원(52주 신고가 수준)·거래대금 5,133억원의 대규모 손바뀜 발생. 다만 사업·정책·수주 등 본질 매크로 이벤트를 담은 뉴스는 부재하며, 급등은 신규상장 초기 수급 이벤트로 해석된다.",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -408,7 +408,7 @@
           "newzy_tradability": null,
           "newzy_score": null,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "시세정형"
         }
       ],
       "fallback": false,
@@ -780,16 +780,16 @@
           "url": "https://www.etoday.co.kr/news/view/2622943",
           "source": "이투데이",
           "published_at": "2026-09-08T00:32:00",
-          "causal_chain": "",
-          "macro_event": null,
+          "causal_chain": "미국 원전 8기 신규 건설 확대 기대감 → 원전 밸류체인 전반에 매수세 집중 → 원자력발전소 설계를 핵심 사업으로 하는 한전기술이 원전 산업 직접 수혜주로 부각 → 당일 종가 139,500원(+14.06%), 장중 고가 143,100원, 거래대금 1,092억원의 대규모 손바뀜으로 매수세 집중이 확인됨.",
+          "macro_event": "美 원전 8기 신규 건설 기대감 부각 → 국내 원전 밸류체인 강세",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.7,
+          "newzy_virality": 0.7,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.7,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": false,
@@ -963,11 +963,9 @@
           139300
         ]
       },
-      "togusa_verdict": "neutral",
+      "togusa_verdict": "strong_bull",
       "theme_leader": true,
-      "hugepark_grade": "관찰",
-      "causal_chain": "",
-      "parent_theme": ""
+      "hugepark_grade": "적극"
     },
     {
       "code": "069540",
@@ -1028,34 +1026,18 @@
       ],
       "news": [
         {
-          "title": "[특징주] 빛과전자, AI 데이터센터·6G 광통신 부품 국산화 사업 선정에 상승세",
-          "url": "https://www.etoday.co.kr/news/view/2622914",
-          "source": "이투데이",
-          "published_at": "2026-09-08T00:06:00",
-          "causal_chain": "美 FCC의 중국산 광트랜시버 수입규제 추진 + AI 데이터센터 광통신 수요 급증 → '비중국 공급망' 확보가 새 경쟁 요소로 부각 → 대전에서 광소자(OSA)부터 완제품까지 일괄 생산체계를 갖춘 빛과전자가 100G~1.6T 라인업·6G 50G BiDi 국산화(주요 고객사 구매발주서·수요확인서 확보)로 직접 수혜 후보로 지목. 다만 이러한 정책·기술 모멘텀에도 당일(2026-08-21) 종가는 2,600원(-2.80%), 거래대금 1억원의 매우 부진한 흐름으로 52주 고가(8,100원) 대비 -67.9% 수준에 머물러 뉴스 재료가 주가로 연결되지 못했다.",
-          "macro_event": "美 FCC, 국가안보 이유로 중국산 신형 광트랜시버 수입금지 검토 → 비중국 광통신 공급망 부각",
-          "newzy_freshness": null,
-          "newzy_persistence": null,
-          "newzy_magnitude": 0.5,
-          "newzy_virality": 0.45,
-          "newzy_tradability": null,
-          "newzy_score": 0.48,
-          "newzy_verdict": null,
-          "article_type": "호재"
-        },
-        {
           "title": "빛과전자, 6G 광부품 '선주문' 잡았다…\"50G 국산화 속도\"",
           "url": "https://www.fnnews.com/news/202609071942476093",
           "source": "파이낸셜뉴스",
-          "published_at": "2026-09-08T09:30:02.379509",
-          "causal_chain": "5G-Advanced·6G 전환으로 이동통신망 데이터 트래픽이 급증 → 기존 25G 대비 대역폭 2배인 6G 프론트홀용 50G BiDi 광트랜시버 수요 부각 → 광통신 전문기업 빛과전자가 과기정통부 광통신 부품 상용화 사업 수행기관에 2년 연속 선정되고 개발 착수 전 주요 고객사의 구매발주서·수요확인서까지 확보하며 '국산화+선주문' 상용화 경로를 선점 → 기술개발이 실제 양산 공급으로 연결될 기대감에 매수세가 집중되며 당일 종가 3,410원(+21.79%)·거래대금 717억원의 강한 손바뀜 발생.",
-          "macro_event": "5G-Advanced·6G 전환에 따른 데이터 트래픽 급증 → 프론트홀용 50G급 광트랜시버 수요 확대",
+          "published_at": "2026-09-08T09:40:04.632881",
+          "causal_chain": "5G-Advanced·6G 전환으로 이동통신망 데이터 트래픽이 급증 → 기존 25G 대비 대역폭 2배인 6G 프론트홀용 50GBASE-BR30 SFP56 BiDi 광트랜시버 수요 부각 → 광통신 전문기업 빛과전자가 과기정통부·NIA 광통신 부품 상용화 사업 수행기관에 2년 연속 선정되고 개발 착수 전 주요 고객사의 구매발주서·수요확인서를 확보 → 국산화 이후 실제 공급으로 이어질 직접 수혜 기대에 매수세 집중.",
+          "macro_event": "5G-Advanced·6G 전환에 따른 데이터 트래픽 급증으로 차세대 광부품 수요 부각",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": 0.5,
-          "newzy_virality": 0.4,
+          "newzy_magnitude": 0.6,
+          "newzy_virality": 0.5,
           "newzy_tradability": null,
-          "newzy_score": 0.46,
+          "newzy_score": 0.56,
           "newzy_verdict": null,
           "article_type": "호재"
         }
