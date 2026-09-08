@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "generated_at": "2026-09-08T09:15:09.659769",
+  "generated_at": "2026-09-08T09:16:55.158033",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -211,7 +211,7 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "neutral",
+      "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰"
     },
@@ -227,8 +227,27 @@
       "low_price": null,
       "industry": "특수 목적용 기계 제조업",
       "sector": "LP CVD",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "반도체",
+        "반도체 박막 장비",
+        "반도체소부장"
+      ],
+      "theme_paths": [
+        {
+          "name": "반도체 박막 장비",
+          "path": [
+            "반도체",
+            "반도체 박막 장비"
+          ]
+        },
+        {
+          "name": "반도체소부장",
+          "path": [
+            "반도체",
+            "반도체소부장"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": {
         "date": "2026-08-18",
@@ -245,7 +264,7 @@
           "url": "https://www.mk.co.kr/news/stock/12146121",
           "source": "매경",
           "published_at": "2026-09-07T06:36:43",
-          "causal_chain": null,
+          "causal_chain": "제공된 뉴스 2건은 모두 코스닥 시황 마감 요약 기사로, 지수 등락 코멘트 속에 종목명이 상승/하락 예시로 1회 나열되었을 뿐 종목 고유의 펀더멘털·수주·정책 사건이 전무하다. 당일 종가 169,300원(-4.24%), 거래대금 24억원의 부진한 흐름을 설명할 본질 뉴스가 없어 매크로 사슬을 부착할 근거가 없다.",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -254,14 +273,14 @@
           "newzy_tradability": null,
           "newzy_score": null,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "시세정형"
         },
         {
           "title": "코스닥 마감, 824.46P (-1.17%↓) 주성엔지니어링, 원익IPS등 하락세",
           "url": "https://www.mk.co.kr/news/stock/12131215",
           "source": "매경",
           "published_at": "2026-08-19T06:36:50",
-          "causal_chain": null,
+          "causal_chain": "제공된 뉴스 2건은 모두 코스닥 시황 마감 요약 기사로, 지수 등락 코멘트 속에 종목명이 상승/하락 예시로 1회 나열되었을 뿐 종목 고유의 펀더멘털·수주·정책 사건이 전무하다. 당일 종가 169,300원(-4.24%), 거래대금 24억원의 부진한 흐름을 설명할 본질 뉴스가 없어 매크로 사슬을 부착할 근거가 없다.",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -270,7 +289,7 @@
           "newzy_tradability": null,
           "newzy_score": null,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "시세정형"
         }
       ],
       "fallback": true,
@@ -427,7 +446,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "052690",
@@ -442,9 +464,23 @@
       "industry": "건축기술, 엔지니어링 및 관련 기술 서비스업",
       "sector": "원자력발전소 설계 등",
       "themes": [
+        "원전",
+        "에너지정책",
         "건설"
       ],
       "theme_paths": [
+        {
+          "name": "원전",
+          "path": [
+            "원전"
+          ]
+        },
+        {
+          "name": "에너지정책",
+          "path": [
+            "에너지정책"
+          ]
+        },
         {
           "name": "건설",
           "path": [
@@ -472,32 +508,32 @@
           "url": "https://www.mk.co.kr/news/stock/12136055",
           "source": "매경",
           "published_at": "2026-08-25T08:47:57",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "미국 신규 대형원전 사업에서 한국 기업 수주가 늘 것이라는 기대(현대건설 텍사스 원전 기본설계 완료 발표)로 원전주가 일제히 급등 → 원자력발전소 설계·엔지니어링 전문 기업인 한전기술이 섹터 대장주로 직접 수혜 대상에 부각 → 매수세가 유입되며 당일 +6.21%(종가 129,900원, 장중 고가 130,400원)로 마감. 다만 거래대금은 26억원으로 얇은 편이었다.",
+          "macro_event": "미국 신규 대형원전(프로젝트 매터도어 등) 사업에서 한국 기업 수주 확대 기대 → 원전주 섹터 강세",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.55,
+          "newzy_virality": 0.6,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.57,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "한전기술, 분기 실적 쇼크에 목표가 하향 \"모멘텀 기다릴 때\"",
           "url": "https://www.fnnews.com/news/202608100725148070",
           "source": "파이낸셜뉴스",
           "published_at": "2026-08-11T07:30:06.026589",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "미국 신규 대형원전 사업에서 한국 기업 수주가 늘 것이라는 기대(현대건설 텍사스 원전 기본설계 완료 발표)로 원전주가 일제히 급등 → 원자력발전소 설계·엔지니어링 전문 기업인 한전기술이 섹터 대장주로 직접 수혜 대상에 부각 → 매수세가 유입되며 당일 +6.21%(종가 129,900원, 장중 고가 130,400원)로 마감. 다만 거래대금은 26억원으로 얇은 편이었다.",
+          "macro_event": "미국 신규 대형원전(프로젝트 매터도어 등) 사업에서 한국 기업 수주 확대 기대 → 원전주 섹터 강세",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.55,
+          "newzy_virality": 0.6,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.57,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "악재"
         }
       ],
       "fallback": true,
@@ -654,7 +690,10 @@
           "l": 128100,
           "c": 129900
         }
-      ]
+      ],
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "046120",
@@ -678,7 +717,10 @@
       "news": [],
       "fallback": true,
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "189860",
@@ -693,20 +735,20 @@
       "industry": "전동기, 발전기 및 전기 변환 · 공급 · 제어 장치 제조업",
       "sector": "수배전반, 전력기기, 전기공사",
       "themes": [
-        "전력설비",
-        "원전"
+        "원전",
+        "전력설비"
       ],
       "theme_paths": [
-        {
-          "name": "전력설비",
-          "path": [
-            "전력설비"
-          ]
-        },
         {
           "name": "원전",
           "path": [
             "원전"
+          ]
+        },
+        {
+          "name": "전력설비",
+          "path": [
+            "전력설비"
           ]
         }
       ],
@@ -720,17 +762,14 @@
       ],
       "news": [],
       "fallback": true,
-      "cafe_themes": [
-        "원전"
-      ],
       "theme_crosscheck": {
-        "confirmed": [],
+        "confirmed": [
+          "원전"
+        ],
         "pm320_only": [
           "전력설비"
         ],
-        "cafe_only": [
-          "원전"
-        ]
+        "cafe_only": []
       },
       "index_change_pct": 0.94,
       "index_multiple_current": 31.7,
@@ -887,7 +926,12 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     }
   ]
 }
