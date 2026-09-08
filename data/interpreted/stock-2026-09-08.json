@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "generated_at": "2026-09-08T09:25:08.850411",
+  "generated_at": "2026-09-08T09:27:01.489122",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -215,16 +215,16 @@
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=02223846645578152",
           "source": "이데일리",
           "published_at": "2026-09-08T00:14:35",
-          "causal_chain": "",
-          "macro_event": null,
+          "causal_chain": "신규상장 종목 특성상 상장 직후 유통물량이 제한된 상태에서 초기 매수 수급이 집중 → 상장 셋째날에도 매수세가 몰리며 당일 +13.91%(종가 34,800원) 급등, 장중 고가 34,800원으로 52주 신고가를 갱신하고 거래대금 2,870억원의 대규모 손바뀜 발생.",
+          "macro_event": "신규상장 직후 초기 수급 집중 패턴 (상장 3거래일 연속 급등)",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.3,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.36,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "시세정형"
         }
       ],
       "fallback": false,
@@ -277,11 +277,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bull",
+      "togusa_verdict": "strong_bull",
       "theme_leader": true,
-      "hugepark_grade": "관찰",
-      "causal_chain": "",
-      "parent_theme": ""
+      "hugepark_grade": "적극"
     },
     {
       "code": "036930",
@@ -529,7 +527,7 @@
           197500
         ]
       },
-      "togusa_verdict": "neutral",
+      "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰"
     },
@@ -802,10 +800,33 @@
       "industry": "통신 및 방송 장비 제조업",
       "sector": "기타무선통신장비제조업",
       "themes": [
+        "AI데이터센터",
+        "6G",
+        "미중갈등",
         "광통신",
         "통신장비"
       ],
       "theme_paths": [
+        {
+          "name": "AI데이터센터",
+          "path": [
+            "AI",
+            "AI데이터센터"
+          ]
+        },
+        {
+          "name": "6G",
+          "path": [
+            "6G"
+          ]
+        },
+        {
+          "name": "미중갈등",
+          "path": [
+            "트럼프",
+            "미중갈등"
+          ]
+        },
         {
           "name": "광통신",
           "path": [
@@ -836,16 +857,16 @@
           "url": "https://www.fnnews.com/news/202609071942476093",
           "source": "파이낸셜뉴스",
           "published_at": "2026-09-08T09:20:03.203296",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "美 FCC의 중국산 광트랜시버 수입규제 추진 + AI 데이터센터 광통신 수요 급증 → '비중국 공급망' 확보가 새 경쟁 요소로 부각 → 대전에서 광소자(OSA)부터 완제품까지 일괄 생산체계를 갖춘 빛과전자가 100G~1.6T 라인업·6G 50G BiDi 국산화(주요 고객사 구매발주서·수요확인서 확보)로 직접 수혜 후보로 지목. 다만 이러한 정책·기술 모멘텀에도 당일(2026-08-21) 종가는 2,600원(-2.80%), 거래대금 1억원의 매우 부진한 흐름으로 52주 고가(8,100원) 대비 -67.9% 수준에 머물러 뉴스 재료가 주가로 연결되지 못했다.",
+          "macro_event": "美 FCC, 국가안보 이유로 중국산 신형 광트랜시버 수입금지 검토 → 비중국 광통신 공급망 부각",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.5,
+          "newzy_virality": 0.45,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.48,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": false,
@@ -854,6 +875,9 @@
           "통신장비"
         ],
         "pm320_only": [
+          "AI데이터센터",
+          "6G",
+          "미중갈등",
           "광통신"
         ],
         "cafe_only": []
@@ -1011,7 +1035,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     }
   ]
 }
