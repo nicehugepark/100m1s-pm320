@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "generated_at": "2026-09-09T10:25:18.679402",
+  "generated_at": "2026-09-09T10:26:08.099550",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -1714,7 +1714,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bull",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "336260",
@@ -2279,7 +2282,7 @@
           10300
         ]
       },
-      "togusa_verdict": "weak_bull",
+      "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰"
     },
@@ -3075,7 +3078,7 @@
         ]
       },
       "togusa_verdict": "neutral",
-      "theme_leader": true,
+      "theme_leader": false,
       "hugepark_grade": "관찰"
     },
     {
@@ -4252,20 +4255,20 @@
       "industry": null,
       "sector": null,
       "themes": [
-        "양자",
-        "CCTV·보안"
+        "CCTV·보안",
+        "양자"
       ],
       "theme_paths": [
-        {
-          "name": "양자",
-          "path": [
-            "양자"
-          ]
-        },
         {
           "name": "CCTV·보안",
           "path": [
             "CCTV·보안"
+          ]
+        },
+        {
+          "name": "양자",
+          "path": [
+            "양자"
           ]
         }
       ],
@@ -4280,16 +4283,16 @@
           "url": "https://www.mk.co.kr/news/it/12122923",
           "source": "매경",
           "published_at": "2026-08-10T06:57:25",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "국가용 보안요구사항 V3.0 개정으로 SSL 가시화 제품 평가 항목이 신설되며 공공기관 보안 기준이 강화됐다 → 네트워크 보안 전문기업 엑스게이트의 SSL 가시화 솔루션 'SSL INSIDE'가 업계 최초로 국정원 보안기능확인서를 획득 → 기존 방화벽·네트워크 보안 고객 기반을 활용해 공공기관 중심 보안시장에 직접 진출.",
+          "macro_event": "국가용 보안요구사항 V3.0 개정으로 SSL 가시화 제품 평가 항목 신설 → 공공기관 보안 기준 강화",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.45,
+          "newzy_virality": 0.25,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.37,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "엑스게이트, 자사 웹사이트 통신 구간 ‘PQC 체계’로 전환",
@@ -4309,14 +4312,17 @@
         }
       ],
       "fallback": true,
+      "cafe_themes": [
+        "양자"
+      ],
       "theme_crosscheck": {
-        "confirmed": [
-          "양자"
-        ],
+        "confirmed": [],
         "pm320_only": [
           "CCTV·보안"
         ],
-        "cafe_only": []
+        "cafe_only": [
+          "양자"
+        ]
       },
       "range_240d": {
         "high": 30550,
@@ -4328,7 +4334,10 @@
         "current": null
       },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "046970",
@@ -4777,7 +4786,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "382900",
