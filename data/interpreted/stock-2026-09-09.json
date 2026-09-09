@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "generated_at": "2026-09-09T09:06:12.416663",
+  "generated_at": "2026-09-09T09:15:11.902036",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -17,18 +17,368 @@
     }
   ],
   "narratives": [],
-  "themes_macro_summary": [],
-  "themes_tree": null,
+  "themes_macro_summary": [
+    {
+      "keyword": "중국AI로봇",
+      "summary": "중국 AI·로봇 산업 수요 폭발 → 반도체 8인치 파운드리 공급 부족 심화 → 저평가 반도체 업체 몸값 상승",
+      "source_count": 1,
+      "verified": false
+    },
+    {
+      "keyword": "중국AI수요",
+      "summary": "중국 AI·로봇 수요 폭발 → 반도체 공급 부족 → 8인치 파운드리 가격 급등 → 국내 반도체 섹터 강세",
+      "source_count": 1,
+      "verified": false
+    },
+    {
+      "keyword": "중AI수요",
+      "summary": "중국 AI·로봇 산업 호황 → 8인치 파운드리 공급 부족 심화 → 반도체 파운드리 가격 인상 주도(연내 3차 기대)",
+      "source_count": 1,
+      "verified": false
+    },
+    {
+      "keyword": "AI냉각",
+      "summary": "AI 데이터센터 확산 → 냉각·환기 시스템 수요 증가 → 고부가 필터소재 부품사 실적 개선 기대",
+      "source_count": 1,
+      "verified": false
+    },
+    {
+      "keyword": "중국AI파운드리",
+      "summary": "중국 AI·로봇 수요 폭발 → 반도체 파운드리 용량 부족 → 8인치 파운드리 가격 인상·파운드리 섹터 강세",
+      "source_count": 1,
+      "verified": false
+    }
+  ],
+  "themes_tree": {
+    "date": "2026-09-09",
+    "roots": [
+      {
+        "name": "반도체",
+        "children": [
+          {
+            "name": "8인치 파운드리",
+            "summary": "中 AI·로봇 수요 폭발로 8인치 파운드리 공급 부족→가동률·판가 상승(연내 3차 인상)→DB하이텍 등 8인치 파운드리 업체 수혜",
+            "source_count": 3,
+            "verdict": "pass"
+          }
+        ]
+      },
+      {
+        "name": "AI 인프라",
+        "children": [
+          {
+            "name": "AI 데이터센터",
+            "summary": "AI 데이터센터 발열 급증으로 고부가 필터·공조(HVAC) 소재 수요 확대→美 HVAC 시장 진입한 필터소재 업체 수혜",
+            "source_count": 1,
+            "verdict": "weak"
+          }
+        ]
+      },
+      {
+        "name": "제약바이오",
+        "children": [
+          {
+            "name": "바이오 기술수출",
+            "summary": "알테오젠 4조원대 대형 기술이전(빅딜) 성사→기대에서 실적 실현 국면 진입→플랫폼 바이오·기술수출주 재평가",
+            "source_count": 1,
+            "verdict": "weak"
+          }
+        ]
+      }
+    ]
+  },
   "stocks": [
+    {
+      "code": "010170",
+      "name": "대한광통신",
+      "rank": 1,
+      "trade_amount": 142172000000,
+      "change_pct": 4.01,
+      "close_price": 14250,
+      "open_price": 14260,
+      "high_price": 14350,
+      "low_price": 14210,
+      "industry": "절연선 및 케이블 제조업",
+      "sector": "광섬유, 광케이블",
+      "themes": [
+        "케이블",
+        "광통신",
+        "미중갈등",
+        "통신장비"
+      ],
+      "theme_paths": [
+        {
+          "name": "케이블",
+          "path": [
+            "케이블"
+          ]
+        },
+        {
+          "name": "광통신",
+          "path": [
+            "AI",
+            "광통신"
+          ]
+        },
+        {
+          "name": "미중갈등",
+          "path": [
+            "트럼프",
+            "미중갈등"
+          ]
+        },
+        {
+          "name": "통신장비",
+          "path": [
+            "통신장비"
+          ]
+        }
+      ],
+      "pick_count": 1,
+      "prev_pick": {
+        "date": "2026-08-27",
+        "rank": 2,
+        "change_pct": 10.07,
+        "trade_amount": 402807000000
+      },
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [
+        "2026-08-10"
+      ],
+      "news": [
+        {
+          "title": "대한광통신, AI 데이터센터 광케이블 수요 확대 기대-유안타",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03096326645576184",
+          "source": "이데일리",
+          "published_at": "2026-09-02T00:43:39",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "[인기검색TOP5] 심텍, 대한광통신, 삼성SDI, 산일전기, 대우건설",
+          "url": "https://www.mk.co.kr/news/stock/12138189",
+          "source": "매경",
+          "published_at": "2026-08-27T09:20:12",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "대한광통신, 2Q 영업익·순익 흑자전환…북미 매출 비중 46%",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03247206645548632",
+          "source": "이데일리",
+          "published_at": "2026-08-18T01:16:47",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "[특징주] 美 중국산 광트랜시버 규제 추진에 대한광통신 등 광통신株 강세",
+          "url": "https://www.etoday.co.kr/news/view/2612680",
+          "source": "이투데이",
+          "published_at": "2026-08-10T01:10:00",
+          "causal_chain": "미국이 중국산 광트랜시버 규제를 추진하며 미중 갈등이 심화 → 중국산 배제에 따른 국내 광통신 부품·광케이블 업체의 반사수혜 기대 → 광섬유·광케이블을 주력으로 하는 대한광통신에 매수세 집중 → 당일 시가 11,750원에서 고가 13,890원까지 급등, 종가 13,790원(+20.33%)·거래대금 2,885억원 기록.",
+          "macro_event": "美, 중국산 광트랜시버(광통신 모듈) 규제 추진 → 미중 기술패권 갈등 심화",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.6,
+          "newzy_virality": 0.6,
+          "newzy_tradability": null,
+          "newzy_score": 0.6,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        }
+      ],
+      "fallback": true,
+      "index_change_pct": 1.52,
+      "index_multiple_current": 2.64,
+      "index_multiple_eligible": true,
+      "range_240d": {
+        "high": 31500,
+        "high_date": "2026-05-12",
+        "high_pct": -54.76,
+        "low": 1219,
+        "low_date": "2025-10-14",
+        "low_pct": 1068.99,
+        "current": 14250
+      },
+      "daily_20": [
+        {
+          "date": "2026-08-12",
+          "o": 13600,
+          "h": 13800,
+          "l": 12910,
+          "c": 13510
+        },
+        {
+          "date": "2026-08-13",
+          "o": 14100,
+          "h": 14200,
+          "l": 13020,
+          "c": 13240
+        },
+        {
+          "date": "2026-08-14",
+          "o": 13300,
+          "h": 13480,
+          "l": 12450,
+          "c": 13370
+        },
+        {
+          "date": "2026-08-18",
+          "o": 13770,
+          "h": 13800,
+          "l": 12600,
+          "c": 12890
+        },
+        {
+          "date": "2026-08-19",
+          "o": 12060,
+          "h": 13260,
+          "l": 11800,
+          "c": 12700
+        },
+        {
+          "date": "2026-08-20",
+          "o": 12890,
+          "h": 13190,
+          "l": 12400,
+          "c": 12650
+        },
+        {
+          "date": "2026-08-21",
+          "o": 12400,
+          "h": 12450,
+          "l": 12060,
+          "c": 12120
+        },
+        {
+          "date": "2026-08-24",
+          "o": 12130,
+          "h": 13190,
+          "l": 12130,
+          "c": 13150
+        },
+        {
+          "date": "2026-08-25",
+          "o": 13140,
+          "h": 13500,
+          "l": 12600,
+          "c": 13500
+        },
+        {
+          "date": "2026-08-26",
+          "o": 13610,
+          "h": 14800,
+          "l": 13260,
+          "c": 13500
+        },
+        {
+          "date": "2026-08-27",
+          "o": 14090,
+          "h": 15110,
+          "l": 14000,
+          "c": 14860
+        },
+        {
+          "date": "2026-08-28",
+          "o": 14720,
+          "h": 14980,
+          "l": 14030,
+          "c": 14310
+        },
+        {
+          "date": "2026-08-31",
+          "o": 13870,
+          "h": 14210,
+          "l": 13470,
+          "c": 13960
+        },
+        {
+          "date": "2026-09-01",
+          "o": 13920,
+          "h": 13920,
+          "l": 13200,
+          "c": 13310
+        },
+        {
+          "date": "2026-09-02",
+          "o": 12660,
+          "h": 13825,
+          "l": 12600,
+          "c": 13570
+        },
+        {
+          "date": "2026-09-03",
+          "o": 13600,
+          "h": 13930,
+          "l": 12650,
+          "c": 12850
+        },
+        {
+          "date": "2026-09-04",
+          "o": 13100,
+          "h": 13400,
+          "l": 12630,
+          "c": 13010
+        },
+        {
+          "date": "2026-09-07",
+          "o": 13420,
+          "h": 14100,
+          "l": 13360,
+          "c": 13470
+        },
+        {
+          "date": "2026-09-08",
+          "o": 13580,
+          "h": 14450,
+          "l": 13420,
+          "c": 13700
+        },
+        {
+          "date": "2026-09-09",
+          "o": 14260,
+          "h": 14350,
+          "l": 14210,
+          "c": 14250
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
     {
       "code": "069540",
       "name": "빛과전자",
-      "rank": 1,
-      "trade_amount": 50017000000,
-      "change_pct": 5.22,
-      "close_price": 3830,
+      "rank": 2,
+      "trade_amount": 120783000000,
+      "change_pct": 14.42,
+      "close_price": 4165,
       "open_price": 3750,
-      "high_price": 3875,
+      "high_price": 4205,
       "low_price": 3680,
       "industry": "통신 및 방송 장비 제조업",
       "sector": "기타무선통신장비제조업",
@@ -107,17 +457,17 @@
         ],
         "cafe_only": []
       },
-      "index_change_pct": 0.51,
-      "index_multiple_current": 10.24,
+      "index_change_pct": 1.52,
+      "index_multiple_current": 9.49,
       "index_multiple_eligible": true,
       "range_240d": {
         "high": 8100,
         "high_date": "2026-04-16",
-        "high_pct": -52.72,
+        "high_pct": -48.58,
         "low": 592,
         "low_date": "2026-01-02",
-        "low_pct": 546.96,
-        "current": 3830
+        "low_pct": 603.55,
+        "current": 4165
       },
       "daily_20": [
         {
@@ -256,9 +606,9 @@
         {
           "date": "2026-09-09",
           "o": 3750,
-          "h": 3875,
+          "h": 4205,
           "l": 3680,
-          "c": 3830
+          "c": 4165
         }
       ],
       "status_badges": [
@@ -294,11 +644,581 @@
           ]
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 3750,
+        "base": 3750,
+        "prices": [
+          3750,
+          4140,
+          4085
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "투자경고",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰"
+    },
+    {
+      "code": "032820",
+      "name": "우리기술",
+      "rank": 3,
+      "trade_amount": 78336000000,
+      "change_pct": 15.41,
+      "close_price": 13630,
+      "open_price": 12050,
+      "high_price": 13990,
+      "low_price": 11950,
+      "industry": "전동기, 발전기 및 전기 변환 · 공급 · 제어 장치 제조업",
+      "sector": "시스템사업, 정보통신사업",
+      "themes": [
+        "원전",
+        "풍력에너지",
+        "전력설비"
+      ],
+      "theme_paths": [
+        {
+          "name": "원전",
+          "path": [
+            "원전"
+          ]
+        },
+        {
+          "name": "풍력에너지",
+          "path": [
+            "풍력에너지"
+          ]
+        },
+        {
+          "name": "전력설비",
+          "path": [
+            "전력설비"
+          ]
+        }
+      ],
+      "pick_count": 1,
+      "prev_pick": {
+        "date": "2026-08-28",
+        "rank": 6,
+        "change_pct": 2.21,
+        "trade_amount": 121306000000
+      },
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-08-04",
+        "2026-09-09"
+      ],
+      "news": [
+        {
+          "title": "우리기술, 한수원과 85억 규모 고리 3·4호기 제어시스템 공급계약",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03181606645549288",
+          "source": "이데일리",
+          "published_at": "2026-08-20T00:47:55",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "우리기술, 한수원과 원전 공급자 재고관리 협약 체결",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=02915926645546008",
+          "source": "이데일리",
+          "published_at": "2026-08-10T02:16:52",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "우리기술, 400억 원 규모 전환사채 발행",
+          "url": "https://www.mk.co.kr/news/stock/12119481",
+          "source": "매경",
+          "published_at": "2026-08-06T09:07:14",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "우리기술, 400억 투자 유치…원전·SMR·해상풍력 사업 확대",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03227526645544696",
+          "source": "이데일리",
+          "published_at": "2026-08-05T23:45:37",
+          "causal_chain": "원전·SMR·해상풍력 등 무탄소 전원 확대 기조 → 우리기술이 400억원 규모 외부 투자를 유치해 원전 계측제어·해상풍력 등 전력설비 신사업 확장 자본 확보 → 신성장 동력 기대. 다만 당일 종가 11,440원(-2.47%)·거래대금 6억원으로 매수세는 확인되지 않아 투자 유치 재료가 주가에 즉각 반영되지 않은 모습.",
+          "macro_event": "우리기술 400억원 투자 유치, 원전·SMR·해상풍력 신사업 확대",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.45,
+          "newzy_virality": 0.25,
+          "newzy_tradability": null,
+          "newzy_score": 0.37,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        },
+        {
+          "title": "우리기술 子 웨이브정읍, 트라피구라향 정제유 초도물량 선적",
+          "url": "https://www.sedaily.com/article/20075932",
+          "source": "서울경제",
+          "published_at": "2026-08-05T01:39:47",
+          "causal_chain": "글로벌 석유화학사의 탄소감축·순환경제 대응으로 폐플라스틱 기반 정제유(재생원료) 수요 확대 → 우리기술 자회사 웨이브정읍이 글로벌 원자재 트레이더 트라피구라향 정제유 초도물량 220톤 선적 완료(6월 최대 1만5000톤 공급계약의 첫 물량) → 하반기 해외 매출 성장 기대감에 매수세 유입 → 당일 +8.30%(종가 11,740원)·거래대금 507억원.",
+          "macro_event": "폐플라스틱 기반 재생원료(정제유) 수요 확대 — 글로벌 석유화학사 순환경제·탄소감축 대응",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.3,
+          "newzy_tradability": null,
+          "newzy_score": 0.36,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        }
+      ],
+      "fallback": true,
+      "index_change_pct": 1.52,
+      "index_multiple_current": 10.14,
+      "index_multiple_eligible": true,
+      "range_240d": {
+        "high": 30200,
+        "high_date": "2026-03-19",
+        "high_pct": -54.87,
+        "low": 3540,
+        "low_date": "2025-11-24",
+        "low_pct": 285.03,
+        "current": 13630
+      },
+      "daily_20": [
+        {
+          "date": "2026-08-12",
+          "o": 11470,
+          "h": 11510,
+          "l": 11150,
+          "c": 11500
+        },
+        {
+          "date": "2026-08-13",
+          "o": 11590,
+          "h": 12200,
+          "l": 11440,
+          "c": 11760
+        },
+        {
+          "date": "2026-08-14",
+          "o": 12050,
+          "h": 12260,
+          "l": 11550,
+          "c": 11950
+        },
+        {
+          "date": "2026-08-18",
+          "o": 11950,
+          "h": 12100,
+          "l": 11480,
+          "c": 11500
+        },
+        {
+          "date": "2026-08-19",
+          "o": 11130,
+          "h": 11700,
+          "l": 10760,
+          "c": 11560
+        },
+        {
+          "date": "2026-08-20",
+          "o": 11990,
+          "h": 12500,
+          "l": 11560,
+          "c": 12190
+        },
+        {
+          "date": "2026-08-21",
+          "o": 12190,
+          "h": 12380,
+          "l": 11720,
+          "c": 11890
+        },
+        {
+          "date": "2026-08-24",
+          "o": 11890,
+          "h": 12000,
+          "l": 11530,
+          "c": 11800
+        },
+        {
+          "date": "2026-08-25",
+          "o": 12090,
+          "h": 12320,
+          "l": 11550,
+          "c": 12300
+        },
+        {
+          "date": "2026-08-26",
+          "o": 12410,
+          "h": 12810,
+          "l": 12070,
+          "c": 12340
+        },
+        {
+          "date": "2026-08-27",
+          "o": 12120,
+          "h": 12330,
+          "l": 11900,
+          "c": 12240
+        },
+        {
+          "date": "2026-08-28",
+          "o": 12160,
+          "h": 13890,
+          "l": 12080,
+          "c": 12510
+        },
+        {
+          "date": "2026-08-31",
+          "o": 12330,
+          "h": 12340,
+          "l": 11440,
+          "c": 11600
+        },
+        {
+          "date": "2026-09-01",
+          "o": 11600,
+          "h": 11610,
+          "l": 10550,
+          "c": 10750
+        },
+        {
+          "date": "2026-09-02",
+          "o": 10400,
+          "h": 10830,
+          "l": 10260,
+          "c": 10620
+        },
+        {
+          "date": "2026-09-03",
+          "o": 10800,
+          "h": 10820,
+          "l": 10280,
+          "c": 10500
+        },
+        {
+          "date": "2026-09-04",
+          "o": 10600,
+          "h": 10670,
+          "l": 10350,
+          "c": 10630
+        },
+        {
+          "date": "2026-09-07",
+          "o": 10850,
+          "h": 11100,
+          "l": 10510,
+          "c": 10920
+        },
+        {
+          "date": "2026-09-08",
+          "o": 11300,
+          "h": 12700,
+          "l": 11050,
+          "c": 11810
+        },
+        {
+          "date": "2026-09-09",
+          "o": 12050,
+          "h": 13990,
+          "l": 11950,
+          "c": 13630
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
+      "code": "046970",
+      "name": "우리로",
+      "rank": 4,
+      "trade_amount": 12614000000,
+      "change_pct": null,
+      "close_price": null,
+      "open_price": null,
+      "high_price": null,
+      "low_price": null,
+      "industry": null,
+      "sector": null,
+      "themes": [
+        "광통신",
+        "AI데이터센터",
+        "AI"
+      ],
+      "theme_paths": [
+        {
+          "name": "광통신",
+          "path": [
+            "AI",
+            "광통신"
+          ]
+        },
+        {
+          "name": "AI데이터센터",
+          "path": [
+            "AI",
+            "AI데이터센터"
+          ]
+        }
+      ],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [],
+      "news": [
+        {
+          "title": "[특징주] 우리로, 광트랜시버 필수 부품 상용화...美 중국산 퇴출 추진에 상승세",
+          "url": "https://www.etoday.co.kr/news/view/2611319",
+          "source": "이투데이",
+          "published_at": "2026-08-05T05:18:00",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "우리로, AI 데이터센터용 광검출기 상용화 본격 시동",
+          "url": "https://view.asiae.co.kr/article/2026061809122156322",
+          "source": "아시아경제",
+          "published_at": "2026-06-18T00:12:21",
+          "causal_chain": "AI 데이터센터 트래픽 급증 → 고속 광통신 부품 수요 확대 → 우리로 AI 데이터센터용 광검출기 상용화 본격화로 본업 모멘텀 부각 → 매수세 집중되며 당일 상한가(+29.98%)·거래대금 737억원 기록",
+          "macro_event": "AI 데이터센터 고속 광통신 부품 수요 급증",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.8,
+          "newzy_virality": 0.7,
+          "newzy_tradability": null,
+          "newzy_score": 0.76,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        }
+      ],
+      "fallback": true,
+      "theme_crosscheck": {
+        "confirmed": [
+          "AI"
+        ],
+        "pm320_only": [
+          "광통신",
+          "AI데이터센터"
+        ],
+        "cafe_only": []
+      },
+      "range_240d": {
+        "high": 16200,
+        "high_date": "2026-04-17",
+        "high_pct": -66.05,
+        "low": 1206,
+        "low_date": "2025-11-05",
+        "low_pct": 356.05,
+        "current": null
+      },
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
+      "code": "382900",
+      "name": "범한퓨얼셀",
+      "rank": 5,
+      "trade_amount": 5331000000,
+      "change_pct": 29.79,
+      "close_price": 23350,
+      "open_price": 22600,
+      "high_price": 23350,
+      "low_price": 21850,
+      "industry": null,
+      "sector": null,
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [],
+      "news": [],
+      "fallback": true,
+      "range_240d": {
+        "high": 44200,
+        "high_date": "2025-10-30",
+        "high_pct": -47.17,
+        "low": 11810,
+        "low_date": "2026-07-29",
+        "low_pct": 97.71,
+        "current": 23350
+      },
+      "daily_20": [
+        {
+          "date": "2026-08-12",
+          "o": 16990,
+          "h": 17200,
+          "l": 16680,
+          "c": 17130
+        },
+        {
+          "date": "2026-08-13",
+          "o": 20550,
+          "h": 20550,
+          "l": 19010,
+          "c": 19230
+        },
+        {
+          "date": "2026-08-14",
+          "o": 19030,
+          "h": 19040,
+          "l": 18020,
+          "c": 18450
+        },
+        {
+          "date": "2026-08-18",
+          "o": 18310,
+          "h": 18560,
+          "l": 17210,
+          "c": 17530
+        },
+        {
+          "date": "2026-08-19",
+          "o": 17000,
+          "h": 17880,
+          "l": 16850,
+          "c": 17350
+        },
+        {
+          "date": "2026-08-20",
+          "o": 17590,
+          "h": 17770,
+          "l": 17190,
+          "c": 17300
+        },
+        {
+          "date": "2026-08-21",
+          "o": 16610,
+          "h": 16850,
+          "l": 16010,
+          "c": 16140
+        },
+        {
+          "date": "2026-08-24",
+          "o": 16150,
+          "h": 16850,
+          "l": 16120,
+          "c": 16160
+        },
+        {
+          "date": "2026-08-25",
+          "o": 15960,
+          "h": 16960,
+          "l": 15400,
+          "c": 16850
+        },
+        {
+          "date": "2026-08-26",
+          "o": 17030,
+          "h": 17500,
+          "l": 16830,
+          "c": 17330
+        },
+        {
+          "date": "2026-08-27",
+          "o": 17130,
+          "h": 17290,
+          "l": 16780,
+          "c": 16780
+        },
+        {
+          "date": "2026-08-28",
+          "o": 19020,
+          "h": 19100,
+          "l": 17780,
+          "c": 17980
+        },
+        {
+          "date": "2026-08-31",
+          "o": 17270,
+          "h": 17390,
+          "l": 16800,
+          "c": 17270
+        },
+        {
+          "date": "2026-09-01",
+          "o": 17240,
+          "h": 17250,
+          "l": 16650,
+          "c": 16850
+        },
+        {
+          "date": "2026-09-02",
+          "o": 17560,
+          "h": 18000,
+          "l": 16940,
+          "c": 16940
+        },
+        {
+          "date": "2026-09-03",
+          "o": 16940,
+          "h": 17190,
+          "l": 16410,
+          "c": 16440
+        },
+        {
+          "date": "2026-09-04",
+          "o": 16470,
+          "h": 17180,
+          "l": 16470,
+          "c": 16990
+        },
+        {
+          "date": "2026-09-07",
+          "o": 18530,
+          "h": 19940,
+          "l": 18210,
+          "c": 18540
+        },
+        {
+          "date": "2026-09-08",
+          "o": 18650,
+          "h": 18660,
+          "l": 17990,
+          "c": 17990
+        },
+        {
+          "date": "2026-09-09",
+          "o": 22600,
+          "h": 23350,
+          "l": 21850,
+          "c": 23350
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
     }
   ]
 }
