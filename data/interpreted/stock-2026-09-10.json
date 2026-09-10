@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "generated_at": "2026-09-10T15:05:23.704503",
+  "generated_at": "2026-09-10T15:06:26.978543",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -10743,8 +10743,33 @@
       "low_price": 7920,
       "industry": "반도체 제조업",
       "sector": "시스템 반도체 개발",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "반도체",
+        "광통신",
+        "AI데이터센터"
+      ],
+      "theme_paths": [
+        {
+          "name": "반도체",
+          "path": [
+            "반도체"
+          ]
+        },
+        {
+          "name": "광통신",
+          "path": [
+            "AI",
+            "광통신"
+          ]
+        },
+        {
+          "name": "AI데이터센터",
+          "path": [
+            "AI",
+            "AI데이터센터"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": true,
@@ -10758,32 +10783,32 @@
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03785126645578808",
           "source": "이데일리",
           "published_at": "2026-09-10T05:30:03",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "AI 데이터센터 확산으로 기존 전기배선의 대역폭·전력효율 한계가 부각되며 광학을 칩 패키지에 통합하는 CPO 핵심부품 수요가 커짐 → 알파칩스 관계사 포스텍이 美 반도체 글로벌 기업과 CPO용 핵심부품을 공동개발해 초도 양산에 들어가고 2027년 본격 공급을 예고 → 시스템 반도체 개발 기업 알파칩스로 기대 매수세가 집중되며 당일 상한가(+29.98%, 종가 10,450원, 장중 고가=종가 10,450원)를 기록.",
+          "macro_event": "AI 데이터센터 확산에 따른 CPO(Co-Packaged Optics) 광통신 부품 수요 부각",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.55,
+          "newzy_virality": 0.4,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.49,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "알파칩스 “관계사 포스텍 CPO용 핵심 부품 美 반도체 글로벌 기업과 개발…초도 양산”",
           "url": "https://www.etoday.co.kr/news/view/2624093",
           "source": "이투데이",
           "published_at": "2026-09-10T05:18:00",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "AI 데이터센터 확산으로 기존 전기배선의 대역폭·전력효율 한계가 부각되며 광학을 칩 패키지에 통합하는 CPO 핵심부품 수요가 커짐 → 알파칩스 관계사 포스텍이 美 반도체 글로벌 기업과 CPO용 핵심부품을 공동개발해 초도 양산에 들어가고 2027년 본격 공급을 예고 → 시스템 반도체 개발 기업 알파칩스로 기대 매수세가 집중되며 당일 상한가(+29.98%, 종가 10,450원, 장중 고가=종가 10,450원)를 기록.",
+          "macro_event": "AI 데이터센터 확산에 따른 CPO(Co-Packaged Optics) 광통신 부품 수요 부각",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.55,
+          "newzy_virality": 0.4,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.49,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": false,
@@ -10992,9 +11017,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
+      "togusa_verdict": "neutral",
       "theme_leader": false,
-      "hugepark_grade": "주의"
+      "hugepark_grade": "관찰"
     },
     {
       "code": "217820",
