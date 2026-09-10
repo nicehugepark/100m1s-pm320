@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "generated_at": "2026-09-10T09:05:12.536906",
+  "generated_at": "2026-09-10T09:06:11.156214",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -60,8 +60,26 @@
       "low_price": null,
       "industry": "특수 목적용 기계 제조업",
       "sector": "AI 기반 로봇 솔루션 및 3D 비전 솔루션",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "로봇",
+        "AI",
+        "물류자동화"
+      ],
+      "theme_paths": [
+        {
+          "name": "AI",
+          "path": [
+            "AI"
+          ]
+        },
+        {
+          "name": "물류자동화",
+          "path": [
+            "로봇",
+            "물류자동화"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": {
         "date": "2026-07-30",
@@ -78,16 +96,16 @@
           "url": "https://www.mk.co.kr/news/it/12111608",
           "source": "매경",
           "published_at": "2026-07-30T00:30:10",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "NC AI와 피지컬 AI 기반 공동 연구개발·기술 공유 전략적 업무협약(MOU) 체결 → 월드모델·RFM(NC AI)과 VFM·정밀 로봇 제어(씨메스로보틱스) 결합으로 제조·물류 현장 지능형 자동화 솔루션 개발 기대. 다만 실증·매출로 이어지지 않은 초기 단계 MOU라 모멘텀은 약했고, 당일 종가 20,000원(-2.20%)·거래대금 1억원으로 시장 관심은 저조했다.",
+          "macro_event": "피지컬 AI(Physical AI) 기반 로보틱스 공동 R&D",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.3,
+          "newzy_virality": 0.2,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.26,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": true,
@@ -244,7 +262,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "007540",
@@ -266,7 +287,10 @@
       "bullish_streak": 0,
       "bullish_dates": [],
       "news": [],
-      "fallback": true
+      "fallback": true,
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     }
   ]
 }
