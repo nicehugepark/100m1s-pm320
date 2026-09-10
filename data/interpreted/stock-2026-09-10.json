@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "generated_at": "2026-09-10T12:25:18.903238",
+  "generated_at": "2026-09-10T12:26:03.931165",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -3684,11 +3684,19 @@
       "industry": "특수 목적용 기계 제조업",
       "sector": "반도체장비(화학증착장비)",
       "themes": [
+        "HBM",
         "반도체 박막 장비",
         "실적",
         "반도체"
       ],
       "theme_paths": [
+        {
+          "name": "HBM",
+          "path": [
+            "반도체",
+            "HBM"
+          ]
+        },
         {
           "name": "반도체 박막 장비",
           "path": [
@@ -3719,32 +3727,32 @@
           "url": "https://www.etoday.co.kr/news/view/2623852",
           "source": "이투데이",
           "published_at": "2026-09-09T23:43:00",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "NAND 고단화·D램·HBM 캐파 확장으로 반도체 박막(화학증착) 장비 투자가 늘며 테스가 직접 수혜 → 수주잔고 급증이 실적·주가 상승 원동력으로 부각 → IBK투자증권 '매수' 의견과 맞물려 매수세 유입 → 당일 종가 166,100원(+7.65%)·거래대금 928억원으로 관심 집중.",
+          "macro_event": "NAND 고단화·D램·HBM 확장에 따른 반도체 장비 투자 사이클 확대",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.5,
+          "newzy_virality": 0.4,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.46,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "테스, 급증한 수주잔고가 주가 상승 원동력…'매수'-IBK",
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=02728966645578808",
           "source": "이데일리",
           "published_at": "2026-09-09T23:07:12",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "NAND 고단화·D램·HBM 캐파 확장으로 반도체 박막(화학증착) 장비 투자가 늘며 테스가 직접 수혜 → 수주잔고 급증이 실적·주가 상승 원동력으로 부각 → IBK투자증권 '매수' 의견과 맞물려 매수세 유입 → 당일 종가 166,100원(+7.65%)·거래대금 928억원으로 관심 집중.",
+          "macro_event": "NAND 고단화·D램·HBM 확장에 따른 반도체 장비 투자 사이클 확대",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.5,
+          "newzy_virality": 0.4,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.46,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "SK證 \"테스, 신규 수주 급증…하반기 실적 개선 전망\"",
@@ -3769,6 +3777,7 @@
           "반도체"
         ],
         "pm320_only": [
+          "HBM",
           "반도체 박막 장비",
           "실적"
         ],
@@ -3929,7 +3938,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "004090",
@@ -5575,7 +5587,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "053260",
