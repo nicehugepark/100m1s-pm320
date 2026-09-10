@@ -1,15 +1,15 @@
 {
   "date": "2026-09-10",
-  "generated_at": "2026-09-10T10:05:56.472565",
+  "generated_at": "2026-09-10T10:15:15.150683",
   "data_source": "kiwoom",
   "macro_events": [
     {
-      "title": "AI인프라",
-      "summary": "AI 데이터센터 수요 급증 → 반도체 기판·냉각 솔루션 수주 확대 → 소재·부품 섹터 강세"
-    },
-    {
       "title": "GLP-1복합제",
       "summary": "GLP-1 복합제 임상 가능성 부각 → 비만신약 시장 확대 → 국내 제약사 신약 파이프라인 재평가 기대"
+    },
+    {
+      "title": "AI데이터센터",
+      "summary": "AI 데이터센터 수요 급증 → 한국 기업 인프라·소재 수주 확대 → 반도체 기판·필터소재·HVAC 관련주 수혜"
     },
     {
       "title": "AI기판기술",
@@ -62,9 +62,9 @@
     },
     {
       "keyword": "AI인프라",
-      "summary": "글로벌 AI 데이터센터 투자 확대 → 반도체 기판·냉방·필터소재 수요 증가 → 관련 산업 호황",
+      "summary": "AI 데이터센터 수요 급증 → 반도체 기판·냉각 솔루션 수주 확대 → 소재·부품 섹터 강세",
       "source_count": 1,
-      "verified": false
+      "verified": true
     },
     {
       "keyword": "반도체기판",
@@ -76,6 +76,17 @@
   "themes_tree": {
     "date": "2026-09-10",
     "roots": [
+      {
+        "name": "AI",
+        "children": [
+          {
+            "name": "AI 인프라",
+            "summary": "글로벌 AI 데이터센터 증설 가속으로 전력·필터·기판 등 인프라 소재/장비 수주가 확대되며 관련 부품·소재주로 매수세 유입.",
+            "source_count": 3,
+            "verdict": "unverified"
+          }
+        ]
+      },
       {
         "name": "AI 인프라",
         "children": [
@@ -204,6 +215,12 @@
             "summary": "AI 반도체 고성능화로 고다층 패키지 기판 기술 수요가 커지며 기판 소재·제조 업체가 부각.",
             "source_count": 1,
             "verdict": "pass"
+          },
+          {
+            "name": "AI 반도체 기판",
+            "summary": "AI 서버 고성능화로 고다층 반도체 기판 수요가 늘며 관련 기판 기술 보유 업체가 수혜 섹터로 부각.",
+            "source_count": 1,
+            "verdict": "pass"
           }
         ]
       },
@@ -219,6 +236,18 @@
           {
             "name": "비만치료제",
             "summary": "로슈가 한미약품 비만신약을 주목하며 GLP-1 복합제 개발 가능성이 부각돼 국내 비만치료제 신약 섹터가 수혜받는다.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "비만치료제",
+            "summary": "글로벌 제약사 로슈의 관심으로 GLP-1 복합제 기대가 커지며 국내 비만신약 개발 제약주로 매수 이유 형성.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "비만치료제",
+            "summary": "글로벌 제약사 로슈의 관심으로 GLP-1 복합제 기대가 커지며 국내 비만신약 개발 제약주로 매수 이유 형성.",
             "source_count": 1,
             "verdict": "weak"
           }
@@ -295,11 +324,11 @@
       "code": "024060",
       "name": "흥구석유",
       "rank": 1,
-      "trade_amount": 163135000000,
-      "change_pct": 22.5,
-      "close_price": 14810,
+      "trade_amount": 183827000000,
+      "change_pct": 26.05,
+      "close_price": 15240,
       "open_price": 12730,
-      "high_price": 15120,
+      "high_price": 15250,
       "low_price": 12720,
       "industry": "기타 전문 도매업",
       "sector": "휘발유등",
@@ -381,17 +410,17 @@
         ],
         "cafe_only": []
       },
-      "index_change_pct": -1.64,
-      "index_multiple_current": -13.72,
+      "index_change_pct": -1.73,
+      "index_multiple_current": -15.06,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 36200,
         "high_date": "2026-03-05",
-        "high_pct": -59.09,
+        "high_pct": -57.9,
         "low": 8920,
         "low_date": "2026-07-06",
-        "low_pct": 66.03,
-        "current": 14810
+        "low_pct": 70.85,
+        "current": 15240
       },
       "daily_20": [
         {
@@ -530,9 +559,9 @@
         {
           "date": "2026-09-10",
           "o": 12730,
-          "h": 15120,
+          "h": 15250,
           "l": 12720,
-          "c": 14810
+          "c": 15240
         }
       ],
       "intraday": {
@@ -552,7 +581,9 @@
           14820,
           14890,
           14820,
-          14820
+          14580,
+          14950,
+          15160
         ]
       },
       "togusa_verdict": "weak_bull",
@@ -563,9 +594,9 @@
       "code": "032940",
       "name": "원익",
       "rank": 2,
-      "trade_amount": 77726000000,
-      "change_pct": 5.78,
-      "close_price": 10790,
+      "trade_amount": 79811000000,
+      "change_pct": 5.69,
+      "close_price": 10780,
       "open_price": 10400,
       "high_price": 11600,
       "low_price": 10090,
@@ -600,17 +631,17 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": -1.64,
-      "index_multiple_current": -3.52,
+      "index_change_pct": -1.73,
+      "index_multiple_current": -3.29,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 17800,
         "high_date": "2026-01-05",
-        "high_pct": -39.38,
+        "high_pct": -39.44,
         "low": 4215,
         "low_date": "2026-07-30",
-        "low_pct": 155.99,
-        "current": 10790
+        "low_pct": 155.75,
+        "current": 10780
       },
       "daily_20": [
         {
@@ -751,7 +782,7 @@
           "o": 10400,
           "h": 11600,
           "l": 10090,
-          "c": 10790
+          "c": 10780
         }
       ],
       "intraday": {
@@ -771,7 +802,9 @@
           11110,
           10890,
           10800,
-          10810
+          10720,
+          10780,
+          10800
         ]
       },
       "togusa_verdict": "neutral",
@@ -781,12 +814,246 @@
       "parent_theme": ""
     },
     {
+      "code": "003280",
+      "name": "흥아해운",
+      "rank": 3,
+      "trade_amount": 72958000000,
+      "change_pct": 13.41,
+      "close_price": 1996,
+      "open_price": 1782,
+      "high_price": 1999,
+      "low_price": 1772,
+      "industry": "해상 운송업",
+      "sector": "외항화물운송업(케미컬탱커)",
+      "themes": [
+        "해운"
+      ],
+      "theme_paths": [
+        {
+          "name": "해운",
+          "path": [
+            "해운"
+          ]
+        }
+      ],
+      "pick_count": 1,
+      "prev_pick": {
+        "date": "2026-08-18",
+        "rank": 9,
+        "change_pct": 12.9,
+        "trade_amount": 88164000000
+      },
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [
+        "2026-08-18"
+      ],
+      "news": [
+        {
+          "title": "[오늘의 증시일정] 네오위즈·좋은사람들·흥아해운 등",
+          "url": "https://www.etoday.co.kr/news/view/2616196",
+          "source": "이투데이",
+          "published_at": "2026-08-19T23:44:00",
+          "causal_chain": "제공된 뉴스는 '오늘의 증시일정'에 종목명이 단순 나열된 일정 안내뿐으로, 흥아해운(케미컬탱커 외항화물운송) 펀더멘털이나 해운 매크로를 움직이는 이벤트가 없다. 당일 종가 1,758원(+2.21%)·거래대금 4억원으로 관심도 미약해 테마 모멘텀을 연결할 근거가 없다.",
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": "시세정형"
+        }
+      ],
+      "fallback": true,
+      "index_change_pct": -1.97,
+      "index_multiple_current": -6.81,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 4795,
+        "high_date": "2026-04-02",
+        "high_pct": -58.37,
+        "low": 1524,
+        "low_date": "2026-07-29",
+        "low_pct": 30.97,
+        "current": 1996
+      },
+      "daily_20": [
+        {
+          "date": "2026-08-13",
+          "o": 1715,
+          "h": 1715,
+          "l": 1690,
+          "c": 1695
+        },
+        {
+          "date": "2026-08-14",
+          "o": 1700,
+          "h": 1713,
+          "l": 1677,
+          "c": 1713
+        },
+        {
+          "date": "2026-08-18",
+          "o": 1720,
+          "h": 1985,
+          "l": 1719,
+          "c": 1934
+        },
+        {
+          "date": "2026-08-19",
+          "o": 1890,
+          "h": 1957,
+          "l": 1771,
+          "c": 1791
+        },
+        {
+          "date": "2026-08-20",
+          "o": 1770,
+          "h": 1802,
+          "l": 1736,
+          "c": 1786
+        },
+        {
+          "date": "2026-08-21",
+          "o": 1806,
+          "h": 1807,
+          "l": 1748,
+          "c": 1770
+        },
+        {
+          "date": "2026-08-24",
+          "o": 1750,
+          "h": 1810,
+          "l": 1730,
+          "c": 1788
+        },
+        {
+          "date": "2026-08-25",
+          "o": 1762,
+          "h": 1812,
+          "l": 1736,
+          "c": 1799
+        },
+        {
+          "date": "2026-08-26",
+          "o": 1771,
+          "h": 1775,
+          "l": 1696,
+          "c": 1711
+        },
+        {
+          "date": "2026-08-27",
+          "o": 1712,
+          "h": 1727,
+          "l": 1690,
+          "c": 1699
+        },
+        {
+          "date": "2026-08-28",
+          "o": 1706,
+          "h": 1731,
+          "l": 1685,
+          "c": 1720
+        },
+        {
+          "date": "2026-08-31",
+          "o": 1750,
+          "h": 1770,
+          "l": 1689,
+          "c": 1700
+        },
+        {
+          "date": "2026-09-01",
+          "o": 1700,
+          "h": 1725,
+          "l": 1681,
+          "c": 1689
+        },
+        {
+          "date": "2026-09-02",
+          "o": 1740,
+          "h": 1845,
+          "l": 1689,
+          "c": 1712
+        },
+        {
+          "date": "2026-09-03",
+          "o": 1701,
+          "h": 1789,
+          "l": 1691,
+          "c": 1699
+        },
+        {
+          "date": "2026-09-04",
+          "o": 1702,
+          "h": 1745,
+          "l": 1699,
+          "c": 1724
+        },
+        {
+          "date": "2026-09-07",
+          "o": 1744,
+          "h": 1779,
+          "l": 1721,
+          "c": 1739
+        },
+        {
+          "date": "2026-09-08",
+          "o": 1748,
+          "h": 1767,
+          "l": 1724,
+          "c": 1760
+        },
+        {
+          "date": "2026-09-09",
+          "o": 1772,
+          "h": 1782,
+          "l": 1745,
+          "c": 1760
+        },
+        {
+          "date": "2026-09-10",
+          "o": 1782,
+          "h": 1999,
+          "l": 1772,
+          "c": 1996
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 1782,
+        "base": 1782,
+        "prices": [
+          1782,
+          1840,
+          1871,
+          1859,
+          1829,
+          1845,
+          1930,
+          1960,
+          1921,
+          1918,
+          1929,
+          1924,
+          1902,
+          1986,
+          1998
+        ]
+      },
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
+    },
+    {
       "code": "046970",
       "name": "우리로",
-      "rank": 3,
-      "trade_amount": 61885000000,
-      "change_pct": 5.48,
-      "close_price": 6930,
+      "rank": 4,
+      "trade_amount": 66866000000,
+      "change_pct": 2.44,
+      "close_price": 6730,
       "open_price": 6660,
       "high_price": 7090,
       "low_price": 6400,
@@ -870,17 +1137,17 @@
         ],
         "cafe_only": []
       },
-      "index_change_pct": -1.64,
-      "index_multiple_current": -3.34,
+      "index_change_pct": -1.73,
+      "index_multiple_current": -1.41,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 16200,
         "high_date": "2026-04-17",
-        "high_pct": -57.22,
+        "high_pct": -58.46,
         "low": 1206,
         "low_date": "2025-11-05",
-        "low_pct": 474.63,
-        "current": 6930
+        "low_pct": 458.04,
+        "current": 6730
       },
       "daily_20": [
         {
@@ -1021,7 +1288,7 @@
           "o": 6660,
           "h": 7090,
           "l": 6400,
-          "c": 6930
+          "c": 6730
         }
       ],
       "intraday": {
@@ -1041,7 +1308,9 @@
           6720,
           6860,
           6840,
-          6860
+          6980,
+          6820,
+          6720
         ]
       },
       "credit_risk": true,
@@ -1051,218 +1320,247 @@
       "hugepark_grade": "관찰"
     },
     {
-      "code": "003280",
-      "name": "흥아해운",
-      "rank": 4,
-      "trade_amount": 52410000000,
+      "code": "004090",
+      "name": "한국석유",
+      "rank": 5,
+      "trade_amount": 53662000000,
       "change_pct": null,
       "close_price": null,
       "open_price": null,
       "high_price": null,
       "low_price": null,
-      "industry": "해상 운송업",
-      "sector": "외항화물운송업(케미컬탱커)",
-      "themes": [
-        "해운"
-      ],
-      "theme_paths": [
-        {
-          "name": "해운",
-          "path": [
-            "해운"
-          ]
-        }
-      ],
+      "industry": null,
+      "sector": null,
+      "themes": [],
+      "theme_paths": [],
       "pick_count": 1,
-      "prev_pick": {
-        "date": "2026-08-18",
-        "rank": 9,
-        "change_pct": 12.9,
-        "trade_amount": 88164000000
-      },
+      "prev_pick": null,
       "bullish_today": false,
       "bullish_streak": 0,
       "bullish_dates": [],
-      "news": [
+      "news": [],
+      "fallback": true
+    },
+    {
+      "code": "187660",
+      "name": "페니트리움바이오",
+      "rank": 6,
+      "trade_amount": 51608000000,
+      "change_pct": 9.57,
+      "close_price": 8130,
+      "open_price": 8000,
+      "high_price": 9100,
+      "low_price": 7930,
+      "industry": "자연과학 및 공학 연구개발업",
+      "sector": "임상 CRO 서비스",
+      "themes": [
+        "바이오"
+      ],
+      "theme_paths": [
         {
-          "title": "[오늘의 증시일정] 네오위즈·좋은사람들·흥아해운 등",
-          "url": "https://www.etoday.co.kr/news/view/2616196",
-          "source": "이투데이",
-          "published_at": "2026-08-19T23:44:00",
-          "causal_chain": "제공된 뉴스는 '오늘의 증시일정'에 종목명이 단순 나열된 일정 안내뿐으로, 흥아해운(케미컬탱커 외항화물운송) 펀더멘털이나 해운 매크로를 움직이는 이벤트가 없다. 당일 종가 1,758원(+2.21%)·거래대금 4억원으로 관심도 미약해 테마 모멘텀을 연결할 근거가 없다.",
-          "macro_event": null,
-          "newzy_freshness": null,
-          "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
-          "newzy_tradability": null,
-          "newzy_score": null,
-          "newzy_verdict": null,
-          "article_type": "시세정형"
+          "name": "바이오",
+          "path": [
+            "바이오"
+          ]
         }
       ],
+      "pick_count": 2,
+      "prev_pick": {
+        "date": "2026-09-09",
+        "rank": 25,
+        "change_pct": 29.95,
+        "trade_amount": 29789000000
+      },
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [
+        "2026-08-13",
+        "2026-08-26",
+        "2026-08-31",
+        "2026-09-09"
+      ],
+      "news": [],
       "fallback": true,
-      "index_change_pct": -1.32,
+      "index_change_pct": -1.73,
+      "index_multiple_current": -5.53,
+      "index_multiple_eligible": false,
       "range_240d": {
-        "high": 4795,
-        "high_date": "2026-04-02",
-        "high_pct": -63.34,
-        "low": 1524,
-        "low_date": "2026-07-29",
-        "low_pct": 15.35,
-        "current": 1758
+        "high": 20885,
+        "high_date": "2026-03-13",
+        "high_pct": -61.07,
+        "low": 2234,
+        "low_date": "2025-09-30",
+        "low_pct": 263.92,
+        "current": 8130
       },
       "daily_20": [
         {
-          "date": "2026-08-04",
-          "o": 1567,
-          "h": 1654,
-          "l": 1567,
-          "c": 1653
-        },
-        {
-          "date": "2026-08-05",
-          "o": 1655,
-          "h": 1705,
-          "l": 1641,
-          "c": 1684
-        },
-        {
-          "date": "2026-08-06",
-          "o": 1664,
-          "h": 1727,
-          "l": 1631,
-          "c": 1668
-        },
-        {
-          "date": "2026-08-07",
-          "o": 1677,
-          "h": 1714,
-          "l": 1647,
-          "c": 1685
-        },
-        {
-          "date": "2026-08-10",
-          "o": 1687,
-          "h": 1720,
-          "l": 1666,
-          "c": 1691
-        },
-        {
-          "date": "2026-08-11",
-          "o": 1720,
-          "h": 1765,
-          "l": 1694,
-          "c": 1725
-        },
-        {
-          "date": "2026-08-12",
-          "o": 1728,
-          "h": 1743,
-          "l": 1704,
-          "c": 1712
-        },
-        {
           "date": "2026-08-13",
-          "o": 1715,
-          "h": 1715,
-          "l": 1690,
-          "c": 1695
+          "o": 4350,
+          "h": 5240,
+          "l": 4265,
+          "c": 4920
         },
         {
           "date": "2026-08-14",
-          "o": 1700,
-          "h": 1713,
-          "l": 1677,
-          "c": 1713
+          "o": 4985,
+          "h": 5070,
+          "l": 4310,
+          "c": 4330
         },
         {
           "date": "2026-08-18",
-          "o": 1720,
-          "h": 1985,
-          "l": 1719,
-          "c": 1934
+          "o": 4335,
+          "h": 4375,
+          "l": 4040,
+          "c": 4085
         },
         {
           "date": "2026-08-19",
-          "o": 1890,
-          "h": 1957,
-          "l": 1771,
-          "c": 1791
+          "o": 3910,
+          "h": 3990,
+          "l": 3785,
+          "c": 3815
         },
         {
           "date": "2026-08-20",
-          "o": 1770,
-          "h": 1802,
-          "l": 1736,
-          "c": 1786
+          "o": 3945,
+          "h": 4035,
+          "l": 3605,
+          "c": 3700
         },
         {
           "date": "2026-08-21",
-          "o": 1806,
-          "h": 1807,
-          "l": 1748,
-          "c": 1770
+          "o": 3685,
+          "h": 3685,
+          "l": 3270,
+          "c": 3350
         },
         {
           "date": "2026-08-24",
-          "o": 1750,
-          "h": 1810,
-          "l": 1730,
-          "c": 1788
+          "o": 3350,
+          "h": 3535,
+          "l": 3290,
+          "c": 3415
         },
         {
           "date": "2026-08-25",
-          "o": 1762,
-          "h": 1812,
-          "l": 1736,
-          "c": 1799
+          "o": 3415,
+          "h": 3650,
+          "l": 3260,
+          "c": 3490
         },
         {
           "date": "2026-08-26",
-          "o": 1771,
-          "h": 1775,
-          "l": 1696,
-          "c": 1711
+          "o": 3225,
+          "h": 4100,
+          "l": 3195,
+          "c": 3850
         },
         {
           "date": "2026-08-27",
-          "o": 1712,
-          "h": 1727,
-          "l": 1690,
-          "c": 1699
+          "o": 3840,
+          "h": 4600,
+          "l": 3705,
+          "c": 3980
         },
         {
           "date": "2026-08-28",
-          "o": 1706,
-          "h": 1731,
-          "l": 1685,
-          "c": 1720
+          "o": 3940,
+          "h": 4370,
+          "l": 3780,
+          "c": 4230
         },
         {
           "date": "2026-08-31",
-          "o": 1750,
-          "h": 1770,
-          "l": 1740,
-          "c": 1758
+          "o": 4185,
+          "h": 5050,
+          "l": 4065,
+          "c": 4950
+        },
+        {
+          "date": "2026-09-01",
+          "o": 4900,
+          "h": 5160,
+          "l": 4715,
+          "c": 4930
+        },
+        {
+          "date": "2026-09-02",
+          "o": 4870,
+          "h": 4885,
+          "l": 4510,
+          "c": 4760
+        },
+        {
+          "date": "2026-09-03",
+          "o": 4985,
+          "h": 5580,
+          "l": 4980,
+          "c": 5100
+        },
+        {
+          "date": "2026-09-04",
+          "o": 5120,
+          "h": 5850,
+          "l": 4290,
+          "c": 5850
+        },
+        {
+          "date": "2026-09-07",
+          "o": 6000,
+          "h": 6550,
+          "l": 5940,
+          "c": 6470
+        },
+        {
+          "date": "2026-09-08",
+          "o": 6400,
+          "h": 6550,
+          "l": 5710,
+          "c": 5710
+        },
+        {
+          "date": "2026-09-09",
+          "o": 5620,
+          "h": 7420,
+          "l": 5580,
+          "c": 7420
         },
         {
           "date": "2026-09-10",
-          "o": 1782,
-          "h": 1980,
-          "l": 1772,
-          "c": 1903
+          "o": 8000,
+          "h": 9100,
+          "l": 7930,
+          "c": 8130
         }
       ],
-      "togusa_verdict": "neutral",
-      "theme_leader": true,
-      "hugepark_grade": "관찰"
+      "status_badges": [
+        {
+          "label": "투자주의",
+          "severity": "caution",
+          "start": "2026-09-10",
+          "end": "2026-09-10",
+          "summary": "페니트리움바이오가 당일 종가 기준 2026-09-10 ~ 2026-09-24 (15일간) 주가상승률 94.50%, 당일 상위 20개 계좌 매수관여율 33.67%로 지정요건을 모두 충족하여 2026-09-10 하루간 투자주의종목으로 지정됨. 상위 3개 계좌 매수관여율은 개인 4.20%·외국인 3.84%·개인 3.41%이며 최근 2026-09-10 ~ 2026-09-14 (5일간)·2026-09-10 ~ 2026-09-24 (15일간) 동일사유 지정횟수는 0회임.",
+          "condition": "당일 종가가 15일 전날 종가보다 75% 이상 상승 + 당일 상위 20개 계좌 매수관여율 30% 이상 (모두 충족)",
+          "regulation": "2026-09-10 (1일간)",
+          "view_date": "2026-09-10",
+          "next_trading_day": "2026-09-11",
+          "single_price": false,
+          "source": "disclosure",
+          "disclosure_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260909000501",
+          "disclosure_title": "[투자주의]15일간 상승종목의 당일 소수계좌 매수관여 과다종목",
+          "effect_badges": []
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "투자주의"
     },
     {
       "code": "007540",
       "name": "샘표",
-      "rank": 5,
-      "trade_amount": 2068000000,
+      "rank": 7,
+      "trade_amount": 2164000000,
       "change_pct": 29.99,
       "close_price": 55700,
       "open_price": 55700,
@@ -1279,8 +1577,8 @@
       "bullish_dates": [],
       "news": [],
       "fallback": true,
-      "index_change_pct": -1.32,
-      "index_multiple_current": -22.72,
+      "index_change_pct": -1.97,
+      "index_multiple_current": -15.22,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 73100,
@@ -1438,6 +1736,8 @@
         "open": 55700,
         "base": 55700,
         "prices": [
+          55700,
+          55700,
           55700,
           55700,
           55700,
