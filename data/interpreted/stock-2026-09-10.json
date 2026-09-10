@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "generated_at": "2026-09-10T11:05:14.990212",
+  "generated_at": "2026-09-10T11:06:28.162197",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -1984,8 +1984,24 @@
       "low_price": 55700,
       "industry": "기타 금융업",
       "sector": "간장,된장,고추장 제조,가공,판매,무역",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "음식료",
+        "저PBR"
+      ],
+      "theme_paths": [
+        {
+          "name": "음식료",
+          "path": [
+            "음식료"
+          ]
+        },
+        {
+          "name": "저PBR",
+          "path": [
+            "저PBR"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": false,
@@ -1997,16 +2013,16 @@
           "url": "https://biz.chosun.com/stock/stock_general/2026/09/10/UZUFFQDT2VAVREMP5R63RZSOHE/",
           "source": "조선비즈",
           "published_at": "2026-09-10T01:49:57",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "발행주식 총수의 약 30%에 달하는 대규모 자사주 소각 결정 → 유통주식수 급감·주당가치 제고·강력한 주주환원 시그널로 저PBR 재평가 기대 → 간장·된장 등 음식료 제조 본업 종목에 매수세 집중 → 시초가부터 점상한가(시=고=저=종 55,700원, +29.99%) 형성.",
+          "macro_event": "발행주식의 약 30%에 달하는 대규모 자사주 소각 결정 (주주환원)",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.75,
+          "newzy_virality": 0.4,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.61,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "공시"
         }
       ],
       "fallback": false,
@@ -2196,7 +2212,7 @@
         ]
       },
       "togusa_verdict": "weak_bear",
-      "theme_leader": false,
+      "theme_leader": true,
       "hugepark_grade": "주의"
     }
   ]
