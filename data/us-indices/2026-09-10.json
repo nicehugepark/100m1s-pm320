@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26155.12,
-      "change_pct": -0.37,
+      "point": 26134.44,
+      "change_pct": -0.45,
       "candle": {
         "o": 26013.69,
         "h": 26159.31,
         "l": 25983.01,
-        "c": 26155.12
+        "c": 26134.44
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,7 +2033,7 @@
           "o": 26013.69,
           "h": 26159.31,
           "l": 25983.01,
-          "c": 26155.12
+          "c": 26134.44
         }
       ],
       "spark": [
@@ -2052,7 +2052,9 @@
         26107.46,
         26119.57,
         26157.39,
-        26155.12
+        26132.8,
+        26137.27,
+        26134.44
       ],
       "news": {
         "summary": "애플 폴더블 아이폰 출시·반도체·HDD 수요 급등으로 하드웨어 사이클 부각. AI 투자 약세 신호 가운데 Anthropic IPO 임박하나 핵심 연구진 이탈 우려 동시 진행.",
@@ -2076,13 +2078,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7606.04,
-      "change_pct": -0.4,
+      "point": 7600.77,
+      "change_pct": -0.47,
       "candle": {
         "o": 7594.74,
         "h": 7612.74,
         "l": 7580.06,
-        "c": 7606.04
+        "c": 7600.77
       },
       "range_240d": {
         "low": 6343.72,
@@ -4106,7 +4108,7 @@
           "o": 7594.74,
           "h": 7612.74,
           "l": 7580.06,
-          "c": 7606.04
+          "c": 7600.77
         }
       ],
       "spark": [
@@ -4125,7 +4127,9 @@
         7600.02,
         7602.48,
         7606.17,
-        7606.04
+        7601.49,
+        7600.73,
+        7600.77
       ],
       "news": {
         "summary": "연준 금리 결정 임박 속 10년물 수익률 2023년 이후 최고 기록. 중동 긴장·유가 100달러 돌파, 중국 물가 오름세 심화. 8월 고용 16.2만 개 증가로 인플레 재부각되는 가운데 캐나다 보복 관세 확대로 무역 불확실성 심화.",
@@ -4149,13 +4153,13 @@
     },
     {
       "name": "DOW",
-      "point": 52159.48,
-      "change_pct": -0.42,
+      "point": 52129.74,
+      "change_pct": -0.48,
       "candle": {
         "o": 52291.85,
         "h": 52291.85,
         "l": 52006.96,
-        "c": 52159.48
+        "c": 52129.74
       },
       "range_240d": {
         "low": 45166.64,
@@ -6179,7 +6183,7 @@
           "o": 52291.85,
           "h": 52291.85,
           "l": 52006.96,
-          "c": 52159.48
+          "c": 52129.74
         }
       ],
       "spark": [
@@ -6198,7 +6202,9 @@
         52167.67,
         52165.9,
         52162.48,
-        52159.48
+        52126.15,
+        52128.71,
+        52129.74
       ],
       "news": {
         "summary": "10년물 수익률 급등에 대형주·금융 매도 압력 가중. 고용 강세·Treasury 채권 환매 시장 주도하는 가운데 금융사 M&A 가속(EverBank-WaFd 75억 달러 규모). 중동 긴장·유가 100달러 돌파로 에너지 수익성 개선 신호.",
@@ -6223,91 +6229,89 @@
   ],
   "news_chips": [
     {
-      "summary": "8월 미국 생산자물가(PPI)가 전월 대비 0.4% 상승하며 인플레 압력이 지속되고 있다.",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/economy/central-banking/producer-price-inflation-accelerated-last-month-bc29a96f?mod=rss_socialeconomyfeed",
-      "published_ts": 1789044900.0,
+      "summary": "거래자들이 연준의 다음주 금리 인상 가능성을 70%로 평가 중",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/10/the-likelihood-of-a-fed-interest-rate-hike-next-week-just-got-a-lot-higher.html",
+      "published_ts": 1789050895.0,
       "impact_high": true
     },
     {
-      "summary": "에너지가격 상승으로 인플레 우려가 재점화되면서 ECB가 올해 두 번째 금리를 0.25%포인트 인상했다.",
-      "source": "WSJ",
+      "summary": "중동 에너지 가격 상승에 따른 인플레 우려로 ECB가 올해 두 번째 금리 인상",
+      "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/the-ecb-just-raised-interest-rates-heres-what-to-know-c03f9bb0?mod=rss_socialeconomyfeed",
       "published_ts": 1789044000.0,
       "impact_high": true
     },
     {
-      "summary": "10년물 독일채와 미국 국채 수익률이 사상 최고 수준으로 상승하며 글로벌 금리 인상 기대를 반영했다.",
+      "summary": "후티가 모카 항구 점령으로 호르무즈 해협 부근 에너지 수출 병목지점 지배력 강화",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/yemens-iran-backed-houthis-sweep-toward-strategic-bab-al-mandeb-c1786d79?mod=rss_worldnews",
+      "published_ts": 1789043940.0,
+      "impact_high": true
+    },
+    {
+      "summary": "글로벌 채권 판매 가속으로 독일 10년물 및 미국 국채 수익률이 다년간 최고치 경신",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/investing/bond-yields-edge-up-as-investors-await-ecb-rate-hike-u-s-treasury-buybacks-4cd2e9f3?mod=rss_markets_main",
       "published_ts": 1789036080.0,
       "impact_high": true
     },
     {
-      "summary": "연준의 다음 금리 결정이 금요일 발표될 소비자물가 지표의 강약에 따라 좌우될 전망이다.",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/economy/central-banking/inflation-report-fed-interest-rate-decision-e98331d9?mod=rss_socialeconomyfeed",
-      "published_ts": 1789002000.0,
-      "impact_high": true
-    },
-    {
-      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
+      "summary": "미-이란 군사 충돌과 후티 공격으로 브렌트유가 배럴당 $100 돌파, 7월 이후 최고가",
       "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/with-close-calls-on-u-s-warships-iran-shows-new-appetite-for-escalation-e2758bbd?mod=rss_worldnews",
-      "published_ts": 1789002000.0,
-      "impact_high": true
-    },
-    {
-      "summary": "이란-미국 분쟁과 후티군의 공격이 중동 공급망을 위협하면서 브렌트유가 배럴당 100달러를 돌파했다.",
-      "source": "WSJ",
       "url": "https://www.wsj.com/world/middle-east/brent-nears-100-as-u-s-iran-escalation-houthi-strikes-deepen-gulf-supply-fears-768ab4db?mod=rss_worldnews",
       "published_ts": 1788982140.0,
       "impact_high": true
     },
     {
-      "summary": "8월 미국 기존주택판매가 1년 이상 최저치로 하락하며 높아진 모기지금리에 따른 부동산시장 위축이 지속되고 있다.",
-      "source": "WSJ",
+      "summary": "미국이 캐나다산 이륜차·주류·유제품 등 수입금지 조치 발표, 9월 29일부터 발효",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/09/us-canada-trade-war-import-ban.html",
+      "published_ts": 1788970666.0,
+      "impact_high": true
+    },
+    {
+      "summary": "금리 인상으로 8월 기존주택 판매가 월비 2% 하락해 1년 만 최저치 기록",
+      "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/housing/home-sales-in-august-tumble-to-lowest-level-since-last-year-25851c6e?mod=rss_socialeconomyfeed",
       "published_ts": 1789048800.0,
       "impact_high": false
     },
     {
-      "summary": "채권 수익률 상승과 유가 강세로 미국 주식 지수가 하락 마감했다.",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-10-2026?mod=rss_markets_main",
-      "published_ts": 1789029223.0,
+      "summary": "8월 생산자물가가 전월비 0.4% 상승하며 7월의 0.1%에서 가속화",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/10/ppi-inflation-report-august-2026.html",
+      "published_ts": 1789046625.0,
       "impact_high": false
     },
     {
-      "summary": "한국이 미국과 수십억달러 규모의 투자 협상을 진행 중이며 핵에너지 포함 등 트럼프 통상 우선순위 이행을 추진하고 있다.",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/world/asia/south-korea-nears-agreement-on-billions-in-u-s-investments-a-win-for-trump-2b58dc4a?mod=rss_worldnews",
-      "published_ts": 1789022400.0,
-      "impact_high": false
-    },
-    {
-      "summary": "일본 금리 인상 기대와 미국의 정치적 압력으로 엔화가 다년간 저점에서 급등 반전했다.",
-      "source": "WSJ",
+      "summary": "일본은행 금리 인상 전망과 미국 달러 약화 압박이 복합 작용하며 엔화 다년간 저점에서 반등",
+      "source": "WSJ경제",
       "url": "https://www.wsj.com/finance/currencies/bank-of-japan-tightening-bets-u-s-pressure-spark-yen-recovery-68cf7184?mod=rss_socialeconomyfeed",
       "published_ts": 1789017240.0,
       "impact_high": false
+    },
+    {
+      "summary": "미국이 이란 유조선 공격으로 보복하며 중동 분쟁이 해상 무역 위협 수준으로 확대",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/iran-launched-undisclosed-second-wave-of-attacks-on-u-s-navy-ships-560f31a1?mod=rss_worldnews",
+      "published_ts": 1788916620.0,
+      "impact_high": true
     }
   ],
-  "_article_sig": "66c0a24424ee3dd255c6b5be9c8ec452e542ebb2052ed51810a42b0475ce7a0d",
+  "_article_sig": "6d190770517d380ba68a7567262cf2024e9cbb2aa980b7cf5608c60788080428",
   "built_at_kst": "2026-09-10T07:01:09.775956+09:00",
   "futures": {
-    "as_of_kst": "2026-09-10T23:40:07.694149+09:00",
+    "as_of_kst": "2026-09-10T23:50:07.742276+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7607.5,
-        "change_pct": -0.47,
+        "point": 7611.5,
+        "change_pct": -0.42,
         "spark": [
           7646.5,
-          7644.5,
-          7643.0,
           7647.5,
           7647.25,
           7644.5,
@@ -6345,21 +6349,23 @@
           7613.0,
           7606.25,
           7608.0,
-          7607.5
+          7612.5,
+          7607.75,
+          7611.5
         ],
         "candle": {
           "o": 7646.5,
           "h": 7666.25,
           "l": 7585.5,
-          "c": 7607.5
+          "c": 7611.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 19.09,
-          "high_change_pct": -2.75
+          "low_change_pct": 19.15,
+          "high_change_pct": -2.7
         },
         "daily_expanded": [
           {
@@ -8375,17 +8381,17 @@
             "o": 7646.5,
             "h": 7666.25,
             "l": 7585.5,
-            "c": 7607.5,
-            "v": 670051
+            "c": 7611.5,
+            "v": 706161
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "ECB 금리 인상(올해 2회차), PPI 가속(MoM 0.4%, YoY 5.4%)으로 글로벌 인플레 압력 재부상 중. 9월 FOMC 임박, 연준 금리 결정 불확실성 확대로 채권 수익률 멀티이어 고점 경신. 매크로 불안정성 강화 신호",
+          "summary": "연준의 차주 금리 인상 확률 70% 급등으로 인상 기대 강화. PPI 가속화(월간 0.4%, 전년비 5.4% 상승)와 ECB의 동시 기준금리 인상(0.25%P)으로 글로벌 금리 인상 추세 심화. 주택판매 1년 최저까지 하락(월간 2% 감소)으로 경기 둔화 신호 강화. 후티·이란 분쟁으로 유가 $100 돌파, 브렌트유 $105 수준 상승으로 에너지 공급 우려와 스태그플레이션 리스크 고조. 미국-캐나다 무역 전쟁 심화(관세 50% 인상)로 경제 불확실성 확대.",
           "sources": [
             {
               "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/09/10/ppi-inflation-report-august-2026.html"
+              "url": "https://www.cnbc.com/2026/09/10/the-likelihood-of-a-fed-interest-rate-hike-next-week-just-got-a-lot-higher.html"
             },
             {
               "name": "WSJ",
@@ -8401,12 +8407,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29213.75,
-        "change_pct": -0.8,
+        "point": 29261.25,
+        "change_pct": -0.64,
         "spark": [
           29458.5,
-          29342.75,
-          29336.0,
           29358.0,
           29358.25,
           29345.75,
@@ -8444,21 +8448,23 @@
           29230.0,
           29205.75,
           29219.0,
-          29213.75
+          29261.5,
+          29237.25,
+          29261.25
         ],
         "candle": {
           "o": 29458.5,
           "h": 29508.25,
           "l": 29043.25,
-          "c": 29213.75
+          "c": 29261.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 26.25,
-          "high_change_pct": -4.88
+          "low_change_pct": 26.45,
+          "high_change_pct": -4.73
         },
         "daily_expanded": [
           {
@@ -10474,13 +10480,13 @@
             "o": 29458.5,
             "h": 29508.25,
             "l": 29043.25,
-            "c": 29213.75,
-            "v": 291815
+            "c": 29261.25,
+            "v": 305657
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "AI 기업 IPO/M&A 활동 지속, 소프트웨어 부문 실적 강세 유지로 기술주 회복력 강화 신호 점입가산",
+          "summary": "AI 스타트업 자금 조달과 기업 투자 확대 지속. OpenAI 등 빅테크가 주도하는 데이터센터 대규모 투자(SB Energy $430B 규모) 박차. Anthropic IPO 임박으로 AI 생태계 확장 가속화. 소프트웨어 회사의 AI 디스럽션 진행이나 Salesforce, Workday 등 기존 기업들의 실적 저항력 입증으로 하락 속도 완만화.",
           "sources": [
             {
               "name": "WSJ",
@@ -10488,11 +10494,11 @@
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/tech/ai/ai-is-disrupting-software-companiesbut-not-as-fast-as-many-feared-a380443a?mod=rss_markets_main"
+              "url": "https://www.wsj.com/finance/stocks/what-to-know-about-anthropics-planned-ipo-c2f58908?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/what-to-know-about-anthropics-planned-ipo-c2f58908?mod=rss_markets_main"
+              "url": "https://www.wsj.com/business/energy-oil/the-ipo-that-asks-you-to-buy-ai-hype-today-and-get-paid-years-later-1bd97731?mod=rss_markets_main"
             }
           ]
         }
@@ -10500,12 +10506,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52205.0,
-        "change_pct": -0.42,
+        "point": 52189.0,
+        "change_pct": -0.45,
         "spark": [
           52473.0,
-          52515.0,
-          52508.0,
           52535.0,
           52542.0,
           52522.0,
@@ -10543,21 +10547,23 @@
           52257.0,
           52203.0,
           52208.0,
-          52205.0
+          52200.0,
+          52163.0,
+          52189.0
         ],
         "candle": {
           "o": 52473.0,
           "h": 52676.0,
           "l": 52039.0,
-          "c": 52205.0
+          "c": 52189.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 14.93,
-          "high_change_pct": -4.2
+          "low_change_pct": 14.89,
+          "high_change_pct": -4.23
         },
         "daily_expanded": [
           {
@@ -12573,25 +12579,25 @@
             "o": 52473.0,
             "h": 52676.0,
             "l": 52039.0,
-            "c": 52205.0,
-            "v": 36956
+            "c": 52189.0,
+            "v": 38004
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "주택 판매 1년 최저 기록, 높은 모기지율이 경기민감 부동산 부문 압박 지속. Brent 유가 $100 돌파(이란-후티 긴장, 홍해 경로 우려), 에너지 가격 급등으로 에너지·금융주 변동성 심화. 금리 인상 사이클 본격화로 경기순환주 약세 신호 강화",
+          "summary": "주택판매 급락(1년 최저)으로 경기 둔화 신호 강화. 미국-캐나다 관세전쟁 심화(철강·알루미늄 50% 인상)로 경기민감주와 산업재 약세 압력. 후티·이란 해역 분쟁으로 유가 급등(브렌트유 $105), 에너지 기업 수혜 기대하면서도 운송비 상승 우려 확대.",
           "sources": [
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/economy/housing/home-sales-in-august-tumble-to-lowest-level-since-last-year-25851c6e?mod=rss_socialeconomyfeed"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/world/middle-east/brent-nears-100-as-u-s-iran-escalation-houthi-strikes-deepen-gulf-supply-fears-768ab4db?mod=rss_worldnews"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/09/09/us-canada-trade-war-import-ban.html"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/world/middle-east/yemens-iran-backed-houthis-sweep-toward-strategic-bab-al-mandeb-c1786d79?mod=rss_worldnews"
+              "url": "https://www.wsj.com/world/middle-east/brent-nears-100-as-u-s-iran-escalation-houthi-strikes-deepen-gulf-supply-fears-768ab4db?mod=rss_worldnews"
             }
           ]
         }
@@ -12601,7 +12607,7 @@
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "AI 기업 IPO/M&A 활동 지속, 소프트웨어 부문 실적 강세 유지로 기술주 회복력 강화 신호 점입가산",
+      "summary": "AI 스타트업 자금 조달과 기업 투자 확대 지속. OpenAI 등 빅테크가 주도하는 데이터센터 대규모 투자(SB Energy $430B 규모) 박차. Anthropic IPO 임박으로 AI 생태계 확장 가속화. 소프트웨어 회사의 AI 디스럽션 진행이나 Salesforce, Workday 등 기존 기업들의 실적 저항력 입증으로 하락 속도 완만화.",
       "sources": [
         {
           "name": "WSJ",
@@ -12609,20 +12615,20 @@
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/tech/ai/ai-is-disrupting-software-companiesbut-not-as-fast-as-many-feared-a380443a?mod=rss_markets_main"
+          "url": "https://www.wsj.com/finance/stocks/what-to-know-about-anthropics-planned-ipo-c2f58908?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/what-to-know-about-anthropics-planned-ipo-c2f58908?mod=rss_markets_main"
+          "url": "https://www.wsj.com/business/energy-oil/the-ipo-that-asks-you-to-buy-ai-hype-today-and-get-paid-years-later-1bd97731?mod=rss_markets_main"
         }
       ]
     },
     "S&P500": {
-      "summary": "ECB 금리 인상(올해 2회차), PPI 가속(MoM 0.4%, YoY 5.4%)으로 글로벌 인플레 압력 재부상 중. 9월 FOMC 임박, 연준 금리 결정 불확실성 확대로 채권 수익률 멀티이어 고점 경신. 매크로 불안정성 강화 신호",
+      "summary": "연준의 차주 금리 인상 확률 70% 급등으로 인상 기대 강화. PPI 가속화(월간 0.4%, 전년비 5.4% 상승)와 ECB의 동시 기준금리 인상(0.25%P)으로 글로벌 금리 인상 추세 심화. 주택판매 1년 최저까지 하락(월간 2% 감소)으로 경기 둔화 신호 강화. 후티·이란 분쟁으로 유가 $100 돌파, 브렌트유 $105 수준 상승으로 에너지 공급 우려와 스태그플레이션 리스크 고조. 미국-캐나다 무역 전쟁 심화(관세 50% 인상)로 경제 불확실성 확대.",
       "sources": [
         {
           "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/10/ppi-inflation-report-august-2026.html"
+          "url": "https://www.cnbc.com/2026/09/10/the-likelihood-of-a-fed-interest-rate-hike-next-week-just-got-a-lot-higher.html"
         },
         {
           "name": "WSJ",
@@ -12635,22 +12641,22 @@
       ]
     },
     "DOW": {
-      "summary": "주택 판매 1년 최저 기록, 높은 모기지율이 경기민감 부동산 부문 압박 지속. Brent 유가 $100 돌파(이란-후티 긴장, 홍해 경로 우려), 에너지 가격 급등으로 에너지·금융주 변동성 심화. 금리 인상 사이클 본격화로 경기순환주 약세 신호 강화",
+      "summary": "주택판매 급락(1년 최저)으로 경기 둔화 신호 강화. 미국-캐나다 관세전쟁 심화(철강·알루미늄 50% 인상)로 경기민감주와 산업재 약세 압력. 후티·이란 해역 분쟁으로 유가 급등(브렌트유 $105), 에너지 기업 수혜 기대하면서도 운송비 상승 우려 확대.",
       "sources": [
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/economy/housing/home-sales-in-august-tumble-to-lowest-level-since-last-year-25851c6e?mod=rss_socialeconomyfeed"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/world/middle-east/brent-nears-100-as-u-s-iran-escalation-houthi-strikes-deepen-gulf-supply-fears-768ab4db?mod=rss_worldnews"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/09/us-canada-trade-war-import-ban.html"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/world/middle-east/yemens-iran-backed-houthis-sweep-toward-strategic-bab-al-mandeb-c1786d79?mod=rss_worldnews"
+          "url": "https://www.wsj.com/world/middle-east/brent-nears-100-as-u-s-iran-escalation-houthi-strikes-deepen-gulf-supply-fears-768ab4db?mod=rss_worldnews"
         }
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-09-10T23:40:11.289434+09:00"
+  "intraday_refreshed_kst": "2026-09-10T23:52:38.309939+09:00"
 }
