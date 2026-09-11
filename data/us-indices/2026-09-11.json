@@ -6275,9 +6275,9 @@
   "news_chips": [
     {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/world/middle-east/iranians-are-running-out-of-gas-as-economic-squeeze-takes-hold-67e38a7b?mod=rss_socialeconomyfeed",
-      "published_ts": 1789092000.0,
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/business/energy-oil/oil-prices-slip-after-recent-surge-amid-supply-risks-e1819c15?mod=rss_worldnews",
+      "published_ts": 1789113480.0,
       "impact_high": true
     },
     {
@@ -6302,17 +6302,17 @@
       "impact_high": true
     },
     {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/americas/how-the-wsj-covered-9-11-from-the-ground-25-years-ago-12c02067?mod=rss_worldnews",
+      "published_ts": 1789113600.0,
+      "impact_high": false
+    },
+    {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/u-k-economy-unexpectedly-grew-in-july-fadc130d?mod=rss_socialeconomyfeed",
       "published_ts": 1789111320.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/202609119365i",
-      "published_ts": 1789110696.0,
       "impact_high": false
     },
     {
@@ -6344,21 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "3d9e0acf87c1843a384246e932f9924e6f7719ee9982dcf6c098b89e1f239b26",
+  "_article_sig": "40d404b8a425cac57b394a15876d5a80d8a4895ef8f755f4f89b1f0147eacd2f",
   "built_at_kst": "2026-09-11T07:00:54.991242+09:00",
   "futures": {
-    "as_of_kst": "2026-09-11T17:00:06.949914+09:00",
+    "as_of_kst": "2026-09-11T17:10:07.123784+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7625.25,
-        "change_pct": 0.35,
+        "point": 7627.5,
+        "change_pct": 0.38,
         "spark": [
           7599.5,
-          7612.5,
-          7612.75,
           7612.75,
           7611.25,
           7611.75,
@@ -6396,21 +6394,23 @@
           7626.25,
           7625.0,
           7625.75,
-          7625.25
+          7626.75,
+          7626.0,
+          7627.5
         ],
         "candle": {
           "o": 7599.5,
           "h": 7633.0,
           "l": 7594.25,
-          "c": 7625.25
+          "c": 7627.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 19.36,
-          "high_change_pct": -2.52
+          "low_change_pct": 19.4,
+          "high_change_pct": -2.49
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7599.5,
             "h": 7633.0,
             "l": 7594.25,
-            "c": 7625.25,
-            "v": 125630
+            "c": 7627.5,
+            "v": 128218
           }
         ],
         "rollover_gaps": [],
@@ -8435,16 +8435,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/business/energy-oil/oil-prices-slip-after-recent-surge-amid-supply-risks-e1819c15?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/world/middle-east/iranians-are-running-out-of-gas-as-economic-squeeze-takes-hold-67e38a7b?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/iranians-are-running-out-of-gas-as-economic-squeeze-takes-hold-67e38a7b?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/kalshi-looks-to-expand-a-rapidly-growing-universe-of-risky-trading-a7670fde?mod=rss_markets_main"
             }
           ]
         }
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29233.25,
-        "change_pct": 0.34,
+        "point": 29246.25,
+        "change_pct": 0.38,
         "spark": [
           29141.0,
-          29137.0,
-          29140.5,
           29137.0,
           29125.0,
           29123.5,
@@ -8495,21 +8493,23 @@
           29235.25,
           29231.5,
           29238.75,
-          29233.25
+          29242.5,
+          29245.25,
+          29246.25
         ],
         "candle": {
           "o": 29141.0,
           "h": 29268.75,
           "l": 29040.5,
-          "c": 29233.25
+          "c": 29249.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 26.33,
-          "high_change_pct": -4.82
+          "low_change_pct": 26.4,
+          "high_change_pct": -4.76
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 29141.0,
             "h": 29268.75,
             "l": 29040.5,
-            "c": 29233.25,
-            "v": 67949
+            "c": 29249.75,
+            "v": 68584
           }
         ],
         "rollover_gaps": [],
@@ -10534,16 +10534,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/business/energy-oil/oil-prices-slip-after-recent-surge-amid-supply-risks-e1819c15?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/u-k-economy-unexpectedly-grew-in-july-fadc130d?mod=rss_socialeconomyfeed"
             },
             {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/202609118712i"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/world/middle-east/iranians-are-running-out-of-gas-as-economic-squeeze-takes-hold-67e38a7b?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52284.0,
-        "change_pct": 0.36,
+        "point": 52295.0,
+        "change_pct": 0.38,
         "spark": [
           52059.0,
-          52238.0,
-          52234.0,
           52243.0,
           52236.0,
           52242.0,
@@ -10594,21 +10592,23 @@
           52295.0,
           52283.0,
           52279.0,
-          52284.0
+          52285.0,
+          52265.0,
+          52295.0
         ],
         "candle": {
           "o": 52059.0,
           "h": 52344.0,
           "l": 52059.0,
-          "c": 52284.0
+          "c": 52295.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.1,
-          "high_change_pct": -4.06
+          "low_change_pct": 15.13,
+          "high_change_pct": -4.04
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 52059.0,
             "h": 52344.0,
             "l": 52059.0,
-            "c": 52284.0,
-            "v": 7390
+            "c": 52295.0,
+            "v": 7543
           }
         ],
         "rollover_gaps": [],
@@ -12655,16 +12655,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-slip-after-recent-surge-amid-supply-risks-e1819c15?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/u-k-economy-unexpectedly-grew-in-july-fadc130d?mod=rss_socialeconomyfeed"
         },
         {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/202609118712i"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/world/middle-east/iranians-are-running-out-of-gas-as-economic-squeeze-takes-hold-67e38a7b?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12672,16 +12672,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-slip-after-recent-surge-amid-supply-risks-e1819c15?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/world/middle-east/iranians-are-running-out-of-gas-as-economic-squeeze-takes-hold-67e38a7b?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/iranians-are-running-out-of-gas-as-economic-squeeze-takes-hold-67e38a7b?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/kalshi-looks-to-expand-a-rapidly-growing-universe-of-risky-trading-a7670fde?mod=rss_markets_main"
         }
       ]
     },
@@ -12703,5 +12703,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-09-11T17:00:10.897747+09:00"
+  "intraday_refreshed_kst": "2026-09-11T17:10:23.668448+09:00"
 }
