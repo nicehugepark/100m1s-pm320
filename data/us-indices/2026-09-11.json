@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26382.23,
-      "change_pct": 1.15,
+      "point": 26400.86,
+      "change_pct": 1.22,
       "candle": {
         "o": 26287.99,
-        "h": 26409.99,
+        "h": 26411.65,
         "l": 26285.11,
-        "c": 26382.23
+        "c": 26400.86
       },
       "range_240d": {
         "low": 20794.64,
@@ -2031,9 +2031,9 @@
         {
           "date": "2026-09-11",
           "o": 26287.99,
-          "h": 26409.99,
+          "h": 26411.65,
           "l": 26285.11,
-          "c": 26382.23
+          "c": 26400.86
         }
       ],
       "spark": [
@@ -2048,7 +2048,9 @@
         26360.02,
         26356.33,
         26382.63,
-        26382.23
+        26391.62,
+        26405.91,
+        26400.86
       ],
       "news": {
         "summary": "AI 기업 IPO 추진 지속되며 성장세 드러나는 가운데, 금리 인상 임박 신호에 따른 성장주 약세 압력 강화. 소프트웨어 기업들의 AI 통합 과정에서 실적 기대 미충족 우려 발생 중.",
@@ -2072,13 +2074,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7670.68,
-      "change_pct": 1.04,
+      "point": 7671.46,
+      "change_pct": 1.05,
       "candle": {
         "o": 7636.75,
         "h": 7677.02,
         "l": 7636.75,
-        "c": 7670.68
+        "c": 7671.46
       },
       "range_240d": {
         "low": 6343.72,
@@ -4102,7 +4104,7 @@
           "o": 7636.75,
           "h": 7677.02,
           "l": 7636.75,
-          "c": 7670.68
+          "c": 7671.46
         }
       ],
       "spark": [
@@ -4117,7 +4119,9 @@
         7667.08,
         7662.42,
         7670.43,
-        7670.68
+        7671.29,
+        7671.27,
+        7671.46
       ],
       "news": {
         "summary": "채권 매도 심화에 따른 10년물 수익률 5% 임박, 차입 비용 상승 압력 가중. 유가 상승(배럴당 $102~107)과 PPI 0.4% 상승으로 인플레이션 우려 고조, 연준 금리 인상 가능성 70% 급상승. 미국-캐나다 무역 갈등과 글로벌 긴축기조로 경기 둔화 신호 강화 중.",
@@ -4141,13 +4145,13 @@
     },
     {
       "name": "DOW",
-      "point": 52608.44,
-      "change_pct": 1.05,
+      "point": 52546.86,
+      "change_pct": 0.93,
       "candle": {
         "o": 52204.46,
         "h": 52720.24,
         "l": 52204.46,
-        "c": 52608.44
+        "c": 52546.86
       },
       "range_240d": {
         "low": 45166.64,
@@ -6171,7 +6175,7 @@
           "o": 52204.46,
           "h": 52720.24,
           "l": 52204.46,
-          "c": 52608.44
+          "c": 52546.86
         }
       ],
       "spark": [
@@ -6186,7 +6190,9 @@
         52647.54,
         52572.41,
         52610.14,
-        52608.44
+        52591.6,
+        52547.12,
+        52546.86
       ],
       "news": {
         "summary": "주택시장 약세 심화—8월 기존주택 판매량 1년 최저치 기록, 모기지 금리 15개월 만에 7% 돌파. 경기민감 부문 압력 가중되는 가운데 금리 인상 임박·유가 상승에 따른 에너지 부문 이중 영향 노출 강화.",
@@ -6211,6 +6217,13 @@
   ],
   "news_chips": [
     {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/consumer-sentiment-is-lower-in-september-per-michigan-survey-cd29aa00?mod=rss_socialeconomyfeed",
+      "published_ts": 1789136580.0,
+      "impact_high": true
+    },
+    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/202609119853i",
@@ -6222,13 +6235,6 @@
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/kalshi-looks-to-expand-a-rapidly-growing-universe-of-risky-trading-a7670fde?mod=rss_markets_main",
       "published_ts": 1789129920.0,
-      "impact_high": true
-    },
-    {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/oil-prices-slip-after-recent-surge-amid-supply-risks-e1819c15?mod=rss_worldnews",
-      "published_ts": 1789129320.0,
       "impact_high": true
     },
     {
@@ -6281,20 +6287,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "d090fa4804455afe98d11d941f5320e540284e33addb0809e049fdab892f66cd",
+  "_article_sig": "59f4d99605cce3d56b91d2a91ec750ac128e8f561e8901bcbdf889b424358413",
   "built_at_kst": "2026-09-11T07:00:54.991242+09:00",
   "futures": {
-    "as_of_kst": "2026-09-11T23:20:08.380991+09:00",
+    "as_of_kst": "2026-09-11T23:30:03.485017+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7671.5,
-        "change_pct": 0.96,
+        "point": 7675.0,
+        "change_pct": 1.01,
         "spark": [
           7599.5,
-          7638.5,
           7636.5,
           7636.25,
           7638.5,
@@ -6333,21 +6338,22 @@
           7672.25,
           7672.0,
           7666.5,
-          7671.5
+          7674.75,
+          7675.0
         ],
         "candle": {
           "o": 7599.5,
           "h": 7683.5,
           "l": 7594.25,
-          "c": 7671.5
+          "c": 7675.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 20.09,
-          "high_change_pct": -1.93
+          "low_change_pct": 20.14,
+          "high_change_pct": -1.89
         },
         "daily_expanded": [
           {
@@ -8363,8 +8369,8 @@
             "o": 7599.5,
             "h": 7683.5,
             "l": 7594.25,
-            "c": 7671.5,
-            "v": 657810
+            "c": 7675.0,
+            "v": 710699
           }
         ],
         "rollover_gaps": [],
@@ -8389,12 +8395,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29393.5,
-        "change_pct": 0.89,
+        "point": 29437.25,
+        "change_pct": 1.04,
         "spark": [
           29141.0,
-          29304.25,
-          29294.75,
           29293.5,
           29307.5,
           29308.0,
@@ -8432,21 +8436,23 @@
           29392.5,
           29393.75,
           29397.75,
-          29393.5
+          29438.75,
+          29444.25,
+          29437.25
         ],
         "candle": {
           "o": 29141.0,
           "h": 29500.25,
           "l": 29040.5,
-          "c": 29397.75
+          "c": 29437.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.04,
-          "high_change_pct": -4.28
+          "low_change_pct": 27.22,
+          "high_change_pct": -4.15
         },
         "daily_expanded": [
           {
@@ -10462,8 +10468,8 @@
             "o": 29141.0,
             "h": 29500.25,
             "l": 29040.5,
-            "c": 29397.75,
-            "v": 253148
+            "c": 29437.25,
+            "v": 271047
           }
         ],
         "rollover_gaps": [],
@@ -10488,11 +10494,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52661.0,
-        "change_pct": 1.09,
+        "point": 52605.0,
+        "change_pct": 0.98,
         "spark": [
           52059.0,
-          52397.0,
           52369.0,
           52364.0,
           52377.0,
@@ -10531,21 +10536,22 @@
           52678.0,
           52669.0,
           52592.0,
-          52661.0
+          52634.0,
+          52605.0
         ],
         "candle": {
           "o": 52059.0,
           "h": 52739.0,
           "l": 52059.0,
-          "c": 52661.0
+          "c": 52631.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.93,
-          "high_change_pct": -3.36
+          "low_change_pct": 15.87,
+          "high_change_pct": -3.42
         },
         "daily_expanded": [
           {
@@ -12561,8 +12567,8 @@
             "o": 52059.0,
             "h": 52739.0,
             "l": 52059.0,
-            "c": 52661.0,
-            "v": 34719
+            "c": 52631.0,
+            "v": 36950
           }
         ],
         "rollover_gaps": [],
@@ -12570,16 +12576,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/consumer-sentiment-is-lower-in-september-per-michigan-survey-cd29aa00?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/stock-market-cpi-inflation-09-11-2026?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/u-k-economy-unexpectedly-grew-in-july-fadc130d?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -12626,19 +12632,19 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/consumer-sentiment-is-lower-in-september-per-michigan-survey-cd29aa00?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/stock-market-cpi-inflation-09-11-2026?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/u-k-economy-unexpectedly-grew-in-july-fadc130d?mod=rss_socialeconomyfeed"
         }
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-09-11T23:20:25.568836+09:00"
+  "intraday_refreshed_kst": "2026-09-11T23:30:20.198820+09:00"
 }
