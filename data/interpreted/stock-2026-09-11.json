@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "generated_at": "2026-09-11T09:27:00.600216",
+  "generated_at": "2026-09-11T09:35:14.579554",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -20,6 +20,10 @@
       "summary": "미국 풍력 인허가 규제 완화 → 경쟁 감소·수주 기회 확대 → 신재생에너지 섹터 및 한국 풍력발전사 수혜"
     },
     {
+      "title": "팀코리아원전",
+      "summary": "팀코리아 원전 수출 추진 → 원전 부품·시공 수요 창출 → 원전 관련 건설·중장비 섹터 수혜 기대"
+    },
+    {
       "title": "풍력인허가",
       "summary": "미국 풍력 인허가 규제 완화·경쟁 감소 → 풍력발전 산업 구조 개선 → 풍력·재생에너지 수출 섹터 수혜"
     },
@@ -28,8 +32,8 @@
       "summary": "미국 풍력 인허가 규제 완화·경쟁사 시장 이탈 → 신재생에너지 경제성 개선 → 풍력·재신에너지 시공사 수혜"
     },
     {
-      "title": "팀코리아원전",
-      "summary": "팀코리아 원전 수출 추진 → 원전 부품·시공 수요 창출 → 원전 관련 건설·중장비 섹터 수혜 기대"
+      "title": "풍력규제",
+      "summary": "미국 풍력 인허가 완화·경쟁 감소 → 해상풍력 설비 시장 확대 → 한국 풍력 부품·설비 업체 수혜"
     }
   ],
   "narratives": [],
@@ -69,25 +73,20 @@
     "date": "2026-09-11",
     "roots": [
       {
-        "name": "제약·바이오",
-        "children": [
-          {
-            "name": "비만치료제",
-            "summary": "로슈가 한미약품 비만신약(GLP-1 복합제)을 낙점해 매출 2.3조 기대→국내 GLP-1 파이프라인 재평가로 비만신약 개발 제약사에 자금 유입",
-            "source_count": 2,
-            "verdict": "weak"
-          },
-          {
-            "name": "비만치료제",
-            "summary": "로슈가 한미약품 비만신약(GLP-1 복합제)을 낙점해 매출 2.3조 기대→국내 GLP-1 파이프라인 재평가로 비만신약 개발 제약사에 자금 유입",
-            "source_count": 2,
-            "verdict": "pass"
-          }
-        ]
-      },
-      {
         "name": "로봇",
         "children": [
+          {
+            "name": "휴머노이드 로봇 부품",
+            "summary": "로보티즈 액추에이터가 업종 내 유일한 초과수요 국면에 진입하며 로봇 구동부품 밸류체인으로 매수세 집중",
+            "source_count": 3,
+            "verdict": "pass"
+          },
+          {
+            "name": "휴머노이드 로봇 부품",
+            "summary": "로보티즈 액추에이터가 업종 내 유일한 초과수요 국면에 진입하며 로봇 구동부품 밸류체인으로 매수세 집중",
+            "source_count": 3,
+            "verdict": "pass"
+          },
           {
             "name": "휴머노이드 로봇 부품",
             "summary": "로보티즈 액추에이터 초과수요 국면 진입으로 휴머노이드·협동로봇 구동부품 공급망 수혜 부각",
@@ -105,6 +104,29 @@
             "summary": "액추에이터 초과수요 국면 진입으로 로봇 구동부품 공급부족 부각→로봇 액추에이터 생산 업체 수혜 기대",
             "source_count": 1,
             "verdict": "weak"
+          }
+        ]
+      },
+      {
+        "name": "제약·바이오",
+        "children": [
+          {
+            "name": "비만치료제",
+            "summary": "로슈가 한미약품 비만신약(GLP-1 복합제)을 낙점해 매출 2.3조 기대→국내 GLP-1 파이프라인 재평가로 비만신약 개발 제약사에 자금 유입",
+            "source_count": 2,
+            "verdict": "weak"
+          },
+          {
+            "name": "비만치료제",
+            "summary": "로슈가 한미약품 비만신약(GLP-1 복합제)을 낙점해 매출 2.3조 기대→국내 GLP-1 파이프라인 재평가로 비만신약 개발 제약사에 자금 유입",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "비만 치료제",
+            "summary": "한미약품 비만신약이 로슈와의 협업·GLP-1 복합제 가능성으로 매출 2.3조 기대가 부각되며 비만신약 관련주로 자금 유입",
+            "source_count": 2,
+            "verdict": "unverified"
           }
         ]
       },
@@ -139,6 +161,23 @@
             "summary": "미국 풍력 인허가 완화와 경쟁사 감소로 시장 우호적 환경 조성→미국 풍력 타워·기자재 수출 기업 수혜 기대",
             "source_count": 1,
             "verdict": "weak"
+          },
+          {
+            "name": "풍력 발전",
+            "summary": "미국 풍력 인허가 완화와 경쟁 감소로 씨에스윈드 등 풍력 타워·부품 업체 수혜 기대감이 확산",
+            "source_count": 1,
+            "verdict": "weak"
+          }
+        ]
+      },
+      {
+        "name": "원자력",
+        "children": [
+          {
+            "name": "원전 수출",
+            "summary": "대우건설이 팀코리아 원전 수출 수혜 기대로 목표가가 상향되며 원전 EPC·수출 밸류체인 기대감 형성",
+            "source_count": 1,
+            "verdict": "unverified"
           }
         ]
       }
@@ -149,11 +188,11 @@
       "code": "001820",
       "name": "삼화콘덴서",
       "rank": 1,
-      "trade_amount": 184946000000,
-      "change_pct": 16.68,
-      "close_price": 135000,
+      "trade_amount": 248203000000,
+      "change_pct": 25.06,
+      "close_price": 144700,
       "open_price": 112100,
-      "high_price": 135000,
+      "high_price": 147500,
       "low_price": 112000,
       "industry": "전자부품 제조업",
       "sector": "콘덴서(축전기) 제조",
@@ -184,17 +223,17 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": -2.59,
-      "index_multiple_current": -6.44,
+      "index_change_pct": -2.27,
+      "index_multiple_current": -11.04,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 196800,
         "high_date": "2026-06-18",
-        "high_pct": -31.4,
+        "high_pct": -26.47,
         "low": 27750,
         "low_date": "2025-11-19",
-        "low_pct": 386.49,
-        "current": 135000
+        "low_pct": 421.44,
+        "current": 144700
       },
       "daily_20": [
         {
@@ -333,9 +372,9 @@
         {
           "date": "2026-09-11",
           "o": 112100,
-          "h": 135000,
+          "h": 147500,
           "l": 112000,
-          "c": 135000
+          "c": 144700
         }
       ],
       "intraday": {
@@ -346,7 +385,10 @@
           112100,
           128600,
           133700,
-          135000
+          135000,
+          143800,
+          144300,
+          145100
         ]
       },
       "togusa_verdict": "weak_bull",
@@ -359,30 +401,30 @@
       "code": "024060",
       "name": "흥구석유",
       "rank": 2,
-      "trade_amount": 99535000000,
-      "change_pct": 9.79,
-      "close_price": 15930,
+      "trade_amount": 110382000000,
+      "change_pct": 8.82,
+      "close_price": 15790,
       "open_price": 17010,
       "high_price": 17310,
-      "low_price": 15900,
+      "low_price": 15690,
       "industry": "기타 전문 도매업",
       "sector": "휘발유등",
       "themes": [
-        "유가상승",
-        "중동 지정학"
+        "중동 지정학",
+        "유가상승"
       ],
       "theme_paths": [
-        {
-          "name": "유가상승",
-          "path": [
-            "유가상승"
-          ]
-        },
         {
           "name": "중동 지정학",
           "path": [
             "전쟁",
             "중동 지정학"
+          ]
+        },
+        {
+          "name": "유가상승",
+          "path": [
+            "유가상승"
           ]
         }
       ],
@@ -417,29 +459,26 @@
         }
       ],
       "fallback": false,
-      "cafe_themes": [
-        "중동 지정학"
-      ],
       "theme_crosscheck": {
-        "confirmed": [],
+        "confirmed": [
+          "중동 지정학"
+        ],
         "pm320_only": [
           "유가상승"
         ],
-        "cafe_only": [
-          "중동 지정학"
-        ]
+        "cafe_only": []
       },
-      "index_change_pct": -1.49,
-      "index_multiple_current": -6.57,
+      "index_change_pct": -1.55,
+      "index_multiple_current": -5.69,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 36200,
         "high_date": "2026-03-05",
-        "high_pct": -55.99,
+        "high_pct": -56.38,
         "low": 8920,
         "low_date": "2026-07-06",
-        "low_pct": 78.59,
-        "current": 15930
+        "low_pct": 77.02,
+        "current": 15790
       },
       "daily_20": [
         {
@@ -579,8 +618,8 @@
           "date": "2026-09-11",
           "o": 17010,
           "h": 17310,
-          "l": 15900,
-          "c": 15930
+          "l": 15690,
+          "c": 15790
         }
       ],
       "intraday": {
@@ -592,7 +631,9 @@
           16200,
           16180,
           16120,
-          16040
+          15850,
+          15810,
+          15850
         ]
       },
       "togusa_verdict": "strong_bull",
@@ -603,12 +644,12 @@
       "code": "006360",
       "name": "GS건설",
       "rank": 3,
-      "trade_amount": 50637000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
+      "trade_amount": 62822000000,
+      "change_pct": 4.03,
+      "close_price": 38750,
+      "open_price": 36600,
+      "high_price": 39350,
+      "low_price": 36400,
       "industry": "건물 건설업",
       "sector": "토목공사,건축공사,주택공사,산업플랜트공사,리모델링공사,시설물유지관리공사/산업설비설계,감리 용역,수출입/에너지관리 진단,연구개발",
       "themes": [
@@ -647,7 +688,9 @@
       },
       "bullish_today": false,
       "bullish_streak": 0,
-      "bullish_dates": [],
+      "bullish_dates": [
+        "2026-08-04"
+      ],
       "news": [
         {
           "title": "[오늘의 주요공시] GS건설·삼성바이오로직스·대우건설 등",
@@ -731,31 +774,19 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": -2.59,
+      "index_change_pct": -2.27,
+      "index_multiple_current": -1.78,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 44850,
         "high_date": "2026-04-28",
-        "high_pct": -20.96,
+        "high_pct": -13.6,
         "low": 17880,
         "low_date": "2025-11-05",
-        "low_pct": 98.27,
-        "current": 35450
+        "low_pct": 116.72,
+        "current": 38750
       },
       "daily_20": [
-        {
-          "date": "2026-08-12",
-          "o": 35150,
-          "h": 36100,
-          "l": 34000,
-          "c": 35200
-        },
-        {
-          "date": "2026-08-13",
-          "o": 35450,
-          "h": 36650,
-          "l": 34700,
-          "c": 35700
-        },
         {
           "date": "2026-08-14",
           "o": 36450,
@@ -871,18 +902,46 @@
         {
           "date": "2026-09-08",
           "o": 35200,
-          "h": 35500,
-          "l": 35200,
-          "c": 35450
+          "h": 36750,
+          "l": 35000,
+          "c": 35250
+        },
+        {
+          "date": "2026-09-09",
+          "o": 35600,
+          "h": 36600,
+          "l": 35250,
+          "c": 35550
+        },
+        {
+          "date": "2026-09-10",
+          "o": 35100,
+          "h": 37450,
+          "l": 34650,
+          "c": 37250
         },
         {
           "date": "2026-09-11",
           "o": 36600,
           "h": 39350,
           "l": 36400,
-          "c": 38900
+          "c": 38750
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 36600,
+        "base": 36600,
+        "prices": [
+          36600,
+          38400,
+          38800,
+          39000,
+          38900,
+          38800,
+          38750
+        ]
+      },
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰"
@@ -891,12 +950,12 @@
       "code": "052710",
       "name": "아모텍",
       "rank": 4,
-      "trade_amount": 25308000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
+      "trade_amount": 26086000000,
+      "change_pct": 29.98,
+      "close_price": 15130,
+      "open_price": 11670,
+      "high_price": 15130,
+      "low_price": 11670,
       "industry": "전자부품 제조업",
       "sector": "칩바리스터, 아몰퍼스코어",
       "themes": [
@@ -921,9 +980,12 @@
       ],
       "pick_count": 1,
       "prev_pick": null,
-      "bullish_today": false,
-      "bullish_streak": 0,
-      "bullish_dates": [],
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-08-10",
+        "2026-09-11"
+      ],
       "news": [
         {
           "title": "[오늘의 증시일정] 아모텍·컴투스엔·SK네트웍스 등",
@@ -975,18 +1037,464 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": -1.49,
+      "index_change_pct": -1.55,
+      "index_multiple_current": -19.34,
+      "index_multiple_eligible": false,
       "range_240d": {
-        "high": 35565,
+        "high": 32339,
         "high_date": "2026-06-18",
-        "high_pct": -43.34,
-        "low": 8084,
+        "high_pct": -53.21,
+        "low": 7351,
         "low_date": "2026-01-21",
-        "low_pct": 149.26,
-        "current": null
+        "low_pct": 105.82,
+        "current": 15130
+      },
+      "daily_20": [
+        {
+          "date": "2026-08-14",
+          "o": 13900,
+          "h": 14020,
+          "l": 12500,
+          "c": 13420
+        },
+        {
+          "date": "2026-08-18",
+          "o": 13430,
+          "h": 13500,
+          "l": 12100,
+          "c": 12330
+        },
+        {
+          "date": "2026-08-19",
+          "o": 11960,
+          "h": 12280,
+          "l": 11410,
+          "c": 11790
+        },
+        {
+          "date": "2026-08-20",
+          "o": 12150,
+          "h": 12360,
+          "l": 11600,
+          "c": 12000
+        },
+        {
+          "date": "2026-08-21",
+          "o": 11230,
+          "h": 11850,
+          "l": 11090,
+          "c": 11220
+        },
+        {
+          "date": "2026-08-24",
+          "o": 11080,
+          "h": 11530,
+          "l": 10860,
+          "c": 11260
+        },
+        {
+          "date": "2026-08-25",
+          "o": 11170,
+          "h": 11630,
+          "l": 10160,
+          "c": 11460
+        },
+        {
+          "date": "2026-08-26",
+          "o": 11450,
+          "h": 11580,
+          "l": 10630,
+          "c": 11480
+        },
+        {
+          "date": "2026-08-27",
+          "o": 11650,
+          "h": 11780,
+          "l": 10930,
+          "c": 11200
+        },
+        {
+          "date": "2026-08-28",
+          "o": 11200,
+          "h": 11410,
+          "l": 10810,
+          "c": 10820
+        },
+        {
+          "date": "2026-08-31",
+          "o": 10520,
+          "h": 10950,
+          "l": 10300,
+          "c": 10890
+        },
+        {
+          "date": "2026-09-01",
+          "o": 10940,
+          "h": 10940,
+          "l": 10410,
+          "c": 10700
+        },
+        {
+          "date": "2026-09-02",
+          "o": 10490,
+          "h": 11590,
+          "l": 10320,
+          "c": 10760
+        },
+        {
+          "date": "2026-09-03",
+          "o": 10850,
+          "h": 10900,
+          "l": 10300,
+          "c": 10430
+        },
+        {
+          "date": "2026-09-04",
+          "o": 10540,
+          "h": 11810,
+          "l": 10400,
+          "c": 11290
+        },
+        {
+          "date": "2026-09-07",
+          "o": 11360,
+          "h": 11700,
+          "l": 11090,
+          "c": 11200
+        },
+        {
+          "date": "2026-09-08",
+          "o": 11220,
+          "h": 11320,
+          "l": 10600,
+          "c": 10620
+        },
+        {
+          "date": "2026-09-09",
+          "o": 10700,
+          "h": 12100,
+          "l": 10700,
+          "c": 11650
+        },
+        {
+          "date": "2026-09-10",
+          "o": 11600,
+          "h": 11800,
+          "l": 11250,
+          "c": 11640
+        },
+        {
+          "date": "2026-09-11",
+          "o": 11670,
+          "h": 15130,
+          "l": 11670,
+          "c": 15130
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 11670,
+        "base": 11670,
+        "prices": [
+          11670,
+          14050,
+          14730,
+          14860,
+          15130,
+          15130,
+          15130
+        ]
       },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
+    },
+    {
+      "code": "117670",
+      "name": "알파칩스",
+      "rank": 5,
+      "trade_amount": 4633000000,
+      "change_pct": 29.95,
+      "close_price": 13580,
+      "open_price": 11750,
+      "high_price": 13580,
+      "low_price": 11500,
+      "industry": "반도체 제조업",
+      "sector": "시스템 반도체 개발",
+      "themes": [
+        "반도체",
+        "광통신",
+        "AI데이터센터"
+      ],
+      "theme_paths": [
+        {
+          "name": "반도체",
+          "path": [
+            "반도체"
+          ]
+        },
+        {
+          "name": "광통신",
+          "path": [
+            "AI",
+            "광통신"
+          ]
+        },
+        {
+          "name": "AI데이터센터",
+          "path": [
+            "AI",
+            "AI데이터센터"
+          ]
+        }
+      ],
+      "pick_count": 2,
+      "prev_pick": {
+        "date": "2026-09-10",
+        "rank": 28,
+        "change_pct": 29.98,
+        "trade_amount": 2431000000
+      },
+      "bullish_today": true,
+      "bullish_streak": 2,
+      "bullish_dates": [
+        "2026-09-10",
+        "2026-09-11"
+      ],
+      "news": [
+        {
+          "title": "알파칩스 관계사 포스텍, CPO 핵심부품 양산 채비…2027년 본격화",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03785126645578808",
+          "source": "이데일리",
+          "published_at": "2026-09-10T05:30:03",
+          "causal_chain": "AI 데이터센터 확산으로 기존 전기배선의 대역폭·전력효율 한계가 부각되며 광학을 칩 패키지에 통합하는 CPO 핵심부품 수요가 커짐 → 알파칩스 관계사 포스텍이 美 반도체 글로벌 기업과 CPO용 핵심부품을 공동개발해 초도 양산에 들어가고 2027년 본격 공급을 예고 → 시스템 반도체 개발 기업 알파칩스로 기대 매수세가 집중되며 당일 상한가(+29.98%, 종가 10,450원, 장중 고가=종가 10,450원)를 기록.",
+          "macro_event": "AI 데이터센터 확산에 따른 CPO(Co-Packaged Optics) 광통신 부품 수요 부각",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.55,
+          "newzy_virality": 0.4,
+          "newzy_tradability": null,
+          "newzy_score": 0.49,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        },
+        {
+          "title": "알파칩스 “관계사 포스텍 CPO용 핵심 부품 美 반도체 글로벌 기업과 개발…초도 양산”",
+          "url": "https://www.etoday.co.kr/news/view/2624093",
+          "source": "이투데이",
+          "published_at": "2026-09-10T05:18:00",
+          "causal_chain": "AI 데이터센터 확산으로 기존 전기배선의 대역폭·전력효율 한계가 부각되며 광학을 칩 패키지에 통합하는 CPO 핵심부품 수요가 커짐 → 알파칩스 관계사 포스텍이 美 반도체 글로벌 기업과 CPO용 핵심부품을 공동개발해 초도 양산에 들어가고 2027년 본격 공급을 예고 → 시스템 반도체 개발 기업 알파칩스로 기대 매수세가 집중되며 당일 상한가(+29.98%, 종가 10,450원, 장중 고가=종가 10,450원)를 기록.",
+          "macro_event": "AI 데이터센터 확산에 따른 CPO(Co-Packaged Optics) 광통신 부품 수요 부각",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.55,
+          "newzy_virality": 0.4,
+          "newzy_tradability": null,
+          "newzy_score": 0.49,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        }
+      ],
+      "fallback": true,
+      "index_change_pct": -1.55,
+      "index_multiple_current": -19.32,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 21300,
+        "high_date": "2026-03-16",
+        "high_pct": -36.24,
+        "low": 6180,
+        "low_date": "2025-09-24",
+        "low_pct": 119.74,
+        "current": 13580
+      },
+      "daily_20": [
+        {
+          "date": "2026-08-14",
+          "o": 8730,
+          "h": 8880,
+          "l": 8510,
+          "c": 8640
+        },
+        {
+          "date": "2026-08-18",
+          "o": 8650,
+          "h": 9000,
+          "l": 8010,
+          "c": 8040
+        },
+        {
+          "date": "2026-08-19",
+          "o": 8040,
+          "h": 8110,
+          "l": 7830,
+          "c": 7950
+        },
+        {
+          "date": "2026-08-20",
+          "o": 8470,
+          "h": 8490,
+          "l": 7960,
+          "c": 8000
+        },
+        {
+          "date": "2026-08-21",
+          "o": 8000,
+          "h": 8000,
+          "l": 7590,
+          "c": 7750
+        },
+        {
+          "date": "2026-08-24",
+          "o": 7850,
+          "h": 9780,
+          "l": 7820,
+          "c": 8280
+        },
+        {
+          "date": "2026-08-25",
+          "o": 8250,
+          "h": 8370,
+          "l": 7820,
+          "c": 8210
+        },
+        {
+          "date": "2026-08-26",
+          "o": 8210,
+          "h": 8230,
+          "l": 7930,
+          "c": 8070
+        },
+        {
+          "date": "2026-08-27",
+          "o": 8200,
+          "h": 8200,
+          "l": 8020,
+          "c": 8080
+        },
+        {
+          "date": "2026-08-28",
+          "o": 8330,
+          "h": 8330,
+          "l": 7930,
+          "c": 8030
+        },
+        {
+          "date": "2026-08-31",
+          "o": 8030,
+          "h": 8080,
+          "l": 7830,
+          "c": 8080
+        },
+        {
+          "date": "2026-09-01",
+          "o": 8300,
+          "h": 8450,
+          "l": 7970,
+          "c": 8370
+        },
+        {
+          "date": "2026-09-02",
+          "o": 8440,
+          "h": 8440,
+          "l": 8040,
+          "c": 8050
+        },
+        {
+          "date": "2026-09-03",
+          "o": 8450,
+          "h": 8450,
+          "l": 7950,
+          "c": 8100
+        },
+        {
+          "date": "2026-09-04",
+          "o": 8120,
+          "h": 8230,
+          "l": 8010,
+          "c": 8160
+        },
+        {
+          "date": "2026-09-07",
+          "o": 8360,
+          "h": 8360,
+          "l": 8030,
+          "c": 8060
+        },
+        {
+          "date": "2026-09-08",
+          "o": 8110,
+          "h": 8140,
+          "l": 7900,
+          "c": 8000
+        },
+        {
+          "date": "2026-09-09",
+          "o": 7800,
+          "h": 8500,
+          "l": 7750,
+          "c": 8040
+        },
+        {
+          "date": "2026-09-10",
+          "o": 8040,
+          "h": 10450,
+          "l": 7920,
+          "c": 10450
+        },
+        {
+          "date": "2026-09-11",
+          "o": 11750,
+          "h": 13580,
+          "l": 11500,
+          "c": 13580
+        }
+      ],
+      "status_badges": [
+        {
+          "label": "투자주의 근접",
+          "severity": "caution",
+          "source": "predicted",
+          "thresholds": [
+            {
+              "desc": "5일 전(2026-09-04) 대비 +60%↑",
+              "base_price": 8160,
+              "threshold": 13056,
+              "current": 13580,
+              "triggered": true
+            }
+          ],
+          "regulation": "KRX 시장경보 가격 조건 충족 (거래량 미검증, 자체 추정)",
+          "period_start": "2026-09-14",
+          "period_end": "2026-09-15",
+          "start": "2026-09-14",
+          "end": "2026-09-15",
+          "view_date": "2026-09-11",
+          "next_trading_day": "2026-09-14",
+          "next_trading_day_for_predicted": "2026-09-14",
+          "next_trading_day_source": "fallback_homepage",
+          "single_price": false,
+          "effect_badges": []
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 11750,
+        "base": 11750,
+        "prices": [
+          11750,
+          13580,
+          13580,
+          13580,
+          13130,
+          13580,
+          13580
+        ]
+      },
+      "credit_risk": true,
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰"
@@ -994,8 +1502,8 @@
     {
       "code": "900270",
       "name": "헝셩그룹",
-      "rank": 5,
-      "trade_amount": 2055000000,
+      "rank": 6,
+      "trade_amount": 2082000000,
       "change_pct": 29.9,
       "close_price": 4040,
       "open_price": 3655,
@@ -1093,8 +1601,8 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": -1.49,
-      "index_multiple_current": -20.07,
+      "index_change_pct": -1.55,
+      "index_multiple_current": -19.29,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 13660,
@@ -1256,6 +1764,8 @@
           4040,
           4040,
           4040,
+          4040,
+          4040,
           4040
         ]
       },
@@ -1268,8 +1778,8 @@
     {
       "code": "140430",
       "name": "카티스",
-      "rank": 6,
-      "trade_amount": 894000000,
+      "rank": 7,
+      "trade_amount": 906000000,
       "change_pct": 29.91,
       "close_price": 2315,
       "open_price": 1790,
@@ -1359,8 +1869,8 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": -1.49,
-      "index_multiple_current": -20.07,
+      "index_change_pct": -1.55,
+      "index_multiple_current": -19.3,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 10325,
@@ -1522,6 +2032,7 @@
           2215,
           2315,
           2315,
+          2315,
           2315
         ]
       },
@@ -1534,8 +2045,8 @@
     {
       "code": "285800",
       "name": "진영",
-      "rank": 7,
-      "trade_amount": 520000000,
+      "rank": 8,
+      "trade_amount": 573000000,
       "change_pct": 29.88,
       "close_price": 4760,
       "open_price": 4320,
@@ -1604,8 +2115,8 @@
         ],
         "cafe_only": []
       },
-      "index_change_pct": -1.49,
-      "index_multiple_current": -20.05,
+      "index_change_pct": -1.55,
+      "index_multiple_current": -19.28,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 14825,
@@ -1764,6 +2275,8 @@
         "base": 4320,
         "prices": [
           4320,
+          4760,
+          4760,
           4760,
           4760,
           4760
