@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "generated_at": "2026-09-11T11:55:20.092061",
+  "generated_at": "2026-09-11T11:56:25.695202",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -5589,8 +5589,19 @@
       "low_price": 3575,
       "industry": "컴퓨터 프로그래밍, 시스템 통합 및 관리업",
       "sector": "SPLA 라이센스 총판 사업,CLOUD, gDaaS 등",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "AI",
+        "AI 인프라"
+      ],
+      "theme_paths": [
+        {
+          "name": "AI 인프라",
+          "path": [
+            "AI",
+            "AI 인프라"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": {
         "date": "2026-09-02",
@@ -5611,16 +5622,16 @@
           "url": "https://www.etoday.co.kr/news/view/2619465",
           "source": "이투데이",
           "published_at": "2026-08-28T07:31:00",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "AI 확산으로 클라우드·데이터 인프라 수요 기대가 커지는 국면에서, SPLA 라이센스 총판·CLOUD·gDaaS를 본업으로 하는 소프트웨어 인프라 업체 에스피소프트가 'AI 훈풍' 수혜주로 부각 → 매수세 집중 → 당일 시가 3,575원에서 상한가로 직행하며 종가 4,725원(+29.99%)·거래대금 421억원 기록.",
+          "macro_event": "AI 확산에 따른 클라우드·인프라 수요 기대 (AI 훈풍)",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.55,
+          "newzy_virality": 0.4,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.49,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "시세정형"
         }
       ],
       "fallback": true,
@@ -5779,7 +5790,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": false,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "052710",
