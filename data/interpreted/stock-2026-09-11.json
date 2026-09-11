@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "generated_at": "2026-09-11T09:25:11.710674",
+  "generated_at": "2026-09-11T09:27:00.600216",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -349,7 +349,7 @@
           135000
         ]
       },
-      "togusa_verdict": "neutral",
+      "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰",
       "causal_chain": "",
@@ -368,9 +368,8 @@
       "industry": "기타 전문 도매업",
       "sector": "휘발유등",
       "themes": [
-        "중동 지정학",
         "유가상승",
-        "호르무즈 해협"
+        "중동 지정학"
       ],
       "theme_paths": [
         {
@@ -380,11 +379,10 @@
           ]
         },
         {
-          "name": "호르무즈 해협",
+          "name": "중동 지정학",
           "path": [
             "전쟁",
-            "중동 지정학",
-            "호르무즈 해협"
+            "중동 지정학"
           ]
         }
       ],
@@ -406,8 +404,8 @@
           "url": "https://www.etoday.co.kr/news/view/2624350",
           "source": "이투데이",
           "published_at": "2026-09-11T00:10:00",
-          "causal_chain": "",
-          "macro_event": null,
+          "causal_chain": "국제유가 100달러 돌파로 유가 상승 국면 진입 → 휘발유 등 석유류 도매 마진 및 재고평가 이익 기대 → 석유류 전문 도매(휘발유) 업체 흥구석유가 직접 수혜주로 부각되며 매수세 유입 → 당일 종가 15,930원(전일比 +9.79%)·거래대금 896억원으로 관심 집중.",
+          "macro_event": "국제유가 100달러 돌파 (유가 급등)",
           "newzy_freshness": null,
           "newzy_persistence": null,
           "newzy_magnitude": null,
@@ -415,19 +413,21 @@
           "newzy_tradability": null,
           "newzy_score": null,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "시세정형"
         }
       ],
       "fallback": false,
+      "cafe_themes": [
+        "중동 지정학"
+      ],
       "theme_crosscheck": {
-        "confirmed": [
-          "중동 지정학"
-        ],
+        "confirmed": [],
         "pm320_only": [
-          "유가상승",
-          "호르무즈 해협"
+          "유가상승"
         ],
-        "cafe_only": []
+        "cafe_only": [
+          "중동 지정학"
+        ]
       },
       "index_change_pct": -1.49,
       "index_multiple_current": -6.57,
@@ -595,11 +595,9 @@
           16040
         ]
       },
-      "togusa_verdict": "weak_bull",
+      "togusa_verdict": "strong_bull",
       "theme_leader": true,
-      "hugepark_grade": "관찰",
-      "causal_chain": "",
-      "parent_theme": ""
+      "hugepark_grade": "적극"
     },
     {
       "code": "006360",
@@ -656,80 +654,80 @@
           "url": "https://www.etoday.co.kr/news/view/2624204",
           "source": "이투데이",
           "published_at": "2026-09-10T08:29:00",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "AI 데이터센터 수요 급증으로 신속 구축을 위한 사전제작형 모듈러(PMDC)·EPC 시공역량이 핵심 경쟁력으로 부각 → 데이터센터 EPC 경험을 보유한 GS건설이 LG유플러스 등 5개사와 하이퍼스케일 PMDC 표준모델 공동개발 협약을 맺으며 AIDC 사업역량을 직접 강화. 여기에 한화투자증권이 동해 2400MW AIDC 수혜·내년 주택실적 반등·GS이니마 매각을 근거로 목표주가를 4만1000원→5만원으로 상향하며 모멘텀이 겹침. 다만 당일 거래대금 4억원으로 관심은 제한적이어서 종가 35,450원(+0.71%) 소폭 상승에 그침.",
+          "macro_event": "생성형 AI 확산으로 GPU 기반 고성능 컴퓨팅 수요 급증 → AI 데이터센터(AIDC) 구축 수요 폭증",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.35,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.38,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "공시"
         },
         {
           "title": "GS건설, 부산 '연제갤러리자이' 10월 분양 예정",
           "url": "https://www.newsis.com/view/NISX20260908_0003780397",
           "source": "뉴시스",
           "published_at": "2026-09-08T02:41:26",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "AI 데이터센터 수요 급증으로 신속 구축을 위한 사전제작형 모듈러(PMDC)·EPC 시공역량이 핵심 경쟁력으로 부각 → 데이터센터 EPC 경험을 보유한 GS건설이 LG유플러스 등 5개사와 하이퍼스케일 PMDC 표준모델 공동개발 협약을 맺으며 AIDC 사업역량을 직접 강화. 여기에 한화투자증권이 동해 2400MW AIDC 수혜·내년 주택실적 반등·GS이니마 매각을 근거로 목표주가를 4만1000원→5만원으로 상향하며 모멘텀이 겹침. 다만 당일 거래대금 4억원으로 관심은 제한적이어서 종가 35,450원(+0.71%) 소폭 상승에 그침.",
+          "macro_event": "생성형 AI 확산으로 GPU 기반 고성능 컴퓨팅 수요 급증 → AI 데이터센터(AIDC) 구축 수요 폭증",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.35,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.38,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "GS건설, AI 데이터센터 모듈러 표준모델 개발…공급 속도 높인다",
           "url": "https://www.newsis.com/view/NISX20260906_0003777947",
           "source": "뉴시스",
           "published_at": "2026-09-06T02:04:11",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "AI 데이터센터 수요 급증으로 신속 구축을 위한 사전제작형 모듈러(PMDC)·EPC 시공역량이 핵심 경쟁력으로 부각 → 데이터센터 EPC 경험을 보유한 GS건설이 LG유플러스 등 5개사와 하이퍼스케일 PMDC 표준모델 공동개발 협약을 맺으며 AIDC 사업역량을 직접 강화. 여기에 한화투자증권이 동해 2400MW AIDC 수혜·내년 주택실적 반등·GS이니마 매각을 근거로 목표주가를 4만1000원→5만원으로 상향하며 모멘텀이 겹침. 다만 당일 거래대금 4억원으로 관심은 제한적이어서 종가 35,450원(+0.71%) 소폭 상승에 그침.",
+          "macro_event": "생성형 AI 확산으로 GPU 기반 고성능 컴퓨팅 수요 급증 → AI 데이터센터(AIDC) 구축 수요 폭증",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.35,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.38,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "GS건설, 부산 연제갤러리자이 조성…연산교차로 '교통요지'",
           "url": "https://www.newsis.com/view/NISX20260904_0003776063",
           "source": "뉴시스",
           "published_at": "2026-09-04T00:25:07",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "AI 데이터센터 수요 급증으로 신속 구축을 위한 사전제작형 모듈러(PMDC)·EPC 시공역량이 핵심 경쟁력으로 부각 → 데이터센터 EPC 경험을 보유한 GS건설이 LG유플러스 등 5개사와 하이퍼스케일 PMDC 표준모델 공동개발 협약을 맺으며 AIDC 사업역량을 직접 강화. 여기에 한화투자증권이 동해 2400MW AIDC 수혜·내년 주택실적 반등·GS이니마 매각을 근거로 목표주가를 4만1000원→5만원으로 상향하며 모멘텀이 겹침. 다만 당일 거래대금 4억원으로 관심은 제한적이어서 종가 35,450원(+0.71%) 소폭 상승에 그침.",
+          "macro_event": "생성형 AI 확산으로 GPU 기반 고성능 컴퓨팅 수요 급증 → AI 데이터센터(AIDC) 구축 수요 폭증",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.35,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.38,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "귀한 신축에 학세권…'하이엔드 오피스텔' GS건설 목동윤슬자이 가보니[르포]",
           "url": "https://www.newsis.com/view/NISX20260901_0003771500",
           "source": "뉴시스",
           "published_at": "2026-09-01T05:32:55",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "AI 데이터센터 수요 급증으로 신속 구축을 위한 사전제작형 모듈러(PMDC)·EPC 시공역량이 핵심 경쟁력으로 부각 → 데이터센터 EPC 경험을 보유한 GS건설이 LG유플러스 등 5개사와 하이퍼스케일 PMDC 표준모델 공동개발 협약을 맺으며 AIDC 사업역량을 직접 강화. 여기에 한화투자증권이 동해 2400MW AIDC 수혜·내년 주택실적 반등·GS이니마 매각을 근거로 목표주가를 4만1000원→5만원으로 상향하며 모멘텀이 겹침. 다만 당일 거래대금 4억원으로 관심은 제한적이어서 종가 35,450원(+0.71%) 소폭 상승에 그침.",
+          "macro_event": "생성형 AI 확산으로 GPU 기반 고성능 컴퓨팅 수요 급증 → AI 데이터센터(AIDC) 구축 수요 폭증",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.35,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.38,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": true,
@@ -884,7 +882,10 @@
           "l": 36400,
           "c": 38900
         }
-      ]
+      ],
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "052710",
@@ -899,9 +900,18 @@
       "industry": "전자부품 제조업",
       "sector": "칩바리스터, 아몰퍼스코어",
       "themes": [
+        "AI데이터센터",
+        "AI",
         "MLCC"
       ],
       "theme_paths": [
+        {
+          "name": "AI데이터센터",
+          "path": [
+            "AI",
+            "AI데이터센터"
+          ]
+        },
         {
           "name": "MLCC",
           "path": [
@@ -920,48 +930,48 @@
           "url": "https://www.etoday.co.kr/news/view/2614458",
           "source": "이투데이",
           "published_at": "2026-08-13T23:01:00",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "AI 데이터센터 확산으로 고성능·고신뢰성 MLCC 수요가 급증 → MLCC 전문업체 아모텍이 AI 데이터센터용 고성능 MLCC 양산을 본격화하고, 유상증자(발행가액 8700원 확정)로 생산능력(CAPA) 확충에 나서며 직접 수혜 → AI 수요 성장축에 올라탄 실적·물량 확대 기대감으로 관심 부각.",
+          "macro_event": "AI 데이터센터 확산 → 고성능 MLCC 수요 급증",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.5,
+          "newzy_virality": 0.45,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.48,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "시세정형"
         },
         {
           "title": "아모텍, 유증 발행가액 8700원 확정…“AI MLCC 생산능력 확충 본격화”",
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03368566645520096",
           "source": "이데일리",
           "published_at": "2026-07-31T00:02:49",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "AI 데이터센터 확산으로 고성능·고신뢰성 MLCC 수요가 급증 → MLCC 전문업체 아모텍이 AI 데이터센터용 고성능 MLCC 양산을 본격화하고, 유상증자(발행가액 8700원 확정)로 생산능력(CAPA) 확충에 나서며 직접 수혜 → AI 수요 성장축에 올라탄 실적·물량 확대 기대감으로 관심 부각.",
+          "macro_event": "AI 데이터센터 확산 → 고성능 MLCC 수요 급증",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.5,
+          "newzy_virality": 0.45,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.48,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "공시"
         },
         {
           "title": "아모텍, AI 데이터센터용 고성능 MLCC 양산 본격화",
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=02922486645514848",
           "source": "이데일리",
           "published_at": "2026-07-14T23:45:00",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "AI 데이터센터 확산으로 고성능·고신뢰성 MLCC 수요가 급증 → MLCC 전문업체 아모텍이 AI 데이터센터용 고성능 MLCC 양산을 본격화하고, 유상증자(발행가액 8700원 확정)로 생산능력(CAPA) 확충에 나서며 직접 수혜 → AI 수요 성장축에 올라탄 실적·물량 확대 기대감으로 관심 부각.",
+          "macro_event": "AI 데이터센터 확산 → 고성능 MLCC 수요 급증",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.5,
+          "newzy_virality": 0.45,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.48,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": true,
@@ -976,7 +986,10 @@
         "current": null
       },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "900270",
