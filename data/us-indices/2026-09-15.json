@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26241.08,
-      "change_pct": -0.35,
+      "point": 26250.69,
+      "change_pct": -0.31,
       "candle": {
         "o": 26017.02,
         "h": 26270.46,
         "l": 25995.36,
-        "c": 26241.08
+        "c": 26250.69
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,7 +2033,7 @@
           "o": 26017.02,
           "h": 26270.46,
           "l": 25995.36,
-          "c": 26241.08
+          "c": 26250.69
         }
       ],
       "spark": [
@@ -2074,7 +2074,9 @@
         26262.46,
         26264.92,
         26241.08,
-        26241.08
+        26242.04,
+        26249.62,
+        26250.69
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2098,13 +2100,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7633.19,
+      "point": 7633.29,
       "change_pct": -0.31,
       "candle": {
         "o": 7611.44,
         "h": 7638.71,
         "l": 7592.28,
-        "c": 7633.19
+        "c": 7633.29
       },
       "range_240d": {
         "low": 6343.72,
@@ -4128,7 +4130,7 @@
           "o": 7611.44,
           "h": 7638.71,
           "l": 7592.28,
-          "c": 7633.19
+          "c": 7633.29
         }
       ],
       "spark": [
@@ -4169,7 +4171,9 @@
         7636.57,
         7637.17,
         7633.55,
-        7633.19
+        7633.33,
+        7633.44,
+        7633.29
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4193,13 +4197,13 @@
     },
     {
       "name": "DOW",
-      "point": 52517.3,
+      "point": 52515.09,
       "change_pct": -0.11,
       "candle": {
         "o": 52750.88,
         "h": 52750.88,
         "l": 52278.89,
-        "c": 52517.3
+        "c": 52515.09
       },
       "range_240d": {
         "low": 45166.64,
@@ -6223,7 +6227,7 @@
           "o": 52750.88,
           "h": 52750.88,
           "l": 52278.89,
-          "c": 52517.3
+          "c": 52515.09
         }
       ],
       "spark": [
@@ -6264,7 +6268,9 @@
         52531.55,
         52532.62,
         52517.29,
-        52517.3
+        52525.54,
+        52514.6,
+        52515.09
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6289,86 +6295,103 @@
   ],
   "news_chips": [
     {
-      "summary": "독일 10년물 국채 금리가 15년 만의 최고치를 경신하면서 글로벌 금리 상승 추세 심화",
+      "summary": "캐나다 8월 소비자물가지수가 전월 대비 0.1% 하락했으나 연간 인플레이션은 여전히 3%를 유지하고 있다",
       "source": "WSJ",
-      "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-edge-lower-german-10-year-bund-yield-hits-new-15-year-high-19110507?mod=rss_socialeconomyfeed",
-      "published_ts": 1789377000.0,
+      "url": "https://www.wsj.com/economy/central-banking/canada-inflation-steady-at-3-in-august-55cb34f1?mod=rss_socialeconomyfeed",
+      "published_ts": 1789402740.0,
       "impact_high": true
     },
     {
-      "summary": "미 10년물 국채 금리가 5%를 터치하면서 연준 금리 인상 전망과 유가 상승의 인플레 영향 부각",
+      "summary": "10년물 금리 상승과 유가 급등으로 채권시장 조정이 심화되면서 고정수익 투자자의 손실이 확대되고 있다",
       "source": "WSJ",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-14-2026?mod=rss_markets_main",
-      "published_ts": 1789375484.0,
-      "impact_high": true
-    },
-    {
-      "summary": "사우디 동서 송유관이 드론 공격으로 폐쇄되면서 하루 700만 배럴 규모 원유 공급 차절과 유가 상승 우려",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/world/middle-east/what-is-saudi-arabias-east-west-pipeline-and-why-is-it-rocking-oil-markets-3e9823a3?mod=rss_worldnews",
-      "published_ts": 1789395780.0,
+      "url": "https://www.wsj.com/finance/investing/a-guide-to-owning-bonds-when-they-are-selling-off-be8e0a2b?mod=rss_markets_main",
+      "published_ts": 1789397220.0,
       "impact_high": false
     },
     {
-      "summary": "AI 안전성 우려가 부각되면서 기술주가 약세 마감, 나스닥 지수에 하락 압력",
+      "summary": "미국 10년물 국채 금리가 5%를 터치하면서 글로벌 채권시장 조정이 심화되고 있다",
+      "source": "한경",
+      "url": "https://www.hankyung.com/article/2026091442927",
+      "published_ts": 1789395968.0,
+      "impact_high": false
+    },
+    {
+      "summary": "AI 안전 우려와 연준 금리 인상 관측이 기술주 약세를 견인하면서 나스닥이 동반 약세를 기록했다",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/stocks/stocks-have-the-midterm-blues-000a3446?mod=rss_markets_main",
       "published_ts": 1789382100.0,
       "impact_high": false
     },
     {
-      "summary": "금리 상승 시나리오에서 모기지론 담보채권이 양방향 리스크에 노출, 채권 시장 변동성 증대",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/why-mortgage-bonds-are-at-risk-if-rates-riseand-if-they-fall-ff897dd5?mod=rss_markets_main",
-      "published_ts": 1789378200.0,
-      "impact_high": false
-    },
-    {
-      "summary": "호티 반군의 홍해 해협 장악으로 중동 유가 공급망 위험 고조, 호르무즈 해협의 대체 루트 우려",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/world/middle-east/widening-mideast-instability-squeezes-global-oil-supplies-0cd316ad?mod=rss_worldnews",
-      "published_ts": 1789344000.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 임금 상승 3.1% 대비 인플레 상승 3.4%로 실질 구매력이 지속적으로 약화 중",
+      "summary": "미국 8월 소비자물가 상승률(3.4%)이 임금 상승률(3.1%)을 초과하면서 실질 구매력 악화가 가속화되고 있다",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/12/inflation-is-outpacing-wage-growth-again-squeezing-americans-paychecks.html",
       "published_ts": 1789217355.0,
       "impact_high": true
     },
     {
-      "summary": "연준이 3년 만에 기준금리 인상에 거의 확정 수준으로 접어들면서 금융시장 변동성 증대",
+      "summary": "사우디 드론 피해 파이프라인 폐쇄로 일일 710만 배럴의 유가 공급 차질이 발생해 국제유가 상승을 견인하고 있다",
       "source": "WSJ",
-      "url": "https://www.wsj.com/economy/central-banking/the-fed-is-poised-for-a-rate-hike-it-rarely-stops-at-one-c7455e98?mod=rss_socialeconomyfeed",
-      "published_ts": 1789155420.0,
-      "impact_high": true
+      "url": "https://www.wsj.com/world/middle-east/saudi-arabia-shuts-down-pipeline-that-was-a-crucial-hormuz-bypass-4fe29001?mod=rss_worldnews",
+      "published_ts": 1789159560.0,
+      "impact_high": false
     },
     {
-      "summary": "소비자 경기 심리가 9월에 급락하고 인플레 전망 악화로 경제 둔화 신호 강화",
+      "summary": "중동 공급 차질 우려와 금리 인상 관측으로 유가가 주간 기준 큰 폭 상승했다",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/world/middle-east/oil-prices-slip-after-recent-surge-amid-supply-risks-e1819c15?mod=rss_worldnews",
+      "published_ts": 1789156560.0,
+      "impact_high": false
+    },
+    {
+      "summary": "호티 반군이 홍해 바브 알만데브 해협을 실질 통제하면서 유가 공급망 리스크가 2중으로 심화되고 있다",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/world/middle-east/iran-backed-houthis-take-effective-control-of-bab-al-mandeb-chokepoint-0c6f4592?mod=rss_worldnews",
+      "published_ts": 1789150800.0,
+      "impact_high": false
+    },
+    {
+      "summary": "연준 금리 인상 가능성이 70%까지 상승하면서 내주 금리 결정 시장 관심이 집중되고 있다",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/11/consumer-outlook-plunges-in-september-as-inflation-outlook-worsens.html",
-      "published_ts": 1789145603.0,
+      "url": "https://www.cnbc.com/2026/09/10/the-likelihood-of-a-fed-interest-rate-hike-next-week-just-got-a-lot-higher.html",
+      "published_ts": 1789059317.0,
       "impact_high": true
     },
     {
-      "summary": "미 주택 판매가 1년 이상 최저 수준으로 급락, 금리 인상의 부동산 시장 냉각 효과 심화",
+      "summary": "미국 8월 주택 판매가 1년 이상 최저 수준으로 하락하면서 고금리가 부동산시장에 지속적 압박을 가하고 있다",
       "source": "WSJ",
       "url": "https://www.wsj.com/economy/housing/home-sales-in-august-tumble-to-lowest-level-since-last-year-25851c6e?mod=rss_socialeconomyfeed",
       "published_ts": 1789048800.0,
       "impact_high": false
     }
   ],
-  "_article_sig": "98cd3edf5436660cbcebbf2cbbd2a113b791e42387c508930a6cce5c78f76de9",
+  "_article_sig": "c169f5d7b3565fb4e5e4f2bbf8da40d7a081bb6d55a0de53405c73bb2e5aeee9",
   "built_at_kst": "2026-09-12T07:00:24.147452+09:00",
   "regular_open": true,
   "_futures_news": {
+    "S&P500": {
+      "summary": "금리 인상 기대에 10년물 국채 5% 돌파. 인플레이션(3.4%) 임금 상승(3.1%) 추월에 실질 구매력 악화 중. 사우디 파이프라인 폐쇄·호우티 홍해 장악으로 유가 급등, 에너지 인플레이션 우려 심화. 채권·주택시장 동반 약세.",
+      "sources": [
+        {
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/2026091442927"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-edge-lower-german-10-year-bund-yield-hits-new-15-year-high-19110507?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-14-2026?mod=rss_markets_main"
+        }
+      ]
+    },
     "NASDAQ": {
-      "summary": "AI 속도 조절론 확산으로 기술주 강세 기회 축소 중. 빅테크 규제 우려, 금리 인상 임박과 동시 압박. 나스닥100 선물 약세 심화.",
+      "summary": "AI 안전 규제론 확산에 기술주 약세 신호 심화. 의회가 AI 멸망 위협 경고하며 감시 강화 중. 빅테크 지도자 정책 대응 신경전 악화.",
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/stocks-have-the-midterm-blues-000a3446?mod=rss_markets_main"
+          "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-congress-is-suddenly-waking-up-to-the-ai-doomsday-threat-29c1baa8?mod=rss_worldnews"
         },
         {
           "name": "한경국제",
@@ -6376,57 +6399,39 @@
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/wall-streets-favorite-ai-startup-sets-its-sights-on-wealth-management-61b8b5d1?mod=rss_markets_main"
+          "url": "https://www.wsj.com/finance/stocks/stocks-have-the-midterm-blues-000a3446?mod=rss_markets_main"
         }
       ]
     },
-    "S&P500": {
-      "summary": "美 10년물 금리 5% 돌파, 연준 금리 인상 임박 신호 강화. 인플레이션 지속, 소비자 심리 악화로 경기 둔화 우려 가중. 광범위 매도 기조, 금리·채권 약세 악순환 심화.",
+    "DOW": {
+      "summary": "금리 인상 기대에 10년물 국채 5% 돌파. 인플레이션(3.4%) 임금 상승(3.1%) 추월에 실질 구매력 악화 중. 사우디 파이프라인 폐쇄·호우티 홍해 장악으로 유가 급등, 에너지 인플레이션 우려 심화. 채권·주택시장 동반 약세.",
       "sources": [
         {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/2026091442927"
         },
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-edge-lower-german-10-year-bund-yield-hits-new-15-year-high-19110507?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-14-2026?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/the-fed-is-poised-for-a-rate-hike-it-rarely-stops-at-one-c7455e98?mod=rss_socialeconomyfeed"
-        }
-      ]
-    },
-    "DOW": {
-      "summary": "중동 파이프라인 피격·후티 해협 장악으로 유가 상승 심화. 석유제품 급등, 경기민감 사이클 약화. 부동산 부진·금융주 약세로 경기둔화 신호, 지정학 긴장 속 경기 우려 가중.",
-      "sources": [
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/saudi-arabia-shuts-down-pipeline-that-was-a-crucial-hormuz-bypass-4fe29001?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/iran-backed-houthis-take-effective-control-of-bab-al-mandeb-chokepoint-0c6f4592?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/housing/home-sales-in-august-tumble-to-lowest-level-since-last-year-25851c6e?mod=rss_socialeconomyfeed"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-09-15T01:30:07.316003+09:00",
+    "as_of_kst": "2026-09-15T01:40:02.574871+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7708.0,
-        "change_pct": -0.25,
+        "point": 7704.25,
+        "change_pct": -0.3,
         "spark": [
           7609.25,
-          7606.0,
           7607.75,
           7607.75,
           7606.25,
@@ -6465,21 +6470,22 @@
           7698.75,
           7708.0,
           7708.25,
-          7708.0
+          7704.25,
+          7704.25
         ],
         "candle": {
           "o": 7609.25,
-          "h": 7709.0,
+          "h": 7710.5,
           "l": 7661.25,
-          "c": 7708.0
+          "c": 7704.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 20.66,
-          "high_change_pct": -1.46
+          "low_change_pct": 20.6,
+          "high_change_pct": -1.51
         },
         "daily_expanded": [
           {
@@ -8485,27 +8491,27 @@
           {
             "date": "2026-09-14",
             "o": 7609.25,
-            "h": 7709.0,
+            "h": 7710.5,
             "l": 7661.25,
-            "c": 7708.0,
-            "v": 1186662
+            "c": 7704.25,
+            "v": 1223523
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "美 10년물 금리 5% 돌파, 연준 금리 인상 임박 신호 강화. 인플레이션 지속, 소비자 심리 악화로 경기 둔화 우려 가중. 광범위 매도 기조, 금리·채권 약세 악순환 심화.",
+          "summary": "금리 인상 기대에 10년물 국채 5% 돌파. 인플레이션(3.4%) 임금 상승(3.1%) 추월에 실질 구매력 악화 중. 사우디 파이프라인 폐쇄·호우티 홍해 장악으로 유가 급등, 에너지 인플레이션 우려 심화. 채권·주택시장 동반 약세.",
           "sources": [
             {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/2026091442927"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-14-2026?mod=rss_markets_main"
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-edge-lower-german-10-year-bund-yield-hits-new-15-year-high-19110507?mod=rss_socialeconomyfeed"
             },
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/the-fed-is-poised-for-a-rate-hike-it-rarely-stops-at-one-c7455e98?mod=rss_socialeconomyfeed"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-14-2026?mod=rss_markets_main"
             }
           ]
         }
@@ -8513,11 +8519,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29515.25,
-        "change_pct": -0.57,
+        "point": 29491.25,
+        "change_pct": -0.65,
         "spark": [
           28997.75,
-          28876.5,
           28900.25,
           28905.25,
           28905.25,
@@ -8556,21 +8561,22 @@
           29457.5,
           29514.5,
           29517.0,
-          29515.25
+          29491.25,
+          29491.25
         ],
         "candle": {
           "o": 28997.75,
-          "h": 29523.0,
+          "h": 29527.25,
           "l": 29107.25,
-          "c": 29515.5
+          "c": 29491.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.55,
-          "high_change_pct": -3.9
+          "low_change_pct": 27.45,
+          "high_change_pct": -3.98
         },
         "daily_expanded": [
           {
@@ -10576,19 +10582,19 @@
           {
             "date": "2026-09-14",
             "o": 28997.75,
-            "h": 29523.0,
+            "h": 29527.25,
             "l": 29107.25,
-            "c": 29515.5,
-            "v": 368725
+            "c": 29491.25,
+            "v": 375995
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "AI 속도 조절론 확산으로 기술주 강세 기회 축소 중. 빅테크 규제 우려, 금리 인상 임박과 동시 압박. 나스닥100 선물 약세 심화.",
+          "summary": "AI 안전 규제론 확산에 기술주 약세 신호 심화. 의회가 AI 멸망 위협 경고하며 감시 강화 중. 빅테크 지도자 정책 대응 신경전 악화.",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/stocks-have-the-midterm-blues-000a3446?mod=rss_markets_main"
+              "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-congress-is-suddenly-waking-up-to-the-ai-doomsday-threat-29c1baa8?mod=rss_worldnews"
             },
             {
               "name": "한경국제",
@@ -10596,7 +10602,7 @@
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/wall-streets-favorite-ai-startup-sets-its-sights-on-wealth-management-61b8b5d1?mod=rss_markets_main"
+              "url": "https://www.wsj.com/finance/stocks/stocks-have-the-midterm-blues-000a3446?mod=rss_markets_main"
             }
           ]
         }
@@ -10604,11 +10610,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52977.0,
-        "change_pct": -0.05,
+        "point": 52962.0,
+        "change_pct": -0.08,
         "spark": [
           52376.0,
-          52827.0,
           52827.0,
           52833.0,
           52858.0,
@@ -10647,21 +10652,22 @@
           52934.0,
           52971.0,
           52974.0,
-          52977.0
+          52962.0,
+          52962.0
         ],
         "candle": {
           "o": 52376.0,
           "h": 52625.0,
           "l": 52226.0,
-          "c": 52977.0
+          "c": 52956.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 16.63,
-          "high_change_pct": -2.78
+          "low_change_pct": 16.58,
+          "high_change_pct": -2.82
         },
         "daily_expanded": [
           {
@@ -12669,30 +12675,30 @@
             "o": 52376.0,
             "h": 52625.0,
             "l": 52226.0,
-            "c": 52977.0,
-            "v": 65055
+            "c": 52956.0,
+            "v": 66527
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "중동 파이프라인 피격·후티 해협 장악으로 유가 상승 심화. 석유제품 급등, 경기민감 사이클 약화. 부동산 부진·금융주 약세로 경기둔화 신호, 지정학 긴장 속 경기 우려 가중.",
+          "summary": "금리 인상 기대에 10년물 국채 5% 돌파. 인플레이션(3.4%) 임금 상승(3.1%) 추월에 실질 구매력 악화 중. 사우디 파이프라인 폐쇄·호우티 홍해 장악으로 유가 급등, 에너지 인플레이션 우려 심화. 채권·주택시장 동반 약세.",
           "sources": [
             {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/saudi-arabia-shuts-down-pipeline-that-was-a-crucial-hormuz-bypass-4fe29001?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/iran-backed-houthis-take-effective-control-of-bab-al-mandeb-chokepoint-0c6f4592?mod=rss_worldnews"
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/2026091442927"
             },
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/housing/home-sales-in-august-tumble-to-lowest-level-since-last-year-25851c6e?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-edge-lower-german-10-year-bund-yield-hits-new-15-year-high-19110507?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-14-2026?mod=rss_markets_main"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-09-15T01:30:11.010929+09:00"
+  "intraday_refreshed_kst": "2026-09-15T01:41:39.512009+09:00"
 }
