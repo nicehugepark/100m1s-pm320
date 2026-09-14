@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "generated_at": "2026-09-14T09:05:14.505254",
+  "generated_at": "2026-09-14T09:15:11.003645",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "title": "AI데이터센터",
-      "summary": "AI 데이터센터 수주 본격화 → 건설·전기·반도체 인프라 섹터 수혜 확대"
+      "summary": "AI 데이터센터 수요 급증 → 반도체·냉각·광부품 섹터 연쇄 수혜"
     },
     {
       "title": "원전진출",
@@ -18,6 +18,10 @@
     {
       "title": "원전수출",
       "summary": "미국 원전시장 성장 → 한국 원전 기술 수출 기회 → 전력설비·중공업 섹터 호재"
+    },
+    {
+      "title": "원전정책",
+      "summary": "정부 원전·에너지 정책 강화 신호 → 원전장비·발전소 건설 섹터 부상"
     },
     {
       "title": "전기료상승",
@@ -38,25 +42,95 @@
     {
       "title": "탄소감축",
       "summary": "GS건설 CO₂→휘발유 전환 기술 개발 → 친환경 에너지 기술 확보 → 건설·에너지 신기술 섹터 기대감"
-    },
-    {
-      "title": "메모리칩",
-      "summary": "TLB MR-DIMM 기술로 성장동력 확대 → 고대역폭 메모리 시장 확대 → 메모리 반도체 섹터 재평가"
     }
   ],
   "narratives": [],
-  "themes_macro_summary": [],
-  "themes_tree": null,
+  "themes_macro_summary": [
+    {
+      "keyword": "AI데이터센터",
+      "summary": "AI 데이터센터 수주 본격화 → 건설·전기·반도체 인프라 섹터 수혜 확대",
+      "source_count": 3,
+      "verified": true
+    },
+    {
+      "keyword": "전기료정책",
+      "summary": "한국전력 전기료 선납 정책 → 에너지 절감 투자 필요 → 반도체·중공업 원가 압박 우려",
+      "source_count": 2,
+      "verified": true
+    },
+    {
+      "keyword": "원전수출",
+      "summary": "미국 원전시장 성장 → 한국 원전 기술 수출 기회 → 전력설비·중공업 섹터 호재",
+      "source_count": 2,
+      "verified": true
+    },
+    {
+      "keyword": "원전진출",
+      "summary": "팀코리아 미국 원전시장 진출 → 한전기술 기업가치 재평가 → 에너지·원전 섹터 강세",
+      "source_count": 2,
+      "verified": true
+    },
+    {
+      "keyword": "AI전력",
+      "summary": "AI 데이터센터 전력수요 폭증 → 발전소·전력인프라 수주 확대 → 건설사·중공업 섹터 매집",
+      "source_count": 2,
+      "verified": true
+    }
+  ],
+  "themes_tree": {
+    "date": "2026-09-14",
+    "roots": [
+      {
+        "name": "AI 인프라",
+        "children": [
+          {
+            "name": "AI 데이터센터",
+            "summary": "AI 데이터센터 투자 확대로 건설사 수주가 본격화되며 건설·EPC 섹터가 수혜를 받는다.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "AI 서버 메모리 모듈",
+            "summary": "SoCAMM·MR-DIMM 등 차세대 메모리 모듈 채용 확대로 모듈용 기판 섹터가 성장한다.",
+            "source_count": 1,
+            "verdict": "pass"
+          }
+        ]
+      },
+      {
+        "name": "에너지",
+        "children": [
+          {
+            "name": "원전",
+            "summary": "팀코리아의 미국 원전시장 진출로 낙수효과가 기대되며 원전 설계·기자재 섹터가 재평가된다.",
+            "source_count": 2,
+            "verdict": "pass"
+          }
+        ]
+      },
+      {
+        "name": "AI 데이터센터",
+        "children": [
+          {
+            "name": "AI 데이터센터 냉각·공조",
+            "summary": "AI 데이터센터 급증에 따른 美 공조시장 확대로 공조·필터 부품 섹터가 수혜를 본다.",
+            "source_count": 1,
+            "verdict": "weak"
+          }
+        ]
+      }
+    ]
+  },
   "stocks": [
     {
       "code": "356680",
       "name": "엑스게이트",
       "rank": 1,
-      "trade_amount": 56588000000,
-      "change_pct": 8.53,
-      "close_price": 17430,
+      "trade_amount": 122807000000,
+      "change_pct": 12.95,
+      "close_price": 18140,
       "open_price": 16780,
-      "high_price": 17760,
+      "high_price": 18300,
       "low_price": 16230,
       "industry": "소프트웨어 개발 및 공급업",
       "sector": "통합 네트워크 보안 솔루션",
@@ -134,17 +208,17 @@
         ],
         "cafe_only": []
       },
-      "index_change_pct": -2.21,
-      "index_multiple_current": -3.86,
+      "index_change_pct": -1.81,
+      "index_multiple_current": -7.15,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 30550,
         "high_date": "2026-05-27",
-        "high_pct": -42.95,
+        "high_pct": -40.62,
         "low": 6100,
         "low_date": "2026-03-04",
-        "low_pct": 185.74,
-        "current": 17430
+        "low_pct": 197.38,
+        "current": 18140
       },
       "daily_20": [
         {
@@ -283,29 +357,287 @@
         {
           "date": "2026-09-14",
           "o": 16780,
-          "h": 17760,
+          "h": 18300,
           "l": 16230,
-          "c": 17430
+          "c": 18140
         }
       ],
-      "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "status_badges": [
+        {
+          "label": "투자주의 근접",
+          "severity": "caution",
+          "source": "predicted",
+          "thresholds": [
+            {
+              "desc": "5일 전(2026-09-07) 대비 +60%↑",
+              "base_price": 11330,
+              "threshold": 18128,
+              "current": 18140,
+              "triggered": true
+            }
+          ],
+          "regulation": "KRX 시장경보 가격 조건 충족 (거래량 미검증, 자체 추정)",
+          "period_start": "2026-09-15",
+          "period_end": "2026-09-16",
+          "start": "2026-09-15",
+          "end": "2026-09-16",
+          "view_date": "2026-09-14",
+          "next_trading_day": "2026-09-15",
+          "next_trading_day_for_predicted": "2026-09-15",
+          "next_trading_day_source": "fallback_homepage",
+          "single_price": false,
+          "effect_badges": []
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 16780,
+        "base": 16780,
+        "prices": [
+          16780,
+          17740,
+          17670
+        ]
+      },
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰"
     },
     {
+      "code": "411080",
+      "name": "샌즈랩",
+      "rank": 2,
+      "trade_amount": 24960000000,
+      "change_pct": 29.95,
+      "close_price": 7160,
+      "open_price": 5910,
+      "high_price": 7160,
+      "low_price": 5890,
+      "industry": "소프트웨어 개발 및 공급업",
+      "sector": "사이버 위협 인텔리전스(CTI)",
+      "themes": [
+        "AI"
+      ],
+      "theme_paths": [
+        {
+          "name": "AI",
+          "path": [
+            "AI"
+          ]
+        }
+      ],
+      "pick_count": 2,
+      "prev_pick": {
+        "date": "2026-09-11",
+        "rank": 15,
+        "change_pct": 29.8,
+        "trade_amount": 8907000000
+      },
+      "bullish_today": true,
+      "bullish_streak": 2,
+      "bullish_dates": [
+        "2026-08-04",
+        "2026-09-11",
+        "2026-09-14"
+      ],
+      "news": [],
+      "fallback": true,
+      "index_change_pct": -1.81,
+      "index_multiple_current": -16.55,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 10360,
+        "high_date": "2025-09-18",
+        "high_pct": -30.89,
+        "low": 2965,
+        "low_date": "2026-07-30",
+        "low_pct": 141.48,
+        "current": 7160
+      },
+      "daily_20": [
+        {
+          "date": "2026-08-18",
+          "o": 4295,
+          "h": 4315,
+          "l": 4110,
+          "c": 4135
+        },
+        {
+          "date": "2026-08-19",
+          "o": 4070,
+          "h": 4175,
+          "l": 4010,
+          "c": 4055
+        },
+        {
+          "date": "2026-08-20",
+          "o": 4095,
+          "h": 4295,
+          "l": 4055,
+          "c": 4220
+        },
+        {
+          "date": "2026-08-21",
+          "o": 4175,
+          "h": 4175,
+          "l": 3860,
+          "c": 3970
+        },
+        {
+          "date": "2026-08-24",
+          "o": 4005,
+          "h": 4090,
+          "l": 3940,
+          "c": 4015
+        },
+        {
+          "date": "2026-08-25",
+          "o": 3960,
+          "h": 4075,
+          "l": 3835,
+          "c": 4010
+        },
+        {
+          "date": "2026-08-26",
+          "o": 3985,
+          "h": 4090,
+          "l": 3985,
+          "c": 4070
+        },
+        {
+          "date": "2026-08-27",
+          "o": 4195,
+          "h": 4220,
+          "l": 4050,
+          "c": 4080
+        },
+        {
+          "date": "2026-08-28",
+          "o": 4385,
+          "h": 5170,
+          "l": 4240,
+          "c": 4240
+        },
+        {
+          "date": "2026-08-31",
+          "o": 4235,
+          "h": 4400,
+          "l": 3975,
+          "c": 4170
+        },
+        {
+          "date": "2026-09-01",
+          "o": 4170,
+          "h": 4335,
+          "l": 4075,
+          "c": 4290
+        },
+        {
+          "date": "2026-09-02",
+          "o": 4290,
+          "h": 4290,
+          "l": 4060,
+          "c": 4105
+        },
+        {
+          "date": "2026-09-03",
+          "o": 4200,
+          "h": 4315,
+          "l": 3970,
+          "c": 4105
+        },
+        {
+          "date": "2026-09-04",
+          "o": 4200,
+          "h": 4460,
+          "l": 4105,
+          "c": 4205
+        },
+        {
+          "date": "2026-09-07",
+          "o": 4305,
+          "h": 4305,
+          "l": 4170,
+          "c": 4200
+        },
+        {
+          "date": "2026-09-08",
+          "o": 4205,
+          "h": 4300,
+          "l": 4070,
+          "c": 4195
+        },
+        {
+          "date": "2026-09-09",
+          "o": 4105,
+          "h": 4330,
+          "l": 4105,
+          "c": 4280
+        },
+        {
+          "date": "2026-09-10",
+          "o": 4350,
+          "h": 4350,
+          "l": 4150,
+          "c": 4245
+        },
+        {
+          "date": "2026-09-11",
+          "o": 4635,
+          "h": 5510,
+          "l": 4510,
+          "c": 5510
+        },
+        {
+          "date": "2026-09-14",
+          "o": 5910,
+          "h": 7160,
+          "l": 5890,
+          "c": 7160
+        }
+      ],
+      "status_badges": [
+        {
+          "label": "투자주의 근접",
+          "severity": "caution",
+          "source": "predicted",
+          "thresholds": [
+            {
+              "desc": "5일 전(2026-09-07) 대비 +60%↑",
+              "base_price": 4200,
+              "threshold": 6720,
+              "current": 7160,
+              "triggered": true
+            }
+          ],
+          "regulation": "KRX 시장경보 가격 조건 충족 (거래량 미검증, 자체 추정)",
+          "period_start": "2026-09-15",
+          "period_end": "2026-09-16",
+          "start": "2026-09-15",
+          "end": "2026-09-16",
+          "view_date": "2026-09-14",
+          "next_trading_day": "2026-09-15",
+          "next_trading_day_for_predicted": "2026-09-15",
+          "next_trading_day_source": "fallback_homepage",
+          "single_price": false,
+          "effect_badges": []
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
       "code": "000670",
       "name": "영풍",
-      "rank": 2,
-      "trade_amount": 6423000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
-      "industry": null,
-      "sector": null,
+      "rank": 3,
+      "trade_amount": 8755000000,
+      "change_pct": 29.91,
+      "close_price": 49950,
+      "open_price": 47850,
+      "high_price": 49950,
+      "low_price": 46100,
+      "industry": "1차 비철금속 제조업",
+      "sector": "제1차 금속산업(아연괴,황산,카드뮴괴),건전지 제조,무역",
       "themes": [],
       "theme_paths": [],
       "pick_count": 1,
@@ -315,24 +647,466 @@
       "bullish_dates": [],
       "news": [],
       "fallback": true,
+      "index_change_pct": -3.15,
+      "index_multiple_current": -9.5,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 71800,
+        "high_date": "2025-12-15",
+        "high_pct": -30.43,
+        "low": 31000,
+        "low_date": "2026-07-29",
+        "low_pct": 61.13,
+        "current": 49950
+      },
+      "daily_20": [
+        {
+          "date": "2026-08-18",
+          "o": 38800,
+          "h": 39550,
+          "l": 37600,
+          "c": 38200
+        },
+        {
+          "date": "2026-08-19",
+          "o": 37450,
+          "h": 38100,
+          "l": 36600,
+          "c": 37400
+        },
+        {
+          "date": "2026-08-20",
+          "o": 37400,
+          "h": 39950,
+          "l": 37400,
+          "c": 38100
+        },
+        {
+          "date": "2026-08-21",
+          "o": 37300,
+          "h": 37750,
+          "l": 36300,
+          "c": 37300
+        },
+        {
+          "date": "2026-08-24",
+          "o": 37300,
+          "h": 39600,
+          "l": 37300,
+          "c": 39450
+        },
+        {
+          "date": "2026-08-25",
+          "o": 39450,
+          "h": 40800,
+          "l": 38600,
+          "c": 40350
+        },
+        {
+          "date": "2026-08-26",
+          "o": 39900,
+          "h": 40250,
+          "l": 38550,
+          "c": 39850
+        },
+        {
+          "date": "2026-08-27",
+          "o": 39950,
+          "h": 40450,
+          "l": 39300,
+          "c": 40250
+        },
+        {
+          "date": "2026-08-28",
+          "o": 40150,
+          "h": 41200,
+          "l": 39650,
+          "c": 41200
+        },
+        {
+          "date": "2026-08-31",
+          "o": 41150,
+          "h": 41150,
+          "l": 39200,
+          "c": 40000
+        },
+        {
+          "date": "2026-09-01",
+          "o": 39700,
+          "h": 40750,
+          "l": 39200,
+          "c": 40350
+        },
+        {
+          "date": "2026-09-02",
+          "o": 39850,
+          "h": 40250,
+          "l": 38900,
+          "c": 39900
+        },
+        {
+          "date": "2026-09-03",
+          "o": 39700,
+          "h": 40700,
+          "l": 39000,
+          "c": 40000
+        },
+        {
+          "date": "2026-09-04",
+          "o": 40550,
+          "h": 40550,
+          "l": 39300,
+          "c": 39300
+        },
+        {
+          "date": "2026-09-07",
+          "o": 39750,
+          "h": 40150,
+          "l": 38800,
+          "c": 39450
+        },
+        {
+          "date": "2026-09-08",
+          "o": 39650,
+          "h": 40450,
+          "l": 38750,
+          "c": 39250
+        },
+        {
+          "date": "2026-09-09",
+          "o": 39750,
+          "h": 40000,
+          "l": 38500,
+          "c": 39900
+        },
+        {
+          "date": "2026-09-10",
+          "o": 39150,
+          "h": 39750,
+          "l": 38650,
+          "c": 39400
+        },
+        {
+          "date": "2026-09-11",
+          "o": 38450,
+          "h": 39500,
+          "l": 38050,
+          "c": 38450
+        },
+        {
+          "date": "2026-09-14",
+          "o": 47850,
+          "h": 49950,
+          "l": 46100,
+          "c": 49950
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 47850,
+        "base": 47850,
+        "prices": [
+          47850,
+          49950,
+          49950
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
     },
     {
+      "code": "140430",
+      "name": "카티스",
+      "rank": 4,
+      "trade_amount": 1225000000,
+      "change_pct": 29.81,
+      "close_price": 3005,
+      "open_price": 3005,
+      "high_price": 3005,
+      "low_price": 2730,
+      "industry": "컴퓨터 프로그래밍, 시스템 통합 및 관리업",
+      "sector": "산업인프라 보안플랫폼",
+      "themes": [
+        "중동 지정학",
+        "CCTV·보안"
+      ],
+      "theme_paths": [
+        {
+          "name": "중동 지정학",
+          "path": [
+            "전쟁",
+            "중동 지정학"
+          ]
+        },
+        {
+          "name": "CCTV·보안",
+          "path": [
+            "CCTV·보안"
+          ]
+        }
+      ],
+      "pick_count": 2,
+      "prev_pick": {
+        "date": "2026-09-11",
+        "rank": 17,
+        "change_pct": 29.91,
+        "trade_amount": 1052000000
+      },
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [
+        "2026-09-11"
+      ],
+      "news": [
+        {
+          "title": "스마트레이더시스템·카티스, 보안경계감시 분야 전략적 MOU",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03476806645576512",
+          "source": "이데일리",
+          "published_at": "2026-09-03T01:56:32",
+          "causal_chain": "중동발 복합전(드론·지상·사이버 동시 침투) 양상이 뚜렷해지며 원자력발전소·데이터센터 등 국가 중요시설의 방호 기준을 '유인 감시'에서 'AI·로봇·양자 기반 무인 방호'로 강화하는 논의로 이어짐 → 펜스형 Edge AI 센서(IHS)·PIDS·로봇/드론 연동·양자내성암호(PQC) 물리보안 플랫폼 수요 부각 → CCTV·보안 도메인의 국가 중요시설 레퍼런스 보유주 카티스가 직접 수혜 기대. 다만 당일 종가 1,800원(+0.00%)로 시세 반응은 사실상 무반응(52주 고가 10,325원 대비 -82.6% 수준)이며, 방호 기준 강화 논의가 실제 대규모 인프라 투자·신규 수주로 연결되는 속도가 관건.",
+          "macro_event": "중동 분쟁 복합전(저고도 드론·지상 침투·사이버 공격 동시) 양상 확산",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.35,
+          "newzy_virality": 0.3,
+          "newzy_tradability": null,
+          "newzy_score": 0.33,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        },
+        {
+          "title": "카티스, 이스라엘 씨트루와 AI 보안검색 솔루션 파트너십",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03214406645550600",
+          "source": "이데일리",
+          "published_at": "2026-08-24T05:22:00",
+          "causal_chain": "중동발 복합전(드론·지상·사이버 동시 침투) 양상이 뚜렷해지며 원자력발전소·데이터센터 등 국가 중요시설의 방호 기준을 '유인 감시'에서 'AI·로봇·양자 기반 무인 방호'로 강화하는 논의로 이어짐 → 펜스형 Edge AI 센서(IHS)·PIDS·로봇/드론 연동·양자내성암호(PQC) 물리보안 플랫폼 수요 부각 → CCTV·보안 도메인의 국가 중요시설 레퍼런스 보유주 카티스가 직접 수혜 기대. 다만 당일 종가 1,800원(+0.00%)로 시세 반응은 사실상 무반응(52주 고가 10,325원 대비 -82.6% 수준)이며, 방호 기준 강화 논의가 실제 대규모 인프라 투자·신규 수주로 연결되는 속도가 관건.",
+          "macro_event": "중동 분쟁 복합전(저고도 드론·지상 침투·사이버 공격 동시) 양상 확산",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.35,
+          "newzy_virality": 0.3,
+          "newzy_tradability": null,
+          "newzy_score": 0.33,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        },
+        {
+          "title": "중동발 안보 리스크…카티스, 국가시설 보안기술 주목",
+          "url": "https://www.mk.co.kr/news/stock/12117366",
+          "source": "매경",
+          "published_at": "2026-08-05T00:45:22",
+          "causal_chain": "중동발 복합전(드론·지상·사이버 동시 침투) 양상이 뚜렷해지며 원자력발전소·데이터센터 등 국가 중요시설의 방호 기준을 '유인 감시'에서 'AI·로봇·양자 기반 무인 방호'로 강화하는 논의로 이어짐 → 펜스형 Edge AI 센서(IHS)·PIDS·로봇/드론 연동·양자내성암호(PQC) 물리보안 플랫폼 수요 부각 → CCTV·보안 도메인의 국가 중요시설 레퍼런스 보유주 카티스가 직접 수혜 기대. 다만 당일 종가 1,800원(+0.00%)로 시세 반응은 사실상 무반응(52주 고가 10,325원 대비 -82.6% 수준)이며, 방호 기준 강화 논의가 실제 대규모 인프라 투자·신규 수주로 연결되는 속도가 관건.",
+          "macro_event": "중동 분쟁 복합전(저고도 드론·지상 침투·사이버 공격 동시) 양상 확산",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.35,
+          "newzy_virality": 0.3,
+          "newzy_tradability": null,
+          "newzy_score": 0.33,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        }
+      ],
+      "fallback": true,
+      "index_change_pct": -1.81,
+      "index_multiple_current": -16.47,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 10325,
+        "high_date": "2025-12-02",
+        "high_pct": -70.9,
+        "low": 1500,
+        "low_date": "2026-07-29",
+        "low_pct": 100.33,
+        "current": 3005
+      },
+      "daily_20": [
+        {
+          "date": "2026-08-18",
+          "o": 1929,
+          "h": 1935,
+          "l": 1823,
+          "c": 1885
+        },
+        {
+          "date": "2026-08-19",
+          "o": 1982,
+          "h": 1982,
+          "l": 1832,
+          "c": 1841
+        },
+        {
+          "date": "2026-08-20",
+          "o": 1836,
+          "h": 1880,
+          "l": 1751,
+          "c": 1805
+        },
+        {
+          "date": "2026-08-21",
+          "o": 1790,
+          "h": 1818,
+          "l": 1721,
+          "c": 1783
+        },
+        {
+          "date": "2026-08-24",
+          "o": 1778,
+          "h": 1778,
+          "l": 1684,
+          "c": 1695
+        },
+        {
+          "date": "2026-08-25",
+          "o": 1695,
+          "h": 1728,
+          "l": 1650,
+          "c": 1711
+        },
+        {
+          "date": "2026-08-26",
+          "o": 1706,
+          "h": 1735,
+          "l": 1695,
+          "c": 1726
+        },
+        {
+          "date": "2026-08-27",
+          "o": 1726,
+          "h": 1752,
+          "l": 1640,
+          "c": 1719
+        },
+        {
+          "date": "2026-08-28",
+          "o": 1707,
+          "h": 1780,
+          "l": 1707,
+          "c": 1778
+        },
+        {
+          "date": "2026-08-31",
+          "o": 1778,
+          "h": 1778,
+          "l": 1684,
+          "c": 1719
+        },
+        {
+          "date": "2026-09-01",
+          "o": 1739,
+          "h": 1760,
+          "l": 1700,
+          "c": 1727
+        },
+        {
+          "date": "2026-09-02",
+          "o": 1730,
+          "h": 1744,
+          "l": 1641,
+          "c": 1664
+        },
+        {
+          "date": "2026-09-03",
+          "o": 1660,
+          "h": 1825,
+          "l": 1660,
+          "c": 1733
+        },
+        {
+          "date": "2026-09-04",
+          "o": 1733,
+          "h": 1760,
+          "l": 1719,
+          "c": 1746
+        },
+        {
+          "date": "2026-09-07",
+          "o": 1695,
+          "h": 1771,
+          "l": 1695,
+          "c": 1735
+        },
+        {
+          "date": "2026-09-08",
+          "o": 1735,
+          "h": 1795,
+          "l": 1683,
+          "c": 1710
+        },
+        {
+          "date": "2026-09-09",
+          "o": 1698,
+          "h": 1709,
+          "l": 1658,
+          "c": 1702
+        },
+        {
+          "date": "2026-09-10",
+          "o": 1670,
+          "h": 1900,
+          "l": 1670,
+          "c": 1782
+        },
+        {
+          "date": "2026-09-11",
+          "o": 1790,
+          "h": 2315,
+          "l": 1790,
+          "c": 2315
+        },
+        {
+          "date": "2026-09-14",
+          "o": 3005,
+          "h": 3005,
+          "l": 2730,
+          "c": 3005
+        }
+      ],
+      "status_badges": [
+        {
+          "label": "투자주의 근접",
+          "severity": "caution",
+          "source": "predicted",
+          "thresholds": [
+            {
+              "desc": "5일 전(2026-09-07) 대비 +60%↑",
+              "base_price": 1735,
+              "threshold": 2776,
+              "current": 3005,
+              "triggered": true
+            }
+          ],
+          "regulation": "KRX 시장경보 가격 조건 충족 (거래량 미검증, 자체 추정)",
+          "period_start": "2026-09-15",
+          "period_end": "2026-09-16",
+          "start": "2026-09-15",
+          "end": "2026-09-16",
+          "view_date": "2026-09-14",
+          "next_trading_day": "2026-09-15",
+          "next_trading_day_for_predicted": "2026-09-15",
+          "next_trading_day_source": "fallback_homepage",
+          "single_price": false,
+          "effect_badges": []
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
       "code": "071200",
       "name": "인피니트헬스케어",
-      "rank": 3,
-      "trade_amount": 698000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
-      "industry": null,
-      "sector": null,
+      "rank": 5,
+      "trade_amount": 854000000,
+      "change_pct": 30.0,
+      "close_price": 11310,
+      "open_price": 11310,
+      "high_price": 11310,
+      "low_price": 11310,
+      "industry": "소프트웨어 개발 및 공급업",
+      "sector": "의료영상저장전송시스템(PACS)",
       "themes": [],
       "theme_paths": [],
       "pick_count": 1,
@@ -342,8 +1116,172 @@
       "bullish_dates": [],
       "news": [],
       "fallback": true,
+      "index_change_pct": -1.81,
+      "index_multiple_current": -16.57,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 11310,
+        "high_date": "2026-09-14",
+        "high_pct": 0.0,
+        "low": 5250,
+        "low_date": "2026-01-21",
+        "low_pct": 115.43,
+        "current": 11310
+      },
+      "daily_20": [
+        {
+          "date": "2026-08-18",
+          "o": 10480,
+          "h": 10810,
+          "l": 8650,
+          "c": 9020
+        },
+        {
+          "date": "2026-08-19",
+          "o": 9020,
+          "h": 9110,
+          "l": 8710,
+          "c": 9100
+        },
+        {
+          "date": "2026-08-20",
+          "o": 9100,
+          "h": 9620,
+          "l": 9050,
+          "c": 9540
+        },
+        {
+          "date": "2026-08-21",
+          "o": 9590,
+          "h": 9695,
+          "l": 9200,
+          "c": 9320
+        },
+        {
+          "date": "2026-08-24",
+          "o": 9480,
+          "h": 9500,
+          "l": 9180,
+          "c": 9400
+        },
+        {
+          "date": "2026-08-25",
+          "o": 9400,
+          "h": 9590,
+          "l": 9100,
+          "c": 9580
+        },
+        {
+          "date": "2026-08-26",
+          "o": 9840,
+          "h": 9840,
+          "l": 9000,
+          "c": 9550
+        },
+        {
+          "date": "2026-08-27",
+          "o": 9580,
+          "h": 9640,
+          "l": 9400,
+          "c": 9480
+        },
+        {
+          "date": "2026-08-28",
+          "o": 9740,
+          "h": 9890,
+          "l": 9350,
+          "c": 9890
+        },
+        {
+          "date": "2026-08-31",
+          "o": 9620,
+          "h": 9960,
+          "l": 9500,
+          "c": 9920
+        },
+        {
+          "date": "2026-09-01",
+          "o": 9920,
+          "h": 9975,
+          "l": 9500,
+          "c": 9610
+        },
+        {
+          "date": "2026-09-02",
+          "o": 9340,
+          "h": 9750,
+          "l": 9220,
+          "c": 9320
+        },
+        {
+          "date": "2026-09-03",
+          "o": 9320,
+          "h": 9650,
+          "l": 9260,
+          "c": 9410
+        },
+        {
+          "date": "2026-09-04",
+          "o": 9500,
+          "h": 9940,
+          "l": 9500,
+          "c": 9680
+        },
+        {
+          "date": "2026-09-07",
+          "o": 9680,
+          "h": 9930,
+          "l": 8990,
+          "c": 9100
+        },
+        {
+          "date": "2026-09-08",
+          "o": 9100,
+          "h": 9420,
+          "l": 8690,
+          "c": 8700
+        },
+        {
+          "date": "2026-09-09",
+          "o": 8700,
+          "h": 8810,
+          "l": 8610,
+          "c": 8720
+        },
+        {
+          "date": "2026-09-10",
+          "o": 8780,
+          "h": 8930,
+          "l": 8460,
+          "c": 8760
+        },
+        {
+          "date": "2026-09-11",
+          "o": 8760,
+          "h": 8890,
+          "l": 8550,
+          "c": 8700
+        },
+        {
+          "date": "2026-09-14",
+          "o": 11310,
+          "h": 11310,
+          "l": 11310,
+          "c": 11310
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 11310,
+        "base": 11310,
+        "prices": [
+          11310,
+          11310,
+          11310
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
