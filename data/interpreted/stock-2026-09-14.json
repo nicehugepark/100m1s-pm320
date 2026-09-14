@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "generated_at": "2026-09-14T09:15:11.003645",
+  "generated_at": "2026-09-14T09:15:14.930171",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -399,7 +399,7 @@
           17670
         ]
       },
-      "togusa_verdict": "neutral",
+      "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰"
     },
@@ -624,7 +624,12 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "000670",
@@ -638,8 +643,17 @@
       "low_price": 46100,
       "industry": "1차 비철금속 제조업",
       "sector": "제1차 금속산업(아연괴,황산,카드뮴괴),건전지 제조,무역",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "비철금속"
+      ],
+      "theme_paths": [
+        {
+          "name": "비철금속",
+          "path": [
+            "비철금속"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": false,
@@ -813,9 +827,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "140430",
@@ -1093,7 +1107,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "071200",
