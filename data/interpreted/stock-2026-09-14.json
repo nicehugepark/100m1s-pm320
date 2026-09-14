@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "generated_at": "2026-09-14T10:15:12.921262",
+  "generated_at": "2026-09-14T10:16:23.274145",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -2161,8 +2161,17 @@
       "low_price": 11310,
       "industry": "소프트웨어 개발 및 공급업",
       "sector": "의료영상저장전송시스템(PACS)",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "저PBR"
+      ],
+      "theme_paths": [
+        {
+          "name": "저PBR",
+          "path": [
+            "저PBR"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": false,
@@ -2174,16 +2183,16 @@
           "url": "https://www.etoday.co.kr/news/view/2625079",
           "source": "이투데이",
           "published_at": "2026-09-14T01:02:00",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "인피니트헬스케어가 650억원 규모의 대규모 배당을 예고 → 회사 규모 대비 파격적 주주환원 확대·밸류업(저PBR 재평가) 기대감 부각 → 매수세가 시초가부터 집중되며 당일 점상한가(시=고=저=종 11,310원, +30.00%)·52주 신고가 갱신. 다만 거래대금 13억원으로 관심 규모는 제한적이었다.",
+          "macro_event": "650억원 규모 대규모 배당 예고 → 주주환원·밸류업 기대",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.75,
+          "newzy_virality": 0.3,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.57,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "공시"
         }
       ],
       "fallback": false,
@@ -2365,9 +2374,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "strong_bull",
+      "theme_leader": true,
+      "hugepark_grade": "적극"
     }
   ]
 }
