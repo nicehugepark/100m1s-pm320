@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "generated_at": "2026-09-15T10:55:15.194121",
+  "generated_at": "2026-09-15T10:56:11.819029",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -4338,7 +4338,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "160190",
@@ -4353,13 +4356,22 @@
       "industry": "전동기, 발전기 및 전기 변환 · 공급 · 제어 장치 제조업",
       "sector": "전동기 및 발전기 (범용모터, 서보모터)",
       "themes": [
-        "전력설비"
+        "전력설비",
+        "로봇",
+        "휴머노이드 로봇"
       ],
       "theme_paths": [
         {
           "name": "전력설비",
           "path": [
             "전력설비"
+          ]
+        },
+        {
+          "name": "휴머노이드 로봇",
+          "path": [
+            "로봇",
+            "휴머노이드 로봇"
           ]
         }
       ],
@@ -4379,16 +4391,16 @@
           "url": "https://www.mk.co.kr/news/business/12152919",
           "source": "매경",
           "published_at": "2026-09-15T01:44:33",
-          "causal_chain": "",
-          "macro_event": null,
+          "causal_chain": "휴머노이드 로봇 시장 개화 → 로봇 관절을 움직이는 핵심 구동장치인 액추에이터(모터+감속기+엔코더+제어) 수요 부각 → 하이젠알앤엠은 60년 축적 모터 기술을 기반으로 '휴먼 프렌들리 액추에이터'를 개발 중인 액추에이터 전문기업으로, 로봇 도메인 핵심부품 국산화 기대가 종목 본질사업에 직접 부합 → 매수세 집중으로 당일 상한가(+29.60%)·거래대금 264억원 동반.",
+          "macro_event": "휴머노이드 로봇 시장 성장 → 로봇 관절 구동 핵심부품(액추에이터) 국산화 부각",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.7,
+          "newzy_virality": 0.6,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.66,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": false,
@@ -4580,9 +4592,7 @@
       "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": false,
-      "hugepark_grade": "관찰",
-      "causal_chain": "",
-      "parent_theme": ""
+      "hugepark_grade": "관찰"
     },
     {
       "code": "040300",
