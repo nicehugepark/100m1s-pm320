@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "generated_at": "2026-09-15T10:05:14.206113",
+  "generated_at": "2026-09-15T10:06:51.734668",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -1773,20 +1773,20 @@
       "industry": "의약품 제조업",
       "sector": "완제의약품 제조 및 CMO",
       "themes": [
-        "탈모 치료 테마",
-        "바이오"
+        "바이오",
+        "탈모 치료 테마"
       ],
       "theme_paths": [
-        {
-          "name": "탈모 치료 테마",
-          "path": [
-            "탈모 치료 테마"
-          ]
-        },
         {
           "name": "바이오",
           "path": [
             "바이오"
+          ]
+        },
+        {
+          "name": "탈모 치료 테마",
+          "path": [
+            "탈모 치료 테마"
           ]
         }
       ],
@@ -1812,7 +1812,7 @@
           "title": "면역조절제 월 1회 투여 특허에 삼익제약 18% 급등[종목NOW]",
           "url": "https://www.fnnews.com/news/202609141011271731",
           "source": "파이낸셜뉴스",
-          "published_at": "2026-09-15T09:50:07.863858",
+          "published_at": "2026-09-15T10:00:09.508744",
           "causal_chain": "삼익제약이 지난달 27일 등록한 '싸이모신 알파1 함유 장기지속형 미립구' 특허로 기존 주 2회 이상 피하주사가 필요하던 면역조절 펩타이드의 투여 횟수를 월 1회 수준으로 줄일 수 있는 제형 기술을 확보 → 완제의약품·CMO 도메인 바이오 종목의 신약 제형 기술력이 직접 부각 → 매수세 집중되며 당일 종가 10,540원(전일比 +11.18%)·거래대금 311억원으로 관심 유입.",
           "macro_event": "바이오 신약 기술 — 면역조절 펩타이드 '싸이모신 알파1' 월 1회 투여 장기지속형 미립구 제제 기술 국내 특허 등록",
           "newzy_freshness": null,
@@ -1826,13 +1826,17 @@
         }
       ],
       "fallback": false,
+      "cafe_themes": [
+        "탈모 치료 테마"
+      ],
       "theme_crosscheck": {
         "confirmed": [
-          "탈모 치료 테마",
           "바이오"
         ],
         "pm320_only": [],
-        "cafe_only": []
+        "cafe_only": [
+          "탈모 치료 테마"
+        ]
       },
       "index_change_pct": 0.95,
       "index_multiple_current": 17.65,
@@ -2282,17 +2286,10 @@
       "industry": "기초 화학물질 제조업",
       "sector": "가스캐비닛",
       "themes": [
-        "로봇",
         "반도체",
         "반도체소부장"
       ],
       "theme_paths": [
-        {
-          "name": "로봇",
-          "path": [
-            "로봇"
-          ]
-        },
         {
           "name": "반도체소부장",
           "path": [
@@ -2320,7 +2317,7 @@
           "url": "https://www.mk.co.kr/news/stock/12147851",
           "source": "매경",
           "published_at": "2026-09-09T00:22:17",
-          "causal_chain": null,
+          "causal_chain": "제공된 뉴스는 원익홀딩스가 9월 8일 5일선이 20일선을 상향 돌파한 '골든크로스' 기술적 신호가 발생했다는 MK시그널 AI 보도로, 본질적 매크로 촉매(수주·정책·신제품·실적)는 부재하다. 원익홀딩스는 반도체·디스플레이 제조공정용 원료 가스 공급 장치·배관공사를 자체 영위하는 사업형 지주회사로 반도체 소부장 도메인에 위치하나, 뉴스 자체가 종목 본질 사업의 신규 호재를 담고 있지는 않다.",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -2329,7 +2326,7 @@
           "newzy_tradability": null,
           "newzy_score": null,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "시세정형"
         },
         {
           "title": "[급등락주 짚어보기] 로봇주 훈풍에 원익홀딩스·TPC로보틱스 '上'",
@@ -2520,7 +2517,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "투자주의"
+      "credit_reason": "투자주의",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "093370",
@@ -2766,8 +2766,7 @@
       "sector": "데이터센터용 AWG, 통신용 AWG, 스플리터, 계측기 등",
       "themes": [
         "통신장비",
-        "광통신",
-        "양자"
+        "광통신"
       ],
       "theme_paths": [
         {
@@ -2781,12 +2780,6 @@
           "path": [
             "AI",
             "광통신"
-          ]
-        },
-        {
-          "name": "양자",
-          "path": [
-            "양자"
           ]
         }
       ],
@@ -2811,7 +2804,7 @@
           "url": "https://www.etoday.co.kr/news/view/2625611",
           "source": "이투데이",
           "published_at": "2026-09-15T00:54:00",
-          "causal_chain": "",
+          "causal_chain": "한국첨단소재는 데이터센터용·통신용 AWG·스플리터를 만드는 광통신 부품 전문 종목으로, 광통신 사업의 글로벌 진출 기대가 종목 본질 사업(광통신 도메인)에 직접 부합 → 매수세 유입으로 당일 종가 2,950원(+14.12%)·거래대금 550억원의 강한 거래 동반 상승.",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -2820,7 +2813,7 @@
           "newzy_tradability": null,
           "newzy_score": null,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "시세정형"
         }
       ],
       "fallback": false,
@@ -3002,9 +2995,7 @@
       "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
-      "hugepark_grade": "관찰",
-      "causal_chain": "",
-      "parent_theme": ""
+      "hugepark_grade": "관찰"
     },
     {
       "code": "437730",
