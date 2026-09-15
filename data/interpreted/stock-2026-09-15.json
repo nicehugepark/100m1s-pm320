@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "generated_at": "2026-09-15T09:05:07.656210",
+  "generated_at": "2026-09-15T09:06:39.746873",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -57,10 +57,17 @@
       "industry": "반도체 제조업",
       "sector": "트랜지스터,SMD TR,발광소자,리모콘모듈,발광다이오드(L.E.D),다이오드용웨이퍼팹(Fab) 제조,판매",
       "themes": [
+        "AI",
         "LED",
         "반도체"
       ],
       "theme_paths": [
+        {
+          "name": "AI",
+          "path": [
+            "AI"
+          ]
+        },
         {
           "name": "LED",
           "path": [
@@ -95,16 +102,16 @@
           "url": "https://www.etoday.co.kr/news/view/2625342",
           "source": "이투데이",
           "published_at": "2026-09-14T07:37:00",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "AI 확산으로 AI 관련 부품(반도체·광소자) 수요 기대 → 트랜지스터·다이오드·LED 등 광반도체 소자를 제조하는 광전자가 직접 수혜주로 부각 → 매수세 유입되며 당일 종가 10,980원(+6.91%)·거래대금 143억원으로 관심 집중.",
+          "macro_event": "AI 확산에 따른 AI 관련 부품(반도체·광소자) 수요 기대감 부각",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.3,
+          "newzy_virality": 0.3,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.3,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "시세정형"
         },
         {
           "title": "파커스, 엘포톤 자회사 편입 완료…광전자 플랫폼 사업 본격화",
@@ -293,7 +300,10 @@
           "l": 10780,
           "c": 10980
         }
-      ]
+      ],
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "424870",
@@ -317,7 +327,10 @@
       "news": [],
       "fallback": true,
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     }
   ]
 }
