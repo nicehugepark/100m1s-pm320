@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "generated_at": "2026-09-15T09:45:13.543473",
+  "generated_at": "2026-09-15T09:46:00.904450",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -646,9 +646,9 @@
           10420
         ]
       },
-      "togusa_verdict": "weak_bull",
+      "togusa_verdict": "strong_bull",
       "theme_leader": true,
-      "hugepark_grade": "관찰"
+      "hugepark_grade": "적극"
     },
     {
       "code": "004310",
@@ -1155,7 +1155,7 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "neutral",
+      "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰",
       "causal_chain": "",
@@ -1411,20 +1411,20 @@
       "industry": "의약품 제조업",
       "sector": "완제의약품 제조 및 CMO",
       "themes": [
-        "탈모 치료 테마",
-        "바이오"
+        "바이오",
+        "탈모 치료 테마"
       ],
       "theme_paths": [
-        {
-          "name": "탈모 치료 테마",
-          "path": [
-            "탈모 치료 테마"
-          ]
-        },
         {
           "name": "바이오",
           "path": [
             "바이오"
+          ]
+        },
+        {
+          "name": "탈모 치료 테마",
+          "path": [
+            "탈모 치료 테마"
           ]
         }
       ],
@@ -1450,7 +1450,7 @@
           "title": "면역조절제 월 1회 투여 특허에 삼익제약 18% 급등[종목NOW]",
           "url": "https://www.fnnews.com/news/202609141011271731",
           "source": "파이낸셜뉴스",
-          "published_at": "2026-09-15T09:30:07.113250",
+          "published_at": "2026-09-15T09:40:04.762188",
           "causal_chain": "삼익제약이 지난달 27일 등록한 '싸이모신 알파1 함유 장기지속형 미립구' 특허로 기존 주 2회 이상 피하주사가 필요하던 면역조절 펩타이드의 투여 횟수를 월 1회 수준으로 줄일 수 있는 제형 기술을 확보 → 완제의약품·CMO 도메인 바이오 종목의 신약 제형 기술력이 직접 부각 → 매수세 집중되며 당일 종가 10,540원(전일比 +11.18%)·거래대금 311억원으로 관심 유입.",
           "macro_event": "바이오 신약 기술 — 면역조절 펩타이드 '싸이모신 알파1' 월 1회 투여 장기지속형 미립구 제제 기술 국내 특허 등록",
           "newzy_freshness": null,
@@ -1464,13 +1464,17 @@
         }
       ],
       "fallback": false,
+      "cafe_themes": [
+        "탈모 치료 테마"
+      ],
       "theme_crosscheck": {
         "confirmed": [
-          "탈모 치료 테마",
           "바이오"
         ],
         "pm320_only": [],
-        "cafe_only": []
+        "cafe_only": [
+          "탈모 치료 테마"
+        ]
       },
       "index_change_pct": 1.21,
       "index_multiple_current": 22.4,
@@ -1851,7 +1855,10 @@
           "l": 13400,
           "c": 14800
         }
-      ]
+      ],
+      "togusa_verdict": "neutral",
+      "theme_leader": false,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "062970",
@@ -2113,7 +2120,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "040300",
@@ -2338,8 +2348,19 @@
       "low_price": 3515,
       "industry": "자연과학 및 공학 연구개발업",
       "sector": "면역항암제 신약개발",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "면역항암제",
+        "바이오"
+      ],
+      "theme_paths": [
+        {
+          "name": "면역항암제",
+          "path": [
+            "바이오",
+            "면역항암제"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": false,
@@ -2351,16 +2372,16 @@
           "url": "https://biz.chosun.com/stock/stock_general/2026/09/15/HNOVSGSVONH2HGJ56ED3OKFUOU/",
           "source": "조선비즈",
           "published_at": "2026-09-15T00:33:38",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "이뮨온시아 CD47 항체 신약 후보물질의 1b상 IND 변경 승인 → 면역항암제 신약개발 파이프라인 임상 진전 기대 → 종목 본질 사업(면역항암제)에 직접 호재 → 매수세 유입으로 당일 종가 3,515원(+21.21%) 급등. 다만 거래대금 1억원으로 시장 참여는 제한적.",
+          "macro_event": "CD47 항체 신약 후보물질 1b상 IND(임상시험계획) 변경 승인",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.5,
+          "newzy_virality": 0.3,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.42,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": false,
@@ -2536,9 +2557,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "strong_bull",
+      "theme_leader": true,
+      "hugepark_grade": "적극"
     }
   ]
 }
