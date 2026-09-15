@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "generated_at": "2026-09-15T09:55:13.370333",
+  "generated_at": "2026-09-15T09:57:16.723249",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -1356,7 +1356,7 @@
           344000
         ]
       },
-      "togusa_verdict": "neutral",
+      "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰"
     },
@@ -1573,7 +1573,7 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bull",
+      "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰",
       "causal_chain": "",
@@ -1592,20 +1592,20 @@
       "industry": "의약품 제조업",
       "sector": "완제의약품 제조 및 CMO",
       "themes": [
-        "탈모 치료 테마",
-        "바이오"
+        "바이오",
+        "탈모 치료 테마"
       ],
       "theme_paths": [
-        {
-          "name": "탈모 치료 테마",
-          "path": [
-            "탈모 치료 테마"
-          ]
-        },
         {
           "name": "바이오",
           "path": [
             "바이오"
+          ]
+        },
+        {
+          "name": "탈모 치료 테마",
+          "path": [
+            "탈모 치료 테마"
           ]
         }
       ],
@@ -1631,7 +1631,7 @@
           "title": "면역조절제 월 1회 투여 특허에 삼익제약 18% 급등[종목NOW]",
           "url": "https://www.fnnews.com/news/202609141011271731",
           "source": "파이낸셜뉴스",
-          "published_at": "2026-09-15T09:40:04.762188",
+          "published_at": "2026-09-15T09:50:07.863858",
           "causal_chain": "삼익제약이 지난달 27일 등록한 '싸이모신 알파1 함유 장기지속형 미립구' 특허로 기존 주 2회 이상 피하주사가 필요하던 면역조절 펩타이드의 투여 횟수를 월 1회 수준으로 줄일 수 있는 제형 기술을 확보 → 완제의약품·CMO 도메인 바이오 종목의 신약 제형 기술력이 직접 부각 → 매수세 집중되며 당일 종가 10,540원(전일比 +11.18%)·거래대금 311억원으로 관심 유입.",
           "macro_event": "바이오 신약 기술 — 면역조절 펩타이드 '싸이모신 알파1' 월 1회 투여 장기지속형 미립구 제제 기술 국내 특허 등록",
           "newzy_freshness": null,
@@ -1645,13 +1645,17 @@
         }
       ],
       "fallback": false,
+      "cafe_themes": [
+        "탈모 치료 테마"
+      ],
       "theme_crosscheck": {
         "confirmed": [
-          "탈모 치료 테마",
           "바이오"
         ],
         "pm320_only": [],
-        "cafe_only": []
+        "cafe_only": [
+          "탈모 치료 테마"
+        ]
       },
       "index_change_pct": 1.18,
       "index_multiple_current": 17.88,
@@ -1842,9 +1846,18 @@
       "industry": "전동기, 발전기 및 전기 변환 · 공급 · 제어 장치 제조업",
       "sector": "소형 Geared Motor",
       "themes": [
+        "로봇",
+        "휴머노이드 로봇",
         "전력설비"
       ],
       "theme_paths": [
+        {
+          "name": "휴머노이드 로봇",
+          "path": [
+            "로봇",
+            "휴머노이드 로봇"
+          ]
+        },
         {
           "name": "전력설비",
           "path": [
@@ -1868,32 +1881,32 @@
           "url": "https://www.etoday.co.kr/news/view/2622961",
           "source": "이투데이",
           "published_at": "2026-09-08T00:43:00",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "휴머노이드 로봇 구동부 국산화 수요 확대 → 관절 정밀감속기·소형 Geared Motor가 핵심 부품 → 소형 감속기·모터 전문 에스피지가 '카이로스' 표준 구동모듈에 정밀감속기를 직접 공급하며 휴머노이드 로봇 부품 도메인 본질에 부합. 다만 당일 종가는 92,600원(-1.70%)·거래대금 27억원으로 부품 채택 기대가 매수세로 강하게 이어지지는 않아 시장 반응은 제한적.",
+          "macro_event": "한국형 AI 휴머노이드 '카이로스' 표준 구동모듈에 에스피지 정밀감속기 채택",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.4,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.4,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "에스피지, 주당 100원 중간배당 결정",
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03266886645577824",
           "source": "이데일리",
           "published_at": "2026-09-07T05:37:39",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "휴머노이드 로봇 구동부 국산화 수요 확대 → 관절 정밀감속기·소형 Geared Motor가 핵심 부품 → 소형 감속기·모터 전문 에스피지가 '카이로스' 표준 구동모듈에 정밀감속기를 직접 공급하며 휴머노이드 로봇 부품 도메인 본질에 부합. 다만 당일 종가는 92,600원(-1.70%)·거래대금 27억원으로 부품 채택 기대가 매수세로 강하게 이어지지는 않아 시장 반응은 제한적.",
+          "macro_event": "한국형 AI 휴머노이드 '카이로스' 표준 구동모듈에 에스피지 정밀감속기 채택",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.4,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.4,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "공시"
         }
       ],
       "fallback": true,
@@ -2050,7 +2063,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "093370",
@@ -2737,7 +2753,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "040300",
