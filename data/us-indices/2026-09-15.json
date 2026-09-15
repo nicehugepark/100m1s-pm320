@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26151.06,
-      "change_pct": -0.14,
+      "point": 26144.14,
+      "change_pct": -0.16,
       "candle": {
         "o": 26150.58,
-        "h": 26168.77,
+        "h": 26170.63,
         "l": 26093.7,
-        "c": 26151.06
+        "c": 26144.14
       },
       "range_240d": {
         "low": 20794.64,
@@ -2031,16 +2031,18 @@
         {
           "date": "2026-09-15",
           "o": 26150.58,
-          "h": 26168.77,
+          "h": 26170.63,
           "l": 26093.7,
-          "c": 26151.06
+          "c": 26144.14
         }
       ],
       "spark": [
         26150.58,
         26107.43,
         26159.75,
-        26151.06
+        26162.64,
+        26141.75,
+        26144.14
       ],
       "news": {
         "summary": "AI 규제 강화 우려로 반도체·기술주 약세 신호 심화. Trump 행정부의 AI 규제 반대 입장에도 의회 우려 고조로 성장주 부진 지속. Wall Street AI 스타트업(Rogo) 및 데이터센터 IPO(SB Energy) 부상에도 금리 인상 기대와 규제 불확실성이 투자심리 압박.",
@@ -2064,13 +2066,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7609.08,
-      "change_pct": -0.14,
+      "point": 7606.15,
+      "change_pct": -0.18,
       "candle": {
         "o": 7612.3,
         "h": 7617.26,
         "l": 7600.35,
-        "c": 7609.08
+        "c": 7606.15
       },
       "range_240d": {
         "low": 6343.72,
@@ -4094,14 +4096,16 @@
           "o": 7612.3,
           "h": 7617.26,
           "l": 7600.35,
-          "c": 7609.08
+          "c": 7606.15
         }
       ],
       "spark": [
         7612.3,
         7601.41,
         7610.82,
-        7609.08
+        7612.02,
+        7605.83,
+        7606.15
       ],
       "news": {
         "summary": "연준 9월 금리 인상 확률 92% 초과로 임박 신호 강화, 10년물 국채 금리 5% 터치로 차입 비용 상승 우려 증폭. 인플레이션(3.4%)이 임금 상승(3.1%) 초과 상승으로 실질 구매력 약화 지속. 사우디 동서부 석유관 드론 공격 폐쇄로 유가 급등, 에너지 인플레 압력 가중 및 글로벌 채권 시장 약세 심화 중.",
@@ -4125,13 +4129,13 @@
     },
     {
       "name": "DOW",
-      "point": 52118.78,
-      "change_pct": -0.58,
+      "point": 52075.1,
+      "change_pct": -0.66,
       "candle": {
         "o": 52303.24,
         "h": 52336.61,
-        "l": 52118.78,
-        "c": 52118.78
+        "l": 52069.32,
+        "c": 52075.1
       },
       "range_240d": {
         "low": 45166.64,
@@ -6154,15 +6158,17 @@
           "date": "2026-09-15",
           "o": 52303.24,
           "h": 52336.61,
-          "l": 52118.78,
-          "c": 52118.78
+          "l": 52069.32,
+          "c": 52075.1
         }
       ],
       "spark": [
         52303.24,
         52132.13,
         52131.14,
-        52118.78
+        52135.52,
+        52073.95,
+        52075.1
       ],
       "news": {
         "summary": "연준 금리 인상 임박으로 경기순환주 약세 신호 증가. 사우디 석유관 폐쇄 여파로 유가 급등, 에너지 비용 증가 압박 본격화. 소비심리 지수 급락(7.5% 하락), 주택 판매 부진으로 경기 둔화 우려 심화. Trump 대통령의 무역정책 변동성(아일랜드 위스키 관세 인하) 지속으로 대형 금융·에너지 관련주 방향성 불확실.",
@@ -6187,91 +6193,89 @@
   ],
   "news_chips": [
     {
-      "summary": "중국이 미국과의 기술 경쟁 고조 속 출국 제한 강화로 반도체·첨단산업 인재 유출 차단 강화",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/world/china/china-tightens-exit-rules-as-tech-race-with-u-s-intensifies-39cfe7a2?mod=rss_worldnews",
-      "published_ts": 1789467540.0,
-      "impact_high": true
-    },
-    {
-      "summary": "예멘 후티 반군이 이란 지원 아래 중동 석유 운송로 장악하며 전 지구적 에너지 공급 위험 심화",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/world/middle-east/the-lightning-offensive-that-saw-the-houthis-grab-a-crucial-oil-corridor-f70f0e96?mod=rss_worldnews",
-      "published_ts": 1789437600.0,
-      "impact_high": true
-    },
-    {
-      "summary": "신임 연준 의장 Warsh가 트럼프의 금리 인하 기대와 시장의 금리 인상 압박 사이에서 정책 판단 엇갈림",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/economy/central-banking/warshs-arrival-ended-trumps-war-with-the-fed-a-rate-hike-would-test-the-truce-8fd9058f?mod=rss_socialeconomyfeed",
-      "published_ts": 1789434000.0,
-      "impact_high": true
-    },
-    {
-      "summary": "연준이 9월 금리 인상 확률을 92% 이상으로 높이는 가운데 신임 의장 Warsh가 시장의 강한 기대 속 도전",
+      "summary": "연준 정책금리 인상 확률이 92% 이상으로 평가되며, 워시 의장이 인상과 경제 안정 사이의 정책 균형 추진",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/14/counting-the-votes-warsh-faces-tough-battle-as-fed-girds-for-expected-rate-hike.html",
       "published_ts": 1789415262.0,
       "impact_high": true
     },
     {
-      "summary": "사우디 동서부 파이프라인 폐쇄와 후티 영토 확장으로 중동 에너지 공급 불안 심화, 유가 배럴당 107달러 상회",
+      "summary": "헤지펀드의 국채 보유 규모 급증이 뉴욕 연준의 시스템 리스크 감시 대상으로 부상",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/investing/hedge-funds-face-scrutiny-over-growing-treasury-footprint-8490230d?mod=rss_markets_main",
+      "published_ts": 1789466040.0,
+      "impact_high": false
+    },
+    {
+      "summary": "모기지 금리가 2025년 1월 이후 최고 수준에 근접하며 주택 시장과 건설업의 경제 부진 압박 심화",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/housing/the-stagnant-housing-market-is-about-to-face-a-7-mortgage-55a041d6?mod=rss_socialeconomyfeed",
+      "published_ts": 1789464600.0,
+      "impact_high": false
+    },
+    {
+      "summary": "10년물 국채 수익률이 5% 이상으로 올라가며 주식시장이 약세 마감, 연준 금리 인상 압박 심화",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-15-2026?mod=rss_markets_main",
+      "published_ts": 1789461591.0,
+      "impact_high": false
+    },
+    {
+      "summary": "중동 공급망 불안정이 심화되며 유가가 배럴당 107달러 근처로 상승, 사우디 파이프라인 폐쇄가 주요 요인",
       "source": "WSJ",
       "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-as-middle-east-supply-concerns-persist-e3bff20f?mod=rss_worldnews",
       "published_ts": 1789458900.0,
       "impact_high": false
     },
     {
-      "summary": "일본 중앙은행이 현 사이클 내 최강도 금리 인상을 시행 예정으로 엔화 강세와 아시아 금융 변동성 증가",
+      "summary": "일본 중앙은행의 금리 인상 압박이 고조되고 있으며, 글로벌 금융 긴축 추세 확산 신호",
       "source": "WSJ",
       "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-set-to-deliver-fastest-hike-of-cycle-as-pressure-mounts-d87d8030?mod=rss_socialeconomyfeed",
       "published_ts": 1789441920.0,
       "impact_high": false
     },
     {
-      "summary": "헤지펀드가 연금펀드의 국채 축소로 생긴 공급 공백을 메우며 채권시장 변동성과 금리 불안정 심화",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/bond-markets-hedge-funds-003c6ea8?mod=rss_markets_main",
-      "published_ts": 1789434000.0,
-      "impact_high": false
+      "summary": "8월 물가상승률이 임금 증가율을 상회하며 미국 근로자의 실질임금 악화 지속",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/12/inflation-is-outpacing-wage-growth-again-squeezing-americans-paychecks.html",
+      "published_ts": 1789217355.0,
+      "impact_high": true
     },
     {
-      "summary": "미국 10년물 국채 수익률이 5% 이상 신고점 기록 후 반락하며 독일 장기채는 15년 만의 최고점",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-edge-lower-german-10-year-bund-yield-hits-new-15-year-high-19110507?mod=rss_socialeconomyfeed",
-      "published_ts": 1789415100.0,
-      "impact_high": false
-    },
-    {
-      "summary": "사우디 동서부 파이프라인이 드론 공격으로 폐쇄되어 일일 석유 공급 700만 배럴 중단, 유가 상승 가속",
+      "summary": "사우디 동서부 파이프라인이 드론 공격으로 차단되어 일일 700만 배럴 규모의 유가 공급 차질 우려",
       "source": "WSJ",
       "url": "https://www.wsj.com/world/middle-east/saudi-arabia-shuts-down-pipeline-that-was-a-crucial-hormuz-bypass-4fe29001?mod=rss_worldnews",
       "published_ts": 1789159560.0,
       "impact_high": false
     },
     {
-      "summary": "8월 미국 소비자물가가 예상치 부합으로 상승하며 연준의 9월 금리 인상 확률 높이고 달러 강세 지속",
+      "summary": "인플레이션 전망 악화로 소비자 심리 지수가 47.8로 급락하며 경제 약세 우려 심화",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
-      "published_ts": 1789134396.0,
+      "url": "https://www.cnbc.com/2026/09/11/consumer-outlook-plunges-in-september-as-inflation-outlook-worsens.html",
+      "published_ts": 1789145603.0,
       "impact_high": true
+    },
+    {
+      "summary": "모기지 금리 상승의 영향으로 기존주택 판매량이 1년 이상 최저 수준으로 하락, 부동산 시장 부진 지속",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/housing/home-sales-in-august-tumble-to-lowest-level-since-last-year-25851c6e?mod=rss_socialeconomyfeed",
+      "published_ts": 1789048800.0,
+      "impact_high": false
     }
   ],
-  "_article_sig": "ea17935801757ea7c03924b636f2702ee54112091a3b5e397f28a0d89541758a",
+  "_article_sig": "1140120d6507a9abeedba7e0973298ce30a63137ea123085d004f38b2f4c65bb",
   "built_at_kst": "2026-09-15T07:01:05.440805+09:00",
   "futures": {
-    "as_of_kst": "2026-09-15T22:40:07.188071+09:00",
+    "as_of_kst": "2026-09-15T22:50:08.576304+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7684.25,
-        "change_pct": -0.11,
+        "point": 7679.25,
+        "change_pct": -0.18,
         "spark": [
           7699.25,
-          7668.75,
-          7668.25,
           7669.75,
           7671.25,
           7672.0,
@@ -6309,21 +6313,23 @@
           7690.25,
           7684.25,
           7672.0,
-          7684.25
+          7681.0,
+          7682.5,
+          7679.25
         ],
         "candle": {
           "o": 7699.25,
           "h": 7701.0,
           "l": 7645.0,
-          "c": 7684.25
+          "c": 7679.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 20.29,
-          "high_change_pct": -1.77
+          "low_change_pct": 20.21,
+          "high_change_pct": -1.83
         },
         "daily_expanded": [
           {
@@ -8339,25 +8345,25 @@
             "o": 7699.25,
             "h": 7701.0,
             "l": 7645.0,
-            "c": 7684.25,
-            "v": 354371
+            "c": 7679.25,
+            "v": 430652
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+          "summary": "연준 금리인상 임박 신호 강화 추세. 10년물 수익률 5% 돌파, 인플레이션 강고 지속, 소비자심리 악화 동반. 채권 변동성 확대로 펀드 리스크 노출 심화 중.",
           "sources": [
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/new-york-manufacturing-activity-decelerated-in-september-738a6a82?mod=rss_socialeconomyfeed"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/09/14/counting-the-votes-warsh-faces-tough-battle-as-fed-girds-for-expected-rate-hike.html"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/regulation/fed-system-monitoring-banks-suffered-outage-last-month-e5decdbd?mod=rss_markets_main"
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/2026091566471"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/bond-yields-could-come-down-as-fast-as-theyve-climbed-d64ea9cd?mod=rss_markets_main"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/09/12/inflation-is-outpacing-wage-growth-again-squeezing-americans-paychecks.html"
             }
           ]
         }
@@ -8365,12 +8371,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29401.5,
-        "change_pct": -0.16,
+        "point": 29416.25,
+        "change_pct": -0.11,
         "spark": [
           29488.5,
-          29357.75,
-          29361.75,
           29368.0,
           29373.5,
           29367.75,
@@ -8408,21 +8412,23 @@
           29418.25,
           29420.5,
           29385.5,
-          29401.5
+          29430.5,
+          29435.75,
+          29416.25
         ],
         "candle": {
           "o": 29488.5,
           "h": 29495.25,
           "l": 29231.0,
-          "c": 29401.5
+          "c": 29418.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.06,
-          "high_change_pct": -4.27
+          "low_change_pct": 27.13,
+          "high_change_pct": -4.22
         },
         "daily_expanded": [
           {
@@ -10438,25 +10444,17 @@
             "o": 29488.5,
             "h": 29495.25,
             "l": 29231.0,
-            "c": 29401.5,
-            "v": 119258
+            "c": 29418.0,
+            "v": 146601
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+          "summary": "기술 무역 경쟁 심화 신호 가시화. 미중 기술 패권 경쟁 고도화로 글로벌 공급망 재편 압박.",
           "sources": [
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/business/retail/canada-wholesale-sales-rose-in-july-17e6af86?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/new-york-manufacturing-activity-decelerated-in-september-738a6a82?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/europe/russia-ukraine-trade-aerial-strikes-after-trumps-claim-of-truce-4c4fe113?mod=rss_worldnews"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/world/china/china-tightens-exit-rules-as-tech-race-with-u-s-intensifies-39cfe7a2?mod=rss_worldnews"
             }
           ]
         }
@@ -10464,12 +10462,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52743.0,
-        "change_pct": -0.22,
+        "point": 52561.0,
+        "change_pct": -0.57,
         "spark": [
           52906.0,
-          52637.0,
-          52630.0,
           52657.0,
           52660.0,
           52681.0,
@@ -10507,21 +10503,23 @@
           52800.0,
           52724.0,
           52567.0,
-          52743.0
+          52572.0,
+          52574.0,
+          52561.0
         ],
         "candle": {
           "o": 52906.0,
           "h": 52906.0,
           "l": 52443.0,
-          "c": 52743.0
+          "c": 52561.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 16.11,
-          "high_change_pct": -3.21
+          "low_change_pct": 15.71,
+          "high_change_pct": -3.55
         },
         "daily_expanded": [
           {
@@ -12537,25 +12535,21 @@
             "o": 52906.0,
             "h": 52906.0,
             "l": 52443.0,
-            "c": 52743.0,
-            "v": 19000
+            "c": 52561.0,
+            "v": 24702
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+          "summary": "금리인상 압박 속 금융주 자산정리 신호. 중거래 대출 구조조정 추진. 에너지 섹터 유가 강세 우위 지속 중.",
           "sources": [
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/new-york-manufacturing-activity-decelerated-in-september-738a6a82?mod=rss_socialeconomyfeed"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/banking/truist-to-sell-5-5-billion-of-loans-as-it-exits-near-prime-auto-lending-31dfad7b?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/regulation/fed-system-monitoring-banks-suffered-outage-last-month-e5decdbd?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/europe/russia-ukraine-trade-aerial-strikes-after-trumps-claim-of-truce-4c4fe113?mod=rss_worldnews"
+              "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-as-middle-east-supply-concerns-persist-e3bff20f?mod=rss_worldnews"
             }
           ]
         }
@@ -12563,56 +12557,44 @@
     ]
   },
   "regular_open": true,
-  "intraday_refreshed_kst": "2026-09-15T22:40:10.845574+09:00",
+  "intraday_refreshed_kst": "2026-09-15T22:52:40.928113+09:00",
   "_futures_news": {
     "NASDAQ": {
-      "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+      "summary": "기술 무역 경쟁 심화 신호 가시화. 미중 기술 패권 경쟁 고도화로 글로벌 공급망 재편 압박.",
       "sources": [
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/business/retail/canada-wholesale-sales-rose-in-july-17e6af86?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/new-york-manufacturing-activity-decelerated-in-september-738a6a82?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/europe/russia-ukraine-trade-aerial-strikes-after-trumps-claim-of-truce-4c4fe113?mod=rss_worldnews"
+          "name": "WSJ",
+          "url": "https://www.wsj.com/world/china/china-tightens-exit-rules-as-tech-race-with-u-s-intensifies-39cfe7a2?mod=rss_worldnews"
         }
       ]
     },
     "S&P500": {
-      "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+      "summary": "연준 금리인상 임박 신호 강화 추세. 10년물 수익률 5% 돌파, 인플레이션 강고 지속, 소비자심리 악화 동반. 채권 변동성 확대로 펀드 리스크 노출 심화 중.",
       "sources": [
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/new-york-manufacturing-activity-decelerated-in-september-738a6a82?mod=rss_socialeconomyfeed"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/14/counting-the-votes-warsh-faces-tough-battle-as-fed-girds-for-expected-rate-hike.html"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/regulation/fed-system-monitoring-banks-suffered-outage-last-month-e5decdbd?mod=rss_markets_main"
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/2026091566471"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/bond-yields-could-come-down-as-fast-as-theyve-climbed-d64ea9cd?mod=rss_markets_main"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/12/inflation-is-outpacing-wage-growth-again-squeezing-americans-paychecks.html"
         }
       ]
     },
     "DOW": {
-      "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+      "summary": "금리인상 압박 속 금융주 자산정리 신호. 중거래 대출 구조조정 추진. 에너지 섹터 유가 강세 우위 지속 중.",
       "sources": [
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/new-york-manufacturing-activity-decelerated-in-september-738a6a82?mod=rss_socialeconomyfeed"
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/banking/truist-to-sell-5-5-billion-of-loans-as-it-exits-near-prime-auto-lending-31dfad7b?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/regulation/fed-system-monitoring-banks-suffered-outage-last-month-e5decdbd?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/europe/russia-ukraine-trade-aerial-strikes-after-trumps-claim-of-truce-4c4fe113?mod=rss_worldnews"
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-as-middle-east-supply-concerns-persist-e3bff20f?mod=rss_worldnews"
         }
       ]
     }
