@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "generated_at": "2026-09-15T09:35:10.406869",
+  "generated_at": "2026-09-15T09:36:21.154227",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -813,7 +813,7 @@
           10780
         ]
       },
-      "togusa_verdict": "neutral",
+      "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰"
     },
@@ -1046,7 +1046,6 @@
       "sector": "솔루션(로봇 엑츄에이터 모듈과 구동 소프트웨어), 에듀테인먼트 로봇, 로봇 플랫폼",
       "themes": [
         "AI",
-        "실적",
         "로봇",
         "휴머노이드 로봇"
       ],
@@ -1055,12 +1054,6 @@
           "name": "AI",
           "path": [
             "AI"
-          ]
-        },
-        {
-          "name": "실적",
-          "path": [
-            "실적"
           ]
         },
         {
@@ -1089,16 +1082,16 @@
           "url": "https://www.fnnews.com/news/202609101000401979",
           "source": "파이낸셜뉴스",
           "published_at": "2026-09-11T10:50:07.964643",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "허깅페이스 등 휴머노이드·AI 로봇 양산 확대 → 로봇 관절 핵심 부품인 액추에이터(휴머노이드 제조원가 최대 비중) 수요 급증 → 로봇 액추에이터 모듈이 핵심사업인 로보티즈가 업종 내 유일 초과수요 국면의 직접 수혜 → 목표가 45만원·초과수요 리포트에 매수세 집중되며 당일 종가 347,000원(+9.29%)·거래대금 750억원 기록.",
+          "macro_event": "허깅페이스(폴렌 로보틱스) 이족보행 로봇 마이크로덕·데스크탑 로봇 리치미니 판매 호조로 휴머노이드/AI 로봇 부품 수요 확대",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.6,
+          "newzy_virality": 0.6,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.6,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": true,
@@ -1257,7 +1250,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "014950",
@@ -1272,20 +1268,20 @@
       "industry": "의약품 제조업",
       "sector": "완제의약품 제조 및 CMO",
       "themes": [
-        "탈모 치료 테마",
-        "바이오"
+        "바이오",
+        "탈모 치료 테마"
       ],
       "theme_paths": [
-        {
-          "name": "탈모 치료 테마",
-          "path": [
-            "탈모 치료 테마"
-          ]
-        },
         {
           "name": "바이오",
           "path": [
             "바이오"
+          ]
+        },
+        {
+          "name": "탈모 치료 테마",
+          "path": [
+            "탈모 치료 테마"
           ]
         }
       ],
@@ -1311,7 +1307,7 @@
           "title": "면역조절제 월 1회 투여 특허에 삼익제약 18% 급등[종목NOW]",
           "url": "https://www.fnnews.com/news/202609141011271731",
           "source": "파이낸셜뉴스",
-          "published_at": "2026-09-15T09:20:06.350984",
+          "published_at": "2026-09-15T09:30:07.113250",
           "causal_chain": "삼익제약이 지난달 27일 등록한 '싸이모신 알파1 함유 장기지속형 미립구' 특허로 기존 주 2회 이상 피하주사가 필요하던 면역조절 펩타이드의 투여 횟수를 월 1회 수준으로 줄일 수 있는 제형 기술을 확보 → 완제의약품·CMO 도메인 바이오 종목의 신약 제형 기술력이 직접 부각 → 매수세 집중되며 당일 종가 10,540원(전일比 +11.18%)·거래대금 311억원으로 관심 유입.",
           "macro_event": "바이오 신약 기술 — 면역조절 펩타이드 '싸이모신 알파1' 월 1회 투여 장기지속형 미립구 제제 기술 국내 특허 등록",
           "newzy_freshness": null,
@@ -1325,13 +1321,17 @@
         }
       ],
       "fallback": false,
+      "cafe_themes": [
+        "탈모 치료 테마"
+      ],
       "theme_crosscheck": {
         "confirmed": [
-          "탈모 치료 테마",
           "바이오"
         ],
         "pm320_only": [],
-        "cafe_only": []
+        "cafe_only": [
+          "탈모 치료 테마"
+        ]
       },
       "index_change_pct": 0.78,
       "index_multiple_current": 34.76,
@@ -1501,7 +1501,7 @@
           12050
         ]
       },
-      "togusa_verdict": "weak_bull",
+      "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰"
     },
