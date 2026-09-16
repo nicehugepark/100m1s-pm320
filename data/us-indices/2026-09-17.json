@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26095.77,
-      "change_pct": 0.44,
+      "point": 26090.04,
+      "change_pct": 0.42,
       "candle": {
         "o": 26115.8,
         "h": 26223.36,
         "l": 26024.28,
-        "c": 26095.77
+        "c": 26090.04
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,13 +2033,11 @@
           "o": 26115.8,
           "h": 26223.36,
           "l": 26024.28,
-          "c": 26095.77
+          "c": 26090.04
         }
       ],
       "spark": [
         26115.8,
-        26187.53,
-        26174.61,
         26180.71,
         26184.39,
         26209.63,
@@ -2077,7 +2075,9 @@
         26157.87,
         26087.16,
         26091.51,
-        26095.77
+        26144.56,
+        26098.22,
+        26090.04
       ],
       "news": {
         "summary": "기술주 금리 민감성 고조 중. AWS 중동 데이터센터 피해로 클라우드 사업 리스크 부각, AI 멸망론 논쟁 재점화. 반면 우주·핵융합 같은 첨단 기술 벤처 자금은 지속 유입. 5% 금리 환경에서 고성장주 밸류에이션 압박 가시화.",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7590.12,
-      "change_pct": 0.06,
+      "point": 7586.69,
+      "change_pct": 0.01,
       "candle": {
         "o": 7601.25,
         "h": 7626.79,
         "l": 7572.88,
-        "c": 7590.12
+        "c": 7586.69
       },
       "range_240d": {
         "low": 6343.72,
@@ -4131,13 +4131,11 @@
           "o": 7601.25,
           "h": 7626.79,
           "l": 7572.88,
-          "c": 7590.12
+          "c": 7586.69
         }
       ],
       "spark": [
         7601.25,
-        7615.04,
-        7612.89,
         7615.11,
         7616.77,
         7621.74,
@@ -4175,7 +4173,9 @@
         7608.67,
         7589.07,
         7590.0,
-        7590.12
+        7602.32,
+        7587.77,
+        7586.69
       ],
       "news": {
         "summary": "금리 고공 행진 심화. 10년물 국채 금리 5% 돌파, Fed 이사 Warsh 취임 후 추가 인상 가능성 90% 이상 평가. 인플레이션 임금 상승률 초과로 실질 구매력 약화, 소비자심리 플런지. 중동 에너지 공급망 불안(사우디 동·서부 송유관 가동 중단, 호우티 해상 위협)으로 유가 108달러 돌파. 주택시장 모기지 금리 7% 근처, 거래량 1년 최저치.",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 51896.9,
-      "change_pct": -0.38,
+      "point": 51830.76,
+      "change_pct": -0.5,
       "candle": {
         "o": 52115.4,
         "h": 52173.7,
         "l": 51775.63,
-        "c": 51896.9
+        "c": 51830.76
       },
       "range_240d": {
         "low": 45166.64,
@@ -6229,13 +6229,11 @@
           "o": 52115.4,
           "h": 52173.7,
           "l": 51775.63,
-          "c": 51896.9
+          "c": 51830.76
         }
       ],
       "spark": [
         52115.4,
-        52064.84,
-        52044.99,
         52074.08,
         52094.19,
         52126.65,
@@ -6273,7 +6271,9 @@
         52002.82,
         51885.95,
         51889.19,
-        51896.9
+        51973.2,
+        51839.02,
+        51830.76
       ],
       "news": {
         "summary": "대형 금융주 자산 정리 가속화. Truist의 $5.5B 자동차론 매각은 금리 상승에 따른 신용 리스크 회피 신호. 뉴욕 제조업 지수 급락(20.6 → 7.6)으로 경기민감 산업 둔화 심화. 빅파마의 심장병 치료제 시장 포화, 의료주 수익성 도전 지속. 관세·지정학 긴장(중국 출국 규제, 러시아 대체선박 활동)이 공급망 비용 상승 압력.",
@@ -6298,133 +6298,143 @@
   ],
   "news_chips": [
     {
-      "summary": "캐나다 중앙은행이 에너지 가격 상승이 광범위한 물가 인상으로 파급될 경우 금리 인상 필요성을 강조하고 있다.",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-flagged-need-for-rate-hike-should-high-fuel-costs-spill-over-minutes-say-d78b24bb?mod=rss_socialeconomyfeed",
-      "published_ts": 1789581540.0,
+      "summary": "연준이 3년 만에 처음 금리를 0.25% 인상했으며, 대부분 의원들은 연말까지 추가 인상을 전망",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/fed-raises-rates-for-first-time-in-three-years-08539fbe?mod=rss_socialeconomyfeed",
+      "published_ts": 1789582740.0,
       "impact_high": true
     },
     {
-      "summary": "중동 분쟁 심화로 유류가 급등하고 금리 인상이 겹치면서 미국 가구당 약 1,700달러의 추가 경제 부담이 발생했다.",
+      "summary": "중동 분쟁으로 인한 유가 상승과 연준 금리 인상이 겹쳐 미국 가정당 약 1,700달러의 추가 비용 부담 예상",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/16/oil-prices-treasury-yields-consumers-iran.html",
       "published_ts": 1789579942.0,
       "impact_high": true
     },
     {
-      "summary": "미 연준이 3년 만에 기준금리를 0.25% 인상하고 연말까지 추가 인상을 예상하며 인플레이션 전망을 재평가하고 있다.",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/livecoverage/fed-meeting-warsh-interest-rate-09-16-2026?mod=rss_markets_main",
-      "published_ts": 1789547111.0,
+      "summary": "중동 공급 차질과 중앙은행 정책 전망에 따라 유가가 연준 결정 앞두고 약세 전개",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/business/energy-oil/oil-prices-edge-lower-ahead-of-fed-decision-aa5afb9c?mod=rss_worldnews",
+      "published_ts": 1789562400.0,
       "impact_high": true
     },
     {
-      "summary": "영국 8월 인플레이션이 3.1%로 상승하며 에너지 가격 급등의 물가 영향이 확대되고 있다.",
+      "summary": "영국 8월 인플레이션이 에너지 비용 급등으로 3.1%까지 상승하며 중앙은행의 통화정책 압박 심화",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/16/uk-august-inflation-energy-gasoline.html",
       "published_ts": 1789543103.0,
       "impact_high": true
     },
     {
-      "summary": "이란 관련 사이버공격으로 미국 항구로 향하던 에너지 운송선이 피해를 입으면서 공급망 리스크가 제기되었다.",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/politics/national-security/u-s-probes-cyberattacks-on-energy-tankers-bound-for-american-coast-33d92f3a?mod=rss_worldnews",
-      "published_ts": 1789582800.0,
-      "impact_high": false
-    },
-    {
-      "summary": "운송 산업의 핵심 연료인 디젤유가 갤런당 6.31달러로 역사 최고가를 기록하면서 공급망 비용 압력이 심화되고 있다.",
+      "summary": "이란 분쟁으로 디젤유가 갤런당 6.31달러의 사상 최고가를 기록하며 운송업계가 경영 위기 우려",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/16/transport-economy-diesel-prices-iran.html",
       "published_ts": 1789581028.0,
       "impact_high": false
     },
     {
-      "summary": "예멘 후티 반군이 사우디 F-15 전투기 격추를 주장하며 중동 지역 안보 긴장이 고조되고 있다.",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/world/middle-east/yemens-houthi-rebels-claim-shooting-down-saudi-f-15-jet-fighter-237ecc7d?mod=rss_worldnews",
-      "published_ts": 1789579620.0,
-      "impact_high": false
-    },
-    {
-      "summary": "8월 미국 소매판매가 1.2% 증가하며 예상치를 상회하면서 경제 회복력을 시현했다.",
-      "source": "WSJ",
+      "summary": "8월 미국 소매판매가 전월 대비 1.2% 증가하며 예상치(0.8%)를 상회하고 강한 소비 회복력을 드러냄",
+      "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/u-s-retail-sales-rebounded-last-month-cdb4a2e0?mod=rss_socialeconomyfeed",
       "published_ts": 1789565160.0,
       "impact_high": false
     },
     {
-      "summary": "미국 10년물 국채 수익률이 5%를 돌파하면서 장기 차입 비용이 2007년 이후 최고 수준에 근접했다.",
+      "summary": "미국의 이란 제재 자산 동결과 드론 공격에 따라 아마존 AWS 중동 데이터센터 일부 데이터 복구 불가 상황 발생",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/aws-says-it-cant-restore-some-data-from-mideast-facilities-struck-by-iran-ddcb7e5d?mod=rss_worldnews",
+      "published_ts": 1789507380.0,
+      "impact_high": false
+    },
+    {
+      "summary": "10년물 국채 수익률이 5%를 돌파하여 금융위기 이후 최고 수준의 장기 차입 비용 신호",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/investing/what-comes-next-now-that-the-10-year-treasury-yield-has-crossed-5-c3bd8b05?mod=rss_markets_main",
       "published_ts": 1789506060.0,
       "impact_high": false
     },
     {
-      "summary": "일본 중앙은행이 금리 인상 사이클에서 최대 규모의 인상을 단행할 준비를 갖추고 있으며 추가 긴축 가속화를 검토 중이다.",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-set-to-deliver-fastest-hike-of-cycle-as-pressure-mounts-d87d8030?mod=rss_socialeconomyfeed",
-      "published_ts": 1789441920.0,
+      "summary": "9월 뉴욕 제조업 지수가 8월의 4년 고점 20.6에서 7.6으로 하락하며 경기 확장 모멘텀 둔화",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/new-york-manufacturing-activity-decelerated-in-september-738a6a82?mod=rss_socialeconomyfeed",
+      "published_ts": 1789477200.0,
+      "impact_high": true
+    },
+    {
+      "summary": "주택담보대출금리가 2025년 1월 이후 최고 수준에 근접하며 부동산 시장 침체 심화 우려",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/housing/the-stagnant-housing-market-is-about-to-face-a-7-mortgage-55a041d6?mod=rss_socialeconomyfeed",
+      "published_ts": 1789464600.0,
       "impact_high": false
     }
   ],
-  "_article_sig": "ffbe760212789b18a2465e18cfd9c492e3babd24839f2994467d6d7678a42441",
+  "_article_sig": "3f00cda9d8ec02d41e577da09f6c9ad6bb6bade78db4a158136fd9a626bb5d95",
   "built_at_kst": "2026-09-16T07:00:49.001121+09:00",
   "regular_open": true,
   "_futures_news": {
-    "NASDAQ": {
-      "summary": "AI 펀딩 열풍에 기술주 심화, 바이오테크 규제 완화로 희귀질환 베팅 부활 조짐. 중동 분쟁 시 AWS 등 클라우드 인프라 리스크 노출.",
+    "S&P500": {
+      "summary": "Fed가 3년 만에 기준금리 0.25% 인상, 연말까지 추가 인상 가능성 높음. 소매판매 1.2% 증가로 경기 견조함을 보여주나, 장기물가 우려와 10년물 수익률 5% 돌파로 차입비용 상승 압박. 에너지 충격과 AI 투자 급증이 물가 전망을 재편하는 구도.",
       "sources": [
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/fed-raises-rates-for-first-time-in-three-years-08539fbe?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/livecoverage/fed-meeting-warsh-interest-rate-09-16-2026?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/u-s-retail-sales-rebounded-last-month-cdb4a2e0?mod=rss_socialeconomyfeed"
+        }
+      ]
+    },
+    "DOW": {
+      "summary": "중동 지정학 악화로 유가 급등, 디젤 $6.31/갤론으로 사상 최고 경신하며 수송 인프라 비상. 에너지·금리 이중 충격으로 가계당 $1,700 추정 부담 증가, 소비 기초 약화 신호 심화. 방어 투자 확대와 데이터센터 피격으로 산업재·금융 부문 구조적 비용 상승.",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/16/transport-economy-diesel-prices-iran.html"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/16/oil-prices-treasury-yields-consumers-iran.html"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/the-u-s-is-burning-through-its-supply-of-interceptors-to-counter-irans-attacks-f42c5ecd?mod=rss_worldnews"
+        }
+      ]
+    },
+    "NASDAQ": {
+      "summary": "FDA 규제 완화 신호에 희귀질환 신약 투자 복귀. AI 펀딩 둔화 신호 강화로 성장주 밸류에이션 재평가 압박. 빅파마 심장질환 영역 수익성 악화로 의약 섹터 구조적 재편 진행.",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/health/pharma/trump-administration-shift-puts-this-corner-of-biotech-back-in-favor-2abc0ae3?mod=rss_markets_main"
+        },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/an-ai-slowdown-has-to-happen-regardless-of-safety-69d6675d?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/health/pharma/trump-administration-shift-puts-this-corner-of-biotech-back-in-favor-2abc0ae3?mod=rss_markets_main"
-        }
-      ]
-    },
-    "S&P500": {
-      "summary": "연준이 3년 만에 금리인상(0.25%p) 단행, 연말 추가 인상 가능성 시사. 소매판매 1.2% 급증으로 경기 탄력성 부각되나 유가·금리 상승으로 소비자 부담 심화. 10년물 수익률 5% 도달로 금융 환경 경색 신호.",
-      "sources": [
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/economy/central-banking/fed-raises-rates-for-first-time-in-three-years-08539fbe?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/economy/u-s-retail-sales-rebounded-last-month-cdb4a2e0?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/16/oil-prices-treasury-yields-consumers-iran.html"
-        }
-      ]
-    },
-    "DOW": {
-      "summary": "이란 분쟁으로 유가 강세, 디젤유 역대 최고($6.31/갤런) 돌파. 운송·산업 기업 경영 압박 심화되는 가운데 유로존 산업생산 부진으로 글로벌 경기 둔화 신호 가시화.",
-      "sources": [
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/16/transport-economy-diesel-prices-iran.html"
+          "url": "https://www.wsj.com/health/pharma/heart-disease-a-historic-strength-for-big-pharma-becomes-a-weakness-983f0062?mod=rss_markets_main"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-09-17T03:40:07.813599+09:00",
+    "as_of_kst": "2026-09-17T03:50:05.639774+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7678.25,
-        "change_pct": 0.29,
+        "point": 7660.0,
+        "change_pct": 0.05,
         "spark": [
           7663.25,
-          7688.5,
-          7688.0,
           7685.75,
           7683.75,
           7686.25,
@@ -6462,21 +6472,23 @@
           7681.0,
           7680.25,
           7678.0,
-          7678.25
+          7657.5,
+          7660.0,
+          7660.0
         ],
         "candle": {
           "o": 7663.25,
           "h": 7699.0,
-          "l": 7658.75,
-          "c": 7678.25
+          "l": 7641.0,
+          "c": 7659.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 20.19,
-          "high_change_pct": -1.84
+          "low_change_pct": 19.9,
+          "high_change_pct": -2.09
         },
         "daily_expanded": [
           {
@@ -8491,26 +8503,26 @@
             "date": "2026-09-16",
             "o": 7663.25,
             "h": 7699.0,
-            "l": 7658.75,
-            "c": 7678.25,
-            "v": 965284
+            "l": 7641.0,
+            "c": 7659.25,
+            "v": 1053706
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "연준이 3년 만에 금리인상(0.25%p) 단행, 연말 추가 인상 가능성 시사. 소매판매 1.2% 급증으로 경기 탄력성 부각되나 유가·금리 상승으로 소비자 부담 심화. 10년물 수익률 5% 도달로 금융 환경 경색 신호.",
+          "summary": "Fed가 3년 만에 기준금리 0.25% 인상, 연말까지 추가 인상 가능성 높음. 소매판매 1.2% 증가로 경기 견조함을 보여주나, 장기물가 우려와 10년물 수익률 5% 돌파로 차입비용 상승 압박. 에너지 충격과 AI 투자 급증이 물가 전망을 재편하는 구도.",
           "sources": [
             {
-              "name": "WSJ",
+              "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/fed-raises-rates-for-first-time-in-three-years-08539fbe?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/economy/u-s-retail-sales-rebounded-last-month-cdb4a2e0?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/livecoverage/fed-meeting-warsh-interest-rate-09-16-2026?mod=rss_markets_main"
             },
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/09/16/oil-prices-treasury-yields-consumers-iran.html"
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/u-s-retail-sales-rebounded-last-month-cdb4a2e0?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8518,12 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29456.0,
-        "change_pct": 0.72,
+        "point": 29388.25,
+        "change_pct": 0.48,
         "spark": [
           29263.75,
-          29516.5,
-          29506.25,
           29489.25,
           29493.5,
           29496.0,
@@ -8561,21 +8571,23 @@
           29454.75,
           29454.75,
           29371.5,
-          29456.0
+          29392.0,
+          29438.75,
+          29388.25
         ],
         "candle": {
           "o": 29263.75,
           "h": 29549.75,
           "l": 29226.0,
-          "c": 29456.0
+          "c": 29390.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.3,
-          "high_change_pct": -4.09
+          "low_change_pct": 27.01,
+          "high_change_pct": -4.31
         },
         "daily_expanded": [
           {
@@ -10591,21 +10603,25 @@
             "o": 29263.75,
             "h": 29549.75,
             "l": 29226.0,
-            "c": 29456.0,
-            "v": 376054
+            "c": 29390.5,
+            "v": 400840
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "AI 펀딩 열풍에 기술주 심화, 바이오테크 규제 완화로 희귀질환 베팅 부활 조짐. 중동 분쟁 시 AWS 등 클라우드 인프라 리스크 노출.",
+          "summary": "FDA 규제 완화 신호에 희귀질환 신약 투자 복귀. AI 펀딩 둔화 신호 강화로 성장주 밸류에이션 재평가 압박. 빅파마 심장질환 영역 수익성 악화로 의약 섹터 구조적 재편 진행.",
           "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/health/pharma/trump-administration-shift-puts-this-corner-of-biotech-back-in-favor-2abc0ae3?mod=rss_markets_main"
+            },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/an-ai-slowdown-has-to-happen-regardless-of-safety-69d6675d?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/health/pharma/trump-administration-shift-puts-this-corner-of-biotech-back-in-favor-2abc0ae3?mod=rss_markets_main"
+              "url": "https://www.wsj.com/health/pharma/heart-disease-a-historic-strength-for-big-pharma-becomes-a-weakness-983f0062?mod=rss_markets_main"
             }
           ]
         }
@@ -10613,12 +10629,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52449.0,
-        "change_pct": -0.15,
+        "point": 52347.0,
+        "change_pct": -0.34,
         "spark": [
           52576.0,
-          52504.0,
-          52502.0,
           52485.0,
           52514.0,
           52531.0,
@@ -10656,21 +10670,23 @@
           52515.0,
           52446.0,
           52314.0,
-          52449.0
+          52339.0,
+          52398.0,
+          52347.0
         ],
         "candle": {
           "o": 52576.0,
           "h": 52709.0,
-          "l": 52325.0,
-          "c": 52449.0
+          "l": 52203.0,
+          "c": 52347.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.47,
-          "high_change_pct": -3.75
+          "low_change_pct": 15.24,
+          "high_change_pct": -3.94
         },
         "daily_expanded": [
           {
@@ -12685,23 +12701,31 @@
             "date": "2026-09-16",
             "o": 52576.0,
             "h": 52709.0,
-            "l": 52325.0,
-            "c": 52449.0,
-            "v": 57891
+            "l": 52203.0,
+            "c": 52347.0,
+            "v": 60864
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "이란 분쟁으로 유가 강세, 디젤유 역대 최고($6.31/갤런) 돌파. 운송·산업 기업 경영 압박 심화되는 가운데 유로존 산업생산 부진으로 글로벌 경기 둔화 신호 가시화.",
+          "summary": "중동 지정학 악화로 유가 급등, 디젤 $6.31/갤론으로 사상 최고 경신하며 수송 인프라 비상. 에너지·금리 이중 충격으로 가계당 $1,700 추정 부담 증가, 소비 기초 약화 신호 심화. 방어 투자 확대와 데이터센터 피격으로 산업재·금융 부문 구조적 비용 상승.",
           "sources": [
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/09/16/transport-economy-diesel-prices-iran.html"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/09/16/oil-prices-treasury-yields-consumers-iran.html"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/the-u-s-is-burning-through-its-supply-of-interceptors-to-counter-irans-attacks-f42c5ecd?mod=rss_worldnews"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-09-17T03:42:16.138144+09:00"
+  "intraday_refreshed_kst": "2026-09-17T03:51:54.953051+09:00"
 }
