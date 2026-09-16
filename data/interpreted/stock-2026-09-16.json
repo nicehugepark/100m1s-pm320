@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "generated_at": "2026-09-16T09:35:14.769964",
+  "generated_at": "2026-09-16T09:36:23.019579",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -472,9 +472,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bull",
+      "togusa_verdict": "strong_bull",
       "theme_leader": true,
-      "hugepark_grade": "관찰"
+      "hugepark_grade": "적극"
     },
     {
       "code": "072950",
@@ -685,7 +685,12 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bull",
+      "theme_leader": true,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "062970",
@@ -1359,15 +1364,15 @@
           "title": "카카오게임즈, 캐주얼 게임사 미투온 980억원에 인수[공시]",
           "url": "https://www.fnnews.com/news/202609151656375504",
           "source": "파이낸셜뉴스",
-          "published_at": "2026-09-16T09:20:03.955039",
-          "causal_chain": "대형 게임사 카카오게임즈가 미투온을 980억원에 인수해 최대주주(지분 39.56%)로 올라서며 소셜카지노·캐주얼 게임이라는 종목 핵심 도메인에 전략적 자본·퍼블리싱 역량이 유입 → 게임 도메인 직접 수혜 모멘텀. 다만 취득 예정일이 2026-11-16으로 약 2개월 뒤이고 거래 완료 전 불확실성이 남아 재료 소멸·차익 매물이 우세하며 당일 종가 3,840원(-4.71%)·거래대금 67억원으로 오히려 하락 마감.",
-          "macro_event": "카카오게임즈, 미투온 지분 39.56%(1682만8508주) 약 980억원 취득 → 최대주주 등극 (취득 예정일 2026-11-16)",
+          "published_at": "2026-09-16T09:30:07.206037",
+          "causal_chain": "카카오게임즈가 미투온 주식 1682만8508주(지분 39.56%)를 약 980억원에 취득해 최대주주로 올라서는 인수 공시 → 소셜카지노·캐주얼 게임을 핵심 사업으로 하는 미투온에 대형 게임사의 전략적 자본·퍼블리싱 역량이 유입 → 게임 도메인 직접 수혜 모멘텀. 다만 취득 예정일(11월 16일)이 두 달가량 남아 즉각적 반영이 어렵고, 당일 종가 3,840원(-4.71%)·거래대금 68억원으로 오히려 약세를 보이며 시장 반응은 제한적.",
+          "macro_event": "카카오게임즈, 미투온 지분 39.56%(약 980억원) 취득해 최대주주 등극 — 대형 게임사 인수",
           "newzy_freshness": null,
           "newzy_persistence": null,
           "newzy_magnitude": 0.8,
-          "newzy_virality": 0.55,
+          "newzy_virality": 0.6,
           "newzy_tradability": null,
-          "newzy_score": 0.7,
+          "newzy_score": 0.72,
           "newzy_verdict": null,
           "article_type": "공시"
         }
@@ -1541,9 +1546,9 @@
           3840
         ]
       },
-      "togusa_verdict": "weak_bear",
+      "togusa_verdict": "neutral",
       "theme_leader": true,
-      "hugepark_grade": "주의"
+      "hugepark_grade": "관찰"
     },
     {
       "code": "357580",
@@ -1754,8 +1759,17 @@
       "low_price": 1943,
       "industry": "통신 및 방송 장비 제조업",
       "sector": "단말기용안테나,기지국용안테나",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "통신장비"
+      ],
+      "theme_paths": [
+        {
+          "name": "통신장비",
+          "path": [
+            "통신장비"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": true,
