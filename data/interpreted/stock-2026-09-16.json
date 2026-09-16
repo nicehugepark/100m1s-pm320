@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "generated_at": "2026-09-16T09:26:16.019917",
+  "generated_at": "2026-09-16T09:35:14.769964",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -8,12 +8,12 @@
       "summary": "메모리 반도체 원가 상승(비용 한계 도달) → 삼성·SK하이닉스 수익성 악화 진단 → 메모리 반도체 섹터 약세"
     },
     {
-      "title": "메모리공급부족",
-      "summary": "삼성·TSMC 생산 공백 속 AI칩 수요 폭발 → HBM 공급 부족 심화 → 메모리반도체 가격 상승 및 DB하이텍 등 대체 공급사 호황"
-    },
-    {
       "title": "메모리공급",
       "summary": "메모리 반도체 수요 폭발에 삼성·TSMC 공급 공백 → 대체 공급처 DB하이텍으로 수주 집중 → 반도체 기업군 재편"
+    },
+    {
+      "title": "메모리공급부족",
+      "summary": "삼성·TSMC 생산 공백 속 AI칩 수요 폭발 → HBM 공급 부족 심화 → 메모리반도체 가격 상승 및 DB하이텍 등 대체 공급사 호황"
     },
     {
       "title": "규제완화",
@@ -39,6 +39,18 @@
       "summary": "삼성·TSMC 생산 공백 속 AI칩 수요 폭발 → HBM 공급 부족 심화 → 메모리반도체 가격 상승 및 DB하이텍 등 대체 공급사 호황",
       "source_count": 1,
       "verified": false
+    },
+    {
+      "keyword": "메모리수급",
+      "summary": "삼성·TSMC 공백 → 메모리칩 수급 부족 → 중소 반도체사(DB하이텍) 이달 23% 상승",
+      "source_count": 1,
+      "verified": false
+    },
+    {
+      "keyword": "비용한계",
+      "summary": "메모리칩 제조 비용 한계 도달 → 가격 인상 압박 → 반도체 수익성 위기 신호",
+      "source_count": 1,
+      "verified": false
     }
   ],
   "themes_tree": {
@@ -56,6 +68,18 @@
           {
             "name": "메모리 반도체 슈퍼사이클",
             "summary": "메모리 가격·비용 한계 도달 진단과 목표가 상향(삼성전자 27만원·SK하이닉스 148만원)으로 메모리 업황 개선 기대가 반도체 대형주로 자금 유입.",
+            "source_count": 1,
+            "verdict": "pass"
+          },
+          {
+            "name": "메모리 반도체 슈퍼사이클",
+            "summary": "메모리 가격·비용 한계 도달 진단과 목표가 상향(삼성전자 27만원·SK하이닉스 148만원)으로 메모리 업황 개선 기대가 반도체 대형주로 자금 유입.",
+            "source_count": 1,
+            "verdict": "pass"
+          },
+          {
+            "name": "파운드리·아날로그 반도체",
+            "summary": "수요 폭발과 삼성·TSMC의 캐파 공백으로 반사수혜가 부각되며 국내 아날로그·파운드리 업체(DB하이텍)로 수급 집중.",
             "source_count": 1,
             "verdict": "pass"
           },
@@ -78,8 +102,38 @@
             "verdict": "weak"
           },
           {
+            "name": "메모리 반도체",
+            "summary": "메모리 업황 호조로 삼성전자·SK하이닉스 목표가가 각각 27만원·148만원으로 상향되며 대형 반도체주로 수급 집중.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
             "name": "파운드리",
             "summary": "수요 급증에 삼성·TSMC 공급 공백까지 겹치며 반사 수혜로 DB하이텍이 이달 23% 급등, 중소형 파운드리로 온기 확산.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "파운드리",
+            "summary": "수요 급증에 삼성·TSMC 공급 공백까지 겹치며 반사 수혜로 DB하이텍이 이달 23% 급등, 중소형 파운드리로 온기 확산.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "반도체 파운드리",
+            "summary": "삼성·TSMC의 레거시 파운드리 공백에 수요가 몰리며 8인치 파운드리 업체로 물량이 이전돼 국내 파운드리 섹터가 반사수혜.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "메모리 반도체",
+            "summary": "메모리 비용 한계 도달 진단과 함께 목표가가 상향되며 업황 개선 기대가 삼성전자·SK하이닉스 등 메모리 대형주로 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "메모리 반도체",
+            "summary": "메모리 비용 한계 도달 진단과 함께 목표가가 상향되며 업황 개선 기대가 삼성전자·SK하이닉스 등 메모리 대형주로 유입.",
             "source_count": 1,
             "verdict": "weak"
           }
@@ -88,6 +142,12 @@
       {
         "name": "제약·바이오",
         "children": [
+          {
+            "name": "비만 치료제",
+            "summary": "비만 신약 가치 1조원 평가와 목표가 상향으로 비만 파이프라인 보유 제약사(한미약품)에 매수세 유입.",
+            "source_count": 1,
+            "verdict": "pass"
+          },
           {
             "name": "비만 치료제",
             "summary": "비만 신약 가치 1조원 평가와 목표가 상향으로 비만 파이프라인 보유 제약사(한미약품)에 매수세 유입.",
@@ -103,11 +163,46 @@
         ]
       },
       {
+        "name": "게임",
+        "children": [
+          {
+            "name": "게임 M&A",
+            "summary": "카카오게임즈가 미투온을 980억원에 인수하며 캐주얼 게임 포트폴리오 확장 기대가 게임 섹터로 관심 이동.",
+            "source_count": 1,
+            "verdict": "weak"
+          }
+        ]
+      },
+      {
         "name": "제약바이오",
         "children": [
           {
             "name": "비만치료제",
             "summary": "한미약품 비만신약 가치가 1조원으로 평가되고 목표가가 상향되며 비만 파이프라인 보유 제약주로 매수세 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "비만치료제",
+            "summary": "한미약품 비만신약 가치가 1조원으로 평가되고 목표가가 상향되며 비만 파이프라인 보유 제약주로 매수세 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "비만 치료제",
+            "summary": "한미약품 비만신약 가치가 1조원으로 재평가되고 목표가가 상향되며 비만 파이프라인 보유 제약바이오로 관심 확산.",
+            "source_count": 1,
+            "verdict": "pass"
+          },
+          {
+            "name": "비만 치료제",
+            "summary": "한미약품 비만신약 가치가 1조원으로 재평가되고 목표가가 상향되며 비만 파이프라인 보유 제약바이오로 관심 확산.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "비만 치료제",
+            "summary": "한미약품 비만신약 가치가 1조원으로 재평가되고 목표가가 상향되며 비만 파이프라인 보유 제약바이오로 관심 확산.",
             "source_count": 1,
             "verdict": "weak"
           }
@@ -120,9 +215,9 @@
       "code": "069540",
       "name": "빛과전자",
       "rank": 1,
-      "trade_amount": 120446000000,
-      "change_pct": 12.58,
-      "close_price": 4655,
+      "trade_amount": 143094000000,
+      "change_pct": 9.79,
+      "close_price": 4540,
       "open_price": 4120,
       "high_price": 4800,
       "low_price": 4100,
@@ -207,17 +302,17 @@
         ],
         "cafe_only": []
       },
-      "index_change_pct": -0.7,
-      "index_multiple_current": -17.97,
+      "index_change_pct": -0.54,
+      "index_multiple_current": -18.13,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 8100,
         "high_date": "2026-04-16",
-        "high_pct": -42.53,
+        "high_pct": -43.95,
         "low": 592,
         "low_date": "2026-01-02",
-        "low_pct": 686.32,
-        "current": 4655
+        "low_pct": 666.89,
+        "current": 4540
       },
       "daily_20": [
         {
@@ -358,7 +453,7 @@
           "o": 4120,
           "h": 4800,
           "l": 4100,
-          "c": 4655
+          "c": 4540
         }
       ],
       "intraday": {
@@ -370,7 +465,9 @@
           4640,
           4685,
           4675,
-          4655
+          4610,
+          4600,
+          4575
         ]
       },
       "credit_risk": true,
@@ -380,12 +477,223 @@
       "hugepark_grade": "관찰"
     },
     {
+      "code": "072950",
+      "name": "빛샘전자",
+      "rank": 2,
+      "trade_amount": 73070000000,
+      "change_pct": 22.91,
+      "close_price": 13200,
+      "open_price": 10800,
+      "high_price": 13240,
+      "low_price": 10740,
+      "industry": "전자부품 제조업",
+      "sector": "전광판용 LED 모듈, LED 전광판, 광접속함체",
+      "themes": [
+        "LED",
+        "광통신",
+        "디스플레이"
+      ],
+      "theme_paths": [
+        {
+          "name": "LED",
+          "path": [
+            "LED"
+          ]
+        },
+        {
+          "name": "광통신",
+          "path": [
+            "AI",
+            "광통신"
+          ]
+        },
+        {
+          "name": "디스플레이",
+          "path": [
+            "디스플레이"
+          ]
+        }
+      ],
+      "pick_count": 1,
+      "prev_pick": {
+        "date": "2026-09-14",
+        "rank": 9,
+        "change_pct": 26.29,
+        "trade_amount": 60487000000
+      },
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-08-12",
+        "2026-09-14",
+        "2026-09-16"
+      ],
+      "news": [],
+      "fallback": true,
+      "index_change_pct": -0.54,
+      "index_multiple_current": -42.43,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 25700,
+        "high_date": "2026-04-16",
+        "high_pct": -48.64,
+        "low": 4600,
+        "low_date": "2025-11-05",
+        "low_pct": 186.96,
+        "current": 13200
+      },
+      "daily_20": [
+        {
+          "date": "2026-08-20",
+          "o": 9100,
+          "h": 9250,
+          "l": 8960,
+          "c": 9150
+        },
+        {
+          "date": "2026-08-21",
+          "o": 9050,
+          "h": 9050,
+          "l": 8480,
+          "c": 8530
+        },
+        {
+          "date": "2026-08-24",
+          "o": 8570,
+          "h": 8830,
+          "l": 8470,
+          "c": 8540
+        },
+        {
+          "date": "2026-08-25",
+          "o": 8460,
+          "h": 8670,
+          "l": 8050,
+          "c": 8670
+        },
+        {
+          "date": "2026-08-26",
+          "o": 8670,
+          "h": 8950,
+          "l": 8480,
+          "c": 8680
+        },
+        {
+          "date": "2026-08-27",
+          "o": 8890,
+          "h": 9550,
+          "l": 8750,
+          "c": 8970
+        },
+        {
+          "date": "2026-08-28",
+          "o": 8970,
+          "h": 8970,
+          "l": 8620,
+          "c": 8620
+        },
+        {
+          "date": "2026-08-31",
+          "o": 8400,
+          "h": 8750,
+          "l": 8190,
+          "c": 8700
+        },
+        {
+          "date": "2026-09-01",
+          "o": 8620,
+          "h": 9110,
+          "l": 8320,
+          "c": 8470
+        },
+        {
+          "date": "2026-09-02",
+          "o": 8300,
+          "h": 8530,
+          "l": 8220,
+          "c": 8440
+        },
+        {
+          "date": "2026-09-03",
+          "o": 8480,
+          "h": 8670,
+          "l": 8010,
+          "c": 8180
+        },
+        {
+          "date": "2026-09-04",
+          "o": 8260,
+          "h": 8480,
+          "l": 8200,
+          "c": 8380
+        },
+        {
+          "date": "2026-09-07",
+          "o": 8550,
+          "h": 8700,
+          "l": 8340,
+          "c": 8360
+        },
+        {
+          "date": "2026-09-08",
+          "o": 8360,
+          "h": 9810,
+          "l": 8360,
+          "c": 8640
+        },
+        {
+          "date": "2026-09-09",
+          "o": 8930,
+          "h": 9580,
+          "l": 8890,
+          "c": 9140
+        },
+        {
+          "date": "2026-09-10",
+          "o": 9140,
+          "h": 9400,
+          "l": 8890,
+          "c": 9140
+        },
+        {
+          "date": "2026-09-11",
+          "o": 8950,
+          "h": 9400,
+          "l": 8900,
+          "c": 8900
+        },
+        {
+          "date": "2026-09-14",
+          "o": 8880,
+          "h": 11570,
+          "l": 8640,
+          "c": 11570
+        },
+        {
+          "date": "2026-09-15",
+          "o": 11260,
+          "h": 11500,
+          "l": 10290,
+          "c": 10740
+        },
+        {
+          "date": "2026-09-16",
+          "o": 10800,
+          "h": 13240,
+          "l": 10740,
+          "c": 13200
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
       "code": "062970",
       "name": "한국첨단소재",
-      "rank": 2,
-      "trade_amount": 59961000000,
-      "change_pct": 6.4,
-      "close_price": 3575,
+      "rank": 3,
+      "trade_amount": 64609000000,
+      "change_pct": 5.06,
+      "close_price": 3530,
       "open_price": 3570,
       "high_price": 3910,
       "low_price": 3460,
@@ -492,17 +800,17 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": -0.7,
-      "index_multiple_current": -9.14,
+      "index_change_pct": -0.54,
+      "index_multiple_current": -9.37,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 10105,
         "high_date": "2026-04-08",
-        "high_pct": -64.62,
+        "high_pct": -65.07,
         "low": 1815,
         "low_date": "2026-09-11",
-        "low_pct": 96.97,
-        "current": 3575
+        "low_pct": 94.49,
+        "current": 3530
       },
       "daily_20": [
         {
@@ -643,7 +951,7 @@
           "o": 3570,
           "h": 3910,
           "l": 3460,
-          "c": 3575
+          "c": 3530
         }
       ],
       "status_badges": [
@@ -671,7 +979,7 @@
               "desc": "최근 15일 최고가(2026-09-15)",
               "base_price": 3360,
               "threshold": 3360,
-              "current": 3575,
+              "current": 3530,
               "triggered": true
             }
           ],
@@ -697,7 +1005,9 @@
           3740,
           3560,
           3610,
-          3600
+          3525,
+          3515,
+          3540
         ]
       },
       "credit_risk": true,
@@ -709,8 +1019,8 @@
     {
       "code": "049080",
       "name": "기가레인",
-      "rank": 3,
-      "trade_amount": 26977000000,
+      "rank": 4,
+      "trade_amount": 27503000000,
       "change_pct": 28.69,
       "close_price": 10990,
       "open_price": 8630,
@@ -828,8 +1138,8 @@
         ],
         "cafe_only": []
       },
-      "index_change_pct": -0.7,
-      "index_multiple_current": -40.99,
+      "index_change_pct": -0.54,
+      "index_multiple_current": -53.13,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 31250,
@@ -991,6 +1301,8 @@
           10430,
           10830,
           10730,
+          10990,
+          10990,
           10990
         ]
       },
@@ -1003,8 +1315,8 @@
     {
       "code": "201490",
       "name": "미투온",
-      "rank": 4,
-      "trade_amount": 6764000000,
+      "rank": 5,
+      "trade_amount": 6820000000,
       "change_pct": -4.71,
       "close_price": 3840,
       "open_price": 3840,
@@ -1061,8 +1373,8 @@
         }
       ],
       "fallback": false,
-      "index_change_pct": -0.7,
-      "index_multiple_current": 6.73,
+      "index_change_pct": -0.54,
+      "index_multiple_current": 8.72,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 6480,
@@ -1224,6 +1536,8 @@
           3840,
           3840,
           3840,
+          3840,
+          3840,
           3840
         ]
       },
@@ -1234,8 +1548,8 @@
     {
       "code": "357580",
       "name": "아모센스",
-      "rank": 5,
-      "trade_amount": 2667000000,
+      "rank": 6,
+      "trade_amount": 2756000000,
       "change_pct": 28.93,
       "close_price": 6640,
       "open_price": 5550,
@@ -1254,8 +1568,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": -0.7,
-      "index_multiple_current": -41.33,
+      "index_change_pct": -0.54,
+      "index_multiple_current": -53.57,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 29900,
@@ -1417,6 +1731,8 @@
           6590,
           6640,
           6640,
+          6640,
+          6640,
           6640
         ]
       },
@@ -1429,15 +1745,15 @@
     {
       "code": "088800",
       "name": "에이스테크",
-      "rank": 6,
-      "trade_amount": 1719000000,
+      "rank": 7,
+      "trade_amount": 1768000000,
       "change_pct": 30.04,
       "close_price": 2450,
       "open_price": 2000,
       "high_price": 2450,
       "low_price": 1943,
-      "industry": null,
-      "sector": null,
+      "industry": "통신 및 방송 장비 제조업",
+      "sector": "단말기용안테나,기지국용안테나",
       "themes": [],
       "theme_paths": [],
       "pick_count": 1,
@@ -1449,6 +1765,9 @@
       ],
       "news": [],
       "fallback": true,
+      "index_change_pct": -0.54,
+      "index_multiple_current": -55.63,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 7890,
         "high_date": "2026-04-14",
@@ -1600,8 +1919,22 @@
           "c": 2450
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 2000,
+        "base": 2000,
+        "prices": [
+          2000,
+          2450,
+          2450,
+          2450,
+          2450,
+          2450,
+          2450
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
@@ -1609,13 +1942,13 @@
     {
       "code": "232830",
       "name": "아이티센피엔에스",
-      "rank": 7,
-      "trade_amount": 500000000,
+      "rank": 8,
+      "trade_amount": 1127000000,
       "change_pct": 29.85,
       "close_price": 3480,
       "open_price": 3480,
       "high_price": 3480,
-      "low_price": 3480,
+      "low_price": 3310,
       "industry": "소프트웨어 개발 및 공급업",
       "sector": "디지털 금융 서비스 구축, 모바일 보안솔루션, 생체인증 전자서명",
       "themes": [
@@ -1643,8 +1976,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": -0.7,
-      "index_multiple_current": -42.64,
+      "index_change_pct": -0.54,
+      "index_multiple_current": -55.28,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 5590,
@@ -1793,7 +2126,7 @@
           "date": "2026-09-16",
           "o": 3480,
           "h": 3480,
-          "l": 3480,
+          "l": 3310,
           "c": 3480
         }
       ],
@@ -1833,6 +2166,8 @@
           3480,
           3480,
           3480,
+          3480,
+          3480,
           3480
         ]
       },
@@ -1847,8 +2182,8 @@
     {
       "code": "432980",
       "name": "엠에프씨",
-      "rank": 8,
-      "trade_amount": 280000000,
+      "rank": 9,
+      "trade_amount": 285000000,
       "change_pct": 28.63,
       "close_price": 3145,
       "open_price": 3145,
@@ -1874,8 +2209,8 @@
       "bullish_dates": [],
       "news": [],
       "fallback": true,
-      "index_change_pct": -0.7,
-      "index_multiple_current": -40.9,
+      "index_change_pct": -0.54,
+      "index_multiple_current": -53.02,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 4530,
@@ -2037,6 +2372,8 @@
           3145,
           3145,
           3145,
+          3145,
+          3145,
           3145
         ]
       },
@@ -2044,7 +2381,9 @@
       "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
-      "hugepark_grade": "관찰"
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     }
   ]
 }
