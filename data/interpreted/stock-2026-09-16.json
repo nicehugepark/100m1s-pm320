@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "generated_at": "2026-09-16T11:15:25.921177",
+  "generated_at": "2026-09-16T11:25:19.312882",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -12,12 +12,16 @@
       "summary": "메모리 반도체 수요 폭발에 삼성·TSMC 공급 공백 → 대체 공급처 DB하이텍으로 수주 집중 → 반도체 기업군 재편"
     },
     {
-      "title": "메모리공급부족",
-      "summary": "삼성·TSMC 생산 공백 속 AI칩 수요 폭발 → HBM 공급 부족 심화 → 메모리반도체 가격 상승 및 DB하이텍 등 대체 공급사 호황"
+      "title": "메모리수급",
+      "summary": "글로벌 AI 수요 폭증·삼성·TSMC 공급 부족 → 메모리칩 가격 상승 → DB하이텍·반도체 2차 공급사 수혜"
     },
     {
       "title": "바이오제약",
       "summary": "GLP-1 비만신약 수요 폭증 확산 → 개발사 실적 개선 모멘텀 → 한미약품 등 국내 바이오제약 섹터 재평가"
+    },
+    {
+      "title": "메모리부족",
+      "summary": "삼성·TSMC 공백 + 수요 폭발 → 메모리 가격 상승 신호 → HBM/GDDR 공급 긴급화"
     },
     {
       "title": "AI의료",
@@ -38,10 +42,6 @@
     {
       "title": "의료AI",
       "summary": "AI 의료 판독 기술 800개 병원까지 확산 → 헬스케어IT 시장 성장 신호 → 의료AI 솔루션·의료기기 섹터 수혜"
-    },
-    {
-      "title": "파운드리수급재편",
-      "summary": "TSMC·삼성 생산능력 부족 → 국내 파운드리 공급확대 기회 → DB하이텍 등 반도체장비·파운드리 섹터 수혜"
     }
   ],
   "narratives": [],
@@ -163,6 +163,18 @@
           },
           {
             "name": "메모리 반도체 슈퍼사이클",
+            "summary": "메모리 비용 한계 도달·수요 강세로 삼성전자·SK하이닉스 목표가 상향, 메모리 대형주에 매수세 집중.",
+            "source_count": 3,
+            "verdict": "pass"
+          },
+          {
+            "name": "메모리 반도체 슈퍼사이클",
+            "summary": "메모리 수요 급증과 삼성·TSMC 공급 공백으로 DB하이텍이 급등하고 삼성전자·SK하이닉스 목표가가 상향되며 메모리·파운드리 밸류체인에 자금 집중.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "메모리 반도체 슈퍼사이클",
             "summary": "메모리 수요 급증과 삼성·TSMC 공급 공백으로 DB하이텍이 급등하고 삼성전자·SK하이닉스 목표가가 상향되며 메모리·파운드리 밸류체인에 자금 집중.",
             "source_count": 2,
             "verdict": "pass"
@@ -315,6 +327,18 @@
             "name": "메모리 반도체 슈퍼사이클",
             "summary": "메모리 수요 폭발로 원가 한계에 도달해 가격 상승 사이클이 부각되며 삼성전자·SK하이닉스 목표가 상향 등 메모리 대장주 전반에 매수세 유입.",
             "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "메모리 반도체 슈퍼사이클",
+            "summary": "메모리 수요 폭발로 원가 한계에 도달해 가격 상승 사이클이 부각되며 삼성전자·SK하이닉스 목표가 상향 등 메모리 대장주 전반에 매수세 유입.",
+            "source_count": 2,
+            "verdict": "pass"
+          },
+          {
+            "name": "메모리 반도체 슈퍼사이클",
+            "summary": "메모리 가격·비용 한계 도달 진단과 목표가 상향(삼성전자 27만원·SK하이닉스 148만원)으로 메모리 업황 개선 기대가 반도체 대형주로 자금 유입.",
+            "source_count": 1,
             "verdict": "pass"
           },
           {
@@ -459,6 +483,12 @@
             "name": "파운드리·아날로그 반도체",
             "summary": "수요 폭발과 삼성·TSMC의 캐파 공백으로 반사수혜가 부각되며 국내 아날로그·파운드리 업체(DB하이텍)로 수급 집중.",
             "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "파운드리·아날로그 반도체",
+            "summary": "수요 폭발과 삼성·TSMC의 캐파 공백으로 반사수혜가 부각되며 국내 아날로그·파운드리 업체(DB하이텍)로 수급 집중.",
+            "source_count": 1,
             "verdict": "pass"
           },
           {
@@ -466,6 +496,12 @@
             "summary": "수요 폭발과 삼성·TSMC의 캐파 공백으로 반사수혜가 부각되며 국내 아날로그·파운드리 업체(DB하이텍)로 수급 집중.",
             "source_count": 1,
             "verdict": "pass"
+          },
+          {
+            "name": "메모리 반도체",
+            "summary": "메모리 업황 호조로 삼성전자·SK하이닉스 목표가가 각각 27만원·148만원으로 상향되며 대형 반도체주로 수급 집중.",
+            "source_count": 1,
+            "verdict": "weak"
           },
           {
             "name": "메모리 반도체",
@@ -574,6 +610,12 @@
             "summary": "수요 급증에 삼성·TSMC 공급 공백까지 겹치며 반사 수혜로 DB하이텍이 이달 23% 급등, 중소형 파운드리로 온기 확산.",
             "source_count": 1,
             "verdict": "weak"
+          },
+          {
+            "name": "파운드리",
+            "summary": "수요 급증에 삼성·TSMC 공급 공백까지 겹치며 반사 수혜로 DB하이텍이 이달 23% 급등, 중소형 파운드리로 온기 확산.",
+            "source_count": 1,
+            "verdict": "pass"
           },
           {
             "name": "파운드리",
@@ -660,8 +702,8 @@
             "verdict": "weak"
           },
           {
-            "name": "메모리 반도체",
-            "summary": "메모리 비용 한계 도달 진단과 함께 목표가가 상향되며 업황 개선 기대가 삼성전자·SK하이닉스 등 메모리 대형주로 유입.",
+            "name": "반도체 파운드리",
+            "summary": "삼성·TSMC의 레거시 파운드리 공백에 수요가 몰리며 8인치 파운드리 업체로 물량이 이전돼 국내 파운드리 섹터가 반사수혜.",
             "source_count": 1,
             "verdict": "weak"
           },
@@ -724,6 +766,24 @@
             "summary": "메모리 비용 한계 도달 진단과 함께 목표가가 상향되며 업황 개선 기대가 삼성전자·SK하이닉스 등 메모리 대형주로 유입.",
             "source_count": 1,
             "verdict": "weak"
+          },
+          {
+            "name": "메모리 반도체",
+            "summary": "메모리 비용 한계 도달 진단과 함께 목표가가 상향되며 업황 개선 기대가 삼성전자·SK하이닉스 등 메모리 대형주로 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "메모리 반도체",
+            "summary": "메모리 비용 한계 도달 진단과 함께 목표가가 상향되며 업황 개선 기대가 삼성전자·SK하이닉스 등 메모리 대형주로 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "메모리 반도체 슈퍼사이클",
+            "summary": "메모리 수요 폭증으로 삼성전자·SK하이닉스 목표가가 27만원·148만원으로 대폭 상향되며 메모리 대형주로 자금 유입.",
+            "source_count": 1,
+            "verdict": "pass"
           },
           {
             "name": "메모리 반도체 슈퍼사이클",
@@ -858,6 +918,18 @@
             "verdict": "weak"
           },
           {
+            "name": "파운드리 반사수혜",
+            "summary": "삼성·TSMC의 공급 공백과 수요 폭발로 DB하이텍 등 국내 파운드리가 수주 반사이익을 보며 강세.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "메모리 반도체 슈퍼사이클",
+            "summary": "메모리 비용 한계 도달 진단과 함께 삼성전자·SK하이닉스 목표가가 각 27만원·148만원으로 상향되며 메모리 업황 개선 기대가 대형주로 유입.",
+            "source_count": 1,
+            "verdict": "pass"
+          },
+          {
             "name": "메모리 반도체 슈퍼사이클",
             "summary": "메모리 비용 한계 도달 진단과 함께 삼성전자·SK하이닉스 목표가가 각 27만원·148만원으로 상향되며 메모리 업황 개선 기대가 대형주로 유입.",
             "source_count": 1,
@@ -990,6 +1062,66 @@
             "verdict": "weak"
           },
           {
+            "name": "파운드리 반사수혜",
+            "summary": "삼성·TSMC의 8인치 파운드리 공백과 수요 폭발로 DB하이텍이 대체 물량을 흡수, 국내 중소 파운드리로 매수세 집중.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "파운드리",
+            "summary": "삼성·TSMC의 8인치 파운드리 공백과 수요 폭발로 반사이익이 부각되며 국내 파운드리·반도체 위탁생산 섹터로 매수세 유입.",
+            "source_count": 1,
+            "verdict": "pass"
+          },
+          {
+            "name": "파운드리",
+            "summary": "삼성·TSMC의 8인치 파운드리 공백과 수요 폭발로 반사이익이 부각되며 국내 파운드리·반도체 위탁생산 섹터로 매수세 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "파운드리",
+            "summary": "삼성·TSMC의 8인치 파운드리 공백과 수요 폭발로 반사이익이 부각되며 국내 파운드리·반도체 위탁생산 섹터로 매수세 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "파운드리",
+            "summary": "삼성·TSMC의 8인치 파운드리 공백과 수요 폭발로 반사이익이 부각되며 국내 파운드리·반도체 위탁생산 섹터로 매수세 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "파운드리",
+            "summary": "삼성·TSMC의 8인치 파운드리 공백과 수요 폭발로 반사이익이 부각되며 국내 파운드리·반도체 위탁생산 섹터로 매수세 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "파운드리",
+            "summary": "삼성·TSMC의 8인치 파운드리 공백과 수요 폭발로 반사이익이 부각되며 국내 파운드리·반도체 위탁생산 섹터로 매수세 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "파운드리",
+            "summary": "삼성·TSMC의 8인치 파운드리 공백과 수요 폭발로 반사이익이 부각되며 국내 파운드리·반도체 위탁생산 섹터로 매수세 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "파운드리",
+            "summary": "삼성·TSMC의 8인치 파운드리 공백과 수요 폭발로 반사이익이 부각되며 국내 파운드리·반도체 위탁생산 섹터로 매수세 유입.",
+            "source_count": 1,
+            "verdict": "pass"
+          },
+          {
+            "name": "파운드리",
+            "summary": "삼성·TSMC의 8인치 파운드리 공백과 수요 폭발로 반사이익이 부각되며 국내 파운드리·반도체 위탁생산 섹터로 매수세 유입.",
+            "source_count": 1,
+            "verdict": "pass"
+          },
+          {
             "name": "파운드리",
             "summary": "삼성·TSMC의 8인치 파운드리 공백과 수요 폭발로 반사이익이 부각되며 국내 파운드리·반도체 위탁생산 섹터로 매수세 유입.",
             "source_count": 1,
@@ -1008,50 +1140,8 @@
             "verdict": "weak"
           },
           {
-            "name": "파운드리",
-            "summary": "삼성·TSMC의 8인치 파운드리 공백과 수요 폭발로 반사이익이 부각되며 국내 파운드리·반도체 위탁생산 섹터로 매수세 유입.",
-            "source_count": 1,
-            "verdict": "weak"
-          },
-          {
-            "name": "파운드리",
-            "summary": "삼성·TSMC의 8인치 파운드리 공백과 수요 폭발로 반사이익이 부각되며 국내 파운드리·반도체 위탁생산 섹터로 매수세 유입.",
-            "source_count": 1,
-            "verdict": "weak"
-          },
-          {
-            "name": "파운드리",
-            "summary": "삼성·TSMC의 8인치 파운드리 공백과 수요 폭발로 반사이익이 부각되며 국내 파운드리·반도체 위탁생산 섹터로 매수세 유입.",
-            "source_count": 1,
-            "verdict": "weak"
-          },
-          {
-            "name": "파운드리",
-            "summary": "삼성·TSMC의 8인치 파운드리 공백과 수요 폭발로 반사이익이 부각되며 국내 파운드리·반도체 위탁생산 섹터로 매수세 유입.",
-            "source_count": 1,
-            "verdict": "weak"
-          },
-          {
-            "name": "파운드리",
-            "summary": "삼성·TSMC의 8인치 파운드리 공백과 수요 폭발로 반사이익이 부각되며 국내 파운드리·반도체 위탁생산 섹터로 매수세 유입.",
-            "source_count": 1,
-            "verdict": "pass"
-          },
-          {
-            "name": "파운드리",
-            "summary": "삼성·TSMC의 8인치 파운드리 공백과 수요 폭발로 반사이익이 부각되며 국내 파운드리·반도체 위탁생산 섹터로 매수세 유입.",
-            "source_count": 1,
-            "verdict": "pass"
-          },
-          {
-            "name": "파운드리",
-            "summary": "삼성·TSMC의 8인치 파운드리 공백과 수요 폭발로 반사이익이 부각되며 국내 파운드리·반도체 위탁생산 섹터로 매수세 유입.",
-            "source_count": 1,
-            "verdict": "weak"
-          },
-          {
-            "name": "파운드리",
-            "summary": "삼성·TSMC의 8인치 파운드리 공백과 수요 폭발로 반사이익이 부각되며 국내 파운드리·반도체 위탁생산 섹터로 매수세 유입.",
+            "name": "메모리 반도체",
+            "summary": "메모리 비용 한계 도달 진단과 함께 목표가 상향이 이어지며 삼성전자·SK하이닉스 등 메모리 대형주로 자금이 집중.",
             "source_count": 1,
             "verdict": "weak"
           },
@@ -1184,6 +1274,18 @@
           {
             "name": "메모리 반도체",
             "summary": "증권사가 삼성전자·SK하이닉스 목표주가를 27만원·148만원으로 제시하며 '메모리 비용 한계 도달'을 진단, 가격 상승 사이클 기대가 메모리 대형주로 자금을 유입시킴",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "메모리 반도체",
+            "summary": "증권사가 삼성전자·SK하이닉스 목표주가를 27만원·148만원으로 제시하며 '메모리 비용 한계 도달'을 진단, 가격 상승 사이클 기대가 메모리 대형주로 자금을 유입시킴",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "반도체 파운드리",
+            "summary": "삼성·TSMC 생산 공백과 수요 폭발이 겹치며 DB하이텍 등 8인치 파운드리·아날로그 반도체 업체로 반사 수혜가 몰림",
             "source_count": 1,
             "verdict": "weak"
           },
@@ -1272,6 +1374,18 @@
             "verdict": "weak"
           },
           {
+            "name": "8인치 파운드리 공급부족",
+            "summary": "삼성·TSMC의 8인치 라인 공백과 수요 폭발이 겹치며 아날로그 파운드리 캐파 부족 수혜가 DB하이텍 등 중소형 파운드리로 확산.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "메모리 반도체",
+            "summary": "'메모리 비용 한계 도달' 진단과 함께 삼성전자·SK하이닉스 목표가가 27만원·148만원으로 상향되며 메모리 가격 상승 사이클 기대가 대형 반도체주로 자금 유입을 촉발.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
             "name": "메모리 반도체",
             "summary": "'메모리 비용 한계 도달' 진단과 함께 삼성전자·SK하이닉스 목표가가 27만원·148만원으로 상향되며 메모리 가격 상승 사이클 기대가 대형 반도체주로 자금 유입을 촉발.",
             "source_count": 1,
@@ -1378,6 +1492,12 @@
             "summary": "수요 폭발과 삼성·TSMC 공급 공백이 겹치며 DB하이텍이 이달 23% 급등, 레거시 파운드리 공급 부족 수혜 기대가 부각.",
             "source_count": 1,
             "verdict": "weak"
+          },
+          {
+            "name": "파운드리",
+            "summary": "수요 폭발과 삼성·TSMC 공급 공백이 겹치며 DB하이텍이 이달 23% 급등, 레거시 파운드리 공급 부족 수혜 기대가 부각.",
+            "source_count": 1,
+            "verdict": "pass"
           },
           {
             "name": "파운드리",
@@ -1473,6 +1593,12 @@
             "name": "파운드리",
             "summary": "삼성·TSMC 레거시 라인 공백과 수요 폭발로 DB하이텍이 8인치 파운드리 반사이익을 얻으며 국내 파운드리 섹터 수혜",
             "source_count": 1,
+            "verdict": "pass"
+          },
+          {
+            "name": "파운드리",
+            "summary": "삼성·TSMC 레거시 라인 공백과 수요 폭발로 DB하이텍이 8인치 파운드리 반사이익을 얻으며 국내 파운드리 섹터 수혜",
+            "source_count": 1,
             "verdict": "weak"
           },
           {
@@ -1549,6 +1675,18 @@
           },
           {
             "name": "메모리 반도체",
+            "summary": "메모리 비용 한계 도달 진단 속 삼성전자·SK하이닉스 목표가 상향으로 메모리 업사이클 기대가 반도체 대형주로 확산",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "메모리 반도체",
+            "summary": "메모리 가격 상승 사이클 지속 전망에 증권사가 삼성전자·SK하이닉스 목표가를 27만원·148만원으로 상향하며 대형 메모리주로 매수세 집중.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "메모리 반도체",
             "summary": "메모리 가격 상승 사이클 지속 전망에 증권사가 삼성전자·SK하이닉스 목표가를 27만원·148만원으로 상향하며 대형 메모리주로 매수세 집중.",
             "source_count": 1,
             "verdict": "weak"
@@ -1671,11 +1809,161 @@
             "name": "파운드리",
             "summary": "레거시(8인치) 파운드리 수요 급증에 삼성·TSMC 공급 공백까지 겹치며 반사수혜 기대로 DB하이텍 등 국내 파운드리주로 자금 유입.",
             "source_count": 1,
+            "verdict": "pass"
+          },
+          {
+            "name": "파운드리",
+            "summary": "레거시(8인치) 파운드리 수요 급증에 삼성·TSMC 공급 공백까지 겹치며 반사수혜 기대로 DB하이텍 등 국내 파운드리주로 자금 유입.",
+            "source_count": 1,
             "verdict": "weak"
           },
           {
             "name": "파운드리",
             "summary": "레거시(8인치) 파운드리 수요 급증에 삼성·TSMC 공급 공백까지 겹치며 반사수혜 기대로 DB하이텍 등 국내 파운드리주로 자금 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "메모리 반도체",
+            "summary": "증권사가 메모리 비용 한계 도달을 진단하며 삼성전자·SK하이닉스 목표가를 상향, 메모리 업사이클 기대가 반도체 대형주로 자금 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "메모리 반도체",
+            "summary": "증권사가 메모리 비용 한계 도달을 진단하며 삼성전자·SK하이닉스 목표가를 상향, 메모리 업사이클 기대가 반도체 대형주로 자금 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "메모리 반도체",
+            "summary": "증권사가 메모리 비용 한계 도달을 진단하며 삼성전자·SK하이닉스 목표가를 상향, 메모리 업사이클 기대가 반도체 대형주로 자금 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "메모리 반도체",
+            "summary": "증권사가 메모리 비용 한계 도달을 진단하며 삼성전자·SK하이닉스 목표가를 상향, 메모리 업사이클 기대가 반도체 대형주로 자금 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "메모리 반도체",
+            "summary": "증권사가 메모리 비용 한계 도달을 진단하며 삼성전자·SK하이닉스 목표가를 상향, 메모리 업사이클 기대가 반도체 대형주로 자금 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "메모리 반도체",
+            "summary": "증권사가 메모리 비용 한계 도달을 진단하며 삼성전자·SK하이닉스 목표가를 상향, 메모리 업사이클 기대가 반도체 대형주로 자금 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "메모리 반도체",
+            "summary": "증권사가 메모리 비용 한계 도달을 진단하며 삼성전자·SK하이닉스 목표가를 상향, 메모리 업사이클 기대가 반도체 대형주로 자금 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "메모리 반도체",
+            "summary": "증권사가 메모리 비용 한계 도달을 진단하며 삼성전자·SK하이닉스 목표가를 상향, 메모리 업사이클 기대가 반도체 대형주로 자금 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "메모리 반도체",
+            "summary": "증권사가 메모리 비용 한계 도달을 진단하며 삼성전자·SK하이닉스 목표가를 상향, 메모리 업사이클 기대가 반도체 대형주로 자금 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "메모리 반도체",
+            "summary": "증권사가 메모리 비용 한계 도달을 진단하며 삼성전자·SK하이닉스 목표가를 상향, 메모리 업사이클 기대가 반도체 대형주로 자금 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "메모리 반도체",
+            "summary": "증권사가 메모리 비용 한계 도달을 진단하며 삼성전자·SK하이닉스 목표가를 상향, 메모리 업사이클 기대가 반도체 대형주로 자금 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "메모리 반도체",
+            "summary": "증권사가 메모리 비용 한계 도달을 진단하며 삼성전자·SK하이닉스 목표가를 상향, 메모리 업사이클 기대가 반도체 대형주로 자금 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "파운드리",
+            "summary": "수요 폭발에 삼성·TSMC 공급 공백까지 겹치며 반사이익 기대로 중소 파운드리 DB하이텍에 매수세 집중.",
+            "source_count": 1,
+            "verdict": "pass"
+          },
+          {
+            "name": "파운드리",
+            "summary": "수요 폭발에 삼성·TSMC 공급 공백까지 겹치며 반사이익 기대로 중소 파운드리 DB하이텍에 매수세 집중.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "파운드리",
+            "summary": "수요 폭발에 삼성·TSMC 공급 공백까지 겹치며 반사이익 기대로 중소 파운드리 DB하이텍에 매수세 집중.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "파운드리",
+            "summary": "수요 폭발에 삼성·TSMC 공급 공백까지 겹치며 반사이익 기대로 중소 파운드리 DB하이텍에 매수세 집중.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "파운드리",
+            "summary": "수요 폭발에 삼성·TSMC 공급 공백까지 겹치며 반사이익 기대로 중소 파운드리 DB하이텍에 매수세 집중.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "파운드리",
+            "summary": "수요 폭발에 삼성·TSMC 공급 공백까지 겹치며 반사이익 기대로 중소 파운드리 DB하이텍에 매수세 집중.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "파운드리",
+            "summary": "수요 폭발에 삼성·TSMC 공급 공백까지 겹치며 반사이익 기대로 중소 파운드리 DB하이텍에 매수세 집중.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "파운드리",
+            "summary": "수요 폭발에 삼성·TSMC 공급 공백까지 겹치며 반사이익 기대로 중소 파운드리 DB하이텍에 매수세 집중.",
+            "source_count": 1,
+            "verdict": "pass"
+          },
+          {
+            "name": "파운드리",
+            "summary": "수요 폭발에 삼성·TSMC 공급 공백까지 겹치며 반사이익 기대로 중소 파운드리 DB하이텍에 매수세 집중.",
+            "source_count": 1,
+            "verdict": "pass"
+          },
+          {
+            "name": "파운드리",
+            "summary": "수요 폭발에 삼성·TSMC 공급 공백까지 겹치며 반사이익 기대로 중소 파운드리 DB하이텍에 매수세 집중.",
+            "source_count": 1,
+            "verdict": "pass"
+          },
+          {
+            "name": "파운드리",
+            "summary": "수요 폭발에 삼성·TSMC 공급 공백까지 겹치며 반사이익 기대로 중소 파운드리 DB하이텍에 매수세 집중.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "파운드리",
+            "summary": "수요 폭발에 삼성·TSMC 공급 공백까지 겹치며 반사이익 기대로 중소 파운드리 DB하이텍에 매수세 집중.",
             "source_count": 1,
             "verdict": "weak"
           }
@@ -1764,19 +2052,7 @@
           },
           {
             "name": "비만 치료제",
-            "summary": "한미약품 비만신약 가치가 1조원으로 평가되며 목표가 상향, 비만 파이프라인 보유 제약주로 기대감 확산.",
-            "source_count": 1,
-            "verdict": "weak"
-          },
-          {
-            "name": "비만 치료제",
-            "summary": "한미약품 비만신약 가치가 1조원으로 평가되며 목표가 상향, 비만 파이프라인 보유 제약주로 기대감 확산.",
-            "source_count": 1,
-            "verdict": "pass"
-          },
-          {
-            "name": "비만 치료제",
-            "summary": "한미약품 비만신약 가치가 1조원으로 평가되며 목표가 상향, 비만 파이프라인 보유 제약주로 기대감 확산.",
+            "summary": "비만 신약 가치 1조원 평가와 목표가 상향으로 비만 파이프라인 보유 제약사(한미약품)에 매수세 유입.",
             "source_count": 1,
             "verdict": "pass"
           },
@@ -1820,6 +2096,24 @@
             "name": "비만 치료제",
             "summary": "한미약품 비만신약 가치가 1조원으로 평가되며 목표가 상향, 비만 파이프라인 보유 제약주로 기대감 확산.",
             "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "비만 치료제",
+            "summary": "한미약품 비만신약 가치가 1조원으로 평가되며 목표가 상향, 비만 파이프라인 보유 제약주로 기대감 확산.",
+            "source_count": 1,
+            "verdict": "pass"
+          },
+          {
+            "name": "비만 치료제",
+            "summary": "한미약품 비만신약 가치가 1조원으로 평가되며 목표가 상향, 비만 파이프라인 보유 제약주로 기대감 확산.",
+            "source_count": 1,
+            "verdict": "pass"
+          },
+          {
+            "name": "비만 치료제",
+            "summary": "한미약품 비만신약 가치가 1조원으로 평가되며 목표가 상향, 비만 파이프라인 보유 제약주로 기대감 확산.",
+            "source_count": 1,
             "verdict": "pass"
           },
           {
@@ -1841,10 +2135,10 @@
             "verdict": "pass"
           },
           {
-            "name": "비만치료제",
-            "summary": "한미약품 비만신약 가치가 1조원으로 평가받고 목표가가 상향되며 국내 비만치료제 개발 기업으로 수급 유입.",
+            "name": "비만 치료제",
+            "summary": "한미약품 비만신약 가치가 1조원으로 평가되며 목표가 상향, 비만 파이프라인 보유 제약주로 기대감 확산.",
             "source_count": 1,
-            "verdict": "weak"
+            "verdict": "pass"
           },
           {
             "name": "비만치료제",
@@ -1903,6 +2197,24 @@
           {
             "name": "비만치료제",
             "summary": "한미약품 비만신약 가치가 1조원으로 평가받고 목표가가 상향되며 국내 비만치료제 개발 기업으로 수급 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "비만치료제",
+            "summary": "한미약품 비만신약 가치가 1조원으로 평가받고 목표가가 상향되며 국내 비만치료제 개발 기업으로 수급 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "비만치료제",
+            "summary": "한미약품 비만신약 가치가 1조원으로 평가받고 목표가가 상향되며 국내 비만치료제 개발 기업으로 수급 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "비만치료제",
+            "summary": "한미약품 비만신약 몸값이 1조원으로 평가되며 목표주가가 상향, 비만신약 파이프라인 보유 제약주로 매수세가 유입됨",
             "source_count": 1,
             "verdict": "weak"
           },
@@ -1997,6 +2309,18 @@
           },
           {
             "name": "게임 M&A",
+            "summary": "카카오게임즈가 미투온을 980억원에 인수하며 캐주얼 게임 포트폴리오 확장 기대가 게임 섹터로 관심 이동.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "게임 M&A",
+            "summary": "카카오게임즈의 미투온 980억원 인수로 캐주얼 게임 라인업 확장 기대가 커지며 게임 인수·퍼블리싱 다각화 관련주가 부각.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "게임 M&A",
             "summary": "카카오게임즈의 미투온 980억원 인수로 캐주얼 게임 라인업 확장 기대가 커지며 게임 인수·퍼블리싱 다각화 관련주가 부각.",
             "source_count": 1,
             "verdict": "weak"
@@ -2010,6 +2334,12 @@
           {
             "name": "게임 M&A",
             "summary": "카카오게임즈의 미투온 980억원 인수로 캐주얼 게임 라인업 확장 기대가 커지며 게임 인수·퍼블리싱 다각화 관련주가 부각.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "게임 M&A",
+            "summary": "카카오게임즈가 캐주얼 게임사 미투온을 980억원에 인수하며 게임 포트폴리오 확장 기대가 게임 섹터로 확산",
             "source_count": 1,
             "verdict": "weak"
           },
@@ -2103,6 +2433,12 @@
             "verdict": "weak"
           },
           {
+            "name": "비만치료제",
+            "summary": "한미약품 비만신약 가치가 1조원으로 평가되고 목표가가 상향되며 비만 파이프라인 보유 제약주로 매수세 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
             "name": "비만 치료제",
             "summary": "한미약품 비만신약 가치가 1조원으로 재평가되고 목표가가 상향되며 비만 파이프라인 보유 제약바이오로 관심 확산.",
             "source_count": 1,
@@ -2182,19 +2518,7 @@
           },
           {
             "name": "비만 치료제",
-            "summary": "한미약품 비만신약 가치가 1조원으로 평가되고 목표가가 상향되며 비만치료제 파이프라인 보유주로 매수세 집중.",
-            "source_count": 1,
-            "verdict": "weak"
-          },
-          {
-            "name": "비만 치료제",
-            "summary": "한미약품 비만신약 가치가 1조원으로 평가되고 목표가가 상향되며 비만치료제 파이프라인 보유주로 매수세 집중.",
-            "source_count": 1,
-            "verdict": "pass"
-          },
-          {
-            "name": "비만 치료제",
-            "summary": "한미약품 비만신약 가치가 1조원으로 평가되고 목표가가 상향되며 비만치료제 파이프라인 보유주로 매수세 집중.",
+            "summary": "한미약품 비만신약 가치가 1조원으로 재평가되고 목표가가 상향되며 비만 파이프라인 보유 제약바이오로 관심 확산.",
             "source_count": 1,
             "verdict": "pass"
           },
@@ -2238,6 +2562,24 @@
             "name": "비만 치료제",
             "summary": "한미약품 비만신약 가치가 1조원으로 평가되고 목표가가 상향되며 비만치료제 파이프라인 보유주로 매수세 집중.",
             "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "비만 치료제",
+            "summary": "한미약품 비만신약 가치가 1조원으로 평가되고 목표가가 상향되며 비만치료제 파이프라인 보유주로 매수세 집중.",
+            "source_count": 1,
+            "verdict": "pass"
+          },
+          {
+            "name": "비만 치료제",
+            "summary": "한미약품 비만신약 가치가 1조원으로 평가되고 목표가가 상향되며 비만치료제 파이프라인 보유주로 매수세 집중.",
+            "source_count": 1,
+            "verdict": "pass"
+          },
+          {
+            "name": "비만 치료제",
+            "summary": "한미약품 비만신약 가치가 1조원으로 평가되고 목표가가 상향되며 비만치료제 파이프라인 보유주로 매수세 집중.",
+            "source_count": 1,
             "verdict": "pass"
           },
           {
@@ -2245,6 +2587,12 @@
             "summary": "한미약품 비만신약 가치가 1조원으로 평가되고 목표가가 상향되며 비만치료제 파이프라인 보유주로 매수세 집중.",
             "source_count": 1,
             "verdict": "weak"
+          },
+          {
+            "name": "비만 치료제",
+            "summary": "한미약품 비만신약 가치가 1조원으로 평가되고 목표가가 상향되며 비만치료제 파이프라인 보유주로 매수세 집중.",
+            "source_count": 1,
+            "verdict": "pass"
           },
           {
             "name": "비만 치료제",
@@ -2321,6 +2669,18 @@
           {
             "name": "비만치료제",
             "summary": "비만신약 파이프라인 가치가 1조원으로 평가되고 목표가가 상향되며 비만치료제 개발 제약주로 매수 이유 형성.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "비만치료제",
+            "summary": "비만신약 파이프라인 가치가 1조원으로 평가되고 목표가가 상향되며 비만치료제 개발 제약주로 매수 이유 형성.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "비만치료제",
+            "summary": "한미약품 비만신약 가치가 1조원대로 평가되며 목표가 상향, 국내 비만 파이프라인 보유 제약주로 기대감 확산.",
             "source_count": 1,
             "verdict": "weak"
           },
@@ -2458,6 +2818,18 @@
           },
           {
             "name": "비만치료제",
+            "summary": "한미약품 비만신약 몸값이 '1조'로 평가되고 목표가가 상향되며 국산 비만신약 가치 재평가가 관련 제약주 매수를 견인.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "비만치료제",
+            "summary": "한미약품 비만신약 가치 1조 평가·목표가 상향으로 국내 비만치료제 파이프라인 기대 확대.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "비만치료제",
             "summary": "한미약품 비만신약 가치 1조 평가·목표가 상향으로 국내 비만치료제 파이프라인 기대 확대.",
             "source_count": 1,
             "verdict": "weak"
@@ -2585,6 +2957,18 @@
           {
             "name": "비만치료제",
             "summary": "한미약품 비만신약 가치 1조원 평가·목표가 상향으로 비만치료제 파이프라인 재평가가 제약바이오 섹터로 확산",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "비만치료제",
+            "summary": "한미약품 비만신약 가치 1조원 평가·목표가 상향으로 비만치료제 파이프라인 재평가가 제약바이오 섹터로 확산",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "비만치료제",
+            "summary": "한미약품 비만신약 가치가 1조원으로 평가되며 목표가 상향에 비만치료제 파이프라인 보유 제약주로 관심 확대.",
             "source_count": 1,
             "verdict": "weak"
           },
@@ -2670,6 +3054,12 @@
             "summary": "딥노이드 흉부 판독 AI 'M4CXR'가 800개 병원 판독망으로 확산되며 의료 AI 진단 솔루션 기업에 관심 집중.",
             "source_count": 1,
             "verdict": "weak"
+          },
+          {
+            "name": "AI 의료영상",
+            "summary": "딥노이드 흉부 판독 AI 'M4CXR'가 800개 병원 판독망으로 확산되며 의료 AI 진단 솔루션 기업에 관심 집중.",
+            "source_count": 1,
+            "verdict": "weak"
           }
         ]
       },
@@ -2690,6 +3080,18 @@
           },
           {
             "name": "AI 의료영상",
+            "summary": "딥노이드 흉부 판독 AI 'M4CXR'가 800개 병원 판독망에 확산되며 AI 기반 의료영상 진단 관련주에 기대감이 형성됨",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "AI 의료영상",
+            "summary": "딥노이드 흉부 판독 AI 'M4CXR'가 800개 병원 판독망에 확산되며 의료영상 AI 상용화 모멘텀 부각.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "AI 의료영상",
             "summary": "딥노이드 흉부 판독 AI 'M4CXR'가 800개 병원 판독망에 확산되며 의료영상 AI 상용화 모멘텀 부각.",
             "source_count": 1,
             "verdict": "weak"
@@ -2709,6 +3111,18 @@
           {
             "name": "AI 의료영상",
             "summary": "딥노이드 흉부판독 AI 'M4CXR'이 800개 병원으로 확산되며 의료영상 AI 상용화 기대감 부각.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "AI 의료영상",
+            "summary": "딥노이드 흉부판독 AI 'M4CXR'이 800개 병원으로 확산되며 의료영상 AI 상용화 기대감 부각.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "AI 의료영상",
+            "summary": "딥노이드 흉부 판독 AI 'M4CXR'가 800개 병원 도입되며 의료 AI 상용화 확산으로 판독 솔루션·의료AI 섹터 수혜",
             "source_count": 1,
             "verdict": "weak"
           },
@@ -2733,7 +3147,13 @@
             "name": "의료 AI",
             "summary": "딥노이드 흉부 판독 AI 'M4CXR'가 800개 병원 도입망을 확보하며 상용화 확산 기대로 의료영상 AI 관련주에 매수 유입.",
             "source_count": 1,
-            "verdict": "unverified"
+            "verdict": "weak"
+          },
+          {
+            "name": "의료 AI",
+            "summary": "딥노이드가 AI 판독 솔루션 M4CXR로 800개 병원 도입을 확보하며 확산 가속화, 의료 영상 AI 진단 섹터로 관심 이동.",
+            "source_count": 1,
+            "verdict": "weak"
           }
         ]
       }
@@ -2744,9 +3164,9 @@
       "code": "069540",
       "name": "빛과전자",
       "rank": 1,
-      "trade_amount": 269163000000,
-      "change_pct": 11.25,
-      "close_price": 4600,
+      "trade_amount": 273154000000,
+      "change_pct": 11.0,
+      "close_price": 4590,
       "open_price": 4120,
       "high_price": 4800,
       "low_price": 4100,
@@ -2815,17 +3235,17 @@
         ],
         "cafe_only": []
       },
-      "index_change_pct": -1.09,
-      "index_multiple_current": -10.32,
+      "index_change_pct": -0.97,
+      "index_multiple_current": -11.34,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 8100,
         "high_date": "2026-04-16",
-        "high_pct": -43.21,
+        "high_pct": -43.33,
         "low": 592,
         "low_date": "2026-01-02",
-        "low_pct": 677.03,
-        "current": 4600
+        "low_pct": 675.34,
+        "current": 4590
       },
       "daily_20": [
         {
@@ -2966,7 +3386,7 @@
           "o": 4120,
           "h": 4800,
           "l": 4100,
-          "c": 4600
+          "c": 4590
         }
       ],
       "intraday": {
@@ -3000,7 +3420,9 @@
           4600,
           4600,
           4595,
-          4600
+          4570,
+          4595,
+          4595
         ]
       },
       "credit_risk": true,
@@ -3013,7 +3435,7 @@
       "code": "072950",
       "name": "빛샘전자",
       "rank": 2,
-      "trade_amount": 159452000000,
+      "trade_amount": 160617000000,
       "change_pct": 29.52,
       "close_price": 13910,
       "open_price": 10800,
@@ -3063,8 +3485,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": -1.09,
-      "index_multiple_current": -27.08,
+      "index_change_pct": -0.97,
+      "index_multiple_current": -30.43,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 25700,
@@ -3248,6 +3670,8 @@
           13910,
           13910,
           13910,
+          13910,
+          13910,
           13910
         ]
       },
@@ -3261,12 +3685,12 @@
       "code": "356680",
       "name": "엑스게이트",
       "rank": 3,
-      "trade_amount": 146736000000,
-      "change_pct": 0.06,
-      "close_price": 17000,
+      "trade_amount": 148330000000,
+      "change_pct": -0.47,
+      "close_price": 16910,
       "open_price": 17150,
       "high_price": 18860,
-      "low_price": 16960,
+      "low_price": 16910,
       "industry": "소프트웨어 개발 및 공급업",
       "sector": "통합 네트워크 보안 솔루션",
       "themes": [
@@ -3343,17 +3767,17 @@
         ],
         "cafe_only": []
       },
-      "index_change_pct": -1.09,
-      "index_multiple_current": -0.06,
+      "index_change_pct": -0.97,
+      "index_multiple_current": 0.48,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 30550,
         "high_date": "2026-05-27",
-        "high_pct": -44.35,
+        "high_pct": -44.65,
         "low": 6100,
         "low_date": "2026-03-04",
-        "low_pct": 178.69,
-        "current": 17000
+        "low_pct": 177.21,
+        "current": 16910
       },
       "daily_20": [
         {
@@ -3493,8 +3917,8 @@
           "date": "2026-09-16",
           "o": 17150,
           "h": 18860,
-          "l": 16960,
-          "c": 17000
+          "l": 16910,
+          "c": 16910
         }
       ],
       "intraday": {
@@ -3528,7 +3952,9 @@
           17060,
           17040,
           17070,
-          17040
+          17020,
+          16940,
+          16930
         ]
       },
       "togusa_verdict": "weak_bull",
@@ -3539,9 +3965,9 @@
       "code": "062970",
       "name": "한국첨단소재",
       "rank": 4,
-      "trade_amount": 88362000000,
-      "change_pct": 2.68,
-      "close_price": 3450,
+      "trade_amount": 89797000000,
+      "change_pct": 4.76,
+      "close_price": 3520,
       "open_price": 3570,
       "high_price": 3910,
       "low_price": 3345,
@@ -3648,17 +4074,17 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": -1.09,
-      "index_multiple_current": -2.46,
+      "index_change_pct": -0.97,
+      "index_multiple_current": -4.91,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 10105,
         "high_date": "2026-04-08",
-        "high_pct": -65.86,
+        "high_pct": -65.17,
         "low": 1815,
         "low_date": "2026-09-11",
-        "low_pct": 90.08,
-        "current": 3450
+        "low_pct": 93.94,
+        "current": 3520
       },
       "daily_20": [
         {
@@ -3799,7 +4225,7 @@
           "o": 3570,
           "h": 3910,
           "l": 3345,
-          "c": 3450
+          "c": 3520
         }
       ],
       "status_badges": [
@@ -3827,7 +4253,7 @@
               "desc": "최근 15일 최고가(2026-09-15)",
               "base_price": 3360,
               "threshold": 3360,
-              "current": 3450,
+              "current": 3520,
               "triggered": true
             }
           ],
@@ -3875,7 +4301,9 @@
           3485,
           3465,
           3450,
-          3440
+          3510,
+          3525,
+          3515
         ]
       },
       "credit_risk": true,
@@ -3888,9 +4316,9 @@
       "code": "411080",
       "name": "샌즈랩",
       "rank": 5,
-      "trade_amount": 69692000000,
-      "change_pct": 9.7,
-      "close_price": 7350,
+      "trade_amount": 70264000000,
+      "change_pct": 9.4,
+      "close_price": 7330,
       "open_price": 6770,
       "high_price": 8590,
       "low_price": 6660,
@@ -3922,17 +4350,17 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": -1.09,
-      "index_multiple_current": -8.9,
+      "index_change_pct": -0.97,
+      "index_multiple_current": -9.69,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 10290,
         "high_date": "2025-09-22",
-        "high_pct": -28.57,
+        "high_pct": -28.77,
         "low": 2965,
         "low_date": "2026-07-30",
-        "low_pct": 147.89,
-        "current": 7350
+        "low_pct": 147.22,
+        "current": 7330
       },
       "daily_20": [
         {
@@ -4073,7 +4501,7 @@
           "o": 6770,
           "h": 8590,
           "l": 6660,
-          "c": 7350
+          "c": 7330
         }
       ],
       "status_badges": [
@@ -4086,7 +4514,7 @@
               "desc": "5일 전(2026-09-09) 대비 +60%↑",
               "base_price": 4280,
               "threshold": 6848,
-              "current": 7350,
+              "current": 7330,
               "triggered": true
             }
           ],
@@ -4134,7 +4562,9 @@
           7340,
           7280,
           7320,
-          7360
+          7280,
+          7270,
+          7290
         ]
       },
       "credit_risk": true,
@@ -4149,9 +4579,9 @@
       "code": "115440",
       "name": "우리넷",
       "rank": 6,
-      "trade_amount": 57374000000,
-      "change_pct": 17.28,
-      "close_price": 10250,
+      "trade_amount": 61409000000,
+      "change_pct": 19.34,
+      "close_price": 10430,
       "open_price": 8760,
       "high_price": 10650,
       "low_price": 8760,
@@ -4178,17 +4608,17 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": -1.09,
-      "index_multiple_current": -15.85,
+      "index_change_pct": -0.97,
+      "index_multiple_current": -19.94,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 21350,
         "high_date": "2026-04-14",
-        "high_pct": -51.99,
+        "high_pct": -51.15,
         "low": 5290,
         "low_date": "2026-07-30",
-        "low_pct": 93.76,
-        "current": 10250
+        "low_pct": 97.16,
+        "current": 10430
       },
       "daily_20": [
         {
@@ -4329,7 +4759,7 @@
           "o": 8760,
           "h": 10650,
           "l": 8760,
-          "c": 10250
+          "c": 10430
         }
       ],
       "intraday": {
@@ -4363,20 +4793,24 @@
           10220,
           10350,
           10360,
+          10270,
+          10490,
           10460
         ]
       },
       "togusa_verdict": "neutral",
       "theme_leader": false,
-      "hugepark_grade": "관찰"
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "217590",
       "name": "티엠씨",
       "rank": 7,
-      "trade_amount": 54209000000,
-      "change_pct": -2.48,
-      "close_price": 12960,
+      "trade_amount": 54721000000,
+      "change_pct": -2.03,
+      "close_price": 13020,
       "open_price": 13500,
       "high_price": 14110,
       "low_price": 12820,
@@ -4477,17 +4911,17 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": 0.24,
-      "index_multiple_current": -10.33,
+      "index_change_pct": 0.17,
+      "index_multiple_current": -11.94,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 38700,
         "high_date": "2026-04-14",
-        "high_pct": -66.51,
+        "high_pct": -66.36,
         "low": 8820,
         "low_date": "2026-07-30",
-        "low_pct": 46.94,
-        "current": 12960
+        "low_pct": 47.62,
+        "current": 13020
       },
       "daily_20": [
         {
@@ -4628,7 +5062,7 @@
           "o": 13500,
           "h": 14110,
           "l": 12820,
-          "c": 12960
+          "c": 13020
         }
       ],
       "intraday": {
@@ -4662,7 +5096,9 @@
           12980,
           13000,
           12990,
-          12970
+          12930,
+          13000,
+          13010
         ]
       },
       "togusa_verdict": "neutral",
@@ -4673,9 +5109,9 @@
       "code": "054920",
       "name": "한컴위드",
       "rank": 8,
-      "trade_amount": 53400000000,
-      "change_pct": 1.34,
-      "close_price": 5300,
+      "trade_amount": 53765000000,
+      "change_pct": 0.38,
+      "close_price": 5250,
       "open_price": 5750,
       "high_price": 5880,
       "low_price": 5200,
@@ -4706,17 +5142,17 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": -1.09,
-      "index_multiple_current": -1.23,
+      "index_change_pct": -0.97,
+      "index_multiple_current": -0.39,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 8980,
         "high_date": "2026-05-07",
-        "high_pct": -40.98,
+        "high_pct": -41.54,
         "low": 2795,
         "low_date": "2026-07-21",
-        "low_pct": 89.62,
-        "current": 5300
+        "low_pct": 87.84,
+        "current": 5250
       },
       "daily_20": [
         {
@@ -4857,7 +5293,7 @@
           "o": 5750,
           "h": 5880,
           "l": 5200,
-          "c": 5300
+          "c": 5250
         }
       ],
       "intraday": {
@@ -4891,7 +5327,9 @@
           5340,
           5310,
           5300,
-          5300
+          5240,
+          5240,
+          5240
         ]
       },
       "togusa_verdict": "neutral",
@@ -4901,10 +5339,313 @@
       "parent_theme": ""
     },
     {
+      "code": "413630",
+      "name": "씨피시스템",
+      "rank": 9,
+      "trade_amount": 51730000000,
+      "change_pct": null,
+      "close_price": null,
+      "open_price": null,
+      "high_price": null,
+      "low_price": null,
+      "industry": "플라스틱제품 제조업",
+      "sector": "전기재료연결부품",
+      "themes": [
+        "MLCC",
+        "로봇",
+        "케이블",
+        "반도체"
+      ],
+      "theme_paths": [
+        {
+          "name": "MLCC",
+          "path": [
+            "MLCC"
+          ]
+        },
+        {
+          "name": "로봇",
+          "path": [
+            "로봇"
+          ]
+        },
+        {
+          "name": "케이블",
+          "path": [
+            "케이블"
+          ]
+        },
+        {
+          "name": "반도체",
+          "path": [
+            "반도체"
+          ]
+        }
+      ],
+      "pick_count": 1,
+      "prev_pick": {
+        "date": "2026-07-28",
+        "rank": 1,
+        "change_pct": 3.32,
+        "trade_amount": 257790000000
+      },
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [],
+      "news": [
+        {
+          "title": "씨피시스템, 이차전지 패키징 장비에 ‘G-클린체인’ 공급",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03230806645578808",
+          "source": "이데일리",
+          "published_at": "2026-09-10T01:48:24",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "씨피시스템, ‘IICIE 2026’ 참가…中 반도체 고객사 확대",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=02460006645577824",
+          "source": "이데일리",
+          "published_at": "2026-09-07T01:06:54",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "씨피시스템, 100억 원 규모 전환사채 발행",
+          "url": "https://www.mk.co.kr/news/stock/12137039",
+          "source": "매경",
+          "published_at": "2026-08-26T08:56:15",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "씨피시스템, 100억 규모 투자 유치…전액 제2공장 투입",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03778566645551256",
+          "source": "이데일리",
+          "published_at": "2026-08-26T04:53:06",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "씨피시스템, 반도체·로봇 수요 확대에 제2공장 구축…\"생산능력 3배 확대\"",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=02637126645550928",
+          "source": "이데일리",
+          "published_at": "2026-08-24T23:36:43",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        }
+      ],
+      "fallback": true,
+      "theme_crosscheck": {
+        "confirmed": [
+          "MLCC",
+          "로봇",
+          "반도체"
+        ],
+        "pm320_only": [
+          "케이블"
+        ],
+        "cafe_only": []
+      },
+      "index_change_pct": -0.97,
+      "range_240d": {
+        "high": 6190,
+        "high_date": "2026-01-21",
+        "high_pct": -36.75,
+        "low": 1467,
+        "low_date": "2025-08-20",
+        "low_pct": 166.87,
+        "current": 3915
+      },
+      "daily_20": [
+        {
+          "date": "2026-07-14",
+          "o": 2345,
+          "h": 2400,
+          "l": 2065,
+          "c": 2300
+        },
+        {
+          "date": "2026-07-15",
+          "o": 2335,
+          "h": 2990,
+          "l": 2280,
+          "c": 2990
+        },
+        {
+          "date": "2026-07-16",
+          "o": 3285,
+          "h": 3830,
+          "l": 2995,
+          "c": 3360
+        },
+        {
+          "date": "2026-07-20",
+          "o": 3300,
+          "h": 3915,
+          "l": 3070,
+          "c": 3345
+        },
+        {
+          "date": "2026-07-21",
+          "o": 3500,
+          "h": 3820,
+          "l": 3245,
+          "c": 3375
+        },
+        {
+          "date": "2026-07-22",
+          "o": 3445,
+          "h": 4095,
+          "l": 3395,
+          "c": 3570
+        },
+        {
+          "date": "2026-07-23",
+          "o": 3700,
+          "h": 3700,
+          "l": 3140,
+          "c": 3165
+        },
+        {
+          "date": "2026-07-24",
+          "o": 3170,
+          "h": 3645,
+          "l": 3035,
+          "c": 3130
+        },
+        {
+          "date": "2026-07-27",
+          "o": 3130,
+          "h": 4065,
+          "l": 3000,
+          "c": 4065
+        },
+        {
+          "date": "2026-07-28",
+          "o": 4160,
+          "h": 5100,
+          "l": 4030,
+          "c": 4200
+        },
+        {
+          "date": "2026-07-29",
+          "o": 4400,
+          "h": 4830,
+          "l": 3755,
+          "c": 3950
+        },
+        {
+          "date": "2026-07-30",
+          "o": 3880,
+          "h": 4200,
+          "l": 3500,
+          "c": 3550
+        },
+        {
+          "date": "2026-07-31",
+          "o": 3650,
+          "h": 4090,
+          "l": 3650,
+          "c": 3865
+        },
+        {
+          "date": "2026-08-03",
+          "o": 3985,
+          "h": 4170,
+          "l": 3690,
+          "c": 4070
+        },
+        {
+          "date": "2026-08-04",
+          "o": 4130,
+          "h": 4665,
+          "l": 3955,
+          "c": 4265
+        },
+        {
+          "date": "2026-08-05",
+          "o": 4295,
+          "h": 4490,
+          "l": 4195,
+          "c": 4335
+        },
+        {
+          "date": "2026-08-06",
+          "o": 4365,
+          "h": 4410,
+          "l": 4050,
+          "c": 4115
+        },
+        {
+          "date": "2026-08-07",
+          "o": 4105,
+          "h": 4200,
+          "l": 3795,
+          "c": 3830
+        },
+        {
+          "date": "2026-08-10",
+          "o": 3830,
+          "h": 3950,
+          "l": 3830,
+          "c": 3915
+        },
+        {
+          "date": "2026-09-16",
+          "o": 4480,
+          "h": 5030,
+          "l": 4290,
+          "c": 4965
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
       "code": "049080",
       "name": "기가레인",
-      "rank": 9,
-      "trade_amount": 28336000000,
+      "rank": 10,
+      "trade_amount": 28359000000,
       "change_pct": 28.69,
       "close_price": 10990,
       "open_price": 8630,
@@ -5022,8 +5763,8 @@
         ],
         "cafe_only": []
       },
-      "index_change_pct": -1.09,
-      "index_multiple_current": -26.32,
+      "index_change_pct": -0.97,
+      "index_multiple_current": -29.58,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 31250,
@@ -5207,6 +5948,8 @@
           10990,
           10990,
           10990,
+          10990,
+          10990,
           10990
         ]
       },
@@ -5219,8 +5962,8 @@
     {
       "code": "201490",
       "name": "미투온",
-      "rank": 10,
-      "trade_amount": 7128000000,
+      "rank": 11,
+      "trade_amount": 7143000000,
       "change_pct": -4.71,
       "close_price": 3840,
       "open_price": 3840,
@@ -5277,8 +6020,8 @@
         }
       ],
       "fallback": false,
-      "index_change_pct": -1.09,
-      "index_multiple_current": 4.32,
+      "index_change_pct": -0.97,
+      "index_multiple_current": 4.86,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 6480,
@@ -5462,6 +6205,8 @@
           3840,
           3840,
           3840,
+          3840,
+          3840,
           3840
         ]
       },
@@ -5472,8 +6217,8 @@
     {
       "code": "357580",
       "name": "아모센스",
-      "rank": 11,
-      "trade_amount": 2817000000,
+      "rank": 12,
+      "trade_amount": 2820000000,
       "change_pct": 28.93,
       "close_price": 6640,
       "open_price": 5550,
@@ -5492,8 +6237,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": -1.09,
-      "index_multiple_current": -26.54,
+      "index_change_pct": -0.97,
+      "index_multiple_current": -29.82,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 29900,
@@ -5676,6 +6421,8 @@
           6640,
           6640,
           6640,
+          6640,
+          6640,
           6640
         ]
       },
@@ -5688,8 +6435,8 @@
     {
       "code": "088800",
       "name": "에이스테크",
-      "rank": 12,
-      "trade_amount": 2426000000,
+      "rank": 13,
+      "trade_amount": 2428000000,
       "change_pct": 30.04,
       "close_price": 2450,
       "open_price": 2000,
@@ -5717,8 +6464,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": -1.09,
-      "index_multiple_current": -27.56,
+      "index_change_pct": -0.97,
+      "index_multiple_current": -30.97,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 7890,
@@ -5901,6 +6648,9 @@
           2450,
           2450,
           2450,
+          2450,
+          2450,
+          2450,
           2450
         ]
       },
@@ -5915,8 +6665,8 @@
     {
       "code": "232830",
       "name": "아이티센피엔에스",
-      "rank": 13,
-      "trade_amount": 1210000000,
+      "rank": 14,
+      "trade_amount": 1266000000,
       "change_pct": 29.85,
       "close_price": 3480,
       "open_price": 3480,
@@ -5949,8 +6699,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": -1.09,
-      "index_multiple_current": -27.39,
+      "index_change_pct": -0.97,
+      "index_multiple_current": -30.77,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 5590,
@@ -6160,6 +6910,8 @@
           3480,
           3480,
           3480,
+          3480,
+          3480,
           3480
         ]
       },
@@ -6174,8 +6926,8 @@
     {
       "code": "432980",
       "name": "엠에프씨",
-      "rank": 14,
-      "trade_amount": 330000000,
+      "rank": 15,
+      "trade_amount": 332000000,
       "change_pct": 28.63,
       "close_price": 3145,
       "open_price": 3145,
@@ -6201,8 +6953,8 @@
       "bullish_dates": [],
       "news": [],
       "fallback": true,
-      "index_change_pct": -1.09,
-      "index_multiple_current": -26.27,
+      "index_change_pct": -0.97,
+      "index_multiple_current": -29.52,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 4530,
