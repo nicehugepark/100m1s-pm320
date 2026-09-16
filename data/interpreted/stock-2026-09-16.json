@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "generated_at": "2026-09-16T09:25:15.903517",
+  "generated_at": "2026-09-16T09:26:16.019917",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -1014,7 +1014,8 @@
       "sector": "소셜 카지노 게임",
       "themes": [
         "게임",
-        "캐주얼 게임 확장"
+        "캐주얼 게임 확장",
+        "퍼블리싱 다각화"
       ],
       "theme_paths": [
         {
@@ -1022,6 +1023,13 @@
           "path": [
             "게임",
             "캐주얼 게임 확장"
+          ]
+        },
+        {
+          "name": "퍼블리싱 다각화",
+          "path": [
+            "게임",
+            "퍼블리싱 다각화"
           ]
         }
       ],
@@ -1039,15 +1047,15 @@
           "title": "카카오게임즈, 캐주얼 게임사 미투온 980억원에 인수[공시]",
           "url": "https://www.fnnews.com/news/202609151656375504",
           "source": "파이낸셜뉴스",
-          "published_at": "2026-09-16T09:10:07.598058",
-          "causal_chain": "카카오게임즈가 미투온 주식 1682만8508주(지분 39.56%)를 약 980억원에 취득해 최대주주로 올라서는 인수 공시 → 소셜카지노·캐주얼 게임을 핵심으로 하는 미투온에 대형 게임사의 전략적 자본·퍼블리싱 역량이 유입 → 게임 도메인 직접 수혜 모멘텀. 다만 인수 예정일(11월 16일)이 남은 이벤트로, 당일 종가는 3,840원(전일比 -4.71%)에 그치고 거래대금 65억원으로 재료 소화가 제한적.",
-          "macro_event": "카카오게임즈, 미투온 지분 39.56%·980억원 인수 → 최대주주 변경(전략적 투자자 유입)",
+          "published_at": "2026-09-16T09:20:03.955039",
+          "causal_chain": "대형 게임사 카카오게임즈가 미투온을 980억원에 인수해 최대주주(지분 39.56%)로 올라서며 소셜카지노·캐주얼 게임이라는 종목 핵심 도메인에 전략적 자본·퍼블리싱 역량이 유입 → 게임 도메인 직접 수혜 모멘텀. 다만 취득 예정일이 2026-11-16으로 약 2개월 뒤이고 거래 완료 전 불확실성이 남아 재료 소멸·차익 매물이 우세하며 당일 종가 3,840원(-4.71%)·거래대금 67억원으로 오히려 하락 마감.",
+          "macro_event": "카카오게임즈, 미투온 지분 39.56%(1682만8508주) 약 980억원 취득 → 최대주주 등극 (취득 예정일 2026-11-16)",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": 0.85,
-          "newzy_virality": 0.6,
+          "newzy_magnitude": 0.8,
+          "newzy_virality": 0.55,
           "newzy_tradability": null,
-          "newzy_score": 0.75,
+          "newzy_score": 0.7,
           "newzy_verdict": null,
           "article_type": "공시"
         }
@@ -1219,9 +1227,9 @@
           3840
         ]
       },
-      "togusa_verdict": "neutral",
+      "togusa_verdict": "weak_bear",
       "theme_leader": true,
-      "hugepark_grade": "관찰"
+      "hugepark_grade": "주의"
     },
     {
       "code": "357580",
@@ -1593,7 +1601,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "232830",
@@ -1845,8 +1856,17 @@
       "low_price": 2845,
       "industry": "기초 의약물질 제조업",
       "sector": "원료의약품(API) 및 핵심소재",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "바이오"
+      ],
+      "theme_paths": [
+        {
+          "name": "바이오",
+          "path": [
+            "바이오"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": null,
       "bullish_today": false,
@@ -2022,9 +2042,9 @@
       },
       "credit_risk": true,
       "credit_reason": "회사한도초과",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     }
   ]
 }
