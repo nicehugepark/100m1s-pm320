@@ -1,12 +1,8 @@
 {
   "date": "2026-09-16",
-  "generated_at": "2026-09-16T09:16:28.576624",
+  "generated_at": "2026-09-16T09:25:15.903517",
   "data_source": "kiwoom",
   "macro_events": [
-    {
-      "title": "메모리공급",
-      "summary": "메모리 반도체 수요 폭발에 삼성·TSMC 공급 공백 → 대체 공급처 DB하이텍으로 수주 집중 → 반도체 기업군 재편"
-    },
     {
       "title": "원가상승",
       "summary": "메모리 반도체 원가 상승(비용 한계 도달) → 삼성·SK하이닉스 수익성 악화 진단 → 메모리 반도체 섹터 약세"
@@ -14,6 +10,14 @@
     {
       "title": "메모리공급부족",
       "summary": "삼성·TSMC 생산 공백 속 AI칩 수요 폭발 → HBM 공급 부족 심화 → 메모리반도체 가격 상승 및 DB하이텍 등 대체 공급사 호황"
+    },
+    {
+      "title": "메모리공급",
+      "summary": "메모리 반도체 수요 폭발에 삼성·TSMC 공급 공백 → 대체 공급처 DB하이텍으로 수주 집중 → 반도체 기업군 재편"
+    },
+    {
+      "title": "규제완화",
+      "summary": "감사원 '정부 부당개입' 인정 → 미디어 규제 리스크 완화 → YTN 등 방송사 상한가"
     }
   ],
   "narratives": [],
@@ -27,6 +31,12 @@
     {
       "keyword": "원가상승",
       "summary": "메모리 반도체 원가 상승(비용 한계 도달) → 삼성·SK하이닉스 수익성 악화 진단 → 메모리 반도체 섹터 약세",
+      "source_count": 1,
+      "verified": false
+    },
+    {
+      "keyword": "메모리공급부족",
+      "summary": "삼성·TSMC 생산 공백 속 AI칩 수요 폭발 → HBM 공급 부족 심화 → 메모리반도체 가격 상승 및 DB하이텍 등 대체 공급사 호황",
       "source_count": 1,
       "verified": false
     }
@@ -44,10 +54,34 @@
             "verdict": "pass"
           },
           {
+            "name": "메모리 반도체 슈퍼사이클",
+            "summary": "메모리 가격·비용 한계 도달 진단과 목표가 상향(삼성전자 27만원·SK하이닉스 148만원)으로 메모리 업황 개선 기대가 반도체 대형주로 자금 유입.",
+            "source_count": 1,
+            "verdict": "pass"
+          },
+          {
             "name": "파운드리·아날로그 반도체",
             "summary": "수요 폭발과 삼성·TSMC의 캐파 공백으로 반사수혜가 부각되며 국내 아날로그·파운드리 업체(DB하이텍)로 수급 집중.",
             "source_count": 1,
             "verdict": "pass"
+          },
+          {
+            "name": "파운드리·아날로그 반도체",
+            "summary": "수요 폭발과 삼성·TSMC의 캐파 공백으로 반사수혜가 부각되며 국내 아날로그·파운드리 업체(DB하이텍)로 수급 집중.",
+            "source_count": 1,
+            "verdict": "pass"
+          },
+          {
+            "name": "메모리 반도체",
+            "summary": "메모리 업황 호조로 삼성전자·SK하이닉스 목표가가 각각 27만원·148만원으로 상향되며 대형 반도체주로 수급 집중.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "파운드리",
+            "summary": "수요 급증에 삼성·TSMC 공급 공백까지 겹치며 반사 수혜로 DB하이텍이 이달 23% 급등, 중소형 파운드리로 온기 확산.",
+            "source_count": 1,
+            "verdict": "weak"
           }
         ]
       },
@@ -57,6 +91,23 @@
           {
             "name": "비만 치료제",
             "summary": "비만 신약 가치 1조원 평가와 목표가 상향으로 비만 파이프라인 보유 제약사(한미약품)에 매수세 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          },
+          {
+            "name": "비만 치료제",
+            "summary": "비만 신약 가치 1조원 평가와 목표가 상향으로 비만 파이프라인 보유 제약사(한미약품)에 매수세 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          }
+        ]
+      },
+      {
+        "name": "제약바이오",
+        "children": [
+          {
+            "name": "비만치료제",
+            "summary": "한미약품 비만신약 가치가 1조원으로 평가되고 목표가가 상향되며 비만 파이프라인 보유 제약주로 매수세 유입.",
             "source_count": 1,
             "verdict": "weak"
           }
@@ -69,11 +120,11 @@
       "code": "069540",
       "name": "빛과전자",
       "rank": 1,
-      "trade_amount": 76925000000,
-      "change_pct": 11.85,
-      "close_price": 4625,
+      "trade_amount": 120446000000,
+      "change_pct": 12.58,
+      "close_price": 4655,
       "open_price": 4120,
-      "high_price": 4690,
+      "high_price": 4800,
       "low_price": 4100,
       "industry": "통신 및 방송 장비 제조업",
       "sector": "기타무선통신장비제조업",
@@ -104,11 +155,12 @@
         "change_pct": 11.76,
         "trade_amount": 314047000000
       },
-      "bullish_today": false,
-      "bullish_streak": 0,
+      "bullish_today": true,
+      "bullish_streak": 1,
       "bullish_dates": [
         "2026-09-08",
-        "2026-09-14"
+        "2026-09-14",
+        "2026-09-16"
       ],
       "news": [
         {
@@ -155,17 +207,17 @@
         ],
         "cafe_only": []
       },
-      "index_change_pct": -1.27,
-      "index_multiple_current": -9.33,
+      "index_change_pct": -0.7,
+      "index_multiple_current": -17.97,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 8100,
         "high_date": "2026-04-16",
-        "high_pct": -42.9,
+        "high_pct": -42.53,
         "low": 592,
         "low_date": "2026-01-02",
-        "low_pct": 681.25,
-        "current": 4625
+        "low_pct": 686.32,
+        "current": 4655
       },
       "daily_20": [
         {
@@ -304,13 +356,25 @@
         {
           "date": "2026-09-16",
           "o": 4120,
-          "h": 4690,
+          "h": 4800,
           "l": 4100,
-          "c": 4625
+          "c": 4655
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 4120,
+        "base": 4120,
+        "prices": [
+          4120,
+          4640,
+          4685,
+          4675,
+          4655
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "투자경고",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰"
@@ -319,9 +383,9 @@
       "code": "062970",
       "name": "한국첨단소재",
       "rank": 2,
-      "trade_amount": 52269000000,
-      "change_pct": 11.16,
-      "close_price": 3735,
+      "trade_amount": 59961000000,
+      "change_pct": 6.4,
+      "close_price": 3575,
       "open_price": 3570,
       "high_price": 3910,
       "low_price": 3460,
@@ -428,17 +492,17 @@
         }
       ],
       "fallback": true,
-      "index_change_pct": -1.27,
-      "index_multiple_current": -8.79,
+      "index_change_pct": -0.7,
+      "index_multiple_current": -9.14,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 10105,
         "high_date": "2026-04-08",
-        "high_pct": -63.04,
+        "high_pct": -64.62,
         "low": 1815,
         "low_date": "2026-09-11",
-        "low_pct": 105.79,
-        "current": 3735
+        "low_pct": 96.97,
+        "current": 3575
       },
       "daily_20": [
         {
@@ -579,7 +643,7 @@
           "o": 3570,
           "h": 3910,
           "l": 3460,
-          "c": 3735
+          "c": 3575
         }
       ],
       "status_badges": [
@@ -607,7 +671,7 @@
               "desc": "최근 15일 최고가(2026-09-15)",
               "base_price": 3360,
               "threshold": 3360,
-              "current": 3735,
+              "current": 3575,
               "triggered": true
             }
           ],
@@ -624,8 +688,20 @@
           ]
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 3570,
+        "base": 3570,
+        "prices": [
+          3570,
+          3740,
+          3560,
+          3610,
+          3600
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "투자경고",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bull",
       "theme_leader": true,
       "hugepark_grade": "관찰"
@@ -634,12 +710,12 @@
       "code": "049080",
       "name": "기가레인",
       "rank": 3,
-      "trade_amount": 13065000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
+      "trade_amount": 26977000000,
+      "change_pct": 28.69,
+      "close_price": 10990,
+      "open_price": 8630,
+      "high_price": 10990,
+      "low_price": 8560,
       "industry": "전자부품 제조업",
       "sector": "RF통신부품 및 반도체 장비",
       "themes": [
@@ -669,9 +745,12 @@
         "change_pct": 21.89,
         "trade_amount": 29072000000
       },
-      "bullish_today": false,
-      "bullish_streak": 0,
-      "bullish_dates": [],
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-08-27",
+        "2026-09-16"
+      ],
       "news": [
         {
           "title": "기가레인, 글로벌 전자기업에 23억원 규모 자동차 전장용 NIL 장비 공급",
@@ -739,163 +818,161 @@
         }
       ],
       "fallback": true,
-      "cafe_themes": [
-        "통신장비"
-      ],
       "theme_crosscheck": {
         "confirmed": [
-          "반도체"
+          "반도체",
+          "통신장비"
         ],
         "pm320_only": [
           "반도체소부장"
         ],
-        "cafe_only": [
-          "통신장비"
-        ]
+        "cafe_only": []
       },
-      "index_change_pct": -1.27,
+      "index_change_pct": -0.7,
+      "index_multiple_current": -40.99,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 31250,
         "high_date": "2026-04-15",
-        "high_pct": -72.22,
+        "high_pct": -64.83,
         "low": 3580,
         "low_date": "2026-02-23",
-        "low_pct": 142.46,
-        "current": 8680
+        "low_pct": 206.98,
+        "current": 10990
       },
       "daily_20": [
         {
-          "date": "2026-07-22",
-          "o": 9870,
-          "h": 10830,
-          "l": 8730,
-          "c": 9300
+          "date": "2026-08-20",
+          "o": 8400,
+          "h": 8400,
+          "l": 7820,
+          "c": 8200
         },
         {
-          "date": "2026-07-23",
-          "o": 9350,
-          "h": 9560,
-          "l": 8400,
-          "c": 8650
+          "date": "2026-08-21",
+          "o": 8190,
+          "h": 8190,
+          "l": 7110,
+          "c": 7800
         },
         {
-          "date": "2026-07-24",
-          "o": 8630,
-          "h": 8630,
-          "l": 7580,
-          "c": 7810
+          "date": "2026-08-24",
+          "o": 7800,
+          "h": 7820,
+          "l": 7420,
+          "c": 7500
         },
         {
-          "date": "2026-07-27",
-          "o": 8100,
-          "h": 8790,
-          "l": 7340,
-          "c": 7470
+          "date": "2026-08-25",
+          "o": 7560,
+          "h": 7700,
+          "l": 7100,
+          "c": 7680
         },
         {
-          "date": "2026-07-28",
-          "o": 7360,
-          "h": 7360,
-          "l": 6540,
-          "c": 6680
-        },
-        {
-          "date": "2026-07-29",
-          "o": 6710,
-          "h": 7200,
-          "l": 5590,
-          "c": 6290
-        },
-        {
-          "date": "2026-07-30",
-          "o": 6000,
-          "h": 7840,
-          "l": 5990,
-          "c": 7150
-        },
-        {
-          "date": "2026-07-31",
-          "o": 7430,
-          "h": 8070,
+          "date": "2026-08-26",
+          "o": 7700,
+          "h": 7860,
           "l": 7330,
-          "c": 7340
-        },
-        {
-          "date": "2026-08-03",
-          "o": 7430,
-          "h": 8170,
-          "l": 6960,
           "c": 7400
         },
         {
-          "date": "2026-08-04",
-          "o": 7780,
+          "date": "2026-08-27",
+          "o": 7500,
           "h": 9620,
-          "l": 7540,
-          "c": 9020
+          "l": 7430,
+          "c": 8800
         },
         {
-          "date": "2026-08-05",
-          "o": 9790,
-          "h": 11630,
-          "l": 9450,
-          "c": 10990
+          "date": "2026-08-28",
+          "o": 8600,
+          "h": 8760,
+          "l": 8090,
+          "c": 8210
         },
         {
-          "date": "2026-08-06",
-          "o": 10990,
-          "h": 10990,
-          "l": 9210,
-          "c": 9210
+          "date": "2026-08-31",
+          "o": 8110,
+          "h": 8130,
+          "l": 7650,
+          "c": 8100
         },
         {
-          "date": "2026-08-07",
-          "o": 9530,
-          "h": 10480,
-          "l": 9120,
-          "c": 9150
+          "date": "2026-09-01",
+          "o": 7960,
+          "h": 7970,
+          "l": 7740,
+          "c": 7830
         },
         {
-          "date": "2026-08-10",
-          "o": 9500,
-          "h": 9770,
-          "l": 9210,
-          "c": 9300
+          "date": "2026-09-02",
+          "o": 7700,
+          "h": 8080,
+          "l": 7520,
+          "c": 7830
         },
         {
-          "date": "2026-08-11",
-          "o": 9010,
-          "h": 9380,
-          "l": 8560,
-          "c": 9030
+          "date": "2026-09-03",
+          "o": 7740,
+          "h": 8110,
+          "l": 7590,
+          "c": 7670
         },
         {
-          "date": "2026-08-12",
-          "o": 9110,
-          "h": 9500,
-          "l": 8640,
-          "c": 9130
+          "date": "2026-09-04",
+          "o": 7660,
+          "h": 7940,
+          "l": 7630,
+          "c": 7740
         },
         {
-          "date": "2026-08-13",
-          "o": 9300,
-          "h": 9530,
-          "l": 8910,
-          "c": 9020
+          "date": "2026-09-07",
+          "o": 7970,
+          "h": 8250,
+          "l": 7730,
+          "c": 7790
         },
         {
-          "date": "2026-08-14",
-          "o": 9040,
-          "h": 9190,
-          "l": 8630,
-          "c": 8660
+          "date": "2026-09-08",
+          "o": 7810,
+          "h": 9560,
+          "l": 7810,
+          "c": 8330
         },
         {
-          "date": "2026-08-18",
-          "o": 8660,
-          "h": 8680,
-          "l": 8520,
+          "date": "2026-09-09",
+          "o": 8370,
+          "h": 9480,
+          "l": 8370,
           "c": 8680
+        },
+        {
+          "date": "2026-09-10",
+          "o": 8670,
+          "h": 8670,
+          "l": 8190,
+          "c": 8420
+        },
+        {
+          "date": "2026-09-11",
+          "o": 8200,
+          "h": 8840,
+          "l": 8080,
+          "c": 8220
+        },
+        {
+          "date": "2026-09-14",
+          "o": 8220,
+          "h": 9650,
+          "l": 8000,
+          "c": 8810
+        },
+        {
+          "date": "2026-09-15",
+          "o": 8830,
+          "h": 8840,
+          "l": 8400,
+          "c": 8540
         },
         {
           "date": "2026-09-16",
@@ -905,8 +982,20 @@
           "c": 10990
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 8630,
+        "base": 8630,
+        "prices": [
+          8630,
+          10430,
+          10830,
+          10730,
+          10990
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰"
@@ -915,7 +1004,7 @@
       "code": "201490",
       "name": "미투온",
       "rank": 4,
-      "trade_amount": 6611000000,
+      "trade_amount": 6764000000,
       "change_pct": -4.71,
       "close_price": 3840,
       "open_price": 3840,
@@ -964,8 +1053,8 @@
         }
       ],
       "fallback": false,
-      "index_change_pct": -1.27,
-      "index_multiple_current": 3.71,
+      "index_change_pct": -0.7,
+      "index_multiple_current": 6.73,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 6480,
@@ -1125,6 +1214,8 @@
         "prices": [
           3840,
           3840,
+          3840,
+          3840,
           3840
         ]
       },
@@ -1136,34 +1227,379 @@
       "code": "357580",
       "name": "아모센스",
       "rank": 5,
-      "trade_amount": 2537000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
+      "trade_amount": 2667000000,
+      "change_pct": 28.93,
+      "close_price": 6640,
+      "open_price": 5550,
+      "high_price": 6640,
+      "low_price": 5370,
+      "industry": "전자부품 제조업",
+      "sector": "무선충전 차폐시트",
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-09-16"
+      ],
+      "news": [],
+      "fallback": true,
+      "index_change_pct": -0.7,
+      "index_multiple_current": -41.33,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 29900,
+        "high_date": "2026-03-16",
+        "high_pct": -77.79,
+        "low": 4090,
+        "low_date": "2026-07-29",
+        "low_pct": 62.35,
+        "current": 6640
+      },
+      "daily_20": [
+        {
+          "date": "2026-08-20",
+          "o": 5670,
+          "h": 5790,
+          "l": 5580,
+          "c": 5640
+        },
+        {
+          "date": "2026-08-21",
+          "o": 5610,
+          "h": 5700,
+          "l": 5170,
+          "c": 5200
+        },
+        {
+          "date": "2026-08-24",
+          "o": 5200,
+          "h": 5310,
+          "l": 5130,
+          "c": 5200
+        },
+        {
+          "date": "2026-08-25",
+          "o": 5200,
+          "h": 5380,
+          "l": 4965,
+          "c": 5320
+        },
+        {
+          "date": "2026-08-26",
+          "o": 5430,
+          "h": 5440,
+          "l": 5170,
+          "c": 5300
+        },
+        {
+          "date": "2026-08-27",
+          "o": 5260,
+          "h": 5440,
+          "l": 5260,
+          "c": 5270
+        },
+        {
+          "date": "2026-08-28",
+          "o": 5280,
+          "h": 5370,
+          "l": 5120,
+          "c": 5170
+        },
+        {
+          "date": "2026-08-31",
+          "o": 5170,
+          "h": 5170,
+          "l": 4940,
+          "c": 5070
+        },
+        {
+          "date": "2026-09-01",
+          "o": 5070,
+          "h": 5170,
+          "l": 5000,
+          "c": 5110
+        },
+        {
+          "date": "2026-09-02",
+          "o": 5100,
+          "h": 5100,
+          "l": 4860,
+          "c": 4860
+        },
+        {
+          "date": "2026-09-03",
+          "o": 4860,
+          "h": 4940,
+          "l": 4700,
+          "c": 4700
+        },
+        {
+          "date": "2026-09-04",
+          "o": 4745,
+          "h": 4955,
+          "l": 4640,
+          "c": 4955
+        },
+        {
+          "date": "2026-09-07",
+          "o": 4960,
+          "h": 5200,
+          "l": 4960,
+          "c": 5150
+        },
+        {
+          "date": "2026-09-08",
+          "o": 5160,
+          "h": 5260,
+          "l": 4980,
+          "c": 5030
+        },
+        {
+          "date": "2026-09-09",
+          "o": 5140,
+          "h": 5630,
+          "l": 5110,
+          "c": 5370
+        },
+        {
+          "date": "2026-09-10",
+          "o": 5320,
+          "h": 5450,
+          "l": 5070,
+          "c": 5230
+        },
+        {
+          "date": "2026-09-11",
+          "o": 5150,
+          "h": 5370,
+          "l": 5080,
+          "c": 5250
+        },
+        {
+          "date": "2026-09-14",
+          "o": 5300,
+          "h": 5320,
+          "l": 4950,
+          "c": 5090
+        },
+        {
+          "date": "2026-09-15",
+          "o": 5110,
+          "h": 5370,
+          "l": 4920,
+          "c": 5150
+        },
+        {
+          "date": "2026-09-16",
+          "o": 5550,
+          "h": 6640,
+          "l": 5370,
+          "c": 6640
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 5550,
+        "base": 5550,
+        "prices": [
+          5550,
+          6590,
+          6640,
+          6640,
+          6640
+        ]
+      },
+      "credit_risk": true,
+      "credit_reason": "회사한도초과",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
+    },
+    {
+      "code": "088800",
+      "name": "에이스테크",
+      "rank": 6,
+      "trade_amount": 1719000000,
+      "change_pct": 30.04,
+      "close_price": 2450,
+      "open_price": 2000,
+      "high_price": 2450,
+      "low_price": 1943,
       "industry": null,
       "sector": null,
       "themes": [],
       "theme_paths": [],
       "pick_count": 1,
       "prev_pick": null,
-      "bullish_today": false,
-      "bullish_streak": 0,
-      "bullish_dates": [],
+      "bullish_today": true,
+      "bullish_streak": 1,
+      "bullish_dates": [
+        "2026-09-16"
+      ],
       "news": [],
       "fallback": true,
+      "range_240d": {
+        "high": 7890,
+        "high_date": "2026-04-14",
+        "high_pct": -68.95,
+        "low": 1330,
+        "low_date": "2026-07-29",
+        "low_pct": 84.21,
+        "current": 2450
+      },
+      "daily_20": [
+        {
+          "date": "2026-08-20",
+          "o": 1959,
+          "h": 1994,
+          "l": 1899,
+          "c": 1920
+        },
+        {
+          "date": "2026-08-21",
+          "o": 1925,
+          "h": 1939,
+          "l": 1787,
+          "c": 1793
+        },
+        {
+          "date": "2026-08-24",
+          "o": 1920,
+          "h": 1920,
+          "l": 1745,
+          "c": 1747
+        },
+        {
+          "date": "2026-08-25",
+          "o": 1820,
+          "h": 1842,
+          "l": 1677,
+          "c": 1819
+        },
+        {
+          "date": "2026-08-26",
+          "o": 1819,
+          "h": 1887,
+          "l": 1807,
+          "c": 1843
+        },
+        {
+          "date": "2026-08-27",
+          "o": 1843,
+          "h": 2015,
+          "l": 1839,
+          "c": 1936
+        },
+        {
+          "date": "2026-08-28",
+          "o": 1980,
+          "h": 1980,
+          "l": 1855,
+          "c": 1872
+        },
+        {
+          "date": "2026-08-31",
+          "o": 1872,
+          "h": 1873,
+          "l": 1791,
+          "c": 1848
+        },
+        {
+          "date": "2026-09-01",
+          "o": 1800,
+          "h": 1888,
+          "l": 1791,
+          "c": 1827
+        },
+        {
+          "date": "2026-09-02",
+          "o": 1879,
+          "h": 1879,
+          "l": 1756,
+          "c": 1776
+        },
+        {
+          "date": "2026-09-03",
+          "o": 1776,
+          "h": 1900,
+          "l": 1725,
+          "c": 1727
+        },
+        {
+          "date": "2026-09-04",
+          "o": 1727,
+          "h": 1785,
+          "l": 1723,
+          "c": 1774
+        },
+        {
+          "date": "2026-09-07",
+          "o": 1810,
+          "h": 1843,
+          "l": 1750,
+          "c": 1771
+        },
+        {
+          "date": "2026-09-08",
+          "o": 1805,
+          "h": 1848,
+          "l": 1765,
+          "c": 1769
+        },
+        {
+          "date": "2026-09-09",
+          "o": 1765,
+          "h": 1922,
+          "l": 1750,
+          "c": 1821
+        },
+        {
+          "date": "2026-09-10",
+          "o": 1821,
+          "h": 1989,
+          "l": 1755,
+          "c": 1989
+        },
+        {
+          "date": "2026-09-11",
+          "o": 1974,
+          "h": 1989,
+          "l": 1890,
+          "c": 1928
+        },
+        {
+          "date": "2026-09-14",
+          "o": 1928,
+          "h": 1989,
+          "l": 1856,
+          "c": 1892
+        },
+        {
+          "date": "2026-09-15",
+          "o": 1935,
+          "h": 1935,
+          "l": 1870,
+          "c": 1884
+        },
+        {
+          "date": "2026-09-16",
+          "o": 2000,
+          "h": 2450,
+          "l": 1943,
+          "c": 2450
+        }
+      ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "credit_reason": "신용거래 제한 종목"
     },
     {
       "code": "232830",
       "name": "아이티센피엔에스",
-      "rank": 6,
-      "trade_amount": 475000000,
+      "rank": 7,
+      "trade_amount": 500000000,
       "change_pct": 29.85,
       "close_price": 3480,
       "open_price": 3480,
@@ -1196,8 +1632,8 @@
       ],
       "news": [],
       "fallback": true,
-      "index_change_pct": -1.27,
-      "index_multiple_current": -23.5,
+      "index_change_pct": -0.7,
+      "index_multiple_current": -42.64,
       "index_multiple_eligible": false,
       "range_240d": {
         "high": 5590,
@@ -1384,6 +1820,8 @@
         "prices": [
           3480,
           3480,
+          3480,
+          3480,
           3480
         ]
       },
@@ -1396,218 +1834,17 @@
       "parent_theme": ""
     },
     {
-      "code": "365590",
-      "name": "하이딥",
-      "rank": 7,
-      "trade_amount": 410000000,
-      "change_pct": 29.95,
-      "close_price": 2035,
-      "open_price": 1874,
-      "high_price": 2035,
-      "low_price": 1765,
-      "industry": "반도체 제조업",
-      "sector": "UIUX Solution",
-      "themes": [
-        "반도체"
-      ],
-      "theme_paths": [
-        {
-          "name": "반도체",
-          "path": [
-            "반도체"
-          ]
-        }
-      ],
-      "pick_count": 1,
-      "prev_pick": {
-        "date": "2026-07-29",
-        "rank": 3,
-        "change_pct": 13.66,
-        "trade_amount": 5487000000
-      },
-      "bullish_today": false,
-      "bullish_streak": 0,
-      "bullish_dates": [
-        "2026-07-15",
-        "2026-07-29",
-        "2026-08-12"
-      ],
-      "news": [],
-      "fallback": true,
-      "index_change_pct": -1.27,
-      "index_multiple_current": -23.58,
-      "index_multiple_eligible": false,
-      "range_240d": {
-        "high": 8400,
-        "high_date": "2026-01-16",
-        "high_pct": -75.77,
-        "low": 1566,
-        "low_date": "2026-08-19",
-        "low_pct": 29.95,
-        "current": 2035
-      },
-      "daily_20": [
-        {
-          "date": "2026-07-23",
-          "o": 1886,
-          "h": 1960,
-          "l": 1856,
-          "c": 1900
-        },
-        {
-          "date": "2026-07-24",
-          "o": 1900,
-          "h": 1940,
-          "l": 1760,
-          "c": 1846
-        },
-        {
-          "date": "2026-07-27",
-          "o": 1906,
-          "h": 1938,
-          "l": 1786,
-          "c": 1804
-        },
-        {
-          "date": "2026-07-28",
-          "o": 1844,
-          "h": 2344,
-          "l": 1640,
-          "c": 1640
-        },
-        {
-          "date": "2026-07-29",
-          "o": 1644,
-          "h": 2132,
-          "l": 1644,
-          "c": 1840
-        },
-        {
-          "date": "2026-07-30",
-          "o": 1842,
-          "h": 1960,
-          "l": 1640,
-          "c": 1660
-        },
-        {
-          "date": "2026-07-31",
-          "o": 1660,
-          "h": 1974,
-          "l": 1660,
-          "c": 1752
-        },
-        {
-          "date": "2026-08-03",
-          "o": 1766,
-          "h": 1850,
-          "l": 1724,
-          "c": 1740
-        },
-        {
-          "date": "2026-08-04",
-          "o": 1754,
-          "h": 1818,
-          "l": 1754,
-          "c": 1794
-        },
-        {
-          "date": "2026-08-05",
-          "o": 1804,
-          "h": 1892,
-          "l": 1804,
-          "c": 1836
-        },
-        {
-          "date": "2026-08-06",
-          "o": 1994,
-          "h": 1994,
-          "l": 1824,
-          "c": 1848
-        },
-        {
-          "date": "2026-08-07",
-          "o": 1832,
-          "h": 1980,
-          "l": 1764,
-          "c": 1844
-        },
-        {
-          "date": "2026-08-10",
-          "o": 1844,
-          "h": 1896,
-          "l": 1786,
-          "c": 1852
-        },
-        {
-          "date": "2026-08-11",
-          "o": 1900,
-          "h": 1984,
-          "l": 1842,
-          "c": 1946
-        },
-        {
-          "date": "2026-08-12",
-          "o": 1952,
-          "h": 2528,
-          "l": 1952,
-          "c": 2174
-        },
-        {
-          "date": "2026-08-13",
-          "o": 2116,
-          "h": 2164,
-          "l": 1942,
-          "c": 2034
-        },
-        {
-          "date": "2026-08-14",
-          "o": 2042,
-          "h": 2044,
-          "l": 1938,
-          "c": 1956
-        },
-        {
-          "date": "2026-08-18",
-          "o": 1940,
-          "h": 1954,
-          "l": 1764,
-          "c": 1834
-        },
-        {
-          "date": "2026-08-19",
-          "o": 1844,
-          "h": 1844,
-          "l": 1566,
-          "c": 1566
-        },
-        {
-          "date": "2026-09-16",
-          "o": 1874,
-          "h": 2035,
-          "l": 1765,
-          "c": 2035
-        }
-      ],
-      "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
-      "togusa_verdict": "neutral",
-      "theme_leader": false,
-      "hugepark_grade": "관찰",
-      "causal_chain": "",
-      "parent_theme": ""
-    },
-    {
       "code": "432980",
       "name": "엠에프씨",
       "rank": 8,
-      "trade_amount": 257000000,
+      "trade_amount": 280000000,
       "change_pct": 28.63,
       "close_price": 3145,
       "open_price": 3145,
       "high_price": 3145,
       "low_price": 2845,
-      "industry": null,
-      "sector": null,
+      "industry": "기초 의약물질 제조업",
+      "sector": "원료의약품(API) 및 핵심소재",
       "themes": [],
       "theme_paths": [],
       "pick_count": 1,
@@ -1617,6 +1854,9 @@
       "bullish_dates": [],
       "news": [],
       "fallback": true,
+      "index_change_pct": -0.7,
+      "index_multiple_current": -40.9,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 4530,
         "high_date": "2026-02-11",
@@ -1768,8 +2008,20 @@
           "c": 3145
         }
       ],
+      "intraday": {
+        "step_min": 5,
+        "open": 3145,
+        "base": 3145,
+        "prices": [
+          3145,
+          3145,
+          3145,
+          3145,
+          3145
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "weak_bear",
       "theme_leader": false,
       "hugepark_grade": "주의"
