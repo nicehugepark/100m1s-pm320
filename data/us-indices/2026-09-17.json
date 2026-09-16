@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26188.98,
-      "change_pct": 0.8,
+      "point": 26181.74,
+      "change_pct": 0.77,
       "candle": {
         "o": 26115.8,
         "h": 26217.6,
         "l": 26077.24,
-        "c": 26188.98
+        "c": 26181.74
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,7 +2033,7 @@
           "o": 26115.8,
           "h": 26217.6,
           "l": 26077.24,
-          "c": 26188.98
+          "c": 26181.74
         }
       ],
       "spark": [
@@ -2062,7 +2062,9 @@
         26199.17,
         26196.42,
         26187.53,
-        26188.98
+        26174.61,
+        26180.71,
+        26181.74
       ],
       "news": {
         "summary": "기술주 금리 민감성 고조 중. AWS 중동 데이터센터 피해로 클라우드 사업 리스크 부각, AI 멸망론 논쟁 재점화. 반면 우주·핵융합 같은 첨단 기술 벤처 자금은 지속 유입. 5% 금리 환경에서 고성장주 밸류에이션 압박 가시화.",
@@ -2086,13 +2088,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7614.79,
-      "change_pct": 0.38,
+      "point": 7615.24,
+      "change_pct": 0.39,
       "candle": {
         "o": 7601.25,
         "h": 7620.9,
         "l": 7597.61,
-        "c": 7614.79
+        "c": 7615.24
       },
       "range_240d": {
         "low": 6343.72,
@@ -4116,7 +4118,7 @@
           "o": 7601.25,
           "h": 7620.9,
           "l": 7597.61,
-          "c": 7614.79
+          "c": 7615.24
         }
       ],
       "spark": [
@@ -4144,8 +4146,10 @@
         7618.61,
         7617.14,
         7616.53,
-        7614.9,
-        7614.79
+        7615.04,
+        7612.89,
+        7615.11,
+        7615.24
       ],
       "news": {
         "summary": "금리 고공 행진 심화. 10년물 국채 금리 5% 돌파, Fed 이사 Warsh 취임 후 추가 인상 가능성 90% 이상 평가. 인플레이션 임금 상승률 초과로 실질 구매력 약화, 소비자심리 플런지. 중동 에너지 공급망 불안(사우디 동·서부 송유관 가동 중단, 호우티 해상 위협)으로 유가 108달러 돌파. 주택시장 모기지 금리 7% 근처, 거래량 1년 최저치.",
@@ -4169,13 +4173,13 @@
     },
     {
       "name": "DOW",
-      "point": 52068.33,
-      "change_pct": -0.05,
+      "point": 52074.84,
+      "change_pct": -0.04,
       "candle": {
         "o": 52115.4,
         "h": 52173.7,
         "l": 51881.68,
-        "c": 52068.33
+        "c": 52074.84
       },
       "range_240d": {
         "low": 45166.64,
@@ -6199,7 +6203,7 @@
           "o": 52115.4,
           "h": 52173.7,
           "l": 51881.68,
-          "c": 52068.33
+          "c": 52074.84
         }
       ],
       "spark": [
@@ -6228,7 +6232,9 @@
         52094.51,
         52063.03,
         52064.84,
-        52068.33
+        52044.99,
+        52074.08,
+        52074.84
       ],
       "news": {
         "summary": "대형 금융주 자산 정리 가속화. Truist의 $5.5B 자동차론 매각은 금리 상승에 따른 신용 리스크 회피 신호. 뉴욕 제조업 지수 급락(20.6 → 7.6)으로 경기민감 산업 둔화 심화. 빅파마의 심장병 치료제 시장 포화, 의료주 수익성 도전 지속. 관세·지정학 긴장(중국 출국 규제, 러시아 대체선박 활동)이 공급망 비용 상승 압력.",
@@ -6253,82 +6259,82 @@
   ],
   "news_chips": [
     {
-      "summary": "연준 금리 결정 당일 시장이 안정적으로 전개되는 가운데 10년물 수익률은 5% 아래로, 유가는 소폭 하락",
+      "summary": "연준 기준금리 인상 결정 기대 속 10년물 국채 수익률이 5% 이하로 내려가며 시장 경계 국면 지속",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/fed-meeting-warsh-interest-rate-09-16-2026?mod=rss_markets_main",
       "published_ts": 1789547111.0,
       "impact_high": true
     },
     {
-      "summary": "8월 소매판매가 전월대비 1.2% 증가하며 예상치(0.8%)를 크게 웃돌아 소비 강세 신호",
+      "summary": "영국 8월 인플레이션이 3.1%로 상승, 에너지 비용 급증으로 영란은행의 금리 결정 앞두고 물가 압력 지속",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/u-k-inflation-rises-ahead-of-boe-rate-call-1f1a6c08?mod=rss_socialeconomyfeed",
+      "published_ts": 1789541580.0,
+      "impact_high": true
+    },
+    {
+      "summary": "8월 소매판매가 전월 대비 1.2% 증가하며 예상치를 상회, 미국 소비 강세 지속",
       "source": "WSJ",
       "url": "https://www.wsj.com/economy/u-s-retail-sales-rebounded-last-month-cdb4a2e0?mod=rss_socialeconomyfeed",
       "published_ts": 1789565160.0,
       "impact_high": false
     },
     {
-      "summary": "트럼프 행정부에서 FDA 강경파 제거로 희귀질환 치료제 투자 관심 회복, 바이오텍 부문 강세",
+      "summary": "유로존 산업 생산이 3분기 초반에 하락, 높은 에너지 비용 속 제조업 회복의 불균형 노출",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/world/europe/eurozone-industrial-production-fell-at-start-of-third-quarter-eea9c3bf?mod=rss_socialeconomyfeed",
+      "published_ts": 1789556880.0,
+      "impact_high": false
+    },
+    {
+      "summary": "AI 산업 급성장의 조정국면이 불가피하며 연준 금리 결정을 앞둔 상황에서 기술주 경기민감도 강화",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/stocks/an-ai-slowdown-has-to-happen-regardless-of-safety-69d6675d?mod=rss_markets_main",
+      "published_ts": 1789554780.0,
+      "impact_high": false
+    },
+    {
+      "summary": "FDA 강경파 교체로 희귀질환 바이오테크 섹터에 투자자 복귀, 정책 변화의 시장 파급 확대",
       "source": "WSJ",
       "url": "https://www.wsj.com/health/pharma/trump-administration-shift-puts-this-corner-of-biotech-back-in-favor-2abc0ae3?mod=rss_markets_main",
       "published_ts": 1789551000.0,
       "impact_high": false
     },
     {
-      "summary": "상원에서 가상자산법 부결로 규제 불확실성 지속되면서 서클·코인베이스 등 암호화폐 거래소 주가 10% 이상 하락",
-      "source": "한경",
-      "url": "https://www.hankyung.com/article/2026091693231",
-      "published_ts": 1789547877.0,
-      "impact_high": false
-    },
-    {
-      "summary": "10년물 국채 수익률이 5%를 돌파하면서 금융위기 이후 고점 수준의 장기금리 시대 진입 가능성 논의",
+      "summary": "10년물 국채 수익률이 금융위기 이후 고점인 5%를 돌파하며 장기 금리 구조의 패러다임 전환 신호",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/investing/what-comes-next-now-that-the-10-year-treasury-yield-has-crossed-5-c3bd8b05?mod=rss_markets_main",
       "published_ts": 1789506060.0,
       "impact_high": false
     },
     {
-      "summary": "사우디 동서 파이프라인 폐쇄와 홍해 우티 위협으로 중동 공급 차질 우려 속 유가가 4개월래 고점으로 상승",
+      "summary": "사우디 동서부 송유관 폐쇄와 홍해 후티군 위협으로 중동 원유 공급 차질이 심화되며 유가가 4개월 고점으로 상승",
       "source": "WSJ",
       "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-as-middle-east-supply-concerns-persist-e3bff20f?mod=rss_worldnews",
       "published_ts": 1789501680.0,
       "impact_high": false
     },
     {
-      "summary": "뉴욕주 제조업 지수가 8월 4년래 고점(20.6)에서 9월 7.6으로 급락하며 경기 약화 신호 발생",
+      "summary": "이란과의 거래 중계 역할을 해온 암호화폐 거래소 코인엑스가 폐쇄 결정, 미국의 이란 제재 강화 영향",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/currencies/crypto-exchange-that-was-hub-for-illicit-iran-cash-closes-suddenly-80afba35?mod=rss_markets_main",
+      "published_ts": 1789497360.0,
+      "impact_high": false
+    },
+    {
+      "summary": "뉴욕 연준의 제조업 지수가 전월 20.6에서 7.6으로 급락하며 9월 경기 둔화 신호 전달",
       "source": "WSJ",
       "url": "https://www.wsj.com/economy/central-banking/new-york-manufacturing-activity-decelerated-in-september-738a6a82?mod=rss_socialeconomyfeed",
       "published_ts": 1789477200.0,
       "impact_high": true
-    },
-    {
-      "summary": "주택담보대출금리가 2025년 1월 이후 최고 수준에 접근하면서 주택 매매 및 건설 심리 악화 우려",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/economy/housing/the-stagnant-housing-market-is-about-to-face-a-7-mortgage-55a041d6?mod=rss_socialeconomyfeed",
-      "published_ts": 1789464600.0,
-      "impact_high": false
-    },
-    {
-      "summary": "8월 소비자물가가 연 3.4% 상승한 반면 임금은 3.1%에 그치면서 실질임금 마이너스 지속",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/12/inflation-is-outpacing-wage-growth-again-squeezing-americans-paychecks.html",
-      "published_ts": 1789217355.0,
-      "impact_high": true
-    },
-    {
-      "summary": "9월 소비자 전망지수가 47.8로 하락(8월 대비 7.5% 감소)하면서 물가 심화 우려로 인한 심리 악화",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/11/consumer-outlook-plunges-in-september-as-inflation-outlook-worsens.html",
-      "published_ts": 1789145603.0,
-      "impact_high": true
     }
   ],
-  "_article_sig": "c33d3e0114fd5158ae65c07c9d98c5bbd68b5912f6f4cb3fca45af0f9e97a5b1",
+  "_article_sig": "4c7acf92a2fc66dc9009d44f6a6c3cd6ed0197bd64236eee544daa87a077c8cf",
   "built_at_kst": "2026-09-16T07:00:49.001121+09:00",
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "AI 조정론 대두 가운데 규제 완화로 바이오텍 리바이벌 신호. 암호자산 규제 불확실성 심화와 클라우드 인프라 지정학 리스크 부각.",
+      "summary": "AI 성장성 조정 우려 속 바이오테크 펀드 회수. 트럼프 행정부 FDA 규제 완화로 희귀질환 테마 재진입.",
       "sources": [
         {
           "name": "WSJ",
@@ -6337,15 +6343,11 @@
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/health/pharma/trump-administration-shift-puts-this-corner-of-biotech-back-in-favor-2abc0ae3?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/world/middle-east/aws-says-it-cant-restore-some-data-from-mideast-facilities-struck-by-iran-ddcb7e5d?mod=rss_worldnews"
         }
       ]
     },
     "S&P500": {
-      "summary": "Fed 금리 인상 결정 임박 가운데 소매판매 1.2% 강세로 소비 회복 신호 지속. 중동 지정학 리스크 고조로 유가 상승 가속화 중이며 10년물 국채 수익률 5% 돌파로 금리 상승 압력 심화.",
+      "summary": "소비자 강세(8월 소매판매 1.2% 증가)도 연준 금리 인상 임박에 압박. 인플레 고착·제조업 둔화·유가 급등·주택시장 정체로 매크로 불확실성 심화.",
       "sources": [
         {
           "name": "WSJ",
@@ -6362,33 +6364,34 @@
       ]
     },
     "DOW": {
-      "summary": "금융 부실채권 정리 움직임 가운데 에너지 비용 상승으로 대형 기업 수익성 압박 심화. 중동 공급 차질과 인플레 지속으로 경기민감주 약세 신호 강화.",
+      "summary": "소비자 펀더멘탈 강세 지속도 유가 급등·지정학 위기·주택시장 부진으로 경기민감주 변동성 확대. 연준 긴축 여부에 방향 좌우.",
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/truist-to-sell-5-5-billion-of-loans-as-it-exits-near-prime-auto-lending-31dfad7b?mod=rss_markets_main"
+          "url": "https://www.wsj.com/economy/u-s-retail-sales-rebounded-last-month-cdb4a2e0?mod=rss_socialeconomyfeed"
         },
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/16/oil-prices-treasury-yields-consumers-iran.html"
+          "name": "WSJ",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-as-middle-east-supply-concerns-persist-e3bff20f?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/economy/housing/the-stagnant-housing-market-is-about-to-face-a-7-mortgage-55a041d6?mod=rss_socialeconomyfeed"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-09-17T00:30:03.127649+09:00",
+    "as_of_kst": "2026-09-17T00:40:07.228122+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7688.5,
-        "change_pct": 0.42,
+        "point": 7686.25,
+        "change_pct": 0.4,
         "spark": [
           7663.25,
-          7685.5,
-          7683.25,
-          7683.0,
           7679.75,
           7683.75,
           7681.25,
@@ -6425,21 +6428,24 @@
           7691.25,
           7689.75,
           7688.5,
-          7688.5
+          7688.0,
+          7685.75,
+          7683.75,
+          7686.25
         ],
         "candle": {
           "o": 7663.25,
           "h": 7692.75,
           "l": 7658.75,
-          "c": 7688.25
+          "c": 7686.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 20.35,
-          "high_change_pct": -1.72
+          "low_change_pct": 20.32,
+          "high_change_pct": -1.74
         },
         "daily_expanded": [
           {
@@ -8455,13 +8461,13 @@
             "o": 7663.25,
             "h": 7692.75,
             "l": 7658.75,
-            "c": 7688.25,
-            "v": 586150
+            "c": 7686.25,
+            "v": 606322
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "Fed 금리 인상 결정 임박 가운데 소매판매 1.2% 강세로 소비 회복 신호 지속. 중동 지정학 리스크 고조로 유가 상승 가속화 중이며 10년물 국채 수익률 5% 돌파로 금리 상승 압력 심화.",
+          "summary": "소비자 강세(8월 소매판매 1.2% 증가)도 연준 금리 인상 임박에 압박. 인플레 고착·제조업 둔화·유가 급등·주택시장 정체로 매크로 불확실성 심화.",
           "sources": [
             {
               "name": "WSJ",
@@ -8481,12 +8487,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29505.25,
-        "change_pct": 0.88,
+        "point": 29506.25,
+        "change_pct": 0.89,
         "spark": [
           29263.75,
-          29423.25,
-          29432.0,
           29423.0,
           29433.5,
           29411.25,
@@ -8524,21 +8528,23 @@
           29524.0,
           29507.75,
           29516.5,
-          29505.25
+          29506.25,
+          29489.25,
+          29506.25
         ],
         "candle": {
           "o": 29263.75,
           "h": 29535.75,
           "l": 29226.0,
-          "c": 29505.25
+          "c": 29508.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 27.51,
-          "high_change_pct": -3.93
+          "low_change_pct": 27.52,
+          "high_change_pct": -3.92
         },
         "daily_expanded": [
           {
@@ -10554,13 +10560,13 @@
             "o": 29263.75,
             "h": 29535.75,
             "l": 29226.0,
-            "c": 29505.25,
-            "v": 251318
+            "c": 29508.0,
+            "v": 257649
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "AI 조정론 대두 가운데 규제 완화로 바이오텍 리바이벌 신호. 암호자산 규제 불확실성 심화와 클라우드 인프라 지정학 리스크 부각.",
+          "summary": "AI 성장성 조정 우려 속 바이오테크 펀드 회수. 트럼프 행정부 FDA 규제 완화로 희귀질환 테마 재진입.",
           "sources": [
             {
               "name": "WSJ",
@@ -10569,10 +10575,6 @@
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/health/pharma/trump-administration-shift-puts-this-corner-of-biotech-back-in-favor-2abc0ae3?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/world/middle-east/aws-says-it-cant-restore-some-data-from-mideast-facilities-struck-by-iran-ddcb7e5d?mod=rss_worldnews"
             }
           ]
         }
@@ -10580,13 +10582,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52532.0,
-        "change_pct": 0.01,
+        "point": 52505.0,
+        "change_pct": -0.04,
         "spark": [
           52576.0,
-          52691.0,
-          52678.0,
-          52660.0,
           52636.0,
           52662.0,
           52642.0,
@@ -10623,21 +10622,24 @@
           52566.0,
           52536.0,
           52532.0,
-          52532.0
+          52504.0,
+          52502.0,
+          52485.0,
+          52505.0
         ],
         "candle": {
           "o": 52576.0,
           "h": 52709.0,
           "l": 52325.0,
-          "c": 52532.0
+          "c": 52508.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.65,
-          "high_change_pct": -3.6
+          "low_change_pct": 15.6,
+          "high_change_pct": -3.64
         },
         "daily_expanded": [
           {
@@ -12653,26 +12655,30 @@
             "o": 52576.0,
             "h": 52709.0,
             "l": 52325.0,
-            "c": 52532.0,
-            "v": 41047
+            "c": 52508.0,
+            "v": 41946
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "금융 부실채권 정리 움직임 가운데 에너지 비용 상승으로 대형 기업 수익성 압박 심화. 중동 공급 차질과 인플레 지속으로 경기민감주 약세 신호 강화.",
+          "summary": "소비자 펀더멘탈 강세 지속도 유가 급등·지정학 위기·주택시장 부진으로 경기민감주 변동성 확대. 연준 긴축 여부에 방향 좌우.",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/truist-to-sell-5-5-billion-of-loans-as-it-exits-near-prime-auto-lending-31dfad7b?mod=rss_markets_main"
+              "url": "https://www.wsj.com/economy/u-s-retail-sales-rebounded-last-month-cdb4a2e0?mod=rss_socialeconomyfeed"
             },
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/09/16/oil-prices-treasury-yields-consumers-iran.html"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-as-middle-east-supply-concerns-persist-e3bff20f?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/economy/housing/the-stagnant-housing-market-is-about-to-face-a-7-mortgage-55a041d6?mod=rss_socialeconomyfeed"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-09-17T00:30:06.706835+09:00"
+  "intraday_refreshed_kst": "2026-09-17T00:42:10.461706+09:00"
 }
