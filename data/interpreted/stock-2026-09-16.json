@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "generated_at": "2026-09-16T09:05:14.707163",
+  "generated_at": "2026-09-16T09:15:16.416249",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -10,17 +10,1105 @@
     {
       "title": "원가상승",
       "summary": "메모리 반도체 원가 상승(비용 한계 도달) → 삼성·SK하이닉스 수익성 악화 진단 → 메모리 반도체 섹터 약세"
+    },
+    {
+      "title": "메모리공급부족",
+      "summary": "삼성·TSMC 생산 공백 속 AI칩 수요 폭발 → HBM 공급 부족 심화 → 메모리반도체 가격 상승 및 DB하이텍 등 대체 공급사 호황"
     }
   ],
   "narratives": [],
-  "themes_macro_summary": [],
-  "themes_tree": null,
+  "themes_macro_summary": [
+    {
+      "keyword": "메모리공급",
+      "summary": "메모리 반도체 수요 폭발에 삼성·TSMC 공급 공백 → 대체 공급처 DB하이텍으로 수주 집중 → 반도체 기업군 재편",
+      "source_count": 1,
+      "verified": false
+    },
+    {
+      "keyword": "원가상승",
+      "summary": "메모리 반도체 원가 상승(비용 한계 도달) → 삼성·SK하이닉스 수익성 악화 진단 → 메모리 반도체 섹터 약세",
+      "source_count": 1,
+      "verified": false
+    }
+  ],
+  "themes_tree": {
+    "date": "2026-09-16",
+    "roots": [
+      {
+        "name": "반도체",
+        "children": [
+          {
+            "name": "메모리 반도체 슈퍼사이클",
+            "summary": "메모리 가격·비용 한계 도달 진단과 목표가 상향(삼성전자 27만원·SK하이닉스 148만원)으로 메모리 업황 개선 기대가 반도체 대형주로 자금 유입.",
+            "source_count": 1,
+            "verdict": "pass"
+          },
+          {
+            "name": "파운드리·아날로그 반도체",
+            "summary": "수요 폭발과 삼성·TSMC의 캐파 공백으로 반사수혜가 부각되며 국내 아날로그·파운드리 업체(DB하이텍)로 수급 집중.",
+            "source_count": 1,
+            "verdict": "pass"
+          }
+        ]
+      },
+      {
+        "name": "제약·바이오",
+        "children": [
+          {
+            "name": "비만 치료제",
+            "summary": "비만 신약 가치 1조원 평가와 목표가 상향으로 비만 파이프라인 보유 제약사(한미약품)에 매수세 유입.",
+            "source_count": 1,
+            "verdict": "weak"
+          }
+        ]
+      }
+    ]
+  },
   "stocks": [
+    {
+      "code": "069540",
+      "name": "빛과전자",
+      "rank": 1,
+      "trade_amount": 76925000000,
+      "change_pct": 11.85,
+      "close_price": 4625,
+      "open_price": 4120,
+      "high_price": 4690,
+      "low_price": 4100,
+      "industry": "통신 및 방송 장비 제조업",
+      "sector": "기타무선통신장비제조업",
+      "themes": [
+        "AI",
+        "광통신",
+        "통신장비"
+      ],
+      "theme_paths": [
+        {
+          "name": "광통신",
+          "path": [
+            "AI",
+            "광통신"
+          ]
+        },
+        {
+          "name": "통신장비",
+          "path": [
+            "통신장비"
+          ]
+        }
+      ],
+      "pick_count": 1,
+      "prev_pick": {
+        "date": "2026-09-14",
+        "rank": 1,
+        "change_pct": 11.76,
+        "trade_amount": 314047000000
+      },
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [
+        "2026-09-08",
+        "2026-09-14"
+      ],
+      "news": [
+        {
+          "title": "[특징주] AI 통신망 부품 국산화 기대감…빛과전자 11% 급등",
+          "url": "https://www.etoday.co.kr/news/view/2623407",
+          "source": "이투데이",
+          "published_at": "2026-09-09T00:11:00",
+          "causal_chain": "AI 데이터센터·통신망 트래픽 급증 → AI 통신망 부품(광부품) 국산화 수요 부각 → 광통신·통신장비 전문기업 빛과전자가 직접 수혜 종목으로 부각 → 기대 매수세 집중으로 당일 +12.50% 급등, 거래대금 1,500억원 유입.",
+          "macro_event": "AI 데이터센터·통신망 트래픽 급증에 따른 AI 통신망 광부품 국산화 수요 부각",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.4,
+          "newzy_tradability": null,
+          "newzy_score": 0.4,
+          "newzy_verdict": null,
+          "article_type": "시세정형"
+        },
+        {
+          "title": "빛과전자, 6G 광부품 '선주문' 잡았다…\"50G 국산화 속도\"",
+          "url": "https://www.fnnews.com/news/202609071942476093",
+          "source": "파이낸셜뉴스",
+          "published_at": "2026-09-08T19:50:04.919160",
+          "causal_chain": "5G-Advanced·6G 전환으로 이동통신망 데이터 트래픽이 급증 → 기존 25G 대비 대역폭 2배인 6G 프론트홀용 50GBASE-BR30 SFP56 BiDi 광트랜시버 수요 부각 → 광통신 전문기업 빛과전자가 과기정통부·NIA 광통신 부품 상용화 사업 수행기관 2년 연속 선정되고 개발 단계에서 주요 고객사 구매발주서·수요확인서(선주문)를 확보 → 국산화 이후 실제 공급·양산 연결 기대감이 매수세로 유입되며 당일 종가 3,830원(+5.22%)·거래대금 186억원 형성.",
+          "macro_event": "5G-Advanced·6G 전환에 따른 이동통신망 데이터 트래픽 급증 → 차세대 광부품(50G급 광트랜시버) 수요 부각",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.5,
+          "newzy_virality": 0.45,
+          "newzy_tradability": null,
+          "newzy_score": 0.48,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        }
+      ],
+      "fallback": true,
+      "theme_crosscheck": {
+        "confirmed": [
+          "통신장비"
+        ],
+        "pm320_only": [
+          "AI",
+          "광통신"
+        ],
+        "cafe_only": []
+      },
+      "index_change_pct": -1.27,
+      "index_multiple_current": -9.33,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 8100,
+        "high_date": "2026-04-16",
+        "high_pct": -42.9,
+        "low": 592,
+        "low_date": "2026-01-02",
+        "low_pct": 681.25,
+        "current": 4625
+      },
+      "daily_20": [
+        {
+          "date": "2026-08-20",
+          "o": 2715,
+          "h": 2720,
+          "l": 2600,
+          "c": 2675
+        },
+        {
+          "date": "2026-08-21",
+          "o": 2675,
+          "h": 2675,
+          "l": 2500,
+          "c": 2560
+        },
+        {
+          "date": "2026-08-24",
+          "o": 2630,
+          "h": 2935,
+          "l": 2600,
+          "c": 2805
+        },
+        {
+          "date": "2026-08-25",
+          "o": 2700,
+          "h": 2835,
+          "l": 2620,
+          "c": 2730
+        },
+        {
+          "date": "2026-08-26",
+          "o": 2790,
+          "h": 3160,
+          "l": 2710,
+          "c": 2845
+        },
+        {
+          "date": "2026-08-27",
+          "o": 2975,
+          "h": 3350,
+          "l": 2960,
+          "c": 3100
+        },
+        {
+          "date": "2026-08-28",
+          "o": 3140,
+          "h": 3145,
+          "l": 2910,
+          "c": 2930
+        },
+        {
+          "date": "2026-08-31",
+          "o": 2830,
+          "h": 2970,
+          "l": 2760,
+          "c": 2835
+        },
+        {
+          "date": "2026-09-01",
+          "o": 2830,
+          "h": 2890,
+          "l": 2725,
+          "c": 2840
+        },
+        {
+          "date": "2026-09-02",
+          "o": 2695,
+          "h": 2820,
+          "l": 2690,
+          "c": 2765
+        },
+        {
+          "date": "2026-09-03",
+          "o": 2800,
+          "h": 2850,
+          "l": 2640,
+          "c": 2660
+        },
+        {
+          "date": "2026-09-04",
+          "o": 2695,
+          "h": 2735,
+          "l": 2645,
+          "c": 2715
+        },
+        {
+          "date": "2026-09-07",
+          "o": 2775,
+          "h": 2940,
+          "l": 2770,
+          "c": 2800
+        },
+        {
+          "date": "2026-09-08",
+          "o": 2900,
+          "h": 3640,
+          "l": 2900,
+          "c": 3640
+        },
+        {
+          "date": "2026-09-09",
+          "o": 3750,
+          "h": 4460,
+          "l": 3680,
+          "c": 3810
+        },
+        {
+          "date": "2026-09-10",
+          "o": 3870,
+          "h": 4250,
+          "l": 3660,
+          "c": 3925
+        },
+        {
+          "date": "2026-09-11",
+          "o": 3810,
+          "h": 4180,
+          "l": 3760,
+          "c": 3870
+        },
+        {
+          "date": "2026-09-14",
+          "o": 3860,
+          "h": 4620,
+          "l": 3740,
+          "c": 4355
+        },
+        {
+          "date": "2026-09-15",
+          "o": 4325,
+          "h": 4415,
+          "l": 4050,
+          "c": 4135
+        },
+        {
+          "date": "2026-09-16",
+          "o": 4120,
+          "h": 4690,
+          "l": 4100,
+          "c": 4625
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "투자경고"
+    },
+    {
+      "code": "062970",
+      "name": "한국첨단소재",
+      "rank": 2,
+      "trade_amount": 52269000000,
+      "change_pct": 11.16,
+      "close_price": 3735,
+      "open_price": 3570,
+      "high_price": 3910,
+      "low_price": 3460,
+      "industry": "통신 및 방송 장비 제조업",
+      "sector": "데이터센터용 AWG, 통신용 AWG, 스플리터, 계측기 등",
+      "themes": [
+        "통신장비",
+        "광통신"
+      ],
+      "theme_paths": [
+        {
+          "name": "통신장비",
+          "path": [
+            "통신장비"
+          ]
+        },
+        {
+          "name": "광통신",
+          "path": [
+            "AI",
+            "광통신"
+          ]
+        }
+      ],
+      "pick_count": 3,
+      "prev_pick": {
+        "date": "2026-09-15",
+        "rank": 10,
+        "change_pct": 29.98,
+        "trade_amount": 133872000000
+      },
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [
+        "2026-07-15",
+        "2026-08-07",
+        "2026-09-14",
+        "2026-09-15"
+      ],
+      "news": [
+        {
+          "title": "[특징주] 한국첨단소재, 광통신 글로벌 사업화 시동에 15%대 강세",
+          "url": "https://www.etoday.co.kr/news/view/2625611",
+          "source": "이투데이",
+          "published_at": "2026-09-15T00:54:00",
+          "causal_chain": "한국첨단소재는 데이터센터용·통신용 AWG·스플리터를 만드는 광통신 부품 전문 종목으로, 광통신 사업의 글로벌 진출 기대가 종목 본질 사업(광통신 도메인)에 직접 부합 → 매수세 유입으로 당일 종가 2,950원(+14.12%)·거래대금 550억원의 강한 거래 동반 상승.",
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": "시세정형"
+        },
+        {
+          "title": "한국첨단소재, 양자암호통신 핵심 광부품 고도화…차세대 광통신 글로벌 사업화",
+          "url": "https://www.etoday.co.kr/news/view/2624991",
+          "source": "이투데이",
+          "published_at": "2026-09-13T23:51:00",
+          "causal_chain": "정부 양자전환(QX) 정책과 양자컴퓨팅 상용화 기대 확산 → 자회사 퀀텀AI솔루션의 코리아퀀텀이 IBM 초전도·아이온큐 트랩이온 2종 실기기 교차검증 체계를 구축하고 국제 벤치마크 QOBLIB에 등재되며 양자전환 검증 대표주로 부각 → 통신·데이터센터용 광부품(AWG)과 양자암호통신 광부품 사업이 양자·광통신 성장축과 결합 → 매수세 집중으로 당일 종가 2,585원 상한가(+29.90%)·거래대금 94억원 기록.",
+          "macro_event": "정부 양자전환(QX) 정책 확대 및 양자컴퓨팅 상용화 국면 → 양자 관련주 부각",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.75,
+          "newzy_virality": 0.7,
+          "newzy_tradability": null,
+          "newzy_score": 0.73,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        },
+        {
+          "title": "한국첨단소재, 97억 원 규모 전환사채 발행",
+          "url": "https://www.mk.co.kr/news/stock/12142667",
+          "source": "매경",
+          "published_at": "2026-09-02T09:07:22",
+          "causal_chain": "정부 양자전환(QX) 정책과 양자컴퓨팅 상용화 기대 확산 → 자회사 퀀텀AI솔루션의 코리아퀀텀이 IBM 초전도·아이온큐 트랩이온 2종 실기기 교차검증 체계를 구축하고 국제 벤치마크 QOBLIB에 등재되며 양자전환 검증 대표주로 부각 → 통신·데이터센터용 광부품(AWG)과 양자암호통신 광부품 사업이 양자·광통신 성장축과 결합 → 매수세 집중으로 당일 종가 2,585원 상한가(+29.90%)·거래대금 94억원 기록.",
+          "macro_event": "정부 양자전환(QX) 정책 확대 및 양자컴퓨팅 상용화 국면 → 양자 관련주 부각",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.75,
+          "newzy_virality": 0.7,
+          "newzy_tradability": null,
+          "newzy_score": 0.73,
+          "newzy_verdict": null,
+          "article_type": "공시"
+        },
+        {
+          "title": "한국첨단소재, 코리아퀀텀에 아이온큐 추가…양자컴퓨터 교차검증 체계 구축",
+          "url": "https://www.fnnews.com/news/202608200927207581",
+          "source": "파이낸셜뉴스",
+          "published_at": "2026-08-21T09:30:07.032327",
+          "causal_chain": "정부 양자전환(QX) 정책과 양자컴퓨팅 상용화 기대 확산 → 자회사 퀀텀AI솔루션의 코리아퀀텀이 IBM 초전도·아이온큐 트랩이온 2종 실기기 교차검증 체계를 구축하고 국제 벤치마크 QOBLIB에 등재되며 양자전환 검증 대표주로 부각 → 통신·데이터센터용 광부품(AWG)과 양자암호통신 광부품 사업이 양자·광통신 성장축과 결합 → 매수세 집중으로 당일 종가 2,585원 상한가(+29.90%)·거래대금 94억원 기록.",
+          "macro_event": "정부 양자전환(QX) 정책 확대 및 양자컴퓨팅 상용화 국면 → 양자 관련주 부각",
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.75,
+          "newzy_virality": 0.7,
+          "newzy_tradability": null,
+          "newzy_score": 0.73,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        }
+      ],
+      "fallback": true,
+      "index_change_pct": -1.27,
+      "index_multiple_current": -8.79,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 10105,
+        "high_date": "2026-04-08",
+        "high_pct": -63.04,
+        "low": 1815,
+        "low_date": "2026-09-11",
+        "low_pct": 105.79,
+        "current": 3735
+      },
+      "daily_20": [
+        {
+          "date": "2026-08-18",
+          "o": 2635,
+          "h": 2640,
+          "l": 2485,
+          "c": 2495
+        },
+        {
+          "date": "2026-08-19",
+          "o": 2285,
+          "h": 2395,
+          "l": 2250,
+          "c": 2265
+        },
+        {
+          "date": "2026-08-20",
+          "o": 2270,
+          "h": 2730,
+          "l": 2235,
+          "c": 2415
+        },
+        {
+          "date": "2026-08-21",
+          "o": 2350,
+          "h": 2375,
+          "l": 2250,
+          "c": 2350
+        },
+        {
+          "date": "2026-08-24",
+          "o": 2350,
+          "h": 2390,
+          "l": 2220,
+          "c": 2340
+        },
+        {
+          "date": "2026-08-25",
+          "o": 2280,
+          "h": 2345,
+          "l": 2240,
+          "c": 2300
+        },
+        {
+          "date": "2026-08-26",
+          "o": 2310,
+          "h": 2355,
+          "l": 2200,
+          "c": 2235
+        },
+        {
+          "date": "2026-08-31",
+          "o": 2350,
+          "h": 2745,
+          "l": 2055,
+          "c": 2110
+        },
+        {
+          "date": "2026-09-01",
+          "o": 2110,
+          "h": 2135,
+          "l": 1995,
+          "c": 1999
+        },
+        {
+          "date": "2026-09-02",
+          "o": 1999,
+          "h": 1999,
+          "l": 1899,
+          "c": 1914
+        },
+        {
+          "date": "2026-09-03",
+          "o": 1914,
+          "h": 1936,
+          "l": 1849,
+          "c": 1850
+        },
+        {
+          "date": "2026-09-04",
+          "o": 1852,
+          "h": 1926,
+          "l": 1852,
+          "c": 1911
+        },
+        {
+          "date": "2026-09-07",
+          "o": 1960,
+          "h": 2050,
+          "l": 1911,
+          "c": 1914
+        },
+        {
+          "date": "2026-09-08",
+          "o": 1915,
+          "h": 2215,
+          "l": 1914,
+          "c": 2020
+        },
+        {
+          "date": "2026-09-09",
+          "o": 1920,
+          "h": 2040,
+          "l": 1917,
+          "c": 1930
+        },
+        {
+          "date": "2026-09-10",
+          "o": 1933,
+          "h": 1937,
+          "l": 1884,
+          "c": 1904
+        },
+        {
+          "date": "2026-09-11",
+          "o": 1886,
+          "h": 2155,
+          "l": 1815,
+          "c": 1990
+        },
+        {
+          "date": "2026-09-14",
+          "o": 1990,
+          "h": 2585,
+          "l": 1950,
+          "c": 2585
+        },
+        {
+          "date": "2026-09-15",
+          "o": 2725,
+          "h": 3360,
+          "l": 2690,
+          "c": 3360
+        },
+        {
+          "date": "2026-09-16",
+          "o": 3570,
+          "h": 3910,
+          "l": 3460,
+          "c": 3735
+        }
+      ],
+      "status_badges": [
+        {
+          "label": "투자경고 예고",
+          "severity": "warning",
+          "start": "2026-09-16",
+          "end": "2026-10-01",
+          "summary": "한국첨단소재(보통주)가 2026-09-15 종가가 5일 전 종가보다 60% 이상 상승하여 투자경고종목 지정예고 대상이 됨. 2026-09-16 하루간 투자주의종목으로 지정되며, 지정예고일부터 10거래일 이내(2026-10-01까지) 특정 판단일에 4개 요건 모두 충족 시 다음 날 투자경고종목으로 지정됨.",
+          "condition": "판단일(T) 종가가 5일 전날(T-5) 종가보다 60% 이상 상승 + 최근 15일 종가중 최고가 + 주가상승률이 지수 상승률 5배 이상 + 시총 100위 밖",
+          "regulation": "2026-09-16~2026-10-01",
+          "view_date": "2026-09-16",
+          "next_trading_day": "2026-09-17",
+          "single_price": false,
+          "source": "disclosure",
+          "entry_threshold_price": 3088,
+          "entry_threshold_via": "warn_surge_5d_60pct",
+          "entry_threshold_and_condition": "KOSPI 동기간 상승률 5배 동시 충족 시",
+          "entry_window_end": "2026-10-02",
+          "entry_threshold_assumption": "KOSPI 횡보 가정",
+          "disclosure_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260915000749",
+          "disclosure_title": "[투자주의]투자경고종목 지정예고",
+          "thresholds": [
+            {
+              "desc": "최근 15일 최고가(2026-09-15)",
+              "base_price": 3360,
+              "threshold": 3360,
+              "current": 3735,
+              "triggered": true
+            }
+          ],
+          "reason_text": "한국첨단소재(보통주)가 2026-09-15 종가가 5일 전 종가보다 60% 이상 상승하여 투자경고종목 지정예고 대상이 됨. 2026-09-16 하루간 투자주의종목으로 지정되며, 지정예고일부터 10거래일 이내(2026-10-01까지) 특정 판단일에 4개 요건 모두 충족 시 다음 날 투자경고종목으로 지정됨.",
+          "prev_stage": null,
+          "effect_badges": [
+            {
+              "effect": "credit-block",
+              "when": "tomorrow",
+              "severity": "warning",
+              "source_label": "투자경고 예고",
+              "source_kind": "disclosure"
+            }
+          ]
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "투자경고"
+    },
+    {
+      "code": "049080",
+      "name": "기가레인",
+      "rank": 3,
+      "trade_amount": 13065000000,
+      "change_pct": null,
+      "close_price": null,
+      "open_price": null,
+      "high_price": null,
+      "low_price": null,
+      "industry": "전자부품 제조업",
+      "sector": "RF통신부품 및 반도체 장비",
+      "themes": [
+        "반도체",
+        "통신장비"
+      ],
+      "theme_paths": [
+        {
+          "name": "반도체",
+          "path": [
+            "반도체"
+          ]
+        },
+        {
+          "name": "통신장비",
+          "path": [
+            "통신장비"
+          ]
+        }
+      ],
+      "pick_count": 1,
+      "prev_pick": {
+        "date": "2026-08-04",
+        "rank": 1,
+        "change_pct": 21.89,
+        "trade_amount": 29072000000
+      },
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [],
+      "news": [
+        {
+          "title": "기가레인, 글로벌 전자기업에 23억원 규모 자동차 전장용 NIL 장비 공급",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03289846645547320",
+          "source": "이데일리",
+          "published_at": "2026-08-13T23:35:11",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        },
+        {
+          "title": "기가레인, 한국항공우주연구원과 27억 규모 시제품 개발 계약",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=04769126645515176",
+          "source": "이데일리",
+          "published_at": "2026-07-16T07:11:28",
+          "causal_chain": "기가레인이 한국항공우주연구원과 27억원 규모 시제품 개발 계약을 체결했으나, 이는 종목 핵심 사업(RF통신부품·반도체 장비)을 관통하는 매크로 사슬이 아닌 단발성·소규모 개발 수주에 해당한다. 계약 규모(27억원)가 기업 체급 대비 크지 않고 지속 실적으로 이어질 확정 재료가 부족해, 당일 거래대금 974억원의 활발한 손바뀜에도 종가는 11,290원(-3.75%)으로 하락 마감했다.",
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": 0.35,
+          "newzy_virality": 0.15,
+          "newzy_tradability": null,
+          "newzy_score": 0.27,
+          "newzy_verdict": null,
+          "article_type": "호재"
+        },
+        {
+          "title": "[MK 골든크로스 돌파종목 : 기가레인(049080) & 이노테나(333050)]",
+          "url": "https://www.mk.co.kr/news/stock/12100008",
+          "source": "매경",
+          "published_at": "2026-07-16T00:45:47",
+          "causal_chain": "제공된 뉴스는 매경 MK시그널의 AI 기반 골든크로스(7월 15일 5일선의 20일선 상향 돌파) 기술적 신호 안내뿐으로, RF통신부품·반도체 장비 기업 기가레인의 펀더멘털을 움직일 실질 재료(수주·실적·정책)나 매크로 사슬이 부재하다. 당일 종가 14,050원(+19.78%)이 형성됐으나 이는 뉴스 인과가 아닌 기술적 신호 확산에 따른 얇은 수급 급등으로, 뉴스 기반 인과로 설명 가능한 본질 테마가 없다.",
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": "시세정형"
+        },
+        {
+          "title": "거래소 \"기가레인, 현저환 시황변동 조회공시 요구\"",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=04437846645514192",
+          "source": "이데일리",
+          "published_at": "2026-07-13T08:52:43",
+          "causal_chain": "제공된 뉴스 본문이 없어 인과관계 특정 불가. 거래소 현저환 시황변동 조회공시는 주가 급변 시 발생하는 행정 절차이며, 호재·악재 신호 없음. 상한가 상승 원인 미상.",
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": "공시"
+        }
+      ],
+      "fallback": true,
+      "theme_crosscheck": {
+        "confirmed": [
+          "반도체",
+          "통신장비"
+        ],
+        "pm320_only": [],
+        "cafe_only": []
+      },
+      "index_change_pct": -1.27,
+      "range_240d": {
+        "high": 31250,
+        "high_date": "2026-04-15",
+        "high_pct": -72.22,
+        "low": 3580,
+        "low_date": "2026-02-23",
+        "low_pct": 142.46,
+        "current": 8680
+      },
+      "daily_20": [
+        {
+          "date": "2026-07-22",
+          "o": 9870,
+          "h": 10830,
+          "l": 8730,
+          "c": 9300
+        },
+        {
+          "date": "2026-07-23",
+          "o": 9350,
+          "h": 9560,
+          "l": 8400,
+          "c": 8650
+        },
+        {
+          "date": "2026-07-24",
+          "o": 8630,
+          "h": 8630,
+          "l": 7580,
+          "c": 7810
+        },
+        {
+          "date": "2026-07-27",
+          "o": 8100,
+          "h": 8790,
+          "l": 7340,
+          "c": 7470
+        },
+        {
+          "date": "2026-07-28",
+          "o": 7360,
+          "h": 7360,
+          "l": 6540,
+          "c": 6680
+        },
+        {
+          "date": "2026-07-29",
+          "o": 6710,
+          "h": 7200,
+          "l": 5590,
+          "c": 6290
+        },
+        {
+          "date": "2026-07-30",
+          "o": 6000,
+          "h": 7840,
+          "l": 5990,
+          "c": 7150
+        },
+        {
+          "date": "2026-07-31",
+          "o": 7430,
+          "h": 8070,
+          "l": 7330,
+          "c": 7340
+        },
+        {
+          "date": "2026-08-03",
+          "o": 7430,
+          "h": 8170,
+          "l": 6960,
+          "c": 7400
+        },
+        {
+          "date": "2026-08-04",
+          "o": 7780,
+          "h": 9620,
+          "l": 7540,
+          "c": 9020
+        },
+        {
+          "date": "2026-08-05",
+          "o": 9790,
+          "h": 11630,
+          "l": 9450,
+          "c": 10990
+        },
+        {
+          "date": "2026-08-06",
+          "o": 10990,
+          "h": 10990,
+          "l": 9210,
+          "c": 9210
+        },
+        {
+          "date": "2026-08-07",
+          "o": 9530,
+          "h": 10480,
+          "l": 9120,
+          "c": 9150
+        },
+        {
+          "date": "2026-08-10",
+          "o": 9500,
+          "h": 9770,
+          "l": 9210,
+          "c": 9300
+        },
+        {
+          "date": "2026-08-11",
+          "o": 9010,
+          "h": 9380,
+          "l": 8560,
+          "c": 9030
+        },
+        {
+          "date": "2026-08-12",
+          "o": 9110,
+          "h": 9500,
+          "l": 8640,
+          "c": 9130
+        },
+        {
+          "date": "2026-08-13",
+          "o": 9300,
+          "h": 9530,
+          "l": 8910,
+          "c": 9020
+        },
+        {
+          "date": "2026-08-14",
+          "o": 9040,
+          "h": 9190,
+          "l": 8630,
+          "c": 8660
+        },
+        {
+          "date": "2026-08-18",
+          "o": 8660,
+          "h": 8680,
+          "l": 8520,
+          "c": 8680
+        },
+        {
+          "date": "2026-09-16",
+          "o": 8630,
+          "h": 10990,
+          "l": 8560,
+          "c": 10990
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
     {
       "code": "201490",
       "name": "미투온",
-      "rank": 1,
-      "trade_amount": 997000000,
+      "rank": 4,
+      "trade_amount": 6611000000,
+      "change_pct": -4.71,
+      "close_price": 3840,
+      "open_price": 3840,
+      "high_price": 3840,
+      "low_price": 3840,
+      "industry": "소프트웨어 개발 및 공급업",
+      "sector": "소셜 카지노 게임",
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [
+        "2026-08-24",
+        "2026-09-09",
+        "2026-09-15"
+      ],
+      "news": [
+        {
+          "title": "카카오게임즈, 캐주얼 게임사 미투온 980억원에 인수[공시]",
+          "url": "https://www.fnnews.com/news/202609151656375504",
+          "source": "파이낸셜뉴스",
+          "published_at": "2026-09-16T09:10:07.598058",
+          "causal_chain": null,
+          "macro_event": null,
+          "newzy_freshness": null,
+          "newzy_persistence": null,
+          "newzy_magnitude": null,
+          "newzy_virality": null,
+          "newzy_tradability": null,
+          "newzy_score": null,
+          "newzy_verdict": null,
+          "article_type": null
+        }
+      ],
+      "fallback": false,
+      "index_change_pct": -1.27,
+      "index_multiple_current": 3.71,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 6480,
+        "high_date": "2025-09-22",
+        "high_pct": -40.74,
+        "low": 1738,
+        "low_date": "2026-07-30",
+        "low_pct": 120.94,
+        "current": 3840
+      },
+      "daily_20": [
+        {
+          "date": "2026-08-20",
+          "o": 2310,
+          "h": 2540,
+          "l": 2310,
+          "c": 2370
+        },
+        {
+          "date": "2026-08-21",
+          "o": 2415,
+          "h": 2515,
+          "l": 2245,
+          "c": 2290
+        },
+        {
+          "date": "2026-08-24",
+          "o": 2295,
+          "h": 2855,
+          "l": 2295,
+          "c": 2515
+        },
+        {
+          "date": "2026-08-25",
+          "o": 2550,
+          "h": 2755,
+          "l": 2475,
+          "c": 2625
+        },
+        {
+          "date": "2026-08-26",
+          "o": 2590,
+          "h": 2620,
+          "l": 2485,
+          "c": 2520
+        },
+        {
+          "date": "2026-08-27",
+          "o": 2500,
+          "h": 2605,
+          "l": 2420,
+          "c": 2485
+        },
+        {
+          "date": "2026-08-28",
+          "o": 2570,
+          "h": 2730,
+          "l": 2570,
+          "c": 2610
+        },
+        {
+          "date": "2026-08-31",
+          "o": 2520,
+          "h": 2525,
+          "l": 2415,
+          "c": 2510
+        },
+        {
+          "date": "2026-09-01",
+          "o": 2560,
+          "h": 2605,
+          "l": 2460,
+          "c": 2510
+        },
+        {
+          "date": "2026-09-02",
+          "o": 2430,
+          "h": 2500,
+          "l": 2400,
+          "c": 2445
+        },
+        {
+          "date": "2026-09-03",
+          "o": 2455,
+          "h": 2750,
+          "l": 2415,
+          "c": 2615
+        },
+        {
+          "date": "2026-09-04",
+          "o": 2780,
+          "h": 2800,
+          "l": 2585,
+          "c": 2615
+        },
+        {
+          "date": "2026-09-07",
+          "o": 2575,
+          "h": 2645,
+          "l": 2525,
+          "c": 2645
+        },
+        {
+          "date": "2026-09-08",
+          "o": 2600,
+          "h": 2640,
+          "l": 2540,
+          "c": 2540
+        },
+        {
+          "date": "2026-09-09",
+          "o": 2520,
+          "h": 3040,
+          "l": 2500,
+          "c": 2775
+        },
+        {
+          "date": "2026-09-10",
+          "o": 2735,
+          "h": 2745,
+          "l": 2645,
+          "c": 2710
+        },
+        {
+          "date": "2026-09-11",
+          "o": 2650,
+          "h": 2780,
+          "l": 2610,
+          "c": 2740
+        },
+        {
+          "date": "2026-09-14",
+          "o": 2715,
+          "h": 3150,
+          "l": 2670,
+          "c": 3005
+        },
+        {
+          "date": "2026-09-15",
+          "o": 3050,
+          "h": 4040,
+          "l": 2930,
+          "c": 4030
+        },
+        {
+          "date": "2026-09-16",
+          "o": 3840,
+          "h": 3840,
+          "l": 3840,
+          "c": 3840
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 3840,
+        "base": 3840,
+        "prices": [
+          3840,
+          3840,
+          3840
+        ]
+      },
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
+    },
+    {
+      "code": "357580",
+      "name": "아모센스",
+      "rank": 5,
+      "trade_amount": 2537000000,
       "change_pct": null,
       "close_price": null,
       "open_price": null,
@@ -38,21 +1126,18 @@
       "news": [],
       "fallback": true,
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
-      "togusa_verdict": "weak_bear",
-      "theme_leader": false,
-      "hugepark_grade": "주의"
+      "credit_reason": "신용거래 제한 종목"
     },
     {
       "code": "232830",
       "name": "아이티센피엔에스",
-      "rank": 2,
-      "trade_amount": 249000000,
-      "change_pct": null,
-      "close_price": null,
-      "open_price": null,
-      "high_price": null,
-      "low_price": null,
+      "rank": 6,
+      "trade_amount": 475000000,
+      "change_pct": 29.85,
+      "close_price": 3480,
+      "open_price": 3480,
+      "high_price": 3480,
+      "low_price": 3480,
       "industry": "소프트웨어 개발 및 공급업",
       "sector": "디지털 금융 서비스 구축, 모바일 보안솔루션, 생체인증 전자서명",
       "themes": [
@@ -75,18 +1160,22 @@
       },
       "bullish_today": false,
       "bullish_streak": 0,
-      "bullish_dates": [],
+      "bullish_dates": [
+        "2026-09-15"
+      ],
       "news": [],
       "fallback": true,
-      "index_change_pct": -0.5,
+      "index_change_pct": -1.27,
+      "index_multiple_current": -23.5,
+      "index_multiple_eligible": false,
       "range_240d": {
         "high": 5590,
         "high_date": "2026-05-12",
-        "high_pct": -52.06,
+        "high_pct": -37.75,
         "low": 1211,
         "low_date": "2026-07-21",
-        "low_pct": 121.3,
-        "current": 2680
+        "low_pct": 187.37,
+        "current": 3480
       },
       "daily_20": [
         {
@@ -230,13 +1319,421 @@
           "c": 3480
         }
       ],
+      "status_badges": [
+        {
+          "label": "투자주의 근접",
+          "severity": "caution",
+          "source": "predicted",
+          "thresholds": [
+            {
+              "desc": "5일 전(2026-09-09) 대비 +60%↑",
+              "base_price": 1910,
+              "threshold": 3056,
+              "current": 3480,
+              "triggered": true
+            }
+          ],
+          "regulation": "KRX 시장경보 가격 조건 충족 (거래량 미검증, 자체 추정)",
+          "period_start": "2026-09-17",
+          "period_end": "2026-09-18",
+          "start": "2026-09-17",
+          "end": "2026-09-18",
+          "view_date": "2026-09-16",
+          "next_trading_day": "2026-09-17",
+          "next_trading_day_for_predicted": "2026-09-17",
+          "next_trading_day_source": "fallback_homepage",
+          "single_price": false,
+          "effect_badges": []
+        }
+      ],
+      "intraday": {
+        "step_min": 5,
+        "open": 3480,
+        "base": 3480,
+        "prices": [
+          3480,
+          3480,
+          3480
+        ]
+      },
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목",
+      "credit_reason": "회사한도초과",
       "togusa_verdict": "neutral",
       "theme_leader": true,
       "hugepark_grade": "관찰",
       "causal_chain": "",
       "parent_theme": ""
+    },
+    {
+      "code": "365590",
+      "name": "하이딥",
+      "rank": 7,
+      "trade_amount": 410000000,
+      "change_pct": 29.95,
+      "close_price": 2035,
+      "open_price": 1874,
+      "high_price": 2035,
+      "low_price": 1765,
+      "industry": "반도체 제조업",
+      "sector": "UIUX Solution",
+      "themes": [
+        "반도체"
+      ],
+      "theme_paths": [
+        {
+          "name": "반도체",
+          "path": [
+            "반도체"
+          ]
+        }
+      ],
+      "pick_count": 1,
+      "prev_pick": {
+        "date": "2026-07-29",
+        "rank": 3,
+        "change_pct": 13.66,
+        "trade_amount": 5487000000
+      },
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [
+        "2026-07-15",
+        "2026-07-29",
+        "2026-08-12"
+      ],
+      "news": [],
+      "fallback": true,
+      "index_change_pct": -1.27,
+      "index_multiple_current": -23.58,
+      "index_multiple_eligible": false,
+      "range_240d": {
+        "high": 8400,
+        "high_date": "2026-01-16",
+        "high_pct": -75.77,
+        "low": 1566,
+        "low_date": "2026-08-19",
+        "low_pct": 29.95,
+        "current": 2035
+      },
+      "daily_20": [
+        {
+          "date": "2026-07-23",
+          "o": 1886,
+          "h": 1960,
+          "l": 1856,
+          "c": 1900
+        },
+        {
+          "date": "2026-07-24",
+          "o": 1900,
+          "h": 1940,
+          "l": 1760,
+          "c": 1846
+        },
+        {
+          "date": "2026-07-27",
+          "o": 1906,
+          "h": 1938,
+          "l": 1786,
+          "c": 1804
+        },
+        {
+          "date": "2026-07-28",
+          "o": 1844,
+          "h": 2344,
+          "l": 1640,
+          "c": 1640
+        },
+        {
+          "date": "2026-07-29",
+          "o": 1644,
+          "h": 2132,
+          "l": 1644,
+          "c": 1840
+        },
+        {
+          "date": "2026-07-30",
+          "o": 1842,
+          "h": 1960,
+          "l": 1640,
+          "c": 1660
+        },
+        {
+          "date": "2026-07-31",
+          "o": 1660,
+          "h": 1974,
+          "l": 1660,
+          "c": 1752
+        },
+        {
+          "date": "2026-08-03",
+          "o": 1766,
+          "h": 1850,
+          "l": 1724,
+          "c": 1740
+        },
+        {
+          "date": "2026-08-04",
+          "o": 1754,
+          "h": 1818,
+          "l": 1754,
+          "c": 1794
+        },
+        {
+          "date": "2026-08-05",
+          "o": 1804,
+          "h": 1892,
+          "l": 1804,
+          "c": 1836
+        },
+        {
+          "date": "2026-08-06",
+          "o": 1994,
+          "h": 1994,
+          "l": 1824,
+          "c": 1848
+        },
+        {
+          "date": "2026-08-07",
+          "o": 1832,
+          "h": 1980,
+          "l": 1764,
+          "c": 1844
+        },
+        {
+          "date": "2026-08-10",
+          "o": 1844,
+          "h": 1896,
+          "l": 1786,
+          "c": 1852
+        },
+        {
+          "date": "2026-08-11",
+          "o": 1900,
+          "h": 1984,
+          "l": 1842,
+          "c": 1946
+        },
+        {
+          "date": "2026-08-12",
+          "o": 1952,
+          "h": 2528,
+          "l": 1952,
+          "c": 2174
+        },
+        {
+          "date": "2026-08-13",
+          "o": 2116,
+          "h": 2164,
+          "l": 1942,
+          "c": 2034
+        },
+        {
+          "date": "2026-08-14",
+          "o": 2042,
+          "h": 2044,
+          "l": 1938,
+          "c": 1956
+        },
+        {
+          "date": "2026-08-18",
+          "o": 1940,
+          "h": 1954,
+          "l": 1764,
+          "c": 1834
+        },
+        {
+          "date": "2026-08-19",
+          "o": 1844,
+          "h": 1844,
+          "l": 1566,
+          "c": 1566
+        },
+        {
+          "date": "2026-09-16",
+          "o": 1874,
+          "h": 2035,
+          "l": 1765,
+          "c": 2035
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
+    },
+    {
+      "code": "432980",
+      "name": "엠에프씨",
+      "rank": 8,
+      "trade_amount": 257000000,
+      "change_pct": 28.63,
+      "close_price": 3145,
+      "open_price": 3145,
+      "high_price": 3145,
+      "low_price": 2845,
+      "industry": null,
+      "sector": null,
+      "themes": [],
+      "theme_paths": [],
+      "pick_count": 1,
+      "prev_pick": null,
+      "bullish_today": false,
+      "bullish_streak": 0,
+      "bullish_dates": [],
+      "news": [],
+      "fallback": true,
+      "range_240d": {
+        "high": 4530,
+        "high_date": "2026-02-11",
+        "high_pct": -30.57,
+        "low": 2305,
+        "low_date": "2026-06-08",
+        "low_pct": 36.44,
+        "current": 3145
+      },
+      "daily_20": [
+        {
+          "date": "2026-08-20",
+          "o": 2760,
+          "h": 2815,
+          "l": 2635,
+          "c": 2650
+        },
+        {
+          "date": "2026-08-21",
+          "o": 2640,
+          "h": 2640,
+          "l": 2500,
+          "c": 2540
+        },
+        {
+          "date": "2026-08-24",
+          "o": 2530,
+          "h": 2535,
+          "l": 2520,
+          "c": 2520
+        },
+        {
+          "date": "2026-08-25",
+          "o": 2525,
+          "h": 2525,
+          "l": 2505,
+          "c": 2515
+        },
+        {
+          "date": "2026-08-26",
+          "o": 2515,
+          "h": 2585,
+          "l": 2515,
+          "c": 2530
+        },
+        {
+          "date": "2026-08-27",
+          "o": 2460,
+          "h": 2595,
+          "l": 2440,
+          "c": 2480
+        },
+        {
+          "date": "2026-08-28",
+          "o": 2490,
+          "h": 2650,
+          "l": 2490,
+          "c": 2595
+        },
+        {
+          "date": "2026-08-31",
+          "o": 2580,
+          "h": 2595,
+          "l": 2520,
+          "c": 2595
+        },
+        {
+          "date": "2026-09-01",
+          "o": 2595,
+          "h": 2600,
+          "l": 2525,
+          "c": 2525
+        },
+        {
+          "date": "2026-09-02",
+          "o": 2530,
+          "h": 2530,
+          "l": 2500,
+          "c": 2515
+        },
+        {
+          "date": "2026-09-03",
+          "o": 2555,
+          "h": 2695,
+          "l": 2495,
+          "c": 2495
+        },
+        {
+          "date": "2026-09-04",
+          "o": 2495,
+          "h": 2555,
+          "l": 2490,
+          "c": 2535
+        },
+        {
+          "date": "2026-09-07",
+          "o": 2535,
+          "h": 2545,
+          "l": 2480,
+          "c": 2535
+        },
+        {
+          "date": "2026-09-08",
+          "o": 2695,
+          "h": 2695,
+          "l": 2480,
+          "c": 2580
+        },
+        {
+          "date": "2026-09-09",
+          "o": 2615,
+          "h": 2620,
+          "l": 2355,
+          "c": 2470
+        },
+        {
+          "date": "2026-09-10",
+          "o": 2470,
+          "h": 2520,
+          "l": 2410,
+          "c": 2475
+        },
+        {
+          "date": "2026-09-11",
+          "o": 2440,
+          "h": 2470,
+          "l": 2425,
+          "c": 2425
+        },
+        {
+          "date": "2026-09-14",
+          "o": 2475,
+          "h": 2515,
+          "l": 2370,
+          "c": 2465
+        },
+        {
+          "date": "2026-09-15",
+          "o": 2405,
+          "h": 2455,
+          "l": 2370,
+          "c": 2445
+        },
+        {
+          "date": "2026-09-16",
+          "o": 3145,
+          "h": 3145,
+          "l": 2845,
+          "c": 3145
+        }
+      ],
+      "credit_risk": true,
+      "credit_reason": "신용거래 제한 종목"
     }
   ]
 }
