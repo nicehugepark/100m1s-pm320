@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26396.92,
-      "change_pct": 1.61,
+      "point": 26401.5,
+      "change_pct": 1.63,
       "candle": {
         "o": 26373.42,
         "h": 26419.26,
         "l": 26290.05,
-        "c": 26396.92
+        "c": 26401.5
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,13 +2033,11 @@
           "o": 26373.42,
           "h": 26419.26,
           "l": 26290.05,
-          "c": 26396.92
+          "c": 26401.5
         }
       ],
       "spark": [
         26373.42,
-        26402.89,
-        26391.79,
         26372.24,
         26355.05,
         26358.92,
@@ -2077,7 +2075,9 @@
         26388.88,
         26399.35,
         26400.32,
-        26396.92
+        26394.63,
+        26403.72,
+        26401.5
       ],
       "news": {
         "summary": "AI 투자 과열에 따른 산업 조정 불가피 신호. FDA 규제 완화로 희귀질환 바이오테크 재평가 기대. 금리 인상에 따른 고성장주 평가 압박 심화.",
@@ -2097,13 +2097,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7635.78,
-      "change_pct": 1.11,
+      "point": 7637.39,
+      "change_pct": 1.13,
       "candle": {
         "o": 7631.44,
         "h": 7646.6,
         "l": 7611.81,
-        "c": 7635.78
+        "c": 7637.39
       },
       "range_240d": {
         "low": 6343.72,
@@ -4127,13 +4127,11 @@
           "o": 7631.44,
           "h": 7646.6,
           "l": 7611.81,
-          "c": 7635.78
+          "c": 7637.39
         }
       ],
       "spark": [
         7631.44,
-        7628.27,
-        7630.44,
         7624.2,
         7617.9,
         7619.18,
@@ -4171,7 +4169,9 @@
         7633.78,
         7635.89,
         7636.33,
-        7635.78
+        7635.32,
+        7637.99,
+        7637.39
       ],
       "news": {
         "summary": "연준 3년 만에 기준금리 25bp 인상(Warsh 의장)으로 인플레 우려 반영. 10년물 Treasury 5% 돌파하며 19년 최고가. 시장은 금리 경로 리스크 평가 중. 8월 소매판매 1.2% 급증에도 후속 인상 신호로 주가 7거래일 중 7일 하락. 연말 추가 인상 가능성 75% 이상 시장 평가.",
@@ -4195,13 +4195,13 @@
     },
     {
       "name": "DOW",
-      "point": 51795.59,
-      "change_pct": 0.65,
+      "point": 51825.97,
+      "change_pct": 0.71,
       "candle": {
         "o": 51882.53,
         "h": 51935.97,
         "l": 51607.65,
-        "c": 51795.59
+        "c": 51825.97
       },
       "range_240d": {
         "low": 45166.64,
@@ -6225,13 +6225,11 @@
           "o": 51882.53,
           "h": 51935.97,
           "l": 51607.65,
-          "c": 51795.59
+          "c": 51825.97
         }
       ],
       "spark": [
         51882.53,
-        51714.91,
-        51768.78,
         51718.64,
         51653.64,
         51662.75,
@@ -6269,7 +6267,9 @@
         51799.65,
         51802.99,
         51796.86,
-        51795.59
+        51804.01,
+        51829.74,
+        51825.97
       ],
       "news": {
         "summary": "유가 사우디 동서 파이프라인 폐쇄·홍해 Houthi 위협으로 4개월 최고가. 디젤유 $6.31/갤런 사상 최고. 가정당 에너지·금리 이중 타격으로 추정 1,700달러 부담. 9월 뉴욕 제조업 둔화·주택 착공 약세. 금융주 자동차론 구조 조정 본격화. 소비자 저축 취약·인플레·금리 복합압박.",
@@ -6294,137 +6294,131 @@
   ],
   "news_chips": [
     {
-      "summary": "연준의 첫 금리 인상 이후 시장의 통화정책 신뢰가 회복되면서 장기 국채 수익률이 최근 고점에서 하락했다.",
-      "source": "WSJ경제",
+      "summary": "10년물 국채 수익률이 5% 부근에서 안정화되며 초장기 기준금리 전망이 조정되었다.",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-fall-as-market-regains-trust-in-feds-inflation-resolve-62beaf8e?mod=rss_socialeconomyfeed",
       "published_ts": 1789656540.0,
       "impact_high": true
     },
     {
-      "summary": "연준 금리 인상과 사우디의 유수 복구 가능성에 힘입어 유가가 하락했다.",
+      "summary": "연준 금리 인상이 경기 둔화 신호로 해석되면서 유가가 조정되었다.",
       "source": "WSJ",
       "url": "https://www.wsj.com/business/energy-oil/oil-prices-slip-after-feds-first-rate-hike-in-three-years-4efe3854?mod=rss_worldnews",
       "published_ts": 1789650360.0,
       "impact_high": true
     },
     {
-      "summary": "연준 의장이 금리 인상이 경제 제약 효과를 아직 주지 못하고 있다며 더 긴 기간의 금리 인상을 시사했다.",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/warsh-takes-hawkish-turn-with-rate-rise-and-hints-of-more-to-come-d52c6ad9?mod=rss_socialeconomyfeed",
-      "published_ts": 1789613520.0,
+      "summary": "영국 중앙은행이 인플레이션 오름세에도 정책금리를 유지하면서 경기 보호를 우선했다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/17/bank-of-england-interest-rate-decision-fed-rate-hike-uk-inflation.html",
+      "published_ts": 1789648030.0,
       "impact_high": true
     },
     {
-      "summary": "호르무즈 해협 에너지 운송선 사이버 공격에 이란이 연루된 것으로 의심되면서 원유 공급망 불안이 심화되고 있다.",
+      "summary": "대만 중앙은행이 기준금리를 유지하면서 올해 경제 성장과 물가 전망을 상향 조정했다.",
       "source": "WSJ",
-      "url": "https://www.wsj.com/politics/national-security/u-s-probes-cyberattacks-on-energy-tankers-bound-for-american-coast-33d92f3a?mod=rss_worldnews",
-      "published_ts": 1789654380.0,
-      "impact_high": false
+      "url": "https://www.wsj.com/economy/central-banking/taiwan-central-bank-holds-rates-steady-despite-higher-energy-costs-324ba626?mod=rss_socialeconomyfeed",
+      "published_ts": 1789641360.0,
+      "impact_high": true
     },
     {
-      "summary": "8월 주택 건설 착공이 예상을 하회하면서 금리 인상의 부동산시장 냉각 효과가 확연해지고 있다.",
-      "source": "WSJ경제",
+      "summary": "연준이 3년 만에 기준금리를 인상했으며 추가 인상 가능성을 시사했다.",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/central-banking/trump-says-he-backs-warsh-after-central-bank-raised-interest-rates-cff88294?mod=rss_socialeconomyfeed",
+      "published_ts": 1789606620.0,
+      "impact_high": true
+    },
+    {
+      "summary": "미국 주택 착공이 금리 인상 영향으로 예상을 하회하며 경기 약세 신호를 보였다.",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/housing/u-s-housing-starts-fell-in-august-56abae28?mod=rss_socialeconomyfeed",
       "published_ts": 1789650660.0,
       "impact_high": false
     },
     {
-      "summary": "신규 실업보험 청구가 예상 이상 감소하면서 노동시장 회복력이 유지되고 있다.",
-      "source": "WSJ경제",
+      "summary": "미국 실직 신청이 4주 연속 감소하면서 노동시장이 연준 긴축에 탄력적으로 대응하고 있다.",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-tumbled-last-week-00f109ae?mod=rss_socialeconomyfeed",
       "published_ts": 1789650000.0,
       "impact_high": false
     },
     {
-      "summary": "호르무즈 해협 셔틀 운송 시스템을 통해 사우디가 유수를 우회 수출할 수 있는 대안을 보유하고 있다.",
+      "summary": "사우디가 호르무즈 해협 대체 운송 경로로 유가 수출을 안정화하려는 노력으로 공급 위험이 일부 완화되었다.",
       "source": "WSJ",
       "url": "https://www.wsj.com/world/middle-east/saudi-arabia-has-another-option-to-get-its-oil-out-7ef2a9da?mod=rss_markets_main",
       "published_ts": 1789637400.0,
       "impact_high": false
     },
     {
-      "summary": "연준 금리 인상 이후 주가지수가 반등하며 장기 국채 수익률이 5% 근처에서 안정화되고 있다.",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-17-2026?mod=rss_markets_main",
-      "published_ts": 1789634863.0,
+      "summary": "경유 가격이 사상 최고를 경신하면서 중동 분쟁의 실물경제 파급이 가시화되었다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/16/transport-economy-diesel-prices-iran.html",
+      "published_ts": 1789590144.0,
       "impact_high": false
     },
     {
-      "summary": "이란 지원 후티 반군의 사우디 전투기 격추로 중동 지정학 위험이 심화되고 원유 공급 차질 우려가 확산되고 있다.",
+      "summary": "예멘 후티 반군의 사우디 공격 위협이 심화되면서 중동 유가 공급 불안이 고조되었다.",
       "source": "WSJ",
       "url": "https://www.wsj.com/world/middle-east/yemens-houthi-rebels-claim-shooting-down-saudi-f-15-jet-fighter-237ecc7d?mod=rss_worldnews",
       "published_ts": 1789579620.0,
       "impact_high": false
-    },
-    {
-      "summary": "연준 정책 기대 변화에 따라 장기 채권 수익률이 상승만큼 빠르게 하락할 가능성이 있다는 분석이다.",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/bond-yields-could-come-down-as-fast-as-theyve-climbed-d64ea9cd?mod=rss_markets_main",
-      "published_ts": 1789464600.0,
-      "impact_high": false
     }
   ],
-  "_article_sig": "591054fee96fd8c73d05d8025875e155f338a8cef1d9ed1d4c05767bab843cb6",
+  "_article_sig": "1784c52bd66ff76feeaa958e6d85dca57b30241b0a1bba914219de7b7c75ffa7",
   "built_at_kst": "2026-09-17T07:03:42.335087+09:00",
   "regular_open": true,
   "_futures_news": {
-    "NASDAQ": {
-      "summary": "Fed 금리 인상에 성장주 약세 압박. AI 펀딩 열기 주춤 신호. Biotech 규제 완화로 관심 부분 회복. Tokenized stocks 승인으로 핀테크 기대감.",
-      "sources": [
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/health/pharma/trump-administration-shift-puts-this-corner-of-biotech-back-in-favor-2abc0ae3?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/regulation/tokenized-stocks-get-u-s-regulators-green-light-to-come-ashore-c37d956f?mod=rss_markets_main"
-        }
-      ]
-    },
     "S&P500": {
-      "summary": "Fed 첫 금리 인상(3년 만) 단행, 이후 추가 인상 신호. 국채 수익률 하락으로 Fed 신뢰도 회복 신호. 이란 사이버 공격·유가 변동성·고용·주택 약세 등 거시 불확실성 산재. 추가 인상 기대로 향후 압박 지속.",
+      "summary": "Fed이 3년 만에 기준금리 인상 단행, Warsh 의장이 추가 인상 시사로 장기 긴축 사이클 신호 강화 중. 에너지 가격 급등(유가·디젤)으로 물가 압박 심화, 가구당 $1,700 추가 부담 초래하며 소비자 실구매력 악화. 장기 금리(10년물 Treasury) 5% 근처 형성 중.",
       "sources": [
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-fall-as-market-regains-trust-in-feds-inflation-resolve-62beaf8e?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ",
+          "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/warsh-takes-hawkish-turn-with-rate-rise-and-hints-of-more-to-come-d52c6ad9?mod=rss_socialeconomyfeed"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/business/energy-oil/oil-prices-slip-after-feds-first-rate-hike-in-three-years-4efe3854?mod=rss_worldnews"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/16/oil-prices-treasury-yields-consumers-iran.html"
         }
       ]
     },
     "DOW": {
-      "summary": "Fed 인상으로 금융기관 이자마진 압박. 은행권 대출 매각·부실채권 증가 신호. 경기민감 대형주·건설·에너지 동시 약세. 전통 블루칩 선물 약세 심화.",
+      "summary": "에너지 비용 극증(디젤 $6.31/갤런 최고가)이 운송·산업 부문 경영 압박 가중 중. 이란-후티 분쟁 고조로 중동 지정학 리스크 상승, 유가 변동성 지속 확대. 소비자 구매력 약화에 따른 경기 민감주 약세 신호 심화.",
       "sources": [
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/truist-to-sell-5-5-billion-of-loans-as-it-exits-near-prime-auto-lending-31dfad7b?mod=rss_markets_main"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/16/transport-economy-diesel-prices-iran.html"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/rising-rates-will-make-private-equitys-bad-year-a-lot-worse-255daf59?mod=rss_markets_main"
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/saudi-arabia-has-another-option-to-get-its-oil-out-7ef2a9da?mod=rss_worldnews"
+        }
+      ]
+    },
+    "NASDAQ": {
+      "summary": "Fed이 3년 만에 기준금리 인상 단행, Warsh 의장이 추가 인상 시사로 장기 긴축 사이클 신호 강화 중. 에너지 가격 급등(유가·디젤)으로 물가 압박 심화, 가구당 $1,700 추가 부담 초래하며 소비자 실구매력 악화. 장기 금리(10년물 Treasury) 5% 근처 형성 중.",
+      "sources": [
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/warsh-takes-hawkish-turn-with-rate-rise-and-hints-of-more-to-come-d52c6ad9?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/16/oil-prices-treasury-yields-consumers-iran.html"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-09-18T02:50:16.076016+09:00",
+    "as_of_kst": "2026-09-18T03:00:15.126385+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7704.25,
-        "change_pct": 1.07,
+        "point": 7706.0,
+        "change_pct": 1.09,
         "spark": [
           7624.0,
-          7700.75,
-          7697.75,
           7699.5,
           7693.0,
           7686.5,
@@ -6462,21 +6456,23 @@
           7704.75,
           7703.75,
           7706.0,
-          7704.25
+          7706.0,
+          7705.0,
+          7706.0
         ],
         "candle": {
           "o": 7624.0,
           "h": 7722.25,
           "l": 7617.5,
-          "c": 7704.25
+          "c": 7705.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 20.6,
-          "high_change_pct": -1.51
+          "low_change_pct": 20.62,
+          "high_change_pct": -1.49
         },
         "daily_expanded": [
           {
@@ -8492,25 +8488,21 @@
             "o": 7624.0,
             "h": 7722.25,
             "l": 7617.5,
-            "c": 7704.25,
-            "v": 998462
+            "c": 7705.75,
+            "v": 1011316
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "Fed 첫 금리 인상(3년 만) 단행, 이후 추가 인상 신호. 국채 수익률 하락으로 Fed 신뢰도 회복 신호. 이란 사이버 공격·유가 변동성·고용·주택 약세 등 거시 불확실성 산재. 추가 인상 기대로 향후 압박 지속.",
+          "summary": "Fed이 3년 만에 기준금리 인상 단행, Warsh 의장이 추가 인상 시사로 장기 긴축 사이클 신호 강화 중. 에너지 가격 급등(유가·디젤)으로 물가 압박 심화, 가구당 $1,700 추가 부담 초래하며 소비자 실구매력 악화. 장기 금리(10년물 Treasury) 5% 근처 형성 중.",
           "sources": [
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-fall-as-market-regains-trust-in-feds-inflation-resolve-62beaf8e?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ",
+              "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/warsh-takes-hawkish-turn-with-rate-rise-and-hints-of-more-to-come-d52c6ad9?mod=rss_socialeconomyfeed"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/business/energy-oil/oil-prices-slip-after-feds-first-rate-hike-in-three-years-4efe3854?mod=rss_worldnews"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/09/16/oil-prices-treasury-yields-consumers-iran.html"
             }
           ]
         }
@@ -8518,12 +8510,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29727.0,
-        "change_pct": 1.61,
+        "point": 29736.5,
+        "change_pct": 1.64,
         "spark": [
           29271.0,
-          29734.5,
-          29725.25,
           29716.0,
           29693.0,
           29674.5,
@@ -8561,21 +8551,23 @@
           29732.25,
           29723.75,
           29737.5,
-          29727.0
+          29738.25,
+          29730.75,
+          29736.5
         ],
         "candle": {
           "o": 29271.0,
           "h": 29762.5,
           "l": 29247.75,
-          "c": 29727.75
+          "c": 29736.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 28.47,
-          "high_change_pct": -3.21
+          "low_change_pct": 28.51,
+          "high_change_pct": -3.18
         },
         "daily_expanded": [
           {
@@ -10591,21 +10583,21 @@
             "o": 29271.0,
             "h": 29762.5,
             "l": 29247.75,
-            "c": 29727.75,
-            "v": 390963
+            "c": 29736.25,
+            "v": 394727
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "Fed 금리 인상에 성장주 약세 압박. AI 펀딩 열기 주춤 신호. Biotech 규제 완화로 관심 부분 회복. Tokenized stocks 승인으로 핀테크 기대감.",
+          "summary": "Fed이 3년 만에 기준금리 인상 단행, Warsh 의장이 추가 인상 시사로 장기 긴축 사이클 신호 강화 중. 에너지 가격 급등(유가·디젤)으로 물가 압박 심화, 가구당 $1,700 추가 부담 초래하며 소비자 실구매력 악화. 장기 금리(10년물 Treasury) 5% 근처 형성 중.",
           "sources": [
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/health/pharma/trump-administration-shift-puts-this-corner-of-biotech-back-in-favor-2abc0ae3?mod=rss_markets_main"
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/warsh-takes-hawkish-turn-with-rate-rise-and-hints-of-more-to-come-d52c6ad9?mod=rss_socialeconomyfeed"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/regulation/tokenized-stocks-get-u-s-regulators-green-light-to-come-ashore-c37d956f?mod=rss_markets_main"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/09/16/oil-prices-treasury-yields-consumers-iran.html"
             }
           ]
         }
@@ -10613,12 +10605,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52238.0,
-        "change_pct": 0.62,
+        "point": 52232.0,
+        "change_pct": 0.61,
         "spark": [
           51894.0,
-          52190.0,
-          52151.0,
           52207.0,
           52159.0,
           52090.0,
@@ -10656,21 +10646,23 @@
           52232.0,
           52232.0,
           52241.0,
-          52238.0
+          52232.0,
+          52240.0,
+          52232.0
         ],
         "candle": {
           "o": 51894.0,
           "h": 52580.0,
           "l": 51838.0,
-          "c": 52238.0
+          "c": 52234.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.0,
-          "high_change_pct": -4.14
+          "low_change_pct": 14.99,
+          "high_change_pct": -4.15
         },
         "daily_expanded": [
           {
@@ -12686,26 +12678,26 @@
             "o": 51894.0,
             "h": 52580.0,
             "l": 51838.0,
-            "c": 52238.0,
-            "v": 67414
+            "c": 52234.0,
+            "v": 67859
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "Fed 인상으로 금융기관 이자마진 압박. 은행권 대출 매각·부실채권 증가 신호. 경기민감 대형주·건설·에너지 동시 약세. 전통 블루칩 선물 약세 심화.",
+          "summary": "에너지 비용 극증(디젤 $6.31/갤런 최고가)이 운송·산업 부문 경영 압박 가중 중. 이란-후티 분쟁 고조로 중동 지정학 리스크 상승, 유가 변동성 지속 확대. 소비자 구매력 약화에 따른 경기 민감주 약세 신호 심화.",
           "sources": [
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/truist-to-sell-5-5-billion-of-loans-as-it-exits-near-prime-auto-lending-31dfad7b?mod=rss_markets_main"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/09/16/transport-economy-diesel-prices-iran.html"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/rising-rates-will-make-private-equitys-bad-year-a-lot-worse-255daf59?mod=rss_markets_main"
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/saudi-arabia-has-another-option-to-get-its-oil-out-7ef2a9da?mod=rss_worldnews"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-09-18T02:50:22.943822+09:00"
+  "intraday_refreshed_kst": "2026-09-18T03:02:52.744394+09:00"
 }
