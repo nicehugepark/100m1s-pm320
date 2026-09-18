@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26515.8,
-      "change_pct": 0.37,
+      "point": 26469.84,
+      "change_pct": 0.2,
       "candle": {
         "o": 26528.58,
         "h": 26544.93,
-        "l": 26487.02,
-        "c": 26515.8
+        "l": 26469.84,
+        "c": 26469.84
       },
       "range_240d": {
         "low": 20794.64,
@@ -2032,15 +2032,17 @@
           "date": "2026-09-18",
           "o": 26528.58,
           "h": 26544.93,
-          "l": 26487.02,
-          "c": 26515.8
+          "l": 26469.84,
+          "c": 26469.84
         }
       ],
       "spark": [
         26528.58,
         26506.5,
         26513.84,
-        26515.8
+        26487.22,
+        26474.83,
+        26469.84
       ],
       "news": {
         "summary": "AI 투자 복귀로 기술주 랠리 재개. 반도체 부문 강세(인텔 긍정 코멘트) 및 토큰화 주식 규제 진전으로 기술 거래소 활성화 신호.",
@@ -2064,13 +2066,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7641.69,
-      "change_pct": 0.05,
+      "point": 7635.61,
+      "change_pct": -0.03,
       "candle": {
         "o": 7657.17,
         "h": 7657.17,
-        "l": 7638.29,
-        "c": 7641.69
+        "l": 7635.6,
+        "c": 7635.61
       },
       "range_240d": {
         "low": 6343.72,
@@ -4093,15 +4095,17 @@
           "date": "2026-09-18",
           "o": 7657.17,
           "h": 7657.17,
-          "l": 7638.29,
-          "c": 7641.69
+          "l": 7635.6,
+          "c": 7635.61
         }
       ],
       "spark": [
         7657.17,
         7643.16,
         7640.82,
-        7641.69
+        7640.03,
+        7635.6,
+        7635.61
       ],
       "news": {
         "summary": "연준 금리 인상 단행, 추가 긴축 신호로 시장 심리 변동. 유가 상승(중동 분쟁)·실업 개선·물가-임금 역전으로 소비자 구매력 약화 우려. 주택 시작 둔화 및 채권 수익률 상승으로 금융 부문 부담 심화.",
@@ -4125,13 +4129,13 @@
     },
     {
       "name": "DOW",
-      "point": 51661.94,
-      "change_pct": -0.22,
+      "point": 51630.31,
+      "change_pct": -0.29,
       "candle": {
         "o": 51826.78,
         "h": 51826.78,
         "l": 51618.49,
-        "c": 51661.94
+        "c": 51630.31
       },
       "range_240d": {
         "low": 45166.64,
@@ -6155,14 +6159,16 @@
           "o": 51826.78,
           "h": 51826.78,
           "l": 51618.49,
-          "c": 51661.94
+          "c": 51630.31
         }
       ],
       "spark": [
         51826.78,
         51685.21,
         51641.47,
-        51661.94
+        51644.59,
+        51627.15,
+        51630.31
       ],
       "news": {
         "summary": "유가·디젤유 역사적 고점 돌파로 운송·물류 비용 급증. 중동 분쟁(후티군, 사우디 유전 공격) 장기화 신호로 에너지 불안정성 심화. 연준 금리 인상으로 대형 전통주 이자 부담 가중 추세.",
@@ -6187,91 +6193,89 @@
   ],
   "news_chips": [
     {
-      "summary": "나스닥이 AI 주도로 주간 최대 상승률 기록, 유가와 국채수익률은 하락세",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-18-2026?mod=rss_markets_main",
-      "published_ts": 1789721296.0,
+      "summary": "일본은행이 기준금리를 1.25%로 인상해 31년 만에 최고 수준 기록, 우에다 의장은 인플레 진정 시까지 계속 인상할 것 표명",
+      "source": "한경",
+      "url": "https://www.hankyung.com/article/2026091844911",
+      "published_ts": 1789722149.0,
       "impact_high": true
     },
     {
-      "summary": "일본은행 금리인상 후 엔약세·닛케이 1.5% 상승으로 통상적 시장 반응 역행",
+      "summary": "일본 금리 인상에도 닛케이지수는 1.5% 상승했으나 엔화는 157엔/달러로 약세 전환",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/18/japan-rate-hike-stocks-rise-bond-yields-yen-fall.html",
       "published_ts": 1789717229.0,
       "impact_high": true
     },
     {
-      "summary": "S&P 500·나스닥 6주 만에 최고 상승폭 기록, 인플레이션 우려에서 기술주 쏠림",
+      "summary": "나스닥이 AI 관련주 강세로 6주 만에 최대 주간 낙폭 회복, 유가 하락이 심리 부양",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/investing/the-s-p-500-and-nasdaq-post-biggest-gains-in-six-weeks-d3ccd84e?mod=rss_markets_main",
       "published_ts": 1789680840.0,
       "impact_high": true
     },
     {
-      "summary": "중동 분쟁 격화→유가 상승 압력 지속, 트럼프 행정부 이란 정책 운영 복잡화",
+      "summary": "후티의 공격 재개로 중동 해상 공급망 차질 우려가 유가 상승 리스크로 작용 중",
       "source": "WSJ",
       "url": "https://www.wsj.com/world/middle-east/the-new-offensive-raising-oil-prices-and-complicating-trumps-iran-war-999c34d1?mod=rss_worldnews",
       "published_ts": 1789671720.0,
       "impact_high": true
     },
     {
-      "summary": "미국 장기국채 수익률이 최고점에서 하락, 연준 인플레이션 억제 신뢰도 회복 반영",
+      "summary": "영란은행이 기준금리 동결로 미국·유로존과 상이한 통화정책 기조 유지, 에너지 인플레 모니터링 지속",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/central-banking/why-the-bank-of-england-didnt-follow-the-fed-in-raising-interest-rates-007dc4a4?mod=rss_socialeconomyfeed",
+      "published_ts": 1789662540.0,
+      "impact_high": true
+    },
+    {
+      "summary": "연준의 인플레이션 대응 신뢰도 회복으로 미국 10년물 국채 수익률이 최근 고점에서 하락",
       "source": "WSJ",
       "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-fall-as-market-regains-trust-in-feds-inflation-resolve-62beaf8e?mod=rss_socialeconomyfeed",
       "published_ts": 1789656540.0,
       "impact_high": true
     },
     {
-      "summary": "사우디 석유 공급 차질 해소 기대로 유가 3일 연속 하락, WTI 배럴당 $100 이하",
+      "summary": "사우디 파이프라인 복구 기대로 WTI유가가 배럴당 100달러 아래로 3일 연속 하락",
       "source": "WSJ",
       "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-for-third-day-as-wti-slips-below-100-e533d2fe?mod=rss_worldnews",
-      "published_ts": 1789720740.0,
+      "published_ts": 1789738680.0,
       "impact_high": false
     },
     {
-      "summary": "8월 미국 주택 착공 2.6% 하락으로 경제 둔화 신호 포착",
+      "summary": "연준 의장 워시가 인플레이션 미해결로 인한 지속적 금리 인상 필요성을 강조, 매파 기조 확인",
+      "source": "한경",
+      "url": "https://www.hankyung.com/article/202609183462i",
+      "published_ts": 1789704451.0,
+      "impact_high": false
+    },
+    {
+      "summary": "8월 주택착공이 월 2.6% 감소해 125만 7000호로 경제 예상 하회, 부동산 경기 약세 심화",
       "source": "WSJ",
       "url": "https://www.wsj.com/economy/housing/u-s-housing-starts-fell-in-august-56abae28?mod=rss_socialeconomyfeed",
       "published_ts": 1789650660.0,
       "impact_high": false
     },
     {
-      "summary": "사우디가 호르무즈 해협 셔틀 운송으로 동서부 송유관 손상 우회 공급 검토",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/world/middle-east/saudi-arabia-has-another-option-to-get-its-oil-out-7ef2a9da?mod=rss_worldnews",
-      "published_ts": 1789637400.0,
-      "impact_high": false
-    },
-    {
-      "summary": "연준 의장 워시가 현 금리로 경제 억제 부족·추가 인상 가능성 시사(매파 기조 강화)",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/economy/central-banking/warsh-takes-hawkish-turn-with-rate-rise-and-hints-of-more-to-come-d52c6ad9?mod=rss_socialeconomyfeed",
-      "published_ts": 1789613520.0,
+      "summary": "유가 상승과 미채권 수익률 급등의 이중 충격으로 미국 가계의 월간 생활비 부담이 약 1700달러 증가 추정",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/16/oil-prices-treasury-yields-consumers-iran.html",
+      "published_ts": 1789579942.0,
       "impact_high": true
-    },
-    {
-      "summary": "호르무즈 해협 봉쇄 속 이란 육로 우회 시도 국경 정체로 경제압박 심화",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/world/middle-east/irans-attempts-to-get-around-the-hormuz-blockade-are-hitting-a-wall-c1f42cbe?mod=rss_worldnews",
-      "published_ts": 1789613520.0,
-      "impact_high": false
     }
   ],
-  "_article_sig": "a1477e623f8ef93530bed7fa84fc4bef488aa6adfa53e4724d7f971ee2b12023",
+  "_article_sig": "8e4596ae3ddd840c1c5f727558d0e6543e4428e68c3cc6e898f2766d2b5e26c0",
   "built_at_kst": "2026-09-18T07:01:30.745621+09:00",
   "futures": {
-    "as_of_kst": "2026-09-18T22:40:11.300615+09:00",
+    "as_of_kst": "2026-09-18T22:50:11.287202+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7709.5,
-        "change_pct": 0.03,
+        "point": 7705.0,
+        "change_pct": -0.03,
         "spark": [
           7703.5,
-          7719.0,
-          7719.25,
           7722.75,
           7724.5,
           7724.75,
@@ -6309,21 +6313,23 @@
           7698.25,
           7709.75,
           7706.75,
-          7709.5
+          7705.0,
+          7705.0,
+          7705.0
         ],
         "candle": {
           "o": 7703.5,
           "h": 7739.25,
           "l": 7692.25,
-          "c": 7709.75
+          "c": 7706.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 20.69,
-          "high_change_pct": -1.44
+          "low_change_pct": 20.63,
+          "high_change_pct": -1.49
         },
         "daily_expanded": [
           {
@@ -8339,21 +8345,21 @@
             "o": 7703.5,
             "h": 7739.25,
             "l": 7692.25,
-            "c": 7709.75,
-            "v": 249808
+            "c": 7706.0,
+            "v": 306604
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "일본은행 금리 인상(1.25% 31년 최고)과 Fed 의장 Warsh 추가 인상 시사로 글로벌 통화 긴축 신호 강화. 미국 주택착공 부진·유가 3일 연속 하락·채권 수익률 하락으로 경기 불확실성과 정책 기대 엇갈림. 에너지 공급 우려 일시 완화 가운데 주간 주가지수 6주 만 최대 낙폭 회복 국면.",
+          "summary": "매크로 혼조 신호 심화. 일본 금리 인상(1.25% 31년 만 최고)에 엔 약세 · 미국 장기채 수익률 하락 역설, 연준 Kevin Warsh 매파 발언 대비 시장 신뢰도 회복. 주택착공 부진(-2.6%), 유가 하락(사우디 공급 우려 완화) → 에너지 압력 경감 · 경기 둔화 신호 동시 진행",
           "sources": [
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-raises-benchmark-interest-rate-to-1-25-highest-level-since-1995-2b28cbe9?mod=rss_socialeconomyfeed"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/09/18/japan-rate-hike-stocks-rise-bond-yields-yen-fall.html"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/economy/central-banking/warsh-takes-hawkish-turn-with-rate-rise-and-hints-of-more-to-come-d52c6ad9?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-18-2026?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
@@ -8365,12 +8371,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29811.0,
-        "change_pct": 0.23,
+        "point": 29835.5,
+        "change_pct": 0.31,
         "spark": [
           29723.75,
-          29871.5,
-          29877.75,
           29885.25,
           29896.75,
           29892.25,
@@ -8408,21 +8412,23 @@
           29768.75,
           29814.25,
           29810.75,
-          29811.0
+          29836.25,
+          29816.75,
+          29835.5
         ],
         "candle": {
           "o": 29723.75,
           "h": 29966.75,
           "l": 29648.0,
-          "c": 29811.0
+          "c": 29837.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 28.83,
-          "high_change_pct": -2.94
+          "low_change_pct": 28.94,
+          "high_change_pct": -2.85
         },
         "daily_expanded": [
           {
@@ -10438,25 +10444,17 @@
             "o": 29723.75,
             "h": 29966.75,
             "l": 29648.0,
-            "c": 29811.0,
-            "v": 134376
+            "c": 29837.0,
+            "v": 158999
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "AI 강세에 나스닥100 선물 주간 최대 낙폭 후 회복세. 빅테크 매수세 유입 지속, 바이오테크 정책 우호화로 리스크온 심화 중.",
+          "summary": "기술주 강세 선물. AI 펀딩 열풍 지속, Meta 지능형 에이전트 확대, 필리핀 핀테크 유니콘 IPO 모멘텀 → 성장주 수급 긍정적",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-18-2026?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
               "url": "https://www.wsj.com/tech/ai/metas-ai-agent-has-a-trust-problem-5ee5882c?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/health/pharma/trump-administration-shift-puts-this-corner-of-biotech-back-in-favor-2abc0ae3?mod=rss_markets_main"
             }
           ]
         }
@@ -10464,12 +10462,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52101.0,
-        "change_pct": -0.23,
+        "point": 52066.0,
+        "change_pct": -0.29,
         "spark": [
           52201.0,
-          52237.0,
-          52235.0,
           52261.0,
           52272.0,
           52280.0,
@@ -10507,21 +10503,23 @@
           52028.0,
           52139.0,
           52077.0,
-          52101.0
+          52039.0,
+          52041.0,
+          52066.0
         ],
         "candle": {
           "o": 52201.0,
           "h": 52380.0,
           "l": 51999.0,
-          "c": 52101.0
+          "c": 52066.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 14.7,
-          "high_change_pct": -4.39
+          "low_change_pct": 14.62,
+          "high_change_pct": -4.46
         },
         "daily_expanded": [
           {
@@ -12537,13 +12535,13 @@
             "o": 52201.0,
             "h": 52380.0,
             "l": 51999.0,
-            "c": 52101.0,
-            "v": 19144
+            "c": 52066.0,
+            "v": 24276
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "버크셋 해서웨이 경영진 교체(Buffett 회장 물러남)로 대형주 리더십 변동 신호. 에너지 기업 유가 3일 연속 하락 영향, 주택건설 부진으로 건설·산업재 다우 구성주 약세. 경기민감 섹터 둔화 우려 심화 중.",
+          "summary": "전통업 약세 신호. Warren Buffett 버크셔 회장직 사퇴 · Private Equity 좀비펀드 문제 심화(금리 부담 악화). 에너지 부문 유가 3일 연속 하락, 운송·트럭(디젤 사상 최고 $6.31/갤런 인상 부담) 비용 압력 증가 → 경기민감 섹터 수익성 악화 추세",
           "sources": [
             {
               "name": "WSJ",
@@ -12551,11 +12549,11 @@
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-for-third-day-as-wti-slips-below-100-e533d2fe?mod=rss_worldnews"
+              "url": "https://www.wsj.com/pro/bankruptcy/daily-briefing-higher-rates-deepen-private-equitys-zombie-fund-problem-26ac6796?mod=rss_markets_main"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/economy/housing/u-s-housing-starts-fell-in-august-56abae28?mod=rss_socialeconomyfeed"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/09/16/transport-economy-diesel-prices-iran.html"
             }
           ]
         }
@@ -12563,35 +12561,27 @@
     ]
   },
   "regular_open": true,
-  "intraday_refreshed_kst": "2026-09-18T22:40:20.823881+09:00",
+  "intraday_refreshed_kst": "2026-09-18T22:52:32.857340+09:00",
   "_futures_news": {
     "NASDAQ": {
-      "summary": "AI 강세에 나스닥100 선물 주간 최대 낙폭 후 회복세. 빅테크 매수세 유입 지속, 바이오테크 정책 우호화로 리스크온 심화 중.",
+      "summary": "기술주 강세 선물. AI 펀딩 열풍 지속, Meta 지능형 에이전트 확대, 필리핀 핀테크 유니콘 IPO 모멘텀 → 성장주 수급 긍정적",
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-18-2026?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
           "url": "https://www.wsj.com/tech/ai/metas-ai-agent-has-a-trust-problem-5ee5882c?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/health/pharma/trump-administration-shift-puts-this-corner-of-biotech-back-in-favor-2abc0ae3?mod=rss_markets_main"
         }
       ]
     },
     "S&P500": {
-      "summary": "일본은행 금리 인상(1.25% 31년 최고)과 Fed 의장 Warsh 추가 인상 시사로 글로벌 통화 긴축 신호 강화. 미국 주택착공 부진·유가 3일 연속 하락·채권 수익률 하락으로 경기 불확실성과 정책 기대 엇갈림. 에너지 공급 우려 일시 완화 가운데 주간 주가지수 6주 만 최대 낙폭 회복 국면.",
+      "summary": "매크로 혼조 신호 심화. 일본 금리 인상(1.25% 31년 만 최고)에 엔 약세 · 미국 장기채 수익률 하락 역설, 연준 Kevin Warsh 매파 발언 대비 시장 신뢰도 회복. 주택착공 부진(-2.6%), 유가 하락(사우디 공급 우려 완화) → 에너지 압력 경감 · 경기 둔화 신호 동시 진행",
       "sources": [
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-raises-benchmark-interest-rate-to-1-25-highest-level-since-1995-2b28cbe9?mod=rss_socialeconomyfeed"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/18/japan-rate-hike-stocks-rise-bond-yields-yen-fall.html"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/economy/central-banking/warsh-takes-hawkish-turn-with-rate-rise-and-hints-of-more-to-come-d52c6ad9?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-18-2026?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
@@ -12600,7 +12590,7 @@
       ]
     },
     "DOW": {
-      "summary": "버크셋 해서웨이 경영진 교체(Buffett 회장 물러남)로 대형주 리더십 변동 신호. 에너지 기업 유가 3일 연속 하락 영향, 주택건설 부진으로 건설·산업재 다우 구성주 약세. 경기민감 섹터 둔화 우려 심화 중.",
+      "summary": "전통업 약세 신호. Warren Buffett 버크셔 회장직 사퇴 · Private Equity 좀비펀드 문제 심화(금리 부담 악화). 에너지 부문 유가 3일 연속 하락, 운송·트럭(디젤 사상 최고 $6.31/갤런 인상 부담) 비용 압력 증가 → 경기민감 섹터 수익성 악화 추세",
       "sources": [
         {
           "name": "WSJ",
@@ -12608,11 +12598,11 @@
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-for-third-day-as-wti-slips-below-100-e533d2fe?mod=rss_worldnews"
+          "url": "https://www.wsj.com/pro/bankruptcy/daily-briefing-higher-rates-deepen-private-equitys-zombie-fund-problem-26ac6796?mod=rss_markets_main"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/economy/housing/u-s-housing-starts-fell-in-august-56abae28?mod=rss_socialeconomyfeed"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/16/transport-economy-diesel-prices-iran.html"
         }
       ]
     }
