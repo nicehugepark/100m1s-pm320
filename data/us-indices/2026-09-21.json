@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26921.8,
-      "change_pct": 1.51,
+      "point": 26927.8,
+      "change_pct": 1.53,
       "candle": {
         "o": 26726.45,
-        "h": 26928.03,
+        "h": 26950.32,
         "l": 26717.52,
-        "c": 26921.8
+        "c": 26927.8
       },
       "range_240d": {
         "low": 20794.64,
@@ -2031,9 +2031,9 @@
         {
           "date": "2026-09-21",
           "o": 26726.45,
-          "h": 26928.03,
+          "h": 26950.32,
           "l": 26717.52,
-          "c": 26921.8
+          "c": 26927.8
         }
       ],
       "spark": [
@@ -2050,7 +2050,9 @@
         26887.06,
         26913.03,
         26923.15,
-        26921.8
+        26930.31,
+        26928.02,
+        26927.8
       ],
       "news": {
         "summary": "AI 섹터 혼조 추세. Anthropic IPO 지연에도 생성형 AI 투자 열풍은 지속 중이나, Meta의 AI 에이전트 신뢰 문제로 빅테크 데이터 활용 우려 대두. FDA 규제 완화로 희귀질환 바이오테크 재조명 진행 중.",
@@ -2074,13 +2076,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7720.15,
-      "change_pct": 0.91,
+      "point": 7723.15,
+      "change_pct": 0.95,
       "candle": {
         "o": 7692.83,
-        "h": 7723.18,
+        "h": 7725.63,
         "l": 7691.19,
-        "c": 7720.15
+        "c": 7723.15
       },
       "range_240d": {
         "low": 6343.72,
@@ -4102,9 +4104,9 @@
         {
           "date": "2026-09-21",
           "o": 7692.83,
-          "h": 7723.18,
+          "h": 7725.63,
           "l": 7691.19,
-          "c": 7720.15
+          "c": 7723.15
         }
       ],
       "spark": [
@@ -4121,7 +4123,9 @@
         7714.62,
         7720.6,
         7720.73,
-        7720.15
+        7721.9,
+        7723.22,
+        7723.15
       ],
       "news": {
         "summary": "금리 상승·경기둔화 신호 상충으로 불확실성 심화. BOJ 금리 인상으로 글로벌 금리 기대 상승 중이며 미 장기채 수익률 2년만 최고 수준. 동시에 경기 선행지수·산업생산·주택건설 부진으로 경기둔화 우려 점증 중.",
@@ -4145,13 +4149,13 @@
     },
     {
       "name": "DOW",
-      "point": 51895.69,
-      "change_pct": 0.41,
+      "point": 51908.73,
+      "change_pct": 0.44,
       "candle": {
         "o": 51936.76,
         "h": 52030.86,
         "l": 51747.68,
-        "c": 51895.69
+        "c": 51908.73
       },
       "range_240d": {
         "low": 45166.64,
@@ -6175,7 +6179,7 @@
           "o": 51936.76,
           "h": 52030.86,
           "l": 51747.68,
-          "c": 51895.69
+          "c": 51908.73
         }
       ],
       "spark": [
@@ -6192,7 +6196,9 @@
         51880.02,
         51916.57,
         51894.95,
-        51895.69
+        51897.53,
+        51909.35,
+        51908.73
       ],
       "news": {
         "summary": "경기민감 대형주 부담 심화 추세. 버핏의 Berkshire 회장직 물러남으로 대규모 자본배분 정책 변화 가능성 대두. 금리 상승으로 고배당 블루칩의 이자율 민감성 악화하는 중이며, 경기둔화 우려가 산업재·금융주 수익성 전망 압박.",
@@ -6217,146 +6223,140 @@
   ],
   "news_chips": [
     {
-      "summary": "호르무즈 해협 유동성 회복 전망으로 유가 4일 연속 하락",
+      "summary": "호르무즈 해협 유동량 개선 전망과 외교 협상 가능성으로 유가가 4일 연속 하락했다.",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-for-fourth-day-as-supply-concerns-ease-f2583983?mod=rss_worldnews",
       "published_ts": 1789994400.0,
       "impact_high": true
     },
     {
-      "summary": "정부 채권 수익률 하락, 유가 약세와 금리 경로 재평가로 안전자산 수요 증가",
+      "summary": "유가 하락과 중앙은행 인플레이션 정책 신뢰 회복으로 글로벌 정부채 수익률이 하락세로 돌아섰다.",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/government-bond-yields-fall-as-risk-sentiment-tentatively-improves-eba4b0ef?mod=rss_socialeconomyfeed",
       "published_ts": 1789980600.0,
       "impact_high": true
     },
     {
-      "summary": "10년물 Treasury 수익률 5% 근처 도달, 팬데믹 이후 정책 불확실성 누적",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/see-the-10-year-treasury-yields-wild-ride-on-the-road-to-5-22e4bbc2?mod=rss_markets_main",
-      "published_ts": 1789952400.0,
+      "summary": "일본 중앙은행이 기준금리를 1.25%로 인상해 30년 최고 수준에 도달했으며, 엔화 약세와 글로벌 금리 구조 변화를 초래했다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/18/japan-rate-hike-stocks-rise-bond-yields-yen-fall.html",
+      "published_ts": 1789952545.0,
       "impact_high": true
     },
     {
-      "summary": "나스닥 선물 상승, 유가 하락과 AI 낙관론으로 기술주 강세",
+      "summary": "미중 정상회담 가능성에 대한 낙관론으로 AI 관련주가 강세를 보이며 나스닥을 견인했다.",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-21-2026?mod=rss_markets_main",
       "published_ts": 1789980328.0,
       "impact_high": false
     },
     {
-      "summary": "호르무즈 해협 유조선 부족으로 운임료 급등, 휘발유 가격 상승 압력 지속",
+      "summary": "호르무즈 해협 유조선 운임이 사상 최고에 도달했으나, 현물유가 하락으로 정제유 가격 상승폭은 제한적이다.",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/business/energy-oil/a-shortage-of-oil-tankers-is-threatening-to-keep-gas-prices-high-66b2675a?mod=rss_worldnews",
       "published_ts": 1789948800.0,
       "impact_high": false
     },
     {
-      "summary": "이란·우크라이나 분쟁으로 중동·러시아 정유 의존도 심화, 디젤 공급 병목 심화",
+      "summary": "이란·우크라이나 분쟁으로 중동과 러시아의 석유 정제 능력 의존도 증가로 원유가보다 정제유 공급이 에너지 가격의 핵심 제약이 되었다.",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/business/energy-oil/refineries-are-now-the-main-chokepoint-for-global-energy-supplies-f923e1ba?mod=rss_worldnews",
       "published_ts": 1789900080.0,
       "impact_high": true
     },
     {
-      "summary": "미국 소비자 심리 악화 지속, 경제 지표와 괴리로 사회적 불만 반영",
+      "summary": "경제 펀더멘탈이 견고함에도 불구하고 소비자 심리가 약세인 것으로 나타났다.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/19/goldman-sachs-happiness-struggling-consumer-sentiment.html",
       "published_ts": 1789822249.0,
       "impact_high": false
     },
     {
-      "summary": "미국 8월 산업생산 0% 정체(예상 0.3% 증가), 경기 약세 우려 증폭",
+      "summary": "AI 대형 기업 앤스로픽의 기업공개가 예정보다 한 달 연기되어 시장 불확실성을 반영했다.",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/tech/ai/anthropics-ipo-will-happen-a-month-later-than-expected-a334b10e?mod=rss_socialeconomyfeed",
+      "published_ts": 1789767780.0,
+      "impact_high": true
+    },
+    {
+      "summary": "8월 미국 산업생산이 전월 대비 변화 없어 경제 성장 모멘텀 약화 신호를 보냈다.",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/u-s-industrial-production-unchanged-in-august-1da4acad?mod=rss_socialeconomyfeed",
       "published_ts": 1789739460.0,
       "impact_high": false
     },
     {
-      "summary": "일본 중앙은행 금리 1.25% 인상(30년 최고), 엔화 약세로 일본 자본의 미국 자산 흡수력 감소",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-raises-benchmark-interest-rate-to-1-25-highest-level-since-1995-2b28cbe9?mod=rss_socialeconomyfeed",
-      "published_ts": 1789721760.0,
-      "impact_high": true
-    },
-    {
-      "summary": "미국 8월 주택 착공 2.6% 감소, 금리 부담 누적으로 주택 경기 부진",
+      "summary": "8월 미국 주택 착공이 2.6% 감소했으며 금리 상승이 주택시장 둔화를 주도하고 있다.",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/housing/u-s-housing-starts-fell-in-august-56abae28?mod=rss_socialeconomyfeed",
       "published_ts": 1789650660.0,
       "impact_high": false
     }
   ],
-  "_article_sig": "4fadb13e538decfb6b48325923d6ba1da38b75e0010e5d14a6aa560d89eb00cd",
+  "_article_sig": "7cd7942305c94c23dbc65f0a0045165550372243937e4f6711d8f80a230cc6bd",
   "built_at_kst": "2026-09-19T07:03:28.699081+09:00",
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "인공지능 투자 관심 지속되나 Anthropic IPO 일정 연기로 공급 감소. 미중 협상 낙관론에 AI주 매수세 유입하는 한편, Meta 에이전트의 신뢰 이슈 부각되며 빅테크 변동성 고조.",
+      "summary": "미중 회담 기대감 속 AI 관련주 매수세 확산. Anthropic IPO 지연 여파로 변동성 있으나, 빅테크 강세 동조 신호 우위. 메타 AI 에이전트 신뢰도 이슈로 일부 제약.",
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/tech/ai/anthropics-ipo-will-happen-a-month-later-than-expected-a334b10e?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-21-2026?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/tech/ai/metas-ai-agent-has-a-trust-problem-5ee5882c?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-21-2026?mod=rss_markets_main"
         }
       ]
     },
     "S&P500": {
-      "summary": "일본중앙은행 기준금리 인상(1.25%)으로 글로벌 금리 구조 조정 신호 강화. 미국 주택 착공 2.6% 감소·산업생산 정체하는 가운데 채권 수익률 하락 추세. 석유 가격 4일 연속 낙폭으로 공급 우려 완화되나 소비자심리 약세·경기 전망 불명확.",
+      "summary": "유가 하락으로 공급 우려 완화, 시장 심리 개선 국면. 일본 BOJ 금리 인상 영향 확산 속 글로벌 채권 수익률 하락세. 미국 산업생산 정체·주택착공 부진으로 경기 약화 신호 신중 평가 필요.",
       "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-21-2026?mod=rss_markets_main"
+        },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-raises-benchmark-interest-rate-to-1-25-highest-level-since-1995-2b28cbe9?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/see-the-10-year-treasury-yields-wild-ride-on-the-road-to-5-22e4bbc2?mod=rss_markets_main"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/19/goldman-sachs-happiness-struggling-consumer-sentiment.html"
+          "url": "https://www.wsj.com/economy/central-banking/government-bond-yields-fall-as-risk-sentiment-tentatively-improves-eba4b0ef?mod=rss_socialeconomyfeed"
         }
       ]
     },
     "DOW": {
-      "summary": "관세 압박에 전통 산업주 제약 심화—하레이다비슨 캐나다 소비자 충격, 자동차부품주 회복력 약함. 소시에테제네랄 수익성 개선에도 경기 우려 상쇄. 이란 분쟁으로 디젤 사상 최고(갤런당 $6.31) 달성, 물류 기업 경고음 심화·주택 부진 겹쳐 경기 둔화 신호 가중.",
+      "summary": "유가 4일 연속 하락으로 에너지 가격 안정화 신호 강화. 자동차·자동차부품 관세 리스크 산재 속 소시에테 제네랄 등 금융주 수익성 개선 기대. 호주 RBA 물가 우려 경고로 인플레 심화 우력 평가.",
       "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-for-fourth-day-as-supply-concerns-ease-f2583983?mod=rss_worldnews"
+        },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/economy/trade/how-harley-davidson-an-american-icon-became-a-tariff-punching-bag-3eb09c06?mod=rss_socialeconomyfeed"
         },
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/16/transport-economy-diesel-prices-iran.html"
-        },
-        {
           "name": "WSJ",
-          "url": "https://www.wsj.com/economy/housing/u-s-housing-starts-fell-in-august-56abae28?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/business/earnings/societe-generale-targets-boost-to-profitability-shareholder-payouts-dffabc2b?mod=rss_markets_main"
         }
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-09-21T23:30:32.883876+09:00",
+  "intraday_refreshed_kst": "2026-09-21T23:42:08.429216+09:00",
   "futures": {
-    "as_of_kst": "2026-09-21T23:30:21.618424+09:00",
+    "as_of_kst": "2026-09-21T23:40:12.121860+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7781.75,
-        "change_pct": 0.9,
+        "point": 7787.0,
+        "change_pct": 0.97,
         "spark": [
           7722.0,
-          7764.5,
-          7765.75,
           7763.5,
           7764.25,
           7766.25,
@@ -6394,21 +6394,23 @@
           7775.5,
           7782.0,
           7788.5,
-          7781.75
+          7788.0,
+          7789.25,
+          7787.0
         ],
         "candle": {
           "o": 7722.0,
-          "h": 7782.75,
+          "h": 7791.0,
           "l": 7713.75,
-          "c": 7781.75
+          "c": 7787.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7822.5,
           "low_date": "2026-03-30",
           "high_date": "2026-08-13",
-          "low_change_pct": 21.81,
-          "high_change_pct": -0.52
+          "low_change_pct": 21.9,
+          "high_change_pct": -0.45
         },
         "daily_expanded": [
           {
@@ -8414,27 +8416,27 @@
           {
             "date": "2026-09-21",
             "o": 7722.0,
-            "h": 7782.75,
+            "h": 7791.0,
             "l": 7713.75,
-            "c": 7781.75,
-            "v": 366168
+            "c": 7787.0,
+            "v": 405687
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "일본중앙은행 기준금리 인상(1.25%)으로 글로벌 금리 구조 조정 신호 강화. 미국 주택 착공 2.6% 감소·산업생산 정체하는 가운데 채권 수익률 하락 추세. 석유 가격 4일 연속 낙폭으로 공급 우려 완화되나 소비자심리 약세·경기 전망 불명확.",
+          "summary": "유가 하락으로 공급 우려 완화, 시장 심리 개선 국면. 일본 BOJ 금리 인상 영향 확산 속 글로벌 채권 수익률 하락세. 미국 산업생산 정체·주택착공 부진으로 경기 약화 신호 신중 평가 필요.",
           "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-21-2026?mod=rss_markets_main"
+            },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-raises-benchmark-interest-rate-to-1-25-highest-level-since-1995-2b28cbe9?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/see-the-10-year-treasury-yields-wild-ride-on-the-road-to-5-22e4bbc2?mod=rss_markets_main"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/09/19/goldman-sachs-happiness-struggling-consumer-sentiment.html"
+              "url": "https://www.wsj.com/economy/central-banking/government-bond-yields-fall-as-risk-sentiment-tentatively-improves-eba4b0ef?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8442,12 +8444,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30467.0,
-        "change_pct": 1.84,
+        "point": 30513.5,
+        "change_pct": 1.99,
         "spark": [
           29938.0,
-          30232.5,
-          30239.75,
           30223.5,
           30225.75,
           30234.25,
@@ -8485,21 +8485,23 @@
           30436.75,
           30468.75,
           30502.5,
-          30467.0
+          30518.0,
+          30524.25,
+          30513.5
         ],
         "candle": {
           "o": 29938.0,
-          "h": 30471.75,
+          "h": 30519.75,
           "l": 29904.0,
-          "c": 30467.75
+          "c": 30513.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 30712.75,
           "low_date": "2026-03-30",
           "high_date": "2026-06-02",
-          "low_change_pct": 31.67,
-          "high_change_pct": -0.8
+          "low_change_pct": 31.87,
+          "high_change_pct": -0.65
         },
         "daily_expanded": [
           {
@@ -10505,27 +10507,23 @@
           {
             "date": "2026-09-21",
             "o": 29938.0,
-            "h": 30471.75,
+            "h": 30519.75,
             "l": 29904.0,
-            "c": 30467.75,
-            "v": 211297
+            "c": 30513.75,
+            "v": 227174
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "인공지능 투자 관심 지속되나 Anthropic IPO 일정 연기로 공급 감소. 미중 협상 낙관론에 AI주 매수세 유입하는 한편, Meta 에이전트의 신뢰 이슈 부각되며 빅테크 변동성 고조.",
+          "summary": "미중 회담 기대감 속 AI 관련주 매수세 확산. Anthropic IPO 지연 여파로 변동성 있으나, 빅테크 강세 동조 신호 우위. 메타 AI 에이전트 신뢰도 이슈로 일부 제약.",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/tech/ai/anthropics-ipo-will-happen-a-month-later-than-expected-a334b10e?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-21-2026?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/tech/ai/metas-ai-agent-has-a-trust-problem-5ee5882c?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-21-2026?mod=rss_markets_main"
             }
           ]
         }
@@ -10533,12 +10531,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52295.0,
-        "change_pct": 0.41,
+        "point": 52309.0,
+        "change_pct": 0.44,
         "spark": [
           52085.0,
-          52483.0,
-          52505.0,
           52498.0,
           52499.0,
           52514.0,
@@ -10576,21 +10572,23 @@
           52241.0,
           52288.0,
           52330.0,
-          52295.0
+          52307.0,
+          52308.0,
+          52309.0
         ],
         "candle": {
           "o": 52085.0,
           "h": 52557.0,
           "l": 52080.0,
-          "c": 52295.0
+          "c": 52313.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.13,
-          "high_change_pct": -4.04
+          "low_change_pct": 15.17,
+          "high_change_pct": -4.0
         },
         "daily_expanded": [
           {
@@ -12598,25 +12596,25 @@
             "o": 52085.0,
             "h": 52557.0,
             "l": 52080.0,
-            "c": 52295.0,
-            "v": 33513
+            "c": 52313.0,
+            "v": 35384
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "관세 압박에 전통 산업주 제약 심화—하레이다비슨 캐나다 소비자 충격, 자동차부품주 회복력 약함. 소시에테제네랄 수익성 개선에도 경기 우려 상쇄. 이란 분쟁으로 디젤 사상 최고(갤런당 $6.31) 달성, 물류 기업 경고음 심화·주택 부진 겹쳐 경기 둔화 신호 가중.",
+          "summary": "유가 4일 연속 하락으로 에너지 가격 안정화 신호 강화. 자동차·자동차부품 관세 리스크 산재 속 소시에테 제네랄 등 금융주 수익성 개선 기대. 호주 RBA 물가 우려 경고로 인플레 심화 우력 평가.",
           "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-for-fourth-day-as-supply-concerns-ease-f2583983?mod=rss_worldnews"
+            },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/economy/trade/how-harley-davidson-an-american-icon-became-a-tariff-punching-bag-3eb09c06?mod=rss_socialeconomyfeed"
             },
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/09/16/transport-economy-diesel-prices-iran.html"
-            },
-            {
               "name": "WSJ",
-              "url": "https://www.wsj.com/economy/housing/u-s-housing-starts-fell-in-august-56abae28?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/business/earnings/societe-generale-targets-boost-to-profitability-shareholder-payouts-dffabc2b?mod=rss_markets_main"
             }
           ]
         }
