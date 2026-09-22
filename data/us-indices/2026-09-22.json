@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 27228.12,
-      "change_pct": 0.39,
+      "point": 27218.81,
+      "change_pct": 0.36,
       "candle": {
         "o": 27170.5,
         "h": 27250.56,
         "l": 27170.5,
-        "c": 27228.12
+        "c": 27218.81
       },
       "range_240d": {
         "low": 20794.64,
@@ -2040,7 +2040,7 @@
           "o": 27170.5,
           "h": 27250.56,
           "l": 27170.5,
-          "c": 27228.12
+          "c": 27218.81
         }
       ],
       "spark": [
@@ -2051,7 +2051,9 @@
         27229.01,
         27235.79,
         27223.1,
-        27228.12
+        27219.96,
+        27215.23,
+        27218.81
       ],
       "news": {
         "summary": "AI 섹터 혼조 추세. Anthropic IPO 지연에도 생성형 AI 투자 열풍은 지속 중이나, Meta의 AI 에이전트 신뢰 문제로 빅테크 데이터 활용 우려 대두. FDA 규제 완화로 희귀질환 바이오테크 재조명 진행 중.",
@@ -2075,13 +2077,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7769.84,
-      "change_pct": 0.07,
+      "point": 7769.5,
+      "change_pct": 0.06,
       "candle": {
         "o": 7770.81,
         "h": 7782.19,
         "l": 7766.83,
-        "c": 7769.84
+        "c": 7769.5
       },
       "range_240d": {
         "low": 6343.72,
@@ -4112,7 +4114,7 @@
           "o": 7770.81,
           "h": 7782.19,
           "l": 7766.83,
-          "c": 7769.84
+          "c": 7769.5
         }
       ],
       "spark": [
@@ -4123,7 +4125,9 @@
         7773.73,
         7771.18,
         7768.58,
-        7769.84
+        7771.52,
+        7768.6,
+        7769.5
       ],
       "news": {
         "summary": "금리 상승·경기둔화 신호 상충으로 불확실성 심화. BOJ 금리 인상으로 글로벌 금리 기대 상승 중이며 미 장기채 수익률 2년만 최고 수준. 동시에 경기 선행지수·산업생산·주택건설 부진으로 경기둔화 우려 점증 중.",
@@ -4147,13 +4151,13 @@
     },
     {
       "name": "DOW",
-      "point": 51979.82,
-      "change_pct": -0.13,
+      "point": 51942.62,
+      "change_pct": -0.2,
       "candle": {
         "o": 52301.92,
         "h": 52319.01,
-        "l": 51966.74,
-        "c": 51979.82
+        "l": 51934.87,
+        "c": 51942.62
       },
       "range_240d": {
         "low": 45166.64,
@@ -6183,8 +6187,8 @@
           "date": "2026-09-22",
           "o": 52301.92,
           "h": 52319.01,
-          "l": 51966.74,
-          "c": 51979.82
+          "l": 51934.87,
+          "c": 51942.62
         }
       ],
       "spark": [
@@ -6195,7 +6199,9 @@
         52050.06,
         51972.48,
         51979.04,
-        51979.82
+        52007.51,
+        51937.1,
+        51942.62
       ],
       "news": {
         "summary": "경기민감 대형주 부담 심화 추세. 버핏의 Berkshire 회장직 물러남으로 대규모 자본배분 정책 변화 가능성 대두. 금리 상승으로 고배당 블루칩의 이자율 민감성 악화하는 중이며, 경기둔화 우려가 산업재·금융주 수익성 전망 압박.",
@@ -6220,82 +6226,82 @@
   ],
   "news_chips": [
     {
-      "summary": "이란의 호르무즈 재개방 제안으로 유가가 배럴당 100달러 아래로 하락",
+      "summary": "유가가 미국-이란 외교 기대에 4일째 하락하며 배럴당 $100 아래로 내려감",
       "source": "WSJ",
-      "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-as-hormuz-shipping-risks-persist-363fbeb1?mod=rss_worldnews",
-      "published_ts": 1790074200.0,
-      "impact_high": true
+      "url": "https://www.wsj.com/finance/stocks/dividend-cuts-send-a-bearish-signal-a57c2bc0?mod=rss_markets_main",
+      "published_ts": 1790072820.0,
+      "impact_high": false
     },
     {
-      "summary": "호르무즈 해협 공급 개선과 이란 외교 전망으로 유가 4일 연속 하락",
+      "summary": "영국 정부 8월 차입이 전년 대비 증가하며 적자 감소 계획에 차질 우려",
       "source": "WSJ",
-      "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-for-fourth-day-as-supply-concerns-ease-f2583983?mod=rss_worldnews",
-      "published_ts": 1790020860.0,
-      "impact_high": true
+      "url": "https://www.wsj.com/economy/uk-government-borrowing-rose-in-august-as-budget-looms-1b5afb71?mod=rss_socialeconomyfeed",
+      "published_ts": 1790071620.0,
+      "impact_high": false
     },
     {
-      "summary": "유가가 배럴당 100달러 아래로 하락하면서 나스닥 선물 상승 신호",
+      "summary": "멀티패밀리 아파트 모기지 연체율이 53%에 달해 부동산 리스크 부각",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/real-estate/looking-for-real-estate-bargains-watch-these-apartment-loans-cc49fa8e?mod=rss_markets_main",
+      "published_ts": 1790069400.0,
+      "impact_high": false
+    },
+    {
+      "summary": "나스닥이 메타의 강세에 힘입어 사상 최고점 마감, AI/반도체 주식이 주도",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-22-2026?mod=rss_markets_main",
       "published_ts": 1790066224.0,
       "impact_high": false
     },
     {
-      "summary": "메타 주도 빅테크 강세로 나스닥이 사상 최고가 기록",
+      "summary": "메타의 랠리가 매그니피센트 7을 견인하며 기술주 반등 가속화",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/stocks/meta-magnificent-seven-tech-stock-5a793174?mod=rss_markets_main",
       "published_ts": 1790024820.0,
       "impact_high": false
     },
     {
-      "summary": "AI·반도체 주도 급등으로 기술주 섹터 강세 지속",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/ai-and-chip-stocks-race-ahead-5cbdea7d?mod=rss_markets_main",
-      "published_ts": 1790023320.0,
-      "impact_high": false
-    },
-    {
-      "summary": "정부채 수익률 하락으로 글로벌 위험자산 심리 개선 신호",
+      "summary": "정부채 수익률이 하락하면서 유가 약세·위험자산 선호도 회복 신호",
       "source": "WSJ",
       "url": "https://www.wsj.com/economy/central-banking/government-bond-yields-fall-as-risk-sentiment-tentatively-improves-eba4b0ef?mod=rss_socialeconomyfeed",
       "published_ts": 1789980600.0,
       "impact_high": true
     },
     {
-      "summary": "호르무즈 해협 유조선 부족으로 유가 하락에도 휘발유값 하락 제약",
+      "summary": "일본 중앙은행의 금리 인상 후 엔화 약세·닛케이지수 1.5% 상승으로 시장 반응 역전",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/18/japan-rate-hike-stocks-rise-bond-yields-yen-fall.html",
+      "published_ts": 1789952545.0,
+      "impact_high": true
+    },
+    {
+      "summary": "호르무즈 해협 유조선 부족으로 유가 하락에도 불구하고 휘발유값은 고가 유지",
       "source": "WSJ",
       "url": "https://www.wsj.com/business/energy-oil/a-shortage-of-oil-tankers-is-threatening-to-keep-gas-prices-high-66b2675a?mod=rss_worldnews",
       "published_ts": 1789948800.0,
       "impact_high": false
     },
     {
-      "summary": "연준 감독 과실이 실리콘밸리은행 붕괴의 원인으로 지적",
+      "summary": "미국 8월 산업생산이 정체되며 경기 약세 신호 점화",
       "source": "WSJ",
-      "url": "https://www.wsj.com/economy/central-banking/new-fed-report-on-svb-collapse-pins-blame-on-feds-own-regulators-9a3cb062?mod=rss_markets_main",
-      "published_ts": 1789753860.0,
-      "impact_high": true
-    },
-    {
-      "summary": "일본은행 금리 인상으로 엔화 약세, 도쿄 투자자들의 미국 자산 매력 감소",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-raises-benchmark-interest-rate-to-1-25-highest-level-since-1995-2b28cbe9?mod=rss_worldnews",
-      "published_ts": 1789721760.0,
+      "url": "https://www.wsj.com/economy/central-banking/u-s-industrial-production-unchanged-in-august-1da4acad?mod=rss_socialeconomyfeed",
+      "published_ts": 1789739460.0,
       "impact_high": false
     },
     {
-      "summary": "8월 주택 착공이 2.6% 감소하면서 부동산 경기 약세 심화",
+      "summary": "미국 주택 착공이 8월 2.6% 감소하며 건설 경기 약화 가시화",
       "source": "WSJ",
       "url": "https://www.wsj.com/economy/housing/u-s-housing-starts-fell-in-august-56abae28?mod=rss_socialeconomyfeed",
       "published_ts": 1789650660.0,
       "impact_high": false
     }
   ],
-  "_article_sig": "616ff2a95876d4e21a5d6caa6104af32451f9a7031c0673327d5bd2d7e3f98bf",
+  "_article_sig": "72cb3f20bb9366ffe092fba8bbf0f899a6aa72f01d5f7cb9024557bb63566ac6",
   "built_at_kst": "2026-09-19T07:03:28.699081+09:00",
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "매그니피센트 7 중심 반도체·AI 주가 강세. Meta 에이전트 랠리가 나스닥 기술주 기조를 주도하면서 AI 안전 우려를 압도. AI 칩스톡 선행.",
+      "summary": "빅테크 주도 강세 심화. Meta 급등에 Magnificent Seven 반등장, AI·반도체 종목 동시 강세로 나스닥100 선물 일관 상승세.",
       "sources": [
         {
           "name": "WSJ",
@@ -6308,20 +6314,7 @@
       ]
     },
     "S&P500": {
-      "summary": "호르무즈 외교 진전·이란 협상 기대로 유가 4일 연속 낙(배럴당 100달러 붕괴). 기업 배당금 삭감 신호·주택 부진·산업생산 정체로 경기 견조성 의문 제기. 금리 중립 수준 논의 속 채권 수익률 하락 신호 상충.",
-      "sources": [
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/dividend-cuts-send-a-bearish-signal-a57c2bc0?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/economy/housing/u-s-housing-starts-fell-in-august-56abae28?mod=rss_socialeconomyfeed"
-        }
-      ]
-    },
-    "DOW": {
-      "summary": "유가 4연락으로 에너지·해운료 완화, 그룹 수송력 개선 신호. 트럼프 행정부 캐나다 칼륨 공급 대체·벨라루스 수입 카드로 무역 재편 신호. 관세 보복리스트 속 자동차(HD)·산업재 민감. 중국 초과 생산 글로벌 경쟁 심화.",
+      "summary": "유가 $100 붕괴·이란 외교 호재로 광범위 안심. 호르무즈 해협 공급 우려 완화 및 중동 긴장 완화 신호로 매크로 심리 개선, S&P500 선물 경기민감 섹터 광범위 상승.",
       "sources": [
         {
           "name": "WSJ",
@@ -6329,28 +6322,35 @@
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/economy/trade/trump-looks-to-sideline-canadian-potash-with-belarusian-supply-deal-4a7eb147?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-22-2026?mod=rss_markets_main"
+        }
+      ]
+    },
+    "DOW": {
+      "summary": "에너지 약세·자동차 부품 긍정 상쇄. 유가 하락에 Dow 구성 에너지주 약세이나 자동차 부품 소매업체 회복 신호, 해운 병목으로 휘발유 가격 상승 지속 중첩.",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/auto-parts-retailers-can-turn-the-corner-678e02c4?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/economy/trade/how-harley-davidson-an-american-icon-became-a-tariff-punching-bag-3eb09c06?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/business/energy-oil/a-shortage-of-oil-tankers-is-threatening-to-keep-gas-prices-high-66b2675a?mod=rss_worldnews"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-09-22T23:00:18.580625+09:00",
+    "as_of_kst": "2026-09-22T23:10:14.631853+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7839.75,
-        "change_pct": 0.08,
+        "point": 7835.25,
+        "change_pct": 0.02,
         "spark": [
           7830.0,
-          7840.75,
-          7842.5,
           7842.5,
           7838.25,
           7837.75,
@@ -6388,20 +6388,22 @@
           7842.75,
           7839.75,
           7837.0,
-          7839.75
+          7835.0,
+          7837.75,
+          7835.25
         ],
         "candle": {
           "o": 7830.0,
           "h": 7848.5,
           "l": 7810.5,
-          "c": 7840.0
+          "c": 7836.0
         },
         "range_240d": {
           "low": 6388.25,
-          "high": 7840.0,
+          "high": 7836.0,
           "low_date": "2026-03-30",
           "high_date": "2026-09-22",
-          "low_change_pct": 22.73,
+          "low_change_pct": 22.66,
           "high_change_pct": 0.0
         },
         "daily_expanded": [
@@ -8418,21 +8420,21 @@
             "o": 7830.0,
             "h": 7848.5,
             "l": 7810.5,
-            "c": 7840.0,
-            "v": 366058
+            "c": 7836.0,
+            "v": 401266
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "호르무즈 외교 진전·이란 협상 기대로 유가 4일 연속 낙(배럴당 100달러 붕괴). 기업 배당금 삭감 신호·주택 부진·산업생산 정체로 경기 견조성 의문 제기. 금리 중립 수준 논의 속 채권 수익률 하락 신호 상충.",
+          "summary": "유가 $100 붕괴·이란 외교 호재로 광범위 안심. 호르무즈 해협 공급 우려 완화 및 중동 긴장 완화 신호로 매크로 심리 개선, S&P500 선물 경기민감 섹터 광범위 상승.",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/dividend-cuts-send-a-bearish-signal-a57c2bc0?mod=rss_markets_main"
+              "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-for-fourth-day-as-supply-concerns-ease-f2583983?mod=rss_worldnews"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/economy/housing/u-s-housing-starts-fell-in-august-56abae28?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-22-2026?mod=rss_markets_main"
             }
           ]
         }
@@ -8440,12 +8442,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30913.75,
-        "change_pct": 0.42,
+        "point": 30928.75,
+        "change_pct": 0.47,
         "spark": [
           30780.0,
-          30821.5,
-          30829.5,
           30826.25,
           30814.25,
           30810.5,
@@ -8483,20 +8483,22 @@
           30902.25,
           30906.75,
           30941.25,
-          30913.75
+          30930.0,
+          30928.0,
+          30928.75
         ],
         "candle": {
           "o": 30780.0,
-          "h": 30927.5,
+          "h": 30945.0,
           "l": 30670.0,
-          "c": 30913.0
+          "c": 30930.0
         },
         "range_240d": {
           "low": 23139.75,
-          "high": 30913.0,
+          "high": 30930.0,
           "low_date": "2026-03-30",
           "high_date": "2026-09-22",
-          "low_change_pct": 33.59,
+          "low_change_pct": 33.67,
           "high_change_pct": 0.0
         },
         "daily_expanded": [
@@ -10511,15 +10513,15 @@
           {
             "date": "2026-09-22",
             "o": 30780.0,
-            "h": 30927.5,
+            "h": 30945.0,
             "l": 30670.0,
-            "c": 30913.0,
-            "v": 183618
+            "c": 30930.0,
+            "v": 200784
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "매그니피센트 7 중심 반도체·AI 주가 강세. Meta 에이전트 랠리가 나스닥 기술주 기조를 주도하면서 AI 안전 우려를 압도. AI 칩스톡 선행.",
+          "summary": "빅테크 주도 강세 심화. Meta 급등에 Magnificent Seven 반등장, AI·반도체 종목 동시 강세로 나스닥100 선물 일관 상승세.",
           "sources": [
             {
               "name": "WSJ",
@@ -10535,12 +10537,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52444.0,
-        "change_pct": -0.06,
+        "point": 52385.0,
+        "change_pct": -0.17,
         "spark": [
           52470.0,
-          52622.0,
-          52634.0,
           52649.0,
           52618.0,
           52615.0,
@@ -10578,21 +10578,23 @@
           52517.0,
           52459.0,
           52384.0,
-          52444.0
+          52385.0,
+          52410.0,
+          52385.0
         ],
         "candle": {
           "o": 52470.0,
           "h": 52844.0,
           "l": 52307.0,
-          "c": 52444.0
+          "c": 52382.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.45,
-          "high_change_pct": -3.76
+          "low_change_pct": 15.32,
+          "high_change_pct": -3.88
         },
         "daily_expanded": [
           {
@@ -12608,30 +12610,26 @@
             "o": 52470.0,
             "h": 52844.0,
             "l": 52307.0,
-            "c": 52444.0,
-            "v": 33612
+            "c": 52382.0,
+            "v": 36263
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "유가 4연락으로 에너지·해운료 완화, 그룹 수송력 개선 신호. 트럼프 행정부 캐나다 칼륨 공급 대체·벨라루스 수입 카드로 무역 재편 신호. 관세 보복리스트 속 자동차(HD)·산업재 민감. 중국 초과 생산 글로벌 경쟁 심화.",
+          "summary": "에너지 약세·자동차 부품 긍정 상쇄. 유가 하락에 Dow 구성 에너지주 약세이나 자동차 부품 소매업체 회복 신호, 해운 병목으로 휘발유 가격 상승 지속 중첩.",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-for-fourth-day-as-supply-concerns-ease-f2583983?mod=rss_worldnews"
+              "url": "https://www.wsj.com/finance/stocks/auto-parts-retailers-can-turn-the-corner-678e02c4?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/economy/trade/trump-looks-to-sideline-canadian-potash-with-belarusian-supply-deal-4a7eb147?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/economy/trade/how-harley-davidson-an-american-icon-became-a-tariff-punching-bag-3eb09c06?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/business/energy-oil/a-shortage-of-oil-tankers-is-threatening-to-keep-gas-prices-high-66b2675a?mod=rss_worldnews"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-09-22T23:00:30.444089+09:00"
+  "intraday_refreshed_kst": "2026-09-22T23:12:41.744155+09:00"
 }
