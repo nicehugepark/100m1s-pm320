@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26949.21,
-      "change_pct": -1.08,
+      "point": 26967.54,
+      "change_pct": -1.02,
       "candle": {
         "o": 27209.56,
         "h": 27209.56,
         "l": 26874.43,
-        "c": 26949.21
+        "c": 26967.54
       },
       "range_240d": {
         "low": 20794.64,
@@ -2047,13 +2047,11 @@
           "o": 27209.56,
           "h": 27209.56,
           "l": 26874.43,
-          "c": 26949.21
+          "c": 26967.54
         }
       ],
       "spark": [
         27209.56,
-        26948.34,
-        26960.44,
         26968.63,
         27031.82,
         27041.98,
@@ -2091,7 +2089,9 @@
         26904.64,
         26945.29,
         26949.11,
-        26949.21
+        26948.81,
+        26967.29,
+        26967.54
       ],
       "news": {
         "summary": "AI 섹터 혼조 추세. Anthropic IPO 지연에도 생성형 AI 투자 열풍은 지속 중이나, Meta의 AI 에이전트 신뢰 문제로 빅테크 데이터 활용 우려 대두. FDA 규제 완화로 희귀질환 바이오테크 재조명 진행 중.",
@@ -2115,13 +2115,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7714.52,
-      "change_pct": -0.65,
+      "point": 7719.39,
+      "change_pct": -0.58,
       "candle": {
         "o": 7761.94,
         "h": 7761.94,
         "l": 7694.89,
-        "c": 7714.52
+        "c": 7719.39
       },
       "range_240d": {
         "low": 6343.72,
@@ -4159,13 +4159,11 @@
           "o": 7761.94,
           "h": 7761.94,
           "l": 7694.89,
-          "c": 7714.52
+          "c": 7719.39
         }
       ],
       "spark": [
         7761.94,
-        7719.24,
-        7722.27,
         7721.68,
         7733.37,
         7732.54,
@@ -4203,7 +4201,9 @@
         7703.21,
         7714.3,
         7714.33,
-        7714.52
+        7714.39,
+        7719.52,
+        7719.39
       ],
       "news": {
         "summary": "금리 상승·경기둔화 신호 상충으로 불확실성 심화. BOJ 금리 인상으로 글로벌 금리 기대 상승 중이며 미 장기채 수익률 2년만 최고 수준. 동시에 경기 선행지수·산업생산·주택건설 부진으로 경기둔화 우려 점증 중.",
@@ -4227,13 +4227,13 @@
     },
     {
       "name": "DOW",
-      "point": 51609.6,
-      "change_pct": -0.49,
+      "point": 51643.61,
+      "change_pct": -0.42,
       "candle": {
         "o": 51771.41,
         "h": 51846.81,
         "l": 51479.84,
-        "c": 51609.6
+        "c": 51643.61
       },
       "range_240d": {
         "low": 45166.64,
@@ -6271,13 +6271,11 @@
           "o": 51771.41,
           "h": 51846.81,
           "l": 51479.84,
-          "c": 51609.6
+          "c": 51643.61
         }
       ],
       "spark": [
         51771.41,
-        51716.75,
-        51753.28,
         51712.26,
         51763.43,
         51721.28,
@@ -6315,7 +6313,9 @@
         51536.09,
         51594.39,
         51605.82,
-        51609.6
+        51603.31,
+        51647.73,
+        51643.61
       ],
       "news": {
         "summary": "경기민감 대형주 부담 심화 추세. 버핏의 Berkshire 회장직 물러남으로 대규모 자본배분 정책 변화 가능성 대두. 금리 상승으로 고배당 블루칩의 이자율 민감성 악화하는 중이며, 경기둔화 우려가 산업재·금융주 수익성 전망 압박.",
@@ -6340,87 +6340,83 @@
   ],
   "news_chips": [
     {
-      "summary": "연준의 추가 금리인상 전망에 달러가 7월 말 이후 최고 수준으로 상승",
-      "source": "WSJ경제",
+      "summary": "연준 금리 인상 전망 강화로 달러가 8주 고점 도달, 인플레이션 압박 지속",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/central-banking/dollar-jumps-to-8-week-high-as-fed-rate-hike-bets-outweigh-lower-oil-prices-92e6cf72?mod=rss_socialeconomyfeed",
       "published_ts": 1790172660.0,
       "impact_high": true
     },
     {
-      "summary": "유가 상승과 인플레이션 우려로 10년물 수익률이 5.1% 이상 돌파, 나스닥 약세 마감",
+      "summary": "10년물 수익률이 5.1% 이상으로 상승하며 채권 매도 심화, 나스닥 하락",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-23-2026?mod=rss_markets_main",
       "published_ts": 1790153694.0,
       "impact_high": true
     },
     {
-      "summary": "OECD가 글로벌 경제 성장률은 견조하나 중동 장기분쟁과 무역 긴장이 선진국 경제 하강 위험",
-      "source": "WSJ경제",
+      "summary": "글로벌 경제 회복세 중 중동 분쟁·공급망 단절 등 다중 리스크 요인 경고",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/global/global-economy-stronger-than-expected-but-threats-mount-oecd-says-7472619b?mod=rss_socialeconomyfeed",
       "published_ts": 1790152080.0,
       "impact_high": true
     },
     {
-      "summary": "연준 바킨 총재가 현재의 금리인상 1회로는 물가 안정이 불충분할 수 있다고 경고하면서 추가 인상 필요성 제기",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/feds-barkin-says-one-rate-hike-may-not-be-enough-to-tame-inflation-dd338c6c?mod=rss_socialeconomyfeed",
-      "published_ts": 1790099640.0,
-      "impact_high": true
+      "summary": "트럼프 경유 수출 제한 정책으로 에너지 불확실성 확대, 석유업체 반발",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/business/energy-oil/trumps-oil-allies-see-nightmare-scenario-of-diesel-export-ban-becoming-reality-16973ae2?mod=rss_worldnews",
+      "published_ts": 1790182740.0,
+      "impact_high": false
     },
     {
-      "summary": "중국 기업의 후티 무기 공급 증가로 홍해 해운 리스크 확산, 글로벌 유가 안정성 저하",
-      "source": "WSJ세계",
+      "summary": "후티 반군의 중국 공급 확대로 홍해 해운 리스크 상존, 원유 공급망 위협",
+      "source": "WSJ",
       "url": "https://www.wsj.com/world/middle-east/yemens-houthis-threatening-global-oil-are-increasingly-supplied-by-china-6bfcfeec?mod=rss_worldnews",
       "published_ts": 1790172480.0,
       "impact_high": false
     },
     {
-      "summary": "유로존 9월 경기 지표가 3년반 최고 수준으로 회복되면서 유럽 경제 개선 신호",
-      "source": "WSJ경제",
+      "summary": "유로존 경기 활동이 3년반 만에 최고 속도로 증가, 회복 모멘텀 지속",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/business-surveys-point-to-surprise-pickup-for-eurozone-5bf47eb9?mod=rss_socialeconomyfeed",
       "published_ts": 1790157240.0,
       "impact_high": false
     },
     {
-      "summary": "고가격·저물량 추세 지속으로 IT 기기 제조사의 수익성 개선 가시화",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/tech/gadgets-are-going-premiumand-manufacturers-are-raking-it-in-2fa1130e?mod=rss_markets_main",
-      "published_ts": 1790155800.0,
-      "impact_high": false
-    },
-    {
-      "summary": "메타의 AI 에이전트 뮤즈 채택 확산이 금융권 자산관리·중개사·보험사의 수익 모델 위협",
+      "summary": "메타 AI 에이전트가 금융주 기존 사업 모델 위협, 섹터 경쟁 심화",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/investing/metas-muse-comes-for-financial-stocks-17bdf11a?mod=rss_markets_main",
       "published_ts": 1790110020.0,
       "impact_high": false
     },
     {
-      "summary": "이란의 호르무즈 해협 개방 제안에 미국 해제 가능성이 제시되면서 유가 하락",
-      "source": "WSJ세계",
+      "summary": "이란-미국 외교 가능성 신호에 유가 하락, 중동 긴장 완화 기대",
+      "source": "WSJ",
       "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-as-hormuz-shipping-risks-persist-363fbeb1?mod=rss_worldnews",
       "published_ts": 1790105160.0,
       "impact_high": false
     },
     {
-      "summary": "8월 미국 주택착공이 예상치를 밑돌면서 부동산 시장 약세 지속",
-      "source": "WSJ경제",
+      "summary": "에너지 가격 급등으로 유로존 소비심리 악화, 경제 약세 신호",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/central-banking/eurozone-consumer-sentiment-knocked-by-surging-energy-prices-dd9668d7?mod=rss_socialeconomyfeed",
+      "published_ts": 1790094000.0,
+      "impact_high": false
+    },
+    {
+      "summary": "미국 8월 주택 착공 전월 대비 2.6% 하락, 주택시장 부진 심화",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/housing/u-s-housing-starts-fell-in-august-56abae28?mod=rss_socialeconomyfeed",
       "published_ts": 1789650660.0,
       "impact_high": false
     }
   ],
-  "_article_sig": "23f9b275f88d8fa5423e9ae3c92dcc72a05b73834dd1780eada140a9feeb119b",
+  "_article_sig": "070c37ff35d0098fdd5f5bfc54cfb31029ce1ffb6ef9034da4081a0e3c4db789",
   "built_at_kst": "2026-09-19T07:03:28.699081+09:00",
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "기술주 프리미엄 현상 지속에 가젯 제조사 마진율 개선. 메타 뮤즈 AI의 금융업계 침투로 변동성 전망.",
+      "summary": "AI 에이전트 확산 나타나지만 신뢰·규제 이슈 대두. Meta Muse AI 금융주 잠식 우려 제기, 사용자 데이터 신뢰도 약점. 프리미엄 기기 수요는 견조해 수익성 개선 진행 중.",
       "sources": [
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/tech/gadgets-are-going-premiumand-manufacturers-are-raking-it-in-2fa1130e?mod=rss_markets_main"
-        },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/metas-muse-comes-for-financial-stocks-17bdf11a?mod=rss_markets_main"
@@ -6428,57 +6424,60 @@
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/tech/ai/metas-ai-agent-has-a-trust-problem-5ee5882c?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/tech/gadgets-are-going-premiumand-manufacturers-are-raking-it-in-2fa1130e?mod=rss_markets_main"
         }
       ]
     },
     "S&P500": {
-      "summary": "연준 금리 인상 우려로 달러 강세·10년물 수익률 5% 상회. 바킨 의장 단회 인상 부족 경고에 시장 금리 인상 베팅 강화. 유가는 미-이란 외교 희망에 약세 전환하면서 광폭 변동성 예상.",
+      "summary": "연준 금리 인상 베팅 심화로 재정채 매도 폭주. 10년물 수익률 5.1% 돌파, 달러 8주 고점 경신. 유가 급락·이란 외교 희망도 변수이나 매크로 불확실성 확대 국면.",
       "sources": [
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/dollar-jumps-to-8-week-high-as-fed-rate-hike-bets-outweigh-lower-oil-prices-92e6cf72?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/feds-barkin-says-one-rate-hike-may-not-be-enough-to-tame-inflation-dd338c6c?mod=rss_socialeconomyfeed"
-        },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-23-2026?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/economy/central-banking/dollar-jumps-to-8-week-high-as-fed-rate-hike-bets-outweigh-lower-oil-prices-92e6cf72?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/economy/central-banking/feds-barkin-says-one-rate-hike-may-not-be-enough-to-tame-inflation-dd338c6c?mod=rss_socialeconomyfeed"
         }
       ]
     },
     "DOW": {
-      "summary": "주택 시장 악화 심화. 주택착공 하락, KB홈 마진 전망 하향, 다가구 모기지 연체율 급증 신호로 주택금융 리스크 확대 중. 금융사 실적 개선에도 부동산 익스포저 부담 상존.",
+      "summary": "경기민감 대형주·금융 약세 신호 강화. KB홈 마진 전망 하향 조정, 주택착공 부진 지속. 금리 인상 시나리오 강화로 금융주·산업재 수익성 제약 우려 심화.",
       "sources": [
         {
-          "name": "WSJ경제",
+          "name": "WSJ",
           "url": "https://www.wsj.com/economy/housing/kb-home-cuts-margin-outlook-as-housing-conditions-worsen-caa020ae?mod=rss_socialeconomyfeed"
         },
         {
-          "name": "WSJ경제",
+          "name": "WSJ",
           "url": "https://www.wsj.com/economy/housing/u-s-housing-starts-fell-in-august-56abae28?mod=rss_socialeconomyfeed"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/real-estate/looking-for-real-estate-bargains-watch-these-apartment-loans-cc49fa8e?mod=rss_markets_main"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/17/bank-of-england-interest-rate-decision-fed-rate-hike-uk-inflation.html"
         }
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-09-24T02:50:26.700400+09:00",
+  "intraday_refreshed_kst": "2026-09-24T03:02:16.503135+09:00",
   "futures": {
-    "as_of_kst": "2026-09-24T02:50:11.260199+09:00",
+    "as_of_kst": "2026-09-24T03:00:15.452955+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7768.0,
-        "change_pct": -0.81,
+        "point": 7779.0,
+        "change_pct": -0.67,
         "spark": [
           7830.0,
-          7788.75,
           7783.0,
           7786.0,
           7786.75,
@@ -6517,21 +6516,22 @@
           7769.75,
           7767.75,
           7779.25,
-          7768.0
+          7778.5,
+          7779.0
         ],
         "candle": {
           "o": 7830.0,
           "h": 7843.25,
           "l": 7758.75,
-          "c": 7767.75
+          "c": 7779.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7833.5,
           "low_date": "2026-03-30",
           "high_date": "2026-09-21",
-          "low_change_pct": 21.59,
-          "high_change_pct": -0.84
+          "low_change_pct": 21.77,
+          "high_change_pct": -0.7
         },
         "daily_expanded": [
           {
@@ -8547,25 +8547,25 @@
             "o": 7830.0,
             "h": 7843.25,
             "l": 7758.75,
-            "c": 7767.75,
-            "v": 1012758
+            "c": 7779.0,
+            "v": 1059906
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "연준 금리 인상 우려로 달러 강세·10년물 수익률 5% 상회. 바킨 의장 단회 인상 부족 경고에 시장 금리 인상 베팅 강화. 유가는 미-이란 외교 희망에 약세 전환하면서 광폭 변동성 예상.",
+          "summary": "연준 금리 인상 베팅 심화로 재정채 매도 폭주. 10년물 수익률 5.1% 돌파, 달러 8주 고점 경신. 유가 급락·이란 외교 희망도 변수이나 매크로 불확실성 확대 국면.",
           "sources": [
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/dollar-jumps-to-8-week-high-as-fed-rate-hike-bets-outweigh-lower-oil-prices-92e6cf72?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/feds-barkin-says-one-rate-hike-may-not-be-enough-to-tame-inflation-dd338c6c?mod=rss_socialeconomyfeed"
-            },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-23-2026?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/economy/central-banking/dollar-jumps-to-8-week-high-as-fed-rate-hike-bets-outweigh-lower-oil-prices-92e6cf72?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/economy/central-banking/feds-barkin-says-one-rate-hike-may-not-be-enough-to-tame-inflation-dd338c6c?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8573,12 +8573,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30693.75,
-        "change_pct": -1.08,
+        "point": 30752.25,
+        "change_pct": -0.89,
         "spark": [
           31008.5,
-          30720.25,
-          30697.25,
           30718.75,
           30732.75,
           30812.75,
@@ -8616,21 +8614,23 @@
           30700.5,
           30696.0,
           30748.5,
-          30693.75
+          30750.5,
+          30752.5,
+          30752.25
         ],
         "candle": {
           "o": 31008.5,
           "h": 31094.75,
           "l": 30642.75,
-          "c": 30692.75
+          "c": 30753.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31028.5,
           "low_date": "2026-03-30",
           "high_date": "2026-09-22",
-          "low_change_pct": 32.64,
-          "high_change_pct": -1.08
+          "low_change_pct": 32.9,
+          "high_change_pct": -0.89
         },
         "daily_expanded": [
           {
@@ -10646,18 +10646,14 @@
             "o": 31008.5,
             "h": 31094.75,
             "l": 30642.75,
-            "c": 30692.75,
-            "v": 411864
+            "c": 30753.0,
+            "v": 423580
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "기술주 프리미엄 현상 지속에 가젯 제조사 마진율 개선. 메타 뮤즈 AI의 금융업계 침투로 변동성 전망.",
+          "summary": "AI 에이전트 확산 나타나지만 신뢰·규제 이슈 대두. Meta Muse AI 금융주 잠식 우려 제기, 사용자 데이터 신뢰도 약점. 프리미엄 기기 수요는 견조해 수익성 개선 진행 중.",
           "sources": [
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/tech/gadgets-are-going-premiumand-manufacturers-are-raking-it-in-2fa1130e?mod=rss_markets_main"
-            },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/metas-muse-comes-for-financial-stocks-17bdf11a?mod=rss_markets_main"
@@ -10665,6 +10661,10 @@
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/tech/ai/metas-ai-agent-has-a-trust-problem-5ee5882c?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/tech/gadgets-are-going-premiumand-manufacturers-are-raking-it-in-2fa1130e?mod=rss_markets_main"
             }
           ]
         }
@@ -10672,12 +10672,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51903.0,
-        "change_pct": -0.72,
+        "point": 51986.0,
+        "change_pct": -0.56,
         "spark": [
           52255.0,
-          52142.0,
-          52086.0,
           52120.0,
           52088.0,
           52141.0,
@@ -10715,21 +10713,23 @@
           51929.0,
           51903.0,
           51967.0,
-          51903.0
+          51978.0,
+          51972.0,
+          51986.0
         ],
         "candle": {
           "o": 52255.0,
           "h": 52371.0,
           "l": 51844.0,
-          "c": 51903.0
+          "c": 51984.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 14.26,
-          "high_change_pct": -4.75
+          "low_change_pct": 14.44,
+          "high_change_pct": -4.61
         },
         "daily_expanded": [
           {
@@ -12745,25 +12745,25 @@
             "o": 52255.0,
             "h": 52371.0,
             "l": 51844.0,
-            "c": 51903.0,
-            "v": 57983
+            "c": 51984.0,
+            "v": 59812
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "주택 시장 악화 심화. 주택착공 하락, KB홈 마진 전망 하향, 다가구 모기지 연체율 급증 신호로 주택금융 리스크 확대 중. 금융사 실적 개선에도 부동산 익스포저 부담 상존.",
+          "summary": "경기민감 대형주·금융 약세 신호 강화. KB홈 마진 전망 하향 조정, 주택착공 부진 지속. 금리 인상 시나리오 강화로 금융주·산업재 수익성 제약 우려 심화.",
           "sources": [
             {
-              "name": "WSJ경제",
+              "name": "WSJ",
               "url": "https://www.wsj.com/economy/housing/kb-home-cuts-margin-outlook-as-housing-conditions-worsen-caa020ae?mod=rss_socialeconomyfeed"
             },
             {
-              "name": "WSJ경제",
+              "name": "WSJ",
               "url": "https://www.wsj.com/economy/housing/u-s-housing-starts-fell-in-august-56abae28?mod=rss_socialeconomyfeed"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/real-estate/looking-for-real-estate-bargains-watch-these-apartment-loans-cc49fa8e?mod=rss_markets_main"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/09/17/bank-of-england-interest-rate-decision-fed-rate-hike-uk-inflation.html"
             }
           ]
         }
