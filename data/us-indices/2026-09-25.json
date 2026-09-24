@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26742.64,
-      "change_pct": -0.72,
+      "point": 26725.28,
+      "change_pct": -0.78,
       "candle": {
         "o": 26724.6,
         "h": 26820.34,
         "l": 26718.14,
-        "c": 26742.64
+        "c": 26725.28
       },
       "range_240d": {
         "low": 20794.64,
@@ -2025,7 +2025,7 @@
           "o": 26724.6,
           "h": 26820.34,
           "l": 26718.14,
-          "c": 26742.64
+          "c": 26725.28
         }
       ],
       "spark": [
@@ -2048,7 +2048,9 @@
         26784.14,
         26768.43,
         26741.87,
-        26742.64
+        26747.81,
+        26720.78,
+        26725.28
       ],
       "news": {
         "summary": "기술주·성장주 약세 심화 국면. Meta AI 에이전트 신뢰성 문제·프리미엄 기기 수익성은 견조하나 금리 인상 우려로 고성장주 대조정 압박 지속.",
@@ -2068,13 +2070,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7674.62,
-      "change_pct": -0.41,
+      "point": 7671.42,
+      "change_pct": -0.45,
       "candle": {
         "o": 7666.99,
         "h": 7694.61,
         "l": 7665.49,
-        "c": 7674.62
+        "c": 7671.42
       },
       "range_240d": {
         "low": 6343.72,
@@ -4090,7 +4092,7 @@
           "o": 7666.99,
           "h": 7694.61,
           "l": 7665.49,
-          "c": 7674.62
+          "c": 7671.42
         }
       ],
       "spark": [
@@ -4112,8 +4114,10 @@
         7682.08,
         7682.9,
         7678.18,
-        7673.46,
-        7674.62
+        7674.62,
+        7673.88,
+        7670.74,
+        7671.42
       ],
       "news": {
         "summary": "채권 수익률 급등(10년물 5.1% 이상 돌파)으로 금리 경계감 최고조. Fed 추가 인상 필요성 논의·인플레이션 재점화 우려·달러 강세(8주 고점) 동시 진행. 글로벌 경기 회복 신호와 에너지·지정학 리스크 엇갈리며 변동성 심화 단계.",
@@ -4137,13 +4141,13 @@
     },
     {
       "name": "DOW",
-      "point": 51218.92,
-      "change_pct": -0.57,
+      "point": 51224.67,
+      "change_pct": -0.56,
       "candle": {
         "o": 51415.75,
         "h": 51485.97,
-        "l": 51210.39,
-        "c": 51218.92
+        "l": 51196.46,
+        "c": 51224.67
       },
       "range_240d": {
         "low": 45166.64,
@@ -6158,8 +6162,8 @@
           "date": "2026-09-24",
           "o": 51415.75,
           "h": 51485.97,
-          "l": 51210.39,
-          "c": 51218.92
+          "l": 51196.46,
+          "c": 51224.67
         }
       ],
       "spark": [
@@ -6182,7 +6186,9 @@
         51268.19,
         51246.27,
         51231.43,
-        51218.92
+        51205.72,
+        51221.03,
+        51224.67
       ],
       "news": {
         "summary": "부동산·금융 경기순환주 약세 신호 강화. 주택 착공 부진(8월 -2.6%)·KB Home 마진 인하·멀티패밀리 담보부채 디폴트율 악화(53% 수준). 금융기관 구조조정(Wells Fargo CRO 인사·소시에테 제너럴 이익률 목표 상향은 예외)과 중동 에너지 리스크 복합으로 경기민감 밸류주 변동성 심화 상황.",
@@ -6207,87 +6213,83 @@
   ],
   "news_chips": [
     {
-      "summary": "트럼프-시진핑 정상회담이 중국과의 무역·기술 분야 긴장 완화 신호를 보임",
-      "source": "WSJ세계",
+      "summary": "트럼프-시진핑 정상회담에서 AI·기술 분야 협력 가능성 모색으로 미중 기술 긴장 완화 시도",
+      "source": "WSJ",
       "url": "https://www.wsj.com/world/china/trump-kicks-off-white-house-summit-with-chinas-xi-575b06ec?mod=rss_worldnews",
-      "published_ts": 1790261580.0,
+      "published_ts": 1790262480.0,
       "impact_high": true
     },
     {
-      "summary": "중동 분쟁 우려로 유가가 배럴당 105달러 이상으로 반등",
-      "source": "WSJ세계",
+      "summary": "중동 긴장으로 유가가 배럴당 $105를 넘으면서 에너지 섹터 상승",
+      "source": "WSJ",
       "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-on-optimism-around-u-s-iran-diplomacy-saudi-pipeline-restart-523fe9d3?mod=rss_worldnews",
       "published_ts": 1790245860.0,
       "impact_high": true
     },
     {
-      "summary": "중국 기업들이 이란의 드론·미사일 부품 수출로 미중 기술 분쟁 심화 가능성",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/politics/china-iran-aid-xi-trump-summit-e6541ae8?mod=rss_worldnews",
-      "published_ts": 1790211600.0,
-      "impact_high": true
-    },
-    {
-      "summary": "데이터센터 투자가 미국 역사상 최대 규모로 확대되면서 일자리·주거 공급에 영향",
-      "source": "WSJ경제",
+      "summary": "AI 데이터센터 투자가 역사상 최대 규모로 확대되면서 인플레이션과 주택시장 부담 심화",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/the-ai-build-out-is-becoming-the-biggest-economic-bet-in-u-s-history-c60716dd?mod=rss_socialeconomyfeed",
       "published_ts": 1790211600.0,
       "impact_high": true
     },
     {
-      "summary": "미국 국채 수익률 급등이 경기 둔화와 기업 자금조달 비용 상승으로 작용",
+      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/banking/wells-fargo-names-coo-powell-as-next-chief-risk-officer-9e23ddd2?mod=rss_markets_main",
+      "published_ts": 1790196300.0,
+      "impact_high": true
+    },
+    {
+      "summary": "미 국채 수익률이 급등하면서 주식 밸류에이션 압박 심화",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/23/what-happens-to-the-economy-when-treasury-yields-soar.html",
       "published_ts": 1790260634.0,
       "impact_high": false
     },
     {
-      "summary": "미국 실업수당 청구가 19만 7천으로 하락하면서 노동시장 견조성 신호",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-slid-further-last-week-b7ee1b2a?mod=rss_socialeconomyfeed",
-      "published_ts": 1790254980.0,
-      "impact_high": false
-    },
-    {
-      "summary": "독일의 사업 심신이 3년 만에 최고조를 기록하면서 유로존 회복 신호",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/german-business-sentiment-climbs-to-highest-level-in-three-years-ba9e26d1?mod=rss_socialeconomyfeed",
-      "published_ts": 1790240820.0,
-      "impact_high": false
-    },
-    {
-      "summary": "글로벌 부채가 365조 달러를 넘으면서 채권 수익률 악순환 우려 확산",
+      "summary": "글로벌 부채가 365조 달러를 넘으면서 고금리 환경의 채무 상환 악화 우려",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/24/global-debt-bond-yields-inflation.html",
       "published_ts": 1790237581.0,
       "impact_high": false
     },
     {
-      "summary": "연준 금리 인상 전망에 미국 달러화가 8주 만에 최고가까지 상승",
-      "source": "WSJ경제",
+      "summary": "달러가 8주 만에 최고 수준으로 상승하면서 연준 금리 인상 기대 확산",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/central-banking/dollar-jumps-to-8-week-high-as-fed-rate-hike-bets-outweigh-lower-oil-prices-92e6cf72?mod=rss_socialeconomyfeed",
       "published_ts": 1790172660.0,
       "impact_high": true
     },
     {
-      "summary": "연준 바킨 의장이 물가 진정을 위해서는 단 한 번의 금리 인상이 부족할 수 있다고 경고",
-      "source": "WSJ경제",
+      "summary": "중국 기업들이 예멘 후티 반군에 무기 부품 공급하면서 미중 기술 경쟁 심화",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/world/middle-east/yemens-houthis-threatening-global-oil-are-increasingly-supplied-by-china-6bfcfeec?mod=rss_worldnews",
+      "published_ts": 1790172480.0,
+      "impact_high": false
+    },
+    {
+      "summary": "주택시장 약화로 홈빌더 KB홈이 올해 마진율 전망을 16.0~16.2%로 하향 조정",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/housing/kb-home-cuts-margin-outlook-as-housing-conditions-worsen-caa020ae?mod=rss_socialeconomyfeed",
+      "published_ts": 1790116260.0,
+      "impact_high": false
+    },
+    {
+      "summary": "연준 금리 인상 1회로는 인플레이션 억제 불충분 우려로 추가 인상 가능성 높아짐",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/central-banking/feds-barkin-says-one-rate-hike-may-not-be-enough-to-tame-inflation-dd338c6c?mod=rss_socialeconomyfeed",
       "published_ts": 1790099640.0,
       "impact_high": true
     }
   ],
-  "_article_sig": "3a55c6ccf962d336ff353b99d9856448ecc2698915fc7671a39ce21d877924fa",
+  "_article_sig": "854493184a1f0747cc5ef5f4e0b3d08644fa5d06cb2b8d821370fe2c53f34637",
   "built_at_kst": "2026-09-24T07:02:43.909507+09:00",
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "AI 인프라 대규모 투자 확대로 반도체·빅테크 수요 증가세. 데이터센터 건설 지연 리스크 부각되며 오라클 등 개별종목 변동성 심화. 기술주 밸류에이션 압박 속 금리 인상 베팅 영향.",
+      "summary": "AI 인프라 투자 규모 확대로 나스닥100 선물 강세 주도. 데이터센터 건설 지연 제약에도 블록체인 도입·프리미엄 기기 판매로 기술섹터 수익성 우위 신호 강화.",
       "sources": [
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/the-ai-build-out-is-becoming-the-biggest-economic-bet-in-u-s-history-c60716dd?mod=rss_socialeconomyfeed"
-        },
         {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/202609245320i"
@@ -6295,53 +6297,43 @@
       ]
     },
     "S&P500": {
-      "summary": "장기채 수익률 급등과 달러 8주 신고가로 금리 인상 전망 재가열. 연준 바킨 의장 단회 인상 부족론 제기, 글로벌 채무 $365조 돌파에 따른 디플레이션 우려 심화. 중동 긴장 고조로 유가 $105/배럴 회복, 인플레이션 상방 압박 지속.",
+      "summary": "연준 금리인상 베팅 심화로 달러 8주 고점·국채 수익률 상승 가속화 신호. 미국 고용지표(실업보험청구 197K) 양호 신호 반면 글로벌 재정위기(365조달러 채무, 프랑스 재정위기)·중동 긴장(유가 배럴당 105달러 상승) 리스크 요소 증대.",
       "sources": [
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/dollar-jumps-to-8-week-high-as-fed-rate-hike-bets-outweigh-lower-oil-prices-92e6cf72?mod=rss_socialeconomyfeed"
-        },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/09/23/what-happens-to-the-economy-when-treasury-yields-soar.html"
         },
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/feds-barkin-says-one-rate-hike-may-not-be-enough-to-tame-inflation-dd338c6c?mod=rss_socialeconomyfeed"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/24/global-debt-bond-yields-inflation.html"
         }
       ]
     },
     "DOW": {
-      "summary": "주택시장 악화 신호 확산으로 경기민감주 약세. KB홈 마진 하향, 멀티패밀리 연체율 53% 돌파로 부동산 부문 구조적 약화. 철도·금융 부문 경기 선행 악화세, 금리 인상 환경에서 고금리 채무부담 심화.",
+      "summary": "연준 금리인상 베팅 심화로 달러 8주 고점·국채 수익률 상승 가속화 신호. 미국 고용지표(실업보험청구 197K) 양호 신호 반면 글로벌 재정위기(365조달러 채무, 프랑스 재정위기)·중동 긴장(유가 배럴당 105달러 상승) 리스크 요소 증대.",
       "sources": [
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/housing/kb-home-cuts-margin-outlook-as-housing-conditions-worsen-caa020ae?mod=rss_socialeconomyfeed"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/23/what-happens-to-the-economy-when-treasury-yields-soar.html"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/pro/bankruptcy/florida-railroad-brightline-plans-imminent-chapter-11-in-new-jersey-92faff39?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/real-estate/looking-for-real-estate-bargains-watch-these-apartment-loans-cc49fa8e?mod=rss_markets_main"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/24/global-debt-bond-yields-inflation.html"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-09-25T00:00:07.601238+09:00",
+    "as_of_kst": "2026-09-25T00:10:07.773768+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7746.5,
-        "change_pct": -0.33,
+        "point": 7738.0,
+        "change_pct": -0.44,
         "spark": [
           7774.75,
-          7726.5,
-          7722.25,
           7726.0,
           7732.25,
           7727.25,
@@ -6379,21 +6371,23 @@
           7746.25,
           7746.5,
           7742.25,
-          7746.5
+          7738.25,
+          7737.0,
+          7738.0
         ],
         "candle": {
           "o": 7774.75,
           "h": 7779.25,
           "l": 7707.25,
-          "c": 7746.5
+          "c": 7738.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7833.5,
           "low_date": "2026-03-30",
           "high_date": "2026-09-21",
-          "low_change_pct": 21.26,
-          "high_change_pct": -1.11
+          "low_change_pct": 21.13,
+          "high_change_pct": -1.22
         },
         "daily_expanded": [
           {
@@ -8409,25 +8403,21 @@
             "o": 7774.75,
             "h": 7779.25,
             "l": 7707.25,
-            "c": 7746.5,
-            "v": 587010
+            "c": 7738.0,
+            "v": 622787
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "장기채 수익률 급등과 달러 8주 신고가로 금리 인상 전망 재가열. 연준 바킨 의장 단회 인상 부족론 제기, 글로벌 채무 $365조 돌파에 따른 디플레이션 우려 심화. 중동 긴장 고조로 유가 $105/배럴 회복, 인플레이션 상방 압박 지속.",
+          "summary": "연준 금리인상 베팅 심화로 달러 8주 고점·국채 수익률 상승 가속화 신호. 미국 고용지표(실업보험청구 197K) 양호 신호 반면 글로벌 재정위기(365조달러 채무, 프랑스 재정위기)·중동 긴장(유가 배럴당 105달러 상승) 리스크 요소 증대.",
           "sources": [
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/dollar-jumps-to-8-week-high-as-fed-rate-hike-bets-outweigh-lower-oil-prices-92e6cf72?mod=rss_socialeconomyfeed"
-            },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/09/23/what-happens-to-the-economy-when-treasury-yields-soar.html"
             },
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/feds-barkin-says-one-rate-hike-may-not-be-enough-to-tame-inflation-dd338c6c?mod=rss_socialeconomyfeed"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/09/24/global-debt-bond-yields-inflation.html"
             }
           ]
         }
@@ -8435,12 +8425,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30596.75,
-        "change_pct": -0.55,
+        "point": 30541.5,
+        "change_pct": -0.73,
         "spark": [
           30780.0,
-          30451.75,
-          30429.0,
           30444.75,
           30462.75,
           30438.5,
@@ -8478,21 +8466,23 @@
           30578.75,
           30592.5,
           30564.0,
-          30596.75
+          30541.25,
+          30553.75,
+          30541.5
         ],
         "candle": {
           "o": 30780.0,
           "h": 30813.0,
           "l": 30370.0,
-          "c": 30596.75
+          "c": 30541.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31028.5,
           "low_date": "2026-03-30",
           "high_date": "2026-09-22",
-          "low_change_pct": 32.23,
-          "high_change_pct": -1.39
+          "low_change_pct": 31.99,
+          "high_change_pct": -1.57
         },
         "daily_expanded": [
           {
@@ -10508,18 +10498,14 @@
             "o": 30780.0,
             "h": 30813.0,
             "l": 30370.0,
-            "c": 30596.75,
-            "v": 294059
+            "c": 30541.5,
+            "v": 306721
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "AI 인프라 대규모 투자 확대로 반도체·빅테크 수요 증가세. 데이터센터 건설 지연 리스크 부각되며 오라클 등 개별종목 변동성 심화. 기술주 밸류에이션 압박 속 금리 인상 베팅 영향.",
+          "summary": "AI 인프라 투자 규모 확대로 나스닥100 선물 강세 주도. 데이터센터 건설 지연 제약에도 블록체인 도입·프리미엄 기기 판매로 기술섹터 수익성 우위 신호 강화.",
           "sources": [
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/the-ai-build-out-is-becoming-the-biggest-economic-bet-in-u-s-history-c60716dd?mod=rss_socialeconomyfeed"
-            },
             {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/202609245320i"
@@ -10530,12 +10516,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51635.0,
-        "change_pct": -0.46,
+        "point": 51579.0,
+        "change_pct": -0.57,
         "spark": [
           51878.0,
-          51690.0,
-          51666.0,
           51686.0,
           51734.0,
           51709.0,
@@ -10573,21 +10557,23 @@
           51626.0,
           51628.0,
           51607.0,
-          51635.0
+          51593.0,
+          51565.0,
+          51579.0
         ],
         "candle": {
           "o": 51878.0,
           "h": 51905.0,
-          "l": 51591.0,
-          "c": 51635.0
+          "l": 51569.0,
+          "c": 51579.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 13.67,
-          "high_change_pct": -5.25
+          "low_change_pct": 13.55,
+          "high_change_pct": -5.35
         },
         "daily_expanded": [
           {
@@ -12602,31 +12588,27 @@
             "date": "2026-09-24",
             "o": 51878.0,
             "h": 51905.0,
-            "l": 51591.0,
-            "c": 51635.0,
-            "v": 41118
+            "l": 51569.0,
+            "c": 51579.0,
+            "v": 42780
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "주택시장 악화 신호 확산으로 경기민감주 약세. KB홈 마진 하향, 멀티패밀리 연체율 53% 돌파로 부동산 부문 구조적 약화. 철도·금융 부문 경기 선행 악화세, 금리 인상 환경에서 고금리 채무부담 심화.",
+          "summary": "연준 금리인상 베팅 심화로 달러 8주 고점·국채 수익률 상승 가속화 신호. 미국 고용지표(실업보험청구 197K) 양호 신호 반면 글로벌 재정위기(365조달러 채무, 프랑스 재정위기)·중동 긴장(유가 배럴당 105달러 상승) 리스크 요소 증대.",
           "sources": [
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/housing/kb-home-cuts-margin-outlook-as-housing-conditions-worsen-caa020ae?mod=rss_socialeconomyfeed"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/09/23/what-happens-to-the-economy-when-treasury-yields-soar.html"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/pro/bankruptcy/florida-railroad-brightline-plans-imminent-chapter-11-in-new-jersey-92faff39?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/real-estate/looking-for-real-estate-bargains-watch-these-apartment-loans-cc49fa8e?mod=rss_markets_main"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/09/24/global-debt-bond-yields-inflation.html"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-09-25T00:01:45.659692+09:00"
+  "intraday_refreshed_kst": "2026-09-25T00:12:35.827843+09:00"
 }
