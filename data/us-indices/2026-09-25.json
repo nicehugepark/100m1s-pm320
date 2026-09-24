@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26939.7,
-      "change_pct": 0.01,
+      "point": 26929.83,
+      "change_pct": -0.02,
       "candle": {
         "o": 26724.6,
         "h": 26971.04,
         "l": 26706.91,
-        "c": 26939.7
+        "c": 26929.83
       },
       "range_240d": {
         "low": 20794.64,
@@ -2025,13 +2025,11 @@
           "o": 26724.6,
           "h": 26971.04,
           "l": 26706.91,
-          "c": 26939.7
+          "c": 26929.83
         }
       ],
       "spark": [
         26724.6,
-        26731.73,
-        26742.71,
         26866.13,
         26873.2,
         26877.61,
@@ -2069,7 +2067,9 @@
         26920.77,
         26914.46,
         26937.65,
-        26939.7
+        26942.03,
+        26928.41,
+        26929.83
       ],
       "news": {
         "summary": "기술주·성장주 약세 심화 국면. Meta AI 에이전트 신뢰성 문제·프리미엄 기기 수익성은 견조하나 금리 인상 우려로 고성장주 대조정 압박 지속.",
@@ -2089,13 +2089,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7707.14,
+      "point": 7706.6,
       "change_pct": 0.01,
       "candle": {
         "o": 7666.99,
         "h": 7719.01,
         "l": 7662.57,
-        "c": 7707.14
+        "c": 7706.6
       },
       "range_240d": {
         "low": 6343.72,
@@ -4111,13 +4111,11 @@
           "o": 7666.99,
           "h": 7719.01,
           "l": 7662.57,
-          "c": 7707.14
+          "c": 7706.6
         }
       ],
       "spark": [
         7666.99,
-        7668.39,
-        7671.44,
         7697.22,
         7699.7,
         7701.0,
@@ -4155,7 +4153,9 @@
         7704.5,
         7703.35,
         7706.96,
-        7707.14
+        7708.11,
+        7706.04,
+        7706.6
       ],
       "news": {
         "summary": "채권 수익률 급등(10년물 5.1% 이상 돌파)으로 금리 경계감 최고조. Fed 추가 인상 필요성 논의·인플레이션 재점화 우려·달러 강세(8주 고점) 동시 진행. 글로벌 경기 회복 신호와 에너지·지정학 리스크 엇갈리며 변동성 심화 단계.",
@@ -4179,13 +4179,13 @@
     },
     {
       "name": "DOW",
-      "point": 51334.84,
-      "change_pct": -0.34,
+      "point": 51363.09,
+      "change_pct": -0.29,
       "candle": {
         "o": 51415.75,
         "h": 51485.97,
         "l": 51124.02,
-        "c": 51334.84
+        "c": 51363.09
       },
       "range_240d": {
         "low": 45166.64,
@@ -6201,13 +6201,11 @@
           "o": 51415.75,
           "h": 51485.97,
           "l": 51124.02,
-          "c": 51334.84
+          "c": 51363.09
         }
       ],
       "spark": [
         51415.75,
-        51168.05,
-        51184.28,
         51358.89,
         51383.51,
         51376.4,
@@ -6245,7 +6243,9 @@
         51355.76,
         51330.76,
         51335.51,
-        51334.84
+        51349.44,
+        51362.64,
+        51363.09
       ],
       "news": {
         "summary": "부동산·금융 경기순환주 약세 신호 강화. 주택 착공 부진(8월 -2.6%)·KB Home 마진 인하·멀티패밀리 담보부채 디폴트율 악화(53% 수준). 금융기관 구조조정(Wells Fargo CRO 인사·소시에테 제너럴 이익률 목표 상향은 예외)과 중동 에너지 리스크 복합으로 경기민감 밸류주 변동성 심화 상황.",
@@ -6270,103 +6270,107 @@
   ],
   "news_chips": [
     {
-      "summary": "미 국채 수익률 급등으로 연준이 인플레이션 관리의 어려움에 직면",
+      "summary": "Treasury yield 급등이 연준의 금리 정책에 새로운 난제를 초래하며 인플레이션 관리의 선택지를 제한",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html",
       "published_ts": 1790274911.0,
       "impact_high": true
     },
     {
-      "summary": "미국 메모리 반도체 낙후에 관세가 추가 부담이 될 우려",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/tech/ai/america-is-behind-on-memory-chipsand-tariffs-threaten-to-make-things-harder-fb79e365?mod=rss_worldnews",
-      "published_ts": 1790272560.0,
-      "impact_high": true
-    },
-    {
-      "summary": "러시아-우크라이나 전쟁으로 흑해 곡물 수출 차단, 식량 공급 위협 심화",
+      "summary": "러시아-우크라이나 전쟁으로 흑해 곡물 수출 차단 확대되며 세계 식량 공급 위기와 곡물 가격 상승 견인",
       "source": "WSJ",
       "url": "https://www.wsj.com/world/war-throttles-black-sea-grain-exports-threatening-food-supplies-1476008e?mod=rss_worldnews",
       "published_ts": 1790265660.0,
       "impact_high": true
     },
     {
-      "summary": "채권 매도 심화로 10년물 국채 수익률 재상승, 주식시장도 약세",
+      "summary": "중국 기업들의 이란 무인기·미사일 부품 공급으로 미국의 대이란 제재 효과 잠식 우려",
       "source": "WSJ",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-24-2026?mod=rss_markets_main",
-      "published_ts": 1790240147.0,
+      "url": "https://www.wsj.com/politics/china-iran-aid-xi-trump-summit-e6541ae8?mod=rss_worldnews",
+      "published_ts": 1790211600.0,
       "impact_high": true
     },
     {
-      "summary": "후티 무장세력 공격과 미-이란 긴장 고조로 유가 상승",
+      "summary": "AI 데이터센터 투자가 미국 역사상 최대 규모 경제 프로젝트로 부상하며 고용 창출과 인플레이션 양극단 영향 발생",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/the-ai-build-out-is-becoming-the-biggest-economic-bet-in-u-s-history-c60716dd?mod=rss_socialeconomyfeed",
+      "published_ts": 1790211600.0,
+      "impact_high": true
+    },
+    {
+      "summary": "후티 무인기 공격과 미국-이란 긴장 고조로 중동 에너지 공급망 차단 우려가 유가 상승을 견인",
       "source": "WSJ",
       "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-on-optimism-around-u-s-iran-diplomacy-saudi-pipeline-restart-523fe9d3?mod=rss_worldnews",
       "published_ts": 1790270040.0,
       "impact_high": false
     },
     {
-      "summary": "30년물 모기지 금리가 작년 초 이후 처음 7% 돌파",
+      "summary": "30년 모기지 금리가 심리 저항선인 7%를 처음 돌파하며 주택시장 구조적 냉각 신호 심화",
       "source": "WSJ",
       "url": "https://www.wsj.com/economy/housing/mortgage-rates-just-hit-7-heres-how-the-housing-market-is-about-to-change-35986dc6?mod=rss_socialeconomyfeed",
       "published_ts": 1790265600.0,
       "impact_high": false
     },
     {
-      "summary": "글로벌 부채가 365조 달러 돌파, 선진국 부채 이자 부담이 AI·국방·녹색에너지 투자액 초과",
+      "summary": "미국 신규 실업 청구가 197,000건으로 감소하며 노동시장의 저항력 지속",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-slid-further-last-week-b7ee1b2a?mod=rss_socialeconomyfeed",
+      "published_ts": 1790254980.0,
+      "impact_high": false
+    },
+    {
+      "summary": "전 세계 채무가 365조 달러를 초과하면서 선진국의 채무 이자 부담이 방위비 및 AI 투자를 상회",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/24/global-debt-bond-yields-inflation.html",
       "published_ts": 1790237581.0,
       "impact_high": false
     },
     {
-      "summary": "연준 금리 인상 기대로 달러 가치 8주 만에 최고가 경신",
+      "summary": "연준 금리 인상 관측 확산으로 미 달러가 8주 고점을 기록하며 엔저 심화",
       "source": "WSJ",
       "url": "https://www.wsj.com/economy/central-banking/dollar-jumps-to-8-week-high-as-fed-rate-hike-bets-outweigh-lower-oil-prices-92e6cf72?mod=rss_socialeconomyfeed",
       "published_ts": 1790172660.0,
       "impact_high": true
     },
     {
-      "summary": "KB홈이 주택시장 악화로 연간 영업이익률 전망을 하향 조정",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/economy/housing/kb-home-cuts-margin-outlook-as-housing-conditions-worsen-caa020ae?mod=rss_socialeconomyfeed",
-      "published_ts": 1790116260.0,
-      "impact_high": false
-    },
-    {
-      "summary": "연준 바킨 의장이 단일 금리 인상만으로는 인플레이션 억제 불충분하다고 경고",
+      "summary": "Fed 리치몬드 지점장이 현재의 인플레이션 압력이 장기화될 가능성을 언급하며 추가 금리 인상 필요성 제시",
       "source": "WSJ",
       "url": "https://www.wsj.com/economy/central-banking/feds-barkin-says-one-rate-hike-may-not-be-enough-to-tame-inflation-dd338c6c?mod=rss_socialeconomyfeed",
       "published_ts": 1790099640.0,
       "impact_high": true
     }
   ],
-  "_article_sig": "4358720d24e3c9ded77f6c6167323d0f93d7909a84e5300c21aa1b42653a5c07",
+  "_article_sig": "5290fc2ec9eb2b3c2106398e6b2ab532927f9fe67ade3183093da32d91581d5b",
   "built_at_kst": "2026-09-24T07:02:43.909507+09:00",
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "반도체 공급 부족 심화 신호. 미국 메모리칩 전력 약화 속 트럼프 관세 정책이 해외 반도체 수입가 인상 압박. 데이터센터 건설 지연(오라클)으로 AI 인프라 투자 차질 우려 가중.",
+      "summary": "AI 인프라 투자 확대 추세 지속 중. 데이터센터 건설 지연이 오라클을 흔들고 있으며, 반도체 메모리 부족 심화로 미국 경쟁력 약화 신호. 프리미엄 기기 수요 지속으로 제조사 실적 견조.",
       "sources": [
         {
-          "name": "WSJ",
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/202609245320i"
+        },
+        {
+          "name": "WSJ세계",
           "url": "https://www.wsj.com/tech/ai/america-is-behind-on-memory-chipsand-tariffs-threaten-to-make-things-harder-fb79e365?mod=rss_worldnews"
         },
         {
-          "name": "한경",
-          "url": "https://www.hankyung.com/article/202609245320i"
+          "name": "WSJ",
+          "url": "https://www.wsj.com/tech/gadgets-are-going-premiumand-manufacturers-are-raking-it-in-2fa1130e?mod=rss_markets_main"
         }
       ]
     },
     "S&P500": {
-      "summary": "Treasury 수익률 급등으로 금리 인상 시장 기대 강화. 10년물 7% 기준 돌파, 30년 모기지 7.03%에 도달하며 금융 변동성 확대. 시진핑-트럼프 정상회담서 AI·기술 협력 합의로 미중 긴장 일부 완화되나, 중동 갈등(Houthi 공격)으로 유가 변동성 및 공급망 리스크 지속. 연준 금리 인상 시그널 강화 중.",
+      "summary": "10년물 국채 수익률 7% 돌파로 금리 급등 사이클 심화. 연준 추가 인상 기대감 고조(바킨 의장 강硬 발언), 달러 8주 고점 재접근. 글로벌 채무 365조달러 돌파로 경제 취약성 심화 중. 아시아 성장전망 4.6%로 상향되나 지정학·에너지 리스크 상존.",
       "sources": [
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/a-guide-to-owning-bonds-when-they-are-selling-off-be8e0a2b?mod=rss_markets_main"
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/feds-barkin-says-one-rate-hike-may-not-be-enough-to-tame-inflation-dd338c6c?mod=rss_socialeconomyfeed"
         },
         {
           "name": "CNBC",
@@ -6375,32 +6379,34 @@
       ]
     },
     "DOW": {
-      "summary": "금리 인상 전망 강화로 경기민감주 약세 신호. 30년 모기지 레이트 7.03% 돌파로 부동산 냉각 심화 — 홈빌더(KB Home 등) 마진 가이던스 하향, 멀티패밀리 아파트 론 연체율 53% 도달. 산업재·금융부문 금리 민감도 상승 국면.",
+      "summary": "30년 주담대 금리 7% 상회로 주택 시장 경기 둔화 신호. 건설사(KB홈) 마진율 하향 조정, 멀티패밀리 임대건물 연체율 53% 치솟는 중. 중동 지정학 긴장(호우티 공격, 이란 협상)으로 유가 변동성 심화 및 공급망 불안. 중국 수입관세 정책과 미중 정상회담 전개가 전통제조업·관세 민감 업종 변수.",
       "sources": [
         {
-          "name": "WSJ",
+          "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/housing/mortgage-rates-just-hit-7-heres-how-the-housing-market-is-about-to-change-35986dc6?mod=rss_socialeconomyfeed"
         },
         {
-          "name": "WSJ",
+          "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/housing/kb-home-cuts-margin-outlook-as-housing-conditions-worsen-caa020ae?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/real-estate/looking-for-real-estate-bargains-watch-these-apartment-loans-cc49fa8e?mod=rss_markets_main"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-09-25T04:20:07.874694+09:00",
+    "as_of_kst": "2026-09-25T04:30:15.906478+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7768.0,
-        "change_pct": -0.06,
+        "point": 7770.5,
+        "change_pct": -0.03,
         "spark": [
           7774.75,
-          7734.25,
-          7732.0,
           7739.5,
           7762.0,
           7763.25,
@@ -6438,21 +6444,23 @@
           7765.75,
           7768.25,
           7766.75,
-          7768.0
+          7770.5,
+          7771.75,
+          7770.5
         ],
         "candle": {
           "o": 7774.75,
           "h": 7783.5,
           "l": 7707.25,
-          "c": 7768.0
+          "c": 7770.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7833.5,
           "low_date": "2026-03-30",
           "high_date": "2026-09-21",
-          "low_change_pct": 21.6,
-          "high_change_pct": -0.84
+          "low_change_pct": 21.64,
+          "high_change_pct": -0.8
         },
         "daily_expanded": [
           {
@@ -8468,21 +8476,21 @@
             "o": 7774.75,
             "h": 7783.5,
             "l": 7707.25,
-            "c": 7768.0,
-            "v": 1474941
+            "c": 7770.5,
+            "v": 1491225
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "Treasury 수익률 급등으로 금리 인상 시장 기대 강화. 10년물 7% 기준 돌파, 30년 모기지 7.03%에 도달하며 금융 변동성 확대. 시진핑-트럼프 정상회담서 AI·기술 협력 합의로 미중 긴장 일부 완화되나, 중동 갈등(Houthi 공격)으로 유가 변동성 및 공급망 리스크 지속. 연준 금리 인상 시그널 강화 중.",
+          "summary": "10년물 국채 수익률 7% 돌파로 금리 급등 사이클 심화. 연준 추가 인상 기대감 고조(바킨 의장 강硬 발언), 달러 8주 고점 재접근. 글로벌 채무 365조달러 돌파로 경제 취약성 심화 중. 아시아 성장전망 4.6%로 상향되나 지정학·에너지 리스크 상존.",
           "sources": [
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/a-guide-to-owning-bonds-when-they-are-selling-off-be8e0a2b?mod=rss_markets_main"
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/feds-barkin-says-one-rate-hike-may-not-be-enough-to-tame-inflation-dd338c6c?mod=rss_socialeconomyfeed"
             },
             {
               "name": "CNBC",
@@ -8494,12 +8502,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30739.0,
-        "change_pct": -0.08,
+        "point": 30761.75,
+        "change_pct": -0.01,
         "spark": [
           30780.0,
-          30539.75,
-          30522.75,
           30559.0,
           30682.75,
           30689.0,
@@ -8537,21 +8543,23 @@
           30734.5,
           30738.75,
           30726.5,
-          30739.0
+          30762.0,
+          30766.5,
+          30761.75
         ],
         "candle": {
           "o": 30780.0,
           "h": 30827.5,
           "l": 30370.0,
-          "c": 30739.0
+          "c": 30763.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31028.5,
           "low_date": "2026-03-30",
           "high_date": "2026-09-22",
-          "low_change_pct": 32.84,
-          "high_change_pct": -0.93
+          "low_change_pct": 32.95,
+          "high_change_pct": -0.85
         },
         "daily_expanded": [
           {
@@ -10567,21 +10575,25 @@
             "o": 30780.0,
             "h": 30827.5,
             "l": 30370.0,
-            "c": 30739.0,
-            "v": 601961
+            "c": 30763.25,
+            "v": 609628
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "반도체 공급 부족 심화 신호. 미국 메모리칩 전력 약화 속 트럼프 관세 정책이 해외 반도체 수입가 인상 압박. 데이터센터 건설 지연(오라클)으로 AI 인프라 투자 차질 우려 가중.",
+          "summary": "AI 인프라 투자 확대 추세 지속 중. 데이터센터 건설 지연이 오라클을 흔들고 있으며, 반도체 메모리 부족 심화로 미국 경쟁력 약화 신호. 프리미엄 기기 수요 지속으로 제조사 실적 견조.",
           "sources": [
             {
-              "name": "WSJ",
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/202609245320i"
+            },
+            {
+              "name": "WSJ세계",
               "url": "https://www.wsj.com/tech/ai/america-is-behind-on-memory-chipsand-tariffs-threaten-to-make-things-harder-fb79e365?mod=rss_worldnews"
             },
             {
-              "name": "한경",
-              "url": "https://www.hankyung.com/article/202609245320i"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/tech/gadgets-are-going-premiumand-manufacturers-are-raking-it-in-2fa1130e?mod=rss_markets_main"
             }
           ]
         }
@@ -10589,13 +10601,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51725.0,
-        "change_pct": -0.29,
+        "point": 51701.0,
+        "change_pct": -0.33,
         "spark": [
           51878.0,
-          51542.0,
-          51536.0,
-          51527.0,
           51582.0,
           51742.0,
           51757.0,
@@ -10632,21 +10641,24 @@
           51736.0,
           51696.0,
           51725.0,
-          51725.0
+          51700.0,
+          51705.0,
+          51718.0,
+          51701.0
         ],
         "candle": {
           "o": 51878.0,
           "h": 51905.0,
           "l": 51479.0,
-          "c": 51725.0
+          "c": 51700.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 13.87,
-          "high_change_pct": -5.08
+          "low_change_pct": 13.82,
+          "high_change_pct": -5.13
         },
         "daily_expanded": [
           {
@@ -12662,26 +12674,30 @@
             "o": 51878.0,
             "h": 51905.0,
             "l": 51479.0,
-            "c": 51725.0,
-            "v": 75119
+            "c": 51700.0,
+            "v": 75623
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "금리 인상 전망 강화로 경기민감주 약세 신호. 30년 모기지 레이트 7.03% 돌파로 부동산 냉각 심화 — 홈빌더(KB Home 등) 마진 가이던스 하향, 멀티패밀리 아파트 론 연체율 53% 도달. 산업재·금융부문 금리 민감도 상승 국면.",
+          "summary": "30년 주담대 금리 7% 상회로 주택 시장 경기 둔화 신호. 건설사(KB홈) 마진율 하향 조정, 멀티패밀리 임대건물 연체율 53% 치솟는 중. 중동 지정학 긴장(호우티 공격, 이란 협상)으로 유가 변동성 심화 및 공급망 불안. 중국 수입관세 정책과 미중 정상회담 전개가 전통제조업·관세 민감 업종 변수.",
           "sources": [
             {
-              "name": "WSJ",
+              "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/housing/mortgage-rates-just-hit-7-heres-how-the-housing-market-is-about-to-change-35986dc6?mod=rss_socialeconomyfeed"
             },
             {
-              "name": "WSJ",
+              "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/housing/kb-home-cuts-margin-outlook-as-housing-conditions-worsen-caa020ae?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/real-estate/looking-for-real-estate-bargains-watch-these-apartment-loans-cc49fa8e?mod=rss_markets_main"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-09-25T04:20:18.611555+09:00"
+  "intraday_refreshed_kst": "2026-09-25T04:33:00.286002+09:00"
 }
