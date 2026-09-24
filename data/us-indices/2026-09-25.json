@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26759.58,
-      "change_pct": -0.66,
+      "point": 26733.52,
+      "change_pct": -0.75,
       "candle": {
         "o": 26724.6,
         "h": 26820.34,
         "l": 26706.91,
-        "c": 26759.58
+        "c": 26733.52
       },
       "range_240d": {
         "low": 20794.64,
@@ -2025,7 +2025,7 @@
           "o": 26724.6,
           "h": 26820.34,
           "l": 26706.91,
-          "c": 26759.58
+          "c": 26733.52
         }
       ],
       "spark": [
@@ -2060,7 +2060,9 @@
         26721.58,
         26761.18,
         26759.87,
-        26759.58
+        26746.42,
+        26731.73,
+        26733.52
       ],
       "news": {
         "summary": "기술주·성장주 약세 심화 국면. Meta AI 에이전트 신뢰성 문제·프리미엄 기기 수익성은 견조하나 금리 인상 우려로 고성장주 대조정 압박 지속.",
@@ -2080,13 +2082,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7673.17,
-      "change_pct": -0.43,
+      "point": 7669.2,
+      "change_pct": -0.48,
       "candle": {
         "o": 7666.99,
         "h": 7694.61,
         "l": 7662.57,
-        "c": 7673.17
+        "c": 7669.2
       },
       "range_240d": {
         "low": 6343.72,
@@ -4102,7 +4104,7 @@
           "o": 7666.99,
           "h": 7694.61,
           "l": 7662.57,
-          "c": 7673.17
+          "c": 7669.2
         }
       ],
       "spark": [
@@ -4137,7 +4139,9 @@
         7665.8,
         7672.32,
         7673.06,
-        7673.17
+        7670.48,
+        7668.39,
+        7669.2
       ],
       "news": {
         "summary": "채권 수익률 급등(10년물 5.1% 이상 돌파)으로 금리 경계감 최고조. Fed 추가 인상 필요성 논의·인플레이션 재점화 우려·달러 강세(8주 고점) 동시 진행. 글로벌 경기 회복 신호와 에너지·지정학 리스크 엇갈리며 변동성 심화 단계.",
@@ -4161,13 +4165,13 @@
     },
     {
       "name": "DOW",
-      "point": 51178.72,
-      "change_pct": -0.65,
+      "point": 51172.52,
+      "change_pct": -0.66,
       "candle": {
         "o": 51415.75,
         "h": 51485.97,
         "l": 51124.02,
-        "c": 51178.72
+        "c": 51172.52
       },
       "range_240d": {
         "low": 45166.64,
@@ -6183,7 +6187,7 @@
           "o": 51415.75,
           "h": 51485.97,
           "l": 51124.02,
-          "c": 51178.72
+          "c": 51172.52
         }
       ],
       "spark": [
@@ -6218,7 +6222,9 @@
         51160.42,
         51175.48,
         51182.31,
-        51178.72
+        51177.36,
+        51168.05,
+        51172.52
       ],
       "news": {
         "summary": "부동산·금융 경기순환주 약세 신호 강화. 주택 착공 부진(8월 -2.6%)·KB Home 마진 인하·멀티패밀리 담보부채 디폴트율 악화(53% 수준). 금융기관 구조조정(Wells Fargo CRO 인사·소시에테 제너럴 이익률 목표 상향은 예외)과 중동 에너지 리스크 복합으로 경기민감 밸류주 변동성 심화 상황.",
@@ -6243,86 +6249,90 @@
   ],
   "news_chips": [
     {
-      "summary": "미국-이란 갈등 우려가 심화되면서 브렌트유가 배럴당 105달러 이상으로 반등, 중동 지정학 리스크가 유가에 영향",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/china/trump-kicks-off-white-house-summit-with-chinas-xi-575b06ec?mod=rss_worldnews",
-      "published_ts": 1790262480.0,
-      "impact_high": true
-    },
-    {
-      "summary": "글로벌 채권 일괄 매도가 주식 지수에 낙폭 압력 가하며 시장 약세 지속",
+      "summary": "우크라이나 분쟁으로 흑해 곡물 수출이 질식 상태에 빠지며 글로벌 식량 위기 우려가 높아졌다.",
       "source": "WSJ",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-24-2026?mod=rss_markets_main",
-      "published_ts": 1790240147.0,
+      "url": "https://www.wsj.com/world/war-throttles-black-sea-grain-exports-threatening-food-supplies-1476008e?mod=rss_worldnews",
+      "published_ts": 1790265660.0,
       "impact_high": true
     },
     {
-      "summary": "중국이 이란에 드론·미사일 부품을 수천 건 공급하며 미국-이란 긴장에 영향, 공급망 리스크 증가",
-      "source": "WSJ세계",
+      "summary": "미-이란 긴장 고조 시나리오에서 중동 석유 공급 위협이 커지며 브렌트유 배럴당 105달러를 돌파했다.",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-on-optimism-around-u-s-iran-diplomacy-saudi-pipeline-restart-523fe9d3?mod=rss_worldnews",
+      "published_ts": 1790245860.0,
+      "impact_high": true
+    },
+    {
+      "summary": "중국이 이란에 드론·미사일 부품을 수천 건 이상 공급하며 미-이란 분쟁에 영향력을 행사하고 있다.",
+      "source": "WSJ",
       "url": "https://www.wsj.com/politics/china-iran-aid-xi-trump-summit-e6541ae8?mod=rss_worldnews",
       "published_ts": 1790211600.0,
       "impact_high": true
     },
     {
-      "summary": "AI 인프라 투자 규모가 과거 운하·철도·전력망을 합친 것보다 커지면서 인플레이션 가중과 주택 부족 심화",
-      "source": "WSJ경제",
+      "summary": "데이터센터 투자가 미국 역사상 운하·철도·전력망 건설을 합한 규모를 앞질렀으나 인플레이션과 주택 공급을 압박하고 있다.",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/the-ai-build-out-is-becoming-the-biggest-economic-bet-in-u-s-history-c60716dd?mod=rss_socialeconomyfeed",
       "published_ts": 1790211600.0,
       "impact_high": true
     },
     {
-      "summary": "미국 국채 수익률 급등이 경제 전반에 미치는 파급효과 심화로 금융 시장 변동성 확대",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/23/what-happens-to-the-economy-when-treasury-yields-soar.html",
-      "published_ts": 1790260634.0,
+      "summary": "30년물 모기지 금리가 지난해 초 이후 처음 7% 이상으로 올라 주택 시장 둔화 신호를 보냈다.",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/housing/mortgage-rates-just-hit-7-heres-how-the-housing-market-is-about-to-change-35986dc6?mod=rss_socialeconomyfeed",
+      "published_ts": 1790265600.0,
       "impact_high": false
     },
     {
-      "summary": "미국 주간 신규 실업급여 청구가 전주 대비 감소하며 노동시장의 회복력 유지",
-      "source": "WSJ경제",
+      "summary": "미국 실업청구가 19만7000건으로 감소하면서 노동시장 견고함과 연준의 추가 인상 여지를 암시했다.",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-slid-further-last-week-b7ee1b2a?mod=rss_socialeconomyfeed",
       "published_ts": 1790254980.0,
       "impact_high": false
     },
     {
-      "summary": "전 세계 채무가 365조 달러를 돌파하며 경제 악순환 우려와 채권 시장 위험 고조",
+      "summary": "글로벌 부채가 365조 달러를 초과하며 선진국의 채무이자 부담이 전 세계 AI·방위·청정에너지 투자 총액을 상회했다.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/24/global-debt-bond-yields-inflation.html",
       "published_ts": 1790237581.0,
       "impact_high": false
     },
     {
-      "summary": "연준 추가 인상 기대감에 따라 달러가 8주 만에 최고점 수준으로 상승",
-      "source": "WSJ경제",
+      "summary": "연준의 추가 금리 인상 베팅에 미 달러가 8주 만에 최고가를 기록했다.",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/central-banking/dollar-jumps-to-8-week-high-as-fed-rate-hike-bets-outweigh-lower-oil-prices-92e6cf72?mod=rss_socialeconomyfeed",
       "published_ts": 1790172660.0,
       "impact_high": true
     },
     {
-      "summary": "예멘 후티군의 중국 물자 의존도 증가로 글로벌 유가 공급망 위협이 가중, 중동 분쟁이 원유 공급에 영향",
-      "source": "WSJ세계",
+      "summary": "중국이 예멘 후티 민병대에 공급하는 부품 규모가 늘어나며 전 지구적 석유 공급망 위협이 커지고 있다.",
+      "source": "WSJ",
       "url": "https://www.wsj.com/world/middle-east/yemens-houthis-threatening-global-oil-are-increasingly-supplied-by-china-6bfcfeec?mod=rss_worldnews",
       "published_ts": 1790172480.0,
       "impact_high": false
     },
     {
-      "summary": "연준 바킨 총재가 현재 인플레이션 압력을 완화하는 데 단일 금리 인상이 부족할 수 있다고 경고",
-      "source": "WSJ경제",
+      "summary": "연준 바킨 의장이 물가 억제를 위해 금리 한 번의 인상으로는 부족할 수 있다고 경고했다.",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/central-banking/feds-barkin-says-one-rate-hike-may-not-be-enough-to-tame-inflation-dd338c6c?mod=rss_socialeconomyfeed",
       "published_ts": 1790099640.0,
       "impact_high": true
     }
   ],
-  "_article_sig": "c2943b90281aa5ca64bd6ceadca819c5f7c3718709467ef29a9e4a3e9e2c1fc3",
+  "_article_sig": "b06701930b54b52baafb7ac8a47b4b7ba93c6647bb8de0b7820ad394c997e049",
   "built_at_kst": "2026-09-24T07:02:43.909507+09:00",
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "AI 인프라 투자 확대에도 데이터센터 건설 지연 우려로 빅테크 업체들 혼조. 오라클 등 클라우드 인프라 기업 수익성 압박, 프리미엄 가전 수익성 개선은 긍정 신호.",
+      "summary": "AI 데이터센터 투자 가속 지속하나 Treasury 급등에 성장주 동조 약세. 기술주 금리 민감도 높아 고금리 환경에서 수익성 압박 심화 중. 프리미엄 전자기기 호황 등 부분적 상쇄.",
       "sources": [
         {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/202609245320i"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/the-ai-build-out-is-becoming-the-biggest-economic-bet-in-u-s-history-c60716dd?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ",
@@ -6331,32 +6341,32 @@
       ]
     },
     "S&P500": {
-      "summary": "미 고용 회복(실업수당 청구 197K), 연준 추가 인상론 강화로 장기금리 급등 심화. 글로벌 부채 365조 달러 돌파, 달러 강세(8주 고점) 등 인플레이션 약세 신호 복합적 작용 중. 중국 협력 신호(트럼프-시진핑 회담)는 경기 위험 부분 상쇄.",
+      "summary": "Treasury 수익률 급등으로 채권 일괄 매도세 심화. 연준 추가 인상 우려로 금리 시장 변동성 확대 중. 고용 호조 대비 인플레이션·유가 재상승으로 정책 갈등 심화. 미중 정상담 지정학적 긴장 완화 신호 부분 상쇄.",
       "sources": [
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-slid-further-last-week-b7ee1b2a?mod=rss_socialeconomyfeed"
+          "name": "WSJ",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-24-2026?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/feds-barkin-says-one-rate-hike-may-not-be-enough-to-tame-inflation-dd338c6c?mod=rss_socialeconomyfeed"
         },
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/24/global-debt-bond-yields-inflation.html"
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-slid-further-last-week-b7ee1b2a?mod=rss_socialeconomyfeed"
         }
       ]
     },
     "DOW": {
-      "summary": "주택건설 부진(KB Home 마진 전망 하향, 부동산담보대출 연체율 53%), 금융기관 리더십 교체(웰스파고 CRO) 등 경기둔화 신호. 중동 긴장(유가 배럴 $105 상단) 그리고 트럼프-시진핑 회담으로 지정학 리스크 완화 기대감 혼재.",
+      "summary": "유가 급등(중동 공급 차질)이 에너지·금융주 상승 주도. 주택담보부채 부실률 심화·건설업체 마진 악화로 경기민감주 약세 신호 심화. 금융권 리더십 교체(웰스파고)는 구조적 개혁 신호.",
       "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-mixed-as-traders-weigh-u-s-iran-talks-saudi-pipeline-progress-3b33f75c?mod=rss_worldnews"
+        },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/housing/kb-home-cuts-margin-outlook-as-housing-conditions-worsen-caa020ae?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/real-estate/looking-for-real-estate-bargains-watch-these-apartment-loans-cc49fa8e?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
@@ -6366,17 +6376,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-09-25T01:00:09.710480+09:00",
+    "as_of_kst": "2026-09-25T01:10:08.408396+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7728.5,
-        "change_pct": -0.57,
+        "point": 7736.0,
+        "change_pct": -0.47,
         "spark": [
           7774.75,
-          7733.75,
           7732.25,
           7734.75,
           7735.0,
@@ -6415,21 +6424,22 @@
           7733.75,
           7728.5,
           7736.0,
-          7728.5
+          7735.75,
+          7736.0
         ],
         "candle": {
           "o": 7774.75,
           "h": 7779.25,
           "l": 7707.25,
-          "c": 7728.25
+          "c": 7735.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7833.5,
           "low_date": "2026-03-30",
           "high_date": "2026-09-21",
-          "low_change_pct": 20.98,
-          "high_change_pct": -1.34
+          "low_change_pct": 21.09,
+          "high_change_pct": -1.25
         },
         "daily_expanded": [
           {
@@ -8445,25 +8455,25 @@
             "o": 7774.75,
             "h": 7779.25,
             "l": 7707.25,
-            "c": 7728.25,
-            "v": 777281
+            "c": 7735.75,
+            "v": 797395
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "미 고용 회복(실업수당 청구 197K), 연준 추가 인상론 강화로 장기금리 급등 심화. 글로벌 부채 365조 달러 돌파, 달러 강세(8주 고점) 등 인플레이션 약세 신호 복합적 작용 중. 중국 협력 신호(트럼프-시진핑 회담)는 경기 위험 부분 상쇄.",
+          "summary": "Treasury 수익률 급등으로 채권 일괄 매도세 심화. 연준 추가 인상 우려로 금리 시장 변동성 확대 중. 고용 호조 대비 인플레이션·유가 재상승으로 정책 갈등 심화. 미중 정상담 지정학적 긴장 완화 신호 부분 상쇄.",
           "sources": [
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-slid-further-last-week-b7ee1b2a?mod=rss_socialeconomyfeed"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-24-2026?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/feds-barkin-says-one-rate-hike-may-not-be-enough-to-tame-inflation-dd338c6c?mod=rss_socialeconomyfeed"
             },
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/09/24/global-debt-bond-yields-inflation.html"
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-slid-further-last-week-b7ee1b2a?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8471,11 +8481,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30520.25,
-        "change_pct": -0.79,
+        "point": 30555.25,
+        "change_pct": -0.68,
         "spark": [
           30780.0,
-          30473.0,
           30475.75,
           30482.0,
           30485.25,
@@ -8514,21 +8523,22 @@
           30537.25,
           30516.75,
           30566.75,
-          30520.25
+          30554.75,
+          30555.25
         ],
         "candle": {
           "o": 30780.0,
           "h": 30813.0,
           "l": 30370.0,
-          "c": 30520.25
+          "c": 30556.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31028.5,
           "low_date": "2026-03-30",
           "high_date": "2026-09-22",
-          "low_change_pct": 31.9,
-          "high_change_pct": -1.64
+          "low_change_pct": 32.05,
+          "high_change_pct": -1.52
         },
         "daily_expanded": [
           {
@@ -10544,17 +10554,21 @@
             "o": 30780.0,
             "h": 30813.0,
             "l": 30370.0,
-            "c": 30520.25,
-            "v": 358975
+            "c": 30556.0,
+            "v": 368787
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "AI 인프라 투자 확대에도 데이터센터 건설 지연 우려로 빅테크 업체들 혼조. 오라클 등 클라우드 인프라 기업 수익성 압박, 프리미엄 가전 수익성 개선은 긍정 신호.",
+          "summary": "AI 데이터센터 투자 가속 지속하나 Treasury 급등에 성장주 동조 약세. 기술주 금리 민감도 높아 고금리 환경에서 수익성 압박 심화 중. 프리미엄 전자기기 호황 등 부분적 상쇄.",
           "sources": [
             {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/202609245320i"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/the-ai-build-out-is-becoming-the-biggest-economic-bet-in-u-s-history-c60716dd?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ",
@@ -10566,12 +10580,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51509.0,
-        "change_pct": -0.7,
+        "point": 51543.0,
+        "change_pct": -0.64,
         "spark": [
           51878.0,
-          51742.0,
-          51722.0,
           51742.0,
           51740.0,
           51749.0,
@@ -10609,21 +10621,23 @@
           51530.0,
           51513.0,
           51538.0,
-          51509.0
+          51542.0,
+          51536.0,
+          51543.0
         ],
         "candle": {
           "o": 51878.0,
           "h": 51905.0,
           "l": 51479.0,
-          "c": 51511.0
+          "c": 51542.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 13.4,
-          "high_change_pct": -5.47
+          "low_change_pct": 13.47,
+          "high_change_pct": -5.42
         },
         "daily_expanded": [
           {
@@ -12639,21 +12653,21 @@
             "o": 51878.0,
             "h": 51905.0,
             "l": 51479.0,
-            "c": 51511.0,
-            "v": 50844
+            "c": 51542.0,
+            "v": 51364
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "주택건설 부진(KB Home 마진 전망 하향, 부동산담보대출 연체율 53%), 금융기관 리더십 교체(웰스파고 CRO) 등 경기둔화 신호. 중동 긴장(유가 배럴 $105 상단) 그리고 트럼프-시진핑 회담으로 지정학 리스크 완화 기대감 혼재.",
+          "summary": "유가 급등(중동 공급 차질)이 에너지·금융주 상승 주도. 주택담보부채 부실률 심화·건설업체 마진 악화로 경기민감주 약세 신호 심화. 금융권 리더십 교체(웰스파고)는 구조적 개혁 신호.",
           "sources": [
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/business/energy-oil/oil-prices-mixed-as-traders-weigh-u-s-iran-talks-saudi-pipeline-progress-3b33f75c?mod=rss_worldnews"
+            },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/housing/kb-home-cuts-margin-outlook-as-housing-conditions-worsen-caa020ae?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/real-estate/looking-for-real-estate-bargains-watch-these-apartment-loans-cc49fa8e?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
@@ -12664,5 +12678,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-09-25T01:00:16.448289+09:00"
+  "intraday_refreshed_kst": "2026-09-25T01:12:44.734826+09:00"
 }
