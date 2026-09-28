@@ -1,6 +1,6 @@
 {
   "date": "2026-09-28",
-  "generated_at": "2026-09-28T09:06:09.323233",
+  "generated_at": "2026-09-28T09:09:33.442184",
   "data_source": "kiwoom",
   "macro_events": [
     {
@@ -29,8 +29,54 @@
     }
   ],
   "narratives": [],
-  "themes_macro_summary": [],
-  "themes_tree": null,
+  "themes_macro_summary": [
+    {
+      "keyword": "ETF규제",
+      "summary": "삼성·SK하이닉스 레버리지 ETF 규제 논의 → 투자 수단 제약 → 반도체 섹터 유동성 급감",
+      "source_count": 1,
+      "verified": false
+    },
+    {
+      "keyword": "레버ETF",
+      "summary": "반도체 레버리지 ETF 규제 논의 → 개인투자자 거래량 92% 급감 → ETF 시장 위축",
+      "source_count": 1,
+      "verified": false
+    },
+    {
+      "keyword": "HLB승인",
+      "summary": "HLB 리픽투 FDA 승인 → 미국 상업화 진입 → 바이오 섹터 수익화 기대",
+      "source_count": 1,
+      "verified": false
+    },
+    {
+      "keyword": "솔리다임",
+      "summary": "SK하이닉스 솔리다임 내년 미국 상장 추진 → 반도체 계열사 가치 재평가 → 메모리 섹터 긍정",
+      "source_count": 1,
+      "verified": false
+    },
+    {
+      "keyword": "레버리지규제",
+      "summary": "삼성·SK하이닉스 레버리지 ETF 규제 → 거래대금 92% 급감 → 반도체 섹터 ETF 유동성 악화",
+      "source_count": 1,
+      "verified": false
+    }
+  ],
+  "themes_tree": {
+    "date": "2026-09-28",
+    "roots": [
+      {
+        "name": "제약·바이오",
+        "children": [
+          {
+            "name": "신약 FDA 상업화",
+            "summary": "HLB가 리보세라닙(리픽투)으로 FDA 승인 문턱을 넘어 미국 상업화 단계 진입→항암 신약 미국 진출 기대감으로 관련 제약·바이오 매수세 유입.",
+            "source_count": 1,
+            "verdict": "pass"
+          }
+        ]
+      }
+    ]
+  },
   "stocks": [
     {
       "code": "028300",
@@ -45,13 +91,15 @@
       "industry": "의료용품 및 기타 의약 관련제품 제조업",
       "sector": "의료기기, 의약외품 등",
       "themes": [
+        "FDA 허가",
         "바이오"
       ],
       "theme_paths": [
         {
-          "name": "바이오",
+          "name": "FDA 허가",
           "path": [
-            "바이오"
+            "바이오",
+            "FDA 허가"
           ]
         }
       ],
@@ -71,16 +119,16 @@
           "url": "https://www.fnnews.com/news/202609270132561022",
           "source": "파이낸셜뉴스",
           "published_at": "2026-09-28T05:00:17.271442",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "HLB 미국 자회사 엘레바가 담관암 신약 리픽투를 FDA로부터 FGFR2 융합·재배열 담관암 2차 치료제로 승인받아(국내기업 직접 NDA 첫 허가) 4분기 미국 출시를 목표로 상업화 기반을 확보 → 허가 성과를 실제 처방·매출로 연결하는 실행력이 관건인 상업화 시험대에 진입 → 신약개발이 핵심사업인 바이오 종목 HLB의 직접 수혜 모멘텀.",
+          "macro_event": "HLB 미국 자회사 엘레바, 담관암 신약 '리픽투(리라푸그라티닙)' FDA 승인 획득 — 국내 제약·바이오가 글로벌 항암 신약 NDA를 FDA에 직접 제출·허가받은 첫 사례",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.85,
+          "newzy_virality": 0.75,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.81,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": false,
@@ -237,7 +285,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bull",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "024850",
@@ -251,8 +302,19 @@
       "low_price": null,
       "industry": "전자부품 제조업",
       "sector": "리드프레임",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "바이오",
+        "면역항암제"
+      ],
+      "theme_paths": [
+        {
+          "name": "면역항암제",
+          "path": [
+            "바이오",
+            "면역항암제"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": {
         "date": "2026-07-15",
@@ -269,80 +331,80 @@
           "url": "https://www.etoday.co.kr/news/view/2618644",
           "source": "이투데이",
           "published_at": "2026-08-26T23:26:00",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "미국 자회사 베리스모의 CAR-T 신약 SynKIR-310이 임상 1상 코호트 2에서 용량제한독성(DLT) 없이 양호한 내약성을 확인해 코호트 3 환자 등록을 개시(용량 증량) → 재발성·불응성 B세포 비호지킨림프종 대상 면역항암 파이프라인의 임상 근거 축적 및 RP2D 설정 기대 → 여기에 HLB셀 인수·고형암 표적 추가로 세포치료(면역항암제) 도메인 자체가 확장되며 종목 본질 가치가 부각. 다만 당일 종가 8,100원(-1.46%)·거래대금 0억원으로 실제 매수 모멘텀은 형성되지 않았고 52주 고가(29,100원) 대비 -72.2% 수준에 머물렀다.",
+          "macro_event": "차세대 혈액암 CAR-T 신약(SynKIR-310) 임상 1상 코호트 3 확대·초기 안전성 확인",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.3,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.36,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "HLB이노베이션, 혈액암 CAR-T 1상서 초기 안전성 확인…용량군 확대",
           "url": "https://www.sedaily.com/article/20070883",
           "source": "서울경제",
           "published_at": "2026-07-23T01:17:24",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "미국 자회사 베리스모의 CAR-T 신약 SynKIR-310이 임상 1상 코호트 2에서 용량제한독성(DLT) 없이 양호한 내약성을 확인해 코호트 3 환자 등록을 개시(용량 증량) → 재발성·불응성 B세포 비호지킨림프종 대상 면역항암 파이프라인의 임상 근거 축적 및 RP2D 설정 기대 → 여기에 HLB셀 인수·고형암 표적 추가로 세포치료(면역항암제) 도메인 자체가 확장되며 종목 본질 가치가 부각. 다만 당일 종가 8,100원(-1.46%)·거래대금 0억원으로 실제 매수 모멘텀은 형성되지 않았고 52주 고가(29,100원) 대비 -72.2% 수준에 머물렀다.",
+          "macro_event": "차세대 혈액암 CAR-T 신약(SynKIR-310) 임상 1상 코호트 3 확대·초기 안전성 확인",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.3,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.36,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "HLB이노베이션, 차세대 CAR-T 美 임상 확대…고용량 시험 시작",
           "url": "https://www.etoday.co.kr/news/view/2606508",
           "source": "이투데이",
           "published_at": "2026-07-23T00:27:00",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "미국 자회사 베리스모의 CAR-T 신약 SynKIR-310이 임상 1상 코호트 2에서 용량제한독성(DLT) 없이 양호한 내약성을 확인해 코호트 3 환자 등록을 개시(용량 증량) → 재발성·불응성 B세포 비호지킨림프종 대상 면역항암 파이프라인의 임상 근거 축적 및 RP2D 설정 기대 → 여기에 HLB셀 인수·고형암 표적 추가로 세포치료(면역항암제) 도메인 자체가 확장되며 종목 본질 가치가 부각. 다만 당일 종가 8,100원(-1.46%)·거래대금 0억원으로 실제 매수 모멘텀은 형성되지 않았고 52주 고가(29,100원) 대비 -72.2% 수준에 머물렀다.",
+          "macro_event": "차세대 혈액암 CAR-T 신약(SynKIR-310) 임상 1상 코호트 3 확대·초기 안전성 확인",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.3,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.36,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "HLB이노베이션, 3회차 전환사채 전환가액 1만447원으로 하향",
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=04634646645516816",
           "source": "이데일리",
           "published_at": "2026-07-21T07:00:21",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "미국 자회사 베리스모의 CAR-T 신약 SynKIR-310이 임상 1상 코호트 2에서 용량제한독성(DLT) 없이 양호한 내약성을 확인해 코호트 3 환자 등록을 개시(용량 증량) → 재발성·불응성 B세포 비호지킨림프종 대상 면역항암 파이프라인의 임상 근거 축적 및 RP2D 설정 기대 → 여기에 HLB셀 인수·고형암 표적 추가로 세포치료(면역항암제) 도메인 자체가 확장되며 종목 본질 가치가 부각. 다만 당일 종가 8,100원(-1.46%)·거래대금 0억원으로 실제 매수 모멘텀은 형성되지 않았고 52주 고가(29,100원) 대비 -72.2% 수준에 머물렀다.",
+          "macro_event": "차세대 혈액암 CAR-T 신약(SynKIR-310) 임상 1상 코호트 3 확대·초기 안전성 확인",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.3,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.36,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "공시"
         },
         {
           "title": "HLB이노베이션 베리스모, 고형암 표적 추가 확보…CAR-T 파이프라인 확장",
           "url": "https://www.etoday.co.kr/news/view/2605460",
           "source": "이투데이",
           "published_at": "2026-07-20T23:34:00",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "미국 자회사 베리스모의 CAR-T 신약 SynKIR-310이 임상 1상 코호트 2에서 용량제한독성(DLT) 없이 양호한 내약성을 확인해 코호트 3 환자 등록을 개시(용량 증량) → 재발성·불응성 B세포 비호지킨림프종 대상 면역항암 파이프라인의 임상 근거 축적 및 RP2D 설정 기대 → 여기에 HLB셀 인수·고형암 표적 추가로 세포치료(면역항암제) 도메인 자체가 확장되며 종목 본질 가치가 부각. 다만 당일 종가 8,100원(-1.46%)·거래대금 0억원으로 실제 매수 모멘텀은 형성되지 않았고 52주 고가(29,100원) 대비 -72.2% 수준에 머물렀다.",
+          "macro_event": "차세대 혈액암 CAR-T 신약(SynKIR-310) 임상 1상 코호트 3 확대·초기 안전성 확인",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.3,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.36,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": true,
@@ -499,7 +561,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bull",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "187420",
@@ -540,7 +605,7 @@
           "url": "https://www.etoday.co.kr/news/view/2614719",
           "source": "이투데이",
           "published_at": "2026-08-14T05:16:00",
-          "causal_chain": null,
+          "causal_chain": "",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -556,7 +621,7 @@
           "url": "https://www.fnnews.com/news/202608111038594993",
           "source": "파이낸셜뉴스",
           "published_at": "2026-08-12T10:40:04.123616",
-          "causal_chain": null,
+          "causal_chain": "",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
@@ -722,7 +787,12 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": false,
+      "hugepark_grade": "관찰",
+      "causal_chain": "",
+      "parent_theme": ""
     },
     {
       "code": "003580",
@@ -736,8 +806,24 @@
       "low_price": null,
       "industry": "종합 소매업",
       "sector": "미디어커머스(카밈, 스파알), 식음료(콤부차, 잼시럽), 화장품(퍼플리쉬, 엘리샤코이) 등",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "K-뷰티",
+        "음식료"
+      ],
+      "theme_paths": [
+        {
+          "name": "K-뷰티",
+          "path": [
+            "K-뷰티"
+          ]
+        },
+        {
+          "name": "음식료",
+          "path": [
+            "음식료"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": {
         "date": "2026-07-15",
@@ -754,48 +840,48 @@
           "url": "https://www.mk.co.kr/news/stock/12152385",
           "source": "매경",
           "published_at": "2026-09-14T08:53:17",
-          "causal_chain": null,
+          "causal_chain": "HLB글로벌이 50억 원·30억 원 규모 전환사채(CB) 발행을 공시했다. 이는 제3자배정 여부·전략적 투자자 진입 등 모멘텀 단서가 본문에 명시되지 않은 일반 자본조달 성격으로, 신규 사업·실적 개선 같은 본질 매크로 사슬과 연결할 근거가 없다. 당일 종가 1,228원(+1.07%)으로 시가·고가·저가가 모두 1,228원에 수렴한 약보합 흐름이며 52주 고가(3,230원) 대비 -62% 수준으로, 자본조달 공시가 뚜렷한 매수 모멘텀을 만들지 못했음을 보여준다.",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.2,
+          "newzy_virality": 0.1,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.16,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "공시"
         },
         {
           "title": "[오늘의 주요공시] 한미반도체·미래에셋증권·HLB글로벌·HJ중공업 등",
           "url": "https://www.etoday.co.kr/news/view/2615636",
           "source": "이투데이",
           "published_at": "2026-08-18T08:20:00",
-          "causal_chain": null,
+          "causal_chain": "HLB글로벌이 50억 원·30억 원 규모 전환사채(CB) 발행을 공시했다. 이는 제3자배정 여부·전략적 투자자 진입 등 모멘텀 단서가 본문에 명시되지 않은 일반 자본조달 성격으로, 신규 사업·실적 개선 같은 본질 매크로 사슬과 연결할 근거가 없다. 당일 종가 1,228원(+1.07%)으로 시가·고가·저가가 모두 1,228원에 수렴한 약보합 흐름이며 52주 고가(3,230원) 대비 -62% 수준으로, 자본조달 공시가 뚜렷한 매수 모멘텀을 만들지 못했음을 보여준다.",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.2,
+          "newzy_virality": 0.1,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.16,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "공시"
         },
         {
           "title": "HLB글로벌, 30억 원 규모 전환사채 발행",
           "url": "https://www.mk.co.kr/news/stock/12119487",
           "source": "매경",
           "published_at": "2026-08-06T09:08:15",
-          "causal_chain": null,
+          "causal_chain": "HLB글로벌이 50억 원·30억 원 규모 전환사채(CB) 발행을 공시했다. 이는 제3자배정 여부·전략적 투자자 진입 등 모멘텀 단서가 본문에 명시되지 않은 일반 자본조달 성격으로, 신규 사업·실적 개선 같은 본질 매크로 사슬과 연결할 근거가 없다. 당일 종가 1,228원(+1.07%)으로 시가·고가·저가가 모두 1,228원에 수렴한 약보합 흐름이며 52주 고가(3,230원) 대비 -62% 수준으로, 자본조달 공시가 뚜렷한 매수 모멘텀을 만들지 못했음을 보여준다.",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.2,
+          "newzy_virality": 0.1,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.16,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "공시"
         }
       ],
       "fallback": true,
@@ -952,7 +1038,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "046210",
@@ -993,48 +1082,48 @@
           "url": "https://www.etoday.co.kr/news/view/2627390",
           "source": "이투데이",
           "published_at": "2026-09-18T07:45:00",
-          "causal_chain": null,
+          "causal_chain": "면역진단 사업을 정리하고 인공핵산(PNA) 기반 AOC·공간단백체 신사업으로 전환 → 로슈 계열사와의 PNA 독점 공급·동남아 유통 계약, 美 콘퍼런스 기술 소개로 글로벌 신약 시장 확장 시도 → 핵심 사업(의약 관련제품·인공핵산)이 바이오 도메인에 직접 정합하나, 당일 종가 1,051원 보합(+0.00%, 시·고·저 동일)으로 주가 반응은 부재.",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.3,
+          "newzy_virality": 0.2,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.26,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "HLB파나진, 美 콘퍼런스서 인공핵산 기술력 소개…글로벌 신약 확장 타진",
           "url": "https://www.etoday.co.kr/news/view/2622007",
           "source": "이투데이",
           "published_at": "2026-09-04T05:41:00",
-          "causal_chain": null,
+          "causal_chain": "면역진단 사업을 정리하고 인공핵산(PNA) 기반 AOC·공간단백체 신사업으로 전환 → 로슈 계열사와의 PNA 독점 공급·동남아 유통 계약, 美 콘퍼런스 기술 소개로 글로벌 신약 시장 확장 시도 → 핵심 사업(의약 관련제품·인공핵산)이 바이오 도메인에 직접 정합하나, 당일 종가 1,051원 보합(+0.00%, 시·고·저 동일)으로 주가 반응은 부재.",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.3,
+          "newzy_virality": 0.2,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.26,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "HLB파나진, 글로벌 빅파마 계열 신약연구소와 동남아시아 PNA 유통 계약",
           "url": "https://www.etoday.co.kr/news/view/2610185",
           "source": "이투데이",
           "published_at": "2026-08-05T07:54:00",
-          "causal_chain": null,
+          "causal_chain": "면역진단 사업을 정리하고 인공핵산(PNA) 기반 AOC·공간단백체 신사업으로 전환 → 로슈 계열사와의 PNA 독점 공급·동남아 유통 계약, 美 콘퍼런스 기술 소개로 글로벌 신약 시장 확장 시도 → 핵심 사업(의약 관련제품·인공핵산)이 바이오 도메인에 직접 정합하나, 당일 종가 1,051원 보합(+0.00%, 시·고·저 동일)으로 주가 반응은 부재.",
           "macro_event": null,
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.3,
+          "newzy_virality": 0.2,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.26,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         }
       ],
       "fallback": true,
@@ -1191,7 +1280,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "109670",
@@ -1366,7 +1458,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "115450",
@@ -1380,8 +1475,17 @@
       "low_price": null,
       "industry": "기타 전문 도매업",
       "sector": "임베디드 GUI 미들웨어 FXUI-2D, FXUI-3D",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "바이오"
+      ],
+      "theme_paths": [
+        {
+          "name": "바이오",
+          "path": [
+            "바이오"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": {
         "date": "2026-07-15",
@@ -1398,48 +1502,48 @@
           "url": "https://www.etoday.co.kr/news/view/2618373",
           "source": "이투데이",
           "published_at": "2026-08-26T05:01:00",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "HLB테라퓨틱스가 핵심 파이프라인인 신경영양성각막염 치료제의 글로벌 3상 임상 절차를 마무리 → 신약 개발 진전이라는 바이오 도메인 직접 모멘텀 형성. 동시에 112억원 규모 출자전환 유상증자로 부채를 자본으로 전환해 재무구조를 개선하나, 이는 신규 자본 유입보다 재무구조 개선 성격이 강해 모멘텀은 제한적. 당일 종가 1,698원(-0.12%)으로 주가 반응은 사실상 없었고, 52주 고가 4,160원 대비 -59.2% 낮은 수준에 머물렀다.",
+          "macro_event": "신경영양성각막염 치료제 글로벌 3상 임상 절차 마무리",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.3,
+          "newzy_virality": 0.2,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.26,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "HLB테라퓨틱스, 112억원 규모 유상증자 실시",
           "url": "https://www.mk.co.kr/news/stock/12121145",
           "source": "매경",
           "published_at": "2026-08-07T08:54:13",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "HLB테라퓨틱스가 핵심 파이프라인인 신경영양성각막염 치료제의 글로벌 3상 임상 절차를 마무리 → 신약 개발 진전이라는 바이오 도메인 직접 모멘텀 형성. 동시에 112억원 규모 출자전환 유상증자로 부채를 자본으로 전환해 재무구조를 개선하나, 이는 신규 자본 유입보다 재무구조 개선 성격이 강해 모멘텀은 제한적. 당일 종가 1,698원(-0.12%)으로 주가 반응은 사실상 없었고, 52주 고가 4,160원 대비 -59.2% 낮은 수준에 머물렀다.",
+          "macro_event": "신경영양성각막염 치료제 글로벌 3상 임상 절차 마무리",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.3,
+          "newzy_virality": 0.2,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.26,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "공시"
         },
         {
           "title": "HLB테라퓨틱스, 112억원 출자전환 유증…재무구조 개선",
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=05097126645545024",
           "source": "이데일리",
           "published_at": "2026-08-06T23:34:22",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "HLB테라퓨틱스가 핵심 파이프라인인 신경영양성각막염 치료제의 글로벌 3상 임상 절차를 마무리 → 신약 개발 진전이라는 바이오 도메인 직접 모멘텀 형성. 동시에 112억원 규모 출자전환 유상증자로 부채를 자본으로 전환해 재무구조를 개선하나, 이는 신규 자본 유입보다 재무구조 개선 성격이 강해 모멘텀은 제한적. 당일 종가 1,698원(-0.12%)으로 주가 반응은 사실상 없었고, 52주 고가 4,160원 대비 -59.2% 낮은 수준에 머물렀다.",
+          "macro_event": "신경영양성각막염 치료제 글로벌 3상 임상 절차 마무리",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.3,
+          "newzy_virality": 0.2,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.26,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "공시"
         }
       ],
       "fallback": true,
@@ -1596,7 +1700,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     },
     {
       "code": "047920",
@@ -1610,8 +1717,24 @@
       "low_price": null,
       "industry": "자연과학 및 공학 연구개발업",
       "sector": "씨트리시메티딘정, 로자틴정",
-      "themes": [],
-      "theme_paths": [],
+      "themes": [
+        "바이오",
+        "실적"
+      ],
+      "theme_paths": [
+        {
+          "name": "바이오",
+          "path": [
+            "바이오"
+          ]
+        },
+        {
+          "name": "실적",
+          "path": [
+            "실적"
+          ]
+        }
+      ],
       "pick_count": 1,
       "prev_pick": {
         "date": "2026-07-15",
@@ -1628,48 +1751,48 @@
           "url": "https://www.etoday.co.kr/news/view/2624951",
           "source": "이투데이",
           "published_at": "2026-09-13T23:16:00",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "핵심 사업인 제약(의약품 제조·판매) 도메인에서 상반기 매출 1279억원으로 역대 최대 반기 실적을 달성 → 펀더멘털 개선 모멘텀 → 다만 당일 거래대금 1억원으로 매수세 유입이 미미해 종가 8,760원(+1.62%)의 완만한 상승에 그침.",
+          "macro_event": "HLB제약 2026 상반기 매출 1279억원 역대 최대 반기 실적 달성",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.2,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.32,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "HLB제약, 상반기 매출 1279억…역대 최대 반기 실적 달성",
           "url": "https://www.etoday.co.kr/news/view/2614472",
           "source": "이투데이",
           "published_at": "2026-08-13T23:31:00",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "핵심 사업인 제약(의약품 제조·판매) 도메인에서 상반기 매출 1279억원으로 역대 최대 반기 실적을 달성 → 펀더멘털 개선 모멘텀 → 다만 당일 거래대금 1억원으로 매수세 유입이 미미해 종가 8,760원(+1.62%)의 완만한 상승에 그침.",
+          "macro_event": "HLB제약 2026 상반기 매출 1279억원 역대 최대 반기 실적 달성",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.2,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.32,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "호재"
         },
         {
           "title": "HLB제약, 유증 1200억→609억원 '반토막'…1차 발행가 5650원 확정",
           "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=04063926645543712",
           "source": "이데일리",
           "published_at": "2026-08-03T07:35:03",
-          "causal_chain": null,
-          "macro_event": null,
+          "causal_chain": "핵심 사업인 제약(의약품 제조·판매) 도메인에서 상반기 매출 1279억원으로 역대 최대 반기 실적을 달성 → 펀더멘털 개선 모멘텀 → 다만 당일 거래대금 1억원으로 매수세 유입이 미미해 종가 8,760원(+1.62%)의 완만한 상승에 그침.",
+          "macro_event": "HLB제약 2026 상반기 매출 1279억원 역대 최대 반기 실적 달성",
           "newzy_freshness": null,
           "newzy_persistence": null,
-          "newzy_magnitude": null,
-          "newzy_virality": null,
+          "newzy_magnitude": 0.4,
+          "newzy_virality": 0.2,
           "newzy_tradability": null,
-          "newzy_score": null,
+          "newzy_score": 0.32,
           "newzy_verdict": null,
-          "article_type": null
+          "article_type": "공시"
         }
       ],
       "fallback": true,
@@ -1826,7 +1949,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "neutral",
+      "theme_leader": true,
+      "hugepark_grade": "관찰"
     },
     {
       "code": "278650",
@@ -2053,7 +2179,10 @@
         }
       ],
       "credit_risk": true,
-      "credit_reason": "신용거래 제한 종목"
+      "credit_reason": "신용거래 제한 종목",
+      "togusa_verdict": "weak_bear",
+      "theme_leader": false,
+      "hugepark_grade": "주의"
     }
   ]
 }
