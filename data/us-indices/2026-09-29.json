@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26817.49,
-      "change_pct": -0.93,
+      "point": 26793.57,
+      "change_pct": -1.02,
       "candle": {
         "o": 26939.43,
         "h": 26969.75,
         "l": 26710.69,
-        "c": 26817.49
+        "c": 26793.57
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,7 +2033,7 @@
           "o": 26939.43,
           "h": 26969.75,
           "l": 26710.69,
-          "c": 26817.49
+          "c": 26793.57
         }
       ],
       "spark": [
@@ -2058,7 +2058,9 @@
         26743.96,
         26767.3,
         26814.47,
-        26817.49
+        26811.06,
+        26796.46,
+        26793.57
       ],
       "news": {
         "summary": "AI 규제 정책 불확실성 속 기술주 변동성 확대. 트럼프 행정부 빅테크 친화 신호에도 반도체 산업의 글로벌 경쟁력 약화, 관세 부담 심화 추세.",
@@ -2078,13 +2080,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7686.29,
-      "change_pct": -0.74,
+      "point": 7678.69,
+      "change_pct": -0.84,
       "candle": {
         "o": 7721.7,
         "h": 7721.7,
         "l": 7666.6,
-        "c": 7686.29
+        "c": 7678.69
       },
       "range_240d": {
         "low": 6343.72,
@@ -4108,7 +4110,7 @@
           "o": 7721.7,
           "h": 7721.7,
           "l": 7666.6,
-          "c": 7686.29
+          "c": 7678.69
         }
       ],
       "spark": [
@@ -4133,7 +4135,9 @@
         7671.05,
         7675.19,
         7685.19,
-        7686.29
+        7680.33,
+        7680.52,
+        7678.69
       ],
       "news": {
         "summary": "장기금리 급등으로 소비심리 악화·주택금리 7% 돌파 신호 강화. 글로벌 부채 365조 달러 초과 속 연준의 추가 긴축 가능성 커지면서 시장 변동성 심화 단계.",
@@ -4157,13 +4161,13 @@
     },
     {
       "name": "DOW",
-      "point": 51490.47,
-      "change_pct": -0.65,
+      "point": 51460.78,
+      "change_pct": -0.71,
       "candle": {
         "o": 51648.48,
         "h": 51648.48,
         "l": 51409.65,
-        "c": 51490.47
+        "c": 51460.78
       },
       "range_240d": {
         "low": 45166.64,
@@ -6187,7 +6191,7 @@
           "o": 51648.48,
           "h": 51648.48,
           "l": 51409.65,
-          "c": 51490.47
+          "c": 51460.78
         }
       ],
       "spark": [
@@ -6212,7 +6216,9 @@
         51434.78,
         51441.6,
         51479.56,
-        51490.47
+        51438.09,
+        51473.84,
+        51460.78
       ],
       "news": {
         "summary": "금리 인상에 따른 대형 금융·건설주 실적 악화 신호 확산. 주택 관련 건설사 마진율 하락, 은행권 기업 여신 축소로 경기순환주의 부담 가중 추세.",
@@ -6237,82 +6243,82 @@
   ],
   "news_chips": [
     {
-      "summary": "미국의 무역 압박과 중동 분쟁으로 캐나다 에너지산업의 전략적 가치가 재부상하고 있다.",
+      "summary": "ECB 총재는 에너지 위기로 인한 인플레이션 상승을 인정했으나 아직 광범위한 물가 파급은 제한적이라고 평가했다.",
       "source": "WSJ",
-      "url": "https://www.wsj.com/business/energy-oil/u-s-pressure-is-awakening-an-energy-giant-in-canada-162bd958?mod=rss_markets_main",
-      "published_ts": 1790587800.0,
+      "url": "https://www.wsj.com/economy/central-banking/eurozone-inflation-set-to-rise-but-no-signs-yet-of-becoming-entrenched-ecbs-lagarde-says-f2a222fa?mod=rss_socialeconomyfeed",
+      "published_ts": 1790605320.0,
       "impact_high": true
     },
     {
-      "summary": "트럼프 이란 휴전안 거부로 중동 분쟁 우려가 커지면서 유가와 채권 수익률이 상승했다.",
+      "summary": "미국-이란 협상 교착으로 중동 에너지 공급 불안이 심화되면서 유가가 상승했다.",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/commodities-futures/oil-prices-rise-as-u-s-iran-talks-face-fresh-hurdles-7ea7f176?mod=rss_worldnews",
+      "published_ts": 1790607060.0,
+      "impact_high": false
+    },
+    {
+      "summary": "미장이 국채 수익률 급등으로 약세를 보이면서 유가는 중동 긴장에 상승했다.",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-28-2026?mod=rss_markets_main",
       "published_ts": 1790586579.0,
       "impact_high": false
     },
     {
-      "summary": "중국 8월 산업 이윤 증가율이 연 4.2%로 올해 최저치를 기록하며 경기 부양 필요성이 커지고 있다.",
+      "summary": "중국 산업 이익 증가율이 연초 이후 최저인 4.2%로 주저앉으며 경기 부양책 필요성이 대두되고 있다.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/28/china-posts-weakest-industrial-profit-growth-this-year-expanding-4point2percent-in-august-.html",
       "published_ts": 1790568256.0,
       "impact_high": false
     },
     {
-      "summary": "역사적 사례에서 보면 자본 공급 차단이 AI 시장 과열 종료의 신호가 되는 경향을 보인다.",
+      "summary": "AI 투자 과열이 자본 유입 둔화 신호에 따라 수정될 가능성이 높아지고 있다.",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/stocks/how-to-know-when-the-ai-boom-is-about-to-go-bust-61af3d26?mod=rss_markets_main",
       "published_ts": 1790501400.0,
       "impact_high": false
     },
     {
-      "summary": "고용 지표를 앞두고 연준 추가 인상 기대가 높아지면서 달러화와 채권 수익률에 영향을 미치고 있다.",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/week-ahead-for-fx-bonds-u-s-jobs-data-in-focus-as-another-fed-rate-hike-looks-possible-8593c44f?mod=rss_socialeconomyfeed",
-      "published_ts": 1790351160.0,
+      "summary": "트럼프가 이란의 휴전안을 거부하면서 중동 분쟁 장기화에 따른 유가 불안정이 우려된다.",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/world/middle-east/trump-rejects-iran-ceasefire-expects-renewed-bombing-after-midterms-5982ee50?mod=rss_worldnews",
+      "published_ts": 1790382360.0,
       "impact_high": true
     },
     {
-      "summary": "미시간대 소비자심리지수가 51.7에서 48.1로 하락하며 경기 약세 신호가 나타나고 있다.",
-      "source": "WSJ경제",
+      "summary": "미시간대 소비자심리지수가 51.7에서 48.1로 급락하며 경기 약세가 확대되고 있다.",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/consumers/consumer-sentiment-ticked-lower-in-september-5ad0b371?mod=rss_socialeconomyfeed",
       "published_ts": 1790346360.0,
       "impact_high": false
     },
     {
-      "summary": "미국 반도체 메모리 기술 격차 심화 가운데 트럼프 관세가 국내 기업의 원가 부담을 가중시킬 우려가 있다.",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/tech/ai/america-is-behind-on-memory-chipsand-tariffs-threaten-to-make-things-harder-fb79e365?mod=rss_worldnews",
-      "published_ts": 1790272560.0,
-      "impact_high": true
-    },
-    {
-      "summary": "30년물 모기지 금리가 1년 이상 만에 7% 선을 돌파하면서 주택 구매력 약화가 심화될 전망이다.",
-      "source": "WSJ경제",
+      "summary": "30년물 모기지 금리가 작년초 이후 처음 7%를 넘으면서 주택시장 심리가 급격히 위축되고 있다.",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/housing/mortgage-rates-just-hit-7-heres-how-the-housing-market-is-about-to-change-35986dc6?mod=rss_socialeconomyfeed",
       "published_ts": 1790265600.0,
       "impact_high": false
     },
     {
-      "summary": "글로벌 부채가 365조 달러를 돌파하면서 이자 비용 급증이 국방·청정에너지 투자를 압박하고 있다.",
+      "summary": "글로벌 채무가 365조 달러를 초과하면서 선진국의 채무 상환 부담이 국방·청정에너지 투자를 압박하고 있다.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/24/global-debt-bond-yields-inflation.html",
       "published_ts": 1790237581.0,
       "impact_high": false
     },
     {
-      "summary": "연준 추가 금리 인상 기대로 미 달러가 8주 만의 고점을 기록하며 국제 자본흐름에 변화를 주도하고 있다.",
-      "source": "WSJ경제",
+      "summary": "연준 추가 인상 기대로 달러화가 7월 말 이후 최고점까지 강세를 보였다.",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/central-banking/dollar-jumps-to-8-week-high-as-fed-rate-hike-bets-outweigh-lower-oil-prices-92e6cf72?mod=rss_socialeconomyfeed",
       "published_ts": 1790172660.0,
       "impact_high": true
     }
   ],
-  "_article_sig": "989529d1926088a1a6115103ec040c8848ed828b0101a44aad8b3d9a05a53692",
+  "_article_sig": "7bc49063c6fa7cc6d473ef5c66c3af5a19c24319b3fe3c6f57161b288b65c4d0",
   "built_at_kst": "2026-09-26T07:02:20.732034+09:00",
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "중국의 엔비디아 AI칩 수급난 해소 움직임으로 반도체 수급 안정화 신호. 코인베이스와 블랙록 블록체인 협력으로 기관화 추진 가속.",
+      "summary": "AI 칩 수급난에 중국의 엔비디아 신규 칩 구매 움직임 포착, 반도체 수요 회복 신호. 다만 AI 투자 열풍 지속성을 의심하는 기사 동시 증가, 바이든 행정부가 인공지능 관련 앤스로픽을 보안 위협으로 규정하면서 규제 우려 심화. 미국 메모리 칩 산업이 관세 압력 속 경쟁력 약화 심화.",
       "sources": [
         {
           "name": "한경국제",
@@ -6320,62 +6326,60 @@
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/currencies/citi-expands-digital-assets-footprint-with-coinbase-partnership-8e97a7b9?mod=rss_markets_main"
+          "url": "https://www.wsj.com/finance/stocks/how-to-know-when-the-ai-boom-is-about-to-go-bust-61af3d26?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/blackrock-investment-portfolios-debut-on-the-blockchain-as-digital-tokens-c9df7ca6?mod=rss_markets_main"
+          "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-u-s-appeals-court-upholds-pentagon-labeling-anthropic-a-security-risk-ba46a9ae?mod=rss_worldnews"
         }
       ]
     },
     "S&P500": {
-      "summary": "연준 추가 금리인상 베팅 강화로 달러 8주 고점 경신, 10년물 수익률 급등. 트럼프 이란 협상 거부에 유가 상승 및 경제 불확실성 확대, 소비자심리 급락으로 경기 둔화 신호 심화.",
+      "summary": "10년물 재무부채 수익률이 10개월 만에 신고가 행진, 글로벌 채무 위기 심화(365조 달러) 배경에 연준 추가 인상 시사. 소비심리 9월 급락(51.7→48.1), 모기지 금리 7% 돌파로 주택시장 냉각 신호. 달러 8주 고점 도달, 유로존 기업 대출 급락(50% 감소) 위기 신호 포착. 이란 핵협상 결렬로 유가 상승 압력 지속.",
       "sources": [
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-28-2026?mod=rss_markets_main"
         },
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/week-ahead-for-fx-bonds-u-s-jobs-data-in-focus-as-another-fed-rate-hike-looks-possible-8593c44f?mod=rss_socialeconomyfeed"
+          "name": "WSJ",
+          "url": "https://www.wsj.com/economy/consumers/consumer-sentiment-ticked-lower-in-september-5ad0b371?mod=rss_socialeconomyfeed"
         },
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/dollar-jumps-to-8-week-high-as-fed-rate-hike-bets-outweigh-lower-oil-prices-92e6cf72?mod=rss_socialeconomyfeed"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/24/global-debt-bond-yields-inflation.html"
         }
       ]
     },
     "DOW": {
-      "summary": "캐나다 에너지산업 부활 기대로 자원 개발 재조명, 동시에 글로벌 금융사 대출 위축 및 이란 제재 강화로 금융주 이익 압박. 에너지·금융 장기 약세 국면에서 경기민감주 변동성 고조.",
+      "summary": "중동 긴장(이란-트럼프 핵협상 결렬) 속 유가 상승 기조. 캐나다 에너지 재개발 추진 시그널, 미국-중국 600억 달러 관세 완화 품목 공개로 에너지·전통산업 수혜 기대. 유로존 은행 대출 급락(8월 50% 급감)으로 글로벌 경기 둔화 우려. 프랑스 재정위기 가속(재정적자 급증) 선진국 정부채 위험 증대.",
       "sources": [
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/business/energy-oil/u-s-pressure-is-awakening-an-energy-giant-in-canada-162bd958?mod=rss_markets_main"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/how-mark-walter-turned-a-ho-hum-insurance-company-into-a-risk-taking-lender-e06307a1?mod=rss_markets_main"
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/2026092801871"
         },
         {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/finance/commodities-futures/oil-prices-rise-as-u-s-iran-talks-face-fresh-hurdles-7ea7f176?mod=rss_worldnews"
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/banking/bank-lending-to-eurozone-businesses-halved-in-august-11b0ec4b?mod=rss_markets_main"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-09-29T00:10:15.360454+09:00",
+    "as_of_kst": "2026-09-29T00:20:12.092353+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7731.0,
-        "change_pct": -0.93,
+        "point": 7746.25,
+        "change_pct": -0.74,
         "spark": [
           7796.0,
-          7767.0,
-          7768.25,
           7775.5,
           7776.25,
           7776.25,
@@ -6413,21 +6417,23 @@
           7728.5,
           7730.75,
           7735.25,
-          7731.0
+          7746.0,
+          7741.0,
+          7746.25
         ],
         "candle": {
           "o": 7796.0,
           "h": 7803.0,
           "l": 7726.0,
-          "c": 7731.0
+          "c": 7746.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7833.5,
           "low_date": "2026-03-30",
           "high_date": "2026-09-21",
-          "low_change_pct": 21.02,
-          "high_change_pct": -1.31
+          "low_change_pct": 21.27,
+          "high_change_pct": -1.11
         },
         "daily_expanded": [
           {
@@ -8435,25 +8441,25 @@
             "o": 7796.0,
             "h": 7803.0,
             "l": 7726.0,
-            "c": 7731.0,
-            "v": 674272
+            "c": 7746.75,
+            "v": 721061
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "연준 추가 금리인상 베팅 강화로 달러 8주 고점 경신, 10년물 수익률 급등. 트럼프 이란 협상 거부에 유가 상승 및 경제 불확실성 확대, 소비자심리 급락으로 경기 둔화 신호 심화.",
+          "summary": "10년물 재무부채 수익률이 10개월 만에 신고가 행진, 글로벌 채무 위기 심화(365조 달러) 배경에 연준 추가 인상 시사. 소비심리 9월 급락(51.7→48.1), 모기지 금리 7% 돌파로 주택시장 냉각 신호. 달러 8주 고점 도달, 유로존 기업 대출 급락(50% 감소) 위기 신호 포착. 이란 핵협상 결렬로 유가 상승 압력 지속.",
           "sources": [
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-28-2026?mod=rss_markets_main"
             },
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/week-ahead-for-fx-bonds-u-s-jobs-data-in-focus-as-another-fed-rate-hike-looks-possible-8593c44f?mod=rss_socialeconomyfeed"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/economy/consumers/consumer-sentiment-ticked-lower-in-september-5ad0b371?mod=rss_socialeconomyfeed"
             },
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/dollar-jumps-to-8-week-high-as-fed-rate-hike-bets-outweigh-lower-oil-prices-92e6cf72?mod=rss_socialeconomyfeed"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/09/24/global-debt-bond-yields-inflation.html"
             }
           ]
         }
@@ -8461,12 +8467,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30408.0,
-        "change_pct": -1.56,
+        "point": 30495.0,
+        "change_pct": -1.28,
         "spark": [
           30870.0,
-          30629.5,
-          30641.25,
           30681.0,
           30698.5,
           30703.75,
@@ -8504,21 +8508,23 @@
           30379.75,
           30410.0,
           30441.25,
-          30408.0
+          30491.75,
+          30482.25,
+          30495.0
         ],
         "candle": {
           "o": 30870.0,
           "h": 30920.75,
           "l": 30356.75,
-          "c": 30409.0
+          "c": 30493.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31028.5,
           "low_date": "2026-03-30",
           "high_date": "2026-09-22",
-          "low_change_pct": 31.41,
-          "high_change_pct": -2.0
+          "low_change_pct": 31.78,
+          "high_change_pct": -1.73
         },
         "daily_expanded": [
           {
@@ -10526,13 +10532,13 @@
             "o": 30870.0,
             "h": 30920.75,
             "l": 30356.75,
-            "c": 30409.0,
-            "v": 336516
+            "c": 30493.25,
+            "v": 351850
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "중국의 엔비디아 AI칩 수급난 해소 움직임으로 반도체 수급 안정화 신호. 코인베이스와 블랙록 블록체인 협력으로 기관화 추진 가속.",
+          "summary": "AI 칩 수급난에 중국의 엔비디아 신규 칩 구매 움직임 포착, 반도체 수요 회복 신호. 다만 AI 투자 열풍 지속성을 의심하는 기사 동시 증가, 바이든 행정부가 인공지능 관련 앤스로픽을 보안 위협으로 규정하면서 규제 우려 심화. 미국 메모리 칩 산업이 관세 압력 속 경쟁력 약화 심화.",
           "sources": [
             {
               "name": "한경국제",
@@ -10540,11 +10546,11 @@
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/currencies/citi-expands-digital-assets-footprint-with-coinbase-partnership-8e97a7b9?mod=rss_markets_main"
+              "url": "https://www.wsj.com/finance/stocks/how-to-know-when-the-ai-boom-is-about-to-go-bust-61af3d26?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/blackrock-investment-portfolios-debut-on-the-blockchain-as-digital-tokens-c9df7ca6?mod=rss_markets_main"
+              "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-u-s-appeals-court-upholds-pentagon-labeling-anthropic-a-security-risk-ba46a9ae?mod=rss_worldnews"
             }
           ]
         }
@@ -10552,12 +10558,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51771.0,
-        "change_pct": -0.75,
+        "point": 51831.0,
+        "change_pct": -0.64,
         "spark": [
           52140.0,
-          51875.0,
-          51873.0,
           51919.0,
           51927.0,
           51918.0,
@@ -10595,21 +10599,23 @@
           51782.0,
           51775.0,
           51784.0,
-          51771.0
+          51824.0,
+          51781.0,
+          51831.0
         ],
         "candle": {
           "o": 52140.0,
           "h": 52153.0,
-          "l": 51758.0,
-          "c": 51774.0
+          "l": 51744.0,
+          "c": 51829.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 13.98,
-          "high_change_pct": -4.99
+          "low_change_pct": 14.1,
+          "high_change_pct": -4.89
         },
         "daily_expanded": [
           {
@@ -12616,31 +12622,31 @@
             "date": "2026-09-28",
             "o": 52140.0,
             "h": 52153.0,
-            "l": 51758.0,
-            "c": 51774.0,
-            "v": 41636
+            "l": 51744.0,
+            "c": 51829.0,
+            "v": 43094
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "캐나다 에너지산업 부활 기대로 자원 개발 재조명, 동시에 글로벌 금융사 대출 위축 및 이란 제재 강화로 금융주 이익 압박. 에너지·금융 장기 약세 국면에서 경기민감주 변동성 고조.",
+          "summary": "중동 긴장(이란-트럼프 핵협상 결렬) 속 유가 상승 기조. 캐나다 에너지 재개발 추진 시그널, 미국-중국 600억 달러 관세 완화 품목 공개로 에너지·전통산업 수혜 기대. 유로존 은행 대출 급락(8월 50% 급감)으로 글로벌 경기 둔화 우려. 프랑스 재정위기 가속(재정적자 급증) 선진국 정부채 위험 증대.",
           "sources": [
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/business/energy-oil/u-s-pressure-is-awakening-an-energy-giant-in-canada-162bd958?mod=rss_markets_main"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/how-mark-walter-turned-a-ho-hum-insurance-company-into-a-risk-taking-lender-e06307a1?mod=rss_markets_main"
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/2026092801871"
             },
             {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/finance/commodities-futures/oil-prices-rise-as-u-s-iran-talks-face-fresh-hurdles-7ea7f176?mod=rss_worldnews"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/banking/bank-lending-to-eurozone-businesses-halved-in-august-11b0ec4b?mod=rss_markets_main"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-09-29T00:10:21.769716+09:00"
+  "intraday_refreshed_kst": "2026-09-29T00:22:52.759850+09:00"
 }
