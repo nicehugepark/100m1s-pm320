@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 27065.21,
+      "point": 27066.38,
       "change_pct": 1.0,
       "candle": {
         "o": 26901.26,
         "h": 27107.65,
         "l": 26888.84,
-        "c": 27065.21
+        "c": 27066.38
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,12 +2033,11 @@
           "o": 26901.26,
           "h": 27107.65,
           "l": 26888.84,
-          "c": 27065.21
+          "c": 27066.38
         }
       ],
       "spark": [
         26901.26,
-        26974.87,
         27027.66,
         27070.7,
         27068.93,
@@ -2076,8 +2075,9 @@
         27048.05,
         27053.15,
         27068.66,
-        27067.1,
-        27065.21
+        27066.72,
+        27069.47,
+        27066.38
       ],
       "news": {
         "summary": "AI 안전 이슈로 신모델 출시 중단되는 등 기술주 성장성 약세 신호 확산 중. 엔비디아 자사주 매입이 거품 우려 부각, 메모리칩 산업 경쟁력 약화로 관세 위험 노출 심화 상태.",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7711.6,
+      "point": 7711.5,
       "change_pct": 0.53,
       "candle": {
         "o": 7688.99,
         "h": 7722.88,
         "l": 7688.99,
-        "c": 7711.6
+        "c": 7711.5
       },
       "range_240d": {
         "low": 6343.72,
@@ -4131,12 +4131,11 @@
           "o": 7688.99,
           "h": 7722.88,
           "l": 7688.99,
-          "c": 7711.6
+          "c": 7711.5
         }
       ],
       "spark": [
         7688.99,
-        7702.44,
         7709.05,
         7715.39,
         7714.29,
@@ -4174,8 +4173,9 @@
         7707.0,
         7708.94,
         7712.12,
-        7711.98,
-        7711.6
+        7711.86,
+        7711.83,
+        7711.5
       ],
       "news": {
         "summary": "연준 금리 신호 엇갈림 속 장기 채권수익률이 24년 고점까지 급등. 소비자신뢰도 낙폭 확대, AI 투자에 따른 인플레 압력 인식 고조, 달러 강세로 거시 변동성 심화 추세.",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 51317.44,
-      "change_pct": -0.06,
+      "point": 51299.02,
+      "change_pct": -0.1,
       "candle": {
         "o": 51424.84,
         "h": 51473.93,
         "l": 51277.14,
-        "c": 51317.44
+        "c": 51299.02
       },
       "range_240d": {
         "low": 45166.64,
@@ -6229,12 +6229,11 @@
           "o": 51424.84,
           "h": 51473.93,
           "l": 51277.14,
-          "c": 51317.44
+          "c": 51299.02
         }
       ],
       "spark": [
         51424.84,
-        51394.93,
         51380.24,
         51398.12,
         51406.96,
@@ -6272,8 +6271,9 @@
         51285.95,
         51294.95,
         51311.44,
-        51316.19,
-        51317.44
+        51306.36,
+        51299.62,
+        51299.02
       ],
       "news": {
         "summary": "부동산 모기지 금리 7% 돌파로 주택시장 냉각 우려 증대. 대형금융사 CEO 교체·M&A 검토로 산업 구조조정 신호, 중국 산업 수익성 급락과 캐나다 에너지 기회로 경기순환 약세 신호 복합 중.",
@@ -6298,99 +6298,99 @@
   ],
   "news_chips": [
     {
-      "summary": "2분기 미국 GDP 2.2%로 상향 수정되며 경제 회복세 지속 시현",
-      "source": "WSJ경제",
+      "summary": "예상보다 온건한 미국 인플레이션 지표가 나오면서 Treasury 수익률이 일시적으로 하락했다.",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-fall-on-dovish-leaning-fed-speech-d6451171?mod=rss_socialeconomyfeed",
+      "published_ts": 1790781600.0,
+      "impact_high": true
+    },
+    {
+      "summary": "미국 2분기 GDP가 최근 수정치에서 2.2%로 상향 조정되면서 경제 성장세를 나타냈다.",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/growth-inflation-figures-show-signs-of-an-economic-pickup-041f4e1d?mod=rss_socialeconomyfeed",
       "published_ts": 1790778540.0,
       "impact_high": true
     },
     {
-      "summary": "영국 경제 데이터 상향 수정과 EU 관계 개선 전망으로 스털링이 1개월 이상 유로 대비 최고가 기록",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/world/uk/sterling-rises-on-strong-u-k-data-prospect-of-fiscal-discipline-and-improved-eu-u-k-ties-43f746f3?mod=rss_socialeconomyfeed",
-      "published_ts": 1790775420.0,
-      "impact_high": true
-    },
-    {
-      "summary": "중동 유전국들이 대체 파이프라인·항구·해상 환적을 통해 유가 공급망을 전전 수준으로 회복 중",
-      "source": "WSJ세계",
+      "summary": "중동 지역 원유 수출이 전쟁 이전 수준으로 회복되면서 대체 파이프라인·항구·선박 환적을 통한 공급 정상화가 진행 중이다.",
+      "source": "WSJ",
       "url": "https://www.wsj.com/business/energy-oil/middle-east-crude-oil-exports-back-at-prewar-levels-analysts-say-b5582027?mod=rss_worldnews",
       "published_ts": 1790775300.0,
       "impact_high": true
     },
     {
-      "summary": "유로존 주요국 물가가 다년간 최고 수준으로 상승하면서 유럽중앙은행의 추가 금리 인상 가능성 부각",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/french-inflation-tops-expectations-as-energy-prices-climb-13819bb3?mod=rss_socialeconomyfeed",
-      "published_ts": 1790774220.0,
-      "impact_high": true
-    },
-    {
-      "summary": "8월 미국 PCE 물가지수 전년 대비 3.4%로 예상치 하회하면서 인플레이션 완화 신호 강화",
-      "source": "한경국제",
+      "summary": "8월 미국 PCE 물가가 전년 대비 3.4% 상승으로 시장 예상치를 하회했다.",
+      "source": "한경",
       "url": "https://www.hankyung.com/article/2026093059367",
       "published_ts": 1790771910.0,
       "impact_high": true
     },
     {
-      "summary": "뉴욕 연준 윌리엄스 총재, 금리 인상을 급할 필요 없다고 발언하며 향후 통화정책 기대감 재조정",
-      "source": "WSJ경제",
+      "summary": "뉴욕 연준 총재 윌리엄스는 지난주 금리 인상 후 다음 인상을 서두르지 않아도 된다고 시사했다.",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/central-banking/newyork-fed-s-williams-hints-next-interest-rate-increase-can-wait-6518cd41?mod=rss_socialeconomyfeed",
       "published_ts": 1790709000.0,
       "impact_high": true
     },
     {
-      "summary": "연준 이사 배르, AI 인프라 투자 급증이 물가 상승에 실질적 영향을 미친다고 지적",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/feds-barr-surge-of-investment-and-related-demand-from-ai-buildout-is-having-measurable-effect-on-prices-27626b1f?mod=rss_socialeconomyfeed",
-      "published_ts": 1790701740.0,
-      "impact_high": true
-    },
-    {
-      "summary": "9월 미국 민간 부문 일자리 90,000개 추가로 8월 수정치 대비 회복세 복원",
-      "source": "WSJ경제",
+      "summary": "9월 미국 민간 부문 신규 고용이 90,000개로 8월의 36,000개에서 증가하며 시장 기대를 상회했다.",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/jobs/adp-says-private-sector-hiring-picked-up-in-september-d8c0f59e?mod=rss_socialeconomyfeed",
       "published_ts": 1790772000.0,
       "impact_high": false
     },
     {
-      "summary": "9월 중국 제조업·서비스·건설 PMI가 모두 상승하며 경제 개선 신호 지속",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/china-pmis-signal-improvement-across-sectors-ffc944c6?mod=rss_socialeconomyfeed",
-      "published_ts": 1790739900.0,
+      "summary": "증시 변동성과 AI 안전 논쟁이 심화되면서 월스트릿의 기대했던 IPO 시즌이 부진할 가능성이 높아지고 있다.",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/stocks/wall-streets-hopes-for-a-blockbuster-ipo-season-are-starting-to-fade-1bb8f8db?mod=rss_markets_main",
+      "published_ts": 1790730000.0,
       "impact_high": false
     },
     {
-      "summary": "30년 모기지 금리 7.03% 돌파로 심리 기준선 넘으면서 주택 시장 구조 전환 신호",
-      "source": "WSJ경제",
+      "summary": "연준 이사 배는 AI 투자 급증에 따른 수요 증가가 물가 상승에 가시적 영향을 미치고 있다고 지적했다.",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/economy/central-banking/feds-barr-surge-of-investment-and-related-demand-from-ai-buildout-is-having-measurable-effect-on-prices-27626b1f?mod=rss_socialeconomyfeed",
+      "published_ts": 1790701740.0,
+      "impact_high": true
+    },
+    {
+      "summary": "미국이 메모리칩 영역에서 뒤처진 상황에서 관세 정책이 미국 기업들의 반도체 수입 비용을 증가시킬 우려가 제기되고 있다.",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/tech/ai/america-is-behind-on-memory-chipsand-tariffs-threaten-to-make-things-harder-fb79e365?mod=rss_worldnews",
+      "published_ts": 1790272560.0,
+      "impact_high": true
+    },
+    {
+      "summary": "30년 모기지 금리가 7.03%에 도달하면서 작년 초 이후 처음으로 7% 이상 수준을 넘어섰다.",
+      "source": "WSJ",
       "url": "https://www.wsj.com/economy/housing/mortgage-rates-just-hit-7-heres-how-the-housing-market-is-about-to-change-35986dc6?mod=rss_socialeconomyfeed",
       "published_ts": 1790265600.0,
       "impact_high": false
     }
   ],
-  "_article_sig": "eca56751f98bbe9a3a751218c2b2be556fc2a35a4d25f360bab37585291deccd",
+  "_article_sig": "7be46ee1d54cc0a6257d0b07aff423c5bd16f37b89f2adf18402dcb13c64d6b7",
   "built_at_kst": "2026-09-30T07:04:18.159293+09:00",
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "빅테크·반도체·AI 관련 불확실성 확대. IPO 시장 위축, 기술주 변동성 고조 중.",
+      "summary": "GDP 상향 조정(+2.2%)에 나스닥100 선물 소폭 강세 전개. AI 버블 우려와 IPO 시장 부진 속 상승세 제한적. 반도체 공급망 리스크(관세)와 기술주 변동성 심화 중.",
       "sources": [
         {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/2026093056701"
-        },
-        {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/wall-streets-hopes-for-a-blockbuster-ipo-season-are-starting-to-fade-1bb8f8db?mod=rss_markets_main"
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-30-2026?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/how-to-know-when-the-ai-boom-is-about-to-go-bust-61af3d26?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/tech/ai/america-is-behind-on-memory-chipsand-tariffs-threaten-to-make-things-harder-fb79e365?mod=rss_worldnews"
         }
       ]
     },
     "S&P500": {
-      "summary": "경제 회복 신호 강화(Q2 GDP 상향조정 2.2%, 고용 개선, PCE 물가 예상치 하회). 글로벌 리스크(중동 지정학, 중국 경제 약세, 유로존 물가) 양극화 심화.",
+      "summary": "경제 성장(GDP +2.2%) 및 고용 개선(ADP +9만) 신호에도 금리 급등세 지속. 연준 정책 방향성 모호함(Williams '신중론' vs Barr '추가 조정 필요') 속 선물 변동성 확대. 인플레이션 완화(PCE 예상치 하회)와 기금 조달 비용 상승의 상충 우려.",
       "sources": [
         {
           "name": "WSJ경제",
@@ -6407,36 +6407,34 @@
       ]
     },
     "DOW": {
-      "summary": "중동 지정학 리스크 심화로 에너지 산업 변동성 확대. 유가 중단 우려 vs. 사우디 공급량 회복 혼재·캐나다 에너지 수출 기대·금융주 AI 전략 강화로 경기민감주 쏠림.",
+      "summary": "중동 지정학 리스크(이란 위협·선박 운항 차질) 속 유가 변동성 지속. 금리 급등(30년물 모기지 7% 돌파)에 따른 금융주 리스크 부각. 고금리 환경에서 에너지·금융 등 경기민감주 편차 확대 신호.",
       "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-slip-further-as-gulf-exports-recover-0cf48ca2?mod=rss_worldnews"
+        },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/business/energy-oil/middle-east-crude-oil-exports-back-at-prewar-levels-analysts-say-b5582027?mod=rss_worldnews"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/business/energy-oil/u-s-pressure-is-awakening-an-energy-giant-in-canada-162bd958?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/goldmans-board-has-discussed-a-plan-to-name-john-waldron-as-its-next-ceo-7c5d90dd?mod=rss_markets_main"
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/housing/mortgage-rates-just-hit-7-heres-how-the-housing-market-is-about-to-change-35986dc6?mod=rss_socialeconomyfeed"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-10-01T02:01:06.956810+09:00",
+    "as_of_kst": "2026-10-01T02:10:34.316365+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7766.0,
-        "change_pct": 0.44,
+        "point": 7768.75,
+        "change_pct": 0.48,
         "spark": [
           7739.0,
-          7754.25,
-          7759.0,
           7761.0,
           7767.25,
           7773.75,
@@ -6474,21 +6472,23 @@
           7771.25,
           7765.5,
           7767.0,
-          7766.0
+          7769.75,
+          7769.75,
+          7768.75
         ],
         "candle": {
           "o": 7739.0,
           "h": 7782.0,
           "l": 7719.5,
-          "c": 7766.25
+          "c": 7769.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7833.5,
           "low_date": "2026-03-30",
           "high_date": "2026-09-21",
-          "low_change_pct": 21.57,
-          "high_change_pct": -0.86
+          "low_change_pct": 21.62,
+          "high_change_pct": -0.82
         },
         "daily_expanded": [
           {
@@ -8504,13 +8504,13 @@
             "o": 7739.0,
             "h": 7782.0,
             "l": 7719.5,
-            "c": 7766.25,
-            "v": 1088053
+            "c": 7769.25,
+            "v": 1102464
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "경제 회복 신호 강화(Q2 GDP 상향조정 2.2%, 고용 개선, PCE 물가 예상치 하회). 글로벌 리스크(중동 지정학, 중국 경제 약세, 유로존 물가) 양극화 심화.",
+          "summary": "경제 성장(GDP +2.2%) 및 고용 개선(ADP +9만) 신호에도 금리 급등세 지속. 연준 정책 방향성 모호함(Williams '신중론' vs Barr '추가 조정 필요') 속 선물 변동성 확대. 인플레이션 완화(PCE 예상치 하회)와 기금 조달 비용 상승의 상충 우려.",
           "sources": [
             {
               "name": "WSJ경제",
@@ -8530,12 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30840.25,
-        "change_pct": 0.74,
+        "point": 30859.5,
+        "change_pct": 0.8,
         "spark": [
           30657.25,
-          30767.75,
-          30770.75,
           30778.75,
           30841.0,
           30863.25,
@@ -8573,21 +8571,23 @@
           30861.5,
           30839.5,
           30843.25,
-          30840.25
+          30861.25,
+          30860.25,
+          30859.5
         ],
         "candle": {
           "o": 30657.25,
           "h": 30906.0,
           "l": 30512.25,
-          "c": 30841.25
+          "c": 30860.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31028.5,
           "low_date": "2026-03-30",
           "high_date": "2026-09-22",
-          "low_change_pct": 33.28,
-          "high_change_pct": -0.6
+          "low_change_pct": 33.37,
+          "high_change_pct": -0.54
         },
         "daily_expanded": [
           {
@@ -10603,25 +10603,25 @@
             "o": 30657.25,
             "h": 30906.0,
             "l": 30512.25,
-            "c": 30841.25,
-            "v": 410422
+            "c": 30860.75,
+            "v": 414480
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "빅테크·반도체·AI 관련 불확실성 확대. IPO 시장 위축, 기술주 변동성 고조 중.",
+          "summary": "GDP 상향 조정(+2.2%)에 나스닥100 선물 소폭 강세 전개. AI 버블 우려와 IPO 시장 부진 속 상승세 제한적. 반도체 공급망 리스크(관세)와 기술주 변동성 심화 중.",
           "sources": [
             {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/2026093056701"
-            },
-            {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/wall-streets-hopes-for-a-blockbuster-ipo-season-are-starting-to-fade-1bb8f8db?mod=rss_markets_main"
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-30-2026?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/how-to-know-when-the-ai-boom-is-about-to-go-bust-61af3d26?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/tech/ai/america-is-behind-on-memory-chipsand-tariffs-threaten-to-make-things-harder-fb79e365?mod=rss_worldnews"
             }
           ]
         }
@@ -10629,12 +10629,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51618.0,
-        "change_pct": -0.16,
+        "point": 51636.0,
+        "change_pct": -0.13,
         "spark": [
           51765.0,
-          51677.0,
-          51718.0,
           51724.0,
           51712.0,
           51735.0,
@@ -10672,21 +10670,23 @@
           51654.0,
           51615.0,
           51625.0,
-          51618.0
+          51634.0,
+          51633.0,
+          51636.0
         ],
         "candle": {
           "o": 51765.0,
           "h": 51997.0,
           "l": 51586.0,
-          "c": 51620.0
+          "c": 51636.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 13.64,
-          "high_change_pct": -5.27
+          "low_change_pct": 13.68,
+          "high_change_pct": -5.24
         },
         "daily_expanded": [
           {
@@ -12702,30 +12702,30 @@
             "o": 51765.0,
             "h": 51997.0,
             "l": 51586.0,
-            "c": 51620.0,
-            "v": 51807
+            "c": 51636.0,
+            "v": 52283
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "중동 지정학 리스크 심화로 에너지 산업 변동성 확대. 유가 중단 우려 vs. 사우디 공급량 회복 혼재·캐나다 에너지 수출 기대·금융주 AI 전략 강화로 경기민감주 쏠림.",
+          "summary": "중동 지정학 리스크(이란 위협·선박 운항 차질) 속 유가 변동성 지속. 금리 급등(30년물 모기지 7% 돌파)에 따른 금융주 리스크 부각. 고금리 환경에서 에너지·금융 등 경기민감주 편차 확대 신호.",
           "sources": [
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/business/energy-oil/oil-prices-slip-further-as-gulf-exports-recover-0cf48ca2?mod=rss_worldnews"
+            },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/business/energy-oil/middle-east-crude-oil-exports-back-at-prewar-levels-analysts-say-b5582027?mod=rss_worldnews"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/business/energy-oil/u-s-pressure-is-awakening-an-energy-giant-in-canada-162bd958?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/goldmans-board-has-discussed-a-plan-to-name-john-waldron-as-its-next-ceo-7c5d90dd?mod=rss_markets_main"
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/housing/mortgage-rates-just-hit-7-heres-how-the-housing-market-is-about-to-change-35986dc6?mod=rss_socialeconomyfeed"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-10-01T02:06:39.651058+09:00"
+  "intraday_refreshed_kst": "2026-10-01T02:14:32.592206+09:00"
 }
