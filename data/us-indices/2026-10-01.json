@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 27049.87,
-      "change_pct": 0.94,
+      "point": 27065.21,
+      "change_pct": 1.0,
       "candle": {
         "o": 26901.26,
         "h": 27107.65,
         "l": 26888.84,
-        "c": 27049.87
+        "c": 27065.21
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,14 +2033,11 @@
           "o": 26901.26,
           "h": 27107.65,
           "l": 26888.84,
-          "c": 27049.87
+          "c": 27065.21
         }
       ],
       "spark": [
         26901.26,
-        26948.48,
-        26951.07,
-        26965.29,
         26974.87,
         27027.66,
         27070.7,
@@ -2077,7 +2074,10 @@
         27052.61,
         27069.76,
         27048.05,
-        27049.87
+        27053.15,
+        27068.66,
+        27067.1,
+        27065.21
       ],
       "news": {
         "summary": "AI 안전 이슈로 신모델 출시 중단되는 등 기술주 성장성 약세 신호 확산 중. 엔비디아 자사주 매입이 거품 우려 부각, 메모리칩 산업 경쟁력 약화로 관세 위험 노출 심화 상태.",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7707.25,
-      "change_pct": 0.47,
+      "point": 7711.6,
+      "change_pct": 0.53,
       "candle": {
         "o": 7688.99,
         "h": 7722.88,
         "l": 7688.99,
-        "c": 7707.25
+        "c": 7711.6
       },
       "range_240d": {
         "low": 6343.72,
@@ -4131,14 +4131,11 @@
           "o": 7688.99,
           "h": 7722.88,
           "l": 7688.99,
-          "c": 7707.25
+          "c": 7711.6
         }
       ],
       "spark": [
         7688.99,
-        7698.27,
-        7694.87,
-        7700.43,
         7702.44,
         7709.05,
         7715.39,
@@ -4175,7 +4172,10 @@
         7708.28,
         7712.84,
         7707.0,
-        7707.25
+        7708.94,
+        7712.12,
+        7711.98,
+        7711.6
       ],
       "news": {
         "summary": "연준 금리 신호 엇갈림 속 장기 채권수익률이 24년 고점까지 급등. 소비자신뢰도 낙폭 확대, AI 투자에 따른 인플레 압력 인식 고조, 달러 강세로 거시 변동성 심화 추세.",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 51288.58,
-      "change_pct": -0.12,
+      "point": 51317.44,
+      "change_pct": -0.06,
       "candle": {
         "o": 51424.84,
         "h": 51473.93,
         "l": 51277.14,
-        "c": 51288.58
+        "c": 51317.44
       },
       "range_240d": {
         "low": 45166.64,
@@ -6229,14 +6229,11 @@
           "o": 51424.84,
           "h": 51473.93,
           "l": 51277.14,
-          "c": 51288.58
+          "c": 51317.44
         }
       ],
       "spark": [
         51424.84,
-        51412.4,
-        51348.45,
-        51393.46,
         51394.93,
         51380.24,
         51398.12,
@@ -6273,7 +6270,10 @@
         51298.8,
         51327.51,
         51285.95,
-        51288.58
+        51294.95,
+        51311.44,
+        51316.19,
+        51317.44
       ],
       "news": {
         "summary": "부동산 모기지 금리 7% 돌파로 주택시장 냉각 우려 증대. 대형금융사 CEO 교체·M&A 검토로 산업 구조조정 신호, 중국 산업 수익성 급락과 캐나다 에너지 기회로 경기순환 약세 신호 복합 중.",
@@ -6298,86 +6298,86 @@
   ],
   "news_chips": [
     {
-      "summary": "8월 개인소비지출 물가가 전년 대비 3.4% 상승으로 예상치를 밑돌아 인플레이션 둔화 신호가 확인되었다",
-      "source": "한경",
+      "summary": "2분기 미국 GDP 2.2%로 상향 수정되며 경제 회복세 지속 시현",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/growth-inflation-figures-show-signs-of-an-economic-pickup-041f4e1d?mod=rss_socialeconomyfeed",
+      "published_ts": 1790778540.0,
+      "impact_high": true
+    },
+    {
+      "summary": "영국 경제 데이터 상향 수정과 EU 관계 개선 전망으로 스털링이 1개월 이상 유로 대비 최고가 기록",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/world/uk/sterling-rises-on-strong-u-k-data-prospect-of-fiscal-discipline-and-improved-eu-u-k-ties-43f746f3?mod=rss_socialeconomyfeed",
+      "published_ts": 1790775420.0,
+      "impact_high": true
+    },
+    {
+      "summary": "중동 유전국들이 대체 파이프라인·항구·해상 환적을 통해 유가 공급망을 전전 수준으로 회복 중",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/business/energy-oil/middle-east-crude-oil-exports-back-at-prewar-levels-analysts-say-b5582027?mod=rss_worldnews",
+      "published_ts": 1790775300.0,
+      "impact_high": true
+    },
+    {
+      "summary": "유로존 주요국 물가가 다년간 최고 수준으로 상승하면서 유럽중앙은행의 추가 금리 인상 가능성 부각",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/french-inflation-tops-expectations-as-energy-prices-climb-13819bb3?mod=rss_socialeconomyfeed",
+      "published_ts": 1790774220.0,
+      "impact_high": true
+    },
+    {
+      "summary": "8월 미국 PCE 물가지수 전년 대비 3.4%로 예상치 하회하면서 인플레이션 완화 신호 강화",
+      "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026093059367",
       "published_ts": 1790771910.0,
       "impact_high": true
     },
     {
-      "summary": "연방준비제도 뉴욕 총재가 금리 인상을 서두를 필요 없다는 신호를 보내면서 시장 금리 인상 예상이 재조정되고 있다",
-      "source": "WSJ",
+      "summary": "뉴욕 연준 윌리엄스 총재, 금리 인상을 급할 필요 없다고 발언하며 향후 통화정책 기대감 재조정",
+      "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/newyork-fed-s-williams-hints-next-interest-rate-increase-can-wait-6518cd41?mod=rss_socialeconomyfeed",
       "published_ts": 1790709000.0,
       "impact_high": true
     },
     {
-      "summary": "중동 지정학적 긴장 속 유가가 반등했으나 페르시아만 원유 공급 회복이 가격 상승을 제한하고 있다",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/the-94-year-old-restaurant-supply-tycoon-building-one-of-the-biggest-family-offices-670d66a9?mod=rss_markets_main",
-      "published_ts": 1790785320.0,
-      "impact_high": false
+      "summary": "연준 이사 배르, AI 인프라 투자 급증이 물가 상승에 실질적 영향을 미친다고 지적",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/feds-barr-surge-of-investment-and-related-demand-from-ai-buildout-is-having-measurable-effect-on-prices-27626b1f?mod=rss_socialeconomyfeed",
+      "published_ts": 1790701740.0,
+      "impact_high": true
     },
     {
-      "summary": "민간 고용이 9월 9만 명 증가로 8월 대비 크게 증가하며 고용시장 회복세를 보이고 있다",
-      "source": "WSJ",
+      "summary": "9월 미국 민간 부문 일자리 90,000개 추가로 8월 수정치 대비 회복세 복원",
+      "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/jobs/adp-says-private-sector-hiring-picked-up-in-september-d8c0f59e?mod=rss_socialeconomyfeed",
       "published_ts": 1790772000.0,
       "impact_high": false
     },
     {
-      "summary": "미국 2분기 국내총생산이 2.2%로 상향 수정되며 경제 성장 회복 신호를 나타냈다",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-30-2026?mod=rss_markets_main",
-      "published_ts": 1790756701.0,
-      "impact_high": false
-    },
-    {
-      "summary": "중국 9월 제조·서비스·건설 PMI가 동시 상승하며 경제 회복 신호를 나타냈다",
-      "source": "WSJ",
+      "summary": "9월 중국 제조업·서비스·건설 PMI가 모두 상승하며 경제 개선 신호 지속",
+      "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/china-pmis-signal-improvement-across-sectors-ffc944c6?mod=rss_socialeconomyfeed",
       "published_ts": 1790739900.0,
       "impact_high": false
     },
     {
-      "summary": "한반도 비무장지대 지뢰 폭발로 남한 군인 부상이 발생하면서 한반도 긴장이 재점화되고 있다",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/world/asia/north-korea-land-mines-highly-likely-behind-dmz-explosion-seoul-says-c7c99699?mod=rss_worldnews",
-      "published_ts": 1790733060.0,
-      "impact_high": false
-    },
-    {
-      "summary": "시장 변동성과 AI 안전성 우려로 인해 기대되던 가을 대형 기업공개 시즌이 위축되고 있다",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/wall-streets-hopes-for-a-blockbuster-ipo-season-are-starting-to-fade-1bb8f8db?mod=rss_markets_main",
-      "published_ts": 1790730000.0,
-      "impact_high": false
-    },
-    {
-      "summary": "인공지능 버블 시작 시점이 자본 공급 중단 시기에 달려있다는 분석으로 투자자 우려가 커지고 있다",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/how-to-know-when-the-ai-boom-is-about-to-go-bust-61af3d26?mod=rss_markets_main",
-      "published_ts": 1790501400.0,
-      "impact_high": false
-    },
-    {
-      "summary": "30년 모기지 금리가 작년 초 이후 처음 7%를 넘으면서 주택시장 전망이 악화되고 있다",
-      "source": "WSJ",
+      "summary": "30년 모기지 금리 7.03% 돌파로 심리 기준선 넘으면서 주택 시장 구조 전환 신호",
+      "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/housing/mortgage-rates-just-hit-7-heres-how-the-housing-market-is-about-to-change-35986dc6?mod=rss_socialeconomyfeed",
       "published_ts": 1790265600.0,
       "impact_high": false
     }
   ],
-  "_article_sig": "7979d19795c7a6d816384f0071ef9b1b19f1f1dbdafb5b4140922e61a2adfb37",
+  "_article_sig": "eca56751f98bbe9a3a751218c2b2be556fc2a35a4d25f360bab37585291deccd",
   "built_at_kst": "2026-09-30T07:04:18.159293+09:00",
   "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
-      "summary": "AI 버블 우려 심화로 성장주 약세 신호 강화. IPO 시장 부진 지속, 반도체 국제 경쟁력 약화 및 관세 압력 가중. 바이오·제약 펩타이드 기술 대체 수익 창출 기대.",
+      "summary": "빅테크·반도체·AI 관련 불확실성 확대. IPO 시장 위축, 기술주 변동성 고조 중.",
       "sources": [
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/how-to-know-when-the-ai-boom-is-about-to-go-bust-61af3d26?mod=rss_markets_main"
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/2026093056701"
         },
         {
           "name": "WSJ",
@@ -6385,33 +6385,33 @@
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/tech/ai/america-is-behind-on-memory-chipsand-tariffs-threaten-to-make-things-harder-fb79e365?mod=rss_worldnews"
+          "url": "https://www.wsj.com/finance/stocks/how-to-know-when-the-ai-boom-is-about-to-go-bust-61af3d26?mod=rss_markets_main"
         }
       ]
     },
     "S&P500": {
-      "summary": "인플레이션 이완 신호로 채권 수익률 조정 중. 8월 PCE 3.4% 예상치 하회, Q2 GDP 수정 상향(2.2%), 민간고용 9만 명 개선으로 경기 회복력 재평가. 연준 금리 인상 속도 조절 대기 입장 부각.",
+      "summary": "경제 회복 신호 강화(Q2 GDP 상향조정 2.2%, 고용 개선, PCE 물가 예상치 하회). 글로벌 리스크(중동 지정학, 중국 경제 약세, 유로존 물가) 양극화 심화.",
       "sources": [
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-fall-on-dovish-leaning-fed-speech-d6451171?mod=rss_socialeconomyfeed"
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/growth-inflation-figures-show-signs-of-an-economic-pickup-041f4e1d?mod=rss_socialeconomyfeed"
         },
         {
-          "name": "WSJ",
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/2026093059367"
+        },
+        {
+          "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/jobs/adp-says-private-sector-hiring-picked-up-in-september-d8c0f59e?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/economy/central-banking/newyork-fed-s-williams-hints-next-interest-rate-increase-can-wait-6518cd41?mod=rss_socialeconomyfeed"
         }
       ]
     },
     "DOW": {
-      "summary": "금융업 구조 재편 신호 강화, 골드만삭스 CEO 교체 추진 중. 중동 지정학 긴장으로 유가 등락 지속, 캐나다 에너지 자산 재평가 우위. 모기지금리 7% 돌파로 주택시장 냉각 우려 심화.",
+      "summary": "중동 지정학 리스크 심화로 에너지 산업 변동성 확대. 유가 중단 우려 vs. 사우디 공급량 회복 혼재·캐나다 에너지 수출 기대·금융주 AI 전략 강화로 경기민감주 쏠림.",
       "sources": [
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/goldmans-board-has-discussed-a-plan-to-name-john-waldron-as-its-next-ceo-7c5d90dd?mod=rss_markets_main"
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/business/energy-oil/middle-east-crude-oil-exports-back-at-prewar-levels-analysts-say-b5582027?mod=rss_worldnews"
         },
         {
           "name": "WSJ",
@@ -6419,24 +6419,22 @@
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/economy/housing/mortgage-rates-just-hit-7-heres-how-the-housing-market-is-about-to-change-35986dc6?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/finance/banking/goldmans-board-has-discussed-a-plan-to-name-john-waldron-as-its-next-ceo-7c5d90dd?mod=rss_markets_main"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-10-01T01:50:27.736763+09:00",
+    "as_of_kst": "2026-10-01T02:01:06.956810+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7766.5,
-        "change_pct": 0.45,
+        "point": 7766.0,
+        "change_pct": 0.44,
         "spark": [
           7739.0,
-          7755.0,
-          7756.5,
           7754.25,
           7759.0,
           7761.0,
@@ -6474,13 +6472,15 @@
           7767.5,
           7766.5,
           7771.25,
-          7766.5
+          7765.5,
+          7767.0,
+          7766.0
         ],
         "candle": {
           "o": 7739.0,
           "h": 7782.0,
           "l": 7719.5,
-          "c": 7766.5
+          "c": 7766.25
         },
         "range_240d": {
           "low": 6388.25,
@@ -8504,25 +8504,25 @@
             "o": 7739.0,
             "h": 7782.0,
             "l": 7719.5,
-            "c": 7766.5,
-            "v": 1067864
+            "c": 7766.25,
+            "v": 1088053
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "인플레이션 이완 신호로 채권 수익률 조정 중. 8월 PCE 3.4% 예상치 하회, Q2 GDP 수정 상향(2.2%), 민간고용 9만 명 개선으로 경기 회복력 재평가. 연준 금리 인상 속도 조절 대기 입장 부각.",
+          "summary": "경제 회복 신호 강화(Q2 GDP 상향조정 2.2%, 고용 개선, PCE 물가 예상치 하회). 글로벌 리스크(중동 지정학, 중국 경제 약세, 유로존 물가) 양극화 심화.",
           "sources": [
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-fall-on-dovish-leaning-fed-speech-d6451171?mod=rss_socialeconomyfeed"
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/growth-inflation-figures-show-signs-of-an-economic-pickup-041f4e1d?mod=rss_socialeconomyfeed"
             },
             {
-              "name": "WSJ",
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/2026093059367"
+            },
+            {
+              "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/jobs/adp-says-private-sector-hiring-picked-up-in-september-d8c0f59e?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/economy/central-banking/newyork-fed-s-williams-hints-next-interest-rate-increase-can-wait-6518cd41?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8530,12 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30837.5,
-        "change_pct": 0.73,
+        "point": 30840.25,
+        "change_pct": 0.74,
         "spark": [
           30657.25,
-          30766.75,
-          30764.75,
           30767.75,
           30770.75,
           30778.75,
@@ -8573,21 +8571,23 @@
           30834.25,
           30836.25,
           30861.5,
-          30837.5
+          30839.5,
+          30843.25,
+          30840.25
         ],
         "candle": {
           "o": 30657.25,
           "h": 30906.0,
           "l": 30512.25,
-          "c": 30836.75
+          "c": 30841.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31028.5,
           "low_date": "2026-03-30",
           "high_date": "2026-09-22",
-          "low_change_pct": 33.26,
-          "high_change_pct": -0.62
+          "low_change_pct": 33.28,
+          "high_change_pct": -0.6
         },
         "daily_expanded": [
           {
@@ -10603,17 +10603,17 @@
             "o": 30657.25,
             "h": 30906.0,
             "l": 30512.25,
-            "c": 30836.75,
-            "v": 403949
+            "c": 30841.25,
+            "v": 410422
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "AI 버블 우려 심화로 성장주 약세 신호 강화. IPO 시장 부진 지속, 반도체 국제 경쟁력 약화 및 관세 압력 가중. 바이오·제약 펩타이드 기술 대체 수익 창출 기대.",
+          "summary": "빅테크·반도체·AI 관련 불확실성 확대. IPO 시장 위축, 기술주 변동성 고조 중.",
           "sources": [
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/how-to-know-when-the-ai-boom-is-about-to-go-bust-61af3d26?mod=rss_markets_main"
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/2026093056701"
             },
             {
               "name": "WSJ",
@@ -10621,7 +10621,7 @@
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/tech/ai/america-is-behind-on-memory-chipsand-tariffs-threaten-to-make-things-harder-fb79e365?mod=rss_worldnews"
+              "url": "https://www.wsj.com/finance/stocks/how-to-know-when-the-ai-boom-is-about-to-go-bust-61af3d26?mod=rss_markets_main"
             }
           ]
         }
@@ -10629,12 +10629,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51621.0,
+        "point": 51618.0,
         "change_pct": -0.16,
         "spark": [
           51765.0,
-          51721.0,
-          51732.0,
           51677.0,
           51718.0,
           51724.0,
@@ -10672,13 +10670,15 @@
           51636.0,
           51621.0,
           51654.0,
-          51621.0
+          51615.0,
+          51625.0,
+          51618.0
         ],
         "candle": {
           "o": 51765.0,
           "h": 51997.0,
           "l": 51586.0,
-          "c": 51621.0
+          "c": 51620.0
         },
         "range_240d": {
           "low": 45424.0,
@@ -12702,17 +12702,17 @@
             "o": 51765.0,
             "h": 51997.0,
             "l": 51586.0,
-            "c": 51621.0,
-            "v": 51217
+            "c": 51620.0,
+            "v": 51807
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "금융업 구조 재편 신호 강화, 골드만삭스 CEO 교체 추진 중. 중동 지정학 긴장으로 유가 등락 지속, 캐나다 에너지 자산 재평가 우위. 모기지금리 7% 돌파로 주택시장 냉각 우려 심화.",
+          "summary": "중동 지정학 리스크 심화로 에너지 산업 변동성 확대. 유가 중단 우려 vs. 사우디 공급량 회복 혼재·캐나다 에너지 수출 기대·금융주 AI 전략 강화로 경기민감주 쏠림.",
           "sources": [
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/goldmans-board-has-discussed-a-plan-to-name-john-waldron-as-its-next-ceo-7c5d90dd?mod=rss_markets_main"
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/business/energy-oil/middle-east-crude-oil-exports-back-at-prewar-levels-analysts-say-b5582027?mod=rss_worldnews"
             },
             {
               "name": "WSJ",
@@ -12720,12 +12720,12 @@
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/economy/housing/mortgage-rates-just-hit-7-heres-how-the-housing-market-is-about-to-change-35986dc6?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/finance/banking/goldmans-board-has-discussed-a-plan-to-name-john-waldron-as-its-next-ceo-7c5d90dd?mod=rss_markets_main"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-10-01T01:53:19.751083+09:00"
+  "intraday_refreshed_kst": "2026-10-01T02:06:39.651058+09:00"
 }
