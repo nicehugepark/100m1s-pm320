@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26832.27,
-      "change_pct": -0.11,
+      "point": 26886.54,
+      "change_pct": 0.09,
       "candle": {
         "o": 26987.6,
         "h": 27014.22,
         "l": 26793.64,
-        "c": 26832.27
+        "c": 26886.54
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,7 +2033,7 @@
           "o": 26987.6,
           "h": 27014.22,
           "l": 26793.64,
-          "c": 26832.27
+          "c": 26886.54
         }
       ],
       "spark": [
@@ -2050,7 +2050,9 @@
         26824.4,
         26813.79,
         26834.6,
-        26832.27
+        26857.6,
+        26884.6,
+        26886.54
       ],
       "news": {
         "summary": "기술주 나스닥이 4년 연속 이중자리 수익률 지속 중이나, 금리 급등과 AI 안전 우려로 IPO 시장 냉각 신호. 반도체 수급 부족 심화로 메모리칩 국제 경쟁에서 美 뒤처지는 추세.",
@@ -2074,13 +2076,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7634.92,
-      "change_pct": -0.22,
+      "point": 7649.17,
+      "change_pct": -0.03,
       "candle": {
         "o": 7666.47,
         "h": 7683.65,
         "l": 7626.76,
-        "c": 7634.92
+        "c": 7649.17
       },
       "range_240d": {
         "low": 6343.72,
@@ -4104,7 +4106,7 @@
           "o": 7666.47,
           "h": 7683.65,
           "l": 7626.76,
-          "c": 7634.92
+          "c": 7649.17
         }
       ],
       "spark": [
@@ -4121,7 +4123,9 @@
         7634.52,
         7632.6,
         7633.85,
-        7634.92
+        7643.09,
+        7649.38,
+        7649.17
       ],
       "news": {
         "summary": "10년물 Treasury yield 24년 최고 5.3% 돌파, 분기 최대 낙폭 기록. Fed 추가 인상 여지 시사하되 AI 투자의 물가 파급 경고 중. 채용 반등·경제 성장 재평가에도 금리 급등이 주택·기업 차입 부담 심화 우려 심화.",
@@ -4145,13 +4149,13 @@
     },
     {
       "name": "DOW",
-      "point": 50680.89,
-      "change_pct": -0.44,
+      "point": 50771.63,
+      "change_pct": -0.26,
       "candle": {
         "o": 51008.36,
         "h": 51179.78,
         "l": 50628.07,
-        "c": 50680.89
+        "c": 50771.63
       },
       "range_240d": {
         "low": 45166.64,
@@ -6175,7 +6179,7 @@
           "o": 51008.36,
           "h": 51179.78,
           "l": 50628.07,
-          "c": 50680.89
+          "c": 50771.63
         }
       ],
       "spark": [
@@ -6192,7 +6196,9 @@
         50686.92,
         50695.83,
         50664.06,
-        50680.89
+        50736.82,
+        50765.31,
+        50771.63
       ],
       "news": {
         "summary": "트럼프 정부, 한국의 500억달러 알래스카 LNG 투자 및 120억달러 원전 건설 발표로 에너지·인프라 투자 탄력. 모기지 레이트 7% 돌파·금리 급등으로 금융·건설 섹터 수익성 압박 심화, 골드만삭스 CEO 교체 검토 중.",
@@ -6217,90 +6223,89 @@
   ],
   "news_chips": [
     {
-      "summary": "높은 금리와 중동 전쟁으로 인한 에너지 위기에도 불구하고 유로존의 8월 실업률이 6.4%로 안정적으로 유지되어 노동시장의 회복력을 시사하고 있습니다.",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/jobs/eurozone-unemployment-stable-despite-headwinds-0e4c3d52?mod=rss_socialeconomyfeed",
-      "published_ts": 1790847780.0,
-      "impact_high": true
-    },
-    {
-      "summary": "미국 주가지수가 채권 약세에 동반 하락, 다우 선도 마감",
+      "summary": "채권 매도 재개로 지수 약세 마감, 다우지수 선행 하락으로 시장 심리 위축",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-01-2026?mod=rss_markets_main",
       "published_ts": 1790842489.0,
       "impact_high": true
     },
     {
-      "summary": "미국 대이란 제재로 유조선 정체 증가, 에너지 공급 리스크 부각",
+      "summary": "미 제재로 이란 유조선 아시아 해역에 표류 중, 에너지 공급 차단 리스크로 국제 유가 상승 압박 지속",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/asia/u-s-pressure-campaign-leaves-iranian-tankers-stranded-in-asian-waters-ba7bc23a?mod=rss_worldnews",
       "published_ts": 1790820000.0,
       "impact_high": true
     },
     {
-      "summary": "연준 카슈카리 의장이 최근 경제지표 개선에도 물가 고착 우려 제기, 추가 인상 경계",
+      "summary": "연준 카슈카리 의장이 인플레이션 기준금리 우려를 계속 지적하며 향후 금리 인상 기조 유지 가능성 시사",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/feds-kashkari-says-inflation-still-too-high-latest-data-didnt-change-view-e729d071?mod=rss_socialeconomyfeed",
       "published_ts": 1790813220.0,
       "impact_high": true
     },
     {
-      "summary": "미국 국채 수익률이 장기 불확실성으로 사상 최고 수준 기록",
+      "summary": "국채 수익률 신고가 갱신으로 채권 약세 심화, 장기 경제 전망 불확실성이 주가 하락 압박 가중",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-fall-on-dovish-leaning-fed-speech-d6451171?mod=rss_socialeconomyfeed",
       "published_ts": 1790794500.0,
       "impact_high": true
     },
     {
-      "summary": "미국 구리 비축 증가로 글로벌 공급 부족 우려 심화",
+      "summary": "미국 구리 비축 급증이 공급 병목 우려 야기, 상품 시장 긴장으로 원자재 가격 변동성 확대",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/commodities-futures/americas-copper-hoard-stokes-fear-of-a-supply-crunch-0097b560?mod=rss_markets_main",
       "published_ts": 1790861400.0,
       "impact_high": false
     },
     {
-      "summary": "미국 실업급여청구 4주 연속 감소, 노동시장 회복 신호",
+      "summary": "실업 급여 청구가 4주 연속 하락 197,000건으로 집계되며 미국 고용 시장 강세 지속",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-fall-for-the-fourth-straight-week-64419dbc?mod=rss_socialeconomyfeed",
       "published_ts": 1790859600.0,
       "impact_high": false
     },
     {
-      "summary": "중동 지역 분쟁 지속으로 원유 공급 리스크 확대, 유가 반등 마감",
+      "summary": "중동 정세 긴장에 따른 유가 반등과 해상 운송 리스크로 원유 공급망 불안정성 지속",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/business/energy-oil/oil-prices-slip-further-as-gulf-exports-recover-0cf48ca2?mod=rss_worldnews",
       "published_ts": 1790779380.0,
       "impact_high": false
     },
     {
-      "summary": "미국 주택가격 상승 가속으로 금리인상·공급 부족 이중고 심화",
+      "summary": "뉴욕 연준총재 윌리엄스, 다음 금리 인상 결정에 서두르지 않아도 된다는 입장으로 향후 기준금리 경로 불확실성 심화",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/newyork-fed-s-williams-hints-next-interest-rate-increase-can-wait-6518cd41?mod=rss_socialeconomyfeed",
+      "published_ts": 1790709000.0,
+      "impact_high": true
+    },
+    {
+      "summary": "미국 주택가격이 12개월 1.9% 상승으로 사상 최고 수준 지속, 높은 금리 속 구매력 약화 심화",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/housing/u-s-home-price-growth-increases-again-7b8699d6?mod=rss_socialeconomyfeed",
       "published_ts": 1790687940.0,
       "impact_high": false
     },
     {
-      "summary": "중국 산업 이윤 증가율이 올해 최저 4.2% 기록, 경기 부양 압박 증대",
+      "summary": "중국 산업 이익 증가가 4.2%로 올해 최저 수준 기록, 글로벌 경기 약세 우려 심화",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/28/china-posts-weakest-industrial-profit-growth-this-year-expanding-4point2percent-in-august-.html",
       "published_ts": 1790568256.0,
       "impact_high": false
     }
   ],
-  "_article_sig": "605717d20500652f76a2a82a8848b3f35a868611c03fc9260d172653116c1544",
+  "_article_sig": "71985de6b33d6c1c9c745b42892e250664a6866e35bfe4506c5dab1e917b0e0b",
   "built_at_kst": "2026-10-01T07:03:19.317105+09:00",
   "futures": {
-    "as_of_kst": "2026-10-01T23:30:18.126538+09:00",
+    "as_of_kst": "2026-10-01T23:40:09.515632+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7692.25,
-        "change_pct": -0.3,
+        "point": 7689.75,
+        "change_pct": -0.33,
         "spark": [
           7719.5,
-          7733.25,
           7730.0,
           7726.25,
           7729.0,
@@ -6339,21 +6344,22 @@
           7694.5,
           7691.5,
           7689.25,
-          7692.25
+          7689.75,
+          7689.75
         ],
         "candle": {
           "o": 7719.5,
           "h": 7767.75,
           "l": 7682.25,
-          "c": 7692.5
+          "c": 7688.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7833.5,
           "low_date": "2026-03-30",
           "high_date": "2026-09-21",
-          "low_change_pct": 20.42,
-          "high_change_pct": -1.8
+          "low_change_pct": 20.35,
+          "high_change_pct": -1.85
         },
         "daily_expanded": [
           {
@@ -8369,25 +8375,25 @@
             "o": 7719.5,
             "h": 7767.75,
             "l": 7682.25,
-            "c": 7692.5,
-            "v": 747026
+            "c": 7688.25,
+            "v": 800672
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "Fed 금리·인플레이션 신호 분석 시점. Treasury yield 사상 고점 돌파, Kashkari 발언에도 물가 우려 지속. 주택 시장 강세에도 금리 상승 압박 가중 신호.",
+          "summary": "채권 수익률 급등으로 시장 심리 악화, 연준 정책 경로 불확실성 확대. 인플레이션 하향 신호도 금리 재인상 우려에 흡수, 매크로 리스크 고조 중.",
           "sources": [
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/feds-kashkari-says-inflation-still-too-high-latest-data-didnt-change-view-e729d071?mod=rss_socialeconomyfeed"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-fall-on-dovish-leaning-fed-speech-d6451171?mod=rss_socialeconomyfeed"
             },
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/finance/investing/this-datapoint-could-explain-soaring-bond-yields-d8ec5be0?mod=rss_socialeconomyfeed"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html"
             },
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/housing/u-s-home-price-growth-increases-again-7b8699d6?mod=rss_socialeconomyfeed"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-fall-for-the-fourth-straight-week-64419dbc?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8395,12 +8401,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30628.0,
-        "change_pct": -0.23,
+        "point": 30610.5,
+        "change_pct": -0.29,
         "spark": [
           30707.0,
-          30863.25,
-          30842.5,
           30817.0,
           30838.5,
           30851.5,
@@ -8438,21 +8442,23 @@
           30657.0,
           30623.25,
           30600.25,
-          30628.0
+          30619.75,
+          30684.0,
+          30610.5
         ],
         "candle": {
           "o": 30707.0,
           "h": 31151.5,
-          "l": 30590.0,
-          "c": 30619.25
+          "l": 30560.75,
+          "c": 30612.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31028.5,
           "low_date": "2026-03-30",
           "high_date": "2026-09-22",
-          "low_change_pct": 32.32,
-          "high_change_pct": -1.32
+          "low_change_pct": 32.3,
+          "high_change_pct": -1.34
         },
         "daily_expanded": [
           {
@@ -10467,26 +10473,22 @@
             "date": "2026-10-01",
             "o": 30707.0,
             "h": 31151.5,
-            "l": 30590.0,
-            "c": 30619.25,
-            "v": 334850
+            "l": 30560.75,
+            "c": 30612.75,
+            "v": 357561
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "AI 시장 과열 경고와 생명공학 기술 투자 열풍. 그래프 시장 매니아 종료 신호 점화 중, 펩타이드·의료진단 기술주 매수세 확대 추세.",
+          "summary": "AI 시장 우려 심화로 고성장주 밸류에이션 재점검 국면. 중국 수출 회복 신호에도 기술주 펀더멘털 둔화 리스크 상쇄.",
           "sources": [
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/how-to-know-when-the-ai-boom-is-about-to-go-bust-61af3d26?mod=rss_markets_main"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/health/pharma/the-peptide-boom-that-isnt-about-your-muscles-4aa63e38?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/health/healthcare/a-cancer-test-has-investors-betting-big-but-will-insurers-pay-75d3bc60?mod=rss_markets_main"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/09/25/china-exports-surplus-trade-tariffs-.html"
             }
           ]
         }
@@ -10494,12 +10496,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51018.0,
-        "change_pct": -0.51,
+        "point": 50982.0,
+        "change_pct": -0.58,
         "spark": [
           51335.0,
-          51271.0,
-          51266.0,
           51252.0,
           51276.0,
           51288.0,
@@ -10537,21 +10537,23 @@
           51017.0,
           51005.0,
           51011.0,
-          51018.0
+          50977.0,
+          51062.0,
+          50982.0
         ],
         "candle": {
           "o": 51335.0,
           "h": 51517.0,
           "l": 50935.0,
-          "c": 51015.0
+          "c": 50982.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 12.31,
-          "high_change_pct": -6.38
+          "low_change_pct": 12.24,
+          "high_change_pct": -6.44
         },
         "daily_expanded": [
           {
@@ -12567,25 +12569,25 @@
             "o": 51335.0,
             "h": 51517.0,
             "l": 50935.0,
-            "c": 51015.0,
-            "v": 51557
+            "c": 50982.0,
+            "v": 53390
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "대형주 수익성 회복 속 산업재 수급 압박 심화. 금융주 AI 위협론 대두, 구리 공급 차질·에너지 수급 개선에도 경기민감주 실적 둔화 신호.",
+          "summary": "글로벌 경기 약세 신호 확산 국면. 캐나다·중국 제조업 둔화, 구리 공급 위협, 에너지 가격 변동성으로 대형 경기순환주 하방압력 심화.",
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/wall-streets-trading-desks-come-down-from-a-record-high-9ab30234?mod=rss_markets_main"
+              "url": "https://www.wsj.com/economy/canada-manufacturing-grows-more-modestly-in-september-093ef028?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/commodities-futures/americas-copper-hoard-stokes-fear-of-a-supply-crunch-0097b560?mod=rss_markets_main"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/business/energy-oil/u-s-pressure-is-awakening-an-energy-giant-in-canada-162bd958?mod=rss_markets_main"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/09/28/china-posts-weakest-industrial-profit-growth-this-year-expanding-4point2percent-in-august-.html"
             }
           ]
         }
@@ -12593,56 +12595,52 @@
     ]
   },
   "regular_open": true,
-  "intraday_refreshed_kst": "2026-10-01T23:30:31.686500+09:00",
+  "intraday_refreshed_kst": "2026-10-01T23:41:56.282733+09:00",
   "_futures_news": {
     "NASDAQ": {
-      "summary": "AI 시장 과열 경고와 생명공학 기술 투자 열풍. 그래프 시장 매니아 종료 신호 점화 중, 펩타이드·의료진단 기술주 매수세 확대 추세.",
+      "summary": "AI 시장 우려 심화로 고성장주 밸류에이션 재점검 국면. 중국 수출 회복 신호에도 기술주 펀더멘털 둔화 리스크 상쇄.",
       "sources": [
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/how-to-know-when-the-ai-boom-is-about-to-go-bust-61af3d26?mod=rss_markets_main"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/health/pharma/the-peptide-boom-that-isnt-about-your-muscles-4aa63e38?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/health/healthcare/a-cancer-test-has-investors-betting-big-but-will-insurers-pay-75d3bc60?mod=rss_markets_main"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/25/china-exports-surplus-trade-tariffs-.html"
         }
       ]
     },
     "S&P500": {
-      "summary": "Fed 금리·인플레이션 신호 분석 시점. Treasury yield 사상 고점 돌파, Kashkari 발언에도 물가 우려 지속. 주택 시장 강세에도 금리 상승 압박 가중 신호.",
+      "summary": "채권 수익률 급등으로 시장 심리 악화, 연준 정책 경로 불확실성 확대. 인플레이션 하향 신호도 금리 재인상 우려에 흡수, 매크로 리스크 고조 중.",
       "sources": [
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/feds-kashkari-says-inflation-still-too-high-latest-data-didnt-change-view-e729d071?mod=rss_socialeconomyfeed"
+          "name": "WSJ",
+          "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-fall-on-dovish-leaning-fed-speech-d6451171?mod=rss_socialeconomyfeed"
         },
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/finance/investing/this-datapoint-could-explain-soaring-bond-yields-d8ec5be0?mod=rss_socialeconomyfeed"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html"
         },
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/housing/u-s-home-price-growth-increases-again-7b8699d6?mod=rss_socialeconomyfeed"
+          "name": "WSJ",
+          "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-fall-for-the-fourth-straight-week-64419dbc?mod=rss_socialeconomyfeed"
         }
       ]
     },
     "DOW": {
-      "summary": "대형주 수익성 회복 속 산업재 수급 압박 심화. 금융주 AI 위협론 대두, 구리 공급 차질·에너지 수급 개선에도 경기민감주 실적 둔화 신호.",
+      "summary": "글로벌 경기 약세 신호 확산 국면. 캐나다·중국 제조업 둔화, 구리 공급 위협, 에너지 가격 변동성으로 대형 경기순환주 하방압력 심화.",
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/wall-streets-trading-desks-come-down-from-a-record-high-9ab30234?mod=rss_markets_main"
+          "url": "https://www.wsj.com/economy/canada-manufacturing-grows-more-modestly-in-september-093ef028?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/commodities-futures/americas-copper-hoard-stokes-fear-of-a-supply-crunch-0097b560?mod=rss_markets_main"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/business/energy-oil/u-s-pressure-is-awakening-an-energy-giant-in-canada-162bd958?mod=rss_markets_main"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/28/china-posts-weakest-industrial-profit-growth-this-year-expanding-4point2percent-in-august-.html"
         }
       ]
     }
