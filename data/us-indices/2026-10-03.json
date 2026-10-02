@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 27162.68,
-      "change_pct": 1.08,
+      "point": 27181.35,
+      "change_pct": 1.15,
       "candle": {
         "o": 27215.17,
         "h": 27353.38,
         "l": 27112.6,
-        "c": 27162.68
+        "c": 27181.35
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,13 +2033,11 @@
           "o": 27215.17,
           "h": 27353.38,
           "l": 27112.6,
-          "c": 27162.68
+          "c": 27181.35
         }
       ],
       "spark": [
         27215.17,
-        27343.64,
-        27318.16,
         27330.47,
         27327.44,
         27323.11,
@@ -2077,7 +2075,9 @@
         27151.09,
         27170.36,
         27163.47,
-        27162.68
+        27169.49,
+        27181.17,
+        27181.35
       ],
       "news": {
         "summary": "AI 투자 열풍 지속 가운데 시장 버블 우려 부상. 은행 수익구조 변화·헬스테크 기업가치 평가 불확실성 심화, 고금리의 성장주 밸류에이션 압력 가중.",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7717.25,
-      "change_pct": 0.66,
+      "point": 7720.1,
+      "change_pct": 0.7,
       "candle": {
         "o": 7726.24,
         "h": 7754.67,
         "l": 7700.51,
-        "c": 7717.25
+        "c": 7720.1
       },
       "range_240d": {
         "low": 6343.72,
@@ -4131,13 +4131,11 @@
           "o": 7726.24,
           "h": 7754.67,
           "l": 7700.51,
-          "c": 7717.25
+          "c": 7720.1
         }
       ],
       "spark": [
         7726.24,
-        7749.59,
-        7746.28,
         7749.66,
         7750.36,
         7749.93,
@@ -4174,8 +4172,10 @@
         7716.44,
         7713.99,
         7719.56,
-        7717.57,
-        7717.25
+        7717.16,
+        7718.11,
+        7720.0,
+        7720.1
       ],
       "news": {
         "summary": "연준 인플레이션 우려 재점화, 금리 인상 재개 신호 강화. 국채 수익률 급등·모기지 금리 4년 최대 상승폭·주택시장 냉각 신호, 중국 경기 부진 및 관세 리스크 동시 부상.",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 51131.7,
-      "change_pct": 0.4,
+      "point": 51142.73,
+      "change_pct": 0.42,
       "candle": {
         "o": 51241.18,
         "h": 51382.88,
         "l": 50950.61,
-        "c": 51131.7
+        "c": 51142.73
       },
       "range_240d": {
         "low": 45166.64,
@@ -6229,13 +6229,11 @@
           "o": 51241.18,
           "h": 51382.88,
           "l": 50950.61,
-          "c": 51131.7
+          "c": 51142.73
         }
       ],
       "spark": [
         51241.18,
-        51214.9,
-        51192.94,
         51227.77,
         51240.43,
         51260.13,
@@ -6273,7 +6271,9 @@
         51093.69,
         51144.85,
         51131.78,
-        51131.7
+        51140.32,
+        51142.31,
+        51142.73
       ],
       "news": {
         "summary": "에너지·원자재 가격 상승(디젤·유가·구리)·공급 부족 우려 심화. 금융 실적 회복세 견지하나 금리 급등의 경기 둔화 파급 위험, 캐나다 에너지 인프라 투자 기회 대두·중동 및 한반도 지정학 리스크 상존.",
@@ -6298,144 +6298,139 @@
   ],
   "news_chips": [
     {
-      "summary": "9월 연준 회의 의사록이 수요일 발표되며 금리 인상 전망은 약해지고 있다.",
+      "summary": "연준 9월 회의 의사록 발표가 임박해 향후 금리 경로 판단의 주요 자료로 작용",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/week-ahead-for-fx-bonds-fed-minutes-in-focus-as-near-term-rate-hike-prospects-dim-b91369f2?mod=rss_socialeconomyfeed",
       "published_ts": 1790957520.0,
       "impact_high": true
     },
     {
-      "summary": "미국 9월 고용 부진으로 연준 금리 인상 기대가 약해지면서 달러가 약세를 보였다.",
+      "summary": "약한 고용통계로 인한 금리 인상 가능성 축소에 따라 달러가 약세로 마감",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/swiss-franc-rises-as-dollar-eases-and-french-german-yield-spreads-widen-sharply-59b3a50e?mod=rss_socialeconomyfeed",
       "published_ts": 1790951640.0,
       "impact_high": true
     },
     {
-      "summary": "중동과 우크라이나 분쟁이 세계 디젤 공급량 3분의 1을 차단하면서 유가가 급등했다.",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/commodities-futures/why-are-diesel-prices-soaring-and-what-would-a-u-s-export-ban-do-e453fd47?mod=rss_markets_main",
-      "published_ts": 1790943840.0,
+      "summary": "유로존 인플레이션이 3.8%로 3년 만에 최고 수준까지 상승, 에너지 가격 급등이 주요 요인",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/eurozone-inflation-jumps-to-three-year-high-on-sharper-energy-costs-dd48d582?mod=rss_socialeconomyfeed",
+      "published_ts": 1790935980.0,
       "impact_high": true
     },
     {
-      "summary": "연준 부의장이 10월 금리 인상 결정에 앞서 추가 시간이 필요할 수 있다고 언급했다.",
+      "summary": "연준 부의장이 금리 인상 결정에 추가 시간이 필요할 수 있다며 10월 인상 가능성을 낮춤",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/another-fed-leader-suggests-next-rate-increase-can-wait-9e46d4f9?mod=rss_socialeconomyfeed",
       "published_ts": 1790898120.0,
       "impact_high": true
     },
     {
-      "summary": "미국 9월 고용은 2만9000명 증가에 그쳐 예상(8만4000명)을 크게 하회했다.",
+      "summary": "9월 비농업 고용이 29,000명으로 예상치 대비 3분의 1 수준에 그쳐 노동시장 약세 시현",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/jobs/september-jobs-report-unemployment-6b6d6643?mod=rss_socialeconomyfeed",
       "published_ts": 1790956680.0,
       "impact_high": false
     },
     {
-      "summary": "G7이 중동 분쟁에 따른 유가 급등 완화를 위해 4개월간 원유·경유 1억배럴을 방출하기로 합의했다.",
-      "source": "한경",
+      "summary": "G7이 중동 공급망 차단에 따른 원유 부족에 대응해 4개월간 1억 배럴의 원유·경유 방출 추진",
+      "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026100213417",
       "published_ts": 1790951006.0,
       "impact_high": false
     },
     {
-      "summary": "채권 시장 약세로 모기지 금리가 7.28%로 올라 4년 만의 최대 인상폭을 기록했다.",
+      "summary": "한국 암호화폐 거래소 대표가 원화 기반 스테이블코인 도입을 위한 규제 프레임워크 조성 촉구",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/finance/currencies/dunamu-ceo-urges-south-korea-to-move-quickly-on-won-backed-stablecoins-8c59864e?mod=rss_worldnews",
+      "published_ts": 1790924820.0,
+      "impact_high": false
+    },
+    {
+      "summary": "모기지 금리가 4년 만에 최대 상승폭인 7.28%까지 올라 주택시장 약세 가중",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/housing/mortgage-rates-surge-notching-largest-weekly-gain-in-four-years-e4d029af?mod=rss_socialeconomyfeed",
       "published_ts": 1790870400.0,
       "impact_high": false
     },
     {
-      "summary": "인플레 압력과 지정학 리스크로 미국 국채 수익률이 신고가를 기록했다.",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-fall-on-dovish-leaning-fed-speech-d6451171?mod=rss_socialeconomyfeed",
-      "published_ts": 1790794500.0,
-      "impact_high": true
-    },
-    {
-      "summary": "연준 선호 인플레 지표인 PCE 핵심 물가가 8월 3.0%로 예상보다 낮게 나타났다.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/30/feds-preferred-gauge-showed-core-inflation-at-3point0percent-in-august-much-lighter-than-expected.html",
-      "published_ts": 1790781297.0,
-      "impact_high": true
-    },
-    {
-      "summary": "소비자 신뢰도가 2014년 이후 최저 수준으로 급락하며 인플레와 일자리 부진에 대한 우려가 심화되고 있다.",
+      "summary": "소비자 신뢰도가 2014년 이후 최저 수준으로 하락하며 인플레이션과 고용 악화 우려 심화",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/29/consumer-optimism-slides-sharply-as-fears-escalate-over-rising-prices-and-jobs.html",
       "published_ts": 1790700720.0,
       "impact_high": false
+    },
+    {
+      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html",
+      "published_ts": 1790334485.0,
+      "impact_high": true
     }
   ],
-  "_article_sig": "a5a15df1ef3a3c665f8976221a0c600768e359fb0131de6499e126a6b74d4bee",
+  "_article_sig": "90fed11ef76122d3c14972f3a75fa2b5dd50faee72288fac9ecb215597efb0b5",
   "built_at_kst": "2026-10-02T07:03:43.326501+09:00",
   "regular_open": true,
   "_futures_news": {
-    "S&P500": {
-      "summary": "9월 고용 29,000명 약세로 연준 금리 인상 연기 신호 광범위 노출. Treasury yields 급등 속 채권 대량 매도 심화로 고정 부채 위험 가시화. 디젤 가격 급등과 소비자 신뢰도 2014년 이후 최저 기록으로 경기 둔화 복합 리스크 확산.",
+    "NASDAQ": {
+      "summary": "기술주 약세 신호 강화. AI 산업 높은 투자 기대치 vs 실제 수익성 간격 부각되며, 성장주 조정압 확대. 헬스테크 수가 불확실성도 평가 리스크 요인.",
       "sources": [
         {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/jobs/september-jobs-report-unemployment-6b6d6643?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/tech/ai/will-america-spend-9-of-its-gdp-on-ai-the-industry-is-counting-on-it-3501bb4f?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/health/healthcare/a-cancer-test-has-investors-betting-big-but-will-insurers-pay-75d3bc60?mod=rss_markets_main"
+        }
+      ]
+    },
+    "S&P500": {
+      "summary": "미국 9월 고용 2만9000명(예상 8만4000명), 예상치 크게 밑돌아 경기 둔화 신호 강화. Fed 금리 인상 연기 기조로 정책 불확실성 확대. 인플레이션은 여전(유로존 3.8%)해 장기금리 급등, 본드 셀오프 심화.",
+      "sources": [
+        {
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/2026100212917"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/another-fed-leader-suggests-next-rate-increase-can-wait-9e46d4f9?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-fall-on-dovish-leaning-fed-speech-d6451171?mod=rss_socialeconomyfeed"
         }
       ]
     },
     "DOW": {
-      "summary": "고용 약화 신호로 경기민감주 약세 배경 심화 중. 디젤 가격 급등에 따른 에너지 부문 공급 불안정성이 산업재 변동성 확대. Treasury yields 급등과 경기 둔화 우려로 대형주·금융주 동시 압박.",
+      "summary": "고용악화로 제조·금융 대형주 약세 신호 강화. 모기지 금리 7.28% 급등(4년 최고)으로 주택시장 위축 심화. G7 석유 1억배럴 방출 합의로 에너지 공급 안정화 기대.",
       "sources": [
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/commodities-futures/why-are-diesel-prices-soaring-and-what-would-a-u-s-export-ban-do-e453fd47?mod=rss_markets_main"
-        },
-        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/housing/mortgage-rates-surge-notching-largest-weekly-gain-in-four-years-e4d029af?mod=rss_socialeconomyfeed"
-        }
-      ]
-    },
-    "NASDAQ": {
-      "summary": "9월 고용 29,000명 약세로 연준 금리 인상 연기 신호 광범위 노출. Treasury yields 급등 속 채권 대량 매도 심화로 고정 부채 위험 가시화. 디젤 가격 급등과 소비자 신뢰도 2014년 이후 최저 기록으로 경기 둔화 복합 리스크 확산.",
-      "sources": [
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/jobs/september-jobs-report-unemployment-6b6d6643?mod=rss_socialeconomyfeed"
         },
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/another-fed-leader-suggests-next-rate-increase-can-wait-9e46d4f9?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-fall-on-dovish-leaning-fed-speech-d6451171?mod=rss_socialeconomyfeed"
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/2026100213417"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-10-03T02:40:05.203340+09:00",
+    "as_of_kst": "2026-10-03T02:50:06.177768+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7767.25,
-        "change_pct": 0.56,
+        "point": 7772.0,
+        "change_pct": 0.62,
         "spark": [
           7724.0,
-          7807.0,
           7804.25,
           7801.0,
           7804.25,
@@ -6474,21 +6469,22 @@
           7770.25,
           7767.5,
           7773.5,
-          7767.25
+          7771.25,
+          7772.0
         ],
         "candle": {
           "o": 7724.0,
           "h": 7810.25,
           "l": 7723.25,
-          "c": 7767.25
+          "c": 7771.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7833.5,
           "low_date": "2026-03-30",
           "high_date": "2026-09-21",
-          "low_change_pct": 21.59,
-          "high_change_pct": -0.85
+          "low_change_pct": 21.65,
+          "high_change_pct": -0.8
         },
         "daily_expanded": [
           {
@@ -8504,25 +8500,25 @@
             "o": 7724.0,
             "h": 7810.25,
             "l": 7723.25,
-            "c": 7767.25,
-            "v": 1384455
+            "c": 7771.0,
+            "v": 1409490
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "9월 고용 29,000명 약세로 연준 금리 인상 연기 신호 광범위 노출. Treasury yields 급등 속 채권 대량 매도 심화로 고정 부채 위험 가시화. 디젤 가격 급등과 소비자 신뢰도 2014년 이후 최저 기록으로 경기 둔화 복합 리스크 확산.",
+          "summary": "미국 9월 고용 2만9000명(예상 8만4000명), 예상치 크게 밑돌아 경기 둔화 신호 강화. Fed 금리 인상 연기 기조로 정책 불확실성 확대. 인플레이션은 여전(유로존 3.8%)해 장기금리 급등, 본드 셀오프 심화.",
           "sources": [
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/jobs/september-jobs-report-unemployment-6b6d6643?mod=rss_socialeconomyfeed"
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/2026100212917"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/another-fed-leader-suggests-next-rate-increase-can-wait-9e46d4f9?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-fall-on-dovish-leaning-fed-speech-d6451171?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8530,12 +8526,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 31006.5,
-        "change_pct": 0.8,
+        "point": 31025.25,
+        "change_pct": 0.86,
         "spark": [
           30771.25,
-          31278.75,
-          31265.5,
           31246.75,
           31253.0,
           31240.5,
@@ -8573,21 +8567,23 @@
           31024.75,
           31007.75,
           31035.0,
-          31006.5
+          31028.75,
+          31030.5,
+          31025.25
         ],
         "candle": {
           "o": 30771.25,
           "h": 31282.5,
           "l": 30760.25,
-          "c": 31005.0
+          "c": 31025.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31028.5,
           "low_date": "2026-03-30",
           "high_date": "2026-09-22",
-          "low_change_pct": 33.99,
-          "high_change_pct": -0.08
+          "low_change_pct": 34.08,
+          "high_change_pct": -0.01
         },
         "daily_expanded": [
           {
@@ -10603,25 +10599,21 @@
             "o": 30771.25,
             "h": 31282.5,
             "l": 30760.25,
-            "c": 31005.0,
-            "v": 472186
+            "c": 31025.25,
+            "v": 479464
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "9월 고용 29,000명 약세로 연준 금리 인상 연기 신호 광범위 노출. Treasury yields 급등 속 채권 대량 매도 심화로 고정 부채 위험 가시화. 디젤 가격 급등과 소비자 신뢰도 2014년 이후 최저 기록으로 경기 둔화 복합 리스크 확산.",
+          "summary": "기술주 약세 신호 강화. AI 산업 높은 투자 기대치 vs 실제 수익성 간격 부각되며, 성장주 조정압 확대. 헬스테크 수가 불확실성도 평가 리스크 요인.",
           "sources": [
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/jobs/september-jobs-report-unemployment-6b6d6643?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/tech/ai/will-america-spend-9-of-its-gdp-on-ai-the-industry-is-counting-on-it-3501bb4f?mod=rss_socialeconomyfeed"
             },
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/another-fed-leader-suggests-next-rate-increase-can-wait-9e46d4f9?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-fall-on-dovish-leaning-fed-speech-d6451171?mod=rss_socialeconomyfeed"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/health/healthcare/a-cancer-test-has-investors-betting-big-but-will-insurers-pay-75d3bc60?mod=rss_markets_main"
             }
           ]
         }
@@ -10629,13 +10621,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51440.0,
-        "change_pct": 0.39,
+        "point": 51427.0,
+        "change_pct": 0.36,
         "spark": [
           51251.0,
-          51563.0,
-          51552.0,
-          51515.0,
           51499.0,
           51532.0,
           51545.0,
@@ -10672,21 +10661,24 @@
           51466.0,
           51406.0,
           51391.0,
-          51440.0
+          51440.0,
+          51429.0,
+          51439.0,
+          51427.0
         ],
         "candle": {
           "o": 51251.0,
           "h": 51805.0,
           "l": 51208.0,
-          "c": 51389.0
+          "c": 51427.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 13.13,
-          "high_change_pct": -5.7
+          "low_change_pct": 13.22,
+          "high_change_pct": -5.63
         },
         "daily_expanded": [
           {
@@ -12702,30 +12694,30 @@
             "o": 51251.0,
             "h": 51805.0,
             "l": 51208.0,
-            "c": 51389.0,
-            "v": 68610
+            "c": 51427.0,
+            "v": 69171
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "고용 약화 신호로 경기민감주 약세 배경 심화 중. 디젤 가격 급등에 따른 에너지 부문 공급 불안정성이 산업재 변동성 확대. Treasury yields 급등과 경기 둔화 우려로 대형주·금융주 동시 압박.",
+          "summary": "고용악화로 제조·금융 대형주 약세 신호 강화. 모기지 금리 7.28% 급등(4년 최고)으로 주택시장 위축 심화. G7 석유 1억배럴 방출 합의로 에너지 공급 안정화 기대.",
           "sources": [
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/commodities-futures/why-are-diesel-prices-soaring-and-what-would-a-u-s-export-ban-do-e453fd47?mod=rss_markets_main"
-            },
-            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/housing/mortgage-rates-surge-notching-largest-weekly-gain-in-four-years-e4d029af?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/2026100213417"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-10-03T02:40:10.260661+09:00"
+  "intraday_refreshed_kst": "2026-10-03T02:52:50.620816+09:00"
 }
