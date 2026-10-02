@@ -2038,8 +2038,6 @@
       ],
       "spark": [
         27215.17,
-        27215.06,
-        27178.86,
         27179.07,
         27199.3,
         27195.3,
@@ -2077,7 +2075,9 @@
         27201.94,
         27192.2,
         27193.93,
-        27207.82
+        27177.3,
+        27186.73,
+        27190.86
       ],
       "news": {
         "summary": "AI 투자 열풍 지속 가운데 시장 버블 우려 부상. 은행 수익구조 변화·헬스테크 기업가치 평가 불확실성 심화, 고금리의 성장주 밸류에이션 압력 가중.",
@@ -2096,7 +2096,7 @@
           }
         ]
       },
-      "session_open": true,
+      "session_open": false,
       "trade_date_local": "2026-10-02"
     },
     {
@@ -4136,8 +4136,6 @@
       ],
       "spark": [
         7726.24,
-        7726.33,
-        7719.14,
         7718.59,
         7723.33,
         7721.76,
@@ -4175,7 +4173,9 @@
         7726.59,
         7724.94,
         7724.11,
-        7723.93
+        7723.26,
+        7723.49,
+        7722.94
       ],
       "news": {
         "summary": "연준 인플레이션 우려 재점화, 금리 인상 재개 신호 강화. 국채 수익률 급등·모기지 금리 4년 최대 상승폭·주택시장 냉각 신호, 중국 경기 부진 및 관세 리스크 동시 부상.",
@@ -4194,7 +4194,7 @@
           }
         ]
       },
-      "session_open": true,
+      "session_open": false,
       "trade_date_local": "2026-10-02"
     },
     {
@@ -6234,8 +6234,6 @@
       ],
       "spark": [
         51241.18,
-        51135.01,
-        51112.48,
         51115.0,
         51155.78,
         51128.1,
@@ -6273,7 +6271,9 @@
         51171.2,
         51160.34,
         51170.45,
-        51175.16
+        51181.12,
+        51181.33,
+        51177.44
       ],
       "news": {
         "summary": "에너지·원자재 가격 상승(디젤·유가·구리)·공급 부족 우려 심화. 금융 실적 회복세 견지하나 금리 급등의 경기 둔화 파급 위험, 캐나다 에너지 인프라 투자 기회 대두·중동 및 한반도 지정학 리스크 상존.",
@@ -6292,88 +6292,101 @@
           }
         ]
       },
-      "session_open": true,
+      "session_open": false,
       "trade_date_local": "2026-10-02"
     }
   ],
   "news_chips": [
     {
-      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/week-ahead-for-fx-bonds-fed-minutes-in-focus-as-near-term-rate-hike-prospects-dim-b91369f2?mod=rss_socialeconomyfeed",
-      "published_ts": 1790957520.0,
+      "summary": "중동과 우크라이나 분쟁으로 인한 공급 차단이 경유 가격 급등으로 이어졌다.",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/commodities-futures/why-are-diesel-prices-soaring-and-what-would-a-u-s-export-ban-do-e453fd47?mod=rss_markets_main",
+      "published_ts": 1790963640.0,
       "impact_high": true
     },
     {
-      "summary": "약한 9월 일자리 통계로 달러가 약세를 보이면서 스위스 프랑이 추가로 강세를 기록했다.",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/swiss-franc-rises-as-dollar-eases-and-french-german-yield-spreads-widen-sharply-59b3a50e?mod=rss_socialeconomyfeed",
-      "published_ts": 1790951640.0,
-      "impact_high": true
-    },
-    {
-      "summary": "미국 9월 고용이 예상치 대비 73% 부족한 2만9000명에 그쳤고 실업률도 4.2%로 상승하면서 연준의 10월 금리 인상 가능성이 사라졌다.",
+      "summary": "9월 고용 증가가 29,000명에 그쳐 예상치를 크게 하회하고 실업률도 4.2%로 상승했다.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html",
       "published_ts": 1790948758.0,
       "impact_high": true
     },
     {
-      "summary": "유로존 9월 인플레이션이 3년 고점인 3.8%에 도달했으며 에너지 비용 상승이 가장 큰 원인이다.",
+      "summary": "에너지 비용 급등으로 유로존 소비자물가가 3년 만에 최고 수준인 3.8%를 기록했다.",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/eurozone-inflation-jumps-to-three-year-high-on-sharper-energy-costs-dd48d582?mod=rss_socialeconomyfeed",
       "published_ts": 1790935980.0,
       "impact_high": true
     },
     {
-      "summary": "Fed 의사록이 수요일 공개되는 가운데 Jefferson 부의장 등 연준 지도부가 잇따라 금리 인상 유보를 시사하면서 10월 회의 가능성을 낮혔다.",
+      "summary": "연준 부의장이 금리 인상 결정에 더 많은 시간이 필요할 수 있다는 신호를 보냈다.",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/another-fed-leader-suggests-next-rate-increase-can-wait-9e46d4f9?mod=rss_socialeconomyfeed",
       "published_ts": 1790898120.0,
       "impact_high": true
     },
     {
-      "summary": "Fed 선호 인플레이션 지표인 8월 PCE가 예상 대비 크게 낮은 코어 3.0%을 기록하면서 연준의 인플레이션 우려를 일부 완화했다.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/02/men-labor-market-jobs-report.html",
-      "published_ts": 1790962739.0,
+      "summary": "G7 국가들이 초반 20일 내 상당량의 경유를 조기에 방출하기로 합의했다.",
+      "source": "한경",
+      "url": "https://www.hankyung.com/article/2026100213457",
+      "published_ts": 1790951519.0,
       "impact_high": false
     },
     {
-      "summary": "G7이 중동 분쟁과 우크라이나 전쟁으로 급등한 유가를 안정화하기 위해 초반 20일 내 경유 상당량을 조기 방출하고 4개월 내 원유·경유 1억배럴을 방출하기로 합의했다.",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026100213561",
-      "published_ts": 1790959947.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 주택 모기지 금리가 7.28%로 급등하며 4년 만에 최대 주간 상승률을 기록하면서 이미 약화된 주택시장에 추가 타격을 주고 있다.",
+      "summary": "채권 시장 약세로 모기지 금리가 4년 만에 최대 주간 인상률을 기록했다.",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/housing/mortgage-rates-surge-notching-largest-weekly-gain-in-four-years-e4d029af?mod=rss_socialeconomyfeed",
       "published_ts": 1790870400.0,
       "impact_high": false
     },
     {
-      "summary": "Fed의 Kashkari 의장이 인플레이션이 여전히 높다고 평가하면서 최근 GDP 상향 개정이 경제 회복력을 보여준다고 밝혔다.",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/feds-kashkari-says-inflation-still-too-high-latest-data-didnt-change-view-e729d071?mod=rss_socialeconomyfeed",
-      "published_ts": 1790813220.0,
-      "impact_high": true
-    },
-    {
-      "summary": "미국 10년물 국채 수익률이 신고점에 도달했으며 장기 인플레이션 불확실성이 약한 일자리 데이터로 인한 일시적 채권 랠리를 상쇄했다.",
+      "summary": "장기 인플레이션 전망 불확실성 속에 미국 채권 수익률이 새로운 고점을 기록했다.",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-fall-on-dovish-leaning-fed-speech-d6451171?mod=rss_socialeconomyfeed",
       "published_ts": 1790794500.0,
       "impact_high": true
+    },
+    {
+      "summary": "연준이 선호하는 코어 PCE 지수가 8월 3.0%를 기록해 예상치를 크게 하회했다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/30/feds-preferred-gauge-showed-core-inflation-at-3point0percent-in-august-much-lighter-than-expected.html",
+      "published_ts": 1790781297.0,
+      "impact_high": true
+    },
+    {
+      "summary": "인플레이션과 고용 불안으로 소비자 신뢰도가 2014년 이후 최저 수준으로 급락했다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/29/consumer-optimism-slides-sharply-as-fears-escalate-over-rising-prices-and-jobs.html",
+      "published_ts": 1790700720.0,
+      "impact_high": false
+    },
+    {
+      "summary": "트럼프 행정부의 캐나다 수입 제한이 발효되어 무역 긴장이 고조되고 있다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/29/canada-import-ban-trade-war.html",
+      "published_ts": 1790697463.0,
+      "impact_high": false
     }
   ],
-  "_article_sig": "33335c3c944390c89bd6b178c6708796601d400103d2c10913297fafe93c0adc",
+  "_article_sig": "86cffacd063eda2ca8b2a60508f140617cc2eddbab557f563a722b234be72a15",
   "built_at_kst": "2026-10-02T07:03:43.326501+09:00",
-  "regular_open": true,
+  "regular_open": false,
   "_futures_news": {
+    "NASDAQ": {
+      "summary": "약한 고용에 성장주 약세 압박. AI 투자 열풍 지속도 거대 자본지출 정당화 논의에서 현실성 의문.",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/the-amazing-stat-thats-a-red-flag-for-investors-342b70b7?mod=rss_markets_main"
+        }
+      ]
+    },
     "S&P500": {
-      "summary": "9월 고용 29,000명 급락(예상 84,000명), 실업률 4.2% 상승의 경기 약세 신호 강화. 연준 금리 인상 지연 신호와 별개로 채권 매도로 장기채 수익률·모기지금리(7.28%, 4년 고점) 급등. 소비자 신뢰도 2014년 이후 최저(81.9), 유가 상승·에너지 공급 부족의 인플레 압박. 연준 의사록 수요일 공개.",
+      "summary": "9월 고용 29K(예상 84K) 대폭 미달에 연준 10월 인상 불확실성 고조. 유가 급등·채권 매도 심화로 인플레 우려 재부상. 소비자 신뢰 급락이 경기 둔화 신호.",
       "sources": [
         {
           "name": "CNBC",
@@ -6385,12 +6398,12 @@
         },
         {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/housing/mortgage-rates-surge-notching-largest-weekly-gain-in-four-years-e4d029af?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/economy/eurozone-inflation-jumps-to-three-year-high-on-sharper-energy-costs-dd48d582?mod=rss_socialeconomyfeed"
         }
       ]
     },
     "DOW": {
-      "summary": "경기순환주 약세 신호들 집중. 9월 고용 29,000명(예상 84,000명) 급락, 실업률 4.2% 상승. 모기지금리 7.28%(4년 고점) 상승으로 건설·부동산 부문 압박. 소비자 신뢰도 2014년 이후 최저(81.9)로의 심각한 하락.",
+      "summary": "고용 약세·금리 인상 연기로 경기민감주 약세. 금융주는 금리 불확실성에 수익성 악화 우려. 모기지 금리 급등·관세 강화가 산업재 약세 견인.",
       "sources": [
         {
           "name": "CNBC",
@@ -6401,34 +6414,23 @@
           "url": "https://www.wsj.com/economy/housing/mortgage-rates-surge-notching-largest-weekly-gain-in-four-years-e4d029af?mod=rss_socialeconomyfeed"
         },
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/29/consumer-optimism-slides-sharply-as-fears-escalate-over-rising-prices-and-jobs.html"
-        }
-      ]
-    },
-    "NASDAQ": {
-      "summary": "기술주 전망의 이중성 부상. AI 지출 GDP 9% 달성 필요성에 대한 투자자 회의론 제기되는 가운데 성장주로서의 방어력 평가 엇갈림.",
-      "sources": [
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/tech/ai/will-america-spend-9-of-its-gdp-on-ai-the-industry-is-counting-on-it-3501bb4f?mod=rss_socialeconomyfeed"
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/2026100213417"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-10-03T04:50:06.760285+09:00",
+    "as_of_kst": "2026-10-03T05:00:08.487188+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7778.25,
-        "change_pct": 0.7,
+        "point": 7777.25,
+        "change_pct": 0.69,
         "spark": [
           7724.0,
-          7772.25,
-          7775.25,
           7780.75,
           7773.0,
           7773.0,
@@ -6466,21 +6468,23 @@
           7775.5,
           7779.5,
           7780.0,
-          7778.25
+          7778.25,
+          7777.25,
+          7777.25
         ],
         "candle": {
           "o": 7724.0,
           "h": 7810.25,
           "l": 7723.25,
-          "c": 7780.25
+          "c": 7777.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7833.5,
           "low_date": "2026-03-30",
           "high_date": "2026-09-21",
-          "low_change_pct": 21.79,
-          "high_change_pct": -0.68
+          "low_change_pct": 21.74,
+          "high_change_pct": -0.72
         },
         "daily_expanded": [
           {
@@ -8496,13 +8500,13 @@
             "o": 7724.0,
             "h": 7810.25,
             "l": 7723.25,
-            "c": 7780.25,
-            "v": 1605185
+            "c": 7777.25,
+            "v": 1634213
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "9월 고용 29,000명 급락(예상 84,000명), 실업률 4.2% 상승의 경기 약세 신호 강화. 연준 금리 인상 지연 신호와 별개로 채권 매도로 장기채 수익률·모기지금리(7.28%, 4년 고점) 급등. 소비자 신뢰도 2014년 이후 최저(81.9), 유가 상승·에너지 공급 부족의 인플레 압박. 연준 의사록 수요일 공개.",
+          "summary": "9월 고용 29K(예상 84K) 대폭 미달에 연준 10월 인상 불확실성 고조. 유가 급등·채권 매도 심화로 인플레 우려 재부상. 소비자 신뢰 급락이 경기 둔화 신호.",
           "sources": [
             {
               "name": "CNBC",
@@ -8514,7 +8518,7 @@
             },
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/housing/mortgage-rates-surge-notching-largest-weekly-gain-in-four-years-e4d029af?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/economy/eurozone-inflation-jumps-to-three-year-high-on-sharper-energy-costs-dd48d582?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8522,12 +8526,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 31077.25,
-        "change_pct": 1.03,
+        "point": 31068.5,
+        "change_pct": 1.0,
         "spark": [
           30771.25,
-          31081.25,
-          31104.25,
           31056.5,
           31055.0,
           31075.0,
@@ -8565,20 +8567,22 @@
           31066.0,
           31077.5,
           31069.0,
-          31077.25
+          31069.75,
+          31053.25,
+          31068.5
         ],
         "candle": {
           "o": 30771.25,
           "h": 31282.5,
           "l": 30760.25,
-          "c": 31077.25
+          "c": 31065.75
         },
         "range_240d": {
           "low": 23139.75,
-          "high": 31077.25,
+          "high": 31065.75,
           "low_date": "2026-03-30",
           "high_date": "2026-10-02",
-          "low_change_pct": 34.3,
+          "low_change_pct": 34.25,
           "high_change_pct": 0.0
         },
         "daily_expanded": [
@@ -10595,17 +10599,21 @@
             "o": 30771.25,
             "h": 31282.5,
             "l": 30760.25,
-            "c": 31077.25,
-            "v": 536850
+            "c": 31065.75,
+            "v": 544550
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "기술주 전망의 이중성 부상. AI 지출 GDP 9% 달성 필요성에 대한 투자자 회의론 제기되는 가운데 성장주로서의 방어력 평가 엇갈림.",
+          "summary": "약한 고용에 성장주 약세 압박. AI 투자 열풍 지속도 거대 자본지출 정당화 논의에서 현실성 의문.",
           "sources": [
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/tech/ai/will-america-spend-9-of-its-gdp-on-ai-the-industry-is-counting-on-it-3501bb4f?mod=rss_socialeconomyfeed"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/the-amazing-stat-thats-a-red-flag-for-investors-342b70b7?mod=rss_markets_main"
             }
           ]
         }
@@ -10613,12 +10621,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51469.0,
-        "change_pct": 0.44,
+        "point": 51471.0,
+        "change_pct": 0.45,
         "spark": [
           51251.0,
-          51398.0,
-          51430.0,
           51414.0,
           51413.0,
           51453.0,
@@ -10656,20 +10662,22 @@
           51481.0,
           51469.0,
           51458.0,
-          51469.0
+          51466.0,
+          51479.0,
+          51471.0
         ],
         "candle": {
           "o": 51251.0,
           "h": 51805.0,
           "l": 51208.0,
-          "c": 51467.0
+          "c": 51471.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 13.3,
+          "low_change_pct": 13.31,
           "high_change_pct": -5.55
         },
         "daily_expanded": [
@@ -12686,13 +12694,13 @@
             "o": 51251.0,
             "h": 51805.0,
             "l": 51208.0,
-            "c": 51467.0,
-            "v": 77758
+            "c": 51471.0,
+            "v": 79240
           }
         ],
         "rollover_gaps": [],
         "news": {
-          "summary": "경기순환주 약세 신호들 집중. 9월 고용 29,000명(예상 84,000명) 급락, 실업률 4.2% 상승. 모기지금리 7.28%(4년 고점) 상승으로 건설·부동산 부문 압박. 소비자 신뢰도 2014년 이후 최저(81.9)로의 심각한 하락.",
+          "summary": "고용 약세·금리 인상 연기로 경기민감주 약세. 금융주는 금리 불확실성에 수익성 악화 우려. 모기지 금리 급등·관세 강화가 산업재 약세 견인.",
           "sources": [
             {
               "name": "CNBC",
@@ -12703,13 +12711,13 @@
               "url": "https://www.wsj.com/economy/housing/mortgage-rates-surge-notching-largest-weekly-gain-in-four-years-e4d029af?mod=rss_socialeconomyfeed"
             },
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/09/29/consumer-optimism-slides-sharply-as-fears-escalate-over-rising-prices-and-jobs.html"
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/2026100213417"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-10-03T04:50:12.035163+09:00"
+  "intraday_refreshed_kst": "2026-10-03T05:03:56.455045+09:00"
 }
