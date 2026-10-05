@@ -6258,9 +6258,16 @@
     },
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026100538647",
-      "published_ts": 1791194613.0,
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/stocks/your-index-fund-went-up-was-it-luck-or-smarts-cb64c836?mod=rss_markets_main",
+      "published_ts": 1791196380.0,
+      "impact_high": false
+    },
+    {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/china/fbi-arrests-alleged-chinese-agent-accused-of-spying-on-son-of-taiwan-leader-2d9d5bee?mod=rss_worldnews",
+      "published_ts": 1791196140.0,
       "impact_high": false
     },
     {
@@ -6275,13 +6282,6 @@
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/banking/bank-stocks-are-haunted-by-the-ghosts-of-2023-a2a64725?mod=rss_markets_main",
       "published_ts": 1791192600.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/china/fbi-arrests-alleged-chinese-agent-accused-of-spying-on-son-of-taiwan-leader-2d9d5bee?mod=rss_worldnews",
-      "published_ts": 1791184020.0,
       "impact_high": false
     },
     {
@@ -6320,7 +6320,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "3907e70359ed307f3f9ef82e50f6a24f6542ab4c0b41cf1450b53f879847df7d",
+  "_article_sig": "882cfdc9be658c9f828d3fb95964069a3a2cea3405d8a31c74546295e6bcfe02",
   "built_at_kst": "2026-10-03T07:02:10.631906+09:00",
   "regular_open": false,
   "_futures_news": {
@@ -6329,15 +6329,15 @@
       "sources": [
         {
           "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/china/fbi-arrests-alleged-chinese-agent-accused-of-spying-on-son-of-taiwan-leader-2d9d5bee?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ세계",
           "url": "https://www.wsj.com/business/logistics/shippers-are-offering-sailors-up-to-25-000-a-trip-to-sneak-oil-out-of-the-gulf-712d5bd7?mod=rss_worldnews"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/warren-and-hawley-to-probe-insurers-over-zero-payout-claims-4ee8d046?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/ecbs-lane-sees-demand-destruction-muting-energy-impact-on-inflation-03bd423e?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -6376,20 +6376,18 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-10-05T19:30:30.895259+09:00",
+  "intraday_refreshed_kst": "2026-10-05T19:40:34.988573+09:00",
   "futures": {
-    "as_of_kst": "2026-10-05T19:30:12.116328+09:00",
+    "as_of_kst": "2026-10-05T19:40:15.155491+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7762.0,
-        "change_pct": -0.2,
+        "point": 7762.5,
+        "change_pct": -0.19,
         "spark": [
           7781.5,
-          7768.25,
-          7770.25,
           7766.25,
           7763.5,
           7763.25,
@@ -6427,21 +6425,23 @@
           7762.5,
           7764.75,
           7762.0,
-          7762.0
+          7766.0,
+          7762.5,
+          7762.5
         ],
         "candle": {
           "o": 7781.5,
           "h": 7793.0,
           "l": 7760.5,
-          "c": 7762.25
+          "c": 7762.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7833.5,
           "low_date": "2026-03-30",
           "high_date": "2026-09-21",
-          "low_change_pct": 21.51,
-          "high_change_pct": -0.91
+          "low_change_pct": 21.52,
+          "high_change_pct": -0.9
         },
         "daily_expanded": [
           {
@@ -8449,8 +8449,8 @@
             "o": 7781.5,
             "h": 7793.0,
             "l": 7760.5,
-            "c": 7762.25,
-            "v": 152555
+            "c": 7762.75,
+            "v": 154526
           }
         ],
         "rollover_gaps": [],
@@ -8475,13 +8475,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30980.75,
-        "change_pct": -0.26,
+        "point": 30977.25,
+        "change_pct": -0.27,
         "spark": [
           31059.0,
-          31042.5,
-          31053.25,
-          31040.5,
           31035.75,
           31037.5,
           31043.5,
@@ -8518,21 +8515,24 @@
           30987.25,
           30993.25,
           30980.75,
-          30980.75
+          31000.0,
+          30978.5,
+          30967.0,
+          30977.25
         ],
         "candle": {
           "o": 31059.0,
           "h": 31221.25,
           "l": 30957.5,
-          "c": 30980.25
+          "c": 30975.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31061.75,
           "low_date": "2026-03-30",
           "high_date": "2026-10-02",
-          "low_change_pct": 33.88,
-          "high_change_pct": -0.26
+          "low_change_pct": 33.86,
+          "high_change_pct": -0.28
         },
         "daily_expanded": [
           {
@@ -10540,8 +10540,8 @@
             "o": 31059.0,
             "h": 31221.25,
             "l": 30957.5,
-            "c": 30980.25,
-            "v": 92207
+            "c": 30975.5,
+            "v": 93205
           }
         ],
         "rollover_gaps": [],
@@ -10550,15 +10550,15 @@
           "sources": [
             {
               "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/china/fbi-arrests-alleged-chinese-agent-accused-of-spying-on-son-of-taiwan-leader-2d9d5bee?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ세계",
               "url": "https://www.wsj.com/business/logistics/shippers-are-offering-sailors-up-to-25-000-a-trip-to-sneak-oil-out-of-the-gulf-712d5bd7?mod=rss_worldnews"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/warren-and-hawley-to-probe-insurers-over-zero-payout-claims-4ee8d046?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/ecbs-lane-sees-demand-destruction-muting-energy-impact-on-inflation-03bd423e?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10566,13 +10566,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51366.0,
-        "change_pct": -0.22,
+        "point": 51367.0,
+        "change_pct": -0.21,
         "spark": [
           51486.0,
-          51435.0,
-          51449.0,
-          51420.0,
           51382.0,
           51382.0,
           51365.0,
@@ -10609,13 +10606,16 @@
           51373.0,
           51386.0,
           51366.0,
-          51366.0
+          51397.0,
+          51371.0,
+          51363.0,
+          51367.0
         ],
         "candle": {
           "o": 51486.0,
           "h": 51560.0,
           "l": 51354.0,
-          "c": 51366.0
+          "c": 51367.0
         },
         "range_240d": {
           "low": 45424.0,
@@ -12631,8 +12631,8 @@
             "o": 51486.0,
             "h": 51560.0,
             "l": 51354.0,
-            "c": 51366.0,
-            "v": 11454
+            "c": 51367.0,
+            "v": 11610
           }
         ],
         "rollover_gaps": [],
