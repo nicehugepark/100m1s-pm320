@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 27386.18,
-      "change_pct": 0.72,
+      "point": 27370.51,
+      "change_pct": 0.66,
       "candle": {
         "o": 27228.72,
         "h": 27399.34,
         "l": 27224.72,
-        "c": 27386.18
+        "c": 27370.51
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,7 +2033,7 @@
           "o": 27228.72,
           "h": 27399.34,
           "l": 27224.72,
-          "c": 27386.18
+          "c": 27370.51
         }
       ],
       "spark": [
@@ -2050,7 +2050,9 @@
         27361.27,
         27386.53,
         27389.17,
-        27386.18
+        27360.37,
+        27371.13,
+        27370.51
       ],
       "news": {
         "summary": "9월 고용 부진(2.9만 건, 기대 8.4만 건)과 실업률 상승으로 노동시장 약세 신호 부각. 연준 고위 관계자들의 금리 인상 보류 입장 강화되며 추가 인상 불안감 완화 추세. 모기지 금리 4년 만에 최대 상승(7.28%)하며 부동산 시장 약화 우려 심화 중, 장기물 수익률 상승으로 채권 시장 매도 지속 양상.",
@@ -2066,13 +2068,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7754.92,
-      "change_pct": 0.42,
+      "point": 7751.46,
+      "change_pct": 0.37,
       "candle": {
         "o": 7730.86,
         "h": 7758.32,
         "l": 7727.59,
-        "c": 7754.92
+        "c": 7751.46
       },
       "range_240d": {
         "low": 6343.72,
@@ -4096,7 +4098,7 @@
           "o": 7730.86,
           "h": 7758.32,
           "l": 7727.59,
-          "c": 7754.92
+          "c": 7751.46
         }
       ],
       "spark": [
@@ -4113,7 +4115,9 @@
         7753.5,
         7756.28,
         7756.01,
-        7754.92
+        7746.9,
+        7752.27,
+        7751.46
       ],
       "news": {
         "summary": "9월 고용 부진(2.9만 건, 기대 8.4만 건)과 실업률 상승으로 노동시장 약세 신호 부각. 연준 고위 관계자들의 금리 인상 보류 입장 강화되며 추가 인상 불안감 완화 추세. 모기지 금리 4년 만에 최대 상승(7.28%)하며 부동산 시장 약화 우려 심화 중, 장기물 수익률 상승으로 채권 시장 매도 지속 양상.",
@@ -4129,13 +4133,13 @@
     },
     {
       "name": "DOW",
-      "point": 51105.13,
-      "change_pct": -0.14,
+      "point": 51089.53,
+      "change_pct": -0.17,
       "candle": {
         "o": 51199.25,
         "h": 51199.25,
         "l": 50862.85,
-        "c": 51105.13
+        "c": 51089.53
       },
       "range_240d": {
         "low": 45166.64,
@@ -6159,7 +6163,7 @@
           "o": 51199.25,
           "h": 51199.25,
           "l": 50862.85,
-          "c": 51105.13
+          "c": 51089.53
         }
       ],
       "spark": [
@@ -6176,7 +6180,9 @@
         51115.28,
         51094.98,
         51102.59,
-        51105.13
+        51026.98,
+        51091.35,
+        51089.53
       ],
       "news": {
         "summary": "9월 고용 부진(2.9만 건, 기대 8.4만 건)과 실업률 상승으로 노동시장 약세 신호 부각. 연준 고위 관계자들의 금리 인상 보류 입장 강화되며 추가 인상 불안감 완화 추세. 모기지 금리 4년 만에 최대 상승(7.28%)하며 부동산 시장 약화 우려 심화 중, 장기물 수익률 상승으로 채권 시장 매도 지속 양상.",
@@ -6200,10 +6206,17 @@
       "impact_high": true
     },
     {
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/russia-probes-death-of-woman-who-worked-at-anti-plague-institute-0e2c8ffe?mod=rss_worldnews",
+      "published_ts": 1791211020.0,
+      "impact_high": false
+    },
+    {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026100539687",
-      "published_ts": 1791207041.0,
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/u-s-services-sector-activity-continued-to-expand-in-september-ecfd842f?mod=rss_socialeconomyfeed",
+      "published_ts": 1791210720.0,
       "impact_high": false
     },
     {
@@ -6218,13 +6231,6 @@
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/china/fbi-arrests-alleged-chinese-agent-accused-of-spying-on-son-of-taiwan-leader-2d9d5bee?mod=rss_worldnews",
       "published_ts": 1791196140.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/banking/bank-stocks-are-haunted-by-the-ghosts-of-2023-a2a64725?mod=rss_markets_main",
-      "published_ts": 1791192600.0,
       "impact_high": false
     },
     {
@@ -6263,7 +6269,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "943c714d1f44de81d19e50e7e4384805ab3b61e175bac392584460ade769aed1",
+  "_article_sig": "90c3d00123ab921cdb9364f8b2b4f890926033d58964d1fe5a99a801dd415030",
   "built_at_kst": "2026-10-03T07:02:10.631906+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6305,12 +6311,12 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/bank-stocks-are-haunted-by-the-ghosts-of-2023-a2a64725?mod=rss_markets_main"
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/russia-probes-death-of-woman-who-worked-at-anti-plague-institute-0e2c8ffe?mod=rss_worldnews"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-05-2026?mod=rss_markets_main"
+          "url": "https://www.wsj.com/finance/banking/bank-stocks-are-haunted-by-the-ghosts-of-2023-a2a64725?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
@@ -6319,21 +6325,18 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-10-05T23:30:25.830035+09:00",
+  "intraday_refreshed_kst": "2026-10-05T23:40:25.405813+09:00",
   "futures": {
-    "as_of_kst": "2026-10-05T23:30:12.095238+09:00",
+    "as_of_kst": "2026-10-05T23:40:09.516862+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7805.75,
-        "change_pct": 0.37,
+        "point": 7808.5,
+        "change_pct": 0.4,
         "spark": [
           7781.5,
-          7767.75,
-          7769.0,
-          7772.0,
           7772.25,
           7780.0,
           7774.75,
@@ -6370,21 +6373,24 @@
           7799.5,
           7800.75,
           7805.5,
-          7805.75
+          7808.5,
+          7808.0,
+          7799.25,
+          7808.5
         ],
         "candle": {
           "o": 7781.5,
-          "h": 7808.25,
+          "h": 7811.0,
           "l": 7760.25,
-          "c": 7806.5
+          "c": 7808.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7833.5,
           "low_date": "2026-03-30",
           "high_date": "2026-09-21",
-          "low_change_pct": 22.2,
-          "high_change_pct": -0.34
+          "low_change_pct": 22.23,
+          "high_change_pct": -0.32
         },
         "daily_expanded": [
           {
@@ -8390,10 +8396,10 @@
           {
             "date": "2026-10-05",
             "o": 7781.5,
-            "h": 7808.25,
+            "h": 7811.0,
             "l": 7760.25,
-            "c": 7806.5,
-            "v": 433246
+            "c": 7808.5,
+            "v": 465524
           }
         ],
         "rollover_gaps": [],
@@ -8418,11 +8424,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 31203.75,
-        "change_pct": 0.46,
+        "point": 31234.5,
+        "change_pct": 0.56,
         "spark": [
           31059.0,
-          31003.75,
           31019.75,
           31022.5,
           31055.0,
@@ -8461,20 +8466,21 @@
           31179.0,
           31203.25,
           31230.75,
-          31203.75
+          31232.75,
+          31234.5
         ],
         "candle": {
           "o": 31059.0,
-          "h": 31229.5,
+          "h": 31247.75,
           "l": 30957.5,
-          "c": 31203.75
+          "c": 31235.0
         },
         "range_240d": {
           "low": 23139.75,
-          "high": 31203.75,
+          "high": 31235.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-05",
-          "low_change_pct": 34.85,
+          "low_change_pct": 34.98,
           "high_change_pct": 0.0
         },
         "daily_expanded": [
@@ -10481,10 +10487,10 @@
           {
             "date": "2026-10-05",
             "o": 31059.0,
-            "h": 31229.5,
+            "h": 31247.75,
             "l": 30957.5,
-            "c": 31203.75,
-            "v": 219071
+            "c": 31235.0,
+            "v": 230199
           }
         ],
         "rollover_gaps": [],
@@ -10509,12 +10515,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51417.0,
-        "change_pct": -0.12,
+        "point": 51392.0,
+        "change_pct": -0.17,
         "spark": [
           51486.0,
-          51408.0,
-          51444.0,
           51443.0,
           51505.0,
           51463.0,
@@ -10552,21 +10556,23 @@
           51343.0,
           51402.0,
           51380.0,
-          51417.0
+          51385.0,
+          51307.0,
+          51392.0
         ],
         "candle": {
           "o": 51486.0,
           "h": 51560.0,
           "l": 51141.0,
-          "c": 51416.0
+          "c": 51387.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 13.19,
-          "high_change_pct": -5.65
+          "low_change_pct": 13.13,
+          "high_change_pct": -5.7
         },
         "daily_expanded": [
           {
@@ -12574,8 +12580,8 @@
             "o": 51486.0,
             "h": 51560.0,
             "l": 51141.0,
-            "c": 51416.0,
-            "v": 36282
+            "c": 51387.0,
+            "v": 38151
           }
         ],
         "rollover_gaps": [],
@@ -12583,12 +12589,12 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/bank-stocks-are-haunted-by-the-ghosts-of-2023-a2a64725?mod=rss_markets_main"
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/russia-probes-death-of-woman-who-worked-at-anti-plague-institute-0e2c8ffe?mod=rss_worldnews"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-05-2026?mod=rss_markets_main"
+              "url": "https://www.wsj.com/finance/banking/bank-stocks-are-haunted-by-the-ghosts-of-2023-a2a64725?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
