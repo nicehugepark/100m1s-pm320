@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 27687.76,
-      "change_pct": 0.77,
+      "point": 27673.76,
+      "change_pct": 0.71,
       "candle": {
         "o": 27633.79,
-        "h": 27687.76,
+        "h": 27692.86,
         "l": 27613.59,
-        "c": 27687.76
+        "c": 27673.76
       },
       "range_240d": {
         "low": 20794.64,
@@ -2031,9 +2031,9 @@
         {
           "date": "2026-10-06",
           "o": 27633.79,
-          "h": 27687.76,
+          "h": 27692.86,
           "l": 27613.59,
-          "c": 27687.76
+          "c": 27673.76
         }
       ],
       "spark": [
@@ -2046,7 +2046,9 @@
         27668.51,
         27662.06,
         27685.94,
-        27687.76
+        27670.23,
+        27674.46,
+        27673.76
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2070,13 +2072,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7834.73,
-      "change_pct": 0.78,
+      "point": 7824.69,
+      "change_pct": 0.65,
       "candle": {
         "o": 7805.96,
-        "h": 7834.73,
+        "h": 7835.09,
         "l": 7805.96,
-        "c": 7834.73
+        "c": 7824.69
       },
       "range_240d": {
         "low": 6343.72,
@@ -4098,9 +4100,9 @@
         {
           "date": "2026-10-06",
           "o": 7805.96,
-          "h": 7834.73,
+          "h": 7835.09,
           "l": 7805.96,
-          "c": 7834.73
+          "c": 7824.69
         }
       ],
       "spark": [
@@ -4113,7 +4115,9 @@
         7826.89,
         7828.43,
         7832.89,
-        7834.73
+        7829.08,
+        7824.61,
+        7824.69
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4137,13 +4141,13 @@
     },
     {
       "name": "DOW",
-      "point": 51653.29,
-      "change_pct": 0.75,
+      "point": 51542.58,
+      "change_pct": 0.54,
       "candle": {
         "o": 51444.1,
         "h": 51653.29,
         "l": 51422.9,
-        "c": 51653.29
+        "c": 51542.58
       },
       "range_240d": {
         "low": 45166.64,
@@ -6167,7 +6171,7 @@
           "o": 51444.1,
           "h": 51653.29,
           "l": 51422.9,
-          "c": 51653.29
+          "c": 51542.58
         }
       ],
       "spark": [
@@ -6180,7 +6184,9 @@
         51608.84,
         51601.92,
         51635.24,
-        51653.29
+        51603.5,
+        51544.54,
+        51542.58
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6205,6 +6211,13 @@
   ],
   "news_chips": [
     {
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html",
+      "published_ts": 1791292077.0,
+      "impact_high": true
+    },
+    {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/why-weaning-markets-off-fed-speak-is-harder-than-it-sounds-d202aefb?mod=rss_socialeconomyfeed",
@@ -6212,17 +6225,17 @@
       "impact_high": true
     },
     {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-widens-to-largest-level-in-more-than-a-year-32618af7?mod=rss_socialeconomyfeed",
+      "published_ts": 1791295860.0,
+      "impact_high": false
+    },
+    {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/wall-street-bonuses-are-expected-to-hit-another-high-this-year-d7dd453f?mod=rss_markets_main",
       "published_ts": 1791295620.0,
-      "impact_high": false
-    },
-    {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-widens-to-largest-level-in-more-than-a-year-32618af7?mod=rss_socialeconomyfeed",
-      "published_ts": 1791293160.0,
       "impact_high": false
     },
     {
@@ -6247,13 +6260,6 @@
       "impact_high": false
     },
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/the-oil-shock-could-make-us-stronger-b9b91866?mod=rss_socialeconomyfeed",
-      "published_ts": 1791280320.0,
-      "impact_high": false
-    },
-    {
       "summary": "가계 재정과 소비 부담 지표가 경기 방어 심리에 영향을 주는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/europe/france-debt-bonds-spending-c7981557?mod=rss_worldnews",
@@ -6275,22 +6281,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "a0d56bfa9ba46904aad704d58f82417741f075d054a373c94a86f2a584eff8e2",
+  "_article_sig": "8426fe3780811b0071ccee60df9bc5242dd4b651ae19f42fea3ea4fbd7732cb7",
   "built_at_kst": "2026-10-06T07:00:40.540187+09:00",
   "futures": {
-    "as_of_kst": "2026-10-06T23:10:12.875851+09:00",
+    "as_of_kst": "2026-10-06T23:20:09.274874+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7879.5,
-        "change_pct": 0.68,
+        "point": 7886.25,
+        "change_pct": 0.77,
         "spark": [
           7831.75,
-          7849.25,
-          7849.75,
-          7848.25,
           7848.75,
           7850.5,
           7854.5,
@@ -6327,20 +6330,23 @@
           7871.5,
           7874.0,
           7878.75,
-          7879.5
+          7881.25,
+          7886.25,
+          7881.5,
+          7886.25
         ],
         "candle": {
           "o": 7831.75,
-          "h": 7881.0,
+          "h": 7886.5,
           "l": 7829.0,
-          "c": 7878.75
+          "c": 7886.25
         },
         "range_240d": {
           "low": 6388.25,
-          "high": 7878.75,
+          "high": 7886.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 23.33,
+          "low_change_pct": 23.45,
           "high_change_pct": 0.0
         },
         "daily_expanded": [
@@ -8355,10 +8361,10 @@
           {
             "date": "2026-10-06",
             "o": 7831.75,
-            "h": 7881.0,
+            "h": 7886.5,
             "l": 7829.0,
-            "c": 7878.75,
-            "v": 347741
+            "c": 7886.25,
+            "v": 397871
           }
         ],
         "rollover_gaps": [],
@@ -8366,16 +8372,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-widens-to-largest-level-in-more-than-a-year-32618af7?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-middle-east-exports-recover-shipping-risks-persist-0b179f03?mod=rss_worldnews"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/why-weaning-markets-off-fed-speak-is-harder-than-it-sounds-d202aefb?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8383,12 +8389,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 31553.5,
-        "change_pct": 0.75,
+        "point": 31580.25,
+        "change_pct": 0.84,
         "spark": [
           31346.75,
-          31450.0,
-          31443.75,
           31444.0,
           31454.5,
           31482.0,
@@ -8426,20 +8430,22 @@
           31521.75,
           31548.0,
           31550.0,
-          31553.5
+          31577.25,
+          31552.25,
+          31580.25
         ],
         "candle": {
           "o": 31346.75,
-          "h": 31567.0,
+          "h": 31583.75,
           "l": 31309.25,
-          "c": 31549.0
+          "c": 31578.25
         },
         "range_240d": {
           "low": 23139.75,
-          "high": 31549.0,
+          "high": 31578.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 36.34,
+          "low_change_pct": 36.47,
           "high_change_pct": 0.0
         },
         "daily_expanded": [
@@ -10454,10 +10460,10 @@
           {
             "date": "2026-10-06",
             "o": 31346.75,
-            "h": 31567.0,
+            "h": 31583.75,
             "l": 31309.25,
-            "c": 31549.0,
-            "v": 179457
+            "c": 31578.25,
+            "v": 196619
           }
         ],
         "rollover_gaps": [],
@@ -10465,16 +10471,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-widens-to-largest-level-in-more-than-a-year-32618af7?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-middle-east-exports-recover-shipping-risks-persist-0b179f03?mod=rss_worldnews"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/why-weaning-markets-off-fed-speak-is-harder-than-it-sounds-d202aefb?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/china/chinas-burned-out-young-are-finding-something-unexpected-in-mao-eff59d4b?mod=rss_worldnews"
             }
           ]
         }
@@ -10482,12 +10488,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51901.0,
-        "change_pct": 0.67,
+        "point": 51936.0,
+        "change_pct": 0.73,
         "spark": [
           51608.0,
-          51812.0,
-          51790.0,
           51794.0,
           51788.0,
           51817.0,
@@ -10525,21 +10529,23 @@
           51893.0,
           51895.0,
           51896.0,
-          51901.0
+          51937.0,
+          51895.0,
+          51936.0
         ],
         "candle": {
           "o": 51608.0,
-          "h": 51933.0,
+          "h": 51941.0,
           "l": 51594.0,
-          "c": 51899.0
+          "c": 51936.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 14.25,
-          "high_change_pct": -4.76
+          "low_change_pct": 14.34,
+          "high_change_pct": -4.69
         },
         "daily_expanded": [
           {
@@ -12553,10 +12559,10 @@
           {
             "date": "2026-10-06",
             "o": 51608.0,
-            "h": 51933.0,
+            "h": 51941.0,
             "l": 51594.0,
-            "c": 51899.0,
-            "v": 33302
+            "c": 51936.0,
+            "v": 35870
           }
         ],
         "rollover_gaps": [],
@@ -12581,11 +12587,15 @@
     ]
   },
   "regular_open": true,
-  "intraday_refreshed_kst": "2026-10-06T23:10:29.593996+09:00",
+  "intraday_refreshed_kst": "2026-10-06T23:20:27.628594+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-widens-to-largest-level-in-more-than-a-year-32618af7?mod=rss_socialeconomyfeed"
+        },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-middle-east-exports-recover-shipping-risks-persist-0b179f03?mod=rss_worldnews"
@@ -12593,10 +12603,6 @@
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/why-weaning-markets-off-fed-speak-is-harder-than-it-sounds-d202aefb?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/china/chinas-burned-out-young-are-finding-something-unexpected-in-mao-eff59d4b?mod=rss_worldnews"
         }
       ]
     },
@@ -12604,16 +12610,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-widens-to-largest-level-in-more-than-a-year-32618af7?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-middle-east-exports-recover-shipping-risks-persist-0b179f03?mod=rss_worldnews"
         },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/why-weaning-markets-off-fed-speak-is-harder-than-it-sounds-d202aefb?mod=rss_socialeconomyfeed"
         }
       ]
     },
