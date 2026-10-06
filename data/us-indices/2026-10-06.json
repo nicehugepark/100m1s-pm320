@@ -6288,24 +6288,24 @@
       "impact_high": true
     },
     {
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/investing/kkr-strikes-deal-to-buy-private-capital-fund-administrator-gen-ii-40b951a5?mod=rss_markets_main",
+      "published_ts": 1791274140.0,
+      "impact_high": false
+    },
+    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/ecbs-lane-sees-demand-destruction-muting-energy-impact-on-inflation-03bd423e?mod=rss_socialeconomyfeed",
-      "published_ts": 1791189720.0,
-      "impact_high": true
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-middle-east-exports-recover-shipping-risks-persist-0b179f03?mod=rss_worldnews",
+      "published_ts": 1791273900.0,
+      "impact_high": false
     },
     {
       "summary": "가계 재정과 소비 부담 지표가 경기 방어 심리에 영향을 주는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/europe/france-debt-bonds-spending-c7981557?mod=rss_worldnews",
       "published_ts": 1791248400.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/kkr-strikes-deal-to-buy-private-capital-fund-administrator-gen-ii-40b951a5?mod=rss_markets_main",
-      "published_ts": 1791234540.0,
       "impact_high": false
     },
     {
@@ -6344,20 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "401b388e48f07d8442c1c88d3247be2dd1de56efe0e2f5b2b55ff4dc12a39249",
+  "_article_sig": "e9de7b5a0b5ed751de86df8a33f6f70dd3bdb2c0d6f39e6af3d488427c6d40da",
   "built_at_kst": "2026-10-06T07:00:40.540187+09:00",
   "futures": {
-    "as_of_kst": "2026-10-06T17:00:21.407257+09:00",
+    "as_of_kst": "2026-10-06T17:10:14.972462+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7842.5,
-        "change_pct": 0.21,
+        "point": 7842.25,
+        "change_pct": 0.2,
         "spark": [
           7831.75,
-          7833.5,
           7832.5,
           7833.5,
           7833.0,
@@ -6396,17 +6395,18 @@
           7842.75,
           7841.0,
           7841.75,
-          7842.5
+          7842.25,
+          7842.25
         ],
         "candle": {
           "o": 7831.75,
           "h": 7844.25,
           "l": 7829.0,
-          "c": 7842.25
+          "c": 7842.0
         },
         "range_240d": {
           "low": 6388.25,
-          "high": 7842.25,
+          "high": 7842.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
           "low_change_pct": 22.76,
@@ -8426,8 +8426,8 @@
             "o": 7831.75,
             "h": 7844.25,
             "l": 7829.0,
-            "c": 7842.25,
-            "v": 74809
+            "c": 7842.0,
+            "v": 77492
           }
         ],
         "rollover_gaps": [],
@@ -8435,16 +8435,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/saudi-backed-forces-launch-fight-to-free-bab-al-mandeb-from-houthis-f94b91fd?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/stocks-keep-climbingand-so-do-bond-yields-c91d7d75?mod=rss_markets_main"
-            },
-            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/kkr-strikes-deal-to-buy-private-capital-fund-administrator-gen-ii-40b951a5?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-middle-east-exports-recover-shipping-risks-persist-0b179f03?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/saudi-backed-forces-launch-fight-to-free-bab-al-mandeb-from-houthis-f94b91fd?mod=rss_worldnews"
             }
           ]
         }
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 31378.25,
+        "point": 31377.5,
         "change_pct": 0.19,
         "spark": [
           31346.75,
-          31342.0,
-          31335.5,
           31342.25,
           31341.0,
           31361.25,
@@ -8495,20 +8493,22 @@
           31386.0,
           31373.5,
           31375.5,
-          31378.25
+          31380.75,
+          31387.75,
+          31377.5
         ],
         "candle": {
           "o": 31346.75,
           "h": 31411.25,
           "l": 31309.25,
-          "c": 31377.75
+          "c": 31380.0
         },
         "range_240d": {
           "low": 23139.75,
-          "high": 31377.75,
+          "high": 31380.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 35.6,
+          "low_change_pct": 35.61,
           "high_change_pct": 0.0
         },
         "daily_expanded": [
@@ -10525,8 +10525,8 @@
             "o": 31346.75,
             "h": 31411.25,
             "l": 31309.25,
-            "c": 31377.75,
-            "v": 51426
+            "c": 31380.0,
+            "v": 52090
           }
         ],
         "rollover_gaps": [],
@@ -10534,16 +10534,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-middle-east-exports-recover-shipping-risks-persist-0b179f03?mod=rss_worldnews"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/10/06/world-bank-east-asia-growth-inflation-ai-exports-.html"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/lifestyle/workplace/the-reply-all-email-after-oct-7-that-tore-a-business-apart-28c20a3a?mod=rss_worldnews"
-            },
-            {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/2026100641847"
             }
           ]
         }
@@ -10555,8 +10555,6 @@
         "change_pct": 0.48,
         "spark": [
           51608.0,
-          51625.0,
-          51620.0,
           51623.0,
           51616.0,
           51627.0,
@@ -10594,6 +10592,8 @@
           51814.0,
           51805.0,
           51799.0,
+          51810.0,
+          51802.0,
           51808.0
         ],
         "candle": {
@@ -12625,7 +12625,7 @@
             "h": 51820.0,
             "l": 51594.0,
             "c": 51808.0,
-            "v": 8110
+            "v": 8296
           }
         ],
         "rollover_gaps": [],
@@ -12650,11 +12650,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-10-06T17:00:34.307389+09:00",
+  "intraday_refreshed_kst": "2026-10-06T17:10:36.987579+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-middle-east-exports-recover-shipping-risks-persist-0b179f03?mod=rss_worldnews"
+        },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/10/06/world-bank-east-asia-growth-inflation-ai-exports-.html"
@@ -12662,10 +12666,6 @@
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/lifestyle/workplace/the-reply-all-email-after-oct-7-that-tore-a-business-apart-28c20a3a?mod=rss_worldnews"
-        },
-        {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/2026100641847"
         }
       ]
     },
@@ -12673,16 +12673,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/saudi-backed-forces-launch-fight-to-free-bab-al-mandeb-from-houthis-f94b91fd?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/stocks-keep-climbingand-so-do-bond-yields-c91d7d75?mod=rss_markets_main"
-        },
-        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/kkr-strikes-deal-to-buy-private-capital-fund-administrator-gen-ii-40b951a5?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-middle-east-exports-recover-shipping-risks-persist-0b179f03?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/saudi-backed-forces-launch-fight-to-free-bab-al-mandeb-from-houthis-f94b91fd?mod=rss_worldnews"
         }
       ]
     },
