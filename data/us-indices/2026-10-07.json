@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 27715.51,
-      "change_pct": 0.87,
+      "point": 27709.0,
+      "change_pct": 0.84,
       "candle": {
         "o": 27633.79,
         "h": 27721.96,
         "l": 27613.59,
-        "c": 27715.51
+        "c": 27709.0
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,7 +2033,7 @@
           "o": 27633.79,
           "h": 27721.96,
           "l": 27613.59,
-          "c": 27715.51
+          "c": 27709.0
         }
       ],
       "spark": [
@@ -2064,7 +2064,9 @@
         27708.37,
         27709.48,
         27715.43,
-        27715.51
+        27706.01,
+        27708.47,
+        27709.0
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2088,13 +2090,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7843.1,
-      "change_pct": 0.89,
+      "point": 7841.4,
+      "change_pct": 0.87,
       "candle": {
         "o": 7805.96,
         "h": 7844.52,
         "l": 7805.96,
-        "c": 7843.1
+        "c": 7841.4
       },
       "range_240d": {
         "low": 6343.72,
@@ -4118,7 +4120,7 @@
           "o": 7805.96,
           "h": 7844.52,
           "l": 7805.96,
-          "c": 7843.1
+          "c": 7841.4
         }
       ],
       "spark": [
@@ -4149,7 +4151,9 @@
         7842.12,
         7840.64,
         7842.38,
-        7843.1
+        7840.38,
+        7840.95,
+        7841.4
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4173,13 +4177,13 @@
     },
     {
       "name": "DOW",
-      "point": 51632.91,
-      "change_pct": 0.71,
+      "point": 51620.32,
+      "change_pct": 0.69,
       "candle": {
         "o": 51444.1,
         "h": 51672.25,
         "l": 51422.9,
-        "c": 51632.91
+        "c": 51620.32
       },
       "range_240d": {
         "low": 45166.64,
@@ -6203,7 +6207,7 @@
           "o": 51444.1,
           "h": 51672.25,
           "l": 51422.9,
-          "c": 51632.91
+          "c": 51620.32
         }
       ],
       "spark": [
@@ -6234,7 +6238,9 @@
         51650.43,
         51629.76,
         51622.74,
-        51632.91
+        51622.19,
+        51616.05,
+        51620.32
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6260,9 +6266,9 @@
   "news_chips": [
     {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/trade/canadas-august-trade-surplus-widens-sharply-ahead-of-fresh-tariffs-48955372?mod=rss_socialeconomyfeed",
-      "published_ts": 1791298140.0,
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html",
+      "published_ts": 1791298421.0,
       "impact_high": true
     },
     {
@@ -6273,17 +6279,24 @@
       "impact_high": true
     },
     {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/africa/ebola-patient-boarded-commercial-flight-died-shortly-after-arrival-81690b60?mod=rss_worldnews",
+      "published_ts": 1791301200.0,
+      "impact_high": false
+    },
+    {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/europe/former-german-spy-chief-arrested-on-suspicion-of-espionage-9e261c69?mod=rss_worldnews",
+      "published_ts": 1791298860.0,
+      "impact_high": false
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-widens-to-largest-level-in-more-than-a-year-32618af7?mod=rss_socialeconomyfeed",
       "published_ts": 1791298080.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026100666487",
-      "published_ts": 1791296444.0,
       "impact_high": false
     },
     {
@@ -6308,13 +6321,6 @@
       "impact_high": false
     },
     {
-      "summary": "가계 재정과 소비 부담 지표가 경기 방어 심리에 영향을 주는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/europe/france-debt-bonds-spending-c7981557?mod=rss_worldnews",
-      "published_ts": 1791248400.0,
-      "impact_high": false
-    },
-    {
       "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/banking/ubs-shareholder-calls-for-bank-to-leave-switzerland-9eae7536?mod=rss_markets_main",
@@ -6329,7 +6335,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "f0138d7b4fcc40b155ccbec9fd612b8812fbee4e0e59c952ac4e086cf98853a2",
+  "_article_sig": "1912e1cfda93342ffd44612acf583db823e2304b039d8b9b20eaa1ccd6cd0a7a",
   "built_at_kst": "2026-10-06T07:00:40.540187+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6337,16 +6343,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/africa/ebola-patient-boarded-commercial-flight-died-shortly-after-arrival-81690b60?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-widens-to-largest-level-in-more-than-a-year-32618af7?mod=rss_socialeconomyfeed"
         },
         {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/2026100666487"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-middle-east-exports-recover-shipping-risks-persist-0b179f03?mod=rss_worldnews"
         }
       ]
     },
@@ -6354,16 +6360,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/trade/canadas-august-trade-surplus-widens-sharply-ahead-of-fresh-tariffs-48955372?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-widens-to-largest-level-in-more-than-a-year-32618af7?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-middle-east-exports-recover-shipping-risks-persist-0b179f03?mod=rss_worldnews"
         }
       ]
     },
@@ -6371,12 +6377,12 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/trade/canadas-august-trade-surplus-widens-sharply-ahead-of-fresh-tariffs-48955372?mod=rss_socialeconomyfeed"
-        },
-        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/trade/canadas-august-trade-surplus-widens-sharply-ahead-of-fresh-tariffs-48955372?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ세계",
@@ -6386,18 +6392,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-10-07T00:40:12.830832+09:00",
+    "as_of_kst": "2026-10-07T00:50:12.796298+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7894.0,
-        "change_pct": 0.87,
+        "point": 7895.5,
+        "change_pct": 0.88,
         "spark": [
           7831.75,
-          7863.0,
-          7860.0,
           7857.5,
           7858.5,
           7857.75,
@@ -6435,20 +6439,22 @@
           7895.75,
           7894.75,
           7893.25,
-          7894.0
+          7895.25,
+          7892.75,
+          7895.5
         ],
         "candle": {
           "o": 7831.75,
           "h": 7897.5,
           "l": 7829.0,
-          "c": 7894.0
+          "c": 7895.75
         },
         "range_240d": {
           "low": 6388.25,
-          "high": 7894.0,
+          "high": 7895.75,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 23.57,
+          "low_change_pct": 23.6,
           "high_change_pct": 0.0
         },
         "daily_expanded": [
@@ -8465,8 +8471,8 @@
             "o": 7831.75,
             "h": 7897.5,
             "l": 7829.0,
-            "c": 7894.0,
-            "v": 650628
+            "c": 7895.75,
+            "v": 679843
           }
         ],
         "rollover_gaps": [],
@@ -8474,16 +8480,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/trade/canadas-august-trade-surplus-widens-sharply-ahead-of-fresh-tariffs-48955372?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-widens-to-largest-level-in-more-than-a-year-32618af7?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-middle-east-exports-recover-shipping-risks-persist-0b179f03?mod=rss_worldnews"
             }
           ]
         }
@@ -8491,13 +8497,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 31592.0,
-        "change_pct": 0.88,
+        "point": 31584.25,
+        "change_pct": 0.85,
         "spark": [
           31346.75,
-          31531.5,
-          31511.5,
-          31496.0,
           31473.5,
           31478.25,
           31469.75,
@@ -8534,20 +8537,23 @@
           31610.5,
           31599.25,
           31591.75,
-          31592.0
+          31581.5,
+          31583.5,
+          31584.5,
+          31584.25
         ],
         "candle": {
           "o": 31346.75,
           "h": 31616.5,
           "l": 31309.25,
-          "c": 31587.75
+          "c": 31584.25
         },
         "range_240d": {
           "low": 23139.75,
-          "high": 31587.75,
+          "high": 31584.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 36.51,
+          "low_change_pct": 36.49,
           "high_change_pct": 0.0
         },
         "daily_expanded": [
@@ -10564,8 +10570,8 @@
             "o": 31346.75,
             "h": 31616.5,
             "l": 31309.25,
-            "c": 31587.75,
-            "v": 284870
+            "c": 31584.25,
+            "v": 292277
           }
         ],
         "rollover_gaps": [],
@@ -10573,16 +10579,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/africa/ebola-patient-boarded-commercial-flight-died-shortly-after-arrival-81690b60?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-widens-to-largest-level-in-more-than-a-year-32618af7?mod=rss_socialeconomyfeed"
             },
             {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/2026100666487"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-middle-east-exports-recover-shipping-risks-persist-0b179f03?mod=rss_worldnews"
             }
           ]
         }
@@ -10590,12 +10596,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51938.0,
-        "change_pct": 0.74,
+        "point": 51926.0,
+        "change_pct": 0.71,
         "spark": [
           51608.0,
-          51872.0,
-          51830.0,
           51812.0,
           51827.0,
           51818.0,
@@ -10633,21 +10637,23 @@
           51953.0,
           51942.0,
           51919.0,
-          51938.0
+          51914.0,
+          51915.0,
+          51926.0
         ],
         "candle": {
           "o": 51608.0,
           "h": 51965.0,
           "l": 51594.0,
-          "c": 51940.0
+          "c": 51926.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 14.34,
-          "high_change_pct": -4.69
+          "low_change_pct": 14.31,
+          "high_change_pct": -4.71
         },
         "daily_expanded": [
           {
@@ -12663,8 +12669,8 @@
             "o": 51608.0,
             "h": 51965.0,
             "l": 51594.0,
-            "c": 51940.0,
-            "v": 47378
+            "c": 51926.0,
+            "v": 48253
           }
         ],
         "rollover_gaps": [],
@@ -12672,12 +12678,12 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/trade/canadas-august-trade-surplus-widens-sharply-ahead-of-fresh-tariffs-48955372?mod=rss_socialeconomyfeed"
-            },
-            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/trade/canadas-august-trade-surplus-widens-sharply-ahead-of-fresh-tariffs-48955372?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ세계",
@@ -12688,5 +12694,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-10-07T00:40:23.389232+09:00"
+  "intraday_refreshed_kst": "2026-10-07T00:50:35.175363+09:00"
 }
