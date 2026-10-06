@@ -6344,22 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "1125700ae239baa090a88bd7eb152649c75181453c697df9de10a2c3a34342e7",
+  "_article_sig": "95915dbf84b1ad3fb4b1fdeb3ac28e35eb200ad4a2239e29862b902af07a32e1",
   "built_at_kst": "2026-10-07T07:01:53.707510+09:00",
   "futures": {
-    "as_of_kst": "2026-10-07T07:20:23.062746+09:00",
+    "as_of_kst": "2026-10-07T07:30:39.168702+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7882.25,
-        "change_pct": 0.1,
+        "point": 7882.5,
+        "change_pct": 0.11,
         "spark": [
           7881.5,
-          7879.25,
-          7882.25,
-          7883.0,
           7882.75,
           7880.5,
           7880.0,
@@ -6396,11 +6393,14 @@
           7880.5,
           7881.75,
           7882.25,
-          7882.25
+          7882.5,
+          7882.75,
+          7882.25,
+          7882.5
         ],
         "candle": {
           "o": 7881.5,
-          "h": 7882.75,
+          "h": 7883.25,
           "l": 7880.0,
           "c": 7882.5
         },
@@ -8424,23 +8424,38 @@
           {
             "date": "2026-10-06",
             "o": 7881.5,
-            "h": 7882.75,
+            "h": 7883.25,
             "l": 7880.0,
             "c": 7882.5,
-            "v": 1287
+            "v": 1830
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/the-s-p-500-hits-a-new-record-high-powered-by-techand-not-much-else-66e01705?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-middle-east-exports-recover-shipping-risks-persist-0b179f03?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/business/families-of-dead-prospectors-sue-authority-that-certifies-gold-as-ethically-produced-893e162d?mod=rss_worldnews"
+            }
+          ]
+        }
       },
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 31516.0,
+        "point": 31514.0,
         "change_pct": 0.1,
         "spark": [
           31510.0,
-          31551.0,
-          31548.0,
           31535.75,
           31525.5,
           31528.0,
@@ -8478,20 +8493,22 @@
           31513.0,
           31516.5,
           31512.75,
-          31516.0
+          31516.75,
+          31511.5,
+          31514.0
         ],
         "candle": {
           "o": 31510.0,
-          "h": 31518.75,
+          "h": 31521.0,
           "l": 31496.0,
-          "c": 31516.0
+          "c": 31512.75
         },
         "range_240d": {
           "low": 23139.75,
-          "high": 31516.0,
+          "high": 31512.75,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 36.2,
+          "low_change_pct": 36.18,
           "high_change_pct": 0.0
         },
         "daily_expanded": [
@@ -10506,13 +10523,30 @@
           {
             "date": "2026-10-06",
             "o": 31510.0,
-            "h": 31518.75,
+            "h": 31521.0,
             "l": 31496.0,
-            "c": 31516.0,
-            "v": 1253
+            "c": 31512.75,
+            "v": 1835
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/russia/u-s-escalates-pressure-on-russia-over-siberia-lab-death-6f61225a?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/the-s-p-500-hits-a-new-record-high-powered-by-techand-not-much-else-66e01705?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/u-s-presses-russia-for-details-on-plague-lab-death-ee5fc14f?mod=rss_worldnews"
+            }
+          ]
+        }
       },
       {
         "name": "다우 선물",
@@ -10521,9 +10555,6 @@
         "change_pct": 0.07,
         "spark": [
           51837.0,
-          51798.0,
-          51815.0,
-          51816.0,
           51832.0,
           51814.0,
           51813.0,
@@ -10560,11 +10591,14 @@
           51850.0,
           51849.0,
           51850.0,
+          51849.0,
+          51856.0,
+          51850.0,
           51850.0
         ],
         "candle": {
           "o": 51837.0,
-          "h": 51853.0,
+          "h": 51860.0,
           "l": 51833.0,
           "c": 51850.0
         },
@@ -12588,16 +12622,86 @@
           {
             "date": "2026-10-06",
             "o": 51837.0,
-            "h": 51853.0,
+            "h": 51860.0,
             "l": 51833.0,
             "c": 51850.0,
-            "v": 75
+            "v": 108
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+          "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/the-s-p-500-hits-a-new-record-high-powered-by-techand-not-much-else-66e01705?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/u-s-presses-russia-for-details-on-plague-lab-death-ee5fc14f?mod=rss_worldnews"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html"
+            }
+          ]
+        }
       }
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-10-07T07:20:46.100934+09:00"
+  "intraday_refreshed_kst": "2026-10-07T07:31:53.645352+09:00",
+  "_futures_news": {
+    "NASDAQ": {
+      "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/russia/u-s-escalates-pressure-on-russia-over-siberia-lab-death-6f61225a?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/the-s-p-500-hits-a-new-record-high-powered-by-techand-not-much-else-66e01705?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/u-s-presses-russia-for-details-on-plague-lab-death-ee5fc14f?mod=rss_worldnews"
+        }
+      ]
+    },
+    "S&P500": {
+      "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/the-s-p-500-hits-a-new-record-high-powered-by-techand-not-much-else-66e01705?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-middle-east-exports-recover-shipping-risks-persist-0b179f03?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/business/families-of-dead-prospectors-sue-authority-that-certifies-gold-as-ethically-produced-893e162d?mod=rss_worldnews"
+        }
+      ]
+    },
+    "DOW": {
+      "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/the-s-p-500-hits-a-new-record-high-powered-by-techand-not-much-else-66e01705?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/u-s-presses-russia-for-details-on-plague-lab-death-ee5fc14f?mod=rss_worldnews"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html"
+        }
+      ]
+    }
+  }
 }
