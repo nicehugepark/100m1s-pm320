@@ -6281,18 +6281,18 @@
       "impact_high": true
     },
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/finance/commodities-futures/german-factory-orders-tumbled-in-august-70212cb1?mod=rss_socialeconomyfeed",
-      "published_ts": 1791271080.0,
-      "impact_high": true
-    },
-    {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/lifestyle/workplace/the-reply-all-email-after-oct-7-that-tore-a-business-apart-28c20a3a?mod=rss_worldnews",
       "published_ts": 1791241200.0,
       "impact_high": true
+    },
+    {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-06-2026?mod=rss_markets_main",
+      "published_ts": 1791276319.0,
+      "impact_high": false
     },
     {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
@@ -6344,20 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "aaddd95407dfa08033cd07fdd5880f6ba9f35baca9c817b960c64fe61ee0c98e",
+  "_article_sig": "8d69db8e600ca5917098c523ca0e435feff2bf9c85f21132799c6a9a6b2acaec",
   "built_at_kst": "2026-10-06T07:00:40.540187+09:00",
   "futures": {
-    "as_of_kst": "2026-10-06T17:40:20.456963+09:00",
+    "as_of_kst": "2026-10-06T17:50:15.759331+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7843.0,
-        "change_pct": 0.21,
+        "point": 7846.5,
+        "change_pct": 0.26,
         "spark": [
           7831.75,
-          7835.25,
           7834.0,
           7835.0,
           7834.75,
@@ -6396,7 +6395,8 @@
           7843.25,
           7843.0,
           7843.5,
-          7843.0
+          7843.0,
+          7846.5
         ],
         "candle": {
           "o": 7831.75,
@@ -8427,7 +8427,7 @@
             "h": 7846.0,
             "l": 7829.0,
             "c": 7842.75,
-            "v": 86153
+            "v": 88903
           }
         ],
         "rollover_gaps": [],
@@ -8435,16 +8435,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-06-2026?mod=rss_markets_main"
+            },
+            {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/2026100662941"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/kkr-strikes-deal-to-buy-private-capital-fund-administrator-gen-ii-40b951a5?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-middle-east-exports-recover-shipping-risks-persist-0b179f03?mod=rss_worldnews"
             }
           ]
         }
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 31369.0,
-        "change_pct": 0.16,
+        "point": 31363.5,
+        "change_pct": 0.15,
         "spark": [
           31346.75,
-          31368.5,
-          31359.0,
           31366.0,
           31364.5,
           31354.75,
@@ -8495,20 +8493,22 @@
           31384.0,
           31371.0,
           31371.75,
-          31369.0
+          31365.5,
+          31382.5,
+          31363.5
         ],
         "candle": {
           "o": 31346.75,
           "h": 31411.25,
           "l": 31309.25,
-          "c": 31370.0
+          "c": 31365.25
         },
         "range_240d": {
           "low": 23139.75,
-          "high": 31370.0,
+          "high": 31365.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 35.57,
+          "low_change_pct": 35.55,
           "high_change_pct": 0.0
         },
         "daily_expanded": [
@@ -10525,8 +10525,8 @@
             "o": 31346.75,
             "h": 31411.25,
             "l": 31309.25,
-            "c": 31370.0,
-            "v": 55849
+            "c": 31365.25,
+            "v": 56878
           }
         ],
         "rollover_gaps": [],
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51813.0,
-        "change_pct": 0.49,
+        "point": 51825.0,
+        "change_pct": 0.52,
         "spark": [
           51608.0,
-          51629.0,
-          51619.0,
           51621.0,
           51625.0,
           51617.0,
@@ -10594,21 +10592,23 @@
           51798.0,
           51811.0,
           51812.0,
-          51813.0
+          51828.0,
+          51869.0,
+          51825.0
         ],
         "candle": {
           "o": 51608.0,
-          "h": 51828.0,
+          "h": 51836.0,
           "l": 51594.0,
-          "c": 51811.0
+          "c": 51829.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 14.06,
-          "high_change_pct": -4.92
+          "low_change_pct": 14.1,
+          "high_change_pct": -4.89
         },
         "daily_expanded": [
           {
@@ -12622,10 +12622,10 @@
           {
             "date": "2026-10-06",
             "o": 51608.0,
-            "h": 51828.0,
+            "h": 51836.0,
             "l": 51594.0,
-            "c": 51811.0,
-            "v": 9924
+            "c": 51829.0,
+            "v": 10277
           }
         ],
         "rollover_gaps": [],
@@ -12650,7 +12650,7 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-10-06T17:40:42.154570+09:00",
+  "intraday_refreshed_kst": "2026-10-06T17:50:38.094595+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
@@ -12673,16 +12673,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-06-2026?mod=rss_markets_main"
+        },
+        {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/2026100662941"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/kkr-strikes-deal-to-buy-private-capital-fund-administrator-gen-ii-40b951a5?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-middle-east-exports-recover-shipping-risks-persist-0b179f03?mod=rss_worldnews"
         }
       ]
     },
