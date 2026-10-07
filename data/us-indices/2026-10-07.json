@@ -6281,13 +6281,6 @@
       "impact_high": true
     },
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/global/imf-chief-tells-economic-leaders-the-time-to-act-is-now-cef10d0a?mod=rss_socialeconomyfeed",
-      "published_ts": 1791353940.0,
-      "impact_high": true
-    },
-    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026100768447",
@@ -6302,17 +6295,24 @@
       "impact_high": true
     },
     {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/global/frances-economy-is-trapped-in-a-negative-feedback-loop-509598a9?mod=rss_socialeconomyfeed",
+      "published_ts": 1791362520.0,
+      "impact_high": false
+    },
+    {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-07-2026?mod=rss_markets_main",
+      "published_ts": 1791362096.0,
+      "impact_high": false
+    },
+    {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/world/europe/german-industrial-output-rebounds-at-strongest-pace-since-early-2025-2de26cec?mod=rss_socialeconomyfeed",
       "published_ts": 1791357180.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/pro/cybersecurity/frances-economy-is-trapped-in-a-negative-feedback-loop-509598a9?mod=rss_socialeconomyfeed",
-      "published_ts": 1791354840.0,
       "impact_high": false
     },
     {
@@ -6344,20 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "b520ff1fb2d9fccb98c3ab5deac427b8f916abd4264c300f6f0c9a4d513c599f",
+  "_article_sig": "69de12b0801ad7ee29fe922c06bb7e9b110e33b367f0481b50d6203f4956cdd3",
   "built_at_kst": "2026-10-07T07:01:53.707510+09:00",
   "futures": {
-    "as_of_kst": "2026-10-07T17:40:18.940952+09:00",
+    "as_of_kst": "2026-10-07T17:50:15.372421+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7874.25,
-        "change_pct": 0.0,
+        "point": 7875.0,
+        "change_pct": 0.01,
         "spark": [
           7881.5,
-          7876.75,
           7878.5,
           7877.25,
           7878.25,
@@ -6396,20 +6395,21 @@
           7876.25,
           7874.0,
           7875.25,
-          7874.25
+          7875.0,
+          7875.0
         ],
         "candle": {
           "o": 7881.5,
           "h": 7884.5,
           "l": 7867.5,
-          "c": 7874.25
+          "c": 7875.25
         },
         "range_240d": {
           "low": 6388.25,
-          "high": 7874.25,
+          "high": 7875.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-07",
-          "low_change_pct": 23.26,
+          "low_change_pct": 23.28,
           "high_change_pct": 0.0
         },
         "daily_expanded": [
@@ -8426,8 +8426,8 @@
             "o": 7881.5,
             "h": 7884.5,
             "l": 7867.5,
-            "c": 7874.25,
-            "v": 81639
+            "c": 7875.25,
+            "v": 83492
           }
         ],
         "rollover_gaps": [],
@@ -8435,16 +8435,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-07-2026?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/indias-central-bank-raises-rates-for-first-time-since-2023-1466a08a?mod=rss_socialeconomyfeed"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/10/07/economy-inflation-ai-trade-imf-iran-hormuz-trump-.html"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html"
             }
           ]
         }
@@ -8452,11 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 31425.0,
-        "change_pct": -0.19,
+        "point": 31421.0,
+        "change_pct": -0.2,
         "spark": [
           31510.0,
-          31464.0,
           31484.0,
           31475.25,
           31484.5,
@@ -8495,21 +8494,22 @@
           31438.5,
           31425.0,
           31425.0,
-          31425.0
+          31419.0,
+          31421.0
         ],
         "candle": {
           "o": 31510.0,
           "h": 31521.0,
           "l": 31401.5,
-          "c": 31425.0
+          "c": 31420.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 35.81,
-          "high_change_pct": -0.19
+          "low_change_pct": 35.78,
+          "high_change_pct": -0.2
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 31510.0,
             "h": 31521.0,
             "l": 31401.5,
-            "c": 31425.0,
-            "v": 59169
+            "c": 31420.25,
+            "v": 59968
           }
         ],
         "rollover_gaps": [],
@@ -10535,15 +10535,15 @@
           "sources": [
             {
               "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/global/frances-economy-is-trapped-in-a-negative-feedback-loop-509598a9?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-07-2026?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/indias-central-bank-raises-rates-for-first-time-since-2023-1466a08a?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/pro/cybersecurity/frances-economy-is-trapped-in-a-negative-feedback-loop-509598a9?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/global/imf-chief-tells-economic-leaders-the-time-to-act-is-now-cef10d0a?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51765.0,
-        "change_pct": -0.1,
+        "point": 51789.0,
+        "change_pct": -0.05,
         "spark": [
           51837.0,
-          51760.0,
-          51766.0,
           51763.0,
           51768.0,
           51766.0,
@@ -10594,21 +10592,23 @@
           51781.0,
           51771.0,
           51792.0,
-          51765.0
+          51789.0,
+          51785.0,
+          51789.0
         ],
         "candle": {
           "o": 51837.0,
           "h": 51860.0,
           "l": 51674.0,
-          "c": 51764.0
+          "c": 51789.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 13.96,
-          "high_change_pct": -5.01
+          "low_change_pct": 14.01,
+          "high_change_pct": -4.96
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 51837.0,
             "h": 51860.0,
             "l": 51674.0,
-            "c": 51764.0,
-            "v": 9263
+            "c": 51789.0,
+            "v": 9611
           }
         ],
         "rollover_gaps": [],
@@ -12650,22 +12650,22 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-10-07T17:40:33.537393+09:00",
+  "intraday_refreshed_kst": "2026-10-07T17:50:40.889635+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
           "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/global/frances-economy-is-trapped-in-a-negative-feedback-loop-509598a9?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-07-2026?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/indias-central-bank-raises-rates-for-first-time-since-2023-1466a08a?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/pro/cybersecurity/frances-economy-is-trapped-in-a-negative-feedback-loop-509598a9?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/global/imf-chief-tells-economic-leaders-the-time-to-act-is-now-cef10d0a?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12673,16 +12673,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-07-2026?mod=rss_markets_main"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/indias-central-bank-raises-rates-for-first-time-since-2023-1466a08a?mod=rss_socialeconomyfeed"
         },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/10/07/economy-inflation-ai-trade-imf-iran-hormuz-trump-.html"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html"
         }
       ]
     },
