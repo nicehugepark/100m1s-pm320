@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html",
+      "published_ts": 1791347880.0,
+      "impact_high": true
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/06/world-bank-east-asia-growth-inflation-ai-exports-.html",
@@ -6316,13 +6323,6 @@
       "impact_high": false
     },
     {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-middle-east-exports-recover-shipping-risks-persist-0b179f03?mod=rss_worldnews",
-      "published_ts": 1791315060.0,
-      "impact_high": false
-    },
-    {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/wall-street-bonuses-are-expected-to-hit-another-high-this-year-d7dd453f?mod=rss_markets_main",
@@ -6344,33 +6344,36 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "9a3797302aa3da36d7b4ba1b393ad9792deb81e091d311891f6bd558a56bf342",
+  "_article_sig": "04575e7b2cb81a92d12447fc9c0e5a5faa192baec994bfc7c0888f154695a782",
   "built_at_kst": "2026-10-07T07:01:53.707510+09:00",
   "futures": {
-    "as_of_kst": "2026-10-07T13:30:20.522859+09:00",
+    "as_of_kst": "2026-10-07T13:40:22.126321+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7879.25,
+        "point": 7879.5,
         "change_pct": 0.07,
         "spark": [
           7881.5,
           7879.5,
           7880.0,
           7879.25,
-          7879.25
+          7879.75,
+          7879.75,
+          7879.0,
+          7879.5
         ],
         "candle": {
           "o": 7881.5,
           "h": 7884.5,
           "l": 7875.0,
-          "c": 7879.25
+          "c": 7879.5
         },
         "range_240d": {
           "low": 6388.25,
-          "high": 7879.25,
+          "high": 7879.5,
           "low_date": "2026-03-30",
           "high_date": "2026-10-07",
           "low_change_pct": 23.34,
@@ -8390,8 +8393,8 @@
             "o": 7881.5,
             "h": 7884.5,
             "l": 7875.0,
-            "c": 7879.25,
-            "v": 36982
+            "c": 7879.5,
+            "v": 37448
           }
         ],
         "rollover_gaps": [],
@@ -8399,16 +8402,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/americas/mexico-sheinbaum-trump-administration-cartel-sanctions-ace4ef6f?mod=rss_worldnews"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/preparing-to-fire-hear-the-radio-commands-enforcing-the-u-s-blockade-of-iran-5f85dda9?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/the-s-p-500-hits-a-new-record-high-powered-by-techand-not-much-else-66e01705?mod=rss_markets_main"
             }
           ]
         }
@@ -8416,28 +8419,31 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 31479.5,
-        "change_pct": -0.01,
+        "point": 31478.0,
+        "change_pct": -0.02,
         "spark": [
           31510.0,
           31477.5,
           31478.75,
           31477.0,
-          31479.5
+          31479.5,
+          31480.25,
+          31479.75,
+          31478.0
         ],
         "candle": {
           "o": 31510.0,
           "h": 31521.0,
           "l": 31430.0,
-          "c": 31476.75
+          "c": 31479.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 36.03,
-          "high_change_pct": -0.02
+          "low_change_pct": 36.04,
+          "high_change_pct": -0.01
         },
         "daily_expanded": [
           {
@@ -10453,8 +10459,8 @@
             "o": 31510.0,
             "h": 31521.0,
             "l": 31430.0,
-            "c": 31476.75,
-            "v": 34632
+            "c": 31479.0,
+            "v": 35016
           }
         ],
         "rollover_gaps": [],
@@ -10463,15 +10469,15 @@
           "sources": [
             {
               "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html"
+            },
+            {
+              "name": "CNBC",
               "url": "https://www.cnbc.com/2026/10/06/world-bank-east-asia-growth-inflation-ai-exports-.html"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/yemens-houthi-rebels-strike-two-airports-in-saudi-arabia-072f4dd3?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/business/airlines/flydubai-attacker-was-part-of-pilot-hiring-spree-at-fast-growing-airline-27291c41?mod=rss_worldnews"
             }
           ]
         }
@@ -10479,7 +10485,7 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51772.0,
+        "point": 51773.0,
         "change_pct": -0.08,
         "spark": [
           51837.0,
@@ -10488,21 +10494,22 @@
           51779.0,
           51772.0,
           51778.0,
-          51772.0
+          51773.0,
+          51773.0
         ],
         "candle": {
           "o": 51837.0,
           "h": 51860.0,
           "l": 51751.0,
-          "c": 51772.0
+          "c": 51773.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 13.97,
-          "high_change_pct": -5.0
+          "low_change_pct": 13.98,
+          "high_change_pct": -4.99
         },
         "daily_expanded": [
           {
@@ -12518,8 +12525,8 @@
             "o": 51837.0,
             "h": 51860.0,
             "l": 51751.0,
-            "c": 51772.0,
-            "v": 3569
+            "c": 51773.0,
+            "v": 3612
           }
         ],
         "rollover_gaps": [],
@@ -12528,15 +12535,15 @@
           "sources": [
             {
               "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html"
+            },
+            {
+              "name": "CNBC",
               "url": "https://www.cnbc.com/2026/10/06/world-bank-east-asia-growth-inflation-ai-exports-.html"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/the-s-p-500-hits-a-new-record-high-powered-by-techand-not-much-else-66e01705?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/u-s-presses-russia-for-details-on-plague-lab-death-ee5fc14f?mod=rss_worldnews"
             }
           ]
         }
@@ -12544,11 +12551,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-10-07T13:30:36.457400+09:00",
+  "intraday_refreshed_kst": "2026-10-07T13:40:46.112233+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html"
+        },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/10/06/world-bank-east-asia-growth-inflation-ai-exports-.html"
@@ -12556,10 +12567,6 @@
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/yemens-houthi-rebels-strike-two-airports-in-saudi-arabia-072f4dd3?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/business/airlines/flydubai-attacker-was-part-of-pilot-hiring-spree-at-fast-growing-airline-27291c41?mod=rss_worldnews"
         }
       ]
     },
@@ -12567,16 +12574,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/americas/mexico-sheinbaum-trump-administration-cartel-sanctions-ace4ef6f?mod=rss_worldnews"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/preparing-to-fire-hear-the-radio-commands-enforcing-the-u-s-blockade-of-iran-5f85dda9?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/the-s-p-500-hits-a-new-record-high-powered-by-techand-not-much-else-66e01705?mod=rss_markets_main"
         }
       ]
     },
@@ -12585,15 +12592,15 @@
       "sources": [
         {
           "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html"
+        },
+        {
+          "name": "CNBC",
           "url": "https://www.cnbc.com/2026/10/06/world-bank-east-asia-growth-inflation-ai-exports-.html"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/the-s-p-500-hits-a-new-record-high-powered-by-techand-not-much-else-66e01705?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/u-s-presses-russia-for-details-on-plague-lab-death-ee5fc14f?mod=rss_worldnews"
         }
       ]
     }
