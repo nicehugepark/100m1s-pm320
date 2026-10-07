@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 27511.63,
-      "change_pct": -0.32,
+      "point": 27507.64,
+      "change_pct": -0.33,
       "candle": {
         "o": 27436.57,
         "h": 27521.14,
         "l": 27341.74,
-        "c": 27511.63
+        "c": 27507.64
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,13 +2033,11 @@
           "o": 27436.57,
           "h": 27521.14,
           "l": 27341.74,
-          "c": 27511.63
+          "c": 27507.64
         }
       ],
       "spark": [
         27436.57,
-        27393.98,
-        27387.98,
         27405.48,
         27424.3,
         27425.47,
@@ -2077,7 +2075,9 @@
         27494.41,
         27504.17,
         27512.0,
-        27511.63
+        27508.92,
+        27512.09,
+        27507.64
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7802.3,
-      "change_pct": -0.21,
+      "point": 7801.29,
+      "change_pct": -0.23,
       "candle": {
         "o": 7792.98,
         "h": 7805.58,
         "l": 7763.34,
-        "c": 7802.3
+        "c": 7801.29
       },
       "range_240d": {
         "low": 6343.72,
@@ -4131,13 +4131,11 @@
           "o": 7792.98,
           "h": 7805.58,
           "l": 7763.34,
-          "c": 7802.3
+          "c": 7801.29
         }
       ],
       "spark": [
         7792.98,
-        7771.41,
-        7767.97,
         7772.12,
         7777.14,
         7776.9,
@@ -4175,7 +4173,9 @@
         7801.06,
         7802.23,
         7802.12,
-        7802.3
+        7801.68,
+        7802.52,
+        7801.29
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 51207.95,
-      "change_pct": -0.61,
+      "point": 51214.84,
+      "change_pct": -0.59,
       "candle": {
         "o": 51406.44,
         "h": 51406.44,
         "l": 50917.42,
-        "c": 51207.95
+        "c": 51214.84
       },
       "range_240d": {
         "low": 45166.64,
@@ -6229,13 +6229,11 @@
           "o": 51406.44,
           "h": 51406.44,
           "l": 50917.42,
-          "c": 51207.95
+          "c": 51214.84
         }
       ],
       "spark": [
         51406.44,
-        50991.67,
-        50954.16,
         50968.44,
         51001.45,
         50985.51,
@@ -6273,7 +6271,9 @@
         51213.35,
         51217.17,
         51201.89,
-        51207.95
+        51215.04,
+        51229.46,
+        51214.84
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6301,7 +6301,14 @@
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/07/inflation-fears-on-the-rise-as-one-year-outlook-in-fed-survey-hits-highest-since-may-2023.html",
-      "published_ts": 1791389902.0,
+      "published_ts": 1791397178.0,
+      "impact_high": true
+    },
+    {
+      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/fed-minutes-signal-further-rate-increase-this-year-but-no-urgency-for-october-hike-54ec759f?mod=rss_socialeconomyfeed",
+      "published_ts": 1791396660.0,
       "impact_high": true
     },
     {
@@ -6340,13 +6347,6 @@
       "impact_high": false
     },
     {
-      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/why-weaning-markets-off-fed-speak-is-harder-than-it-sounds-d202aefb?mod=rss_socialeconomyfeed",
-      "published_ts": 1791291600.0,
-      "impact_high": true
-    },
-    {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/banking/bank-stocks-are-haunted-by-the-ghosts-of-2023-a2a64725?mod=rss_markets_main",
@@ -6368,7 +6368,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "6e9d0e63fa21423dba7c0c3861b450484531b3ed1286fe44da003ccdf741b49f",
+  "_article_sig": "f69080adc4aa0f69854163da6a71d74d6bb8161e5f6d6c3602244b6790d796a4",
   "built_at_kst": "2026-10-07T07:01:53.707510+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6376,16 +6376,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/fed-minutes-signal-further-rate-increase-this-year-but-no-urgency-for-october-hike-54ec759f?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/flydubai-co-pilot-almost-carried-out-his-attack-in-july-58bfd268?mod=rss_worldnews"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/science/nobel-prize-for-chemistry-awarded-for-work-on-asymmetric-synthesis-9d6e3915?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/wells-fargo-faces-regulator-probe-over-efforts-to-boost-black-homeownership-a337b46e?mod=rss_markets_main"
         }
       ]
     },
@@ -6393,16 +6393,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/flydubai-co-pilot-almost-carried-out-his-attack-in-july-58bfd268?mod=rss_worldnews"
-        },
-        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/10/07/inflation-fears-on-the-rise-as-one-year-outlook-in-fed-survey-hits-highest-since-may-2023.html"
         },
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/fed-minutes-signal-further-rate-increase-this-year-but-no-urgency-for-october-hike-54ec759f?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/europe/france-considers-issuing-more-shorter-term-debt-amid-bond-market-turmoil-db2966fd?mod=rss_worldnews"
+          "url": "https://www.wsj.com/world/middle-east/flydubai-co-pilot-almost-carried-out-his-attack-in-july-58bfd268?mod=rss_worldnews"
         }
       ]
     },
@@ -6414,29 +6414,27 @@
           "url": "https://www.cnbc.com/2026/10/07/inflation-fears-on-the-rise-as-one-year-outlook-in-fed-survey-hits-highest-since-may-2023.html"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/wells-fargo-faces-regulator-probe-over-efforts-to-boost-black-homeownership-a337b46e?mod=rss_markets_main"
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/fed-minutes-signal-further-rate-increase-this-year-but-no-urgency-for-october-hike-54ec759f?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/bond-yields-are-surging-around-the-worldbut-not-in-china-efd4c694?mod=rss_markets_main"
+          "url": "https://www.wsj.com/finance/banking/wells-fargo-faces-regulator-probe-over-efforts-to-boost-black-homeownership-a337b46e?mod=rss_markets_main"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-10-08T03:10:18.471456+09:00",
+    "as_of_kst": "2026-10-08T03:20:29.627459+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7854.0,
-        "change_pct": -0.25,
+        "point": 7854.75,
+        "change_pct": -0.24,
         "spark": [
           7881.5,
-          7818.0,
-          7819.5,
           7823.5,
           7819.5,
           7823.5,
@@ -6474,21 +6472,23 @@
           7854.75,
           7852.25,
           7853.0,
-          7854.0
+          7854.0,
+          7854.75,
+          7854.75
         ],
         "candle": {
           "o": 7881.5,
           "h": 7884.5,
           "l": 7815.75,
-          "c": 7852.5
+          "c": 7855.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 22.92,
-          "high_change_pct": -0.27
+          "low_change_pct": 22.96,
+          "high_change_pct": -0.24
         },
         "daily_expanded": [
           {
@@ -8504,8 +8504,8 @@
             "o": 7881.5,
             "h": 7884.5,
             "l": 7815.75,
-            "c": 7852.5,
-            "v": 1059432
+            "c": 7855.25,
+            "v": 1077254
           }
         ],
         "rollover_gaps": [],
@@ -8513,16 +8513,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/flydubai-co-pilot-almost-carried-out-his-attack-in-july-58bfd268?mod=rss_worldnews"
-            },
-            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/10/07/inflation-fears-on-the-rise-as-one-year-outlook-in-fed-survey-hits-highest-since-may-2023.html"
             },
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/fed-minutes-signal-further-rate-increase-this-year-but-no-urgency-for-october-hike-54ec759f?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/europe/france-considers-issuing-more-shorter-term-debt-amid-bond-market-turmoil-db2966fd?mod=rss_worldnews"
+              "url": "https://www.wsj.com/world/middle-east/flydubai-co-pilot-almost-carried-out-his-attack-in-july-58bfd268?mod=rss_worldnews"
             }
           ]
         }
@@ -8530,12 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 31356.5,
-        "change_pct": -0.4,
+        "point": 31381.5,
+        "change_pct": -0.32,
         "spark": [
           31510.0,
-          31228.5,
-          31253.5,
           31246.5,
           31268.5,
           31286.5,
@@ -8573,21 +8571,23 @@
           31349.75,
           31356.0,
           31372.5,
-          31356.5
+          31381.25,
+          31375.25,
+          31381.5
         ],
         "candle": {
           "o": 31510.0,
           "h": 31521.0,
           "l": 31143.0,
-          "c": 31355.75
+          "c": 31379.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 35.51,
-          "high_change_pct": -0.4
+          "low_change_pct": 35.61,
+          "high_change_pct": -0.33
         },
         "daily_expanded": [
           {
@@ -10603,8 +10603,8 @@
             "o": 31510.0,
             "h": 31521.0,
             "l": 31143.0,
-            "c": 31355.75,
-            "v": 414361
+            "c": 31379.5,
+            "v": 420638
           }
         ],
         "rollover_gaps": [],
@@ -10612,16 +10612,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/fed-minutes-signal-further-rate-increase-this-year-but-no-urgency-for-october-hike-54ec759f?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/flydubai-co-pilot-almost-carried-out-his-attack-in-july-58bfd268?mod=rss_worldnews"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/science/nobel-prize-for-chemistry-awarded-for-work-on-asymmetric-synthesis-9d6e3915?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/wells-fargo-faces-regulator-probe-over-efforts-to-boost-black-homeownership-a337b46e?mod=rss_markets_main"
             }
           ]
         }
@@ -10629,12 +10629,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51487.0,
-        "change_pct": -0.63,
+        "point": 51485.0,
+        "change_pct": -0.64,
         "spark": [
           51837.0,
-          51233.0,
-          51260.0,
           51221.0,
           51243.0,
           51264.0,
@@ -10672,21 +10670,23 @@
           51484.0,
           51488.0,
           51495.0,
-          51487.0
+          51480.0,
+          51491.0,
+          51485.0
         ],
         "candle": {
           "o": 51837.0,
           "h": 51860.0,
           "l": 51187.0,
-          "c": 51482.0
+          "c": 51487.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 13.34,
-          "high_change_pct": -5.53
+          "low_change_pct": 13.35,
+          "high_change_pct": -5.52
         },
         "daily_expanded": [
           {
@@ -12702,8 +12702,8 @@
             "o": 51837.0,
             "h": 51860.0,
             "l": 51187.0,
-            "c": 51482.0,
-            "v": 79381
+            "c": 51487.0,
+            "v": 80172
           }
         ],
         "rollover_gaps": [],
@@ -12715,17 +12715,17 @@
               "url": "https://www.cnbc.com/2026/10/07/inflation-fears-on-the-rise-as-one-year-outlook-in-fed-survey-hits-highest-since-may-2023.html"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/wells-fargo-faces-regulator-probe-over-efforts-to-boost-black-homeownership-a337b46e?mod=rss_markets_main"
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/fed-minutes-signal-further-rate-increase-this-year-but-no-urgency-for-october-hike-54ec759f?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/bond-yields-are-surging-around-the-worldbut-not-in-china-efd4c694?mod=rss_markets_main"
+              "url": "https://www.wsj.com/finance/banking/wells-fargo-faces-regulator-probe-over-efforts-to-boost-black-homeownership-a337b46e?mod=rss_markets_main"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-10-08T03:10:42.996690+09:00"
+  "intraday_refreshed_kst": "2026-10-08T03:21:19.410088+09:00"
 }
