@@ -6274,20 +6274,6 @@
   ],
   "news_chips": [
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/houthis-escalate-attacks-on-saudi-airports-killing-3-and-wounding-dozens-f81ee1ca?mod=rss_worldnews",
-      "published_ts": 1791424620.0,
-      "impact_high": true
-    },
-    {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/consumers/inflation-midterm-election-2026-0f809bec?mod=rss_socialeconomyfeed",
-      "published_ts": 1791417600.0,
-      "impact_high": true
-    },
-    {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/fed-minutes-signal-further-rate-increase-this-year-but-no-urgency-for-october-hike-54ec759f?mod=rss_socialeconomyfeed",
@@ -6302,10 +6288,24 @@
       "impact_high": true
     },
     {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-more-than-2-amid-houthi-attacks-u-s-gulf-shut-ins-51687549?mod=rss_worldnews",
+      "published_ts": 1791446940.0,
+      "impact_high": false
+    },
+    {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/commodities-futures/european-gas-prices-climb-on-lng-shipping-risks-df4625ad?mod=rss_markets_main",
+      "published_ts": 1791446700.0,
+      "impact_high": false
+    },
+    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/trade/german-exports-fall-further-651601c8?mod=rss_socialeconomyfeed",
-      "published_ts": 1791440700.0,
+      "published_ts": 1791443640.0,
       "impact_high": false
     },
     {
@@ -6344,21 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "bc33d156a007d0bc92a54d96fa093c0f8a63a8e884f7783c5249d59bb10e920a",
+  "_article_sig": "fd7e1ce148f51ce7aab2ccb1ee522e1e854924fc7297bf246592e06865c667f6",
   "built_at_kst": "2026-10-08T07:00:45.371717+09:00",
   "futures": {
-    "as_of_kst": "2026-10-08T17:00:22.954529+09:00",
+    "as_of_kst": "2026-10-08T17:10:13.842925+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7827.5,
-        "change_pct": -0.32,
+        "point": 7824.5,
+        "change_pct": -0.36,
         "spark": [
           7850.75,
-          7849.5,
-          7850.25,
           7851.25,
           7850.0,
           7848.5,
@@ -6396,21 +6394,23 @@
           7827.5,
           7827.75,
           7826.75,
-          7827.5
+          7823.25,
+          7829.0,
+          7824.5
         ],
         "candle": {
           "o": 7850.75,
           "h": 7858.25,
           "l": 7820.5,
-          "c": 7827.5
+          "c": 7824.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 22.53,
-          "high_change_pct": -0.59
+          "low_change_pct": 22.48,
+          "high_change_pct": -0.63
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7850.75,
             "h": 7858.25,
             "l": 7820.5,
-            "c": 7827.5,
-            "v": 108954
+            "c": 7824.5,
+            "v": 112306
           }
         ],
         "rollover_gaps": [],
@@ -8436,15 +8436,15 @@
           "sources": [
             {
               "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/houthis-escalate-attacks-on-saudi-airports-killing-3-and-wounding-dozens-f81ee1ca?mod=rss_worldnews"
+              "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-more-than-2-amid-houthi-attacks-u-s-gulf-shut-ins-51687549?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/commodities-futures/european-gas-prices-climb-on-lng-shipping-risks-df4625ad?mod=rss_markets_main"
             },
             {
               "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/suspected-iranian-drone-plot-raises-security-questions-at-u-k-bases-8c979b1f?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/consumers/inflation-midterm-election-2026-0f809bec?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/world/middle-east/houthis-escalate-attacks-on-saudi-airports-killing-3-and-wounding-dozens-f81ee1ca?mod=rss_worldnews"
             }
           ]
         }
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 31250.0,
-        "change_pct": -0.48,
+        "point": 31233.0,
+        "change_pct": -0.54,
         "spark": [
           31403.0,
-          31390.5,
-          31396.75,
           31400.75,
           31394.5,
           31388.5,
@@ -8495,21 +8493,23 @@
           31251.75,
           31247.0,
           31244.0,
-          31250.0
+          31224.0,
+          31247.25,
+          31233.0
         ],
         "candle": {
           "o": 31403.0,
           "h": 31466.0,
           "l": 31196.75,
-          "c": 31249.0
+          "c": 31227.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 35.04,
-          "high_change_pct": -0.74
+          "low_change_pct": 34.95,
+          "high_change_pct": -0.81
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 31403.0,
             "h": 31466.0,
             "l": 31196.75,
-            "c": 31249.0,
-            "v": 68632
+            "c": 31227.75,
+            "v": 69976
           }
         ],
         "rollover_gaps": [],
@@ -10535,15 +10535,15 @@
           "sources": [
             {
               "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/europe/spains-leader-pins-political-survival-on-public-anger-over-housing-crisis-91438a7a?mod=rss_worldnews"
+              "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-more-than-2-amid-houthi-attacks-u-s-gulf-shut-ins-51687549?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/commodities-futures/european-gas-prices-climb-on-lng-shipping-risks-df4625ad?mod=rss_markets_main"
             },
             {
               "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/houthis-escalate-attacks-on-saudi-airports-killing-3-and-wounding-dozens-f81ee1ca?mod=rss_worldnews"
-            },
-            {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/202610080317i"
+              "url": "https://www.wsj.com/world/europe/spains-leader-pins-political-survival-on-public-anger-over-housing-crisis-91438a7a?mod=rss_worldnews"
             }
           ]
         }
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51108.0,
-        "change_pct": -0.66,
+        "point": 51091.0,
+        "change_pct": -0.7,
         "spark": [
           51427.0,
-          51396.0,
-          51395.0,
           51399.0,
           51385.0,
           51370.0,
@@ -10594,21 +10592,23 @@
           51119.0,
           51109.0,
           51107.0,
-          51108.0
+          51082.0,
+          51139.0,
+          51091.0
         ],
         "candle": {
           "o": 51427.0,
           "h": 51470.0,
           "l": 51077.0,
-          "c": 51102.0
+          "c": 51094.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 12.5,
-          "high_change_pct": -6.22
+          "low_change_pct": 12.48,
+          "high_change_pct": -6.24
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 51427.0,
             "h": 51470.0,
             "l": 51077.0,
-            "c": 51102.0,
-            "v": 13109
+            "c": 51094.0,
+            "v": 13382
           }
         ],
         "rollover_gaps": [],
@@ -12656,15 +12656,15 @@
       "sources": [
         {
           "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/europe/spains-leader-pins-political-survival-on-public-anger-over-housing-crisis-91438a7a?mod=rss_worldnews"
+          "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-more-than-2-amid-houthi-attacks-u-s-gulf-shut-ins-51687549?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/commodities-futures/european-gas-prices-climb-on-lng-shipping-risks-df4625ad?mod=rss_markets_main"
         },
         {
           "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/houthis-escalate-attacks-on-saudi-airports-killing-3-and-wounding-dozens-f81ee1ca?mod=rss_worldnews"
-        },
-        {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/202610080317i"
+          "url": "https://www.wsj.com/world/europe/spains-leader-pins-political-survival-on-public-anger-over-housing-crisis-91438a7a?mod=rss_worldnews"
         }
       ]
     },
@@ -12673,15 +12673,15 @@
       "sources": [
         {
           "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/houthis-escalate-attacks-on-saudi-airports-killing-3-and-wounding-dozens-f81ee1ca?mod=rss_worldnews"
+          "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-more-than-2-amid-houthi-attacks-u-s-gulf-shut-ins-51687549?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/commodities-futures/european-gas-prices-climb-on-lng-shipping-risks-df4625ad?mod=rss_markets_main"
         },
         {
           "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/suspected-iranian-drone-plot-raises-security-questions-at-u-k-bases-8c979b1f?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/consumers/inflation-midterm-election-2026-0f809bec?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/world/middle-east/houthis-escalate-attacks-on-saudi-airports-killing-3-and-wounding-dozens-f81ee1ca?mod=rss_worldnews"
         }
       ]
     },
@@ -12703,5 +12703,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-10-08T17:00:35.970119+09:00"
+  "intraday_refreshed_kst": "2026-10-08T17:10:35.934593+09:00"
 }
