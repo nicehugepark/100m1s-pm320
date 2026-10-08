@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 27479.4,
-      "change_pct": -0.22,
+      "point": 27472.15,
+      "change_pct": -0.24,
       "candle": {
         "o": 27409.16,
         "h": 27491.64,
         "l": 27353.29,
-        "c": 27479.4
+        "c": 27472.15
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,7 +2033,7 @@
           "o": 27409.16,
           "h": 27491.64,
           "l": 27353.29,
-          "c": 27479.4
+          "c": 27472.15
         }
       ],
       "spark": [
@@ -2050,7 +2050,9 @@
         27430.82,
         27457.62,
         27485.51,
-        27479.4
+        27476.63,
+        27468.28,
+        27472.15
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2074,13 +2076,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7790.79,
+      "point": 7790.58,
       "change_pct": -0.14,
       "candle": {
         "o": 7778.45,
         "h": 7793.67,
         "l": 7771.75,
-        "c": 7790.79
+        "c": 7790.58
       },
       "range_240d": {
         "low": 6343.72,
@@ -4104,7 +4106,7 @@
           "o": 7778.45,
           "h": 7793.67,
           "l": 7771.75,
-          "c": 7790.79
+          "c": 7790.58
         }
       ],
       "spark": [
@@ -4121,7 +4123,9 @@
         7787.18,
         7789.83,
         7792.23,
-        7790.79
+        7792.48,
+        7790.03,
+        7790.58
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4145,13 +4149,13 @@
     },
     {
       "name": "DOW",
-      "point": 51089.93,
-      "change_pct": -0.18,
+      "point": 51101.81,
+      "change_pct": -0.15,
       "candle": {
         "o": 51105.04,
         "h": 51230.46,
         "l": 50974.59,
-        "c": 51089.93
+        "c": 51101.81
       },
       "range_240d": {
         "low": 45166.64,
@@ -6175,7 +6179,7 @@
           "o": 51105.04,
           "h": 51230.46,
           "l": 50974.59,
-          "c": 51089.93
+          "c": 51101.81
         }
       ],
       "spark": [
@@ -6192,7 +6196,9 @@
         51164.24,
         51119.0,
         51090.43,
-        51089.93
+        51128.63,
+        51097.07,
+        51101.81
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6217,6 +6223,13 @@
   ],
   "news_chips": [
     {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/canadian-poet-anne-carson-awarded-nobel-prize-in-literature-ac8e351f?mod=rss_worldnews",
+      "published_ts": 1791467220.0,
+      "impact_high": true
+    },
+    {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html",
@@ -6224,18 +6237,18 @@
       "impact_high": true
     },
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/canadian-poet-anne-carson-awarded-nobel-prize-in-literature-ac8e351f?mod=rss_worldnews",
-      "published_ts": 1791462600.0,
-      "impact_high": true
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/202610082198i",
+      "published_ts": 1791469346.0,
+      "impact_high": false
     },
     {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/global/ecbs-lane-not-seeing-noticeable-pickup-in-eurozone-wages-bec01297?mod=rss_socialeconomyfeed",
-      "published_ts": 1791457020.0,
-      "impact_high": true
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-more-than-2-amid-houthi-attacks-u-s-gulf-shut-ins-51687549?mod=rss_worldnews",
+      "published_ts": 1791469140.0,
+      "impact_high": false
     },
     {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
@@ -6259,13 +6272,6 @@
       "impact_high": false
     },
     {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026100820837",
-      "published_ts": 1791457428.0,
-      "impact_high": false
-    },
-    {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/stocks/rising-rates-are-eroding-the-value-of-even-the-most-high-flying-tech-stocks-fb420a5e?mod=rss_markets_main",
@@ -6280,20 +6286,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "191ada5486a9765359e7eea871852eb1e3ce786d69dbc1a160742de0fb0199ea",
+  "_article_sig": "cfbb9118364217e3807eacfa1c3cf0255ae7e46129d491729a5719fb0853ebe8",
   "built_at_kst": "2026-10-08T07:00:45.371717+09:00",
   "futures": {
-    "as_of_kst": "2026-10-08T23:30:18.814622+09:00",
+    "as_of_kst": "2026-10-08T23:40:10.924730+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7837.5,
-        "change_pct": -0.19,
+        "point": 7843.25,
+        "change_pct": -0.12,
         "spark": [
           7850.75,
-          7807.75,
           7809.25,
           7813.25,
           7814.5,
@@ -6332,21 +6337,22 @@
           7837.0,
           7837.5,
           7839.5,
-          7837.5
+          7843.25,
+          7843.25
         ],
         "candle": {
           "o": 7850.75,
           "h": 7858.25,
           "l": 7802.75,
-          "c": 7837.75
+          "c": 7842.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 22.69,
-          "high_change_pct": -0.46
+          "low_change_pct": 22.77,
+          "high_change_pct": -0.4
         },
         "daily_expanded": [
           {
@@ -8362,8 +8368,8 @@
             "o": 7850.75,
             "h": 7858.25,
             "l": 7802.75,
-            "c": 7837.75,
-            "v": 445890
+            "c": 7842.75,
+            "v": 476139
           }
         ],
         "rollover_gaps": [],
@@ -8371,16 +8377,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-more-than-2-amid-houthi-attacks-u-s-gulf-shut-ins-51687549?mod=rss_worldnews"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/business/harbour-energy-curbs-gulf-of-mexico-production-ahead-of-storm-isaias-48734408?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/global/ecbs-lane-not-seeing-noticeable-pickup-in-eurozone-wages-bec01297?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8388,12 +8394,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 31289.25,
-        "change_pct": -0.36,
+        "point": 31355.25,
+        "change_pct": -0.15,
         "spark": [
           31403.0,
-          31146.5,
-          31153.75,
           31169.5,
           31176.25,
           31150.0,
@@ -8431,21 +8435,23 @@
           31257.0,
           31280.75,
           31316.75,
-          31289.25
+          31358.5,
+          31336.75,
+          31355.25
         ],
         "candle": {
           "o": 31403.0,
           "h": 31466.0,
           "l": 31119.75,
-          "c": 31289.25
+          "c": 31355.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 35.22,
-          "high_change_pct": -0.62
+          "low_change_pct": 35.5,
+          "high_change_pct": -0.41
         },
         "daily_expanded": [
           {
@@ -10461,8 +10467,8 @@
             "o": 31403.0,
             "h": 31466.0,
             "l": 31119.75,
-            "c": 31289.25,
-            "v": 226900
+            "c": 31355.25,
+            "v": 243888
           }
         ],
         "rollover_gaps": [],
@@ -10470,16 +10476,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/trade/ai-investment-boom-to-drive-fastest-global-trade-growth-since-financial-crisis-wto-forecasts-ef3b309f?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-slide-yet-again-2d927e44?mod=rss_socialeconomyfeed"
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-more-than-2-amid-houthi-attacks-u-s-gulf-shut-ins-51687549?mod=rss_worldnews"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/canadian-poet-anne-carson-awarded-nobel-prize-in-literature-ac8e351f?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/trade/ai-investment-boom-to-drive-fastest-global-trade-growth-since-financial-crisis-wto-forecasts-ef3b309f?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10487,12 +10493,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51425.0,
-        "change_pct": -0.05,
+        "point": 51354.0,
+        "change_pct": -0.18,
         "spark": [
           51427.0,
-          50925.0,
-          50954.0,
           50988.0,
           51003.0,
           50982.0,
@@ -10530,21 +10534,23 @@
           51446.0,
           51426.0,
           51382.0,
-          51425.0
+          51363.0,
+          51396.0,
+          51354.0
         ],
         "candle": {
           "o": 51427.0,
           "h": 51491.0,
           "l": 50909.0,
-          "c": 51427.0
+          "c": 51354.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 13.22,
-          "high_change_pct": -5.63
+          "low_change_pct": 13.05,
+          "high_change_pct": -5.76
         },
         "daily_expanded": [
           {
@@ -12560,8 +12566,8 @@
             "o": 51427.0,
             "h": 51491.0,
             "l": 50909.0,
-            "c": 51427.0,
-            "v": 46297
+            "c": 51354.0,
+            "v": 48807
           }
         ],
         "rollover_gaps": [],
@@ -12591,16 +12597,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/trade/ai-investment-boom-to-drive-fastest-global-trade-growth-since-financial-crisis-wto-forecasts-ef3b309f?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-slide-yet-again-2d927e44?mod=rss_socialeconomyfeed"
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-more-than-2-amid-houthi-attacks-u-s-gulf-shut-ins-51687549?mod=rss_worldnews"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/canadian-poet-anne-carson-awarded-nobel-prize-in-literature-ac8e351f?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/trade/ai-investment-boom-to-drive-fastest-global-trade-growth-since-financial-crisis-wto-forecasts-ef3b309f?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12608,16 +12614,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-more-than-2-amid-houthi-attacks-u-s-gulf-shut-ins-51687549?mod=rss_worldnews"
+        },
+        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/business/harbour-energy-curbs-gulf-of-mexico-production-ahead-of-storm-isaias-48734408?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/global/ecbs-lane-not-seeing-noticeable-pickup-in-eurozone-wages-bec01297?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12639,5 +12645,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-10-08T23:30:32.046951+09:00"
+  "intraday_refreshed_kst": "2026-10-08T23:40:28.599143+09:00"
 }
