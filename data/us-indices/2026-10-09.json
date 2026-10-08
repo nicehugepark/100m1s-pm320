@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 27165.36,
-      "change_pct": -1.36,
+      "point": 27150.1,
+      "change_pct": -1.41,
       "candle": {
         "o": 27409.16,
         "h": 27491.64,
         "l": 27067.03,
-        "c": 27165.36
+        "c": 27150.1
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,13 +2033,11 @@
           "o": 27409.16,
           "h": 27491.64,
           "l": 27067.03,
-          "c": 27165.36
+          "c": 27150.1
         }
       ],
       "spark": [
         27409.16,
-        27369.23,
-        27357.42,
         27356.35,
         27345.67,
         27359.96,
@@ -2077,7 +2075,9 @@
         27174.37,
         27173.78,
         27166.23,
-        27165.36
+        27159.36,
+        27151.82,
+        27150.1
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7755.55,
-      "change_pct": -0.59,
+      "point": 7754.34,
+      "change_pct": -0.61,
       "candle": {
         "o": 7778.45,
         "h": 7797.79,
         "l": 7731.26,
-        "c": 7755.55
+        "c": 7754.34
       },
       "range_240d": {
         "low": 6343.72,
@@ -4131,13 +4131,11 @@
           "o": 7778.45,
           "h": 7797.79,
           "l": 7731.26,
-          "c": 7755.55
+          "c": 7754.34
         }
       ],
       "spark": [
         7778.45,
-        7772.63,
-        7771.12,
         7771.72,
         7770.64,
         7773.5,
@@ -4175,7 +4173,9 @@
         7758.44,
         7757.86,
         7756.53,
-        7755.55
+        7753.63,
+        7754.07,
+        7754.34
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 51159.04,
-      "change_pct": -0.04,
+      "point": 51141.17,
+      "change_pct": -0.08,
       "candle": {
         "o": 51105.04,
         "h": 51230.46,
         "l": 50939.0,
-        "c": 51159.04
+        "c": 51141.17
       },
       "range_240d": {
         "low": 45166.64,
@@ -6229,13 +6229,11 @@
           "o": 51105.04,
           "h": 51230.46,
           "l": 50939.0,
-          "c": 51159.04
+          "c": 51141.17
         }
       ],
       "spark": [
         51105.04,
-        50979.48,
-        50995.24,
         51003.47,
         50998.75,
         51020.99,
@@ -6273,7 +6271,9 @@
         51185.25,
         51175.03,
         51163.89,
-        51159.04
+        51118.48,
+        51141.17,
+        51141.17
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6298,11 +6298,25 @@
   ],
   "news_chips": [
     {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/regulation/the-credit-card-bill-that-banks-fear-most-has-gained-trump-as-an-ally-013551b3?mod=rss_markets_main",
+      "published_ts": 1791486000.0,
+      "impact_high": true
+    },
+    {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html",
       "published_ts": 1791480663.0,
       "impact_high": true
+    },
+    {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/europe/the-far-left-mayor-on-the-front-line-of-frances-student-protests-ec585cdc?mod=rss_worldnews",
+      "published_ts": 1791483720.0,
+      "impact_high": false
     },
     {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
@@ -6312,24 +6326,10 @@
       "impact_high": false
     },
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/politics/national-security/trump-says-u-s-wont-resume-strikes-on-iran-before-midterms-1e8ed73e?mod=rss_worldnews",
-      "published_ts": 1791480300.0,
-      "impact_high": false
-    },
-    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/china/china-is-offering-half-measures-to-its-mounting-economic-problems-3074211f?mod=rss_worldnews",
       "published_ts": 1791478680.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/uk/two-latvians-arrested-after-break-in-at-u-k-military-base-7da6ff92?mod=rss_worldnews",
-      "published_ts": 1791475800.0,
       "impact_high": false
     },
     {
@@ -6361,7 +6361,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "86da01503bf626cdfa112b5728287989968e243c68880aa0f03851b325c599c1",
+  "_article_sig": "f2bb1af3427b641daa795e077ee7382f4ed3080fe44d1f29e4777da8e12669a1",
   "built_at_kst": "2026-10-08T07:00:45.371717+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6369,16 +6369,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/regulation/the-credit-card-bill-that-banks-fear-most-has-gained-trump-as-an-ally-013551b3?mod=rss_markets_main"
+        },
+        {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/202610092235i"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/china/china-is-offering-half-measures-to-its-mounting-economic-problems-3074211f?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/europe/russian-airstrike-on-bus-stop-kills-at-least-30-in-ukraine-a2bfcce9?mod=rss_worldnews"
         }
       ]
     },
@@ -6403,33 +6403,31 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/regulation/the-credit-card-bill-that-banks-fear-most-has-gained-trump-as-an-ally-013551b3?mod=rss_markets_main"
+        },
+        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html"
         },
         {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/202610092235i"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/israel-orders-u-k-consulate-in-jerusalem-closed-over-west-bank-trade-ban-aec88b46?mod=rss_worldnews"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-10-09T04:00:11.209844+09:00",
+    "as_of_kst": "2026-10-09T04:10:05.523713+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7810.25,
-        "change_pct": -0.54,
+        "point": 7807.0,
+        "change_pct": -0.58,
         "spark": [
           7850.75,
-          7823.75,
-          7823.5,
           7822.0,
           7822.25,
           7821.25,
@@ -6467,21 +6465,23 @@
           7807.0,
           7809.75,
           7809.5,
-          7810.25
+          7807.5,
+          7805.25,
+          7807.0
         ],
         "candle": {
           "o": 7850.75,
           "h": 7858.25,
           "l": 7783.0,
-          "c": 7810.25
+          "c": 7807.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 22.26,
-          "high_change_pct": -0.81
+          "low_change_pct": 22.21,
+          "high_change_pct": -0.85
         },
         "daily_expanded": [
           {
@@ -8497,8 +8497,8 @@
             "o": 7850.75,
             "h": 7858.25,
             "l": 7783.0,
-            "c": 7810.25,
-            "v": 1368813
+            "c": 7807.0,
+            "v": 1385131
           }
         ],
         "rollover_gaps": [],
@@ -8523,13 +8523,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30946.0,
-        "change_pct": -1.45,
+        "point": 30933.0,
+        "change_pct": -1.49,
         "spark": [
           31403.0,
-          31198.0,
-          31212.0,
-          31208.0,
           31188.75,
           31191.75,
           31173.25,
@@ -8566,21 +8563,24 @@
           30945.5,
           30933.0,
           30946.0,
-          30946.0
+          30946.5,
+          30936.0,
+          30926.25,
+          30933.0
         ],
         "candle": {
           "o": 31403.0,
           "h": 31466.0,
           "l": 30792.0,
-          "c": 30954.25
+          "c": 30933.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 33.77,
-          "high_change_pct": -1.68
+          "low_change_pct": 33.68,
+          "high_change_pct": -1.75
         },
         "daily_expanded": [
           {
@@ -10596,8 +10596,8 @@
             "o": 31403.0,
             "h": 31466.0,
             "l": 30792.0,
-            "c": 30954.25,
-            "v": 604264
+            "c": 30933.0,
+            "v": 610246
           }
         ],
         "rollover_gaps": [],
@@ -10605,16 +10605,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/regulation/the-credit-card-bill-that-banks-fear-most-has-gained-trump-as-an-ally-013551b3?mod=rss_markets_main"
+            },
+            {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/202610092235i"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/china/china-is-offering-half-measures-to-its-mounting-economic-problems-3074211f?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/europe/russian-airstrike-on-bus-stop-kills-at-least-30-in-ukraine-a2bfcce9?mod=rss_worldnews"
             }
           ]
         }
@@ -10622,11 +10622,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51453.0,
-        "change_pct": 0.01,
+        "point": 51391.0,
+        "change_pct": -0.11,
         "spark": [
           51427.0,
-          51254.0,
           51240.0,
           51259.0,
           51263.0,
@@ -10665,21 +10664,22 @@
           51435.0,
           51453.0,
           51442.0,
-          51453.0
+          51429.0,
+          51391.0
         ],
         "candle": {
           "o": 51427.0,
           "h": 51495.0,
           "l": 50909.0,
-          "c": 51458.0
+          "c": 51430.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 13.28,
-          "high_change_pct": -5.57
+          "low_change_pct": 13.22,
+          "high_change_pct": -5.62
         },
         "daily_expanded": [
           {
@@ -12695,8 +12695,8 @@
             "o": 51427.0,
             "h": 51495.0,
             "l": 50909.0,
-            "c": 51458.0,
-            "v": 90755
+            "c": 51430.0,
+            "v": 91393
           }
         ],
         "rollover_gaps": [],
@@ -12704,21 +12704,21 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/regulation/the-credit-card-bill-that-banks-fear-most-has-gained-trump-as-an-ally-013551b3?mod=rss_markets_main"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html"
             },
             {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/202610092235i"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/israel-orders-u-k-consulate-in-jerusalem-closed-over-west-bank-trade-ban-aec88b46?mod=rss_worldnews"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-10-09T04:00:18.359145+09:00"
+  "intraday_refreshed_kst": "2026-10-09T04:10:22.193153+09:00"
 }
