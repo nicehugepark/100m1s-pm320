@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 27358.76,
-      "change_pct": -0.65,
+      "point": 27369.23,
+      "change_pct": -0.62,
       "candle": {
         "o": 27409.16,
         "h": 27491.64,
         "l": 27353.29,
-        "c": 27358.76
+        "c": 27369.23
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,7 +2033,7 @@
           "o": 27409.16,
           "h": 27491.64,
           "l": 27353.29,
-          "c": 27358.76
+          "c": 27369.23
         }
       ],
       "spark": [
@@ -2064,7 +2064,9 @@
         27401.28,
         27374.23,
         27358.09,
-        27358.76
+        27366.95,
+        27375.12,
+        27369.23
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2088,13 +2090,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7770.07,
-      "change_pct": -0.41,
+      "point": 7772.19,
+      "change_pct": -0.38,
       "candle": {
         "o": 7778.45,
         "h": 7793.67,
-        "l": 7769.94,
-        "c": 7770.07
+        "l": 7769.53,
+        "c": 7772.19
       },
       "range_240d": {
         "low": 6343.72,
@@ -4117,8 +4119,8 @@
           "date": "2026-10-08",
           "o": 7778.45,
           "h": 7793.67,
-          "l": 7769.94,
-          "c": 7770.07
+          "l": 7769.53,
+          "c": 7772.19
         }
       ],
       "spark": [
@@ -4148,8 +4150,10 @@
         7771.61,
         7774.99,
         7770.44,
-        7771.55,
-        7770.07
+        7770.12,
+        7772.76,
+        7772.63,
+        7772.19
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4173,13 +4177,13 @@
     },
     {
       "name": "DOW",
-      "point": 50978.12,
-      "change_pct": -0.39,
+      "point": 50977.16,
+      "change_pct": -0.4,
       "candle": {
         "o": 51105.04,
         "h": 51230.46,
         "l": 50939.0,
-        "c": 50978.12
+        "c": 50977.16
       },
       "range_240d": {
         "low": 45166.64,
@@ -6203,7 +6207,7 @@
           "o": 51105.04,
           "h": 51230.46,
           "l": 50939.0,
-          "c": 50978.12
+          "c": 50977.16
         }
       ],
       "spark": [
@@ -6234,7 +6238,9 @@
         50970.14,
         50954.46,
         50978.16,
-        50978.12
+        50994.37,
+        50979.48,
+        50977.16
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6262,8 +6268,15 @@
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html",
-      "published_ts": 1791466122.0,
+      "published_ts": 1791474576.0,
       "impact_high": true
+    },
+    {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/europe/russian-airstrike-on-bus-stop-kills-at-least-30-in-ukraine-a2bfcce9?mod=rss_worldnews",
+      "published_ts": 1791474120.0,
+      "impact_high": false
     },
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
@@ -6294,13 +6307,6 @@
       "impact_high": false
     },
     {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-slide-yet-again-2d927e44?mod=rss_socialeconomyfeed",
-      "published_ts": 1791464220.0,
-      "impact_high": false
-    },
-    {
       "summary": "미국 고용 지표가 경기 둔화와 임금 압력 해석을 동시에 키우는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/202610082144i",
@@ -6322,7 +6328,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "15aa2c4a43aa0438bae5fe8f1ca5b5d274cd34c5b9b534dcee96290781fee2a7",
+  "_article_sig": "aaf9e69a3de6851765cddcef875cc8556575d6853a0987163ca138c75ae5aaf3",
   "built_at_kst": "2026-10-08T07:00:45.371717+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6331,15 +6337,15 @@
       "sources": [
         {
           "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/europe/russian-airstrike-on-bus-stop-kills-at-least-30-in-ukraine-a2bfcce9?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/tanker-attacks-push-deeper-into-the-gulf-and-rattle-oil-markets-24666ef9?mod=rss_worldnews"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-more-than-2-amid-houthi-attacks-u-s-gulf-shut-ins-51687549?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/canadian-poet-anne-carson-awarded-nobel-prize-in-literature-ac8e351f?mod=rss_worldnews"
         }
       ]
     },
@@ -6347,16 +6353,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/tanker-attacks-push-deeper-into-the-gulf-and-rattle-oil-markets-24666ef9?mod=rss_worldnews"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-more-than-2-amid-houthi-attacks-u-s-gulf-shut-ins-51687549?mod=rss_worldnews"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html"
         }
       ]
     },
@@ -6364,12 +6370,12 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/israel-orders-u-k-consulate-in-jerusalem-closed-over-west-bank-trade-ban-aec88b46?mod=rss_worldnews"
-        },
-        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/israel-orders-u-k-consulate-in-jerusalem-closed-over-west-bank-trade-ban-aec88b46?mod=rss_worldnews"
         },
         {
           "name": "WSJ세계",
@@ -6379,17 +6385,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-10-09T00:40:05.482823+09:00",
+    "as_of_kst": "2026-10-09T00:50:03.949578+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7825.5,
-        "change_pct": -0.35,
+        "point": 7821.0,
+        "change_pct": -0.4,
         "spark": [
           7850.75,
-          7821.25,
           7825.0,
           7817.75,
           7819.75,
@@ -6428,21 +6433,22 @@
           7822.5,
           7825.25,
           7821.0,
-          7825.5
+          7821.25,
+          7821.0
         ],
         "candle": {
           "o": 7850.75,
           "h": 7858.25,
           "l": 7802.75,
-          "c": 7825.5
+          "c": 7821.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 22.5,
-          "high_change_pct": -0.62
+          "low_change_pct": 22.43,
+          "high_change_pct": -0.67
         },
         "daily_expanded": [
           {
@@ -8458,8 +8464,8 @@
             "o": 7850.75,
             "h": 7858.25,
             "l": 7802.75,
-            "c": 7825.5,
-            "v": 654700
+            "c": 7821.0,
+            "v": 680624
           }
         ],
         "rollover_gaps": [],
@@ -8467,16 +8473,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/tanker-attacks-push-deeper-into-the-gulf-and-rattle-oil-markets-24666ef9?mod=rss_worldnews"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-more-than-2-amid-houthi-attacks-u-s-gulf-shut-ins-51687549?mod=rss_worldnews"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html"
             }
           ]
         }
@@ -8484,11 +8490,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 31240.5,
-        "change_pct": -0.52,
+        "point": 31198.0,
+        "change_pct": -0.65,
         "spark": [
           31403.0,
-          31198.75,
           31217.5,
           31179.0,
           31189.5,
@@ -8527,21 +8532,22 @@
           31233.5,
           31240.0,
           31219.5,
-          31240.5
+          31198.0,
+          31198.0
         ],
         "candle": {
           "o": 31403.0,
           "h": 31466.0,
           "l": 31119.75,
-          "c": 31244.0
+          "c": 31197.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 35.02,
-          "high_change_pct": -0.76
+          "low_change_pct": 34.82,
+          "high_change_pct": -0.91
         },
         "daily_expanded": [
           {
@@ -10557,8 +10563,8 @@
             "o": 31403.0,
             "h": 31466.0,
             "l": 31119.75,
-            "c": 31244.0,
-            "v": 304662
+            "c": 31197.75,
+            "v": 315091
           }
         ],
         "rollover_gaps": [],
@@ -10567,15 +10573,15 @@
           "sources": [
             {
               "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/europe/russian-airstrike-on-bus-stop-kills-at-least-30-in-ukraine-a2bfcce9?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/tanker-attacks-push-deeper-into-the-gulf-and-rattle-oil-markets-24666ef9?mod=rss_worldnews"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-more-than-2-amid-houthi-attacks-u-s-gulf-shut-ins-51687549?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/canadian-poet-anne-carson-awarded-nobel-prize-in-literature-ac8e351f?mod=rss_worldnews"
             }
           ]
         }
@@ -10583,11 +10589,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51234.0,
-        "change_pct": -0.42,
+        "point": 51242.0,
+        "change_pct": -0.4,
         "spark": [
           51427.0,
-          51073.0,
           51112.0,
           51064.0,
           51084.0,
@@ -10626,7 +10631,8 @@
           51216.0,
           51229.0,
           51218.0,
-          51234.0
+          51240.0,
+          51242.0
         ],
         "candle": {
           "o": 51427.0,
@@ -12665,12 +12671,12 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/israel-orders-u-k-consulate-in-jerusalem-closed-over-west-bank-trade-ban-aec88b46?mod=rss_worldnews"
-            },
-            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/israel-orders-u-k-consulate-in-jerusalem-closed-over-west-bank-trade-ban-aec88b46?mod=rss_worldnews"
             },
             {
               "name": "WSJ세계",
@@ -12681,5 +12687,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-10-09T00:40:10.728668+09:00"
+  "intraday_refreshed_kst": "2026-10-09T00:50:17.292106+09:00"
 }
