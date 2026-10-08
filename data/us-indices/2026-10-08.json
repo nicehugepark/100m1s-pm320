@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/consumers/inflation-midterm-election-2026-0f809bec?mod=rss_socialeconomyfeed",
+      "published_ts": 1791417600.0,
+      "impact_high": true
+    },
+    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/trade/trumps-tariffs-put-a-spotlight-on-forced-labor-it-isnt-going-away-b5f68fda?mod=rss_socialeconomyfeed",
@@ -6285,13 +6292,6 @@
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/houthis-escalate-attacks-on-saudi-airports-killing-3-and-wounding-dozens-f81ee1ca?mod=rss_worldnews",
       "published_ts": 1791409680.0,
-      "impact_high": true
-    },
-    {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/07/inflation-fears-on-the-rise-as-one-year-outlook-in-fed-survey-hits-highest-since-may-2023.html",
-      "published_ts": 1791398676.0,
       "impact_high": true
     },
     {
@@ -6310,9 +6310,9 @@
     },
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/europe/the-spy-crisis-that-threatens-to-defang-germanys-top-intelligence-agency-1ec4c58e?mod=rss_worldnews",
-      "published_ts": 1791414000.0,
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/2026100899827",
+      "published_ts": 1791417442.0,
       "impact_high": false
     },
     {
@@ -6344,22 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "9241eaed1bc7ca857bd37b32b7888dadbca200e74dc37ea5dec646bbeb1c0fbd",
+  "_article_sig": "37fe6fbf88dca440adce81f3bab1e67d2a2b34e061167647e20f9a6f2f9eca66",
   "built_at_kst": "2026-10-08T07:00:45.371717+09:00",
   "futures": {
-    "as_of_kst": "2026-10-08T09:00:18.063876+09:00",
+    "as_of_kst": "2026-10-08T09:10:20.373766+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7852.75,
-        "change_pct": 0.0,
+        "point": 7852.5,
+        "change_pct": -0.0,
         "spark": [
           7850.75,
-          7849.25,
-          7853.25,
-          7850.0,
           7854.25,
           7851.0,
           7853.0,
@@ -6396,13 +6393,16 @@
           7857.25,
           7857.0,
           7852.75,
-          7852.75
+          7852.25,
+          7852.75,
+          7852.5,
+          7852.5
         ],
         "candle": {
           "o": 7850.75,
           "h": 7858.25,
           "l": 7850.5,
-          "c": 7852.75
+          "c": 7852.5
         },
         "range_240d": {
           "low": 6388.25,
@@ -8426,8 +8426,8 @@
             "o": 7850.75,
             "h": 7858.25,
             "l": 7850.5,
-            "c": 7852.75,
-            "v": 9641
+            "c": 7852.5,
+            "v": 11034
           }
         ],
         "rollover_gaps": [],
@@ -8436,15 +8436,15 @@
           "sources": [
             {
               "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/consumers/inflation-midterm-election-2026-0f809bec?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/trade/trumps-tariffs-put-a-spotlight-on-forced-labor-it-isnt-going-away-b5f68fda?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/houthis-escalate-attacks-on-saudi-airports-killing-3-and-wounding-dozens-f81ee1ca?mod=rss_worldnews"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/10/07/inflation-fears-on-the-rise-as-one-year-outlook-in-fed-survey-hits-highest-since-may-2023.html"
             }
           ]
         }
@@ -8452,13 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 31432.75,
-        "change_pct": 0.1,
+        "point": 31430.75,
+        "change_pct": 0.09,
         "spark": [
           31403.0,
-          31372.5,
-          31391.5,
-          31376.5,
           31399.0,
           31396.25,
           31398.5,
@@ -8495,21 +8492,24 @@
           31452.5,
           31449.25,
           31432.75,
-          31432.75
+          31431.0,
+          31430.0,
+          31435.75,
+          31430.75
         ],
         "candle": {
           "o": 31403.0,
           "h": 31459.0,
           "l": 31403.0,
-          "c": 31433.0
+          "c": 31429.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 35.84,
-          "high_change_pct": -0.16
+          "low_change_pct": 35.82,
+          "high_change_pct": -0.17
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 31403.0,
             "h": 31459.0,
             "l": 31403.0,
-            "c": 31433.0,
-            "v": 8805
+            "c": 31429.5,
+            "v": 9429
           }
         ],
         "rollover_gaps": [],
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51429.0,
-        "change_pct": -0.04,
+        "point": 51436.0,
+        "change_pct": -0.03,
         "spark": [
           51427.0,
-          51459.0,
-          51435.0,
           51443.0,
           51442.0,
           51436.0,
@@ -10593,22 +10591,24 @@
           51468.0,
           51466.0,
           51433.0,
-          51432.0,
-          51429.0
+          51433.0,
+          51436.0,
+          51433.0,
+          51436.0
         ],
         "candle": {
           "o": 51427.0,
           "h": 51470.0,
           "l": 51422.0,
-          "c": 51429.0
+          "c": 51436.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 13.22,
-          "high_change_pct": -5.62
+          "low_change_pct": 13.24,
+          "high_change_pct": -5.61
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 51427.0,
             "h": 51470.0,
             "l": 51422.0,
-            "c": 51429.0,
-            "v": 1113
+            "c": 51436.0,
+            "v": 1287
           }
         ],
         "rollover_gaps": [],
@@ -12673,15 +12673,15 @@
       "sources": [
         {
           "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/consumers/inflation-midterm-election-2026-0f809bec?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/trade/trumps-tariffs-put-a-spotlight-on-forced-labor-it-isnt-going-away-b5f68fda?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/houthis-escalate-attacks-on-saudi-airports-killing-3-and-wounding-dozens-f81ee1ca?mod=rss_worldnews"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/07/inflation-fears-on-the-rise-as-one-year-outlook-in-fed-survey-hits-highest-since-may-2023.html"
         }
       ]
     },
@@ -12703,5 +12703,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-10-08T09:00:32.238993+09:00"
+  "intraday_refreshed_kst": "2026-10-08T09:10:43.474963+09:00"
 }
