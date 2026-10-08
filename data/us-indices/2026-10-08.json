@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html",
+      "published_ts": 1791461116.0,
+      "impact_high": true
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/canadian-poet-anne-carson-awarded-nobel-prize-in-literature-ac8e351f?mod=rss_worldnews",
@@ -6285,13 +6292,6 @@
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/global/ecbs-lane-not-seeing-noticeable-pickup-in-eurozone-wages-bec01297?mod=rss_socialeconomyfeed",
       "published_ts": 1791457020.0,
-      "impact_high": true
-    },
-    {
-      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/fed-minutes-signal-further-rate-increase-this-year-but-no-urgency-for-october-hike-54ec759f?mod=rss_socialeconomyfeed",
-      "published_ts": 1791397440.0,
       "impact_high": true
     },
     {
@@ -6337,22 +6337,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "11331c9660a5aefca92ff416636a2029a9e1901803aeeb702aea4a2d53a45a62",
+  "_article_sig": "b438bd385b1c27280d125ea32e00b34ba4ee98c3798eafb55593151a44262db0",
   "built_at_kst": "2026-10-08T07:00:45.371717+09:00",
   "futures": {
-    "as_of_kst": "2026-10-08T21:10:10.316515+09:00",
+    "as_of_kst": "2026-10-08T21:20:14.052132+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7817.5,
-        "change_pct": -0.45,
+        "point": 7820.5,
+        "change_pct": -0.41,
         "spark": [
           7850.75,
-          7825.75,
-          7822.75,
-          7822.5,
           7824.75,
           7828.75,
           7824.75,
@@ -6389,21 +6386,24 @@
           7818.25,
           7819.0,
           7817.5,
-          7817.5
+          7819.75,
+          7820.5,
+          7820.5,
+          7820.5
         ],
         "candle": {
           "o": 7850.75,
           "h": 7858.25,
           "l": 7802.75,
-          "c": 7817.0
+          "c": 7820.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 22.37,
-          "high_change_pct": -0.72
+          "low_change_pct": 22.42,
+          "high_change_pct": -0.68
         },
         "daily_expanded": [
           {
@@ -8419,8 +8419,8 @@
             "o": 7850.75,
             "h": 7858.25,
             "l": 7802.75,
-            "c": 7817.0,
-            "v": 220386
+            "c": 7820.5,
+            "v": 226959
           }
         ],
         "rollover_gaps": [],
@@ -8428,16 +8428,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/business/harbour-energy-curbs-gulf-of-mexico-production-ahead-of-storm-isaias-48734408?mod=rss_worldnews"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/global/ecbs-lane-not-seeing-noticeable-pickup-in-eurozone-wages-bec01297?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/gridlock-is-good-for-stocks-certainty-is-better-d4d2bb1a?mod=rss_markets_main"
             }
           ]
         }
@@ -8445,12 +8445,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 31183.0,
-        "change_pct": -0.7,
+        "point": 31189.5,
+        "change_pct": -0.68,
         "spark": [
           31403.0,
-          31224.5,
-          31216.5,
           31239.75,
           31260.0,
           31245.5,
@@ -8488,21 +8486,23 @@
           31194.0,
           31186.5,
           31191.5,
-          31183.0
+          31191.5,
+          31189.25,
+          31189.5
         ],
         "candle": {
           "o": 31403.0,
           "h": 31466.0,
           "l": 31119.75,
-          "c": 31179.75
+          "c": 31192.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 34.75,
-          "high_change_pct": -0.96
+          "low_change_pct": 34.8,
+          "high_change_pct": -0.92
         },
         "daily_expanded": [
           {
@@ -10518,8 +10518,8 @@
             "o": 31403.0,
             "h": 31466.0,
             "l": 31119.75,
-            "c": 31179.75,
-            "v": 112241
+            "c": 31192.75,
+            "v": 114574
           }
         ],
         "rollover_gaps": [],
@@ -10544,12 +10544,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51047.0,
-        "change_pct": -0.78,
+        "point": 51083.0,
+        "change_pct": -0.71,
         "spark": [
           51427.0,
-          51086.0,
-          51078.0,
           51069.0,
           51105.0,
           51075.0,
@@ -10587,21 +10585,23 @@
           51058.0,
           51054.0,
           51063.0,
-          51047.0
+          51084.0,
+          51087.0,
+          51083.0
         ],
         "candle": {
           "o": 51427.0,
           "h": 51470.0,
           "l": 50909.0,
-          "c": 51047.0
+          "c": 51081.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 12.38,
-          "high_change_pct": -6.33
+          "low_change_pct": 12.45,
+          "high_change_pct": -6.26
         },
         "daily_expanded": [
           {
@@ -12617,8 +12617,8 @@
             "o": 51427.0,
             "h": 51470.0,
             "l": 50909.0,
-            "c": 51047.0,
-            "v": 24506
+            "c": 51081.0,
+            "v": 24976
           }
         ],
         "rollover_gaps": [],
@@ -12626,16 +12626,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/business/harbour-energy-curbs-gulf-of-mexico-production-ahead-of-storm-isaias-48734408?mod=rss_worldnews"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/global/ecbs-lane-not-seeing-noticeable-pickup-in-eurozone-wages-bec01297?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/israel-orders-u-k-consulate-in-jerusalem-closed-over-west-bank-trade-ban-aec88b46?mod=rss_worldnews"
             }
           ]
         }
@@ -12665,16 +12665,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/business/harbour-energy-curbs-gulf-of-mexico-production-ahead-of-storm-isaias-48734408?mod=rss_worldnews"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/global/ecbs-lane-not-seeing-noticeable-pickup-in-eurozone-wages-bec01297?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/gridlock-is-good-for-stocks-certainty-is-better-d4d2bb1a?mod=rss_markets_main"
         }
       ]
     },
@@ -12682,19 +12682,19 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/business/harbour-energy-curbs-gulf-of-mexico-production-ahead-of-storm-isaias-48734408?mod=rss_worldnews"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/global/ecbs-lane-not-seeing-noticeable-pickup-in-eurozone-wages-bec01297?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/israel-orders-u-k-consulate-in-jerusalem-closed-over-west-bank-trade-ban-aec88b46?mod=rss_worldnews"
         }
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-10-08T21:10:21.967343+09:00"
+  "intraday_refreshed_kst": "2026-10-08T21:20:32.499602+09:00"
 }
