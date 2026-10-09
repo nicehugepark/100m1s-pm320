@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 27334.34,
-      "change_pct": 0.52,
+      "point": 27329.02,
+      "change_pct": 0.5,
       "candle": {
         "o": 27339.67,
         "h": 27371.12,
         "l": 27255.46,
-        "c": 27334.34
+        "c": 27329.02
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,7 +2033,7 @@
           "o": 27339.67,
           "h": 27371.12,
           "l": 27255.46,
-          "c": 27334.34
+          "c": 27329.02
         }
       ],
       "spark": [
@@ -2066,7 +2066,9 @@
         27334.63,
         27334.01,
         27334.23,
-        27334.34
+        27344.3,
+        27333.02,
+        27329.02
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2090,13 +2092,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7799.01,
-      "change_pct": 0.43,
+      "point": 7799.37,
+      "change_pct": 0.44,
       "candle": {
         "o": 7786.36,
         "h": 7805.1,
         "l": 7779.34,
-        "c": 7799.01
+        "c": 7799.37
       },
       "range_240d": {
         "low": 6343.72,
@@ -4120,7 +4122,7 @@
           "o": 7786.36,
           "h": 7805.1,
           "l": 7779.34,
-          "c": 7799.01
+          "c": 7799.37
         }
       ],
       "spark": [
@@ -4153,7 +4155,9 @@
         7799.0,
         7799.26,
         7799.05,
-        7799.01
+        7801.28,
+        7799.62,
+        7799.37
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4177,13 +4181,13 @@
     },
     {
       "name": "DOW",
-      "point": 51490.31,
-      "change_pct": 0.5,
+      "point": 51528.47,
+      "change_pct": 0.58,
       "candle": {
         "o": 51258.95,
-        "h": 51528.03,
+        "h": 51530.84,
         "l": 51258.95,
-        "c": 51490.31
+        "c": 51528.47
       },
       "range_240d": {
         "low": 45166.64,
@@ -6205,9 +6209,9 @@
         {
           "date": "2026-10-09",
           "o": 51258.95,
-          "h": 51528.03,
+          "h": 51530.84,
           "l": 51258.95,
-          "c": 51490.31
+          "c": 51528.47
         }
       ],
       "spark": [
@@ -6240,7 +6244,9 @@
         51478.34,
         51487.7,
         51490.93,
-        51490.31
+        51521.27,
+        51529.69,
+        51528.47
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6265,6 +6271,20 @@
   ],
   "news_chips": [
     {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/week-ahead-for-fx-bonds-u-s-inflation-data-in-focus-2e3de315?mod=rss_socialeconomyfeed",
+      "published_ts": 1791561480.0,
+      "impact_high": true
+    },
+    {
+      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/affluent-and-older-americans-got-much-richer-in-the-postpandemic-years-f53b3113?mod=rss_socialeconomyfeed",
+      "published_ts": 1791559560.0,
+      "impact_high": true
+    },
+    {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026100930991",
@@ -6279,17 +6299,17 @@
       "impact_high": true
     },
     {
-      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
+      "summary": "미국 고용 지표가 경기 둔화와 임금 압력 해석을 동시에 키우는 흐름",
       "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/affluent-and-older-americans-got-much-richer-in-the-postpandemic-years-f53b3113?mod=rss_socialeconomyfeed",
-      "published_ts": 1791554400.0,
-      "impact_high": true
+      "url": "https://www.wsj.com/economy/jobs/canada-jobless-rate-edges-up-with-another-drop-in-employment-a58c642d?mod=rss_socialeconomyfeed",
+      "published_ts": 1791561480.0,
+      "impact_high": false
     },
     {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/trump-announces-committee-to-investigate-fed-governor-lisa-cook-bcd509fa?mod=rss_socialeconomyfeed",
-      "published_ts": 1791558240.0,
+      "published_ts": 1791560280.0,
       "impact_high": false
     },
     {
@@ -6297,13 +6317,6 @@
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/consumers/consumer-sentiment-drops-per-michigan-survey-ea8fae7c?mod=rss_socialeconomyfeed",
       "published_ts": 1791555900.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/business/energy-oil/oil-prices-retreat-after-trump-appears-to-rule-out-iran-strikes-before-midterms-55b0e4d9?mod=rss_worldnews",
-      "published_ts": 1791551220.0,
       "impact_high": false
     },
     {
@@ -6319,16 +6332,9 @@
       "url": "https://www.wsj.com/world/middle-east/israel-orders-u-k-consulate-in-jerusalem-closed-over-west-bank-trade-ban-aec88b46?mod=rss_worldnews",
       "published_ts": 1791471300.0,
       "impact_high": false
-    },
-    {
-      "summary": "미국 고용 지표가 경기 둔화와 임금 압력 해석을 동시에 키우는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/07/ice-raids-local-economies.html",
-      "published_ts": 1791375872.0,
-      "impact_high": true
     }
   ],
-  "_article_sig": "3c22fa7876bf4a86589905b38e9ad0c46c47dbd1f3d28717c28363a2c547be2c",
+  "_article_sig": "15c269547894fe46a16c4a341f58ac4a5bebe1661f5f973afab36f2d7db2e25e",
   "built_at_kst": "2026-10-09T07:00:31.775993+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6354,11 +6360,11 @@
       "sources": [
         {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/trump-announces-committee-to-investigate-fed-governor-lisa-cook-bcd509fa?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/economy/central-banking/week-ahead-for-fx-bonds-u-s-inflation-data-in-focus-2e3de315?mod=rss_socialeconomyfeed"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/tokenized-stocks-bring-radical-change-to-markets-cuomo-says-fe1962b6?mod=rss_markets_main"
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/trump-announces-committee-to-investigate-fed-governor-lisa-cook-bcd509fa?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ경제",
@@ -6371,32 +6377,30 @@
       "sources": [
         {
           "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/trump-announces-committee-to-investigate-fed-governor-lisa-cook-bcd509fa?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/consumers/consumer-sentiment-drops-per-michigan-survey-ea8fae7c?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/banking/qatar-national-bank-targets-digital-infrastructure-real-estate-financing-as-profit-rises-ceo-says-8828a993?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/articles/walmart-wants-robots-to-run-its-warehouses-reality-keeps-getting-in-the-way-d75dee8b?mod=rss_worldnews"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-10-10T00:50:03.592203+09:00",
+    "as_of_kst": "2026-10-10T01:00:10.817260+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7847.5,
-        "change_pct": 0.4,
+        "point": 7850.0,
+        "change_pct": 0.43,
         "spark": [
           7820.5,
-          7846.25,
-          7843.5,
           7840.5,
           7838.25,
           7839.0,
@@ -6434,21 +6438,23 @@
           7846.25,
           7844.5,
           7847.75,
-          7847.5
+          7847.5,
+          7847.25,
+          7850.0
         ],
         "candle": {
           "o": 7820.5,
           "h": 7853.75,
           "l": 7817.0,
-          "c": 7847.5
+          "c": 7848.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 22.84,
-          "high_change_pct": -0.34
+          "low_change_pct": 22.85,
+          "high_change_pct": -0.33
         },
         "daily_expanded": [
           {
@@ -8464,8 +8470,8 @@
             "o": 7820.5,
             "h": 7853.75,
             "l": 7817.0,
-            "c": 7847.5,
-            "v": 593616
+            "c": 7848.0,
+            "v": 607232
           }
         ],
         "rollover_gaps": [],
@@ -8474,11 +8480,11 @@
           "sources": [
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/trump-announces-committee-to-investigate-fed-governor-lisa-cook-bcd509fa?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/economy/central-banking/week-ahead-for-fx-bonds-u-s-inflation-data-in-focus-2e3de315?mod=rss_socialeconomyfeed"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/tokenized-stocks-bring-radical-change-to-markets-cuomo-says-fe1962b6?mod=rss_markets_main"
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/trump-announces-committee-to-investigate-fed-governor-lisa-cook-bcd509fa?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ경제",
@@ -8490,13 +8496,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 31070.75,
+        "point": 31070.25,
         "change_pct": 0.33,
         "spark": [
           31020.5,
-          31207.25,
-          31186.0,
-          31178.75,
           31159.75,
           31163.75,
           31150.25,
@@ -8533,21 +8536,24 @@
           31034.25,
           31037.0,
           31072.5,
-          31070.75
+          31066.5,
+          31068.75,
+          31081.0,
+          31070.25
         ],
         "candle": {
           "o": 31020.5,
           "h": 31266.5,
           "l": 30953.0,
-          "c": 31071.5
+          "c": 31077.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 34.28,
-          "high_change_pct": -1.31
+          "low_change_pct": 34.3,
+          "high_change_pct": -1.29
         },
         "daily_expanded": [
           {
@@ -10563,8 +10569,8 @@
             "o": 31020.5,
             "h": 31266.5,
             "l": 30953.0,
-            "c": 31071.5,
-            "v": 323776
+            "c": 31077.0,
+            "v": 329603
           }
         ],
         "rollover_gaps": [],
@@ -10589,13 +10595,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51740.0,
-        "change_pct": 0.48,
+        "point": 51751.0,
+        "change_pct": 0.5,
         "spark": [
           51497.0,
-          51571.0,
-          51557.0,
-          51535.0,
           51520.0,
           51527.0,
           51479.0,
@@ -10632,21 +10635,24 @@
           51744.0,
           51730.0,
           51729.0,
-          51740.0
+          51740.0,
+          51749.0,
+          51779.0,
+          51751.0
         ],
         "candle": {
           "o": 51497.0,
           "h": 51784.0,
           "l": 51475.0,
-          "c": 51727.0
+          "c": 51751.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 13.88,
-          "high_change_pct": -5.08
+          "low_change_pct": 13.93,
+          "high_change_pct": -5.03
         },
         "daily_expanded": [
           {
@@ -12662,8 +12668,8 @@
             "o": 51497.0,
             "h": 51784.0,
             "l": 51475.0,
-            "c": 51727.0,
-            "v": 46359
+            "c": 51751.0,
+            "v": 47111
           }
         ],
         "rollover_gaps": [],
@@ -12672,20 +12678,20 @@
           "sources": [
             {
               "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/trump-announces-committee-to-investigate-fed-governor-lisa-cook-bcd509fa?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/consumers/consumer-sentiment-drops-per-michigan-survey-ea8fae7c?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/banking/qatar-national-bank-targets-digital-infrastructure-real-estate-financing-as-profit-rises-ceo-says-8828a993?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/articles/walmart-wants-robots-to-run-its-warehouses-reality-keeps-getting-in-the-way-d75dee8b?mod=rss_worldnews"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-10-10T00:50:08.922304+09:00"
+  "intraday_refreshed_kst": "2026-10-10T01:00:26.008338+09:00"
 }
