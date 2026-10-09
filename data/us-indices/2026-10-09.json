@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 27273.23,
-      "change_pct": 0.29,
+      "point": 27301.11,
+      "change_pct": 0.4,
       "candle": {
         "o": 27339.67,
         "h": 27371.12,
         "l": 27255.46,
-        "c": 27273.23
+        "c": 27301.11
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,7 +2033,7 @@
           "o": 27339.67,
           "h": 27371.12,
           "l": 27255.46,
-          "c": 27273.23
+          "c": 27301.11
         }
       ],
       "spark": [
@@ -2044,7 +2044,9 @@
         27271.78,
         27265.44,
         27272.76,
-        27273.23
+        27275.28,
+        27299.37,
+        27301.11
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2068,13 +2070,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7786.41,
-      "change_pct": 0.27,
+      "point": 7787.72,
+      "change_pct": 0.29,
       "candle": {
         "o": 7786.36,
         "h": 7796.28,
         "l": 7779.34,
-        "c": 7786.41
+        "c": 7787.72
       },
       "range_240d": {
         "low": 6343.72,
@@ -4098,7 +4100,7 @@
           "o": 7786.36,
           "h": 7796.28,
           "l": 7779.34,
-          "c": 7786.41
+          "c": 7787.72
         }
       ],
       "spark": [
@@ -4109,7 +4111,9 @@
         7784.19,
         7783.51,
         7786.17,
-        7786.41
+        7782.53,
+        7787.36,
+        7787.72
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4133,13 +4137,13 @@
     },
     {
       "name": "DOW",
-      "point": 51382.33,
+      "point": 51382.08,
       "change_pct": 0.29,
       "candle": {
         "o": 51258.95,
         "h": 51420.32,
         "l": 51258.95,
-        "c": 51382.33
+        "c": 51382.08
       },
       "range_240d": {
         "low": 45166.64,
@@ -6163,7 +6167,7 @@
           "o": 51258.95,
           "h": 51420.32,
           "l": 51258.95,
-          "c": 51382.33
+          "c": 51382.08
         }
       ],
       "spark": [
@@ -6174,7 +6178,9 @@
         51380.26,
         51385.97,
         51387.23,
-        51382.33
+        51340.9,
+        51378.27,
+        51382.08
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6200,16 +6206,23 @@
   "news_chips": [
     {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html",
-      "published_ts": 1791480663.0,
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/affluent-and-older-americans-got-much-richer-in-the-postpandemic-years-f53b3113?mod=rss_socialeconomyfeed",
+      "published_ts": 1791554400.0,
+      "impact_high": true
+    },
+    {
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/investing/why-the-battered-bond-market-is-finally-getting-a-reprieve-79ec4348?mod=rss_markets_main",
+      "published_ts": 1791495180.0,
       "impact_high": true
     },
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026100927967",
-      "published_ts": 1791551941.0,
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/nobel-peace-prize-winner-2026-39887f84?mod=rss_worldnews",
+      "published_ts": 1791553440.0,
       "impact_high": false
     },
     {
@@ -6234,13 +6247,6 @@
       "impact_high": false
     },
     {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-09-2026?mod=rss_markets_main",
-      "published_ts": 1791534192.0,
-      "impact_high": false
-    },
-    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/israel-orders-u-k-consulate-in-jerusalem-closed-over-west-bank-trade-ban-aec88b46?mod=rss_worldnews",
@@ -6255,21 +6261,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "9a4fe4058208a39b3b7ff2ba42442cda584c56edfcfb198f32dea65fb6afc7a9",
+  "_article_sig": "a05806c7cc833516a7072e2951f3ffc765799d27e5df2641cc0fccf02ee11e89",
   "built_at_kst": "2026-10-09T07:00:31.775993+09:00",
   "futures": {
-    "as_of_kst": "2026-10-09T23:00:15.491119+09:00",
+    "as_of_kst": "2026-10-09T23:10:08.638141+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7834.5,
-        "change_pct": 0.23,
+        "point": 7835.5,
+        "change_pct": 0.25,
         "spark": [
           7820.5,
-          7841.25,
-          7840.75,
           7843.0,
           7845.5,
           7846.0,
@@ -6307,21 +6311,23 @@
           7831.5,
           7833.25,
           7833.0,
-          7834.5
+          7836.0,
+          7831.75,
+          7835.5
         ],
         "candle": {
           "o": 7820.5,
           "h": 7853.75,
           "l": 7817.0,
-          "c": 7833.75
+          "c": 7835.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 22.63,
-          "high_change_pct": -0.51
+          "low_change_pct": 22.65,
+          "high_change_pct": -0.49
         },
         "daily_expanded": [
           {
@@ -8337,8 +8343,8 @@
             "o": 7820.5,
             "h": 7853.75,
             "l": 7817.0,
-            "c": 7833.75,
-            "v": 325625
+            "c": 7835.5,
+            "v": 350411
           }
         ],
         "rollover_gaps": [],
@@ -8346,16 +8352,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/affluent-and-older-americans-got-much-richer-in-the-postpandemic-years-f53b3113?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/10/09/judy-shelton-scott-bessent-treasury.html"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/business/energy-oil/oil-prices-retreat-after-trump-appears-to-rule-out-iran-strikes-before-midterms-55b0e4d9?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/how-a-binance-high-value-customer-established-a-financial-lifeline-for-iran-43bdd88e?mod=rss_worldnews"
             }
           ]
         }
@@ -8363,12 +8369,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 31025.25,
-        "change_pct": 0.18,
+        "point": 31037.25,
+        "change_pct": 0.22,
         "spark": [
           31020.5,
-          31191.5,
-          31188.25,
           31196.0,
           31200.5,
           31200.5,
@@ -8406,21 +8410,23 @@
           31035.0,
           31023.5,
           31009.0,
-          31025.25
+          31036.75,
+          31024.75,
+          31037.25
         ],
         "candle": {
           "o": 31020.5,
           "h": 31266.5,
           "l": 30953.0,
-          "c": 31028.75
+          "c": 31037.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 34.09,
-          "high_change_pct": -1.44
+          "low_change_pct": 34.13,
+          "high_change_pct": -1.42
         },
         "daily_expanded": [
           {
@@ -10436,8 +10442,8 @@
             "o": 31020.5,
             "h": 31266.5,
             "l": 30953.0,
-            "c": 31028.75,
-            "v": 199952
+            "c": 31037.25,
+            "v": 215581
           }
         ],
         "rollover_gaps": [],
@@ -10462,12 +10468,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51649.0,
-        "change_pct": 0.3,
+        "point": 51640.0,
+        "change_pct": 0.29,
         "spark": [
           51497.0,
-          51502.0,
-          51484.0,
           51502.0,
           51517.0,
           51550.0,
@@ -10505,13 +10509,15 @@
           51563.0,
           51646.0,
           51644.0,
-          51649.0
+          51642.0,
+          51592.0,
+          51640.0
         ],
         "candle": {
           "o": 51497.0,
-          "h": 51663.0,
+          "h": 51682.0,
           "l": 51475.0,
-          "c": 51649.0
+          "c": 51648.0
         },
         "range_240d": {
           "low": 45424.0,
@@ -12533,10 +12539,10 @@
           {
             "date": "2026-10-09",
             "o": 51497.0,
-            "h": 51663.0,
+            "h": 51682.0,
             "l": 51475.0,
-            "c": 51649.0,
-            "v": 30000
+            "c": 51648.0,
+            "v": 32248
           }
         ],
         "rollover_gaps": [],
@@ -12561,7 +12567,7 @@
     ]
   },
   "regular_open": true,
-  "intraday_refreshed_kst": "2026-10-09T23:00:32.600959+09:00",
+  "intraday_refreshed_kst": "2026-10-09T23:10:21.257348+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
@@ -12584,16 +12590,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/affluent-and-older-americans-got-much-richer-in-the-postpandemic-years-f53b3113?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/10/09/judy-shelton-scott-bessent-treasury.html"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/business/energy-oil/oil-prices-retreat-after-trump-appears-to-rule-out-iran-strikes-before-midterms-55b0e4d9?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/how-a-binance-high-value-customer-established-a-financial-lifeline-for-iran-43bdd88e?mod=rss_worldnews"
         }
       ]
     },
