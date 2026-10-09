@@ -6274,13 +6274,6 @@
   ],
   "news_chips": [
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/banking/qatar-national-bank-targets-digital-infrastructure-real-estate-financing-as-profit-rises-ceo-says-8828a993?mod=rss_markets_main",
-      "published_ts": 1791543180.0,
-      "impact_high": true
-    },
-    {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/investing/why-the-battered-bond-market-is-finally-getting-a-reprieve-79ec4348?mod=rss_markets_main",
@@ -6293,6 +6286,13 @@
       "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html",
       "published_ts": 1791480663.0,
       "impact_high": true
+    },
+    {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/how-a-binance-high-value-customer-established-a-financial-lifeline-for-iran-43bdd88e?mod=rss_worldnews",
+      "published_ts": 1791545760.0,
+      "impact_high": false
     },
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
@@ -6318,8 +6318,8 @@
     {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/china/china-is-offering-half-measures-to-its-mounting-economic-problems-3074211f?mod=rss_worldnews",
-      "published_ts": 1791478680.0,
+      "url": "https://www.wsj.com/world/middle-east/israel-orders-u-k-consulate-in-jerusalem-closed-over-west-bank-trade-ban-aec88b46?mod=rss_worldnews",
+      "published_ts": 1791471300.0,
       "impact_high": false
     },
     {
@@ -6330,21 +6330,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "a56ca6ee66245d48310c26911077ddc87bce200dd2e9c1377845982bbdbb5c2d",
+  "_article_sig": "920380debd14cb248c8dc17245d9d7664037d6091037159c98fdcd47665f61dd",
   "built_at_kst": "2026-10-09T07:00:31.775993+09:00",
   "futures": {
-    "as_of_kst": "2026-10-09T20:30:07.807255+09:00",
+    "as_of_kst": "2026-10-09T20:40:03.870618+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7846.5,
-        "change_pct": 0.39,
+        "point": 7849.25,
+        "change_pct": 0.42,
         "spark": [
           7820.5,
-          7846.25,
-          7846.5,
           7848.75,
           7847.0,
           7848.0,
@@ -6382,21 +6380,23 @@
           7844.0,
           7843.5,
           7847.25,
-          7846.5
+          7846.5,
+          7849.25,
+          7849.25
         ],
         "candle": {
           "o": 7820.5,
           "h": 7853.5,
           "l": 7817.0,
-          "c": 7847.25
+          "c": 7849.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 22.84,
-          "high_change_pct": -0.34
+          "low_change_pct": 22.87,
+          "high_change_pct": -0.32
         },
         "daily_expanded": [
           {
@@ -8412,8 +8412,8 @@
             "o": 7820.5,
             "h": 7853.5,
             "l": 7817.0,
-            "c": 7847.25,
-            "v": 156822
+            "c": 7849.0,
+            "v": 159581
           }
         ],
         "rollover_gaps": [],
@@ -8421,16 +8421,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/how-a-binance-high-value-customer-established-a-financial-lifeline-for-iran-43bdd88e?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/banking/qatar-national-bank-targets-digital-infrastructure-real-estate-financing-as-profit-rises-ceo-says-8828a993?mod=rss_markets_main"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/iran-and-houthis-try-to-regain-upper-hand-in-hormuz-with-spate-of-new-attacks-c845c4ab?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-09-2026?mod=rss_markets_main"
             }
           ]
         }
@@ -8438,13 +8438,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 31210.5,
-        "change_pct": 0.78,
+        "point": 31231.25,
+        "change_pct": 0.85,
         "spark": [
           31020.5,
-          31234.25,
-          31222.0,
-          31238.75,
           31225.25,
           31230.0,
           31230.75,
@@ -8481,21 +8478,24 @@
           31197.25,
           31191.75,
           31211.75,
-          31210.5
+          31210.5,
+          31230.25,
+          31226.25,
+          31231.25
         ],
         "candle": {
           "o": 31020.5,
           "h": 31266.5,
           "l": 30953.0,
-          "c": 31212.5
+          "c": 31231.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 34.89,
-          "high_change_pct": -0.86
+          "low_change_pct": 34.97,
+          "high_change_pct": -0.8
         },
         "daily_expanded": [
           {
@@ -10511,8 +10511,8 @@
             "o": 31020.5,
             "h": 31266.5,
             "l": 30953.0,
-            "c": 31212.5,
-            "v": 102072
+            "c": 31231.25,
+            "v": 103451
           }
         ],
         "rollover_gaps": [],
@@ -10520,16 +10520,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/how-a-binance-high-value-customer-established-a-financial-lifeline-for-iran-43bdd88e?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/nvidias-subtle-change-to-how-it-counts-cash-flow-has-big-implications-for-buybacks-8fb1fc0e?mod=rss_markets_main"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/iran-and-houthis-try-to-regain-upper-hand-in-hormuz-with-spate-of-new-attacks-c845c4ab?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-09-2026?mod=rss_markets_main"
             }
           ]
         }
@@ -10537,12 +10537,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51574.0,
-        "change_pct": 0.16,
+        "point": 51580.0,
+        "change_pct": 0.17,
         "spark": [
           51497.0,
-          51549.0,
-          51591.0,
           51597.0,
           51569.0,
           51581.0,
@@ -10580,21 +10578,23 @@
           51533.0,
           51532.0,
           51568.0,
-          51574.0
+          51574.0,
+          51580.0,
+          51580.0
         ],
         "candle": {
           "o": 51497.0,
           "h": 51628.0,
           "l": 51475.0,
-          "c": 51571.0
+          "c": 51580.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 13.53,
-          "high_change_pct": -5.36
+          "low_change_pct": 13.55,
+          "high_change_pct": -5.35
         },
         "daily_expanded": [
           {
@@ -12610,8 +12610,8 @@
             "o": 51497.0,
             "h": 51628.0,
             "l": 51475.0,
-            "c": 51571.0,
-            "v": 13753
+            "c": 51580.0,
+            "v": 14029
           }
         ],
         "rollover_gaps": [],
@@ -12636,11 +12636,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-10-09T20:30:15.680227+09:00",
+  "intraday_refreshed_kst": "2026-10-09T20:40:17.646426+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/how-a-binance-high-value-customer-established-a-financial-lifeline-for-iran-43bdd88e?mod=rss_worldnews"
+        },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/nvidias-subtle-change-to-how-it-counts-cash-flow-has-big-implications-for-buybacks-8fb1fc0e?mod=rss_markets_main"
@@ -12648,10 +12652,6 @@
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/iran-and-houthis-try-to-regain-upper-hand-in-hormuz-with-spate-of-new-attacks-c845c4ab?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-09-2026?mod=rss_markets_main"
         }
       ]
     },
@@ -12659,16 +12659,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/how-a-binance-high-value-customer-established-a-financial-lifeline-for-iran-43bdd88e?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/banking/qatar-national-bank-targets-digital-infrastructure-real-estate-financing-as-profit-rises-ceo-says-8828a993?mod=rss_markets_main"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/iran-and-houthis-try-to-regain-upper-hand-in-hormuz-with-spate-of-new-attacks-c845c4ab?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-09-2026?mod=rss_markets_main"
         }
       ]
     },
