@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 27334.57,
-      "change_pct": 0.52,
+      "point": 27345.72,
+      "change_pct": 0.56,
       "candle": {
         "o": 27339.67,
         "h": 27376.61,
         "l": 27255.46,
-        "c": 27334.57
+        "c": 27345.72
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,13 +2033,11 @@
           "o": 27339.67,
           "h": 27376.61,
           "l": 27255.46,
-          "c": 27334.57
+          "c": 27345.72
         }
       ],
       "spark": [
         27339.67,
-        27311.81,
-        27323.95,
         27314.02,
         27296.04,
         27306.1,
@@ -2076,8 +2074,10 @@
         27331.8,
         27339.96,
         27328.74,
-        27332.54,
-        27334.57
+        27334.31,
+        27333.86,
+        27345.64,
+        27345.72
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7807.83,
-      "change_pct": 0.55,
+      "point": 7808.73,
+      "change_pct": 0.56,
       "candle": {
         "o": 7786.36,
         "h": 7813.33,
         "l": 7779.34,
-        "c": 7807.83
+        "c": 7808.73
       },
       "range_240d": {
         "low": 6343.72,
@@ -4131,13 +4131,11 @@
           "o": 7786.36,
           "h": 7813.33,
           "l": 7779.34,
-          "c": 7807.83
+          "c": 7808.73
         }
       ],
       "spark": [
         7786.36,
-        7792.52,
-        7792.48,
         7790.55,
         7789.21,
         7791.82,
@@ -4175,7 +4173,9 @@
         7807.09,
         7806.13,
         7807.61,
-        7807.83
+        7807.93,
+        7808.73,
+        7808.73
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 51635.27,
+      "point": 51635.43,
       "change_pct": 0.79,
       "candle": {
         "o": 51258.95,
-        "h": 51650.56,
+        "h": 51655.61,
         "l": 51258.95,
-        "c": 51635.27
+        "c": 51635.43
       },
       "range_240d": {
         "low": 45166.64,
@@ -6227,15 +6227,13 @@
         {
           "date": "2026-10-09",
           "o": 51258.95,
-          "h": 51650.56,
+          "h": 51655.61,
           "l": 51258.95,
-          "c": 51635.27
+          "c": 51635.43
         }
       ],
       "spark": [
         51258.95,
-        51406.76,
-        51365.91,
         51385.45,
         51389.51,
         51415.06,
@@ -6273,7 +6271,9 @@
         51609.06,
         51624.81,
         51634.19,
-        51635.27
+        51652.16,
+        51634.71,
+        51635.43
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6298,6 +6298,20 @@
   ],
   "news_chips": [
     {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/flydubai-co-pilot-planned-to-crash-into-israeli-airport-u-a-e-says-5e337b5f?mod=rss_worldnews",
+      "published_ts": 1791567960.0,
+      "impact_high": true
+    },
+    {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/europe/u-s-sanctions-and-threatens-to-dismantle-international-criminal-court-1d7417c8?mod=rss_worldnews",
+      "published_ts": 1791567720.0,
+      "impact_high": true
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/09/american-debt-delinquency.html",
@@ -6317,20 +6331,6 @@
       "url": "https://www.wsj.com/economy/affluent-and-older-americans-got-much-richer-in-the-postpandemic-years-f53b3113?mod=rss_socialeconomyfeed",
       "published_ts": 1791559560.0,
       "impact_high": true
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/trump-announces-committee-to-investigate-fed-governor-lisa-cook-bcd509fa?mod=rss_socialeconomyfeed",
-      "published_ts": 1791566100.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/europe/masked-thieves-in-italy-make-off-with-5-6-million-of-high-end-wine-f18134d5?mod=rss_worldnews",
-      "published_ts": 1791566100.0,
-      "impact_high": false
     },
     {
       "summary": "미국 고용 지표가 경기 둔화와 임금 압력 해석을 동시에 키우는 흐름",
@@ -6355,13 +6355,13 @@
     },
     {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/israel-orders-u-k-consulate-in-jerusalem-closed-over-west-bank-trade-ban-aec88b46?mod=rss_worldnews",
-      "published_ts": 1791471300.0,
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/trade/ai-investment-boom-to-drive-fastest-global-trade-growth-since-financial-crisis-wto-forecasts-ef3b309f?mod=rss_socialeconomyfeed",
+      "published_ts": 1791465000.0,
       "impact_high": false
     }
   ],
-  "_article_sig": "3c9d0fd52e0bf082316a120692c214080ef1ca70e71f228cc844a57ecde657e9",
+  "_article_sig": "f76452d2f7b3bd183c6b610ebd07daa2c5c08237757120daf18b61f8d879a63a",
   "built_at_kst": "2026-10-09T07:00:31.775993+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6369,16 +6369,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/flydubai-co-pilot-planned-to-crash-into-israeli-airport-u-a-e-says-5e337b5f?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/trump-announces-committee-to-investigate-fed-governor-lisa-cook-bcd509fa?mod=rss_socialeconomyfeed"
         },
         {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/202610103136i"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/tokenized-stocks-bring-radical-change-to-markets-cuomo-says-fe1962b6?mod=rss_markets_main"
         }
       ]
     },
@@ -6418,19 +6418,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-10-10T02:40:04.488174+09:00",
+    "as_of_kst": "2026-10-10T02:50:06.253223+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7855.5,
-        "change_pct": 0.5,
+        "point": 7857.0,
+        "change_pct": 0.52,
         "spark": [
           7820.5,
-          7839.75,
-          7841.75,
-          7841.0,
           7840.5,
           7839.25,
           7838.0,
@@ -6467,20 +6464,23 @@
           7854.5,
           7855.0,
           7856.5,
-          7855.5
+          7855.5,
+          7856.75,
+          7857.5,
+          7857.0
         ],
         "candle": {
           "o": 7820.5,
           "h": 7863.25,
           "l": 7817.0,
-          "c": 7856.5
+          "c": 7857.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 22.98,
+          "low_change_pct": 22.99,
           "high_change_pct": -0.22
         },
         "daily_expanded": [
@@ -8497,8 +8497,8 @@
             "o": 7820.5,
             "h": 7863.25,
             "l": 7817.0,
-            "c": 7856.5,
-            "v": 751215
+            "c": 7857.0,
+            "v": 764253
           }
         ],
         "rollover_gaps": [],
@@ -8523,12 +8523,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 31089.0,
-        "change_pct": 0.39,
+        "point": 31087.25,
+        "change_pct": 0.38,
         "spark": [
           31020.5,
-          31046.75,
-          31059.25,
           31082.25,
           31053.0,
           31035.0,
@@ -8566,13 +8564,15 @@
           31078.25,
           31088.75,
           31080.75,
-          31089.0
+          31087.5,
+          31079.75,
+          31087.25
         ],
         "candle": {
           "o": 31020.5,
           "h": 31266.5,
           "l": 30953.0,
-          "c": 31089.0
+          "c": 31087.25
         },
         "range_240d": {
           "low": 23139.75,
@@ -8580,7 +8580,7 @@
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
           "low_change_pct": 34.35,
-          "high_change_pct": -1.25
+          "high_change_pct": -1.26
         },
         "daily_expanded": [
           {
@@ -10596,8 +10596,8 @@
             "o": 31020.5,
             "h": 31266.5,
             "l": 30953.0,
-            "c": 31089.0,
-            "v": 386318
+            "c": 31087.25,
+            "v": 390976
           }
         ],
         "rollover_gaps": [],
@@ -10605,16 +10605,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/flydubai-co-pilot-planned-to-crash-into-israeli-airport-u-a-e-says-5e337b5f?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/trump-announces-committee-to-investigate-fed-governor-lisa-cook-bcd509fa?mod=rss_socialeconomyfeed"
             },
             {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/202610103136i"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/tokenized-stocks-bring-radical-change-to-markets-cuomo-says-fe1962b6?mod=rss_markets_main"
             }
           ]
         }
@@ -10622,13 +10622,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51871.0,
-        "change_pct": 0.73,
+        "point": 51896.0,
+        "change_pct": 0.78,
         "spark": [
           51497.0,
-          51638.0,
-          51657.0,
-          51659.0,
           51610.0,
           51633.0,
           51637.0,
@@ -10665,21 +10662,24 @@
           51868.0,
           51857.0,
           51871.0,
-          51871.0
+          51887.0,
+          51898.0,
+          51916.0,
+          51896.0
         ],
         "candle": {
           "o": 51497.0,
           "h": 51911.0,
           "l": 51475.0,
-          "c": 51871.0
+          "c": 51896.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 14.19,
-          "high_change_pct": -4.81
+          "low_change_pct": 14.25,
+          "high_change_pct": -4.77
         },
         "daily_expanded": [
           {
@@ -12695,8 +12695,8 @@
             "o": 51497.0,
             "h": 51911.0,
             "l": 51475.0,
-            "c": 51871.0,
-            "v": 56648
+            "c": 51896.0,
+            "v": 57758
           }
         ],
         "rollover_gaps": [],
@@ -12720,5 +12720,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-10-10T02:40:16.788907+09:00"
+  "intraday_refreshed_kst": "2026-10-10T02:50:19.609617+09:00"
 }
