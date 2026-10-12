@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 27232.47,
-      "change_pct": -0.49,
+      "point": 27233.58,
+      "change_pct": -0.48,
       "candle": {
         "o": 27350.29,
         "h": 27373.96,
         "l": 27219.47,
-        "c": 27232.47
+        "c": 27233.58
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,13 +2033,11 @@
           "o": 27350.29,
           "h": 27373.96,
           "l": 27219.47,
-          "c": 27232.47
+          "c": 27233.58
         }
       ],
       "spark": [
         27350.29,
-        27306.16,
-        27305.61,
         27306.66,
         27284.85,
         27283.93,
@@ -2077,7 +2075,9 @@
         27224.54,
         27227.68,
         27233.79,
-        27232.47
+        27233.33,
+        27232.69,
+        27233.58
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7800.11,
+      "point": 7799.5,
       "change_pct": -0.15,
       "candle": {
         "o": 7813.04,
         "h": 7821.67,
         "l": 7796.94,
-        "c": 7800.11
+        "c": 7799.5
       },
       "range_240d": {
         "low": 6343.72,
@@ -4131,13 +4131,11 @@
           "o": 7813.04,
           "h": 7821.67,
           "l": 7796.94,
-          "c": 7800.11
+          "c": 7799.5
         }
       ],
       "spark": [
         7813.04,
-        7815.25,
-        7814.83,
         7815.26,
         7808.55,
         7808.52,
@@ -4175,7 +4173,9 @@
         7798.77,
         7799.18,
         7800.35,
-        7800.11
+        7799.56,
+        7799.6,
+        7799.5
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 51822.02,
-      "change_pct": 0.32,
+      "point": 51802.64,
+      "change_pct": 0.29,
       "candle": {
         "o": 51765.35,
         "h": 51928.1,
         "l": 51718.6,
-        "c": 51822.02
+        "c": 51802.64
       },
       "range_240d": {
         "low": 45166.64,
@@ -6229,13 +6229,11 @@
           "o": 51765.35,
           "h": 51928.1,
           "l": 51718.6,
-          "c": 51822.02
+          "c": 51802.64
         }
       ],
       "spark": [
         51765.35,
-        51891.64,
-        51876.91,
         51896.97,
         51862.47,
         51857.92,
@@ -6273,7 +6271,9 @@
         51825.21,
         51835.0,
         51823.28,
-        51822.02
+        51817.65,
+        51805.77,
+        51802.64
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6305,6 +6305,20 @@
       "impact_high": true
     },
     {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/investing/businesses-respond-positive-online-reviews-263d3580?mod=rss_markets_main",
+      "published_ts": 1791832800.0,
+      "impact_high": false
+    },
+    {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/iran-backed-militants-are-tightening-the-screws-on-saudi-arabias-crown-prince-e7b9e789?mod=rss_worldnews",
+      "published_ts": 1791829860.0,
+      "impact_high": false
+    },
+    {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-5f292e92?mod=rss_markets_main",
@@ -6316,20 +6330,6 @@
       "source": "WSJ세계",
       "url": "https://www.wsj.com/business/airlines/delta-delays-plans-for-nonstop-service-to-saudi-arabia-ba1f6446?mod=rss_worldnews",
       "published_ts": 1791822000.0,
-      "impact_high": false
-    },
-    {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026101273127",
-      "published_ts": 1791815767.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026101273017",
-      "published_ts": 1791813653.0,
       "impact_high": false
     },
     {
@@ -6361,7 +6361,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "8218cd73f437c89633d0dd9db5ab26627be8e5e15a91421a2051015c3e33260b",
+  "_article_sig": "8eb59c95a1df09d332a567b9150e8c899a6cee483fbcfa9d2d5612b0c539baab",
   "built_at_kst": "2026-10-10T07:00:29.929878+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6386,16 +6386,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/iran-backed-militants-are-tightening-the-screws-on-saudi-arabias-crown-prince-e7b9e789?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-5f292e92?mod=rss_markets_main"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-russian-diesel-deal-middle-east-supply-risks-bc9fabcf?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/europe/russia-pounds-ukrainian-energy-despite-trumps-ceasefire-announcement-f5d4779d?mod=rss_worldnews"
         }
       ]
     },
@@ -6418,17 +6418,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-10-13T04:20:13.168125+09:00",
+    "as_of_kst": "2026-10-13T04:30:14.495039+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7848.0,
-        "change_pct": -0.15,
+        "point": 7849.0,
+        "change_pct": -0.14,
         "spark": [
           7873.0,
-          7866.25,
           7864.25,
           7863.25,
           7864.0,
@@ -6467,21 +6466,22 @@
           7849.0,
           7848.0,
           7848.25,
-          7848.0
+          7849.75,
+          7849.0
         ],
         "candle": {
           "o": 7873.0,
           "h": 7887.0,
           "l": 7846.25,
-          "c": 7848.0
+          "c": 7849.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 22.85,
-          "high_change_pct": -0.33
+          "low_change_pct": 22.87,
+          "high_change_pct": -0.31
         },
         "daily_expanded": [
           {
@@ -8489,8 +8489,8 @@
             "o": 7873.0,
             "h": 7887.0,
             "l": 7846.25,
-            "c": 7848.0,
-            "v": 716543
+            "c": 7849.5,
+            "v": 725563
           }
         ],
         "rollover_gaps": [],
@@ -8498,16 +8498,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/iran-backed-militants-are-tightening-the-screws-on-saudi-arabias-crown-prince-e7b9e789?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-5f292e92?mod=rss_markets_main"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-russian-diesel-deal-middle-east-supply-risks-bc9fabcf?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/europe/russia-pounds-ukrainian-energy-despite-trumps-ceasefire-announcement-f5d4779d?mod=rss_worldnews"
             }
           ]
         }
@@ -8515,12 +8515,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30851.5,
-        "change_pct": -0.83,
+        "point": 30866.5,
+        "change_pct": -0.78,
         "spark": [
           31145.5,
-          30963.75,
-          30956.0,
           30953.25,
           30955.75,
           30926.25,
@@ -8558,21 +8556,23 @@
           30861.0,
           30851.0,
           30859.5,
-          30851.5
+          30866.5,
+          30869.5,
+          30866.5
         ],
         "candle": {
           "o": 31145.5,
           "h": 31289.25,
           "l": 30844.25,
-          "c": 30850.0
+          "c": 30866.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 33.32,
-          "high_change_pct": -2.01
+          "low_change_pct": 33.39,
+          "high_change_pct": -1.96
         },
         "daily_expanded": [
           {
@@ -10580,8 +10580,8 @@
             "o": 31145.5,
             "h": 31289.25,
             "l": 30844.25,
-            "c": 30850.0,
-            "v": 396590
+            "c": 30866.75,
+            "v": 400678
           }
         ],
         "rollover_gaps": [],
@@ -10606,12 +10606,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52079.0,
-        "change_pct": 0.29,
+        "point": 52081.0,
+        "change_pct": 0.3,
         "spark": [
           51972.0,
-          52150.0,
-          52140.0,
           52126.0,
           52149.0,
           52111.0,
@@ -10649,20 +10647,22 @@
           52084.0,
           52080.0,
           52086.0,
-          52079.0
+          52079.0,
+          52074.0,
+          52081.0
         ],
         "candle": {
           "o": 51972.0,
           "h": 52182.0,
           "l": 51913.0,
-          "c": 52079.0
+          "c": 52081.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 14.65,
+          "low_change_pct": 14.66,
           "high_change_pct": -4.43
         },
         "daily_expanded": [
@@ -12671,8 +12671,8 @@
             "o": 51972.0,
             "h": 52182.0,
             "l": 51913.0,
-            "c": 52079.0,
-            "v": 61296
+            "c": 52081.0,
+            "v": 61680
           }
         ],
         "rollover_gaps": [],
@@ -12696,5 +12696,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-10-13T04:20:24.599564+09:00"
+  "intraday_refreshed_kst": "2026-10-13T04:30:33.250548+09:00"
 }
