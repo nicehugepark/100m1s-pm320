@@ -4121,6 +4121,7 @@
       ],
       "spark": [
         7795.27,
+        7805.76,
         7805.18,
         7803.8,
         7799.63,
@@ -4159,8 +4160,7 @@
         7809.77,
         7810.38,
         7807.12,
-        7805.59,
-        7805.45
+        7805.59
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -6211,6 +6211,7 @@
       ],
       "spark": [
         52092.99,
+        51731.16,
         51716.6,
         51697.27,
         51648.49,
@@ -6249,8 +6250,7 @@
         51736.54,
         51713.32,
         51692.33,
-        51672.15,
-        51670.1
+        51672.15
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6309,6 +6309,13 @@
       "impact_high": true
     },
     {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/americas/cocaine-trade-is-booming-despite-airstrikes-72ec0826?mod=rss_worldnews",
+      "published_ts": 1791932400.0,
+      "impact_high": false
+    },
+    {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-51c2b458?mod=rss_markets_main",
@@ -6323,13 +6330,6 @@
       "impact_high": false
     },
     {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/for-stocks-the-future-aint-what-it-used-to-be-5b210467?mod=rss_markets_main",
-      "published_ts": 1791903300.0,
-      "impact_high": false
-    },
-    {
       "summary": "미국 고용 지표가 경기 둔화와 임금 압력 해석을 동시에 키우는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/07/ice-raids-local-economies.html",
@@ -6337,7 +6337,7 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "2b9aa53e5979963291a997e10b1c979795f2f2624483d95768ccba5171dce9a6",
+  "_article_sig": "70605a1c2137a2d4e197d9627a99480957ead22f3deb319519f2572e9c6dbea2",
   "built_at_kst": "2026-10-14T07:06:59.406089+09:00",
   "regular_open": false,
   "_futures_news": {
@@ -6345,16 +6345,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/americas/cocaine-trade-is-booming-despite-airstrikes-72ec0826?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/one-more-u-s-interest-rate-increase-may-be-appropriate-feds-williams-says-a5a7a1df?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-middle-east-risks-russian-diesel-supplies-53840a01?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/europe/drone-attacks-on-ships-sailing-near-nato-waters-present-fresh-test-for-the-alliance-e36c333d?mod=rss_worldnews"
         }
       ]
     },
@@ -6393,19 +6393,18 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-10-14T08:00:56.210755+09:00",
+  "intraday_refreshed_kst": "2026-10-14T08:10:55.534305+09:00",
   "futures": {
-    "as_of_kst": "2026-10-14T08:00:32.147245+09:00",
+    "as_of_kst": "2026-10-14T08:10:28.052640+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7860.0,
-        "change_pct": 0.05,
+        "point": 7856.5,
+        "change_pct": 0.01,
         "spark": [
           7856.25,
-          7850.5,
           7847.5,
           7852.0,
           7852.0,
@@ -6444,13 +6443,14 @@
           7859.25,
           7860.0,
           7859.75,
-          7860.0
+          7859.5,
+          7856.5
         ],
         "candle": {
           "o": 7856.25,
-          "h": 7860.25,
+          "h": 7860.5,
           "l": 7852.25,
-          "c": 7859.75
+          "c": 7859.25
         },
         "range_240d": {
           "low": 6388.25,
@@ -6458,7 +6458,7 @@
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
           "low_change_pct": 23.03,
-          "high_change_pct": -0.18
+          "high_change_pct": -0.19
         },
         "daily_expanded": [
           {
@@ -8472,10 +8472,10 @@
           {
             "date": "2026-10-13",
             "o": 7856.25,
-            "h": 7860.25,
+            "h": 7860.5,
             "l": 7852.25,
-            "c": 7859.75,
-            "v": 4015
+            "c": 7859.25,
+            "v": 4465
           }
         ],
         "rollover_gaps": [],
@@ -8500,12 +8500,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30819.0,
-        "change_pct": 0.09,
+        "point": 30808.5,
+        "change_pct": 0.06,
         "spark": [
           30791.5,
-          30729.0,
-          30719.0,
           30739.5,
           30737.75,
           30735.75,
@@ -8543,21 +8541,23 @@
           30817.75,
           30817.0,
           30818.25,
-          30819.0
+          30812.25,
+          30786.75,
+          30808.5
         ],
         "candle": {
           "o": 30791.5,
           "h": 30827.5,
           "l": 30767.0,
-          "c": 30818.0
+          "c": 30809.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 33.18,
-          "high_change_pct": -2.11
+          "low_change_pct": 33.14,
+          "high_change_pct": -2.14
         },
         "daily_expanded": [
           {
@@ -10573,8 +10573,8 @@
             "o": 30791.5,
             "h": 30827.5,
             "l": 30767.0,
-            "c": 30818.0,
-            "v": 5657
+            "c": 30809.0,
+            "v": 6138
           }
         ],
         "rollover_gaps": [],
@@ -10582,16 +10582,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/americas/cocaine-trade-is-booming-despite-airstrikes-72ec0826?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/one-more-u-s-interest-rate-increase-may-be-appropriate-feds-williams-says-a5a7a1df?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-middle-east-risks-russian-diesel-supplies-53840a01?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/europe/drone-attacks-on-ships-sailing-near-nato-waters-present-fresh-test-for-the-alliance-e36c333d?mod=rss_worldnews"
             }
           ]
         }
@@ -10599,13 +10599,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51945.0,
-        "change_pct": 0.02,
+        "point": 51939.0,
+        "change_pct": 0.01,
         "spark": [
           51933.0,
-          51972.0,
-          51968.0,
-          51938.0,
           51965.0,
           51963.0,
           51971.0,
@@ -10642,21 +10639,24 @@
           51937.0,
           51940.0,
           51945.0,
-          51945.0
+          51943.0,
+          51944.0,
+          51928.0,
+          51939.0
         ],
         "candle": {
           "o": 51933.0,
           "h": 51948.0,
           "l": 51898.0,
-          "c": 51945.0
+          "c": 51938.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 14.36,
-          "high_change_pct": -4.68
+          "low_change_pct": 14.34,
+          "high_change_pct": -4.69
         },
         "daily_expanded": [
           {
@@ -12672,8 +12672,8 @@
             "o": 51933.0,
             "h": 51948.0,
             "l": 51898.0,
-            "c": 51945.0,
-            "v": 379
+            "c": 51938.0,
+            "v": 407
           }
         ],
         "rollover_gaps": [],
