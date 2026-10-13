@@ -6275,9 +6275,9 @@
   "news_chips": [
     {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/13/treasury-yields-imf-debt-inflation-.html",
-      "published_ts": 1791867247.0,
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-yields-fall-as-markets-look-to-u-s-inflation-data-412d95a4?mod=rss_socialeconomyfeed",
+      "published_ts": 1791882660.0,
       "impact_high": true
     },
     {
@@ -6302,7 +6302,7 @@
       "impact_high": false
     },
     {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "summary": "반도체 수요와 공급망 뉴스가 기술주 투자심리의 핵심 변수로 작용하는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-bank-earnings-10-13-2026?mod=rss_markets_main",
       "published_ts": 1791879278.0,
@@ -6323,6 +6323,13 @@
       "impact_high": false
     },
     {
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/stocks/frenzied-stock-options-trading-shows-individual-investors-are-still-hungry-for-risk-89ed24e5?mod=rss_markets_main",
+      "published_ts": 1791840600.0,
+      "impact_high": false
+    },
+    {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html",
@@ -6337,21 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "2d1fed1da4a7f1e1fc90df16e4fd4d25e7f01668674eb9fb713e8ce08d9119bb",
+  "_article_sig": "e59043f68e99df87de845c7f37ff5134c8a9ca085ac9bce738ae127f1384fb86",
   "built_at_kst": "2026-10-13T07:00:38.120509+09:00",
   "futures": {
-    "as_of_kst": "2026-10-13T18:10:16.322159+09:00",
+    "as_of_kst": "2026-10-13T18:20:27.733003+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7857.5,
-        "change_pct": -0.01,
+        "point": 7859.25,
+        "change_pct": 0.02,
         "spark": [
           7855.5,
-          7847.75,
-          7847.0,
           7850.0,
           7847.5,
           7846.75,
@@ -6389,21 +6394,23 @@
           7859.0,
           7857.0,
           7857.5,
-          7857.5
+          7857.5,
+          7858.75,
+          7859.25
         ],
         "candle": {
           "o": 7855.5,
           "h": 7862.25,
           "l": 7836.0,
-          "c": 7857.25
+          "c": 7858.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 23.0,
-          "high_change_pct": -0.21
+          "low_change_pct": 23.02,
+          "high_change_pct": -0.19
         },
         "daily_expanded": [
           {
@@ -8419,8 +8426,8 @@
             "o": 7855.5,
             "h": 7862.25,
             "l": 7836.0,
-            "c": 7857.25,
-            "v": 143959
+            "c": 7858.75,
+            "v": 145604
           }
         ],
         "rollover_gaps": [],
@@ -8428,16 +8435,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-yields-fall-as-markets-look-to-u-s-inflation-data-412d95a4?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/stock-market-today-bank-earnings-10-13-2026?mod=rss_markets_main"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-middle-east-risks-russian-diesel-supplies-53840a01?mod=rss_worldnews"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html"
             }
           ]
         }
@@ -8445,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30748.5,
-        "change_pct": -0.48,
+        "point": 30767.5,
+        "change_pct": -0.42,
         "spark": [
           30876.0,
-          30681.25,
-          30693.0,
           30657.75,
           30644.5,
           30649.0,
@@ -8488,21 +8493,23 @@
           30751.0,
           30751.75,
           30743.75,
-          30748.5
+          30768.25,
+          30766.25,
+          30767.5
         ],
         "candle": {
           "o": 30876.0,
           "h": 30906.0,
           "l": 30604.75,
-          "c": 30750.75
+          "c": 30767.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 32.89,
-          "high_change_pct": -2.33
+          "low_change_pct": 32.96,
+          "high_change_pct": -2.27
         },
         "daily_expanded": [
           {
@@ -10518,8 +10525,8 @@
             "o": 30876.0,
             "h": 30906.0,
             "l": 30604.75,
-            "c": 30750.75,
-            "v": 109758
+            "c": 30767.25,
+            "v": 110915
           }
         ],
         "rollover_gaps": [],
@@ -10527,16 +10534,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-yields-fall-as-markets-look-to-u-s-inflation-data-412d95a4?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/2026101394911"
             },
             {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/2026101394971"
-            },
-            {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/2026101394831"
             }
           ]
         }
@@ -10544,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52341.0,
-        "change_pct": 0.44,
+        "point": 52359.0,
+        "change_pct": 0.48,
         "spark": [
           52111.0,
-          52245.0,
-          52267.0,
           52276.0,
           52283.0,
           52290.0,
@@ -10587,21 +10592,23 @@
           52358.0,
           52358.0,
           52375.0,
-          52341.0
+          52357.0,
+          52388.0,
+          52359.0
         ],
         "candle": {
           "o": 52111.0,
           "h": 52481.0,
           "l": 52095.0,
-          "c": 52341.0
+          "c": 52359.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.23,
-          "high_change_pct": -3.95
+          "low_change_pct": 15.27,
+          "high_change_pct": -3.92
         },
         "daily_expanded": [
           {
@@ -12617,8 +12624,8 @@
             "o": 52111.0,
             "h": 52481.0,
             "l": 52095.0,
-            "c": 52341.0,
-            "v": 15765
+            "c": 52359.0,
+            "v": 16180
           }
         ],
         "rollover_gaps": [],
@@ -12643,11 +12650,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-10-13T18:10:41.482487+09:00",
+  "intraday_refreshed_kst": "2026-10-13T18:20:46.949423+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-yields-fall-as-markets-look-to-u-s-inflation-data-412d95a4?mod=rss_socialeconomyfeed"
+        },
         {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/2026101394911"
@@ -12655,10 +12666,6 @@
         {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/2026101394971"
-        },
-        {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/2026101394831"
         }
       ]
     },
@@ -12666,16 +12673,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-yields-fall-as-markets-look-to-u-s-inflation-data-412d95a4?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/stock-market-today-bank-earnings-10-13-2026?mod=rss_markets_main"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-middle-east-risks-russian-diesel-supplies-53840a01?mod=rss_worldnews"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html"
         }
       ]
     },
