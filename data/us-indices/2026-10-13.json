@@ -6288,6 +6288,13 @@
       "impact_high": true
     },
     {
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/banking/jpmorgan-goldman-profit-jumps-as-banks-kick-off-earnings-3e78b37d?mod=rss_markets_main",
+      "published_ts": 1791895380.0,
+      "impact_high": false
+    },
+    {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026101398317",
@@ -6316,13 +6323,6 @@
       "impact_high": false
     },
     {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/gulf-hurricane-not-big-enough-to-reset-insurance-market-024deafa?mod=rss_markets_main",
-      "published_ts": 1791883800.0,
-      "impact_high": false
-    },
-    {
       "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/seeking-less-harmful-alternatives-to-central-bank-rate-rises-30850b1c?mod=rss_socialeconomyfeed",
@@ -6344,20 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "7b28e6a33471270d14d8cfe96849b7234c3e3f2b5f96927e5271b83ee6fe5eb5",
+  "_article_sig": "43bfb0901923dc3a05443439d7388f6b1132e88a5e5149e552a67778f485400d",
   "built_at_kst": "2026-10-13T07:00:38.120509+09:00",
   "futures": {
-    "as_of_kst": "2026-10-13T21:40:12.791782+09:00",
+    "as_of_kst": "2026-10-13T21:50:11.429797+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7853.75,
-        "change_pct": -0.05,
+        "point": 7851.25,
+        "change_pct": -0.09,
         "spark": [
           7855.5,
-          7858.75,
           7859.75,
           7860.0,
           7861.0,
@@ -6396,21 +6395,22 @@
           7852.25,
           7853.75,
           7852.75,
-          7853.75
+          7852.5,
+          7851.25
         ],
         "candle": {
           "o": 7855.5,
           "h": 7864.0,
           "l": 7836.0,
-          "c": 7853.75
+          "c": 7851.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 22.94,
-          "high_change_pct": -0.26
+          "low_change_pct": 22.91,
+          "high_change_pct": -0.28
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7855.5,
             "h": 7864.0,
             "l": 7836.0,
-            "c": 7853.75,
-            "v": 211116
+            "c": 7851.75,
+            "v": 217552
           }
         ],
         "rollover_gaps": [],
@@ -8452,11 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30677.25,
-        "change_pct": -0.72,
+        "point": 30663.25,
+        "change_pct": -0.76,
         "spark": [
           30876.0,
-          30754.75,
           30765.75,
           30760.75,
           30767.25,
@@ -8495,21 +8494,22 @@
           30672.5,
           30679.25,
           30660.0,
-          30677.25
+          30663.25,
+          30663.25
         ],
         "candle": {
           "o": 30876.0,
           "h": 30906.0,
           "l": 30604.75,
-          "c": 30674.75
+          "c": 30662.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 32.56,
-          "high_change_pct": -2.57
+          "low_change_pct": 32.51,
+          "high_change_pct": -2.61
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 30876.0,
             "h": 30906.0,
             "l": 30604.75,
-            "c": 30674.75,
-            "v": 138037
+            "c": 30662.5,
+            "v": 140586
           }
         ],
         "rollover_gaps": [],
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52532.0,
-        "change_pct": 0.81,
+        "point": 52559.0,
+        "change_pct": 0.86,
         "spark": [
           52111.0,
-          52380.0,
-          52387.0,
           52407.0,
           52423.0,
           52422.0,
@@ -10594,21 +10592,23 @@
           52519.0,
           52544.0,
           52579.0,
-          52532.0
+          52565.0,
+          52535.0,
+          52559.0
         ],
         "candle": {
           "o": 52111.0,
-          "h": 52563.0,
+          "h": 52612.0,
           "l": 52095.0,
-          "c": 52537.0
+          "c": 52559.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.66,
-          "high_change_pct": -3.59
+          "low_change_pct": 15.71,
+          "high_change_pct": -3.55
         },
         "daily_expanded": [
           {
@@ -12622,10 +12622,10 @@
           {
             "date": "2026-10-13",
             "o": 52111.0,
-            "h": 52563.0,
+            "h": 52612.0,
             "l": 52095.0,
-            "c": 52537.0,
-            "v": 43898
+            "c": 52559.0,
+            "v": 45328
           }
         ],
         "rollover_gaps": [],
@@ -12633,16 +12633,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/banking/jpmorgan-goldman-profit-jumps-as-banks-kick-off-earnings-3e78b37d?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-middle-east-risks-russian-diesel-supplies-53840a01?mod=rss_worldnews"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/this-investing-strategy-is-so-good-you-cant-handle-it-66a2fb16?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/seeking-less-harmful-alternatives-to-central-bank-rate-rises-30850b1c?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -12650,7 +12650,7 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-10-13T21:40:22.798084+09:00",
+  "intraday_refreshed_kst": "2026-10-13T21:50:30.265377+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
@@ -12690,16 +12690,16 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/banking/jpmorgan-goldman-profit-jumps-as-banks-kick-off-earnings-3e78b37d?mod=rss_markets_main"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-middle-east-risks-russian-diesel-supplies-53840a01?mod=rss_worldnews"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/this-investing-strategy-is-so-good-you-cant-handle-it-66a2fb16?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/seeking-less-harmful-alternatives-to-central-bank-rate-rises-30850b1c?mod=rss_socialeconomyfeed"
         }
       ]
     }
