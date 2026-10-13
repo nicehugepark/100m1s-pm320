@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 27256.92,
-      "change_pct": 0.04,
+      "point": 27240.24,
+      "change_pct": -0.02,
       "candle": {
         "o": 27144.87,
-        "h": 27261.88,
+        "h": 27276.18,
         "l": 27121.66,
-        "c": 27256.92
+        "c": 27240.24
       },
       "range_240d": {
         "low": 20794.64,
@@ -2031,9 +2031,9 @@
         {
           "date": "2026-10-13",
           "o": 27144.87,
-          "h": 27261.88,
+          "h": 27276.18,
           "l": 27121.66,
-          "c": 27256.92
+          "c": 27240.24
         }
       ],
       "spark": [
@@ -2044,7 +2044,9 @@
         27252.49,
         27250.39,
         27261.88,
-        27256.92
+        27271.04,
+        27246.34,
+        27240.24
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2068,13 +2070,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7806.78,
-      "change_pct": -0.01,
+      "point": 7799.58,
+      "change_pct": -0.1,
       "candle": {
         "o": 7795.27,
         "h": 7814.15,
         "l": 7795.27,
-        "c": 7806.78
+        "c": 7799.58
       },
       "range_240d": {
         "low": 6343.72,
@@ -4098,7 +4100,7 @@
           "o": 7795.27,
           "h": 7814.15,
           "l": 7795.27,
-          "c": 7806.78
+          "c": 7799.58
         }
       ],
       "spark": [
@@ -4109,7 +4111,9 @@
         7810.57,
         7810.93,
         7808.81,
-        7806.78
+        7802.63,
+        7798.96,
+        7799.58
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4133,13 +4137,13 @@
     },
     {
       "name": "DOW",
-      "point": 51891.54,
-      "change_pct": 0.08,
+      "point": 51765.24,
+      "change_pct": -0.16,
       "candle": {
         "o": 52092.99,
         "h": 52317.32,
-        "l": 51887.6,
-        "c": 51891.54
+        "l": 51738.44,
+        "c": 51765.24
       },
       "range_240d": {
         "low": 45166.64,
@@ -6162,8 +6166,8 @@
           "date": "2026-10-13",
           "o": 52092.99,
           "h": 52317.32,
-          "l": 51887.6,
-          "c": 51891.54
+          "l": 51738.44,
+          "c": 51765.24
         }
       ],
       "spark": [
@@ -6174,7 +6178,9 @@
         52006.16,
         51960.13,
         51902.42,
-        51891.54
+        51785.36,
+        51744.78,
+        51765.24
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6199,6 +6205,13 @@
   ],
   "news_chips": [
     {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/housing/home-sales-rose-in-september-for-the-first-time-since-spring-32a7d980?mod=rss_socialeconomyfeed",
+      "published_ts": 1791900000.0,
+      "impact_high": true
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html",
@@ -6221,9 +6234,9 @@
     },
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026101398637",
-      "published_ts": 1791895741.0,
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/investing/higher-rates-are-coming-for-private-equityand-smaller-firms-are-already-hurting-754ada6c?mod=rss_markets_main",
+      "published_ts": 1791900000.0,
       "impact_high": false
     },
     {
@@ -6255,13 +6268,6 @@
       "impact_high": false
     },
     {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026101394911",
-      "published_ts": 1791879994.0,
-      "impact_high": false
-    },
-    {
       "summary": "미국 고용 지표가 경기 둔화와 임금 압력 해석을 동시에 키우는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/07/ice-raids-local-economies.html",
@@ -6269,20 +6275,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "280a8164be19c623666988a53b1a5e7ae7039ca93a96a6f6300d0624fa986305",
+  "_article_sig": "a1c8a254455280b3636e4b4480a46dd60b10bc246b3b35fcd4ef63fb245f8ae3",
   "built_at_kst": "2026-10-13T07:00:38.120509+09:00",
   "futures": {
-    "as_of_kst": "2026-10-13T23:00:25.281025+09:00",
+    "as_of_kst": "2026-10-13T23:10:09.340346+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7857.25,
-        "change_pct": -0.01,
+        "point": 7856.25,
+        "change_pct": -0.02,
         "spark": [
           7855.5,
-          7850.0,
           7848.5,
           7848.0,
           7850.25,
@@ -6321,21 +6326,22 @@
           7859.5,
           7859.25,
           7860.25,
-          7857.25
+          7856.0,
+          7856.25
         ],
         "candle": {
           "o": 7855.5,
           "h": 7864.0,
           "l": 7836.0,
-          "c": 7857.5
+          "c": 7855.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 23.0,
-          "high_change_pct": -0.21
+          "low_change_pct": 22.97,
+          "high_change_pct": -0.23
         },
         "daily_expanded": [
           {
@@ -8351,8 +8357,8 @@
             "o": 7855.5,
             "h": 7864.0,
             "l": 7836.0,
-            "c": 7857.5,
-            "v": 342295
+            "c": 7855.5,
+            "v": 375148
           }
         ],
         "rollover_gaps": [],
@@ -8377,12 +8383,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30780.25,
-        "change_pct": -0.38,
+        "point": 30791.0,
+        "change_pct": -0.35,
         "spark": [
           30876.0,
-          30720.0,
-          30722.25,
           30716.0,
           30719.75,
           30693.25,
@@ -8420,21 +8424,23 @@
           30774.5,
           30792.25,
           30793.25,
-          30780.25
+          30792.0,
+          30804.5,
+          30791.0
         ],
         "candle": {
           "o": 30876.0,
           "h": 30906.0,
           "l": 30591.25,
-          "c": 30779.0
+          "c": 30790.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 33.01,
-          "high_change_pct": -2.24
+          "low_change_pct": 33.06,
+          "high_change_pct": -2.2
         },
         "daily_expanded": [
           {
@@ -10450,8 +10456,8 @@
             "o": 30876.0,
             "h": 30906.0,
             "l": 30591.25,
-            "c": 30779.0,
-            "v": 221284
+            "c": 30790.0,
+            "v": 235933
           }
         ],
         "rollover_gaps": [],
@@ -10459,16 +10465,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/housing/home-sales-rose-in-september-for-the-first-time-since-spring-32a7d980?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/europe/u-k-spy-agency-confronts-escalating-hybrid-war-with-russia-and-iran-4c54f9ab?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-middle-east-risks-russian-diesel-supplies-53840a01?mod=rss_worldnews"
             }
           ]
         }
@@ -10476,12 +10482,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52268.0,
-        "change_pct": 0.3,
+        "point": 52133.0,
+        "change_pct": 0.04,
         "spark": [
           52111.0,
-          52270.0,
-          52184.0,
           52202.0,
           52213.0,
           52172.0,
@@ -10519,21 +10523,23 @@
           52297.0,
           52264.0,
           52222.0,
-          52268.0
+          52145.0,
+          52044.0,
+          52133.0
         ],
         "candle": {
           "o": 52111.0,
           "h": 52612.0,
           "l": 52095.0,
-          "c": 52268.0
+          "c": 52133.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.07,
-          "high_change_pct": -4.08
+          "low_change_pct": 14.77,
+          "high_change_pct": -4.33
         },
         "daily_expanded": [
           {
@@ -12549,8 +12555,8 @@
             "o": 52111.0,
             "h": 52612.0,
             "l": 52095.0,
-            "c": 52268.0,
-            "v": 66140
+            "c": 52133.0,
+            "v": 70029
           }
         ],
         "rollover_gaps": [],
@@ -12575,11 +12581,15 @@
     ]
   },
   "regular_open": true,
-  "intraday_refreshed_kst": "2026-10-13T23:00:39.231107+09:00",
+  "intraday_refreshed_kst": "2026-10-13T23:10:28.359822+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/housing/home-sales-rose-in-september-for-the-first-time-since-spring-32a7d980?mod=rss_socialeconomyfeed"
+        },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html"
@@ -12587,10 +12597,6 @@
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/europe/u-k-spy-agency-confronts-escalating-hybrid-war-with-russia-and-iran-4c54f9ab?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-middle-east-risks-russian-diesel-supplies-53840a01?mod=rss_worldnews"
         }
       ]
     },
