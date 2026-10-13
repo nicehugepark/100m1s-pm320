@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-yields-fall-as-markets-look-to-u-s-inflation-data-412d95a4?mod=rss_socialeconomyfeed",
+      "published_ts": 1791890880.0,
+      "impact_high": true
+    },
+    {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/the-nobel-prize-message-for-kevin-warsh-7bc52c63?mod=rss_socialeconomyfeed",
@@ -6281,17 +6288,10 @@
       "impact_high": true
     },
     {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-yields-fall-as-markets-look-to-u-s-inflation-data-412d95a4?mod=rss_socialeconomyfeed",
-      "published_ts": 1791882660.0,
-      "impact_high": true
-    },
-    {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026101394207",
-      "published_ts": 1791889656.0,
+      "source": "WSJ",
+      "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-trumps-diesel-deal-with-russia-faces-questions-from-lawmakers-on-legality-8394b1c2?mod=rss_markets_main",
+      "published_ts": 1791891000.0,
       "impact_high": false
     },
     {
@@ -6344,21 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "4f0a2ae3da308eea70f9a4729cf439f274022db92124c63f2382378040d645ed",
+  "_article_sig": "340951d13bf9330c69c2c5622af61b37bbc6df52c82a681433283ffc10d9fccd",
   "built_at_kst": "2026-10-13T07:00:38.120509+09:00",
   "futures": {
-    "as_of_kst": "2026-10-13T20:30:17.468813+09:00",
+    "as_of_kst": "2026-10-13T20:40:08.878875+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7853.0,
-        "change_pct": -0.06,
+        "point": 7852.0,
+        "change_pct": -0.08,
         "spark": [
           7855.5,
-          7854.75,
-          7857.25,
           7856.75,
           7857.0,
           7859.5,
@@ -6396,21 +6394,23 @@
           7851.25,
           7851.75,
           7848.5,
-          7853.0
+          7853.0,
+          7852.25,
+          7852.0
         ],
         "candle": {
           "o": 7855.5,
           "h": 7864.0,
           "l": 7836.0,
-          "c": 7848.5
+          "c": 7852.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 22.86,
-          "high_change_pct": -0.32
+          "low_change_pct": 22.92,
+          "high_change_pct": -0.28
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7855.5,
             "h": 7864.0,
             "l": 7836.0,
-            "c": 7848.5,
-            "v": 184508
+            "c": 7852.25,
+            "v": 189308
           }
         ],
         "rollover_gaps": [],
@@ -8436,15 +8436,15 @@
           "sources": [
             {
               "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-yields-fall-as-markets-look-to-u-s-inflation-data-412d95a4?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/the-nobel-prize-message-for-kevin-warsh-7bc52c63?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/chinas-young-people-are-losing-faith-in-the-promise-of-hard-work-861a2f39?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/gulf-hurricane-not-big-enough-to-reset-insurance-market-024deafa?mod=rss_markets_main"
             }
           ]
         }
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30655.25,
-        "change_pct": -0.79,
+        "point": 30679.5,
+        "change_pct": -0.71,
         "spark": [
           30876.0,
-          30733.0,
-          30732.0,
           30741.5,
           30757.25,
           30750.5,
@@ -8495,21 +8493,23 @@
           30685.75,
           30658.0,
           30677.25,
-          30655.25
+          30680.75,
+          30675.5,
+          30679.5
         ],
         "candle": {
           "o": 30876.0,
           "h": 30906.0,
           "l": 30604.75,
-          "c": 30659.0
+          "c": 30677.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 32.49,
-          "high_change_pct": -2.62
+          "low_change_pct": 32.58,
+          "high_change_pct": -2.56
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 30876.0,
             "h": 30906.0,
             "l": 30604.75,
-            "c": 30659.0,
-            "v": 126602
+            "c": 30677.75,
+            "v": 128718
           }
         ],
         "rollover_gaps": [],
@@ -10535,15 +10535,15 @@
           "sources": [
             {
               "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-yields-fall-as-markets-look-to-u-s-inflation-data-412d95a4?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/the-nobel-prize-message-for-kevin-warsh-7bc52c63?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/chinas-young-people-are-losing-faith-in-the-promise-of-hard-work-861a2f39?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-yields-fall-as-markets-look-to-u-s-inflation-data-412d95a4?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52311.0,
-        "change_pct": 0.39,
+        "point": 52410.0,
+        "change_pct": 0.58,
         "spark": [
           52111.0,
-          52478.0,
-          52438.0,
           52412.0,
           52423.0,
           52420.0,
@@ -10594,21 +10592,23 @@
           52311.0,
           52317.0,
           52429.0,
-          52311.0
+          52409.0,
+          52466.0,
+          52410.0
         ],
         "candle": {
           "o": 52111.0,
           "h": 52563.0,
           "l": 52095.0,
-          "c": 52309.0
+          "c": 52410.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.16,
-          "high_change_pct": -4.01
+          "low_change_pct": 15.38,
+          "high_change_pct": -3.82
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 52111.0,
             "h": 52563.0,
             "l": 52095.0,
-            "c": 52309.0,
-            "v": 33157
+            "c": 52410.0,
+            "v": 37191
           }
         ],
         "rollover_gaps": [],
@@ -12650,11 +12650,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-10-13T20:30:30.063392+09:00",
+  "intraday_refreshed_kst": "2026-10-13T20:40:26.769207+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-yields-fall-as-markets-look-to-u-s-inflation-data-412d95a4?mod=rss_socialeconomyfeed"
+        },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/the-nobel-prize-message-for-kevin-warsh-7bc52c63?mod=rss_socialeconomyfeed"
@@ -12662,10 +12666,6 @@
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/chinas-young-people-are-losing-faith-in-the-promise-of-hard-work-861a2f39?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-yields-fall-as-markets-look-to-u-s-inflation-data-412d95a4?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12674,15 +12674,15 @@
       "sources": [
         {
           "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-yields-fall-as-markets-look-to-u-s-inflation-data-412d95a4?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/the-nobel-prize-message-for-kevin-warsh-7bc52c63?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/chinas-young-people-are-losing-faith-in-the-promise-of-hard-work-861a2f39?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/gulf-hurricane-not-big-enough-to-reset-insurance-market-024deafa?mod=rss_markets_main"
         }
       ]
     },
