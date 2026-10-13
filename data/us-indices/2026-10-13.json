@@ -6289,9 +6289,16 @@
     },
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-trumps-diesel-deal-with-russia-faces-questions-from-lawmakers-on-legality-8394b1c2?mod=rss_markets_main",
-      "published_ts": 1791891000.0,
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/2026101398317",
+      "published_ts": 1791893911.0,
+      "impact_high": false
+    },
+    {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-middle-east-risks-russian-diesel-supplies-53840a01?mod=rss_worldnews",
+      "published_ts": 1791893340.0,
       "impact_high": false
     },
     {
@@ -6306,13 +6313,6 @@
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/investing/this-investing-strategy-is-so-good-you-cant-handle-it-66a2fb16?mod=rss_markets_main",
       "published_ts": 1791887700.0,
-      "impact_high": false
-    },
-    {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/chinas-young-people-are-losing-faith-in-the-promise-of-hard-work-861a2f39?mod=rss_worldnews",
-      "published_ts": 1791885120.0,
       "impact_high": false
     },
     {
@@ -6344,21 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "340951d13bf9330c69c2c5622af61b37bbc6df52c82a681433283ffc10d9fccd",
+  "_article_sig": "7b28e6a33471270d14d8cfe96849b7234c3e3f2b5f96927e5271b83ee6fe5eb5",
   "built_at_kst": "2026-10-13T07:00:38.120509+09:00",
   "futures": {
-    "as_of_kst": "2026-10-13T21:20:09.648671+09:00",
+    "as_of_kst": "2026-10-13T21:30:13.060875+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7851.25,
+        "point": 7851.0,
         "change_pct": -0.09,
         "spark": [
           7855.5,
-          7857.5,
-          7857.5,
           7858.75,
           7859.25,
           7859.5,
@@ -6396,13 +6394,15 @@
           7849.75,
           7850.0,
           7851.0,
-          7851.25
+          7851.0,
+          7851.0,
+          7851.0
         ],
         "candle": {
           "o": 7855.5,
           "h": 7864.0,
           "l": 7836.0,
-          "c": 7851.25
+          "c": 7851.0
         },
         "range_240d": {
           "low": 6388.25,
@@ -8426,8 +8426,8 @@
             "o": 7855.5,
             "h": 7864.0,
             "l": 7836.0,
-            "c": 7851.25,
-            "v": 202338
+            "c": 7851.0,
+            "v": 205909
           }
         ],
         "rollover_gaps": [],
@@ -8435,16 +8435,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-middle-east-risks-russian-diesel-supplies-53840a01?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-yields-fall-as-markets-look-to-u-s-inflation-data-412d95a4?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/the-nobel-prize-message-for-kevin-warsh-7bc52c63?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/chinas-young-people-are-losing-faith-in-the-promise-of-hard-work-861a2f39?mod=rss_worldnews"
             }
           ]
         }
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30669.5,
+        "point": 30668.25,
         "change_pct": -0.74,
         "spark": [
           30876.0,
-          30751.75,
-          30743.75,
           30768.25,
           30766.25,
           30765.25,
@@ -8495,21 +8493,23 @@
           30662.5,
           30671.75,
           30668.25,
-          30669.5
+          30673.75,
+          30669.0,
+          30668.25
         ],
         "candle": {
           "o": 30876.0,
           "h": 30906.0,
           "l": 30604.75,
-          "c": 30668.25
+          "c": 30671.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 32.53,
-          "high_change_pct": -2.59
+          "low_change_pct": 32.55,
+          "high_change_pct": -2.58
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 30876.0,
             "h": 30906.0,
             "l": 30604.75,
-            "c": 30668.25,
-            "v": 134757
+            "c": 30671.25,
+            "v": 136261
           }
         ],
         "rollover_gaps": [],
@@ -10534,16 +10534,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-middle-east-risks-russian-diesel-supplies-53840a01?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-yields-fall-as-markets-look-to-u-s-inflation-data-412d95a4?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/the-nobel-prize-message-for-kevin-warsh-7bc52c63?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/chinas-young-people-are-losing-faith-in-the-promise-of-hard-work-861a2f39?mod=rss_worldnews"
             }
           ]
         }
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52549.0,
-        "change_pct": 0.84,
+        "point": 52505.0,
+        "change_pct": 0.76,
         "spark": [
           52111.0,
-          52375.0,
-          52357.0,
           52388.0,
           52384.0,
           52380.0,
@@ -10594,21 +10592,23 @@
           52471.0,
           52545.0,
           52529.0,
-          52549.0
+          52516.0,
+          52519.0,
+          52505.0
         ],
         "candle": {
           "o": 52111.0,
           "h": 52563.0,
           "l": 52095.0,
-          "c": 52546.0
+          "c": 52505.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.68,
-          "high_change_pct": -3.57
+          "low_change_pct": 15.59,
+          "high_change_pct": -3.65
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 52111.0,
             "h": 52563.0,
             "l": 52095.0,
-            "c": 52546.0,
-            "v": 41346
+            "c": 52505.0,
+            "v": 42295
           }
         ],
         "rollover_gaps": [],
@@ -12633,16 +12633,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-middle-east-risks-russian-diesel-supplies-53840a01?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/this-investing-strategy-is-so-good-you-cant-handle-it-66a2fb16?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/seeking-less-harmful-alternatives-to-central-bank-rate-rises-30850b1c?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-bank-earnings-10-13-2026?mod=rss_markets_main"
             }
           ]
         }
@@ -12650,11 +12650,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-10-13T21:20:21.786308+09:00",
+  "intraday_refreshed_kst": "2026-10-13T21:30:35.199363+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-middle-east-risks-russian-diesel-supplies-53840a01?mod=rss_worldnews"
+        },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-yields-fall-as-markets-look-to-u-s-inflation-data-412d95a4?mod=rss_socialeconomyfeed"
@@ -12662,10 +12666,6 @@
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/the-nobel-prize-message-for-kevin-warsh-7bc52c63?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/chinas-young-people-are-losing-faith-in-the-promise-of-hard-work-861a2f39?mod=rss_worldnews"
         }
       ]
     },
@@ -12673,16 +12673,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-middle-east-risks-russian-diesel-supplies-53840a01?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-yields-fall-as-markets-look-to-u-s-inflation-data-412d95a4?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/the-nobel-prize-message-for-kevin-warsh-7bc52c63?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/chinas-young-people-are-losing-faith-in-the-promise-of-hard-work-861a2f39?mod=rss_worldnews"
         }
       ]
     },
@@ -12690,16 +12690,16 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-middle-east-risks-russian-diesel-supplies-53840a01?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/this-investing-strategy-is-so-good-you-cant-handle-it-66a2fb16?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/seeking-less-harmful-alternatives-to-central-bank-rate-rises-30850b1c?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-bank-earnings-10-13-2026?mod=rss_markets_main"
         }
       ]
     }
