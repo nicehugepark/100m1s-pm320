@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 27171.32,
+      "point": 27172.19,
       "change_pct": -0.27,
       "candle": {
         "o": 27144.87,
         "h": 27276.18,
         "l": 27121.66,
-        "c": 27171.32
+        "c": 27172.19
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,13 +2033,11 @@
           "o": 27144.87,
           "h": 27276.18,
           "l": 27121.66,
-          "c": 27171.32
+          "c": 27172.19
         }
       ],
       "spark": [
         27144.87,
-        27225.51,
-        27204.84,
         27176.24,
         27182.65,
         27189.14,
@@ -2076,8 +2074,10 @@
         27193.23,
         27197.28,
         27187.27,
+        27169.02,
         27174.42,
-        27171.32
+        27170.85,
+        27172.19
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7795.22,
-      "change_pct": -0.15,
+      "point": 7796.38,
+      "change_pct": -0.14,
       "candle": {
         "o": 7795.27,
         "h": 7814.15,
         "l": 7786.11,
-        "c": 7795.22
+        "c": 7796.38
       },
       "range_240d": {
         "low": 6343.72,
@@ -4131,13 +4131,11 @@
           "o": 7795.27,
           "h": 7814.15,
           "l": 7786.11,
-          "c": 7795.22
+          "c": 7796.38
         }
       ],
       "spark": [
         7795.27,
-        7803.53,
-        7800.71,
         7796.83,
         7796.06,
         7797.96,
@@ -4174,8 +4172,10 @@
         7801.43,
         7801.86,
         7798.18,
-        7795.32,
-        7795.22
+        7794.82,
+        7796.21,
+        7796.02,
+        7796.38
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 51607.96,
+      "point": 51609.08,
       "change_pct": -0.47,
       "candle": {
         "o": 52092.99,
         "h": 52317.32,
-        "l": 51595.88,
-        "c": 51607.96
+        "l": 51587.67,
+        "c": 51609.08
       },
       "range_240d": {
         "low": 45166.64,
@@ -6228,14 +6228,12 @@
           "date": "2026-10-13",
           "o": 52092.99,
           "h": 52317.32,
-          "l": 51595.88,
-          "c": 51607.96
+          "l": 51587.67,
+          "c": 51609.08
         }
       ],
       "spark": [
         52092.99,
-        51840.94,
-        51843.0,
         51844.54,
         51788.35,
         51797.96,
@@ -6272,8 +6270,10 @@
         51669.89,
         51652.33,
         51614.74,
-        51602.8,
-        51607.96
+        51598.24,
+        51597.46,
+        51608.54,
+        51609.08
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6298,6 +6298,13 @@
   ],
   "news_chips": [
     {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/banking/rising-interest-rates-threaten-to-spoil-the-party-for-big-banks-0ef3e7c0?mod=rss_markets_main",
+      "published_ts": 1791913860.0,
+      "impact_high": true
+    },
+    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-yields-fall-as-markets-look-to-u-s-inflation-data-412d95a4?mod=rss_socialeconomyfeed",
@@ -6312,10 +6319,17 @@
       "impact_high": true
     },
     {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/asia/while-trump-floats-a-kim-meeting-north-korea-flaunts-its-u-s-range-missiles-840ea74b?mod=rss_worldnews",
-      "published_ts": 1791908940.0,
+      "url": "https://www.wsj.com/tech/u-s-defense-startups-flock-to-taiwan-to-build-china-free-drones-5c871c94?mod=rss_worldnews",
+      "published_ts": 1791914400.0,
+      "impact_high": false
+    },
+    {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/investing/higher-rates-are-coming-for-private-equityand-smaller-firms-are-already-hurting-754ada6c?mod=rss_markets_main",
+      "published_ts": 1791912600.0,
       "impact_high": false
     },
     {
@@ -6326,24 +6340,10 @@
       "impact_high": false
     },
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/europe/drone-attacks-on-ships-sailing-near-nato-waters-present-fresh-test-for-the-alliance-e36c333d?mod=rss_worldnews",
-      "published_ts": 1791904740.0,
-      "impact_high": false
-    },
-    {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/investing/for-stocks-the-future-aint-what-it-used-to-be-5b210467?mod=rss_markets_main",
       "published_ts": 1791903300.0,
-      "impact_high": false
-    },
-    {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/china/a-demographic-mirage-may-be-distorting-chinas-economic-ambitions-adf0bc92?mod=rss_worldnews",
-      "published_ts": 1791888900.0,
       "impact_high": false
     },
     {
@@ -6368,7 +6368,7 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "cd0c9ebaee05f055e4156475e01fa47b7d08d386f84a910127ee2e866914ec7d",
+  "_article_sig": "4d3f0829fc1ac5534c58ebb38e4e4d7f759a3daee54648c10b60e9933bf2341d",
   "built_at_kst": "2026-10-13T07:00:38.120509+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6377,15 +6377,15 @@
       "sources": [
         {
           "name": "WSJ세계",
+          "url": "https://www.wsj.com/tech/u-s-defense-startups-flock-to-taiwan-to-build-china-free-drones-5c871c94?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ세계",
           "url": "https://www.wsj.com/world/europe/drone-attacks-on-ships-sailing-near-nato-waters-present-fresh-test-for-the-alliance-e36c333d?mod=rss_worldnews"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/for-stocks-the-future-aint-what-it-used-to-be-5b210467?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/housing/home-sales-rose-in-september-for-the-first-time-since-spring-32a7d980?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -6394,15 +6394,15 @@
       "sources": [
         {
           "name": "WSJ",
+          "url": "https://www.wsj.com/finance/banking/rising-interest-rates-threaten-to-spoil-the-party-for-big-banks-0ef3e7c0?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
           "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-51c2b458?mod=rss_markets_main"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/europe/drone-attacks-on-ships-sailing-near-nato-waters-present-fresh-test-for-the-alliance-e36c333d?mod=rss_worldnews"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html"
         }
       ]
     },
@@ -6411,32 +6411,30 @@
       "sources": [
         {
           "name": "WSJ",
+          "url": "https://www.wsj.com/finance/banking/rising-interest-rates-threaten-to-spoil-the-party-for-big-banks-0ef3e7c0?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
           "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-51c2b458?mod=rss_markets_main"
         },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/jpmorgan-goldman-profit-jumps-as-banks-kick-off-earnings-3e78b37d?mod=rss_markets_main"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-10-14T02:51:15.416541+09:00",
+    "as_of_kst": "2026-10-14T03:01:33.520299+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7849.5,
-        "change_pct": -0.11,
+        "point": 7845.5,
+        "change_pct": -0.16,
         "spark": [
           7855.5,
-          7846.5,
-          7850.25,
           7852.0,
           7849.0,
           7845.0,
@@ -6474,21 +6472,23 @@
           7846.5,
           7849.5,
           7850.0,
-          7849.5
+          7846.5,
+          7843.25,
+          7845.5
         ],
         "candle": {
           "o": 7855.5,
           "h": 7864.0,
           "l": 7834.5,
-          "c": 7849.5
+          "c": 7845.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 22.87,
-          "high_change_pct": -0.31
+          "low_change_pct": 22.81,
+          "high_change_pct": -0.37
         },
         "daily_expanded": [
           {
@@ -8504,8 +8504,8 @@
             "o": 7855.5,
             "h": 7864.0,
             "l": 7834.5,
-            "c": 7849.5,
-            "v": 799103
+            "c": 7845.25,
+            "v": 813789
           }
         ],
         "rollover_gaps": [],
@@ -8514,15 +8514,15 @@
           "sources": [
             {
               "name": "WSJ",
+              "url": "https://www.wsj.com/finance/banking/rising-interest-rates-threaten-to-spoil-the-party-for-big-banks-0ef3e7c0?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
               "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-51c2b458?mod=rss_markets_main"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/europe/drone-attacks-on-ships-sailing-near-nato-waters-present-fresh-test-for-the-alliance-e36c333d?mod=rss_worldnews"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html"
             }
           ]
         }
@@ -8530,12 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30739.0,
-        "change_pct": -0.52,
+        "point": 30707.5,
+        "change_pct": -0.62,
         "spark": [
           30876.0,
-          30741.75,
-          30760.0,
           30767.5,
           30738.0,
           30696.5,
@@ -8573,21 +8571,23 @@
           30707.0,
           30739.5,
           30743.5,
-          30739.0
+          30725.75,
+          30707.25,
+          30707.5
         ],
         "candle": {
           "o": 30876.0,
           "h": 30906.0,
           "l": 30591.25,
-          "c": 30738.5
+          "c": 30709.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 32.84,
-          "high_change_pct": -2.37
+          "low_change_pct": 32.71,
+          "high_change_pct": -2.46
         },
         "daily_expanded": [
           {
@@ -10603,8 +10603,8 @@
             "o": 30876.0,
             "h": 30906.0,
             "l": 30591.25,
-            "c": 30738.5,
-            "v": 423286
+            "c": 30709.25,
+            "v": 429802
           }
         ],
         "rollover_gaps": [],
@@ -10613,15 +10613,15 @@
           "sources": [
             {
               "name": "WSJ세계",
+              "url": "https://www.wsj.com/tech/u-s-defense-startups-flock-to-taiwan-to-build-china-free-drones-5c871c94?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ세계",
               "url": "https://www.wsj.com/world/europe/drone-attacks-on-ships-sailing-near-nato-waters-present-fresh-test-for-the-alliance-e36c333d?mod=rss_worldnews"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/for-stocks-the-future-aint-what-it-used-to-be-5b210467?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/housing/home-sales-rose-in-september-for-the-first-time-since-spring-32a7d980?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10629,12 +10629,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51907.0,
-        "change_pct": -0.39,
+        "point": 51854.0,
+        "change_pct": -0.49,
         "spark": [
           52111.0,
-          52095.0,
-          52112.0,
           52090.0,
           52094.0,
           52095.0,
@@ -10672,21 +10670,23 @@
           51927.0,
           51916.0,
           51901.0,
-          51907.0
+          51858.0,
+          51847.0,
+          51854.0
         ],
         "candle": {
           "o": 52111.0,
           "h": 52612.0,
-          "l": 51873.0,
-          "c": 51905.0
+          "l": 51842.0,
+          "c": 51851.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 14.27,
-          "high_change_pct": -4.75
+          "low_change_pct": 14.15,
+          "high_change_pct": -4.85
         },
         "daily_expanded": [
           {
@@ -12701,9 +12701,9 @@
             "date": "2026-10-13",
             "o": 52111.0,
             "h": 52612.0,
-            "l": 51873.0,
-            "c": 51905.0,
-            "v": 107122
+            "l": 51842.0,
+            "c": 51851.0,
+            "v": 108529
           }
         ],
         "rollover_gaps": [],
@@ -12712,20 +12712,20 @@
           "sources": [
             {
               "name": "WSJ",
+              "url": "https://www.wsj.com/finance/banking/rising-interest-rates-threaten-to-spoil-the-party-for-big-banks-0ef3e7c0?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
               "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-51c2b458?mod=rss_markets_main"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/jpmorgan-goldman-profit-jumps-as-banks-kick-off-earnings-3e78b37d?mod=rss_markets_main"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-10-14T02:52:58.113848+09:00"
+  "intraday_refreshed_kst": "2026-10-14T03:03:24.900884+09:00"
 }
