@@ -6281,6 +6281,13 @@
       "impact_high": true
     },
     {
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/gulf-hurricane-not-big-enough-to-reset-insurance-market-024deafa?mod=rss_markets_main",
+      "published_ts": 1791883800.0,
+      "impact_high": false
+    },
+    {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/13/france-2027-budget-debt.html",
@@ -6323,13 +6330,6 @@
       "impact_high": false
     },
     {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/frenzied-stock-options-trading-shows-individual-investors-are-still-hungry-for-risk-89ed24e5?mod=rss_markets_main",
-      "published_ts": 1791840600.0,
-      "impact_high": false
-    },
-    {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html",
@@ -6344,21 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "e59043f68e99df87de845c7f37ff5134c8a9ca085ac9bce738ae127f1384fb86",
+  "_article_sig": "1ecb8b7a9d3fae5abced20f4fdcec145f5b6f4857b9fe90363847433ece81c85",
   "built_at_kst": "2026-10-13T07:00:38.120509+09:00",
   "futures": {
-    "as_of_kst": "2026-10-13T18:30:17.435504+09:00",
+    "as_of_kst": "2026-10-13T18:40:15.652323+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7859.25,
-        "change_pct": 0.02,
+        "point": 7860.0,
+        "change_pct": 0.03,
         "spark": [
           7855.5,
-          7846.75,
-          7848.5,
           7846.25,
           7848.25,
           7849.25,
@@ -6396,21 +6394,23 @@
           7858.75,
           7859.25,
           7859.5,
-          7859.25
+          7858.75,
+          7859.75,
+          7860.0
         ],
         "candle": {
           "o": 7855.5,
           "h": 7862.25,
           "l": 7836.0,
-          "c": 7859.5
+          "c": 7860.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 23.03,
-          "high_change_pct": -0.18
+          "low_change_pct": 23.04,
+          "high_change_pct": -0.17
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7855.5,
             "h": 7862.25,
             "l": 7836.0,
-            "c": 7859.5,
-            "v": 147230
+            "c": 7860.25,
+            "v": 149368
           }
         ],
         "rollover_gaps": [],
@@ -8435,16 +8435,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/gulf-hurricane-not-big-enough-to-reset-insurance-market-024deafa?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-yields-fall-as-markets-look-to-u-s-inflation-data-412d95a4?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/stock-market-today-bank-earnings-10-13-2026?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-middle-east-risks-russian-diesel-supplies-53840a01?mod=rss_worldnews"
             }
           ]
         }
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30765.0,
-        "change_pct": -0.43,
+        "point": 30767.5,
+        "change_pct": -0.42,
         "spark": [
           30876.0,
-          30649.0,
-          30641.0,
           30667.75,
           30669.0,
           30672.5,
@@ -8495,20 +8493,22 @@
           30766.25,
           30765.25,
           30754.75,
-          30765.0
+          30765.75,
+          30760.75,
+          30767.5
         ],
         "candle": {
           "o": 30876.0,
           "h": 30906.0,
           "l": 30604.75,
-          "c": 30765.0
+          "c": 30766.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 32.95,
+          "low_change_pct": 32.96,
           "high_change_pct": -2.28
         },
         "daily_expanded": [
@@ -10525,8 +10525,8 @@
             "o": 30876.0,
             "h": 30906.0,
             "l": 30604.75,
-            "c": 30765.0,
-            "v": 111860
+            "c": 30766.5,
+            "v": 112761
           }
         ],
         "rollover_gaps": [],
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52386.0,
+        "point": 52384.0,
         "change_pct": 0.53,
         "spark": [
           52111.0,
-          52290.0,
-          52275.0,
           52271.0,
           52287.0,
           52274.0,
@@ -10594,20 +10592,22 @@
           52388.0,
           52384.0,
           52380.0,
-          52386.0
+          52387.0,
+          52407.0,
+          52384.0
         ],
         "candle": {
           "o": 52111.0,
           "h": 52481.0,
           "l": 52095.0,
-          "c": 52386.0
+          "c": 52384.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.33,
+          "low_change_pct": 15.32,
           "high_change_pct": -3.87
         },
         "daily_expanded": [
@@ -12624,8 +12624,8 @@
             "o": 52111.0,
             "h": 52481.0,
             "l": 52095.0,
-            "c": 52386.0,
-            "v": 16576
+            "c": 52384.0,
+            "v": 16808
           }
         ],
         "rollover_gaps": [],
@@ -12650,7 +12650,7 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-10-13T18:30:31.039529+09:00",
+  "intraday_refreshed_kst": "2026-10-13T18:40:37.904717+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
@@ -12673,16 +12673,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/gulf-hurricane-not-big-enough-to-reset-insurance-market-024deafa?mod=rss_markets_main"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-yields-fall-as-markets-look-to-u-s-inflation-data-412d95a4?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/stock-market-today-bank-earnings-10-13-2026?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-middle-east-risks-russian-diesel-supplies-53840a01?mod=rss_worldnews"
         }
       ]
     },
