@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/firmus-ipo-ai-trade-f490c240?mod=rss_markets_main",
+      "published_ts": 1791939600.0,
+      "impact_high": true
+    },
+    {
       "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/regulation/bank-of-america-to-pay-1-21-billion-to-settle-violations-of-money-laundering-sanctions-laws-203b5fdf?mod=rss_markets_main",
@@ -6304,8 +6311,8 @@
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "한경국제",
-      "url": "https://www.hankyung.com/article/202610140216i",
-      "published_ts": 1791938127.0,
+      "url": "https://www.hankyung.com/article/2026101407517",
+      "published_ts": 1791939622.0,
       "impact_high": false
     },
     {
@@ -6323,13 +6330,6 @@
       "impact_high": false
     },
     {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/tech/u-s-defense-startups-flock-to-taiwan-to-build-china-free-drones-5c871c94?mod=rss_worldnews",
-      "published_ts": 1791914400.0,
-      "impact_high": false
-    },
-    {
       "summary": "미국 고용 지표가 경기 둔화와 임금 압력 해석을 동시에 키우는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/07/ice-raids-local-economies.html",
@@ -6337,7 +6337,7 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "3061cf053eb9d6f6d3737d5b55ba03aace374694a41428363fe567a0d9b15bef",
+  "_article_sig": "5493063053a210ac0da404266a20ba5ffbc0e2ce8e79baff69e5ff3577942eee",
   "built_at_kst": "2026-10-14T07:06:59.406089+09:00",
   "regular_open": false,
   "_futures_news": {
@@ -6345,16 +6345,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/firmus-ipo-ai-trade-f490c240?mod=rss_markets_main"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/singapore-central-bank-unexpectedly-holds-policy-steady-c9779b4d?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/americas/cocaine-trade-is-booming-despite-airstrikes-72ec0826?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/one-more-u-s-interest-rate-increase-may-be-appropriate-feds-williams-says-a5a7a1df?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -6393,9 +6393,9 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-10-14T10:00:48.204068+09:00",
+  "intraday_refreshed_kst": "2026-10-14T10:10:49.676559+09:00",
   "futures": {
-    "as_of_kst": "2026-10-14T10:00:27.880847+09:00",
+    "as_of_kst": "2026-10-14T10:10:27.812786+09:00",
     "session_open": true,
     "futures": [
       {
@@ -6405,8 +6405,6 @@
         "change_pct": 0.03,
         "spark": [
           7856.25,
-          7855.0,
-          7855.25,
           7856.25,
           7855.5,
           7856.0,
@@ -6443,6 +6441,8 @@
           7861.75,
           7860.5,
           7859.0,
+          7859.0,
+          7858.75,
           7858.5,
           7858.25
         ],
@@ -8475,7 +8475,7 @@
             "h": 7862.25,
             "l": 7848.75,
             "c": 7858.25,
-            "v": 19930
+            "v": 21225
           }
         ],
         "rollover_gaps": [],
@@ -8500,12 +8500,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30812.5,
+        "point": 30814.0,
         "change_pct": 0.07,
         "spark": [
           30791.5,
-          30774.0,
-          30781.0,
           30782.5,
           30782.0,
           30790.75,
@@ -8542,14 +8540,16 @@
           30844.25,
           30830.25,
           30822.0,
-          30810.25,
-          30812.5
+          30821.0,
+          30811.5,
+          30815.25,
+          30814.0
         ],
         "candle": {
           "o": 30791.5,
           "h": 30849.5,
           "l": 30744.5,
-          "c": 30814.0
+          "c": 30812.0
         },
         "range_240d": {
           "low": 23139.75,
@@ -10573,8 +10573,8 @@
             "o": 30791.5,
             "h": 30849.5,
             "l": 30744.5,
-            "c": 30814.0,
-            "v": 22069
+            "c": 30812.0,
+            "v": 23268
           }
         ],
         "rollover_gaps": [],
@@ -10582,16 +10582,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/firmus-ipo-ai-trade-f490c240?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/singapore-central-bank-unexpectedly-holds-policy-steady-c9779b4d?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/americas/cocaine-trade-is-booming-despite-airstrikes-72ec0826?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/one-more-u-s-interest-rate-increase-may-be-appropriate-feds-williams-says-a5a7a1df?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10599,12 +10599,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51908.0,
+        "point": 51907.0,
         "change_pct": -0.05,
         "spark": [
           51933.0,
-          51928.0,
-          51914.0,
           51923.0,
           51922.0,
           51928.0,
@@ -10642,13 +10640,15 @@
           51923.0,
           51910.0,
           51911.0,
-          51908.0
+          51916.0,
+          51910.0,
+          51907.0
         ],
         "candle": {
           "o": 51933.0,
           "h": 51948.0,
           "l": 51873.0,
-          "c": 51908.0
+          "c": 51904.0
         },
         "range_240d": {
           "low": 45424.0,
@@ -12672,8 +12672,8 @@
             "o": 51933.0,
             "h": 51948.0,
             "l": 51873.0,
-            "c": 51908.0,
-            "v": 1732
+            "c": 51904.0,
+            "v": 1816
           }
         ],
         "rollover_gaps": [],
