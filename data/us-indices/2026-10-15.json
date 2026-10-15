@@ -6291,7 +6291,7 @@
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/15/september-producer-price-index-retail-sales-data.html",
-      "published_ts": 1792068915.0,
+      "published_ts": 1792069678.0,
       "impact_high": false
     },
     {
@@ -6344,21 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "c0d71feabe677a8bd309ec076b84fa26a9c042f2e907f4bb4e8151c3f87944f7",
+  "_article_sig": "d506d157003550bbcb57f8aa88ce15a9abd1029342f80437d9cab68275d4d42e",
   "built_at_kst": "2026-10-15T07:00:42.813120+09:00",
   "futures": {
-    "as_of_kst": "2026-10-15T22:00:15.859823+09:00",
+    "as_of_kst": "2026-10-15T22:10:11.043940+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7746.0,
-        "change_pct": -0.31,
+        "point": 7745.25,
+        "change_pct": -0.32,
         "spark": [
           7768.25,
-          7749.75,
-          7747.75,
           7748.0,
           7748.25,
           7743.75,
@@ -6396,13 +6394,15 @@
           7746.5,
           7746.0,
           7745.25,
-          7746.0
+          7745.5,
+          7744.25,
+          7745.25
         ],
         "candle": {
           "o": 7768.25,
           "h": 7769.5,
           "l": 7728.75,
-          "c": 7745.75
+          "c": 7746.0
         },
         "range_240d": {
           "low": 6388.25,
@@ -8426,8 +8426,8 @@
             "o": 7768.25,
             "h": 7769.5,
             "l": 7728.75,
-            "c": 7745.75,
-            "v": 330486
+            "c": 7746.0,
+            "v": 338562
           }
         ],
         "rollover_gaps": [],
@@ -8435,16 +8435,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/wholesale-inflation-hit-4-year-high-in-september-e1754eee?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/2026101550607"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/voters-cant-be-bought-but-politicians-keep-trying-229720c7?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8452,11 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29803.25,
-        "change_pct": -1.26,
+        "point": 29795.0,
+        "change_pct": -1.28,
         "spark": [
           30154.75,
-          29848.0,
           29839.5,
           29846.25,
           29850.5,
@@ -8495,21 +8494,22 @@
           29814.5,
           29800.25,
           29796.0,
-          29803.25
+          29790.0,
+          29795.0
         ],
         "candle": {
           "o": 30154.75,
           "h": 30158.5,
           "l": 29711.0,
-          "c": 29802.75
+          "c": 29797.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 28.79,
-          "high_change_pct": -5.34
+          "low_change_pct": 28.77,
+          "high_change_pct": -5.35
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 30154.75,
             "h": 30158.5,
             "l": 29711.0,
-            "c": 29802.75,
-            "v": 219490
+            "c": 29797.75,
+            "v": 224593
           }
         ],
         "rollover_gaps": [],
@@ -10534,12 +10534,12 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/u-s-retail-sales-expanded-in-september-f1d83384?mod=rss_socialeconomyfeed"
-            },
-            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/10/15/september-producer-price-index-retail-sales-data.html"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/u-s-retail-sales-expanded-in-september-f1d83384?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ경제",
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52084.0,
-        "change_pct": 0.44,
+        "point": 52107.0,
+        "change_pct": 0.48,
         "spark": [
           51859.0,
-          52043.0,
-          52027.0,
           52005.0,
           52017.0,
           51984.0,
@@ -10594,21 +10592,23 @@
           52046.0,
           52079.0,
           52078.0,
-          52084.0
+          52103.0,
+          52057.0,
+          52107.0
         ],
         "candle": {
           "o": 51859.0,
-          "h": 52118.0,
+          "h": 52126.0,
           "l": 51783.0,
-          "c": 52084.0
+          "c": 52107.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 14.66,
-          "high_change_pct": -4.42
+          "low_change_pct": 14.71,
+          "high_change_pct": -4.38
         },
         "daily_expanded": [
           {
@@ -12622,10 +12622,10 @@
           {
             "date": "2026-10-15",
             "o": 51859.0,
-            "h": 52118.0,
+            "h": 52126.0,
             "l": 51783.0,
-            "c": 52084.0,
-            "v": 28206
+            "c": 52107.0,
+            "v": 29150
           }
         ],
         "rollover_gaps": [],
@@ -12650,18 +12650,18 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-10-15T22:00:38.759940+09:00",
+  "intraday_refreshed_kst": "2026-10-15T22:10:33.837777+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/u-s-retail-sales-expanded-in-september-f1d83384?mod=rss_socialeconomyfeed"
-        },
-        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/10/15/september-producer-price-index-retail-sales-data.html"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/u-s-retail-sales-expanded-in-september-f1d83384?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ경제",
@@ -12673,16 +12673,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/wholesale-inflation-hit-4-year-high-in-september-e1754eee?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/2026101550607"
         },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/voters-cant-be-bought-but-politicians-keep-trying-229720c7?mod=rss_socialeconomyfeed"
         }
       ]
     },
