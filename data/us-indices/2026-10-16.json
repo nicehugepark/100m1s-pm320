@@ -2088,7 +2088,8 @@
             "url": "https://www.wsj.com/finance/investing/university-endowments-land-biggest-returns-since-2021-on-spacex-ai-gains-e315c0e4?mod=rss_markets_main"
           }
         ]
-      }
+      },
+      "session_open": false
     },
     {
       "name": "S&P500",
@@ -4177,7 +4178,8 @@
             "url": "https://www.wsj.com/finance/stocks/investors-seek-safety-in-a-rocky-market-4d1e17e5?mod=rss_markets_main"
           }
         ]
-      }
+      },
+      "session_open": false
     },
     {
       "name": "DOW",
@@ -6266,7 +6268,8 @@
             "url": "https://www.wsj.com/world/ukraine-strikes-russian-refinery-after-moscow-breaks-trumps-energy-ceasefire-35b3ee40?mod=rss_worldnews"
           }
         ]
-      }
+      },
+      "session_open": false
     }
   ],
   "news_chips": [
@@ -6276,6 +6279,13 @@
       "url": "https://www.wsj.com/economy/trade/with-china-facing-more-trade-barriers-it-cant-afford-to-lose-europe-d041ab25?mod=rss_socialeconomyfeed",
       "published_ts": 1792098180.0,
       "impact_high": true
+    },
+    {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/politics/new-york-city-comptroller-defends-decision-not-to-invest-in-israeli-bonds-ed190f25?mod=rss_worldnews",
+      "published_ts": 1792101660.0,
+      "impact_high": false
     },
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
@@ -6289,13 +6299,6 @@
       "source": "WSJ세계",
       "url": "https://www.wsj.com/economy/trade/with-china-facing-more-trade-barriers-it-cant-afford-to-lose-europe-d041ab25?mod=rss_worldnews",
       "published_ts": 1792098180.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/europe/the-weapons-and-intel-that-only-the-u-s-can-give-to-ukraine-98a9f64a?mod=rss_worldnews",
-      "published_ts": 1792086540.0,
       "impact_high": false
     },
     {
@@ -6327,20 +6330,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "360030be0a1b3b5f275404414f7a568b9a3839ff067c2c8a4b1eb7ef65ec0c56",
+  "_article_sig": "aa140aba632311a2676763e28406f43494e6bad4b8e2b26dd9fbe459ca372eb9",
   "built_at_kst": "2026-10-16T07:00:50.667831+09:00",
   "futures": {
-    "as_of_kst": "2026-10-16T07:00:50.667349+09:00",
+    "as_of_kst": "2026-10-16T07:10:14.512591+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7786.0,
-        "change_pct": -0.06,
+        "point": 7788.5,
+        "change_pct": -0.03,
         "spark": [
-          7768.25,
-          7787.5,
+          7788.75,
           7785.75,
           7786.25,
           7775.0,
@@ -6379,21 +6381,22 @@
           7789.5,
           7789.0,
           7786.0,
-          7786.0
+          7792.25,
+          7788.5
         ],
         "candle": {
-          "o": 7768.25,
-          "h": 7801.75,
-          "l": 7717.25,
-          "c": 7786.0
+          "o": 7788.75,
+          "h": 7789.25,
+          "l": 7786.25,
+          "c": 7789.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 21.88,
-          "high_change_pct": -1.12
+          "low_change_pct": 21.93,
+          "high_change_pct": -1.08
         },
         "daily_expanded": [
           {
@@ -8406,23 +8409,39 @@
           },
           {
             "date": "2026-10-15",
-            "o": 7768.25,
-            "h": 7801.75,
-            "l": 7717.25,
-            "c": 7786.0,
-            "v": 1837353
+            "o": 7788.75,
+            "h": 7789.25,
+            "l": 7786.25,
+            "c": 7789.25,
+            "v": 204
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/trade/with-china-facing-more-trade-barriers-it-cant-afford-to-lose-europe-d041ab25?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/economy/trade/with-china-facing-more-trade-barriers-it-cant-afford-to-lose-europe-d041ab25?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/investors-seek-safety-in-a-rocky-market-4d1e17e5?mod=rss_markets_main"
+            }
+          ]
+        }
       },
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30078.25,
-        "change_pct": -0.22,
+        "point": 30106.5,
+        "change_pct": -0.12,
         "spark": [
-          30154.75,
-          30065.25,
+          30089.0,
           30054.25,
           30058.0,
           29990.75,
@@ -8461,21 +8480,22 @@
           30130.5,
           30134.0,
           30078.25,
-          30078.25
+          30119.75,
+          30106.5
         ],
         "candle": {
-          "o": 30154.75,
-          "h": 30196.75,
-          "l": 29622.5,
-          "c": 30078.25
+          "o": 30089.0,
+          "h": 30109.5,
+          "l": 30088.0,
+          "c": 30109.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 29.99,
-          "high_change_pct": -4.46
+          "low_change_pct": 30.12,
+          "high_change_pct": -4.36
         },
         "daily_expanded": [
           {
@@ -10488,23 +10508,39 @@
           },
           {
             "date": "2026-10-15",
-            "o": 30154.75,
-            "h": 30196.75,
-            "l": 29622.5,
-            "c": 30078.25,
-            "v": 803966
+            "o": 30089.0,
+            "h": 30109.5,
+            "l": 30088.0,
+            "c": 30109.5,
+            "v": 137
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/politics/new-york-city-comptroller-defends-decision-not-to-invest-in-israeli-bonds-ed190f25?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/the-riskiest-corner-of-the-ai-trade-is-crashing-into-higher-rates-fcdaad37?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/europe/the-weapons-and-intel-that-only-the-u-s-can-give-to-ukraine-98a9f64a?mod=rss_worldnews"
+            }
+          ]
+        }
       },
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52438.0,
-        "change_pct": 0.02,
+        "point": 52444.0,
+        "change_pct": 0.03,
         "spark": [
-          51859.0,
-          52416.0,
+          52450.0,
           52416.0,
           52401.0,
           52376.0,
@@ -10543,21 +10579,22 @@
           52422.0,
           52423.0,
           52438.0,
-          52438.0
+          52455.0,
+          52444.0
         ],
         "candle": {
-          "o": 51859.0,
-          "h": 52503.0,
-          "l": 51783.0,
-          "c": 52438.0
+          "o": 52450.0,
+          "h": 52460.0,
+          "l": 52436.0,
+          "c": 52444.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.44,
-          "high_change_pct": -3.77
+          "low_change_pct": 15.45,
+          "high_change_pct": -3.76
         },
         "daily_expanded": [
           {
@@ -12570,15 +12607,87 @@
           },
           {
             "date": "2026-10-15",
-            "o": 51859.0,
-            "h": 52503.0,
-            "l": 51783.0,
-            "c": 52438.0,
-            "v": 117970
+            "o": 52450.0,
+            "h": 52460.0,
+            "l": 52436.0,
+            "c": 52444.0,
+            "v": 35
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+          "sources": [
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/trade/with-china-facing-more-trade-barriers-it-cant-afford-to-lose-europe-d041ab25?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/university-endowments-land-biggest-returns-since-2021-on-spacex-ai-gains-e315c0e4?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/ukraine-strikes-russian-refinery-after-moscow-breaks-trumps-energy-ceasefire-35b3ee40?mod=rss_worldnews"
+            }
+          ]
+        }
       }
     ]
-  }
+  },
+  "regular_open": false,
+  "_futures_news": {
+    "NASDAQ": {
+      "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/politics/new-york-city-comptroller-defends-decision-not-to-invest-in-israeli-bonds-ed190f25?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/the-riskiest-corner-of-the-ai-trade-is-crashing-into-higher-rates-fcdaad37?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/europe/the-weapons-and-intel-that-only-the-u-s-can-give-to-ukraine-98a9f64a?mod=rss_worldnews"
+        }
+      ]
+    },
+    "S&P500": {
+      "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/trade/with-china-facing-more-trade-barriers-it-cant-afford-to-lose-europe-d041ab25?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/economy/trade/with-china-facing-more-trade-barriers-it-cant-afford-to-lose-europe-d041ab25?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/investors-seek-safety-in-a-rocky-market-4d1e17e5?mod=rss_markets_main"
+        }
+      ]
+    },
+    "DOW": {
+      "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+      "sources": [
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/trade/with-china-facing-more-trade-barriers-it-cant-afford-to-lose-europe-d041ab25?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/university-endowments-land-biggest-returns-since-2021-on-spacex-ai-gains-e315c0e4?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/ukraine-strikes-russian-refinery-after-moscow-breaks-trumps-energy-ceasefire-35b3ee40?mod=rss_worldnews"
+        }
+      ]
+    }
+  },
+  "intraday_refreshed_kst": "2026-10-16T07:10:32.559572+09:00"
 }
