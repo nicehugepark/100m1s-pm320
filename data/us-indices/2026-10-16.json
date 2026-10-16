@@ -6274,17 +6274,17 @@
   ],
   "news_chips": [
     {
+      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-16-2026?mod=rss_markets_main",
+      "published_ts": 1792138109.0,
+      "impact_high": true
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/finance/investing/indonesian-stocks-dive-as-msci-weighs-downgrade-to-standalone-market-406133fc?mod=rss_worldnews",
       "published_ts": 1792135080.0,
-      "impact_high": true
-    },
-    {
-      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/warsh-avoids-signal-on-october-rate-move-a176b0d5?mod=rss_socialeconomyfeed",
-      "published_ts": 1792125660.0,
       "impact_high": true
     },
     {
@@ -6330,20 +6330,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "8445511f917c9f22ff98aeecbcc66cd179a09da6e503b4f49422f9291881f79c",
+  "_article_sig": "5097ba69c4575e79818a3273b8cfbe428600c85c83eb52e7282b81af60ba66e5",
   "built_at_kst": "2026-10-16T07:00:50.667831+09:00",
   "futures": {
-    "as_of_kst": "2026-10-16T17:10:15.915737+09:00",
+    "as_of_kst": "2026-10-16T17:20:15.494009+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7803.25,
-        "change_pct": 0.16,
+        "point": 7805.5,
+        "change_pct": 0.19,
         "spark": [
           7788.75,
-          7803.25,
           7803.25,
           7804.5,
           7803.75,
@@ -6382,21 +6381,22 @@
           7798.0,
           7803.5,
           7806.25,
-          7803.25
+          7807.25,
+          7805.5
         ],
         "candle": {
           "o": 7788.75,
           "h": 7808.0,
           "l": 7774.75,
-          "c": 7803.25
+          "c": 7806.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 22.15,
-          "high_change_pct": -0.9
+          "low_change_pct": 22.2,
+          "high_change_pct": -0.85
         },
         "daily_expanded": [
           {
@@ -8412,8 +8412,8 @@
             "o": 7788.75,
             "h": 7808.0,
             "l": 7774.75,
-            "c": 7803.25,
-            "v": 119273
+            "c": 7806.75,
+            "v": 127566
           }
         ],
         "rollover_gaps": [],
@@ -8421,16 +8421,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-16-2026?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/finance/investing/indonesian-stocks-dive-as-msci-weighs-downgrade-to-standalone-market-406133fc?mod=rss_worldnews"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/warsh-avoids-signal-on-october-rate-move-a176b0d5?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/russian-defector-deadly-sabotage-campaign-a95d163c?mod=rss_worldnews"
             }
           ]
         }
@@ -8438,12 +8438,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 30166.0,
-        "change_pct": 0.07,
+        "point": 30184.5,
+        "change_pct": 0.14,
         "spark": [
           30089.0,
-          30194.75,
-          30200.0,
           30215.25,
           30206.0,
           30205.25,
@@ -8481,21 +8479,23 @@
           30137.25,
           30158.0,
           30195.25,
-          30166.0
+          30189.0,
+          30173.0,
+          30184.5
         ],
         "candle": {
           "o": 30089.0,
           "h": 30225.0,
           "l": 29959.25,
-          "c": 30162.25
+          "c": 30183.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 30.35,
-          "high_change_pct": -4.2
+          "low_change_pct": 30.44,
+          "high_change_pct": -4.13
         },
         "daily_expanded": [
           {
@@ -10511,8 +10511,8 @@
             "o": 30089.0,
             "h": 30225.0,
             "l": 29959.25,
-            "c": 30162.25,
-            "v": 80555
+            "c": 30183.25,
+            "v": 83017
           }
         ],
         "rollover_gaps": [],
@@ -10521,15 +10521,15 @@
           "sources": [
             {
               "name": "WSJ",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-16-2026?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/high-rates-have-upturned-how-moodys-looks-at-credit-risk-chief-credit-officer-says-e84c61fd?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/warsh-avoids-signal-on-october-rate-move-a176b0d5?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/russian-defector-deadly-sabotage-campaign-a95d163c?mod=rss_worldnews"
             }
           ]
         }
@@ -10537,11 +10537,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52531.0,
-        "change_pct": 0.19,
+        "point": 52546.0,
+        "change_pct": 0.22,
         "spark": [
           52450.0,
-          52501.0,
           52500.0,
           52497.0,
           52490.0,
@@ -10580,21 +10579,22 @@
           52496.0,
           52544.0,
           52514.0,
-          52531.0
+          52546.0,
+          52546.0
         ],
         "candle": {
           "o": 52450.0,
           "h": 52553.0,
           "l": 52380.0,
-          "c": 52531.0
+          "c": 52543.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.65,
-          "high_change_pct": -3.6
+          "low_change_pct": 15.67,
+          "high_change_pct": -3.58
         },
         "daily_expanded": [
           {
@@ -12610,8 +12610,8 @@
             "o": 52450.0,
             "h": 52553.0,
             "l": 52380.0,
-            "c": 52531.0,
-            "v": 8576
+            "c": 52543.0,
+            "v": 8981
           }
         ],
         "rollover_gaps": [],
@@ -12642,15 +12642,15 @@
       "sources": [
         {
           "name": "WSJ",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-16-2026?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/high-rates-have-upturned-how-moodys-looks-at-credit-risk-chief-credit-officer-says-e84c61fd?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/warsh-avoids-signal-on-october-rate-move-a176b0d5?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/russian-defector-deadly-sabotage-campaign-a95d163c?mod=rss_worldnews"
         }
       ]
     },
@@ -12658,16 +12658,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-16-2026?mod=rss_markets_main"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/finance/investing/indonesian-stocks-dive-as-msci-weighs-downgrade-to-standalone-market-406133fc?mod=rss_worldnews"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/warsh-avoids-signal-on-october-rate-move-a176b0d5?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/russian-defector-deadly-sabotage-campaign-a95d163c?mod=rss_worldnews"
         }
       ]
     },
@@ -12689,5 +12689,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-10-16T17:10:37.958774+09:00"
+  "intraday_refreshed_kst": "2026-10-16T17:20:38.027852+09:00"
 }
