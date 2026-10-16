@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26438.32,
-      "change_pct": -1.03,
+      "point": 26424.91,
+      "change_pct": -1.08,
       "candle": {
         "o": 26649.9,
         "h": 26668.22,
         "l": 26371.33,
-        "c": 26438.32
+        "c": 26424.91
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,7 +2033,7 @@
           "o": 26649.9,
           "h": 26668.22,
           "l": 26371.33,
-          "c": 26438.32
+          "c": 26424.91
         }
       ],
       "spark": [
@@ -2064,7 +2064,9 @@
         26389.78,
         26423.03,
         26438.48,
-        26438.32
+        26421.95,
+        26425.16,
+        26424.91
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2088,13 +2090,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7720.48,
-      "change_pct": -0.3,
+      "point": 7714.69,
+      "change_pct": -0.38,
       "candle": {
         "o": 7745.32,
         "h": 7756.84,
         "l": 7710.89,
-        "c": 7720.48
+        "c": 7714.69
       },
       "range_240d": {
         "low": 6343.72,
@@ -4118,7 +4120,7 @@
           "o": 7745.32,
           "h": 7756.84,
           "l": 7710.89,
-          "c": 7720.48
+          "c": 7714.69
         }
       ],
       "spark": [
@@ -4149,7 +4151,9 @@
         7713.16,
         7718.37,
         7720.7,
-        7720.48
+        7713.6,
+        7714.46,
+        7714.69
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4173,13 +4177,13 @@
     },
     {
       "name": "DOW",
-      "point": 52331.07,
-      "change_pct": 0.29,
+      "point": 52263.24,
+      "change_pct": 0.16,
       "candle": {
         "o": 52308.28,
         "h": 52582.32,
-        "l": 52281.89,
-        "c": 52331.07
+        "l": 52260.25,
+        "c": 52263.24
       },
       "range_240d": {
         "low": 45166.64,
@@ -6202,8 +6206,8 @@
           "date": "2026-10-16",
           "o": 52308.28,
           "h": 52582.32,
-          "l": 52281.89,
-          "c": 52331.07
+          "l": 52260.25,
+          "c": 52263.24
         }
       ],
       "spark": [
@@ -6234,7 +6238,9 @@
         52300.82,
         52323.38,
         52335.9,
-        52331.07
+        52294.07,
+        52264.21,
+        52263.24
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6258,6 +6264,13 @@
     }
   ],
   "news_chips": [
+    {
+      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html",
+      "published_ts": 1792165567.0,
+      "impact_high": true
+    },
     {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ경제",
@@ -6306,16 +6319,9 @@
       "url": "https://www.hankyung.com/article/2026101670921",
       "published_ts": 1792140176.0,
       "impact_high": false
-    },
-    {
-      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/14/high-inflation-fed-expectations.html",
-      "published_ts": 1791998423.0,
-      "impact_high": true
     }
   ],
-  "_article_sig": "9f21ac34398fb053259a4cfcfb0a7b41466e6cb346e74aec8663975c54431e9c",
+  "_article_sig": "8ea6708f2baa0a0031685c14213c3d0bbba83b7a1cc70cf56b035d6a82d6317b",
   "built_at_kst": "2026-10-16T07:00:50.667831+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6323,16 +6329,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/u-s-import-prices-rose-in-september-5ee51f36?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/housing/canada-housing-starts-rise-in-september-though-market-faces-longer-term-supply-gap-8a0cde3f?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-must-ensure-underlying-inflation-doesnt-go-above-2-ueda-says-0d94c2f0?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -6340,16 +6346,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/hezbollah-tells-the-lebanese-government-it-wants-its-explosives-back-45b8902e?mod=rss_worldnews"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/housing/canada-housing-starts-rise-in-september-though-market-faces-longer-term-supply-gap-8a0cde3f?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-must-ensure-underlying-inflation-doesnt-go-above-2-ueda-says-0d94c2f0?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -6372,18 +6378,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-10-17T00:40:04.915208+09:00",
+    "as_of_kst": "2026-10-17T00:50:03.959133+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7762.0,
-        "change_pct": -0.37,
+        "point": 7764.25,
+        "change_pct": -0.34,
         "spark": [
           7788.75,
-          7799.0,
-          7802.5,
           7802.5,
           7806.25,
           7801.25,
@@ -6421,21 +6425,23 @@
           7766.0,
           7759.0,
           7757.25,
-          7762.0
+          7762.0,
+          7764.25,
+          7764.25
         ],
         "candle": {
           "o": 7788.75,
           "h": 7809.5,
           "l": 7754.0,
-          "c": 7757.5
+          "c": 7764.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 21.43,
-          "high_change_pct": -1.48
+          "low_change_pct": 21.54,
+          "high_change_pct": -1.39
         },
         "daily_expanded": [
           {
@@ -8451,8 +8457,8 @@
             "o": 7788.75,
             "h": 7809.5,
             "l": 7754.0,
-            "c": 7757.5,
-            "v": 809344
+            "c": 7764.25,
+            "v": 847955
           }
         ],
         "rollover_gaps": [],
@@ -8460,16 +8466,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/hezbollah-tells-the-lebanese-government-it-wants-its-explosives-back-45b8902e?mod=rss_worldnews"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/housing/canada-housing-starts-rise-in-september-though-market-faces-longer-term-supply-gap-8a0cde3f?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-must-ensure-underlying-inflation-doesnt-go-above-2-ueda-says-0d94c2f0?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8477,12 +8483,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29686.75,
-        "change_pct": -1.52,
+        "point": 29736.0,
+        "change_pct": -1.35,
         "spark": [
           30089.0,
-          30116.5,
-          30118.25,
           30117.75,
           30077.25,
           30079.75,
@@ -8520,21 +8524,23 @@
           29676.75,
           29682.25,
           29723.75,
-          29686.75
+          29738.0,
+          29720.25,
+          29736.0
         ],
         "candle": {
           "o": 30089.0,
           "h": 30225.0,
           "l": 29645.0,
-          "c": 29685.0
+          "c": 29736.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 28.29,
-          "high_change_pct": -5.71
+          "low_change_pct": 28.51,
+          "high_change_pct": -5.55
         },
         "daily_expanded": [
           {
@@ -10550,8 +10556,8 @@
             "o": 30089.0,
             "h": 30225.0,
             "l": 29645.0,
-            "c": 29685.0,
-            "v": 391781
+            "c": 29736.0,
+            "v": 404483
           }
         ],
         "rollover_gaps": [],
@@ -10559,16 +10565,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/u-s-import-prices-rose-in-september-5ee51f36?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/housing/canada-housing-starts-rise-in-september-though-market-faces-longer-term-supply-gap-8a0cde3f?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-must-ensure-underlying-inflation-doesnt-go-above-2-ueda-says-0d94c2f0?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10576,11 +10582,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52525.0,
-        "change_pct": 0.18,
+        "point": 52554.0,
+        "change_pct": 0.24,
         "spark": [
           52450.0,
-          52435.0,
           52434.0,
           52490.0,
           52466.0,
@@ -10619,21 +10624,22 @@
           52522.0,
           52523.0,
           52544.0,
-          52525.0
+          52554.0,
+          52554.0
         ],
         "candle": {
           "o": 52450.0,
           "h": 52823.0,
           "l": 52380.0,
-          "c": 52525.0
+          "c": 52554.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.63,
-          "high_change_pct": -3.61
+          "low_change_pct": 15.7,
+          "high_change_pct": -3.56
         },
         "daily_expanded": [
           {
@@ -12649,8 +12655,8 @@
             "o": 52450.0,
             "h": 52823.0,
             "l": 52380.0,
-            "c": 52525.0,
-            "v": 60463
+            "c": 52554.0,
+            "v": 61779
           }
         ],
         "rollover_gaps": [],
@@ -12674,5 +12680,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-10-17T00:40:09.928114+09:00"
+  "intraday_refreshed_kst": "2026-10-17T00:50:16.245952+09:00"
 }
