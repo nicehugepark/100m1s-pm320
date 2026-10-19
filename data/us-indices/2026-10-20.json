@@ -6288,6 +6288,13 @@
       "impact_high": true
     },
     {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/2026101914851",
+      "published_ts": 1792447210.0,
+      "impact_high": false
+    },
+    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/trump-putin-xi-meeting-ee489ddd?mod=rss_worldnews",
@@ -6299,13 +6306,6 @@
       "source": "WSJ세계",
       "url": "https://www.wsj.com/tech/ai/former-openai-worker-accused-of-bugging-discussed-jobs-with-saudi-royal-277c1c45?mod=rss_worldnews",
       "published_ts": 1792446720.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026102019147",
-      "published_ts": 1792444024.0,
       "impact_high": false
     },
     {
@@ -6337,21 +6337,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "f9893b56848db4ecb6e99270be16c9e8f50018882d8e03451b8f757c020cf16f",
+  "_article_sig": "093ee2f277d95816456b1d94d814bdf3b238f5d27a6c04d38a09fd8da34111b7",
   "built_at_kst": "2026-10-20T07:00:39.458632+09:00",
   "futures": {
-    "as_of_kst": "2026-10-20T07:20:08.229053+09:00",
+    "as_of_kst": "2026-10-20T07:30:17.580247+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7741.75,
-        "change_pct": 0.09,
+        "point": 7744.5,
+        "change_pct": 0.13,
         "spark": [
           7740.75,
-          7742.25,
-          7744.25,
           7746.0,
           7747.25,
           7742.0,
@@ -6389,21 +6387,23 @@
           7739.75,
           7741.5,
           7741.75,
-          7741.75
+          7743.25,
+          7745.5,
+          7744.5
         ],
         "candle": {
           "o": 7740.75,
-          "h": 7743.25,
+          "h": 7745.75,
           "l": 7739.75,
-          "c": 7741.75
+          "c": 7745.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 21.19,
-          "high_change_pct": -1.68
+          "low_change_pct": 21.25,
+          "high_change_pct": -1.63
         },
         "daily_expanded": [
           {
@@ -8409,22 +8409,38 @@
           {
             "date": "2026-10-19",
             "o": 7740.75,
-            "h": 7743.25,
+            "h": 7745.75,
             "l": 7739.75,
-            "c": 7741.75,
-            "v": 1318
+            "c": 7745.5,
+            "v": 2048
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-survey-records-notable-rise-in-inflation-expectations-9d035987?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-russia-sanctions-waiver-middle-east-risks-05053c4f?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/saudi-arabia-decides-against-holding-in-person-investor-conference-d9f5e66b?mod=rss_worldnews"
+            }
+          ]
+        }
       },
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29761.25,
-        "change_pct": 0.13,
+        "point": 29775.0,
+        "change_pct": 0.18,
         "spark": [
           29745.5,
-          29753.5,
           29764.75,
           29765.25,
           29766.25,
@@ -8463,21 +8479,22 @@
           29761.75,
           29762.25,
           29762.75,
-          29761.25
+          29775.0,
+          29775.0
         ],
         "candle": {
           "o": 29745.5,
-          "h": 29772.5,
+          "h": 29776.75,
           "l": 29745.25,
-          "c": 29761.25
+          "c": 29774.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 28.62,
-          "high_change_pct": -5.47
+          "low_change_pct": 28.67,
+          "high_change_pct": -5.43
         },
         "daily_expanded": [
           {
@@ -10483,24 +10500,38 @@
           {
             "date": "2026-10-19",
             "o": 29745.5,
-            "h": 29772.5,
+            "h": 29776.75,
             "l": 29745.25,
-            "c": 29761.25,
-            "v": 1273
+            "c": 29774.0,
+            "v": 1815
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/trump-putin-xi-meeting-ee489ddd?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/tech/ai/former-openai-worker-accused-of-bugging-discussed-jobs-with-saudi-royal-277c1c45?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-russia-sanctions-waiver-middle-east-risks-05053c4f?mod=rss_worldnews"
+            }
+          ]
+        }
       },
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52237.0,
-        "change_pct": 0.11,
+        "point": 52256.0,
+        "change_pct": 0.14,
         "spark": [
           52238.0,
-          52230.0,
-          52230.0,
-          52232.0,
           52258.0,
           52277.0,
           52245.0,
@@ -10537,21 +10568,24 @@
           52227.0,
           52237.0,
           52237.0,
-          52237.0
+          52245.0,
+          52253.0,
+          52244.0,
+          52256.0
         ],
         "candle": {
           "o": 52238.0,
           "h": 52294.0,
-          "l": 52233.0,
-          "c": 52237.0
+          "l": 52216.0,
+          "c": 52256.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.0,
-          "high_change_pct": -4.14
+          "low_change_pct": 15.04,
+          "high_change_pct": -4.11
         },
         "daily_expanded": [
           {
@@ -12558,15 +12592,85 @@
             "date": "2026-10-19",
             "o": 52238.0,
             "h": 52294.0,
-            "l": 52233.0,
-            "c": 52237.0,
-            "v": 221
+            "l": 52216.0,
+            "c": 52256.0,
+            "v": 342
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+          "sources": [
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-survey-records-notable-rise-in-inflation-expectations-9d035987?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/world/china/chinas-export-boom-masks-deep-economic-problems-at-home-945833ac?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-must-ensure-underlying-inflation-doesnt-go-above-2-ueda-says-0d94c2f0?mod=rss_worldnews"
+            }
+          ]
+        }
       }
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-10-20T07:20:21.257133+09:00"
+  "intraday_refreshed_kst": "2026-10-20T07:30:40.760624+09:00",
+  "_futures_news": {
+    "NASDAQ": {
+      "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/trump-putin-xi-meeting-ee489ddd?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/tech/ai/former-openai-worker-accused-of-bugging-discussed-jobs-with-saudi-royal-277c1c45?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-russia-sanctions-waiver-middle-east-risks-05053c4f?mod=rss_worldnews"
+        }
+      ]
+    },
+    "S&P500": {
+      "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-survey-records-notable-rise-in-inflation-expectations-9d035987?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-russia-sanctions-waiver-middle-east-risks-05053c4f?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/saudi-arabia-decides-against-holding-in-person-investor-conference-d9f5e66b?mod=rss_worldnews"
+        }
+      ]
+    },
+    "DOW": {
+      "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+      "sources": [
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-survey-records-notable-rise-in-inflation-expectations-9d035987?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/world/china/chinas-export-boom-masks-deep-economic-problems-at-home-945833ac?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-must-ensure-underlying-inflation-doesnt-go-above-2-ueda-says-0d94c2f0?mod=rss_worldnews"
+        }
+      ]
+    }
+  }
 }
