@@ -6298,6 +6298,13 @@
   ],
   "news_chips": [
     {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-survey-records-notable-rise-in-inflation-expectations-9d035987?mod=rss_socialeconomyfeed",
+      "published_ts": 1792441620.0,
+      "impact_high": true
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-russia-sanctions-waiver-middle-east-risks-05053c4f?mod=rss_worldnews",
@@ -6305,11 +6312,11 @@
       "impact_high": true
     },
     {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "summary": "기업 실적과 가이던스 변화가 대형주 중심의 선별 흐름을 강화하는 흐름",
       "source": "WSJ",
-      "url": "https://www.wsj.com/finance/see-what-71-economists-told-us-about-where-growth-and-yields-are-headed-8977cb44?mod=rss_markets_main",
-      "published_ts": 1792424640.0,
-      "impact_high": true
+      "url": "https://www.wsj.com/finance/stocks/elon-musk-promises-to-give-out-spacex-shares-to-u-s-children-69ffe0b5?mod=rss_markets_main",
+      "published_ts": 1792441080.0,
+      "impact_high": false
     },
     {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
@@ -6354,7 +6361,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "174fe9481f1dc4f017f01d5cde805df44fa97e8aae7e7ba2c90a3974486e34bc",
+  "_article_sig": "e176721818efcb9a8ff449957fcb2056c7fe73ea25823abe0dbfc3e20fd283da",
   "built_at_kst": "2026-10-17T07:00:31.432735+09:00",
   "regular_open": false,
   "_futures_news": {
@@ -6379,16 +6386,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-survey-records-notable-rise-in-inflation-expectations-9d035987?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-russia-sanctions-waiver-middle-east-risks-05053c4f?mod=rss_worldnews"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/saudi-arabia-decides-against-holding-in-person-investor-conference-d9f5e66b?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/see-what-71-economists-told-us-about-where-growth-and-yields-are-headed-8977cb44?mod=rss_markets_main"
         }
       ]
     },
@@ -6397,11 +6404,11 @@
       "sources": [
         {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/world/china/chinas-export-boom-masks-deep-economic-problems-at-home-945833ac?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-survey-records-notable-rise-in-inflation-expectations-9d035987?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/chinas-economy-expanded-4-5-in-third-quarter-powered-by-exports-53910a55?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/world/china/chinas-export-boom-masks-deep-economic-problems-at-home-945833ac?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ세계",
@@ -6411,18 +6418,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-10-20T05:20:10.736049+09:00",
+    "as_of_kst": "2026-10-20T05:30:12.459422+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7739.5,
-        "change_pct": 0.46,
+        "point": 7737.5,
+        "change_pct": 0.43,
         "spark": [
           7679.5,
-          7743.5,
-          7743.25,
           7739.25,
           7743.25,
           7741.75,
@@ -6460,21 +6465,23 @@
           7734.75,
           7739.0,
           7739.5,
-          7739.5
+          7737.75,
+          7737.5,
+          7737.5
         ],
         "candle": {
           "o": 7679.5,
           "h": 7773.25,
           "l": 7677.0,
-          "c": 7739.75
+          "c": 7737.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 21.16,
-          "high_change_pct": -1.7
+          "low_change_pct": 21.12,
+          "high_change_pct": -1.73
         },
         "daily_expanded": [
           {
@@ -8482,8 +8489,8 @@
             "o": 7679.5,
             "h": 7773.25,
             "l": 7677.0,
-            "c": 7739.75,
-            "v": 1667195
+            "c": 7737.75,
+            "v": 1674006
           }
         ],
         "rollover_gaps": [],
@@ -8491,16 +8498,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-survey-records-notable-rise-in-inflation-expectations-9d035987?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-russia-sanctions-waiver-middle-east-risks-05053c4f?mod=rss_worldnews"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/saudi-arabia-decides-against-holding-in-person-investor-conference-d9f5e66b?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/see-what-71-economists-told-us-about-where-growth-and-yields-are-headed-8977cb44?mod=rss_markets_main"
             }
           ]
         }
@@ -8508,12 +8515,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29738.5,
-        "change_pct": 1.18,
+        "point": 29743.25,
+        "change_pct": 1.2,
         "spark": [
           29227.0,
-          29797.75,
-          29768.25,
           29788.5,
           29784.0,
           29773.25,
@@ -8551,21 +8556,23 @@
           29731.75,
           29738.75,
           29740.5,
-          29738.5
+          29742.0,
+          29735.25,
+          29743.25
         ],
         "candle": {
           "o": 29227.0,
           "h": 29983.5,
           "l": 29226.0,
-          "c": 29739.0
+          "c": 29744.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 28.52,
-          "high_change_pct": -5.54
+          "low_change_pct": 28.54,
+          "high_change_pct": -5.52
         },
         "daily_expanded": [
           {
@@ -10573,8 +10580,8 @@
             "o": 29227.0,
             "h": 29983.5,
             "l": 29226.0,
-            "c": 29739.0,
-            "v": 612282
+            "c": 29744.5,
+            "v": 614679
           }
         ],
         "rollover_gaps": [],
@@ -10599,12 +10606,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52202.0,
-        "change_pct": -0.02,
+        "point": 52197.0,
+        "change_pct": -0.03,
         "spark": [
           52070.0,
-          52198.0,
-          52178.0,
           52195.0,
           52183.0,
           52205.0,
@@ -10642,21 +10647,23 @@
           52205.0,
           52205.0,
           52191.0,
-          52202.0
+          52195.0,
+          52193.0,
+          52197.0
         ],
         "candle": {
           "o": 52070.0,
           "h": 52508.0,
           "l": 52034.0,
-          "c": 52202.0
+          "c": 52197.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 14.92,
-          "high_change_pct": -4.21
+          "low_change_pct": 14.91,
+          "high_change_pct": -4.22
         },
         "daily_expanded": [
           {
@@ -12664,8 +12671,8 @@
             "o": 52070.0,
             "h": 52508.0,
             "l": 52034.0,
-            "c": 52202.0,
-            "v": 70306
+            "c": 52197.0,
+            "v": 70488
           }
         ],
         "rollover_gaps": [],
@@ -12674,11 +12681,11 @@
           "sources": [
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/world/china/chinas-export-boom-masks-deep-economic-problems-at-home-945833ac?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-survey-records-notable-rise-in-inflation-expectations-9d035987?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/chinas-economy-expanded-4-5-in-third-quarter-powered-by-exports-53910a55?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/world/china/chinas-export-boom-masks-deep-economic-problems-at-home-945833ac?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ세계",
@@ -12689,5 +12696,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-10-20T05:20:27.631452+09:00"
+  "intraday_refreshed_kst": "2026-10-20T05:30:34.279933+09:00"
 }
