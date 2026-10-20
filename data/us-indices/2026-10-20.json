@@ -6288,6 +6288,13 @@
       "impact_high": true
     },
     {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-saudi-arabia-postpones-davos-in-the-desert-839214f2?mod=rss_worldnews",
+      "published_ts": 1792495200.0,
+      "impact_high": false
+    },
+    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/china/chinas-ultimate-political-survivor-just-fell-what-that-says-about-xis-rule-b04cfa2f?mod=rss_worldnews",
@@ -6306,13 +6313,6 @@
       "source": "WSJ세계",
       "url": "https://www.wsj.com/business/energy-oil/oil-prices-up-as-traders-weigh-middle-east-supply-risks-560c31ca?mod=rss_worldnews",
       "published_ts": 1792492080.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026102040421",
-      "published_ts": 1792487818.0,
       "impact_high": false
     },
     {
@@ -6337,21 +6337,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "262f063cd66323747cc1d83ad78e3ca1171611f4b71f929bc67f4c6df65dfea6",
+  "_article_sig": "ddfe349ffda88e33f22a4abb110a697dda673db23576f71b30ffd71886b7cc8f",
   "built_at_kst": "2026-10-20T07:00:39.458632+09:00",
   "futures": {
-    "as_of_kst": "2026-10-20T20:20:14.991752+09:00",
+    "as_of_kst": "2026-10-20T20:30:13.254392+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7723.5,
-        "change_pct": -0.14,
+        "point": 7724.25,
+        "change_pct": -0.13,
         "spark": [
           7740.75,
-          7735.0,
-          7733.75,
           7734.25,
           7735.5,
           7736.75,
@@ -6389,21 +6387,23 @@
           7726.0,
           7720.5,
           7722.5,
-          7723.5
+          7723.5,
+          7723.0,
+          7724.25
         ],
         "candle": {
           "o": 7740.75,
           "h": 7752.75,
           "l": 7718.25,
-          "c": 7722.5
+          "c": 7723.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 20.89,
-          "high_change_pct": -1.92
+          "low_change_pct": 20.9,
+          "high_change_pct": -1.91
         },
         "daily_expanded": [
           {
@@ -8419,8 +8419,8 @@
             "o": 7740.75,
             "h": 7752.75,
             "l": 7718.25,
-            "c": 7722.5,
-            "v": 207922
+            "c": 7723.25,
+            "v": 211743
           }
         ],
         "rollover_gaps": [],
@@ -8428,16 +8428,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-saudi-arabia-postpones-davos-in-the-desert-839214f2?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/stocks-face-headwind-that-ended-other-bull-markets-10b9b7b0?mod=rss_markets_main"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/business/energy-oil/oil-prices-up-as-traders-weigh-middle-east-supply-risks-560c31ca?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/yes-the-fed-can-kill-the-ai-boom-3c25da2e?mod=rss_markets_main"
             }
           ]
         }
@@ -8445,12 +8445,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29557.25,
-        "change_pct": -0.56,
+        "point": 29552.25,
+        "change_pct": -0.57,
         "spark": [
           29745.5,
-          29616.25,
-          29619.25,
           29627.5,
           29641.75,
           29633.0,
@@ -8488,21 +8486,23 @@
           29552.0,
           29555.25,
           29561.5,
-          29557.25
+          29550.75,
+          29561.25,
+          29552.25
         ],
         "candle": {
           "o": 29745.5,
           "h": 29803.5,
           "l": 29527.75,
-          "c": 29557.25
+          "c": 29550.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 27.73,
-          "high_change_pct": -6.12
+          "low_change_pct": 27.7,
+          "high_change_pct": -6.14
         },
         "daily_expanded": [
           {
@@ -10518,8 +10518,8 @@
             "o": 29745.5,
             "h": 29803.5,
             "l": 29527.75,
-            "c": 29557.25,
-            "v": 129493
+            "c": 29550.25,
+            "v": 130777
           }
         ],
         "rollover_gaps": [],
@@ -10544,13 +10544,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52238.0,
-        "change_pct": 0.11,
+        "point": 52231.0,
+        "change_pct": 0.09,
         "spark": [
           52238.0,
-          52288.0,
-          52287.0,
-          52299.0,
           52307.0,
           52320.0,
           52331.0,
@@ -10587,21 +10584,24 @@
           52276.0,
           52226.0,
           52235.0,
-          52238.0
+          52238.0,
+          52235.0,
+          52227.0,
+          52231.0
         ],
         "candle": {
           "o": 52238.0,
           "h": 52413.0,
           "l": 52197.0,
-          "c": 52236.0
+          "c": 52231.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.0,
-          "high_change_pct": -4.14
+          "low_change_pct": 14.99,
+          "high_change_pct": -4.15
         },
         "daily_expanded": [
           {
@@ -12617,8 +12617,8 @@
             "o": 52238.0,
             "h": 52413.0,
             "l": 52197.0,
-            "c": 52236.0,
-            "v": 14291
+            "c": 52231.0,
+            "v": 14463
           }
         ],
         "rollover_gaps": [],
@@ -12643,7 +12643,7 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-10-20T20:20:25.404793+09:00",
+  "intraday_refreshed_kst": "2026-10-20T20:30:49.584867+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
@@ -12666,16 +12666,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-saudi-arabia-postpones-davos-in-the-desert-839214f2?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/stocks-face-headwind-that-ended-other-bull-markets-10b9b7b0?mod=rss_markets_main"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/business/energy-oil/oil-prices-up-as-traders-weigh-middle-east-supply-risks-560c31ca?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/yes-the-fed-can-kill-the-ai-boom-3c25da2e?mod=rss_markets_main"
         }
       ]
     },
