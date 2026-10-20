@@ -6282,9 +6282,9 @@
     },
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026102145677",
-      "published_ts": 1792531033.0,
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/americas/alberta-voted-to-stay-in-canada-but-the-separatists-vow-to-fight-on-dc3fe0dd?mod=rss_worldnews",
+      "published_ts": 1792535040.0,
       "impact_high": false
     },
     {
@@ -6302,17 +6302,17 @@
       "impact_high": false
     },
     {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/china/chinas-ultimate-political-survivor-just-fell-what-that-says-about-xis-rule-b04cfa2f?mod=rss_worldnews",
-      "published_ts": 1792493700.0,
-      "impact_high": false
-    },
-    {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/stocks/stocks-face-headwind-that-ended-other-bull-markets-10b9b7b0?mod=rss_markets_main",
       "published_ts": 1792493040.0,
+      "impact_high": false
+    },
+    {
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/2026102040431",
+      "published_ts": 1792487893.0,
       "impact_high": false
     },
     {
@@ -6337,22 +6337,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "be79dfd2b202d39df49604a0421985bb5db3ed0aba66aeb39b563dfe1f188904",
+  "_article_sig": "39fb5e99df0540700f575f0ca3fa4f0001b63134ae6f7cb57966f3f3fb8eecfd",
   "built_at_kst": "2026-10-21T07:01:33.286695+09:00",
   "futures": {
-    "as_of_kst": "2026-10-21T07:20:11.545346+09:00",
+    "as_of_kst": "2026-10-21T07:30:17.932358+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7784.25,
-        "change_pct": 0.37,
+        "point": 7782.5,
+        "change_pct": 0.35,
         "spark": [
           7785.0,
-          7764.0,
-          7761.0,
-          7763.5,
           7765.25,
           7762.75,
           7760.25,
@@ -6389,21 +6386,24 @@
           7784.75,
           7790.25,
           7785.0,
-          7784.25
+          7784.25,
+          7782.5,
+          7783.25,
+          7782.5
         ],
         "candle": {
           "o": 7785.0,
           "h": 7793.0,
-          "l": 7783.25,
-          "c": 7785.0
+          "l": 7782.0,
+          "c": 7782.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 21.86,
-          "high_change_pct": -1.13
+          "low_change_pct": 21.82,
+          "high_change_pct": -1.17
         },
         "daily_expanded": [
           {
@@ -8418,22 +8418,37 @@
             "date": "2026-10-20",
             "o": 7785.0,
             "h": 7793.0,
-            "l": 7783.25,
-            "c": 7785.0,
-            "v": 3987
+            "l": 7782.0,
+            "c": 7782.0,
+            "v": 5308
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/business/energy-oil/oil-prices-up-as-traders-weigh-middle-east-supply-risks-560c31ca?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/stocks-make-a-u-turn-on-hopes-of-u-s-iran-diplomacy-39fb739b?mod=rss_markets_main"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html"
+            }
+          ]
+        }
       },
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29954.0,
-        "change_pct": 0.94,
+        "point": 29944.5,
+        "change_pct": 0.91,
         "spark": [
           29925.0,
-          29752.0,
-          29766.5,
           29771.5,
           29753.5,
           29740.75,
@@ -8471,21 +8486,23 @@
           29966.75,
           29949.25,
           29947.5,
-          29954.0
+          29944.75,
+          29957.5,
+          29944.5
         ],
         "candle": {
           "o": 29925.0,
           "h": 29976.0,
           "l": 29922.25,
-          "c": 29953.0
+          "c": 29946.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 29.44,
-          "high_change_pct": -4.86
+          "low_change_pct": 29.41,
+          "high_change_pct": -4.88
         },
         "daily_expanded": [
           {
@@ -10501,20 +10518,36 @@
             "o": 29925.0,
             "h": 29976.0,
             "l": 29922.25,
-            "c": 29953.0,
-            "v": 3802
+            "c": 29946.0,
+            "v": 4939
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/ukraine-starlink-elon-musk-trump-dbc49193?mod=rss_worldnews"
+            },
+            {
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/202610204446i"
+            },
+            {
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/2026102044297"
+            }
+          ]
+        }
       },
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52791.0,
-        "change_pct": 0.14,
+        "point": 52779.0,
+        "change_pct": 0.11,
         "spark": [
           52792.0,
-          52701.0,
           52695.0,
           52704.0,
           52703.0,
@@ -10553,21 +10586,22 @@
           52814.0,
           52791.0,
           52787.0,
-          52791.0
+          52779.0,
+          52779.0
         ],
         "candle": {
           "o": 52792.0,
           "h": 52826.0,
-          "l": 52769.0,
-          "c": 52791.0
+          "l": 52764.0,
+          "c": 52779.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 16.22,
-          "high_change_pct": -3.13
+          "low_change_pct": 16.19,
+          "high_change_pct": -3.15
         },
         "daily_expanded": [
           {
@@ -12582,15 +12616,85 @@
             "date": "2026-10-20",
             "o": 52792.0,
             "h": 52826.0,
-            "l": 52769.0,
-            "c": 52791.0,
-            "v": 325
+            "l": 52764.0,
+            "c": 52779.0,
+            "v": 414
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+          "sources": [
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/ukraine-starlink-elon-musk-trump-dbc49193?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/world/uk/u-k-wage-growth-picks-up-ahead-of-bank-of-england-meeting-6e4a979b?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-survey-records-notable-rise-in-inflation-expectations-9d035987?mod=rss_socialeconomyfeed"
+            }
+          ]
+        }
       }
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-10-21T07:20:21.277783+09:00"
+  "intraday_refreshed_kst": "2026-10-21T07:31:02.360368+09:00",
+  "_futures_news": {
+    "NASDAQ": {
+      "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/ukraine-starlink-elon-musk-trump-dbc49193?mod=rss_worldnews"
+        },
+        {
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/202610204446i"
+        },
+        {
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/2026102044297"
+        }
+      ]
+    },
+    "S&P500": {
+      "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-up-as-traders-weigh-middle-east-supply-risks-560c31ca?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/stocks-make-a-u-turn-on-hopes-of-u-s-iran-diplomacy-39fb739b?mod=rss_markets_main"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html"
+        }
+      ]
+    },
+    "DOW": {
+      "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+      "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/ukraine-starlink-elon-musk-trump-dbc49193?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/world/uk/u-k-wage-growth-picks-up-ahead-of-bank-of-england-meeting-6e4a979b?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-survey-records-notable-rise-in-inflation-expectations-9d035987?mod=rss_socialeconomyfeed"
+        }
+      ]
+    }
+  }
 }
