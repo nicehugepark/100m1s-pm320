@@ -6288,6 +6288,13 @@
       "impact_high": true
     },
     {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/business/energy-oil/oil-prices-up-as-traders-weigh-middle-east-supply-risks-560c31ca?mod=rss_worldnews",
+      "published_ts": 1792486560.0,
+      "impact_high": false
+    },
+    {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/202610203917H",
@@ -6299,13 +6306,6 @@
       "source": "WSJ경제",
       "url": "https://www.wsj.com/world/uk/u-k-wage-growth-picks-up-ahead-of-bank-of-england-meeting-6e4a979b?mod=rss_socialeconomyfeed",
       "published_ts": 1792481580.0,
-      "impact_high": false
-    },
-    {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/americas/albertans-vote-to-stay-in-canada-in-historic-referendum-79f86086?mod=rss_worldnews",
-      "published_ts": 1792480320.0,
       "impact_high": false
     },
     {
@@ -6337,21 +6337,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "1061398cd87d396f06c862caacd3549ab50331556c239d354fbbbfa3502d5a0d",
+  "_article_sig": "7407123c4f8d87293b50c5847d8cb378ff9a3fcd677b7ae92788349baa0fb2ad",
   "built_at_kst": "2026-10-20T07:00:39.458632+09:00",
   "futures": {
-    "as_of_kst": "2026-10-20T18:00:16.577813+09:00",
+    "as_of_kst": "2026-10-20T18:10:18.094441+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7731.75,
-        "change_pct": -0.04,
+        "point": 7731.0,
+        "change_pct": -0.05,
         "spark": [
           7740.75,
-          7733.25,
-          7735.25,
           7732.75,
           7728.5,
           7728.75,
@@ -6389,13 +6387,15 @@
           7741.5,
           7732.25,
           7731.25,
-          7731.75
+          7731.5,
+          7726.5,
+          7731.0
         ],
         "candle": {
           "o": 7740.75,
           "h": 7752.75,
           "l": 7724.0,
-          "c": 7731.75
+          "c": 7731.5
         },
         "range_240d": {
           "low": 6388.25,
@@ -8419,8 +8419,8 @@
             "o": 7740.75,
             "h": 7752.75,
             "l": 7724.0,
-            "c": 7731.75,
-            "v": 147216
+            "c": 7731.5,
+            "v": 150733
           }
         ],
         "rollover_gaps": [],
@@ -8429,11 +8429,11 @@
           "sources": [
             {
               "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/americas/albertans-vote-to-stay-in-canada-in-historic-referendum-79f86086?mod=rss_worldnews"
+              "url": "https://www.wsj.com/business/energy-oil/oil-prices-up-as-traders-weigh-middle-east-supply-risks-560c31ca?mod=rss_worldnews"
             },
             {
               "name": "WSJ세계",
-              "url": "https://www.wsj.com/business/energy-oil/oil-prices-up-as-traders-weigh-middle-east-supply-risks-560c31ca?mod=rss_worldnews"
+              "url": "https://www.wsj.com/world/americas/albertans-vote-to-stay-in-canada-in-historic-referendum-79f86086?mod=rss_worldnews"
             },
             {
               "name": "WSJ경제",
@@ -8445,12 +8445,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29610.25,
-        "change_pct": -0.38,
+        "point": 29600.5,
+        "change_pct": -0.41,
         "spark": [
           29745.5,
-          29631.25,
-          29655.25,
           29637.5,
           29600.75,
           29588.5,
@@ -8488,21 +8486,23 @@
           29673.5,
           29611.0,
           29601.5,
-          29610.25
+          29608.25,
+          29570.5,
+          29600.5
         ],
         "candle": {
           "o": 29745.5,
           "h": 29803.5,
           "l": 29576.0,
-          "c": 29610.25
+          "c": 29600.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 27.96,
-          "high_change_pct": -5.95
+          "low_change_pct": 27.92,
+          "high_change_pct": -5.98
         },
         "daily_expanded": [
           {
@@ -10518,8 +10518,8 @@
             "o": 29745.5,
             "h": 29803.5,
             "l": 29576.0,
-            "c": 29610.25,
-            "v": 108092
+            "c": 29600.5,
+            "v": 109509
           }
         ],
         "rollover_gaps": [],
@@ -10527,12 +10527,12 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/world/uk/u-k-wage-growth-picks-up-ahead-of-bank-of-england-meeting-6e4a979b?mod=rss_socialeconomyfeed"
-            },
-            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/business/energy-oil/oil-prices-up-as-traders-weigh-middle-east-supply-risks-560c31ca?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/world/uk/u-k-wage-growth-picks-up-ahead-of-bank-of-england-meeting-6e4a979b?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ",
@@ -10544,12 +10544,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52314.0,
+        "point": 52311.0,
         "change_pct": 0.25,
         "spark": [
           52238.0,
-          52269.0,
-          52268.0,
           52253.0,
           52238.0,
           52253.0,
@@ -10587,21 +10585,23 @@
           52364.0,
           52311.0,
           52317.0,
-          52314.0
+          52311.0,
+          52280.0,
+          52311.0
         ],
         "candle": {
           "o": 52238.0,
           "h": 52413.0,
           "l": 52197.0,
-          "c": 52316.0
+          "c": 52301.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.17,
-          "high_change_pct": -4.0
+          "low_change_pct": 15.14,
+          "high_change_pct": -4.02
         },
         "daily_expanded": [
           {
@@ -12617,8 +12617,8 @@
             "o": 52238.0,
             "h": 52413.0,
             "l": 52197.0,
-            "c": 52316.0,
-            "v": 10351
+            "c": 52301.0,
+            "v": 10640
           }
         ],
         "rollover_gaps": [],
@@ -12626,12 +12626,12 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/world/uk/u-k-wage-growth-picks-up-ahead-of-bank-of-england-meeting-6e4a979b?mod=rss_socialeconomyfeed"
-            },
-            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/business/energy-oil/oil-prices-up-as-traders-weigh-middle-east-supply-risks-560c31ca?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/world/uk/u-k-wage-growth-picks-up-ahead-of-bank-of-england-meeting-6e4a979b?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ경제",
@@ -12643,18 +12643,18 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-10-20T18:00:34.985878+09:00",
+  "intraday_refreshed_kst": "2026-10-20T18:10:54.378639+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/world/uk/u-k-wage-growth-picks-up-ahead-of-bank-of-england-meeting-6e4a979b?mod=rss_socialeconomyfeed"
-        },
-        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/business/energy-oil/oil-prices-up-as-traders-weigh-middle-east-supply-risks-560c31ca?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/world/uk/u-k-wage-growth-picks-up-ahead-of-bank-of-england-meeting-6e4a979b?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ",
@@ -12667,11 +12667,11 @@
       "sources": [
         {
           "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/americas/albertans-vote-to-stay-in-canada-in-historic-referendum-79f86086?mod=rss_worldnews"
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-up-as-traders-weigh-middle-east-supply-risks-560c31ca?mod=rss_worldnews"
         },
         {
           "name": "WSJ세계",
-          "url": "https://www.wsj.com/business/energy-oil/oil-prices-up-as-traders-weigh-middle-east-supply-risks-560c31ca?mod=rss_worldnews"
+          "url": "https://www.wsj.com/world/americas/albertans-vote-to-stay-in-canada-in-historic-referendum-79f86086?mod=rss_worldnews"
         },
         {
           "name": "WSJ경제",
@@ -12683,12 +12683,12 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/world/uk/u-k-wage-growth-picks-up-ahead-of-bank-of-england-meeting-6e4a979b?mod=rss_socialeconomyfeed"
-        },
-        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/business/energy-oil/oil-prices-up-as-traders-weigh-middle-east-supply-risks-560c31ca?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/world/uk/u-k-wage-growth-picks-up-ahead-of-bank-of-england-meeting-6e4a979b?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ경제",
