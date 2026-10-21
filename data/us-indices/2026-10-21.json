@@ -6250,7 +6250,7 @@
         52455.96,
         52461.11,
         52500.12,
-        52495.88
+        52495.9
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6273,6 +6273,13 @@
     }
   ],
   "news_chips": [
+    {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/202610214857i",
+      "published_ts": 1792552082.0,
+      "impact_high": true
+    },
     {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ세계",
@@ -6302,31 +6309,24 @@
       "impact_high": true
     },
     {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/nyse-is-getting-trounced-in-the-battle-for-wall-streets-biggest-ipos-048e3b94?mod=rss_markets_main",
-      "published_ts": 1792548000.0,
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/202610214689i",
+      "published_ts": 1792551738.0,
       "impact_high": false
     },
     {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/20/car-buyers-china-tech-price-europe.html",
-      "published_ts": 1792544461.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/europe/airfield-attack-marked-opening-shot-in-putins-sabotage-campaign-against-europe-115dedd4?mod=rss_worldnews",
-      "published_ts": 1792544400.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "한경국제",
-      "url": "https://www.hankyung.com/article/202610214521i",
-      "published_ts": 1792542054.0,
+      "url": "https://www.hankyung.com/article/202610214760i",
+      "published_ts": 1792549528.0,
+      "impact_high": false
+    },
+    {
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/stocks/nyse-is-getting-trounced-in-the-battle-for-wall-streets-biggest-ipos-048e3b94?mod=rss_markets_main",
+      "published_ts": 1792548000.0,
       "impact_high": false
     },
     {
@@ -6337,20 +6337,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "0b8723a948ea9ddfb7984aca4de3ff7b0613ed75b0773d4394733c171ff89ac7",
+  "_article_sig": "1b9114f62aca27ae569b9b260240703bab5778cc386b80cd4040a8c6d9c82e88",
   "built_at_kst": "2026-10-21T07:01:33.286695+09:00",
   "futures": {
-    "as_of_kst": "2026-10-21T12:00:21.104228+09:00",
+    "as_of_kst": "2026-10-21T12:10:17.854922+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7780.5,
-        "change_pct": 0.33,
+        "point": 7782.0,
+        "change_pct": 0.34,
         "spark": [
           7785.0,
-          7773.75,
           7775.75,
           7775.75,
           7775.0,
@@ -6388,22 +6387,23 @@
           7780.0,
           7781.25,
           7780.5,
-          7780.0,
-          7780.5
+          7782.0,
+          7782.0,
+          7782.0
         ],
         "candle": {
           "o": 7785.0,
           "h": 7793.0,
           "l": 7769.0,
-          "c": 7780.5
+          "c": 7782.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 21.79,
-          "high_change_pct": -1.19
+          "low_change_pct": 21.82,
+          "high_change_pct": -1.17
         },
         "daily_expanded": [
           {
@@ -8419,8 +8419,8 @@
             "o": 7785.0,
             "h": 7793.0,
             "l": 7769.0,
-            "c": 7780.5,
-            "v": 60721
+            "c": 7782.25,
+            "v": 61906
           }
         ],
         "rollover_gaps": [],
@@ -8445,12 +8445,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29976.25,
-        "change_pct": 1.01,
+        "point": 29968.25,
+        "change_pct": 0.99,
         "spark": [
           29925.0,
-          29881.0,
-          29906.5,
           29907.5,
           29904.25,
           29867.0,
@@ -8487,22 +8485,24 @@
           29974.5,
           29983.5,
           29978.25,
-          29970.75,
-          29976.25
+          29975.25,
+          29970.5,
+          29974.5,
+          29968.25
         ],
         "candle": {
           "o": 29925.0,
           "h": 30010.25,
           "l": 29845.75,
-          "c": 29976.25
+          "c": 29970.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 29.54,
-          "high_change_pct": -4.79
+          "low_change_pct": 29.52,
+          "high_change_pct": -4.81
         },
         "daily_expanded": [
           {
@@ -10526,8 +10526,8 @@
             "o": 29925.0,
             "h": 30010.25,
             "l": 29845.75,
-            "c": 29976.25,
-            "v": 65143
+            "c": 29970.0,
+            "v": 65931
           }
         ],
         "rollover_gaps": [],
@@ -10535,16 +10535,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/202610214689i"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/nyse-is-getting-trounced-in-the-battle-for-wall-streets-biggest-ipos-048e3b94?mod=rss_markets_main"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/10/20/car-buyers-china-tech-price-europe.html"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/europe/airfield-attack-marked-opening-shot-in-putins-sabotage-campaign-against-europe-115dedd4?mod=rss_worldnews"
             }
           ]
         }
@@ -10552,12 +10552,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52701.0,
-        "change_pct": -0.03,
+        "point": 52723.0,
+        "change_pct": 0.01,
         "spark": [
           52792.0,
-          52743.0,
-          52737.0,
           52733.0,
           52726.0,
           52710.0,
@@ -10594,22 +10592,24 @@
           52689.0,
           52696.0,
           52699.0,
-          52703.0,
-          52701.0
+          52721.0,
+          52719.0,
+          52719.0,
+          52723.0
         ],
         "candle": {
           "o": 52792.0,
           "h": 52826.0,
           "l": 52660.0,
-          "c": 52701.0
+          "c": 52723.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 16.02,
-          "high_change_pct": -3.29
+          "low_change_pct": 16.07,
+          "high_change_pct": -3.25
         },
         "daily_expanded": [
           {
@@ -12625,8 +12625,8 @@
             "o": 52792.0,
             "h": 52826.0,
             "l": 52660.0,
-            "c": 52701.0,
-            "v": 4818
+            "c": 52723.0,
+            "v": 4954
           }
         ],
         "rollover_gaps": [],
@@ -12651,11 +12651,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-10-21T12:00:37.437488+09:00",
+  "intraday_refreshed_kst": "2026-10-21T12:11:09.086679+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/202610214689i"
+        },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/nyse-is-getting-trounced-in-the-battle-for-wall-streets-biggest-ipos-048e3b94?mod=rss_markets_main"
@@ -12663,10 +12667,6 @@
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/10/20/car-buyers-china-tech-price-europe.html"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/europe/airfield-attack-marked-opening-shot-in-putins-sabotage-campaign-against-europe-115dedd4?mod=rss_worldnews"
         }
       ]
     },
