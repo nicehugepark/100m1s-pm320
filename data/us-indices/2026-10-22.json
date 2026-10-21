@@ -6311,8 +6311,8 @@
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026102273007",
-      "published_ts": 1792617259.0,
+      "url": "https://www.hankyung.com/article/2026102273637",
+      "published_ts": 1792620660.0,
       "impact_high": false
     },
     {
@@ -6330,21 +6330,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "d212c3dbe877327e64e420ef8878158b0e141ad2625954f0251931128a2f2467",
+  "_article_sig": "d010c6bb37e138b624cfb3113424f3038880609dbb1785f70bd1731ff6bc453b",
   "built_at_kst": "2026-10-22T07:02:02.364745+09:00",
   "futures": {
-    "as_of_kst": "2026-10-22T07:20:09.904875+09:00",
+    "as_of_kst": "2026-10-22T07:30:16.251202+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7783.25,
-        "change_pct": -0.22,
+        "point": 7777.0,
+        "change_pct": -0.3,
         "spark": [
           7797.0,
-          7805.25,
-          7804.75,
           7806.25,
           7807.5,
           7810.0,
@@ -6382,21 +6380,23 @@
           7800.25,
           7784.75,
           7783.25,
-          7783.25
+          7782.5,
+          7777.0,
+          7777.0
         ],
         "candle": {
           "o": 7797.0,
           "h": 7798.75,
-          "l": 7781.75,
-          "c": 7783.5
+          "l": 7775.75,
+          "c": 7777.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 21.84,
-          "high_change_pct": -1.15
+          "low_change_pct": 21.74,
+          "high_change_pct": -1.23
         },
         "daily_expanded": [
           {
@@ -8403,23 +8403,37 @@
             "date": "2026-10-21",
             "o": 7797.0,
             "h": 7798.75,
-            "l": 7781.75,
-            "c": 7783.5,
-            "v": 3827
+            "l": 7775.75,
+            "c": 7777.0,
+            "v": 5699
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/diplomats-race-to-head-off-escalation-with-iran-4dd00ab4?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/americas/canada-to-provide-steel-auto-sectors-with-billions-to-ease-trade-crunch-c4b5ae1a?mod=rss_worldnews"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html"
+            }
+          ]
+        }
       },
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29903.25,
-        "change_pct": -0.35,
+        "point": 29858.5,
+        "change_pct": -0.49,
         "spark": [
           29984.0,
-          30049.75,
-          30053.5,
-          30062.5,
           30060.5,
           30079.75,
           30073.25,
@@ -8456,21 +8470,24 @@
           30023.75,
           29913.25,
           29903.5,
-          29903.25
+          29902.0,
+          29858.0,
+          29847.25,
+          29858.5
         ],
         "candle": {
           "o": 29984.0,
           "h": 29993.25,
-          "l": 29888.0,
-          "c": 29905.5
+          "l": 29845.5,
+          "c": 29857.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 29.24,
-          "high_change_pct": -5.01
+          "low_change_pct": 29.03,
+          "high_change_pct": -5.17
         },
         "daily_expanded": [
           {
@@ -10485,23 +10502,37 @@
             "date": "2026-10-21",
             "o": 29984.0,
             "h": 29993.25,
-            "l": 29888.0,
-            "c": 29905.5,
-            "v": 2919
+            "l": 29845.5,
+            "c": 29857.0,
+            "v": 5301
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/spacex-anthropic-and-nvidia-help-snap-tech-stocks-out-of-their-recent-malaise-66e1693c?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/americas/canada-to-provide-steel-auto-sectors-with-billions-to-ease-trade-crunch-c4b5ae1a?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/africa/nine-ebola-cases-have-kenya-holding-its-breath-73b5cfc1?mod=rss_worldnews"
+            }
+          ]
+        }
       },
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53000.0,
-        "change_pct": -0.11,
+        "point": 52984.0,
+        "change_pct": -0.14,
         "spark": [
           53085.0,
-          52998.0,
-          52996.0,
-          53003.0,
           53016.0,
           53021.0,
           53023.0,
@@ -10538,21 +10569,24 @@
           53106.0,
           53012.0,
           53000.0,
-          53000.0
+          52987.0,
+          52979.0,
+          52983.0,
+          52984.0
         ],
         "candle": {
           "o": 53085.0,
           "h": 53085.0,
-          "l": 52972.0,
-          "c": 53000.0
+          "l": 52971.0,
+          "c": 52984.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 16.68,
-          "high_change_pct": -2.74
+          "low_change_pct": 16.64,
+          "high_change_pct": -2.77
         },
         "daily_expanded": [
           {
@@ -12559,15 +12593,85 @@
             "date": "2026-10-21",
             "o": 53085.0,
             "h": 53085.0,
-            "l": 52972.0,
-            "c": 53000.0,
-            "v": 446
+            "l": 52971.0,
+            "c": 52984.0,
+            "v": 685
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+          "sources": [
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/americas/canada-to-provide-steel-auto-sectors-with-billions-to-ease-trade-crunch-c4b5ae1a?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/politics/congressional-candidate-brad-lander-says-israeli-military-detained-him-in-west-bank-92a24ce8?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/elon-musks-starlink-speed-cap-has-scrambled-ukraines-defenses-fdfd936e?mod=rss_worldnews"
+            }
+          ]
+        }
       }
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-10-22T07:20:21.758015+09:00"
+  "intraday_refreshed_kst": "2026-10-22T07:31:57.805881+09:00",
+  "_futures_news": {
+    "NASDAQ": {
+      "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/spacex-anthropic-and-nvidia-help-snap-tech-stocks-out-of-their-recent-malaise-66e1693c?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/americas/canada-to-provide-steel-auto-sectors-with-billions-to-ease-trade-crunch-c4b5ae1a?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/africa/nine-ebola-cases-have-kenya-holding-its-breath-73b5cfc1?mod=rss_worldnews"
+        }
+      ]
+    },
+    "S&P500": {
+      "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/diplomats-race-to-head-off-escalation-with-iran-4dd00ab4?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/americas/canada-to-provide-steel-auto-sectors-with-billions-to-ease-trade-crunch-c4b5ae1a?mod=rss_worldnews"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html"
+        }
+      ]
+    },
+    "DOW": {
+      "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+      "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/americas/canada-to-provide-steel-auto-sectors-with-billions-to-ease-trade-crunch-c4b5ae1a?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/politics/congressional-candidate-brad-lander-says-israeli-military-detained-him-in-west-bank-92a24ce8?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/elon-musks-starlink-speed-cap-has-scrambled-ukraines-defenses-fdfd936e?mod=rss_worldnews"
+        }
+      ]
+    }
+  }
 }
