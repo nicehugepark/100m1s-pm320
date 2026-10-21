@@ -6274,6 +6274,20 @@
   ],
   "news_chips": [
     {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/stocks/healthcare-stocks-are-rallying-and-flashing-a-warning-for-the-rest-of-the-market-ae13aa0b?mod=rss_markets_main",
+      "published_ts": 1792575000.0,
+      "impact_high": true
+    },
+    {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/bank-indonesia-holds-key-rate-as-msci-downgrade-threat-weighs-on-markets-6045f668?mod=rss_socialeconomyfeed",
+      "published_ts": 1792574160.0,
+      "impact_high": true
+    },
+    {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-21-2026?mod=rss_markets_main",
@@ -6302,20 +6316,6 @@
       "impact_high": false
     },
     {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026102167571",
-      "published_ts": 1792571854.0,
-      "impact_high": false
-    },
-    {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/202610215832i",
-      "published_ts": 1792557953.0,
-      "impact_high": false
-    },
-    {
       "summary": "전력·유틸리티 투자와 인프라 수요가 방어주와 산업재 관심을 확대하는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/202610215770i",
@@ -6337,22 +6337,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "f86543520791173ce57b193b41a60ab32f42cded24e8defd4b0b9d56c4f52a97",
+  "_article_sig": "2e877ff8742da9fec00132400532cbaccfbd54953d9370b8700670657b36be9f",
   "built_at_kst": "2026-10-21T07:01:33.286695+09:00",
   "futures": {
-    "as_of_kst": "2026-10-21T18:30:18.156223+09:00",
+    "as_of_kst": "2026-10-21T18:40:20.918865+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7766.5,
-        "change_pct": 0.15,
+        "point": 7770.25,
+        "change_pct": 0.19,
         "spark": [
           7785.0,
-          7774.75,
-          7772.75,
-          7772.5,
           7772.25,
           7771.5,
           7773.5,
@@ -6389,21 +6386,24 @@
           7761.75,
           7764.0,
           7763.75,
-          7766.5
+          7766.5,
+          7770.25,
+          7776.5,
+          7770.25
         ],
         "candle": {
           "o": 7785.0,
           "h": 7793.0,
           "l": 7757.0,
-          "c": 7763.75
+          "c": 7770.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 21.53,
-          "high_change_pct": -1.4
+          "low_change_pct": 21.64,
+          "high_change_pct": -1.31
         },
         "daily_expanded": [
           {
@@ -8411,8 +8411,8 @@
             "o": 7785.0,
             "h": 7793.0,
             "l": 7757.0,
-            "c": 7763.75,
-            "v": 146253
+            "c": 7770.5,
+            "v": 149292
           }
         ],
         "rollover_gaps": [],
@@ -8421,15 +8421,15 @@
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-21-2026?mod=rss_markets_main"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html"
+              "url": "https://www.wsj.com/finance/stocks/healthcare-stocks-are-rallying-and-flashing-a-warning-for-the-rest-of-the-market-ae13aa0b?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/bank-indonesia-holds-key-rate-as-msci-downgrade-threat-weighs-on-markets-6045f668?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-21-2026?mod=rss_markets_main"
             }
           ]
         }
@@ -8437,13 +8437,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29796.25,
-        "change_pct": 0.41,
+        "point": 29819.25,
+        "change_pct": 0.49,
         "spark": [
           29925.0,
-          29865.0,
-          29843.75,
-          29833.5,
           29824.0,
           29820.5,
           29849.0,
@@ -8480,21 +8477,24 @@
           29775.75,
           29788.25,
           29785.5,
-          29796.25
+          29796.25,
+          29814.25,
+          29852.75,
+          29819.25
         ],
         "candle": {
           "o": 29925.0,
           "h": 30010.25,
           "l": 29731.75,
-          "c": 29784.0
+          "c": 29820.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 28.71,
-          "high_change_pct": -5.4
+          "low_change_pct": 28.87,
+          "high_change_pct": -5.28
         },
         "daily_expanded": [
           {
@@ -10510,8 +10510,8 @@
             "o": 29925.0,
             "h": 30010.25,
             "l": 29731.75,
-            "c": 29784.0,
-            "v": 120622
+            "c": 29820.0,
+            "v": 122289
           }
         ],
         "rollover_gaps": [],
@@ -10520,15 +10520,15 @@
           "sources": [
             {
               "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/healthcare-stocks-are-rallying-and-flashing-a-warning-for-the-rest-of-the-market-ae13aa0b?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/bank-indonesia-holds-key-rate-as-msci-downgrade-threat-weighs-on-markets-6045f668?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-21-2026?mod=rss_markets_main"
-            },
-            {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/2026102167571"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/ukraine-starlink-elon-musk-trump-dbc49193?mod=rss_worldnews"
             }
           ]
         }
@@ -10536,12 +10536,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52665.0,
-        "change_pct": -0.1,
+        "point": 52701.0,
+        "change_pct": -0.03,
         "spark": [
           52792.0,
-          52740.0,
-          52757.0,
           52762.0,
           52752.0,
           52755.0,
@@ -10579,21 +10577,23 @@
           52673.0,
           52673.0,
           52688.0,
-          52665.0
+          52707.0,
+          52755.0,
+          52701.0
         ],
         "candle": {
           "o": 52792.0,
           "h": 52826.0,
           "l": 52620.0,
-          "c": 52665.0
+          "c": 52702.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.94,
-          "high_change_pct": -3.36
+          "low_change_pct": 16.02,
+          "high_change_pct": -3.29
         },
         "daily_expanded": [
           {
@@ -12601,8 +12601,8 @@
             "o": 52792.0,
             "h": 52826.0,
             "l": 52620.0,
-            "c": 52665.0,
-            "v": 13158
+            "c": 52702.0,
+            "v": 13423
           }
         ],
         "rollover_gaps": [],
@@ -12610,12 +12610,12 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/ukraine-starlink-elon-musk-trump-dbc49193?mod=rss_worldnews"
-            },
-            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/bank-indonesia-holds-key-rate-as-msci-downgrade-threat-weighs-on-markets-6045f668?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/ukraine-starlink-elon-musk-trump-dbc49193?mod=rss_worldnews"
             },
             {
               "name": "WSJ경제",
@@ -12627,22 +12627,22 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-10-21T18:30:34.591147+09:00",
+  "intraday_refreshed_kst": "2026-10-21T18:41:31.230069+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
           "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/healthcare-stocks-are-rallying-and-flashing-a-warning-for-the-rest-of-the-market-ae13aa0b?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/bank-indonesia-holds-key-rate-as-msci-downgrade-threat-weighs-on-markets-6045f668?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-21-2026?mod=rss_markets_main"
-        },
-        {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/2026102167571"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/ukraine-starlink-elon-musk-trump-dbc49193?mod=rss_worldnews"
         }
       ]
     },
@@ -12651,15 +12651,15 @@
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-21-2026?mod=rss_markets_main"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html"
+          "url": "https://www.wsj.com/finance/stocks/healthcare-stocks-are-rallying-and-flashing-a-warning-for-the-rest-of-the-market-ae13aa0b?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/bank-indonesia-holds-key-rate-as-msci-downgrade-threat-weighs-on-markets-6045f668?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-21-2026?mod=rss_markets_main"
         }
       ]
     },
@@ -12667,12 +12667,12 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/ukraine-starlink-elon-musk-trump-dbc49193?mod=rss_worldnews"
-        },
-        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/bank-indonesia-holds-key-rate-as-msci-downgrade-threat-weighs-on-markets-6045f668?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/ukraine-starlink-elon-musk-trump-dbc49193?mod=rss_worldnews"
         },
         {
           "name": "WSJ경제",
