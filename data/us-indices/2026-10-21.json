@@ -6277,7 +6277,7 @@
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/russia/russia-releases-captured-american-in-sign-of-warming-ties-d8acccaa?mod=rss_worldnews",
-      "published_ts": 1792576740.0,
+      "published_ts": 1792581900.0,
       "impact_high": true
     },
     {
@@ -6286,6 +6286,13 @@
       "url": "https://www.wsj.com/economy/central-banking/u-k-inflation-jumps-again-on-energy-costs-e2bd9d85?mod=rss_socialeconomyfeed",
       "published_ts": 1792576200.0,
       "impact_high": true
+    },
+    {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/europe/rioting-in-france-whats-fueling-the-violence-and-what-happens-next-87f18199?mod=rss_worldnews",
+      "published_ts": 1792582920.0,
+      "impact_high": false
     },
     {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
@@ -6306,13 +6313,6 @@
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/musk-ordered-starlink-slowdown-that-crippled-ukraines-drones-and-sowed-panic-in-kyiv-f907aab0?mod=rss_worldnews",
       "published_ts": 1792576020.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026102168131",
-      "published_ts": 1792573552.0,
       "impact_high": false
     },
     {
@@ -6337,20 +6337,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "79ca35b7cd59f9f5ca1faeb09e42ae7128a0354f68fbc8655012e8a01379f29c",
+  "_article_sig": "20239811a7e2dd50b5e2dd1a7f57cb3dee250410b258cdb5aa421e406397df08",
   "built_at_kst": "2026-10-21T07:01:33.286695+09:00",
   "futures": {
-    "as_of_kst": "2026-10-21T20:40:13.455278+09:00",
+    "as_of_kst": "2026-10-21T20:50:15.054633+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7776.0,
-        "change_pct": 0.27,
+        "point": 7774.25,
+        "change_pct": 0.24,
         "spark": [
           7785.0,
-          7772.0,
           7772.75,
           7767.0,
           7763.25,
@@ -6389,21 +6388,22 @@
           7775.5,
           7776.0,
           7775.5,
-          7776.0
+          7773.0,
+          7774.25
         ],
         "candle": {
           "o": 7785.0,
           "h": 7793.0,
           "l": 7757.0,
-          "c": 7776.25
+          "c": 7772.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 21.73,
-          "high_change_pct": -1.24
+          "low_change_pct": 21.67,
+          "high_change_pct": -1.29
         },
         "daily_expanded": [
           {
@@ -8411,8 +8411,8 @@
             "o": 7785.0,
             "h": 7793.0,
             "l": 7757.0,
-            "c": 7776.25,
-            "v": 193211
+            "c": 7772.5,
+            "v": 199457
           }
         ],
         "rollover_gaps": [],
@@ -8420,16 +8420,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/u-k-inflation-jumps-again-on-energy-costs-e2bd9d85?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/healthcare-stocks-are-rallying-and-flashing-a-warning-for-the-rest-of-the-market-ae13aa0b?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/bank-indonesia-holds-key-rate-as-msci-downgrade-threat-weighs-on-markets-6045f668?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8437,13 +8437,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29872.25,
-        "change_pct": 0.66,
+        "point": 29855.0,
+        "change_pct": 0.61,
         "spark": [
           29925.0,
-          29873.5,
-          29896.0,
-          29885.75,
           29832.5,
           29795.75,
           29809.75,
@@ -8480,21 +8477,24 @@
           29853.5,
           29856.5,
           29874.25,
-          29872.25
+          29872.25,
+          29856.25,
+          29867.25,
+          29855.0
         ],
         "candle": {
           "o": 29925.0,
           "h": 30010.25,
           "l": 29727.5,
-          "c": 29881.5
+          "c": 29854.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 29.13,
-          "high_change_pct": -5.09
+          "low_change_pct": 29.02,
+          "high_change_pct": -5.17
         },
         "daily_expanded": [
           {
@@ -10510,8 +10510,8 @@
             "o": 29925.0,
             "h": 30010.25,
             "l": 29727.5,
-            "c": 29881.5,
-            "v": 143359
+            "c": 29854.5,
+            "v": 146030
           }
         ],
         "rollover_gaps": [],
@@ -10520,11 +10520,11 @@
           "sources": [
             {
               "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/asia/chinese-ai-tool-linked-to-hacks-in-japan-4813d13b?mod=rss_worldnews"
+              "url": "https://www.wsj.com/world/russia/russia-releases-captured-american-in-sign-of-warming-ties-d8acccaa?mod=rss_worldnews"
             },
             {
               "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/russia/russia-releases-captured-american-in-sign-of-warming-ties-d8acccaa?mod=rss_worldnews"
+              "url": "https://www.wsj.com/world/asia/chinese-ai-tool-linked-to-hacks-in-japan-4813d13b?mod=rss_worldnews"
             },
             {
               "name": "WSJ경제",
@@ -10536,12 +10536,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52779.0,
-        "change_pct": 0.11,
+        "point": 52764.0,
+        "change_pct": 0.09,
         "spark": [
           52792.0,
-          52716.0,
-          52735.0,
           52710.0,
           52686.0,
           52682.0,
@@ -10579,21 +10577,23 @@
           52772.0,
           52773.0,
           52772.0,
-          52779.0
+          52772.0,
+          52781.0,
+          52764.0
         ],
         "candle": {
           "o": 52792.0,
           "h": 52826.0,
           "l": 52620.0,
-          "c": 52779.0
+          "c": 52764.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 16.19,
-          "high_change_pct": -3.15
+          "low_change_pct": 16.16,
+          "high_change_pct": -3.17
         },
         "daily_expanded": [
           {
@@ -12601,8 +12601,8 @@
             "o": 52792.0,
             "h": 52826.0,
             "l": 52620.0,
-            "c": 52779.0,
-            "v": 16280
+            "c": 52764.0,
+            "v": 16929
           }
         ],
         "rollover_gaps": [],
@@ -12627,18 +12627,18 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-10-21T20:40:24.410095+09:00",
+  "intraday_refreshed_kst": "2026-10-21T20:51:07.332548+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
           "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/asia/chinese-ai-tool-linked-to-hacks-in-japan-4813d13b?mod=rss_worldnews"
+          "url": "https://www.wsj.com/world/russia/russia-releases-captured-american-in-sign-of-warming-ties-d8acccaa?mod=rss_worldnews"
         },
         {
           "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/russia/russia-releases-captured-american-in-sign-of-warming-ties-d8acccaa?mod=rss_worldnews"
+          "url": "https://www.wsj.com/world/asia/chinese-ai-tool-linked-to-hacks-in-japan-4813d13b?mod=rss_worldnews"
         },
         {
           "name": "WSJ경제",
@@ -12650,16 +12650,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/u-k-inflation-jumps-again-on-energy-costs-e2bd9d85?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/healthcare-stocks-are-rallying-and-flashing-a-warning-for-the-rest-of-the-market-ae13aa0b?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/bank-indonesia-holds-key-rate-as-msci-downgrade-threat-weighs-on-markets-6045f668?mod=rss_socialeconomyfeed"
         }
       ]
     },
