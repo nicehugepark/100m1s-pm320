@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26029.03,
-      "change_pct": -2.52,
+      "point": 26007.6,
+      "change_pct": -2.6,
       "candle": {
         "o": 26294.81,
         "h": 26358.14,
         "l": 26003.68,
-        "c": 26029.03
+        "c": 26007.6
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,13 +2033,11 @@
           "o": 26294.81,
           "h": 26358.14,
           "l": 26003.68,
-          "c": 26029.03
+          "c": 26007.6
         }
       ],
       "spark": [
         26294.81,
-        26105.39,
-        26114.75,
         26104.18,
         26107.89,
         26128.25,
@@ -2077,7 +2075,9 @@
         26053.52,
         26062.2,
         26034.47,
-        26029.03
+        26024.19,
+        26010.0,
+        26007.6
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7653.95,
-      "change_pct": -1.33,
+      "point": 7651.26,
+      "change_pct": -1.37,
       "candle": {
         "o": 7694.62,
         "h": 7702.94,
         "l": 7646.05,
-        "c": 7653.95
+        "c": 7651.26
       },
       "range_240d": {
         "low": 6343.72,
@@ -4131,13 +4131,11 @@
           "o": 7694.62,
           "h": 7702.94,
           "l": 7646.05,
-          "c": 7653.95
+          "c": 7651.26
         }
       ],
       "spark": [
         7694.62,
-        7649.86,
-        7650.52,
         7651.25,
         7653.57,
         7658.93,
@@ -4175,7 +4173,9 @@
         7659.21,
         7660.92,
         7655.51,
-        7653.95
+        7653.56,
+        7652.58,
+        7651.26
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 52763.69,
-      "change_pct": -0.17,
+      "point": 52762.0,
+      "change_pct": -0.18,
       "candle": {
         "o": 52788.41,
         "h": 52927.88,
         "l": 52508.38,
-        "c": 52763.69
+        "c": 52762.0
       },
       "range_240d": {
         "low": 45166.64,
@@ -6229,13 +6229,11 @@
           "o": 52788.41,
           "h": 52927.88,
           "l": 52508.38,
-          "c": 52763.69
+          "c": 52762.0
         }
       ],
       "spark": [
         52788.41,
-        52526.4,
-        52549.79,
         52572.18,
         52630.97,
         52652.79,
@@ -6273,7 +6271,9 @@
         52789.85,
         52799.41,
         52778.24,
-        52763.69
+        52764.7,
+        52768.82,
+        52762.0
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6312,6 +6312,13 @@
       "impact_high": true
     },
     {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/trump-called-musk-and-asked-him-to-lift-ukraine-starlink-restrictions-5aeebc6e?mod=rss_worldnews",
+      "published_ts": 1792691940.0,
+      "impact_high": false
+    },
+    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026102398267",
@@ -6323,13 +6330,6 @@
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/eurozone-consumer-sentiment-falls-further-on-lingering-energy-shock-e3f4ddf9?mod=rss_socialeconomyfeed",
       "published_ts": 1792679640.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/22/jobless-claims-record-low-weekly.html",
-      "published_ts": 1792679290.0,
       "impact_high": false
     },
     {
@@ -6354,7 +6354,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "e95193e655a78efa66d79d2472b75424989b81f7bea35ad78a8897885749058a",
+  "_article_sig": "59e52f002ba171012740b219b33ab025dec953649c2d625dd0562e6a0940e257",
   "built_at_kst": "2026-10-22T07:02:02.364745+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6362,16 +6362,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/trump-called-musk-and-asked-him-to-lift-ukraine-starlink-restrictions-5aeebc6e?mod=rss_worldnews"
+        },
+        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/10/22/jobless-claims-record-low-weekly.html"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/canada-producer-prices-rise-again-in-september-climbing-2-for-the-month-39c694c2?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/22/trump-economic-approval-rating-midterms-poll.html"
         }
       ]
     },
@@ -6411,18 +6411,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-10-23T02:50:11.063219+09:00",
+    "as_of_kst": "2026-10-23T03:00:16.115640+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7700.25,
-        "change_pct": -1.28,
+        "point": 7694.0,
+        "change_pct": -1.36,
         "spark": [
           7797.0,
-          7690.0,
-          7690.25,
           7690.25,
           7691.25,
           7694.5,
@@ -6460,21 +6458,23 @@
           7705.0,
           7699.5,
           7701.0,
-          7700.25
+          7695.0,
+          7694.25,
+          7694.0
         ],
         "candle": {
           "o": 7797.0,
           "h": 7798.75,
           "l": 7686.0,
-          "c": 7700.25
+          "c": 7694.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 20.54,
-          "high_change_pct": -2.21
+          "low_change_pct": 20.45,
+          "high_change_pct": -2.28
         },
         "daily_expanded": [
           {
@@ -8490,8 +8490,8 @@
             "o": 7797.0,
             "h": 7798.75,
             "l": 7686.0,
-            "c": 7700.25,
-            "v": 1523972
+            "c": 7694.5,
+            "v": 1548661
           }
         ],
         "rollover_gaps": [],
@@ -8516,13 +8516,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29215.5,
-        "change_pct": -2.64,
+        "point": 29184.0,
+        "change_pct": -2.74,
         "spark": [
           29984.0,
-          29359.0,
-          29309.5,
-          29295.75,
           29297.0,
           29283.75,
           29291.0,
@@ -8559,21 +8556,24 @@
           29209.75,
           29234.5,
           29215.5,
-          29215.5
+          29228.0,
+          29187.5,
+          29180.75,
+          29184.0
         ],
         "candle": {
           "o": 29984.0,
           "h": 29993.25,
           "l": 29135.5,
-          "c": 29222.0
+          "c": 29184.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 26.28,
-          "high_change_pct": -7.18
+          "low_change_pct": 26.12,
+          "high_change_pct": -7.3
         },
         "daily_expanded": [
           {
@@ -10589,8 +10589,8 @@
             "o": 29984.0,
             "h": 29993.25,
             "l": 29135.5,
-            "c": 29222.0,
-            "v": 623150
+            "c": 29184.25,
+            "v": 629732
           }
         ],
         "rollover_gaps": [],
@@ -10598,16 +10598,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/trump-called-musk-and-asked-him-to-lift-ukraine-starlink-restrictions-5aeebc6e?mod=rss_worldnews"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/10/22/jobless-claims-record-low-weekly.html"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/canada-producer-prices-rise-again-in-september-climbing-2-for-the-month-39c694c2?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/10/22/trump-economic-approval-rating-midterms-poll.html"
             }
           ]
         }
@@ -10615,12 +10615,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53003.0,
-        "change_pct": -0.11,
+        "point": 52967.0,
+        "change_pct": -0.17,
         "spark": [
           53085.0,
-          52734.0,
-          52723.0,
           52745.0,
           52765.0,
           52836.0,
@@ -10658,21 +10656,23 @@
           53032.0,
           53000.0,
           53008.0,
-          53003.0
+          52978.0,
+          52973.0,
+          52967.0
         ],
         "candle": {
           "o": 53085.0,
           "h": 53130.0,
           "l": 52644.0,
-          "c": 53003.0
+          "c": 52968.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 16.69,
-          "high_change_pct": -2.74
+          "low_change_pct": 16.61,
+          "high_change_pct": -2.8
         },
         "daily_expanded": [
           {
@@ -12688,8 +12688,8 @@
             "o": 53085.0,
             "h": 53130.0,
             "l": 52644.0,
-            "c": 53003.0,
-            "v": 83772
+            "c": 52968.0,
+            "v": 84332
           }
         ],
         "rollover_gaps": [],
@@ -12713,5 +12713,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-10-23T02:50:21.265417+09:00"
+  "intraday_refreshed_kst": "2026-10-23T03:01:58.465976+09:00"
 }
