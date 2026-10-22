@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26273.34,
-      "change_pct": -1.61,
+      "point": 26226.66,
+      "change_pct": -1.78,
       "candle": {
         "o": 26294.81,
         "h": 26358.14,
-        "l": 26229.83,
-        "c": 26273.34
+        "l": 26212.43,
+        "c": 26226.66
       },
       "range_240d": {
         "low": 20794.64,
@@ -2032,8 +2032,8 @@
           "date": "2026-10-22",
           "o": 26294.81,
           "h": 26358.14,
-          "l": 26229.83,
-          "c": 26273.34
+          "l": 26212.43,
+          "c": 26226.66
         }
       ],
       "spark": [
@@ -2045,8 +2045,10 @@
         26270.36,
         26312.38,
         26326.59,
-        26283.39,
-        26273.34
+        26273.34,
+        26240.38,
+        26233.22,
+        26226.66
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2070,13 +2072,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7686.92,
-      "change_pct": -0.91,
+      "point": 7680.77,
+      "change_pct": -0.98,
       "candle": {
         "o": 7694.62,
         "h": 7702.94,
-        "l": 7678.46,
-        "c": 7686.92
+        "l": 7676.64,
+        "c": 7680.77
       },
       "range_240d": {
         "low": 6343.72,
@@ -4099,8 +4101,8 @@
           "date": "2026-10-22",
           "o": 7694.62,
           "h": 7702.94,
-          "l": 7678.46,
-          "c": 7686.92
+          "l": 7676.64,
+          "c": 7680.77
         }
       ],
       "spark": [
@@ -4113,7 +4115,9 @@
         7695.96,
         7699.6,
         7687.31,
-        7686.92
+        7682.23,
+        7682.26,
+        7680.77
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4137,13 +4141,13 @@
     },
     {
       "name": "DOW",
-      "point": 52732.52,
-      "change_pct": -0.23,
+      "point": 52749.76,
+      "change_pct": -0.2,
       "candle": {
         "o": 52788.41,
         "h": 52813.37,
         "l": 52531.4,
-        "c": 52732.52
+        "c": 52749.76
       },
       "range_240d": {
         "low": 45166.64,
@@ -6167,7 +6171,7 @@
           "o": 52788.41,
           "h": 52813.37,
           "l": 52531.4,
-          "c": 52732.52
+          "c": 52749.76
         }
       ],
       "spark": [
@@ -6180,7 +6184,9 @@
         52798.71,
         52793.08,
         52726.62,
-        52732.52
+        52778.98,
+        52763.78,
+        52749.76
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6226,6 +6232,20 @@
       "impact_high": true
     },
     {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/blackstones-core-businesses-hit-by-rising-rates-9a6a39cb?mod=rss_markets_main",
+      "published_ts": 1792678260.0,
+      "impact_high": false
+    },
+    {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/22/jobless-claims-record-low-weekly.html",
+      "published_ts": 1792677502.0,
+      "impact_high": false
+    },
+    {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/commodities-futures/with-disruption-on-every-side-food-markets-are-somehow-eerily-quiet-c60ed033?mod=rss_markets_main",
@@ -6238,43 +6258,21 @@
       "url": "https://www.wsj.com/economy/central-banking/canada-producer-prices-rise-again-in-september-climbing-2-for-the-month-39c694c2?mod=rss_socialeconomyfeed",
       "published_ts": 1792675380.0,
       "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/22/jobless-claims-record-low-weekly.html",
-      "published_ts": 1792675287.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/tech/spacex-takes-conglomerate-building-to-sci-fi-extremes-0dd612ab?mod=rss_markets_main",
-      "published_ts": 1792674960.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 고용 지표가 경기 둔화와 임금 압력 해석을 동시에 키우는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/private-credit-retail-investors-festival-c550f07b?mod=rss_markets_main",
-      "published_ts": 1792630800.0,
-      "impact_high": false
     }
   ],
-  "_article_sig": "76562ea33d3d0198296a698acd4d91311e4f0a1f838dd8717751d9a906fb7225",
+  "_article_sig": "78743af6b24490a3b2deef6428a2d573149c9d8ba2f3acc363ac02f14ecc1114",
   "built_at_kst": "2026-10-22T07:02:02.364745+09:00",
   "futures": {
-    "as_of_kst": "2026-10-22T23:10:12.711016+09:00",
+    "as_of_kst": "2026-10-22T23:20:10.313789+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7735.75,
-        "change_pct": -0.83,
+        "point": 7726.75,
+        "change_pct": -0.94,
         "spark": [
           7797.0,
-          7721.5,
           7722.25,
           7720.0,
           7719.5,
@@ -6313,21 +6311,22 @@
           7727.5,
           7736.75,
           7739.5,
-          7735.75
+          7727.0,
+          7726.75
         ],
         "candle": {
           "o": 7797.0,
           "h": 7798.75,
           "l": 7710.25,
-          "c": 7736.0
+          "c": 7727.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 21.1,
-          "high_change_pct": -1.75
+          "low_change_pct": 20.96,
+          "high_change_pct": -1.87
         },
         "daily_expanded": [
           {
@@ -8343,8 +8342,8 @@
             "o": 7797.0,
             "h": 7798.75,
             "l": 7710.25,
-            "c": 7736.0,
-            "v": 560281
+            "c": 7727.0,
+            "v": 614007
           }
         ],
         "rollover_gaps": [],
@@ -8369,12 +8368,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29534.0,
-        "change_pct": -1.58,
+        "point": 29504.75,
+        "change_pct": -1.67,
         "spark": [
           29984.0,
-          29508.75,
-          29514.0,
           29495.75,
           29491.5,
           29473.25,
@@ -8412,21 +8409,23 @@
           29502.75,
           29542.5,
           29558.5,
-          29534.0
+          29500.5,
+          29459.75,
+          29504.75
         ],
         "candle": {
           "o": 29984.0,
           "h": 29993.25,
           "l": 29417.0,
-          "c": 29534.0
+          "c": 29503.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 27.63,
-          "high_change_pct": -6.19
+          "low_change_pct": 27.5,
+          "high_change_pct": -6.29
         },
         "daily_expanded": [
           {
@@ -10442,8 +10441,8 @@
             "o": 29984.0,
             "h": 29993.25,
             "l": 29417.0,
-            "c": 29534.0,
-            "v": 281368
+            "c": 29503.25,
+            "v": 303970
           }
         ],
         "rollover_gaps": [],
@@ -10451,12 +10450,12 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/canada-producer-prices-rise-again-in-september-climbing-2-for-the-month-39c694c2?mod=rss_socialeconomyfeed"
-            },
-            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/10/22/jobless-claims-record-low-weekly.html"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/canada-producer-prices-rise-again-in-september-climbing-2-for-the-month-39c694c2?mod=rss_socialeconomyfeed"
             },
             {
               "name": "CNBC",
@@ -10468,12 +10467,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53000.0,
-        "change_pct": -0.11,
+        "point": 52934.0,
+        "change_pct": -0.24,
         "spark": [
           53085.0,
-          52695.0,
-          52692.0,
           52703.0,
           52704.0,
           52676.0,
@@ -10511,21 +10508,23 @@
           52966.0,
           53005.0,
           53002.0,
-          53000.0
+          52926.0,
+          52976.0,
+          52934.0
         ],
         "candle": {
           "o": 53085.0,
           "h": 53085.0,
           "l": 52644.0,
-          "c": 52994.0
+          "c": 52934.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 16.67,
-          "high_change_pct": -2.75
+          "low_change_pct": 16.53,
+          "high_change_pct": -2.86
         },
         "daily_expanded": [
           {
@@ -12541,8 +12540,8 @@
             "o": 53085.0,
             "h": 53085.0,
             "l": 52644.0,
-            "c": 52994.0,
-            "v": 42770
+            "c": 52934.0,
+            "v": 45463
           }
         ],
         "rollover_gaps": [],
@@ -12567,18 +12566,18 @@
     ]
   },
   "regular_open": true,
-  "intraday_refreshed_kst": "2026-10-22T23:10:23.130986+09:00",
+  "intraday_refreshed_kst": "2026-10-22T23:21:44.568573+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/canada-producer-prices-rise-again-in-september-climbing-2-for-the-month-39c694c2?mod=rss_socialeconomyfeed"
-        },
-        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/10/22/jobless-claims-record-low-weekly.html"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/canada-producer-prices-rise-again-in-september-climbing-2-for-the-month-39c694c2?mod=rss_socialeconomyfeed"
         },
         {
           "name": "CNBC",
