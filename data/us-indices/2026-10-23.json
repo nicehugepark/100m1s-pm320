@@ -6250,17 +6250,24 @@
   ],
   "news_chips": [
     {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/trump-called-musk-and-asked-him-to-lift-ukraine-starlink-restrictions-5aeebc6e?mod=rss_worldnews",
+      "published_ts": 1792707360.0,
+      "impact_high": false
+    },
+    {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/2026102294821",
+      "published_ts": 1792706404.0,
+      "impact_high": false
+    },
+    {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/business/earnings/sallie-mae-cuts-full-year-view-after-logging-higher-charge-offs-52bcaa21?mod=rss_markets_main",
       "published_ts": 1792704660.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/trump-spoke-to-musk-about-ending-ukraines-starlink-speed-caps-a7ef4415?mod=rss_worldnews",
-      "published_ts": 1792704420.0,
       "impact_high": false
     },
     {
@@ -6285,13 +6292,6 @@
       "impact_high": false
     },
     {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/blackstones-core-businesses-hit-by-rising-rates-9a6a39cb?mod=rss_markets_main",
-      "published_ts": 1792678260.0,
-      "impact_high": false
-    },
-    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/canada-producer-prices-rise-again-in-september-climbing-2-for-the-month-39c694c2?mod=rss_socialeconomyfeed",
@@ -6306,21 +6306,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "83a46a2832999f8ad52a6e1fa9e4d0568fe75043d7fc9c1757c2081a71d0ec10",
+  "_article_sig": "a8c1839b4c402caa41d6eebeb7ec59efdd7d45bef6c26983b089207dc050450e",
   "built_at_kst": "2026-10-23T07:02:28.605524+09:00",
   "futures": {
-    "as_of_kst": "2026-10-23T07:10:17.885550+09:00",
+    "as_of_kst": "2026-10-23T07:20:18.735899+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7706.75,
-        "change_pct": 0.03,
+        "point": 7708.25,
+        "change_pct": 0.05,
         "spark": [
           7706.25,
-          7694.25,
-          7692.25,
           7680.5,
           7689.25,
           7691.5,
@@ -6358,21 +6356,23 @@
           7702.5,
           7703.75,
           7708.5,
-          7706.75
+          7708.25,
+          7709.0,
+          7708.25
         ],
         "candle": {
           "o": 7706.25,
-          "h": 7709.0,
-          "l": 7705.5,
-          "c": 7706.75
+          "h": 7711.0,
+          "l": 7702.0,
+          "c": 7708.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 20.64,
-          "high_change_pct": -2.12
+          "low_change_pct": 20.66,
+          "high_change_pct": -2.11
         },
         "daily_expanded": [
           {
@@ -8386,23 +8386,38 @@
           {
             "date": "2026-10-22",
             "o": 7706.25,
-            "h": 7709.0,
-            "l": 7705.5,
-            "c": 7706.75,
-            "v": 241
+            "h": 7711.0,
+            "l": 7702.0,
+            "c": 7708.0,
+            "v": 3371
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-more-than-2-as-attacks-on-saudi-arabia-u-s-iran-risks-persist-5599ac83?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/commodities-futures/with-disruption-on-every-side-food-markets-are-somehow-eerily-quiet-c60ed033?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/philippines-central-bank-delivers-jumbo-hike-in-bid-to-combat-inflation-90f8c2fa?mod=rss_socialeconomyfeed"
+            }
+          ]
+        }
       },
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29101.5,
-        "change_pct": -0.14,
+        "point": 29121.5,
+        "change_pct": -0.07,
         "spark": [
           29116.5,
-          29180.75,
-          29157.75,
           29105.0,
           29135.25,
           29141.5,
@@ -8440,21 +8455,23 @@
           29091.0,
           29094.75,
           29133.75,
-          29101.5
+          29123.25,
+          29136.25,
+          29121.5
         ],
         "candle": {
           "o": 29116.5,
-          "h": 29128.0,
-          "l": 29095.5,
-          "c": 29095.5
+          "h": 29148.75,
+          "l": 29090.0,
+          "c": 29120.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 25.74,
-          "high_change_pct": -7.58
+          "low_change_pct": 25.85,
+          "high_change_pct": -7.51
         },
         "daily_expanded": [
           {
@@ -10468,22 +10485,38 @@
           {
             "date": "2026-10-22",
             "o": 29116.5,
-            "h": 29128.0,
-            "l": 29095.5,
-            "c": 29095.5,
-            "v": 207
+            "h": 29148.75,
+            "l": 29090.0,
+            "c": 29120.25,
+            "v": 2716
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/trump-called-musk-and-asked-him-to-lift-ukraine-starlink-restrictions-5aeebc6e?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/trump-spoke-to-musk-about-ending-ukraines-starlink-speed-caps-a7ef4415?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/metas-hunt-for-ai-capital-strikes-a-raw-nerve-on-wall-street-e2de1601?mod=rss_markets_main"
+            }
+          ]
+        }
       },
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53080.0,
-        "change_pct": 0.02,
+        "point": 53105.0,
+        "change_pct": 0.07,
         "spark": [
           53104.0,
-          52973.0,
           52971.0,
           52892.0,
           52963.0,
@@ -10522,21 +10555,22 @@
           53085.0,
           53085.0,
           53099.0,
-          53080.0
+          53105.0,
+          53105.0
         ],
         "candle": {
           "o": 53104.0,
           "h": 53112.0,
-          "l": 53080.0,
-          "c": 53080.0
+          "l": 53078.0,
+          "c": 53105.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 16.85,
-          "high_change_pct": -2.59
+          "low_change_pct": 16.91,
+          "high_change_pct": -2.55
         },
         "daily_expanded": [
           {
@@ -12551,15 +12585,85 @@
             "date": "2026-10-22",
             "o": 53104.0,
             "h": 53112.0,
-            "l": 53080.0,
-            "c": 53080.0,
-            "v": 71
+            "l": 53078.0,
+            "c": 53105.0,
+            "v": 181
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+          "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/business/earnings/sallie-mae-cuts-full-year-view-after-logging-higher-charge-offs-52bcaa21?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-amid-focus-on-mideast-developments-716c953b?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-more-than-2-as-attacks-on-saudi-arabia-u-s-iran-risks-persist-5599ac83?mod=rss_worldnews"
+            }
+          ]
+        }
       }
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-10-23T07:10:39.996285+09:00"
+  "intraday_refreshed_kst": "2026-10-23T07:21:50.640178+09:00",
+  "_futures_news": {
+    "NASDAQ": {
+      "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/trump-called-musk-and-asked-him-to-lift-ukraine-starlink-restrictions-5aeebc6e?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/trump-spoke-to-musk-about-ending-ukraines-starlink-speed-caps-a7ef4415?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/metas-hunt-for-ai-capital-strikes-a-raw-nerve-on-wall-street-e2de1601?mod=rss_markets_main"
+        }
+      ]
+    },
+    "S&P500": {
+      "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-more-than-2-as-attacks-on-saudi-arabia-u-s-iran-risks-persist-5599ac83?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/commodities-futures/with-disruption-on-every-side-food-markets-are-somehow-eerily-quiet-c60ed033?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/philippines-central-bank-delivers-jumbo-hike-in-bid-to-combat-inflation-90f8c2fa?mod=rss_socialeconomyfeed"
+        }
+      ]
+    },
+    "DOW": {
+      "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/business/earnings/sallie-mae-cuts-full-year-view-after-logging-higher-charge-offs-52bcaa21?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-amid-focus-on-mideast-developments-716c953b?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-more-than-2-as-attacks-on-saudi-arabia-u-s-iran-risks-persist-5599ac83?mod=rss_worldnews"
+        }
+      ]
+    }
+  }
 }
