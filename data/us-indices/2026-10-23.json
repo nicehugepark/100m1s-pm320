@@ -6272,23 +6272,23 @@
     },
     {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-23-2026?mod=rss_markets_main",
-      "published_ts": 1792746452.0,
-      "impact_high": true
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-as-middle-east-risks-persist-c1262364?mod=rss_worldnews",
+      "published_ts": 1792761060.0,
+      "impact_high": false
+    },
+    {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/consumers/canada-retail-sales-look-to-build-on-augusts-rebound-c80f8bec?mod=rss_socialeconomyfeed",
+      "published_ts": 1792761000.0,
+      "impact_high": false
     },
     {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/investing/brokerage-firms-want-to-yank-away-your-investor-protections-b9fddd88?mod=rss_markets_main",
       "published_ts": 1792760400.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/europe/gunman-kills-one-near-paris-in-suspected-attack-on-immigrant-communities-ed1ee830?mod=rss_worldnews",
-      "published_ts": 1792760220.0,
       "impact_high": false
     },
     {
@@ -6320,21 +6320,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "bdae21343bc30f62326d51a2d2ada1c815a8d8d30e0f2151ca05cec769114a5c",
+  "_article_sig": "855ee3d26f2b14065707ba67f4332b3c2a0b30c4738bc9c858c2ad6c040cc736",
   "built_at_kst": "2026-10-23T07:02:28.605524+09:00",
   "futures": {
-    "as_of_kst": "2026-10-23T22:10:10.253978+09:00",
+    "as_of_kst": "2026-10-23T22:20:10.741091+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7667.25,
-        "change_pct": -0.48,
+        "point": 7668.5,
+        "change_pct": -0.47,
         "spark": [
           7706.25,
-          7688.75,
-          7686.0,
           7686.25,
           7682.5,
           7689.0,
@@ -6372,21 +6370,23 @@
           7667.25,
           7662.75,
           7667.0,
-          7667.25
+          7670.5,
+          7668.75,
+          7668.5
         ],
         "candle": {
           "o": 7706.25,
           "h": 7714.25,
           "l": 7660.75,
-          "c": 7666.75
+          "c": 7668.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 20.01,
-          "high_change_pct": -2.63
+          "low_change_pct": 20.04,
+          "high_change_pct": -2.61
         },
         "daily_expanded": [
           {
@@ -8402,8 +8402,8 @@
             "o": 7706.25,
             "h": 7714.25,
             "l": 7660.75,
-            "c": 7666.75,
-            "v": 319292
+            "c": 7668.75,
+            "v": 330343
           }
         ],
         "rollover_gaps": [],
@@ -8411,16 +8411,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-as-middle-east-risks-persist-c1262364?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/trade/how-tariffs-became-the-most-hated-word-in-politics-eeed7932?mod=rss_socialeconomyfeed"
             },
             {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/2026102318131"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-23-2026?mod=rss_markets_main"
             }
           ]
         }
@@ -8428,11 +8428,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29046.25,
-        "change_pct": -0.33,
+        "point": 29053.5,
+        "change_pct": -0.3,
         "spark": [
           29116.5,
-          29121.5,
           29117.75,
           29096.5,
           29142.25,
@@ -8471,21 +8470,22 @@
           29026.0,
           29050.5,
           29073.5,
-          29046.25
+          29055.25,
+          29053.5
         ],
         "candle": {
           "o": 29116.5,
           "h": 29279.0,
           "l": 29022.0,
-          "c": 29044.75
+          "c": 29053.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 25.52,
-          "high_change_pct": -7.75
+          "low_change_pct": 25.55,
+          "high_change_pct": -7.72
         },
         "daily_expanded": [
           {
@@ -10501,8 +10501,8 @@
             "o": 29116.5,
             "h": 29279.0,
             "l": 29022.0,
-            "c": 29044.75,
-            "v": 184336
+            "c": 29053.0,
+            "v": 188944
           }
         ],
         "rollover_gaps": [],
@@ -10511,15 +10511,15 @@
           "sources": [
             {
               "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-as-middle-east-risks-persist-c1262364?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/consumers/canada-retail-sales-look-to-build-on-augusts-rebound-c80f8bec?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ세계",
               "url": "https://www.wsj.com/world/europe/gunman-kills-one-near-paris-in-suspected-attack-on-immigrant-communities-ed1ee830?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/business/telecom/how-does-the-ukrainian-military-use-starlink-e1faa11b?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/ukraine-says-starlink-isnt-working-despite-trumps-promise-to-restore-it-c3609d3d?mod=rss_worldnews"
             }
           ]
         }
@@ -10527,12 +10527,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52595.0,
-        "change_pct": -0.89,
+        "point": 52612.0,
+        "change_pct": -0.86,
         "spark": [
           53104.0,
-          52743.0,
-          52755.0,
           52729.0,
           52761.0,
           52779.0,
@@ -10570,21 +10568,23 @@
           52576.0,
           52594.0,
           52632.0,
-          52595.0
+          52604.0,
+          52622.0,
+          52612.0
         ],
         "candle": {
           "o": 53104.0,
           "h": 53166.0,
           "l": 52560.0,
-          "c": 52595.0
+          "c": 52612.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.79,
-          "high_change_pct": -3.48
+          "low_change_pct": 15.82,
+          "high_change_pct": -3.45
         },
         "daily_expanded": [
           {
@@ -12600,8 +12600,8 @@
             "o": 53104.0,
             "h": 53166.0,
             "l": 52560.0,
-            "c": 52595.0,
-            "v": 25058
+            "c": 52612.0,
+            "v": 25715
           }
         ],
         "rollover_gaps": [],
@@ -12609,16 +12609,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-as-middle-east-risks-persist-c1262364?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/metas-muse-is-going-gangbusters-but-where-is-the-payoff-648d310d?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/trade/how-tariffs-became-the-most-hated-word-in-politics-eeed7932?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/consumers/u-k-consumer-confidence-suffers-biggest-drop-since-pandemic-e113231a?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -12626,22 +12626,22 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-10-23T22:11:43.629919+09:00",
+  "intraday_refreshed_kst": "2026-10-23T22:21:54.808957+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
           "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-as-middle-east-risks-persist-c1262364?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/consumers/canada-retail-sales-look-to-build-on-augusts-rebound-c80f8bec?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ세계",
           "url": "https://www.wsj.com/world/europe/gunman-kills-one-near-paris-in-suspected-attack-on-immigrant-communities-ed1ee830?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/business/telecom/how-does-the-ukrainian-military-use-starlink-e1faa11b?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/ukraine-says-starlink-isnt-working-despite-trumps-promise-to-restore-it-c3609d3d?mod=rss_worldnews"
         }
       ]
     },
@@ -12649,16 +12649,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-as-middle-east-risks-persist-c1262364?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/trade/how-tariffs-became-the-most-hated-word-in-politics-eeed7932?mod=rss_socialeconomyfeed"
         },
         {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/2026102318131"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-23-2026?mod=rss_markets_main"
         }
       ]
     },
@@ -12666,16 +12666,16 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-as-middle-east-risks-persist-c1262364?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/metas-muse-is-going-gangbusters-but-where-is-the-payoff-648d310d?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/trade/how-tariffs-became-the-most-hated-word-in-politics-eeed7932?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/consumers/u-k-consumer-confidence-suffers-biggest-drop-since-pandemic-e113231a?mod=rss_socialeconomyfeed"
         }
       ]
     }
