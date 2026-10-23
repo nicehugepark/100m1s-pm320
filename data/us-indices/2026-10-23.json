@@ -6253,8 +6253,15 @@
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/japan-consumer-inflation-uptick-offers-tailwind-for-boj-rate-hike-95d29b74?mod=rss_socialeconomyfeed",
-      "published_ts": 1792713480.0,
+      "published_ts": 1792722120.0,
       "impact_high": true
+    },
+    {
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/202610217073i",
+      "published_ts": 1792722634.0,
+      "impact_high": false
     },
     {
       "summary": "가계 재정과 소비 부담 지표가 경기 방어 심리에 영향을 주는 흐름",
@@ -6268,13 +6275,6 @@
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/202610230210i",
       "published_ts": 1792719721.0,
-      "impact_high": false
-    },
-    {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/china/xinjiang-trade-energy-controversy-dff138df?mod=rss_worldnews",
-      "published_ts": 1792717200.0,
       "impact_high": false
     },
     {
@@ -6313,21 +6313,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "b23602e3f918402d8cbf076ef126269f3b4a91a857b2370c8cdc4426f04d3d20",
+  "_article_sig": "dce95f1e1ee2889e0c3fc6417d33dc68ae88828eea90ed88c919bc6bd8b3145d",
   "built_at_kst": "2026-10-23T07:02:28.605524+09:00",
   "futures": {
-    "as_of_kst": "2026-10-23T11:50:20.551150+09:00",
+    "as_of_kst": "2026-10-23T12:00:21.407266+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7704.5,
-        "change_pct": 0.0,
+        "point": 7704.0,
+        "change_pct": -0.01,
         "spark": [
           7706.25,
-          7700.5,
-          7700.25,
           7704.0,
           7702.75,
           7706.25,
@@ -6364,22 +6362,24 @@
           7696.0,
           7701.5,
           7704.5,
+          7705.25,
           7704.0,
-          7704.5
+          7705.0,
+          7704.0
         ],
         "candle": {
           "o": 7706.25,
           "h": 7714.25,
           "l": 7685.0,
-          "c": 7704.75
+          "c": 7704.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 20.61,
-          "high_change_pct": -2.15
+          "low_change_pct": 20.6,
+          "high_change_pct": -2.16
         },
         "daily_expanded": [
           {
@@ -8395,8 +8395,8 @@
             "o": 7706.25,
             "h": 7714.25,
             "l": 7685.0,
-            "c": 7704.75,
-            "v": 89915
+            "c": 7704.25,
+            "v": 91791
           }
         ],
         "rollover_gaps": [],
@@ -8404,12 +8404,12 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/iran-threatens-wider-strikes-on-economic-and-civilian-targets-if-u-s-attacks-55f75e6b?mod=rss_worldnews"
-            },
-            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/japan-consumer-inflation-uptick-offers-tailwind-for-boj-rate-hike-95d29b74?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/iran-threatens-wider-strikes-on-economic-and-civilian-targets-if-u-s-attacks-55f75e6b?mod=rss_worldnews"
             },
             {
               "name": "WSJ세계",
@@ -8421,11 +8421,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29197.75,
-        "change_pct": 0.19,
+        "point": 29192.5,
+        "change_pct": 0.17,
         "spark": [
           29116.5,
-          29053.75,
           29048.75,
           29067.5,
           29053.5,
@@ -8463,22 +8462,23 @@
           29151.25,
           29185.25,
           29199.5,
-          29201.25,
-          29197.75
+          29197.25,
+          29185.25,
+          29192.5
         ],
         "candle": {
           "o": 29116.5,
           "h": 29212.5,
           "l": 29022.75,
-          "c": 29197.75
+          "c": 29186.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 26.18,
-          "high_change_pct": -7.26
+          "low_change_pct": 26.13,
+          "high_change_pct": -7.3
         },
         "daily_expanded": [
           {
@@ -10494,8 +10494,8 @@
             "o": 29116.5,
             "h": 29212.5,
             "l": 29022.75,
-            "c": 29197.75,
-            "v": 60416
+            "c": 29186.0,
+            "v": 61752
           }
         ],
         "rollover_gaps": [],
@@ -10503,16 +10503,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/japan-consumer-inflation-uptick-offers-tailwind-for-boj-rate-hike-95d29b74?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/americas/el-salvador-attempts-rescue-of-military-personnel-after-gang-ambush-in-haiti-8ca67b13?mod=rss_worldnews"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/politicians-are-turning-against-ai-but-your-pension-is-riding-on-it-6764d852?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/iran-threatens-wider-strikes-on-economic-and-civilian-targets-if-u-s-attacks-55f75e6b?mod=rss_worldnews"
             }
           ]
         }
@@ -10520,12 +10520,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52981.0,
-        "change_pct": -0.16,
+        "point": 52987.0,
+        "change_pct": -0.15,
         "spark": [
           53104.0,
-          53105.0,
-          53114.0,
           53131.0,
           53127.0,
           53140.0,
@@ -10562,22 +10560,24 @@
           52941.0,
           52960.0,
           52977.0,
-          52980.0,
-          52981.0
+          52994.0,
+          52987.0,
+          52986.0,
+          52987.0
         ],
         "candle": {
           "o": 53104.0,
           "h": 53166.0,
           "l": 52901.0,
-          "c": 52981.0
+          "c": 52987.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 16.64,
-          "high_change_pct": -2.78
+          "low_change_pct": 16.65,
+          "high_change_pct": -2.77
         },
         "daily_expanded": [
           {
@@ -12593,8 +12593,8 @@
             "o": 53104.0,
             "h": 53166.0,
             "l": 52901.0,
-            "c": 52981.0,
-            "v": 5612
+            "c": 52987.0,
+            "v": 5705
           }
         ],
         "rollover_gaps": [],
@@ -12602,16 +12602,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/japan-consumer-inflation-uptick-offers-tailwind-for-boj-rate-hike-95d29b74?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/europe/eight-charts-that-show-the-depth-of-frances-financial-crunch-40b31ee6?mod=rss_worldnews"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/china/xinjiang-trade-energy-controversy-dff138df?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/consumers/u-k-consumer-confidence-suffers-biggest-drop-since-pandemic-e113231a?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -12619,11 +12619,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-10-23T11:50:35.399595+09:00",
+  "intraday_refreshed_kst": "2026-10-23T12:02:04.954195+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/japan-consumer-inflation-uptick-offers-tailwind-for-boj-rate-hike-95d29b74?mod=rss_socialeconomyfeed"
+        },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/americas/el-salvador-attempts-rescue-of-military-personnel-after-gang-ambush-in-haiti-8ca67b13?mod=rss_worldnews"
@@ -12631,10 +12635,6 @@
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/politicians-are-turning-against-ai-but-your-pension-is-riding-on-it-6764d852?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/iran-threatens-wider-strikes-on-economic-and-civilian-targets-if-u-s-attacks-55f75e6b?mod=rss_worldnews"
         }
       ]
     },
@@ -12642,12 +12642,12 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/iran-threatens-wider-strikes-on-economic-and-civilian-targets-if-u-s-attacks-55f75e6b?mod=rss_worldnews"
-        },
-        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/japan-consumer-inflation-uptick-offers-tailwind-for-boj-rate-hike-95d29b74?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/iran-threatens-wider-strikes-on-economic-and-civilian-targets-if-u-s-attacks-55f75e6b?mod=rss_worldnews"
         },
         {
           "name": "WSJ세계",
@@ -12659,16 +12659,16 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/japan-consumer-inflation-uptick-offers-tailwind-for-boj-rate-hike-95d29b74?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/europe/eight-charts-that-show-the-depth-of-frances-financial-crunch-40b31ee6?mod=rss_worldnews"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/china/xinjiang-trade-energy-controversy-dff138df?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/consumers/u-k-consumer-confidence-suffers-biggest-drop-since-pandemic-e113231a?mod=rss_socialeconomyfeed"
         }
       ]
     }
