@@ -6297,8 +6297,8 @@
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026102764247",
-      "published_ts": 1793049232.0,
+      "url": "https://www.hankyung.com/article/202610276478i",
+      "published_ts": 1793052664.0,
       "impact_high": false
     },
     {
@@ -6337,23 +6337,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "673ebb421a813e639318b4eb2f6a0d2ba2fc379f2bda1b6428dd96b09a85c590",
+  "_article_sig": "c1cb0049ddd50fa9d8e971828fbecc8d638a16a664dacbefbb213bd68146b0bf",
   "built_at_kst": "2026-10-27T07:03:36.391838+09:00",
   "futures": {
-    "as_of_kst": "2026-10-27T07:10:09.125661+09:00",
+    "as_of_kst": "2026-10-27T07:20:13.662938+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7714.5,
-        "change_pct": 0.0,
+        "point": 7718.0,
+        "change_pct": 0.05,
         "spark": [
-          7690.0,
-          7712.0,
-          7708.25,
-          7717.5,
-          7720.75,
+          7715.0,
           7718.5,
           7720.25,
           7717.75,
@@ -6389,21 +6385,25 @@
           7713.75,
           7714.0,
           7714.0,
-          7714.5
+          7714.5,
+          7717.0,
+          7718.0,
+          7717.75,
+          7718.0
         ],
         "candle": {
-          "o": 7690.0,
-          "h": 7739.5,
-          "l": 7651.75,
-          "c": 7714.5
+          "o": 7715.0,
+          "h": 7718.25,
+          "l": 7714.25,
+          "c": 7718.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 20.76,
-          "high_change_pct": -2.03
+          "low_change_pct": 20.82,
+          "high_change_pct": -1.98
         },
         "daily_expanded": [
           {
@@ -8408,24 +8408,39 @@
           },
           {
             "date": "2026-10-26",
-            "o": 7690.0,
-            "h": 7739.5,
-            "l": 7651.75,
-            "c": 7714.5,
-            "v": 1619722
+            "o": 7715.0,
+            "h": 7718.25,
+            "l": 7714.25,
+            "c": 7718.0,
+            "v": 1249
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/business/doordash-circles-deal-to-buy-instacart-41ac407d?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-u-s-iran-diplomacy-saudi-attacks-a59376cd?mod=rss_worldnews"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html"
+            }
+          ]
+        }
       },
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29487.5,
-        "change_pct": 0.17,
+        "point": 29493.25,
+        "change_pct": 0.19,
         "spark": [
           29480.5,
-          29498.75,
-          29521.25,
           29508.75,
           29517.5,
           29507.25,
@@ -8463,21 +8478,23 @@
           29453.75,
           29467.5,
           29491.25,
-          29487.5
+          29494.75,
+          29488.5,
+          29493.25
         ],
         "candle": {
           "o": 29480.5,
-          "h": 29487.5,
+          "h": 29498.25,
           "l": 29471.0,
-          "c": 29481.5
+          "c": 29493.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 27.41,
-          "high_change_pct": -6.36
+          "low_change_pct": 27.46,
+          "high_change_pct": -6.32
         },
         "daily_expanded": [
           {
@@ -10483,22 +10500,38 @@
           {
             "date": "2026-10-26",
             "o": 29480.5,
-            "h": 29487.5,
+            "h": 29498.25,
             "l": 29471.0,
-            "c": 29481.5,
-            "v": 91
+            "c": 29493.25,
+            "v": 1023
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/business/doordash-circles-deal-to-buy-instacart-41ac407d?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/tech/ai/banks-blackstone-form-63-billion-financing-vehicle-for-broadcom-ai-tech-0438f6d2?mod=rss_markets_main"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html"
+            }
+          ]
+        }
       },
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52538.0,
-        "change_pct": -0.02,
+        "point": 52534.0,
+        "change_pct": -0.03,
         "spark": [
           52528.0,
-          52524.0,
           52543.0,
           52537.0,
           52529.0,
@@ -10537,21 +10570,22 @@
           52529.0,
           52528.0,
           52526.0,
-          52538.0
+          52534.0,
+          52534.0
         ],
         "candle": {
           "o": 52528.0,
           "h": 52538.0,
           "l": 52519.0,
-          "c": 52538.0
+          "c": 52534.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.66,
-          "high_change_pct": -3.59
+          "low_change_pct": 15.65,
+          "high_change_pct": -3.6
         },
         "daily_expanded": [
           {
@@ -12559,14 +12593,84 @@
             "o": 52528.0,
             "h": 52538.0,
             "l": 52519.0,
-            "c": 52538.0,
-            "v": 12
+            "c": 52534.0,
+            "v": 92
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+          "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/tech/ai/banks-blackstone-form-63-billion-financing-vehicle-for-broadcom-ai-tech-0438f6d2?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/tech-rallies-brazil-crashes-400a468f?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/german-business-sentiment-rises-again-despite-energy-crunch-9c17baab?mod=rss_socialeconomyfeed"
+            }
+          ]
+        }
       }
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-10-27T07:10:20.742665+09:00"
+  "intraday_refreshed_kst": "2026-10-27T07:24:40.023857+09:00",
+  "_futures_news": {
+    "NASDAQ": {
+      "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/business/doordash-circles-deal-to-buy-instacart-41ac407d?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/tech/ai/banks-blackstone-form-63-billion-financing-vehicle-for-broadcom-ai-tech-0438f6d2?mod=rss_markets_main"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html"
+        }
+      ]
+    },
+    "S&P500": {
+      "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/business/doordash-circles-deal-to-buy-instacart-41ac407d?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-u-s-iran-diplomacy-saudi-attacks-a59376cd?mod=rss_worldnews"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html"
+        }
+      ]
+    },
+    "DOW": {
+      "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/tech/ai/banks-blackstone-form-63-billion-financing-vehicle-for-broadcom-ai-tech-0438f6d2?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/tech-rallies-brazil-crashes-400a468f?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/german-business-sentiment-rises-again-despite-energy-crunch-9c17baab?mod=rss_socialeconomyfeed"
+        }
+      ]
+    }
+  }
 }
