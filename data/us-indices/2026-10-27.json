@@ -6274,24 +6274,10 @@
   ],
   "news_chips": [
     {
-      "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/global/eurozone-banks-report-declining-loan-demand-tougher-conditions-b6e277cf?mod=rss_socialeconomyfeed",
-      "published_ts": 1793093280.0,
-      "impact_high": true
-    },
-    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-27-2026?mod=rss_markets_main",
       "published_ts": 1793092894.0,
-      "impact_high": true
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/french-consumer-confidence-sinks-to-13-year-low-amid-protests-bond-selloff-d7002c30?mod=rss_socialeconomyfeed",
-      "published_ts": 1793091300.0,
       "impact_high": true
     },
     {
@@ -6302,11 +6288,18 @@
       "impact_high": true
     },
     {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/tech-rallies-brazil-crashes-400a468f?mod=rss_markets_main",
-      "published_ts": 1793046540.0,
-      "impact_high": true
+      "url": "https://www.wsj.com/finance/investing/anthropics-adjusted-profit-exposes-wall-streets-earnings-game-40cbcef1?mod=rss_markets_main",
+      "published_ts": 1793093400.0,
+      "impact_high": false
+    },
+    {
+      "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/investing/ares-private-credit-fund-to-buy-competitor-from-apollo-daecb67c?mod=rss_markets_main",
+      "published_ts": 1793093400.0,
+      "impact_high": false
     },
     {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
@@ -6337,6 +6330,13 @@
       "impact_high": false
     },
     {
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/stocks/metas-muse-is-going-gangbusters-but-where-is-the-payoff-648d310d?mod=rss_markets_main",
+      "published_ts": 1792747800.0,
+      "impact_high": false
+    },
+    {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html",
@@ -6344,20 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "dfbedc7490536c4995ee975f633555019b9d217edccc9c455fb89036d6faa89a",
+  "_article_sig": "9350ff37e8158f0ff4a016524a6afde87f3e0035a0391eca6fe57b42562bab97",
   "built_at_kst": "2026-10-27T07:03:36.391838+09:00",
   "futures": {
-    "as_of_kst": "2026-10-27T18:30:16.463048+09:00",
+    "as_of_kst": "2026-10-27T18:40:14.901629+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7720.5,
-        "change_pct": 0.08,
+        "point": 7719.25,
+        "change_pct": 0.06,
         "spark": [
           7715.0,
-          7714.5,
           7710.0,
           7710.0,
           7711.25,
@@ -6396,21 +6395,22 @@
           7717.25,
           7719.5,
           7721.75,
-          7720.5
+          7719.25,
+          7719.25
         ],
         "candle": {
           "o": 7715.0,
           "h": 7731.0,
           "l": 7699.75,
-          "c": 7720.5
+          "c": 7719.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 20.85,
-          "high_change_pct": -1.95
+          "low_change_pct": 20.84,
+          "high_change_pct": -1.97
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7715.0,
             "h": 7731.0,
             "l": 7699.75,
-            "c": 7720.5,
-            "v": 165851
+            "c": 7719.25,
+            "v": 169785
           }
         ],
         "rollover_gaps": [],
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29458.25,
-        "change_pct": 0.07,
+        "point": 29455.75,
+        "change_pct": 0.06,
         "spark": [
           29480.5,
-          29359.75,
-          29328.25,
           29332.75,
           29336.25,
           29335.75,
@@ -8495,13 +8493,15 @@
           29431.5,
           29450.0,
           29466.75,
-          29458.25
+          29453.25,
+          29453.25,
+          29455.75
         ],
         "candle": {
           "o": 29480.5,
           "h": 29589.5,
           "l": 29288.0,
-          "c": 29458.25
+          "c": 29458.75
         },
         "range_240d": {
           "low": 23139.75,
@@ -10525,8 +10525,8 @@
             "o": 29480.5,
             "h": 29589.5,
             "l": 29288.0,
-            "c": 29458.25,
-            "v": 94716
+            "c": 29458.75,
+            "v": 96320
           }
         ],
         "rollover_gaps": [],
@@ -10534,16 +10534,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/anthropics-adjusted-profit-exposes-wall-streets-earnings-game-40cbcef1?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/french-consumer-confidence-sinks-to-13-year-low-amid-protests-bond-selloff-d7002c30?mod=rss_socialeconomyfeed"
             },
             {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/202610278416i"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-assess-iran-diplomacy-saudi-attacks-95bb0210?mod=rss_worldnews"
             }
           ]
         }
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52629.0,
-        "change_pct": 0.15,
+        "point": 52621.0,
+        "change_pct": 0.14,
         "spark": [
           52528.0,
-          52651.0,
-          52636.0,
           52633.0,
           52647.0,
           52638.0,
@@ -10594,21 +10592,23 @@
           52625.0,
           52619.0,
           52635.0,
-          52629.0
+          52620.0,
+          52622.0,
+          52621.0
         ],
         "candle": {
           "o": 52528.0,
           "h": 52712.0,
           "l": 52455.0,
-          "c": 52629.0
+          "c": 52624.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.86,
-          "high_change_pct": -3.42
+          "low_change_pct": 15.85,
+          "high_change_pct": -3.43
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 52528.0,
             "h": 52712.0,
             "l": 52455.0,
-            "c": 52629.0,
-            "v": 10453
+            "c": 52624.0,
+            "v": 10606
           }
         ],
         "rollover_gaps": [],
@@ -12650,11 +12650,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-10-27T18:33:41.293753+09:00",
+  "intraday_refreshed_kst": "2026-10-27T18:43:24.023327+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/anthropics-adjusted-profit-exposes-wall-streets-earnings-game-40cbcef1?mod=rss_markets_main"
+        },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/french-consumer-confidence-sinks-to-13-year-low-amid-protests-bond-selloff-d7002c30?mod=rss_socialeconomyfeed"
@@ -12662,10 +12666,6 @@
         {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/202610278416i"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-assess-iran-diplomacy-saudi-attacks-95bb0210?mod=rss_worldnews"
         }
       ]
     },
