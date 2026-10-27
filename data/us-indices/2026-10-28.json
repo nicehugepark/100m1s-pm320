@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26466.08,
-      "change_pct": 1.13,
+      "point": 26457.06,
+      "change_pct": 1.1,
       "candle": {
         "o": 26282.43,
         "h": 26528.94,
         "l": 26220.51,
-        "c": 26466.08
+        "c": 26457.06
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,13 +2033,11 @@
           "o": 26282.43,
           "h": 26528.94,
           "l": 26220.51,
-          "c": 26466.08
+          "c": 26457.06
         }
       ],
       "spark": [
         26282.43,
-        26368.84,
-        26388.14,
         26406.23,
         26426.47,
         26411.61,
@@ -2077,7 +2075,9 @@
         26481.15,
         26467.98,
         26465.52,
-        26466.08
+        26467.41,
+        26457.05,
+        26457.06
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 52367.17,
-      "change_pct": 0.01,
+      "point": 52373.59,
+      "change_pct": 0.02,
       "candle": {
         "o": 52277.49,
         "h": 52477.91,
         "l": 52231.84,
-        "c": 52367.17
+        "c": 52373.59
       },
       "range_240d": {
         "low": 45166.64,
@@ -6229,14 +6229,11 @@
           "o": 52277.49,
           "h": 52477.91,
           "l": 52231.84,
-          "c": 52367.17
+          "c": 52373.59
         }
       ],
       "spark": [
         52277.49,
-        52310.31,
-        52356.53,
-        52369.09,
         52374.28,
         52346.77,
         52386.8,
@@ -6273,7 +6270,10 @@
         52393.78,
         52373.83,
         52362.33,
-        52367.17
+        52374.94,
+        52374.52,
+        52373.48,
+        52373.59
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6312,6 +6312,13 @@
       "impact_high": true
     },
     {
+      "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/business/weil-gotshal-leaders-spent-frantic-weekend-trying-to-stabilize-law-firm-3a1f6f31?mod=rss_markets_main",
+      "published_ts": 1793124540.0,
+      "impact_high": false
+    },
+    {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/broadcom-ceo-intervened-to-seal-63-billion-anthropic-debt-deal-c807754f?mod=rss_markets_main",
@@ -6347,13 +6354,6 @@
       "impact_high": false
     },
     {
-      "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/u-k-fiscal-discipline-in-focus-ahead-of-burnham-governments-first-budget-5fa7e2a9?mod=rss_socialeconomyfeed",
-      "published_ts": 1793105460.0,
-      "impact_high": false
-    },
-    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-assess-iran-diplomacy-saudi-attacks-95bb0210?mod=rss_worldnews",
@@ -6368,7 +6368,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "311bfaf1bc2acca91afb27ed5a274e29a16a44cb32093731fb4dd13c01001b14",
+  "_article_sig": "572e678dd9f5f4cda3e4a5be050e03018109408558129edcb2f03597ad62eb2e",
   "built_at_kst": "2026-10-27T07:03:36.391838+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6410,33 +6410,31 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/business/weil-gotshal-leaders-spent-frantic-weekend-trying-to-stabilize-law-firm-3a1f6f31?mod=rss_markets_main"
+        },
+        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/10/27/world-bank-president-ajay-banga.html"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/u-s-consumer-confidence-improved-in-october-conference-board-says-746458b3?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/u-k-fiscal-discipline-in-focus-ahead-of-burnham-governments-first-budget-5fa7e2a9?mod=rss_socialeconomyfeed"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-10-28T03:00:20.669971+09:00",
+    "as_of_kst": "2026-10-28T03:10:13.585120+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7759.5,
-        "change_pct": 0.58,
+        "point": 7756.75,
+        "change_pct": 0.55,
         "spark": [
           7715.0,
-          7734.75,
-          7739.25,
           7744.75,
           7748.5,
           7752.75,
@@ -6474,21 +6472,23 @@
           7760.25,
           7759.5,
           7756.75,
-          7759.5
+          7756.75,
+          7755.75,
+          7756.75
         ],
         "candle": {
           "o": 7715.0,
           "h": 7772.0,
           "l": 7699.75,
-          "c": 7759.5
+          "c": 7756.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 21.47,
-          "high_change_pct": -1.45
+          "low_change_pct": 21.42,
+          "high_change_pct": -1.49
         },
         "daily_expanded": [
           {
@@ -8504,8 +8504,8 @@
             "o": 7715.0,
             "h": 7772.0,
             "l": 7699.75,
-            "c": 7759.5,
-            "v": 1117176
+            "c": 7756.75,
+            "v": 1128791
           }
         ],
         "rollover_gaps": [],
@@ -8530,12 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29809.25,
-        "change_pct": 1.26,
+        "point": 29784.75,
+        "change_pct": 1.18,
         "spark": [
           29480.5,
-          29634.5,
-          29663.75,
           29691.5,
           29708.75,
           29731.25,
@@ -8573,21 +8571,23 @@
           29813.75,
           29808.25,
           29786.25,
-          29809.25
+          29787.5,
+          29790.0,
+          29784.75
         ],
         "candle": {
           "o": 29480.5,
           "h": 29875.5,
           "l": 29288.0,
-          "c": 29809.25
+          "c": 29786.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 28.82,
-          "high_change_pct": -5.32
+          "low_change_pct": 28.72,
+          "high_change_pct": -5.39
         },
         "daily_expanded": [
           {
@@ -10603,8 +10603,8 @@
             "o": 29480.5,
             "h": 29875.5,
             "l": 29288.0,
-            "c": 29809.25,
-            "v": 470121
+            "c": 29786.0,
+            "v": 475628
           }
         ],
         "rollover_gaps": [],
@@ -10629,12 +10629,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52582.0,
-        "change_pct": 0.06,
+        "point": 52558.0,
+        "change_pct": 0.02,
         "spark": [
           52528.0,
-          52491.0,
-          52501.0,
           52548.0,
           52563.0,
           52564.0,
@@ -10672,21 +10670,23 @@
           52591.0,
           52585.0,
           52566.0,
-          52582.0
+          52550.0,
+          52564.0,
+          52558.0
         ],
         "candle": {
           "o": 52528.0,
           "h": 52785.0,
           "l": 52419.0,
-          "c": 52582.0
+          "c": 52558.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.76,
-          "high_change_pct": -3.51
+          "low_change_pct": 15.71,
+          "high_change_pct": -3.55
         },
         "daily_expanded": [
           {
@@ -12702,8 +12702,8 @@
             "o": 52528.0,
             "h": 52785.0,
             "l": 52419.0,
-            "c": 52582.0,
-            "v": 58974
+            "c": 52558.0,
+            "v": 59606
           }
         ],
         "rollover_gaps": [],
@@ -12711,21 +12711,21 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/business/weil-gotshal-leaders-spent-frantic-weekend-trying-to-stabilize-law-firm-3a1f6f31?mod=rss_markets_main"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/10/27/world-bank-president-ajay-banga.html"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/u-s-consumer-confidence-improved-in-october-conference-board-says-746458b3?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/u-k-fiscal-discipline-in-focus-ahead-of-burnham-governments-first-budget-5fa7e2a9?mod=rss_socialeconomyfeed"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-10-28T03:03:29.176643+09:00"
+  "intraday_refreshed_kst": "2026-10-28T03:15:27.975745+09:00"
 }
