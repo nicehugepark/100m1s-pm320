@@ -6307,9 +6307,9 @@
     {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/a-300-billion-debt-wall-is-looming-over-private-equity-backed-companies-d6359497?mod=rss_markets_main",
-      "published_ts": 1793103420.0,
-      "impact_high": true
+      "url": "https://www.wsj.com/finance/stocks/tech-stocks-power-higher-oil-cools-724e6a63?mod=rss_markets_main",
+      "published_ts": 1793132580.0,
+      "impact_high": false
     },
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
@@ -6368,7 +6368,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "d5ebe094f23f8821a792bfb01525c94457e1c1930b16367757738b0ebdba251b",
+  "_article_sig": "f502e8144d009b4f7bc04d332c7a3d5ebd29e8e716f31c671f5cc7b6914814f8",
   "built_at_kst": "2026-10-27T07:03:36.391838+09:00",
   "regular_open": false,
   "_futures_news": {
@@ -6393,16 +6393,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/tech-stocks-power-higher-oil-cools-724e6a63?mod=rss_markets_main"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-assess-iran-diplomacy-saudi-attacks-95bb0210?mod=rss_worldnews"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-43324d13?mod=rss_markets_main"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html"
         }
       ]
     },
@@ -6411,31 +6411,30 @@
       "sources": [
         {
           "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/tech-stocks-power-higher-oil-cools-724e6a63?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
           "url": "https://www.wsj.com/business/weil-gotshal-leaders-spent-frantic-weekend-trying-to-stabilize-law-firm-3a1f6f31?mod=rss_markets_main"
         },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/10/27/world-bank-president-ajay-banga.html"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/u-s-consumer-confidence-improved-in-october-conference-board-says-746458b3?mod=rss_socialeconomyfeed"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-10-28T05:20:12.360952+09:00",
+    "as_of_kst": "2026-10-28T05:30:15.577537+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7760.25,
-        "change_pct": 0.59,
+        "point": 7759.25,
+        "change_pct": 0.58,
         "spark": [
           7715.0,
-          7754.0,
           7755.25,
           7758.0,
           7756.0,
@@ -6474,13 +6473,14 @@
           7762.25,
           7760.5,
           7760.25,
-          7760.25
+          7759.5,
+          7759.25
         ],
         "candle": {
           "o": 7715.0,
           "h": 7772.75,
           "l": 7699.75,
-          "c": 7760.0
+          "c": 7759.5
         },
         "range_240d": {
           "low": 6388.25,
@@ -8504,8 +8504,8 @@
             "o": 7715.0,
             "h": 7772.75,
             "l": 7699.75,
-            "c": 7760.0,
-            "v": 1488119
+            "c": 7759.5,
+            "v": 1494394
           }
         ],
         "rollover_gaps": [],
@@ -8513,16 +8513,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/tech-stocks-power-higher-oil-cools-724e6a63?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-assess-iran-diplomacy-saudi-attacks-95bb0210?mod=rss_worldnews"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-43324d13?mod=rss_markets_main"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html"
             }
           ]
         }
@@ -8530,12 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29805.5,
-        "change_pct": 1.25,
+        "point": 29797.75,
+        "change_pct": 1.22,
         "spark": [
           29480.5,
-          29797.25,
-          29802.0,
           29809.25,
           29782.0,
           29797.5,
@@ -8573,21 +8571,23 @@
           29835.0,
           29809.5,
           29797.75,
-          29805.5
+          29798.0,
+          29800.0,
+          29797.75
         ],
         "candle": {
           "o": 29480.5,
           "h": 29881.25,
           "l": 29288.0,
-          "c": 29803.0
+          "c": 29797.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 28.8,
-          "high_change_pct": -5.34
+          "low_change_pct": 28.77,
+          "high_change_pct": -5.36
         },
         "daily_expanded": [
           {
@@ -10603,8 +10603,8 @@
             "o": 29480.5,
             "h": 29881.25,
             "l": 29288.0,
-            "c": 29803.0,
-            "v": 572042
+            "c": 29797.0,
+            "v": 575365
           }
         ],
         "rollover_gaps": [],
@@ -10629,11 +10629,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52593.0,
-        "change_pct": 0.08,
+        "point": 52598.0,
+        "change_pct": 0.09,
         "spark": [
           52528.0,
-          52519.0,
           52523.0,
           52558.0,
           52568.0,
@@ -10672,21 +10671,22 @@
           52610.0,
           52584.0,
           52592.0,
-          52593.0
+          52595.0,
+          52598.0
         ],
         "candle": {
           "o": 52528.0,
           "h": 52785.0,
           "l": 52419.0,
-          "c": 52593.0
+          "c": 52595.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.78,
-          "high_change_pct": -3.49
+          "low_change_pct": 15.79,
+          "high_change_pct": -3.48
         },
         "daily_expanded": [
           {
@@ -12702,8 +12702,8 @@
             "o": 52528.0,
             "h": 52785.0,
             "l": 52419.0,
-            "c": 52593.0,
-            "v": 72833
+            "c": 52595.0,
+            "v": 73351
           }
         ],
         "rollover_gaps": [],
@@ -12712,20 +12712,20 @@
           "sources": [
             {
               "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/tech-stocks-power-higher-oil-cools-724e6a63?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
               "url": "https://www.wsj.com/business/weil-gotshal-leaders-spent-frantic-weekend-trying-to-stabilize-law-firm-3a1f6f31?mod=rss_markets_main"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/10/27/world-bank-president-ajay-banga.html"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/u-s-consumer-confidence-improved-in-october-conference-board-says-746458b3?mod=rss_socialeconomyfeed"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-10-28T05:20:23.933953+09:00"
+  "intraday_refreshed_kst": "2026-10-28T05:33:20.001560+09:00"
 }
