@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/europe/spain-high-speed-rail-crash-kills-at-least-10-6c4fda57?mod=rss_worldnews",
+      "published_ts": 1793183760.0,
+      "impact_high": true
+    },
+    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026102814381",
@@ -6316,13 +6323,6 @@
       "impact_high": false
     },
     {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/banking/ai-boom-drives-a-jump-in-lending-but-bankers-still-sound-cautious-78bd7a58?mod=rss_markets_main",
-      "published_ts": 1793179800.0,
-      "impact_high": false
-    },
-    {
       "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/banking/jpmorgans-skyscraper-on-park-avenue-estimated-to-cost-around-6-billion-76881bb3?mod=rss_markets_main",
@@ -6344,21 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "fafcdf26e56c5c994667ec500a8931273c9c8b6e4830e8c444c1b91c9e2267fc",
+  "_article_sig": "e811b38c0d882d588a4081a9be06c9ce7eab76e648ab2f787f5874174b86651c",
   "built_at_kst": "2026-10-28T07:04:56.354159+09:00",
   "futures": {
-    "as_of_kst": "2026-10-28T19:30:16.790862+09:00",
+    "as_of_kst": "2026-10-28T19:40:15.571983+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7768.0,
+        "point": 7768.25,
         "change_pct": 0.13,
         "spark": [
           7761.75,
-          7764.0,
-          7765.25,
           7763.25,
           7763.5,
           7764.0,
@@ -6396,20 +6394,22 @@
           7764.0,
           7764.75,
           7767.5,
-          7768.0
+          7768.0,
+          7768.25,
+          7768.25
         ],
         "candle": {
           "o": 7761.75,
           "h": 7771.25,
           "l": 7752.25,
-          "c": 7767.5
+          "c": 7768.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 21.59,
+          "low_change_pct": 21.6,
           "high_change_pct": -1.35
         },
         "daily_expanded": [
@@ -8426,8 +8426,8 @@
             "o": 7761.75,
             "h": 7771.25,
             "l": 7752.25,
-            "c": 7767.5,
-            "v": 133013
+            "c": 7768.0,
+            "v": 134927
           }
         ],
         "rollover_gaps": [],
@@ -8452,11 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29935.25,
-        "change_pct": 0.41,
+        "point": 29949.25,
+        "change_pct": 0.46,
         "spark": [
           29814.25,
-          29981.25,
           29969.5,
           29966.25,
           29963.5,
@@ -8495,13 +8494,14 @@
           29920.75,
           29934.25,
           29933.25,
-          29935.25
+          29937.5,
+          29949.25
         ],
         "candle": {
           "o": 29814.25,
           "h": 29989.25,
           "l": 29783.75,
-          "c": 29935.25
+          "c": 29936.0
         },
         "range_240d": {
           "low": 23139.75,
@@ -8509,7 +8509,7 @@
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
           "low_change_pct": 29.37,
-          "high_change_pct": -4.92
+          "high_change_pct": -4.91
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 29814.25,
             "h": 29989.25,
             "l": 29783.75,
-            "c": 29935.25,
-            "v": 87407
+            "c": 29936.0,
+            "v": 88129
           }
         ],
         "rollover_gaps": [],
@@ -10534,16 +10534,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/europe/spain-high-speed-rail-crash-kills-at-least-10-6c4fda57?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/boring-stocks-are-beautiful-again-can-it-last-f484e1da?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/banking/ai-boom-drives-a-jump-in-lending-but-bankers-still-sound-cautious-78bd7a58?mod=rss_markets_main"
-            },
-            {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/2026102814371"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/regulation/elizabeth-warren-demands-answers-from-anthropic-on-existential-risks-5362f009?mod=rss_markets_main"
             }
           ]
         }
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52468.0,
-        "change_pct": -0.21,
+        "point": 52448.0,
+        "change_pct": -0.25,
         "spark": [
           52592.0,
-          52442.0,
-          52435.0,
           52443.0,
           52449.0,
           52453.0,
@@ -10594,21 +10592,23 @@
           52439.0,
           52468.0,
           52456.0,
-          52468.0
+          52452.0,
+          52463.0,
+          52448.0
         ],
         "candle": {
           "o": 52592.0,
           "h": 52630.0,
           "l": 52395.0,
-          "c": 52468.0
+          "c": 52447.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.51,
-          "high_change_pct": -3.72
+          "low_change_pct": 15.46,
+          "high_change_pct": -3.76
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 52592.0,
             "h": 52630.0,
             "l": 52395.0,
-            "c": 52468.0,
-            "v": 11552
+            "c": 52447.0,
+            "v": 11743
           }
         ],
         "rollover_gaps": [],
@@ -12655,16 +12655,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/europe/spain-high-speed-rail-crash-kills-at-least-10-6c4fda57?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/boring-stocks-are-beautiful-again-can-it-last-f484e1da?mod=rss_markets_main"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/banking/ai-boom-drives-a-jump-in-lending-but-bankers-still-sound-cautious-78bd7a58?mod=rss_markets_main"
-        },
-        {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/2026102814371"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/regulation/elizabeth-warren-demands-answers-from-anthropic-on-existential-risks-5362f009?mod=rss_markets_main"
         }
       ]
     },
@@ -12703,5 +12703,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-10-28T19:30:36.679800+09:00"
+  "intraday_refreshed_kst": "2026-10-28T19:43:13.589355+09:00"
 }
