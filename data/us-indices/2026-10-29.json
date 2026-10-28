@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26481.5,
-      "change_pct": 0.01,
+      "point": 26460.3,
+      "change_pct": -0.07,
       "candle": {
         "o": 26535.62,
         "h": 26580.2,
         "l": 26428.51,
-        "c": 26481.5
+        "c": 26460.3
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,7 +2033,7 @@
           "o": 26535.62,
           "h": 26580.2,
           "l": 26428.51,
-          "c": 26481.5
+          "c": 26460.3
         }
       ],
       "spark": [
@@ -2064,7 +2064,9 @@
         26463.74,
         26471.62,
         26481.29,
-        26481.5
+        26475.64,
+        26460.64,
+        26460.3
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2088,13 +2090,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7739.8,
-      "change_pct": 0.22,
+      "point": 7737.64,
+      "change_pct": 0.19,
       "candle": {
         "o": 7735.56,
         "h": 7742.75,
         "l": 7718.37,
-        "c": 7739.8
+        "c": 7737.64
       },
       "range_240d": {
         "low": 6343.72,
@@ -4118,7 +4120,7 @@
           "o": 7735.56,
           "h": 7742.75,
           "l": 7718.37,
-          "c": 7739.8
+          "c": 7737.64
         }
       ],
       "spark": [
@@ -4149,7 +4151,9 @@
         7735.24,
         7737.53,
         7740.01,
-        7739.8
+        7739.79,
+        7737.29,
+        7737.64
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4173,13 +4177,13 @@
     },
     {
       "name": "DOW",
-      "point": 52540.95,
-      "change_pct": 0.31,
+      "point": 52527.65,
+      "change_pct": 0.29,
       "candle": {
         "o": 52335.43,
-        "h": 52546.59,
+        "h": 52562.6,
         "l": 52335.43,
-        "c": 52540.95
+        "c": 52527.65
       },
       "range_240d": {
         "low": 45166.64,
@@ -6201,9 +6205,9 @@
         {
           "date": "2026-10-28",
           "o": 52335.43,
-          "h": 52546.59,
+          "h": 52562.6,
           "l": 52335.43,
-          "c": 52540.95
+          "c": 52527.65
         }
       ],
       "spark": [
@@ -6234,7 +6238,9 @@
         52503.03,
         52531.3,
         52537.22,
-        52540.95
+        52554.23,
+        52533.81,
+        52527.65
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6259,10 +6265,17 @@
   ],
   "news_chips": [
     {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/europe/spain-high-speed-rail-crash-kills-at-least-10-6c4fda57?mod=rss_worldnews",
+      "published_ts": 1793202120.0,
+      "impact_high": true
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/28/uk-autumn-budget-cost-living-defense-ai.html",
-      "published_ts": 1793199313.0,
+      "published_ts": 1793201954.0,
       "impact_high": true
     },
     {
@@ -6274,30 +6287,23 @@
     },
     {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html",
-      "published_ts": 1793116260.0,
+      "source": "WSJ",
+      "url": "https://www.wsj.com/livecoverage/fed-meeting-interest-rate-decision-10-28-2026?mod=rss_markets_main",
+      "published_ts": 1793175453.0,
       "impact_high": true
+    },
+    {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/2026102818557",
+      "published_ts": 1793199936.0,
+      "impact_high": false
     },
     {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/netanyahu-israels-divisive-political-houdini-is-still-at-the-center-of-the-show-a584fb31?mod=rss_worldnews",
       "published_ts": 1793199360.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026102818237",
-      "published_ts": 1793197693.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/202610281802i",
-      "published_ts": 1793197629.0,
       "impact_high": false
     },
     {
@@ -6322,7 +6328,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "bb23db055754906e26d3f9d20836f3de4122514f2469d21f8a4a0a5fb67031f9",
+  "_article_sig": "605335fa783219fc905aa1974407ff366d2a3819525a8ef2814892a34b782f33",
   "built_at_kst": "2026-10-28T07:04:56.354159+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6330,16 +6336,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/europe/spain-high-speed-rail-crash-kills-at-least-10-6c4fda57?mod=rss_worldnews"
+        },
+        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/10/28/uk-autumn-budget-cost-living-defense-ai.html"
         },
         {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/202610281802i"
-        },
-        {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/202610281807i"
         }
       ]
     },
@@ -6364,12 +6370,12 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/netanyahu-israels-divisive-political-houdini-is-still-at-the-center-of-the-show-a584fb31?mod=rss_worldnews"
-        },
-        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/10/28/uk-autumn-budget-cost-living-defense-ai.html"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/netanyahu-israels-divisive-political-houdini-is-still-at-the-center-of-the-show-a584fb31?mod=rss_worldnews"
         },
         {
           "name": "WSJ세계",
@@ -6379,18 +6385,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-10-29T00:40:10.034222+09:00",
+    "as_of_kst": "2026-10-29T00:50:11.672341+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7770.75,
-        "change_pct": 0.16,
+        "point": 7774.75,
+        "change_pct": 0.21,
         "spark": [
           7761.75,
-          7777.75,
-          7776.25,
           7776.75,
           7774.25,
           7774.25,
@@ -6428,21 +6432,23 @@
           7773.5,
           7769.75,
           7772.25,
-          7770.75
+          7775.0,
+          7774.5,
+          7774.75
         ],
         "candle": {
           "o": 7761.75,
           "h": 7778.25,
           "l": 7751.5,
-          "c": 7770.75
+          "c": 7774.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 21.64,
-          "high_change_pct": -1.31
+          "low_change_pct": 21.7,
+          "high_change_pct": -1.26
         },
         "daily_expanded": [
           {
@@ -8458,8 +8464,8 @@
             "o": 7761.75,
             "h": 7778.25,
             "l": 7751.5,
-            "c": 7770.75,
-            "v": 532411
+            "c": 7774.75,
+            "v": 552004
           }
         ],
         "rollover_gaps": [],
@@ -8484,12 +8490,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29836.25,
-        "change_pct": 0.08,
+        "point": 29858.75,
+        "change_pct": 0.16,
         "spark": [
           29814.25,
-          29943.25,
-          29935.25,
           29931.5,
           29912.75,
           29920.5,
@@ -8527,21 +8531,23 @@
           29846.75,
           29831.5,
           29842.0,
-          29836.25
+          29860.5,
+          29858.75,
+          29858.75
         ],
         "candle": {
           "o": 29814.25,
           "h": 29989.25,
           "l": 29767.25,
-          "c": 29834.25
+          "c": 29858.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 28.93,
-          "high_change_pct": -5.24
+          "low_change_pct": 29.03,
+          "high_change_pct": -5.16
         },
         "daily_expanded": [
           {
@@ -10557,8 +10563,8 @@
             "o": 29814.25,
             "h": 29989.25,
             "l": 29767.25,
-            "c": 29834.25,
-            "v": 278073
+            "c": 29858.25,
+            "v": 283010
           }
         ],
         "rollover_gaps": [],
@@ -10566,16 +10572,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/europe/spain-high-speed-rail-crash-kills-at-least-10-6c4fda57?mod=rss_worldnews"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/10/28/uk-autumn-budget-cost-living-defense-ai.html"
             },
             {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/202610281802i"
-            },
-            {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/202610281807i"
             }
           ]
         }
@@ -10583,12 +10589,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52684.0,
-        "change_pct": 0.2,
+        "point": 52714.0,
+        "change_pct": 0.26,
         "spark": [
           52592.0,
-          52585.0,
-          52590.0,
           52606.0,
           52595.0,
           52570.0,
@@ -10626,21 +10630,23 @@
           52712.0,
           52681.0,
           52707.0,
-          52684.0
+          52718.0,
+          52726.0,
+          52714.0
         ],
         "candle": {
           "o": 52592.0,
           "h": 52739.0,
           "l": 52395.0,
-          "c": 52683.0
+          "c": 52715.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.98,
-          "high_change_pct": -3.32
+          "low_change_pct": 16.05,
+          "high_change_pct": -3.26
         },
         "daily_expanded": [
           {
@@ -12656,8 +12662,8 @@
             "o": 52592.0,
             "h": 52739.0,
             "l": 52395.0,
-            "c": 52683.0,
-            "v": 38474
+            "c": 52715.0,
+            "v": 39257
           }
         ],
         "rollover_gaps": [],
@@ -12665,12 +12671,12 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/netanyahu-israels-divisive-political-houdini-is-still-at-the-center-of-the-show-a584fb31?mod=rss_worldnews"
-            },
-            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/10/28/uk-autumn-budget-cost-living-defense-ai.html"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/netanyahu-israels-divisive-political-houdini-is-still-at-the-center-of-the-show-a584fb31?mod=rss_worldnews"
             },
             {
               "name": "WSJ세계",
@@ -12681,5 +12687,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-10-29T00:40:23.945126+09:00"
+  "intraday_refreshed_kst": "2026-10-29T00:53:02.178661+09:00"
 }
