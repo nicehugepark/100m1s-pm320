@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/livecoverage/fed-meeting-interest-rate-decision-10-28-2026?mod=rss_markets_main",
+      "published_ts": 1793175453.0,
+      "impact_high": true
+    },
+    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/consumers/german-consumers-grow-slightly-gloomier-on-lingering-inflation-concerns-a15a9232?mod=rss_socialeconomyfeed",
@@ -6286,6 +6293,13 @@
       "url": "https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html",
       "published_ts": 1793116260.0,
       "impact_high": true
+    },
+    {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/israel-election-results-netanyahu-9e62d9d3?mod=rss_worldnews",
+      "published_ts": 1793174400.0,
+      "impact_high": false
     },
     {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
@@ -6309,20 +6323,6 @@
       "impact_high": false
     },
     {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/israel-election-results-netanyahu-9e62d9d3?mod=rss_worldnews",
-      "published_ts": 1793169000.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/new-zealand-central-bank-surprises-markets-with-rate-hold-90ee6cc8?mod=rss_socialeconomyfeed",
-      "published_ts": 1793160180.0,
-      "impact_high": false
-    },
-    {
       "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/business/weil-gotshal-leaders-spent-frantic-weekend-trying-to-stabilize-law-firm-3a1f6f31?mod=rss_markets_main",
@@ -6337,21 +6337,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "3bb631a925c622817488f4c5a2b6e1c6e21d275edb2feb6a3862f160c15e4689",
+  "_article_sig": "32ae231fa2dca0f4d1423bb04b5502ad86cf7ee1aca27149e95ad24d02ba0219",
   "built_at_kst": "2026-10-28T07:04:56.354159+09:00",
   "futures": {
-    "as_of_kst": "2026-10-28T17:10:17.157220+09:00",
+    "as_of_kst": "2026-10-28T17:20:15.981546+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7767.5,
+        "point": 7767.25,
         "change_pct": 0.12,
         "spark": [
           7761.75,
-          7759.5,
-          7758.75,
           7758.5,
           7758.5,
           7759.5,
@@ -6389,13 +6387,15 @@
           7757.5,
           7768.75,
           7766.5,
-          7767.5
+          7767.0,
+          7765.25,
+          7767.25
         ],
         "candle": {
           "o": 7761.75,
-          "h": 7769.0,
+          "h": 7770.25,
           "l": 7752.25,
-          "c": 7767.5
+          "c": 7767.25
         },
         "range_240d": {
           "low": 6388.25,
@@ -6403,7 +6403,7 @@
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
           "low_change_pct": 21.59,
-          "high_change_pct": -1.35
+          "high_change_pct": -1.36
         },
         "daily_expanded": [
           {
@@ -8417,10 +8417,10 @@
           {
             "date": "2026-10-28",
             "o": 7761.75,
-            "h": 7769.0,
+            "h": 7770.25,
             "l": 7752.25,
-            "c": 7767.5,
-            "v": 91746
+            "c": 7767.25,
+            "v": 96228
           }
         ],
         "rollover_gaps": [],
@@ -8428,16 +8428,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/livecoverage/fed-meeting-interest-rate-decision-10-28-2026?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-as-houthi-militants-target-saudi-energy-45c38fe0?mod=rss_worldnews"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/consumers/german-consumers-grow-slightly-gloomier-on-lingering-inflation-concerns-a15a9232?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/boj-rate-hold-seen-as-done-deal-putting-focus-on-guidance-fe9049cc?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8445,12 +8445,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29970.5,
-        "change_pct": 0.53,
+        "point": 29972.25,
+        "change_pct": 0.54,
         "spark": [
           29814.25,
-          29898.0,
-          29893.0,
           29892.5,
           29893.75,
           29911.75,
@@ -8488,13 +8486,15 @@
           29914.75,
           29977.5,
           29977.75,
-          29970.5
+          29974.0,
+          29962.5,
+          29972.25
         ],
         "candle": {
           "o": 29814.25,
-          "h": 29987.0,
+          "h": 29989.25,
           "l": 29783.75,
-          "c": 29972.75
+          "c": 29972.25
         },
         "range_240d": {
           "low": 23139.75,
@@ -10516,10 +10516,10 @@
           {
             "date": "2026-10-28",
             "o": 29814.25,
-            "h": 29987.0,
+            "h": 29989.25,
             "l": 29783.75,
-            "c": 29972.75,
-            "v": 68961
+            "c": 29972.25,
+            "v": 71278
           }
         ],
         "rollover_gaps": [],
@@ -10544,12 +10544,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52472.0,
-        "change_pct": -0.2,
+        "point": 52458.0,
+        "change_pct": -0.23,
         "spark": [
           52592.0,
-          52476.0,
-          52472.0,
           52467.0,
           52466.0,
           52471.0,
@@ -10587,21 +10585,23 @@
           52413.0,
           52495.0,
           52445.0,
-          52472.0
+          52465.0,
+          52446.0,
+          52458.0
         ],
         "candle": {
           "o": 52592.0,
           "h": 52630.0,
           "l": 52395.0,
-          "c": 52471.0
+          "c": 52458.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.51,
-          "high_change_pct": -3.71
+          "low_change_pct": 15.49,
+          "high_change_pct": -3.74
         },
         "daily_expanded": [
           {
@@ -12617,8 +12617,8 @@
             "o": 52592.0,
             "h": 52630.0,
             "l": 52395.0,
-            "c": 52471.0,
-            "v": 7028
+            "c": 52458.0,
+            "v": 7532
           }
         ],
         "rollover_gaps": [],
@@ -12626,16 +12626,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/livecoverage/fed-meeting-interest-rate-decision-10-28-2026?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-as-houthi-militants-target-saudi-energy-45c38fe0?mod=rss_worldnews"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/consumers/german-consumers-grow-slightly-gloomier-on-lingering-inflation-concerns-a15a9232?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/thai-central-bank-holds-rate-as-growth-remains-weak-48393707?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -12665,16 +12665,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/livecoverage/fed-meeting-interest-rate-decision-10-28-2026?mod=rss_markets_main"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-as-houthi-militants-target-saudi-energy-45c38fe0?mod=rss_worldnews"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/consumers/german-consumers-grow-slightly-gloomier-on-lingering-inflation-concerns-a15a9232?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/boj-rate-hold-seen-as-done-deal-putting-focus-on-guidance-fe9049cc?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12682,19 +12682,19 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/livecoverage/fed-meeting-interest-rate-decision-10-28-2026?mod=rss_markets_main"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-as-houthi-militants-target-saudi-energy-45c38fe0?mod=rss_worldnews"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/consumers/german-consumers-grow-slightly-gloomier-on-lingering-inflation-concerns-a15a9232?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/thai-central-bank-holds-rate-as-growth-remains-weak-48393707?mod=rss_socialeconomyfeed"
         }
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-10-28T17:10:32.411360+09:00"
+  "intraday_refreshed_kst": "2026-10-28T17:23:50.841972+09:00"
 }
