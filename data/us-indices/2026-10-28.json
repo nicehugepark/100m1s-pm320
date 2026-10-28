@@ -6274,7 +6274,7 @@
   ],
   "news_chips": [
     {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "summary": "반도체 수요와 공급망 뉴스가 기술주 투자심리의 핵심 변수로 작용하는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/fed-meeting-interest-rate-decision-10-28-2026?mod=rss_markets_main",
       "published_ts": 1793175453.0,
@@ -6296,9 +6296,16 @@
     },
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/israel-election-results-netanyahu-9e62d9d3?mod=rss_worldnews",
-      "published_ts": 1793174400.0,
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/2026102814907",
+      "published_ts": 1793177337.0,
+      "impact_high": false
+    },
+    {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/thai-central-bank-holds-rate-as-growth-remains-weak-48393707?mod=rss_socialeconomyfeed",
+      "published_ts": 1793176560.0,
       "impact_high": false
     },
     {
@@ -6309,17 +6316,17 @@
       "impact_high": false
     },
     {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/thai-central-bank-holds-rate-as-growth-remains-weak-48393707?mod=rss_socialeconomyfeed",
-      "published_ts": 1793171340.0,
-      "impact_high": false
-    },
-    {
       "summary": "기업 실적과 가이던스 변화가 대형주 중심의 선별 흐름을 강화하는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/banking/ubs-profit-climbs-as-wealth-management-inflows-increase-868e9b5f?mod=rss_markets_main",
       "published_ts": 1793170260.0,
+      "impact_high": false
+    },
+    {
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/new-zealand-central-bank-surprises-markets-with-rate-hold-90ee6cc8?mod=rss_socialeconomyfeed",
+      "published_ts": 1793160180.0,
       "impact_high": false
     },
     {
@@ -6337,21 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "32ae231fa2dca0f4d1423bb04b5502ad86cf7ee1aca27149e95ad24d02ba0219",
+  "_article_sig": "0a7c51cf6837063ac082ea471b257541348f887cea7612376e110aa3daba0d51",
   "built_at_kst": "2026-10-28T07:04:56.354159+09:00",
   "futures": {
-    "as_of_kst": "2026-10-28T17:50:17.114429+09:00",
+    "as_of_kst": "2026-10-28T18:00:18.300424+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7763.25,
-        "change_pct": 0.06,
+        "point": 7764.75,
+        "change_pct": 0.08,
         "spark": [
           7761.75,
-          7761.5,
-          7760.75,
           7759.25,
           7760.25,
           7759.5,
@@ -6389,21 +6394,23 @@
           7764.5,
           7762.75,
           7763.25,
-          7763.25
+          7763.75,
+          7764.75,
+          7764.75
         ],
         "candle": {
           "o": 7761.75,
           "h": 7770.25,
           "l": 7752.25,
-          "c": 7763.25
+          "c": 7764.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 21.52,
-          "high_change_pct": -1.41
+          "low_change_pct": 21.55,
+          "high_change_pct": -1.39
         },
         "daily_expanded": [
           {
@@ -8419,8 +8426,8 @@
             "o": 7761.75,
             "h": 7770.25,
             "l": 7752.25,
-            "c": 7763.25,
-            "v": 104674
+            "c": 7764.75,
+            "v": 106697
           }
         ],
         "rollover_gaps": [],
@@ -8445,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29932.0,
+        "point": 29931.5,
         "change_pct": 0.4,
         "spark": [
           29814.25,
-          29923.75,
-          29914.25,
           29917.0,
           29908.0,
           29913.25,
@@ -8488,13 +8493,15 @@
           29938.5,
           29933.25,
           29930.0,
-          29932.0
+          29927.5,
+          29938.0,
+          29931.5
         ],
         "candle": {
           "o": 29814.25,
           "h": 29989.25,
           "l": 29783.75,
-          "c": 29932.0
+          "c": 29930.5
         },
         "range_240d": {
           "low": 23139.75,
@@ -10518,8 +10525,8 @@
             "o": 29814.25,
             "h": 29989.25,
             "l": 29783.75,
-            "c": 29932.0,
-            "v": 74970
+            "c": 29930.5,
+            "v": 75963
           }
         ],
         "rollover_gaps": [],
@@ -10527,16 +10534,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-as-houthi-militants-target-saudi-energy-45c38fe0?mod=rss_worldnews"
-            },
-            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/thai-central-bank-holds-rate-as-growth-remains-weak-48393707?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/standard-chartered-quarterly-net-profit-jumps-raises-income-guidance-22a84a62?mod=rss_markets_main"
+              "url": "https://www.wsj.com/livecoverage/fed-meeting-interest-rate-decision-10-28-2026?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-as-houthi-militants-target-saudi-energy-45c38fe0?mod=rss_worldnews"
             }
           ]
         }
@@ -10544,11 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52471.0,
-        "change_pct": -0.21,
+        "point": 52484.0,
+        "change_pct": -0.18,
         "spark": [
           52592.0,
-          52469.0,
           52449.0,
           52456.0,
           52468.0,
@@ -10587,21 +10593,22 @@
           52436.0,
           52467.0,
           52476.0,
-          52471.0
+          52484.0,
+          52484.0
         ],
         "candle": {
           "o": 52592.0,
           "h": 52630.0,
           "l": 52395.0,
-          "c": 52471.0
+          "c": 52484.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.51,
-          "high_change_pct": -3.71
+          "low_change_pct": 15.54,
+          "high_change_pct": -3.69
         },
         "daily_expanded": [
           {
@@ -12617,8 +12624,8 @@
             "o": 52592.0,
             "h": 52630.0,
             "l": 52395.0,
-            "c": 52471.0,
-            "v": 8321
+            "c": 52484.0,
+            "v": 8450
           }
         ],
         "rollover_gaps": [],
@@ -12626,8 +12633,8 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/fed-meeting-interest-rate-decision-10-28-2026?mod=rss_markets_main"
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/thai-central-bank-holds-rate-as-growth-remains-weak-48393707?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ세계",
@@ -12648,16 +12655,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-as-houthi-militants-target-saudi-energy-45c38fe0?mod=rss_worldnews"
-        },
-        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/thai-central-bank-holds-rate-as-growth-remains-weak-48393707?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/standard-chartered-quarterly-net-profit-jumps-raises-income-guidance-22a84a62?mod=rss_markets_main"
+          "url": "https://www.wsj.com/livecoverage/fed-meeting-interest-rate-decision-10-28-2026?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-as-houthi-militants-target-saudi-energy-45c38fe0?mod=rss_worldnews"
         }
       ]
     },
@@ -12682,8 +12689,8 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/fed-meeting-interest-rate-decision-10-28-2026?mod=rss_markets_main"
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/thai-central-bank-holds-rate-as-growth-remains-weak-48393707?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ세계",
@@ -12696,5 +12703,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-10-28T17:50:33.788953+09:00"
+  "intraday_refreshed_kst": "2026-10-28T18:03:19.082037+09:00"
 }
