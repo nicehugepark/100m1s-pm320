@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/regulation/elizabeth-warren-demands-answers-from-anthropic-on-existential-risks-5362f009?mod=rss_markets_main",
+      "published_ts": 1793178000.0,
+      "impact_high": true
+    },
+    {
       "summary": "반도체 수요와 공급망 뉴스가 기술주 투자심리의 핵심 변수로 작용하는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/livecoverage/fed-meeting-interest-rate-decision-10-28-2026?mod=rss_markets_main",
@@ -6309,13 +6316,6 @@
       "impact_high": false
     },
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-as-houthi-militants-target-saudi-energy-45c38fe0?mod=rss_worldnews",
-      "published_ts": 1793173860.0,
-      "impact_high": false
-    },
-    {
       "summary": "기업 실적과 가이던스 변화가 대형주 중심의 선별 흐름을 강화하는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/banking/ubs-profit-climbs-as-wealth-management-inflows-increase-868e9b5f?mod=rss_markets_main",
@@ -6344,21 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "0a7c51cf6837063ac082ea471b257541348f887cea7612376e110aa3daba0d51",
+  "_article_sig": "224038ed0e6a8f64d08d9f9e7f2a40abca7c876b5d3f6f26173c487bcf829253",
   "built_at_kst": "2026-10-28T07:04:56.354159+09:00",
   "futures": {
-    "as_of_kst": "2026-10-28T18:00:18.300424+09:00",
+    "as_of_kst": "2026-10-28T18:10:13.222870+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7764.75,
+        "point": 7764.25,
         "change_pct": 0.08,
         "spark": [
           7761.75,
-          7759.25,
-          7760.25,
           7759.5,
           7758.5,
           7758.25,
@@ -6396,7 +6394,9 @@
           7763.25,
           7763.75,
           7764.75,
-          7764.75
+          7766.25,
+          7764.25,
+          7764.25
         ],
         "candle": {
           "o": 7761.75,
@@ -8427,7 +8427,7 @@
             "h": 7770.25,
             "l": 7752.25,
             "c": 7764.75,
-            "v": 106697
+            "v": 108518
           }
         ],
         "rollover_gaps": [],
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29931.5,
-        "change_pct": 0.4,
+        "point": 29927.5,
+        "change_pct": 0.39,
         "spark": [
           29814.25,
-          29917.0,
-          29908.0,
           29913.25,
           29912.75,
           29936.0,
@@ -8495,21 +8493,23 @@
           29930.0,
           29927.5,
           29938.0,
-          29931.5
+          29925.75,
+          29923.75,
+          29927.5
         ],
         "candle": {
           "o": 29814.25,
           "h": 29989.25,
           "l": 29783.75,
-          "c": 29930.5
+          "c": 29925.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 29.35,
-          "high_change_pct": -4.93
+          "low_change_pct": 29.32,
+          "high_change_pct": -4.95
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 29814.25,
             "h": 29989.25,
             "l": 29783.75,
-            "c": 29930.5,
-            "v": 75963
+            "c": 29925.0,
+            "v": 76659
           }
         ],
         "rollover_gaps": [],
@@ -10534,16 +10534,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/regulation/elizabeth-warren-demands-answers-from-anthropic-on-existential-risks-5362f009?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/thai-central-bank-holds-rate-as-growth-remains-weak-48393707?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/fed-meeting-interest-rate-decision-10-28-2026?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-as-houthi-militants-target-saudi-energy-45c38fe0?mod=rss_worldnews"
             }
           ]
         }
@@ -10551,13 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52484.0,
-        "change_pct": -0.18,
+        "point": 52488.0,
+        "change_pct": -0.17,
         "spark": [
           52592.0,
-          52449.0,
-          52456.0,
-          52468.0,
           52453.0,
           52453.0,
           52450.0,
@@ -10594,21 +10591,24 @@
           52467.0,
           52476.0,
           52484.0,
-          52484.0
+          52496.0,
+          52489.0,
+          52494.0,
+          52488.0
         ],
         "candle": {
           "o": 52592.0,
           "h": 52630.0,
           "l": 52395.0,
-          "c": 52484.0
+          "c": 52489.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.54,
-          "high_change_pct": -3.69
+          "low_change_pct": 15.55,
+          "high_change_pct": -3.68
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 52592.0,
             "h": 52630.0,
             "l": 52395.0,
-            "c": 52484.0,
-            "v": 8450
+            "c": 52489.0,
+            "v": 8707
           }
         ],
         "rollover_gaps": [],
@@ -12655,16 +12655,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/regulation/elizabeth-warren-demands-answers-from-anthropic-on-existential-risks-5362f009?mod=rss_markets_main"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/thai-central-bank-holds-rate-as-growth-remains-weak-48393707?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/fed-meeting-interest-rate-decision-10-28-2026?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-as-houthi-militants-target-saudi-energy-45c38fe0?mod=rss_worldnews"
         }
       ]
     },
@@ -12703,5 +12703,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-10-28T18:03:19.082037+09:00"
+  "intraday_refreshed_kst": "2026-10-28T18:13:39.861022+09:00"
 }
