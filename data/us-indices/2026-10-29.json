@@ -6274,6 +6274,20 @@
   ],
   "news_chips": [
     {
+      "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/29/european-central-bank-interest-rates.html",
+      "published_ts": 1793279972.0,
+      "impact_high": true
+    },
+    {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/ecb-leaves-rates-unchanged-as-challenges-mount-for-lagardes-successor-153e78eb?mod=rss_socialeconomyfeed",
+      "published_ts": 1793279700.0,
+      "impact_high": true
+    },
+    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html",
@@ -6309,13 +6323,6 @@
       "impact_high": false
     },
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-u-s-iran-diplomacy-afe80fa9?mod=rss_worldnews",
-      "published_ts": 1793275500.0,
-      "impact_high": false
-    },
-    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/china/chinas-xi-demands-more-loyalty-as-purges-trim-party-elite-e2cc90ab?mod=rss_worldnews",
@@ -6330,13 +6337,6 @@
       "impact_high": false
     },
     {
-      "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/banking/jpmorgans-skyscraper-on-park-avenue-estimated-to-cost-around-6-billion-76881bb3?mod=rss_markets_main",
-      "published_ts": 1793179800.0,
-      "impact_high": false
-    },
-    {
       "summary": "기업 실적과 가이던스 변화가 대형주 중심의 선별 흐름을 강화하는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/global/french-contraction-has-slowed-eurozone-expansion-surveys-show-40f629a8?mod=rss_socialeconomyfeed",
@@ -6344,21 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "84e4335f19f0e649dde2f4aaf186fe0bafc8968f1fd1522f537eb4c365270e1e",
+  "_article_sig": "b9cc822e85395539ddf6c3d6c5bbba6fa178b025f13f8630539df743a05da17c",
   "built_at_kst": "2026-10-29T07:03:36.414421+09:00",
   "futures": {
-    "as_of_kst": "2026-10-29T22:10:12.253735+09:00",
+    "as_of_kst": "2026-10-29T22:20:13.259861+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7757.75,
-        "change_pct": -0.33,
+        "point": 7761.25,
+        "change_pct": -0.28,
         "spark": [
           7767.75,
-          7768.75,
-          7767.5,
           7767.75,
           7768.75,
           7766.0,
@@ -6396,21 +6394,23 @@
           7755.25,
           7757.75,
           7761.0,
-          7757.75
+          7760.75,
+          7760.25,
+          7761.25
         ],
         "candle": {
           "o": 7767.75,
           "h": 7773.75,
           "l": 7740.0,
-          "c": 7757.75
+          "c": 7761.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 21.44,
-          "high_change_pct": -1.48
+          "low_change_pct": 21.49,
+          "high_change_pct": -1.43
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7767.75,
             "h": 7773.75,
             "l": 7740.0,
-            "c": 7757.75,
-            "v": 339622
+            "c": 7761.25,
+            "v": 350848
           }
         ],
         "rollover_gaps": [],
@@ -8435,16 +8435,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/ecb-leaves-rates-unchanged-as-challenges-mount-for-lagardes-successor-153e78eb?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/pce-inflation-accelerated-last-month-5f72a43f?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-u-s-iran-diplomacy-afe80fa9?mod=rss_worldnews"
             }
           ]
         }
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29664.5,
-        "change_pct": -1.05,
+        "point": 29702.75,
+        "change_pct": -0.92,
         "spark": [
           29793.5,
-          29700.25,
-          29697.5,
           29701.25,
           29704.0,
           29690.25,
@@ -8495,21 +8493,23 @@
           29644.25,
           29661.0,
           29697.0,
-          29664.5
+          29700.75,
+          29694.75,
+          29702.75
         ],
         "candle": {
           "o": 29793.5,
           "h": 29794.25,
           "l": 29482.5,
-          "c": 29666.75
+          "c": 29701.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 28.21,
-          "high_change_pct": -5.77
+          "low_change_pct": 28.35,
+          "high_change_pct": -5.66
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 29793.5,
             "h": 29794.25,
             "l": 29482.5,
-            "c": 29666.75,
-            "v": 187939
+            "c": 29701.0,
+            "v": 193770
           }
         ],
         "rollover_gaps": [],
@@ -10535,15 +10535,15 @@
           "sources": [
             {
               "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/ecb-leaves-rates-unchanged-as-challenges-mount-for-lagardes-successor-153e78eb?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-unexpectedly-edge-lower-0aee8b41?mod=rss_socialeconomyfeed"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/global/irish-economy-surges-again-in-boost-to-eurozone-58395075?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52599.0,
-        "change_pct": -0.18,
+        "point": 52598.0,
+        "change_pct": -0.19,
         "spark": [
           52775.0,
-          52994.0,
-          52997.0,
           52994.0,
           53007.0,
           52976.0,
@@ -10594,21 +10592,23 @@
           52580.0,
           52599.0,
           52545.0,
-          52599.0
+          52595.0,
+          52585.0,
+          52598.0
         ],
         "candle": {
           "o": 52775.0,
           "h": 53145.0,
           "l": 52468.0,
-          "c": 52601.0
+          "c": 52592.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.8,
-          "high_change_pct": -3.47
+          "low_change_pct": 15.78,
+          "high_change_pct": -3.49
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 52775.0,
             "h": 53145.0,
             "l": 52468.0,
-            "c": 52601.0,
-            "v": 40813
+            "c": 52592.0,
+            "v": 42010
           }
         ],
         "rollover_gaps": [],
@@ -12634,15 +12634,15 @@
           "sources": [
             {
               "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
+              "url": "https://www.cnbc.com/2026/10/29/european-central-bank-interest-rates.html"
             },
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/us-gdp-report-q3-2026-87eb755d?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/economy/central-banking/ecb-leaves-rates-unchanged-as-challenges-mount-for-lagardes-successor-153e78eb?mod=rss_socialeconomyfeed"
             },
             {
               "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/10/29/lagarde-ecb-stand-down.html"
+              "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
             }
           ]
         }
@@ -12650,11 +12650,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-10-29T22:12:55.718463+09:00",
+  "intraday_refreshed_kst": "2026-10-29T22:23:20.382654+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/ecb-leaves-rates-unchanged-as-challenges-mount-for-lagardes-successor-153e78eb?mod=rss_socialeconomyfeed"
+        },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-unexpectedly-edge-lower-0aee8b41?mod=rss_socialeconomyfeed"
@@ -12662,10 +12666,6 @@
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/global/irish-economy-surges-again-in-boost-to-eurozone-58395075?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12673,16 +12673,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/ecb-leaves-rates-unchanged-as-challenges-mount-for-lagardes-successor-153e78eb?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/pce-inflation-accelerated-last-month-5f72a43f?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-u-s-iran-diplomacy-afe80fa9?mod=rss_worldnews"
         }
       ]
     },
@@ -12691,15 +12691,15 @@
       "sources": [
         {
           "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
+          "url": "https://www.cnbc.com/2026/10/29/european-central-bank-interest-rates.html"
         },
         {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/us-gdp-report-q3-2026-87eb755d?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/economy/central-banking/ecb-leaves-rates-unchanged-as-challenges-mount-for-lagardes-successor-153e78eb?mod=rss_socialeconomyfeed"
         },
         {
           "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/29/lagarde-ecb-stand-down.html"
+          "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
         }
       ]
     }
