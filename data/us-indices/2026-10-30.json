@@ -2088,7 +2088,8 @@
             "url": "https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html"
           }
         ]
-      }
+      },
+      "session_open": false
     },
     {
       "name": "S&P500",
@@ -4177,7 +4178,8 @@
             "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
           }
         ]
-      }
+      },
+      "session_open": false
     },
     {
       "name": "DOW",
@@ -6266,7 +6268,8 @@
             "url": "https://www.cnbc.com/2026/10/29/lagarde-ecb-stand-down.html"
           }
         ]
-      }
+      },
+      "session_open": false
     }
   ],
   "news_chips": [
@@ -6341,21 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "2435fde2278035090d1554fcfc145538ff22c34df276d518cf8b02657dd1475b",
+  "_article_sig": "99c2998fe9faa092c6a0d51fcafac7a2319e2be1a2edf381c7a67da39dcdc68e",
   "built_at_kst": "2026-10-30T07:03:19.429285+09:00",
   "futures": {
-    "as_of_kst": "2026-10-30T07:03:19.427925+09:00",
+    "as_of_kst": "2026-10-30T07:10:17.369066+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7710.0,
-        "change_pct": -0.57,
+        "point": 7709.25,
+        "change_pct": -0.58,
         "spark": [
-          7767.75,
-          7738.0,
-          7733.75,
+          7709.25,
           7727.0,
           7732.5,
           7729.25,
@@ -6393,21 +6394,23 @@
           7715.5,
           7711.5,
           7711.75,
-          7710.0
+          7710.0,
+          7712.75,
+          7709.25
         ],
         "candle": {
-          "o": 7767.75,
-          "h": 7773.75,
-          "l": 7709.5,
-          "c": 7710.0
+          "o": 7709.25,
+          "h": 7709.5,
+          "l": 7708.0,
+          "c": 7709.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 20.69,
-          "high_change_pct": -2.08
+          "low_change_pct": 20.68,
+          "high_change_pct": -2.09
         },
         "daily_expanded": [
           {
@@ -8420,24 +8423,39 @@
           },
           {
             "date": "2026-10-29",
-            "o": 7767.75,
-            "h": 7773.75,
-            "l": 7709.5,
-            "c": 7710.0,
-            "v": 1926149
+            "o": 7709.25,
+            "h": 7709.5,
+            "l": 7708.0,
+            "c": 7709.25,
+            "v": 300
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/politics/national-security/top-admiral-briefs-trump-on-iran-attack-options-5bd6f13c?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-u-s-iran-diplomacy-afe80fa9?mod=rss_worldnews"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
+            }
+          ]
+        }
       },
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29218.25,
-        "change_pct": -1.16,
+        "point": 29162.5,
+        "change_pct": -1.35,
         "spark": [
-          29793.5,
-          29508.5,
-          29484.75,
+          29180.0,
           29440.75,
           29463.25,
           29452.25,
@@ -8475,21 +8493,23 @@
           29228.25,
           29201.25,
           29231.5,
-          29218.25
+          29218.25,
+          29164.25,
+          29162.5
         ],
         "candle": {
-          "o": 29793.5,
-          "h": 29794.25,
-          "l": 29111.0,
-          "c": 29218.25
+          "o": 29180.0,
+          "h": 29180.0,
+          "l": 29151.0,
+          "c": 29153.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 26.27,
-          "high_change_pct": -7.19
+          "low_change_pct": 25.99,
+          "high_change_pct": -7.4
         },
         "daily_expanded": [
           {
@@ -10502,24 +10522,39 @@
           },
           {
             "date": "2026-10-29",
-            "o": 29793.5,
-            "h": 29794.25,
-            "l": 29111.0,
-            "c": 29218.25,
-            "v": 794700
+            "o": 29180.0,
+            "h": 29180.0,
+            "l": 29151.0,
+            "c": 29153.25,
+            "v": 216
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/americas/machados-return-offers-a-preview-of-venezuelas-next-electionwhenever-it-comes-2263ecb4?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/europe/why-does-spain-keep-having-deadly-rail-accidents-65d8416e?mod=rss_worldnews"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html"
+            }
+          ]
+        }
       },
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52509.0,
+        "point": 52508.0,
         "change_pct": -0.01,
         "spark": [
-          52775.0,
-          52376.0,
-          52367.0,
+          52499.0,
           52322.0,
           52349.0,
           52314.0,
@@ -10557,21 +10592,23 @@
           52503.0,
           52499.0,
           52504.0,
-          52509.0
+          52509.0,
+          52538.0,
+          52508.0
         ],
         "candle": {
-          "o": 52775.0,
-          "h": 53145.0,
-          "l": 52310.0,
-          "c": 52509.0
+          "o": 52499.0,
+          "h": 52508.0,
+          "l": 52487.0,
+          "c": 52499.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.6,
-          "high_change_pct": -3.64
+          "low_change_pct": 15.58,
+          "high_change_pct": -3.66
         },
         "daily_expanded": [
           {
@@ -12584,15 +12621,87 @@
           },
           {
             "date": "2026-10-29",
-            "o": 52775.0,
-            "h": 53145.0,
-            "l": 52310.0,
-            "c": 52509.0,
-            "v": 107555
+            "o": 52499.0,
+            "h": 52508.0,
+            "l": 52487.0,
+            "c": 52499.0,
+            "v": 21
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/us-gdp-report-q3-2026-87eb755d?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/29/lagarde-ecb-stand-down.html"
+            }
+          ]
+        }
       }
     ]
-  }
+  },
+  "regular_open": false,
+  "_futures_news": {
+    "NASDAQ": {
+      "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/americas/machados-return-offers-a-preview-of-venezuelas-next-electionwhenever-it-comes-2263ecb4?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/europe/why-does-spain-keep-having-deadly-rail-accidents-65d8416e?mod=rss_worldnews"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html"
+        }
+      ]
+    },
+    "S&P500": {
+      "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/politics/national-security/top-admiral-briefs-trump-on-iran-attack-options-5bd6f13c?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-u-s-iran-diplomacy-afe80fa9?mod=rss_worldnews"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
+        }
+      ]
+    },
+    "DOW": {
+      "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/us-gdp-report-q3-2026-87eb755d?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/29/lagarde-ecb-stand-down.html"
+        }
+      ]
+    }
+  },
+  "intraday_refreshed_kst": "2026-10-30T07:13:15.646670+09:00"
 }
