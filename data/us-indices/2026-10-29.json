@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 26233.39,
-      "change_pct": -1.19,
+      "point": 26119.09,
+      "change_pct": -1.62,
       "candle": {
         "o": 26189.78,
         "h": 26242.23,
         "l": 26053.16,
-        "c": 26233.39
+        "c": 26119.09
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,7 +2033,7 @@
           "o": 26189.78,
           "h": 26242.23,
           "l": 26053.16,
-          "c": 26233.39
+          "c": 26119.09
         }
       ],
       "spark": [
@@ -2052,7 +2052,9 @@
         26206.18,
         26240.3,
         26232.21,
-        26233.39
+        26203.62,
+        26118.26,
+        26119.09
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2076,13 +2078,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7725.15,
-      "change_pct": -0.24,
+      "point": 7702.88,
+      "change_pct": -0.53,
       "candle": {
         "o": 7699.61,
         "h": 7726.78,
         "l": 7695.75,
-        "c": 7725.15
+        "c": 7702.88
       },
       "range_240d": {
         "low": 6343.72,
@@ -4106,7 +4108,7 @@
           "o": 7699.61,
           "h": 7726.78,
           "l": 7695.75,
-          "c": 7725.15
+          "c": 7702.88
         }
       ],
       "spark": [
@@ -4125,7 +4127,9 @@
         7718.28,
         7725.2,
         7724.88,
-        7725.15
+        7721.19,
+        7702.8,
+        7702.88
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4149,13 +4153,13 @@
     },
     {
       "name": "DOW",
-      "point": 52337.45,
-      "change_pct": -0.26,
+      "point": 52269.22,
+      "change_pct": -0.39,
       "candle": {
         "o": 52086.13,
         "h": 52405.88,
         "l": 52086.13,
-        "c": 52337.45
+        "c": 52269.22
       },
       "range_240d": {
         "low": 45166.64,
@@ -6179,7 +6183,7 @@
           "o": 52086.13,
           "h": 52405.88,
           "l": 52086.13,
-          "c": 52337.45
+          "c": 52269.22
         }
       ],
       "spark": [
@@ -6198,7 +6202,9 @@
         52329.22,
         52339.45,
         52337.28,
-        52337.45
+        52369.37,
+        52261.08,
+        52269.22
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6223,10 +6229,17 @@
   ],
   "news_chips": [
     {
-      "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/29/european-central-bank-interest-rates.html",
-      "published_ts": 1793283524.0,
+      "published_ts": 1793285281.0,
+      "impact_high": true
+    },
+    {
+      "summary": "가계 재정과 소비 부담 지표가 경기 방어 심리에 영향을 주는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/us-gdp-report-q3-2026-87eb755d?mod=rss_socialeconomyfeed",
+      "published_ts": 1793283780.0,
       "impact_high": true
     },
     {
@@ -6234,13 +6247,6 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html",
       "published_ts": 1793283091.0,
-      "impact_high": true
-    },
-    {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/us-gdp-report-q3-2026-87eb755d?mod=rss_socialeconomyfeed",
-      "published_ts": 1793282160.0,
       "impact_high": true
     },
     {
@@ -6258,17 +6264,17 @@
       "impact_high": true
     },
     {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/federal-debt-hits-100-of-gdp-585d3cb0?mod=rss_socialeconomyfeed",
-      "published_ts": 1793282280.0,
+      "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/business/earnings/ing-launches-buyback-but-flags-job-cuts-and-unit-restructuring-b19efaf1?mod=rss_markets_main",
+      "published_ts": 1793284980.0,
       "impact_high": false
     },
     {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/29/lagarde-ecb-stand-down.html",
-      "published_ts": 1793281858.0,
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/china/chinas-xi-demands-more-loyalty-as-purges-trim-party-elite-e2cc90ab?mod=rss_worldnews",
+      "published_ts": 1793282040.0,
       "impact_high": false
     },
     {
@@ -6293,21 +6299,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "e5008b4cf6b4b61528c4d4a4aebbfb482374f3b4a117659da1922ea2ef39a5f9",
+  "_article_sig": "de1397c5b9f07f919ee4409068819e39305bde3519840a7f70af81d86e844589",
   "built_at_kst": "2026-10-29T07:03:36.414421+09:00",
   "futures": {
-    "as_of_kst": "2026-10-29T23:40:10.699959+09:00",
+    "as_of_kst": "2026-10-29T23:50:11.060427+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7753.5,
-        "change_pct": -0.38,
+        "point": 7759.0,
+        "change_pct": -0.31,
         "spark": [
           7767.75,
-          7766.75,
-          7764.0,
           7761.5,
           7756.5,
           7757.0,
@@ -6345,21 +6349,23 @@
           7752.25,
           7753.5,
           7760.0,
-          7753.5
+          7759.5,
+          7755.75,
+          7759.0
         ],
         "candle": {
           "o": 7767.75,
           "h": 7773.75,
           "l": 7732.25,
-          "c": 7753.5
+          "c": 7759.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 21.37,
-          "high_change_pct": -1.53
+          "low_change_pct": 21.47,
+          "high_change_pct": -1.45
         },
         "daily_expanded": [
           {
@@ -8375,8 +8381,8 @@
             "o": 7767.75,
             "h": 7773.75,
             "l": 7732.25,
-            "c": 7753.5,
-            "v": 770179
+            "c": 7759.5,
+            "v": 812565
           }
         ],
         "rollover_gaps": [],
@@ -8385,11 +8391,11 @@
           "sources": [
             {
               "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
+              "url": "https://www.cnbc.com/2026/10/29/european-central-bank-interest-rates.html"
             },
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/us-gdp-report-q3-2026-87eb755d?mod=rss_socialeconomyfeed"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
             },
             {
               "name": "WSJ경제",
@@ -8401,12 +8407,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 29575.5,
-        "change_pct": -1.35,
+        "point": 29608.5,
+        "change_pct": -1.24,
         "spark": [
           29793.5,
-          29703.25,
-          29678.75,
           29670.5,
           29641.25,
           29659.0,
@@ -8444,21 +8448,23 @@
           29587.5,
           29573.5,
           29621.5,
-          29575.5
+          29610.25,
+          29577.5,
+          29608.5
         ],
         "candle": {
           "o": 29793.5,
           "h": 29794.25,
           "l": 29405.0,
-          "c": 29576.75
+          "c": 29608.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 27.82,
-          "high_change_pct": -6.06
+          "low_change_pct": 27.96,
+          "high_change_pct": -5.95
         },
         "daily_expanded": [
           {
@@ -10474,8 +10480,8 @@
             "o": 29793.5,
             "h": 29794.25,
             "l": 29405.0,
-            "c": 29576.75,
-            "v": 389780
+            "c": 29608.5,
+            "v": 405961
           }
         ],
         "rollover_gaps": [],
@@ -10483,16 +10489,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/us-gdp-report-q3-2026-87eb755d?mod=rss_socialeconomyfeed"
-            },
-            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/ecb-leaves-rates-unchanged-as-challenges-mount-for-lagardes-successor-153e78eb?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-unexpectedly-edge-lower-0aee8b41?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10500,12 +10506,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52514.0,
-        "change_pct": -0.35,
+        "point": 52515.0,
+        "change_pct": -0.34,
         "spark": [
           52775.0,
-          52647.0,
-          52641.0,
           52607.0,
           52571.0,
           52552.0,
@@ -10543,13 +10547,15 @@
           52503.0,
           52506.0,
           52512.0,
-          52514.0
+          52514.0,
+          52541.0,
+          52515.0
         ],
         "candle": {
           "o": 52775.0,
           "h": 53145.0,
           "l": 52363.0,
-          "c": 52514.0
+          "c": 52516.0
         },
         "range_240d": {
           "low": 45424.0,
@@ -12573,8 +12579,8 @@
             "o": 52775.0,
             "h": 53145.0,
             "l": 52363.0,
-            "c": 52514.0,
-            "v": 64834
+            "c": 52516.0,
+            "v": 66141
           }
         ],
         "rollover_gaps": [],
@@ -12586,12 +12592,12 @@
               "url": "https://www.cnbc.com/2026/10/29/european-central-bank-interest-rates.html"
             },
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/business/earnings/ing-launches-buyback-but-flags-job-cuts-and-unit-restructuring-b19efaf1?mod=rss_markets_main"
             },
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/us-gdp-report-q3-2026-87eb755d?mod=rss_socialeconomyfeed"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/29/lagarde-ecb-stand-down.html"
             }
           ]
         }
@@ -12599,15 +12605,11 @@
     ]
   },
   "regular_open": true,
-  "intraday_refreshed_kst": "2026-10-29T23:40:22.384715+09:00",
+  "intraday_refreshed_kst": "2026-10-29T23:53:20.877007+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/us-gdp-report-q3-2026-87eb755d?mod=rss_socialeconomyfeed"
-        },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html"
@@ -12615,6 +12617,10 @@
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/ecb-leaves-rates-unchanged-as-challenges-mount-for-lagardes-successor-153e78eb?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-unexpectedly-edge-lower-0aee8b41?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12623,11 +12629,11 @@
       "sources": [
         {
           "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
+          "url": "https://www.cnbc.com/2026/10/29/european-central-bank-interest-rates.html"
         },
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/us-gdp-report-q3-2026-87eb755d?mod=rss_socialeconomyfeed"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
         },
         {
           "name": "WSJ경제",
@@ -12643,12 +12649,12 @@
           "url": "https://www.cnbc.com/2026/10/29/european-central-bank-interest-rates.html"
         },
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
+          "name": "WSJ",
+          "url": "https://www.wsj.com/business/earnings/ing-launches-buyback-but-flags-job-cuts-and-unit-restructuring-b19efaf1?mod=rss_markets_main"
         },
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/us-gdp-report-q3-2026-87eb755d?mod=rss_socialeconomyfeed"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/29/lagarde-ecb-stand-down.html"
         }
       ]
     }
