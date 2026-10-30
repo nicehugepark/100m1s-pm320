@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 25386.7,
-      "change_pct": -3.05,
+      "point": 25392.4,
+      "change_pct": -3.03,
       "candle": {
         "o": 25604.3,
         "h": 25669.5,
         "l": 25373.38,
-        "c": 25386.7
+        "c": 25392.4
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,13 +2033,11 @@
           "o": 25604.3,
           "h": 25669.5,
           "l": 25373.38,
-          "c": 25386.7
+          "c": 25392.4
         }
       ],
       "spark": [
         25604.3,
-        25591.03,
-        25533.77,
         25531.04,
         25483.23,
         25530.99,
@@ -2077,7 +2075,9 @@
         25384.6,
         25380.72,
         25386.6,
-        25386.7
+        25398.91,
+        25391.63,
+        25392.4
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7577.3,
-      "change_pct": -1.85,
+      "point": 7579.5,
+      "change_pct": -1.82,
       "candle": {
         "o": 7631.07,
         "h": 7637.48,
         "l": 7574.19,
-        "c": 7577.3
+        "c": 7579.5
       },
       "range_240d": {
         "low": 6343.72,
@@ -4131,13 +4131,11 @@
           "o": 7631.07,
           "h": 7637.48,
           "l": 7574.19,
-          "c": 7577.3
+          "c": 7579.5
         }
       ],
       "spark": [
         7631.07,
-        7619.35,
-        7609.72,
         7606.16,
         7598.94,
         7605.01,
@@ -4175,7 +4173,9 @@
         7576.03,
         7576.27,
         7577.61,
-        7577.3
+        7580.52,
+        7579.2,
+        7579.5
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 51840.14,
-      "change_pct": -0.96,
+      "point": 51846.15,
+      "change_pct": -0.95,
       "candle": {
         "o": 52383.9,
         "h": 52383.9,
-        "l": 51831.97,
-        "c": 51840.14
+        "l": 51820.62,
+        "c": 51846.15
       },
       "range_240d": {
         "low": 45166.64,
@@ -6228,14 +6228,12 @@
           "date": "2026-10-30",
           "o": 52383.9,
           "h": 52383.9,
-          "l": 51831.97,
-          "c": 51840.14
+          "l": 51820.62,
+          "c": 51846.15
         }
       ],
       "spark": [
         52383.9,
-        52043.02,
-        52019.35,
         51963.74,
         51952.29,
         51986.39,
@@ -6273,7 +6271,9 @@
         51861.68,
         51857.48,
         51837.0,
-        51840.14
+        51846.49,
+        51847.97,
+        51846.15
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6298,13 +6298,6 @@
   ],
   "news_chips": [
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/housing/just-about-every-part-of-building-a-house-is-getting-more-expensive-d0f5ebcb?mod=rss_socialeconomyfeed",
-      "published_ts": 1793369640.0,
-      "impact_high": true
-    },
-    {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026103068671",
@@ -6312,11 +6305,18 @@
       "impact_high": true
     },
     {
-      "summary": "가계 재정과 소비 부담 지표가 경기 방어 심리에 영향을 주는 흐름",
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/europe/ukraine-hits-russian-oil-refinery-ending-a-pause-and-defying-trump-be68eeff?mod=rss_worldnews",
+      "published_ts": 1793378460.0,
+      "impact_high": false
+    },
+    {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/us-gdp-report-q3-2026-87eb755d?mod=rss_socialeconomyfeed",
-      "published_ts": 1793291160.0,
-      "impact_high": true
+      "url": "https://www.wsj.com/economy/canada-gdp-seen-dipping-in-september-after-two-flat-months-2dccc3a3?mod=rss_socialeconomyfeed",
+      "published_ts": 1793375580.0,
+      "impact_high": false
     },
     {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
@@ -6330,13 +6330,6 @@
       "source": "WSJ",
       "url": "https://www.wsj.com/business/earnings/natwest-earnings-boosted-by-higher-net-interest-income-20ebc371?mod=rss_markets_main",
       "published_ts": 1793369820.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/canada-gdp-seen-dipping-in-september-after-two-flat-months-2dccc3a3?mod=rss_socialeconomyfeed",
-      "published_ts": 1793365680.0,
       "impact_high": false
     },
     {
@@ -6361,6 +6354,13 @@
       "impact_high": false
     },
     {
+      "summary": "가계 재정과 소비 부담 지표가 경기 방어 심리에 영향을 주는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/us-gdp-report-q3-2026-87eb755d?mod=rss_socialeconomyfeed",
+      "published_ts": 1793291160.0,
+      "impact_high": true
+    },
+    {
       "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/business/earnings/ing-launches-buyback-but-flags-job-cuts-and-unit-restructuring-b19efaf1?mod=rss_markets_main",
@@ -6368,7 +6368,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "02bd5887a0856ceb1d97dee2423537ea541af13cc57edad4da28431ec7e749b0",
+  "_article_sig": "77ad81a9147db86ad88c5a732d7e8398d037c9268e1fc4cd3d20d49770b3caa6",
   "built_at_kst": "2026-10-30T07:03:19.429285+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6376,16 +6376,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/europe/ukraine-hits-russian-oil-refinery-ending-a-pause-and-defying-trump-be68eeff?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/housing/just-about-every-part-of-building-a-house-is-getting-more-expensive-d0f5ebcb?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-after-hormuz-tanker-attack-houthi-claims-stoke-supply-fears-de48df37?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/tech/chinese-executive-close-to-nvidia-ceo-suspected-of-giving-china-information-798eb6a1?mod=rss_worldnews"
         }
       ]
     },
@@ -6393,16 +6393,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/housing/just-about-every-part-of-building-a-house-is-getting-more-expensive-d0f5ebcb?mod=rss_socialeconomyfeed"
-        },
-        {
           "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-after-hormuz-tanker-attack-houthi-claims-stoke-supply-fears-de48df37?mod=rss_worldnews"
+          "url": "https://www.wsj.com/world/europe/ukraine-hits-russian-oil-refinery-ending-a-pause-and-defying-trump-be68eeff?mod=rss_worldnews"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/canada-gdp-seen-dipping-in-september-after-two-flat-months-2dccc3a3?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/housing/just-about-every-part-of-building-a-house-is-getting-more-expensive-d0f5ebcb?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -6425,17 +6425,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-10-31T02:20:07.404098+09:00",
+    "as_of_kst": "2026-10-31T02:30:09.067165+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7608.75,
-        "change_pct": -1.88,
+        "point": 7609.75,
+        "change_pct": -1.86,
         "spark": [
           7709.25,
-          7659.5,
           7651.5,
           7641.5,
           7638.25,
@@ -6474,21 +6473,22 @@
           7613.5,
           7608.5,
           7608.75,
-          7608.75
+          7609.75,
+          7609.75
         ],
         "candle": {
           "o": 7709.25,
           "h": 7713.0,
-          "l": 7607.25,
-          "c": 7608.75
+          "l": 7605.75,
+          "c": 7609.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 19.11,
-          "high_change_pct": -3.37
+          "low_change_pct": 19.12,
+          "high_change_pct": -3.36
         },
         "daily_expanded": [
           {
@@ -8503,9 +8503,9 @@
             "date": "2026-10-30",
             "o": 7709.25,
             "h": 7713.0,
-            "l": 7607.25,
-            "c": 7608.75,
-            "v": 1351479
+            "l": 7605.75,
+            "c": 7609.75,
+            "v": 1382899
           }
         ],
         "rollover_gaps": [],
@@ -8513,16 +8513,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/housing/just-about-every-part-of-building-a-house-is-getting-more-expensive-d0f5ebcb?mod=rss_socialeconomyfeed"
-            },
-            {
               "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-after-hormuz-tanker-attack-houthi-claims-stoke-supply-fears-de48df37?mod=rss_worldnews"
+              "url": "https://www.wsj.com/world/europe/ukraine-hits-russian-oil-refinery-ending-a-pause-and-defying-trump-be68eeff?mod=rss_worldnews"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/canada-gdp-seen-dipping-in-september-after-two-flat-months-2dccc3a3?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/housing/just-about-every-part-of-building-a-house-is-getting-more-expensive-d0f5ebcb?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8530,12 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28476.25,
-        "change_pct": -3.67,
+        "point": 28474.75,
+        "change_pct": -3.68,
         "spark": [
           29180.0,
-          28815.5,
-          28757.0,
           28679.5,
           28683.0,
           28625.25,
@@ -8573,20 +8571,22 @@
           28511.0,
           28473.75,
           28469.0,
-          28476.25
+          28474.75,
+          28495.0,
+          28474.75
         ],
         "candle": {
           "o": 29180.0,
           "h": 29180.0,
-          "l": 28471.5,
-          "c": 28473.25
+          "l": 28453.75,
+          "c": 28474.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 23.05,
+          "low_change_pct": 23.06,
           "high_change_pct": -9.56
         },
         "daily_expanded": [
@@ -10602,9 +10602,9 @@
             "date": "2026-10-30",
             "o": 29180.0,
             "h": 29180.0,
-            "l": 28471.5,
-            "c": 28473.25,
-            "v": 668112
+            "l": 28453.75,
+            "c": 28474.75,
+            "v": 681023
           }
         ],
         "rollover_gaps": [],
@@ -10612,16 +10612,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/europe/ukraine-hits-russian-oil-refinery-ending-a-pause-and-defying-trump-be68eeff?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/housing/just-about-every-part-of-building-a-house-is-getting-more-expensive-d0f5ebcb?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/oil-prices-rise-after-hormuz-tanker-attack-houthi-claims-stoke-supply-fears-de48df37?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/tech/chinese-executive-close-to-nvidia-ceo-suspected-of-giving-china-information-798eb6a1?mod=rss_worldnews"
             }
           ]
         }
@@ -10629,12 +10629,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51994.0,
-        "change_pct": -0.99,
+        "point": 51971.0,
+        "change_pct": -1.03,
         "spark": [
           52499.0,
-          52265.0,
-          52182.0,
           52166.0,
           52104.0,
           52097.0,
@@ -10672,21 +10670,23 @@
           52003.0,
           51999.0,
           51994.0,
-          51994.0
+          51972.0,
+          51981.0,
+          51971.0
         ],
         "candle": {
           "o": 52499.0,
           "h": 52662.0,
-          "l": 51975.0,
-          "c": 51994.0
+          "l": 51966.0,
+          "c": 51971.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 14.46,
-          "high_change_pct": -4.59
+          "low_change_pct": 14.41,
+          "high_change_pct": -4.63
         },
         "daily_expanded": [
           {
@@ -12701,9 +12701,9 @@
             "date": "2026-10-30",
             "o": 52499.0,
             "h": 52662.0,
-            "l": 51975.0,
-            "c": 51994.0,
-            "v": 70544
+            "l": 51966.0,
+            "c": 51971.0,
+            "v": 72257
           }
         ],
         "rollover_gaps": [],
@@ -12727,5 +12727,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-10-31T02:20:12.836279+09:00"
+  "intraday_refreshed_kst": "2026-10-31T02:34:10.604033+09:00"
 }
