@@ -6302,17 +6302,17 @@
       "impact_high": true
     },
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ",
-      "url": "https://www.wsj.com/finance/commodities-futures/european-ttf-gas-is-back-above-100-euros-a-megawatt-hour-9e52f763?mod=rss_markets_main",
-      "published_ts": 1793350140.0,
+      "url": "https://www.wsj.com/finance/the-market-isnt-buying-skydances-balance-sheet-math-11705c2c?mod=rss_markets_main",
+      "published_ts": 1793352600.0,
       "impact_high": false
     },
     {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/202610305329i",
-      "published_ts": 1793334153.0,
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/commodities-futures/european-ttf-gas-is-back-above-100-euros-a-megawatt-hour-9e52f763?mod=rss_markets_main",
+      "published_ts": 1793352300.0,
       "impact_high": false
     },
     {
@@ -6344,22 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "50593737d25be17100075f29ce523824a55c7a41c2ac28810a2362cc7e764a78",
+  "_article_sig": "cb4f79ea29b44ea0e25869846bfe794f4833fed8aebbac71ce679a1676464dce",
   "built_at_kst": "2026-10-30T07:03:19.429285+09:00",
   "futures": {
-    "as_of_kst": "2026-10-30T18:30:14.898656+09:00",
+    "as_of_kst": "2026-10-30T18:40:16.779703+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7682.5,
-        "change_pct": -0.93,
+        "point": 7679.0,
+        "change_pct": -0.97,
         "spark": [
           7709.25,
-          7682.5,
-          7683.5,
-          7685.0,
           7682.0,
           7689.75,
           7687.75,
@@ -6396,21 +6393,24 @@
           7688.25,
           7685.75,
           7682.5,
-          7682.5
+          7678.75,
+          7679.0,
+          7681.75,
+          7679.0
         ],
         "candle": {
           "o": 7709.25,
           "h": 7713.0,
           "l": 7665.25,
-          "c": 7682.25
+          "c": 7678.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 20.26,
-          "high_change_pct": -2.44
+          "low_change_pct": 20.2,
+          "high_change_pct": -2.48
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7709.25,
             "h": 7713.0,
             "l": 7665.25,
-            "c": 7682.25,
-            "v": 210397
+            "c": 7678.75,
+            "v": 214118
           }
         ],
         "rollover_gaps": [],
@@ -8436,15 +8436,15 @@
           "sources": [
             {
               "name": "WSJ",
+              "url": "https://www.wsj.com/finance/the-market-isnt-buying-skydances-balance-sheet-math-11705c2c?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-30-2026?mod=rss_markets_main"
             },
             {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/2026103068671"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/europe/ukraine-hits-russian-oil-refinery-ending-a-pause-and-defying-trump-be68eeff?mod=rss_worldnews"
             }
           ]
         }
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28923.5,
-        "change_pct": -2.16,
+        "point": 28918.5,
+        "change_pct": -2.18,
         "spark": [
           29180.0,
-          28968.5,
-          28982.75,
           28968.5,
           29029.0,
           29020.0,
@@ -8495,21 +8493,23 @@
           28952.75,
           28925.5,
           28913.75,
-          28923.5
+          28917.75,
+          28922.0,
+          28918.5
         ],
         "candle": {
           "o": 29180.0,
           "h": 29180.0,
           "l": 28821.5,
-          "c": 28923.0
+          "c": 28917.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 24.99,
-          "high_change_pct": -8.13
+          "low_change_pct": 24.97,
+          "high_change_pct": -8.15
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 29180.0,
             "h": 29180.0,
             "l": 28821.5,
-            "c": 28923.0,
-            "v": 157498
+            "c": 28917.25,
+            "v": 159904
           }
         ],
         "rollover_gaps": [],
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52573.0,
-        "change_pct": 0.12,
+        "point": 52543.0,
+        "change_pct": 0.06,
         "spark": [
           52499.0,
-          52474.0,
-          52476.0,
           52455.0,
           52496.0,
           52476.0,
@@ -10594,21 +10592,23 @@
           52576.0,
           52576.0,
           52534.0,
-          52573.0
+          52539.0,
+          52560.0,
+          52543.0
         ],
         "candle": {
           "o": 52499.0,
           "h": 52662.0,
           "l": 52335.0,
-          "c": 52571.0
+          "c": 52542.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.73,
-          "high_change_pct": -3.53
+          "low_change_pct": 15.67,
+          "high_change_pct": -3.58
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 52499.0,
             "h": 52662.0,
             "l": 52335.0,
-            "c": 52571.0,
-            "v": 14426
+            "c": 52542.0,
+            "v": 15000
           }
         ],
         "rollover_gaps": [],
@@ -12673,15 +12673,15 @@
       "sources": [
         {
           "name": "WSJ",
+          "url": "https://www.wsj.com/finance/the-market-isnt-buying-skydances-balance-sheet-math-11705c2c?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-30-2026?mod=rss_markets_main"
         },
         {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/2026103068671"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/europe/ukraine-hits-russian-oil-refinery-ending-a-pause-and-defying-trump-be68eeff?mod=rss_worldnews"
         }
       ]
     },
@@ -12703,5 +12703,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-10-30T18:30:29.552973+09:00"
+  "intraday_refreshed_kst": "2026-10-30T18:45:12.303220+09:00"
 }
