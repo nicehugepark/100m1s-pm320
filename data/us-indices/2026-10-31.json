@@ -4175,7 +4175,7 @@
         7566.38,
         7584.3,
         7580.95,
-        7580.04
+        7580.07
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -6273,7 +6273,7 @@
         51711.62,
         51791.14,
         51774.18,
-        51770.61
+        51770.31
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6305,10 +6305,17 @@
       "impact_high": true
     },
     {
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/stocks/the-week-the-cracks-in-the-ai-trade-grew-deeper-9e25b20f?mod=rss_markets_main",
+      "published_ts": 1793390820.0,
+      "impact_high": false
+    },
+    {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/fed-needs-to-implement-at-least-two-more-rate-increases-dallas-feds-logan-says-c5003190?mod=rss_socialeconomyfeed",
-      "published_ts": 1793383320.0,
+      "published_ts": 1793383980.0,
       "impact_high": false
     },
     {
@@ -6330,13 +6337,6 @@
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/canada-gdp-seen-dipping-in-september-after-two-flat-months-2dccc3a3?mod=rss_socialeconomyfeed",
       "published_ts": 1793375580.0,
-      "impact_high": false
-    },
-    {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/asia/these-trucks-haul-90-tons-of-coal-on-battery-powerand-drive-themselves-39b80cc3?mod=rss_worldnews",
-      "published_ts": 1793372820.0,
       "impact_high": false
     },
     {
@@ -6368,7 +6368,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "d74598a3a4088299b0abeaba567ed6f6815aa7c25c8fe003720e14472e0eb10c",
+  "_article_sig": "7f4239edcde88bb3c085019dd397f97a78f595255d56b502932bcdf01df41e7f",
   "built_at_kst": "2026-10-30T07:03:19.429285+09:00",
   "regular_open": false,
   "_futures_news": {
@@ -6376,16 +6376,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/the-week-the-cracks-in-the-ai-trade-grew-deeper-9e25b20f?mod=rss_markets_main"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/fed-needs-to-implement-at-least-two-more-rate-increases-dallas-feds-logan-says-c5003190?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/week-ahead-for-fx-bonds-u-s-midterms-jobs-data-in-focus-boe-expected-to-raise-rates-aa39e25d?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/europe/ukraine-hits-russian-oil-refinery-ending-a-pause-and-defying-trump-be68eeff?mod=rss_worldnews"
         }
       ]
     },
@@ -6425,18 +6425,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-10-31T05:00:11.954885+09:00",
+    "as_of_kst": "2026-10-31T05:10:05.726972+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7603.5,
-        "change_pct": -1.94,
+        "point": 7612.0,
+        "change_pct": -1.83,
         "spark": [
           7709.25,
-          7632.25,
-          7629.5,
           7618.0,
           7611.0,
           7613.75,
@@ -6474,21 +6472,23 @@
           7587.75,
           7598.0,
           7614.75,
-          7603.5
+          7612.75,
+          7615.75,
+          7612.0
         ],
         "candle": {
           "o": 7709.25,
           "h": 7713.0,
           "l": 7558.25,
-          "c": 7603.5
+          "c": 7612.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 19.02,
-          "high_change_pct": -3.44
+          "low_change_pct": 19.16,
+          "high_change_pct": -3.33
         },
         "daily_expanded": [
           {
@@ -8504,8 +8504,8 @@
             "o": 7709.25,
             "h": 7713.0,
             "l": 7558.25,
-            "c": 7603.5,
-            "v": 2060991
+            "c": 7612.0,
+            "v": 2287494
           }
         ],
         "rollover_gaps": [],
@@ -8530,11 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28489.0,
-        "change_pct": -3.63,
+        "point": 28534.5,
+        "change_pct": -3.48,
         "spark": [
           29180.0,
-          28617.0,
           28606.75,
           28528.0,
           28505.5,
@@ -8573,21 +8572,22 @@
           28414.5,
           28468.5,
           28553.75,
-          28489.0
+          28527.25,
+          28534.5
         ],
         "candle": {
           "o": 29180.0,
           "h": 29180.0,
           "l": 28232.75,
-          "c": 28489.0
+          "c": 28528.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 23.12,
-          "high_change_pct": -9.51
+          "low_change_pct": 23.29,
+          "high_change_pct": -9.39
         },
         "daily_expanded": [
           {
@@ -10603,8 +10603,8 @@
             "o": 29180.0,
             "h": 29180.0,
             "l": 28232.75,
-            "c": 28489.0,
-            "v": 939911
+            "c": 28528.25,
+            "v": 994682
           }
         ],
         "rollover_gaps": [],
@@ -10612,16 +10612,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/the-week-the-cracks-in-the-ai-trade-grew-deeper-9e25b20f?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/fed-needs-to-implement-at-least-two-more-rate-increases-dallas-feds-logan-says-c5003190?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/week-ahead-for-fx-bonds-u-s-midterms-jobs-data-in-focus-boe-expected-to-raise-rates-aa39e25d?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/europe/ukraine-hits-russian-oil-refinery-ending-a-pause-and-defying-trump-be68eeff?mod=rss_worldnews"
             }
           ]
         }
@@ -10629,12 +10629,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51865.0,
-        "change_pct": -1.23,
+        "point": 51914.0,
+        "change_pct": -1.14,
         "spark": [
           52499.0,
-          52121.0,
-          52105.0,
           52054.0,
           51992.0,
           51993.0,
@@ -10672,21 +10670,23 @@
           51797.0,
           51844.0,
           51925.0,
-          51865.0
+          51906.0,
+          51903.0,
+          51914.0
         ],
         "candle": {
           "o": 52499.0,
           "h": 52662.0,
           "l": 51701.0,
-          "c": 51862.0
+          "c": 51914.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 14.17,
-          "high_change_pct": -4.83
+          "low_change_pct": 14.29,
+          "high_change_pct": -4.73
         },
         "daily_expanded": [
           {
@@ -12702,8 +12702,8 @@
             "o": 52499.0,
             "h": 52662.0,
             "l": 51701.0,
-            "c": 51862.0,
-            "v": 95729
+            "c": 51914.0,
+            "v": 104140
           }
         ],
         "rollover_gaps": [],
@@ -12727,5 +12727,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-10-31T05:00:19.813562+09:00"
+  "intraday_refreshed_kst": "2026-10-31T05:12:07.635328+09:00"
 }
