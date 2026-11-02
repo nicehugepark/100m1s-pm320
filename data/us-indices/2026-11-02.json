@@ -6275,9 +6275,9 @@
   "news_chips": [
     {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-02-2026?mod=rss_markets_main",
-      "published_ts": 1793612806.0,
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/europe/u-s-pushes-to-restore-russian-gas-sales-to-europe-via-ukraine-0ca62dc7?mod=rss_worldnews",
+      "published_ts": 1793616840.0,
       "impact_high": true
     },
     {
@@ -6286,6 +6286,13 @@
       "url": "https://www.wsj.com/economy/central-banking/boe-expected-to-join-peers-in-raising-key-rate-62a61c5b?mod=rss_markets_main",
       "published_ts": 1793604480.0,
       "impact_high": true
+    },
+    {
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/investing/this-bond-measure-says-stocks-are-cheap-dont-believe-it-1db3069a?mod=rss_markets_main",
+      "published_ts": 1793620020.0,
+      "impact_high": false
     },
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
@@ -6306,13 +6313,6 @@
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026110209931",
       "published_ts": 1793610226.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026110211281",
-      "published_ts": 1793609913.0,
       "impact_high": false
     },
     {
@@ -6344,7 +6344,7 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "b43a3e08a8ffbb1e2ebfc5ece2dde2371bbcf748c812631d81a5824a4c189d76",
+  "_article_sig": "05777cc489ec43bc32f909ad79b2081d422043284b6a46fbaa76d8e5081a2e06",
   "built_at_kst": "2026-10-31T07:03:37.577141+09:00",
   "regular_open": false,
   "_futures_news": {
@@ -6352,16 +6352,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/europe/u-s-pushes-to-restore-russian-gas-sales-to-europe-via-ukraine-0ca62dc7?mod=rss_worldnews"
+        },
+        {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/2026110209931"
         },
         {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/2026110209921"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/saudi-arabias-economy-shrinks-3-8-as-oil-output-falls-d7efda3b?mod=rss_worldnews"
         }
       ]
     },
@@ -6386,34 +6386,32 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/europe/u-s-pushes-to-restore-russian-gas-sales-to-europe-via-ukraine-0ca62dc7?mod=rss_worldnews"
+        },
+        {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/2026110210701"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/economy/central-banking/boe-expected-to-join-peers-in-raising-key-rate-62a61c5b?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/boe-expected-to-join-peers-in-raising-key-rate-62a61c5b?mod=rss_socialeconomyfeed"
         }
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-11-02T20:40:24.650430+09:00",
+  "intraday_refreshed_kst": "2026-11-02T20:53:25.549198+09:00",
   "futures": {
-    "as_of_kst": "2026-11-02T20:40:10.959093+09:00",
+    "as_of_kst": "2026-11-02T20:50:09.351880+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7654.0,
-        "change_pct": 0.53,
+        "point": 7655.25,
+        "change_pct": 0.54,
         "spark": [
           7626.0,
-          7638.75,
-          7640.0,
           7641.5,
           7642.75,
           7644.5,
@@ -6451,21 +6449,23 @@
           7654.5,
           7654.75,
           7654.0,
-          7654.0
+          7654.0,
+          7654.75,
+          7655.25
         ],
         "candle": {
           "o": 7626.0,
           "h": 7659.25,
           "l": 7625.25,
-          "c": 7654.25
+          "c": 7654.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 19.82,
-          "high_change_pct": -2.79
+          "low_change_pct": 19.83,
+          "high_change_pct": -2.78
         },
         "daily_expanded": [
           {
@@ -8473,8 +8473,8 @@
             "o": 7626.0,
             "h": 7659.25,
             "l": 7625.25,
-            "c": 7654.25,
-            "v": 187228
+            "c": 7654.75,
+            "v": 191398
           }
         ],
         "rollover_gaps": [],
@@ -8499,13 +8499,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28776.5,
-        "change_pct": 0.85,
+        "point": 28774.5,
+        "change_pct": 0.84,
         "spark": [
           28587.75,
-          28734.25,
-          28736.0,
-          28749.0,
           28753.25,
           28761.75,
           28751.5,
@@ -8542,13 +8539,16 @@
           28774.0,
           28783.0,
           28776.5,
-          28776.5
+          28770.0,
+          28774.75,
+          28768.5,
+          28774.5
         ],
         "candle": {
           "o": 28587.75,
           "h": 28831.5,
           "l": 28587.0,
-          "c": 28776.75
+          "c": 28777.5
         },
         "range_240d": {
           "low": 23139.75,
@@ -8556,7 +8556,7 @@
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
           "low_change_pct": 24.36,
-          "high_change_pct": -8.6
+          "high_change_pct": -8.59
         },
         "daily_expanded": [
           {
@@ -10564,8 +10564,8 @@
             "o": 28587.75,
             "h": 28831.5,
             "l": 28587.0,
-            "c": 28776.75,
-            "v": 110794
+            "c": 28777.5,
+            "v": 112470
           }
         ],
         "rollover_gaps": [],
@@ -10573,16 +10573,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/europe/u-s-pushes-to-restore-russian-gas-sales-to-europe-via-ukraine-0ca62dc7?mod=rss_worldnews"
+            },
+            {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/2026110209931"
             },
             {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/2026110209921"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/saudi-arabias-economy-shrinks-3-8-as-oil-output-falls-d7efda3b?mod=rss_worldnews"
             }
           ]
         }
@@ -10590,12 +10590,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52218.0,
-        "change_pct": 0.58,
+        "point": 52233.0,
+        "change_pct": 0.61,
         "spark": [
           52002.0,
-          52013.0,
-          52025.0,
           52052.0,
           52069.0,
           52071.0,
@@ -10633,21 +10631,23 @@
           52223.0,
           52216.0,
           52220.0,
-          52218.0
+          52229.0,
+          52214.0,
+          52233.0
         ],
         "candle": {
           "o": 52002.0,
-          "h": 52238.0,
+          "h": 52240.0,
           "l": 51970.0,
-          "c": 52218.0
+          "c": 52233.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 14.96,
-          "high_change_pct": -4.18
+          "low_change_pct": 14.99,
+          "high_change_pct": -4.15
         },
         "daily_expanded": [
           {
@@ -12653,10 +12653,10 @@
           {
             "date": "2026-11-02",
             "o": 52002.0,
-            "h": 52238.0,
+            "h": 52240.0,
             "l": 51970.0,
-            "c": 52218.0,
-            "v": 13192
+            "c": 52233.0,
+            "v": 13725
           }
         ],
         "rollover_gaps": [],
@@ -12664,16 +12664,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/europe/u-s-pushes-to-restore-russian-gas-sales-to-europe-via-ukraine-0ca62dc7?mod=rss_worldnews"
+            },
+            {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/2026110210701"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/economy/central-banking/boe-expected-to-join-peers-in-raising-key-rate-62a61c5b?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/boe-expected-to-join-peers-in-raising-key-rate-62a61c5b?mod=rss_socialeconomyfeed"
             }
           ]
         }
