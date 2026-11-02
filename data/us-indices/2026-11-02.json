@@ -6274,17 +6274,17 @@
   ],
   "news_chips": [
     {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/2026110294197",
+      "published_ts": 1793580710.0,
+      "impact_high": false
+    },
+    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/jobs/companies-have-a-solution-for-the-skilled-trade-shortage-more-women-37851f46?mod=rss_socialeconomyfeed",
       "published_ts": 1793577600.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/202611029073i",
-      "published_ts": 1793575930.0,
       "impact_high": false
     },
     {
@@ -6344,7 +6344,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "1ed3fe325ef44a28c705a7f30ccdd7749c7fce911da92ab6257db3ea27c133d1",
+  "_article_sig": "0d781db31fcd4cc88db0476ada49e22cd88da8c9562cff1d698770273ac23b14",
   "built_at_kst": "2026-10-31T07:03:37.577141+09:00",
   "regular_open": false,
   "_futures_news": {
@@ -6400,16 +6400,16 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-11-02T10:20:32.775043+09:00",
+  "intraday_refreshed_kst": "2026-11-02T10:34:49.294161+09:00",
   "futures": {
-    "as_of_kst": "2026-11-02T10:20:17.333048+09:00",
+    "as_of_kst": "2026-11-02T10:30:20.393600+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7639.25,
-        "change_pct": 0.33,
+        "point": 7641.25,
+        "change_pct": 0.36,
         "spark": [
           7626.0,
           7632.75,
@@ -6436,21 +6436,23 @@
           7640.75,
           7639.5,
           7640.0,
-          7639.25
+          7640.5,
+          7641.25,
+          7641.25
         ],
         "candle": {
           "o": 7626.0,
           "h": 7647.75,
           "l": 7625.25,
-          "c": 7640.25
+          "c": 7641.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 19.6,
-          "high_change_pct": -2.97
+          "low_change_pct": 19.62,
+          "high_change_pct": -2.95
         },
         "daily_expanded": [
           {
@@ -8458,8 +8460,8 @@
             "o": 7626.0,
             "h": 7647.75,
             "l": 7625.25,
-            "c": 7640.25,
-            "v": 39311
+            "c": 7641.5,
+            "v": 42133
           }
         ],
         "rollover_gaps": [],
@@ -8484,8 +8486,8 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28728.25,
-        "change_pct": 0.68,
+        "point": 28740.0,
+        "change_pct": 0.72,
         "spark": [
           28587.75,
           28645.75,
@@ -8512,21 +8514,23 @@
           28694.25,
           28710.75,
           28725.75,
-          28728.25
+          28728.75,
+          28740.0,
+          28740.0
         ],
         "candle": {
           "o": 28587.75,
-          "h": 28734.0,
+          "h": 28748.75,
           "l": 28587.0,
-          "c": 28720.0
+          "c": 28741.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 24.12,
-          "high_change_pct": -8.78
+          "low_change_pct": 24.21,
+          "high_change_pct": -8.71
         },
         "daily_expanded": [
           {
@@ -10532,10 +10536,10 @@
           {
             "date": "2026-11-01",
             "o": 28587.75,
-            "h": 28734.0,
+            "h": 28748.75,
             "l": 28587.0,
-            "c": 28720.0,
-            "v": 27445
+            "c": 28741.5,
+            "v": 29301
           }
         ],
         "rollover_gaps": [],
@@ -10560,8 +10564,8 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52050.0,
-        "change_pct": 0.25,
+        "point": 52073.0,
+        "change_pct": 0.3,
         "spark": [
           52002.0,
           52020.0,
@@ -10588,22 +10592,24 @@
           52084.0,
           52054.0,
           52058.0,
-          52049.0,
-          52050.0
+          52063.0,
+          52067.0,
+          52068.0,
+          52073.0
         ],
         "candle": {
           "o": 52002.0,
           "h": 52104.0,
           "l": 51970.0,
-          "c": 52050.0
+          "c": 52073.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 14.59,
-          "high_change_pct": -4.48
+          "low_change_pct": 14.64,
+          "high_change_pct": -4.44
         },
         "daily_expanded": [
           {
@@ -12611,8 +12617,8 @@
             "o": 52002.0,
             "h": 52104.0,
             "l": 51970.0,
-            "c": 52050.0,
-            "v": 2018
+            "c": 52073.0,
+            "v": 2230
           }
         ],
         "rollover_gaps": [],
