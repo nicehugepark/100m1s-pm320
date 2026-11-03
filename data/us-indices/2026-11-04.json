@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 25434.03,
-      "change_pct": 1.07,
+      "point": 25438.79,
+      "change_pct": 1.09,
       "candle": {
         "o": 25261.08,
         "h": 25474.46,
         "l": 25261.08,
-        "c": 25434.03
+        "c": 25438.79
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,13 +2033,11 @@
           "o": 25261.08,
           "h": 25474.46,
           "l": 25261.08,
-          "c": 25434.03
+          "c": 25438.79
         }
       ],
       "spark": [
         25261.08,
-        25382.27,
-        25349.77,
         25369.1,
         25344.38,
         25332.45,
@@ -2077,7 +2075,9 @@
         25432.5,
         25434.74,
         25436.56,
-        25434.03
+        25467.05,
+        25438.86,
+        25438.79
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7586.7,
-      "change_pct": 0.6,
+      "point": 7588.46,
+      "change_pct": 0.62,
       "candle": {
         "o": 7552.92,
-        "h": 7592.27,
+        "h": 7594.61,
         "l": 7545.39,
-        "c": 7586.7
+        "c": 7588.46
       },
       "range_240d": {
         "low": 6343.72,
@@ -4129,15 +4129,13 @@
         {
           "date": "2026-11-03",
           "o": 7552.92,
-          "h": 7592.27,
+          "h": 7594.61,
           "l": 7545.39,
-          "c": 7586.7
+          "c": 7588.46
         }
       ],
       "spark": [
         7552.92,
-        7568.61,
-        7565.9,
         7568.58,
         7566.6,
         7565.91,
@@ -4175,7 +4173,9 @@
         7586.62,
         7586.38,
         7587.4,
-        7586.7
+        7594.24,
+        7588.3,
+        7588.46
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 51873.09,
-      "change_pct": -0.21,
+      "point": 51879.32,
+      "change_pct": -0.2,
       "candle": {
         "o": 51932.63,
         "h": 51932.63,
         "l": 51593.16,
-        "c": 51873.09
+        "c": 51879.32
       },
       "range_240d": {
         "low": 45166.64,
@@ -6229,13 +6229,11 @@
           "o": 51932.63,
           "h": 51932.63,
           "l": 51593.16,
-          "c": 51873.09
+          "c": 51879.32
         }
       ],
       "spark": [
         51932.63,
-        51687.38,
-        51732.69,
         51710.32,
         51718.94,
         51746.24,
@@ -6273,7 +6271,9 @@
         51880.24,
         51870.73,
         51874.6,
-        51873.09
+        51896.09,
+        51878.05,
+        51879.32
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6298,6 +6298,13 @@
   ],
   "news_chips": [
     {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/global/bank-of-canada-gov-macklem-pledges-to-proceed-carefully-on-further-rate-increases-a27c79ee?mod=rss_socialeconomyfeed",
+      "published_ts": 1793731020.0,
+      "impact_high": true
+    },
+    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/oil-prices-rebound-as-u-s-strikes-on-iran-renew-supply-concerns-c662f284?mod=rss_worldnews",
@@ -6316,13 +6323,6 @@
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/uk/britain-set-to-apologize-for-role-in-trans-atlantic-slave-trade-a7afc8dc?mod=rss_worldnews",
       "published_ts": 1793729820.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/trump-says-u-s-plans-to-cut-off-aid-to-israel-by-end-of-the-year-0046c0ed?mod=rss_worldnews",
-      "published_ts": 1793722320.0,
       "impact_high": false
     },
     {
@@ -6368,7 +6368,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "8cffc4ca9e371c7389983fc6be046e421c1bed5d9489adbb5fc25ea088f5e49d",
+  "_article_sig": "47427e63554cc22dd05540aee2e14b5ebad3021ce0c9c321860f40dfa4e99e23",
   "built_at_kst": "2026-11-03T07:04:22.490084+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6376,16 +6376,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/global/bank-of-canada-gov-macklem-pledges-to-proceed-carefully-on-further-rate-increases-a27c79ee?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/uk/britain-set-to-apologize-for-role-in-trans-atlantic-slave-trade-a7afc8dc?mod=rss_worldnews"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/oil-prices-rebound-as-u-s-strikes-on-iran-renew-supply-concerns-c662f284?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/trump-says-u-s-plans-to-cut-off-aid-to-israel-by-end-of-the-year-0046c0ed?mod=rss_worldnews"
         }
       ]
     },
@@ -6410,32 +6410,31 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/global/bank-of-canada-gov-macklem-pledges-to-proceed-carefully-on-further-rate-increases-a27c79ee?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/the-little-known-chinese-bank-in-the-middle-of-iranian-and-russian-money-flows-9e76173b?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/beijing-reins-in-ipo-rush-after-ai-concerns-hit-stock-market-d6abe32b?mod=rss_markets_main"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-11-04T03:30:16.106286+09:00",
+    "as_of_kst": "2026-11-04T03:40:12.025014+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7615.5,
-        "change_pct": 0.54,
+        "point": 7616.5,
+        "change_pct": 0.55,
         "spark": [
           7584.0,
-          7596.5,
           7597.75,
           7596.0,
           7599.0,
@@ -6474,21 +6473,22 @@
           7620.0,
           7615.75,
           7615.0,
-          7615.5
+          7616.5,
+          7616.5
         ],
         "candle": {
           "o": 7584.0,
           "h": 7621.25,
           "l": 7546.0,
-          "c": 7615.0
+          "c": 7616.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 19.2,
-          "high_change_pct": -3.29
+          "low_change_pct": 19.23,
+          "high_change_pct": -3.27
         },
         "daily_expanded": [
           {
@@ -8504,8 +8504,8 @@
             "o": 7584.0,
             "h": 7621.25,
             "l": 7546.0,
-            "c": 7615.0,
-            "v": 1110123
+            "c": 7616.75,
+            "v": 1126921
           }
         ],
         "rollover_gaps": [],
@@ -8530,12 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28372.25,
-        "change_pct": 0.87,
+        "point": 28383.5,
+        "change_pct": 0.91,
         "spark": [
           28201.0,
-          28328.5,
-          28353.25,
           28309.5,
           28338.25,
           28314.25,
@@ -8573,21 +8571,23 @@
           28418.5,
           28377.0,
           28374.25,
-          28372.25
+          28385.25,
+          28427.0,
+          28383.5
         ],
         "candle": {
           "o": 28201.0,
           "h": 28443.5,
           "l": 28038.25,
-          "c": 28371.0
+          "c": 28383.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 22.61,
-          "high_change_pct": -9.89
+          "low_change_pct": 22.66,
+          "high_change_pct": -9.85
         },
         "daily_expanded": [
           {
@@ -10603,8 +10603,8 @@
             "o": 28201.0,
             "h": 28443.5,
             "l": 28038.25,
-            "c": 28371.0,
-            "v": 483293
+            "c": 28383.5,
+            "v": 489826
           }
         ],
         "rollover_gaps": [],
@@ -10612,16 +10612,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/global/bank-of-canada-gov-macklem-pledges-to-proceed-carefully-on-further-rate-increases-a27c79ee?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/uk/britain-set-to-apologize-for-role-in-trans-atlantic-slave-trade-a7afc8dc?mod=rss_worldnews"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/oil-prices-rebound-as-u-s-strikes-on-iran-renew-supply-concerns-c662f284?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/trump-says-u-s-plans-to-cut-off-aid-to-israel-by-end-of-the-year-0046c0ed?mod=rss_worldnews"
             }
           ]
         }
@@ -10633,8 +10633,6 @@
         "change_pct": -0.26,
         "spark": [
           52156.0,
-          51826.0,
-          51810.0,
           51859.0,
           51836.0,
           51839.0,
@@ -10672,6 +10670,8 @@
           51988.0,
           52000.0,
           51991.0,
+          51998.0,
+          52020.0,
           51999.0
         ],
         "candle": {
@@ -12703,7 +12703,7 @@
             "h": 52186.0,
             "l": 51631.0,
             "c": 51999.0,
-            "v": 74986
+            "v": 75608
           }
         ],
         "rollover_gaps": [],
@@ -12711,21 +12711,21 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/global/bank-of-canada-gov-macklem-pledges-to-proceed-carefully-on-further-rate-increases-a27c79ee?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/the-little-known-chinese-bank-in-the-middle-of-iranian-and-russian-money-flows-9e76173b?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/beijing-reins-in-ipo-rush-after-ai-concerns-hit-stock-market-d6abe32b?mod=rss_markets_main"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-11-04T03:30:30.407732+09:00"
+  "intraday_refreshed_kst": "2026-11-04T03:43:23.791549+09:00"
 }
