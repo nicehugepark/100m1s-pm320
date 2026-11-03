@@ -6275,9 +6275,9 @@
   "news_chips": [
     {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/03/australia-hikes-rates-18-year-high-finflation.html",
-      "published_ts": 1793676776.0,
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/australias-rba-raises-interest-rates-to-highest-level-in-18-years-5be0979a?mod=rss_socialeconomyfeed",
+      "published_ts": 1793679120.0,
       "impact_high": true
     },
     {
@@ -6344,21 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "de2b1dba905a6389ed71090cd01307bf3e41a637e4a849e99f78090e83148cb3",
+  "_article_sig": "2a7a6a32f292d15fc12d6a4ddc428dfc4f96d43ed42794cf4ccdeac03a1dea50",
   "built_at_kst": "2026-11-03T07:04:22.490084+09:00",
   "futures": {
-    "as_of_kst": "2026-11-03T13:10:25.643974+09:00",
+    "as_of_kst": "2026-11-03T13:20:23.000215+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7569.25,
-        "change_pct": -0.07,
+        "point": 7567.25,
+        "change_pct": -0.1,
         "spark": [
           7584.0,
-          7580.75,
-          7583.5,
           7579.75,
           7582.25,
           7580.5,
@@ -6395,22 +6393,24 @@
           7571.5,
           7572.25,
           7569.75,
-          7568.25,
-          7569.25
+          7566.0,
+          7567.5,
+          7567.0,
+          7567.25
         ],
         "candle": {
           "o": 7584.0,
           "h": 7591.5,
-          "l": 7567.0,
-          "c": 7569.5
+          "l": 7565.75,
+          "c": 7567.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 18.49,
-          "high_change_pct": -3.87
+          "low_change_pct": 18.46,
+          "high_change_pct": -3.9
         },
         "daily_expanded": [
           {
@@ -8425,9 +8425,9 @@
             "date": "2026-11-02",
             "o": 7584.0,
             "h": 7591.5,
-            "l": 7567.0,
-            "c": 7569.5,
-            "v": 66935
+            "l": 7565.75,
+            "c": 7567.25,
+            "v": 68832
           }
         ],
         "rollover_gaps": [],
@@ -8435,16 +8435,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/australias-rba-raises-interest-rates-to-highest-level-in-18-years-5be0979a?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/11/03/australia-hikes-rates-18-year-high-finflation.html"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/u-s-strikes-irans-qeshm-island-as-trump-talks-down-war-risks-79d73d3d?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/hedge-fund-elliott-warns-of-fogo-fear-of-getting-obliterated-in-the-market-a2cc7027?mod=rss_markets_main"
             }
           ]
         }
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28175.5,
-        "change_pct": 0.17,
+        "point": 28157.5,
+        "change_pct": 0.11,
         "spark": [
           28201.0,
-          28174.75,
-          28194.0,
           28191.0,
           28220.75,
           28224.5,
@@ -8494,22 +8492,24 @@
           28189.0,
           28192.0,
           28179.5,
-          28169.25,
-          28175.5
+          28150.75,
+          28156.75,
+          28154.75,
+          28157.5
         ],
         "candle": {
           "o": 28201.0,
           "h": 28284.5,
           "l": 28132.0,
-          "c": 28177.75
+          "c": 28154.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 21.77,
-          "high_change_pct": -10.5
+          "low_change_pct": 21.67,
+          "high_change_pct": -10.57
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 28201.0,
             "h": 28284.5,
             "l": 28132.0,
-            "c": 28177.75,
-            "v": 43687
+            "c": 28154.25,
+            "v": 45020
           }
         ],
         "rollover_gaps": [],
@@ -10534,16 +10534,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/australias-rba-raises-interest-rates-to-highest-level-in-18-years-5be0979a?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/ukrainians-are-waging-an-invisible-fight-to-hold-their-shattered-lives-together-54183521?mod=rss_worldnews"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/chinas-central-bank-tweaks-forex-reserve-rules-to-steady-yuan-ad7ca0a2?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/hedge-fund-elliott-warns-of-fogo-fear-of-getting-obliterated-in-the-market-a2cc7027?mod=rss_markets_main"
             }
           ]
         }
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51966.0,
-        "change_pct": -0.32,
+        "point": 51943.0,
+        "change_pct": -0.36,
         "spark": [
           52156.0,
-          52108.0,
-          52126.0,
           52077.0,
           52086.0,
           52066.0,
@@ -10593,22 +10591,24 @@
           51972.0,
           51983.0,
           51966.0,
-          51958.0,
-          51966.0
+          51945.0,
+          51947.0,
+          51949.0,
+          51943.0
         ],
         "candle": {
           "o": 52156.0,
           "h": 52186.0,
-          "l": 51942.0,
-          "c": 51966.0
+          "l": 51936.0,
+          "c": 51943.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 14.4,
-          "high_change_pct": -4.64
+          "low_change_pct": 14.35,
+          "high_change_pct": -4.68
         },
         "daily_expanded": [
           {
@@ -12623,9 +12623,9 @@
             "date": "2026-11-02",
             "o": 52156.0,
             "h": 52186.0,
-            "l": 51942.0,
-            "c": 51966.0,
-            "v": 5102
+            "l": 51936.0,
+            "c": 51943.0,
+            "v": 5310
           }
         ],
         "rollover_gaps": [],
@@ -12633,16 +12633,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/australias-rba-raises-interest-rates-to-highest-level-in-18-years-5be0979a?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/11/03/australia-hikes-rates-18-year-high-finflation.html"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/u-s-strikes-irans-qeshm-island-as-trump-talks-down-war-risks-79d73d3d?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/chinas-central-bank-tweaks-forex-reserve-rules-to-steady-yuan-ad7ca0a2?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -12650,11 +12650,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-11-03T13:10:41.499819+09:00",
+  "intraday_refreshed_kst": "2026-11-03T13:24:32.564038+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/australias-rba-raises-interest-rates-to-highest-level-in-18-years-5be0979a?mod=rss_socialeconomyfeed"
+        },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/ukrainians-are-waging-an-invisible-fight-to-hold-their-shattered-lives-together-54183521?mod=rss_worldnews"
@@ -12662,10 +12666,6 @@
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/chinas-central-bank-tweaks-forex-reserve-rules-to-steady-yuan-ad7ca0a2?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/hedge-fund-elliott-warns-of-fogo-fear-of-getting-obliterated-in-the-market-a2cc7027?mod=rss_markets_main"
         }
       ]
     },
@@ -12673,16 +12673,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/australias-rba-raises-interest-rates-to-highest-level-in-18-years-5be0979a?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/03/australia-hikes-rates-18-year-high-finflation.html"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/u-s-strikes-irans-qeshm-island-as-trump-talks-down-war-risks-79d73d3d?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/hedge-fund-elliott-warns-of-fogo-fear-of-getting-obliterated-in-the-market-a2cc7027?mod=rss_markets_main"
         }
       ]
     },
@@ -12690,16 +12690,16 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/australias-rba-raises-interest-rates-to-highest-level-in-18-years-5be0979a?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/03/australia-hikes-rates-18-year-high-finflation.html"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/u-s-strikes-irans-qeshm-island-as-trump-talks-down-war-risks-79d73d3d?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/chinas-central-bank-tweaks-forex-reserve-rules-to-steady-yuan-ad7ca0a2?mod=rss_socialeconomyfeed"
         }
       ]
     }
