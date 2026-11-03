@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 25455.02,
-      "change_pct": 1.16,
+      "point": 25430.28,
+      "change_pct": 1.06,
       "candle": {
         "o": 25261.08,
-        "h": 25455.12,
+        "h": 25474.46,
         "l": 25261.08,
-        "c": 25455.02
+        "c": 25430.28
       },
       "range_240d": {
         "low": 20794.64,
@@ -2031,15 +2031,13 @@
         {
           "date": "2026-11-03",
           "o": 25261.08,
-          "h": 25455.12,
+          "h": 25474.46,
           "l": 25261.08,
-          "c": 25455.02
+          "c": 25430.28
         }
       ],
       "spark": [
         25261.08,
-        25320.74,
-        25322.49,
         25358.6,
         25360.51,
         25382.27,
@@ -2077,7 +2075,9 @@
         25417.71,
         25424.33,
         25455.12,
-        25455.02
+        25468.18,
+        25432.5,
+        25430.28
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7589.45,
-      "change_pct": 0.64,
+      "point": 7585.64,
+      "change_pct": 0.59,
       "candle": {
         "o": 7552.92,
-        "h": 7589.45,
+        "h": 7592.27,
         "l": 7545.39,
-        "c": 7589.45
+        "c": 7585.64
       },
       "range_240d": {
         "low": 6343.72,
@@ -4129,15 +4129,13 @@
         {
           "date": "2026-11-03",
           "o": 7552.92,
-          "h": 7589.45,
+          "h": 7592.27,
           "l": 7545.39,
-          "c": 7589.45
+          "c": 7585.64
         }
       ],
       "spark": [
         7552.92,
-        7561.74,
-        7557.6,
         7564.21,
         7566.99,
         7568.61,
@@ -4175,7 +4173,9 @@
         7580.79,
         7582.3,
         7589.2,
-        7589.45
+        7590.96,
+        7586.62,
+        7585.64
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 51855.59,
-      "change_pct": -0.25,
+      "point": 51878.19,
+      "change_pct": -0.2,
       "candle": {
         "o": 51932.63,
         "h": 51932.63,
         "l": 51593.16,
-        "c": 51855.59
+        "c": 51878.19
       },
       "range_240d": {
         "low": 45166.64,
@@ -6229,13 +6229,11 @@
           "o": 51932.63,
           "h": 51932.63,
           "l": 51593.16,
-          "c": 51855.59
+          "c": 51878.19
         }
       ],
       "spark": [
         51932.63,
-        51689.63,
-        51659.37,
         51666.16,
         51693.91,
         51687.38,
@@ -6273,7 +6271,9 @@
         51806.14,
         51822.54,
         51856.42,
-        51855.59
+        51861.24,
+        51880.24,
+        51878.19
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6298,10 +6298,10 @@
   ],
   "news_chips": [
     {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html",
-      "published_ts": 1793720254.0,
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/oil-prices-rebound-as-u-s-strikes-on-iran-renew-supply-concerns-c662f284?mod=rss_worldnews",
+      "published_ts": 1793728620.0,
       "impact_high": true
     },
     {
@@ -6312,11 +6312,18 @@
       "impact_high": true
     },
     {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/health-insurance-is-the-sleeper-inflation-issue-fea899df?mod=rss_markets_main",
-      "published_ts": 1793703600.0,
-      "impact_high": true
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/uk/britain-set-to-apologize-for-role-in-trans-atlantic-slave-trade-a7afc8dc?mod=rss_worldnews",
+      "published_ts": 1793729820.0,
+      "impact_high": false
+    },
+    {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/trump-says-u-s-plans-to-cut-off-aid-to-israel-by-end-of-the-year-0046c0ed?mod=rss_worldnews",
+      "published_ts": 1793722320.0,
+      "impact_high": false
     },
     {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
@@ -6337,13 +6344,6 @@
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/202611044097i",
       "published_ts": 1793719440.0,
-      "impact_high": false
-    },
-    {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/beijing-reins-in-ipo-rush-after-ai-concerns-hit-stock-market-d6abe32b?mod=rss_markets_main",
-      "published_ts": 1793710920.0,
       "impact_high": false
     },
     {
@@ -6368,7 +6368,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "045019d1ff5e48a105d8b621b14ad0830d35278bdc13eb32327a6bc7a8934fbd",
+  "_article_sig": "8cffc4ca9e371c7389983fc6be046e421c1bed5d9489adbb5fc25ea088f5e49d",
   "built_at_kst": "2026-11-03T07:04:22.490084+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6376,12 +6376,12 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html"
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/uk/britain-set-to-apologize-for-role-in-trans-atlantic-slave-trade-a7afc8dc?mod=rss_worldnews"
         },
         {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/202611044097i"
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/oil-prices-rebound-as-u-s-strikes-on-iran-renew-supply-concerns-c662f284?mod=rss_worldnews"
         },
         {
           "name": "WSJ세계",
@@ -6394,15 +6394,15 @@
       "sources": [
         {
           "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/the-little-known-chinese-bank-in-the-middle-of-iranian-and-russian-money-flows-9e76173b?mod=rss_worldnews"
+          "url": "https://www.wsj.com/world/middle-east/oil-prices-rebound-as-u-s-strikes-on-iran-renew-supply-concerns-c662f284?mod=rss_worldnews"
         },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/beijing-reins-in-ipo-rush-after-ai-concerns-hit-stock-market-d6abe32b?mod=rss_markets_main"
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/the-little-known-chinese-bank-in-the-middle-of-iranian-and-russian-money-flows-9e76173b?mod=rss_worldnews"
         }
       ]
     },
@@ -6410,12 +6410,12 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/the-little-known-chinese-bank-in-the-middle-of-iranian-and-russian-money-flows-9e76173b?mod=rss_worldnews"
-        },
-        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/the-little-known-chinese-bank-in-the-middle-of-iranian-and-russian-money-flows-9e76173b?mod=rss_worldnews"
         },
         {
           "name": "WSJ",
@@ -6425,18 +6425,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-11-04T03:10:12.059403+09:00",
+    "as_of_kst": "2026-11-04T03:20:12.209903+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7609.0,
-        "change_pct": 0.46,
+        "point": 7618.75,
+        "change_pct": 0.58,
         "spark": [
           7584.0,
-          7588.75,
-          7591.25,
           7586.5,
           7593.75,
           7596.5,
@@ -6474,21 +6472,23 @@
           7607.25,
           7609.75,
           7611.5,
-          7609.0
+          7618.5,
+          7620.0,
+          7618.75
         ],
         "candle": {
           "o": 7584.0,
-          "h": 7618.25,
+          "h": 7618.75,
           "l": 7546.0,
-          "c": 7609.0
+          "c": 7618.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 19.11,
-          "high_change_pct": -3.37
+          "low_change_pct": 19.26,
+          "high_change_pct": -3.24
         },
         "daily_expanded": [
           {
@@ -8502,10 +8502,10 @@
           {
             "date": "2026-11-03",
             "o": 7584.0,
-            "h": 7618.25,
+            "h": 7618.75,
             "l": 7546.0,
-            "c": 7609.0,
-            "v": 1073397
+            "c": 7618.75,
+            "v": 1090700
           }
         ],
         "rollover_gaps": [],
@@ -8514,15 +8514,15 @@
           "sources": [
             {
               "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/the-little-known-chinese-bank-in-the-middle-of-iranian-and-russian-money-flows-9e76173b?mod=rss_worldnews"
+              "url": "https://www.wsj.com/world/middle-east/oil-prices-rebound-as-u-s-strikes-on-iran-renew-supply-concerns-c662f284?mod=rss_worldnews"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/beijing-reins-in-ipo-rush-after-ai-concerns-hit-stock-market-d6abe32b?mod=rss_markets_main"
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/the-little-known-chinese-bank-in-the-middle-of-iranian-and-russian-money-flows-9e76173b?mod=rss_worldnews"
             }
           ]
         }
@@ -8530,12 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28369.75,
-        "change_pct": 0.86,
+        "point": 28419.25,
+        "change_pct": 1.04,
         "spark": [
           28201.0,
-          28269.0,
-          28285.75,
           28287.75,
           28328.75,
           28328.5,
@@ -8573,21 +8571,23 @@
           28363.0,
           28373.0,
           28385.25,
-          28369.75
+          28419.25,
+          28418.5,
+          28419.25
         ],
         "candle": {
           "o": 28201.0,
           "h": 28443.5,
           "l": 28038.25,
-          "c": 28367.75
+          "c": 28419.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 22.59,
-          "high_change_pct": -9.9
+          "low_change_pct": 22.82,
+          "high_change_pct": -9.73
         },
         "daily_expanded": [
           {
@@ -10603,8 +10603,8 @@
             "o": 28201.0,
             "h": 28443.5,
             "l": 28038.25,
-            "c": 28367.75,
-            "v": 468083
+            "c": 28419.25,
+            "v": 476181
           }
         ],
         "rollover_gaps": [],
@@ -10612,12 +10612,12 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html"
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/uk/britain-set-to-apologize-for-role-in-trans-atlantic-slave-trade-a7afc8dc?mod=rss_worldnews"
             },
             {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/202611044097i"
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/oil-prices-rebound-as-u-s-strikes-on-iran-renew-supply-concerns-c662f284?mod=rss_worldnews"
             },
             {
               "name": "WSJ세계",
@@ -10629,12 +10629,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51926.0,
-        "change_pct": -0.4,
+        "point": 51985.0,
+        "change_pct": -0.28,
         "spark": [
           52156.0,
-          51838.0,
-          51815.0,
           51785.0,
           51795.0,
           51826.0,
@@ -10672,21 +10670,23 @@
           51905.0,
           51930.0,
           51946.0,
-          51926.0
+          51983.0,
+          51988.0,
+          51985.0
         ],
         "candle": {
           "o": 52156.0,
           "h": 52186.0,
           "l": 51631.0,
-          "c": 51926.0
+          "c": 51985.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 14.31,
-          "high_change_pct": -4.71
+          "low_change_pct": 14.44,
+          "high_change_pct": -4.6
         },
         "daily_expanded": [
           {
@@ -12702,8 +12702,8 @@
             "o": 52156.0,
             "h": 52186.0,
             "l": 51631.0,
-            "c": 51926.0,
-            "v": 73241
+            "c": 51985.0,
+            "v": 74044
           }
         ],
         "rollover_gaps": [],
@@ -12711,12 +12711,12 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/the-little-known-chinese-bank-in-the-middle-of-iranian-and-russian-money-flows-9e76173b?mod=rss_worldnews"
-            },
-            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/the-little-known-chinese-bank-in-the-middle-of-iranian-and-russian-money-flows-9e76173b?mod=rss_worldnews"
             },
             {
               "name": "WSJ",
@@ -12727,5 +12727,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-11-04T03:10:23.005747+09:00"
+  "intraday_refreshed_kst": "2026-11-04T03:23:37.311806+09:00"
 }
