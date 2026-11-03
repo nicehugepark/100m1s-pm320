@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 25379.54,
-      "change_pct": 0.86,
+      "point": 25424.75,
+      "change_pct": 1.03,
       "candle": {
         "o": 25261.08,
-        "h": 25394.45,
+        "h": 25424.75,
         "l": 25261.08,
-        "c": 25379.54
+        "c": 25424.75
       },
       "range_240d": {
         "low": 20794.64,
@@ -2031,9 +2031,9 @@
         {
           "date": "2026-11-03",
           "o": 25261.08,
-          "h": 25394.45,
+          "h": 25424.75,
           "l": 25261.08,
-          "c": 25379.54
+          "c": 25424.75
         }
       ],
       "spark": [
@@ -2054,7 +2054,9 @@
         25332.45,
         25363.68,
         25382.07,
-        25379.54
+        25378.2,
+        25423.2,
+        25424.75
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2078,13 +2080,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7578.31,
-      "change_pct": 0.49,
+      "point": 7586.41,
+      "change_pct": 0.6,
       "candle": {
         "o": 7552.92,
-        "h": 7578.83,
+        "h": 7586.71,
         "l": 7545.39,
-        "c": 7578.31
+        "c": 7586.41
       },
       "range_240d": {
         "low": 6343.72,
@@ -4106,9 +4108,9 @@
         {
           "date": "2026-11-03",
           "o": 7552.92,
-          "h": 7578.83,
+          "h": 7586.71,
           "l": 7545.39,
-          "c": 7578.31
+          "c": 7586.41
         }
       ],
       "spark": [
@@ -4129,7 +4131,9 @@
         7565.91,
         7572.12,
         7577.94,
-        7578.31
+        7577.22,
+        7586.18,
+        7586.41
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4153,13 +4157,13 @@
     },
     {
       "name": "DOW",
-      "point": 51851.12,
-      "change_pct": -0.26,
+      "point": 51896.98,
+      "change_pct": -0.17,
       "candle": {
         "o": 51932.63,
         "h": 51932.63,
         "l": 51593.16,
-        "c": 51851.12
+        "c": 51896.98
       },
       "range_240d": {
         "low": 45166.64,
@@ -6183,7 +6187,7 @@
           "o": 51932.63,
           "h": 51932.63,
           "l": 51593.16,
-          "c": 51851.12
+          "c": 51896.98
         }
       ],
       "spark": [
@@ -6204,7 +6208,9 @@
         51746.24,
         51768.64,
         51844.85,
-        51851.12
+        51868.36,
+        51897.89,
+        51896.98
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6250,6 +6256,13 @@
       "impact_high": true
     },
     {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/the-little-known-chinese-bank-in-the-middle-of-iranian-and-russian-money-flows-9e76173b?mod=rss_worldnews",
+      "published_ts": 1793721300.0,
+      "impact_high": false
+    },
+    {
       "summary": "미국 고용 지표가 경기 둔화와 임금 압력 해석을 동시에 키우는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/jobs/u-s-job-openings-rose-in-september-86fb0e38?mod=rss_socialeconomyfeed",
@@ -6257,24 +6270,17 @@
       "impact_high": false
     },
     {
+      "summary": "반도체 수요와 공급망 뉴스가 기술주 투자심리의 핵심 변수로 작용하는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/202611044097i",
+      "published_ts": 1793719440.0,
+      "impact_high": false
+    },
+    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/stocks/beijing-reins-in-ipo-rush-after-ai-concerns-hit-stock-market-d6abe32b?mod=rss_markets_main",
       "published_ts": 1793710920.0,
-      "impact_high": false
-    },
-    {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/oil-prices-rebound-as-u-s-strikes-on-iran-renew-supply-concerns-c662f284?mod=rss_worldnews",
-      "published_ts": 1793710260.0,
-      "impact_high": false
-    },
-    {
-      "summary": "반도체 수요와 공급망 뉴스가 기술주 투자심리의 핵심 변수로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/asia/south-koreas-chip-led-exports-accelerate-bringing-1-trln-annual-target-closer-5180b539?mod=rss_worldnews",
-      "published_ts": 1793493720.0,
       "impact_high": false
     },
     {
@@ -6299,7 +6305,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "4b8fd6ed7b56fc6cebcd11b550c5d4ece9ab887348a3436ed8fe2557949849fb",
+  "_article_sig": "045019d1ff5e48a105d8b621b14ad0830d35278bdc13eb32327a6bc7a8934fbd",
   "built_at_kst": "2026-11-03T07:04:22.490084+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6311,12 +6317,12 @@
           "url": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html"
         },
         {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/trump-says-u-s-plans-to-cut-off-aid-to-israel-by-end-of-the-year-0046c0ed?mod=rss_worldnews"
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/202611044097i"
         },
         {
           "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/russian-airstrike-kills-31-at-ukraine-aid-center-888562b1?mod=rss_worldnews"
+          "url": "https://www.wsj.com/world/middle-east/trump-says-u-s-plans-to-cut-off-aid-to-israel-by-end-of-the-year-0046c0ed?mod=rss_worldnews"
         }
       ]
     },
@@ -6324,16 +6330,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/the-little-known-chinese-bank-in-the-middle-of-iranian-and-russian-money-flows-9e76173b?mod=rss_worldnews"
+        },
+        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/beijing-reins-in-ipo-rush-after-ai-concerns-hit-stock-market-d6abe32b?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/oil-prices-rebound-as-u-s-strikes-on-iran-renew-supply-concerns-c662f284?mod=rss_worldnews"
         }
       ]
     },
@@ -6341,34 +6347,31 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/the-little-known-chinese-bank-in-the-middle-of-iranian-and-russian-money-flows-9e76173b?mod=rss_worldnews"
+        },
+        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/beijing-reins-in-ipo-rush-after-ai-concerns-hit-stock-market-d6abe32b?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/global/swiss-inflation-jumps-to-highest-since-2023-on-imported-energy-costs-5da88199?mod=rss_socialeconomyfeed"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-11-04T00:50:07.410503+09:00",
+    "as_of_kst": "2026-11-04T01:00:15.182537+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7595.75,
-        "change_pct": 0.28,
+        "point": 7607.5,
+        "change_pct": 0.44,
         "spark": [
           7584.0,
-          7571.0,
-          7573.0,
-          7574.25,
           7571.25,
           7569.0,
           7569.0,
@@ -6405,21 +6408,24 @@
           7599.0,
           7596.25,
           7595.75,
-          7595.75
+          7602.0,
+          7607.0,
+          7606.5,
+          7607.5
         ],
         "candle": {
           "o": 7584.0,
-          "h": 7604.75,
+          "h": 7608.75,
           "l": 7546.0,
-          "c": 7595.75
+          "c": 7607.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 18.9,
-          "high_change_pct": -3.53
+          "low_change_pct": 19.09,
+          "high_change_pct": -3.38
         },
         "daily_expanded": [
           {
@@ -8433,10 +8439,10 @@
           {
             "date": "2026-11-03",
             "o": 7584.0,
-            "h": 7604.75,
+            "h": 7608.75,
             "l": 7546.0,
-            "c": 7595.75,
-            "v": 748790
+            "c": 7607.5,
+            "v": 784046
           }
         ],
         "rollover_gaps": [],
@@ -8444,16 +8450,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/the-little-known-chinese-bank-in-the-middle-of-iranian-and-russian-money-flows-9e76173b?mod=rss_worldnews"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/beijing-reins-in-ipo-rush-after-ai-concerns-hit-stock-market-d6abe32b?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/oil-prices-rebound-as-u-s-strikes-on-iran-renew-supply-concerns-c662f284?mod=rss_worldnews"
             }
           ]
         }
@@ -8461,11 +8467,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28312.75,
-        "change_pct": 0.66,
+        "point": 28362.25,
+        "change_pct": 0.83,
         "spark": [
           28201.0,
-          28236.0,
           28248.5,
           28221.5,
           28220.25,
@@ -8504,21 +8509,22 @@
           28314.25,
           28302.0,
           28345.75,
-          28312.75
+          28362.0,
+          28362.25
         ],
         "candle": {
           "o": 28201.0,
           "h": 28426.5,
           "l": 28038.25,
-          "c": 28312.75
+          "c": 28363.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 22.36,
-          "high_change_pct": -10.07
+          "low_change_pct": 22.57,
+          "high_change_pct": -9.91
         },
         "daily_expanded": [
           {
@@ -10534,8 +10540,8 @@
             "o": 28201.0,
             "h": 28426.5,
             "l": 28038.25,
-            "c": 28312.75,
-            "v": 338888
+            "c": 28363.0,
+            "v": 352498
           }
         ],
         "rollover_gaps": [],
@@ -10547,12 +10553,12 @@
               "url": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html"
             },
             {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/trump-says-u-s-plans-to-cut-off-aid-to-israel-by-end-of-the-year-0046c0ed?mod=rss_worldnews"
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/202611044097i"
             },
             {
               "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/russian-airstrike-kills-31-at-ukraine-aid-center-888562b1?mod=rss_worldnews"
+              "url": "https://www.wsj.com/world/middle-east/trump-says-u-s-plans-to-cut-off-aid-to-israel-by-end-of-the-year-0046c0ed?mod=rss_worldnews"
             }
           ]
         }
@@ -10560,12 +10566,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51883.0,
-        "change_pct": -0.48,
+        "point": 51977.0,
+        "change_pct": -0.3,
         "spark": [
           52156.0,
-          51812.0,
-          51837.0,
           51828.0,
           51832.0,
           51817.0,
@@ -10603,21 +10607,23 @@
           51839.0,
           51871.0,
           51895.0,
-          51883.0
+          51972.0,
+          51993.0,
+          51977.0
         ],
         "candle": {
           "o": 52156.0,
           "h": 52186.0,
           "l": 51631.0,
-          "c": 51885.0
+          "c": 51978.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 14.22,
-          "high_change_pct": -4.79
+          "low_change_pct": 14.43,
+          "high_change_pct": -4.62
         },
         "daily_expanded": [
           {
@@ -12633,8 +12639,8 @@
             "o": 52156.0,
             "h": 52186.0,
             "l": 51631.0,
-            "c": 51885.0,
-            "v": 57288
+            "c": 51978.0,
+            "v": 58957
           }
         ],
         "rollover_gaps": [],
@@ -12642,21 +12648,21 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/the-little-known-chinese-bank-in-the-middle-of-iranian-and-russian-money-flows-9e76173b?mod=rss_worldnews"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/beijing-reins-in-ipo-rush-after-ai-concerns-hit-stock-market-d6abe32b?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/global/swiss-inflation-jumps-to-highest-since-2023-on-imported-energy-costs-5da88199?mod=rss_socialeconomyfeed"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-11-04T00:53:15.102138+09:00"
+  "intraday_refreshed_kst": "2026-11-04T01:03:38.202220+09:00"
 }
