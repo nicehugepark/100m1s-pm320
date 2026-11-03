@@ -6313,23 +6313,23 @@
     },
     {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/health-insurance-is-the-sleeper-inflation-issue-fea899df?mod=rss_markets_main",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/finance/investing/health-insurance-is-the-sleeper-inflation-issue-fea899df?mod=rss_socialeconomyfeed",
       "published_ts": 1793703600.0,
       "impact_high": true
+    },
+    {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/currencies/bitcoin-miners-pivoted-to-aionly-to-find-its-just-as-turbulent-as-crypto-17485887?mod=rss_markets_main",
+      "published_ts": 1793740980.0,
+      "impact_high": false
     },
     {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/china/broken-china-review-a-mirage-of-growth-67fe6d8e?mod=rss_worldnews",
       "published_ts": 1793739060.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/americas/el-salvadors-president-takes-a-high-stakes-gamble-confronting-haitian-gangs-44446248?mod=rss_worldnews",
-      "published_ts": 1793738640.0,
       "impact_high": false
     },
     {
@@ -6368,7 +6368,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "423c5fdd5e7c853e83c256c77c1919e593f1818140d8b11a59cecb1b24ace529",
+  "_article_sig": "379220c7b02b11c98f77d62549e49e8e4e3fe7e1afc62473843a4a6b0f755784",
   "built_at_kst": "2026-11-03T07:04:22.490084+09:00",
   "regular_open": false,
   "_futures_news": {
@@ -6376,16 +6376,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/currencies/bitcoin-miners-pivoted-to-aionly-to-find-its-just-as-turbulent-as-crypto-17485887?mod=rss_markets_main"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/americas/el-salvadors-president-takes-a-high-stakes-gamble-confronting-haitian-gangs-44446248?mod=rss_worldnews"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/trump-says-u-s-plans-to-cut-off-aid-to-israel-by-end-of-the-year-0046c0ed?mod=rss_worldnews"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html"
         }
       ]
     },
@@ -6425,18 +6425,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-11-04T06:20:11.871269+09:00",
+    "as_of_kst": "2026-11-04T06:30:14.223797+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7597.25,
-        "change_pct": 0.3,
+        "point": 7605.5,
+        "change_pct": 0.41,
         "spark": [
           7584.0,
-          7609.75,
-          7611.5,
           7618.5,
           7620.0,
           7615.75,
@@ -6474,21 +6472,23 @@
           7596.5,
           7593.75,
           7596.0,
-          7597.25
+          7597.25,
+          7601.75,
+          7605.5
         ],
         "candle": {
           "o": 7584.0,
           "h": 7623.75,
           "l": 7546.0,
-          "c": 7596.25
+          "c": 7601.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 18.91,
-          "high_change_pct": -3.53
+          "low_change_pct": 18.99,
+          "high_change_pct": -3.46
         },
         "daily_expanded": [
           {
@@ -8504,8 +8504,8 @@
             "o": 7584.0,
             "h": 7623.75,
             "l": 7546.0,
-            "c": 7596.25,
-            "v": 1547631
+            "c": 7601.5,
+            "v": 1563779
           }
         ],
         "rollover_gaps": [],
@@ -8530,12 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28309.25,
-        "change_pct": 0.65,
+        "point": 28389.0,
+        "change_pct": 0.93,
         "spark": [
           28201.0,
-          28385.25,
-          28419.25,
           28418.5,
           28377.0,
           28374.25,
@@ -8573,21 +8571,23 @@
           28295.0,
           28307.0,
           28311.5,
-          28309.25
+          28392.75,
+          28405.5,
+          28389.0
         ],
         "candle": {
           "o": 28201.0,
           "h": 28443.5,
           "l": 28038.25,
-          "c": 28307.0
+          "c": 28393.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 22.33,
-          "high_change_pct": -10.09
+          "low_change_pct": 22.7,
+          "high_change_pct": -9.81
         },
         "daily_expanded": [
           {
@@ -10603,8 +10603,8 @@
             "o": 28201.0,
             "h": 28443.5,
             "l": 28038.25,
-            "c": 28307.0,
-            "v": 623771
+            "c": 28393.25,
+            "v": 632215
           }
         ],
         "rollover_gaps": [],
@@ -10612,16 +10612,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/currencies/bitcoin-miners-pivoted-to-aionly-to-find-its-just-as-turbulent-as-crypto-17485887?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/americas/el-salvadors-president-takes-a-high-stakes-gamble-confronting-haitian-gangs-44446248?mod=rss_worldnews"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/trump-says-u-s-plans-to-cut-off-aid-to-israel-by-end-of-the-year-0046c0ed?mod=rss_worldnews"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html"
             }
           ]
         }
@@ -10629,13 +10629,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51835.0,
-        "change_pct": -0.57,
+        "point": 51813.0,
+        "change_pct": -0.61,
         "spark": [
           52156.0,
-          51930.0,
-          51946.0,
-          51983.0,
           51988.0,
           52000.0,
           51991.0,
@@ -10672,21 +10669,24 @@
           51894.0,
           51844.0,
           51835.0,
-          51835.0
+          51835.0,
+          51812.0,
+          51810.0,
+          51813.0
         ],
         "candle": {
           "o": 52156.0,
           "h": 52186.0,
           "l": 51631.0,
-          "c": 51837.0
+          "c": 51814.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 14.12,
-          "high_change_pct": -4.88
+          "low_change_pct": 14.07,
+          "high_change_pct": -4.92
         },
         "daily_expanded": [
           {
@@ -12702,8 +12702,8 @@
             "o": 52156.0,
             "h": 52186.0,
             "l": 51631.0,
-            "c": 51837.0,
-            "v": 93285
+            "c": 51814.0,
+            "v": 93965
           }
         ],
         "rollover_gaps": [],
@@ -12727,5 +12727,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-11-04T06:20:23.442863+09:00"
+  "intraday_refreshed_kst": "2026-11-04T06:34:22.497956+09:00"
 }
