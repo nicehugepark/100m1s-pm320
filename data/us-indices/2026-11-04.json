@@ -6274,18 +6274,18 @@
   ],
   "news_chips": [
     {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/politics/policy/democrats-and-republicans-battle-for-control-of-congress-a79fda24?mod=rss_worldnews",
-      "published_ts": 1793746140.0,
-      "impact_high": true
-    },
-    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/finance/investing/health-insurance-is-the-sleeper-inflation-issue-fea899df?mod=rss_socialeconomyfeed",
       "published_ts": 1793703600.0,
       "impact_high": true
+    },
+    {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/2026110464361",
+      "published_ts": 1793783008.0,
+      "impact_high": false
     },
     {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
@@ -6344,21 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "33835156961ab2d54767c9fde59efdf8a758d48339a92f519038a91092e27774",
+  "_article_sig": "5d3c8f9dcf4c9d498e4df0095d295119a264c0787312adbff753745b6f75a64d",
   "built_at_kst": "2026-11-04T07:04:33.726060+09:00",
   "futures": {
-    "as_of_kst": "2026-11-04T18:50:17.304790+09:00",
+    "as_of_kst": "2026-11-04T19:00:16.858366+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7644.0,
-        "change_pct": 0.62,
+        "point": 7647.5,
+        "change_pct": 0.67,
         "spark": [
           7610.25,
-          7577.25,
-          7576.5,
           7575.75,
           7577.5,
           7580.0,
@@ -6396,21 +6394,23 @@
           7637.5,
           7644.25,
           7644.75,
-          7644.0
+          7647.5,
+          7651.0,
+          7647.5
         ],
         "candle": {
           "o": 7610.25,
-          "h": 7644.75,
+          "h": 7650.5,
           "l": 7490.0,
-          "c": 7644.0
+          "c": 7647.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 19.66,
-          "high_change_pct": -2.92
+          "low_change_pct": 19.72,
+          "high_change_pct": -2.87
         },
         "daily_expanded": [
           {
@@ -8424,10 +8424,10 @@
           {
             "date": "2026-11-04",
             "o": 7610.25,
-            "h": 7644.75,
+            "h": 7650.5,
             "l": 7490.0,
-            "c": 7644.0,
-            "v": 387217
+            "c": 7647.75,
+            "v": 394897
           }
         ],
         "rollover_gaps": [],
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28451.25,
-        "change_pct": 0.51,
+        "point": 28460.25,
+        "change_pct": 0.55,
         "spark": [
           28410.0,
-          28216.0,
-          28203.0,
           28192.5,
           28192.0,
           28209.75,
@@ -8495,21 +8493,23 @@
           28419.75,
           28454.75,
           28444.25,
-          28451.25
+          28460.5,
+          28476.75,
+          28460.25
         ],
         "candle": {
           "o": 28410.0,
           "h": 28512.0,
           "l": 27615.75,
-          "c": 28442.25
+          "c": 28459.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 22.92,
-          "high_change_pct": -9.66
+          "low_change_pct": 22.99,
+          "high_change_pct": -9.6
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 28410.0,
             "h": 28512.0,
             "l": 27615.75,
-            "c": 28442.25,
-            "v": 230380
+            "c": 28459.5,
+            "v": 232857
           }
         ],
         "rollover_gaps": [],
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52434.0,
-        "change_pct": 1.04,
+        "point": 52457.0,
+        "change_pct": 1.08,
         "spark": [
           51808.0,
-          51899.0,
-          51906.0,
           51903.0,
           51935.0,
           51928.0,
@@ -10594,21 +10592,23 @@
           52395.0,
           52421.0,
           52432.0,
-          52434.0
+          52456.0,
+          52479.0,
+          52457.0
         ],
         "candle": {
           "o": 51808.0,
-          "h": 52435.0,
+          "h": 52484.0,
           "l": 51416.0,
-          "c": 52434.0
+          "c": 52457.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.43,
-          "high_change_pct": -3.78
+          "low_change_pct": 15.48,
+          "high_change_pct": -3.74
         },
         "daily_expanded": [
           {
@@ -12622,10 +12622,10 @@
           {
             "date": "2026-11-04",
             "o": 51808.0,
-            "h": 52435.0,
+            "h": 52484.0,
             "l": 51416.0,
-            "c": 52434.0,
-            "v": 29948
+            "c": 52457.0,
+            "v": 30460
           }
         ],
         "rollover_gaps": [],
@@ -12650,7 +12650,7 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-11-04T18:50:30.900209+09:00",
+  "intraday_refreshed_kst": "2026-11-04T19:05:34.498979+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
