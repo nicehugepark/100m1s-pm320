@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 25803.78,
-      "change_pct": 1.7,
+      "point": 25904.36,
+      "change_pct": 2.1,
       "candle": {
         "o": 25641.91,
-        "h": 25803.78,
+        "h": 25944.88,
         "l": 25602.14,
-        "c": 25803.78
+        "c": 25904.36
       },
       "range_240d": {
         "low": 20794.64,
@@ -2031,16 +2031,18 @@
         {
           "date": "2026-11-04",
           "o": 25641.91,
-          "h": 25803.78,
+          "h": 25944.88,
           "l": 25602.14,
-          "c": 25803.78
+          "c": 25904.36
         }
       ],
       "spark": [
         25641.91,
         25602.14,
         25798.56,
-        25803.78
+        25916.66,
+        25914.61,
+        25904.36
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2064,13 +2066,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7682.06,
-      "change_pct": 1.49,
+      "point": 7693.67,
+      "change_pct": 1.65,
       "candle": {
         "o": 7635.81,
-        "h": 7682.68,
+        "h": 7704.64,
         "l": 7635.81,
-        "c": 7682.06
+        "c": 7693.67
       },
       "range_240d": {
         "low": 6343.72,
@@ -4092,16 +4094,18 @@
         {
           "date": "2026-11-04",
           "o": 7635.81,
-          "h": 7682.68,
+          "h": 7704.64,
           "l": 7635.81,
-          "c": 7682.06
+          "c": 7693.67
         }
       ],
       "spark": [
         7635.81,
         7650.12,
         7682.68,
-        7682.06
+        7701.84,
+        7694.75,
+        7693.67
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4125,13 +4129,13 @@
     },
     {
       "name": "DOW",
-      "point": 52889.58,
-      "change_pct": 2.13,
+      "point": 52943.9,
+      "change_pct": 2.23,
       "candle": {
         "o": 52410.23,
-        "h": 52988.45,
+        "h": 53032.55,
         "l": 52410.23,
-        "c": 52889.58
+        "c": 52943.9
       },
       "range_240d": {
         "low": 45166.64,
@@ -6153,16 +6157,18 @@
         {
           "date": "2026-11-04",
           "o": 52410.23,
-          "h": 52988.45,
+          "h": 53032.55,
           "l": 52410.23,
-          "c": 52889.58
+          "c": 52943.9
         }
       ],
       "spark": [
         52410.23,
         52941.85,
         52946.21,
-        52889.58
+        53016.21,
+        52943.19,
+        52943.9
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6194,6 +6200,13 @@
       "impact_high": true
     },
     {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/trade/canada-trade-surplus-widens-with-rise-in-oil-gold-exports-7ffe4cf9?mod=rss_socialeconomyfeed",
+      "published_ts": 1793803200.0,
+      "impact_high": false
+    },
+    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-contracted-in-september-e9eeff46?mod=rss_socialeconomyfeed",
@@ -6205,13 +6218,6 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/04/private-companies-added-86000-jobs-in-october-slightly-higher-than-expected-adp-says.html",
       "published_ts": 1793800188.0,
-      "impact_high": false
-    },
-    {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-as-investors-weigh-u-s-midterm-results-iran-risks-1d97da8a?mod=rss_worldnews",
-      "published_ts": 1793799960.0,
       "impact_high": false
     },
     {
@@ -6257,21 +6263,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "2855220e068dd87df3bd9da1aed48a25e30cb0eedb96805dca23d07545fce2eb",
+  "_article_sig": "333050e3879b5672601311dd2934f45e7f416207a4696b47e0a1b2d56e302d90",
   "built_at_kst": "2026-11-04T07:04:33.726060+09:00",
   "futures": {
-    "as_of_kst": "2026-11-04T23:40:09.331356+09:00",
+    "as_of_kst": "2026-11-04T23:50:11.275680+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7685.5,
-        "change_pct": 1.17,
+        "point": 7711.25,
+        "change_pct": 1.51,
         "spark": [
           7610.25,
-          7677.5,
-          7682.75,
           7680.75,
           7682.25,
           7684.75,
@@ -6309,21 +6313,23 @@
           7690.0,
           7683.25,
           7682.25,
-          7685.5
+          7713.0,
+          7730.75,
+          7711.25
         ],
         "candle": {
           "o": 7610.25,
-          "h": 7692.5,
+          "h": 7713.0,
           "l": 7490.0,
-          "c": 7685.5
+          "c": 7711.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 20.31,
-          "high_change_pct": -2.39
+          "low_change_pct": 20.71,
+          "high_change_pct": -2.07
         },
         "daily_expanded": [
           {
@@ -8337,10 +8343,10 @@
           {
             "date": "2026-11-04",
             "o": 7610.25,
-            "h": 7692.5,
+            "h": 7713.0,
             "l": 7490.0,
-            "c": 7685.5,
-            "v": 662929
+            "c": 7711.25,
+            "v": 761180
           }
         ],
         "rollover_gaps": [],
@@ -8348,16 +8354,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/trade/canada-trade-surplus-widens-with-rise-in-oil-gold-exports-7ffe4cf9?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-as-investors-weigh-u-s-midterm-results-iran-risks-1d97da8a?mod=rss_worldnews"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/global/eurozone-inflation-climbs-again-driven-by-energy-costs-0adbaef3?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/index-funds-are-better-when-theyre-lucky-and-smart-3f64f351?mod=rss_markets_main"
             }
           ]
         }
@@ -8365,13 +8371,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28427.0,
-        "change_pct": 0.43,
+        "point": 28662.25,
+        "change_pct": 1.26,
         "spark": [
           28410.0,
-          28577.0,
-          28574.25,
-          28577.5,
           28568.0,
           28566.25,
           28578.75,
@@ -8408,21 +8411,24 @@
           28439.5,
           28450.25,
           28430.75,
-          28427.0
+          28415.5,
+          28651.0,
+          28805.25,
+          28662.25
         ],
         "candle": {
           "o": 28410.0,
-          "h": 28662.0,
+          "h": 28666.0,
           "l": 27615.75,
-          "c": 28453.25
+          "c": 28662.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 22.96,
-          "high_change_pct": -9.62
+          "low_change_pct": 23.87,
+          "high_change_pct": -8.96
         },
         "daily_expanded": [
           {
@@ -10436,10 +10442,10 @@
           {
             "date": "2026-11-04",
             "o": 28410.0,
-            "h": 28662.0,
+            "h": 28666.0,
             "l": 27615.75,
-            "c": 28453.25,
-            "v": 361835
+            "c": 28662.25,
+            "v": 407861
           }
         ],
         "rollover_gaps": [],
@@ -10464,12 +10470,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52956.0,
-        "change_pct": 2.04,
+        "point": 53050.0,
+        "change_pct": 2.23,
         "spark": [
           51808.0,
-          52644.0,
-          52706.0,
           52693.0,
           52701.0,
           52702.0,
@@ -10507,21 +10511,23 @@
           53042.0,
           52970.0,
           53098.0,
-          52956.0
+          53094.0,
+          53153.0,
+          53050.0
         ],
         "candle": {
           "o": 51808.0,
-          "h": 53074.0,
+          "h": 53130.0,
           "l": 51416.0,
-          "c": 52952.0
+          "c": 53041.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 16.57,
-          "high_change_pct": -2.83
+          "low_change_pct": 16.77,
+          "high_change_pct": -2.67
         },
         "daily_expanded": [
           {
@@ -12535,10 +12541,10 @@
           {
             "date": "2026-11-04",
             "o": 51808.0,
-            "h": 53074.0,
+            "h": 53130.0,
             "l": 51416.0,
-            "c": 52952.0,
-            "v": 59285
+            "c": 53041.0,
+            "v": 67899
           }
         ],
         "rollover_gaps": [],
@@ -12563,7 +12569,7 @@
     ]
   },
   "regular_open": true,
-  "intraday_refreshed_kst": "2026-11-04T23:40:25.341125+09:00",
+  "intraday_refreshed_kst": "2026-11-04T23:53:29.014762+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
@@ -12586,16 +12592,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/trade/canada-trade-surplus-widens-with-rise-in-oil-gold-exports-7ffe4cf9?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-as-investors-weigh-u-s-midterm-results-iran-risks-1d97da8a?mod=rss_worldnews"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/global/eurozone-inflation-climbs-again-driven-by-energy-costs-0adbaef3?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/index-funds-are-better-when-theyre-lucky-and-smart-3f64f351?mod=rss_markets_main"
         }
       ]
     },
