@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 25980.62,
-      "change_pct": 2.4,
+      "point": 25987.16,
+      "change_pct": 2.42,
       "candle": {
         "o": 25641.91,
-        "h": 25990.84,
+        "h": 26048.83,
         "l": 25602.14,
-        "c": 25980.62
+        "c": 25987.16
       },
       "range_240d": {
         "low": 20794.64,
@@ -2031,9 +2031,9 @@
         {
           "date": "2026-11-04",
           "o": 25641.91,
-          "h": 25990.84,
+          "h": 26048.83,
           "l": 25602.14,
-          "c": 25980.62
+          "c": 25987.16
         }
       ],
       "spark": [
@@ -2045,8 +2045,10 @@
         25866.16,
         25921.24,
         25982.86,
-        25990.84,
-        25980.62
+        25980.62,
+        26028.32,
+        25986.24,
+        25987.16
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2070,13 +2072,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7701.9,
-      "change_pct": 1.76,
+      "point": 7701.41,
+      "change_pct": 1.75,
       "candle": {
         "o": 7635.81,
-        "h": 7705.89,
+        "h": 7709.87,
         "l": 7635.81,
-        "c": 7701.9
+        "c": 7701.41
       },
       "range_240d": {
         "low": 6343.72,
@@ -4098,9 +4100,9 @@
         {
           "date": "2026-11-04",
           "o": 7635.81,
-          "h": 7705.89,
+          "h": 7709.87,
           "l": 7635.81,
-          "c": 7701.9
+          "c": 7701.41
         }
       ],
       "spark": [
@@ -4113,7 +4115,9 @@
         7695.29,
         7703.91,
         7701.73,
-        7701.9
+        7706.16,
+        7700.77,
+        7701.41
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4137,13 +4141,13 @@
     },
     {
       "name": "DOW",
-      "point": 52842.87,
-      "change_pct": 2.04,
+      "point": 52880.8,
+      "change_pct": 2.11,
       "candle": {
         "o": 52410.23,
         "h": 53032.55,
         "l": 52410.23,
-        "c": 52842.87
+        "c": 52880.8
       },
       "range_240d": {
         "low": 45166.64,
@@ -6167,7 +6171,7 @@
           "o": 52410.23,
           "h": 53032.55,
           "l": 52410.23,
-          "c": 52842.87
+          "c": 52880.8
         }
       ],
       "spark": [
@@ -6180,7 +6184,9 @@
         52867.77,
         52936.91,
         52859.05,
-        52842.87
+        52856.71,
+        52885.47,
+        52880.8
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6212,6 +6218,13 @@
       "impact_high": true
     },
     {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/04/democrats-trump-debt-ceiling-fight.html",
+      "published_ts": 1793804719.0,
+      "impact_high": false
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/trade/canada-trade-surplus-widens-with-rise-in-oil-gold-exports-7ffe4cf9?mod=rss_socialeconomyfeed",
@@ -6223,13 +6236,6 @@
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-contracted-in-september-e9eeff46?mod=rss_socialeconomyfeed",
       "published_ts": 1793801520.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/04/private-companies-added-86000-jobs-in-october-slightly-higher-than-expected-adp-says.html",
-      "published_ts": 1793800188.0,
       "impact_high": false
     },
     {
@@ -6275,7 +6281,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "c04f9e57914933483b57fbf7602a886eeb064fc27768781d6a47f52f13d09cba",
+  "_article_sig": "a34c4e354d47bf06cf96626c73fa03abcdb4b3388ede0810744eb2b71af33b2c",
   "built_at_kst": "2026-11-04T07:04:33.726060+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6284,15 +6290,15 @@
       "sources": [
         {
           "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/04/democrats-trump-debt-ceiling-fight.html"
+        },
+        {
+          "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/04/private-companies-added-86000-jobs-in-october-slightly-higher-than-expected-adp-says.html"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/jobs/private-sector-hiring-remained-solid-in-october-39ac72ae?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/democrats-take-congress-as-trump-says-iran-war-is-partly-to-blame-for-gop-losses-b03d4784?mod=rss_worldnews"
         }
       ]
     },
@@ -6300,16 +6306,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/04/democrats-trump-debt-ceiling-fight.html"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/trade/canada-trade-surplus-widens-with-rise-in-oil-gold-exports-7ffe4cf9?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-as-investors-weigh-u-s-midterm-results-iran-risks-1d97da8a?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/global/eurozone-inflation-climbs-again-driven-by-energy-costs-0adbaef3?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -6332,18 +6338,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-11-05T00:10:05.270986+09:00",
+    "as_of_kst": "2026-11-05T00:20:07.595076+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7724.25,
-        "change_pct": 1.68,
+        "point": 7733.0,
+        "change_pct": 1.79,
         "spark": [
           7610.25,
-          7686.0,
-          7685.25,
           7674.75,
           7664.75,
           7658.25,
@@ -6381,21 +6385,23 @@
           7718.75,
           7726.0,
           7733.5,
-          7724.25
+          7732.0,
+          7736.0,
+          7733.0
         ],
         "candle": {
           "o": 7610.25,
-          "h": 7734.75,
+          "h": 7736.25,
           "l": 7490.0,
-          "c": 7724.5
+          "c": 7732.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 20.92,
-          "high_change_pct": -1.9
+          "low_change_pct": 21.05,
+          "high_change_pct": -1.79
         },
         "daily_expanded": [
           {
@@ -8409,10 +8415,10 @@
           {
             "date": "2026-11-04",
             "o": 7610.25,
-            "h": 7734.75,
+            "h": 7736.25,
             "l": 7490.0,
-            "c": 7724.5,
-            "v": 907801
+            "c": 7732.75,
+            "v": 971845
           }
         ],
         "rollover_gaps": [],
@@ -8420,16 +8426,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/04/democrats-trump-debt-ceiling-fight.html"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/trade/canada-trade-surplus-widens-with-rise-in-oil-gold-exports-7ffe4cf9?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-as-investors-weigh-u-s-midterm-results-iran-risks-1d97da8a?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/global/eurozone-inflation-climbs-again-driven-by-energy-costs-0adbaef3?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8437,12 +8443,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28798.5,
-        "change_pct": 1.74,
+        "point": 28897.0,
+        "change_pct": 2.09,
         "spark": [
           28410.0,
-          28585.5,
-          28571.5,
           28504.75,
           28434.75,
           28370.25,
@@ -8480,21 +8484,23 @@
           28738.0,
           28810.75,
           28859.75,
-          28798.5
+          28888.0,
+          28938.5,
+          28897.0
         ],
         "candle": {
           "o": 28410.0,
-          "h": 28868.5,
+          "h": 28900.0,
           "l": 27615.75,
-          "c": 28798.5
+          "c": 28897.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 24.45,
-          "high_change_pct": -8.53
+          "low_change_pct": 24.88,
+          "high_change_pct": -8.21
         },
         "daily_expanded": [
           {
@@ -10508,10 +10514,10 @@
           {
             "date": "2026-11-04",
             "o": 28410.0,
-            "h": 28868.5,
+            "h": 28900.0,
             "l": 27615.75,
-            "c": 28798.5,
-            "v": 481110
+            "c": 28897.0,
+            "v": 509059
           }
         ],
         "rollover_gaps": [],
@@ -10520,15 +10526,15 @@
           "sources": [
             {
               "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/04/democrats-trump-debt-ceiling-fight.html"
+            },
+            {
+              "name": "CNBC",
               "url": "https://www.cnbc.com/2026/11/04/private-companies-added-86000-jobs-in-october-slightly-higher-than-expected-adp-says.html"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/jobs/private-sector-hiring-remained-solid-in-october-39ac72ae?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/democrats-take-congress-as-trump-says-iran-war-is-partly-to-blame-for-gop-losses-b03d4784?mod=rss_worldnews"
             }
           ]
         }
@@ -10536,12 +10542,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53028.0,
-        "change_pct": 2.18,
+        "point": 52990.0,
+        "change_pct": 2.11,
         "spark": [
           51808.0,
-          52719.0,
-          52721.0,
           52715.0,
           52668.0,
           52682.0,
@@ -10579,21 +10583,23 @@
           53078.0,
           53024.0,
           53084.0,
-          53028.0
+          52997.0,
+          52994.0,
+          52990.0
         ],
         "candle": {
           "o": 51808.0,
           "h": 53185.0,
           "l": 51416.0,
-          "c": 53028.0
+          "c": 52992.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 16.74,
-          "high_change_pct": -2.69
+          "low_change_pct": 16.66,
+          "high_change_pct": -2.76
         },
         "daily_expanded": [
           {
@@ -12609,8 +12615,8 @@
             "o": 51808.0,
             "h": 53185.0,
             "l": 51416.0,
-            "c": 53028.0,
-            "v": 76895
+            "c": 52992.0,
+            "v": 80888
           }
         ],
         "rollover_gaps": [],
@@ -12634,5 +12640,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-11-05T00:13:43.291810+09:00"
+  "intraday_refreshed_kst": "2026-11-05T00:23:38.688766+09:00"
 }
