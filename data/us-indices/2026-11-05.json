@@ -6274,17 +6274,17 @@
   ],
   "news_chips": [
     {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html",
+      "published_ts": 1793880757.0,
+      "impact_high": true
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/bank-of-england-raises-rates-for-first-time-since-start-of-iran-war-f6353d96?mod=rss_socialeconomyfeed",
       "published_ts": 1793880480.0,
-      "impact_high": true
-    },
-    {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/norges-bank-holds-key-interest-rate-but-signals-readiness-to-tighten-dedee6ad?mod=rss_socialeconomyfeed",
-      "published_ts": 1793871240.0,
       "impact_high": true
     },
     {
@@ -6344,22 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "feb3118aca9392d83e26303ddb45ba311755d2035685d03c2868eb374513c87a",
+  "_article_sig": "c72c4e5ad5fd2be61fa97cb5d17e0f1f5e46aca7b276e1163f3e3dbdd00a9dd4",
   "built_at_kst": "2026-11-05T07:06:05.711392+09:00",
   "futures": {
-    "as_of_kst": "2026-11-05T21:10:10.396156+09:00",
+    "as_of_kst": "2026-11-05T21:20:14.116530+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7736.5,
-        "change_pct": 0.21,
+        "point": 7736.0,
+        "change_pct": 0.2,
         "spark": [
           7610.25,
-          7713.25,
-          7713.0,
-          7714.75,
           7715.5,
           7712.0,
           7711.5,
@@ -6396,21 +6393,24 @@
           7733.25,
           7736.25,
           7736.0,
-          7736.5
+          7736.0,
+          7736.0,
+          7737.5,
+          7736.0
         ],
         "candle": {
           "o": 7610.25,
-          "h": 7737.25,
+          "h": 7738.75,
           "l": 7691.0,
-          "c": 7735.25
+          "c": 7736.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 21.09,
-          "high_change_pct": -1.76
+          "low_change_pct": 21.1,
+          "high_change_pct": -1.75
         },
         "daily_expanded": [
           {
@@ -8424,10 +8424,10 @@
           {
             "date": "2026-11-05",
             "o": 7610.25,
-            "h": 7737.25,
+            "h": 7738.75,
             "l": 7691.0,
-            "c": 7735.25,
-            "v": 215921
+            "c": 7736.0,
+            "v": 220739
           }
         ],
         "rollover_gaps": [],
@@ -8435,16 +8435,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/bank-of-england-raises-rates-for-first-time-since-start-of-iran-war-f6353d96?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/how-trumps-war-in-iran-and-missteps-flipped-washington-overnight-f77dd2bd?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/norges-bank-holds-key-interest-rate-but-signals-readiness-to-tighten-dedee6ad?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8452,11 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28439.5,
-        "change_pct": -0.45,
+        "point": 28425.5,
+        "change_pct": -0.49,
         "spark": [
           28410.0,
-          28349.5,
           28369.5,
           28342.0,
           28303.0,
@@ -8495,21 +8494,22 @@
           28461.75,
           28445.0,
           28430.0,
-          28439.5
+          28414.0,
+          28425.5
         ],
         "candle": {
           "o": 28410.0,
           "h": 28668.5,
           "l": 28167.75,
-          "c": 28440.75
+          "c": 28413.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 22.91,
-          "high_change_pct": -9.66
+          "low_change_pct": 22.79,
+          "high_change_pct": -9.75
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 28410.0,
             "h": 28668.5,
             "l": 28167.75,
-            "c": 28440.75,
-            "v": 156093
+            "c": 28413.0,
+            "v": 157565
           }
         ],
         "rollover_gaps": [],
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53826.0,
-        "change_pct": 0.6,
+        "point": 53853.0,
+        "change_pct": 0.65,
         "spark": [
           51808.0,
-          53748.0,
-          53728.0,
           53766.0,
           53775.0,
           53798.0,
@@ -10594,21 +10592,23 @@
           53832.0,
           53849.0,
           53833.0,
-          53826.0
+          53848.0,
+          53837.0,
+          53853.0
         ],
         "candle": {
           "o": 51808.0,
           "h": 53913.0,
           "l": 53518.0,
-          "c": 53818.0
+          "c": 53853.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 18.48,
-          "high_change_pct": -1.24
+          "low_change_pct": 18.56,
+          "high_change_pct": -1.18
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 51808.0,
             "h": 53913.0,
             "l": 53518.0,
-            "c": 53818.0,
-            "v": 21859
+            "c": 53853.0,
+            "v": 22307
           }
         ],
         "rollover_gaps": [],
@@ -12633,16 +12633,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/bank-of-england-raises-rates-for-first-time-since-start-of-iran-war-f6353d96?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/business/deals/abb-confirms-china-blocked-softbank-deal-for-robotics-unit-cf1d44bf?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/lifestyle/travel/the-hanoi-lake-where-kids-hustle-american-tourists-for-english-lessons-eacf435e?mod=rss_worldnews"
             }
           ]
         }
@@ -12672,16 +12672,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/bank-of-england-raises-rates-for-first-time-since-start-of-iran-war-f6353d96?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/how-trumps-war-in-iran-and-missteps-flipped-washington-overnight-f77dd2bd?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/norges-bank-holds-key-interest-rate-but-signals-readiness-to-tighten-dedee6ad?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12689,19 +12689,19 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/bank-of-england-raises-rates-for-first-time-since-start-of-iran-war-f6353d96?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/business/deals/abb-confirms-china-blocked-softbank-deal-for-robotics-unit-cf1d44bf?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/lifestyle/travel/the-hanoi-lake-where-kids-hustle-american-tourists-for-english-lessons-eacf435e?mod=rss_worldnews"
         }
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-11-05T21:10:30.315113+09:00"
+  "intraday_refreshed_kst": "2026-11-05T21:20:33.671748+09:00"
 }
