@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 24440.36,
-      "change_pct": -5.04,
+      "point": 24401.81,
+      "change_pct": -5.19,
       "candle": {
         "o": 25555.9,
         "h": 25555.9,
         "l": 24269.81,
-        "c": 24440.36
+        "c": 24401.81
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,13 +2033,11 @@
           "o": 25555.9,
           "h": 25555.9,
           "l": 24269.81,
-          "c": 24440.36
+          "c": 24401.81
         }
       ],
       "spark": [
         25555.9,
-        24967.12,
-        24885.22,
         24850.83,
         24781.67,
         24758.42,
@@ -2077,7 +2075,9 @@
         24435.16,
         24357.09,
         24403.93,
-        24440.36
+        24462.84,
+        24407.44,
+        24401.81
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7396.8,
-      "change_pct": -3.8,
+      "point": 7388.18,
+      "change_pct": -3.91,
       "candle": {
         "o": 7678.72,
         "h": 7681.29,
         "l": 7365.84,
-        "c": 7396.8
+        "c": 7388.18
       },
       "range_240d": {
         "low": 6343.72,
@@ -4131,13 +4131,11 @@
           "o": 7678.72,
           "h": 7681.29,
           "l": 7365.84,
-          "c": 7396.8
+          "c": 7388.18
         }
       ],
       "spark": [
         7678.72,
-        7563.39,
-        7547.26,
         7541.86,
         7524.45,
         7510.59,
@@ -4175,7 +4173,9 @@
         7394.62,
         7374.33,
         7389.1,
-        7396.8
+        7403.3,
+        7389.23,
+        7388.18
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 51788.05,
-      "change_pct": -2.94,
+      "point": 51757.96,
+      "change_pct": -3.0,
       "candle": {
         "o": 53679.01,
         "h": 53706.65,
         "l": 51593.58,
-        "c": 51788.05
+        "c": 51757.96
       },
       "range_240d": {
         "low": 45166.64,
@@ -6229,13 +6229,11 @@
           "o": 53679.01,
           "h": 53706.65,
           "l": 51593.58,
-          "c": 51788.05
+          "c": 51757.96
         }
       ],
       "spark": [
         53679.01,
-        52963.69,
-        52885.51,
         52861.9,
         52771.96,
         52674.54,
@@ -6273,7 +6271,9 @@
         51781.17,
         51645.77,
         51744.84,
-        51788.05
+        51854.09,
+        51759.83,
+        51757.96
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6319,6 +6319,20 @@
       "impact_high": true
     },
     {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/health/healthcare/insurer-sues-autism-therapy-provider-over-160-million-in-allegedly-misleading-claims-704ab4e4?mod=rss_markets_main",
+      "published_ts": 1793902380.0,
+      "impact_high": false
+    },
+    {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/uk/russell-brand-guilty-verdict-02e0ad15?mod=rss_worldnews",
+      "published_ts": 1793901240.0,
+      "impact_high": false
+    },
+    {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/americas/paraguays-president-resigns-as-collapse-of-bank-with-close-ties-to-him-sparks-crisis-a62895f1?mod=rss_worldnews",
@@ -6326,24 +6340,10 @@
       "impact_high": false
     },
     {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/04/2026-midterms-trump-economy-iran-war.html",
-      "published_ts": 1793894879.0,
-      "impact_high": false
-    },
-    {
       "summary": "전력·유틸리티 투자와 인프라 수요가 방어주와 산업재 관심을 확대하는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/05/emocratic-midterm-economy.html",
       "published_ts": 1793889212.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-slide-lower-again-54f85605?mod=rss_socialeconomyfeed",
-      "published_ts": 1793886840.0,
       "impact_high": false
     },
     {
@@ -6368,7 +6368,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "7609b8634e71f28026cd7fdf0e860472a1e54d3a35735fa66679fdd90d07e0ce",
+  "_article_sig": "28aa01142f7a7cf112e329d42d4a69db49b598bc7bf76c4cd081799af3919132",
   "built_at_kst": "2026-11-05T07:06:05.711392+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6376,16 +6376,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/health/healthcare/insurer-sues-autism-therapy-provider-over-160-million-in-allegedly-misleading-claims-704ab4e4?mod=rss_markets_main"
+        },
+        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-slide-lower-again-54f85605?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/bank-of-england-raises-rates-for-first-time-since-start-of-iran-war-f6353d96?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -6425,17 +6425,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-11-06T03:10:14.607640+09:00",
+    "as_of_kst": "2026-11-06T03:20:12.737058+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7419.0,
-        "change_pct": -3.91,
+        "point": 7416.5,
+        "change_pct": -3.94,
         "spark": [
           7610.25,
-          7598.0,
           7593.75,
           7577.0,
           7570.5,
@@ -6474,21 +6473,22 @@
           7429.75,
           7421.5,
           7400.75,
-          7419.0
+          7416.75,
+          7416.5
         ],
         "candle": {
           "o": 7610.25,
           "h": 7738.75,
-          "l": 7415.0,
-          "c": 7416.5
+          "l": 7391.25,
+          "c": 7419.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 16.1,
-          "high_change_pct": -5.81
+          "low_change_pct": 16.14,
+          "high_change_pct": -5.77
         },
         "daily_expanded": [
           {
@@ -8503,9 +8503,9 @@
             "date": "2026-11-05",
             "o": 7610.25,
             "h": 7738.75,
-            "l": 7415.0,
-            "c": 7416.5,
-            "v": 2302200
+            "l": 7391.25,
+            "c": 7419.5,
+            "v": 2361533
           }
         ],
         "rollover_gaps": [],
@@ -8530,12 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 26903.25,
-        "change_pct": -5.82,
+        "point": 26929.0,
+        "change_pct": -5.73,
         "spark": [
           28410.0,
-          27574.0,
-          27533.5,
           27467.0,
           27416.5,
           27345.75,
@@ -8573,21 +8571,23 @@
           26974.0,
           26932.25,
           26854.5,
-          26903.25
+          26916.5,
+          26976.0,
+          26929.0
         ],
         "candle": {
           "o": 28410.0,
           "h": 28668.5,
           "l": 26732.0,
-          "c": 26883.25
+          "c": 26945.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 16.18,
-          "high_change_pct": -14.61
+          "low_change_pct": 16.45,
+          "high_change_pct": -14.41
         },
         "daily_expanded": [
           {
@@ -10603,21 +10603,25 @@
             "o": 28410.0,
             "h": 28668.5,
             "l": 26732.0,
-            "c": 26883.25,
-            "v": 934727
+            "c": 26945.25,
+            "v": 953458
           }
         ],
         "rollover_gaps": [
           {
             "date": "2026-11-05",
             "from": 28566.75,
-            "to": 26883.25,
-            "gap_pct": -5.89
+            "to": 26945.25,
+            "gap_pct": -5.68
           }
         ],
         "news": {
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/health/healthcare/insurer-sues-autism-therapy-provider-over-160-million-in-allegedly-misleading-claims-704ab4e4?mod=rss_markets_main"
+            },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html"
@@ -10625,10 +10629,6 @@
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-slide-lower-again-54f85605?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/bank-of-england-raises-rates-for-first-time-since-start-of-iran-war-f6353d96?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10636,12 +10636,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51839.0,
-        "change_pct": -3.11,
+        "point": 51895.0,
+        "change_pct": -3.01,
         "spark": [
           51808.0,
-          53148.0,
-          53088.0,
           53010.0,
           52986.0,
           52902.0,
@@ -10679,21 +10677,23 @@
           51947.0,
           51893.0,
           51758.0,
-          51839.0
+          51857.0,
+          51965.0,
+          51895.0
         ],
         "candle": {
           "o": 51808.0,
           "h": 53913.0,
-          "l": 51826.0,
-          "c": 51832.0
+          "l": 51702.0,
+          "c": 51897.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 14.11,
-          "high_change_pct": -4.88
+          "low_change_pct": 14.25,
+          "high_change_pct": -4.77
         },
         "daily_expanded": [
           {
@@ -12708,9 +12708,9 @@
             "date": "2026-11-05",
             "o": 51808.0,
             "h": 53913.0,
-            "l": 51826.0,
-            "c": 51832.0,
-            "v": 119744
+            "l": 51702.0,
+            "c": 51897.0,
+            "v": 123204
           }
         ],
         "rollover_gaps": [],
@@ -12734,5 +12734,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-11-06T03:10:26.847395+09:00"
+  "intraday_refreshed_kst": "2026-11-06T03:20:31.507751+09:00"
 }
