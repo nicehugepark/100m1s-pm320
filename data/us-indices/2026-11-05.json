@@ -6281,18 +6281,18 @@
       "impact_high": true
     },
     {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026110592927",
-      "published_ts": 1793872909.0,
-      "impact_high": true
-    },
-    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/norges-bank-holds-key-interest-rate-but-signals-readiness-to-tighten-dedee6ad?mod=rss_socialeconomyfeed",
       "published_ts": 1793871240.0,
       "impact_high": true
+    },
+    {
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/business/deals/abb-confirms-china-blocked-softbank-deal-for-robotics-unit-cf1d44bf?mod=rss_worldnews",
+      "published_ts": 1793879400.0,
+      "impact_high": false
     },
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
@@ -6344,21 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "dc7c442c2278bd9a4b525a2742e9e7489f06f3af74db76dd1fd66f7feeaec268",
+  "_article_sig": "793adf1eefd67d106523cc3955168a45838f5615124bc30425abcc5b834dfb85",
   "built_at_kst": "2026-11-05T07:06:05.711392+09:00",
   "futures": {
-    "as_of_kst": "2026-11-05T20:50:11.133756+09:00",
+    "as_of_kst": "2026-11-05T21:00:14.711264+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7732.75,
-        "change_pct": 0.16,
+        "point": 7733.25,
+        "change_pct": 0.17,
         "spark": [
           7610.25,
-          7718.25,
-          7717.5,
           7715.25,
           7713.5,
           7713.25,
@@ -6396,7 +6394,9 @@
           7731.25,
           7734.25,
           7732.75,
-          7732.75
+          7733.5,
+          7733.25,
+          7733.25
         ],
         "candle": {
           "o": 7610.25,
@@ -8427,7 +8427,7 @@
             "h": 7737.25,
             "l": 7691.0,
             "c": 7732.75,
-            "v": 210696
+            "v": 212710
           }
         ],
         "rollover_gaps": [],
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28424.75,
-        "change_pct": -0.5,
+        "point": 28431.75,
+        "change_pct": -0.47,
         "spark": [
           28410.0,
-          28377.25,
-          28360.5,
           28351.75,
           28344.75,
           28349.5,
@@ -8495,21 +8493,23 @@
           28437.5,
           28428.0,
           28427.5,
-          28424.75
+          28431.75,
+          28461.75,
+          28431.75
         ],
         "candle": {
           "o": 28410.0,
           "h": 28668.5,
           "l": 28167.75,
-          "c": 28426.25
+          "c": 28430.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 22.85,
-          "high_change_pct": -9.71
+          "low_change_pct": 22.86,
+          "high_change_pct": -9.7
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 28410.0,
             "h": 28668.5,
             "l": 28167.75,
-            "c": 28426.25,
-            "v": 153285
+            "c": 28430.25,
+            "v": 154322
           }
         ],
         "rollover_gaps": [],
@@ -10534,16 +10534,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/business/deals/abb-confirms-china-blocked-softbank-deal-for-robotics-unit-cf1d44bf?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/will-ai-throttle-the-retirement-money-machine-81d5b52d?mod=rss_markets_main"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/how-trumps-war-in-iran-and-missteps-flipped-washington-overnight-f77dd2bd?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/tech/ai/how-the-data-center-backlash-could-play-into-the-hands-of-big-tech-a37dfb29?mod=rss_markets_main"
             }
           ]
         }
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53835.0,
-        "change_pct": 0.62,
+        "point": 53838.0,
+        "change_pct": 0.63,
         "spark": [
           51808.0,
-          53758.0,
-          53748.0,
           53737.0,
           53742.0,
           53748.0,
@@ -10594,13 +10592,15 @@
           53844.0,
           53833.0,
           53837.0,
-          53835.0
+          53836.0,
+          53832.0,
+          53838.0
         ],
         "candle": {
           "o": 51808.0,
           "h": 53913.0,
           "l": 53518.0,
-          "c": 53835.0
+          "c": 53838.0
         },
         "range_240d": {
           "low": 45424.0,
@@ -10608,7 +10608,7 @@
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
           "low_change_pct": 18.52,
-          "high_change_pct": -1.21
+          "high_change_pct": -1.2
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 51808.0,
             "h": 53913.0,
             "l": 53518.0,
-            "c": 53835.0,
-            "v": 21370
+            "c": 53838.0,
+            "v": 21596
           }
         ],
         "rollover_gaps": [],
@@ -12634,15 +12634,15 @@
           "sources": [
             {
               "name": "WSJ세계",
+              "url": "https://www.wsj.com/business/deals/abb-confirms-china-blocked-softbank-deal-for-robotics-unit-cf1d44bf?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ세계",
               "url": "https://www.wsj.com/lifestyle/travel/the-hanoi-lake-where-kids-hustle-american-tourists-for-english-lessons-eacf435e?mod=rss_worldnews"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/norges-bank-holds-key-interest-rate-but-signals-readiness-to-tighten-dedee6ad?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/malaysias-central-bank-holds-rate-steady-cites-resilient-growth-affcfd09?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -12655,16 +12655,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/business/deals/abb-confirms-china-blocked-softbank-deal-for-robotics-unit-cf1d44bf?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/will-ai-throttle-the-retirement-money-machine-81d5b52d?mod=rss_markets_main"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/how-trumps-war-in-iran-and-missteps-flipped-washington-overnight-f77dd2bd?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/tech/ai/how-the-data-center-backlash-could-play-into-the-hands-of-big-tech-a37dfb29?mod=rss_markets_main"
         }
       ]
     },
@@ -12690,18 +12690,18 @@
       "sources": [
         {
           "name": "WSJ세계",
+          "url": "https://www.wsj.com/business/deals/abb-confirms-china-blocked-softbank-deal-for-robotics-unit-cf1d44bf?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ세계",
           "url": "https://www.wsj.com/lifestyle/travel/the-hanoi-lake-where-kids-hustle-american-tourists-for-english-lessons-eacf435e?mod=rss_worldnews"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/norges-bank-holds-key-interest-rate-but-signals-readiness-to-tighten-dedee6ad?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/malaysias-central-bank-holds-rate-steady-cites-resilient-growth-affcfd09?mod=rss_socialeconomyfeed"
         }
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-11-05T20:50:30.908470+09:00"
+  "intraday_refreshed_kst": "2026-11-05T21:00:37.888466+09:00"
 }
