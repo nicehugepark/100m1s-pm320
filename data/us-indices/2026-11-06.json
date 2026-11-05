@@ -6344,17 +6344,17 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "00363f04f81f909e1bfdbfc7c4b8b48637ba8349e10ab273435c246baff1047f",
+  "_article_sig": "086f051c6b8efe33097ce05cd2f72085171d16cdc159e86d4c4d7a14ff627b79",
   "built_at_kst": "2026-11-06T07:00:53.071784+09:00",
   "futures": {
-    "as_of_kst": "2026-11-06T07:10:10.612093+09:00",
+    "as_of_kst": "2026-11-06T07:20:11.045853+09:00",
     "session_open": false,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7353.5,
-        "change_pct": -4.75,
+        "point": 7353.0,
+        "change_pct": -4.76,
         "spark": [
           7610.25,
           7409.5,
@@ -6395,8 +6395,8 @@
           7358.25,
           7357.0,
           7355.25,
-          7356.75,
-          7353.5
+          7353.0,
+          7353.0
         ],
         "candle": {
           "o": 7610.25,
@@ -8430,7 +8430,24 @@
             "v": 3349999
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/wall-street-gets-2-5-trillion-ai-reality-check-with-historic-rout-of-tech-stocks-93985d7c?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/home-vs-stock-market-investment-6783607f?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/saudi-arabia-has-no-easy-choices-as-it-weighs-how-to-combat-houthi-threat-a4adc358?mod=rss_worldnews"
+            }
+          ]
+        }
       },
       {
         "name": "나스닥100 선물",
@@ -8477,7 +8494,7 @@
           26635.5,
           26634.5,
           26618.5,
-          26640.0,
+          26604.0,
           26604.0
         ],
         "candle": {
@@ -10519,7 +10536,24 @@
             "to": 26604.0,
             "gap_pct": -6.87
           }
-        ]
+        ],
+        "news": {
+          "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/wall-street-gets-2-5-trillion-ai-reality-check-with-historic-rout-of-tech-stocks-93985d7c?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/ai-panic-grips-stocks-60a59518?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/health/healthcare/insurer-sues-autism-therapy-provider-over-160-million-in-allegedly-misleading-claims-704ab4e4?mod=rss_markets_main"
+            }
+          ]
+        }
       },
       {
         "name": "다우 선물",
@@ -12601,10 +12635,80 @@
             "v": 174157
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+          "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/wall-street-gets-2-5-trillion-ai-reality-check-with-historic-rout-of-tech-stocks-93985d7c?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/world/americas/paraguays-president-resigns-as-collapse-of-bank-with-close-ties-to-him-sparks-crisis-a62895f1?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/americas/paraguays-president-resigns-as-collapse-of-bank-with-close-ties-to-him-sparks-crisis-a62895f1?mod=rss_worldnews"
+            }
+          ]
+        }
       }
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-11-06T07:10:21.468636+09:00"
+  "intraday_refreshed_kst": "2026-11-06T07:20:29.907725+09:00",
+  "_futures_news": {
+    "NASDAQ": {
+      "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/wall-street-gets-2-5-trillion-ai-reality-check-with-historic-rout-of-tech-stocks-93985d7c?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/ai-panic-grips-stocks-60a59518?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/health/healthcare/insurer-sues-autism-therapy-provider-over-160-million-in-allegedly-misleading-claims-704ab4e4?mod=rss_markets_main"
+        }
+      ]
+    },
+    "S&P500": {
+      "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/wall-street-gets-2-5-trillion-ai-reality-check-with-historic-rout-of-tech-stocks-93985d7c?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/home-vs-stock-market-investment-6783607f?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/saudi-arabia-has-no-easy-choices-as-it-weighs-how-to-combat-houthi-threat-a4adc358?mod=rss_worldnews"
+        }
+      ]
+    },
+    "DOW": {
+      "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/wall-street-gets-2-5-trillion-ai-reality-check-with-historic-rout-of-tech-stocks-93985d7c?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/world/americas/paraguays-president-resigns-as-collapse-of-bank-with-close-ties-to-him-sparks-crisis-a62895f1?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/americas/paraguays-president-resigns-as-collapse-of-bank-with-close-ties-to-him-sparks-crisis-a62895f1?mod=rss_worldnews"
+        }
+      ]
+    }
+  }
 }
