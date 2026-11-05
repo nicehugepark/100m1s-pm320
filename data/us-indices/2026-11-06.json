@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 24673.64,
-      "change_pct": -4.13,
+      "point": 24757.23,
+      "change_pct": -3.81,
       "candle": {
         "o": 25555.9,
         "h": 25555.9,
         "l": 24269.81,
-        "c": 24673.64
+        "c": 24757.23
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,7 +2033,7 @@
           "o": 25555.9,
           "h": 25555.9,
           "l": 24269.81,
-          "c": 24673.64
+          "c": 24757.23
         }
       ],
       "spark": [
@@ -2060,7 +2060,9 @@
         24494.55,
         24621.55,
         24643.65,
-        24673.64
+        24729.91,
+        24751.0,
+        24757.23
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2084,13 +2086,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7468.32,
-      "change_pct": -2.87,
+      "point": 7479.02,
+      "change_pct": -2.73,
       "candle": {
         "o": 7678.72,
         "h": 7681.29,
         "l": 7394.02,
-        "c": 7468.32
+        "c": 7479.02
       },
       "range_240d": {
         "low": 6343.72,
@@ -4114,7 +4116,7 @@
           "o": 7678.72,
           "h": 7681.29,
           "l": 7394.02,
-          "c": 7468.32
+          "c": 7479.02
         }
       ],
       "spark": [
@@ -4141,7 +4143,9 @@
         7441.36,
         7464.97,
         7463.69,
-        7468.32
+        7477.1,
+        7480.39,
+        7479.02
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4165,13 +4169,13 @@
     },
     {
       "name": "DOW",
-      "point": 52173.26,
-      "change_pct": -2.22,
+      "point": 52246.76,
+      "change_pct": -2.08,
       "candle": {
         "o": 53679.01,
         "h": 53706.65,
         "l": 51980.37,
-        "c": 52173.26
+        "c": 52246.76
       },
       "range_240d": {
         "low": 45166.64,
@@ -6195,7 +6199,7 @@
           "o": 53679.01,
           "h": 53706.65,
           "l": 51980.37,
-          "c": 52173.26
+          "c": 52246.76
         }
       ],
       "spark": [
@@ -6222,7 +6226,9 @@
         52151.88,
         52189.92,
         52155.97,
-        52173.26
+        52218.82,
+        52262.69,
+        52246.76
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6247,17 +6253,17 @@
   ],
   "news_chips": [
     {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html",
+      "published_ts": 1793894507.0,
+      "impact_high": true
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/bank-of-england-raises-rates-for-first-time-since-start-of-iran-war-f6353d96?mod=rss_socialeconomyfeed",
       "published_ts": 1793885160.0,
-      "impact_high": true
-    },
-    {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html",
-      "published_ts": 1793882277.0,
       "impact_high": true
     },
     {
@@ -6268,10 +6274,17 @@
       "impact_high": true
     },
     {
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/2026110592927",
+      "published_ts": 1793872909.0,
+      "impact_high": true
+    },
+    {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/uk/russell-brand-guilty-verdict-02e0ad15?mod=rss_worldnews",
-      "published_ts": 1793891700.0,
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/04/2026-midterms-trump-economy-iran-war.html",
+      "published_ts": 1793894879.0,
       "impact_high": false
     },
     {
@@ -6289,17 +6302,10 @@
       "impact_high": false
     },
     {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/business/deals/abb-confirms-china-blocked-softbank-deal-for-robotics-unit-cf1d44bf?mod=rss_worldnews",
-      "published_ts": 1793879400.0,
-      "impact_high": false
-    },
-    {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/lifestyle/travel/the-hanoi-lake-where-kids-hustle-american-tourists-for-english-lessons-eacf435e?mod=rss_worldnews",
-      "published_ts": 1793874600.0,
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/stocks/index-funds-are-better-when-theyre-lucky-and-smart-3f64f351?mod=rss_markets_main",
+      "published_ts": 1793791320.0,
       "impact_high": false
     },
     {
@@ -6317,7 +6323,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "49cddcb5715e0eb71bfd2b1d1733482a8d2edc357308204dbacbdad8a64ae395",
+  "_article_sig": "62c97f27f07cf959f1a801d5cacdb805c0285295bbe380de8c85d601e4578bd6",
   "built_at_kst": "2026-11-05T07:06:05.711392+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6325,16 +6331,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-slide-lower-again-54f85605?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/bank-of-england-raises-rates-for-first-time-since-start-of-iran-war-f6353d96?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html"
         }
       ]
     },
@@ -6342,12 +6348,12 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/bank-of-england-raises-rates-for-first-time-since-start-of-iran-war-f6353d96?mod=rss_socialeconomyfeed"
-        },
-        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/bank-of-england-raises-rates-for-first-time-since-start-of-iran-war-f6353d96?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ경제",
@@ -6359,12 +6365,12 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/bank-of-england-raises-rates-for-first-time-since-start-of-iran-war-f6353d96?mod=rss_socialeconomyfeed"
-        },
-        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/bank-of-england-raises-rates-for-first-time-since-start-of-iran-war-f6353d96?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ경제",
@@ -6374,19 +6380,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-11-06T01:20:09.741420+09:00",
+    "as_of_kst": "2026-11-06T01:30:15.911212+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7468.75,
-        "change_pct": -3.26,
+        "point": 7491.75,
+        "change_pct": -2.96,
         "spark": [
           7610.25,
-          7728.5,
-          7729.5,
-          7722.25,
           7726.0,
           7727.0,
           7729.0,
@@ -6423,21 +6426,24 @@
           7470.0,
           7446.25,
           7469.0,
-          7468.75
+          7493.75,
+          7491.0,
+          7506.0,
+          7491.75
         ],
         "candle": {
           "o": 7610.25,
           "h": 7738.75,
           "l": 7421.0,
-          "c": 7469.75
+          "c": 7491.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 16.93,
-          "high_change_pct": -5.13
+          "low_change_pct": 17.27,
+          "high_change_pct": -4.85
         },
         "daily_expanded": [
           {
@@ -8453,8 +8459,8 @@
             "o": 7610.25,
             "h": 7738.75,
             "l": 7421.0,
-            "c": 7469.75,
-            "v": 1698608
+            "c": 7491.75,
+            "v": 1806588
           }
         ],
         "rollover_gaps": [],
@@ -8462,12 +8468,12 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/bank-of-england-raises-rates-for-first-time-since-start-of-iran-war-f6353d96?mod=rss_socialeconomyfeed"
-            },
-            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/bank-of-england-raises-rates-for-first-time-since-start-of-iran-war-f6353d96?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ경제",
@@ -8479,12 +8485,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 27019.75,
-        "change_pct": -5.42,
+        "point": 27224.5,
+        "change_pct": -4.7,
         "spark": [
           28410.0,
-          28356.25,
-          28305.25,
           28323.0,
           28335.75,
           28344.5,
@@ -8522,21 +8526,23 @@
           26887.0,
           27011.0,
           27171.0,
-          27019.75
+          27197.5,
+          27291.75,
+          27224.5
         ],
         "candle": {
           "o": 28410.0,
           "h": 28668.5,
           "l": 26732.0,
-          "c": 27027.0
+          "c": 27226.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 16.8,
-          "high_change_pct": -14.15
+          "low_change_pct": 17.66,
+          "high_change_pct": -13.52
         },
         "daily_expanded": [
           {
@@ -10552,21 +10558,18 @@
             "o": 28410.0,
             "h": 28668.5,
             "l": 26732.0,
-            "c": 27027.0,
-            "v": 714118
+            "c": 27226.5,
+            "v": 755363
           }
         ],
-        "rollover_gaps": [
-          {
-            "date": "2026-11-05",
-            "from": 28566.75,
-            "to": 27027.0,
-            "gap_pct": -5.39
-          }
-        ],
+        "rollover_gaps": [],
         "news": {
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html"
+            },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-slide-lower-again-54f85605?mod=rss_socialeconomyfeed"
@@ -10574,10 +10577,6 @@
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/bank-of-england-raises-rates-for-first-time-since-start-of-iran-war-f6353d96?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html"
             }
           ]
         }
@@ -10585,12 +10584,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52268.0,
-        "change_pct": -2.31,
+        "point": 52281.0,
+        "change_pct": -2.28,
         "spark": [
           51808.0,
-          53885.0,
-          53820.0,
           53855.0,
           53837.0,
           53843.0,
@@ -10628,7 +10625,9 @@
           52168.0,
           52253.0,
           52295.0,
-          52268.0
+          52266.0,
+          52329.0,
+          52281.0
         ],
         "candle": {
           "o": 51808.0,
@@ -12659,7 +12658,7 @@
             "h": 53913.0,
             "l": 52094.0,
             "c": 52268.0,
-            "v": 92179
+            "v": 96887
           }
         ],
         "rollover_gaps": [],
@@ -12667,12 +12666,12 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/bank-of-england-raises-rates-for-first-time-since-start-of-iran-war-f6353d96?mod=rss_socialeconomyfeed"
-            },
-            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/bank-of-england-raises-rates-for-first-time-since-start-of-iran-war-f6353d96?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ경제",
@@ -12683,5 +12682,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-11-06T01:20:21.188805+09:00"
+  "intraday_refreshed_kst": "2026-11-06T01:30:41.518897+09:00"
 }
