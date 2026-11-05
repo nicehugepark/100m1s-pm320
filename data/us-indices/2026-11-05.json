@@ -6282,10 +6282,17 @@
     },
     {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/stocks-surge-oil-plummets-on-democrat-victory-d4f606b5?mod=rss_markets_main",
-      "published_ts": 1793827920.0,
-      "impact_high": true
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/saudi-arabia-has-no-easy-choices-as-it-weighs-how-to-combat-houthi-threat-a4adc358?mod=rss_worldnews",
+      "published_ts": 1793847600.0,
+      "impact_high": false
+    },
+    {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/202611057472H",
+      "published_ts": 1793845089.0,
+      "impact_high": false
     },
     {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
@@ -6323,13 +6330,6 @@
       "impact_high": false
     },
     {
-      "summary": "반도체 수요와 공급망 뉴스가 기술주 투자심리의 핵심 변수로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/asia/south-koreas-chip-led-exports-accelerate-bringing-1-trln-annual-target-closer-5180b539?mod=rss_worldnews",
-      "published_ts": 1793493720.0,
-      "impact_high": false
-    },
-    {
       "summary": "기업 실적과 가이던스 변화가 대형주 중심의 선별 흐름을 강화하는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/business/earnings/natwest-earnings-boosted-by-higher-net-interest-income-20ebc371?mod=rss_markets_main",
@@ -6344,20 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "556dfed15269378c58ec7acd12b5248813b663b37f184408ae113df904618bea",
+  "_article_sig": "123c9e2452d58ea59055a0d0d8475eadd265a8d7782c9c0f5f7fd0d9b6f51a37",
   "built_at_kst": "2026-11-05T07:06:05.711392+09:00",
   "futures": {
-    "as_of_kst": "2026-11-05T12:00:25.611562+09:00",
+    "as_of_kst": "2026-11-05T12:10:21.105073+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7715.0,
-        "change_pct": -0.07,
+        "point": 7716.25,
+        "change_pct": -0.06,
         "spark": [
           7610.25,
-          7730.25,
           7727.75,
           7725.75,
           7725.0,
@@ -6395,22 +6394,23 @@
           7718.25,
           7721.75,
           7715.0,
-          7713.0,
-          7715.0
+          7716.0,
+          7716.0,
+          7716.25
         ],
         "candle": {
           "o": 7610.25,
           "h": 7737.25,
           "l": 7695.75,
-          "c": 7714.5
+          "c": 7716.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 20.76,
-          "high_change_pct": -2.03
+          "low_change_pct": 20.79,
+          "high_change_pct": -2.0
         },
         "daily_expanded": [
           {
@@ -8434,8 +8434,8 @@
             "o": 7610.25,
             "h": 7737.25,
             "l": 7695.75,
-            "c": 7714.5,
-            "v": 68682
+            "c": 7716.25,
+            "v": 70849
           }
         ],
         "rollover_gaps": [],
@@ -8443,16 +8443,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/saudi-arabia-has-no-easy-choices-as-it-weighs-how-to-combat-houthi-threat-a4adc358?mod=rss_worldnews"
+            },
+            {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/202611057106i"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/brazils-central-bank-stops-easing-cycle-as-inflation-remains-high-8529c4e5?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/04/democrats-trump-debt-ceiling-fight.html"
             }
           ]
         }
@@ -8460,12 +8460,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28383.0,
-        "change_pct": -0.64,
+        "point": 28396.0,
+        "change_pct": -0.6,
         "spark": [
           28410.0,
-          28581.25,
-          28562.75,
           28536.75,
           28533.0,
           28509.0,
@@ -8502,22 +8500,24 @@
           28421.0,
           28450.5,
           28394.5,
-          28378.25,
-          28383.0
+          28397.75,
+          28395.25,
+          28379.5,
+          28396.0
         ],
         "candle": {
           "o": 28410.0,
           "h": 28668.5,
           "l": 28180.0,
-          "c": 28383.75
+          "c": 28395.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 22.66,
-          "high_change_pct": -9.84
+          "low_change_pct": 22.71,
+          "high_change_pct": -9.81
         },
         "daily_expanded": [
           {
@@ -10526,15 +10526,23 @@
             "h": 28449.5,
             "l": 28038.25,
             "c": 28305.75,
-            "v": 759285
+            "v": 653606
+          },
+          {
+            "date": "2026-11-04",
+            "o": 28410.0,
+            "h": 28969.0,
+            "l": 27615.75,
+            "c": 28566.75,
+            "v": 653606
           },
           {
             "date": "2026-11-04",
             "o": 28410.0,
             "h": 28668.5,
             "l": 28180.0,
-            "c": 28383.75,
-            "v": 59499
+            "c": 28395.75,
+            "v": 61672
           }
         ],
         "rollover_gaps": [],
@@ -10559,12 +10567,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 53663.0,
-        "change_pct": 0.3,
+        "point": 53684.0,
+        "change_pct": 0.34,
         "spark": [
           51808.0,
-          53583.0,
-          53564.0,
           53554.0,
           53555.0,
           53523.0,
@@ -10601,22 +10607,24 @@
           53662.0,
           53715.0,
           53674.0,
-          53660.0,
-          53663.0
+          53685.0,
+          53681.0,
+          53675.0,
+          53684.0
         ],
         "candle": {
           "o": 51808.0,
           "h": 53725.0,
           "l": 53518.0,
-          "c": 53663.0
+          "c": 53684.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 18.14,
-          "high_change_pct": -1.52
+          "low_change_pct": 18.18,
+          "high_change_pct": -1.49
         },
         "daily_expanded": [
           {
@@ -12625,15 +12633,23 @@
             "h": 52186.0,
             "l": 51631.0,
             "c": 51895.0,
-            "v": 93716
+            "v": 96757
+          },
+          {
+            "date": "2026-11-04",
+            "o": 51808.0,
+            "h": 53631.0,
+            "l": 51416.0,
+            "c": 53503.0,
+            "v": 96757
           },
           {
             "date": "2026-11-04",
             "o": 51808.0,
             "h": 53725.0,
             "l": 53518.0,
-            "c": 53663.0,
-            "v": 7367
+            "c": 53684.0,
+            "v": 7546
           }
         ],
         "rollover_gaps": [],
@@ -12680,16 +12696,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/saudi-arabia-has-no-easy-choices-as-it-weighs-how-to-combat-houthi-threat-a4adc358?mod=rss_worldnews"
+        },
+        {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/202611057106i"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/brazils-central-bank-stops-easing-cycle-as-inflation-remains-high-8529c4e5?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/04/democrats-trump-debt-ceiling-fight.html"
         }
       ]
     },
@@ -12711,5 +12727,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-11-05T12:00:39.649630+09:00"
+  "intraday_refreshed_kst": "2026-11-05T12:15:38.173881+09:00"
 }
