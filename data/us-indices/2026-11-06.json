@@ -6295,6 +6295,13 @@
       "impact_high": true
     },
     {
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/investing/what-the-midterm-shake-up-means-for-markets-and-investors-b1135215?mod=rss_markets_main",
+      "published_ts": 1793961720.0,
+      "impact_high": false
+    },
+    {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/global/eurozone-retail-sales-slumped-in-september-9c1b2ae4?mod=rss_socialeconomyfeed",
@@ -6316,13 +6323,6 @@
       "impact_high": false
     },
     {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b?mod=rss_markets_main",
-      "published_ts": 1793939760.0,
-      "impact_high": false
-    },
-    {
       "summary": "전력·유틸리티 투자와 인프라 수요가 방어주와 산업재 관심을 확대하는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/05/emocratic-midterm-economy.html",
@@ -6337,22 +6337,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "ecfdef4c14ffe9dc0e08ecfefb057aef9fdb079d7ac13dfdd440fe336ac1036d",
+  "_article_sig": "db23999f0a930ed4e249759085a5f736ed4e7da4d6a44426b0dfe9d8f6cb488e",
   "built_at_kst": "2026-11-06T07:00:53.071784+09:00",
   "futures": {
-    "as_of_kst": "2026-11-06T19:40:14.767983+09:00",
+    "as_of_kst": "2026-11-06T19:50:16.115497+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7404.5,
-        "change_pct": 0.29,
+        "point": 7406.5,
+        "change_pct": 0.32,
         "spark": [
           7359.0,
-          7370.0,
-          7365.25,
-          7360.75,
           7357.75,
           7360.75,
           7375.75,
@@ -6389,21 +6386,24 @@
           7403.5,
           7398.0,
           7404.5,
-          7404.5
+          7401.25,
+          7405.75,
+          7403.75,
+          7406.5
         ],
         "candle": {
           "o": 7359.0,
           "h": 7427.25,
           "l": 7322.25,
-          "c": 7404.5
+          "c": 7406.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 15.91,
-          "high_change_pct": -5.96
+          "low_change_pct": 15.93,
+          "high_change_pct": -5.94
         },
         "daily_expanded": [
           {
@@ -8419,8 +8419,8 @@
             "o": 7359.0,
             "h": 7427.25,
             "l": 7322.25,
-            "c": 7404.5,
-            "v": 285078
+            "c": 7406.0,
+            "v": 289942
           }
         ],
         "rollover_gaps": [],
@@ -8428,16 +8428,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/what-the-midterm-shake-up-means-for-markets-and-investors-b1135215?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/german-industrial-production-jumped-unexpectedly-in-september-5060bdf9?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/october-jobs-report-stock-market-11-06-2026?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/business/energy-oil/brent-crude-climbs-above-100-as-middle-east-oil-supply-risks-persist-caaf64bb?mod=rss_worldnews"
             }
           ]
         }
@@ -8445,12 +8445,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 27115.25,
-        "change_pct": 1.36,
+        "point": 27146.5,
+        "change_pct": 1.47,
         "spark": [
           26640.25,
-          26897.5,
-          26856.25,
           26826.5,
           26865.5,
           26960.25,
@@ -8488,21 +8486,23 @@
           27076.0,
           27117.5,
           27103.0,
-          27115.25
+          27141.25,
+          27138.75,
+          27146.5
         ],
         "candle": {
           "o": 26640.25,
           "h": 27251.5,
           "l": 26366.5,
-          "c": 27114.5
+          "c": 27141.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 17.18,
-          "high_change_pct": -13.88
+          "low_change_pct": 17.29,
+          "high_change_pct": -13.79
         },
         "daily_expanded": [
           {
@@ -10518,8 +10518,8 @@
             "o": 26640.25,
             "h": 27251.5,
             "l": 26366.5,
-            "c": 27114.5,
-            "v": 183297
+            "c": 27141.5,
+            "v": 184977
           }
         ],
         "rollover_gaps": [
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51186.0,
-        "change_pct": -0.83,
+        "point": 51174.0,
+        "change_pct": -0.85,
         "spark": [
           51365.0,
-          50980.0,
-          50933.0,
           50929.0,
           50933.0,
           51031.0,
@@ -10594,21 +10592,23 @@
           51165.0,
           51188.0,
           51164.0,
-          51186.0
+          51179.0,
+          51154.0,
+          51174.0
         ],
         "candle": {
           "o": 51365.0,
           "h": 51569.0,
           "l": 50891.0,
-          "c": 51194.0
+          "c": 51174.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 12.7,
-          "high_change_pct": -6.06
+          "low_change_pct": 12.66,
+          "high_change_pct": -6.09
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 51365.0,
             "h": 51569.0,
             "l": 50891.0,
-            "c": 51194.0,
-            "v": 31690
+            "c": 51174.0,
+            "v": 32100
           }
         ],
         "rollover_gaps": [],
@@ -12650,7 +12650,7 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-11-06T19:40:38.996533+09:00",
+  "intraday_refreshed_kst": "2026-11-06T19:50:39.841117+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
@@ -12673,16 +12673,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/what-the-midterm-shake-up-means-for-markets-and-investors-b1135215?mod=rss_markets_main"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/german-industrial-production-jumped-unexpectedly-in-september-5060bdf9?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/october-jobs-report-stock-market-11-06-2026?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/business/energy-oil/brent-crude-climbs-above-100-as-middle-east-oil-supply-risks-persist-caaf64bb?mod=rss_worldnews"
         }
       ]
     },
