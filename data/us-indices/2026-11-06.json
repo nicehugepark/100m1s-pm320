@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/investing/hedge-funds-dump-positions-and-cut-staff-as-selloff-deepens-7eb14493?mod=rss_markets_main",
+      "published_ts": 1793931000.0,
+      "impact_high": true
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/europe/ukraine-war-drone-rescue-c2e59cd6?mod=rss_worldnews",
@@ -6309,13 +6316,6 @@
       "impact_high": false
     },
     {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/202611069938H",
-      "published_ts": 1793923578.0,
-      "impact_high": false
-    },
-    {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/investing/how-to-keep-these-wild-market-moves-from-hijacking-your-financial-future-71ecb216?mod=rss_markets_main",
@@ -6337,22 +6337,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "d174dd8b7fb61a95eb6ab9d9bba1fa9193ab9352848519d600b73d638bff7a85",
+  "_article_sig": "bd281e8044ecf5dfeff656748e740cfe24a409ad4ab9c25459b8f0942deb75b1",
   "built_at_kst": "2026-11-06T07:00:53.071784+09:00",
   "futures": {
-    "as_of_kst": "2026-11-06T11:10:21.946204+09:00",
+    "as_of_kst": "2026-11-06T11:20:22.702457+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7394.0,
-        "change_pct": 0.15,
+        "point": 7399.0,
+        "change_pct": 0.22,
         "spark": [
           7359.0,
-          7357.0,
-          7355.25,
-          7353.0,
           7359.25,
           7345.25,
           7344.5,
@@ -6389,21 +6386,24 @@
           7389.0,
           7396.25,
           7390.5,
-          7394.0
+          7394.75,
+          7399.5,
+          7404.75,
+          7399.0
         ],
         "candle": {
           "o": 7359.0,
           "h": 7403.75,
           "l": 7322.25,
-          "c": 7391.25
+          "c": 7399.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 15.7,
-          "high_change_pct": -6.13
+          "low_change_pct": 15.83,
+          "high_change_pct": -6.03
         },
         "daily_expanded": [
           {
@@ -8427,8 +8427,8 @@
             "o": 7359.0,
             "h": 7403.75,
             "l": 7322.25,
-            "c": 7391.25,
-            "v": 107734
+            "c": 7399.25,
+            "v": 112377
           }
         ],
         "rollover_gaps": [],
@@ -8453,12 +8453,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 26959.75,
-        "change_pct": 0.78,
+        "point": 27028.75,
+        "change_pct": 1.03,
         "spark": [
           26640.25,
-          26618.5,
-          26604.0,
           26651.0,
           26584.75,
           26551.75,
@@ -8495,22 +8493,24 @@
           26949.25,
           27005.75,
           26977.25,
-          26987.25,
-          26959.75
+          26998.0,
+          27031.0,
+          27063.5,
+          27028.75
         ],
         "candle": {
           "o": 26640.25,
-          "h": 27009.25,
+          "h": 27044.0,
           "l": 26366.5,
-          "c": 26956.5
+          "c": 27025.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 16.49,
-          "high_change_pct": -14.38
+          "low_change_pct": 16.79,
+          "high_change_pct": -14.16
         },
         "daily_expanded": [
           {
@@ -10532,10 +10532,10 @@
           {
             "date": "2026-11-05",
             "o": 26640.25,
-            "h": 27009.25,
+            "h": 27044.0,
             "l": 26366.5,
-            "c": 26956.5,
-            "v": 76286
+            "c": 27025.0,
+            "v": 79014
           }
         ],
         "rollover_gaps": [
@@ -10567,12 +10567,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51310.0,
-        "change_pct": -0.59,
+        "point": 51328.0,
+        "change_pct": -0.56,
         "spark": [
           51365.0,
-          51364.0,
-          51352.0,
           51427.0,
           51342.0,
           51382.0,
@@ -10609,22 +10607,24 @@
           51334.0,
           51376.0,
           51298.0,
-          51307.0,
-          51310.0
+          51311.0,
+          51326.0,
+          51350.0,
+          51328.0
         ],
         "candle": {
           "o": 51365.0,
           "h": 51569.0,
           "l": 51266.0,
-          "c": 51313.0
+          "c": 51328.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 12.96,
-          "high_change_pct": -5.84
+          "low_change_pct": 13.0,
+          "high_change_pct": -5.81
         },
         "daily_expanded": [
           {
@@ -12648,8 +12648,8 @@
             "o": 51365.0,
             "h": 51569.0,
             "l": 51266.0,
-            "c": 51313.0,
-            "v": 9880
+            "c": 51328.0,
+            "v": 10484
           }
         ],
         "rollover_gaps": [],
@@ -12658,15 +12658,15 @@
           "sources": [
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/wall-street-gets-2-5-trillion-ai-reality-check-with-historic-rout-of-tech-stocks-93985d7c?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
               "url": "https://www.wsj.com/world/americas/paraguays-president-resigns-as-collapse-of-bank-with-close-ties-to-him-sparks-crisis-a62895f1?mod=rss_markets_main"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/americas/paraguays-president-resigns-as-collapse-of-bank-with-close-ties-to-him-sparks-crisis-a62895f1?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/banking/goldmans-exclusive-club-of-partners-welcomes-an-influx-from-wealth-management-ebe2e32a?mod=rss_markets_main"
             }
           ]
         }
@@ -12674,7 +12674,7 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-11-06T11:10:53.753399+09:00",
+  "intraday_refreshed_kst": "2026-11-06T11:20:44.909870+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
@@ -12715,15 +12715,15 @@
       "sources": [
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/wall-street-gets-2-5-trillion-ai-reality-check-with-historic-rout-of-tech-stocks-93985d7c?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
           "url": "https://www.wsj.com/world/americas/paraguays-president-resigns-as-collapse-of-bank-with-close-ties-to-him-sparks-crisis-a62895f1?mod=rss_markets_main"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/americas/paraguays-president-resigns-as-collapse-of-bank-with-close-ties-to-him-sparks-crisis-a62895f1?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/banking/goldmans-exclusive-club-of-partners-welcomes-an-influx-from-wealth-management-ebe2e32a?mod=rss_markets_main"
         }
       ]
     }
