@@ -6295,24 +6295,24 @@
       "impact_high": true
     },
     {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/what-the-midterm-shake-up-means-for-markets-and-investors-b1135215?mod=rss_markets_main",
-      "published_ts": 1793961720.0,
-      "impact_high": false
-    },
-    {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/global/eurozone-retail-sales-slumped-in-september-9c1b2ae4?mod=rss_socialeconomyfeed",
-      "published_ts": 1793961180.0,
+      "published_ts": 1793963820.0,
       "impact_high": false
     },
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026110616687",
-      "published_ts": 1793958213.0,
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/israels-most-important-alliance-is-confronting-its-biggest-test-in-decades-a7c019ae?mod=rss_worldnews",
+      "published_ts": 1793962740.0,
+      "impact_high": false
+    },
+    {
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/investing/what-the-midterm-shake-up-means-for-markets-and-investors-b1135215?mod=rss_markets_main",
+      "published_ts": 1793961720.0,
       "impact_high": false
     },
     {
@@ -6337,21 +6337,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "db23999f0a930ed4e249759085a5f736ed4e7da4d6a44426b0dfe9d8f6cb488e",
+  "_article_sig": "7b412f22c3433ddf12920f95e88d1330bcb19d1b6f2b96c10ea9deac20306169",
   "built_at_kst": "2026-11-06T07:00:53.071784+09:00",
   "futures": {
-    "as_of_kst": "2026-11-06T20:10:15.550153+09:00",
+    "as_of_kst": "2026-11-06T20:20:10.098762+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7397.75,
-        "change_pct": 0.2,
+        "point": 7397.0,
+        "change_pct": 0.19,
         "spark": [
           7359.0,
-          7386.75,
-          7383.25,
           7381.75,
           7379.5,
           7387.25,
@@ -6389,7 +6387,9 @@
           7397.75,
           7397.75,
           7400.75,
-          7397.75
+          7396.5,
+          7401.25,
+          7397.0
         ],
         "candle": {
           "o": 7359.0,
@@ -8420,7 +8420,7 @@
             "h": 7427.25,
             "l": 7322.25,
             "c": 7397.0,
-            "v": 299516
+            "v": 305698
           }
         ],
         "rollover_gaps": [],
@@ -8428,16 +8428,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/finance/commodities-futures/taiwan-activates-market-stabilization-measures-to-stem-ai-bleeding-169e36e1?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/investing/what-the-midterm-shake-up-means-for-markets-and-investors-b1135215?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/german-industrial-production-jumped-unexpectedly-in-september-5060bdf9?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/october-jobs-report-stock-market-11-06-2026?mod=rss_markets_main"
             }
           ]
         }
@@ -8445,12 +8445,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 27065.75,
-        "change_pct": 1.17,
+        "point": 27075.75,
+        "change_pct": 1.21,
         "spark": [
           26640.25,
-          27012.75,
-          26980.5,
           26986.25,
           26967.25,
           26995.25,
@@ -8488,21 +8486,23 @@
           27098.25,
           27068.25,
           27097.5,
-          27065.75
+          27071.75,
+          27101.5,
+          27075.75
         ],
         "candle": {
           "o": 26640.25,
           "h": 27251.5,
           "l": 26366.5,
-          "c": 27069.0
+          "c": 27075.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 16.98,
-          "high_change_pct": -14.02
+          "low_change_pct": 17.01,
+          "high_change_pct": -14.0
         },
         "daily_expanded": [
           {
@@ -10518,8 +10518,8 @@
             "o": 26640.25,
             "h": 27251.5,
             "l": 26366.5,
-            "c": 27069.0,
-            "v": 188106
+            "c": 27075.75,
+            "v": 189733
           }
         ],
         "rollover_gaps": [
@@ -10538,12 +10538,12 @@
               "url": "https://www.wsj.com/economy/global/eurozone-retail-sales-slumped-in-september-9c1b2ae4?mod=rss_socialeconomyfeed"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/the-argument-for-buying-treasury-bonds-is-still-strong-be338920?mod=rss_markets_main"
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/finance/commodities-futures/taiwan-activates-market-stabilization-measures-to-stem-ai-bleeding-169e36e1?mod=rss_worldnews"
             },
             {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/to-cross-the-red-sea-shippers-email-houthi-rebels-read-their-inbox-5ecace40?mod=rss_worldnews"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/the-argument-for-buying-treasury-bonds-is-still-strong-be338920?mod=rss_markets_main"
             }
           ]
         }
@@ -10551,11 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51144.0,
-        "change_pct": -0.91,
+        "point": 51094.0,
+        "change_pct": -1.01,
         "spark": [
           51365.0,
-          51112.0,
           51114.0,
           51065.0,
           51050.0,
@@ -10594,21 +10593,22 @@
           51148.0,
           51140.0,
           51146.0,
-          51144.0
+          51093.0,
+          51094.0
         ],
         "candle": {
           "o": 51365.0,
           "h": 51569.0,
           "l": 50891.0,
-          "c": 51128.0
+          "c": 51098.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 12.56,
-          "high_change_pct": -6.18
+          "low_change_pct": 12.49,
+          "high_change_pct": -6.23
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 51365.0,
             "h": 51569.0,
             "l": 50891.0,
-            "c": 51128.0,
-            "v": 33178
+            "c": 51098.0,
+            "v": 33555
           }
         ],
         "rollover_gaps": [],
@@ -12650,7 +12650,7 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-11-06T20:10:29.672543+09:00",
+  "intraday_refreshed_kst": "2026-11-06T20:20:28.598696+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
@@ -12660,12 +12660,12 @@
           "url": "https://www.wsj.com/economy/global/eurozone-retail-sales-slumped-in-september-9c1b2ae4?mod=rss_socialeconomyfeed"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/the-argument-for-buying-treasury-bonds-is-still-strong-be338920?mod=rss_markets_main"
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/finance/commodities-futures/taiwan-activates-market-stabilization-measures-to-stem-ai-bleeding-169e36e1?mod=rss_worldnews"
         },
         {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/to-cross-the-red-sea-shippers-email-houthi-rebels-read-their-inbox-5ecace40?mod=rss_worldnews"
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/the-argument-for-buying-treasury-bonds-is-still-strong-be338920?mod=rss_markets_main"
         }
       ]
     },
@@ -12673,16 +12673,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/finance/commodities-futures/taiwan-activates-market-stabilization-measures-to-stem-ai-bleeding-169e36e1?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/investing/what-the-midterm-shake-up-means-for-markets-and-investors-b1135215?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/german-industrial-production-jumped-unexpectedly-in-september-5060bdf9?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/october-jobs-report-stock-market-11-06-2026?mod=rss_markets_main"
         }
       ]
     },
