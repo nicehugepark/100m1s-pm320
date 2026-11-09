@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 25219.38,
-      "change_pct": 2.6,
+      "point": 25227.74,
+      "change_pct": 2.64,
       "candle": {
         "o": 24783.31,
         "h": 25271.38,
         "l": 24769.12,
-        "c": 25219.38
+        "c": 25227.74
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,12 +2033,11 @@
           "o": 24783.31,
           "h": 25271.38,
           "l": 24769.12,
-          "c": 25219.38
+          "c": 25227.74
         }
       ],
       "spark": [
         24783.31,
-        24894.26,
         24972.46,
         25052.05,
         25074.09,
@@ -2076,7 +2075,9 @@
         25233.58,
         25239.13,
         25221.04,
-        25219.38
+        25208.44,
+        25224.67,
+        25227.74
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2100,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7544.86,
-      "change_pct": 2.28,
+      "point": 7549.44,
+      "change_pct": 2.34,
       "candle": {
         "o": 7422.24,
         "h": 7552.46,
         "l": 7376.86,
-        "c": 7544.86
+        "c": 7549.44
       },
       "range_240d": {
         "low": 6343.72,
@@ -4130,12 +4131,11 @@
           "o": 7422.24,
           "h": 7552.46,
           "l": 7376.86,
-          "c": 7544.86
+          "c": 7549.44
         }
       ],
       "spark": [
         7422.24,
-        7457.53,
         7473.13,
         7491.12,
         7494.26,
@@ -4173,7 +4173,9 @@
         7548.44,
         7550.61,
         7546.76,
-        7544.86
+        7545.21,
+        7548.47,
+        7549.44
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4197,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 52327.37,
-      "change_pct": 2.03,
+      "point": 52376.11,
+      "change_pct": 2.13,
       "candle": {
         "o": 51643.01,
         "h": 52392.46,
         "l": 51285.73,
-        "c": 52327.37
+        "c": 52376.11
       },
       "range_240d": {
         "low": 45166.64,
@@ -6227,12 +6229,11 @@
           "o": 51643.01,
           "h": 52392.46,
           "l": 51285.73,
-          "c": 52327.37
+          "c": 52376.11
         }
       ],
       "spark": [
         51643.01,
-        51874.79,
         51925.59,
         51991.29,
         51960.68,
@@ -6270,7 +6271,9 @@
         52364.55,
         52374.04,
         52335.95,
-        52327.37
+        52351.64,
+        52369.72,
+        52376.11
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6295,6 +6298,13 @@
   ],
   "news_chips": [
     {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/barkin-says-appropriate-direction-of-monetary-policy-relatively-straightforward-5a01300d?mod=rss_socialeconomyfeed",
+      "published_ts": 1794246000.0,
+      "impact_high": true
+    },
+    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026110959897",
@@ -6309,10 +6319,10 @@
       "impact_high": true
     },
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/europe/france-u-s-suspect-iran-was-behind-cyberattack-on-european-fridges-6247965c?mod=rss_worldnews",
-      "published_ts": 1794245820.0,
+      "url": "https://www.wsj.com/finance/stocks/stock-futures-treasurys-steady-but-nvidia-slides-premarket-on-huang-probe-31deea55?mod=rss_worldnews",
+      "published_ts": 1794246060.0,
       "impact_high": false
     },
     {
@@ -6320,13 +6330,6 @@
       "source": "WSJ",
       "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-cfd812a8?mod=rss_markets_main",
       "published_ts": 1794244980.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/uk/russell-brand-sentenced-to-10-years-in-jail-for-rape-and-sexual-assault-271db16f?mod=rss_worldnews",
-      "published_ts": 1794238680.0,
       "impact_high": false
     },
     {
@@ -6365,7 +6368,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "41608c9b6b33b22bc6a62fd1a7ea655265c9a26f878b619ff4d1853e678d57fd",
+  "_article_sig": "f9e45532ced59b7b0da3683470ead2005b6fcfe01b1129e639569906963ce39a",
   "built_at_kst": "2026-11-07T07:00:48.551001+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6374,15 +6377,15 @@
       "sources": [
         {
           "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/uk/russell-brand-sentenced-to-10-years-in-jail-for-rape-and-sexual-assault-271db16f?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ세계",
           "url": "https://www.wsj.com/finance/stocks/stock-futures-treasurys-steady-but-nvidia-slides-premarket-on-huang-probe-31deea55?mod=rss_worldnews"
         },
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/barkin-says-appropriate-direction-of-monetary-policy-relatively-straightforward-5a01300d?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ세계",
-          "url": "https://www.wsj.com/tech/the-chinese-woman-at-the-center-of-a-spy-probe-after-an-affair-with-jensen-huang-7bb406d2?mod=rss_worldnews"
+          "url": "https://www.wsj.com/world/uk/russell-brand-sentenced-to-10-years-in-jail-for-rape-and-sexual-assault-271db16f?mod=rss_worldnews"
         }
       ]
     },
@@ -6390,16 +6393,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/barkin-says-appropriate-direction-of-monetary-policy-relatively-straightforward-5a01300d?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/europe/france-u-s-suspect-iran-was-behind-cyberattack-on-european-fridges-6247965c?mod=rss_worldnews"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-cfd812a8?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/finance/commodities-futures/oil-prices-fall-staying-below-100-as-trump-plays-down-new-iran-strikes-27dc3911?mod=rss_worldnews"
         }
       ]
     },
@@ -6408,33 +6411,30 @@
       "sources": [
         {
           "name": "WSJ세계",
-          "url": "https://www.wsj.com/finance/stocks/stock-futures-treasurys-steady-but-nvidia-slides-premarket-on-huang-probe-31deea55?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ세계",
           "url": "https://www.wsj.com/finance/commodities-futures/oil-prices-fall-staying-below-100-as-trump-plays-down-new-iran-strikes-27dc3911?mod=rss_worldnews"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/regulation/for-big-bank-stocks-capitol-hills-bark-is-worse-than-its-bite-e436a99b?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-09-2026?mod=rss_markets_main"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-11-10T02:40:12.188891+09:00",
+    "as_of_kst": "2026-11-10T02:50:12.801796+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7571.5,
-        "change_pct": 2.29,
+        "point": 7569.5,
+        "change_pct": 2.26,
         "spark": [
           7371.0,
-          7463.0,
-          7462.75,
-          7465.25,
           7479.5,
           7495.5,
           7512.5,
@@ -6471,21 +6471,24 @@
           7568.5,
           7568.5,
           7571.75,
-          7571.5
+          7574.0,
+          7570.0,
+          7568.25,
+          7569.5
         ],
         "candle": {
           "o": 7371.0,
-          "h": 7572.0,
+          "h": 7576.0,
           "l": 7363.75,
-          "c": 7571.5
+          "c": 7569.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 18.52,
-          "high_change_pct": -3.84
+          "low_change_pct": 18.49,
+          "high_change_pct": -3.86
         },
         "daily_expanded": [
           {
@@ -8491,10 +8494,10 @@
           {
             "date": "2026-11-09",
             "o": 7371.0,
-            "h": 7572.0,
+            "h": 7576.0,
             "l": 7363.75,
-            "c": 7571.5,
-            "v": 1146463
+            "c": 7569.75,
+            "v": 1167252
           }
         ],
         "rollover_gaps": [],
@@ -8502,16 +8505,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/barkin-says-appropriate-direction-of-monetary-policy-relatively-straightforward-5a01300d?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/europe/france-u-s-suspect-iran-was-behind-cyberattack-on-european-fridges-6247965c?mod=rss_worldnews"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-cfd812a8?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/finance/commodities-futures/oil-prices-fall-staying-below-100-as-trump-plays-down-new-iran-strikes-27dc3911?mod=rss_worldnews"
             }
           ]
         }
@@ -8519,12 +8522,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 27969.25,
-        "change_pct": 3.26,
+        "point": 27947.5,
+        "change_pct": 3.18,
         "spark": [
           26878.5,
-          27312.75,
-          27341.5,
           27458.5,
           27562.25,
           27669.0,
@@ -8562,21 +8563,23 @@
           27963.75,
           27966.25,
           27978.0,
-          27969.25
+          27956.5,
+          27942.5,
+          27947.5
         ],
         "candle": {
           "o": 26878.5,
           "h": 28014.75,
           "l": 26751.25,
-          "c": 27968.25
+          "c": 27945.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 20.87,
-          "high_change_pct": -11.16
+          "low_change_pct": 20.77,
+          "high_change_pct": -11.24
         },
         "daily_expanded": [
           {
@@ -10584,8 +10587,8 @@
             "o": 26878.5,
             "h": 28014.75,
             "l": 26751.25,
-            "c": 27968.25,
-            "v": 557172
+            "c": 27945.0,
+            "v": 564063
           }
         ],
         "rollover_gaps": [
@@ -10601,15 +10604,15 @@
           "sources": [
             {
               "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/uk/russell-brand-sentenced-to-10-years-in-jail-for-rape-and-sexual-assault-271db16f?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ세계",
               "url": "https://www.wsj.com/finance/stocks/stock-futures-treasurys-steady-but-nvidia-slides-premarket-on-huang-probe-31deea55?mod=rss_worldnews"
             },
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/barkin-says-appropriate-direction-of-monetary-policy-relatively-straightforward-5a01300d?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
-              "url": "https://www.wsj.com/tech/the-chinese-woman-at-the-center-of-a-spy-probe-after-an-affair-with-jensen-huang-7bb406d2?mod=rss_worldnews"
+              "url": "https://www.wsj.com/world/uk/russell-brand-sentenced-to-10-years-in-jail-for-rape-and-sexual-assault-271db16f?mod=rss_worldnews"
             }
           ]
         }
@@ -10617,12 +10620,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52456.0,
-        "change_pct": 2.08,
+        "point": 52428.0,
+        "change_pct": 2.03,
         "spark": [
           51390.0,
-          52021.0,
-          52019.0,
           51959.0,
           52008.0,
           52065.0,
@@ -10660,21 +10661,23 @@
           52435.0,
           52455.0,
           52468.0,
-          52456.0
+          52430.0,
+          52442.0,
+          52428.0
         ],
         "candle": {
           "o": 51390.0,
-          "h": 52461.0,
+          "h": 52489.0,
           "l": 51206.0,
-          "c": 52456.0
+          "c": 52424.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.48,
-          "high_change_pct": -3.74
+          "low_change_pct": 15.41,
+          "high_change_pct": -3.8
         },
         "daily_expanded": [
           {
@@ -12680,10 +12683,10 @@
           {
             "date": "2026-11-09",
             "o": 51390.0,
-            "h": 52461.0,
+            "h": 52489.0,
             "l": 51206.0,
-            "c": 52456.0,
-            "v": 69851
+            "c": 52424.0,
+            "v": 70861
           }
         ],
         "rollover_gaps": [],
@@ -12692,20 +12695,20 @@
           "sources": [
             {
               "name": "WSJ세계",
-              "url": "https://www.wsj.com/finance/stocks/stock-futures-treasurys-steady-but-nvidia-slides-premarket-on-huang-probe-31deea55?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ세계",
               "url": "https://www.wsj.com/finance/commodities-futures/oil-prices-fall-staying-below-100-as-trump-plays-down-new-iran-strikes-27dc3911?mod=rss_worldnews"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/regulation/for-big-bank-stocks-capitol-hills-bark-is-worse-than-its-bite-e436a99b?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-09-2026?mod=rss_markets_main"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-11-10T02:40:31.963430+09:00"
+  "intraday_refreshed_kst": "2026-11-10T02:50:31.922822+09:00"
 }
