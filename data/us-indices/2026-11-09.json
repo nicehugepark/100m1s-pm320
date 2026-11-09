@@ -6281,17 +6281,24 @@
       "impact_high": true
     },
     {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/202611095938H",
+      "published_ts": 1794216071.0,
+      "impact_high": false
+    },
+    {
+      "summary": "반도체 수요와 공급망 뉴스가 기술주 투자심리의 핵심 변수로 작용하는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/2026110957861",
+      "published_ts": 1794215084.0,
+      "impact_high": false
+    },
+    {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026110958201",
       "published_ts": 1794214647.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026110958317",
-      "published_ts": 1794214477.0,
       "impact_high": false
     },
     {
@@ -6316,13 +6323,6 @@
       "impact_high": false
     },
     {
-      "summary": "반도체 수요와 공급망 뉴스가 기술주 투자심리의 핵심 변수로 작용하는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/202611093678i",
-      "published_ts": 1794179605.0,
-      "impact_high": false
-    },
-    {
       "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/the-democratic-surge-will-cap-trumps-reach-at-the-fed-6b706e11?mod=rss_socialeconomyfeed",
@@ -6344,7 +6344,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "421215ad143025ce23c9dc1cfd559c2578dfa9972dbed5cbe92314b64a2e4f2b",
+  "_article_sig": "8f9a209a2f436d118fec4dbfe0bc3ea05542c32cf79bd6f024ef1d187161ffdb",
   "built_at_kst": "2026-11-07T07:00:48.551001+09:00",
   "regular_open": false,
   "_futures_news": {
@@ -6353,15 +6353,15 @@
       "sources": [
         {
           "name": "한경국제",
+          "url": "https://www.hankyung.com/article/2026110957861"
+        },
+        {
+          "name": "한경국제",
           "url": "https://www.hankyung.com/article/2026110958201"
         },
         {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/2026110958881"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-staying-below-100-as-trump-plays-down-new-iran-strikes-27dc3911?mod=rss_worldnews"
         }
       ]
     },
@@ -6400,21 +6400,18 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-11-09T19:00:35.991412+09:00",
+  "intraday_refreshed_kst": "2026-11-09T19:10:54.005264+09:00",
   "futures": {
-    "as_of_kst": "2026-11-09T19:00:16.996443+09:00",
+    "as_of_kst": "2026-11-09T19:10:22.009438+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7422.0,
-        "change_pct": 0.27,
+        "point": 7428.5,
+        "change_pct": 0.36,
         "spark": [
           7371.0,
-          7431.5,
-          7432.5,
-          7430.0,
           7424.0,
           7422.75,
           7423.25,
@@ -6451,21 +6448,24 @@
           7419.0,
           7420.5,
           7422.25,
-          7422.0
+          7429.5,
+          7428.25,
+          7430.25,
+          7428.5
         ],
         "candle": {
           "o": 7371.0,
           "h": 7452.5,
           "l": 7363.75,
-          "c": 7422.0
+          "c": 7428.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 16.18,
-          "high_change_pct": -5.74
+          "low_change_pct": 16.28,
+          "high_change_pct": -5.66
         },
         "daily_expanded": [
           {
@@ -8473,8 +8473,8 @@
             "o": 7371.0,
             "h": 7452.5,
             "l": 7363.75,
-            "c": 7422.0,
-            "v": 205057
+            "c": 7428.0,
+            "v": 207633
           }
         ],
         "rollover_gaps": [],
@@ -8499,12 +8499,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 27071.25,
-        "change_pct": -0.05,
+        "point": 27135.25,
+        "change_pct": 0.18,
         "spark": [
           26878.5,
-          27109.0,
-          27096.25,
           27060.75,
           27059.5,
           27056.75,
@@ -8542,21 +8540,23 @@
           27065.75,
           27069.5,
           27137.5,
-          27071.25
+          27131.5,
+          27137.0,
+          27135.25
         ],
         "candle": {
           "o": 26878.5,
           "h": 27319.0,
           "l": 26751.25,
-          "c": 27071.25
+          "c": 27133.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 16.99,
-          "high_change_pct": -14.01
+          "low_change_pct": 17.26,
+          "high_change_pct": -13.82
         },
         "daily_expanded": [
           {
@@ -10564,8 +10564,8 @@
             "o": 26878.5,
             "h": 27319.0,
             "l": 26751.25,
-            "c": 27071.25,
-            "v": 153848
+            "c": 27133.75,
+            "v": 155880
           }
         ],
         "rollover_gaps": [
@@ -10581,15 +10581,15 @@
           "sources": [
             {
               "name": "한경국제",
+              "url": "https://www.hankyung.com/article/2026110957861"
+            },
+            {
+              "name": "한경국제",
               "url": "https://www.hankyung.com/article/2026110958201"
             },
             {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/2026110958881"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-staying-below-100-as-trump-plays-down-new-iran-strikes-27dc3911?mod=rss_worldnews"
             }
           ]
         }
@@ -10597,12 +10597,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51711.0,
-        "change_pct": 0.63,
+        "point": 51715.0,
+        "change_pct": 0.64,
         "spark": [
           51390.0,
-          51742.0,
-          51736.0,
           51705.0,
           51690.0,
           51672.0,
@@ -10640,21 +10638,23 @@
           51683.0,
           51709.0,
           51738.0,
-          51711.0
+          51714.0,
+          51730.0,
+          51715.0
         ],
         "candle": {
           "o": 51390.0,
           "h": 51807.0,
           "l": 51206.0,
-          "c": 51711.0
+          "c": 51713.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 13.84,
-          "high_change_pct": -5.11
+          "low_change_pct": 13.85,
+          "high_change_pct": -5.1
         },
         "daily_expanded": [
           {
@@ -12662,8 +12662,8 @@
             "o": 51390.0,
             "h": 51807.0,
             "l": 51206.0,
-            "c": 51711.0,
-            "v": 20049
+            "c": 51713.0,
+            "v": 20424
           }
         ],
         "rollover_gaps": [],
