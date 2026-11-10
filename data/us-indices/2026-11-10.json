@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/treasury-yields-edge-up-ahead-of-u-s-inflation-data-7a55db79?mod=rss_socialeconomyfeed",
+      "published_ts": 1794296640.0,
+      "impact_high": true
+    },
+    {
       "summary": "미국 고용 지표가 경기 둔화와 임금 압력 해석을 동시에 키우는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/09/october-jobs-report-hiring-by-sector.html",
@@ -6281,24 +6288,17 @@
       "impact_high": true
     },
     {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
-      "published_ts": 1794258235.0,
-      "impact_high": true
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/business/energy-oil/adnoc-gas-still-evaluating-options-to-bypass-strait-of-hormuz-3f833140?mod=rss_worldnews",
+      "published_ts": 1794296280.0,
+      "impact_high": false
     },
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/202611108081i",
       "published_ts": 1794295804.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/business/energy-oil/adnoc-gas-still-evaluating-options-to-bypass-strait-of-hormuz-3f833140?mod=rss_worldnews",
-      "published_ts": 1794295320.0,
       "impact_high": false
     },
     {
@@ -6337,16 +6337,16 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "a94c89ac64235c6c2b7997e93e4fe9174f7f7a12c7c0f42d6f481c72e621ab78",
+  "_article_sig": "0eccfa0f10576827e394fdf8d45901665d63dcb22c23540b29c69e022e22b659",
   "built_at_kst": "2026-11-10T07:00:50.857532+09:00",
   "futures": {
-    "as_of_kst": "2026-11-10T16:40:21.337088+09:00",
+    "as_of_kst": "2026-11-10T16:50:21.659296+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7588.5,
+        "point": 7589.0,
         "change_pct": 0.19,
         "spark": [
           7580.75,
@@ -6380,7 +6380,9 @@
           7588.0,
           7588.5,
           7587.75,
-          7588.5
+          7589.25,
+          7590.5,
+          7589.0
         ],
         "candle": {
           "o": 7580.75,
@@ -8411,7 +8413,7 @@
             "h": 7598.75,
             "l": 7567.25,
             "c": 7589.0,
-            "v": 77224
+            "v": 78295
           }
         ],
         "rollover_gaps": [],
@@ -8419,16 +8421,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/treasury-yields-edge-up-ahead-of-u-s-inflation-data-7a55db79?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/u-s-aircraft-evacuated-from-second-u-k-base-due-to-iran-threat-835a8b58?mod=rss_worldnews"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/a-new-generation-of-traders-is-trapped-in-asias-market-meltdown-636d5da4?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/finance/stocks/a-new-generation-of-traders-is-trapped-in-asias-market-meltdown-636d5da4?mod=rss_worldnews"
             }
           ]
         }
@@ -8436,8 +8438,8 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 27970.0,
-        "change_pct": -0.16,
+        "point": 27961.25,
+        "change_pct": -0.19,
         "spark": [
           28064.0,
           27967.75,
@@ -8470,21 +8472,23 @@
           27963.0,
           27969.0,
           27959.25,
-          27970.0
+          27963.0,
+          27981.0,
+          27961.25
         ],
         "candle": {
           "o": 28064.0,
           "h": 28109.0,
           "l": 27869.0,
-          "c": 27970.0
+          "c": 27961.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 20.87,
-          "high_change_pct": -11.16
+          "low_change_pct": 20.84,
+          "high_change_pct": -11.19
         },
         "daily_expanded": [
           {
@@ -10500,8 +10504,8 @@
             "o": 28064.0,
             "h": 28109.0,
             "l": 27869.0,
-            "c": 27970.0,
-            "v": 68097
+            "c": 27961.5,
+            "v": 69136
           }
         ],
         "rollover_gaps": [
@@ -10516,16 +10520,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/treasury-yields-edge-up-ahead-of-u-s-inflation-data-7a55db79?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/business/energy-oil/adnoc-gas-still-evaluating-options-to-bypass-strait-of-hormuz-3f833140?mod=rss_worldnews"
             },
             {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/2026111078517"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/u-s-aircraft-evacuated-from-second-u-k-base-due-to-iran-threat-835a8b58?mod=rss_worldnews"
             }
           ]
         }
@@ -10533,8 +10537,8 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52750.0,
-        "change_pct": 0.48,
+        "point": 52759.0,
+        "change_pct": 0.5,
         "spark": [
           52509.0,
           52661.0,
@@ -10568,21 +10572,23 @@
           52742.0,
           52738.0,
           52747.0,
-          52750.0
+          52762.0,
+          52765.0,
+          52759.0
         ],
         "candle": {
           "o": 52509.0,
           "h": 52780.0,
           "l": 52482.0,
-          "c": 52748.0
+          "c": 52762.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 16.12,
-          "high_change_pct": -3.2
+          "low_change_pct": 16.15,
+          "high_change_pct": -3.18
         },
         "daily_expanded": [
           {
@@ -12598,8 +12604,8 @@
             "o": 52509.0,
             "h": 52780.0,
             "l": 52482.0,
-            "c": 52748.0,
-            "v": 7840
+            "c": 52762.0,
+            "v": 7995
           }
         ],
         "rollover_gaps": [],
@@ -12607,16 +12613,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/treasury-yields-edge-up-ahead-of-u-s-inflation-data-7a55db79?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/a-new-generation-of-traders-is-trapped-in-asias-market-meltdown-636d5da4?mod=rss_markets_main"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/finance/stocks/a-new-generation-of-traders-is-trapped-in-asias-market-meltdown-636d5da4?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/nvidia-stock-slides-after-chip-maker-opens-probe-b22a7a13?mod=rss_markets_main"
             }
           ]
         }
@@ -12629,16 +12635,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/treasury-yields-edge-up-ahead-of-u-s-inflation-data-7a55db79?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/business/energy-oil/adnoc-gas-still-evaluating-options-to-bypass-strait-of-hormuz-3f833140?mod=rss_worldnews"
         },
         {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/2026111078517"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/u-s-aircraft-evacuated-from-second-u-k-base-due-to-iran-threat-835a8b58?mod=rss_worldnews"
         }
       ]
     },
@@ -12646,16 +12652,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/treasury-yields-edge-up-ahead-of-u-s-inflation-data-7a55db79?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/u-s-aircraft-evacuated-from-second-u-k-base-due-to-iran-threat-835a8b58?mod=rss_worldnews"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/a-new-generation-of-traders-is-trapped-in-asias-market-meltdown-636d5da4?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/finance/stocks/a-new-generation-of-traders-is-trapped-in-asias-market-meltdown-636d5da4?mod=rss_worldnews"
         }
       ]
     },
@@ -12663,19 +12669,19 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/treasury-yields-edge-up-ahead-of-u-s-inflation-data-7a55db79?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/a-new-generation-of-traders-is-trapped-in-asias-market-meltdown-636d5da4?mod=rss_markets_main"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/finance/stocks/a-new-generation-of-traders-is-trapped-in-asias-market-meltdown-636d5da4?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/nvidia-stock-slides-after-chip-maker-opens-probe-b22a7a13?mod=rss_markets_main"
         }
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-11-10T16:40:46.014605+09:00"
+  "intraday_refreshed_kst": "2026-11-10T16:50:46.656931+09:00"
 }
