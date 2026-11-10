@@ -6274,13 +6274,6 @@
   ],
   "news_chips": [
     {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/world/uk/u-k-police-arrested-a-u-s-army-soldier-on-allegations-of-spying-for-russia-f87c5257?mod=rss_markets_main",
-      "published_ts": 1794349740.0,
-      "impact_high": true
-    },
-    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/investing/hot-inflation-revives-wall-streets-rate-hike-fears-1ce54f85?mod=rss_markets_main",
@@ -6300,6 +6293,13 @@
       "url": "https://www.wsj.com/world/europe/u-s-overture-to-russia-on-european-security-sparks-alarm-eb9b6acf?mod=rss_worldnews",
       "published_ts": 1794341040.0,
       "impact_high": true
+    },
+    {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/regulation/sec-enforcement-penalties-fall-to-18-year-low-2aa5d9d3?mod=rss_markets_main",
+      "published_ts": 1794351060.0,
+      "impact_high": false
     },
     {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
@@ -6344,11 +6344,11 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "52ffd6dc6707acd0114a213a5aa43d18999081891b06685c1c79a59ced3efbfd",
+  "_article_sig": "5260bac17a3ae48ca188d9fca03e4358eb7f92e82fee67257c76e9b9da9602ee",
   "built_at_kst": "2026-11-11T07:01:15.387000+09:00",
   "futures": {
-    "as_of_kst": "2026-11-11T07:51:12.312092+09:00",
-    "session_open": false,
+    "as_of_kst": "2026-11-11T08:00:15.598252+09:00",
+    "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
@@ -10542,15 +10542,15 @@
           "sources": [
             {
               "name": "WSJ",
+              "url": "https://www.wsj.com/finance/regulation/sec-enforcement-penalties-fall-to-18-year-low-2aa5d9d3?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
               "url": "https://www.wsj.com/world/uk/u-k-police-arrested-a-u-s-army-soldier-on-allegations-of-spying-for-russia-f87c5257?mod=rss_markets_main"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/uk/u-k-police-arrested-a-u-s-army-soldier-on-allegations-of-spying-for-russia-f87c5257?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/europe/member-us-army-arrested-spy-russia-cce59efb?mod=rss_worldnews"
             }
           ]
         }
@@ -12657,11 +12657,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-11-11T07:51:43.875176+09:00",
+  "intraday_refreshed_kst": "2026-11-11T08:00:42.528386+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/regulation/sec-enforcement-penalties-fall-to-18-year-low-2aa5d9d3?mod=rss_markets_main"
+        },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/world/uk/u-k-police-arrested-a-u-s-army-soldier-on-allegations-of-spying-for-russia-f87c5257?mod=rss_markets_main"
@@ -12669,10 +12673,6 @@
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/uk/u-k-police-arrested-a-u-s-army-soldier-on-allegations-of-spying-for-russia-f87c5257?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/europe/member-us-army-arrested-spy-russia-cce59efb?mod=rss_worldnews"
         }
       ]
     },
