@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/uk/u-k-police-arrested-a-u-s-army-soldier-on-allegations-of-spying-for-russia-f87c5257?mod=rss_worldnews",
+      "published_ts": 1794349740.0,
+      "impact_high": true
+    },
+    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/investing/hot-inflation-revives-wall-streets-rate-hike-fears-1ce54f85?mod=rss_markets_main",
@@ -6293,20 +6300,6 @@
       "url": "https://www.wsj.com/world/europe/u-s-overture-to-russia-on-european-security-sparks-alarm-eb9b6acf?mod=rss_worldnews",
       "published_ts": 1794341040.0,
       "impact_high": true
-    },
-    {
-      "summary": "미국 고용 지표가 경기 둔화와 임금 압력 해석을 동시에 키우는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/09/october-jobs-report-hiring-by-sector.html",
-      "published_ts": 1794263036.0,
-      "impact_high": true
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/europe/member-us-army-arrested-spy-russia-cce59efb?mod=rss_worldnews",
-      "published_ts": 1794347520.0,
-      "impact_high": false
     },
     {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
@@ -6330,6 +6323,13 @@
       "impact_high": false
     },
     {
+      "summary": "미국 고용 지표가 경기 둔화와 임금 압력 해석을 동시에 키우는 흐름",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/09/october-jobs-report-hiring-by-sector.html",
+      "published_ts": 1794263036.0,
+      "impact_high": true
+    },
+    {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-cfd812a8?mod=rss_markets_main",
@@ -6344,10 +6344,10 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "655a002cedd207ca19dbdfb019d0679c19a63f5ec65f370d2c2ab00c8f5c2197",
+  "_article_sig": "bd9ab438e4f5cdd75c9f65f0ed717b0bb47d1d27c2091fbbd399af466d481f6a",
   "built_at_kst": "2026-11-11T07:01:15.387000+09:00",
   "futures": {
-    "as_of_kst": "2026-11-11T07:20:15.993832+09:00",
+    "as_of_kst": "2026-11-11T07:30:23.236903+09:00",
     "session_open": false,
     "futures": [
       {
@@ -8430,7 +8430,24 @@
             "v": 1742320
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/hot-inflation-revives-wall-streets-rate-hike-fears-1ce54f85?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/yields-jump-as-inflation-comes-in-hotter-than-expected-77358c3f?mod=rss_markets_main"
+            },
+            {
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/2026111187697"
+            }
+          ]
+        }
       },
       {
         "name": "나스닥100 선물",
@@ -10519,7 +10536,24 @@
             "to": 26752.0,
             "gap_pct": -6.35
           }
-        ]
+        ],
+        "news": {
+          "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/uk/u-k-police-arrested-a-u-s-army-soldier-on-allegations-of-spying-for-russia-f87c5257?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/europe/member-us-army-arrested-spy-russia-cce59efb?mod=rss_worldnews"
+            },
+            {
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/202611118783i"
+            }
+          ]
+        }
       },
       {
         "name": "다우 선물",
@@ -12601,10 +12635,80 @@
             "v": 88654
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+          "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/pro/bankruptcy/google-agrees-to-privacy-in-spirit-airlines-data-sale-474550e4?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-raised-rates-to-mitigate-inflation-risk-minutes-say-1bece759?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/cpi-inflation-report-october-2026-369f8032?mod=rss_socialeconomyfeed"
+            }
+          ]
+        }
       }
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-11-11T07:20:40.327284+09:00"
+  "intraday_refreshed_kst": "2026-11-11T07:30:53.179388+09:00",
+  "_futures_news": {
+    "NASDAQ": {
+      "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/uk/u-k-police-arrested-a-u-s-army-soldier-on-allegations-of-spying-for-russia-f87c5257?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/europe/member-us-army-arrested-spy-russia-cce59efb?mod=rss_worldnews"
+        },
+        {
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/202611118783i"
+        }
+      ]
+    },
+    "S&P500": {
+      "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/hot-inflation-revives-wall-streets-rate-hike-fears-1ce54f85?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/yields-jump-as-inflation-comes-in-hotter-than-expected-77358c3f?mod=rss_markets_main"
+        },
+        {
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/2026111187697"
+        }
+      ]
+    },
+    "DOW": {
+      "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/pro/bankruptcy/google-agrees-to-privacy-in-spirit-airlines-data-sale-474550e4?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-raised-rates-to-mitigate-inflation-risk-minutes-say-1bece759?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/cpi-inflation-report-october-2026-369f8032?mod=rss_socialeconomyfeed"
+        }
+      ]
+    }
+  }
 }
