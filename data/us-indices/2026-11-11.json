@@ -6274,17 +6274,17 @@
   ],
   "news_chips": [
     {
+      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/yen-slumps-to-over-one-month-low-on-fed-hike-bets-fc05bf61?mod=rss_socialeconomyfeed",
+      "published_ts": 1794397440.0,
+      "impact_high": true
+    },
+    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/global/boe-should-raise-key-rate-to-around-5-u-k-economic-think-tank-says-04090d09?mod=rss_socialeconomyfeed",
       "published_ts": 1794379320.0,
-      "impact_high": true
-    },
-    {
-      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/asian-bond-yields-rise-on-growing-expectations-for-fed-rate-hike-a2491a28?mod=rss_markets_main",
-      "published_ts": 1794379020.0,
       "impact_high": true
     },
     {
@@ -6296,9 +6296,9 @@
     },
     {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/hospital-stocks-are-feeling-blue-in-a-good-way-f4d73ed2?mod=rss_markets_main",
-      "published_ts": 1794395880.0,
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/asia/the-jensen-huang-scandal-is-testing-taiwans-devotion-to-its-hometown-hero-2a2914d9?mod=rss_worldnews",
+      "published_ts": 1794398220.0,
       "impact_high": false
     },
     {
@@ -6344,21 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "73f35d8f2a194a692129120b397eb7d15fe078ea747e647f434ab74f759fff83",
+  "_article_sig": "f221eaa948e3687b3c6b315490aa2d0da32dd21a66c4c058f6bb84f85505ae72",
   "built_at_kst": "2026-11-11T07:01:15.387000+09:00",
   "futures": {
-    "as_of_kst": "2026-11-11T20:50:09.970603+09:00",
+    "as_of_kst": "2026-11-11T21:00:20.232347+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7609.0,
-        "change_pct": 0.86,
+        "point": 7607.5,
+        "change_pct": 0.84,
         "spark": [
           7554.25,
-          7595.0,
-          7601.25,
           7603.75,
           7600.75,
           7592.5,
@@ -6396,21 +6394,23 @@
           7610.5,
           7610.5,
           7609.0,
-          7609.0
+          7607.0,
+          7607.5,
+          7607.5
         ],
         "candle": {
           "o": 7554.25,
           "h": 7613.0,
           "l": 7547.5,
-          "c": 7609.0
+          "c": 7607.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 19.11,
-          "high_change_pct": -3.37
+          "low_change_pct": 19.09,
+          "high_change_pct": -3.38
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7554.25,
             "h": 7613.0,
             "l": 7547.5,
-            "c": 7609.0,
-            "v": 163238
+            "c": 7607.75,
+            "v": 166900
           }
         ],
         "rollover_gaps": [],
@@ -8435,16 +8435,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/yen-slumps-to-over-one-month-low-on-fed-hike-bets-fc05bf61?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/business/energy-oil/coreweave-finds-a-workaround-to-capital-constraintsfor-now-1f548211?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-11-2026?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/global/boe-should-raise-key-rate-to-around-5-u-k-economic-think-tank-says-04090d09?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8452,11 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28363.0,
-        "change_pct": 1.9,
+        "point": 28342.0,
+        "change_pct": 1.82,
         "spark": [
           27899.5,
-          28304.25,
           28322.5,
           28304.5,
           28254.25,
@@ -8495,21 +8494,22 @@
           28370.0,
           28363.5,
           28348.5,
-          28363.0
+          28342.0,
+          28342.0
         ],
         "candle": {
           "o": 27899.5,
           "h": 28376.75,
           "l": 27847.75,
-          "c": 28363.0
+          "c": 28347.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 22.57,
-          "high_change_pct": -9.91
+          "low_change_pct": 22.5,
+          "high_change_pct": -9.96
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 27899.5,
             "h": 28376.75,
             "l": 27847.75,
-            "c": 28363.0,
-            "v": 124643
+            "c": 28347.25,
+            "v": 126378
           }
         ],
         "rollover_gaps": [
@@ -10541,16 +10541,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/asia/the-jensen-huang-scandal-is-testing-taiwans-devotion-to-its-hometown-hero-2a2914d9?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/yen-slumps-to-over-one-month-low-on-fed-hike-bets-fc05bf61?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/hospital-stocks-are-feeling-blue-in-a-good-way-f4d73ed2?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/business/energy-oil/coreweave-finds-a-workaround-to-capital-constraintsfor-now-1f548211?mod=rss_markets_main"
-            },
-            {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/2026111109801"
             }
           ]
         }
@@ -10558,12 +10558,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52376.0,
-        "change_pct": 0.12,
+        "point": 52437.0,
+        "change_pct": 0.23,
         "spark": [
           52379.0,
-          52413.0,
-          52441.0,
           52455.0,
           52430.0,
           52404.0,
@@ -10601,21 +10599,23 @@
           52395.0,
           52396.0,
           52376.0,
-          52376.0
+          52374.0,
+          52398.0,
+          52437.0
         ],
         "candle": {
           "o": 52379.0,
           "h": 52483.0,
           "l": 52259.0,
-          "c": 52376.0
+          "c": 52404.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.3,
-          "high_change_pct": -3.89
+          "low_change_pct": 15.37,
+          "high_change_pct": -3.84
         },
         "daily_expanded": [
           {
@@ -12631,8 +12631,8 @@
             "o": 52379.0,
             "h": 52483.0,
             "l": 52259.0,
-            "c": 52376.0,
-            "v": 11643
+            "c": 52404.0,
+            "v": 11864
           }
         ],
         "rollover_gaps": [],
@@ -12657,22 +12657,22 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-11-11T20:50:21.416872+09:00",
+  "intraday_refreshed_kst": "2026-11-11T21:00:42.413519+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/asia/the-jensen-huang-scandal-is-testing-taiwans-devotion-to-its-hometown-hero-2a2914d9?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/yen-slumps-to-over-one-month-low-on-fed-hike-bets-fc05bf61?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/hospital-stocks-are-feeling-blue-in-a-good-way-f4d73ed2?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/business/energy-oil/coreweave-finds-a-workaround-to-capital-constraintsfor-now-1f548211?mod=rss_markets_main"
-        },
-        {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/2026111109801"
         }
       ]
     },
@@ -12680,16 +12680,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/yen-slumps-to-over-one-month-low-on-fed-hike-bets-fc05bf61?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/business/energy-oil/coreweave-finds-a-workaround-to-capital-constraintsfor-now-1f548211?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-11-2026?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/global/boe-should-raise-key-rate-to-around-5-u-k-economic-think-tank-says-04090d09?mod=rss_socialeconomyfeed"
         }
       ]
     },
