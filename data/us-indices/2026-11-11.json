@@ -6274,10 +6274,17 @@
   ],
   "news_chips": [
     {
-      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/yen-slumps-to-over-one-month-low-on-fed-hike-bets-fc05bf61?mod=rss_socialeconomyfeed",
-      "published_ts": 1794373200.0,
+      "url": "https://www.wsj.com/economy/global/boe-should-raise-key-rate-to-around-5-u-k-economic-think-tank-says-04090d09?mod=rss_socialeconomyfeed",
+      "published_ts": 1794379320.0,
+      "impact_high": true
+    },
+    {
+      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/asian-bond-yields-rise-on-growing-expectations-for-fed-rate-hike-a2491a28?mod=rss_markets_main",
+      "published_ts": 1794379020.0,
       "impact_high": true
     },
     {
@@ -6285,13 +6292,6 @@
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/feds-paulson-urges-gradual-approach-to-rate-hikes-efe287f9?mod=rss_socialeconomyfeed",
       "published_ts": 1794355080.0,
-      "impact_high": true
-    },
-    {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/hot-inflation-revives-wall-streets-rate-hike-fears-1ce54f85?mod=rss_markets_main",
-      "published_ts": 1794346200.0,
       "impact_high": true
     },
     {
@@ -6344,17 +6344,17 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "14d99071f67612eeac724aa1dae14a1d06956729498c6bf8dbd61421eac9a584",
+  "_article_sig": "342a48d5d18a2990eb68123ef9b7dbefaeb5cca483fab16fee96b4903ab0bb19",
   "built_at_kst": "2026-11-11T07:01:15.387000+09:00",
   "futures": {
-    "as_of_kst": "2026-11-11T15:40:31.204564+09:00",
+    "as_of_kst": "2026-11-11T15:50:20.875520+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7590.5,
-        "change_pct": 0.61,
+        "point": 7595.25,
+        "change_pct": 0.68,
         "spark": [
           7554.25,
           7592.75,
@@ -6375,21 +6375,23 @@
           7588.5,
           7590.0,
           7592.5,
-          7590.5
+          7595.25,
+          7593.75,
+          7595.25
         ],
         "candle": {
           "o": 7554.25,
-          "h": 7594.75,
+          "h": 7597.5,
           "l": 7547.5,
-          "c": 7590.5
+          "c": 7595.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 18.82,
-          "high_change_pct": -3.6
+          "low_change_pct": 18.89,
+          "high_change_pct": -3.54
         },
         "daily_expanded": [
           {
@@ -8403,10 +8405,10 @@
           {
             "date": "2026-11-11",
             "o": 7554.25,
-            "h": 7594.75,
+            "h": 7597.5,
             "l": 7547.5,
-            "c": 7590.5,
-            "v": 75416
+            "c": 7595.25,
+            "v": 78908
           }
         ],
         "rollover_gaps": [],
@@ -8415,7 +8417,7 @@
           "sources": [
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/yen-slumps-to-over-one-month-low-on-fed-hike-bets-fc05bf61?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/economy/global/boe-should-raise-key-rate-to-around-5-u-k-economic-think-tank-says-04090d09?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ",
@@ -8423,7 +8425,7 @@
             },
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/fed-forced-to-confront-case-for-bigger-and-faster-rate-rises-ac181706?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/economy/central-banking/yen-slumps-to-over-one-month-low-on-fed-hike-bets-fc05bf61?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8431,8 +8433,8 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28244.0,
-        "change_pct": 1.47,
+        "point": 28272.5,
+        "change_pct": 1.57,
         "spark": [
           27899.5,
           28216.75,
@@ -8453,21 +8455,23 @@
           28233.5,
           28241.0,
           28253.75,
-          28244.0
+          28267.5,
+          28250.0,
+          28272.5
         ],
         "candle": {
           "o": 27899.5,
-          "h": 28265.0,
+          "h": 28280.0,
           "l": 27847.75,
-          "c": 28244.0
+          "c": 28273.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 22.06,
-          "high_change_pct": -10.29
+          "low_change_pct": 22.19,
+          "high_change_pct": -10.2
         },
         "daily_expanded": [
           {
@@ -10481,10 +10485,10 @@
           {
             "date": "2026-11-11",
             "o": 27899.5,
-            "h": 28265.0,
+            "h": 28280.0,
             "l": 27847.75,
-            "c": 28244.0,
-            "v": 72049
+            "c": 28273.5,
+            "v": 73833
           }
         ],
         "rollover_gaps": [
@@ -10500,7 +10504,7 @@
           "sources": [
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/yen-slumps-to-over-one-month-low-on-fed-hike-bets-fc05bf61?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/economy/global/boe-should-raise-key-rate-to-around-5-u-k-economic-think-tank-says-04090d09?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ",
@@ -10508,7 +10512,7 @@
             },
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/fed-forced-to-confront-case-for-bigger-and-faster-rate-rises-ac181706?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/economy/central-banking/yen-slumps-to-over-one-month-low-on-fed-hike-bets-fc05bf61?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10516,8 +10520,8 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52414.0,
-        "change_pct": 0.19,
+        "point": 52436.0,
+        "change_pct": 0.23,
         "spark": [
           52379.0,
           52471.0,
@@ -10539,21 +10543,23 @@
           52392.0,
           52412.0,
           52424.0,
-          52414.0
+          52435.0,
+          52440.0,
+          52436.0
         ],
         "candle": {
           "o": 52379.0,
           "h": 52483.0,
           "l": 52343.0,
-          "c": 52414.0
+          "c": 52436.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.39,
-          "high_change_pct": -3.82
+          "low_change_pct": 15.44,
+          "high_change_pct": -3.78
         },
         "daily_expanded": [
           {
@@ -12569,8 +12575,8 @@
             "o": 52379.0,
             "h": 52483.0,
             "l": 52343.0,
-            "c": 52414.0,
-            "v": 4964
+            "c": 52436.0,
+            "v": 5096
           }
         ],
         "rollover_gaps": [],
@@ -12578,16 +12584,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/global/boe-should-raise-key-rate-to-around-5-u-k-economic-think-tank-says-04090d09?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/202611119268i"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/fed-forced-to-confront-case-for-bigger-and-faster-rate-rises-ac181706?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
             }
           ]
         }
@@ -12595,14 +12601,14 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-11-11T15:40:48.689734+09:00",
+  "intraday_refreshed_kst": "2026-11-11T15:50:43.942950+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/yen-slumps-to-over-one-month-low-on-fed-hike-bets-fc05bf61?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/economy/global/boe-should-raise-key-rate-to-around-5-u-k-economic-think-tank-says-04090d09?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ",
@@ -12610,7 +12616,7 @@
         },
         {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/fed-forced-to-confront-case-for-bigger-and-faster-rate-rises-ac181706?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/economy/central-banking/yen-slumps-to-over-one-month-low-on-fed-hike-bets-fc05bf61?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12619,7 +12625,7 @@
       "sources": [
         {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/yen-slumps-to-over-one-month-low-on-fed-hike-bets-fc05bf61?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/economy/global/boe-should-raise-key-rate-to-around-5-u-k-economic-think-tank-says-04090d09?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ",
@@ -12627,7 +12633,7 @@
         },
         {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/fed-forced-to-confront-case-for-bigger-and-faster-rate-rises-ac181706?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/economy/central-banking/yen-slumps-to-over-one-month-low-on-fed-hike-bets-fc05bf61?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12635,16 +12641,16 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/global/boe-should-raise-key-rate-to-around-5-u-k-economic-think-tank-says-04090d09?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/202611119268i"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/fed-forced-to-confront-case-for-bigger-and-faster-rate-rises-ac181706?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
         }
       ]
     }
