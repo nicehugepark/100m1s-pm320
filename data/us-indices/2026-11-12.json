@@ -2088,7 +2088,8 @@
             "url": "https://www.wsj.com/business/energy-oil/coreweave-finds-a-workaround-to-capital-constraintsfor-now-1f548211?mod=rss_markets_main"
           }
         ]
-      }
+      },
+      "session_open": false
     },
     {
       "name": "S&P500",
@@ -4177,7 +4178,8 @@
             "url": "https://www.wsj.com/economy/central-banking/euro-falls-to-18-month-low-against-dollar-on-fed-rate-hike-bets-02d386c5?mod=rss_socialeconomyfeed"
           }
         ]
-      }
+      },
+      "session_open": false
     },
     {
       "name": "DOW",
@@ -6266,10 +6268,18 @@
             "url": "https://www.wsj.com/economy/central-banking/fed-forced-to-confront-case-for-bigger-and-faster-rate-rises-ac181706?mod=rss_socialeconomyfeed"
           }
         ]
-      }
+      },
+      "session_open": false
     }
   ],
   "news_chips": [
+    {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/stocks/investors-run-back-to-ai-stocks-less-than-a-week-after-a-historic-selloff-854483e8?mod=rss_markets_main",
+      "published_ts": 1794434280.0,
+      "impact_high": true
+    },
     {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ세계",
@@ -6296,13 +6306,6 @@
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/stocks/coreweave-jumps-boosting-the-ai-trade-e5c1569b?mod=rss_markets_main",
       "published_ts": 1794431820.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html",
-      "published_ts": 1794430754.0,
       "impact_high": false
     },
     {
@@ -6341,20 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "869fa5485133f988822f670cd4aaae550dcd6458203101d54d9e5ccab3943ab9",
+  "_article_sig": "901675de63e8adb59839a45aeb07f16eaed2b459a49f31f1b4604355ed947731",
   "built_at_kst": "2026-11-12T07:00:48.562770+09:00",
   "futures": {
-    "as_of_kst": "2026-11-12T07:00:48.562334+09:00",
+    "as_of_kst": "2026-11-12T07:10:12.863419+09:00",
     "session_open": false,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7648.25,
-        "change_pct": 1.38,
+        "point": 7642.25,
+        "change_pct": 1.3,
         "spark": [
           7554.25,
-          7670.0,
           7668.5,
           7668.75,
           7666.5,
@@ -6393,21 +6395,22 @@
           7647.0,
           7647.75,
           7647.25,
-          7648.25
+          7641.75,
+          7642.25
         ],
         "candle": {
           "o": 7554.25,
           "h": 7671.5,
           "l": 7547.5,
-          "c": 7648.25
+          "c": 7642.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 19.72,
-          "high_change_pct": -2.87
+          "low_change_pct": 19.63,
+          "high_change_pct": -2.94
         },
         "daily_expanded": [
           {
@@ -8423,20 +8426,36 @@
             "o": 7554.25,
             "h": 7671.5,
             "l": 7547.5,
-            "c": 7648.25,
-            "v": 1407245
+            "c": 7642.25,
+            "v": 1414528
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/vance-considers-direct-talks-with-iran-hardliner-in-push-to-end-war-0c2e3ea4?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/business/energy-oil/coreweave-finds-a-workaround-to-capital-constraintsfor-now-1f548211?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/euro-falls-to-18-month-low-against-dollar-on-fed-rate-hike-bets-02d386c5?mod=rss_socialeconomyfeed"
+            }
+          ]
+        }
       },
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28478.0,
-        "change_pct": 2.31,
+        "point": 28444.25,
+        "change_pct": 2.19,
         "spark": [
           27899.5,
-          28691.5,
           28679.5,
           28675.5,
           28661.5,
@@ -8475,21 +8494,22 @@
           28473.0,
           28472.75,
           28469.75,
-          28478.0
+          28427.0,
+          28444.25
         ],
         "candle": {
           "o": 27899.5,
           "h": 28697.0,
           "l": 27847.75,
-          "c": 28478.25
+          "c": 28444.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 23.07,
-          "high_change_pct": -9.54
+          "low_change_pct": 22.92,
+          "high_change_pct": -9.65
         },
         "daily_expanded": [
           {
@@ -10505,8 +10525,8 @@
             "o": 27899.5,
             "h": 28697.0,
             "l": 27847.75,
-            "c": 28478.25,
-            "v": 634038
+            "c": 28444.25,
+            "v": 637087
           }
         ],
         "rollover_gaps": [
@@ -10516,16 +10536,32 @@
             "to": 26752.0,
             "gap_pct": -6.35
           }
-        ]
+        ],
+        "news": {
+          "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/investors-run-back-to-ai-stocks-less-than-a-week-after-a-historic-selloff-854483e8?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/coreweave-jumps-boosting-the-ai-trade-e5c1569b?mod=rss_markets_main"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html"
+            }
+          ]
+        }
       },
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52623.0,
-        "change_pct": 0.59,
+        "point": 52633.0,
+        "change_pct": 0.61,
         "spark": [
           52379.0,
-          52592.0,
           52597.0,
           52597.0,
           52591.0,
@@ -10564,21 +10600,22 @@
           52611.0,
           52616.0,
           52623.0,
-          52623.0
+          52631.0,
+          52633.0
         ],
         "candle": {
           "o": 52379.0,
-          "h": 52626.0,
+          "h": 52643.0,
           "l": 52141.0,
-          "c": 52623.0
+          "c": 52633.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.85,
-          "high_change_pct": -3.43
+          "low_change_pct": 15.87,
+          "high_change_pct": -3.42
         },
         "daily_expanded": [
           {
@@ -12592,14 +12629,86 @@
           {
             "date": "2026-11-11",
             "o": 52379.0,
-            "h": 52626.0,
+            "h": 52643.0,
             "l": 52141.0,
-            "c": 52623.0,
-            "v": 61958
+            "c": 52633.0,
+            "v": 62333
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/11/october-retail-sales-cnbc-nrf-2026.html"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/global/boe-should-raise-key-rate-to-around-5-u-k-economic-think-tank-says-04090d09?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/fed-forced-to-confront-case-for-bigger-and-faster-rate-rises-ac181706?mod=rss_socialeconomyfeed"
+            }
+          ]
+        }
       }
     ]
-  }
+  },
+  "regular_open": false,
+  "_futures_news": {
+    "NASDAQ": {
+      "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/investors-run-back-to-ai-stocks-less-than-a-week-after-a-historic-selloff-854483e8?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/coreweave-jumps-boosting-the-ai-trade-e5c1569b?mod=rss_markets_main"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html"
+        }
+      ]
+    },
+    "S&P500": {
+      "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/vance-considers-direct-talks-with-iran-hardliner-in-push-to-end-war-0c2e3ea4?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/business/energy-oil/coreweave-finds-a-workaround-to-capital-constraintsfor-now-1f548211?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/euro-falls-to-18-month-low-against-dollar-on-fed-rate-hike-bets-02d386c5?mod=rss_socialeconomyfeed"
+        }
+      ]
+    },
+    "DOW": {
+      "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/11/october-retail-sales-cnbc-nrf-2026.html"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/global/boe-should-raise-key-rate-to-around-5-u-k-economic-think-tank-says-04090d09?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/fed-forced-to-confront-case-for-bigger-and-faster-rate-rises-ac181706?mod=rss_socialeconomyfeed"
+        }
+      ]
+    }
+  },
+  "intraday_refreshed_kst": "2026-11-12T07:10:31.613243+09:00"
 }
