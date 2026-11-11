@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 25380.71,
-      "change_pct": 1.26,
+      "point": 25368.82,
+      "change_pct": 1.21,
       "candle": {
         "o": 25452.79,
         "h": 25512.24,
         "l": 25327.23,
-        "c": 25380.71
+        "c": 25368.82
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,7 +2033,7 @@
           "o": 25452.79,
           "h": 25512.24,
           "l": 25327.23,
-          "c": 25380.71
+          "c": 25368.82
         }
       ],
       "spark": [
@@ -2044,7 +2044,9 @@
         25353.33,
         25363.32,
         25390.59,
-        25380.71
+        25404.58,
+        25376.07,
+        25368.82
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2068,13 +2070,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7584.56,
-      "change_pct": 0.85,
+      "point": 7579.66,
+      "change_pct": 0.78,
       "candle": {
         "o": 7586.65,
         "h": 7603.52,
         "l": 7571.88,
-        "c": 7584.56
+        "c": 7579.66
       },
       "range_240d": {
         "low": 6343.72,
@@ -4098,7 +4100,7 @@
           "o": 7586.65,
           "h": 7603.52,
           "l": 7571.88,
-          "c": 7584.56
+          "c": 7579.66
         }
       ],
       "spark": [
@@ -4109,7 +4111,9 @@
         7579.68,
         7581.12,
         7586.38,
-        7584.56
+        7586.66,
+        7581.2,
+        7579.66
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4133,13 +4137,13 @@
     },
     {
       "name": "DOW",
-      "point": 52193.04,
-      "change_pct": -0.07,
+      "point": 52130.0,
+      "change_pct": -0.2,
       "candle": {
         "o": 52196.35,
         "h": 52338.1,
-        "l": 52132.55,
-        "c": 52193.04
+        "l": 52121.37,
+        "c": 52130.0
       },
       "range_240d": {
         "low": 45166.64,
@@ -6162,8 +6166,8 @@
           "date": "2026-11-11",
           "o": 52196.35,
           "h": 52338.1,
-          "l": 52132.55,
-          "c": 52193.04
+          "l": 52121.37,
+          "c": 52130.0
         }
       ],
       "spark": [
@@ -6174,7 +6178,9 @@
         52179.25,
         52194.05,
         52211.3,
-        52193.04
+        52161.13,
+        52131.13,
+        52130.0
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6199,17 +6205,17 @@
   ],
   "news_chips": [
     {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/euro-falls-to-18-month-low-against-dollar-on-fed-rate-hike-bets-02d386c5?mod=rss_socialeconomyfeed",
+      "published_ts": 1794409620.0,
+      "impact_high": true
+    },
+    {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/yen-slumps-to-over-one-month-low-on-fed-hike-bets-fc05bf61?mod=rss_socialeconomyfeed",
       "published_ts": 1794397440.0,
-      "impact_high": true
-    },
-    {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/global/boe-should-raise-key-rate-to-around-5-u-k-economic-think-tank-says-04090d09?mod=rss_socialeconomyfeed",
-      "published_ts": 1794379320.0,
       "impact_high": true
     },
     {
@@ -6269,7 +6275,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "1b62a832a6b5c0d77d2b0450bb7a0572af430842a346f7cc35776cf97f788768",
+  "_article_sig": "9427452ab5a6f737566e06ebc9582e2951a6764d351fae254b2e36199a6835ab",
   "built_at_kst": "2026-11-11T07:01:15.387000+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6277,16 +6283,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/euro-falls-to-18-month-low-against-dollar-on-fed-rate-hike-bets-02d386c5?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-how-hackers-steal-millions-in-ai-computing-power-1359493b?mod=rss_worldnews"
         },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/11/october-retail-sales-cnbc-nrf-2026.html"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/asia/the-jensen-huang-scandal-is-testing-taiwans-devotion-to-its-hometown-hero-2a2914d9?mod=rss_worldnews"
         }
       ]
     },
@@ -6295,15 +6301,15 @@
       "sources": [
         {
           "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/euro-falls-to-18-month-low-against-dollar-on-fed-rate-hike-bets-02d386c5?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/yen-slumps-to-over-one-month-low-on-fed-hike-bets-fc05bf61?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/business/energy-oil/coreweave-finds-a-workaround-to-capital-constraintsfor-now-1f548211?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-11-2026?mod=rss_markets_main"
         }
       ]
     },
@@ -6326,18 +6332,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-11-12T00:00:26.484308+09:00",
+    "as_of_kst": "2026-11-12T00:10:19.069159+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7597.5,
-        "change_pct": 0.71,
+        "point": 7607.5,
+        "change_pct": 0.84,
         "spark": [
           7554.25,
-          7607.0,
-          7607.5,
           7614.25,
           7609.75,
           7608.0,
@@ -6375,21 +6379,23 @@
           7606.0,
           7602.0,
           7603.75,
-          7597.5
+          7608.25,
+          7608.5,
+          7607.5
         ],
         "candle": {
           "o": 7554.25,
           "h": 7624.75,
           "l": 7547.5,
-          "c": 7598.0
+          "c": 7606.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 18.94,
-          "high_change_pct": -3.51
+          "low_change_pct": 19.07,
+          "high_change_pct": -3.4
         },
         "daily_expanded": [
           {
@@ -8405,8 +8411,8 @@
             "o": 7554.25,
             "h": 7624.75,
             "l": 7547.5,
-            "c": 7598.0,
-            "v": 381632
+            "c": 7606.5,
+            "v": 420372
           }
         ],
         "rollover_gaps": [],
@@ -8415,15 +8421,15 @@
           "sources": [
             {
               "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/euro-falls-to-18-month-low-against-dollar-on-fed-rate-hike-bets-02d386c5?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/yen-slumps-to-over-one-month-low-on-fed-hike-bets-fc05bf61?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/business/energy-oil/coreweave-finds-a-workaround-to-capital-constraintsfor-now-1f548211?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-11-2026?mod=rss_markets_main"
             }
           ]
         }
@@ -8431,12 +8437,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28204.5,
-        "change_pct": 1.33,
+        "point": 28273.75,
+        "change_pct": 1.58,
         "spark": [
           27899.5,
-          28348.5,
-          28342.0,
           28378.0,
           28365.0,
           28374.5,
@@ -8474,21 +8478,23 @@
           28288.25,
           28246.75,
           28246.25,
-          28204.5
+          28291.5,
+          28317.5,
+          28273.75
         ],
         "candle": {
           "o": 27899.5,
           "h": 28426.0,
           "l": 27847.75,
-          "c": 28206.5
+          "c": 28268.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 21.9,
-          "high_change_pct": -10.41
+          "low_change_pct": 22.17,
+          "high_change_pct": -10.21
         },
         "daily_expanded": [
           {
@@ -10504,8 +10510,8 @@
             "o": 27899.5,
             "h": 28426.0,
             "l": 27847.75,
-            "c": 28206.5,
-            "v": 241128
+            "c": 28268.75,
+            "v": 262885
           }
         ],
         "rollover_gaps": [
@@ -10520,16 +10526,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/euro-falls-to-18-month-low-against-dollar-on-fed-rate-hike-bets-02d386c5?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-how-hackers-steal-millions-in-ai-computing-power-1359493b?mod=rss_worldnews"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/11/11/october-retail-sales-cnbc-nrf-2026.html"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/asia/the-jensen-huang-scandal-is-testing-taiwans-devotion-to-its-hometown-hero-2a2914d9?mod=rss_worldnews"
             }
           ]
         }
@@ -10537,12 +10543,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52278.0,
-        "change_pct": -0.07,
+        "point": 52286.0,
+        "change_pct": -0.06,
         "spark": [
           52379.0,
-          52374.0,
-          52398.0,
           52437.0,
           52404.0,
           52367.0,
@@ -10580,21 +10584,23 @@
           52306.0,
           52277.0,
           52284.0,
-          52278.0
+          52296.0,
+          52249.0,
+          52286.0
         ],
         "candle": {
           "o": 52379.0,
           "h": 52501.0,
           "l": 52213.0,
-          "c": 52289.0
+          "c": 52283.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.11,
-          "high_change_pct": -4.05
+          "low_change_pct": 15.1,
+          "high_change_pct": -4.06
         },
         "daily_expanded": [
           {
@@ -12610,8 +12616,8 @@
             "o": 52379.0,
             "h": 52501.0,
             "l": 52213.0,
-            "c": 52289.0,
-            "v": 25978
+            "c": 52283.0,
+            "v": 27149
           }
         ],
         "rollover_gaps": [],
@@ -12635,5 +12641,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-11-12T00:00:52.993755+09:00"
+  "intraday_refreshed_kst": "2026-11-12T00:10:38.327593+09:00"
 }
