@@ -6295,24 +6295,24 @@
       "impact_high": true
     },
     {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/jensen-huangs-exit-will-test-ais-stocks-and-great-man-theory-3c4cd404?mod=rss_markets_main",
-      "published_ts": 1794519660.0,
-      "impact_high": false
-    },
-    {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/nvidia-tumbles-as-its-ceo-jensen-huang-departs-amid-multiplying-scandals-d380df1f?mod=rss_markets_main",
-      "published_ts": 1794517860.0,
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html",
+      "published_ts": 1794524930.0,
       "impact_high": false
     },
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026111340007",
-      "published_ts": 1794517204.0,
+      "url": "https://www.hankyung.com/article/202611134107i",
+      "published_ts": 1794524179.0,
+      "impact_high": false
+    },
+    {
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/stocks/jensen-huangs-exit-will-test-ais-stocks-and-great-man-theory-3c4cd404?mod=rss_markets_main",
+      "published_ts": 1794519660.0,
       "impact_high": false
     },
     {
@@ -6344,21 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "def5cbffbc235458fe0be96a66ce2404284c54d778e937059ee19354af93b44e",
+  "_article_sig": "19111cb499b778fea93645cfbc5e323a8c4e8e01290ad8a17c09df8e4580c38a",
   "built_at_kst": "2026-11-13T07:01:21.023152+09:00",
   "futures": {
-    "as_of_kst": "2026-11-13T08:40:18.476835+09:00",
+    "as_of_kst": "2026-11-13T08:50:24.001382+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7633.25,
-        "change_pct": 0.24,
+        "point": 7639.25,
+        "change_pct": 0.32,
         "spark": [
           7620.25,
-          7632.5,
-          7631.0,
           7626.5,
           7621.0,
           7621.75,
@@ -6396,21 +6394,23 @@
           7629.75,
           7633.0,
           7636.5,
-          7633.25
+          7639.0,
+          7643.5,
+          7639.25
         ],
         "candle": {
           "o": 7620.25,
-          "h": 7633.75,
+          "h": 7641.5,
           "l": 7619.25,
-          "c": 7633.25
+          "c": 7639.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 19.49,
-          "high_change_pct": -3.06
+          "low_change_pct": 19.59,
+          "high_change_pct": -2.98
         },
         "daily_expanded": [
           {
@@ -8424,22 +8424,38 @@
           {
             "date": "2026-11-12",
             "o": 7620.25,
-            "h": 7633.75,
+            "h": 7641.5,
             "l": 7619.25,
-            "c": 7633.25,
-            "v": 3743
+            "c": 7639.5,
+            "v": 5905
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-investors-weigh-u-s-iran-diplomacy-296e2847?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/treasury-yields-rise-as-fed-rate-hike-expectations-remain-strong-401fed89?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/americas/u-s-collected-12-billion-in-venezuelan-oil-sales-returning-nearly-all-of-it-140bba70?mod=rss_worldnews"
+            }
+          ]
+        }
       },
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28499.25,
-        "change_pct": 0.4,
+        "point": 28565.25,
+        "change_pct": 0.64,
         "spark": [
           28399.25,
-          28416.5,
           28418.75,
           28395.75,
           28362.75,
@@ -8478,21 +8494,22 @@
           28470.5,
           28493.75,
           28517.25,
-          28499.25
+          28539.5,
+          28565.25
         ],
         "candle": {
           "o": 28399.25,
-          "h": 28503.75,
+          "h": 28554.75,
           "l": 28393.5,
-          "c": 28496.25
+          "c": 28537.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 23.15,
-          "high_change_pct": -9.49
+          "low_change_pct": 23.33,
+          "high_change_pct": -9.36
         },
         "daily_expanded": [
           {
@@ -10506,10 +10523,10 @@
           {
             "date": "2026-11-12",
             "o": 28399.25,
-            "h": 28503.75,
+            "h": 28554.75,
             "l": 28393.5,
-            "c": 28496.25,
-            "v": 4360
+            "c": 28537.5,
+            "v": 7261
           }
         ],
         "rollover_gaps": [
@@ -10519,18 +10536,32 @@
             "to": 26752.0,
             "gap_pct": -6.35
           }
-        ]
+        ],
+        "news": {
+          "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/jensen-huangs-exit-will-test-ais-stocks-and-great-man-theory-3c4cd404?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/regulation/cravath-employee-is-charged-with-insider-trading-using-confidential-deal-information-a5cdd0a9?mod=rss_markets_main"
+            }
+          ]
+        }
       },
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52473.0,
-        "change_pct": 0.16,
+        "point": 52486.0,
+        "change_pct": 0.18,
         "spark": [
           52415.0,
-          52595.0,
-          52567.0,
-          52551.0,
           52525.0,
           52500.0,
           52497.0,
@@ -10567,21 +10598,24 @@
           52435.0,
           52431.0,
           52446.0,
-          52473.0
+          52473.0,
+          52483.0,
+          52491.0,
+          52486.0
         ],
         "candle": {
           "o": 52415.0,
-          "h": 52446.0,
+          "h": 52490.0,
           "l": 52412.0,
-          "c": 52446.0
+          "c": 52486.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.46,
-          "high_change_pct": -3.76
+          "low_change_pct": 15.55,
+          "high_change_pct": -3.68
         },
         "daily_expanded": [
           {
@@ -12595,16 +12629,86 @@
           {
             "date": "2026-11-12",
             "o": 52415.0,
-            "h": 52446.0,
+            "h": 52490.0,
             "l": 52412.0,
-            "c": 52446.0,
-            "v": 240
+            "c": 52486.0,
+            "v": 382
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/federal-reserve-to-forgo-rate-decision-at-october-2027-meeting-99c5523f?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/business/deals/metro-bank-hangs-up-for-sale-sign-6a1e3da4?mod=rss_markets_main"
+            }
+          ]
+        }
       }
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-11-13T08:40:35.434503+09:00"
+  "intraday_refreshed_kst": "2026-11-13T08:50:50.827461+09:00",
+  "_futures_news": {
+    "NASDAQ": {
+      "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/jensen-huangs-exit-will-test-ais-stocks-and-great-man-theory-3c4cd404?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/regulation/cravath-employee-is-charged-with-insider-trading-using-confidential-deal-information-a5cdd0a9?mod=rss_markets_main"
+        }
+      ]
+    },
+    "S&P500": {
+      "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-investors-weigh-u-s-iran-diplomacy-296e2847?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/treasury-yields-rise-as-fed-rate-hike-expectations-remain-strong-401fed89?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/americas/u-s-collected-12-billion-in-venezuelan-oil-sales-returning-nearly-all-of-it-140bba70?mod=rss_worldnews"
+        }
+      ]
+    },
+    "DOW": {
+      "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/federal-reserve-to-forgo-rate-decision-at-october-2027-meeting-99c5523f?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/business/deals/metro-bank-hangs-up-for-sale-sign-6a1e3da4?mod=rss_markets_main"
+        }
+      ]
+    }
+  }
 }
