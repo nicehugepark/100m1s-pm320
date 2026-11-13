@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/india/degrees-lead-nowhere-jobs-dont-exist-welcome-to-indias-youth-revolt-94b61098?mod=rss_worldnews",
+      "published_ts": 1794538800.0,
+      "impact_high": true
+    },
+    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/feds-williams-says-still-work-to-do-to-get-monetary-policy-to-right-place-cc3b5992?mod=rss_socialeconomyfeed",
@@ -6295,24 +6302,17 @@
       "impact_high": true
     },
     {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/russia/putin-had-four-plans-to-defeat-ukraine-he-only-has-two-left-7875e5a6?mod=rss_worldnews",
+      "published_ts": 1794538800.0,
+      "impact_high": false
+    },
+    {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/202611134778i",
       "published_ts": 1794534931.0,
-      "impact_high": false
-    },
-    {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/irans-new-cyber-playbook-create-real-world-havoc-8ea2dffc?mod=rss_worldnews",
-      "published_ts": 1794531600.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/ai-bots-are-using-credit-cards-banks-are-racing-to-keep-up-c30dda30?mod=rss_markets_main",
-      "published_ts": 1794531600.0,
       "impact_high": false
     },
     {
@@ -6344,21 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "d250bf991d83a8c7e5b9a1a9ecc751c840d07a65056a26487c194467ea80c2e1",
+  "_article_sig": "c039be128b33b85acc786b76ea320732837fcff9cc18774cf8339e179972a037",
   "built_at_kst": "2026-11-13T07:01:21.023152+09:00",
   "futures": {
-    "as_of_kst": "2026-11-13T12:00:21.500307+09:00",
+    "as_of_kst": "2026-11-13T12:10:21.728966+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7637.25,
+        "point": 7637.5,
         "change_pct": 0.29,
         "spark": [
           7620.25,
-          7639.0,
-          7643.5,
           7639.75,
           7641.5,
           7642.25,
@@ -6396,7 +6394,9 @@
           7641.25,
           7635.75,
           7637.75,
-          7637.25
+          7635.25,
+          7637.5,
+          7637.5
         ],
         "candle": {
           "o": 7620.25,
@@ -8435,7 +8435,7 @@
             "h": 7649.75,
             "l": 7619.25,
             "c": 7638.0,
-            "v": 42482
+            "v": 43917
           }
         ],
         "rollover_gaps": [],
@@ -8460,12 +8460,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 28503.0,
-        "change_pct": 0.42,
+        "point": 28493.25,
+        "change_pct": 0.38,
         "spark": [
           28399.25,
-          28565.25,
-          28521.0,
           28549.5,
           28544.0,
           28576.25,
@@ -8502,22 +8500,24 @@
           28537.5,
           28493.0,
           28503.25,
-          28496.0,
-          28503.0
+          28477.5,
+          28483.75,
+          28500.0,
+          28493.25
         ],
         "candle": {
           "o": 28399.25,
           "h": 28607.75,
           "l": 28393.5,
-          "c": 28503.25
+          "c": 28493.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 23.18,
-          "high_change_pct": -9.47
+          "low_change_pct": 23.14,
+          "high_change_pct": -9.5
         },
         "daily_expanded": [
           {
@@ -10541,8 +10541,8 @@
             "o": 28399.25,
             "h": 28607.75,
             "l": 28393.5,
-            "c": 28503.25,
-            "v": 41415
+            "c": 28493.25,
+            "v": 42796
           }
         ],
         "rollover_gaps": [
@@ -10557,16 +10557,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/russia/putin-had-four-plans-to-defeat-ukraine-he-only-has-two-left-7875e5a6?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/feds-williams-says-still-work-to-do-to-get-monetary-policy-to-right-place-cc3b5992?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/ai-bots-are-using-credit-cards-banks-are-racing-to-keep-up-c30dda30?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/irans-new-cyber-playbook-create-real-world-havoc-8ea2dffc?mod=rss_worldnews"
             }
           ]
         }
@@ -10574,12 +10574,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 52503.0,
-        "change_pct": 0.22,
+        "point": 52514.0,
+        "change_pct": 0.24,
         "spark": [
           52415.0,
-          52491.0,
-          52499.0,
           52492.0,
           52503.0,
           52533.0,
@@ -10617,21 +10615,23 @@
           52490.0,
           52499.0,
           52505.0,
-          52503.0
+          52513.0,
+          52520.0,
+          52514.0
         ],
         "candle": {
           "o": 52415.0,
           "h": 52564.0,
           "l": 52412.0,
-          "c": 52503.0
+          "c": 52511.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 15.58,
-          "high_change_pct": -3.65
+          "low_change_pct": 15.6,
+          "high_change_pct": -3.64
         },
         "daily_expanded": [
           {
@@ -12655,8 +12655,8 @@
             "o": 52415.0,
             "h": 52564.0,
             "l": 52412.0,
-            "c": 52503.0,
-            "v": 3066
+            "c": 52511.0,
+            "v": 3164
           }
         ],
         "rollover_gaps": [],
@@ -12681,11 +12681,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-11-13T12:00:47.349168+09:00",
+  "intraday_refreshed_kst": "2026-11-13T12:10:45.696407+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/russia/putin-had-four-plans-to-defeat-ukraine-he-only-has-two-left-7875e5a6?mod=rss_worldnews"
+        },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/feds-williams-says-still-work-to-do-to-get-monetary-policy-to-right-place-cc3b5992?mod=rss_socialeconomyfeed"
@@ -12693,10 +12697,6 @@
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/ai-bots-are-using-credit-cards-banks-are-racing-to-keep-up-c30dda30?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/irans-new-cyber-playbook-create-real-world-havoc-8ea2dffc?mod=rss_worldnews"
         }
       ]
     },
