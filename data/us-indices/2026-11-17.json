@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 24562.79,
-      "change_pct": -2.28,
+      "point": 24559.63,
+      "change_pct": -2.29,
       "candle": {
         "o": 24836.62,
         "h": 24877.71,
         "l": 24460.28,
-        "c": 24562.79
+        "c": 24559.63
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,13 +2033,11 @@
           "o": 24836.62,
           "h": 24877.71,
           "l": 24460.28,
-          "c": 24562.79
+          "c": 24559.63
         }
       ],
       "spark": [
         24836.62,
-        24758.65,
-        24738.87,
         24747.01,
         24682.2,
         24738.76,
@@ -2077,7 +2075,9 @@
         24591.8,
         24565.81,
         24573.87,
-        24562.79
+        24560.65,
+        24564.15,
+        24559.63
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7427.72,
-      "change_pct": -1.77,
+      "point": 7424.25,
+      "change_pct": -1.82,
       "candle": {
         "o": 7513.98,
         "h": 7515.6,
         "l": 7406.87,
-        "c": 7427.72
+        "c": 7424.25
       },
       "range_240d": {
         "low": 6343.72,
@@ -4131,13 +4131,11 @@
           "o": 7513.98,
           "h": 7515.6,
           "l": 7406.87,
-          "c": 7427.72
+          "c": 7424.25
         }
       ],
       "spark": [
         7513.98,
-        7485.88,
-        7480.73,
         7483.56,
         7468.92,
         7480.48,
@@ -4175,7 +4173,9 @@
         7437.34,
         7430.19,
         7430.65,
-        7427.72
+        7425.92,
+        7425.0,
+        7424.25
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 51687.17,
-      "change_pct": -1.26,
+      "point": 51649.86,
+      "change_pct": -1.33,
       "candle": {
         "o": 52267.06,
         "h": 52324.0,
         "l": 51601.34,
-        "c": 51687.17
+        "c": 51649.86
       },
       "range_240d": {
         "low": 45166.64,
@@ -6229,13 +6229,11 @@
           "o": 52267.06,
           "h": 52324.0,
           "l": 51601.34,
-          "c": 51687.17
+          "c": 51649.86
         }
       ],
       "spark": [
         52267.06,
-        52080.02,
-        52048.16,
         52067.69,
         52006.17,
         52047.75,
@@ -6273,7 +6271,9 @@
         51744.34,
         51702.38,
         51702.33,
-        51687.17
+        51664.55,
+        51651.01,
+        51649.86
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6299,16 +6299,9 @@
   "news_chips": [
     {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/warsh-says-fed-is-gaming-out-how-ai-could-reshape-economy-ab296fc9?mod=rss_socialeconomyfeed",
-      "published_ts": 1794848400.0,
-      "impact_high": true
-    },
-    {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/canada-inflation-holds-steady-at-3-1-in-october-d47350f2?mod=rss_socialeconomyfeed",
-      "published_ts": 1794845160.0,
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/middle-east/watch-what-u-s-aircraft-carriers-bring-to-the-iran-war-cf8b3b51?mod=rss_worldnews",
+      "published_ts": 1794856380.0,
       "impact_high": true
     },
     {
@@ -6326,10 +6319,24 @@
       "impact_high": true
     },
     {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/202611170570i",
+      "published_ts": 1794855283.0,
+      "impact_high": false
+    },
+    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/china/nvidia-scandal-threatens-chinas-charm-offensive-ahead-of-trump-summit-9fa887fe?mod=rss_worldnews",
-      "published_ts": 1794847500.0,
+      "published_ts": 1794850980.0,
+      "impact_high": false
+    },
+    {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/politics/trump-says-he-might-meet-with-north-koreas-kim-during-asia-trip-1634f7f0?mod=rss_worldnews",
+      "published_ts": 1794849840.0,
       "impact_high": false
     },
     {
@@ -6337,13 +6344,6 @@
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026111605177",
       "published_ts": 1794839513.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026111604427",
-      "published_ts": 1794830833.0,
       "impact_high": false
     },
     {
@@ -6361,7 +6361,7 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "ae081de17b54aba6f97907ea8a5d8dbb0ebeab71140c2d757af86671e7a55a7c",
+  "_article_sig": "e54cd10d5b987880539c246db2a308f95840ef6a4601aef520ca9eabf2426e26",
   "built_at_kst": "2026-11-14T07:00:28.733332+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6369,16 +6369,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/warsh-says-fed-is-gaming-out-how-ai-could-reshape-economy-ab296fc9?mod=rss_socialeconomyfeed"
-        },
-        {
           "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/china/nvidia-scandal-threatens-chinas-charm-offensive-ahead-of-trump-summit-9fa887fe?mod=rss_worldnews"
+          "url": "https://www.wsj.com/world/middle-east/watch-what-u-s-aircraft-carriers-bring-to-the-iran-war-cf8b3b51?mod=rss_worldnews"
         },
         {
           "name": "한경국제",
-          "url": "https://www.hankyung.com/article/2026111604427"
+          "url": "https://www.hankyung.com/article/202611170570i"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/warsh-says-fed-is-gaming-out-how-ai-could-reshape-economy-ab296fc9?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -6386,16 +6386,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/watch-what-u-s-aircraft-carriers-bring-to-the-iran-war-cf8b3b51?mod=rss_worldnews"
+        },
+        {
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/202611170570i"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/warsh-says-fed-is-gaming-out-how-ai-could-reshape-economy-ab296fc9?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/china/nvidia-scandal-threatens-chinas-charm-offensive-ahead-of-trump-summit-9fa887fe?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/canada-inflation-holds-steady-at-3-1-in-october-d47350f2?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -6418,18 +6418,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-11-17T04:10:18.014890+09:00",
+    "as_of_kst": "2026-11-17T04:20:13.290679+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7454.5,
-        "change_pct": -1.69,
+        "point": 7449.25,
+        "change_pct": -1.76,
         "spark": [
           7577.25,
-          7510.25,
-          7507.75,
           7501.75,
           7504.75,
           7490.75,
@@ -6467,21 +6465,23 @@
           7455.5,
           7457.75,
           7450.75,
-          7454.5
+          7450.5,
+          7446.25,
+          7449.25
         ],
         "candle": {
           "o": 7577.25,
           "h": 7614.25,
           "l": 7426.5,
-          "c": 7454.5
+          "c": 7448.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 16.69,
-          "high_change_pct": -5.33
+          "low_change_pct": 16.6,
+          "high_change_pct": -5.4
         },
         "daily_expanded": [
           {
@@ -8489,8 +8489,8 @@
             "o": 7577.25,
             "h": 7614.25,
             "l": 7426.5,
-            "c": 7454.5,
-            "v": 1350089
+            "c": 7448.5,
+            "v": 1382073
           }
         ],
         "rollover_gaps": [],
@@ -8498,16 +8498,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/watch-what-u-s-aircraft-carriers-bring-to-the-iran-war-cf8b3b51?mod=rss_worldnews"
+            },
+            {
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/202611170570i"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/warsh-says-fed-is-gaming-out-how-ai-could-reshape-economy-ab296fc9?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/china/nvidia-scandal-threatens-chinas-charm-offensive-ahead-of-trump-summit-9fa887fe?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/canada-inflation-holds-steady-at-3-1-in-october-d47350f2?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8515,12 +8515,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 27382.25,
-        "change_pct": -2.33,
+        "point": 27367.0,
+        "change_pct": -2.38,
         "spark": [
           28062.5,
-          27548.25,
-          27563.75,
           27533.0,
           27543.25,
           27473.5,
@@ -8558,21 +8556,23 @@
           27385.75,
           27402.5,
           27370.0,
-          27382.25
+          27375.75,
+          27362.25,
+          27367.0
         ],
         "candle": {
           "o": 28062.5,
           "h": 28279.25,
           "l": 27235.5,
-          "c": 27377.5
+          "c": 27365.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 18.31,
-          "high_change_pct": -13.04
+          "low_change_pct": 18.26,
+          "high_change_pct": -13.08
         },
         "daily_expanded": [
           {
@@ -10580,8 +10580,8 @@
             "o": 28062.5,
             "h": 28279.25,
             "l": 27235.5,
-            "c": 27377.5,
-            "v": 708795
+            "c": 27365.5,
+            "v": 718827
           }
         ],
         "rollover_gaps": [
@@ -10596,16 +10596,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/warsh-says-fed-is-gaming-out-how-ai-could-reshape-economy-ab296fc9?mod=rss_socialeconomyfeed"
-            },
-            {
               "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/china/nvidia-scandal-threatens-chinas-charm-offensive-ahead-of-trump-summit-9fa887fe?mod=rss_worldnews"
+              "url": "https://www.wsj.com/world/middle-east/watch-what-u-s-aircraft-carriers-bring-to-the-iran-war-cf8b3b51?mod=rss_worldnews"
             },
             {
               "name": "한경국제",
-              "url": "https://www.hankyung.com/article/2026111604427"
+              "url": "https://www.hankyung.com/article/202611170570i"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/warsh-says-fed-is-gaming-out-how-ai-could-reshape-economy-ab296fc9?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10613,12 +10613,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51779.0,
-        "change_pct": -1.22,
+        "point": 51751.0,
+        "change_pct": -1.27,
         "spark": [
           52379.0,
-          52190.0,
-          52151.0,
           52115.0,
           52138.0,
           52076.0,
@@ -10656,21 +10654,23 @@
           51804.0,
           51815.0,
           51764.0,
-          51779.0
+          51764.0,
+          51729.0,
+          51751.0
         ],
         "candle": {
           "o": 52379.0,
           "h": 52559.0,
           "l": 51663.0,
-          "c": 51774.0
+          "c": 51752.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 13.98,
-          "high_change_pct": -4.99
+          "low_change_pct": 13.93,
+          "high_change_pct": -5.03
         },
         "daily_expanded": [
           {
@@ -12678,8 +12678,8 @@
             "o": 52379.0,
             "h": 52559.0,
             "l": 51663.0,
-            "c": 51774.0,
-            "v": 65228
+            "c": 51752.0,
+            "v": 66306
           }
         ],
         "rollover_gaps": [],
@@ -12703,5 +12703,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-11-17T04:10:34.100567+09:00"
+  "intraday_refreshed_kst": "2026-11-17T04:20:33.770168+09:00"
 }
