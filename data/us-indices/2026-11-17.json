@@ -6288,6 +6288,13 @@
       "impact_high": true
     },
     {
+      "summary": "반도체 수요와 공급망 뉴스가 기술주 투자심리의 핵심 변수로 작용하는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/202611170797i",
+      "published_ts": 1794871838.0,
+      "impact_high": false
+    },
+    {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/202611170700i",
@@ -6337,22 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "445d26c64293832bfba83c9ab20ae378c0d4c8d611bff0f61226cf23652fa9fb",
+  "_article_sig": "6d5f1a88728bfaf5ba658e303148009503b12d669645c710d6dd2b08cdf0ec97",
   "built_at_kst": "2026-11-17T07:00:47.047815+09:00",
   "futures": {
-    "as_of_kst": "2026-11-17T08:30:18.155156+09:00",
+    "as_of_kst": "2026-11-17T08:40:15.586255+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7438.5,
-        "change_pct": -0.01,
+        "point": 7440.0,
+        "change_pct": 0.01,
         "spark": [
           7442.25,
-          7450.5,
-          7446.25,
-          7445.5,
           7442.25,
           7441.5,
           7434.25,
@@ -6389,21 +6393,24 @@
           7447.5,
           7445.5,
           7442.0,
-          7438.5
+          7438.5,
+          7439.5,
+          7433.75,
+          7440.0
         ],
         "candle": {
           "o": 7442.25,
           "h": 7452.25,
           "l": 7431.75,
-          "c": 7442.5
+          "c": 7439.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 16.5,
-          "high_change_pct": -5.48
+          "low_change_pct": 16.46,
+          "high_change_pct": -5.52
         },
         "daily_expanded": [
           {
@@ -8411,8 +8418,8 @@
             "o": 7442.25,
             "h": 7452.25,
             "l": 7431.75,
-            "c": 7442.5,
-            "v": 5592
+            "c": 7439.5,
+            "v": 7128
           }
         ],
         "rollover_gaps": [],
@@ -8437,13 +8444,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 27301.25,
-        "change_pct": 0.06,
+        "point": 27272.25,
+        "change_pct": -0.04,
         "spark": [
           27314.75,
-          27375.75,
-          27362.25,
-          27367.5,
           27354.5,
           27359.0,
           27315.25,
@@ -8480,21 +8484,24 @@
           27321.25,
           27309.5,
           27295.25,
-          27301.25
+          27282.0,
+          27273.75,
+          27230.5,
+          27272.25
         ],
         "candle": {
           "o": 27314.75,
           "h": 27360.0,
           "l": 27224.25,
-          "c": 27292.25
+          "c": 27272.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 17.95,
-          "high_change_pct": -13.31
+          "low_change_pct": 17.86,
+          "high_change_pct": -13.38
         },
         "daily_expanded": [
           {
@@ -10502,8 +10509,8 @@
             "o": 27314.75,
             "h": 27360.0,
             "l": 27224.25,
-            "c": 27292.25,
-            "v": 6514
+            "c": 27272.25,
+            "v": 7480
           }
         ],
         "rollover_gaps": [
@@ -10519,15 +10526,15 @@
           "sources": [
             {
               "name": "한경국제",
+              "url": "https://www.hankyung.com/article/202611170797i"
+            },
+            {
+              "name": "한경국제",
               "url": "https://www.hankyung.com/article/2026111707127"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/asia/commerce-department-rule-aims-to-further-limit-chip-shipments-to-china-c6244c33?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/ai-stocks-resume-their-slide-1094403c?mod=rss_markets_main"
             }
           ]
         }
@@ -10535,13 +10542,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51672.0,
-        "change_pct": 0.0,
+        "point": 51668.0,
+        "change_pct": -0.0,
         "spark": [
           51680.0,
-          51764.0,
-          51729.0,
-          51718.0,
           51691.0,
           51681.0,
           51652.0,
@@ -10578,21 +10582,24 @@
           51711.0,
           51687.0,
           51672.0,
-          51672.0
+          51659.0,
+          51668.0,
+          51638.0,
+          51668.0
         ],
         "candle": {
           "o": 51680.0,
           "h": 51729.0,
           "l": 51651.0,
-          "c": 51672.0
+          "c": 51664.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 13.75,
-          "high_change_pct": -5.18
+          "low_change_pct": 13.74,
+          "high_change_pct": -5.19
         },
         "daily_expanded": [
           {
@@ -12600,8 +12607,8 @@
             "o": 51680.0,
             "h": 51729.0,
             "l": 51651.0,
-            "c": 51672.0,
-            "v": 516
+            "c": 51664.0,
+            "v": 633
           }
         ],
         "rollover_gaps": [],
@@ -12632,15 +12639,15 @@
       "sources": [
         {
           "name": "한경국제",
+          "url": "https://www.hankyung.com/article/202611170797i"
+        },
+        {
+          "name": "한경국제",
           "url": "https://www.hankyung.com/article/2026111707127"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/asia/commerce-department-rule-aims-to-further-limit-chip-shipments-to-china-c6244c33?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/ai-stocks-resume-their-slide-1094403c?mod=rss_markets_main"
         }
       ]
     },
@@ -12679,5 +12686,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-11-17T08:30:36.371782+09:00"
+  "intraday_refreshed_kst": "2026-11-17T08:40:38.400846+09:00"
 }
