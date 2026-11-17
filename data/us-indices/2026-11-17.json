@@ -6288,6 +6288,13 @@
       "impact_high": true
     },
     {
+      "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/202611170862i",
+      "published_ts": 1794876661.0,
+      "impact_high": false
+    },
+    {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/business/put-downs-parties-and-a-royal-family-the-culture-inside-jensen-huangs-nvidia-6a872194?mod=rss_worldnews",
@@ -6295,17 +6302,17 @@
       "impact_high": false
     },
     {
+      "summary": "전력·유틸리티 투자와 인프라 수요가 방어주와 산업재 관심을 확대하는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/202611171026i",
+      "published_ts": 1794875794.0,
+      "impact_high": false
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/finance/commodities-futures/oil-falls-as-improving-supply-prospects-offset-mideast-tensions-3499b2f6?mod=rss_worldnews",
       "published_ts": 1794874980.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/202611170700i",
-      "published_ts": 1794870316.0,
       "impact_high": false
     },
     {
@@ -6323,13 +6330,6 @@
       "impact_high": false
     },
     {
-      "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/pro/bankruptcy/optimum-skips-bond-interest-payments-amid-restructuring-talks-3a1644f9?mod=rss_markets_main",
-      "published_ts": 1794850620.0,
-      "impact_high": false
-    },
-    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/politics/trump-says-he-might-meet-with-north-koreas-kim-during-asia-trip-1634f7f0?mod=rss_worldnews",
@@ -6344,22 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "9161809f99131623a0cab6c141781f8a6499fc710eb0d9de078b0d8ee935e6a3",
+  "_article_sig": "6af8fdeace77db1fc8b0d0c5864f1ed5c19afb0a744abb07dc29a58692651f20",
   "built_at_kst": "2026-11-17T07:00:47.047815+09:00",
   "futures": {
-    "as_of_kst": "2026-11-17T10:00:34.265996+09:00",
+    "as_of_kst": "2026-11-17T10:10:23.850003+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7442.25,
-        "change_pct": 0.04,
+        "point": 7440.25,
+        "change_pct": 0.02,
         "spark": [
           7442.25,
-          7426.75,
-          7429.0,
-          7432.0,
           7437.75,
           7441.5,
           7439.5,
@@ -6396,21 +6393,24 @@
           7439.75,
           7443.25,
           7442.25,
-          7442.25
+          7438.25,
+          7441.5,
+          7438.25,
+          7440.25
         ],
         "candle": {
           "o": 7442.25,
           "h": 7452.25,
           "l": 7429.25,
-          "c": 7442.25
+          "c": 7440.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 16.5,
-          "high_change_pct": -5.48
+          "low_change_pct": 16.46,
+          "high_change_pct": -5.51
         },
         "daily_expanded": [
           {
@@ -8411,15 +8411,23 @@
             "h": 7669.25,
             "l": 7519.25,
             "c": 7583.0,
-            "v": 1778074
+            "v": 1945852
+          },
+          {
+            "date": "2026-11-16",
+            "o": 7577.25,
+            "h": 7614.25,
+            "l": 7420.25,
+            "c": 7439.0,
+            "v": 1945852
           },
           {
             "date": "2026-11-16",
             "o": 7442.25,
             "h": 7452.25,
             "l": 7429.25,
-            "c": 7442.25,
-            "v": 22892
+            "c": 7440.0,
+            "v": 24489
           }
         ],
         "rollover_gaps": [],
@@ -8444,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 27308.0,
-        "change_pct": 0.09,
+        "point": 27298.25,
+        "change_pct": 0.05,
         "spark": [
           27314.75,
-          27264.5,
-          27285.75,
           27305.5,
           27291.5,
           27309.0,
@@ -8486,22 +8492,24 @@
           27292.5,
           27317.75,
           27307.75,
-          27297.0,
-          27308.0
+          27283.5,
+          27314.75,
+          27286.5,
+          27298.25
         ],
         "candle": {
           "o": 27314.75,
           "h": 27360.0,
           "l": 27180.5,
-          "c": 27306.25
+          "c": 27302.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 18.01,
-          "high_change_pct": -13.27
+          "low_change_pct": 17.99,
+          "high_change_pct": -13.28
         },
         "daily_expanded": [
           {
@@ -10509,8 +10517,8 @@
             "o": 27314.75,
             "h": 27360.0,
             "l": 27180.5,
-            "c": 27306.25,
-            "v": 26491
+            "c": 27302.0,
+            "v": 28266
           }
         ],
         "rollover_gaps": [
@@ -10542,12 +10550,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51618.0,
-        "change_pct": -0.1,
+        "point": 51606.0,
+        "change_pct": -0.12,
         "spark": [
           51680.0,
-          51604.0,
-          51625.0,
           51669.0,
           51677.0,
           51667.0,
@@ -10584,22 +10590,24 @@
           51624.0,
           51633.0,
           51630.0,
-          51618.0,
-          51618.0
+          51615.0,
+          51611.0,
+          51607.0,
+          51606.0
         ],
         "candle": {
           "o": 51680.0,
           "h": 51729.0,
-          "l": 51618.0,
-          "c": 51619.0
+          "l": 51597.0,
+          "c": 51606.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 13.64,
-          "high_change_pct": -5.28
+          "low_change_pct": 13.61,
+          "high_change_pct": -5.3
         },
         "daily_expanded": [
           {
@@ -12606,9 +12614,9 @@
             "date": "2026-11-16",
             "o": 51680.0,
             "h": 51729.0,
-            "l": 51618.0,
-            "c": 51619.0,
-            "v": 2040
+            "l": 51597.0,
+            "c": 51606.0,
+            "v": 2256
           }
         ],
         "rollover_gaps": [],
@@ -12616,16 +12624,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/202611170862i"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/business/put-downs-parties-and-a-royal-family-the-culture-inside-jensen-huangs-nvidia-6a872194?mod=rss_worldnews"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/berkshire-boosts-stake-in-lennar-doubling-down-on-its-u-s-housing-bet-b1237ca5?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-gov-macklem-to-leave-in-june-kicking-off-search-for-new-leader-cbce9e69?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -12672,19 +12680,19 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/202611170862i"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/business/put-downs-parties-and-a-royal-family-the-culture-inside-jensen-huangs-nvidia-6a872194?mod=rss_worldnews"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/berkshire-boosts-stake-in-lennar-doubling-down-on-its-u-s-housing-bet-b1237ca5?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-gov-macklem-to-leave-in-june-kicking-off-search-for-new-leader-cbce9e69?mod=rss_socialeconomyfeed"
         }
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-11-17T10:01:05.952406+09:00"
+  "intraday_refreshed_kst": "2026-11-17T10:10:47.459064+09:00"
 }
