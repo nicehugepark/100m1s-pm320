@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/german-investor-confidence-rises-to-highest-level-since-start-of-iran-war-957cb844?mod=rss_socialeconomyfeed",
+      "published_ts": 1794911340.0,
+      "impact_high": true
+    },
+    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026111727801",
@@ -6288,13 +6295,6 @@
       "impact_high": true
     },
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/china/trumps-advisers-are-at-war-over-china-ahead-of-xi-summit-90995398?mod=rss_worldnews",
-      "published_ts": 1794883560.0,
-      "impact_high": true
-    },
-    {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
@@ -6303,9 +6303,9 @@
     },
     {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/livecoverage/nvidia-earnings-stock-market-news-11-17-2026?mod=rss_markets_main",
-      "published_ts": 1794910267.0,
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/europe/eu-expects-continued-resilience-as-ai-boosts-exports-a74adac6?mod=rss_worldnews",
+      "published_ts": 1794910800.0,
       "impact_high": false
     },
     {
@@ -6344,21 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "9a536aee61ee657379cd451b55b6bf2d11f7db5a39e2993916462e44d07378ee",
+  "_article_sig": "d0e4deca763347522f5a43932323cf9dc8bf5fc550c992d1fd50bbc0a7d572e4",
   "built_at_kst": "2026-11-17T07:00:47.047815+09:00",
   "futures": {
-    "as_of_kst": "2026-11-17T19:20:16.786514+09:00",
+    "as_of_kst": "2026-11-17T19:30:15.679468+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7411.25,
-        "change_pct": -0.37,
+        "point": 7414.25,
+        "change_pct": -0.33,
         "spark": [
           7442.25,
-          7425.0,
-          7427.25,
           7427.0,
           7424.25,
           7422.5,
@@ -6396,21 +6394,23 @@
           7412.5,
           7413.25,
           7411.25,
-          7411.25
+          7412.0,
+          7414.25,
+          7414.25
         ],
         "candle": {
           "o": 7442.25,
           "h": 7456.75,
           "l": 7395.25,
-          "c": 7411.25
+          "c": 7414.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 16.01,
-          "high_change_pct": -5.88
+          "low_change_pct": 16.06,
+          "high_change_pct": -5.84
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7442.25,
             "h": 7456.75,
             "l": 7395.25,
-            "c": 7411.25,
-            "v": 160648
+            "c": 7414.0,
+            "v": 164876
           }
         ],
         "rollover_gaps": [],
@@ -8435,16 +8435,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/german-investor-confidence-rises-to-highest-level-since-start-of-iran-war-957cb844?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/nvidia-earnings-stock-market-news-11-17-2026?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/u-k-jobless-rate-edges-lower-as-labor-market-shows-resilience-6adc464b?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html"
             }
           ]
         }
@@ -8452,11 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 27184.5,
-        "change_pct": -0.37,
+        "point": 27196.25,
+        "change_pct": -0.32,
         "spark": [
           27314.75,
-          27319.0,
           27322.5,
           27310.0,
           27298.0,
@@ -8495,21 +8494,22 @@
           27201.0,
           27181.75,
           27182.25,
-          27184.5
+          27195.75,
+          27196.25
         ],
         "candle": {
           "o": 27314.75,
           "h": 27498.0,
           "l": 27085.0,
-          "c": 27186.75
+          "c": 27189.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 17.49,
-          "high_change_pct": -13.65
+          "low_change_pct": 17.5,
+          "high_change_pct": -13.64
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 27314.75,
             "h": 27498.0,
             "l": 27085.0,
-            "c": 27186.75,
-            "v": 118111
+            "c": 27189.0,
+            "v": 119693
           }
         ],
         "rollover_gaps": [
@@ -10541,16 +10541,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/europe/eu-expects-continued-resilience-as-ai-boosts-exports-a74adac6?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/nvidia-earnings-stock-market-news-11-17-2026?mod=rss_markets_main"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/ukrainian-strike-severs-part-of-russias-crimean-bridge-a688b0f1?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/deutsche-bank-shares-drop-after-wide-ranging-whistleblower-leaks-bc550948?mod=rss_markets_main"
             }
           ]
         }
@@ -10558,12 +10558,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51407.0,
-        "change_pct": -0.51,
+        "point": 51429.0,
+        "change_pct": -0.47,
         "spark": [
           51680.0,
-          51503.0,
-          51493.0,
           51477.0,
           51467.0,
           51487.0,
@@ -10601,21 +10599,23 @@
           51414.0,
           51406.0,
           51423.0,
-          51407.0
+          51429.0,
+          51434.0,
+          51429.0
         ],
         "candle": {
           "o": 51680.0,
           "h": 51729.0,
           "l": 51331.0,
-          "c": 51407.0
+          "c": 51429.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 13.17,
-          "high_change_pct": -5.66
+          "low_change_pct": 13.22,
+          "high_change_pct": -5.62
         },
         "daily_expanded": [
           {
@@ -12631,8 +12631,8 @@
             "o": 51680.0,
             "h": 51729.0,
             "l": 51331.0,
-            "c": 51407.0,
-            "v": 12811
+            "c": 51429.0,
+            "v": 13151
           }
         ],
         "rollover_gaps": [],
@@ -12640,16 +12640,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/german-investor-confidence-rises-to-highest-level-since-start-of-iran-war-957cb844?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/europe/eu-expects-continued-resilience-as-ai-boosts-exports-a74adac6?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/nvidia-earnings-stock-market-news-11-17-2026?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/deutsche-bank-shares-drop-after-wide-ranging-whistleblower-leaks-bc550948?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/new-zealand-dollar-slumps-to-a-six-year-low-e13ed4c2?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -12662,16 +12662,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/europe/eu-expects-continued-resilience-as-ai-boosts-exports-a74adac6?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/nvidia-earnings-stock-market-news-11-17-2026?mod=rss_markets_main"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/ukrainian-strike-severs-part-of-russias-crimean-bridge-a688b0f1?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/deutsche-bank-shares-drop-after-wide-ranging-whistleblower-leaks-bc550948?mod=rss_markets_main"
         }
       ]
     },
@@ -12679,16 +12679,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/german-investor-confidence-rises-to-highest-level-since-start-of-iran-war-957cb844?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/nvidia-earnings-stock-market-news-11-17-2026?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/u-k-jobless-rate-edges-lower-as-labor-market-shows-resilience-6adc464b?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html"
         }
       ]
     },
@@ -12696,19 +12696,19 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/german-investor-confidence-rises-to-highest-level-since-start-of-iran-war-957cb844?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/europe/eu-expects-continued-resilience-as-ai-boosts-exports-a74adac6?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/nvidia-earnings-stock-market-news-11-17-2026?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/deutsche-bank-shares-drop-after-wide-ranging-whistleblower-leaks-bc550948?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/new-zealand-dollar-slumps-to-a-six-year-low-e13ed4c2?mod=rss_socialeconomyfeed"
         }
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-11-17T19:20:38.710547+09:00"
+  "intraday_refreshed_kst": "2026-11-17T19:30:37.612010+09:00"
 }
