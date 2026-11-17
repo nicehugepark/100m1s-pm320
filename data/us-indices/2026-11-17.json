@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 24485.38,
-      "change_pct": -0.1,
+      "point": 24477.28,
+      "change_pct": -0.13,
       "candle": {
         "o": 24512.37,
-        "h": 24526.52,
+        "h": 24545.95,
         "l": 24440.05,
-        "c": 24485.38
+        "c": 24477.28
       },
       "range_240d": {
         "low": 20794.64,
@@ -2031,16 +2031,18 @@
         {
           "date": "2026-11-17",
           "o": 24512.37,
-          "h": 24526.52,
+          "h": 24545.95,
           "l": 24440.05,
-          "c": 24485.38
+          "c": 24477.28
         }
       ],
       "spark": [
         24512.37,
         24480.83,
         24484.67,
-        24485.38
+        24458.67,
+        24495.35,
+        24477.28
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2064,13 +2066,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7399.12,
-      "change_pct": -0.24,
+      "point": 7399.86,
+      "change_pct": -0.23,
       "candle": {
         "o": 7411.02,
-        "h": 7411.02,
+        "h": 7414.77,
         "l": 7393.82,
-        "c": 7399.12
+        "c": 7399.86
       },
       "range_240d": {
         "low": 6343.72,
@@ -4092,16 +4094,18 @@
         {
           "date": "2026-11-17",
           "o": 7411.02,
-          "h": 7411.02,
+          "h": 7414.77,
           "l": 7393.82,
-          "c": 7399.12
+          "c": 7399.86
         }
       ],
       "spark": [
         7411.02,
         7395.92,
         7399.08,
-        7399.12
+        7396.34,
+        7407.89,
+        7399.86
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4125,13 +4129,13 @@
     },
     {
       "name": "DOW",
-      "point": 51271.63,
-      "change_pct": -0.65,
+      "point": 51367.34,
+      "change_pct": -0.47,
       "candle": {
         "o": 51386.98,
         "h": 51386.98,
         "l": 51183.68,
-        "c": 51271.63
+        "c": 51367.34
       },
       "range_240d": {
         "low": 45166.64,
@@ -6155,14 +6159,16 @@
           "o": 51386.98,
           "h": 51386.98,
           "l": 51183.68,
-          "c": 51271.63
+          "c": 51367.34
         }
       ],
       "spark": [
         51386.98,
         51264.62,
         51277.02,
-        51271.63
+        51283.19,
+        51380.56,
+        51367.34
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6187,13 +6193,6 @@
   ],
   "news_chips": [
     {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html",
-      "published_ts": 1794922854.0,
-      "impact_high": true
-    },
-    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/feds-musalem-says-several-rate-hikes-likely-needed-before-spring-2027-ffb3a9fc?mod=rss_socialeconomyfeed",
@@ -6208,10 +6207,17 @@
       "impact_high": true
     },
     {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/housing/canada-housing-starts-fall-2-2-in-october-df6e084d?mod=rss_socialeconomyfeed",
+      "published_ts": 1794926700.0,
+      "impact_high": false
+    },
+    {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/u-s-import-prices-climb-again-in-october-f4e6bf35?mod=rss_socialeconomyfeed",
-      "published_ts": 1794923700.0,
+      "url": "https://www.wsj.com/politics/policy/feds-lisa-cook-rebuffs-white-house-hearing-citing-biased-panel-e6eac42b?mod=rss_socialeconomyfeed",
+      "published_ts": 1794926400.0,
       "impact_high": false
     },
     {
@@ -6257,21 +6263,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "0ab72b5c8bd5f5e68a5105c2dfdff12ecb35ccaa7ac6ad76f659634a56a27bd0",
+  "_article_sig": "fe6ffdbff724b19131b844e242e3ea6d5723b29f11b5ccb945d12e7a8ccc5ffd",
   "built_at_kst": "2026-11-17T07:00:47.047815+09:00",
   "futures": {
-    "as_of_kst": "2026-11-17T23:40:12.752240+09:00",
+    "as_of_kst": "2026-11-17T23:50:18.391080+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7424.5,
-        "change_pct": -0.19,
+        "point": 7419.5,
+        "change_pct": -0.26,
         "spark": [
           7442.25,
-          7423.5,
-          7423.25,
           7429.5,
           7440.75,
           7447.5,
@@ -6309,21 +6313,23 @@
           7430.25,
           7428.25,
           7423.0,
-          7424.5
+          7415.5,
+          7420.25,
+          7419.5
         ],
         "candle": {
           "o": 7442.25,
           "h": 7456.75,
           "l": 7395.25,
-          "c": 7423.25
+          "c": 7419.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 16.2,
-          "high_change_pct": -5.72
+          "low_change_pct": 16.14,
+          "high_change_pct": -5.77
         },
         "daily_expanded": [
           {
@@ -8339,8 +8345,8 @@
             "o": 7442.25,
             "h": 7456.75,
             "l": 7395.25,
-            "c": 7423.25,
-            "v": 302930
+            "c": 7419.5,
+            "v": 378367
           }
         ],
         "rollover_gaps": [],
@@ -8348,16 +8354,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/politics/policy/feds-lisa-cook-rebuffs-white-house-hearing-citing-biased-panel-e6eac42b?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/feds-musalem-says-several-rate-hikes-likely-needed-before-spring-2027-ffb3a9fc?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/politics/policy/just-how-moderate-are-moderate-democrats-9e64ebf9?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8365,12 +8371,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 27330.75,
-        "change_pct": 0.17,
+        "point": 27260.0,
+        "change_pct": -0.09,
         "spark": [
           27314.75,
-          27259.75,
-          27307.75,
           27374.25,
           27429.25,
           27452.25,
@@ -8408,21 +8412,23 @@
           27359.25,
           27337.5,
           27244.75,
-          27330.75
+          27266.75,
+          27228.75,
+          27260.0
         ],
         "candle": {
           "o": 27314.75,
           "h": 27498.0,
           "l": 27085.0,
-          "c": 27330.25
+          "c": 27265.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 18.11,
-          "high_change_pct": -13.19
+          "low_change_pct": 17.83,
+          "high_change_pct": -13.4
         },
         "daily_expanded": [
           {
@@ -10438,8 +10444,8 @@
             "o": 27314.75,
             "h": 27498.0,
             "l": 27085.0,
-            "c": 27330.25,
-            "v": 187112
+            "c": 27265.5,
+            "v": 233045
           }
         ],
         "rollover_gaps": [
@@ -10455,15 +10461,15 @@
           "sources": [
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/u-s-import-prices-climb-again-in-october-f4e6bf35?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/politics/policy/feds-lisa-cook-rebuffs-white-house-hearing-citing-biased-panel-e6eac42b?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/jpmorgan-chase-names-bregje-de-best-to-succeed-jeremy-barnum-as-cfo-ea77f240?mod=rss_markets_main"
+              "url": "https://www.wsj.com/finance/deutsche-bank-shares-drop-after-wide-ranging-whistleblower-leaks-bc550948?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/feds-musalem-says-several-rate-hikes-likely-needed-before-spring-2027-ffb3a9fc?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/economy/u-s-import-prices-climb-again-in-october-f4e6bf35?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10471,12 +10477,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 51272.0,
-        "change_pct": -0.77,
+        "point": 51319.0,
+        "change_pct": -0.68,
         "spark": [
           51680.0,
-          51441.0,
-          51442.0,
           51505.0,
           51524.0,
           51531.0,
@@ -10514,21 +10518,23 @@
           51244.0,
           51197.0,
           51311.0,
-          51272.0
+          51332.0,
+          51345.0,
+          51319.0
         ],
         "candle": {
           "o": 51680.0,
           "h": 51729.0,
           "l": 51185.0,
-          "c": 51272.0
+          "c": 51328.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 12.87,
-          "high_change_pct": -5.91
+          "low_change_pct": 13.0,
+          "high_change_pct": -5.81
         },
         "daily_expanded": [
           {
@@ -12544,8 +12550,8 @@
             "o": 51680.0,
             "h": 51729.0,
             "l": 51185.0,
-            "c": 51272.0,
-            "v": 28256
+            "c": 51328.0,
+            "v": 33200
           }
         ],
         "rollover_gaps": [],
@@ -12553,12 +12559,12 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/feds-musalem-says-several-rate-hikes-likely-needed-before-spring-2027-ffb3a9fc?mod=rss_socialeconomyfeed"
-            },
-            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/deutsche-bank-shares-drop-after-wide-ranging-whistleblower-leaks-bc550948?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/feds-musalem-says-several-rate-hikes-likely-needed-before-spring-2027-ffb3a9fc?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ세계",
@@ -12576,15 +12582,15 @@
       "sources": [
         {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/u-s-import-prices-climb-again-in-october-f4e6bf35?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/politics/policy/feds-lisa-cook-rebuffs-white-house-hearing-citing-biased-panel-e6eac42b?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/jpmorgan-chase-names-bregje-de-best-to-succeed-jeremy-barnum-as-cfo-ea77f240?mod=rss_markets_main"
+          "url": "https://www.wsj.com/finance/deutsche-bank-shares-drop-after-wide-ranging-whistleblower-leaks-bc550948?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/feds-musalem-says-several-rate-hikes-likely-needed-before-spring-2027-ffb3a9fc?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/economy/u-s-import-prices-climb-again-in-october-f4e6bf35?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12592,16 +12598,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/politics/policy/feds-lisa-cook-rebuffs-white-house-hearing-citing-biased-panel-e6eac42b?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/feds-musalem-says-several-rate-hikes-likely-needed-before-spring-2027-ffb3a9fc?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/politics/policy/just-how-moderate-are-moderate-democrats-9e64ebf9?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12609,12 +12615,12 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/feds-musalem-says-several-rate-hikes-likely-needed-before-spring-2027-ffb3a9fc?mod=rss_socialeconomyfeed"
-        },
-        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/deutsche-bank-shares-drop-after-wide-ranging-whistleblower-leaks-bc550948?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/feds-musalem-says-several-rate-hikes-likely-needed-before-spring-2027-ffb3a9fc?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ세계",
@@ -12623,5 +12629,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-11-17T23:40:24.611227+09:00"
+  "intraday_refreshed_kst": "2026-11-17T23:50:45.881986+09:00"
 }
