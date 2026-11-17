@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 24320.64,
-      "change_pct": -0.77,
+      "point": 24264.32,
+      "change_pct": -1.0,
       "candle": {
         "o": 24512.37,
         "h": 24545.95,
         "l": 23992.76,
-        "c": 24320.64
+        "c": 24264.32
       },
       "range_240d": {
         "low": 20794.64,
@@ -2033,13 +2033,11 @@
           "o": 24512.37,
           "h": 24545.95,
           "l": 23992.76,
-          "c": 24320.64
+          "c": 24264.32
         }
       ],
       "spark": [
         24512.37,
-        24414.3,
-        24420.25,
         24393.36,
         24308.57,
         24273.85,
@@ -2077,7 +2075,9 @@
         24254.34,
         24276.37,
         24325.82,
-        24320.64
+        24316.79,
+        24266.71,
+        24264.32
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7351.61,
-      "change_pct": -0.88,
+      "point": 7335.87,
+      "change_pct": -1.09,
       "candle": {
         "o": 7411.02,
         "h": 7415.37,
         "l": 7288.34,
-        "c": 7351.61
+        "c": 7335.87
       },
       "range_240d": {
         "low": 6343.72,
@@ -4131,13 +4131,11 @@
           "o": 7411.02,
           "h": 7415.37,
           "l": 7288.34,
-          "c": 7351.61
+          "c": 7335.87
         }
       ],
       "spark": [
         7411.02,
-        7383.37,
-        7386.78,
         7384.7,
         7363.46,
         7357.79,
@@ -4175,7 +4173,9 @@
         7335.32,
         7341.64,
         7352.14,
-        7351.61
+        7349.18,
+        7337.09,
+        7335.87
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 50969.14,
-      "change_pct": -1.24,
+      "point": 50870.57,
+      "change_pct": -1.43,
       "candle": {
         "o": 51386.98,
         "h": 51463.53,
         "l": 50685.51,
-        "c": 50969.14
+        "c": 50870.57
       },
       "range_240d": {
         "low": 45166.64,
@@ -6229,13 +6229,11 @@
           "o": 51386.98,
           "h": 51463.53,
           "l": 50685.51,
-          "c": 50969.14
+          "c": 50870.57
         }
       ],
       "spark": [
         51386.98,
-        51213.42,
-        51243.61,
         51265.84,
         51149.73,
         51114.07,
@@ -6273,7 +6271,9 @@
         50861.81,
         50899.67,
         50964.56,
-        50969.14
+        50939.51,
+        50881.18,
+        50870.57
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6312,10 +6312,17 @@
       "impact_high": true
     },
     {
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/china/inside-xi-jinpings-grip-on-power-ahead-of-trump-talks-e383e2fd?mod=rss_worldnews",
+      "published_ts": 1794940500.0,
+      "impact_high": false
+    },
+    {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/anthropic-plans-to-raise-ipo-price-after-strong-demand-1a6b0af1?mod=rss_markets_main",
-      "published_ts": 1794934920.0,
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/politics/policy/feds-lisa-cook-rebuffs-white-house-hearing-citing-biased-panel-e6eac42b?mod=rss_socialeconomyfeed",
+      "published_ts": 1794940440.0,
       "impact_high": false
     },
     {
@@ -6340,13 +6347,6 @@
       "impact_high": false
     },
     {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/china/why-neither-trump-nor-xi-is-likely-to-raise-nvidia-at-their-summit-5b93bc1a?mod=rss_worldnews",
-      "published_ts": 1794916500.0,
-      "impact_high": false
-    },
-    {
       "summary": "반도체 수요와 공급망 뉴스가 기술주 투자심리의 핵심 변수로 작용하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/finance/stocks/asia-stocks-fall-as-u-s-commerce-department-cracks-down-on-chip-shipments-689af812?mod=rss_worldnews",
@@ -6368,7 +6368,7 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "969ace42102f30e9b248397625ef9f62ec4717e15502ef0ce567e769502e35a4",
+  "_article_sig": "6bd7e1c511c33e0a6efdb9d59b373332e47bb5656799a69850cedc6d42ba92c2",
   "built_at_kst": "2026-11-17T07:00:47.047815+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6376,16 +6376,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/politics/policy/feds-lisa-cook-rebuffs-white-house-hearing-citing-biased-panel-e6eac42b?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/corporate-card-startup-ramp-raising-funds-at-70-billion-valuation-631b071a?mod=rss_markets_main"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/anthropic-plans-to-raise-ipo-price-after-strong-demand-1a6b0af1?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/investors-press-for-answers-from-nvidia-where-everything-has-changed-9fa681ce?mod=rss_markets_main"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html"
         }
       ]
     },
@@ -6393,16 +6393,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/politics/policy/feds-lisa-cook-rebuffs-white-house-hearing-citing-biased-panel-e6eac42b?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/anthropic-plans-to-raise-ipo-price-after-strong-demand-1a6b0af1?mod=rss_markets_main"
         },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/politics/policy/feds-lisa-cook-rebuffs-white-house-hearing-citing-biased-panel-e6eac42b?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -6425,18 +6425,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-11-18T03:30:23.358572+09:00",
+    "as_of_kst": "2026-11-18T03:40:17.837306+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7354.5,
-        "change_pct": -1.14,
+        "point": 7370.0,
+        "change_pct": -0.93,
         "spark": [
           7442.25,
-          7412.0,
-          7404.25,
           7406.25,
           7405.0,
           7382.0,
@@ -6474,21 +6472,23 @@
           7349.0,
           7354.25,
           7362.0,
-          7354.5
+          7372.0,
+          7368.25,
+          7370.0
         ],
         "candle": {
           "o": 7442.25,
           "h": 7456.75,
           "l": 7308.0,
-          "c": 7354.0
+          "c": 7369.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 15.12,
-          "high_change_pct": -6.6
+          "low_change_pct": 15.36,
+          "high_change_pct": -6.41
         },
         "daily_expanded": [
           {
@@ -8504,8 +8504,8 @@
             "o": 7442.25,
             "h": 7456.75,
             "l": 7308.0,
-            "c": 7354.0,
-            "v": 1521775
+            "c": 7369.5,
+            "v": 1549703
           }
         ],
         "rollover_gaps": [],
@@ -8513,16 +8513,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/politics/policy/feds-lisa-cook-rebuffs-white-house-hearing-citing-biased-panel-e6eac42b?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/anthropic-plans-to-raise-ipo-price-after-strong-demand-1a6b0af1?mod=rss_markets_main"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/politics/policy/feds-lisa-cook-rebuffs-white-house-hearing-citing-biased-panel-e6eac42b?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8530,12 +8530,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 26982.0,
-        "change_pct": -1.11,
+        "point": 27067.0,
+        "change_pct": -0.8,
         "spark": [
           27314.75,
-          27201.0,
-          27173.25,
           27177.75,
           27148.0,
           27027.5,
@@ -8573,21 +8571,23 @@
           26948.0,
           26983.25,
           27019.75,
-          26982.0
+          27076.0,
+          27059.0,
+          27067.0
         ],
         "candle": {
           "o": 27314.75,
           "h": 27498.0,
           "l": 26658.5,
-          "c": 26979.0
+          "c": 27069.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 16.59,
-          "high_change_pct": -14.31
+          "low_change_pct": 16.98,
+          "high_change_pct": -14.02
         },
         "daily_expanded": [
           {
@@ -10603,8 +10603,8 @@
             "o": 27314.75,
             "h": 27498.0,
             "l": 26658.5,
-            "c": 26979.0,
-            "v": 739889
+            "c": 27069.5,
+            "v": 751524
           }
         ],
         "rollover_gaps": [
@@ -10619,16 +10619,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/politics/policy/feds-lisa-cook-rebuffs-white-house-hearing-citing-biased-panel-e6eac42b?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/corporate-card-startup-ramp-raising-funds-at-70-billion-valuation-631b071a?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/anthropic-plans-to-raise-ipo-price-after-strong-demand-1a6b0af1?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/investors-press-for-answers-from-nvidia-where-everything-has-changed-9fa681ce?mod=rss_markets_main"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html"
             }
           ]
         }
@@ -10636,12 +10636,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 50910.0,
-        "change_pct": -1.47,
+        "point": 51018.0,
+        "change_pct": -1.26,
         "spark": [
           51680.0,
-          51324.0,
-          51274.0,
           51305.0,
           51324.0,
           51199.0,
@@ -10679,21 +10677,23 @@
           50882.0,
           50918.0,
           50961.0,
-          50910.0
+          51022.0,
+          50994.0,
+          51018.0
         ],
         "candle": {
           "o": 51680.0,
           "h": 51729.0,
           "l": 50738.0,
-          "c": 50906.0
+          "c": 51018.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 12.07,
-          "high_change_pct": -6.58
+          "low_change_pct": 12.32,
+          "high_change_pct": -6.38
         },
         "daily_expanded": [
           {
@@ -12709,8 +12709,8 @@
             "o": 51680.0,
             "h": 51729.0,
             "l": 50738.0,
-            "c": 50906.0,
-            "v": 84887
+            "c": 51018.0,
+            "v": 85874
           }
         ],
         "rollover_gaps": [],
@@ -12734,5 +12734,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-11-18T03:30:46.929236+09:00"
+  "intraday_refreshed_kst": "2026-11-18T03:40:39.681705+09:00"
 }
