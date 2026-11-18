@@ -6277,7 +6277,7 @@
       "summary": "반도체 수요와 공급망 뉴스가 기술주 투자심리의 핵심 변수로 작용하는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/18/japan-exports-october-imports-chips.html",
-      "published_ts": 1794960385.0,
+      "published_ts": 1794962131.0,
       "impact_high": true
     },
     {
@@ -6293,6 +6293,13 @@
       "url": "https://www.wsj.com/economy/central-banking/feds-musalem-says-several-rate-hikes-likely-needed-before-spring-2027-ffb3a9fc?mod=rss_socialeconomyfeed",
       "published_ts": 1794921240.0,
       "impact_high": true
+    },
+    {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/finance/commodities-futures/oil-edges-lower-as-supply-surplus-prospects-offset-mideast-tensions-cc9879f2?mod=rss_worldnews",
+      "published_ts": 1794963300.0,
+      "impact_high": false
     },
     {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
@@ -6323,13 +6330,6 @@
       "impact_high": false
     },
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/politics/national-security/nvidia-forms-national-security-committee-after-huangs-exit-c3261fc2?mod=rss_worldnews",
-      "published_ts": 1794920220.0,
-      "impact_high": false
-    },
-    {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/health/healthcare/cvs-breakup-wont-satisfy-washington-it-could-still-work-for-wall-street-1b5004e3?mod=rss_markets_main",
@@ -6344,20 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "17663be6c96c0dd5cba16637cc8edd8bf496fe8492824bf1d155e967cc2d94ea",
+  "_article_sig": "df99d46fc695bf0e8142388f0a8b219152271aaa5b2d53b0d205755ce4bdf9e5",
   "built_at_kst": "2026-11-18T07:00:47.022180+09:00",
   "futures": {
-    "as_of_kst": "2026-11-18T09:50:28.740043+09:00",
+    "as_of_kst": "2026-11-18T10:00:29.282668+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7412.0,
+        "point": 7412.25,
         "change_pct": 0.72,
         "spark": [
           7406.0,
-          7350.75,
           7349.25,
           7349.0,
           7345.25,
@@ -6395,22 +6394,23 @@
           7407.5,
           7410.25,
           7411.5,
-          7412.0,
-          7412.0
+          7411.75,
+          7412.25,
+          7412.25
         ],
         "candle": {
           "o": 7406.0,
           "h": 7434.75,
           "l": 7403.25,
-          "c": 7411.75
+          "c": 7412.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 16.02,
-          "high_change_pct": -5.87
+          "low_change_pct": 16.03,
+          "high_change_pct": -5.86
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7406.0,
             "h": 7434.75,
             "l": 7403.25,
-            "c": 7411.75,
-            "v": 36306
+            "c": 7412.5,
+            "v": 37335
           }
         ],
         "rollover_gaps": [],
@@ -8435,16 +8435,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/finance/commodities-futures/oil-edges-lower-as-supply-surplus-prospects-offset-mideast-tensions-cc9879f2?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/slower-retail-sales-drag-on-market-fd1db66a?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/politics/policy/feds-lisa-cook-rebuffs-white-house-hearing-citing-biased-panel-e6eac42b?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/anthropic-plans-to-raise-ipo-price-after-strong-demand-1a6b0af1?mod=rss_markets_main"
             }
           ]
         }
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 27448.5,
-        "change_pct": 1.38,
+        "point": 27473.25,
+        "change_pct": 1.47,
         "spark": [
           27382.0,
-          26989.5,
-          26983.25,
           26985.25,
           26974.25,
           26950.0,
@@ -8494,22 +8492,24 @@
           27423.75,
           27444.25,
           27448.75,
-          27454.75,
-          27448.5
+          27455.5,
+          27459.75,
+          27480.25,
+          27473.25
         ],
         "candle": {
           "o": 27382.0,
           "h": 27609.75,
           "l": 27382.0,
-          "c": 27453.5
+          "c": 27472.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 18.64,
-          "high_change_pct": -12.8
+          "low_change_pct": 18.73,
+          "high_change_pct": -12.74
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 27382.0,
             "h": 27609.75,
             "l": 27382.0,
-            "c": 27453.5,
-            "v": 35018
+            "c": 27472.75,
+            "v": 36472
           }
         ],
         "rollover_gaps": [
@@ -10558,13 +10558,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 50961.0,
-        "change_pct": 0.29,
+        "point": 50956.0,
+        "change_pct": 0.28,
         "spark": [
           50900.0,
-          50747.0,
-          50805.0,
-          50795.0,
           50802.0,
           50781.0,
           50740.0,
@@ -10601,21 +10598,24 @@
           50946.0,
           50947.0,
           50961.0,
-          50961.0
+          50958.0,
+          50956.0,
+          50960.0,
+          50956.0
         ],
         "candle": {
           "o": 50900.0,
           "h": 51017.0,
           "l": 50900.0,
-          "c": 50961.0
+          "c": 50958.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 12.19,
-          "high_change_pct": -6.48
+          "low_change_pct": 12.18,
+          "high_change_pct": -6.49
         },
         "daily_expanded": [
           {
@@ -12631,8 +12631,8 @@
             "o": 50900.0,
             "h": 51017.0,
             "l": 50900.0,
-            "c": 50961.0,
-            "v": 2178
+            "c": 50958.0,
+            "v": 2291
           }
         ],
         "rollover_gaps": [],
@@ -12679,16 +12679,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/finance/commodities-futures/oil-edges-lower-as-supply-surplus-prospects-offset-mideast-tensions-cc9879f2?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/slower-retail-sales-drag-on-market-fd1db66a?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/politics/policy/feds-lisa-cook-rebuffs-white-house-hearing-citing-biased-panel-e6eac42b?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/anthropic-plans-to-raise-ipo-price-after-strong-demand-1a6b0af1?mod=rss_markets_main"
         }
       ]
     },
@@ -12710,5 +12710,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-11-18T09:50:55.916842+09:00"
+  "intraday_refreshed_kst": "2026-11-18T10:01:01.414530+09:00"
 }
