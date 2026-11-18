@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 24513.25,
-      "change_pct": 0.76,
+      "point": 24442.22,
+      "change_pct": 0.47,
       "candle": {
         "o": 24455.0,
-        "h": 24530.74,
+        "h": 24535.32,
         "l": 24271.56,
-        "c": 24513.25
+        "c": 24442.22
       },
       "range_240d": {
         "low": 20794.64,
@@ -2031,9 +2031,9 @@
         {
           "date": "2026-11-18",
           "o": 24455.0,
-          "h": 24530.74,
+          "h": 24535.32,
           "l": 24271.56,
-          "c": 24513.25
+          "c": 24442.22
         }
       ],
       "spark": [
@@ -2044,7 +2044,9 @@
         24308.5,
         24380.26,
         24474.85,
-        24513.25
+        24458.56,
+        24432.07,
+        24442.22
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2068,13 +2070,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7360.62,
-      "change_pct": 0.27,
+      "point": 7332.34,
+      "change_pct": -0.11,
       "candle": {
         "o": 7355.69,
         "h": 7367.68,
         "l": 7303.22,
-        "c": 7360.62
+        "c": 7332.34
       },
       "range_240d": {
         "low": 6343.72,
@@ -4098,7 +4100,7 @@
           "o": 7355.69,
           "h": 7367.68,
           "l": 7303.22,
-          "c": 7360.62
+          "c": 7332.34
         }
       ],
       "spark": [
@@ -4109,7 +4111,9 @@
         7313.39,
         7330.29,
         7354.63,
-        7360.62
+        7342.85,
+        7331.82,
+        7332.34
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4133,13 +4137,13 @@
     },
     {
       "name": "DOW",
-      "point": 50543.22,
-      "change_pct": -0.43,
+      "point": 50282.16,
+      "change_pct": -0.94,
       "candle": {
         "o": 50627.36,
         "h": 50637.7,
         "l": 50210.49,
-        "c": 50543.22
+        "c": 50282.16
       },
       "range_240d": {
         "low": 45166.64,
@@ -6163,7 +6167,7 @@
           "o": 50627.36,
           "h": 50637.7,
           "l": 50210.49,
-          "c": 50543.22
+          "c": 50282.16
         }
       ],
       "spark": [
@@ -6174,7 +6178,9 @@
         50259.72,
         50327.95,
         50503.94,
-        50543.22
+        50390.24,
+        50287.32,
+        50282.16
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6199,13 +6205,6 @@
   ],
   "news_chips": [
     {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/central-banking/indonesia-resumes-rate-increases-as-rupiah-hits-record-low-d6ef3d12?mod=rss_socialeconomyfeed",
-      "published_ts": 1795001220.0,
-      "impact_high": true
-    },
-    {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
@@ -6213,17 +6212,24 @@
       "impact_high": true
     },
     {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html",
-      "published_ts": 1795010966.0,
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/these-charts-show-why-young-people-across-the-world-are-fed-up-with-the-economy-2fd5f804?mod=rss_socialeconomyfeed",
+      "published_ts": 1795014000.0,
       "impact_high": false
     },
     {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ세계",
-      "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-amid-supply-surplus-expectations-middle-east-tensions-99aeabd5?mod=rss_worldnews",
-      "published_ts": 1795009500.0,
+      "url": "https://www.wsj.com/world/middle-east/iran-attacks-kuwait-and-bahrain-further-escalating-fight-over-strait-08f3a436?mod=rss_worldnews",
+      "published_ts": 1795013760.0,
+      "impact_high": false
+    },
+    {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html",
+      "published_ts": 1795010966.0,
       "impact_high": false
     },
     {
@@ -6269,7 +6275,7 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "43592a06accc01dc4c12780a84987c273e97af7e7110d1cf419686037c7ea995",
+  "_article_sig": "a6bf005e87f80ee7e9cf5249dac09b4d8f9570db13f69b8d74bec2eb26f4d106",
   "built_at_kst": "2026-11-18T07:00:47.022180+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6277,16 +6283,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/iran-attacks-kuwait-and-bahrain-further-escalating-fight-over-strait-08f3a436?mod=rss_worldnews"
+        },
+        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/indonesia-resumes-rate-increases-as-rupiah-hits-record-low-d6ef3d12?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/iran-attacks-kuwait-and-bahrain-further-escalating-fight-over-strait-08f3a436?mod=rss_worldnews"
         }
       ]
     },
@@ -6294,16 +6300,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-amid-supply-surplus-expectations-middle-east-tensions-99aeabd5?mod=rss_worldnews"
-        },
-        {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/indonesia-resumes-rate-increases-as-rupiah-hits-record-low-d6ef3d12?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/economy/these-charts-show-why-young-people-across-the-world-are-fed-up-with-the-economy-2fd5f804?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/middle-east/iran-attacks-kuwait-and-bahrain-further-escalating-fight-over-strait-08f3a436?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-amid-supply-surplus-expectations-middle-east-tensions-99aeabd5?mod=rss_worldnews"
         }
       ]
     },
@@ -6320,24 +6326,22 @@
         },
         {
           "name": "WSJ",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-18-2026?mod=rss_markets_main"
+          "url": "https://www.wsj.com/finance/banking/jpmorgan-chase-names-bregje-de-best-to-succeed-jeremy-barnum-as-cfo-ea77f240?mod=rss_markets_main"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-11-19T00:00:20.513256+09:00",
+    "as_of_kst": "2026-11-19T00:10:10.123037+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7334.0,
-        "change_pct": -0.34,
+        "point": 7373.75,
+        "change_pct": 0.2,
         "spark": [
           7406.0,
-          7388.75,
-          7388.75,
           7387.75,
           7388.5,
           7382.5,
@@ -6375,21 +6379,23 @@
           7343.75,
           7335.25,
           7350.5,
-          7334.0
+          7374.75,
+          7362.5,
+          7373.75
         ],
         "candle": {
           "o": 7406.0,
           "h": 7434.75,
-          "l": 7325.0,
-          "c": 7331.75
+          "l": 7323.25,
+          "c": 7377.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 14.77,
-          "high_change_pct": -6.89
+          "low_change_pct": 15.49,
+          "high_change_pct": -6.3
         },
         "daily_expanded": [
           {
@@ -8404,9 +8410,9 @@
             "date": "2026-11-18",
             "o": 7406.0,
             "h": 7434.75,
-            "l": 7325.0,
-            "c": 7331.75,
-            "v": 505048
+            "l": 7323.25,
+            "c": 7377.75,
+            "v": 592429
           }
         ],
         "rollover_gaps": [],
@@ -8414,16 +8420,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-amid-supply-surplus-expectations-middle-east-tensions-99aeabd5?mod=rss_worldnews"
-            },
-            {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/indonesia-resumes-rate-increases-as-rupiah-hits-record-low-d6ef3d12?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/economy/these-charts-show-why-young-people-across-the-world-are-fed-up-with-the-economy-2fd5f804?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/middle-east/iran-attacks-kuwait-and-bahrain-further-escalating-fight-over-strait-08f3a436?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-amid-supply-surplus-expectations-middle-east-tensions-99aeabd5?mod=rss_worldnews"
             }
           ]
         }
@@ -8431,13 +8437,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 27025.25,
-        "change_pct": -0.19,
+        "point": 27282.75,
+        "change_pct": 0.77,
         "spark": [
           27382.0,
-          27325.75,
-          27314.25,
-          27318.25,
           27310.75,
           27320.5,
           27293.75,
@@ -8474,21 +8477,24 @@
           27105.5,
           27016.25,
           27025.75,
-          27025.25
+          27113.25,
+          27245.0,
+          27202.0,
+          27282.75
         ],
         "candle": {
           "o": 27382.0,
           "h": 27609.75,
-          "l": 26968.5,
-          "c": 26979.25
+          "l": 26951.75,
+          "c": 27287.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 16.59,
-          "high_change_pct": -14.31
+          "low_change_pct": 17.93,
+          "high_change_pct": -13.33
         },
         "daily_expanded": [
           {
@@ -10503,9 +10509,9 @@
             "date": "2026-11-18",
             "o": 27382.0,
             "h": 27609.75,
-            "l": 26968.5,
-            "c": 26979.25,
-            "v": 319318
+            "l": 26951.75,
+            "c": 27287.75,
+            "v": 356566
           }
         ],
         "rollover_gaps": [
@@ -10520,16 +10526,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/iran-attacks-kuwait-and-bahrain-further-escalating-fight-over-strait-08f3a436?mod=rss_worldnews"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/indonesia-resumes-rate-increases-as-rupiah-hits-record-low-d6ef3d12?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/iran-attacks-kuwait-and-bahrain-further-escalating-fight-over-strait-08f3a436?mod=rss_worldnews"
             }
           ]
         }
@@ -10537,12 +10543,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 50314.0,
-        "change_pct": -0.99,
+        "point": 50608.0,
+        "change_pct": -0.41,
         "spark": [
           50900.0,
-          50862.0,
-          50858.0,
           50848.0,
           50847.0,
           50810.0,
@@ -10580,21 +10584,23 @@
           50482.0,
           50343.0,
           50399.0,
-          50314.0
+          50575.0,
+          50460.0,
+          50608.0
         ],
         "candle": {
           "o": 50900.0,
           "h": 51017.0,
-          "l": 50303.0,
-          "c": 50314.0
+          "l": 50291.0,
+          "c": 50578.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 10.77,
-          "high_change_pct": -7.67
+          "low_change_pct": 11.35,
+          "high_change_pct": -7.19
         },
         "daily_expanded": [
           {
@@ -12609,9 +12615,9 @@
             "date": "2026-11-18",
             "o": 50900.0,
             "h": 51017.0,
-            "l": 50303.0,
-            "c": 50314.0,
-            "v": 38237
+            "l": 50291.0,
+            "c": 50578.0,
+            "v": 42237
           }
         ],
         "rollover_gaps": [],
@@ -12628,12 +12634,12 @@
             },
             {
               "name": "WSJ",
-              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-18-2026?mod=rss_markets_main"
+              "url": "https://www.wsj.com/finance/banking/jpmorgan-chase-names-bregje-de-best-to-succeed-jeremy-barnum-as-cfo-ea77f240?mod=rss_markets_main"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-11-19T00:00:46.714978+09:00"
+  "intraday_refreshed_kst": "2026-11-19T00:10:31.140679+09:00"
 }
