@@ -6206,13 +6206,6 @@
   ],
   "news_chips": [
     {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/moodys-says-u-s-economy-grew-more-than-expected-416c91a5?mod=rss_socialeconomyfeed",
-      "published_ts": 1795042200.0,
-      "impact_high": true
-    },
-    {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/202611196002i",
@@ -6225,6 +6218,13 @@
       "url": "https://www.cnbc.com/2026/11/18/japan-exports-october-imports-chips.html",
       "published_ts": 1794962131.0,
       "impact_high": true
+    },
+    {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/europe/european-defense-chief-snaps-at-pentagon-official-over-ukraine-criticism-0f47f082?mod=rss_worldnews",
+      "published_ts": 1795044660.0,
+      "impact_high": false
     },
     {
       "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
@@ -6276,22 +6276,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "e824abb23d5e020c3c688b633d733c3369d6a3ae8bf636359913fec45abf6423",
+  "_article_sig": "3a6dea24b90346e66a104004561649df97b10093e861516acefe51d61823fabe",
   "built_at_kst": "2026-11-19T07:00:50.603801+09:00",
   "futures": {
-    "as_of_kst": "2026-11-19T08:30:18.983169+09:00",
+    "as_of_kst": "2026-11-19T08:40:22.811466+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7359.5,
-        "change_pct": 0.01,
+        "point": 7368.25,
+        "change_pct": 0.38,
         "spark": [
           7406.0,
-          7378.25,
-          7371.0,
-          7370.0,
           7373.0,
           7373.25,
           7370.75,
@@ -6328,21 +6325,24 @@
           7339.25,
           7325.75,
           7360.0,
-          7359.5
+          7365.25,
+          7368.75,
+          7371.5,
+          7368.25
         ],
         "candle": {
           "o": 7406.0,
           "h": 7434.75,
           "l": 7322.5,
-          "c": 7360.5
+          "c": 7368.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 15.22,
-          "high_change_pct": -6.52
+          "low_change_pct": 15.34,
+          "high_change_pct": -6.42
         },
         "daily_expanded": [
           {
@@ -8358,8 +8358,8 @@
             "o": 7406.0,
             "h": 7434.75,
             "l": 7322.5,
-            "c": 7360.5,
-            "v": 6926
+            "c": 7368.25,
+            "v": 9910
           }
         ],
         "rollover_gaps": [],
@@ -8384,13 +8384,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 27336.0,
-        "change_pct": 0.96,
+        "point": 27403.0,
+        "change_pct": 0.8,
         "spark": [
           27382.0,
-          27251.75,
-          27215.75,
-          27217.0,
           27232.75,
           27228.75,
           27221.25,
@@ -8427,21 +8424,24 @@
           27091.5,
           27028.0,
           27336.25,
-          27336.0
+          27387.0,
+          27413.75,
+          27433.5,
+          27403.0
         ],
         "candle": {
           "o": 27382.0,
-          "h": 27609.75,
-          "l": 26951.75,
-          "c": 27341.75
+          "h": 27420.5,
+          "l": 27169.0,
+          "c": 27405.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 18.16,
-          "high_change_pct": -13.15
+          "low_change_pct": 18.44,
+          "high_change_pct": -12.95
         },
         "daily_expanded": [
           {
@@ -10455,10 +10455,10 @@
           {
             "date": "2026-11-18",
             "o": 27382.0,
-            "h": 27609.75,
-            "l": 26951.75,
-            "c": 27341.75,
-            "v": 6944
+            "h": 27420.5,
+            "l": 27169.0,
+            "c": 27405.75,
+            "v": 10600
           }
         ],
         "rollover_gaps": [
@@ -10473,16 +10473,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/europe/european-defense-chief-snaps-at-pentagon-official-over-ukraine-criticism-0f47f082?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/moodys-says-u-s-economy-grew-more-than-expected-416c91a5?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/anthropic-sells-more-shares-than-planned-at-a-higher-price-than-expected-4b511002?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/nvidia-says-its-business-as-usual-after-huangs-ouster-wall-street-doesnt-buy-it-954290c4?mod=rss_markets_main"
             }
           ]
         }
@@ -10490,13 +10490,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 50339.0,
-        "change_pct": -0.94,
+        "point": 50335.0,
+        "change_pct": 0.12,
         "spark": [
           50900.0,
-          50777.0,
-          50713.0,
-          50711.0,
           50725.0,
           50733.0,
           50717.0,
@@ -10533,21 +10530,24 @@
           50300.0,
           50224.0,
           50333.0,
-          50339.0
+          50335.0,
+          50346.0,
+          50363.0,
+          50335.0
         ],
         "candle": {
           "o": 50900.0,
           "h": 51017.0,
           "l": 50199.0,
-          "c": 50339.0
+          "c": 50336.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 10.82,
-          "high_change_pct": -7.62
+          "low_change_pct": 10.81,
+          "high_change_pct": -7.63
         },
         "daily_expanded": [
           {
@@ -12563,8 +12563,8 @@
             "o": 50900.0,
             "h": 51017.0,
             "l": 50199.0,
-            "c": 50339.0,
-            "v": 632
+            "c": 50336.0,
+            "v": 888
           }
         ],
         "rollover_gaps": [],
@@ -12594,16 +12594,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/europe/european-defense-chief-snaps-at-pentagon-official-over-ukraine-criticism-0f47f082?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/moodys-says-u-s-economy-grew-more-than-expected-416c91a5?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/anthropic-sells-more-shares-than-planned-at-a-higher-price-than-expected-4b511002?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/nvidia-says-its-business-as-usual-after-huangs-ouster-wall-street-doesnt-buy-it-954290c4?mod=rss_markets_main"
         }
       ]
     },
@@ -12642,5 +12642,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-11-19T08:30:46.446424+09:00"
+  "intraday_refreshed_kst": "2026-11-19T08:40:50.618655+09:00"
 }
