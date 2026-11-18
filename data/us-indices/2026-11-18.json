@@ -6288,18 +6288,18 @@
       "impact_high": true
     },
     {
-      "summary": "반도체 수요와 공급망 뉴스가 기술주 투자심리의 핵심 변수로 작용하는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/18/japan-exports-october-imports-chips.html",
-      "published_ts": 1794962131.0,
-      "impact_high": true
-    },
-    {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
       "published_ts": 1794929713.0,
       "impact_high": true
+    },
+    {
+      "summary": "반도체 수요와 공급망 뉴스가 기술주 투자심리의 핵심 변수로 작용하는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/2026111856131",
+      "published_ts": 1794992806.0,
+      "impact_high": false
     },
     {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
@@ -6344,20 +6344,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "7ccfcbeff404999aa5af26de32cd1201c917a2a65411a2a42930261acd29c15d",
+  "_article_sig": "4ccbe05105a2e270eeca0e5c5bcf9adea7d56b1c5b8428b28a646334d128ea16",
   "built_at_kst": "2026-11-18T07:00:47.022180+09:00",
   "futures": {
-    "as_of_kst": "2026-11-18T18:10:14.242234+09:00",
+    "as_of_kst": "2026-11-18T18:20:14.769900+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7397.0,
+        "point": 7397.5,
         "change_pct": 0.52,
         "spark": [
           7406.0,
-          7375.0,
           7376.75,
           7373.75,
           7373.0,
@@ -6396,21 +6395,22 @@
           7399.0,
           7397.75,
           7400.5,
-          7397.0
+          7398.75,
+          7397.5
         ],
         "candle": {
           "o": 7406.0,
           "h": 7434.75,
           "l": 7363.25,
-          "c": 7396.75
+          "c": 7398.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 15.79,
-          "high_change_pct": -6.06
+          "low_change_pct": 15.81,
+          "high_change_pct": -6.04
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7406.0,
             "h": 7434.75,
             "l": 7363.25,
-            "c": 7396.75,
-            "v": 156703
+            "c": 7398.5,
+            "v": 161439
           }
         ],
         "rollover_gaps": [],
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 27332.75,
-        "change_pct": 0.95,
+        "point": 27350.75,
+        "change_pct": 1.02,
         "spark": [
           27382.0,
-          27218.25,
-          27226.0,
           27195.25,
           27194.0,
           27208.25,
@@ -8495,21 +8493,23 @@
           27326.0,
           27334.25,
           27362.25,
-          27332.75
+          27352.5,
+          27345.0,
+          27350.75
         ],
         "candle": {
           "o": 27382.0,
           "h": 27609.75,
           "l": 27093.0,
-          "c": 27318.25
+          "c": 27347.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 18.06,
-          "high_change_pct": -13.23
+          "low_change_pct": 18.18,
+          "high_change_pct": -13.14
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 27382.0,
             "h": 27609.75,
             "l": 27093.0,
-            "c": 27318.25,
-            "v": 141752
+            "c": 27347.5,
+            "v": 145710
           }
         ],
         "rollover_gaps": [
@@ -10542,15 +10542,15 @@
           "sources": [
             {
               "name": "한경국제",
+              "url": "https://www.hankyung.com/article/2026111856131"
+            },
+            {
+              "name": "한경국제",
               "url": "https://www.hankyung.com/article/2026111855161"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/indonesia-resumes-rate-increases-as-rupiah-hits-record-low-d6ef3d12?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10558,12 +10558,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 50915.0,
-        "change_pct": 0.2,
+        "point": 50931.0,
+        "change_pct": 0.23,
         "spark": [
           50900.0,
-          50850.0,
-          50857.0,
           50839.0,
           50833.0,
           50847.0,
@@ -10601,21 +10599,23 @@
           50960.0,
           50929.0,
           50955.0,
-          50915.0
+          50928.0,
+          50927.0,
+          50931.0
         ],
         "candle": {
           "o": 50900.0,
           "h": 51017.0,
           "l": 50733.0,
-          "c": 50915.0
+          "c": 50931.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 12.09,
-          "high_change_pct": -6.57
+          "low_change_pct": 12.12,
+          "high_change_pct": -6.54
         },
         "daily_expanded": [
           {
@@ -12631,8 +12631,8 @@
             "o": 50900.0,
             "h": 51017.0,
             "l": 50733.0,
-            "c": 50915.0,
-            "v": 14283
+            "c": 50931.0,
+            "v": 14662
           }
         ],
         "rollover_gaps": [],
@@ -12663,15 +12663,15 @@
       "sources": [
         {
           "name": "한경국제",
+          "url": "https://www.hankyung.com/article/2026111856131"
+        },
+        {
+          "name": "한경국제",
           "url": "https://www.hankyung.com/article/2026111855161"
         },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/indonesia-resumes-rate-increases-as-rupiah-hits-record-low-d6ef3d12?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12710,5 +12710,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-11-18T18:10:38.071924+09:00"
+  "intraday_refreshed_kst": "2026-11-18T18:20:37.973413+09:00"
 }
