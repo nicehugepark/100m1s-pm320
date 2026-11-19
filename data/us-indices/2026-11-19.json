@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-bond-yields-edge-higher-47e08817?mod=rss_socialeconomyfeed",
+      "published_ts": 1795081200.0,
+      "impact_high": true
+    },
+    {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/finance/asian-equities-decline-as-caution-prevails-eaf3c1e9?mod=rss_worldnews",
@@ -6285,6 +6292,13 @@
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/insurgents-in-irans-borderlands-are-becoming-a-bigger-challenge-for-the-regime-f816b46f?mod=rss_worldnews",
       "published_ts": 1795050000.0,
+      "impact_high": true
+    },
+    {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/global/cost-pressures-already-in-pipeline-to-fuel-higher-inflation-d2062d65?mod=rss_socialeconomyfeed",
+      "published_ts": 1794998580.0,
       "impact_high": true
     },
     {
@@ -6309,24 +6323,10 @@
       "impact_high": false
     },
     {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/economy/these-charts-show-why-young-people-across-the-world-are-fed-up-with-the-economy-2fd5f804?mod=rss_socialeconomyfeed",
-      "published_ts": 1795014000.0,
-      "impact_high": false
-    },
-    {
       "summary": "반도체 수요와 공급망 뉴스가 기술주 투자심리의 핵심 변수로 작용하는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/18/japan-exports-october-imports-chips.html",
       "published_ts": 1794962131.0,
-      "impact_high": true
-    },
-    {
-      "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
-      "published_ts": 1794929713.0,
       "impact_high": true
     },
     {
@@ -6344,22 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "af40313741779d718aef6d431f05ecd476f20adaa59055217987479117c2ed57",
+  "_article_sig": "94d09b091e4595f37213e40ea791194ee3eff408be788bc86813ee95f9c4b3d7",
   "built_at_kst": "2026-11-19T07:00:50.603801+09:00",
   "futures": {
-    "as_of_kst": "2026-11-19T18:40:16.584187+09:00",
+    "as_of_kst": "2026-11-19T18:50:26.858511+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7412.0,
-        "change_pct": 0.97,
+        "point": 7416.25,
+        "change_pct": 1.03,
         "spark": [
           7340.5,
-          7400.25,
-          7400.25,
-          7400.25,
           7407.0,
           7403.25,
           7408.5,
@@ -6396,21 +6393,24 @@
           7415.75,
           7412.0,
           7406.5,
-          7412.0
+          7412.0,
+          7416.5,
+          7418.25,
+          7416.25
         ],
         "candle": {
           "o": 7340.5,
           "h": 7425.75,
           "l": 7338.25,
-          "c": 7406.25
+          "c": 7416.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 15.94,
-          "high_change_pct": -5.94
+          "low_change_pct": 16.1,
+          "high_change_pct": -5.81
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7340.5,
             "h": 7425.75,
             "l": 7338.25,
-            "c": 7406.25,
-            "v": 152518
+            "c": 7416.5,
+            "v": 156012
           }
         ],
         "rollover_gaps": [],
@@ -8435,16 +8435,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-bond-yields-edge-higher-47e08817?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/finance/asian-equities-decline-as-caution-prevails-eaf3c1e9?mod=rss_worldnews"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/bank-of-japans-ueda-reaffirms-readiness-to-keep-raising-rates-8365bc0a?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/insurgents-in-irans-borderlands-are-becoming-a-bigger-challenge-for-the-regime-f816b46f?mod=rss_worldnews"
             }
           ]
         }
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 27629.25,
-        "change_pct": 1.63,
+        "point": 27699.75,
+        "change_pct": 1.89,
         "spark": [
           27174.0,
-          27562.0,
-          27563.0,
           27629.75,
           27604.25,
           27630.5,
@@ -8495,21 +8493,23 @@
           27666.25,
           27631.5,
           27668.25,
-          27629.25
+          27696.25,
+          27700.75,
+          27699.75
         ],
         "candle": {
           "o": 27174.0,
           "h": 27742.0,
           "l": 27169.0,
-          "c": 27633.5
+          "c": 27701.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 19.42,
-          "high_change_pct": -12.23
+          "low_change_pct": 19.71,
+          "high_change_pct": -12.01
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 27174.0,
             "h": 27742.0,
             "l": 27169.0,
-            "c": 27633.5,
-            "v": 126950
+            "c": 27701.75,
+            "v": 128655
           }
         ],
         "rollover_gaps": [
@@ -10541,16 +10541,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-bond-yields-edge-higher-47e08817?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/anthropic-ipo-stock-market-today-11-19-2026?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/anthropic-prices-ipo-at-83-a-share-0290494c?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/bank-of-japans-ueda-reaffirms-readiness-to-keep-raising-rates-8365bc0a?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10558,12 +10558,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 50507.0,
-        "change_pct": 0.47,
+        "point": 50575.0,
+        "change_pct": 0.6,
         "spark": [
           50258.0,
-          50532.0,
-          50526.0,
           50536.0,
           50528.0,
           50556.0,
@@ -10601,21 +10599,23 @@
           50530.0,
           50504.0,
           50543.0,
-          50507.0
+          50566.0,
+          50560.0,
+          50575.0
         ],
         "candle": {
           "o": 50258.0,
           "h": 50651.0,
           "l": 50258.0,
-          "c": 50511.0
+          "c": 50575.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 11.2,
-          "high_change_pct": -7.31
+          "low_change_pct": 11.34,
+          "high_change_pct": -7.19
         },
         "daily_expanded": [
           {
@@ -12631,8 +12631,8 @@
             "o": 50258.0,
             "h": 50651.0,
             "l": 50258.0,
-            "c": 50511.0,
-            "v": 14111
+            "c": 50575.0,
+            "v": 14361
           }
         ],
         "rollover_gaps": [],
@@ -12662,16 +12662,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-bond-yields-edge-higher-47e08817?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/anthropic-ipo-stock-market-today-11-19-2026?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/anthropic-prices-ipo-at-83-a-share-0290494c?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/bank-of-japans-ueda-reaffirms-readiness-to-keep-raising-rates-8365bc0a?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12679,16 +12679,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-bond-yields-edge-higher-47e08817?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/finance/asian-equities-decline-as-caution-prevails-eaf3c1e9?mod=rss_worldnews"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/bank-of-japans-ueda-reaffirms-readiness-to-keep-raising-rates-8365bc0a?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/insurgents-in-irans-borderlands-are-becoming-a-bigger-challenge-for-the-regime-f816b46f?mod=rss_worldnews"
         }
       ]
     },
@@ -12710,5 +12710,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-11-19T18:40:39.468845+09:00"
+  "intraday_refreshed_kst": "2026-11-19T18:50:56.081977+09:00"
 }
