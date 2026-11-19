@@ -6295,6 +6295,13 @@
       "impact_high": true
     },
     {
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/2026112088337",
+      "published_ts": 1795126115.0,
+      "impact_high": false
+    },
+    {
       "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87?mod=rss_markets_main",
@@ -6313,13 +6320,6 @@
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/israeli-spy-chief-pressed-for-renewed-iran-strikes-during-u-s-visit-3ba229d3?mod=rss_worldnews",
       "published_ts": 1795120740.0,
-      "impact_high": false
-    },
-    {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/russia/trump-xi-summit-shows-putins-powerful-friendships-have-their-limits-4fbd87ba?mod=rss_worldnews",
-      "published_ts": 1795118880.0,
       "impact_high": false
     },
     {
@@ -6344,10 +6344,10 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "0b374bfd17b7b9f86241dda7ae04d5178f7b8a836b0667ea446f9770962356b1",
+  "_article_sig": "f57507e3ba3ccc8cf7b37776e622cbc0c276f56c23e8fa353fcd20f4b775121f",
   "built_at_kst": "2026-11-20T07:01:07.595631+09:00",
   "futures": {
-    "as_of_kst": "2026-11-20T07:10:19.857140+09:00",
+    "as_of_kst": "2026-11-20T07:20:18.210323+09:00",
     "session_open": false,
     "futures": [
       {
@@ -6395,7 +6395,7 @@
           7176.0,
           7174.0,
           7177.25,
-          7183.5,
+          7182.5,
           7182.5
         ],
         "candle": {
@@ -8430,7 +8430,24 @@
             "v": 2494046
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-bond-yields-edge-higher-47e08817?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/middle-east/israeli-spy-chief-pressed-for-renewed-iran-strikes-during-u-s-visit-3ba229d3?mod=rss_worldnews"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html"
+            }
+          ]
+        }
       },
       {
         "name": "나스닥100 선물",
@@ -8477,7 +8494,7 @@
           26468.25,
           26463.75,
           26482.25,
-          26510.0,
+          26505.5,
           26505.5
         ],
         "candle": {
@@ -10519,7 +10536,24 @@
             "to": 26752.0,
             "gap_pct": -6.35
           }
-        ]
+        ],
+        "news": {
+          "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+          "sources": [
+            {
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/2026112088337"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/two-big-debuts-fail-to-boost-stocks-b68b79b1?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-bond-yields-edge-higher-47e08817?mod=rss_socialeconomyfeed"
+            }
+          ]
+        }
       },
       {
         "name": "다우 선물",
@@ -12601,10 +12635,80 @@
             "v": 110831
           }
         ],
-        "rollover_gaps": []
+        "rollover_gaps": [],
+        "news": {
+          "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+          "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87?mod=rss_markets_main"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html"
+            },
+            {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/trump-xi-and-putin-convene-first-ever-summit-as-world-order-shifts-82e58aab?mod=rss_worldnews"
+            }
+          ]
+        }
       }
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-11-20T07:10:40.195645+09:00"
+  "intraday_refreshed_kst": "2026-11-20T07:20:43.597151+09:00",
+  "_futures_news": {
+    "NASDAQ": {
+      "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/2026112088337"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/two-big-debuts-fail-to-boost-stocks-b68b79b1?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-bond-yields-edge-higher-47e08817?mod=rss_socialeconomyfeed"
+        }
+      ]
+    },
+    "S&P500": {
+      "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
+      "sources": [
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-bond-yields-edge-higher-47e08817?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/middle-east/israeli-spy-chief-pressed-for-renewed-iran-strikes-during-u-s-visit-3ba229d3?mod=rss_worldnews"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html"
+        }
+      ]
+    },
+    "DOW": {
+      "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
+      "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87?mod=rss_markets_main"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html"
+        },
+        {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/trump-xi-and-putin-convene-first-ever-summit-as-world-order-shifts-82e58aab?mod=rss_worldnews"
+        }
+      ]
+    }
+  }
 }
