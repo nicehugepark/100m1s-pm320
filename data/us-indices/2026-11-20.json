@@ -2088,7 +2088,8 @@
             "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html"
           }
         ]
-      }
+      },
+      "session_open": false
     },
     {
       "name": "S&P500",
@@ -4177,7 +4178,8 @@
             "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html"
           }
         ]
-      }
+      },
+      "session_open": false
     },
     {
       "name": "DOW",
@@ -6266,7 +6268,8 @@
             "url": "https://www.wsj.com/world/trump-xi-and-putin-convene-first-ever-summit-as-world-order-shifts-82e58aab?mod=rss_worldnews"
           }
         ]
-      }
+      },
+      "session_open": false
     }
   ],
   "news_chips": [
@@ -6344,17 +6347,16 @@
   "_article_sig": "0b374bfd17b7b9f86241dda7ae04d5178f7b8a836b0667ea446f9770962356b1",
   "built_at_kst": "2026-11-20T07:01:07.595631+09:00",
   "futures": {
-    "as_of_kst": "2026-11-20T07:01:07.594981+09:00",
+    "as_of_kst": "2026-11-20T07:10:19.857140+09:00",
     "session_open": false,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7174.0,
-        "change_pct": -2.27,
+        "point": 7182.5,
+        "change_pct": -2.15,
         "spark": [
           7340.5,
-          7246.75,
           7237.25,
           7237.5,
           7238.75,
@@ -6393,21 +6395,22 @@
           7176.0,
           7174.0,
           7177.25,
-          7174.0
+          7183.5,
+          7182.5
         ],
         "candle": {
           "o": 7340.5,
           "h": 7440.5,
           "l": 7167.75,
-          "c": 7175.25
+          "c": 7182.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 12.32,
-          "high_change_pct": -8.87
+          "low_change_pct": 12.43,
+          "high_change_pct": -8.78
         },
         "daily_expanded": [
           {
@@ -8423,8 +8426,8 @@
             "o": 7340.5,
             "h": 7440.5,
             "l": 7167.75,
-            "c": 7175.25,
-            "v": 2489411
+            "c": 7182.5,
+            "v": 2494046
           }
         ],
         "rollover_gaps": []
@@ -8432,11 +8435,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 26476.25,
-        "change_pct": -2.61,
+        "point": 26505.5,
+        "change_pct": -2.51,
         "spark": [
           27174.0,
-          26813.5,
           26770.25,
           26776.25,
           26778.0,
@@ -8475,21 +8477,22 @@
           26468.25,
           26463.75,
           26482.25,
-          26476.25
+          26510.0,
+          26505.5
         ],
         "candle": {
           "o": 27174.0,
           "h": 27838.0,
           "l": 26436.0,
-          "c": 26480.5
+          "c": 26505.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 14.44,
-          "high_change_pct": -15.89
+          "low_change_pct": 14.55,
+          "high_change_pct": -15.81
         },
         "daily_expanded": [
           {
@@ -10505,8 +10508,8 @@
             "o": 27174.0,
             "h": 27838.0,
             "l": 26436.0,
-            "c": 26480.5,
-            "v": 986406
+            "c": 26505.5,
+            "v": 988328
           }
         ],
         "rollover_gaps": [
@@ -10521,11 +10524,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 49080.0,
-        "change_pct": -2.37,
+        "point": 49097.0,
+        "change_pct": -2.34,
         "spark": [
           50258.0,
-          49469.0,
           49411.0,
           49418.0,
           49422.0,
@@ -10564,21 +10566,22 @@
           49082.0,
           49073.0,
           49071.0,
-          49080.0
+          49107.0,
+          49097.0
         ],
         "candle": {
           "o": 50258.0,
           "h": 50656.0,
           "l": 49056.0,
-          "c": 49087.0
+          "c": 49097.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 8.06,
-          "high_change_pct": -9.92
+          "low_change_pct": 8.09,
+          "high_change_pct": -9.9
         },
         "daily_expanded": [
           {
@@ -12594,12 +12597,14 @@
             "o": 50258.0,
             "h": 50656.0,
             "l": 49056.0,
-            "c": 49087.0,
-            "v": 110633
+            "c": 49097.0,
+            "v": 110831
           }
         ],
         "rollover_gaps": []
       }
     ]
-  }
+  },
+  "regular_open": false,
+  "intraday_refreshed_kst": "2026-11-20T07:10:40.195645+09:00"
 }
