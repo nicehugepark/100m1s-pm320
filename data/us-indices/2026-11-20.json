@@ -6277,14 +6277,14 @@
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html",
-      "published_ts": 1795132769.0,
+      "published_ts": 1795134564.0,
       "impact_high": true
     },
     {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
-      "published_ts": 1795119527.0,
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/central-banking/fed-cuts-pay-raises-for-regional-bank-staff-e3184f2d?mod=rss_socialeconomyfeed",
+      "published_ts": 1795134360.0,
       "impact_high": true
     },
     {
@@ -6293,6 +6293,13 @@
       "url": "https://www.wsj.com/finance/asian-equities-decline-as-caution-prevails-eaf3c1e9?mod=rss_worldnews",
       "published_ts": 1795066920.0,
       "impact_high": true
+    },
+    {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/202611208992i",
+      "published_ts": 1795134423.0,
+      "impact_high": false
     },
     {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
@@ -6306,13 +6313,6 @@
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/202611208966i",
       "published_ts": 1795130249.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/anthropics-ipo-mints-new-millionaires-5dbb6289?mod=rss_markets_main",
-      "published_ts": 1795128060.0,
       "impact_high": false
     },
     {
@@ -6344,20 +6344,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "e6ea76e3feb842333e2dab8c978aa1394a4fe89de7b408762db3c8018e152436",
+  "_article_sig": "7a59efe14f49e71f822da02e4ebbcfbaf3f091cd05d7ef68ca02e846cc9a3fdd",
   "built_at_kst": "2026-11-20T07:01:07.595631+09:00",
   "futures": {
-    "as_of_kst": "2026-11-20T09:20:31.649961+09:00",
+    "as_of_kst": "2026-11-20T09:30:27.053543+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7196.0,
-        "change_pct": -0.02,
+        "point": 7194.25,
+        "change_pct": -0.04,
         "spark": [
           7192.75,
-          7199.5,
           7207.5,
           7201.25,
           7217.5,
@@ -6395,22 +6394,23 @@
           7190.25,
           7194.75,
           7196.0,
-          7194.0,
-          7196.0
+          7193.0,
+          7194.25,
+          7194.25
         ],
         "candle": {
           "o": 7192.75,
           "h": 7199.25,
           "l": 7172.75,
-          "c": 7195.5
+          "c": 7193.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 12.64,
-          "high_change_pct": -8.62
+          "low_change_pct": 12.61,
+          "high_change_pct": -8.64
         },
         "daily_expanded": [
           {
@@ -8426,8 +8426,8 @@
             "o": 7192.75,
             "h": 7199.25,
             "l": 7172.75,
-            "c": 7195.5,
-            "v": 23076
+            "c": 7193.75,
+            "v": 25421
           }
         ],
         "rollover_gaps": [],
@@ -8435,16 +8435,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/anthropic-ipo-ai-markets-89e2476f?mod=rss_markets_main"
-            },
-            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html"
             },
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/japan-consumer-inflation-accelerates-amid-rate-hike-views-15cf7577?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/economy/central-banking/fed-cuts-pay-raises-for-regional-bank-staff-e3184f2d?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/anthropic-ipo-ai-markets-89e2476f?mod=rss_markets_main"
             }
           ]
         }
@@ -8452,12 +8452,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 26557.25,
-        "change_pct": -0.16,
+        "point": 26542.0,
+        "change_pct": -0.22,
         "spark": [
           26600.0,
-          26598.75,
-          26633.75,
           26603.75,
           26678.0,
           26670.5,
@@ -8494,22 +8492,24 @@
           26529.0,
           26564.25,
           26560.25,
-          26548.0,
-          26557.25
+          26536.0,
+          26545.5,
+          26540.0,
+          26542.0
         ],
         "candle": {
           "o": 26600.0,
           "h": 26603.5,
           "l": 26416.0,
-          "c": 26558.75
+          "c": 26545.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 14.78,
-          "high_change_pct": -15.64
+          "low_change_pct": 14.72,
+          "high_change_pct": -15.69
         },
         "daily_expanded": [
           {
@@ -10525,8 +10525,8 @@
             "o": 26600.0,
             "h": 26603.5,
             "l": 26416.0,
-            "c": 26558.75,
-            "v": 17932
+            "c": 26545.0,
+            "v": 19584
           }
         ],
         "rollover_gaps": [
@@ -10541,16 +10541,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/anthropic-ipo-ai-markets-89e2476f?mod=rss_markets_main"
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/202611208992i"
             },
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/japan-consumer-inflation-accelerates-amid-rate-hike-views-15cf7577?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/economy/central-banking/fed-cuts-pay-raises-for-regional-bank-staff-e3184f2d?mod=rss_socialeconomyfeed"
             },
             {
-              "name": "한경국제",
-              "url": "https://www.hankyung.com/article/2026112088797"
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/anthropic-ipo-ai-markets-89e2476f?mod=rss_markets_main"
             }
           ]
         }
@@ -10558,12 +10558,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 49186.0,
-        "change_pct": 0.01,
+        "point": 49189.0,
+        "change_pct": 0.02,
         "spark": [
           49237.0,
-          49198.0,
-          49240.0,
           49220.0,
           49313.0,
           49296.0,
@@ -10600,22 +10598,24 @@
           49149.0,
           49167.0,
           49184.0,
-          49180.0,
-          49186.0
+          49190.0,
+          49188.0,
+          49184.0,
+          49189.0
         ],
         "candle": {
           "o": 49237.0,
           "h": 49237.0,
           "l": 49086.0,
-          "c": 49180.0
+          "c": 49189.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 8.27,
-          "high_change_pct": -9.75
+          "low_change_pct": 8.29,
+          "high_change_pct": -9.74
         },
         "daily_expanded": [
           {
@@ -12631,8 +12631,8 @@
             "o": 49237.0,
             "h": 49237.0,
             "l": 49086.0,
-            "c": 49180.0,
-            "v": 1829
+            "c": 49189.0,
+            "v": 2091
           }
         ],
         "rollover_gaps": [],
@@ -12645,11 +12645,11 @@
             },
             {
               "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/japan-consumer-inflation-accelerates-amid-rate-hike-views-15cf7577?mod=rss_socialeconomyfeed"
+              "url": "https://www.wsj.com/economy/central-banking/fed-cuts-pay-raises-for-regional-bank-staff-e3184f2d?mod=rss_socialeconomyfeed"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87?mod=rss_markets_main"
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/japan-consumer-inflation-accelerates-amid-rate-hike-views-15cf7577?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -12657,22 +12657,22 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-11-20T09:21:00.400966+09:00",
+  "intraday_refreshed_kst": "2026-11-20T09:30:52.427527+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/anthropic-ipo-ai-markets-89e2476f?mod=rss_markets_main"
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/202611208992i"
         },
         {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/japan-consumer-inflation-accelerates-amid-rate-hike-views-15cf7577?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/economy/central-banking/fed-cuts-pay-raises-for-regional-bank-staff-e3184f2d?mod=rss_socialeconomyfeed"
         },
         {
-          "name": "한경국제",
-          "url": "https://www.hankyung.com/article/2026112088797"
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/anthropic-ipo-ai-markets-89e2476f?mod=rss_markets_main"
         }
       ]
     },
@@ -12680,16 +12680,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/anthropic-ipo-ai-markets-89e2476f?mod=rss_markets_main"
-        },
-        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html"
         },
         {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/japan-consumer-inflation-accelerates-amid-rate-hike-views-15cf7577?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/economy/central-banking/fed-cuts-pay-raises-for-regional-bank-staff-e3184f2d?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/anthropic-ipo-ai-markets-89e2476f?mod=rss_markets_main"
         }
       ]
     },
@@ -12702,11 +12702,11 @@
         },
         {
           "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/japan-consumer-inflation-accelerates-amid-rate-hike-views-15cf7577?mod=rss_socialeconomyfeed"
+          "url": "https://www.wsj.com/economy/central-banking/fed-cuts-pay-raises-for-regional-bank-staff-e3184f2d?mod=rss_socialeconomyfeed"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87?mod=rss_markets_main"
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/japan-consumer-inflation-accelerates-amid-rate-hike-views-15cf7577?mod=rss_socialeconomyfeed"
         }
       ]
     }
