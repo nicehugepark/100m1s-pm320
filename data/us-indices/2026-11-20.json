@@ -6274,6 +6274,20 @@
   ],
   "news_chips": [
     {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/investing/asian-equities-fall-as-anthropics-ipo-fails-to-staunch-ai-stock-selloff-c47592b0?mod=rss_markets_main",
+      "published_ts": 1795148100.0,
+      "impact_high": true
+    },
+    {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/regulation/this-ex-sheriff-was-on-the-beat-when-mark-walter-loaded-insurers-with-insider-deals-dbfd45d1?mod=rss_markets_main",
+      "published_ts": 1795147740.0,
+      "impact_high": true
+    },
+    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/japan-consumer-inflation-accelerates-amid-rate-hike-views-15cf7577?mod=rss_socialeconomyfeed",
@@ -6309,20 +6323,6 @@
       "impact_high": false
     },
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/politics/policy/trump-escapes-turmoil-at-home-by-seeking-out-a-friendlier-audience-abroad-da8c04d0?mod=rss_worldnews",
-      "published_ts": 1795141080.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/europe/u-s-has-floated-nato-membership-for-ukraine-in-recent-meetings-d5c8243a?mod=rss_worldnews",
-      "published_ts": 1795140000.0,
-      "impact_high": false
-    },
-    {
       "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87?mod=rss_markets_main",
@@ -6337,21 +6337,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "023d6d7bc78bf2d27a9fc77856378e76eb95aaa3adbf236084783c2e6e5b9bd7",
+  "_article_sig": "a602bc29cb3d5c8c8fbf53b104adf96038c272de3353a18283751287b3ff5365",
   "built_at_kst": "2026-11-20T07:01:07.595631+09:00",
   "futures": {
-    "as_of_kst": "2026-11-20T13:10:31.310542+09:00",
+    "as_of_kst": "2026-11-20T13:20:36.019452+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7184.75,
-        "change_pct": -0.17,
+        "point": 7170.0,
+        "change_pct": -0.38,
         "spark": [
           7192.75,
-          7171.25,
-          7186.75,
           7179.0,
           7184.75,
           7181.0,
@@ -6388,22 +6386,24 @@
           7186.25,
           7187.75,
           7185.75,
-          7182.25,
-          7184.75
+          7181.25,
+          7170.5,
+          7170.75,
+          7170.0
         ],
         "candle": {
           "o": 7192.75,
           "h": 7199.25,
           "l": 7160.75,
-          "c": 7184.25
+          "c": 7168.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 12.46,
-          "high_change_pct": -8.76
+          "low_change_pct": 12.22,
+          "high_change_pct": -8.96
         },
         "daily_expanded": [
           {
@@ -8427,8 +8427,8 @@
             "o": 7192.75,
             "h": 7199.25,
             "l": 7160.75,
-            "c": 7184.25,
-            "v": 95880
+            "c": 7168.75,
+            "v": 99897
           }
         ],
         "rollover_gaps": [],
@@ -8453,12 +8453,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 26488.25,
-        "change_pct": -0.42,
+        "point": 26406.25,
+        "change_pct": -0.73,
         "spark": [
           26600.0,
-          26388.75,
-          26472.0,
           26441.0,
           26502.25,
           26470.0,
@@ -8495,22 +8493,24 @@
           26510.25,
           26513.5,
           26504.25,
-          26480.25,
-          26488.25
+          26473.0,
+          26417.5,
+          26416.0,
+          26406.25
         ],
         "candle": {
           "o": 26600.0,
           "h": 26603.5,
           "l": 26351.0,
-          "c": 26480.5
+          "c": 26413.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 14.44,
-          "high_change_pct": -15.89
+          "low_change_pct": 14.15,
+          "high_change_pct": -16.1
         },
         "daily_expanded": [
           {
@@ -10534,8 +10534,8 @@
             "o": 26600.0,
             "h": 26603.5,
             "l": 26351.0,
-            "c": 26480.5,
-            "v": 75123
+            "c": 26413.25,
+            "v": 76982
           }
         ],
         "rollover_gaps": [
@@ -10550,16 +10550,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/asian-equities-fall-as-anthropics-ipo-fails-to-staunch-ai-stock-selloff-c47592b0?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/europe/u-s-has-floated-nato-membership-for-ukraine-in-recent-meetings-d5c8243a?mod=rss_worldnews"
             },
             {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/202611208992i"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/fed-cuts-pay-raises-for-regional-bank-staff-e3184f2d?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10567,12 +10567,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 49168.0,
-        "change_pct": -0.02,
+        "point": 49096.0,
+        "change_pct": -0.17,
         "spark": [
           49237.0,
-          49090.0,
-          49177.0,
           49109.0,
           49132.0,
           49137.0,
@@ -10609,22 +10607,24 @@
           49182.0,
           49181.0,
           49181.0,
-          49163.0,
-          49168.0
+          49160.0,
+          49097.0,
+          49107.0,
+          49096.0
         ],
         "candle": {
           "o": 49237.0,
           "h": 49237.0,
           "l": 49060.0,
-          "c": 49157.0
+          "c": 49096.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 8.22,
-          "high_change_pct": -9.79
+          "low_change_pct": 8.08,
+          "high_change_pct": -9.91
         },
         "daily_expanded": [
           {
@@ -12648,8 +12648,8 @@
             "o": 49237.0,
             "h": 49237.0,
             "l": 49060.0,
-            "c": 49157.0,
-            "v": 7795
+            "c": 49096.0,
+            "v": 7986
           }
         ],
         "rollover_gaps": [],
@@ -12674,11 +12674,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-11-20T13:11:02.854748+09:00",
+  "intraday_refreshed_kst": "2026-11-20T13:21:12.673782+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/asian-equities-fall-as-anthropics-ipo-fails-to-staunch-ai-stock-selloff-c47592b0?mod=rss_markets_main"
+        },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/europe/u-s-has-floated-nato-membership-for-ukraine-in-recent-meetings-d5c8243a?mod=rss_worldnews"
@@ -12686,10 +12690,6 @@
         {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/202611208992i"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/fed-cuts-pay-raises-for-regional-bank-staff-e3184f2d?mod=rss_socialeconomyfeed"
         }
       ]
     },
