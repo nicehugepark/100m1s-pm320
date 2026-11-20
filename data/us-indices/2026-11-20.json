@@ -6281,13 +6281,6 @@
       "impact_high": true
     },
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/regulation/this-ex-sheriff-was-on-the-beat-when-mark-walter-loaded-insurers-with-insider-deals-dbfd45d1?mod=rss_markets_main",
-      "published_ts": 1795139100.0,
-      "impact_high": true
-    },
-    {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/fed-cuts-pay-raises-for-regional-bank-staff-e3184f2d?mod=rss_socialeconomyfeed",
@@ -6307,6 +6300,13 @@
       "url": "https://www.wsj.com/finance/asian-equities-decline-as-caution-prevails-eaf3c1e9?mod=rss_worldnews",
       "published_ts": 1795066920.0,
       "impact_high": true
+    },
+    {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/politics/policy/trump-escapes-turmoil-at-home-by-seeking-out-a-friendlier-audience-abroad-da8c04d0?mod=rss_worldnews",
+      "published_ts": 1795141080.0,
+      "impact_high": false
     },
     {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
@@ -6335,31 +6335,21 @@
       "url": "https://www.cnbc.com/2026/11/18/japan-exports-october-imports-chips.html",
       "published_ts": 1794962131.0,
       "impact_high": true
-    },
-    {
-      "summary": "전력·유틸리티 투자와 인프라 수요가 방어주와 산업재 관심을 확대하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/trump-returns-to-world-stage-after-midterm-setback-65a1c88b?mod=rss_worldnews",
-      "published_ts": 1794922500.0,
-      "impact_high": false
     }
   ],
-  "_article_sig": "6b99c6a0d06fb66c58c258b2d3b5448ea25767788ad052d5f5cc4500492e365f",
+  "_article_sig": "ab69453688449477937bc04e797d82799631f4881e632aafd73c570c3961ba9a",
   "built_at_kst": "2026-11-20T07:01:07.595631+09:00",
   "futures": {
-    "as_of_kst": "2026-11-20T11:10:29.810604+09:00",
+    "as_of_kst": "2026-11-20T11:20:40.758116+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7172.25,
-        "change_pct": -0.35,
+        "point": 7180.75,
+        "change_pct": -0.23,
         "spark": [
           7192.75,
-          7174.0,
-          7177.25,
-          7182.5,
           7183.5,
           7180.75,
           7185.5,
@@ -6396,21 +6386,24 @@
           7178.75,
           7171.5,
           7172.0,
-          7172.25
+          7179.75,
+          7178.25,
+          7176.5,
+          7180.75
         ],
         "candle": {
           "o": 7192.75,
           "h": 7199.25,
-          "l": 7169.5,
-          "c": 7171.25
+          "l": 7168.75,
+          "c": 7180.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 12.26,
-          "high_change_pct": -8.92
+          "low_change_pct": 12.39,
+          "high_change_pct": -8.81
         },
         "daily_expanded": [
           {
@@ -8433,9 +8426,9 @@
             "date": "2026-11-19",
             "o": 7192.75,
             "h": 7199.25,
-            "l": 7169.5,
-            "c": 7171.25,
-            "v": 56486
+            "l": 7168.75,
+            "c": 7180.0,
+            "v": 60617
           }
         ],
         "rollover_gaps": [],
@@ -8443,16 +8436,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/politics/policy/trump-escapes-turmoil-at-home-by-seeking-out-a-friendlier-audience-abroad-da8c04d0?mod=rss_worldnews"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/fed-cuts-pay-raises-for-regional-bank-staff-e3184f2d?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/anthropic-ipo-ai-markets-89e2476f?mod=rss_markets_main"
             }
           ]
         }
@@ -8460,12 +8453,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 26385.0,
-        "change_pct": -0.81,
+        "point": 26420.25,
+        "change_pct": -0.68,
         "spark": [
           26600.0,
-          26482.25,
-          26505.5,
           26507.75,
           26483.5,
           26498.75,
@@ -8502,22 +8493,24 @@
           26432.5,
           26380.0,
           26391.5,
-          26406.25,
-          26385.0
+          26436.25,
+          26415.25,
+          26407.75,
+          26420.25
         ],
         "candle": {
           "o": 26600.0,
           "h": 26603.5,
           "l": 26372.25,
-          "c": 26387.0
+          "c": 26415.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 14.03,
-          "high_change_pct": -16.19
+          "low_change_pct": 14.16,
+          "high_change_pct": -16.1
         },
         "daily_expanded": [
           {
@@ -10541,8 +10534,8 @@
             "o": 26600.0,
             "h": 26603.5,
             "l": 26372.25,
-            "c": 26387.0,
-            "v": 47057
+            "c": 26415.75,
+            "v": 49735
           }
         ],
         "rollover_gaps": [
@@ -10574,12 +10567,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 49128.0,
-        "change_pct": -0.11,
+        "point": 49154.0,
+        "change_pct": -0.05,
         "spark": [
           49237.0,
-          49071.0,
-          49097.0,
           49158.0,
           49153.0,
           49163.0,
@@ -10616,22 +10607,24 @@
           49151.0,
           49113.0,
           49124.0,
-          49117.0,
-          49128.0
+          49157.0,
+          49163.0,
+          49151.0,
+          49154.0
         ],
         "candle": {
           "o": 49237.0,
           "h": 49237.0,
           "l": 49063.0,
-          "c": 49128.0
+          "c": 49155.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 8.15,
-          "high_change_pct": -9.85
+          "low_change_pct": 8.21,
+          "high_change_pct": -9.8
         },
         "daily_expanded": [
           {
@@ -12655,8 +12648,8 @@
             "o": 49237.0,
             "h": 49237.0,
             "l": 49063.0,
-            "c": 49128.0,
-            "v": 5028
+            "c": 49155.0,
+            "v": 5311
           }
         ],
         "rollover_gaps": [],
@@ -12681,7 +12674,7 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-11-20T11:10:46.222658+09:00",
+  "intraday_refreshed_kst": "2026-11-20T11:21:17.169900+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
@@ -12704,16 +12697,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/politics/policy/trump-escapes-turmoil-at-home-by-seeking-out-a-friendlier-audience-abroad-da8c04d0?mod=rss_worldnews"
+        },
+        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/fed-cuts-pay-raises-for-regional-bank-staff-e3184f2d?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/anthropic-ipo-ai-markets-89e2476f?mod=rss_markets_main"
         }
       ]
     },
