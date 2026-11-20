@@ -6281,18 +6281,18 @@
       "impact_high": true
     },
     {
-      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/regulation/this-ex-sheriff-was-on-the-beat-when-mark-walter-loaded-insurers-with-insider-deals-dbfd45d1?mod=rss_markets_main",
-      "published_ts": 1795147740.0,
-      "impact_high": true
-    },
-    {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
       "published_ts": 1795119527.0,
       "impact_high": true
+    },
+    {
+      "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/commodities-futures/oil-prices-new-charts-f84ad9d7?mod=rss_markets_main",
+      "published_ts": 1795172160.0,
+      "impact_high": false
     },
     {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
@@ -6337,21 +6337,19 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "b8e751717eed56ea23da8638be6a9b01e9ed2c2ae03829fdd3adc57f40ca2d5a",
+  "_article_sig": "032e856d730fd7e0ad16d361cff7485568055271ed8229d5f368eb4a67f6ba17",
   "built_at_kst": "2026-11-20T07:01:07.595631+09:00",
   "futures": {
-    "as_of_kst": "2026-11-20T19:50:23.380055+09:00",
+    "as_of_kst": "2026-11-20T20:00:18.685388+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7180.5,
-        "change_pct": -0.23,
+        "point": 7171.25,
+        "change_pct": -0.36,
         "spark": [
           7192.75,
-          7147.5,
-          7159.5,
           7159.25,
           7164.5,
           7172.5,
@@ -6389,21 +6387,23 @@
           7173.0,
           7179.75,
           7180.0,
-          7180.5
+          7170.0,
+          7168.5,
+          7171.25
         ],
         "candle": {
           "o": 7192.75,
           "h": 7199.25,
           "l": 7138.75,
-          "c": 7180.0
+          "c": 7172.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 12.39,
-          "high_change_pct": -8.81
+          "low_change_pct": 12.27,
+          "high_change_pct": -8.92
         },
         "daily_expanded": [
           {
@@ -8419,8 +8419,8 @@
             "o": 7192.75,
             "h": 7199.25,
             "l": 7138.75,
-            "c": 7180.0,
-            "v": 252645
+            "c": 7172.0,
+            "v": 255811
           }
         ],
         "rollover_gaps": [],
@@ -8429,15 +8429,15 @@
           "sources": [
             {
               "name": "WSJ",
+              "url": "https://www.wsj.com/finance/commodities-futures/oil-prices-new-charts-f84ad9d7?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
               "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-20-2026?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/consumers/u-k-consumer-confidence-picks-up-despite-rising-headwinds-b79bb251?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/japan-consumer-inflation-accelerates-amid-rate-hike-views-15cf7577?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8445,12 +8445,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 26361.75,
-        "change_pct": -0.9,
+        "point": 26313.75,
+        "change_pct": -1.08,
         "spark": [
           26600.0,
-          26236.0,
-          26293.75,
           26303.0,
           26341.25,
           26396.5,
@@ -8488,21 +8486,23 @@
           26331.25,
           26361.5,
           26357.5,
-          26361.75
+          26299.5,
+          26284.25,
+          26313.75
         ],
         "candle": {
           "o": 26600.0,
           "h": 26603.5,
           "l": 26135.75,
-          "c": 26364.75
+          "c": 26315.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 13.94,
-          "high_change_pct": -16.26
+          "low_change_pct": 13.72,
+          "high_change_pct": -16.42
         },
         "daily_expanded": [
           {
@@ -10518,8 +10518,8 @@
             "o": 26600.0,
             "h": 26603.5,
             "l": 26135.75,
-            "c": 26364.75,
-            "v": 161086
+            "c": 26315.25,
+            "v": 163078
           }
         ],
         "rollover_gaps": [
@@ -10534,16 +10534,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/commodities-futures/oil-prices-new-charts-f84ad9d7?mod=rss_markets_main"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/global/eurozone-wage-growth-accelerates-but-remains-modest-729eb0ed?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/tech/ai/anthropic-shares-are-a-rational-bet-on-the-next-phase-of-ai-a748dba3?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/spain-remains-europes-star-economy-why-dont-people-feel-richer-cfa35091?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -10551,12 +10551,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 49325.0,
-        "change_pct": 0.29,
+        "point": 49291.0,
+        "change_pct": 0.23,
         "spark": [
           49237.0,
-          49044.0,
-          49113.0,
           49107.0,
           49138.0,
           49169.0,
@@ -10594,21 +10592,23 @@
           49298.0,
           49333.0,
           49323.0,
-          49325.0
+          49276.0,
+          49275.0,
+          49291.0
         ],
         "candle": {
           "o": 49237.0,
           "h": 49340.0,
           "l": 49004.0,
-          "c": 49324.0
+          "c": 49291.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 8.59,
-          "high_change_pct": -9.49
+          "low_change_pct": 8.51,
+          "high_change_pct": -9.55
         },
         "daily_expanded": [
           {
@@ -12624,8 +12624,8 @@
             "o": 49237.0,
             "h": 49340.0,
             "l": 49004.0,
-            "c": 49324.0,
-            "v": 21882
+            "c": 49291.0,
+            "v": 22149
           }
         ],
         "rollover_gaps": [],
@@ -12650,11 +12650,15 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-11-20T19:50:57.750507+09:00",
+  "intraday_refreshed_kst": "2026-11-20T20:00:42.353393+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/commodities-futures/oil-prices-new-charts-f84ad9d7?mod=rss_markets_main"
+        },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/global/eurozone-wage-growth-accelerates-but-remains-modest-729eb0ed?mod=rss_socialeconomyfeed"
@@ -12662,10 +12666,6 @@
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/tech/ai/anthropic-shares-are-a-rational-bet-on-the-next-phase-of-ai-a748dba3?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/spain-remains-europes-star-economy-why-dont-people-feel-richer-cfa35091?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12674,15 +12674,15 @@
       "sources": [
         {
           "name": "WSJ",
+          "url": "https://www.wsj.com/finance/commodities-futures/oil-prices-new-charts-f84ad9d7?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
           "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-20-2026?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/consumers/u-k-consumer-confidence-picks-up-despite-rising-headwinds-b79bb251?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/japan-consumer-inflation-accelerates-amid-rate-hike-views-15cf7577?mod=rss_socialeconomyfeed"
         }
       ]
     },
