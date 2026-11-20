@@ -6274,10 +6274,17 @@
   ],
   "news_chips": [
     {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/202611209119i",
+      "published_ts": 1795141809.0,
+      "impact_high": true
+    },
+    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html",
-      "published_ts": 1795139343.0,
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/japan-consumer-inflation-accelerates-amid-rate-hike-views-15cf7577?mod=rss_socialeconomyfeed",
+      "published_ts": 1795141380.0,
       "impact_high": true
     },
     {
@@ -6316,13 +6323,6 @@
       "impact_high": false
     },
     {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/middle-east/houthi-attack-damages-saudi-capitals-tallest-tower-f4e15874?mod=rss_worldnews",
-      "published_ts": 1795138920.0,
-      "impact_high": false
-    },
-    {
       "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87?mod=rss_markets_main",
@@ -6337,22 +6337,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "ab69453688449477937bc04e797d82799631f4881e632aafd73c570c3961ba9a",
+  "_article_sig": "f224c63975c7a5f3b016d1fb049c444a58b69a563d5971c0bed56953be031372",
   "built_at_kst": "2026-11-20T07:01:07.595631+09:00",
   "futures": {
-    "as_of_kst": "2026-11-20T11:30:51.529263+09:00",
+    "as_of_kst": "2026-11-20T11:40:32.155874+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7182.5,
-        "change_pct": -0.2,
+        "point": 7173.25,
+        "change_pct": -0.33,
         "spark": [
           7192.75,
-          7180.75,
-          7185.5,
-          7194.0,
           7187.5,
           7186.0,
           7177.75,
@@ -6389,21 +6386,24 @@
           7178.25,
           7187.75,
           7182.5,
-          7182.5
+          7178.75,
+          7174.5,
+          7175.5,
+          7173.25
         ],
         "candle": {
           "o": 7192.75,
           "h": 7199.25,
           "l": 7168.75,
-          "c": 7183.25
+          "c": 7173.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 12.44,
-          "high_change_pct": -8.77
+          "low_change_pct": 12.28,
+          "high_change_pct": -8.9
         },
         "daily_expanded": [
           {
@@ -8427,8 +8427,8 @@
             "o": 7192.75,
             "h": 7199.25,
             "l": 7168.75,
-            "c": 7183.25,
-            "v": 63615
+            "c": 7173.0,
+            "v": 65695
           }
         ],
         "rollover_gaps": [],
@@ -8436,16 +8436,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/japan-consumer-inflation-accelerates-amid-rate-hike-views-15cf7577?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/politics/policy/trump-escapes-turmoil-at-home-by-seeking-out-a-friendlier-audience-abroad-da8c04d0?mod=rss_worldnews"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/fed-cuts-pay-raises-for-regional-bank-staff-e3184f2d?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8453,12 +8453,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 26450.0,
-        "change_pct": -0.56,
+        "point": 26398.0,
+        "change_pct": -0.76,
         "spark": [
           26600.0,
-          26498.75,
-          26544.0,
           26501.0,
           26489.75,
           26444.5,
@@ -8495,22 +8493,24 @@
           26415.25,
           26483.25,
           26453.75,
-          26449.0,
-          26450.0
+          26429.75,
+          26397.5,
+          26406.25,
+          26398.0
         ],
         "candle": {
           "o": 26600.0,
           "h": 26603.5,
           "l": 26372.25,
-          "c": 26459.0
+          "c": 26394.75
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 14.34,
-          "high_change_pct": -15.96
+          "low_change_pct": 14.07,
+          "high_change_pct": -16.16
         },
         "daily_expanded": [
           {
@@ -10534,8 +10534,8 @@
             "o": 26600.0,
             "h": 26603.5,
             "l": 26372.25,
-            "c": 26459.0,
-            "v": 52338
+            "c": 26394.75,
+            "v": 54345
           }
         ],
         "rollover_gaps": [
@@ -10567,12 +10567,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 49168.0,
-        "change_pct": -0.02,
+        "point": 49134.0,
+        "change_pct": -0.09,
         "spark": [
           49237.0,
-          49163.0,
-          49187.0,
           49161.0,
           49164.0,
           49116.0,
@@ -10609,22 +10607,24 @@
           49163.0,
           49196.0,
           49174.0,
-          49167.0,
-          49168.0
+          49164.0,
+          49137.0,
+          49146.0,
+          49134.0
         ],
         "candle": {
           "o": 49237.0,
           "h": 49237.0,
           "l": 49063.0,
-          "c": 49167.0
+          "c": 49134.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 8.24,
-          "high_change_pct": -9.78
+          "low_change_pct": 8.17,
+          "high_change_pct": -9.84
         },
         "daily_expanded": [
           {
@@ -12648,8 +12648,8 @@
             "o": 49237.0,
             "h": 49237.0,
             "l": 49063.0,
-            "c": 49167.0,
-            "v": 5543
+            "c": 49134.0,
+            "v": 5704
           }
         ],
         "rollover_gaps": [],
@@ -12657,16 +12657,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/japan-consumer-inflation-accelerates-amid-rate-hike-views-15cf7577?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/fed-cuts-pay-raises-for-regional-bank-staff-e3184f2d?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/japan-consumer-inflation-accelerates-amid-rate-hike-views-15cf7577?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -12674,7 +12674,7 @@
     ]
   },
   "regular_open": false,
-  "intraday_refreshed_kst": "2026-11-20T11:31:30.678851+09:00",
+  "intraday_refreshed_kst": "2026-11-20T11:41:07.399317+09:00",
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
@@ -12697,16 +12697,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/japan-consumer-inflation-accelerates-amid-rate-hike-views-15cf7577?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/politics/policy/trump-escapes-turmoil-at-home-by-seeking-out-a-friendlier-audience-abroad-da8c04d0?mod=rss_worldnews"
         },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/fed-cuts-pay-raises-for-regional-bank-staff-e3184f2d?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12714,16 +12714,16 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/japan-consumer-inflation-accelerates-amid-rate-hike-views-15cf7577?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/fed-cuts-pay-raises-for-regional-bank-staff-e3184f2d?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/japan-consumer-inflation-accelerates-amid-rate-hike-views-15cf7577?mod=rss_socialeconomyfeed"
         }
       ]
     }
