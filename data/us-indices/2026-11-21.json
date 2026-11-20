@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 23669.93,
-      "change_pct": -0.88,
+      "point": 23466.3,
+      "change_pct": -1.73,
       "candle": {
         "o": 23587.38,
         "h": 23832.31,
-        "l": 23517.36,
-        "c": 23669.93
+        "l": 23466.3,
+        "c": 23466.3
       },
       "range_240d": {
         "low": 20794.64,
@@ -2032,8 +2032,8 @@
           "date": "2026-11-20",
           "o": 23587.38,
           "h": 23832.31,
-          "l": 23517.36,
-          "c": 23669.93
+          "l": 23466.3,
+          "c": 23466.3
         }
       ],
       "spark": [
@@ -2046,7 +2046,9 @@
         23775.78,
         23753.88,
         23674.76,
-        23669.93
+        23594.1,
+        23468.79,
+        23466.3
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2070,13 +2072,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7166.7,
-      "change_pct": -0.13,
+      "point": 7128.89,
+      "change_pct": -0.65,
       "candle": {
         "o": 7150.39,
         "h": 7198.67,
-        "l": 7133.55,
-        "c": 7166.7
+        "l": 7128.89,
+        "c": 7128.89
       },
       "range_240d": {
         "low": 6343.72,
@@ -4099,8 +4101,8 @@
           "date": "2026-11-20",
           "o": 7150.39,
           "h": 7198.67,
-          "l": 7133.55,
-          "c": 7166.7
+          "l": 7128.89,
+          "c": 7128.89
         }
       ],
       "spark": [
@@ -4113,7 +4115,9 @@
         7186.52,
         7182.44,
         7168.73,
-        7166.7
+        7154.18,
+        7141.13,
+        7128.89
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4137,13 +4141,13 @@
     },
     {
       "name": "DOW",
-      "point": 49517.49,
-      "change_pct": 0.86,
+      "point": 49304.11,
+      "change_pct": 0.42,
       "candle": {
         "o": 49071.82,
         "h": 49594.9,
         "l": 49025.79,
-        "c": 49517.49
+        "c": 49304.11
       },
       "range_240d": {
         "low": 45166.64,
@@ -6167,7 +6171,7 @@
           "o": 49071.82,
           "h": 49594.9,
           "l": 49025.79,
-          "c": 49517.49
+          "c": 49304.11
         }
       ],
       "spark": [
@@ -6180,7 +6184,9 @@
         49526.39,
         49554.59,
         49517.43,
-        49517.49
+        49459.64,
+        49323.55,
+        49304.11
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6205,6 +6211,13 @@
   ],
   "news_chips": [
     {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/week-ahead-for-fx-bonds-flash-pmi-data-to-provide-gauge-on-economic-growth-86c1a572?mod=rss_socialeconomyfeed",
+      "published_ts": 1795187640.0,
+      "impact_high": true
+    },
+    {
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/finance/investing/grabbing-inflation-protection-now-is-a-no-brainer-45a6364e?mod=rss_markets_main",
@@ -6226,13 +6239,6 @@
       "impact_high": false
     },
     {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/uk/after-brexit-britains-government-floats-breturn-796e429f?mod=rss_worldnews",
-      "published_ts": 1795184640.0,
-      "impact_high": false
-    },
-    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026112009817",
@@ -6247,17 +6253,17 @@
       "impact_high": false
     },
     {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-20-2026?mod=rss_markets_main",
-      "published_ts": 1795169305.0,
-      "impact_high": false
-    },
-    {
       "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/economy/central-banking/oaknorth-secures-u-s-federal-reserve-clearance-to-buy-community-unity-bank-58718919?mod=rss_markets_main",
       "published_ts": 1795166280.0,
+      "impact_high": false
+    },
+    {
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/2026112006961",
+      "published_ts": 1795165865.0,
       "impact_high": false
     },
     {
@@ -6268,7 +6274,7 @@
       "impact_high": false
     }
   ],
-  "_article_sig": "95ea47394638cc50029c4eff306bb1b0a63612213e3c953f33ed9c176de62ccb",
+  "_article_sig": "93a0d47641b3b63e8b135a7fb201bc62afa28f96e0afdf5be94386a6e4a50351",
   "built_at_kst": "2026-11-20T07:01:07.595631+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6276,16 +6282,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/week-ahead-for-fx-bonds-flash-pmi-data-to-provide-gauge-on-economic-growth-86c1a572?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/uk/after-brexit-britains-government-floats-breturn-796e429f?mod=rss_worldnews"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/consumers/canada-retail-sales-pull-back-after-0-8-rise-in-september-7f2f0568?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/russia-steps-up-attacks-on-kyivs-bridges-a5b8a8e8?mod=rss_worldnews"
         }
       ]
     },
@@ -6310,33 +6316,31 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/week-ahead-for-fx-bonds-flash-pmi-data-to-provide-gauge-on-economic-growth-86c1a572?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/economy/central-banking/oaknorth-secures-u-s-federal-reserve-clearance-to-buy-community-unity-bank-58718919?mod=rss_markets_main"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/oaknorth-secures-u-s-federal-reserve-clearance-to-buy-community-unity-bank-58718919?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/consumers/u-k-consumer-confidence-picks-up-despite-rising-headwinds-b79bb251?mod=rss_socialeconomyfeed"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-11-21T00:10:04.075465+09:00",
+    "as_of_kst": "2026-11-21T00:20:04.214312+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7203.75,
-        "change_pct": 0.09,
+        "point": 7185.25,
+        "change_pct": -0.17,
         "spark": [
           7192.75,
-          7146.25,
-          7149.75,
           7150.75,
           7141.75,
           7142.5,
@@ -6374,21 +6378,23 @@
           7169.25,
           7187.0,
           7203.75,
-          7203.75
+          7199.75,
+          7185.0,
+          7185.25
         ],
         "candle": {
           "o": 7192.75,
-          "h": 7206.0,
+          "h": 7216.75,
           "l": 7105.0,
-          "c": 7203.75
+          "c": 7186.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 12.77,
-          "high_change_pct": -8.51
+          "low_change_pct": 12.5,
+          "high_change_pct": -8.73
         },
         "daily_expanded": [
           {
@@ -8402,10 +8408,10 @@
           {
             "date": "2026-11-20",
             "o": 7192.75,
-            "h": 7206.0,
+            "h": 7216.75,
             "l": 7105.0,
-            "c": 7203.75,
-            "v": 746375
+            "c": 7186.75,
+            "v": 808560
           }
         ],
         "rollover_gaps": [],
@@ -8430,11 +8436,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 26465.0,
-        "change_pct": -0.51,
+        "point": 26309.0,
+        "change_pct": -1.09,
         "spark": [
           26600.0,
-          26197.75,
           26197.5,
           26146.5,
           26163.0,
@@ -8473,21 +8478,22 @@
           26364.5,
           26432.0,
           26395.25,
-          26465.0
+          26308.75,
+          26309.0
         ],
         "candle": {
           "o": 26600.0,
           "h": 26603.5,
           "l": 26000.0,
-          "c": 26465.0
+          "c": 26318.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 14.37,
-          "high_change_pct": -15.94
+          "low_change_pct": 13.74,
+          "high_change_pct": -16.4
         },
         "daily_expanded": [
           {
@@ -10503,8 +10509,8 @@
             "o": 26600.0,
             "h": 26603.5,
             "l": 26000.0,
-            "c": 26465.0,
-            "v": 403320
+            "c": 26318.5,
+            "v": 443886
           }
         ],
         "rollover_gaps": [
@@ -10519,16 +10525,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/week-ahead-for-fx-bonds-flash-pmi-data-to-provide-gauge-on-economic-growth-86c1a572?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/uk/after-brexit-britains-government-floats-breturn-796e429f?mod=rss_worldnews"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/consumers/canada-retail-sales-pull-back-after-0-8-rise-in-september-7f2f0568?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/russia-steps-up-attacks-on-kyivs-bridges-a5b8a8e8?mod=rss_worldnews"
             }
           ]
         }
@@ -10536,12 +10542,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 49603.0,
-        "change_pct": 0.86,
+        "point": 49570.0,
+        "change_pct": 0.79,
         "spark": [
           49237.0,
-          49173.0,
-          49195.0,
           49125.0,
           49132.0,
           49128.0,
@@ -10579,21 +10583,23 @@
           49443.0,
           49575.0,
           49619.0,
-          49603.0
+          49570.0,
+          49519.0,
+          49570.0
         ],
         "candle": {
           "o": 49237.0,
-          "h": 49625.0,
+          "h": 49656.0,
           "l": 48897.0,
-          "c": 49614.0
+          "c": 49570.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 9.22,
-          "high_change_pct": -8.96
+          "low_change_pct": 9.13,
+          "high_change_pct": -9.04
         },
         "daily_expanded": [
           {
@@ -12607,10 +12613,10 @@
           {
             "date": "2026-11-20",
             "o": 49237.0,
-            "h": 49625.0,
+            "h": 49656.0,
             "l": 48897.0,
-            "c": 49614.0,
-            "v": 49949
+            "c": 49570.0,
+            "v": 53366
           }
         ],
         "rollover_gaps": [],
@@ -12618,21 +12624,21 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/week-ahead-for-fx-bonds-flash-pmi-data-to-provide-gauge-on-economic-growth-86c1a572?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/economy/central-banking/oaknorth-secures-u-s-federal-reserve-clearance-to-buy-community-unity-bank-58718919?mod=rss_markets_main"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/oaknorth-secures-u-s-federal-reserve-clearance-to-buy-community-unity-bank-58718919?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/consumers/u-k-consumer-confidence-picks-up-despite-rising-headwinds-b79bb251?mod=rss_socialeconomyfeed"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-11-21T00:10:09.177009+09:00"
+  "intraday_refreshed_kst": "2026-11-21T00:20:17.149529+09:00"
 }
