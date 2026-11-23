@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/202611232980i",
+      "published_ts": 1795407441.0,
+      "impact_high": true
+    },
+    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/trade/eu-inks-trade-deal-with-indonesia-to-cut-tariffs-catalyze-investment-9810d41f?mod=rss_socialeconomyfeed",
@@ -6309,17 +6316,10 @@
       "impact_high": true
     },
     {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/investing/anthropic-committed-to-spend-900-billion-wall-street-expects-its-debt-to-be-junk-5514d55d?mod=rss_markets_main",
-      "published_ts": 1795402800.0,
-      "impact_high": false
-    },
-    {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "한경국제",
-      "url": "https://www.hankyung.com/article/202611233889H",
-      "published_ts": 1795401013.0,
+      "url": "https://www.hankyung.com/article/2026112340657",
+      "published_ts": 1795407012.0,
       "impact_high": false
     },
     {
@@ -6344,7 +6344,7 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "869ca66c89db93b66b0247646aa9d48563de29b45d827961dba8f6dbce546c44",
+  "_article_sig": "62b3be8100bec4ceda6524ac0132a7413e172e245dee2e0c0db33fc1500861ab",
   "built_at_kst": "2026-11-21T07:00:32.738169+09:00",
   "regular_open": false,
   "_futures_news": {
@@ -6352,16 +6352,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "한경국제",
+          "url": "https://www.hankyung.com/article/202611232980i"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/trade/eu-inks-trade-deal-with-indonesia-to-cut-tariffs-catalyze-investment-9810d41f?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/economy/trade/eu-inks-trade-deal-with-indonesia-to-cut-tariffs-catalyze-investment-9810d41f?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/investing/anthropic-committed-to-spend-900-billion-wall-street-expects-its-debt-to-be-junk-5514d55d?mod=rss_markets_main"
         }
       ]
     },
@@ -6400,19 +6400,18 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-11-23T13:40:32.923361+09:00",
+  "intraday_refreshed_kst": "2026-11-23T13:50:44.892700+09:00",
   "futures": {
-    "as_of_kst": "2026-11-23T13:40:24.634937+09:00",
+    "as_of_kst": "2026-11-23T13:50:22.562466+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7088.0,
-        "change_pct": 2.21,
+        "point": 7085.25,
+        "change_pct": 2.17,
         "spark": [
           7023.0,
-          7082.0,
           7087.75,
           7083.25,
           7082.5,
@@ -6450,22 +6449,23 @@
           7092.75,
           7089.75,
           7090.0,
-          7086.0,
-          7088.0
+          7085.75,
+          7084.75,
+          7085.25
         ],
         "candle": {
           "o": 7023.0,
           "h": 7104.25,
           "l": 6992.0,
-          "c": 7088.0
+          "c": 7084.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 10.95,
-          "high_change_pct": -9.98
+          "low_change_pct": 10.9,
+          "high_change_pct": -10.03
         },
         "daily_expanded": [
           {
@@ -8473,8 +8473,8 @@
             "o": 7023.0,
             "h": 7104.25,
             "l": 6992.0,
-            "c": 7088.0,
-            "v": 144773
+            "c": 7084.25,
+            "v": 146387
           }
         ],
         "rollover_gaps": [],
@@ -8499,12 +8499,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 25861.5,
-        "change_pct": 2.93,
+        "point": 25832.25,
+        "change_pct": 2.81,
         "spark": [
           25561.5,
-          25817.25,
-          25826.25,
           25832.75,
           25838.25,
           25844.25,
@@ -8541,22 +8539,24 @@
           25894.0,
           25880.5,
           25875.5,
-          25855.0,
-          25861.5
+          25847.75,
+          25842.25,
+          25831.5,
+          25832.25
         ],
         "candle": {
           "o": 25561.5,
           "h": 25945.0,
           "l": 25426.75,
-          "c": 25860.5
+          "c": 25836.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 11.76,
-          "high_change_pct": -17.86
+          "low_change_pct": 11.65,
+          "high_change_pct": -17.94
         },
         "daily_expanded": [
           {
@@ -10564,8 +10564,8 @@
             "o": 25561.5,
             "h": 25945.0,
             "l": 25426.75,
-            "c": 25860.5,
-            "v": 104104
+            "c": 25836.0,
+            "v": 105143
           }
         ],
         "rollover_gaps": [
@@ -10586,16 +10586,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "한경국제",
+              "url": "https://www.hankyung.com/article/202611232980i"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/trade/eu-inks-trade-deal-with-indonesia-to-cut-tariffs-catalyze-investment-9810d41f?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/economy/trade/eu-inks-trade-deal-with-indonesia-to-cut-tariffs-catalyze-investment-9810d41f?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/investing/anthropic-committed-to-spend-900-billion-wall-street-expects-its-debt-to-be-junk-5514d55d?mod=rss_markets_main"
             }
           ]
         }
@@ -10603,12 +10603,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 48961.0,
-        "change_pct": 1.55,
+        "point": 48957.0,
+        "change_pct": 1.54,
         "spark": [
           48501.0,
-          48978.0,
-          49030.0,
           48996.0,
           48995.0,
           49037.0,
@@ -10645,22 +10643,24 @@
           48991.0,
           48970.0,
           48973.0,
-          48959.0,
-          48961.0
+          48967.0,
+          48960.0,
+          48950.0,
+          48957.0
         ],
         "candle": {
           "o": 48501.0,
           "h": 49064.0,
           "l": 48433.0,
-          "c": 48961.0
+          "c": 48957.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 7.79,
-          "high_change_pct": -10.15
+          "low_change_pct": 7.78,
+          "high_change_pct": -10.16
         },
         "daily_expanded": [
           {
@@ -12668,8 +12668,8 @@
             "o": 48501.0,
             "h": 49064.0,
             "l": 48433.0,
-            "c": 48961.0,
-            "v": 12132
+            "c": 48957.0,
+            "v": 12223
           }
         ],
         "rollover_gaps": [],
