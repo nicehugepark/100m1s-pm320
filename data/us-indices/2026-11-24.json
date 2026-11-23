@@ -6298,13 +6298,6 @@
   ],
   "news_chips": [
     {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/i-fell-off-my-chair-investors-marvel-as-huangs-return-sends-stocks-rocketing-98131bc6?mod=rss_markets_main",
-      "published_ts": 1795467720.0,
-      "impact_high": true
-    },
-    {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/europe/russian-ships-struck-in-attacks-far-from-ukraine-as-wars-fallout-spreads-a51964cb?mod=rss_worldnews",
@@ -6317,6 +6310,13 @@
       "url": "https://www.wsj.com/world/asia/north-koreas-kim-jong-un-welcomes-new-envoys-friendly-toward-us-8102b4aa?mod=rss_worldnews",
       "published_ts": 1795425960.0,
       "impact_high": true
+    },
+    {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/stocks/nvidia-chiefs-return-lifts-many-boats-3b515f16?mod=rss_markets_main",
+      "published_ts": 1795468320.0,
+      "impact_high": false
     },
     {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
@@ -6361,7 +6361,7 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "ae521f9a29455715082d255bf019c3e6cf3bff7e0e309f89258fffd77678c6ee",
+  "_article_sig": "50d783e8f8adae23b47663b66bcbd9a58b586c7b38c9eb1c13fc801a6826ac79",
   "built_at_kst": "2026-11-21T07:00:32.738169+09:00",
   "regular_open": false,
   "_futures_news": {
@@ -6370,15 +6370,15 @@
       "sources": [
         {
           "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/nvidia-chiefs-return-lifts-many-boats-3b515f16?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/i-fell-off-my-chair-investors-marvel-as-huangs-return-sends-stocks-rocketing-98131bc6?mod=rss_markets_main"
         },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-trump-bessent-china.html"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/jensen-is-back-but-ais-problems-havent-gone-away-7551770e?mod=rss_markets_main"
         }
       ]
     },
@@ -6387,15 +6387,15 @@
       "sources": [
         {
           "name": "WSJ",
+          "url": "https://www.wsj.com/finance/stocks/nvidia-chiefs-return-lifts-many-boats-3b515f16?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/i-fell-off-my-chair-investors-marvel-as-huangs-return-sends-stocks-rocketing-98131bc6?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-59d5ef65?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/personal-finance/baby-boomer-silent-generation-wealth-transfer-elder-care-804e4a0e?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -6418,18 +6418,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-11-24T06:10:11.205149+09:00",
+    "as_of_kst": "2026-11-24T06:20:09.002479+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7257.75,
-        "change_pct": 4.65,
+        "point": 7270.5,
+        "change_pct": 4.84,
         "spark": [
           7023.0,
-          7231.25,
-          7256.75,
           7254.0,
           7257.25,
           7263.0,
@@ -6467,21 +6465,23 @@
           7274.25,
           7253.25,
           7257.5,
-          7257.75
+          7258.25,
+          7270.75,
+          7270.5
         ],
         "candle": {
           "o": 7023.0,
           "h": 7313.25,
           "l": 6992.0,
-          "c": 7259.5
+          "c": 7271.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 13.64,
-          "high_change_pct": -7.8
+          "low_change_pct": 13.83,
+          "high_change_pct": -7.65
         },
         "daily_expanded": [
           {
@@ -8489,8 +8489,8 @@
             "o": 7023.0,
             "h": 7313.25,
             "l": 6992.0,
-            "c": 7259.5,
-            "v": 2129912
+            "c": 7271.5,
+            "v": 2165725
           }
         ],
         "rollover_gaps": [],
@@ -8499,15 +8499,15 @@
           "sources": [
             {
               "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/nvidia-chiefs-return-lifts-many-boats-3b515f16?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/i-fell-off-my-chair-investors-marvel-as-huangs-return-sends-stocks-rocketing-98131bc6?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-59d5ef65?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/personal-finance/baby-boomer-silent-generation-wealth-transfer-elder-care-804e4a0e?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8515,12 +8515,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 26818.25,
-        "change_pct": 6.73,
+        "point": 26852.25,
+        "change_pct": 6.87,
         "spark": [
           25561.5,
-          26706.0,
-          26826.5,
           26809.25,
           26812.25,
           26832.25,
@@ -8558,21 +8556,23 @@
           26888.5,
           26780.0,
           26816.5,
-          26818.25
+          26801.75,
+          26858.25,
+          26852.25
         ],
         "candle": {
           "o": 25561.5,
           "h": 27137.0,
           "l": 25426.75,
-          "c": 26832.5
+          "c": 26839.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 15.96,
-          "high_change_pct": -14.77
+          "low_change_pct": 15.99,
+          "high_change_pct": -14.75
         },
         "daily_expanded": [
           {
@@ -10580,8 +10580,8 @@
             "o": 25561.5,
             "h": 27137.0,
             "l": 25426.75,
-            "c": 26832.5,
-            "v": 1033599
+            "c": 26839.5,
+            "v": 1047738
           }
         ],
         "rollover_gaps": [
@@ -10600,8 +10600,8 @@
           {
             "date": "2026-11-23",
             "from": 25126.5,
-            "to": 26832.5,
-            "gap_pct": 6.79
+            "to": 26839.5,
+            "gap_pct": 6.82
           }
         ],
         "news": {
@@ -10609,15 +10609,15 @@
           "sources": [
             {
               "name": "WSJ",
+              "url": "https://www.wsj.com/finance/stocks/nvidia-chiefs-return-lifts-many-boats-3b515f16?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/i-fell-off-my-chair-investors-marvel-as-huangs-return-sends-stocks-rocketing-98131bc6?mod=rss_markets_main"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-trump-bessent-china.html"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/jensen-is-back-but-ais-problems-havent-gone-away-7551770e?mod=rss_markets_main"
             }
           ]
         }
@@ -10625,12 +10625,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 49716.0,
-        "change_pct": 3.11,
+        "point": 49730.0,
+        "change_pct": 3.14,
         "spark": [
           48501.0,
-          49678.0,
-          49677.0,
           49711.0,
           49746.0,
           49782.0,
@@ -10668,21 +10666,23 @@
           49663.0,
           49691.0,
           49705.0,
-          49716.0
+          49737.0,
+          49710.0,
+          49730.0
         ],
         "candle": {
           "o": 48501.0,
           "h": 49873.0,
           "l": 48433.0,
-          "c": 49701.0
+          "c": 49730.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 9.42,
-          "high_change_pct": -8.8
+          "low_change_pct": 9.48,
+          "high_change_pct": -8.74
         },
         "daily_expanded": [
           {
@@ -12690,8 +12690,8 @@
             "o": 48501.0,
             "h": 49873.0,
             "l": 48433.0,
-            "c": 49701.0,
-            "v": 108669
+            "c": 49730.0,
+            "v": 110212
           }
         ],
         "rollover_gaps": [],
@@ -12715,5 +12715,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-11-24T06:10:28.354636+09:00"
+  "intraday_refreshed_kst": "2026-11-24T06:20:26.630011+09:00"
 }
