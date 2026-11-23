@@ -1,5 +1,5 @@
 {
-  "trade_date_local": "2026-11-20",
+  "trade_date_local": "2026-11-23",
   "indices": [
     {
       "name": "NASDAQ",
@@ -2089,17 +2089,17 @@
           }
         ]
       },
-      "session_open": false
+      "session_open": true
     },
     {
       "name": "S&P500",
-      "point": 6910.39,
-      "change_pct": -3.7,
+      "point": 7258.79,
+      "change_pct": 5.04,
       "candle": {
-        "o": 7150.39,
-        "h": 7198.67,
-        "l": 6882.66,
-        "c": 6910.39
+        "o": 7258.79,
+        "h": 7258.79,
+        "l": 7258.79,
+        "c": 7258.79
       },
       "range_240d": {
         "low": 6343.72,
@@ -4117,50 +4117,18 @@
           "l": 6882.66,
           "c": 6910.39,
           "v": 4727416000
+        },
+        {
+          "date": "2026-11-23",
+          "o": 7258.79,
+          "h": 7258.79,
+          "l": 7258.79,
+          "c": 7258.79
         }
       ],
       "spark": [
-        7150.39,
-        7014.39,
-        7012.89,
-        7026.15,
-        7012.87,
-        7018.64,
-        7012.14,
-        7029.21,
-        7029.88,
-        7016.4,
-        7032.34,
-        7033.82,
-        7016.09,
-        7019.59,
-        7039.54,
-        7030.65,
-        7021.33,
-        7014.09,
-        6995.05,
-        6991.42,
-        6983.37,
-        6963.72,
-        6950.06,
-        6977.91,
-        6979.2,
-        6970.74,
-        6972.23,
-        6966.75,
-        6953.97,
-        6955.75,
-        6950.56,
-        6958.71,
-        6949.84,
-        6942.01,
-        6918.29,
-        6931.43,
-        6915.14,
-        6955.11,
-        6914.76,
-        6918.45,
-        6910.39
+        7258.79,
+        7258.79
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4179,17 +4147,18 @@
           }
         ]
       },
-      "session_open": false
+      "session_open": true,
+      "trade_date_local": "2026-11-23"
     },
     {
       "name": "DOW",
-      "point": 48147.33,
-      "change_pct": -1.93,
+      "point": 49493.86,
+      "change_pct": 2.8,
       "candle": {
-        "o": 49071.82,
-        "h": 49594.9,
-        "l": 47998.86,
-        "c": 48147.33
+        "o": 49493.86,
+        "h": 49493.86,
+        "l": 49493.86,
+        "c": 49493.86
       },
       "range_240d": {
         "low": 45166.64,
@@ -6207,50 +6176,18 @@
           "l": 47998.86,
           "c": 48147.33,
           "v": 1167163269
+        },
+        {
+          "date": "2026-11-23",
+          "o": 49493.86,
+          "h": 49493.86,
+          "l": 49493.86,
+          "c": 49493.86
         }
       ],
       "spark": [
-        49071.82,
-        48716.74,
-        48723.59,
-        48785.14,
-        48718.79,
-        48752.19,
-        48717.11,
-        48788.15,
-        48768.53,
-        48707.31,
-        48819.54,
-        48849.49,
-        48760.23,
-        48774.3,
-        48874.06,
-        48830.4,
-        48797.69,
-        48771.08,
-        48665.78,
-        48656.33,
-        48597.36,
-        48454.7,
-        48391.77,
-        48573.19,
-        48577.68,
-        48519.22,
-        48514.58,
-        48481.29,
-        48416.33,
-        48429.71,
-        48433.84,
-        48481.94,
-        48394.82,
-        48337.63,
-        48196.54,
-        48267.03,
-        48162.57,
-        48392.03,
-        48150.77,
-        48184.69,
-        48147.33
+        49493.86,
+        49493.86
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6269,7 +6206,8 @@
           }
         ]
       },
-      "session_open": false
+      "session_open": true,
+      "trade_date_local": "2026-11-23"
     }
   ],
   "news_chips": [
@@ -6295,10 +6233,17 @@
       "impact_high": true
     },
     {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/investing/anthropic-committed-to-spend-900-billion-wall-street-expects-its-debt-to-be-junk-5514d55d?mod=rss_markets_main",
+      "published_ts": 1795443600.0,
+      "impact_high": false
+    },
+    {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026112353317",
-      "published_ts": 1795442885.0,
+      "url": "https://www.hankyung.com/article/2026112353387",
+      "published_ts": 1795443345.0,
       "impact_high": false
     },
     {
@@ -6306,13 +6251,6 @@
       "source": "WSJ",
       "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-59d5ef65?mod=rss_markets_main",
       "published_ts": 1795439580.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/risk-compliance-journal/fugitive-criminals-are-looking-for-new-hideouts-since-the-uae-started-extraditing-94e98eb1?mod=rss_worldnews",
-      "published_ts": 1795437360.0,
       "impact_high": false
     },
     {
@@ -6344,13 +6282,17 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "f0d442ec1662ae5fb2751f6671192c9824d91aad62d332907b0ea375bab03aea",
+  "_article_sig": "64e6f145e80d9b2af7f4611efa1ffd94f3d365f6c26cc27d2411331359cd202b",
   "built_at_kst": "2026-11-21T07:00:32.738169+09:00",
-  "regular_open": false,
+  "regular_open": true,
   "_futures_news": {
     "NASDAQ": {
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/anthropic-committed-to-spend-900-billion-wall-street-expects-its-debt-to-be-junk-5514d55d?mod=rss_markets_main"
+        },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/risk-compliance-journal/fugitive-criminals-are-looking-for-new-hideouts-since-the-uae-started-extraditing-94e98eb1?mod=rss_worldnews"
@@ -6358,10 +6300,6 @@
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/europe/russian-ships-struck-in-attacks-far-from-ukraine-as-wars-fallout-spreads-a51964cb?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/disney-bets-big-on-streaming-just-dont-ask-what-it-costs-4b33553a?mod=rss_markets_main"
         }
       ]
     },
@@ -6400,20 +6338,18 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-11-23T23:20:34.312920+09:00",
+  "intraday_refreshed_kst": "2026-11-23T23:30:42.829145+09:00",
   "futures": {
-    "as_of_kst": "2026-11-23T23:20:15.335994+09:00",
+    "as_of_kst": "2026-11-23T23:30:21.055586+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7215.0,
-        "change_pct": 4.04,
+        "point": 7258.5,
+        "change_pct": 4.66,
         "spark": [
           7023.0,
-          7134.0,
-          7136.0,
           7131.0,
           7133.5,
           7129.0,
@@ -6451,21 +6387,23 @@
           7229.0,
           7215.75,
           7232.75,
-          7215.0
+          7258.75,
+          7263.75,
+          7258.5
         ],
         "candle": {
           "o": 7023.0,
-          "h": 7242.0,
+          "h": 7259.5,
           "l": 6992.0,
-          "c": 7216.5
+          "c": 7258.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 12.97,
-          "high_change_pct": -8.35
+          "low_change_pct": 13.63,
+          "high_change_pct": -7.81
         },
         "daily_expanded": [
           {
@@ -8471,10 +8409,10 @@
           {
             "date": "2026-11-23",
             "o": 7023.0,
-            "h": 7242.0,
+            "h": 7259.5,
             "l": 6992.0,
-            "c": 7216.5,
-            "v": 510561
+            "c": 7258.75,
+            "v": 546844
           }
         ],
         "rollover_gaps": [],
@@ -8499,12 +8437,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 26725.0,
-        "change_pct": 6.36,
+        "point": 26878.5,
+        "change_pct": 6.97,
         "spark": [
           25561.5,
-          26019.0,
-          26027.25,
           26001.75,
           26003.75,
           25983.25,
@@ -8542,21 +8478,23 @@
           26861.25,
           26697.0,
           26834.0,
-          26725.0
+          26878.5,
+          26878.5,
+          26878.5
         ],
         "candle": {
           "o": 25561.5,
           "h": 26878.5,
           "l": 25426.75,
-          "c": 26725.0
+          "c": 26878.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 15.49,
-          "high_change_pct": -15.11
+          "low_change_pct": 16.16,
+          "high_change_pct": -14.63
         },
         "daily_expanded": [
           {
@@ -10564,8 +10502,8 @@
             "o": 25561.5,
             "h": 26878.5,
             "l": 25426.75,
-            "c": 26725.0,
-            "v": 275341
+            "c": 26878.5,
+            "v": 286791
           }
         ],
         "rollover_gaps": [
@@ -10584,13 +10522,17 @@
           {
             "date": "2026-11-23",
             "from": 25126.5,
-            "to": 26725.0,
-            "gap_pct": 6.36
+            "to": 26878.5,
+            "gap_pct": 6.97
           }
         ],
         "news": {
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/anthropic-committed-to-spend-900-billion-wall-street-expects-its-debt-to-be-junk-5514d55d?mod=rss_markets_main"
+            },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/risk-compliance-journal/fugitive-criminals-are-looking-for-new-hideouts-since-the-uae-started-extraditing-94e98eb1?mod=rss_worldnews"
@@ -10598,10 +10540,6 @@
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/europe/russian-ships-struck-in-attacks-far-from-ukraine-as-wars-fallout-spreads-a51964cb?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/disney-bets-big-on-streaming-just-dont-ask-what-it-costs-4b33553a?mod=rss_markets_main"
             }
           ]
         }
@@ -10609,12 +10547,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 49358.0,
-        "change_pct": 2.37,
+        "point": 49495.0,
+        "change_pct": 2.65,
         "spark": [
           48501.0,
-          49207.0,
-          49215.0,
           49207.0,
           49235.0,
           49208.0,
@@ -10652,21 +10588,23 @@
           49430.0,
           49364.0,
           49391.0,
-          49358.0
+          49489.0,
+          49498.0,
+          49495.0
         ],
         "candle": {
           "o": 48501.0,
-          "h": 49494.0,
+          "h": 49510.0,
           "l": 48433.0,
-          "c": 49358.0
+          "c": 49506.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 8.66,
-          "high_change_pct": -9.42
+          "low_change_pct": 8.99,
+          "high_change_pct": -9.15
         },
         "daily_expanded": [
           {
@@ -12672,10 +12610,10 @@
           {
             "date": "2026-11-23",
             "o": 48501.0,
-            "h": 49494.0,
+            "h": 49510.0,
             "l": 48433.0,
-            "c": 49358.0,
-            "v": 41751
+            "c": 49506.0,
+            "v": 43528
           }
         ],
         "rollover_gaps": [],
