@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 23540.14,
-      "change_pct": -2.28,
+      "point": 23488.04,
+      "change_pct": -2.5,
       "candle": {
         "o": 23726.54,
         "h": 23878.87,
-        "l": 23476.96,
-        "c": 23540.14
+        "l": 23458.35,
+        "c": 23488.04
       },
       "range_240d": {
         "low": 20794.64,
@@ -2032,8 +2032,8 @@
           "date": "2026-11-24",
           "o": 23726.54,
           "h": 23878.87,
-          "l": 23476.96,
-          "c": 23540.14
+          "l": 23458.35,
+          "c": 23488.04
         }
       ],
       "spark": [
@@ -2058,7 +2058,9 @@
         23567.97,
         23508.18,
         23528.86,
-        23540.14
+        23475.95,
+        23489.26,
+        23488.04
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2082,13 +2084,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7159.63,
-      "change_pct": -1.07,
+      "point": 7150.75,
+      "change_pct": -1.19,
       "candle": {
         "o": 7172.33,
         "h": 7223.95,
         "l": 7138.93,
-        "c": 7159.63
+        "c": 7150.75
       },
       "range_240d": {
         "low": 6343.72,
@@ -4112,7 +4114,7 @@
           "o": 7172.33,
           "h": 7223.95,
           "l": 7138.93,
-          "c": 7159.63
+          "c": 7150.75
         }
       ],
       "spark": [
@@ -4137,7 +4139,9 @@
         7161.28,
         7149.34,
         7156.75,
-        7159.63
+        7148.59,
+        7151.69,
+        7150.75
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4161,13 +4165,13 @@
     },
     {
       "name": "DOW",
-      "point": 49627.26,
-      "change_pct": 0.06,
+      "point": 49605.25,
+      "change_pct": 0.02,
       "candle": {
         "o": 49494.6,
         "h": 49959.05,
         "l": 49294.49,
-        "c": 49627.26
+        "c": 49605.25
       },
       "range_240d": {
         "low": 45166.64,
@@ -6191,7 +6195,7 @@
           "o": 49494.6,
           "h": 49959.05,
           "l": 49294.49,
-          "c": 49627.26
+          "c": 49605.25
         }
       ],
       "spark": [
@@ -6216,7 +6220,9 @@
         49629.96,
         49564.28,
         49605.72,
-        49627.26
+        49598.79,
+        49606.54,
+        49605.25
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6240,6 +6246,13 @@
     }
   ],
   "news_chips": [
+    {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html",
+      "published_ts": 1795536367.0,
+      "impact_high": true
+    },
     {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ세계",
@@ -6276,13 +6289,6 @@
       "impact_high": false
     },
     {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-supply-outlook-shipping-risks-7225885e?mod=rss_worldnews",
-      "published_ts": 1795523580.0,
-      "impact_high": false
-    },
-    {
       "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/24/france-recession-risk-pmi.html",
@@ -6304,7 +6310,7 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "38eda68ea6f6388f68d42996804477ae7b2cf7a2de9778a0f1e32af896ed0967",
+  "_article_sig": "338dfcff9b8422c057bad31b61375b07a199ce61340c311e314161caeb1d55e7",
   "built_at_kst": "2026-11-24T07:00:53.400038+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6329,16 +6335,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html"
+        },
+        {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/trade/u-s-prepares-to-raise-tariffs-on-china-and-other-countries-37981740?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-supply-outlook-shipping-risks-7225885e?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-2d65d6bc?mod=rss_markets_main"
         }
       ]
     },
@@ -6346,33 +6352,31 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/china/china-takes-down-shanghai-party-boss-once-seen-as-potential-leader-5d6d06e0?mod=rss_worldnews"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/u-s-consumer-confidence-came-roaring-back-in-november-conference-board-says-0a91a794?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/trade/u-s-prepares-to-raise-tariffs-on-china-and-other-countries-37981740?mod=rss_socialeconomyfeed"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-11-25T01:10:09.693326+09:00",
+    "as_of_kst": "2026-11-25T01:20:15.381798+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7173.75,
-        "change_pct": -1.11,
+        "point": 7175.5,
+        "change_pct": -1.09,
         "spark": [
           7272.0,
-          7194.25,
-          7189.5,
           7187.0,
           7171.0,
           7156.75,
@@ -6410,21 +6414,23 @@
           7185.5,
           7176.5,
           7164.0,
-          7173.75
+          7174.0,
+          7165.25,
+          7175.5
         ],
         "candle": {
           "o": 7272.0,
           "h": 7298.25,
           "l": 7144.75,
-          "c": 7174.25
+          "c": 7176.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 12.3,
-          "high_change_pct": -8.89
+          "low_change_pct": 12.33,
+          "high_change_pct": -8.86
         },
         "daily_expanded": [
           {
@@ -8440,8 +8446,8 @@
             "o": 7272.0,
             "h": 7298.25,
             "l": 7144.75,
-            "c": 7174.25,
-            "v": 837109
+            "c": 7176.0,
+            "v": 879994
           }
         ],
         "rollover_gaps": [],
@@ -8449,16 +8455,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html"
+            },
+            {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/trade/u-s-prepares-to-raise-tariffs-on-china-and-other-countries-37981740?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-supply-outlook-shipping-risks-7225885e?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-2d65d6bc?mod=rss_markets_main"
             }
           ]
         }
@@ -8466,12 +8472,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 26103.0,
+        "point": 26102.75,
         "change_pct": -2.63,
         "spark": [
           26888.0,
-          26392.25,
-          26359.5,
           26349.0,
           26262.75,
           26194.75,
@@ -8509,13 +8513,15 @@
           26160.0,
           26116.75,
           26046.0,
-          26103.0
+          26093.5,
+          26026.25,
+          26102.75
         ],
         "candle": {
           "o": 26888.0,
           "h": 27036.0,
-          "l": 26038.75,
-          "c": 26103.0
+          "l": 26000.0,
+          "c": 26104.75
         },
         "range_240d": {
           "low": 23139.75,
@@ -8523,7 +8529,7 @@
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
           "low_change_pct": 12.81,
-          "high_change_pct": -17.09
+          "high_change_pct": -17.08
         },
         "daily_expanded": [
           {
@@ -10538,9 +10544,9 @@
             "date": "2026-11-24",
             "o": 26888.0,
             "h": 27036.0,
-            "l": 26038.75,
-            "c": 26103.0,
-            "v": 508054
+            "l": 26000.0,
+            "c": 26104.75,
+            "v": 531123
           }
         ],
         "rollover_gaps": [
@@ -10584,12 +10590,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 49668.0,
-        "change_pct": -0.02,
+        "point": 49680.0,
+        "change_pct": 0.01,
         "spark": [
           49724.0,
-          49494.0,
-          49471.0,
           49471.0,
           49434.0,
           49325.0,
@@ -10627,21 +10631,23 @@
           49758.0,
           49682.0,
           49607.0,
-          49668.0
+          49664.0,
+          49657.0,
+          49680.0
         ],
         "candle": {
           "o": 49724.0,
           "h": 50021.0,
           "l": 49248.0,
-          "c": 49672.0
+          "c": 49680.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 9.35,
-          "high_change_pct": -8.85
+          "low_change_pct": 9.37,
+          "high_change_pct": -8.83
         },
         "daily_expanded": [
           {
@@ -12657,8 +12663,8 @@
             "o": 49724.0,
             "h": 50021.0,
             "l": 49248.0,
-            "c": 49672.0,
-            "v": 60110
+            "c": 49680.0,
+            "v": 62743
           }
         ],
         "rollover_gaps": [],
@@ -12666,21 +12672,21 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/china/china-takes-down-shanghai-party-boss-once-seen-as-potential-leader-5d6d06e0?mod=rss_worldnews"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/u-s-consumer-confidence-came-roaring-back-in-november-conference-board-says-0a91a794?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/trade/u-s-prepares-to-raise-tariffs-on-china-and-other-countries-37981740?mod=rss_socialeconomyfeed"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-11-25T01:10:30.064470+09:00"
+  "intraday_refreshed_kst": "2026-11-25T01:20:34.334002+09:00"
 }
