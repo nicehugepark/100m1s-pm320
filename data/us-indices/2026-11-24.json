@@ -6274,11 +6274,25 @@
   ],
   "news_chips": [
     {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-supply-outlook-shipping-risks-7225885e?mod=rss_worldnews",
+      "published_ts": 1795523580.0,
+      "impact_high": true
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/russian-warplanes-trigger-alarm-among-u-s-partners-in-asia-8c2a2157?mod=rss_worldnews",
       "published_ts": 1795522980.0,
       "impact_high": true
+    },
+    {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-u-s-chip-restrictions-amplify-shell-company-headaches-in-ai-ecosystem-fd7a749d?mod=rss_worldnews",
+      "published_ts": 1795523760.0,
+      "impact_high": false
     },
     {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
@@ -6302,24 +6316,10 @@
       "impact_high": false
     },
     {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/tech/ai/for-better-or-worse-the-fate-of-the-ai-boom-is-in-nvidias-hands-d0f88970?mod=rss_markets_main",
-      "published_ts": 1795516200.0,
-      "impact_high": false
-    },
-    {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026112476621",
       "published_ts": 1795508945.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ경제",
-      "url": "https://www.wsj.com/personal-finance/baby-boomer-silent-generation-wealth-transfer-elder-care-804e4a0e?mod=rss_socialeconomyfeed",
-      "published_ts": 1795428000.0,
       "impact_high": false
     },
     {
@@ -6337,21 +6337,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "749c8261b3204013f52bb494bb4f41a0ada30c99e13862131a04c91069ab4d65",
+  "_article_sig": "916d6acd53f445e86febc48aea0dfd58d00dcf2b260c2dc52e08efd22a9f5190",
   "built_at_kst": "2026-11-24T07:00:53.400038+09:00",
   "futures": {
-    "as_of_kst": "2026-11-24T21:30:18.812623+09:00",
+    "as_of_kst": "2026-11-24T21:40:12.199449+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7187.5,
-        "change_pct": -0.92,
+        "point": 7175.5,
+        "change_pct": -1.09,
         "spark": [
           7272.0,
-          7227.5,
-          7234.25,
           7227.0,
           7230.0,
           7231.5,
@@ -6389,21 +6387,23 @@
           7188.75,
           7187.75,
           7179.0,
-          7187.5
+          7174.0,
+          7178.5,
+          7175.5
         ],
         "candle": {
           "o": 7272.0,
           "h": 7298.25,
-          "l": 7176.75,
-          "c": 7187.25
+          "l": 7173.25,
+          "c": 7175.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 12.51,
-          "high_change_pct": -8.72
+          "low_change_pct": 12.32,
+          "high_change_pct": -8.88
         },
         "daily_expanded": [
           {
@@ -8418,9 +8418,9 @@
             "date": "2026-11-24",
             "o": 7272.0,
             "h": 7298.25,
-            "l": 7176.75,
-            "c": 7187.25,
-            "v": 225201
+            "l": 7173.25,
+            "c": 7175.0,
+            "v": 231826
           }
         ],
         "rollover_gaps": [],
@@ -8428,16 +8428,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-supply-outlook-shipping-risks-7225885e?mod=rss_worldnews"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-2d65d6bc?mod=rss_markets_main"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/these-technical-measures-warned-of-stock-market-whiplash-33fdca3d?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/middle-east/tiny-bahrain-is-paying-a-big-price-for-its-ties-to-the-u-s-77f0717a?mod=rss_worldnews"
             }
           ]
         }
@@ -8445,12 +8445,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 26335.0,
-        "change_pct": -1.76,
+        "point": 26295.25,
+        "change_pct": -1.91,
         "spark": [
           26888.0,
-          26552.75,
-          26590.5,
           26545.75,
           26556.75,
           26574.25,
@@ -8488,21 +8486,23 @@
           26347.75,
           26336.5,
           26305.5,
-          26335.0
+          26288.75,
+          26313.5,
+          26295.25
         ],
         "candle": {
           "o": 26888.0,
           "h": 27036.0,
           "l": 26255.0,
-          "c": 26338.25
+          "c": 26293.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 13.82,
-          "high_change_pct": -16.34
+          "low_change_pct": 13.63,
+          "high_change_pct": -16.48
         },
         "daily_expanded": [
           {
@@ -10518,8 +10518,8 @@
             "o": 26888.0,
             "h": 27036.0,
             "l": 26255.0,
-            "c": 26338.25,
-            "v": 164353
+            "c": 26293.5,
+            "v": 166926
           }
         ],
         "rollover_gaps": [
@@ -10547,15 +10547,15 @@
           "sources": [
             {
               "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/russian-warplanes-trigger-alarm-among-u-s-partners-in-asia-8c2a2157?mod=rss_worldnews"
+              "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-u-s-chip-restrictions-amplify-shell-company-headaches-in-ai-ecosystem-fd7a749d?mod=rss_worldnews"
             },
             {
               "name": "WSJ세계",
-              "url": "https://www.wsj.com/world/china/the-gap-between-chinas-military-spectacle-and-battlefield-reality-3e32e7ed?mod=rss_worldnews"
+              "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-supply-outlook-shipping-risks-7225885e?mod=rss_worldnews"
             },
             {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/tech/ai/for-better-or-worse-the-fate-of-the-ai-boom-is-in-nvidias-hands-d0f88970?mod=rss_markets_main"
+              "name": "WSJ세계",
+              "url": "https://www.wsj.com/world/russian-warplanes-trigger-alarm-among-u-s-partners-in-asia-8c2a2157?mod=rss_worldnews"
             }
           ]
         }
@@ -10563,12 +10563,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 49451.0,
-        "change_pct": -0.45,
+        "point": 49379.0,
+        "change_pct": -0.6,
         "spark": [
           49724.0,
-          49631.0,
-          49655.0,
           49622.0,
           49648.0,
           49654.0,
@@ -10606,21 +10604,23 @@
           49466.0,
           49450.0,
           49404.0,
-          49451.0
+          49373.0,
+          49397.0,
+          49379.0
         ],
         "candle": {
           "o": 49724.0,
           "h": 49880.0,
-          "l": 49401.0,
-          "c": 49451.0
+          "l": 49371.0,
+          "c": 49379.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 8.87,
-          "high_change_pct": -9.25
+          "low_change_pct": 8.71,
+          "high_change_pct": -9.39
         },
         "daily_expanded": [
           {
@@ -12635,9 +12635,9 @@
             "date": "2026-11-24",
             "o": 49724.0,
             "h": 49880.0,
-            "l": 49401.0,
-            "c": 49451.0,
-            "v": 19178
+            "l": 49371.0,
+            "c": 49379.0,
+            "v": 19820
           }
         ],
         "rollover_gaps": [],
@@ -12646,15 +12646,15 @@
           "sources": [
             {
               "name": "WSJ세계",
+              "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-supply-outlook-shipping-risks-7225885e?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ세계",
               "url": "https://www.wsj.com/world/china/the-gap-between-chinas-military-spectacle-and-battlefield-reality-3e32e7ed?mod=rss_worldnews"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-2d65d6bc?mod=rss_markets_main"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/24/france-recession-risk-pmi.html"
             }
           ]
         }
@@ -12668,15 +12668,15 @@
       "sources": [
         {
           "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/russian-warplanes-trigger-alarm-among-u-s-partners-in-asia-8c2a2157?mod=rss_worldnews"
+          "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-u-s-chip-restrictions-amplify-shell-company-headaches-in-ai-ecosystem-fd7a749d?mod=rss_worldnews"
         },
         {
           "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/china/the-gap-between-chinas-military-spectacle-and-battlefield-reality-3e32e7ed?mod=rss_worldnews"
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-supply-outlook-shipping-risks-7225885e?mod=rss_worldnews"
         },
         {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/tech/ai/for-better-or-worse-the-fate-of-the-ai-boom-is-in-nvidias-hands-d0f88970?mod=rss_markets_main"
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/world/russian-warplanes-trigger-alarm-among-u-s-partners-in-asia-8c2a2157?mod=rss_worldnews"
         }
       ]
     },
@@ -12684,16 +12684,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ세계",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-supply-outlook-shipping-risks-7225885e?mod=rss_worldnews"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-2d65d6bc?mod=rss_markets_main"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/these-technical-measures-warned-of-stock-market-whiplash-33fdca3d?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/world/middle-east/tiny-bahrain-is-paying-a-big-price-for-its-ties-to-the-u-s-77f0717a?mod=rss_worldnews"
         }
       ]
     },
@@ -12702,18 +12702,18 @@
       "sources": [
         {
           "name": "WSJ세계",
+          "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-supply-outlook-shipping-risks-7225885e?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ세계",
           "url": "https://www.wsj.com/world/china/the-gap-between-chinas-military-spectacle-and-battlefield-reality-3e32e7ed?mod=rss_worldnews"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-2d65d6bc?mod=rss_markets_main"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/24/france-recession-risk-pmi.html"
         }
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-11-24T21:30:41.725308+09:00"
+  "intraday_refreshed_kst": "2026-11-24T21:40:32.446441+09:00"
 }
