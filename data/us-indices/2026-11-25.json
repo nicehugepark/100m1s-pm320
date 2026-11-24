@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 23648.61,
-      "change_pct": -1.83,
+      "point": 23565.51,
+      "change_pct": -2.18,
       "candle": {
         "o": 23726.54,
         "h": 23878.87,
-        "l": 23569.74,
-        "c": 23648.61
+        "l": 23519.41,
+        "c": 23565.51
       },
       "range_240d": {
         "low": 20794.64,
@@ -2032,8 +2032,8 @@
           "date": "2026-11-24",
           "o": 23726.54,
           "h": 23878.87,
-          "l": 23569.74,
-          "c": 23648.61
+          "l": 23519.41,
+          "c": 23565.51
         }
       ],
       "spark": [
@@ -2052,7 +2052,9 @@
         23598.42,
         23667.51,
         23644.12,
-        23648.61
+        23531.3,
+        23550.69,
+        23565.51
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2076,13 +2078,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7176.78,
-      "change_pct": -0.83,
+      "point": 7156.27,
+      "change_pct": -1.12,
       "candle": {
         "o": 7172.33,
         "h": 7223.95,
         "l": 7138.93,
-        "c": 7176.78
+        "c": 7156.27
       },
       "range_240d": {
         "low": 6343.72,
@@ -4106,7 +4108,7 @@
           "o": 7172.33,
           "h": 7223.95,
           "l": 7138.93,
-          "c": 7176.78
+          "c": 7156.27
         }
       ],
       "spark": [
@@ -4125,7 +4127,9 @@
         7164.1,
         7180.13,
         7174.86,
-        7176.78
+        7149.63,
+        7153.94,
+        7156.27
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4149,13 +4153,13 @@
     },
     {
       "name": "DOW",
-      "point": 49694.32,
-      "change_pct": 0.2,
+      "point": 49591.05,
+      "change_pct": -0.01,
       "candle": {
         "o": 49494.6,
         "h": 49959.05,
         "l": 49294.49,
-        "c": 49694.32
+        "c": 49591.05
       },
       "range_240d": {
         "low": 45166.64,
@@ -6179,7 +6183,7 @@
           "o": 49494.6,
           "h": 49959.05,
           "l": 49294.49,
-          "c": 49694.32
+          "c": 49591.05
         }
       ],
       "spark": [
@@ -6198,7 +6202,9 @@
         49615.42,
         49709.07,
         49690.06,
-        49694.32
+        49548.3,
+        49577.57,
+        49591.05
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6230,6 +6236,13 @@
       "impact_high": true
     },
     {
+      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/china/china-takes-down-shanghai-party-boss-once-seen-as-potential-leader-5d6d06e0?mod=rss_worldnews",
+      "published_ts": 1795534920.0,
+      "impact_high": false
+    },
+    {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
       "source": "WSJ경제",
       "url": "https://www.wsj.com/economy/central-banking/u-s-consumer-confidence-came-roaring-back-in-november-conference-board-says-0a91a794?mod=rss_socialeconomyfeed",
@@ -6244,10 +6257,10 @@
       "impact_high": false
     },
     {
-      "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
-      "source": "WSJ세계",
-      "url": "https://www.wsj.com/world/china/china-takes-down-shanghai-party-boss-once-seen-as-potential-leader-5d6d06e0?mod=rss_worldnews",
-      "published_ts": 1795531500.0,
+      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/202611258060i",
+      "published_ts": 1795534297.0,
       "impact_high": false
     },
     {
@@ -6265,13 +6278,6 @@
       "impact_high": false
     },
     {
-      "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026112476621",
-      "published_ts": 1795508945.0,
-      "impact_high": false
-    },
-    {
       "summary": "연준과 금리 경로 관련 발언이 미국 증시의 정책 민감도를 키우는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
@@ -6286,7 +6292,7 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "4de392570f69ec035c081d8abd84baf48097d408a94e546fbbfc753605377fc8",
+  "_article_sig": "d96de516dc8f7637a840298f147549397957cb60e3849acd7fdbcd5b2c410818",
   "built_at_kst": "2026-11-24T07:00:53.400038+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6294,12 +6300,12 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/u-s-consumer-confidence-came-roaring-back-in-november-conference-board-says-0a91a794?mod=rss_socialeconomyfeed"
-        },
-        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/china/china-takes-down-shanghai-party-boss-once-seen-as-potential-leader-5d6d06e0?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/u-s-consumer-confidence-came-roaring-back-in-november-conference-board-says-0a91a794?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ경제",
@@ -6328,12 +6334,12 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/central-banking/u-s-consumer-confidence-came-roaring-back-in-november-conference-board-says-0a91a794?mod=rss_socialeconomyfeed"
-        },
-        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/china/china-takes-down-shanghai-party-boss-once-seen-as-potential-leader-5d6d06e0?mod=rss_worldnews"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/central-banking/u-s-consumer-confidence-came-roaring-back-in-november-conference-board-says-0a91a794?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ경제",
@@ -6343,18 +6349,16 @@
     }
   },
   "futures": {
-    "as_of_kst": "2026-11-25T00:40:10.495628+09:00",
+    "as_of_kst": "2026-11-25T00:50:15.860008+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7181.0,
-        "change_pct": -1.01,
+        "point": 7191.75,
+        "change_pct": -0.86,
         "spark": [
           7272.0,
-          7179.0,
-          7174.0,
           7178.5,
           7176.0,
           7190.75,
@@ -6392,21 +6396,23 @@
           7193.5,
           7178.75,
           7196.0,
-          7181.0
+          7189.75,
+          7165.5,
+          7191.75
         ],
         "candle": {
           "o": 7272.0,
           "h": 7298.25,
           "l": 7144.75,
-          "c": 7182.25
+          "c": 7191.25
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 12.43,
-          "high_change_pct": -8.79
+          "low_change_pct": 12.57,
+          "high_change_pct": -8.67
         },
         "daily_expanded": [
           {
@@ -8422,8 +8428,8 @@
             "o": 7272.0,
             "h": 7298.25,
             "l": 7144.75,
-            "c": 7182.25,
-            "v": 711547
+            "c": 7191.25,
+            "v": 752110
           }
         ],
         "rollover_gaps": [],
@@ -8448,13 +8454,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 26167.5,
-        "change_pct": -2.39,
+        "point": 26219.0,
+        "change_pct": -2.2,
         "spark": [
           26888.0,
-          26336.5,
-          26305.5,
-          26288.75,
           26313.5,
           26305.25,
           26378.5,
@@ -8491,21 +8494,24 @@
           26247.25,
           26236.25,
           26167.5,
-          26167.5
+          26236.5,
+          26199.25,
+          26071.0,
+          26219.0
         ],
         "candle": {
           "o": 26888.0,
           "h": 27036.0,
           "l": 26110.0,
-          "c": 26160.0
+          "c": 26204.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 13.05,
-          "high_change_pct": -16.91
+          "low_change_pct": 13.24,
+          "high_change_pct": -16.77
         },
         "daily_expanded": [
           {
@@ -10521,8 +10527,8 @@
             "o": 26888.0,
             "h": 27036.0,
             "l": 26110.0,
-            "c": 26160.0,
-            "v": 434244
+            "c": 26204.25,
+            "v": 461248
           }
         ],
         "rollover_gaps": [
@@ -10549,12 +10555,12 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/u-s-consumer-confidence-came-roaring-back-in-november-conference-board-says-0a91a794?mod=rss_socialeconomyfeed"
-            },
-            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/china/china-takes-down-shanghai-party-boss-once-seen-as-potential-leader-5d6d06e0?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/u-s-consumer-confidence-came-roaring-back-in-november-conference-board-says-0a91a794?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ경제",
@@ -10566,12 +10572,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 49684.0,
-        "change_pct": 0.01,
+        "point": 49756.0,
+        "change_pct": 0.16,
         "spark": [
           49724.0,
-          49404.0,
-          49373.0,
           49397.0,
           49386.0,
           49452.0,
@@ -10609,21 +10613,23 @@
           49750.0,
           49669.0,
           49776.0,
-          49684.0
+          49737.0,
+          49609.0,
+          49756.0
         ],
         "candle": {
           "o": 49724.0,
           "h": 50021.0,
           "l": 49248.0,
-          "c": 49676.0
+          "c": 49754.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 9.36,
-          "high_change_pct": -8.84
+          "low_change_pct": 9.53,
+          "high_change_pct": -8.7
         },
         "daily_expanded": [
           {
@@ -12639,8 +12645,8 @@
             "o": 49724.0,
             "h": 50021.0,
             "l": 49248.0,
-            "c": 49676.0,
-            "v": 52840
+            "c": 49754.0,
+            "v": 54718
           }
         ],
         "rollover_gaps": [],
@@ -12648,12 +12654,12 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/central-banking/u-s-consumer-confidence-came-roaring-back-in-november-conference-board-says-0a91a794?mod=rss_socialeconomyfeed"
-            },
-            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/china/china-takes-down-shanghai-party-boss-once-seen-as-potential-leader-5d6d06e0?mod=rss_worldnews"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/central-banking/u-s-consumer-confidence-came-roaring-back-in-november-conference-board-says-0a91a794?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ경제",
@@ -12664,5 +12670,5 @@
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-11-25T00:40:32.867329+09:00"
+  "intraday_refreshed_kst": "2026-11-25T00:50:35.135198+09:00"
 }
