@@ -6274,6 +6274,13 @@
   ],
   "news_chips": [
     {
+      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/australias-october-inflation-surges-keeping-rba-on-alert-for-further-rate-hikes-7cc40074?mod=rss_socialeconomyfeed",
+      "published_ts": 1795569360.0,
+      "impact_high": true
+    },
+    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/2026112582197",
@@ -6299,13 +6306,6 @@
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/202611258309H",
       "published_ts": 1795562877.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/world/americas/venezuela-reveals-an-eye-popping-debt-load-of-237-billion-16bddcde?mod=rss_markets_main",
-      "published_ts": 1795557300.0,
       "impact_high": false
     },
     {
@@ -6337,22 +6337,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "21419d3e1a1b815a66cddf3de6c03afaa49e80b6d66137f33c639383153fa774",
+  "_article_sig": "fdf22e2716de989ac7d2d1501a5e1483c800d4f4fbf27f222e684ffba21379ad",
   "built_at_kst": "2026-11-25T07:00:50.053748+09:00",
   "futures": {
-    "as_of_kst": "2026-11-25T10:10:24.067418+09:00",
+    "as_of_kst": "2026-11-25T10:20:22.704527+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7195.5,
-        "change_pct": -0.3,
+        "point": 7189.5,
+        "change_pct": -0.39,
         "spark": [
           7212.5,
-          7196.0,
-          7210.0,
-          7214.0,
           7220.25,
           7209.25,
           7208.0,
@@ -6389,21 +6386,24 @@
           7195.0,
           7198.25,
           7195.5,
-          7195.5
+          7185.25,
+          7188.75,
+          7191.75,
+          7189.5
         ],
         "candle": {
           "o": 7212.5,
           "h": 7224.0,
           "l": 7181.5,
-          "c": 7197.5
+          "c": 7188.5
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 12.67,
-          "high_change_pct": -8.59
+          "low_change_pct": 12.53,
+          "high_change_pct": -8.71
         },
         "daily_expanded": [
           {
@@ -8419,8 +8419,8 @@
             "o": 7212.5,
             "h": 7224.0,
             "l": 7181.5,
-            "c": 7197.5,
-            "v": 22885
+            "c": 7188.5,
+            "v": 25219
           }
         ],
         "rollover_gaps": [],
@@ -8428,16 +8428,16 @@
           "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/australias-october-inflation-surges-keeping-rba-on-alert-for-further-rate-hikes-7cc40074?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ",
               "url": "https://www.wsj.com/world/americas/venezuela-reveals-an-eye-popping-debt-load-of-237-billion-16bddcde?mod=rss_markets_main"
             },
             {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/world/americas/venezuela-reveals-an-eye-popping-debt-load-of-237-billion-16bddcde?mod=rss_worldnews"
-            },
-            {
-              "name": "WSJ세계",
-              "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-supply-outlook-shipping-risks-7225885e?mod=rss_worldnews"
             }
           ]
         }
@@ -8445,12 +8445,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 26184.25,
-        "change_pct": -0.35,
+        "point": 26129.5,
+        "change_pct": -0.56,
         "spark": [
           26279.5,
-          26253.75,
-          26281.5,
           26284.75,
           26235.25,
           26226.25,
@@ -8487,22 +8485,24 @@
           26171.5,
           26178.25,
           26162.75,
-          26168.25,
-          26184.25
+          26102.5,
+          26124.0,
+          26144.0,
+          26129.5
         ],
         "candle": {
           "o": 26279.5,
           "h": 26350.75,
-          "l": 26092.0,
-          "c": 26186.5
+          "l": 26091.25,
+          "c": 26114.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 13.17,
-          "high_change_pct": -16.82
+          "low_change_pct": 12.85,
+          "high_change_pct": -17.05
         },
         "daily_expanded": [
           {
@@ -10517,9 +10517,9 @@
             "date": "2026-11-24",
             "o": 26279.5,
             "h": 26350.75,
-            "l": 26092.0,
-            "c": 26186.5,
-            "v": 20009
+            "l": 26091.25,
+            "c": 26114.25,
+            "v": 22898
           }
         ],
         "rollover_gaps": [
@@ -10546,16 +10546,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/australias-october-inflation-surges-keeping-rba-on-alert-for-further-rate-hikes-7cc40074?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/202611258309H"
             },
             {
               "name": "WSJ",
               "url": "https://www.wsj.com/finance/stocks/anthropic-had-the-biggest-ipo-ever-the-trade-is-already-unraveling-f971d7c5?mod=rss_markets_main"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/the-retail-investors-who-believed-nvidias-boardand-got-burned-by-its-u-turn-05349a63?mod=rss_markets_main"
             }
           ]
         }
@@ -10563,12 +10563,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 49973.0,
-        "change_pct": -0.18,
+        "point": 49922.0,
+        "change_pct": -0.28,
         "spark": [
           50027.0,
-          50043.0,
-          50060.0,
           50076.0,
           50033.0,
           50024.0,
@@ -10605,22 +10603,24 @@
           49928.0,
           49965.0,
           49962.0,
-          49962.0,
-          49973.0
+          49908.0,
+          49919.0,
+          49930.0,
+          49922.0
         ],
         "candle": {
           "o": 50027.0,
           "h": 50060.0,
           "l": 49888.0,
-          "c": 49973.0
+          "c": 49922.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 10.01,
-          "high_change_pct": -8.3
+          "low_change_pct": 9.9,
+          "high_change_pct": -8.39
         },
         "daily_expanded": [
           {
@@ -12636,8 +12636,8 @@
             "o": 50027.0,
             "h": 50060.0,
             "l": 49888.0,
-            "c": 49973.0,
-            "v": 2017
+            "c": 49922.0,
+            "v": 2262
           }
         ],
         "rollover_gaps": [],
@@ -12645,16 +12645,16 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/australias-october-inflation-surges-keeping-rba-on-alert-for-further-rate-hikes-7cc40074?mod=rss_socialeconomyfeed"
+            },
+            {
               "name": "WSJ세계",
               "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-supply-outlook-shipping-risks-7225885e?mod=rss_worldnews"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-gov-macklem-expects-inflation-to-remain-persistent-1fbb15f1?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html"
             }
           ]
         }
@@ -12667,16 +12667,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/australias-october-inflation-surges-keeping-rba-on-alert-for-further-rate-hikes-7cc40074?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/202611258309H"
         },
         {
           "name": "WSJ",
           "url": "https://www.wsj.com/finance/stocks/anthropic-had-the-biggest-ipo-ever-the-trade-is-already-unraveling-f971d7c5?mod=rss_markets_main"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/the-retail-investors-who-believed-nvidias-boardand-got-burned-by-its-u-turn-05349a63?mod=rss_markets_main"
         }
       ]
     },
@@ -12684,16 +12684,16 @@
       "summary": "연준·물가·지정학 뉴스가 S&P500 선물의 방향성 판단 변수로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/australias-october-inflation-surges-keeping-rba-on-alert-for-further-rate-hikes-7cc40074?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ",
           "url": "https://www.wsj.com/world/americas/venezuela-reveals-an-eye-popping-debt-load-of-237-billion-16bddcde?mod=rss_markets_main"
         },
         {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/world/americas/venezuela-reveals-an-eye-popping-debt-load-of-237-billion-16bddcde?mod=rss_worldnews"
-        },
-        {
-          "name": "WSJ세계",
-          "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-supply-outlook-shipping-risks-7225885e?mod=rss_worldnews"
         }
       ]
     },
@@ -12701,19 +12701,19 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/australias-october-inflation-surges-keeping-rba-on-alert-for-further-rate-hikes-7cc40074?mod=rss_socialeconomyfeed"
+        },
+        {
           "name": "WSJ세계",
           "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-supply-outlook-shipping-risks-7225885e?mod=rss_worldnews"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-gov-macklem-expects-inflation-to-remain-persistent-1fbb15f1?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html"
         }
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-11-25T10:10:39.393797+09:00"
+  "intraday_refreshed_kst": "2026-11-25T10:20:45.525276+09:00"
 }
