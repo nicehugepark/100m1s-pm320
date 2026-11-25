@@ -6277,7 +6277,7 @@
       "summary": "미국 물가 지표가 금리 경계감과 섹터별 밸류에이션 부담을 동시에 자극하는 흐름",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html",
-      "published_ts": 1795614448.0,
+      "published_ts": 1795615448.0,
       "impact_high": true
     },
     {
@@ -6286,6 +6286,13 @@
       "url": "https://www.wsj.com/economy/trade/u-s-set-to-raise-tariffs-on-china-eu-and-others-e991efdb?mod=rss_socialeconomyfeed",
       "published_ts": 1795613760.0,
       "impact_high": true
+    },
+    {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ경제",
+      "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-fall-more-than-expected-6a544eff?mod=rss_socialeconomyfeed",
+      "published_ts": 1795615200.0,
+      "impact_high": false
     },
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
@@ -6299,13 +6306,6 @@
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-supply-outlook-renewed-middle-east-tensions-182b1198?mod=rss_worldnews",
       "published_ts": 1795609620.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/finance/stocks/the-ai-grinch-wont-steal-christmas-but-watch-next-year-b5b2dd7a?mod=rss_markets_main",
-      "published_ts": 1795606260.0,
       "impact_high": false
     },
     {
@@ -6337,21 +6337,19 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "ad4bbc260b7474fcd56ed084a1d42c0e64b6f1cd1dcd882eba24f79e48cbb0fc",
+  "_article_sig": "035b1ad566ddc938504a463f2f4e3db36a89af8a3e1e24d500937982360cd5ea",
   "built_at_kst": "2026-11-25T07:00:50.053748+09:00",
   "futures": {
-    "as_of_kst": "2026-11-25T23:00:29.586482+09:00",
+    "as_of_kst": "2026-11-25T23:10:12.933479+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7067.25,
-        "change_pct": -2.08,
+        "point": 7066.0,
+        "change_pct": -2.1,
         "spark": [
           7212.5,
-          7111.0,
-          7111.0,
           7107.0,
           7115.5,
           7112.5,
@@ -6389,20 +6387,22 @@
           7064.75,
           7071.25,
           7070.25,
-          7067.25
+          7066.5,
+          7069.25,
+          7066.0
         ],
         "candle": {
           "o": 7212.5,
           "h": 7224.0,
           "l": 7062.25,
-          "c": 7066.5
+          "c": 7065.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 10.62,
+          "low_change_pct": 10.61,
           "high_change_pct": -10.26
         },
         "daily_expanded": [
@@ -8419,8 +8419,8 @@
             "o": 7212.5,
             "h": 7224.0,
             "l": 7062.25,
-            "c": 7066.5,
-            "v": 300546
+            "c": 7065.75,
+            "v": 306238
           }
         ],
         "rollover_gaps": [],
@@ -8432,12 +8432,12 @@
               "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
             },
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/trade/u-s-set-to-raise-tariffs-on-china-eu-and-others-e991efdb?mod=rss_socialeconomyfeed"
-            },
-            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/trade/u-s-set-to-raise-tariffs-on-china-eu-and-others-e991efdb?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -8445,12 +8445,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 25439.0,
-        "change_pct": -3.18,
+        "point": 25411.5,
+        "change_pct": -3.29,
         "spark": [
           26279.5,
-          25636.25,
-          25624.25,
           25602.75,
           25659.75,
           25648.75,
@@ -8488,21 +8486,23 @@
           25436.25,
           25462.0,
           25447.75,
-          25439.0
+          25414.5,
+          25415.75,
+          25411.5
         ],
         "candle": {
           "o": 26279.5,
           "h": 26350.75,
-          "l": 25423.25,
-          "c": 25447.5
+          "l": 25404.75,
+          "c": 25407.0
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 9.97,
-          "high_change_pct": -19.17
+          "low_change_pct": 9.8,
+          "high_change_pct": -19.3
         },
         "daily_expanded": [
           {
@@ -10517,9 +10517,9 @@
             "date": "2026-11-25",
             "o": 26279.5,
             "h": 26350.75,
-            "l": 25423.25,
-            "c": 25447.5,
-            "v": 213015
+            "l": 25404.75,
+            "c": 25407.0,
+            "v": 217820
           }
         ],
         "rollover_gaps": [
@@ -10547,15 +10547,15 @@
           "sources": [
             {
               "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-fall-more-than-expected-6a544eff?mod=rss_socialeconomyfeed"
+            },
+            {
+              "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/trade/u-s-set-to-raise-tariffs-on-china-eu-and-others-e991efdb?mod=rss_socialeconomyfeed"
             },
             {
               "name": "WSJ경제",
               "url": "https://www.wsj.com/economy/trade/world-trade-flows-surge-as-ai-boost-overwhelms-barriers-d0a18e21?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "WSJ",
-              "url": "https://www.wsj.com/finance/stocks/the-ai-grinch-wont-steal-christmas-but-watch-next-year-b5b2dd7a?mod=rss_markets_main"
             }
           ]
         }
@@ -10563,12 +10563,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 49400.0,
-        "change_pct": -1.32,
+        "point": 49389.0,
+        "change_pct": -1.34,
         "spark": [
           50027.0,
-          49682.0,
-          49702.0,
           49683.0,
           49697.0,
           49682.0,
@@ -10606,21 +10604,23 @@
           49374.0,
           49415.0,
           49406.0,
-          49400.0
+          49390.0,
+          49403.0,
+          49389.0
         ],
         "candle": {
           "o": 50027.0,
           "h": 50060.0,
           "l": 49353.0,
-          "c": 49400.0
+          "c": 49389.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 8.75,
-          "high_change_pct": -9.35
+          "low_change_pct": 8.73,
+          "high_change_pct": -9.37
         },
         "daily_expanded": [
           {
@@ -12636,8 +12636,8 @@
             "o": 50027.0,
             "h": 50060.0,
             "l": 49353.0,
-            "c": 49400.0,
-            "v": 27162
+            "c": 49389.0,
+            "v": 27647
           }
         ],
         "rollover_gaps": [],
@@ -12649,12 +12649,12 @@
               "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
             },
             {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/trade/u-s-set-to-raise-tariffs-on-china-eu-and-others-e991efdb?mod=rss_socialeconomyfeed"
-            },
-            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html"
+            },
+            {
+              "name": "WSJ경제",
+              "url": "https://www.wsj.com/economy/trade/u-s-set-to-raise-tariffs-on-china-eu-and-others-e991efdb?mod=rss_socialeconomyfeed"
             }
           ]
         }
@@ -12668,15 +12668,15 @@
       "sources": [
         {
           "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-fall-more-than-expected-6a544eff?mod=rss_socialeconomyfeed"
+        },
+        {
+          "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/trade/u-s-set-to-raise-tariffs-on-china-eu-and-others-e991efdb?mod=rss_socialeconomyfeed"
         },
         {
           "name": "WSJ경제",
           "url": "https://www.wsj.com/economy/trade/world-trade-flows-surge-as-ai-boost-overwhelms-barriers-d0a18e21?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "WSJ",
-          "url": "https://www.wsj.com/finance/stocks/the-ai-grinch-wont-steal-christmas-but-watch-next-year-b5b2dd7a?mod=rss_markets_main"
         }
       ]
     },
@@ -12688,12 +12688,12 @@
           "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
         },
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/trade/u-s-set-to-raise-tariffs-on-china-eu-and-others-e991efdb?mod=rss_socialeconomyfeed"
-        },
-        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/trade/u-s-set-to-raise-tariffs-on-china-eu-and-others-e991efdb?mod=rss_socialeconomyfeed"
         }
       ]
     },
@@ -12705,15 +12705,15 @@
           "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
         },
         {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/trade/u-s-set-to-raise-tariffs-on-china-eu-and-others-e991efdb?mod=rss_socialeconomyfeed"
-        },
-        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html"
+        },
+        {
+          "name": "WSJ경제",
+          "url": "https://www.wsj.com/economy/trade/u-s-set-to-raise-tariffs-on-china-eu-and-others-e991efdb?mod=rss_socialeconomyfeed"
         }
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-11-25T23:00:56.017389+09:00"
+  "intraday_refreshed_kst": "2026-11-25T23:10:32.986044+09:00"
 }
