@@ -6276,9 +6276,16 @@
     {
       "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
       "source": "한경국제",
-      "url": "https://www.hankyung.com/article/202611250128i",
-      "published_ts": 1795594397.0,
-      "impact_high": true
+      "url": "https://www.hankyung.com/article/2026112502211",
+      "published_ts": 1795597752.0,
+      "impact_high": false
+    },
+    {
+      "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
+      "source": "한경국제",
+      "url": "https://www.hankyung.com/article/2026112502221",
+      "published_ts": 1795595215.0,
+      "impact_high": false
     },
     {
       "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
@@ -6292,13 +6299,6 @@
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-supply-outlook-renewed-middle-east-tensions-182b1198?mod=rss_worldnews",
       "published_ts": 1795591080.0,
-      "impact_high": false
-    },
-    {
-      "summary": "금융권 규제와 신용 리스크 이슈가 대형 금융주 심리에 영향을 주는 흐름",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/25/uae-iran-war-economy-oil.html",
-      "published_ts": 1795579561.0,
       "impact_high": false
     },
     {
@@ -6316,13 +6316,6 @@
       "impact_high": false
     },
     {
-      "summary": "반도체 수요와 공급망 뉴스가 기술주 투자심리의 핵심 변수로 작용하는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/202611258309H",
-      "published_ts": 1795562877.0,
-      "impact_high": false
-    },
-    {
       "summary": "미국 주요 지수 변동성이 확대되며 섹터별 차별화가 커지는 흐름",
       "source": "WSJ",
       "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-59d5ef65?mod=rss_markets_main",
@@ -6335,22 +6328,28 @@
       "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
       "published_ts": 1795208828.0,
       "impact_high": true
+    },
+    {
+      "summary": "반도체 수요와 공급망 뉴스가 기술주 투자심리의 핵심 변수로 작용하는 흐름",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/18/japan-exports-october-imports-chips.html",
+      "published_ts": 1794962131.0,
+      "impact_high": true
     }
   ],
-  "_article_sig": "a2d8572df82f939ebdadf0a5f3648070d6734a46620315bdcf67847c0269060b",
+  "_article_sig": "9fc8cd71a480f501b6270ef6e0e4e8b7962643e81d5d622443bb221c11ebf2ae",
   "built_at_kst": "2026-11-25T07:00:50.053748+09:00",
   "futures": {
-    "as_of_kst": "2026-11-25T18:10:15.929301+09:00",
+    "as_of_kst": "2026-11-25T18:20:17.469644+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7155.0,
-        "change_pct": -0.87,
+        "point": 7145.5,
+        "change_pct": -1.0,
         "spark": [
           7212.5,
-          7159.5,
           7156.25,
           7155.0,
           7161.75,
@@ -6389,21 +6388,22 @@
           7156.5,
           7155.5,
           7148.0,
-          7155.0
+          7145.25,
+          7145.5
         ],
         "candle": {
           "o": 7212.5,
           "h": 7224.0,
           "l": 7120.5,
-          "c": 7152.75
+          "c": 7144.75
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 11.97,
-          "high_change_pct": -9.16
+          "low_change_pct": 11.84,
+          "high_change_pct": -9.26
         },
         "daily_expanded": [
           {
@@ -8419,8 +8419,8 @@
             "o": 7212.5,
             "h": 7224.0,
             "l": 7120.5,
-            "c": 7152.75,
-            "v": 138439
+            "c": 7144.75,
+            "v": 142179
           }
         ],
         "rollover_gaps": [],
@@ -8445,12 +8445,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 25807.75,
-        "change_pct": -1.78,
+        "point": 25768.75,
+        "change_pct": -1.93,
         "spark": [
           26279.5,
-          25908.5,
-          25887.25,
           25873.0,
           25911.5,
           25938.5,
@@ -8488,21 +8486,23 @@
           25826.25,
           25820.0,
           25782.75,
-          25807.75
+          25770.5,
+          25724.25,
+          25768.75
         ],
         "candle": {
           "o": 26279.5,
           "h": 26350.75,
           "l": 25637.25,
-          "c": 25806.25
+          "c": 25764.25
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 11.52,
-          "high_change_pct": -18.03
+          "low_change_pct": 11.34,
+          "high_change_pct": -18.17
         },
         "daily_expanded": [
           {
@@ -10518,8 +10518,8 @@
             "o": 26279.5,
             "h": 26350.75,
             "l": 25637.25,
-            "c": 25806.25,
-            "v": 129713
+            "c": 25764.25,
+            "v": 131824
           }
         ],
         "rollover_gaps": [
@@ -10563,12 +10563,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 49882.0,
-        "change_pct": -0.36,
+        "point": 49856.0,
+        "change_pct": -0.41,
         "spark": [
           50027.0,
-          49831.0,
-          49810.0,
           49812.0,
           49841.0,
           49886.0,
@@ -10606,21 +10604,23 @@
           49902.0,
           49897.0,
           49880.0,
-          49882.0
+          49859.0,
+          49807.0,
+          49856.0
         ],
         "candle": {
           "o": 50027.0,
           "h": 50060.0,
           "l": 49693.0,
-          "c": 49882.0
+          "c": 49851.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 9.81,
-          "high_change_pct": -8.46
+          "low_change_pct": 9.75,
+          "high_change_pct": -8.52
         },
         "daily_expanded": [
           {
@@ -12636,8 +12636,8 @@
             "o": 50027.0,
             "h": 50060.0,
             "l": 49693.0,
-            "c": 49882.0,
-            "v": 12112
+            "c": 49851.0,
+            "v": 12541
           }
         ],
         "rollover_gaps": [],
@@ -12715,5 +12715,5 @@
       ]
     }
   },
-  "intraday_refreshed_kst": "2026-11-25T18:10:30.224023+09:00"
+  "intraday_refreshed_kst": "2026-11-25T18:20:38.183075+09:00"
 }
