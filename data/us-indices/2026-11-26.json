@@ -3,13 +3,13 @@
   "indices": [
     {
       "name": "NASDAQ",
-      "point": 23594.47,
-      "change_pct": -0.59,
+      "point": 23606.0,
+      "change_pct": -0.54,
       "candle": {
         "o": 22959.94,
-        "h": 23620.65,
+        "h": 23626.98,
         "l": 22635.23,
-        "c": 23594.47
+        "c": 23606.0
       },
       "range_240d": {
         "low": 20794.64,
@@ -2031,15 +2031,13 @@
         {
           "date": "2026-11-25",
           "o": 22959.94,
-          "h": 23620.65,
+          "h": 23626.98,
           "l": 22635.23,
-          "c": 23594.47
+          "c": 23606.0
         }
       ],
       "spark": [
         22959.94,
-        22732.57,
-        22814.86,
         22812.26,
         22777.66,
         22771.95,
@@ -2077,7 +2075,9 @@
         23535.15,
         23575.27,
         23602.46,
-        23594.47
+        23568.29,
+        23599.29,
+        23606.0
       ],
       "news": {
         "summary": "AI·반도체와 금리 민감 뉴스가 나스닥의 섹터 차별화 요인으로 부각되는 흐름",
@@ -2101,13 +2101,13 @@
     },
     {
       "name": "S&P500",
-      "point": 7191.06,
+      "point": 7190.84,
       "change_pct": -0.14,
       "candle": {
         "o": 7060.33,
-        "h": 7196.78,
+        "h": 7199.31,
         "l": 6970.11,
-        "c": 7191.06
+        "c": 7190.84
       },
       "range_240d": {
         "low": 6343.72,
@@ -4129,15 +4129,13 @@
         {
           "date": "2026-11-25",
           "o": 7060.33,
-          "h": 7196.78,
+          "h": 7199.31,
           "l": 6970.11,
-          "c": 7191.06
+          "c": 7190.84
         }
       ],
       "spark": [
         7060.33,
-        6995.36,
-        7017.58,
         7014.0,
         7001.15,
         7001.98,
@@ -4175,7 +4173,9 @@
         7176.62,
         7184.35,
         7193.37,
-        7191.06
+        7182.79,
+        7189.69,
+        7190.84
       ],
       "news": {
         "summary": "연준·물가·지정학 뉴스가 미국 증시 전반의 매크로 부담으로 작용하는 흐름",
@@ -4199,13 +4199,13 @@
     },
     {
       "name": "DOW",
-      "point": 50353.83,
-      "change_pct": 0.67,
+      "point": 50329.5,
+      "change_pct": 0.62,
       "candle": {
         "o": 49469.86,
         "h": 50395.24,
         "l": 48913.74,
-        "c": 50353.83
+        "c": 50329.5
       },
       "range_240d": {
         "low": 45166.64,
@@ -6229,13 +6229,11 @@
           "o": 49469.86,
           "h": 50395.24,
           "l": 48913.74,
-          "c": 50353.83
+          "c": 50329.5
         }
       ],
       "spark": [
         49469.86,
-        49260.15,
-        49407.27,
         49371.59,
         49283.02,
         49277.24,
@@ -6273,7 +6271,9 @@
         50269.47,
         50296.82,
         50356.56,
-        50353.83
+        50287.7,
+        50319.81,
+        50329.5
       ],
       "news": {
         "summary": "금융·산업재·에너지 관련 뉴스가 다우의 경기민감 흐름에 영향을 주는 흐름",
@@ -6298,6 +6298,13 @@
   ],
   "news_chips": [
     {
+      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
+      "source": "WSJ세계",
+      "url": "https://www.wsj.com/world/europe/inside-the-scramble-to-avert-conflict-with-russia-in-the-baltic-4ec51b82?mod=rss_worldnews",
+      "published_ts": 1795632720.0,
+      "impact_high": true
+    },
+    {
       "summary": "관세와 통상 정책 불확실성이 글로벌 공급망과 경기민감주 부담으로 이어지는 흐름",
       "source": "한경국제",
       "url": "https://www.hankyung.com/article/202611260721i",
@@ -6312,24 +6319,17 @@
       "impact_high": true
     },
     {
+      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/finance/investing/dan-loebs-hedge-fund-returns-to-startup-investing-years-after-ftx-loss-46f36108?mod=rss_markets_main",
+      "published_ts": 1795635180.0,
+      "impact_high": false
+    },
+    {
       "summary": "지정학 리스크와 에너지 가격 변동이 위험자산 심리에 부담으로 작용하는 흐름",
       "source": "WSJ세계",
       "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-supply-outlook-renewed-middle-east-tensions-182b1198?mod=rss_worldnews",
       "published_ts": 1795628220.0,
-      "impact_high": false
-    },
-    {
-      "summary": "미국 증시 주요 뉴스가 매크로와 섹터별 투자심리 변화로 연결되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/2026112502201",
-      "published_ts": 1795625555.0,
-      "impact_high": false
-    },
-    {
-      "summary": "AI 인프라 투자 이슈가 기술주와 전력 인프라 섹터의 차별화 요인으로 부각되는 흐름",
-      "source": "한경국제",
-      "url": "https://www.hankyung.com/article/202611260726i",
-      "published_ts": 1795625148.0,
       "impact_high": false
     },
     {
@@ -6361,7 +6361,7 @@
       "impact_high": true
     }
   ],
-  "_article_sig": "b49e9989b3571b624053aadc7279cb4f39bfcc12300bdf14817ad70a0928f628",
+  "_article_sig": "2e71088cf67c70610ea3b2e872f389c9fc8e1c7ec426728494cdb5d8802e28cc",
   "built_at_kst": "2026-11-25T07:00:50.053748+09:00",
   "regular_open": true,
   "_futures_news": {
@@ -6369,16 +6369,16 @@
       "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/investing/dan-loebs-hedge-fund-returns-to-startup-investing-years-after-ftx-loss-46f36108?mod=rss_markets_main"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/banking/jamie-dimon-loved-britainuntil-it-raised-taxes-on-jpmorgan-3462d7b6?mod=rss_markets_main"
+        },
+        {
           "name": "한경국제",
           "url": "https://www.hankyung.com/article/202611260726i"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/trade/world-trade-flows-surge-as-ai-boost-overwhelms-barriers-d0a18e21?mod=rss_socialeconomyfeed"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
         }
       ]
     },
@@ -6403,33 +6403,31 @@
       "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
       "sources": [
         {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/finance/banking/jamie-dimon-loved-britainuntil-it-raised-taxes-on-jpmorgan-3462d7b6?mod=rss_markets_main"
+        },
+        {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html"
         },
         {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
-        },
-        {
-          "name": "WSJ경제",
-          "url": "https://www.wsj.com/economy/trade/u-s-set-to-raise-tariffs-on-china-eu-and-others-e991efdb?mod=rss_socialeconomyfeed"
         }
       ]
     }
   },
   "futures": {
-    "as_of_kst": "2026-11-26T04:30:16.318577+09:00",
+    "as_of_kst": "2026-11-26T04:40:09.655877+09:00",
     "session_open": true,
     "futures": [
       {
         "name": "S&P500 선물",
         "label_note": "S&P500 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 7188.5,
-        "change_pct": -0.4,
+        "point": 7208.5,
+        "change_pct": -0.12,
         "spark": [
           7212.5,
-          7018.5,
-          7008.25,
           7031.0,
           7025.75,
           7013.5,
@@ -6467,21 +6465,23 @@
           7196.0,
           7190.25,
           7197.75,
-          7188.5
+          7207.0,
+          7197.25,
+          7208.5
         ],
         "candle": {
           "o": 7212.5,
           "h": 7224.0,
           "l": 6982.5,
-          "c": 7189.75
+          "c": 7207.0
         },
         "range_240d": {
           "low": 6388.25,
           "high": 7874.0,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 12.55,
-          "high_change_pct": -8.69
+          "low_change_pct": 12.82,
+          "high_change_pct": -8.47
         },
         "daily_expanded": [
           {
@@ -8497,8 +8497,8 @@
             "o": 7212.5,
             "h": 7224.0,
             "l": 6982.5,
-            "c": 7189.75,
-            "v": 1625982
+            "c": 7207.0,
+            "v": 1646532
           }
         ],
         "rollover_gaps": [],
@@ -8523,12 +8523,10 @@
       {
         "name": "나스닥100 선물",
         "label_note": "나스닥100 E-mini 선물 (나스닥종합과 다른 100종목 기준)",
-        "point": 26025.0,
-        "change_pct": -0.95,
+        "point": 26102.5,
+        "change_pct": -0.66,
         "spark": [
           26279.5,
-          25144.25,
-          25093.5,
           25190.0,
           25173.5,
           25122.0,
@@ -8566,21 +8564,23 @@
           26054.5,
           26025.25,
           26069.25,
-          26025.0
+          26109.75,
+          26069.75,
+          26102.5
         ],
         "candle": {
           "o": 26279.5,
           "h": 26350.75,
           "l": 25027.5,
-          "c": 26025.75
+          "c": 26102.5
         },
         "range_240d": {
           "low": 23139.75,
           "high": 31483.25,
           "low_date": "2026-03-30",
           "high_date": "2026-10-06",
-          "low_change_pct": 12.47,
-          "high_change_pct": -17.33
+          "low_change_pct": 12.8,
+          "high_change_pct": -17.09
         },
         "daily_expanded": [
           {
@@ -10596,8 +10596,8 @@
             "o": 26279.5,
             "h": 26350.75,
             "l": 25027.5,
-            "c": 26025.75,
-            "v": 929782
+            "c": 26102.5,
+            "v": 943760
           }
         ],
         "rollover_gaps": [
@@ -10624,16 +10624,16 @@
           "summary": "AI·반도체와 금리 민감 뉴스가 나스닥100 선물의 변동성 요인으로 부각되는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/dan-loebs-hedge-fund-returns-to-startup-investing-years-after-ftx-loss-46f36108?mod=rss_markets_main"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/banking/jamie-dimon-loved-britainuntil-it-raised-taxes-on-jpmorgan-3462d7b6?mod=rss_markets_main"
+            },
+            {
               "name": "한경국제",
               "url": "https://www.hankyung.com/article/202611260726i"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/trade/world-trade-flows-surge-as-ai-boost-overwhelms-barriers-d0a18e21?mod=rss_socialeconomyfeed"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
             }
           ]
         }
@@ -10641,12 +10641,10 @@
       {
         "name": "다우 선물",
         "label_note": "다우 E-mini 선물 (현물 지수와 별개 기초자산)",
-        "point": 50311.0,
-        "change_pct": 0.5,
+        "point": 50399.0,
+        "change_pct": 0.68,
         "spark": [
           50027.0,
-          49344.0,
-          49294.0,
           49444.0,
           49401.0,
           49319.0,
@@ -10684,21 +10682,23 @@
           50337.0,
           50314.0,
           50338.0,
-          50311.0
+          50398.0,
+          50333.0,
+          50399.0
         ],
         "candle": {
           "o": 50027.0,
           "h": 50435.0,
           "l": 48942.0,
-          "c": 50314.0
+          "c": 50399.0
         },
         "range_240d": {
           "low": 45424.0,
           "high": 54494.0,
           "low_date": "2026-03-27",
           "high_date": "2026-08-05",
-          "low_change_pct": 10.77,
-          "high_change_pct": -7.67
+          "low_change_pct": 10.95,
+          "high_change_pct": -7.51
         },
         "daily_expanded": [
           {
@@ -12714,8 +12714,8 @@
             "o": 50027.0,
             "h": 50435.0,
             "l": 48942.0,
-            "c": 50314.0,
-            "v": 87498
+            "c": 50399.0,
+            "v": 88304
           }
         ],
         "rollover_gaps": [],
@@ -12723,21 +12723,21 @@
           "summary": "금융·산업재·에너지 관련 매크로 뉴스가 다우 선물의 경기민감 흐름에 영향을 주는 흐름",
           "sources": [
             {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/finance/banking/jamie-dimon-loved-britainuntil-it-raised-taxes-on-jpmorgan-3462d7b6?mod=rss_markets_main"
+            },
+            {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
-            },
-            {
-              "name": "WSJ경제",
-              "url": "https://www.wsj.com/economy/trade/u-s-set-to-raise-tariffs-on-china-eu-and-others-e991efdb?mod=rss_socialeconomyfeed"
             }
           ]
         }
       }
     ]
   },
-  "intraday_refreshed_kst": "2026-11-26T04:30:31.072248+09:00"
+  "intraday_refreshed_kst": "2026-11-26T04:40:27.634024+09:00"
 }
